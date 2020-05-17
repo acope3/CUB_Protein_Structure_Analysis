@@ -54,14 +54,15 @@ mixture.sizes <- rep(0, numMixtures)
 ## Part of the issue is the appending of the object defined in the command and the assignment of the output
 mixture.index <- 1;
 
-genome <- initializeGenomeObject(file=fasta.paths[mixture.index],match.expression.by.id = FALSE,append = FALSE)
-
+genome <- initializeGenomeObject(file=fasta.paths[mixture.index],match.expression.by.id = FALSE,append = FALSE, observed.expression.file=phi.path[mixture.index])
+print(fasta.files)
+print(phi.files)
 mixture.sizes[mixture.index] <- length(genome)
 if(numMixtures > 1){
   for(mixture.index in 2:numMixtures)
     {
     tmp.length <- length(genome)
-    genome <- initializeGenomeObject(file=fasta.paths[mixture.index],genome=genome,match.expression.by.id = FALSE,append = TRUE)
+    genome <- initializeGenomeObject(file=fasta.paths[mixture.index],genome=genome,match.expression.by.id = FALSE,append = TRUE, observed.expression.file=phi.path[mixture.index])
     mixture.sizes[mixture.index] <- length(genome) - tmp.length
   }
 }
@@ -76,8 +77,8 @@ if(length(genome) != sum(mixture.sizes)){
 cat("Genome loaded\n")
 #initialize parameter object
 
-sphi_init <- rep(0.01,numMixtures)
-with.phi <- F
+
+with.phi <- T
 mixDef <- "mutationShared"
 percent.to.keep <- 0.5
 size <- length(genome)
@@ -92,34 +93,32 @@ for (i in phi.path)
   segment_exp <- read.table(file=i,sep=",",header=TRUE)
   init_phi <- c(init_phi,segment_exp[,2])
 }
-
+sphi_init <- rep(sd(log(init_phi)),numMixtures)
+print(sphi_init)
 if(length(genome) != length(init_phi)){
   stop("length(genomeObj) != length(init_phi), but it should.")
 }else{
   print("Initial Phi values successfully files loaded:");
 }
 
-#mutation <- read.table("scerevisiae_unscaled_Mutation.csv",sep=",",header=T)
-#mutation.prior.mean <- unlist(mutation[,3])
-#mutation.prior.sd <- unlist(mutation[,4])
 
-parameter <- initializeParameterObject(genome,sphi_init,numMixtures, geneAssignment, split.serine = TRUE, mixture.definition = mixDef, initial.expression.values = init_phi)
+parameter <- initializeParameterObject(genome,sphi_init,numMixtures, geneAssignment,init.sepsilon = 0.05,split.serine = TRUE, mixture.definition = mixDef, initial.expression.values = init_phi)
 #parameter<-initializeParameterObject(init.with.restart.file = paste("Final_runs/Beta/Results/Structure_Downstream_Combo/run_7/Restart_files/rstartFile.rst_final",sep="/"))
 
 #parameter<-initializeParameterObject(init.with.restart.file = "Current_3/Results/Structure_Downstream_Combo_fixed/run_5/Restart_files/test.rst")
 #parameter$fixDM()
 #print(parameter$getMutationPriorMean())
 #print(parameter$getMutationPriorStandardDeviation())
-parameter$initMutationCategories(c("mutation_mod_scerevisiae.csv"),1,T)
+parameter$initMutationCategories(c("mutation_mod_scerevisiae.csv"),1,F)
 #initialize MCMC object
 samples <-samp
 thinning <- thin
 adaptiveWidth <-adapt
 mcmc <- initializeMCMCObject(samples=samples, thinning=thinning, adaptive.width=adaptiveWidth,
-                             est.expression=FALSE, est.csp=TRUE, est.hyper=FALSE,est.mix = FALSE)
+                             est.expression=T, est.csp=TRUE, est.hyper=F,est.mix = FALSE)
 mcmc$setStepsToAdapt((samples*thinning)/2)
 # get model object
-model <- initializeModelObject(parameter, "ROC", with.phi)
+model <- initializeModelObject(parameter, "ROC", with.phi,fix.observation.noise=T)
 
 run_number <- 1
 dir.create(directory)
@@ -153,8 +152,7 @@ pdf(paste(dir_name,"Graphs/CSP_traces_CUB_plot.pdf",sep="/"), width = 11, height
 createTracePlots(trace=trace,model=model,genome=genome,numMixtures=numMixtures,samples=samples,samples.percent.keep = 1,mixture.labels = mixture.labels)
 dev.off()
 
-#plots different aspects of trace
-print(trace$getExpectedSynthesisRateTrace())
+
 pdf(paste(dir_name,"Graphs/mcmc_traces.pdf",sep="/"))
 plot(mcmc,what = "LogPosterior")
 #plot(trace, what = "ExpectedPhi")
@@ -172,7 +170,7 @@ for(a in aa)
 acfCSP(parameter,csp="Selection",numMixtures = numMixtures,samples=samples*percent.to.keep)
 dev.off()
 
-
+param.conv <- T
 for (i in 1:numMixtures)
 {
   param.diag<-convergence.test(trace,samples=samples*percent.to.keep,thin = thinning,what="Selection",mixture=i,frac1=0.1)
@@ -190,14 +188,14 @@ writeMCMCObject(mcmc,file=paste(dir_name,"R_objects/mcmc.Rda",sep="/"))
 
 diag <- convergence.test(mcmc,samples = samples*percent.to.keep,thin=thinning,frac1=0.2)
 z<-abs(diag$z)
-done <- (z > 1.96) && param.conv
+done <- (z < 1.96) && param.conv
 rm(parameter)
 rm(trace)
 rm(model)
 while((!done) && (run_number <= 3))
 {
   parameter<-initializeParameterObject(init.with.restart.file = paste(dir_name,"Restart_files/rstartFile.rst_final",sep="/"))
-  parameter$fixDM()
+  #parameter$fixDM()
   run_number <- run_number + 1
   dir_name <- paste0(directory,"/run_",run_number)
   dir.create(dir_name)
@@ -207,7 +205,7 @@ while((!done) && (run_number <= 3))
   dir.create(paste(dir_name,"R_objects",sep="/"))
 
   mcmc <- initializeMCMCObject(samples=samples, thinning=thinning, adaptive.width=adaptiveWidth,
-                               est.expression=FALSE, est.csp=TRUE, est.hyper=FALSE,est.mix=FALSE)
+                               est.expression=T, est.csp=TRUE, est.hyper=F,est.mix=FALSE)
   if(!done.adapt)
   {
     mcmc$setStepsToAdapt((samples*thinning)/2)
@@ -216,7 +214,7 @@ while((!done) && (run_number <= 3))
     mcmc$setStepsToAdapt(0)
     percent.to.keep <- 1.0
   }
-  model <- initializeModelObject(parameter, "ROC", with.phi)
+  model <- initializeModelObject(parameter, "ROC", with.phi,fix.observation.noise=T)
   setRestartSettings(mcmc, paste(dir_name,"Restart_files/rstartFile.rst",sep="/"), adaptiveWidth, F)
   #run mcmc on genome with parameter using model
   #p<-profmem({
@@ -283,7 +281,7 @@ while((!done) && (run_number <= 3))
   #rm(p)
   diag <- convergence.test(mcmc,samples = samples*percent.to.keep,thin=thinning,frac1=0.1)
   z<-abs(diag$z)
-  done <- (z > 1.96) && param.conv
+  done <- (z < 1.96) && param.conv
   rm(parameter)
   rm(trace)
   rm(model)
@@ -297,7 +295,7 @@ while((!done) && (run_number <= 3))
 # }
 samples <- 10000
 parameter<-initializeParameterObject(init.with.restart.file = paste(dir_name,"Restart_files/rstartFile.rst_final",sep="/"))
-parameter$fixDM()
+#parameter$fixDM()
 run_number <- run_number + 1
 dir_name <- paste0(directory,"/final_run")
 dir.create(dir_name)
@@ -307,11 +305,11 @@ dir.create(paste(dir_name,"Parameter_est",sep="/"))
 dir.create(paste(dir_name,"R_objects",sep="/"))
 
 mcmc <- initializeMCMCObject(samples=samples, thinning=thinning, adaptive.width=adaptiveWidth,
-                             est.expression=FALSE, est.csp=TRUE, est.hyper=FALSE,est.mix=FALSE)
+                             est.expression=T, est.csp=TRUE, est.hyper=F,est.mix=FALSE)
 
 mcmc$setStepsToAdapt(0)
 
-model <- initializeModelObject(parameter, "ROC", with.phi)
+model <- initializeModelObject(parameter, "ROC", with.phi,fix.observation.noise=T)
 setRestartSettings(mcmc, paste(dir_name,"Restart_files/rstartFile.rst",sep="/"), adaptiveWidth, F)
 #run mcmc on genome with parameter using model
 #p<-profmem({
