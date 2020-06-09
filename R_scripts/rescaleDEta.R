@@ -98,7 +98,7 @@ rescaleByMean<- function(sel.file,parameter.file)
 
 head.directory <- "../Scer/Predicted/Results/"
 
-targets <- c("Secondary_structures_conserved","Secondary_structures_unconserved")
+targets <- c("Secondary_structures_cyto")
 
 for (f in targets)
 {

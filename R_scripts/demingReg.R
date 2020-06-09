@@ -5,6 +5,21 @@ library(ggnewscale)
 library(cowplot)
 library(ggrepel)
 
+
+colors <- c('"Not"~"Significant"'="black",
+            "A"="blue",
+            "D"="skyblue",
+            "F"="purple",
+            "G"="green",
+            "K"="greenyellow",
+            "L"="green4",
+            "P"="yellow",
+            "R"="orange",
+            "S[4]"="red",
+            "V"="cyan",
+            "S[2]"="brown")
+
+
 rescaleAGCT <- function(sel.file,parameter.file)
 {
   data <- read.table(sel.file,sep=",",header=T,stringsAsFactors=F)
@@ -325,10 +340,12 @@ plotResultsNoReg<-function(data,p.val,categories=c("X","Y"),ci = F,file="title",
     
   
   
-   uniqueInitials <- paste(data$AA,data$Codon,sep=":")
+  uniqueInitials <- paste(data$AA,data$Codon,sep=":")
   
   sig <- which(data$Significance == "Significant")
-  uniqueInitials[sig] <- paste0(uniqueInitials[sig],'*"*"',sep="")
+  #uniqueInitials[sig] <- paste0(uniqueInitials[sig],'*"*"',sep="")
+  uniqueInitials[-sig] <- NA
+  data[-sig,"AA"] <- '"Not"~"Significant"'
   p <- ggplot(data,aes(x=Posterior,y=Posterior.2))
   p <-(p + geom_abline(data=l,mapping=aes(slope=s,intercept=ic,linetype=Line,color=Line),show.legend=F)
        + scale_colour_manual(values=legend.colors,guide = guide_legend(order = 1),drop=F)
@@ -356,18 +373,27 @@ plotResultsNoReg<-function(data,p.val,categories=c("X","Y"),ci = F,file="title",
     xlim <- range.xy
     ylim <- range.xy
   }
- 
+  
   p <- p + geom_hline(yintercept=0,color="red",linetype="dashed") + geom_vline(xintercept=0,color="red",linetype="dashed")
   p<-(p + new_scale_color()
-      + geom_point(aes(color=AA),size=4)
+      + geom_point(aes(color=AA),size=6,alpha=0.6)
       #+ geom_point(size=4,alpha=0.6)
-      + geom_text_repel(label=uniqueInitials,size=5,max.iter=5000,box.padding = 0.5,point.padding=0.4,nudge_x=0.01,nudge_y=0.01,force=10,parse=T,segment.alpha=0.7,fontface="bold")
+      + geom_text_repel(label=uniqueInitials,size=6,box.padding = 1,point.padding=0.1,parse=T,segment.alpha=0.7,fontface="bold")
       #+ labs(x=bquote("Selection("~Delta*eta*"):"~.(categories[1])),y=bquote("Selection("~Delta*eta*"):"~.(categories[2])),color="3rd Position") 
-      + labs(x=bquote(atop(.(categories[1]),atop("Selection Coefficients: G or T","for A/C "%<-%" Increasing Selection "%->%" for G/T"))),y=bquote(atop(.(categories[2]),atop("Selection Coefficients: G or T","for A/C"%<-%" Increasing Selection "%->%"for G/T"))),color="",parse=T)
+      #+ labs(x=bquote(atop(.(categories[1]),atop("Selection Coefficients: G or T","for A/C "%<-%" Increasing Selection "%->%" for G/T"))),y=bquote(atop(.(categories[2]),atop("Selection Coefficients: G or T","for A/C"%<-%" Increasing Selection "%->%"for G/T"))),color="",parse=T)
+      + labs(x=bquote(atop(.(categories[1])~"("*Delta*eta["AC|GT"]*")","for A/C "%<-%" Increasing Selection "%->%" for G/T")),y=bquote(atop(.(categories[2])~"("*Delta*eta["AC|GT"]*")","for A/C"%<-%" Increasing Selection "%->%"for G/T")),color="",parse=T)
+      
       #+ scale_colour_manual(values=c("Pur-Pur"="blue","Pyr-Pyr"="orange","Pur-Pyr"="green","Pyr-Pur"="yellow"),guide = guide_legend(order = 2),drop=F)
-      + scale_colour_discrete(breaks = unique(data$AA),labels=lapply(unique(data$AA),function(x)parse(text=x)),guide=guide_legend(nrow=ifelse(length(unique(data$AA)) > 5,5,length(unique(data$AA))),ncol=ifelse(length(unique(data$AA)) > 5,3,1)))
-      #+ ggtitle(label=title)
+      #+ scale_colour_discrete(breaks = c(unique(data$AA[sig]),labels=lapply(unique(data$AA[sig]),function(x)parse(text=x)),guide=guide_legend(nrow=ifelse(length(unique(data$AA[sig])) > 5,5,length(unique(data$AA[sig]))),ncol=ifelse(length(unique(data$AA[sig])) > 5,3,1)))
+      #+ scale_colour_discrete(breaks = unique(data$AA[sig]),labels=lapply(unique(data$AA[sig]),function(x)parse(text=x)),guide=guide_legend(nrow=ifelse(length(unique(data$AA)) > 5,5,length(unique(data$AA))),ncol=ifelse(length(unique(data$AA)) > 5,3,1)))
+      + scale_colour_manual(values=colors[unique(data$AA)],
+        breaks=names(colors[unique(data$AA[sig])]),
+        labels=lapply(names(colors[unique(data$AA[sig])]),function(x)parse(text=x)),
+        guide=guide_legend(nrow=ifelse(length(unique(data$AA)) > 5,5,length(unique(data$AA))),ncol=ifelse(length(unique(data$AA)) > 5,3,1)))
+      
+      + ggtitle(label=bquote(.(title)))
       )
+
   p <- (p + geom_errorbar(mapping=aes(ymin=X0.025.2,ymax=X0.975.2,width=0),color="black") 
           + geom_errorbarh(mapping=aes(xmin=X0.025.,xmax=X0.975.,height=0),color="black"))
   #p <- p + guides(color = guide_legend(override.aes = list(label="",size=1)))
@@ -379,11 +405,11 @@ plotResultsNoReg<-function(data,p.val,categories=c("X","Y"),ci = F,file="title",
   p <- p + annotate("text",x=xlim[2] - width * 0.2,y=ylim[1] + height * 0.2,label=deparse(cor.exp),parse=T,fontface="bold",size=6)
   #p <- p + annotate("text",x=xlim[2] - width * 0.2,y=ylim[1] + height * 0.10,label="*p < 0.05",parse=F,size=8)
   p <- (p + theme_bw()
-        + theme(axis.title=element_text(face="bold",size=14),axis.text=element_text(face="bold",size=12))
+        + theme(axis.title=element_text(face="bold",size=16),axis.text=element_text(face="bold",size=12))
         + theme(axis.line = element_line(colour = "black"))
         + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
-        + theme(legend.position = c(0.2,0.8),legend.text=element_text(face="bold",size=14),legend.title=element_text(face="bold",size=14),legend.key.width=unit(0.4,"cm"),legend.key.height=unit(0.4,"cm"),legend.spacing.y=unit(0.1,"cm"))
-        + theme(plot.title = element_text(hjust = 0.5,size=16,face="bold")))
+        + theme(legend.position = c(0.15,0.85),legend.text=element_text(face="bold",size=16),legend.title=element_text(face="bold",size=14),legend.key.width=unit(0.4,"cm"),legend.key.height=unit(0.4,"cm"),legend.spacing.y=unit(0.1,"cm"))
+        + theme(plot.title = element_text(hjust = 0.5,size=18,face="bold")))
   ggsave(filename = file,plot=p,device="pdf",width = 7,height = 7)
   return(p)
  
@@ -478,34 +504,48 @@ plotDemingRegressionOrdered <- function(head.directory)
 
 plotDemingRegressionSecondaryStructures <- function(head.directory)
 {
-  output <- demingApproach(file.path(head.directory,"Secondary_structures","Turn_Coil","final_run/"),file.path(head.directory,"Secondary_structures","Helix","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
-  p1 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Turn and Coil","Helix"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Helix",file="../Images_for_dissertation/Empirical_structures/scer_coil_vs_helix_already_normalized.pdf")
-
-  output <- demingApproach(file.path(head.directory,"Secondary_structures","Turn_Coil","final_run/"),file.path(head.directory,"Secondary_structures","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
-  p2 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Turn and Coil","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Sheet",file="../Images_for_dissertation/Empirical_structures/scer_coil_vs_sheet_already_normalized.pdf")
-
-  output <- demingApproach(file.path(head.directory,"Secondary_structures","Helix","final_run/"),file.path(head.directory,"Secondary_structures","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
-  p3 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Helix","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Helix vs. Sheet",file="../Images_for_dissertation/Empirical_structures/scer_helix_vs_sheet_already_normalized.pdf")
 
 
-  output <- demingApproach(file.path(head.directory,"Secondary_structures_conserved","Coil","final_run/"),file.path(head.directory,"Secondary_structures_conserved","Helix","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
-  p1 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Helix"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Helix",file="../Images_for_dissertation/scer_cons_coil_vs_helix_already_normalized.pdf")
+  output <- demingApproach(file.path(head.directory,"Secondary_structures_cyto","Coil","final_run/"),file.path(head.directory,"Secondary_structures_cyto","Helix","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  p1 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Helix"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Helix",file="../Images_for_pres/scer_cyto_coil_vs_helix_already_normalized.pdf")
 
-  output <- demingApproach(file.path(head.directory,"Secondary_structures_conserved","Coil","final_run/"),file.path(head.directory,"Secondary_structures_conserved","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
-  p2 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Sheet",file="../Images_for_dissertation/scer_cons_coil_vs_sheet_already_normalized.pdf")
+  output <- demingApproach(file.path(head.directory,"Secondary_structures_cyto","Coil","final_run/"),file.path(head.directory,"Secondary_structures_cyto","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  p2 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Sheet",file="../Images_for_pres/scer_cyto_coil_vs_sheet_already_normalized.pdf")
 
-  output <- demingApproach(file.path(head.directory,"Secondary_structures_conserved","Helix","final_run/"),file.path(head.directory,"Secondary_structures_conserved","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
-  p3 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Helix","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Helix vs. Sheet",file="../Images_for_dissertation/scer_cons_helix_vs_sheet_already_normalized.pdf")
+  output <- demingApproach(file.path(head.directory,"Secondary_structures_cyto","Helix","final_run/"),file.path(head.directory,"Secondary_structures_cyto","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  p3 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Helix","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Helix vs. Sheet",file="../Images_for_pres/scer_cyto_helix_vs_sheet_already_normalized.pdf")
+
+  
+  # output <- demingApproach(file.path(head.directory,"Secondary_structures_conserved_no_ncast","Coil","final_run/"),file.path(head.directory,"Secondary_structures_conserved_no_ncast","Helix","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  # p4 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Helix"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Helix",file="../Images_for_pres/scer_cons_coil_vs_helix_already_normalized.pdf")
+
+  # output <- demingApproach(file.path(head.directory,"Secondary_structures_conserved_no_ncast","Coil","final_run/"),file.path(head.directory,"Secondary_structures_conserved_no_ncast","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  # p5 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Sheet",file="../Images_for_pres/scer_cons_coil_vs_sheet_already_normalized.pdf")
+
+  # output <- demingApproach(file.path(head.directory,"Secondary_structures_conserved_no_ncast","Helix","final_run/"),file.path(head.directory,"Secondary_structures_conserved_no_ncast","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  # p6 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Helix","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Helix vs. Sheet",file="../Images_for_pres/scer_cons_helix_vs_sheet_already_normalized.pdf")
 
 
-  output <- demingApproach(file.path(head.directory,"Secondary_structures_unconserved","Coil","final_run/"),file.path(head.directory,"Secondary_structures_unconserved","Helix","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
-  p1 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Helix"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Helix",file="../Images_for_dissertation/scer_var_coil_vs_helix_already_normalized.pdf")
+  # output <- demingApproach(file.path(head.directory,"Secondary_structures_variable_no_ncast","Coil","final_run/"),file.path(head.directory,"Secondary_structures_variable_no_ncast","Helix","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  # p7 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Helix"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Helix",file="../Images_for_pres/scer_sim_var_coil_vs_helix_already_normalized.pdf")
 
-  output <- demingApproach(file.path(head.directory,"Secondary_structures_unconserved","Coil","final_run/"),file.path(head.directory,"Secondary_structures_unconserved","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
-  p2 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Sheet",file="../Images_for_dissertation/scer_var_coil_vs_sheet_already_normalized.pdf")
+  # output <- demingApproach(file.path(head.directory,"Secondary_structures_variable_no_ncast","Coil","final_run/"),file.path(head.directory,"Secondary_structures_variable_no_ncast","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  # p8 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Coil","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil vs. Sheet",file="../Images_for_pres/scer_sim_var_coil_vs_sheet_already_normalized.pdf")
 
-  output <- demingApproach(file.path(head.directory,"Secondary_structures_unconserved","Helix","final_run/"),file.path(head.directory,"Secondary_structures_unconserved","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
-  p3 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Helix","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Helix vs. Sheet",file="../Images_for_dissertation/scer_var_helix_vs_sheet_already_normalized.pdf")
+  # output <- demingApproach(file.path(head.directory,"Secondary_structures_variable_no_ncast","Helix","final_run/"),file.path(head.directory,"Secondary_structures_variable_no_ncast","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  # p9 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Helix","Sheet"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Helix vs. Sheet",file="../Images_for_pres/scer_sim_var_helix_vs_sheet_already_normalized.pdf")
+
+  # output <- demingApproach(file.path(head.directory,"Secondary_structures_conserved_no_ncast","Coil","final_run/"),file.path(head.directory,"Secondary_structures_variable_no_ncast","Coil","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  # p4 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Conserved Sites","Variable Sites"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Coil",file="../Images_for_pres/scer_coil_cons_var_already_normalized.pdf")
+
+  # output <- demingApproach(file.path(head.directory,"Secondary_structures_conserved_no_ncast","Sheet","final_run/"),file.path(head.directory,"Secondary_structures_variable_no_ncast","Sheet","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  # p5 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Conserved Sites","Variable Sites"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Sheet",file="../Images_for_pres/scer_sheet_cons_var_already_normalized.pdf")
+
+  # output <- demingApproach(file.path(head.directory,"Secondary_structures_conserved_no_ncast","Helix","final_run/"),file.path(head.directory,"Secondary_structures_variable_no_ncast","Helix","final_run/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+  # p6 <- plotResultsAll(output$df,b1=unname(output$Slope),b0 = 0,categories = c("Conserved Sites","Variable Sites"),ci=T,bounds=output$Slope.CI,title = "Comparing Selection on CUB:\n Helix",file="../Images_for_pres/scer_helix_cons_var_already_normalized.pdf")
+
+
+  return(list(p1,p2,p3))
 
 }
 
@@ -607,24 +647,47 @@ plotDEtaByAA <- function(head.directory,target.directory,aa.groups=list(c("N","Q
 #                   c("A","G","P","S","T","V"),
 #                   c("R","L"))
 
+#plots <- plotDemingRegressionSecondaryStructures(head.directory="../Scer/Predicted/Results/")
+
+#plots <- plotDEtaByAA(head.directory="../Scer/Predicted/Results/",target.directory="../Images_for_pres/")
+
+head.directory <- "../Scer/Predicted/Results/"
+target.directory <- "../Images_for_pres/"
+output <- demingApproach(file.path(head.directory,"Secondary_structures","Coil","final_run/"),file.path(head.directory,"Secondary_structures","Helix","final_run/"),"selection_rescaled_nucleotide.csv","selection_rescaled_nucleotide.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+p1 <- plotResultsNoReg(output$df,categories = c("Coil","Helix"),ci=T,title = bquote("Comparison of Selection  "*Delta*eta["(AC|GT)"]),file=paste0(target.directory,"/scer_coil_vs_helix_agct_codon.pdf"),range.xy=NULL)
+
+output <- demingApproach(file.path(head.directory,"Secondary_structures","Coil","final_run/"),file.path(head.directory,"Secondary_structures","Sheet","final_run/"),"selection_rescaled_nucleotide.csv","selection_rescaled_nucleotide.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+p2 <- plotResultsNoReg(output$df,categories = c("Coil","Sheet"),ci=T,title = bquote("Comparison of Selection  "*Delta*eta["(AC|GT)"]),file=paste0(target.directory,"/scer_coil_vs_sheet_agct_codon.pdf"),range.xy=NULL)
+
+output <- demingApproach(file.path(head.directory,"Secondary_structures","Helix","final_run/"),file.path(head.directory,"Secondary_structures","Sheet","final_run/"),"selection_rescaled_nucleotide.csv","selection_rescaled_nucleotide.csv",optimal.as.ref = F,normalize.deta = F,include.orig.ref = F)
+p3 <- plotResultsNoReg(output$df,categories = c("Helix","Sheet"),ci=T,title = bquote("Comparison of Selection  "*Delta*eta["(AC|GT)"]),file=paste0(target.directory,"/scer_helix_vs_sheet_agct_codon.pdf"),range.xy=NULL)
 
 
-plots <- plotDEtaByAA(head.directory="../Scer/Predicted/Results/",target.directory="../Images_for_dissertation/Examples/")
+#comb_top <- plot_grid(plots[[1]],plots[[2]],plots[[3]],labels = c("A","B","C"),ncol=3)
 
-##### Secondary Structures ###############################
-subplots <- plots[[1]]
-# legend <- get_legend(subplots[[1]])
-coil.helix <- plot_grid(subplots[[1]]+xlab("Coil")+theme(legend.position=c(0.2,0.75),axis.title.x = element_text(face="plain"))+ggtitle("Uncharged Polar\nAmino Acids"), 
-                      subplots[[2]] +xlab("Coil") + ylab("\n")+theme(legend.position=c(0.2,0.75),axis.title.x = element_text(face="plain"))+ ggtitle("Charged\nAmino Acids"), 
-                      subplots[[3]] +xlab("Coil")+ ylab("\n") + theme(legend.position=c(0.15,0.8),axis.title.x = element_text(face="plain"))+ ggtitle("Non-polar\nAmino Acids"),labels = c("A","B","C"),ncol=3,label_size=16)
-subplots <- plots[[2]]
-coil.sheet <- plot_grid(subplots[[1]] +xlab("Coil")+theme(legend.position=c(0.2,0.75),axis.title.x = element_text(face="plain")), 
-                        subplots[[2]] +xlab("Coil") + ylab("\n") +theme(legend.position=c(0.1,0.8),axis.title.x = element_text(face="plain")), 
-                        subplots[[3]] +xlab("Coil") + ylab("\n") +theme(legend.position=c(0.15,0.85),axis.title.x = element_text(face="plain")),labels = c("D","E","F"),ncol=3,label_size=16)
-subplots <- plots[[3]]
-helix.sheet <- plot_grid(subplots[[1]] +theme(legend.position=c(0.2,0.75)), 
-                          subplots[[2]] + ylab("\n")+ theme(legend.position=c(0.1,0.8)), 
-                          subplots[[3]]+ ylab("\n") + theme(legend.position=c(0.15,0.8)),labels = c("G","H","I"),ncol=3,label_size=16)
+comb_top <- plot_grid(NULL,p1,labels = c("",""),ncol=2)
+comb_bottom <- plot_grid(p2,p3,labels = c("",""),ncol=2)
+
+comb <- plot_grid(comb_top,comb_bottom,nrow=2,ncol=1,align="rl")
+
+ggsave2("../Images_for_pres/sec_struct_comp_agct.pdf",plot=comb,dpi=150,width=14,height=14)
+
+
+
+# ##### Secondary Structures ###############################
+# subplots <- plots[[1]]
+# # legend <- get_legend(subplots[[1]])
+# coil.helix <- plot_grid(subplots[[1]]+xlab("Coil")+theme(legend.position=c(0.2,0.75),axis.title.x = element_text(face="plain"))+ggtitle("Uncharged Polar\nAmino Acids"), 
+#                       subplots[[2]] +xlab("Coil") + ylab("\n")+theme(legend.position=c(0.2,0.75),axis.title.x = element_text(face="plain"))+ ggtitle("Charged\nAmino Acids"), 
+#                       subplots[[3]] +xlab("Coil")+ ylab("\n") + theme(legend.position=c(0.15,0.8),axis.title.x = element_text(face="plain"))+ ggtitle("Non-polar\nAmino Acids"),labels = c("A","B","C"),ncol=3,label_size=16)
+# subplots <- plots[[2]]
+# coil.sheet <- plot_grid(subplots[[1]] +xlab("Coil")+theme(legend.position=c(0.2,0.75),axis.title.x = element_text(face="plain")), 
+#                         subplots[[2]] +xlab("Coil") + ylab("\n") +theme(legend.position=c(0.1,0.8),axis.title.x = element_text(face="plain")), 
+#                         subplots[[3]] +xlab("Coil") + ylab("\n") +theme(legend.position=c(0.15,0.85),axis.title.x = element_text(face="plain")),labels = c("D","E","F"),ncol=3,label_size=16)
+# subplots <- plots[[3]]
+# helix.sheet <- plot_grid(subplots[[1]] +theme(legend.position=c(0.2,0.75)), 
+#                           subplots[[2]] + ylab("\n")+ theme(legend.position=c(0.1,0.8)), 
+#                           subplots[[3]]+ ylab("\n") + theme(legend.position=c(0.15,0.8)),labels = c("G","H","I"),ncol=3,label_size=16)
 
 
 # subplots <- plots[[11]]
@@ -642,25 +705,25 @@ helix.sheet <- plot_grid(subplots[[1]] +theme(legend.position=c(0.2,0.75)),
 #                           subplots[[3]]+ ylab("\n") + theme(legend.position=c(0.15,0.8)),labels = c("G","H","I"),ncol=3,label_size=16)
 
 
-title <- ggdraw() + draw_label(
-    "Comparison of Selection Coefficients: Secondary Structures ",
-      fontface = 'bold',
-      x = 0,
-      hjust =0,size=25
-    ) +
-    theme(
-      # add margin on the left of the drawing canvas,
-      # so title is aligned with left edge of first plot
-      plot.margin = margin(0, 0, 0, 2)
-    )
+# title <- ggdraw() + draw_label(
+#     "Comparison of Selection Coefficients: Secondary Structures ",
+#       fontface = 'bold',
+#       x = 0,
+#       hjust =0,size=25
+#     ) +
+#     theme(
+#       # add margin on the left of the drawing canvas,
+#       # so title is aligned with left edge of first plot
+#       plot.margin = margin(0, 0, 0, 2)
+#     )
 
-all.plots <- plot_grid(
-    title, coil.helix, coil.sheet,helix.sheet,
-    ncol = 1,
-    # rel_heights values control vertical title margins
-    rel_heights=c(0.1,1,1,1)
-  )
-ggsave2(file=paste0("../Images_for_dissertation/Examples/SS_ordered_by_aa.pdf"),plot=all.plots,width=18,height=16)
+# all.plots <- plot_grid(
+#     title, coil.helix, coil.sheet,helix.sheet,
+#     ncol = 1,
+#     # rel_heights values control vertical title margins
+#     rel_heights=c(0.1,1,1,1)
+#   )
+# ggsave2(file=paste0("../Images_for_dissertation/Examples/SS_ordered_by_aa.pdf"),plot=all.plots,width=18,height=16)
 
 
 
