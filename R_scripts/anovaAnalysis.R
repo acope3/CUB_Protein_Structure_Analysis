@@ -1,6 +1,8 @@
 library(plyr)
 library(sjPlot)
 library(car)
+library(rstatix)
+
 normalize <- function(dEta)
 {
   aa <- AnaCoDa::aminoAcids()
@@ -20,16 +22,16 @@ normalize <- function(dEta)
 
 
 
-coil.ord <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Coil_ord/final_run/Parameter_est/coil_ord_Selection.csv",sep=",",header=T,stringsAsFactors=F)
-helix.ord <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Helix_ord/final_run/Parameter_est/helix_ord_Selection.csv",sep=",",header=T,stringsAsFactors=F)
-sheet.ord <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Sheet_ord/final_run/Parameter_est/sheet_ord_Selection.csv",sep=",",header=T,stringsAsFactors=F)
+# coil.ord <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Coil_ord/final_run/Parameter_est/coil_ord_Selection.csv",sep=",",header=T,stringsAsFactors=F)
+# helix.ord <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Helix_ord/final_run/Parameter_est/helix_ord_Selection.csv",sep=",",header=T,stringsAsFactors=F)
+# sheet.ord <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Sheet_ord/final_run/Parameter_est/sheet_ord_Selection.csv",sep=",",header=T,stringsAsFactors=F)
 
-coil.dis <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Coil_dis/final_run/Parameter_est/coil_dis_Selection.csv",sep=",",header=T,stringsAsFactors=F)
-helix.dis <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Helix_dis/final_run/Parameter_est/helix_dis_Selection.csv",sep=",",header=T,stringsAsFactors=F)
-sheet.dis <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Sheet_dis/final_run/Parameter_est/sheet_dis_Selection.csv",sep=",",header=T,stringsAsFactors=F)
+# coil.dis <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Coil_dis/final_run/Parameter_est/coil_dis_Selection.csv",sep=",",header=T,stringsAsFactors=F)
+# helix.dis <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Helix_dis/final_run/Parameter_est/helix_dis_Selection.csv",sep=",",header=T,stringsAsFactors=F)
+# sheet.dis <- read.table("../Scer/Predicted/Results/Secondary_structure_order/Sheet_dis/final_run/Parameter_est/sheet_dis_Selection.csv",sep=",",header=T,stringsAsFactors=F)
 
-ord <- read.table("../Scer/Predicted/Results/Ordered_disordered/Ordered/final_run/Parameter_est/ordered_Selection.csv",sep=",",header=T,stringsAsFactors=F)
-dis <- read.table("../Scer/Predicted/Results/Ordered_disordered/Disordered/final_run/Parameter_est/disordered_Selection.csv",sep=",",header=T,stringsAsFactors=F)
+# ord <- read.table("../Scer/Predicted/Results/Ordered_disordered/Ordered/final_run/Parameter_est/ordered_Selection.csv",sep=",",header=T,stringsAsFactors=F)
+# dis <- read.table("../Scer/Predicted/Results/Ordered_disordered/Disordered/final_run/Parameter_est/disordered_Selection.csv",sep=",",header=T,stringsAsFactors=F)
 
 coil <- read.table("../Scer/Predicted/Results/Secondary_structures/Coil/final_run/Parameter_est/coil_Selection.csv",sep=",",header=T,stringsAsFactors=F)
 helix <- read.table("../Scer/Predicted/Results/Secondary_structures/Helix/final_run/Parameter_est/helix_Selection.csv",sep=",",header=T,stringsAsFactors=F)
@@ -46,74 +48,85 @@ sheet <- read.table("../Scer/Predicted/Results/Secondary_structures/Sheet/final_
 
 
 
-coil.ord["Order"] <- "Ordered"
-helix.ord["Order"] <- "Ordered"
-sheet.ord["Order"] <- "Ordered"
+# coil.ord["Order"] <- "Ordered"
+# helix.ord["Order"] <- "Ordered"
+# sheet.ord["Order"] <- "Ordered"
 
-coil.dis["Order"] <- "Disordered"
-helix.dis["Order"] <- "Disordered"
-sheet.dis["Order"] <- "Disordered"
+# coil.dis["Order"] <- "Disordered"
+# helix.dis["Order"] <- "Disordered"
+# sheet.dis["Order"] <- "Disordered"
 
 
 
-coil.ord["SS"] <- "Coil"
-coil.dis["SS"] <- "Coil"
+# coil.ord["SS"] <- "Coil"
+# coil.dis["SS"] <- "Coil"
 
-helix.ord["SS"] <- "Helix"
-helix.dis["SS"] <- "Helix"
+# helix.ord["SS"] <- "Helix"
+# helix.dis["SS"] <- "Helix"
 
-sheet.ord["SS"] <- "Sheet"
-sheet.dis["SS"] <- "Sheet"
+# sheet.ord["SS"] <- "Sheet"
+# sheet.dis["SS"] <- "Sheet"
 
-ord["Order"] <- "Ordered"
-ord["SS"] <- "Helix_Sheet_Coil"
-dis["Order"] <- "Disordered"
-dis["SS"] <- "Helix_Sheet_Coil"
+# ord["Order"] <- "Ordered"
+# ord["SS"] <- "Helix_Sheet_Coil"
+# dis["Order"] <- "Disordered"
+# dis["SS"] <- "Helix_Sheet_Coil"
 
 coil["SS"] <- "Coil"
-coil["Order"] <- "Ordered_Disordered"
+#coil["Order"] <- "Ordered_Disordered"
 helix["SS"] <- "Helix"
-helix["Order"] <- "Ordered_Disordered"
+#helix["Order"] <- "Ordered_Disordered"
 sheet["SS"] <- "Sheet"
-sheet["Order"] <- "Ordered_Disordered"
+#sheet["Order"] <- "Ordered_Disordered"
 
 
 
-df <- do.call("rbind",list(coil.ord,helix.ord,sheet.ord,coil.dis,helix.dis,sheet.dis))
+#df <- do.call("rbind",list(coil.ord,helix.ord,sheet.ord,coil.dis,helix.dis,sheet.dis))
 
-df["Properties"] <- revalue(df$AA,c(
-                              "A"="Hydrophobic",
-                              "C"="Other",
-                              "D"="Charged",
-                              "E"="Charged",
-                              "F"="Hydrophobic",
-                              "G"="Other",
-                              "H"="Charged",
-                              "I"="Hydrophobic",
-                              "K"="Charged",
-                              "L"="Hydrophobic",
-                              "N"="Polar",
-                              "P"="Other",
-                              "Q"="Polar",
-                              "R"="Charged",
-                              "S"="Polar",
-                              "T"="Polar",
-                              "V"="Hydrophobic",
-                              "Y"="Hydrophobic",
-                              "Z"="Polar"))
+df <- do.call("rbind",list(coil,sheet,helix))
 
+# df["Properties"] <- revalue(df$AA,c(
+#                               "A"="Hydrophobic",
+#                               "C"="Other",
+#                               "D"="Charged",
+#                               "E"="Charged",
+#                               "F"="Hydrophobic",
+#                               "G"="Other",
+#                               "H"="Charged",
+#                               "I"="Hydrophobic",
+#                               "K"="Charged",
+#                               "L"="Hydrophobic",
+#                               "N"="Polar",
+#                               "P"="Other",
+#                               "Q"="Polar",
+#                               "R"="Charged",
+#                               "S"="Polar",
+#                               "T"="Polar",
+#                               "V"="Hydrophobic",
+#                               "Y"="Hydrophobic",
+#                               "Z"="Polar"))
+
+
+aa_pI <- read.table("../aa_properties.txt",sep="\t",header=T,stringsAsFactors=F)
+aa_mass <- read.table("../aa_mass.txt",sep="\t",header=T,stringsAsFactors=F)
 df <- df[which(df$Posterior != 0),]
 
-m1 <- aov(Posterior ~ Properties * Order * SS,data=df)
-m2 <- aov(Posterior ~ Properties + Order + SS,data=df)
-comp <- anova(m2,m1)
+df <- merge(df,aa_pI,by="AA")
+df <- merge(df,aa_mass,by="AA")
 
-type.2 <- Anova(lm(Posterior ~ Order + SS + Properties,data=df),type=2)
-print(summary(type.2))
 
-pdf("anova_interaction.pdf")
-interaction.plot(df$Order,df$SS,df$Posterior)
-interaction.plot(df$SS,df$Order,df$Posterior)
-interaction.plot(df$Order,df$Properties,df$Posterior)
-interaction.plot(df$SS,df$Properties,df$Posterior)
+res.anova.1 <- anova_test(Posterior ~ SS,data=df)
+print(get_anova_table(res.anova.1))
+res.aov <- anova_test(Posterior ~ pI * Average + SS,data=df)
+print(get_anova_table(res.aov))
+
+# m1 <- aov(Posterior ~ Properties * Order * SS,data=df)
+# m2 <- aov(Posterior ~ Properties + Order + SS,data=df)
+# comp <- anova(m2,m1)
+
+# type.2 <- Anova(lm(Posterior ~ Order + SS + Properties,data=df),type=2)
+# print(summary(type.2))
+
+pdf("aa_anova_interaction.pdf")
+interaction.plot(df$pI,df$SS,df$Posterior)
 dev.off()

@@ -78,7 +78,7 @@ cat("Genome loaded\n")
 #initialize parameter object
 
 
-with.phi <- T
+with.phi <- F
 mixDef <- "mutationShared"
 percent.to.keep <- 0.5
 size <- length(genome)
@@ -109,13 +109,14 @@ parameter <- initializeParameterObject(genome,sphi_init,numMixtures, geneAssignm
 #parameter$fixDM()
 #print(parameter$getMutationPriorMean())
 #print(parameter$getMutationPriorStandardDeviation())
-parameter$initMutationCategories(c("mutation_mod_scerevisiae.csv"),1,F)
+#parameter$initMutationCategories(c("mutation_mod_scerevisiae.csv"),1,T)
+parameter$initMutationCategories(c("mutation_mod_Ecoli_K12_MG1655_ncbi_main_liberal.csv"),1,T)
 #initialize MCMC object
 samples <-samp
 thinning <- thin
 adaptiveWidth <-adapt
 mcmc <- initializeMCMCObject(samples=samples, thinning=thinning, adaptive.width=adaptiveWidth,
-                             est.expression=T, est.csp=TRUE, est.hyper=F,est.mix = FALSE)
+                             est.expression=F, est.csp=TRUE, est.hyper=F,est.mix = FALSE)
 mcmc$setStepsToAdapt((samples*thinning)/2)
 # get model object
 model <- initializeModelObject(parameter, "ROC", with.phi,fix.observation.noise=T)
@@ -195,7 +196,7 @@ rm(model)
 while((!done) && (run_number <= 3))
 {
   parameter<-initializeParameterObject(init.with.restart.file = paste(dir_name,"Restart_files/rstartFile.rst_final",sep="/"))
-  #parameter$fixDM()
+  parameter$fixDM()
   run_number <- run_number + 1
   dir_name <- paste0(directory,"/run_",run_number)
   dir.create(dir_name)
@@ -205,7 +206,7 @@ while((!done) && (run_number <= 3))
   dir.create(paste(dir_name,"R_objects",sep="/"))
 
   mcmc <- initializeMCMCObject(samples=samples, thinning=thinning, adaptive.width=adaptiveWidth,
-                               est.expression=T, est.csp=TRUE, est.hyper=F,est.mix=FALSE)
+                               est.expression=F, est.csp=TRUE, est.hyper=F,est.mix=FALSE)
   if(!done.adapt)
   {
     mcmc$setStepsToAdapt((samples*thinning)/2)
@@ -295,7 +296,7 @@ while((!done) && (run_number <= 3))
 # }
 samples <- 10000
 parameter<-initializeParameterObject(init.with.restart.file = paste(dir_name,"Restart_files/rstartFile.rst_final",sep="/"))
-#parameter$fixDM()
+parameter$fixDM()
 run_number <- run_number + 1
 dir_name <- paste0(directory,"/final_run")
 dir.create(dir_name)
@@ -305,7 +306,7 @@ dir.create(paste(dir_name,"Parameter_est",sep="/"))
 dir.create(paste(dir_name,"R_objects",sep="/"))
 
 mcmc <- initializeMCMCObject(samples=samples, thinning=thinning, adaptive.width=adaptiveWidth,
-                             est.expression=T, est.csp=TRUE, est.hyper=F,est.mix=FALSE)
+                             est.expression=F, est.csp=TRUE, est.hyper=F,est.mix=FALSE)
 
 mcmc$setStepsToAdapt(0)
 

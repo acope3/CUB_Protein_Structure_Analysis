@@ -399,8 +399,8 @@ createTable <- function(directory,output)
   }
 }
 
-#runAsite_emp("../models.txt","../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/","../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/","dic_scer_exp_conservative_G_I_as_H_B_as_E_remove_X.tsv")
-#createTable("../Scer/Exp_conservative_homology_remove_X_G_as_H_B_as_E/","dic_scer_exp_conservative_G_as_H_B_as_E_remove_X.tsv")
+#runAsite_emp("../models.txt","../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/","../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/","dic_ecoli_exp_conservative_G_I_as_H_B_as_E_remove_X.tsv")
+#createTable("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/","dic_ecoli_exp_conservative_G_as_H_B_as_E_remove_X.tsv")
 #runAsiteExit_pred("runs_to_compare_predicted_chaperone_scer.txt",'Scer/Predicted/Results/Structure_Downstream_Combo/',"Scer/Predicted/Structure_Downstream_Combo/","dic_scer_pred.csv")
 # model.fits <- c("Secondary_structures/")
 # model.type <- c("Secondary structures")
@@ -547,72 +547,72 @@ createTable <- function(directory,output)
 
 
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_helix/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Helix/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/End_helix/")
-model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_helix/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Helix/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/End_helix/")
+genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_helix/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Helix/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/End_helix/")
+model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_helix/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Helix/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/End_helix/")
 DIC.helix.termini <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_helix_End_helix/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Helix/")
-model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_helix_End_helix/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Helix/")
+genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_helix_End_helix/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Helix/")
+model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_helix_End_helix/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Helix/")
 DIC.helix.termini.tog <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_pechmann/Start_helix/",
-                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_pechmann/Helix/")
-model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_pechmann/Start_helix/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_pechmann/Helix/")
-DIC.pechmann <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+# genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_pechmann/Start_helix/",
+#                   "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_pechmann/Helix/")
+# model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_pechmann/Start_helix/",
+#                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_pechmann/Helix/")
+# DIC.pechmann <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/Helix/")
-model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/Helix/")
+genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/Helix/")
+model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/Helix/")
 DIC.helix <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_coil/",
-                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Turn_Coil/",
-                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/End_coil/")
-model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_coil/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Turn_Coil/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/End_coil/")
+genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_coil/",
+                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Turn_Coil/",
+                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/End_coil/")
+model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_coil/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Turn_Coil/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/End_coil/")
 DIC.coil.termini <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_coil_End_coil/",
-                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Turn_Coil/")
-model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_coil_End_coil/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Turn_Coil/")
+genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_coil_End_coil/",
+                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Turn_Coil/")
+model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_coil_End_coil/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Turn_Coil/")
 DIC.coil.termini.tog <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/Turn_Coil/")
-model.files <-  c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/Turn_Coil/")
+genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/Turn_Coil/")
+model.files <-  c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/Turn_Coil/")
 DIC.coil <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_sheet/",
-                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Sheet/",
-                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/End_sheet/")
-model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_sheet/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Sheet/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/End_sheet/")
+genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_sheet/",
+                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Sheet/",
+                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/End_sheet/")
+model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_sheet/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Sheet/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/End_sheet/")
 DIC.sheet.termini <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_sheet_End_sheet/",
-                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Sheet/")
-model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_sheet_End_sheet/",
-                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Sheet/")
+genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_sheet_End_sheet/",
+                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Sheet/")
+model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_sheet_End_sheet/",
+                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Sheet/")
 DIC.sheet.termini.tog <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
 
-genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/Sheet/")
-model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/Sheet/")
+genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/Sheet/")
+model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/Sheet/")
 DIC.sheet <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 # 

@@ -14,10 +14,10 @@ simulate <- function(genome.file,sel.file,mut.file,phi.file,output.dir,output.fa
   file.copy(phi.file,output.dir)
   #
 }
-sel.file <- "../selection_mod_scerevisiae.csv"
+sel.file <- "../conserved_sheet_Selection.csv"
 mut.file <- "../mutation_mod_scerevisiae.csv"
-genome.file <- "../Data/Fasta/complete_seq.fasta"
-phi.file <- "../complete_seq_phi.csv"
-output.dir <- "../Data/Fasta/"
-output.fasta <- "simulated_scer_ROC.fasta"
+genome.file <- "../Scer/Predicted/Secondary_structures_conserved_no_ncast/Sheet/sheet.fasta"
+phi.file <- "../Scer/Predicted/Secondary_structures_conserved_no_ncast/Sheet/sheet_phi.csv"
+output.dir <- "../Scer/Simulated/Secondary_structures_variable_no_ncast/Sheet/"
+output.fasta <- "sheet.fasta"
 simulate(genome.file,sel.file,mut.file,phi.file,output.dir,output.fasta)
