@@ -22,13 +22,14 @@ parser$add_argument("--est_hyp",help="Use this flag to indicate estimation of Hy
 parser$add_argument("--max_num_runs",help="Max number of runs to do.",type="integer",default = 6)
 parser$add_argument("--fix_dEta",help="Use this flag to fix dEta at starting value.",action="store_true")
 parser$add_argument("--fix_dM",help="Use this flag to fix dM at starting value",action="store_true")
+
 args <- parser$parse_args()
 div <- args$div
 input <- args$input
 directory <- args$output
-thin <- args$thin
-adapt <- args$adapt
-samp <- args$samp
+thinning <- args$thin
+adaptiveWidth <- args$adapt
+samples <- args$samp
 num_threads <- args$threads
 phi.files <- args$phi
 dEta.file <- args$dEta
@@ -87,24 +88,25 @@ geneAssignment <- rep(1,size)
 
 init_phi <- NULL
 sphi_init <- rep(1,numMixtures)
-if (length(phi) > 0)
+if (!is.null(phi.files))
 {
   segment_exp <- read.table(file=i,sep=",",header=TRUE)
   init_phi <- c(init_phi,segment_exp[,2])
   sphi_init <- rep(sd(log(init_phi)),numMixtures)
+  if(length(genome) != length(init_phi))
+  {
+    stop("length(genomeObj) != length(init_phi), but it should.")
+  } else{
+  print("Initial Phi values successfully files loaded:");
+  }
 } 
 
 
-if(length(genome) != length(init_phi)){
-  stop("length(genomeObj) != length(init_phi), but it should.")
-}else{
-  print("Initial Phi values successfully files loaded:");
-}
 
 dir.create(directory)
 done <- FALSE
-dona.adapt <- FALSE
-run.numer <- 1
+done.adapt <- FALSE
+run_number <- 1
 
 while((!done) && (run_number <= max_num_runs))
 {
