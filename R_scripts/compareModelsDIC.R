@@ -1,5 +1,8 @@
+## Author: Alexander Cope
+## Code to calculate DIC scores for different models. 
+
+
 library(AnaCoDa)
-library(parallel)
 
 calculateUnscaledLogLik <- function(genome,model,mutation,selection,phi)
 {
@@ -10,8 +13,8 @@ calculateUnscaledLogLik <- function(genome,model,mutation,selection,phi)
     if (a == "M" || a == "X" || a == "W") next
     codon.counts <- getCodonCountsForAA(a,genome)
     codons <- AAToCodon(a,F)
-    dEta <- selection[which(selection$AA == a),"Posterior"]
-    dM <- mutation[which(mutation$AA == a),"Posterior"]
+    dEta <- selection[which(selection$AA == a),3]
+    dM <- mutation[which(mutation$AA == a),3]
     codon.prob.per.gene <- data.frame(matrix(unlist(lapply(phi,function(x){
       log(model$CalculateProbabilitiesForCodons(dM, dEta, x))
     })),nrow=length(genome),ncol=length(codons),byrow=T))
@@ -32,11 +35,11 @@ calculate.for.all.fits<-function(model.fits,genome.phi,samples=10000)
   model.fits <- sort(model.fits)
   for (i in 1:length(model.fits))
   {
-    parameter <- loadParameterObject(paste0(model.fits[i],"/final_run/R_objects/parameter.Rda"))
+    parameter <- loadParameterObject(paste0(model.fits[i],"/restart_5/R_objects/parameter.Rda"))
     model <- initializeModelObject(parameter, "ROC", F)
     genome <- initializeGenomeObject(fasta.paths[i])
     size <- length(genome)
-    mcmc <- loadMCMCObject(paste0(model.fits[i],"/final_run/R_objects/mcmc.Rda"))
+    mcmc <- loadMCMCObject(paste0(model.fits[i],"/restart_5/R_objects/mcmc.Rda"))
     csp <- getCSPEstimates(parameter,samples=samples,relative.to.optimal.codon = F,report.original.ref = F)
     dM <- csp$Mutation
     dEta <- csp$Selection
@@ -54,354 +57,104 @@ calculate.for.all.fits<-function(model.fits,genome.phi,samples=10000)
 }
 
 
-translateCategoriesFromFileNames <- function(filename)
+
+
+
+within.structure.diff <- function(target.dir,head.dir="../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E")
 {
-  if (is.na(filename) || filename == "NA")
-  {
-    category <- NA
-  }
-  else if (filename == "Nterminus")
-  {
-    category <- "Nterminus"
-  }
-  else
-  {
-    categories <- unlist(strsplit(filename,split = "_",fixed = T))
-    exit.site <- unique(categories[c(T,F)])
-    a.site <- unique(categories[c(F,T)])
-    category.exit <- paste0(exit.site,collapse=",")
-    category.asite <- paste0(a.site,collapse=",")
-    category.exit <- paste0("(",category.exit,")",collapse="")
-    category.asite <- paste0("(",category.asite,")",collapse="")
-    category <- paste(category.exit,category.asite,sep="/")
-  }
-  return(category)
-}
-
-round_df <- function(df, digits) {
-  nums <- vapply(df, is.numeric, FUN.VALUE = logical(1))
-  
-  df[,nums] <- round(df[,nums], digits = digits)
-  
-  (df)
-}
-
-runAsiteExit_emp <- function(models,model.loc,genome.loc,output)
-{
-  models <- read.table(models,sep=",",header=F,stringsAsFactors = F,fill = T,na.strings = "")
-  Loglik <- numeric(length=nrow(models))
-  DIC.scores <- numeric(length=nrow(models))
-  pd.scores <- numeric(length=nrow(models))
-  num.param <- numeric(length=nrow(models))
-  for (i in 1:nrow(models))
-  {
-    model.fits <- unlist(models[i,])
-    model.fits <- model.fits[which(is.na(model.fits) == F)]
-    model.files <- paste0(model.loc,model.fits)
-    genome.files <- paste0(genome.loc,model.fits)
-    results <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-    Loglik[i] <- results$loglik.at.mean.posterior
-    DIC.scores[i] <- results$DIC
-    pd.scores[i] <- results$pdic
-  }
-  models.DIC <- cbind(models,DIC.scores)
-  models.DIC <- cbind(models.DIC,pd.scores)
-  models.DIC <- cbind(models.DIC,Loglik)
-  model.type <- c(rep("A-site",14),rep("Exit Tunnel",14))
-  test <- models.DIC
-  for (i in 1:nrow(models.DIC))
-  {
-    for (j in 1:(ncol(models.DIC) - 3))
-    {
-      test[i,j] <- translateCategoriesFromFileNames(models.DIC[i,j])
-    }
-    num.param[i] <- length(which(!is.na(test[i,1:(ncol(models.DIC)-3)]))) * 40
-  }
-  test[,"Num.Parameters"] <- num.param
-  a.site.min <- which.min(test[(1:14),"DIC.scores"])
-  d.dic.within.asite <- test[a.site.min,"DIC.scores"] - test[(1:14),"DIC.scores"]
-  exit.site.min <- which.min(test[(15:28),"DIC.scores"])
-  d.dic.within.exitsite <- test[exit.site.min+14,"DIC.scores"] - test[(15:28),"DIC.scores"]
-  d.dic <- c(d.dic.within.asite,d.dic.within.exitsite)
-  test[,"Delta.DIC.Within"] <- d.dic
-  
-  overall.best <- which.min(test[,"DIC.scores"])
-  d.dic.overall <- test[overall.best,"DIC.scores"] - test[,"DIC.scores"]
-  test[,"Delta.DIC.Overall"] <- d.dic.overall
-  
-  
-  test[,"Model.type"] <- model.type
-  
-  test <- test[order(test$Delta.DIC.Overall,decreasing = T),]
-  test <- round_df(test,digits=0)
-  colnames(test) <- c(paste0("Group_",1:5,"_(Exit/A)"),"DIC","p.D","LogLik.at.posterior.mean","Num.Parameter","Within.Delta.DIC","Overall.Delta.DIC","Model.type")
-  test <- test[,c(paste0("Group_",1:5,"_(Exit/A)"),"Model.type","Num.Parameter","p.D","LogLik.at.posterior.mean","DIC","Within.Delta.DIC","Overall.Delta.DIC")]
-  write.table(test,output,quote = F,sep="\t",row.names = F,col.names = T)
-  
-}
-
-runAsite_emp <- function(models,model.loc,genome.loc,output)
-{
-  models <- read.table(models,sep=",",header=F,stringsAsFactors = F,fill = T,na.strings = "")
-  Loglik <- numeric(length=nrow(models))
-  DIC.scores <- numeric(length=nrow(models))
-  pd.scores <- numeric(length=nrow(models))
-  num.param <- numeric(length=nrow(models))
-  for (i in 1:nrow(models))
-  {
-    model.fits <- unlist(models[i,])
-    model.fits <- model.fits[which(is.na(model.fits) == F)]
-    model.files <- paste0(model.loc,model.fits)
-    genome.files <- paste0(genome.loc,model.fits)
-    results <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-    Loglik[i] <- results$loglik.at.mean.posterior
-    DIC.scores[i] <- results$DIC
-    pd.scores[i] <- results$pdic
-  }
-  models.DIC <- cbind(models,DIC.scores)
-  models.DIC <- cbind(models.DIC,pd.scores)
-  models.DIC <- cbind(models.DIC,Loglik)
-  model.type <- c(rep("Secondary Structure",14))
-  test <- models.DIC
-  for (i in 1:nrow(models.DIC))
-  {
-    num.param[i] <- length(which(!is.na(test[i,1:(ncol(models.DIC)-3)]))) * 40
-  }
-  test[,"Num.Parameters"] <- num.param
-  a.site.min <- which.min(test[(1:14),"DIC.scores"])
-  d.dic.within.asite <- test[a.site.min,"DIC.scores"] - test[(1:14),"DIC.scores"]
-  d.dic <- c(d.dic.within.asite)
-  test[,"Delta.DIC.Within"] <- d.dic
-  
-  overall.best <- which.min(test[,"DIC.scores"])
-  d.dic.overall <- test[overall.best,"DIC.scores"] - test[,"DIC.scores"]
-  test[,"Delta.DIC.Overall"] <- d.dic.overall
-  
-  
-  test[,"Model.type"] <- model.type
-  
-  test <- test[order(test$Delta.DIC.Overall,decreasing = T),]
-  test <- round_df(test,digits=2)
-  colnames(test) <- c(paste0("Group_",1:5),"DIC","p.D","LogLik.at.posterior.mean","Num.Parameter","Within.Delta.DIC","Overall.Delta.DIC","Model.type")
-  test <- test[,c(paste0("Group_",1:5),"Model.type","Num.Parameter","p.D","LogLik.at.posterior.mean","DIC","Within.Delta.DIC","Overall.Delta.DIC")]
-  write.table(test,output,quote = F,sep="\t",row.names = F,col.names = T)
-  
-}
 
 
-runAsiteExit_pred <- function(models,model.loc,genome.loc,output)
-{
-  models <- read.table(models,sep=",",header=F,stringsAsFactors = F,fill = T,na.strings = "")
-  Loglik <- numeric(length=nrow(models))
-  DIC.scores <- numeric(length=nrow(models))
-  pd.scores <- numeric(length=nrow(models))
-  num.param <- numeric(length=nrow(models))
-  for (i in 1:nrow(models))
-  {
-    model.fits <- unlist(models[i,])
-    model.fits <- model.fits[which(is.na(model.fits) == F)]
-    model.files <- paste0(model.loc,model.fits)
-    genome.files <- paste0(genome.loc,model.fits)
-    results <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-    Loglik[i] <- results$loglik.at.mean.posterior
-    DIC.scores[i] <- results$DIC
-    pd.scores[i] <- results$pdic
-  }
-  models.DIC <- cbind(models,DIC.scores)
-  models.DIC <- cbind(models.DIC,pd.scores)
-  models.DIC <- cbind(models.DIC,Loglik)
-  model.type <- c(rep("A-site",4),rep("Exit Tunnel",4))
-  test <- models.DIC
-  for (i in 1:nrow(models.DIC))
-  {
-    for (j in 1:(ncol(models.DIC) - 3))
-    {
-      test[i,j] <- translateCategoriesFromFileNames(models.DIC[i,j])
-    }
-    num.param[i] <- length(which(!is.na(test[i,1:(ncol(models.DIC)-3)]))) * 40
-  }
-  test[,"Num.Parameters"] <- num.param
-  a.site.min <- which.min(test[(1:4),"DIC.scores"])
-  d.dic.within.asite <- test[a.site.min,"DIC.scores"] - test[(1:4),"DIC.scores"]
-  exit.site.min <- which.min(test[(5:8),"DIC.scores"])
-  d.dic.within.exitsite <- test[exit.site.min+4,"DIC.scores"] - test[(5:8),"DIC.scores"]
-  d.dic <- c(d.dic.within.asite,d.dic.within.exitsite)
-  test[,"Delta.DIC.Within"] <- d.dic
+  genome.files <- c(file.path(head.dir,target.dir,"Start_helix/"),
+                  file.path(head.dir,target.dir,"Core_helix/"),
+                  file.path(head.dir,target.dir,"End_helix/"))
+ 
+  model.files <- c(file.path(head.dir,"Results",target.dir,"Start_helix/"),
+                  file.path(head.dir,"Results",target.dir,"Core_helix/"),
+                  file.path(head.dir,"Results",target.dir,"End_helix/"))
+  DIC.helix.termini <- calculate.for.all.fits(model.files,genome.files,samples=10000)
   
-  overall.best <- which.min(test[,"DIC.scores"])
-  d.dic.overall <- test[overall.best,"DIC.scores"] - test[,"DIC.scores"]
-  test[,"Delta.DIC.Overall"] <- d.dic.overall
-  
-  
-  test[,"Model.type"] <- model.type
-  
-  test <- test[order(test$Delta.DIC.Overall,decreasing = T),]
-  test <- round_df(test,digits=2)
-  colnames(test) <- c(paste0("Group_",1:4,"_(Exit/A)"),"DIC","p.D","LogLik.at.posterior.mean","Num.Parameter","Within.Delta.DIC","Overall.Delta.DIC","Model.type")
-  test <- test[,c(paste0("Group_",1:4,"_(Exit/A)"),"Model.type","Num.Parameter","p.D","LogLik.at.posterior.mean","DIC","Within.Delta.DIC","Overall.Delta.DIC")]
-  write.table(test,output,quote = F,sep="\t",row.names = F,col.names = T)
-  
-}
+
+  genome.files <- c(file.path(head.dir,target.dir,"Start_helix_End_helix/"),
+                  file.path(head.dir,target.dir,"Core_helix/"))
+ 
+  model.files <- c(file.path(head.dir,"Results",target.dir,"Start_helix_End_helix/"),
+                  file.path(head.dir,"Results",target.dir,"Core_helix/"))
+  DIC.helix.termini.tog <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+
+  genome.files <- c(file.path(head.dir,target.dir,"Helix/"))
+  model.files <- c(file.path(head.dir,"Results",target.dir,"Helix/"))
+  DIC.helix <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
-appendModelFit <- function(model.fits,DIC.results,model.type="Transitions",current.models="fixed_dic_scores_cutoff_issue_resolved_combined.tsv",output="updated_models.tsv",translate=T)
-{
-  df <- read.table(current.models,sep="\t",header=T,stringsAsFactors = F)
-  total <- nrow(df)
-  num.models <- length(model.fits)
-  current.cat <- length(grep("Group_",colnames(df),fixed=T))
-  if (current.cat < num.models)
-  {
-    for (i in current.cat + 1:(length(model.fits) - current.cat))
-    {
-      df[,paste0("Group_",i,"_.Exit.A.")] <- character(length=total)
-    }
-  }
-  else if (current.cat > num.models)
-  {
-    for (i in 1:(current.cat-num.models))
-    {
-      model.fits <- c(model.fits,NA)
-    }
-  }
-  if (translate)
-  {
-    cleaned.model.fits <- character(length(model.fits))
-    for (i in 1:length(model.fits))
-    {
-      cleaned.model.fits[i] <- translateCategoriesFromFileNames(model.fits[i])
-    }
-    model.fits <- cleaned.model.fits
-  }
-  test <- df[,c(paste0("Group_",1:max(current.cat,num.models),"_.Exit.A."),"Model.type","Num.Parameter","p.D","DIC","LogLik.at.posterior.mean","Within.Delta.DIC")]
-  num.param <- 40 * num.models
-  
-  tmp <- c(model.fits,model.type,num.param,DIC.results$pdic,DIC.results$DIC,DIC.results$loglik.at.mean.posterior,NA,-2*DIC.results$loglik.at.mean.posterior+2*num.param,NA)
-  test <- rbind(test,tmp)
-  test[c("Num.Parameter","p.D","DIC","Within.Delta.DIC","LogLik.at.posterior.mean")] <- lapply(test[c("Num.Parameter","p.D","DIC","Within.Delta.DIC","LogLik.at.posterior.mean")],as.numeric)
-  
-  overall.best <- which.min(test[,"DIC"])
-  d.dic.overall <- test[overall.best,"DIC"] - test[,"DIC"]
-  test[,"Overall.Delta.DIC"] <- d.dic.overall
-  
-  test <- test[order(test$Overall.Delta.DIC,decreasing = T),]
-  test <- round_df(test,digits=0)
-  test <- test[,c(paste0("Group_",1:max(current.cat,num.models),"_.Exit.A."),"Model.type","Num.Parameter","p.D","LogLik.at.posterior.mean","DIC","Within.Delta.DIC","Overall.Delta.DIC")]
-  colnames(test) <- c(paste0("Group_",1:max(current.cat,num.models),"_(Exit/A)"),"Model.type","Num.Parameter","p.D","LogLik.at.posterior.mean","DIC","Within.Delta.DIC","Overall.Delta.DIC")
-  write.table(test,output,quote = F,sep="\t",row.names = F,col.names = T)
-}
+  helix.df <- data.frame(Structure=rep("Helix",3),
+              Models=c("Whole Structure","Core Termini","Core N-terminus C-terminus"),
+              DIC=c(DIC.helix$DIC,DIC.helix.termini.tog$DIC,DIC.helix.termini$DIC),
+              Delta.DIC = c(DIC.helix$DIC - DIC.helix$DIC,DIC.helix$DIC - DIC.helix.termini.tog$DIC,DIC.helix$DIC - DIC.helix.termini$DIC))
 
-appendModelFit2 <- function(model.fits,DIC.results,model.type="Transitions",current.models="fixed_dic_scores_cutoff_issue_resolved_combined.tsv",output="updated_models.tsv",translate=T)
-{
-  df <- read.table(current.models,sep="\t",header=T,stringsAsFactors = F)
-  total <- nrow(df)
-  num.models <- length(model.fits)
-  current.cat <- length(grep("Group_",colnames(df),fixed=T))
-  if (current.cat < num.models)
-  {
-    for (i in current.cat + 1:(length(model.fits) - current.cat))
-    {
-      df[,paste0("Group_",i)] <- character(length=total)
-    }
-  }
-  else if (current.cat > num.models)
-  {
-    for (i in 1:(current.cat-num.models))
-    {
-      model.fits <- c(model.fits,NA)
-    }
-  }
-  if (translate)
-  {
-    cleaned.model.fits <- character(length(model.fits))
-    for (i in 1:length(model.fits))
-    {
-      cleaned.model.fits[i] <- translateCategoriesFromFileNames(model.fits[i])
-    }
-    model.fits <- cleaned.model.fits
-  }
-  test <- df[,c(paste0("Group_",1:max(current.cat,num.models)),"Model.type","Num.Parameter","p.D","DIC","LogLik.at.posterior.mean","Within.Delta.DIC")]
-  num.param <- 40 * num.models
+  genome.files <- c(file.path(head.dir,target.dir,"Start_coil/"),
+                  file.path(head.dir,target.dir,"Core_coil/"),
+                  file.path(head.dir,target.dir,"End_coil/"))
+ 
+  model.files <- c(file.path(head.dir,"Results",target.dir,"Start_coil/"),
+                  file.path(head.dir,"Results",target.dir,"Core_coil/"),
+                  file.path(head.dir,"Results",target.dir,"End_coil/"))
+  DIC.coil.termini <- calculate.for.all.fits(model.files,genome.files,samples=10000)
   
-  tmp <- c(model.fits,model.type,num.param,DIC.results$pdic,DIC.results$DIC,DIC.results$loglik.at.mean.posterior,NA,-2*DIC.results$loglik.at.mean.posterior+2*num.param,NA)
-  test <- rbind(test,tmp)
-  test[c("Num.Parameter","p.D","DIC","Within.Delta.DIC","LogLik.at.posterior.mean")] <- lapply(test[c("Num.Parameter","p.D","DIC","Within.Delta.DIC","LogLik.at.posterior.mean")],as.numeric)
-  
-  overall.best <- which.min(test[,"DIC"])
-  d.dic.overall <- test[overall.best,"DIC"] - test[,"DIC"]
-  test[,"Overall.Delta.DIC"] <- d.dic.overall
-  
-  test <- test[order(test$Overall.Delta.DIC,decreasing = T),]
-  test <- round_df(test,digits=2)
-  test <- test[,c(paste0("Group_",1:max(current.cat,num.models)),"Model.type","Num.Parameter","p.D","LogLik.at.posterior.mean","DIC","Within.Delta.DIC","Overall.Delta.DIC")]
-  colnames(test) <- c(paste0("Group_",1:max(current.cat,num.models)),"Model.type","Num.Parameter","p.D","LogLik.at.posterior.mean","DIC","Within.Delta.DIC","Overall.Delta.DIC")
-  write.table(test,output,quote = F,sep="\t",row.names = F,col.names = T)
-}
+  genome.files <- c(file.path(head.dir,target.dir,"Start_coil_End_coil/"),
+                  file.path(head.dir,target.dir,"Core_coil/"))
+ 
+  model.files <- c(file.path(head.dir,"Results",target.dir,"Start_coil_End_coil/"),
+                  file.path(head.dir,"Results",target.dir,"Core_coil/"))
+  DIC.coil.termini.tog <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+
+  genome.files <- c(file.path(head.dir,target.dir,"Turn_Coil/"))
+  model.files <- c(file.path(head.dir,"Results",target.dir,"Turn_Coil/"))
+  DIC.coil <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+
+  coil.df <- data.frame(Structure=rep("Coil",3),
+              Models=c("Whole Structure","Core Termini","Core N-terminus C-terminus"),
+              DIC=c(DIC.coil$DIC,DIC.coil.termini.tog$DIC,DIC.coil.termini$DIC),
+              Delta.DIC = c(DIC.coil$DIC - DIC.coil$DIC,DIC.coil$DIC - DIC.coil.termini.tog$DIC,DIC.coil$DIC - DIC.coil.termini$DIC))
 
 
-getDIC <- function(model.loc,genome.loc,model.type,model.fits=NA)
-{
-  if (is.na(model.fits))
-  {
-    model.fits <- list.dirs(model.loc,full.names = F,recursive = F)
-  }
-  model.files <- paste0(model.loc,model.fits)
-  genome.files <- paste0(genome.loc,model.fits)
+
+  genome.files <- c(file.path(head.dir,target.dir,"Start_sheet/"),
+                  file.path(head.dir,target.dir,"Core_sheet/"),
+                  file.path(head.dir,target.dir,"End_sheet/"))
+ 
+  model.files <- c(file.path(head.dir,"Results",target.dir,"Start_sheet/"),
+                  file.path(head.dir,"Results",target.dir,"Core_sheet/"),
+                  file.path(head.dir,"Results",target.dir,"End_sheet/"))
+  DIC.sheet.termini <- calculate.for.all.fits(model.files,genome.files,samples=10000)
   
-  DIC <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-  row <- data.frame(Model.type=c(model.type),
-                      Num.parameter=c(length(model.fits)*40),
-                      p.D=DIC$pdic,
-                      Loglik.at.posterior.mean=DIC$loglik.at.mean.posterior,
-                      DIC=DIC$DIC,
-                      stringsAsFactors = F)
-  return(row)
+  genome.files <- c(file.path(head.dir,target.dir,"Start_sheet_End_sheet/"),
+                  file.path(head.dir,target.dir,"Core_sheet/"))
+ 
+  model.files <- c(file.path(head.dir,"Results",target.dir,"Start_sheet_End_sheet/"),
+                  file.path(head.dir,"Results",target.dir,"Core_sheet/"))
+  DIC.sheet.termini.tog <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+
+  genome.files <- c(file.path(head.dir,target.dir,"Sheet/"))
+  model.files <- c(file.path(head.dir,"Results",target.dir,"Sheet/"))
+  DIC.sheet <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+
+  sheet.df <- data.frame(Structure=rep("Sheet",3),
+              Models=c("Whole Structure","Core Termini","Core N-terminus C-terminus"),
+              DIC=c(DIC.sheet$DIC,DIC.sheet.termini.tog$DIC,DIC.sheet.termini$DIC),
+              Delta.DIC = c(DIC.sheet$DIC - DIC.sheet$DIC,DIC.sheet$DIC - DIC.sheet.termini.tog$DIC,DIC.sheet$DIC - DIC.sheet.termini$DIC))
+
+  return(list(Helix=helix.df,
+              Coil=coil.df,
+              Sheet=sheet.df))
+
 }
 
 
 
-
-appendDICToTable <- function(model.loc,genome.loc,categories,model.type,file.to.append)
-{
-  model.files <- paste0(model.loc,categories)
-  genome.files <- paste0(genome.loc,categories)
-  DIC.results <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-  if (is.na(DIC.results$DIC))
-  {
-    stop()
-  }
-  appendModelFit2(categories,DIC.results,current.models=file.to.append,model.type =model.type,translate = F,output = file.to.append)
-}
-
-createTable <- function(directory,output)
-{
-  results.dir <- paste(directory,"Results/",sep="/")
-  
-  model.fits <- c("Nterm/",
-                  "Secondary_structures_pechmann/",
-                  "Secondary_structures_begin_end/",
-                  "Downstream_sheet/",
-                  "Downstream_helix/",
-                  "Downstream_structured/")
-  model.type <- c("Nterminus vs. Remainder of Gene",
-                  "Pechmann Hypothesis",
-                  "Start vs. Core. vs. End",
-                  "Difference if Downstream from Sheet",
-                  "Difference if Downstream from Helix",
-                  "Difference if Downstream from Structures")
-  genome.locs <- paste0(directory,model.fits,sep="/")
-  model.locs <- paste0(results.dir,model.fits)
-  
-  for (i in 1:length(model.fits))
-  {
-    categories <- list.dirs(model.locs[i],full.names = F,recursive = F)
-    appendDICToTable(model.locs[i],genome.locs[i],categories,model.type[i],output)
-  }
-}
-
-#runAsite_emp("../models.txt","../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/","../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/","dic_ecoli_exp_conservative_G_I_as_H_B_as_E_remove_X.tsv")
-#createTable("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/","dic_ecoli_exp_conservative_G_as_H_B_as_E_remove_X.tsv")
+#runAsite_emp("../models.txt","../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Results/Secondary_structures/","../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Secondary_structures/","dic_Scer_exp_conservative_G_I_as_H_B_as_E_remove_X.tsv")
+#createTable("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/","dic_Scer_exp_conservative_G_as_H_B_as_E_remove_X.tsv")
 #runAsiteExit_pred("runs_to_compare_predicted_chaperone_scer.txt",'Scer/Predicted/Results/Structure_Downstream_Combo/',"Scer/Predicted/Structure_Downstream_Combo/","dic_scer_pred.csv")
+
 # model.fits <- c("Secondary_structures/")
 # model.type <- c("Secondary structures")
 # genome.locs <- paste0("Scer/Predicted/",model.fits,sep="/")
@@ -413,206 +166,237 @@ createTable <- function(directory,output)
 # DIC.results.ss <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 # print("Done with Secondary Structures")
 
-# model.fits <- c("Nterm/")
-# model.type <- c("Nterm")
-# genome.locs <- paste0("Scer/Predicted/",model.fits,sep="/")
-# results.dir <- paste("Scer/Predicted/","Results/",sep="/")
-# model.locs <- paste0(results.dir,model.fits)
-# categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
-# model.files <- paste0(model.locs,categories)
-# genome.files <- paste0(genome.locs,categories)
-# DIC.results.comp <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print("Done with Complete")
-
-# model.fits <- c("Ordered_disordered/")
-# model.type <- c("Effects of disordered regions")
-# genome.locs <- paste0("Scer/Predicted/",model.fits,sep="/")
-# results.dir <- paste("Scer/Predicted/","Results/",sep="/")
-# model.locs <- paste0(results.dir,model.fits)
-# categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
-# model.files <- paste0(model.locs,categories)
-# genome.files <- paste0(genome.locs,categories)
-
-# DIC.results.ord <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-
-
-# model.fits <- c("Downstream_ordered_disordered/")
-# model.type <- c("Downstream_ordered_disordered")
-# genome.locs <- paste0("Scer/Predicted/",model.fits,sep="/")
-# results.dir <- paste("Scer/Predicted/","Results/",sep="/")
-# model.locs <- paste0(results.dir,model.fits)
-# categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
-# model.files <- paste0(model.locs,categories)
-# genome.files <- paste0(genome.locs,categories)
-# DIC.results.dod <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Downstream Ordered/Disordered",DIC.results.dod$DIC))
 
 
 
-# genome.files <- c("Scer/Predicted/Secondary_structures/Helix/",
-# 				"Scer/Predicted/Secondary_structures/Sheet/",
-# 				"Scer/Predicted/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Secondary_structure_order/Coil_ord/",
-# 				"Scer/Predicted/Secondary_structure_order/Coil_dis/")
-# model.files <- c("Scer/Predicted/Results/Secondary_structures/Helix/",
-# 				"Scer/Predicted/Results/Secondary_structures/Sheet/",
-# 				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Coil_ord/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Coil_dis/")
-# DIC.results.ss_coil_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Coil Ordered/Disordered",DIC.results.ss_coil_dis$DIC))
+genome.files <- c("Scer/Predicted/Secondary_structures/Helix/",
+        "Scer/Predicted/Secondary_structures/Coil/",
+        "Scer/Predicted/Secondary_structures/Sheet/",
+        "Scer/Predicted/Secondary_structures/Nterminus/")
+model.files <- c("Scer/Predicted/Results/Secondary_structures/Helix/",
+        "Scer/Predicted/Results/Secondary_structures/Coil/",
+        "Scer/Predicted/Results/Secondary_structures/Sheet/",
+        "Scer/Predicted/Results/Secondary_structures/Nterminus/")
+DIC.results.ss <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print("Done with Secondary Structures")
 
-# genome.files <- c("Scer/Predicted/Secondary_structure_order/Helix_ord/",
-# 				"Scer/Predicted/Secondary_structure_order/Helix_dis/",
-# 				"Scer/Predicted/Secondary_structures/Sheet/",
-# 				"Scer/Predicted/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Secondary_structures/Coil/")
-# model.files <- c("Scer/Predicted/Results/Secondary_structure_order/Helix_ord/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Helix_dis/",
-# 				"Scer/Predicted/Results/Secondary_structures/Sheet/",
-# 				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Results/Secondary_structures/Coil/")
-# DIC.results.ss_helix_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Helix Ordered/Disordered",DIC.results.ss_helix_dis$DIC))
+genome.files <- c("Scer/Predicted/Secondary_structures/Helix_Coil/",
+        "Scer/Predicted/Secondary_structures/Sheet/",
+        "Scer/Predicted/Secondary_structures/Nterminus/")
+model.files <- c("Scer/Predicted/Results/Secondary_structures/Helix_Coil/",
+        "Scer/Predicted/Results/Secondary_structures/Sheet/",
+        "Scer/Predicted/Results/Secondary_structures/Nterminus/")
+DIC.results.ss.hc <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print("Done with Secondary Structures, Helix and Coil merged")
 
-# genome.files <- c("Scer/Predicted/Secondary_structures/Helix/",
-# 				"Scer/Predicted/Secondary_structure_order/Sheet_ord/",
-# 				"Scer/Predicted/Secondary_structure_order/Sheet_dis/",
-# 				"Scer/Predicted/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Secondary_structures/Coil/")
-# model.files <- c("Scer/Predicted/Results/Secondary_structures/Helix/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Sheet_ord/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Sheet_dis/",
-# 				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Results/Secondary_structures/Coil/")
-# DIC.results.ss_sheet_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Sheet Ordered/Disordered",DIC.results.ss_sheet_dis$DIC))
+genome.files <- c("Scer/Predicted/Secondary_structures/Helix_Sheet/",
+        "Scer/Predicted/Secondary_structures/Coil/",
+        "Scer/Predicted/Secondary_structures/Nterminus/")
+model.files <- c("Scer/Predicted/Results/Secondary_structures/Helix_Sheet/",
+        "Scer/Predicted/Results/Secondary_structures/Coil/",
+        "Scer/Predicted/Results/Secondary_structures/Nterminus/")
+DIC.results.ss.he <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print("Done with Secondary Structures, Helix and Sheet merged")
 
-
-# genome.files <- c("Scer/Predicted/Secondary_structure_order/Helix_ord/",
-# 				"Scer/Predicted/Secondary_structure_order/Helix_dis/",
-# 				"Scer/Predicted/Secondary_structures/Sheet/",
-# 				"Scer/Predicted/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Secondary_structure_order/Coil_ord/",
-# 				"Scer/Predicted/Secondary_structure_order/Coil_dis/")
-# model.files <- c("Scer/Predicted/Results/Secondary_structure_order/Helix_ord/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Helix_dis/",
-# 				"Scer/Predicted/Results/Secondary_structures/Sheet/",
-# 				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Coil_ord/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Coil_dis/")
-# DIC.results.ss_coil_dis_helix_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Coil/Helix Ordered/Disordered",DIC.results.ss_coil_dis_helix_dis$DIC))
-
-# genome.files <- c("Scer/Predicted/Secondary_structures/Helix/",
-# 				"Scer/Predicted/Secondary_structure_order/Sheet_ord/",
-# 				"Scer/Predicted/Secondary_structure_order/Sheet_dis/",
-# 				"Scer/Predicted/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Secondary_structure_order/Coil_ord/",
-# 				"Scer/Predicted/Secondary_structure_order/Coil_dis/")
-# model.files <- c("Scer/Predicted/Results/Secondary_structures/Helix/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Sheet_ord/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Sheet_dis/",
-# 				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Coil_ord/",
-# 				"Scer/Predicted/Results/Secondary_structure_order/Coil_dis/")
-# DIC.results.ss_coil_dis_sheet_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Coil/Sheet Ordered/Disordered",DIC.results.ss_coil_dis_sheet_dis$DIC))
+genome.files <- c("Scer/Predicted/Secondary_structures/Sheet_Coil/",
+        "Scer/Predicted/Secondary_structures/Helix/",
+        "Scer/Predicted/Secondary_structures/Nterminus/")
+model.files <- c("Scer/Predicted/Results/Secondary_structures/Sheet_Coil/",
+        "Scer/Predicted/Results/Secondary_structures/Helix/",
+        "Scer/Predicted/Results/Secondary_structures/Nterminus/")
+DIC.results.ss.ec <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print("Done with Secondary Structures, Coil and Sheet merged")
 
 
-# model.fits <- c("Secondary_structure_order/")
-# model.type <- c("Secondary structure_order")
-# genome.locs <- paste0("Scer/Predicted/",model.fits,sep="/")
-# results.dir <- paste("Scer/Predicted/","Results/",sep="/")
-# model.locs <- paste0(results.dir,model.fits)
-# categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
-# model.files <- paste0(model.locs,categories)
-# genome.files <- paste0(genome.locs,categories)
-# DIC.results.ss <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + All Ordered/Disordered",DIC.results.ss$DIC))
+model.fits <- c("Nterm/")
+model.type <- c("Nterm")
+genome.locs <- paste0("Scer/Predicted/",model.fits,sep="/")
+results.dir <- paste("Scer/Predicted/","Results/",sep="/")
+model.locs <- paste0(results.dir,model.fits)
+categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
+model.files <- paste0(model.locs,categories)
+genome.files <- paste0(genome.locs,categories)
+DIC.results.comp <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print("Done with Complete")
+
+model.fits <- c("Ordered_disordered/")
+model.type <- c("Effects of disordered regions")
+genome.locs <- paste0("Scer/Predicted/",model.fits,sep="/")
+results.dir <- paste("Scer/Predicted/","Results/",sep="/")
+model.locs <- paste0(results.dir,model.fits)
+categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
+model.files <- paste0(model.locs,categories)
+genome.files <- paste0(genome.locs,categories)
+
+DIC.results.ord <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
-# genome.files <- c("Scer/Predicted/Secondary_structure_order/Helix_ord/",
-#         "Scer/Predicted/Secondary_structure_order/Sheet_ord/",
-#         "Scer/Predicted/Secondary_structure_order/Coil_ord/",
-#         "Scer/Predicted/Secondary_structures/Nterminus/",
-#         "Scer/Predicted/Ordered_disordered/Disordered/")
-# model.files <- c("Scer/Predicted/Results/Secondary_structure_order/Helix_ord/",
-#         "Scer/Predicted/Results/Secondary_structure_order/Sheet_ord/",
-#         "Scer/Predicted/Results/Secondary_structure_order/Coil_ord/",
-#         "Scer/Predicted/Results/Secondary_structures/Nterminus/",
-#         "Scer/Predicted/Results/Ordered_disordered/Disordered/")
-# DIC.results.ss_coil_dis_sheet_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures or Disordered",DIC.results.ss_coil_dis_sheet_dis$DIC))
+genome.files <- c("Scer/Predicted/Secondary_structures/Helix/",
+				"Scer/Predicted/Secondary_structures/Sheet/",
+				"Scer/Predicted/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Secondary_structure_order/Coil_ord/",
+				"Scer/Predicted/Secondary_structure_order/Coil_dis/")
+model.files <- c("Scer/Predicted/Results/Secondary_structures/Helix/",
+				"Scer/Predicted/Results/Secondary_structures/Sheet/",
+				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Results/Secondary_structure_order/Coil_ord/",
+				"Scer/Predicted/Results/Secondary_structure_order/Coil_dis/")
+DIC.results.ss_coil_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Coil Ordered/Disordered",DIC.results.ss_coil_dis$DIC))
+
+genome.files <- c("Scer/Predicted/Secondary_structure_order/Helix_ord/",
+				"Scer/Predicted/Secondary_structure_order/Helix_dis/",
+				"Scer/Predicted/Secondary_structures/Sheet/",
+				"Scer/Predicted/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Secondary_structures/Coil/")
+model.files <- c("Scer/Predicted/Results/Secondary_structure_order/Helix_ord/",
+				"Scer/Predicted/Results/Secondary_structure_order/Helix_dis/",
+				"Scer/Predicted/Results/Secondary_structures/Sheet/",
+				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Results/Secondary_structures/Coil/")
+DIC.results.ss_helix_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Helix Ordered/Disordered",DIC.results.ss_helix_dis$DIC))
+
+genome.files <- c("Scer/Predicted/Secondary_structures/Helix/",
+				"Scer/Predicted/Secondary_structure_order/Sheet_ord/",
+				"Scer/Predicted/Secondary_structure_order/Sheet_dis/",
+				"Scer/Predicted/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Secondary_structures/Coil/")
+model.files <- c("Scer/Predicted/Results/Secondary_structures/Helix/",
+				"Scer/Predicted/Results/Secondary_structure_order/Sheet_ord/",
+				"Scer/Predicted/Results/Secondary_structure_order/Sheet_dis/",
+				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Results/Secondary_structures/Coil/")
+DIC.results.ss_sheet_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Sheet Ordered/Disordered",DIC.results.ss_sheet_dis$DIC))
+
+
+genome.files <- c("Scer/Predicted/Secondary_structure_order/Helix_ord/",
+				"Scer/Predicted/Secondary_structure_order/Helix_dis/",
+				"Scer/Predicted/Secondary_structures/Sheet/",
+				"Scer/Predicted/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Secondary_structure_order/Coil_ord/",
+				"Scer/Predicted/Secondary_structure_order/Coil_dis/")
+model.files <- c("Scer/Predicted/Results/Secondary_structure_order/Helix_ord/",
+				"Scer/Predicted/Results/Secondary_structure_order/Helix_dis/",
+				"Scer/Predicted/Results/Secondary_structures/Sheet/",
+				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Results/Secondary_structure_order/Coil_ord/",
+				"Scer/Predicted/Results/Secondary_structure_order/Coil_dis/")
+DIC.results.ss_coil_dis_helix_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Coil/Helix Ordered/Disordered",DIC.results.ss_coil_dis_helix_dis$DIC))
+
+genome.files <- c("Scer/Predicted/Secondary_structures/Helix/",
+				"Scer/Predicted/Secondary_structure_order/Sheet_ord/",
+				"Scer/Predicted/Secondary_structure_order/Sheet_dis/",
+				"Scer/Predicted/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Secondary_structure_order/Coil_ord/",
+				"Scer/Predicted/Secondary_structure_order/Coil_dis/")
+model.files <- c("Scer/Predicted/Results/Secondary_structures/Helix/",
+				"Scer/Predicted/Results/Secondary_structure_order/Sheet_ord/",
+				"Scer/Predicted/Results/Secondary_structure_order/Sheet_dis/",
+				"Scer/Predicted/Results/Secondary_structures/Nterminus/",
+				"Scer/Predicted/Results/Secondary_structure_order/Coil_ord/",
+				"Scer/Predicted/Results/Secondary_structure_order/Coil_dis/")
+DIC.results.ss_coil_dis_sheet_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Coil/Sheet Ordered/Disordered",DIC.results.ss_coil_dis_sheet_dis$DIC))
+
+
+model.fits <- c("Secondary_structure_order/")
+model.type <- c("Secondary structure_order")
+genome.locs <- paste0("Scer/Predicted/",model.fits,sep="/")
+results.dir <- paste("Scer/Predicted/","Results/",sep="/")
+model.locs <- paste0(results.dir,model.fits)
+categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
+model.files <- paste0(model.locs,categories)
+genome.files <- paste0(genome.locs,categories)
+DIC.results.ss_all_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + All Ordered/Disordered",DIC.results.ss$DIC))
+
+
+genome.files <- c("Scer/Predicted/Secondary_structure_order/Helix_ord/",
+        "Scer/Predicted/Secondary_structure_order/Sheet_ord/",
+        "Scer/Predicted/Secondary_structure_order/Coil_ord/",
+        "Scer/Predicted/Secondary_structures/Nterminus/",
+        "Scer/Predicted/Ordered_disordered/Disordered/")
+model.files <- c("Scer/Predicted/Results/Secondary_structure_order/Helix_ord/",
+        "Scer/Predicted/Results/Secondary_structure_order/Sheet_ord/",
+        "Scer/Predicted/Results/Secondary_structure_order/Coil_ord/",
+        "Scer/Predicted/Results/Secondary_structures/Nterminus/",
+        "Scer/Predicted/Results/Ordered_disordered/Disordered/")
+DIC.results.ss_vs_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures or Disordered",DIC.results.ss_coil_dis_sheet_dis$DIC))
+
+
+struct.4.2 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini")
+struct.5.2 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_5_2_codon_for_termini")
+struct.6.2 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_6_2_codon_for_termini")
+struct.6.3 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_6")
+struct.7.2 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_7_2_codon_for_termini")
+struct.7.3 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_7")
+struct.8.2 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_8_2_codon_for_termini")
+struct.8.3 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_8")
+struct.9.3 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_9")
+struct.10.3 <- within.structure.diff("Secondary_structures_begin_end_exclude_less_than_10")
 
 
 
-genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_helix/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Helix/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/End_helix/")
-model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_helix/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Helix/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/End_helix/")
-DIC.helix.termini <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/Start_helix/",
+                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/Remainder_helix/")
+model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/Start_helix/",
+                 "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/Remainder_helix/")
+DIC.pechmann <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
-genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_helix_End_helix/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Helix/")
-model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_helix_End_helix/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Helix/")
-DIC.helix.termini.tog <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-
-
-
-# genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_pechmann/Start_helix/",
-#                   "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_pechmann/Helix/")
-# model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_pechmann/Start_helix/",
-#                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_pechmann/Helix/")
-# DIC.pechmann <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-
-
-genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/Helix/")
-model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/Helix/")
+genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/Helix/")
+model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/Helix/")
 DIC.helix <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
-genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_coil/",
-                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Turn_Coil/",
-                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/End_coil/")
-model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_coil/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Turn_Coil/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/End_coil/")
-DIC.coil.termini <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-
-genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_coil_End_coil/",
-                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Turn_Coil/")
-model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_coil_End_coil/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Turn_Coil/")
-DIC.coil.termini.tog <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
-genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/Turn_Coil/")
-model.files <-  c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/Turn_Coil/")
-DIC.coil <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+# genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_helix_types/Helix/",
+#                   "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_helix_types/GI_Helix/")
+# model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_helix_types/Helix/",
+#                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_helix_types/GI_Helix/")
+# DIC.helix.gi <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
-
-genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_sheet/",
-                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Sheet/",
-                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/End_sheet/")
-model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_sheet/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Sheet/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/End_sheet/")
-DIC.sheet.termini <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-
-genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Start_sheet_End_sheet/",
-                  "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end/Sheet/")
-model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Start_sheet_End_sheet/",
-                 "../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end/Sheet/")
-DIC.sheet.termini.tog <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+# genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_helix_types/Helix_GI_Helix/")
+# model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_helix_types/Helix_GI_Helix/")
+# DIC.helix <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
 
-genome.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures/Sheet/")
-model.files <- c("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures/Sheet/")
-DIC.sheet <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+# # genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/Start_helix/",
+# #                   "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/Remainder_helix/")
+# # model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Results/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_terminii/Start_helix/",
+# #                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Results/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_terminii/Remainder_helix/")
+# # DIC.pechmann <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
-# 
+# genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/Helix/",
+#                   "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/GI_Helix/")
+# model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Results/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_terminii/Helix/",
+#                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Results/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_terminii/GI_Helix/")
+# DIC.helix.gi <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+
+
+# genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_4_2_codon_for_termini/Helix/",
+#                   "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_exclude_less_than_5_2_codon_for_termini/Helix/")
+# model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end_length_4_2_codon_for_termini/Helix/",
+#                   "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end_exclude_less_than_5_2_codon_for_termini/Helix/")
+# DIC.helix.4.vs.rest <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+
+# genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/Helix/")
+# model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/Helix/")
+# DIC.helix.min.4 <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+
+# genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/Core_helix/",
+#                   "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/Start_helix_End_helix/",
+#                   "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Secondary_structures_begin_end_6_min_2_termini/Helix")
+# model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Test/Results/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_terminii/Core_helix/",
+#                  "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Test/Results/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_terminii/Start_helix_End_helix/",
+#                   "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Results/Secondary_structures_begin_end_6_min_2_termini/Helix/")
+# DIC.helix.4.or.5 <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+
+# genome.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/Helix/")
+# model.files <- c("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Test/Results/Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini/Helix/")
+# DIC.helix.min.4 <- calculate.for.all.fits(model.files,genome.files,samples=10000)

@@ -1,3 +1,6 @@
+## Author: Alex Cope
+## Code for simulating genomes. Currently setup to simulate 100 genomes for testing Pechmann and Frydman hypothesis. 
+
 library(AnaCoDa)
 
 simulate <- function(genome.file,sel.file,mut.file,phi.file,output.dir,output.fasta)
@@ -11,13 +14,17 @@ simulate <- function(genome.file,sel.file,mut.file,phi.file,output.dir,output.fa
   model <- initializeModelObject(parameter,model="ROC",with.phi=FALSE)
   model$simulateGenome(genome)
   genome$writeFasta(paste(output.dir,output.fasta,sep="/"),simulated=T)
-  file.copy(phi.file,output.dir)
+  ## Uncomment this line if you want to copy the phi file to the directory of the simulated genome.
+  #file.copy(phi.file,output.dir)
   #
 }
-sel.file <- "../conserved_sheet_Selection.csv"
+sel.file <- "../selection_mod_scerevisiae.csv"
 mut.file <- "../mutation_mod_scerevisiae.csv"
-genome.file <- "../Scer/Predicted/Secondary_structures_conserved_no_ncast/Sheet/sheet.fasta"
-phi.file <- "../Scer/Predicted/Secondary_structures_conserved_no_ncast/Sheet/sheet_phi.csv"
-output.dir <- "../Scer/Simulated/Secondary_structures_variable_no_ncast/Sheet/"
-output.fasta <- "sheet.fasta"
-simulate(genome.file,sel.file,mut.file,phi.file,output.dir,output.fasta)
+genome.file <- "../Data/Fasta/complete_seq.fasta"
+phi.file <- "../Data/Fasta/complete_seq_phi.csv"
+output.dir <- "../Scer/Test_Fisher_Exact/"
+output.fasta <- "sim.fasta"
+for (i in 1:100)
+{
+  simulate(genome.file,sel.file,mut.file,phi.file,paste0(output.dir,i,"/"),output.fasta)
+}
