@@ -1,0 +1,506 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415569.4
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P25738 Acidic protein MsyB n=323 Tax=root TaxID=1 RepI...  248     2e-83
+  UniRef90_A0A0T9Y848 Acidic protein MsyB n=138 Tax=Salmonella Ta...  232     3e-77
+  UniRef90_D2TT58 Acidic protein n=3 Tax=Enterobacteriaceae TaxID...  232     3e-77
+  UniRef90_UPI0005C5625B secY/secA suppressor protein n=1 Tax=Met...  226     9e-75
+  UniRef90_A0A1A9F9H6 SecY/secA suppressor protein n=1 Tax=Lellio...  224     5e-74
+  UniRef90_G8LIR8 Acidic protein msyB n=133 Tax=Bacteria TaxID=2 ...  223     5e-73
+  UniRef90_UPI0004E1CCA7 secY/secA suppressor protein n=1 Tax=Sic...  221     6e-73
+  UniRef90_S3IYQ5 Putative acidic protein MsyB n=2 Tax=Cedecea da...  221     9e-73
+  UniRef90_A0A090V2J4 Acidic protein MsyB n=3 Tax=Enterobacteriac...  220     1e-72
+  UniRef90_A0A1I6CVU4 Acidic protein MsyB n=1 Tax=Enterobacter sp...  219     3e-72
+  UniRef90_A0A0J8VLI6 SecY/secA suppressor protein n=3 Tax=Franco...  218     7e-72
+  UniRef90_A0A2P8VQC7 SecY/secA suppressor protein n=1 Tax=Siccib...  218     9e-72
+  UniRef90_A0A089Q0A7 SecY/secA suppressor protein n=8 Tax=cellul...  218     1e-71
+  UniRef90_A0A157GPZ4 Acidic protein msyB n=7 Tax=Enterobacteriac...  218     2e-71
+  UniRef90_A0A1B7JBD3 MsyB family acidic protein n=5 Tax=Kluyvera...  216     6e-71
+  UniRef90_A0A0K4KP67 Acidic protein MsyB n=29 Tax=Enterobacteria...  215     1e-70
+  UniRef90_A0A0D1N4G5 SecY/secA suppressor protein n=4 Tax=Entero...  214     4e-70
+  UniRef90_A0A2I8Q3A8 SecY/secA suppressor protein n=1 Tax=Entero...  214     4e-70
+  UniRef90_A0A336QL28 Acidic protein n=1 Tax=Citrobacter freundii...  214     6e-70
+  UniRef90_UPI0007880D19 secY/secA suppressor protein n=1 Tax=Klu...  213     2e-69
+  UniRef90_A0A133LD96 Acidic protein n=53 Tax=Enterobacteriaceae ...  212     4e-69
+  UniRef90_A0A248KJ79 SecY/secA suppressor protein n=2 Tax=Kluyve...  211     5e-69
+  UniRef90_A0A085GH53 MsyB family acidic protein n=9 Tax=Buttiaux...  211     5e-69
+  UniRef90_A0A085AGQ0 MsyB family acidic protein n=4 Tax=Trabulsi...  211     9e-69
+  UniRef90_C9Y0W4 Acidic protein msyB n=17 Tax=Cronobacter TaxID=...  210     1e-68
+  UniRef90_A0A1N6S7K4 Acidic protein MsyB n=2 Tax=Enterobacter Ta...  210     1e-68
+  UniRef90_A0A0A1RQ96 Acidic protein msyB n=4 Tax=Enterobacteriac...  209     6e-68
+  UniRef90_UPI000EB20737 secY/secA suppressor protein n=1 Tax=Ent...  208     1e-67
+  UniRef90_A0A127L3B3 Acidic protein MsyB n=2 Tax=Enterobacteriac...  207     2e-67
+  UniRef90_A0A0L0AP97 SecY/secA suppressor protein n=2 Tax=Entero...  207     2e-67
+  UniRef90_A0A2X2V8X5 Acidic protein n=9 Tax=Gammaproteobacteria ...  207     2e-67
+  UniRef90_A0A1D3U658 Acidic protein MsyB n=94 Tax=Enterobacteral...  207     3e-67
+  UniRef90_V5ART3 MsyB family protein n=3 Tax=Enterobacteriaceae ...  207     3e-67
+  UniRef90_A0A285JK86 Acidic protein MsyB n=3 Tax=Enterobacteriac...  206     5e-67
+  UniRef90_A0A379S653 Acidic protein MsyB n=3 Tax=Salmonella ente...  206     7e-67
+  UniRef90_A0A0F0V800 Acidic protein MsyB n=2 Tax=Pluralibacter g...  205     1e-66
+  UniRef90_V5U1L8 Uncharacterized protein n=7 Tax=Cronobacter Tax...  204     4e-66
+  UniRef90_A0A0W2DNH3 SecY/secA suppressor protein n=14 Tax=Enter...  202     2e-65
+  UniRef90_R9VTP6 SecY/SecA suppressor protein n=18 Tax=Enterobac...  202     3e-65
+  UniRef90_UPI000743DDC8 secY/secA suppressor protein n=1 Tax=Esc...  199     1e-63
+  UniRef90_A0A0L7TI75 SecY/secA suppressor protein n=1 Tax=Erwini...  197     4e-63
+  UniRef90_UPI000FE3010F secY/secA suppressor protein n=1 Tax=Pan...  195     1e-62
+  UniRef90_D8MQN5 Acidic protein MsyB n=3 Tax=Erwinia TaxID=551 R...  195     2e-62
+  UniRef90_UPI00073D5E3F secY/secA suppressor protein n=1 Tax=[Er...  194     3e-62
+  UniRef90_UPI00034BB36C SecY/SecA suppressor protein n=1 Tax=Erw...  193     1e-61
+  UniRef90_A0A2X2QGE3 SecY/secA suppressor protein n=2 Tax=Yokene...  191     3e-61
+  UniRef90_E1SJK2 Acidic protein msyB n=23 Tax=Pantoea TaxID=5333...  190     1e-60
+  UniRef90_A0A014LYC0 SecY/secA suppressor protein n=1 Tax=Erwini...  189     2e-60
+  UniRef90_D4GC06 MsyB n=8 Tax=Pantoea TaxID=53335 RepID=D4GC06_P...  189     5e-60
+  UniRef90_A0A0M2KC94 SecY/secA suppressor protein n=1 Tax=Erwini...  189     6e-60
+  UniRef90_UPI00092F3DEE secretion protein n=1 Tax=Escherichia co...  186     1e-59
+  UniRef90_A0A358L4Q1 SecY/secA suppressor protein n=2 Tax=Erwini...  187     2e-59
+  UniRef90_A0A2S9ICR9 SecY/secA suppressor protein n=2 Tax=Erwini...  186     4e-59
+  UniRef90_D4I0V7 Acidic protein msyB n=7 Tax=Erwinia TaxID=551 R...  186     1e-58
+  UniRef90_A0A3N6UUM1 SecY/secA suppressor protein n=1 Tax=Erwini...  184     6e-58
+  UniRef90_A0A0U5GLB9 Acidic protein MsyB n=1 Tax=Erwinia gerunde...  184     8e-58
+  UniRef90_UPI000906E347 secY/secA suppressor protein n=1 Tax=Esc...  181     5e-57
+  UniRef90_A0A2X3F7Q5 Acidic protein msyB n=8 Tax=Klebsiella pneu...  182     8e-57
+  UniRef90_E3GC99 Uncharacterized protein n=1 Tax=Enterobacter li...  180     1e-56
+  UniRef90_A0A381H4B7 Acidic protein n=1 Tax=Citrobacter koseri T...  179     1e-56
+  UniRef90_E6WDD7 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  180     2e-56
+  UniRef90_A0A1W6BAK5 SecY/secA suppressor protein n=4 Tax=Erwini...  179     2e-56
+  UniRef90_UPI00054EA329 secY/secA suppressor protein n=2 Tax=Erw...  179     3e-56
+  UniRef90_UPI000378CDBC SecY/SecA suppressor protein n=1 Tax=Ent...  177     1e-55
+  UniRef90_UPI000360F821 SecY/SecA suppressor protein n=1 Tax=Pan...  177     2e-55
+  UniRef90_A0A370QRS2 Acidic protein MsyB n=1 Tax=Enterobacillus ...  176     5e-55
+  UniRef90_UPI000C082537 secY/secA suppressor protein n=1 Tax=Sal...  174     1e-54
+  UniRef90_A0A1I4URQ7 Acidic protein MsyB n=2 Tax=Izhakiella TaxI...  175     1e-54
+  UniRef90_A0A2G8EJR7 SecY/secA suppressor protein n=1 Tax=Erwini...  174     5e-54
+  UniRef90_A0A250AVY5 SecY/secA suppressor protein n=2 Tax=Gibbsi...  173     6e-54
+  UniRef90_A0A0F3M0L8 SecY/secA suppressor protein n=6 Tax=Entero...  173     9e-54
+  UniRef90_UPI000788A872 secY/secA suppressor protein n=1 Tax=Erw...  172     3e-53
+  UniRef90_A0A0Q4MZI8 SecY/secA suppressor protein n=1 Tax=Erwini...  169     2e-52
+  UniRef90_J2L8E7 Uncharacterized protein n=7 Tax=Enterobacterale...  168     7e-52
+  UniRef90_W0HYG1 Suppressor of SecY n=4 Tax=Sodalis TaxID=84565 ...  166     5e-51
+  UniRef90_A0A0J8YKS1 SecY/secA suppressor protein n=2 Tax=unclas...  162     1e-49
+  UniRef90_A0A2S5KCP9 SecY/secA suppressor protein n=3 Tax=Pantoe...  161     4e-49
+  UniRef90_A0A071LV95 SecY/secA suppressor protein n=3 Tax=Mangro...  160     1e-48
+  UniRef90_UPI000DEFCF58 secY/secA suppressor protein n=1 Tax=Rah...  157     1e-47
+  UniRef90_A0A097R0H9 SecY/secA suppressor protein n=13 Tax=Enter...  157     1e-47
+  UniRef90_A0A0G3SI11 SecY/secA suppressor protein n=37 Tax=Gamma...  155     6e-47
+  UniRef90_UPI000469B9AA secY/secA suppressor protein n=2 Tax=Erw...  155     1e-46
+  UniRef90_A0A2J9E7H8 SecY/secA suppressor protein n=6 Tax=Erwini...  155     1e-46
+  UniRef90_UPI0004A37DE8 secY/secA suppressor protein n=1 Tax=Tat...  154     2e-46
+  UniRef90_U3U2V6 Uncharacterized protein n=2 Tax=Enterobacterale...  154     4e-46
+  UniRef90_A0A1W5DIJ1 Uncharacterized protein n=23 Tax=Yersiniace...  153     5e-46
+  UniRef90_A0A0U4I9N1 SecY/secA suppressor protein n=4 Tax=Yersin...  152     2e-45
+  UniRef90_A0A0J9BKK5 SecY/secA suppressor protein n=3 Tax=Entero...  151     3e-45
+  UniRef90_A0A2N5EFW7 SecY/secA suppressor protein n=4 Tax=Yersin...  150     1e-44
+  UniRef90_A0A0B1R1Z1 SecY/secA suppressor protein n=3 Tax=Entero...  149     3e-44
+  UniRef90_I2BAH1 Acidic protein MsyB n=1 Tax=Shimwellia blattae ...  148     6e-44
+  UniRef90_A0A2R3H053 SecY/secA suppressor protein n=2 Tax=Serrat...  148     7e-44
+  UniRef90_A0A126VLG0 Acidic protein msyB n=4 Tax=Serratia TaxID=...  146     3e-43
+  UniRef90_UPI0005D3977F secY/secA suppressor protein n=1 Tax=Rou...  145     8e-43
+  UniRef90_A0A085JD91 MsyB family acidic protein n=2 Tax=Tatumell...  145     1e-42
+  UniRef90_A0A3P8M346 SecY/secA suppressor protein n=1 Tax=Raoult...  144     2e-42
+  UniRef90_A0A0Q4M6U1 SecY/secA suppressor protein n=3 Tax=Yersin...  144     4e-42
+  UniRef90_A0A095TAX1 SecY/secA suppressor protein n=2 Tax=Tatume...  141     3e-41
+  UniRef90_D4F3G5 Uncharacterized protein n=4 Tax=Edwardsiella ta...  140     7e-41
+  UniRef90_UPI000948C4FF secY/secA suppressor protein n=1 Tax=Pan...  139     2e-40
+  UniRef90_A0A389MDP4 Uncharacterized protein n=1 Tax=Enterobacte...  139     2e-40
+  UniRef90_UPI00048AA104 secY/secA suppressor protein n=1 Tax=Pha...  137     2e-39
+  UniRef90_UPI000D0AE206 secY/secA suppressor protein n=2 Tax=Ent...  134     4e-39
+  UniRef90_H2IUX6 Uncharacterized protein n=7 Tax=Rahnella TaxID=...  135     1e-38
+  UniRef90_UPI000DD34213 secY/secA suppressor protein n=3 Tax=Rah...  134     4e-38
+  UniRef90_C5BCK9 Uncharacterized protein n=7 Tax=Edwardsiella Ta...  132     7e-38
+  UniRef90_A0A377W3D8 Acidic protein msyB n=1 Tax=Klebsiella pneu...  131     1e-37
+  UniRef90_I0QQP5 SecY/secA suppressor protein n=1 Tax=Serratia s...  132     2e-37
+  UniRef90_A0A377TSR4 Acidic protein msyB n=3 Tax=Klebsiella pneu...  129     2e-36
+  UniRef90_A0A085GB16 MsyB family acidic protein n=3 Tax=Ewingell...  128     5e-36
+  UniRef90_A0A376DIA7 SecY/secA suppressor protein n=2 Tax=Edward...  127     6e-36
+  UniRef90_A0A2L1UQL1 SecY/secA suppressor protein n=2 Tax=Rahnel...  119     2e-32
+  UniRef90_A0A2I0FZN8 SecY/secA suppressor protein n=1 Tax=Entero...  116     3e-31
+  UniRef90_A0A376IV98 Acidic protein MsyB n=1 Tax=Escherichia col...  114     5e-31
+  UniRef90_A0A0Q4MY46 SecY/secA suppressor protein n=3 Tax=Yersin...  115     8e-31
+  UniRef90_A0A376MV46 Acidic protein MsyB n=2 Tax=Escherichia col...  111     3e-30
+  UniRef90_UPI00092D1576 msyB family protein n=1 Tax=Klebsiella p...  103     6e-27
+  UniRef90_A0A381G601 Acidic protein n=1 Tax=Citrobacter amalonat...  95.5    5e-24
+  UniRef90_W1DQR9 Acidic protein msyB n=2 Tax=Klebsiella pneumoni...  83.6    3e-19
+  UniRef90_W1ECF1 Acidic protein msyB n=2 Tax=Klebsiella pneumoni...  83.6    8e-19
+  UniRef90_A0A378EX12 Acidic protein msyB n=1 Tax=Klebsiella oxyt...  81.3    1e-17
+  UniRef90_A0A377WGG9 Acidic protein msyB n=1 Tax=Klebsiella pneu...  55.8    4e-08
+  UniRef90_A0A381H481 Acidic protein n=1 Tax=Citrobacter koseri T...  49.3    4e-06
+  UniRef90_U3J8C9 Uncharacterized protein n=2 Tax=Anas platyrhync...  38.1    1.5  
+  UniRef90_A0A1A7PSW8 Uncharacterized protein n=3 Tax=Gallibacter...  37.4    2.0  
+  UniRef90_UPI000E693492 ShlB/FhaC/HecB family hemolysin secretio...  37.4    2.1  
+  UniRef90_UPI000A18C6C7 IS3 family transposase n=1 Tax=Neisseria...  36.6    3.7  
+  UniRef90_A0A059A6M3 Uncharacterized protein n=1 Tax=Eucalyptus ...  35.4    8.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.132    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 748988185214
+Warning: [psiblast] lcl|Query_1 NP_415569.4: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415569.4
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_G8LIR8 Acidic protein msyB n=133 Tax=Bacteria TaxID=2 ...  202     9e-65
+  UniRef90_A0A1A9F9H6 SecY/secA suppressor protein n=1 Tax=Lellio...  187     2e-59
+  UniRef90_A0A0T9Y848 Acidic protein MsyB n=138 Tax=Salmonella Ta...  187     2e-59
+  UniRef90_P25738 Acidic protein MsyB n=323 Tax=root TaxID=1 RepI...  186     5e-59
+  UniRef90_S3IYQ5 Putative acidic protein MsyB n=2 Tax=Cedecea da...  186     6e-59
+  UniRef90_UPI0005C5625B secY/secA suppressor protein n=1 Tax=Met...  185     1e-58
+  UniRef90_D2TT58 Acidic protein n=3 Tax=Enterobacteriaceae TaxID...  183     4e-58
+  UniRef90_A0A090V2J4 Acidic protein MsyB n=3 Tax=Enterobacteriac...  182     1e-57
+  UniRef90_UPI0004E1CCA7 secY/secA suppressor protein n=1 Tax=Sic...  182     1e-57
+  UniRef90_A0A085GH53 MsyB family acidic protein n=9 Tax=Buttiaux...  182     2e-57
+  UniRef90_A0A0J8VLI6 SecY/secA suppressor protein n=3 Tax=Franco...  181     4e-57
+  UniRef90_A0A2I8Q3A8 SecY/secA suppressor protein n=1 Tax=Entero...  181     4e-57
+  UniRef90_A0A379S653 Acidic protein MsyB n=3 Tax=Salmonella ente...  181     4e-57
+  UniRef90_A0A157GPZ4 Acidic protein msyB n=7 Tax=Enterobacteriac...  180     9e-57
+  UniRef90_A0A1I6CVU4 Acidic protein MsyB n=1 Tax=Enterobacter sp...  180     1e-56
+  UniRef90_A0A089Q0A7 SecY/secA suppressor protein n=8 Tax=cellul...  180     1e-56
+  UniRef90_A0A0D1N4G5 SecY/secA suppressor protein n=4 Tax=Entero...  180     1e-56
+  UniRef90_A0A0F0V800 Acidic protein MsyB n=2 Tax=Pluralibacter g...  180     1e-56
+  UniRef90_A0A285JK86 Acidic protein MsyB n=3 Tax=Enterobacteriac...  179     2e-56
+  UniRef90_C9Y0W4 Acidic protein msyB n=17 Tax=Cronobacter TaxID=...  179     3e-56
+  UniRef90_A0A0L0AP97 SecY/secA suppressor protein n=2 Tax=Entero...  179     4e-56
+  UniRef90_V5ART3 MsyB family protein n=3 Tax=Enterobacteriaceae ...  179     4e-56
+  UniRef90_A0A2P8VQC7 SecY/secA suppressor protein n=1 Tax=Siccib...  178     5e-56
+  UniRef90_A0A133LD96 Acidic protein n=53 Tax=Enterobacteriaceae ...  178     1e-55
+  UniRef90_A0A1B7JBD3 MsyB family acidic protein n=5 Tax=Kluyvera...  176     4e-55
+  UniRef90_UPI000EB20737 secY/secA suppressor protein n=1 Tax=Ent...  176     4e-55
+  UniRef90_D4GC06 MsyB n=8 Tax=Pantoea TaxID=53335 RepID=D4GC06_P...  176     5e-55
+  UniRef90_A0A336QL28 Acidic protein n=1 Tax=Citrobacter freundii...  175     7e-55
+  UniRef90_E1SJK2 Acidic protein msyB n=23 Tax=Pantoea TaxID=5333...  176     7e-55
+  UniRef90_A0A2X2V8X5 Acidic protein n=9 Tax=Gammaproteobacteria ...  175     7e-55
+  UniRef90_A0A248KJ79 SecY/secA suppressor protein n=2 Tax=Kluyve...  175     8e-55
+  UniRef90_UPI0007880D19 secY/secA suppressor protein n=1 Tax=Klu...  175     8e-55
+  UniRef90_UPI00034BB36C SecY/SecA suppressor protein n=1 Tax=Erw...  175     1e-54
+  UniRef90_A0A0K4KP67 Acidic protein MsyB n=29 Tax=Enterobacteria...  175     1e-54
+  UniRef90_UPI000906E347 secY/secA suppressor protein n=1 Tax=Esc...  174     2e-54
+  UniRef90_A0A085AGQ0 MsyB family acidic protein n=4 Tax=Trabulsi...  174     2e-54
+  UniRef90_A0A1D3U658 Acidic protein MsyB n=94 Tax=Enterobacteral...  174     3e-54
+  UniRef90_V5U1L8 Uncharacterized protein n=7 Tax=Cronobacter Tax...  173     7e-54
+  UniRef90_A0A127L3B3 Acidic protein MsyB n=2 Tax=Enterobacteriac...  173     7e-54
+  UniRef90_A0A1N6S7K4 Acidic protein MsyB n=2 Tax=Enterobacter Ta...  172     1e-53
+  UniRef90_A0A2X3F7Q5 Acidic protein msyB n=8 Tax=Klebsiella pneu...  173     1e-53
+  UniRef90_D8MQN5 Acidic protein MsyB n=3 Tax=Erwinia TaxID=551 R...  172     2e-53
+  UniRef90_A0A014LYC0 SecY/secA suppressor protein n=1 Tax=Erwini...  172     3e-53
+  UniRef90_A0A0M2KC94 SecY/secA suppressor protein n=1 Tax=Erwini...  171     7e-53
+  UniRef90_A0A0L7TI75 SecY/secA suppressor protein n=1 Tax=Erwini...  170     1e-52
+  UniRef90_UPI00073D5E3F secY/secA suppressor protein n=1 Tax=[Er...  169     2e-52
+  UniRef90_A0A0A1RQ96 Acidic protein msyB n=4 Tax=Enterobacteriac...  169     2e-52
+  UniRef90_R9VTP6 SecY/SecA suppressor protein n=18 Tax=Enterobac...  169     3e-52
+  UniRef90_UPI000FE3010F secY/secA suppressor protein n=1 Tax=Pan...  168     4e-52
+  UniRef90_D4I0V7 Acidic protein msyB n=7 Tax=Erwinia TaxID=551 R...  168     7e-52
+  UniRef90_A0A0U5GLB9 Acidic protein MsyB n=1 Tax=Erwinia gerunde...  168     1e-51
+  UniRef90_E6WDD7 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  167     2e-51
+  UniRef90_A0A2S9ICR9 SecY/secA suppressor protein n=2 Tax=Erwini...  166     3e-51
+  UniRef90_E3GC99 Uncharacterized protein n=1 Tax=Enterobacter li...  166     4e-51
+  UniRef90_A0A358L4Q1 SecY/secA suppressor protein n=2 Tax=Erwini...  166     4e-51
+  UniRef90_A0A0W2DNH3 SecY/secA suppressor protein n=14 Tax=Enter...  166     4e-51
+  UniRef90_A0A2X2QGE3 SecY/secA suppressor protein n=2 Tax=Yokene...  165     6e-51
+  UniRef90_A0A3N6UUM1 SecY/secA suppressor protein n=1 Tax=Erwini...  165     1e-50
+  UniRef90_A0A0F3M0L8 SecY/secA suppressor protein n=6 Tax=Entero...  165     1e-50
+  UniRef90_A0A1W6BAK5 SecY/secA suppressor protein n=4 Tax=Erwini...  164     3e-50
+  UniRef90_A0A1I4URQ7 Acidic protein MsyB n=2 Tax=Izhakiella TaxI...  163     1e-49
+  UniRef90_A0A2G8EJR7 SecY/secA suppressor protein n=1 Tax=Erwini...  162     1e-49
+  UniRef90_A0A377TSR4 Acidic protein msyB n=3 Tax=Klebsiella pneu...  162     2e-49
+  UniRef90_UPI00054EA329 secY/secA suppressor protein n=2 Tax=Erw...  162     2e-49
+  UniRef90_A0A250AVY5 SecY/secA suppressor protein n=2 Tax=Gibbsi...  160     1e-48
+  UniRef90_A0A0Q4MZI8 SecY/secA suppressor protein n=1 Tax=Erwini...  160     1e-48
+  UniRef90_A0A370QRS2 Acidic protein MsyB n=1 Tax=Enterobacillus ...  160     1e-48
+  UniRef90_UPI000360F821 SecY/SecA suppressor protein n=1 Tax=Pan...  158     8e-48
+  UniRef90_UPI000788A872 secY/secA suppressor protein n=1 Tax=Erw...  156     2e-47
+  UniRef90_UPI000378CDBC SecY/SecA suppressor protein n=1 Tax=Ent...  156     4e-47
+  UniRef90_J2L8E7 Uncharacterized protein n=7 Tax=Enterobacterale...  155     8e-47
+  UniRef90_A0A0J8YKS1 SecY/secA suppressor protein n=2 Tax=unclas...  155     1e-46
+  UniRef90_UPI000743DDC8 secY/secA suppressor protein n=1 Tax=Esc...  153     2e-45
+  UniRef90_A0A381H4B7 Acidic protein n=1 Tax=Citrobacter koseri T...  150     2e-45
+  UniRef90_A0A097R0H9 SecY/secA suppressor protein n=13 Tax=Enter...  150     5e-45
+  UniRef90_A0A0G3SI11 SecY/secA suppressor protein n=37 Tax=Gamma...  150     8e-45
+  UniRef90_A0A2R3H053 SecY/secA suppressor protein n=2 Tax=Serrat...  150     1e-44
+  UniRef90_A0A0J9BKK5 SecY/secA suppressor protein n=3 Tax=Entero...  150     2e-44
+  UniRef90_A0A1W5DIJ1 Uncharacterized protein n=23 Tax=Yersiniace...  149     2e-44
+  UniRef90_U3U2V6 Uncharacterized protein n=2 Tax=Enterobacterale...  149     3e-44
+  UniRef90_UPI000469B9AA secY/secA suppressor protein n=2 Tax=Erw...  149     3e-44
+  UniRef90_UPI000DEFCF58 secY/secA suppressor protein n=1 Tax=Rah...  148     4e-44
+  UniRef90_A0A2J9E7H8 SecY/secA suppressor protein n=6 Tax=Erwini...  148     5e-44
+  UniRef90_UPI0004A37DE8 secY/secA suppressor protein n=1 Tax=Tat...  148     5e-44
+  UniRef90_A0A2S5KCP9 SecY/secA suppressor protein n=3 Tax=Pantoe...  148     9e-44
+  UniRef90_A0A2N5EFW7 SecY/secA suppressor protein n=4 Tax=Yersin...  147     9e-44
+  UniRef90_A0A0U4I9N1 SecY/secA suppressor protein n=4 Tax=Yersin...  147     1e-43
+  UniRef90_W0HYG1 Suppressor of SecY n=4 Tax=Sodalis TaxID=84565 ...  147     1e-43
+  UniRef90_A0A3P8M346 SecY/secA suppressor protein n=1 Tax=Raoult...  146     3e-43
+  UniRef90_UPI000C082537 secY/secA suppressor protein n=1 Tax=Sal...  145     3e-43
+  UniRef90_A0A071LV95 SecY/secA suppressor protein n=3 Tax=Mangro...  146     3e-43
+  UniRef90_A0A126VLG0 Acidic protein msyB n=4 Tax=Serratia TaxID=...  145     6e-43
+  UniRef90_A0A0B1R1Z1 SecY/secA suppressor protein n=3 Tax=Entero...  144     3e-42
+  UniRef90_UPI00092F3DEE secretion protein n=1 Tax=Escherichia co...  141     8e-42
+  UniRef90_A0A389MDP4 Uncharacterized protein n=1 Tax=Enterobacte...  142     1e-41
+  UniRef90_UPI00048AA104 secY/secA suppressor protein n=1 Tax=Pha...  141     5e-41
+  UniRef90_UPI0005D3977F secY/secA suppressor protein n=1 Tax=Rou...  140     6e-41
+  UniRef90_D4F3G5 Uncharacterized protein n=4 Tax=Edwardsiella ta...  138     2e-40
+  UniRef90_A0A378EX12 Acidic protein msyB n=1 Tax=Klebsiella oxyt...  138     4e-40
+  UniRef90_C5BCK9 Uncharacterized protein n=7 Tax=Edwardsiella Ta...  138     5e-40
+  UniRef90_H2IUX6 Uncharacterized protein n=7 Tax=Rahnella TaxID=...  138     7e-40
+  UniRef90_I2BAH1 Acidic protein MsyB n=1 Tax=Shimwellia blattae ...  137     2e-39
+  UniRef90_A0A085JD91 MsyB family acidic protein n=2 Tax=Tatumell...  136     3e-39
+  UniRef90_A0A095TAX1 SecY/secA suppressor protein n=2 Tax=Tatume...  135     9e-39
+  UniRef90_A0A376DIA7 SecY/secA suppressor protein n=2 Tax=Edward...  134     1e-38
+  UniRef90_UPI000DD34213 secY/secA suppressor protein n=3 Tax=Rah...  134     2e-38
+  UniRef90_A0A0Q4M6U1 SecY/secA suppressor protein n=3 Tax=Yersin...  134     3e-38
+  UniRef90_UPI000948C4FF secY/secA suppressor protein n=1 Tax=Pan...  131     3e-37
+  UniRef90_I0QQP5 SecY/secA suppressor protein n=1 Tax=Serratia s...  129     2e-36
+  UniRef90_A0A085GB16 MsyB family acidic protein n=3 Tax=Ewingell...  128     6e-36
+  UniRef90_A0A0Q4MY46 SecY/secA suppressor protein n=3 Tax=Yersin...  124     2e-34
+  UniRef90_A0A2L1UQL1 SecY/secA suppressor protein n=2 Tax=Rahnel...  124     2e-34
+  UniRef90_UPI000D0AE206 secY/secA suppressor protein n=2 Tax=Ent...  121     6e-34
+  UniRef90_A0A2I0FZN8 SecY/secA suppressor protein n=1 Tax=Entero...  120     5e-33
+  UniRef90_A0A377W3D8 Acidic protein msyB n=1 Tax=Klebsiella pneu...  114     2e-31
+  UniRef90_A0A376IV98 Acidic protein MsyB n=1 Tax=Escherichia col...  107     2e-28
+  UniRef90_A0A376MV46 Acidic protein MsyB n=2 Tax=Escherichia col...  97.3    1e-24
+  UniRef90_W1ECF1 Acidic protein msyB n=2 Tax=Klebsiella pneumoni...  94.2    4e-23
+  UniRef90_A0A381G601 Acidic protein n=1 Tax=Citrobacter amalonat...  86.5    2e-20
+  UniRef90_W1DQR9 Acidic protein msyB n=2 Tax=Klebsiella pneumoni...  84.6    1e-19
+  UniRef90_UPI00092D1576 msyB family protein n=1 Tax=Klebsiella p...  82.6    8e-19
+  UniRef90_A0A377WGG9 Acidic protein msyB n=1 Tax=Klebsiella pneu...  78.0    1e-16
+  UniRef90_A0A381H481 Acidic protein n=1 Tax=Citrobacter koseri T...  39.1    0.040
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0H2V6A1 Uncharacterized protein n=1 Tax=Escherichia...  46.0    6e-04
+  UniRef90_A0A2T5VG91 Chaperone protein DnaK n=1 Tax=Breoghania c...  41.8    0.078
+  UniRef90_UPI000A072A22 glucose-6-phosphate dehydrogenase n=1 Ta...  37.2    2.5  
+  UniRef90_A0A0B4Y5V0 Chaperone protein DnaK n=36 Tax=Thalassospi...  36.4    5.0  
+  UniRef90_UPI000DDE9610 PAS domain S-box protein n=1 Tax=Rhizobi...  36.0    6.5  
+  UniRef90_A0A182SDD0 Uncharacterized protein n=1 Tax=Anopheles m...  35.6    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.149    0.479    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0455    0.140     1.90     42.6     43.6 
+
+Effective search space used: 748988185214
+Results from round 3
+
+
+Query= NP_415569.4
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_G8LIR8 Acidic protein msyB n=133 Tax=Bacteria TaxID=2 ...  207     5e-67
+  UniRef90_A0A1A9F9H6 SecY/secA suppressor protein n=1 Tax=Lellio...  194     3e-62
+  UniRef90_A0A0T9Y848 Acidic protein MsyB n=138 Tax=Salmonella Ta...  193     8e-62
+  UniRef90_S3IYQ5 Putative acidic protein MsyB n=2 Tax=Cedecea da...  193     1e-61
+  UniRef90_P25738 Acidic protein MsyB n=323 Tax=root TaxID=1 RepI...  192     1e-61
+  UniRef90_UPI0005C5625B secY/secA suppressor protein n=1 Tax=Met...  192     2e-61
+  UniRef90_D2TT58 Acidic protein n=3 Tax=Enterobacteriaceae TaxID...  190     8e-61
+  UniRef90_A0A085GH53 MsyB family acidic protein n=9 Tax=Buttiaux...  189     2e-60
+  UniRef90_UPI0004E1CCA7 secY/secA suppressor protein n=1 Tax=Sic...  189     3e-60
+  UniRef90_A0A0J8VLI6 SecY/secA suppressor protein n=3 Tax=Franco...  189     4e-60
+  UniRef90_A0A090V2J4 Acidic protein MsyB n=3 Tax=Enterobacteriac...  188     4e-60
+  UniRef90_A0A2I8Q3A8 SecY/secA suppressor protein n=1 Tax=Entero...  188     5e-60
+  UniRef90_A0A157GPZ4 Acidic protein msyB n=7 Tax=Enterobacteriac...  188     7e-60
+  UniRef90_A0A089Q0A7 SecY/secA suppressor protein n=8 Tax=cellul...  187     2e-59
+  UniRef90_A0A1I6CVU4 Acidic protein MsyB n=1 Tax=Enterobacter sp...  187     2e-59
+  UniRef90_A0A0D1N4G5 SecY/secA suppressor protein n=4 Tax=Entero...  187     2e-59
+  UniRef90_A0A133LD96 Acidic protein n=53 Tax=Enterobacteriaceae ...  186     3e-59
+  UniRef90_A0A0F0V800 Acidic protein MsyB n=2 Tax=Pluralibacter g...  186     3e-59
+  UniRef90_V5ART3 MsyB family protein n=3 Tax=Enterobacteriaceae ...  186     4e-59
+  UniRef90_A0A285JK86 Acidic protein MsyB n=3 Tax=Enterobacteriac...  186     5e-59
+  UniRef90_A0A379S653 Acidic protein MsyB n=3 Tax=Salmonella ente...  185     1e-58
+  UniRef90_A0A2P8VQC7 SecY/secA suppressor protein n=1 Tax=Siccib...  185     1e-58
+  UniRef90_A0A0L0AP97 SecY/secA suppressor protein n=2 Tax=Entero...  185     2e-58
+  UniRef90_C9Y0W4 Acidic protein msyB n=17 Tax=Cronobacter TaxID=...  184     2e-58
+  UniRef90_UPI000EB20737 secY/secA suppressor protein n=1 Tax=Ent...  184     2e-58
+  UniRef90_A0A336QL28 Acidic protein n=1 Tax=Citrobacter freundii...  183     7e-58
+  UniRef90_A0A1D3U658 Acidic protein MsyB n=94 Tax=Enterobacteral...  183     8e-58
+  UniRef90_D4GC06 MsyB n=8 Tax=Pantoea TaxID=53335 RepID=D4GC06_P...  183     1e-57
+  UniRef90_A0A1B7JBD3 MsyB family acidic protein n=5 Tax=Kluyvera...  182     1e-57
+  UniRef90_E1SJK2 Acidic protein msyB n=23 Tax=Pantoea TaxID=5333...  182     2e-57
+  UniRef90_UPI0007880D19 secY/secA suppressor protein n=1 Tax=Klu...  181     2e-57
+  UniRef90_UPI00034BB36C SecY/SecA suppressor protein n=1 Tax=Erw...  182     2e-57
+  UniRef90_A0A248KJ79 SecY/secA suppressor protein n=2 Tax=Kluyve...  182     3e-57
+  UniRef90_A0A085AGQ0 MsyB family acidic protein n=4 Tax=Trabulsi...  181     3e-57
+  UniRef90_A0A0K4KP67 Acidic protein MsyB n=29 Tax=Enterobacteria...  181     6e-57
+  UniRef90_UPI000906E347 secY/secA suppressor protein n=1 Tax=Esc...  180     6e-57
+  UniRef90_A0A2X2V8X5 Acidic protein n=9 Tax=Gammaproteobacteria ...  180     6e-57
+  UniRef90_A0A127L3B3 Acidic protein MsyB n=2 Tax=Enterobacteriac...  180     1e-56
+  UniRef90_A0A1N6S7K4 Acidic protein MsyB n=2 Tax=Enterobacter Ta...  180     2e-56
+  UniRef90_V5U1L8 Uncharacterized protein n=7 Tax=Cronobacter Tax...  180     2e-56
+  UniRef90_D8MQN5 Acidic protein MsyB n=3 Tax=Erwinia TaxID=551 R...  179     4e-56
+  UniRef90_A0A2X3F7Q5 Acidic protein msyB n=8 Tax=Klebsiella pneu...  180     5e-56
+  UniRef90_A0A014LYC0 SecY/secA suppressor protein n=1 Tax=Erwini...  178     6e-56
+  UniRef90_A0A0M2KC94 SecY/secA suppressor protein n=1 Tax=Erwini...  177     1e-55
+  UniRef90_A0A0L7TI75 SecY/secA suppressor protein n=1 Tax=Erwini...  177     3e-55
+  UniRef90_UPI00073D5E3F secY/secA suppressor protein n=1 Tax=[Er...  176     3e-55
+  UniRef90_R9VTP6 SecY/SecA suppressor protein n=18 Tax=Enterobac...  176     5e-55
+  UniRef90_A0A0A1RQ96 Acidic protein msyB n=4 Tax=Enterobacteriac...  176     6e-55
+  UniRef90_A0A0W2DNH3 SecY/secA suppressor protein n=14 Tax=Enter...  176     7e-55
+  UniRef90_UPI000FE3010F secY/secA suppressor protein n=1 Tax=Pan...  175     2e-54
+  UniRef90_A0A0U5GLB9 Acidic protein MsyB n=1 Tax=Erwinia gerunde...  175     2e-54
+  UniRef90_D4I0V7 Acidic protein msyB n=7 Tax=Erwinia TaxID=551 R...  174     3e-54
+  UniRef90_A0A358L4Q1 SecY/secA suppressor protein n=2 Tax=Erwini...  174     4e-54
+  UniRef90_A0A2X2QGE3 SecY/secA suppressor protein n=2 Tax=Yokene...  173     7e-54
+  UniRef90_E3GC99 Uncharacterized protein n=1 Tax=Enterobacter li...  173     1e-53
+  UniRef90_E6WDD7 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  173     1e-53
+  UniRef90_A0A3N6UUM1 SecY/secA suppressor protein n=1 Tax=Erwini...  172     2e-53
+  UniRef90_A0A2S9ICR9 SecY/secA suppressor protein n=2 Tax=Erwini...  172     3e-53
+  UniRef90_A0A1W6BAK5 SecY/secA suppressor protein n=4 Tax=Erwini...  170     1e-52
+  UniRef90_A0A1I4URQ7 Acidic protein MsyB n=2 Tax=Izhakiella TaxI...  169     3e-52
+  UniRef90_A0A0F3M0L8 SecY/secA suppressor protein n=6 Tax=Entero...  169     4e-52
+  UniRef90_A0A2G8EJR7 SecY/secA suppressor protein n=1 Tax=Erwini...  168     1e-51
+  UniRef90_UPI00054EA329 secY/secA suppressor protein n=2 Tax=Erw...  166     5e-51
+  UniRef90_A0A0Q4MZI8 SecY/secA suppressor protein n=1 Tax=Erwini...  165     1e-50
+  UniRef90_A0A370QRS2 Acidic protein MsyB n=1 Tax=Enterobacillus ...  164     2e-50
+  UniRef90_UPI000360F821 SecY/SecA suppressor protein n=1 Tax=Pan...  165     2e-50
+  UniRef90_A0A250AVY5 SecY/secA suppressor protein n=2 Tax=Gibbsi...  163     3e-50
+  UniRef90_A0A3P8M346 SecY/secA suppressor protein n=1 Tax=Raoult...  164     3e-50
+  UniRef90_UPI000788A872 secY/secA suppressor protein n=1 Tax=Erw...  162     2e-49
+  UniRef90_UPI000378CDBC SecY/SecA suppressor protein n=1 Tax=Ent...  161     3e-49
+  UniRef90_A0A377TSR4 Acidic protein msyB n=3 Tax=Klebsiella pneu...  161     4e-49
+  UniRef90_J2L8E7 Uncharacterized protein n=7 Tax=Enterobacterale...  160     8e-49
+  UniRef90_A0A0J8YKS1 SecY/secA suppressor protein n=2 Tax=unclas...  160     1e-48
+  UniRef90_UPI000743DDC8 secY/secA suppressor protein n=1 Tax=Esc...  159     5e-48
+  UniRef90_A0A097R0H9 SecY/secA suppressor protein n=13 Tax=Enter...  156     3e-47
+  UniRef90_UPI000DEFCF58 secY/secA suppressor protein n=1 Tax=Rah...  155     1e-46
+  UniRef90_A0A071LV95 SecY/secA suppressor protein n=3 Tax=Mangro...  155     2e-46
+  UniRef90_A0A381H4B7 Acidic protein n=1 Tax=Citrobacter koseri T...  153     2e-46
+  UniRef90_A0A0G3SI11 SecY/secA suppressor protein n=37 Tax=Gamma...  154     2e-46
+  UniRef90_A0A0J9BKK5 SecY/secA suppressor protein n=3 Tax=Entero...  154     2e-46
+  UniRef90_A0A2J9E7H8 SecY/secA suppressor protein n=6 Tax=Erwini...  154     3e-46
+  UniRef90_U3U2V6 Uncharacterized protein n=2 Tax=Enterobacterale...  153     4e-46
+  UniRef90_UPI0004A37DE8 secY/secA suppressor protein n=1 Tax=Tat...  153     4e-46
+  UniRef90_A0A2N5EFW7 SecY/secA suppressor protein n=4 Tax=Yersin...  153     5e-46
+  UniRef90_A0A2S5KCP9 SecY/secA suppressor protein n=3 Tax=Pantoe...  153     5e-46
+  UniRef90_W0HYG1 Suppressor of SecY n=4 Tax=Sodalis TaxID=84565 ...  153     6e-46
+  UniRef90_A0A2R3H053 SecY/secA suppressor protein n=2 Tax=Serrat...  152     1e-45
+  UniRef90_A0A1W5DIJ1 Uncharacterized protein n=23 Tax=Yersiniace...  152     1e-45
+  UniRef90_UPI000469B9AA secY/secA suppressor protein n=2 Tax=Erw...  152     2e-45
+  UniRef90_UPI000C082537 secY/secA suppressor protein n=1 Tax=Sal...  150     5e-45
+  UniRef90_A0A0U4I9N1 SecY/secA suppressor protein n=4 Tax=Yersin...  150     6e-45
+  UniRef90_A0A126VLG0 Acidic protein msyB n=4 Tax=Serratia TaxID=...  150     1e-44
+  UniRef90_A0A0B1R1Z1 SecY/secA suppressor protein n=3 Tax=Entero...  148     4e-44
+  UniRef90_UPI00092F3DEE secretion protein n=1 Tax=Escherichia co...  146     7e-44
+  UniRef90_A0A389MDP4 Uncharacterized protein n=1 Tax=Enterobacte...  148     1e-43
+  UniRef90_I2BAH1 Acidic protein MsyB n=1 Tax=Shimwellia blattae ...  145     8e-43
+  UniRef90_UPI0005D3977F secY/secA suppressor protein n=1 Tax=Rou...  145     9e-43
+  UniRef90_UPI00048AA104 secY/secA suppressor protein n=1 Tax=Pha...  145     1e-42
+  UniRef90_D4F3G5 Uncharacterized protein n=4 Tax=Edwardsiella ta...  144     1e-42
+  UniRef90_H2IUX6 Uncharacterized protein n=7 Tax=Rahnella TaxID=...  144     3e-42
+  UniRef90_A0A085JD91 MsyB family acidic protein n=2 Tax=Tatumell...  142     1e-41
+  UniRef90_C5BCK9 Uncharacterized protein n=7 Tax=Edwardsiella Ta...  142     1e-41
+  UniRef90_A0A095TAX1 SecY/secA suppressor protein n=2 Tax=Tatume...  141     3e-41
+  UniRef90_A0A378EX12 Acidic protein msyB n=1 Tax=Klebsiella oxyt...  141     4e-41
+  UniRef90_UPI000DD34213 secY/secA suppressor protein n=3 Tax=Rah...  141     5e-41
+  UniRef90_A0A376DIA7 SecY/secA suppressor protein n=2 Tax=Edward...  139     2e-40
+  UniRef90_A0A0Q4M6U1 SecY/secA suppressor protein n=3 Tax=Yersin...  139     2e-40
+  UniRef90_I0QQP5 SecY/secA suppressor protein n=1 Tax=Serratia s...  135     6e-39
+  UniRef90_UPI000948C4FF secY/secA suppressor protein n=1 Tax=Pan...  134     2e-38
+  UniRef90_A0A085GB16 MsyB family acidic protein n=3 Tax=Ewingell...  132     2e-37
+  UniRef90_A0A0Q4MY46 SecY/secA suppressor protein n=3 Tax=Yersin...  129     1e-36
+  UniRef90_A0A2L1UQL1 SecY/secA suppressor protein n=2 Tax=Rahnel...  129     1e-36
+  UniRef90_A0A377W3D8 Acidic protein msyB n=1 Tax=Klebsiella pneu...  127     2e-36
+  UniRef90_UPI000D0AE206 secY/secA suppressor protein n=2 Tax=Ent...  124     3e-35
+  UniRef90_A0A2I0FZN8 SecY/secA suppressor protein n=1 Tax=Entero...  124     2e-34
+  UniRef90_A0A376IV98 Acidic protein MsyB n=1 Tax=Escherichia col...  116     8e-32
+  UniRef90_W1ECF1 Acidic protein msyB n=2 Tax=Klebsiella pneumoni...  111     5e-30
+  UniRef90_A0A377WGG9 Acidic protein msyB n=1 Tax=Klebsiella pneu...  106     6e-28
+  UniRef90_A0A376MV46 Acidic protein MsyB n=2 Tax=Escherichia col...  97.6    1e-24
+  UniRef90_UPI00092D1576 msyB family protein n=1 Tax=Klebsiella p...  88.8    2e-21
+  UniRef90_W1DQR9 Acidic protein msyB n=2 Tax=Klebsiella pneumoni...  87.2    9e-21
+  UniRef90_A0A381G601 Acidic protein n=1 Tax=Citrobacter amalonat...  86.8    1e-20
+  UniRef90_A0A0H2V6A1 Uncharacterized protein n=1 Tax=Escherichia...  82.6    4e-18
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A381H481 Acidic protein n=1 Tax=Citrobacter koseri T...  42.5    0.002
+  UniRef90_A0A1Z8V4K0 Uncharacterized protein n=2 Tax=Bacteria Ta...  39.8    0.25 
+  UniRef90_A0A382HJF9 Uncharacterized protein n=1 Tax=marine meta...  37.9    0.33 
+  UniRef90_UPI000BBEB6D1 uncharacterized protein LOC111208016 n=6...  39.8    0.39 
+  UniRef90_A0A2D4R0N8 Uncharacterized protein n=1 Tax=Cryomorphac...  39.1    0.49 
+  UniRef90_A0A166DXL2 Uncharacterized protein n=4 Tax=Daucus caro...  39.1    0.57 
+  UniRef90_A0A182SDD0 Uncharacterized protein n=1 Tax=Anopheles m...  38.7    0.83 
+  UniRef90_A0A3M0JNE8 Uncharacterized protein n=1 Tax=Hirundo rus...  38.7    1.00 
+  UniRef90_A0A1F4BYV9 Acyl-CoA dehydrogenase n=2 Tax=unclassified...  37.9    1.7  
+  UniRef90_A0A316GRL4 Acetoacetyl-CoA synthetase n=1 Tax=Aminobac...  37.5    1.9  
+  UniRef90_E4ZWU3 Uncharacterized protein n=1 Tax=Leptosphaeria m...  37.5    2.4  
+  UniRef90_A0A2T5VG91 Chaperone protein DnaK n=1 Tax=Breoghania c...  37.1    2.5  
+  UniRef90_Q2T9I1 MGC78972 protein n=2 Tax=Xenopus laevis TaxID=8...  36.4    5.2  
+  UniRef90_H0ZHV2 Ras association domain family member 7 n=25 Tax...  35.6    8.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.155    0.493    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0475    0.140     1.90     42.6     43.6 
+
+Effective search space used: 748988185214
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

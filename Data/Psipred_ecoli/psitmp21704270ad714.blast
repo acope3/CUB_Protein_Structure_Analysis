@@ -1,0 +1,1578 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415443.2
+
+Length=234
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P22524 Chromosome partition protein MukE n=847 Tax=Bac...  479     3e-171
+  UniRef90_A0A1D3U6D5 Chromosome partition protein MukE n=37 Tax=...  458     4e-163
+  UniRef90_A0A089PUV5 Chromosome partition protein MukE n=4 Tax=E...  440     4e-156
+  UniRef90_A0A3A5JWY7 Chromosome partition protein MukE n=22 Tax=...  431     2e-152
+  UniRef90_C9Y084 Chromosome partition protein MukE n=34 Tax=Ente...  429     2e-151
+  UniRef90_UPI0008FB5699 chromosome partition protein MukE n=1 Ta...  422     1e-148
+  UniRef90_I2BAM9 Chromosome partition protein MukE n=3 Tax=Enter...  418     2e-147
+  UniRef90_A0A0L7TJ04 Chromosome partition protein MukE n=6 Tax=E...  416     2e-146
+  UniRef90_UPI000FE3E101 chromosome partition protein MukE n=1 Ta...  412     1e-144
+  UniRef90_D4I0A1 Chromosome partition protein MukE n=18 Tax=Ente...  411     2e-144
+  UniRef90_A0A087L6G6 Chromosome partition protein MukE n=54 Tax=...  407     7e-143
+  UniRef90_A0A1W6B0E4 Chromosome partition protein MukE n=4 Tax=E...  405     3e-142
+  UniRef90_E5YD54 Chromosome partition protein MukE n=12 Tax=Ente...  405     3e-142
+  UniRef90_UPI000DEFC34E chromosome partition protein MukE n=1 Ta...  405     3e-142
+  UniRef90_I0QU21 Chromosome partition protein MukE n=2 Tax=Yersi...  405     4e-142
+  UniRef90_UPI000F689BD0 chromosome partition protein MukE n=1 Ta...  403     3e-141
+  UniRef90_J3HPS6 Chromosome partition protein MukE n=39 Tax=Ente...  402     1e-140
+  UniRef90_A0A083ZWB5 Chromosome partition protein MukE n=5 Tax=B...  401     2e-140
+  UniRef90_H2IS77 Chromosome partition protein MukE n=17 Tax=Ente...  400     4e-140
+  UniRef90_A0A0B1R7Z8 Chromosome partition protein MukE n=16 Tax=...  400     5e-140
+  UniRef90_D8MQD9 Chromosome partition protein MukE n=10 Tax=Ente...  399     6e-140
+  UniRef90_A0A2N5ETQ9 Chromosome partition protein MukE n=3 Tax=u...  399     2e-139
+  UniRef90_A0A246NJK1 Chromosome partition protein MukE n=5 Tax=P...  397     7e-139
+  UniRef90_A0A2I0FX31 Chromosome partition protein MukE n=1 Tax=E...  396     2e-138
+  UniRef90_UPI0004AF002C chromosome partition protein MukE n=1 Ta...  395     3e-138
+  UniRef90_E0LYK5 Chromosome partition protein MukE n=13 Tax=Pant...  395     5e-138
+  UniRef90_UPI000FDDFEE7 UPI000FDDFEE7 related cluster n=1 Tax=un...  394     9e-138
+  UniRef90_UPI00035E9EB6 chromosome partition protein MukE n=1 Ta...  393     2e-137
+  UniRef90_A0A1E7Z4X0 Chromosome partition protein MukE n=2 Tax=C...  392     3e-137
+  UniRef90_UPI000948B329 chromosome partition protein MukE n=1 Ta...  392     6e-137
+  UniRef90_A0A2Y9U1G0 Chromosome partition protein MukE n=1 Tax=L...  390     3e-136
+  UniRef90_UPI000F09A710 chromosome partition protein MukE n=1 Ta...  391     3e-136
+  UniRef90_Q8D049 Chromosome partition protein MukE n=66 Tax=Yers...  390     4e-136
+  UniRef90_Q2NU98 Chromosome partition protein MukE n=6 Tax=Sodal...  389     1e-135
+  UniRef90_A0A0U5L114 Chromosome partition protein MukE n=1 Tax=E...  387     7e-135
+  UniRef90_A0A0A2VZ14 Chromosome partition protein mukF n=1 Tax=B...  409     8e-135
+  UniRef90_A0A095VG17 Chromosome partition protein MukE n=5 Tax=T...  387     1e-134
+  UniRef90_A0A0G3CU10 Chromosome partition protein MukE n=4 Tax=B...  384     7e-134
+  UniRef90_D0Z9L8 Chromosome partition protein MukE n=13 Tax=Hafn...  382     4e-133
+  UniRef90_D3UWV9 Chromosome partition protein MukE n=16 Tax=Xeno...  382     9e-133
+  UniRef90_B6XBZ0 Chromosome partition protein MukE n=15 Tax=Prov...  381     2e-132
+  UniRef90_A0A0J8YVD7 Chromosome partition protein MukE n=3 Tax=E...  380     6e-132
+  UniRef90_Q6D446 Chromosome partition protein MukE n=33 Tax=Pect...  378     2e-131
+  UniRef90_A0A0J5FX77 Chromosome partition protein MukE n=1 Tax=X...  379     3e-131
+  UniRef90_A0A1B7K0M7 Chromosome partition protein MukE n=1 Tax=P...  377     4e-131
+  UniRef90_E0SAS4 Chromosome partition protein MukE n=20 Tax=Ente...  377     8e-131
+  UniRef90_A0A2X1IFN7 Chromosome partition protein MukE n=1 Tax=E...  375     2e-130
+  UniRef90_A0A0M0T789 Chromosome partition protein MukE n=13 Tax=...  374     9e-130
+  UniRef90_UPI000DCA4EB4 chromosome partition protein MukE n=1 Ta...  374     1e-129
+  UniRef90_UPI0009AFF50A chromosome partition protein MukE n=1 Ta...  370     3e-129
+  UniRef90_A0A2I5TLI9 Chromosome partition protein MukE n=7 Tax=E...  370     2e-128
+  UniRef90_A0A0N0I966 Chromosome partition protein MukE n=2 Tax=M...  370     4e-128
+  UniRef90_A0A068R6V2 Chromosome partition protein MukE n=6 Tax=X...  370     5e-128
+  UniRef90_A0A068QQQ8 Chromosome partition protein MukE n=3 Tax=X...  369     6e-128
+  UniRef90_Q7N6B8 Chromosome partition protein MukE n=27 Tax=Phot...  368     1e-127
+  UniRef90_K8WLU6 Chromosome partition protein MukE n=10 Tax=Gamm...  367     4e-127
+  UniRef90_A0A2U8I6L3 Chromosome partition protein MukE n=1 Tax=C...  367     5e-127
+  UniRef90_A0A2A2GXL8 Chromosome partition protein MukE n=3 Tax=A...  365     3e-126
+  UniRef90_A0A1B7JHQ8 Chromosome partition protein MukE n=31 Tax=...  358     2e-123
+  UniRef90_R8AUQ5 Chromosome partition protein MukE n=4 Tax=Plesi...  358     2e-123
+  UniRef90_UPI000EB1021E chromosome partition protein MukE n=1 Ta...  353     1e-121
+  UniRef90_UPI00046A1264 chromosome partition protein MukE n=1 Ta...  352     4e-121
+  UniRef90_A0A242NFT7 Chromosome partition protein MukE n=39 Tax=...  352     5e-121
+  UniRef90_A0A333FER7 Chromosome partition protein MukE n=22 Tax=...  352     5e-121
+  UniRef90_UPI00046524C2 chromosome partition protein MukE n=1 Ta...  351     1e-120
+  UniRef90_UPI00048DE880 chromosome partition protein MukE n=1 Ta...  350     2e-120
+  UniRef90_A0A0A7S893 Chromosome partition protein MukE n=1 Tax=F...  351     3e-120
+  UniRef90_E0WS00 Protein involved in chromosome partitioning n=3...  345     1e-118
+  UniRef90_A0A1H9ZAJ1 Chromosome partition protein MukE n=2 Tax=T...  342     1e-116
+  UniRef90_A0A249E0S7 Chromosome partitioning protein MukE n=4 Ta...  335     2e-114
+  UniRef90_UPI000509FAE2 chromosome partition protein MukE n=3 Ta...  329     4e-112
+  UniRef90_A0A2M8RYZ4 Chromosome partition protein MukE n=1 Tax=C...  329     6e-112
+  UniRef90_A0A378DHE3 Condesin subunit E n=2 Tax=Enterobacteriace...  320     1e-109
+  UniRef90_A0A0F5ASE6 Chromosome partition protein MukE n=14 Tax=...  322     3e-109
+  UniRef90_A0A356E8N0 Chromosome partition protein MukE n=1 Tax=P...  322     4e-109
+  UniRef90_A0A377I725 Chromosome partition protein MukE n=3 Tax=A...  322     4e-109
+  UniRef90_A0A0F5EYM5 Chromosome partition protein MukE n=6 Tax=A...  321     8e-109
+  UniRef90_Q9CN37 Chromosome partition protein MukE n=20 Tax=Past...  321     1e-108
+  UniRef90_A0A0F5VF60 Chromosome partition protein MukE n=3 Tax=V...  320     2e-108
+  UniRef90_A0A090QTJ5 Chromosome partition protein MukE n=1 Tax=P...  320     4e-108
+  UniRef90_A0A1V3K905 Chromosome partition protein MukE n=1 Tax=R...  320     4e-108
+  UniRef90_A0A2T3NXZ1 Chromosome partition protein MukE n=3 Tax=P...  320     4e-108
+  UniRef90_Q65TL8 Chromosome partition protein MukE n=2 Tax=Basfi...  318     1e-107
+  UniRef90_A0A0A3APG2 Chromosome partition protein MukE n=1 Tax=C...  318     2e-107
+  UniRef90_A0A0J1HGV2 Chromosome partition protein MukE n=7 Tax=P...  318     2e-107
+  UniRef90_L8JJE8 Chromosome partition protein MukE n=1 Tax=Photo...  317     3e-107
+  UniRef90_A0A2T3Q4P1 Chromosome partition protein MukE n=8 Tax=P...  317     3e-107
+  UniRef90_A0A2M8H394 Chromosome partition protein MukE n=1 Tax=V...  317     4e-107
+  UniRef90_A0A0J8VFG2 Chromosome partition protein MukE n=4 Tax=P...  317     4e-107
+  UniRef90_A0A1M5XWX4 Chromosome partition protein MukE n=2 Tax=V...  317     5e-107
+  UniRef90_A0A142FXD1 Chromosome partition protein MukE n=30 Tax=...  317     5e-107
+  UniRef90_D0IA16 Chromosome partition protein MukE n=10 Tax=Vibr...  316     1e-106
+  UniRef90_A0A1R4B2X0 Chromosome partition protein MukE n=2 Tax=V...  316     1e-106
+  UniRef90_F0ETX8 Chromosome partition protein MukE n=6 Tax=Haemo...  316     2e-106
+  UniRef90_P45186 Chromosome partition protein MukE n=136 Tax=Bac...  315     2e-106
+  UniRef90_A6VP66 Chromosome partition protein MukE n=2 Tax=Paste...  315     3e-106
+  UniRef90_A0A1W1V0H9 Chromosome partition protein MukE n=2 Tax=P...  315     3e-106
+  UniRef90_Q2C3X6 Chromosome partition protein MukE n=11 Tax=Phot...  315     4e-106
+  UniRef90_A0A1I5R9G5 Chromosome partition protein MukE n=5 Tax=E...  315     4e-106
+  UniRef90_A0A2N8ZCH5 Chromosome partition protein MukE n=2 Tax=V...  314     4e-106
+  UniRef90_A0A3N9TCM6 Chromosome partition protein MukE n=1 Tax=V...  314     5e-106
+  UniRef90_A0A263HBM4 Chromosome partition protein MukE n=3 Tax=P...  313     6e-106
+  UniRef90_F0LSH7 Chromosome partition protein MukE n=7 Tax=Vibri...  314     7e-106
+  UniRef90_A0A2N7D6C5 Chromosome partition protein MukE n=1 Tax=V...  313     9e-106
+  UniRef90_UPI0006CFFAFD chromosome partition protein MukE n=1 Ta...  312     2e-105
+  UniRef90_A0A1V3JS12 Chromosome partition protein MukE n=2 Tax=R...  311     5e-105
+  UniRef90_A0A0W8JFP8 Chromosome partition protein MukE n=11 Tax=...  311     6e-105
+  UniRef90_UPI000838935F chromosome partition protein MukE n=1 Ta...  311     1e-104
+  UniRef90_I3DIL1 Chromosome partition protein MukE n=2 Tax=Paste...  310     1e-104
+  UniRef90_A0A1E5D608 Chromosome partition protein MukE n=2 Tax=V...  310     2e-104
+  UniRef90_A0A0J5S5M6 Chromosome partition protein MukE n=1 Tax=M...  309     3e-104
+  UniRef90_A0A1C3EE00 Chromosome partition protein MukE n=1 Tax=E...  309     5e-104
+  UniRef90_A0A2M8S5N0 Chromosome partition protein MukE n=1 Tax=C...  309     6e-104
+  UniRef90_A0A090S1A8 Chromosome partition protein MukE n=3 Tax=V...  308     2e-103
+  UniRef90_B7VMH1 Chromosome partition protein MukE n=105 Tax=Vib...  308     2e-103
+  UniRef90_UPI000EAD32C0 chromosome partition protein MukE n=1 Ta...  307     2e-103
+  UniRef90_A6D7K4 Chromosome partition protein MukE n=10 Tax=Vibr...  307     3e-103
+  UniRef90_UPI000B359198 chromosome partition protein MukE n=1 Ta...  308     4e-103
+  UniRef90_A0A2J8GNZ6 Chromosome partition protein MukE n=6 Tax=V...  307     4e-103
+  UniRef90_UPI000B34BB83 chromosome partition protein MukE n=1 Ta...  306     5e-103
+  UniRef90_UPI000E3DFCDB chromosome partition protein MukE n=1 Ta...  306     6e-103
+  UniRef90_UPI000D01DC93 chromosome partition protein MukE n=1 Ta...  307     7e-103
+  UniRef90_W0R560 Chromosome partition protein MukE n=3 Tax=Biber...  305     3e-102
+  UniRef90_A0A2N7DGI3 Chromosome partition protein MukE n=2 Tax=V...  303     7e-102
+  UniRef90_A0A2A4GH51 Chromosome partition protein MukE n=4 Tax=S...  303     1e-101
+  UniRef90_V5FCP0 Chromosome partition protein MukE n=6 Tax=Vibri...  303     1e-101
+  UniRef90_A0A2T3R2E0 Chromosome partition protein MukE n=23 Tax=...  303     2e-101
+  UniRef90_A0A1T4KGL1 Chromosome partition protein MukE n=3 Tax=V...  302     2e-101
+  UniRef90_A0A1E5E1Y7 Chromosome partition protein MukE n=1 Tax=V...  303     3e-101
+  UniRef90_A0A1T0B6V4 Chromosome partition protein MukE n=1 Tax=[...  302     3e-101
+  UniRef90_UPI000F706AF8 chromosome partition protein MukE n=1 Ta...  302     3e-101
+  UniRef90_A0A380TXH4 Chromosome partition protein MukE n=1 Tax=[...  302     4e-101
+  UniRef90_F4H9L4 Chromosome partition protein MukE n=19 Tax=Gall...  301     7e-101
+  UniRef90_B0UU63 Chromosome partition protein MukE n=5 Tax=Paste...  301     8e-101
+  UniRef90_Q6LPL4 Chromosome partition protein MukE n=5 Tax=Photo...  300     9e-101
+  UniRef90_W0Q9B9 Chromosome partition protein MukE n=17 Tax=Past...  301     9e-101
+  UniRef90_A0A0B8P6E3 Chromosome partition protein mukE n=3 Tax=V...  300     9e-101
+  UniRef90_B6ERZ8 Chromosome partition protein MukE n=15 Tax=Alii...  299     3e-100
+  UniRef90_UPI000DD84ED8 chromosome partition protein MukE n=1 Ta...  299     3e-100
+  UniRef90_U4SN40 Chromosome partition protein mukE n=17 Tax=Past...  299     4e-100
+  UniRef90_A0A1H7Y9Z5 Chromosome partition protein MukE n=1 Tax=P...  299     4e-100
+  UniRef90_A0A368LNB0 Chromosome partition protein MukE n=6 Tax=V...  300     7e-100
+  UniRef90_A0A1T0AT07 Chromosome partition protein MukE n=1 Tax=H...  298     8e-100
+  UniRef90_A0A011P6D5 Chromosome partition protein MukE n=4 Tax=M...  298     1e-99 
+  UniRef90_A0A379C8R7 Chromosome partition protein MukE n=1 Tax=P...  298     1e-99 
+  UniRef90_C9P493 Chromosome partition protein MukE n=4 Tax=Vibri...  297     2e-99 
+  UniRef90_A0A0L7YY99 Chromosome partition protein MukE n=16 Tax=...  297     3e-99 
+  UniRef90_UPI0008D98A0E chromosome partition protein MukE n=1 Ta...  296     4e-99 
+  UniRef90_A0A090PND6 Chromosome partition protein MukE n=5 Tax=V...  296     5e-99 
+  UniRef90_UPI000F6856DB chromosome partition protein MukE n=2 Ta...  296     5e-99 
+  UniRef90_A0A1V3TMC4 Chromosome partition protein MukE n=1 Tax=P...  296     5e-99 
+  UniRef90_A0A2N7GG71 Chromosome partition protein MukE n=2 Tax=V...  296     6e-99 
+  UniRef90_U4K6B1 Chromosome partition protein MukE n=7 Tax=Vibri...  295     7e-99 
+  UniRef90_A0A3N4X3V1 Condensin subunit MukE n=1 Tax=Frederikseni...  295     1e-98 
+  UniRef90_U3B895 Chromosome partition protein MukE n=4 Tax=Vibri...  295     2e-98 
+  UniRef90_E3BF66 Chromosome partition protein MukE n=2 Tax=Vibri...  295     2e-98 
+  UniRef90_A0A1E5BHM8 Chromosome partition protein MukE n=3 Tax=V...  295     3e-98 
+  UniRef90_A0A376JZ55 Condesin subunit E n=26 Tax=root TaxID=1 Re...  290     3e-98 
+  UniRef90_A0A1G7Z968 Chromosome partition protein MukE n=1 Tax=V...  294     6e-98 
+  UniRef90_UPI000B35F8F9 chromosome partition protein MukE n=1 Ta...  293     7e-98 
+  UniRef90_Q9KRC7 Chromosome partition protein MukE n=59 Tax=Vibr...  293     8e-98 
+  UniRef90_Q7VL95 Chromosome partition protein MukE n=3 Tax=Haemo...  293     1e-97 
+  UniRef90_A3MZU6 Chromosome partition protein MukE n=7 Tax=Actin...  292     2e-97 
+  UniRef90_Q8DAP9 Chromosome partition protein MukE n=17 Tax=Vibr...  291     2e-97 
+  UniRef90_A0A3N4W8P7 Condensin subunit MukE n=1 Tax=Vespertiliib...  291     4e-97 
+  UniRef90_A0A377I3M9 Condesin subunit E n=7 Tax=Haemophilus TaxI...  291     5e-97 
+  UniRef90_Q87QW3 Chromosome partition protein MukE n=129 Tax=Vib...  288     5e-96 
+  UniRef90_A0A1X1MQG3 Condesin subunit E n=1 Tax=Vibrio sp. qd031...  288     8e-96 
+  UniRef90_J4TTW3 MukE-like family protein n=3 Tax=Haemophilus sp...  288     9e-96 
+  UniRef90_A0A377M4B3 Condesin subunit E n=1 Tax=Enterobacter clo...  284     2e-95 
+  UniRef90_A0A378DYK6 Condesin subunit E n=3 Tax=Enterobacteriace...  282     5e-95 
+  UniRef90_C4LER0 Chromosome segregation and condensation protein...  286     7e-95 
+  UniRef90_A0A379FGE7 Condesin subunit E n=1 Tax=Proteus mirabili...  280     2e-93 
+  UniRef90_UPI000970BEAE chromosome partition protein MukE n=1 Ta...  275     1e-90 
+  UniRef90_A0A1Y0D1I4 Chromosome partitioning protein MukE n=2 Ta...  271     5e-89 
+  UniRef90_A0A3A9IRC4 Chromosome partition protein MukE n=74 Tax=...  269     3e-88 
+  UniRef90_A0A0H6HY56 Condesin subunit E n=1 Tax=Vibrio cholerae ...  267     6e-88 
+  UniRef90_A0A291HPQ1 Condesin subunit E n=4 Tax=Aeromonadaceae T...  266     2e-87 
+  UniRef90_H2FW85 Condesin subunit E n=7 Tax=Aeromonadaceae TaxID...  265     1e-86 
+  UniRef90_A5L1B6 Condesin subunit E n=1 Tax=Vibrionales bacteriu...  263     1e-86 
+  UniRef90_A0A1Y0CV00 Chromosome partitioning protein MukE n=1 Ta...  260     8e-85 
+  UniRef90_UPI000E745CA3 chromosome partition protein MukE n=1 Ta...  259     3e-84 
+  UniRef90_A0A0S2SIB3 Condesin subunit E n=5 Tax=Aeromonas TaxID=...  251     2e-81 
+  UniRef90_A0A376VLU7 Condesin subunit E n=1 Tax=Escherichia coli...  241     3e-78 
+  UniRef90_A0A3A1Y8D3 Chromosome partitioning protein MukE n=1 Ta...  246     1e-77 
+  UniRef90_A0A376SXY2 Condesin subunit E n=2 Tax=Enterobacteriace...  234     5e-76 
+  UniRef90_A0A0H8TYH1 Condesin subunit E n=1 Tax=Vibrio cholerae ...  231     4e-74 
+  UniRef90_A0A3A1Y9L2 Chromosome partitioning protein MukE n=1 Ta...  237     1e-73 
+  UniRef90_A0A0H6HMS0 Condesin subunit E n=3 Tax=Vibrio cholerae ...  223     6e-71 
+  UniRef90_A0A090T207 Chromosome partition protein MukE n=1 Tax=V...  214     1e-67 
+  UniRef90_A0A3P8KNX8 Condesin subunit E n=1 Tax=Raoultella terri...  211     4e-67 
+  UniRef90_UPI000792C3B4 chromosome partition protein MukE n=1 Ta...  202     2e-63 
+  UniRef90_W1BA41 Chromosome partition protein MukF n=17 Tax=Ente...  213     1e-62 
+  UniRef90_A0A377AWD7 Condesin subunit E n=1 Tax=Escherichia coli...  200     2e-62 
+  UniRef90_A0A3P4HKQ7 Chromosome partition protein MukE n=1 Tax=K...  200     2e-62 
+  UniRef90_A0A2X5BFK1 Condesin subunit E n=2 Tax=Enterobacteriace...  196     1e-61 
+  UniRef90_A0A2X3IX71 Condesin subunit E n=4 Tax=Enterobacteriace...  192     6e-60 
+  UniRef90_A0A2X3I787 Condesin subunit E n=1 Tax=Klebsiella pneum...  192     2e-59 
+  UniRef90_A0A090T6I1 Chromosome partition protein MukE n=1 Tax=V...  169     1e-50 
+  UniRef90_A0A376ZU82 Condesin subunit E n=1 Tax=Escherichia coli...  167     2e-50 
+  UniRef90_A0A364UK31 Chromosome partitioning protein MukE (Fragm...  167     4e-50 
+  UniRef90_A0A376ZR57 Condesin subunit E n=1 Tax=Escherichia coli...  158     5e-46 
+  UniRef90_A0A379WW29 Condesin subunit E n=1 Tax=Salmonella enter...  155     6e-46 
+  UniRef90_A0A090REH7 Chromosome partition protein MukE n=1 Tax=V...  155     5e-45 
+  UniRef90_A0A377TP68 Condesin subunit E n=1 Tax=Klebsiella pneum...  152     1e-44 
+  UniRef90_A0A379WBJ5 Condesin subunit E n=2 Tax=Enterobacteriace...  143     7e-41 
+  UniRef90_A0A376KX43 Condesin subunit E n=1 Tax=Escherichia coli...  139     2e-39 
+  UniRef90_W1ENK0 Chromosome partition protein MukE n=1 Tax=Klebs...  133     6e-37 
+  UniRef90_W1XH97 Chromosome partition protein MukE (Fragment) n=...  131     2e-36 
+  UniRef90_O30870 MukE homolog (Fragment) n=1 Tax=Haemophilus inf...  130     8e-36 
+  UniRef90_W1HRE1 Chromosome partition protein MukE n=1 Tax=Klebs...  124     5e-33 
+  UniRef90_A0A090S206 Chromosome partition protein MukE n=1 Tax=V...  121     8e-32 
+  UniRef90_A0A377DVY1 Condesin subunit E n=1 Tax=Escherichia coli...  119     1e-31 
+  UniRef90_A0A2X4YKR5 Condesin subunit E n=1 Tax=Klebsiella oxyto...  119     2e-31 
+  UniRef90_A0A376F5A6 Condesin subunit E n=1 Tax=Enterobacter asb...  118     2e-31 
+  UniRef90_A0A376RKX6 Condesin subunit E n=1 Tax=Escherichia coli...  118     5e-31 
+  UniRef90_UPI0007862043 hypothetical protein n=1 Tax=Endozoicomo...  117     6e-29 
+  UniRef90_A0A142BDH5 Chromosome partition protein n=2 Tax=Endozo...  118     6e-29 
+  UniRef90_A0A1M3N943 Condensin subunit E n=1 Tax=Myxococcales ba...  116     1e-28 
+  UniRef90_UPI000C769AFB hypothetical protein n=1 Tax=Endozoicomo...  116     3e-28 
+  UniRef90_A0A378N5F9 Chromosome partition protein mukE n=1 Tax=M...  111     5e-28 
+  UniRef90_A0A1D2X596 Uncharacterized protein n=1 Tax=Endozoicomo...  112     9e-27 
+  UniRef90_A0A081K5S8 Uncharacterized protein n=2 Tax=Endozoicomo...  111     2e-26 
+  UniRef90_UPI00037E74BA hypothetical protein n=1 Tax=Lamprocysti...  108     1e-25 
+  UniRef90_S4XVI7 Uncharacterized protein n=3 Tax=Sorangium cellu...  107     3e-25 
+  UniRef90_A0A381H5L1 Condesin subunit E n=1 Tax=Citrobacter kose...  102     4e-25 
+  UniRef90_A0A0G9I850 Condesin subunit E n=2 Tax=Xanthomonas hyac...  106     1e-24 
+  UniRef90_A0A2N5QNY0 Condensin subunit MukE n=2 Tax=Chromobacter...  105     2e-24 
+  UniRef90_A0A379WCM5 Condesin subunit E n=1 Tax=Salmonella enter...  100     2e-24 
+  UniRef90_A0A150QC39 Condensin subunit E n=2 Tax=Sorangium cellu...  105     3e-24 
+  UniRef90_UPI000471BD38 condensin subunit E n=1 Tax=Thioalkalivi...  104     6e-24 
+  UniRef90_A0A379I4M3 Chromosome partition protein mukE n=16 Tax=...  103     9e-24 
+  UniRef90_A0A3M8NVH5 Condensin subunit E n=1 Tax=Marichromatium ...  103     2e-23 
+  UniRef90_L0H1D6 Uncharacterized protein involved in chromosome ...  103     2e-23 
+  UniRef90_UPI0009B8935D hypothetical protein n=1 Tax=Chromobacte...  104     2e-23 
+  UniRef90_A0A1B4V7S5 Condesin subunit E n=1 Tax=Sulfurifustis va...  102     2e-23 
+  UniRef90_A0A2W4LK23 Condensin subunit E n=1 Tax=Proteobacteria ...  104     3e-23 
+  UniRef90_A9G7H3 Chromosome partition protein mukE n=3 Tax=Soran...  103     3e-23 
+  UniRef90_A0A1M3NHR6 Uncharacterized protein n=1 Tax=Myxococcale...  105     6e-23 
+  UniRef90_A0A379RCK8 Condesin subunit E n=1 Tax=Salmonella enter...  95.9    1e-22 
+  UniRef90_A0A0K1QDP3 Chromosome partition protein MukE n=1 Tax=L...  102     1e-22 
+  UniRef90_A0A090T7V0 Chromosome partition protein MukE n=1 Tax=V...  97.1    2e-22 
+  UniRef90_A0A1F9F1Q9 Condensin subunit E n=1 Tax=Deltaproteobact...  96.7    5e-21 
+  UniRef90_W1HPI7 Chromosome partition protein MukE n=1 Tax=Klebs...  90.5    1e-20 
+  UniRef90_UPI0005B7CFEE hypothetical protein n=1 Tax=Paraburkhol...  94.7    2e-20 
+  UniRef90_UPI000CD15987 condensin subunit E n=1 Tax=Pseudomonas ...  94.7    3e-20 
+  UniRef90_A0A376VK89 Condesin subunit E n=2 Tax=Enterobacteriace...  88.2    8e-20 
+  UniRef90_A0A2Z4FKM0 Condensin subunit E n=1 Tax=Bradymonas sedi...  93.6    8e-20 
+  UniRef90_UPI000DE58332 hypothetical protein n=1 Tax=Escherichia...  86.7    5e-19 
+  UniRef90_UPI000E1BEEF7 thioredoxin-disulfide reductase n=1 Tax=...  89.0    7e-18 
+  UniRef90_A0A376VNS1 Condesin subunit E n=1 Tax=Escherichia coli...  82.0    2e-17 
+  UniRef90_A0A150S017 Condensin subunit E (Fragment) n=1 Tax=Sora...  85.5    3e-17 
+  UniRef90_A0A090SDC1 Chromosome partition protein MukE n=1 Tax=V...  79.3    3e-16 
+  UniRef90_A0A379BAU3 Chromosome partition protein MukE n=1 Tax=P...  69.3    2e-12 
+  UniRef90_B8K5Q3 Condesin subunit E n=1 Tax=Vibrio sp. 16 TaxID=...  68.9    5e-12 
+  UniRef90_A0A0H6F5E2 Condesin subunit E n=2 Tax=Vibrio cholerae ...  67.4    2e-11 
+  UniRef90_A0A378N5E1 Chromosome partition protein mukE n=1 Tax=M...  66.6    3e-11 
+  UniRef90_A0A1B1E8P6 Uncharacterized protein n=1 Tax=Vibrio natr...  70.1    4e-11 
+  UniRef90_K8CAN4 Chromosome partition protein MukE n=1 Tax=Crono...  64.7    9e-11 
+  UniRef90_A0A376JYA6 Condesin subunit E n=1 Tax=Escherichia coli...  62.4    4e-10 
+  UniRef90_A0A0T9R4G8 Condesin subunit E n=20 Tax=Enterobacterale...  67.4    5e-10 
+  UniRef90_A0KX07 Thioredoxin-disulfide reductase n=1 Tax=Shewane...  65.5    2e-09 
+  UniRef90_A0A377AWX6 Condesin subunit E n=1 Tax=Escherichia coli...  59.7    6e-09 
+  UniRef90_A0A1Q9HR88 Uncharacterized protein n=3 Tax=Vibrio TaxI...  63.2    2e-08 
+  UniRef90_A0A022PKM2 Bacterial condensin subunit MukE n=1 Tax=Ph...  62.4    3e-08 
+  UniRef90_UPI0009EDBB15 hypothetical protein n=2 Tax=Vibrio TaxI...  62.0    4e-08 
+  UniRef90_UPI0009A660A2 hypothetical protein n=2 Tax=Vibrio para...  60.5    2e-07 
+  UniRef90_UPI000996879D hypothetical protein n=1 Tax=Vibrio para...  56.2    1e-05 
+  UniRef90_UPI00037DBE5A hypothetical protein n=1 Tax=Thiobacillu...  54.3    1e-05 
+  UniRef90_A0A0H8Q4I1 Condesin subunit E n=1 Tax=Vibrio cholerae ...  47.8    1e-04 
+  UniRef90_A0A1F9WAX6 Uncharacterized protein n=3 Tax=unclassifie...  48.5    0.001 
+  UniRef90_A0A2N2TU66 Uncharacterized protein n=1 Tax=Betaproteob...  49.7    0.001 
+  UniRef90_A0A2V9D6H9 Uncharacterized protein n=1 Tax=Acidobacter...  43.9    0.039 
+  UniRef90_J6CZ12 Condesin subunit E (Fragment) n=1 Tax=Pasteurel...  37.7    0.45  
+  UniRef90_UPI00041ED3E2 hypothetical protein n=2 Tax=Zooshikella...  41.2    0.46  
+  UniRef90_UPI000533916D hypothetical protein n=1 Tax=Chryseobact...  40.0    0.91  
+  UniRef90_A0A1Q6GXP6 Uncharacterized protein n=2 Tax=Bacteroides...  40.4    0.94  
+  UniRef90_A0A2S8MRJ6 Type VII secretion protein EccB (Fragment) ...  38.9    1.3   
+  UniRef90_A0A2V8ZUR7 Uncharacterized protein n=1 Tax=Acidobacter...  38.1    3.8   
+  UniRef90_A0A1T4P179 Uncharacterized membrane-anchored protein n...  38.5    5.3   
+  UniRef90_D7A3W4 2-deoxycytidine 5-triphosphate deaminase n=2 Ta...  38.1    7.2   
+  UniRef90_F8JB95 Uncharacterized HTH-type transcriptional regula...  38.1    7.5   
+  UniRef90_A0A1B1BCX1 Uncharacterized protein n=2 Tax=Streptomyce...  37.7    8.9   
+  UniRef90_W9E0M8 Hydrogenase expression/formation protein HypE n...  37.7    9.0   
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1494760288296
+Warning: [psiblast] lcl|Query_1 NP_415443.2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415443.2
+
+Length=234
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P22524 Chromosome partition protein MukE n=847 Tax=Bac...  365     2e-126
+  UniRef90_A0A1D3U6D5 Chromosome partition protein MukE n=37 Tax=...  356     1e-122
+  UniRef90_C9Y084 Chromosome partition protein MukE n=34 Tax=Ente...  352     5e-121
+  UniRef90_A0A089PUV5 Chromosome partition protein MukE n=4 Tax=E...  348     2e-119
+  UniRef90_E5YD54 Chromosome partition protein MukE n=12 Tax=Ente...  346     1e-118
+  UniRef90_A0A3A5JWY7 Chromosome partition protein MukE n=22 Tax=...  345     2e-118
+  UniRef90_A0A0L7TJ04 Chromosome partition protein MukE n=6 Tax=E...  345     2e-118
+  UniRef90_UPI0004AF002C chromosome partition protein MukE n=1 Ta...  344     5e-118
+  UniRef90_A0A087L6G6 Chromosome partition protein MukE n=54 Tax=...  342     3e-117
+  UniRef90_A0A2N5ETQ9 Chromosome partition protein MukE n=3 Tax=u...  341     8e-117
+  UniRef90_UPI000DEFC34E chromosome partition protein MukE n=1 Ta...  341     1e-116
+  UniRef90_A0A2Y9U1G0 Chromosome partition protein MukE n=1 Tax=L...  340     2e-116
+  UniRef90_H2IS77 Chromosome partition protein MukE n=17 Tax=Ente...  340     3e-116
+  UniRef90_I0QU21 Chromosome partition protein MukE n=2 Tax=Yersi...  340     3e-116
+  UniRef90_UPI00035E9EB6 chromosome partition protein MukE n=1 Ta...  338     8e-116
+  UniRef90_UPI000FE3E101 chromosome partition protein MukE n=1 Ta...  338     3e-115
+  UniRef90_A0A083ZWB5 Chromosome partition protein MukE n=5 Tax=B...  338     3e-115
+  UniRef90_D4I0A1 Chromosome partition protein MukE n=18 Tax=Ente...  337     3e-115
+  UniRef90_UPI0008FB5699 chromosome partition protein MukE n=1 Ta...  337     5e-115
+  UniRef90_E0LYK5 Chromosome partition protein MukE n=13 Tax=Pant...  336     6e-115
+  UniRef90_I2BAM9 Chromosome partition protein MukE n=3 Tax=Enter...  336     9e-115
+  UniRef90_UPI000FDDFEE7 UPI000FDDFEE7 related cluster n=1 Tax=un...  335     3e-114
+  UniRef90_A0A0G3CU10 Chromosome partition protein MukE n=4 Tax=B...  334     4e-114
+  UniRef90_UPI000F09A710 chromosome partition protein MukE n=1 Ta...  335     4e-114
+  UniRef90_A0A2I0FX31 Chromosome partition protein MukE n=1 Tax=E...  334     4e-114
+  UniRef90_A0A0U5L114 Chromosome partition protein MukE n=1 Tax=E...  334     5e-114
+  UniRef90_UPI000948B329 chromosome partition protein MukE n=1 Ta...  334     7e-114
+  UniRef90_D0Z9L8 Chromosome partition protein MukE n=13 Tax=Hafn...  333     1e-113
+  UniRef90_A0A1W6B0E4 Chromosome partition protein MukE n=4 Tax=E...  333     1e-113
+  UniRef90_UPI000F689BD0 chromosome partition protein MukE n=1 Ta...  333     1e-113
+  UniRef90_A0A2X1IFN7 Chromosome partition protein MukE n=1 Tax=E...  333     2e-113
+  UniRef90_J3HPS6 Chromosome partition protein MukE n=39 Tax=Ente...  332     3e-113
+  UniRef90_D3UWV9 Chromosome partition protein MukE n=16 Tax=Xeno...  331     1e-112
+  UniRef90_A0A068QQQ8 Chromosome partition protein MukE n=3 Tax=X...  330     2e-112
+  UniRef90_A0A068R6V2 Chromosome partition protein MukE n=6 Tax=X...  330     2e-112
+  UniRef90_A0A1B7K0M7 Chromosome partition protein MukE n=1 Tax=P...  330     3e-112
+  UniRef90_UPI000DCA4EB4 chromosome partition protein MukE n=1 Ta...  329     3e-112
+  UniRef90_A0A0B1R7Z8 Chromosome partition protein MukE n=16 Tax=...  329     4e-112
+  UniRef90_A0A0M0T789 Chromosome partition protein MukE n=13 Tax=...  329     5e-112
+  UniRef90_Q2NU98 Chromosome partition protein MukE n=6 Tax=Sodal...  329     6e-112
+  UniRef90_A0A095VG17 Chromosome partition protein MukE n=5 Tax=T...  329     7e-112
+  UniRef90_B6XBZ0 Chromosome partition protein MukE n=15 Tax=Prov...  328     2e-111
+  UniRef90_A0A0J8YVD7 Chromosome partition protein MukE n=3 Tax=E...  327     3e-111
+  UniRef90_Q8D049 Chromosome partition protein MukE n=66 Tax=Yers...  326     4e-111
+  UniRef90_K8WLU6 Chromosome partition protein MukE n=10 Tax=Gamm...  327     5e-111
+  UniRef90_A0A246NJK1 Chromosome partition protein MukE n=5 Tax=P...  326     6e-111
+  UniRef90_E0SAS4 Chromosome partition protein MukE n=20 Tax=Ente...  326     1e-110
+  UniRef90_D8MQD9 Chromosome partition protein MukE n=10 Tax=Ente...  324     2e-110
+  UniRef90_UPI00046524C2 chromosome partition protein MukE n=1 Ta...  324     3e-110
+  UniRef90_A0A2I5TLI9 Chromosome partition protein MukE n=7 Tax=E...  324     4e-110
+  UniRef90_Q7N6B8 Chromosome partition protein MukE n=27 Tax=Phot...  324     4e-110
+  UniRef90_A0A0N0I966 Chromosome partition protein MukE n=2 Tax=M...  324     6e-110
+  UniRef90_A0A0J5FX77 Chromosome partition protein MukE n=1 Tax=X...  324     1e-109
+  UniRef90_A0A2U8I6L3 Chromosome partition protein MukE n=1 Tax=C...  322     1e-109
+  UniRef90_A0A0A2VZ14 Chromosome partition protein mukF n=1 Tax=B...  342     4e-109
+  UniRef90_R8AUQ5 Chromosome partition protein MukE n=4 Tax=Plesi...  321     4e-109
+  UniRef90_A0A249E0S7 Chromosome partitioning protein MukE n=4 Ta...  321     9e-109
+  UniRef90_A0A1E7Z4X0 Chromosome partition protein MukE n=2 Tax=C...  320     2e-108
+  UniRef90_A0A2A2GXL8 Chromosome partition protein MukE n=3 Tax=A...  319     3e-108
+  UniRef90_Q6D446 Chromosome partition protein MukE n=33 Tax=Pect...  318     1e-107
+  UniRef90_UPI000EB1021E chromosome partition protein MukE n=1 Ta...  317     2e-107
+  UniRef90_A0A1B7JHQ8 Chromosome partition protein MukE n=31 Tax=...  317     4e-107
+  UniRef90_A0A2N7DGI3 Chromosome partition protein MukE n=2 Tax=V...  316     6e-107
+  UniRef90_UPI000E3DFCDB chromosome partition protein MukE n=1 Ta...  316     1e-106
+  UniRef90_A0A1E5D608 Chromosome partition protein MukE n=2 Tax=V...  315     1e-106
+  UniRef90_A0A1R4B2X0 Chromosome partition protein MukE n=2 Tax=V...  315     2e-106
+  UniRef90_A0A2M8H394 Chromosome partition protein MukE n=1 Tax=V...  315     3e-106
+  UniRef90_A0A242NFT7 Chromosome partition protein MukE n=39 Tax=...  314     4e-106
+  UniRef90_E0WS00 Protein involved in chromosome partitioning n=3...  314     4e-106
+  UniRef90_A0A1M5XWX4 Chromosome partition protein MukE n=2 Tax=V...  314     5e-106
+  UniRef90_A0A0A7S893 Chromosome partition protein MukE n=1 Tax=F...  314     7e-106
+  UniRef90_A0A2T3Q4P1 Chromosome partition protein MukE n=8 Tax=P...  313     1e-105
+  UniRef90_UPI00048DE880 chromosome partition protein MukE n=1 Ta...  312     2e-105
+  UniRef90_A0A3N9TCM6 Chromosome partition protein MukE n=1 Tax=V...  312     2e-105
+  UniRef90_A0A333FER7 Chromosome partition protein MukE n=22 Tax=...  311     5e-105
+  UniRef90_Q2C3X6 Chromosome partition protein MukE n=11 Tax=Phot...  311     1e-104
+  UniRef90_A0A0J1HGV2 Chromosome partition protein MukE n=7 Tax=P...  311     1e-104
+  UniRef90_UPI0006CFFAFD chromosome partition protein MukE n=1 Ta...  310     1e-104
+  UniRef90_UPI00046A1264 chromosome partition protein MukE n=1 Ta...  310     1e-104
+  UniRef90_A0A0F5ASE6 Chromosome partition protein MukE n=14 Tax=...  310     2e-104
+  UniRef90_A0A2N7D6C5 Chromosome partition protein MukE n=1 Tax=V...  310     2e-104
+  UniRef90_A0A090QTJ5 Chromosome partition protein MukE n=1 Tax=P...  310     3e-104
+  UniRef90_A0A0J8VFG2 Chromosome partition protein MukE n=4 Tax=P...  309     3e-104
+  UniRef90_L8JJE8 Chromosome partition protein MukE n=1 Tax=Photo...  309     5e-104
+  UniRef90_A0A0F5VF60 Chromosome partition protein MukE n=3 Tax=V...  308     8e-104
+  UniRef90_A0A142FXD1 Chromosome partition protein MukE n=30 Tax=...  309     8e-104
+  UniRef90_B7VMH1 Chromosome partition protein MukE n=105 Tax=Vib...  309     1e-103
+  UniRef90_A0A356E8N0 Chromosome partition protein MukE n=1 Tax=P...  308     1e-103
+  UniRef90_F0LSH7 Chromosome partition protein MukE n=7 Tax=Vibri...  307     2e-103
+  UniRef90_UPI000509FAE2 chromosome partition protein MukE n=3 Ta...  307     2e-103
+  UniRef90_D0IA16 Chromosome partition protein MukE n=10 Tax=Vibr...  307     3e-103
+  UniRef90_A0A2N8ZCH5 Chromosome partition protein MukE n=2 Tax=V...  307     4e-103
+  UniRef90_Q65TL8 Chromosome partition protein MukE n=2 Tax=Basfi...  307     4e-103
+  UniRef90_A0A2T3NXZ1 Chromosome partition protein MukE n=3 Tax=P...  307     5e-103
+  UniRef90_A0A2M8RYZ4 Chromosome partition protein MukE n=1 Tax=C...  306     8e-103
+  UniRef90_A0A0J5S5M6 Chromosome partition protein MukE n=1 Tax=M...  306     1e-102
+  UniRef90_A0A377I725 Chromosome partition protein MukE n=3 Tax=A...  306     1e-102
+  UniRef90_A0A090S1A8 Chromosome partition protein MukE n=3 Tax=V...  306     1e-102
+  UniRef90_A0A1V3K905 Chromosome partition protein MukE n=1 Tax=R...  306     1e-102
+  UniRef90_A0A0A3APG2 Chromosome partition protein MukE n=1 Tax=C...  306     1e-102
+  UniRef90_A0A0F5EYM5 Chromosome partition protein MukE n=6 Tax=A...  305     1e-102
+  UniRef90_A0A0B8P6E3 Chromosome partition protein mukE n=3 Tax=V...  304     3e-102
+  UniRef90_UPI000DD84ED8 chromosome partition protein MukE n=1 Ta...  304     4e-102
+  UniRef90_A6VP66 Chromosome partition protein MukE n=2 Tax=Paste...  304     4e-102
+  UniRef90_A0A2M8S5N0 Chromosome partition protein MukE n=1 Tax=C...  304     6e-102
+  UniRef90_UPI000838935F chromosome partition protein MukE n=1 Ta...  303     7e-102
+  UniRef90_Q9CN37 Chromosome partition protein MukE n=20 Tax=Past...  304     7e-102
+  UniRef90_A0A1I5R9G5 Chromosome partition protein MukE n=5 Tax=E...  304     7e-102
+  UniRef90_U3B895 Chromosome partition protein MukE n=4 Tax=Vibri...  303     7e-102
+  UniRef90_A0A0W8JFP8 Chromosome partition protein MukE n=11 Tax=...  303     9e-102
+  UniRef90_UPI000B359198 chromosome partition protein MukE n=1 Ta...  304     9e-102
+  UniRef90_W0Q9B9 Chromosome partition protein MukE n=17 Tax=Past...  302     1e-101
+  UniRef90_A0A263HBM4 Chromosome partition protein MukE n=3 Tax=P...  302     1e-101
+  UniRef90_UPI0008D98A0E chromosome partition protein MukE n=1 Ta...  302     2e-101
+  UniRef90_A6D7K4 Chromosome partition protein MukE n=10 Tax=Vibr...  302     2e-101
+  UniRef90_A0A090PND6 Chromosome partition protein MukE n=5 Tax=V...  302     3e-101
+  UniRef90_UPI000D01DC93 chromosome partition protein MukE n=1 Ta...  303     3e-101
+  UniRef90_C9P493 Chromosome partition protein MukE n=4 Tax=Vibri...  301     4e-101
+  UniRef90_P45186 Chromosome partition protein MukE n=136 Tax=Bac...  301     5e-101
+  UniRef90_I3DIL1 Chromosome partition protein MukE n=2 Tax=Paste...  301     5e-101
+  UniRef90_F0ETX8 Chromosome partition protein MukE n=6 Tax=Haemo...  301     5e-101
+  UniRef90_A0A1H9ZAJ1 Chromosome partition protein MukE n=2 Tax=T...  302     6e-101
+  UniRef90_A0A0L7YY99 Chromosome partition protein MukE n=16 Tax=...  301     9e-101
+  UniRef90_A0A1T0AT07 Chromosome partition protein MukE n=1 Tax=H...  300     2e-100
+  UniRef90_A0A379C8R7 Chromosome partition protein MukE n=1 Tax=P...  300     2e-100
+  UniRef90_A0A1T4KGL1 Chromosome partition protein MukE n=3 Tax=V...  300     2e-100
+  UniRef90_A0A1C3EE00 Chromosome partition protein MukE n=1 Tax=E...  299     2e-100
+  UniRef90_A0A2T3R2E0 Chromosome partition protein MukE n=23 Tax=...  300     2e-100
+  UniRef90_A0A1G7Z968 Chromosome partition protein MukE n=1 Tax=V...  299     3e-100
+  UniRef90_A0A1E5E1Y7 Chromosome partition protein MukE n=1 Tax=V...  299     4e-100
+  UniRef90_V5FCP0 Chromosome partition protein MukE n=6 Tax=Vibri...  299     4e-100
+  UniRef90_U4SN40 Chromosome partition protein mukE n=17 Tax=Past...  299     5e-100
+  UniRef90_A0A2N7GG71 Chromosome partition protein MukE n=2 Tax=V...  298     8e-100
+  UniRef90_F4H9L4 Chromosome partition protein MukE n=19 Tax=Gall...  298     9e-100
+  UniRef90_A0A1H7Y9Z5 Chromosome partition protein MukE n=1 Tax=P...  298     1e-99 
+  UniRef90_A0A1V3TMC4 Chromosome partition protein MukE n=1 Tax=P...  297     2e-99 
+  UniRef90_U4K6B1 Chromosome partition protein MukE n=7 Tax=Vibri...  297     2e-99 
+  UniRef90_A0A377I3M9 Condesin subunit E n=7 Tax=Haemophilus TaxI...  297     2e-99 
+  UniRef90_A0A2A4GH51 Chromosome partition protein MukE n=4 Tax=S...  297     2e-99 
+  UniRef90_A0A1W1V0H9 Chromosome partition protein MukE n=2 Tax=P...  297     4e-99 
+  UniRef90_W0R560 Chromosome partition protein MukE n=3 Tax=Biber...  296     6e-99 
+  UniRef90_A0A1V3JS12 Chromosome partition protein MukE n=2 Tax=R...  296     1e-98 
+  UniRef90_A0A380TXH4 Chromosome partition protein MukE n=1 Tax=[...  296     1e-98 
+  UniRef90_UPI000F6856DB chromosome partition protein MukE n=2 Ta...  296     1e-98 
+  UniRef90_A0A2J8GNZ6 Chromosome partition protein MukE n=6 Tax=V...  296     1e-98 
+  UniRef90_UPI000EAD32C0 chromosome partition protein MukE n=1 Ta...  294     2e-98 
+  UniRef90_A0A1E5BHM8 Chromosome partition protein MukE n=3 Tax=V...  295     3e-98 
+  UniRef90_A3MZU6 Chromosome partition protein MukE n=7 Tax=Actin...  294     3e-98 
+  UniRef90_A0A3N4X3V1 Condensin subunit MukE n=1 Tax=Frederikseni...  294     3e-98 
+  UniRef90_B0UU63 Chromosome partition protein MukE n=5 Tax=Paste...  294     3e-98 
+  UniRef90_A0A368LNB0 Chromosome partition protein MukE n=6 Tax=V...  296     3e-98 
+  UniRef90_Q6LPL4 Chromosome partition protein MukE n=5 Tax=Photo...  294     3e-98 
+  UniRef90_UPI000B34BB83 chromosome partition protein MukE n=1 Ta...  294     4e-98 
+  UniRef90_B6ERZ8 Chromosome partition protein MukE n=15 Tax=Alii...  293     7e-98 
+  UniRef90_UPI000F706AF8 chromosome partition protein MukE n=1 Ta...  293     1e-97 
+  UniRef90_A0A011P6D5 Chromosome partition protein MukE n=4 Tax=M...  292     2e-97 
+  UniRef90_E3BF66 Chromosome partition protein MukE n=2 Tax=Vibri...  292     2e-97 
+  UniRef90_A0A1X1MQG3 Condesin subunit E n=1 Tax=Vibrio sp. qd031...  292     3e-97 
+  UniRef90_A0A1T0B6V4 Chromosome partition protein MukE n=1 Tax=[...  291     4e-97 
+  UniRef90_Q9KRC7 Chromosome partition protein MukE n=59 Tax=Vibr...  290     1e-96 
+  UniRef90_A0A3N4W8P7 Condensin subunit MukE n=1 Tax=Vespertiliib...  290     1e-96 
+  UniRef90_Q8DAP9 Chromosome partition protein MukE n=17 Tax=Vibr...  289     2e-96 
+  UniRef90_Q87QW3 Chromosome partition protein MukE n=129 Tax=Vib...  289     3e-96 
+  UniRef90_UPI000B35F8F9 chromosome partition protein MukE n=1 Ta...  289     3e-96 
+  UniRef90_Q7VL95 Chromosome partition protein MukE n=3 Tax=Haemo...  288     9e-96 
+  UniRef90_J4TTW3 MukE-like family protein n=3 Tax=Haemophilus sp...  287     2e-95 
+  UniRef90_C4LER0 Chromosome segregation and condensation protein...  280     9e-93 
+  UniRef90_UPI000970BEAE chromosome partition protein MukE n=1 Ta...  279     2e-92 
+  UniRef90_UPI0009AFF50A chromosome partition protein MukE n=1 Ta...  275     2e-91 
+  UniRef90_A0A0H6HY56 Condesin subunit E n=1 Tax=Vibrio cholerae ...  272     6e-90 
+  UniRef90_UPI000E745CA3 chromosome partition protein MukE n=1 Ta...  272     1e-89 
+  UniRef90_A5L1B6 Condesin subunit E n=1 Tax=Vibrionales bacteriu...  270     1e-89 
+  UniRef90_A0A3A9IRC4 Chromosome partition protein MukE n=74 Tax=...  271     3e-89 
+  UniRef90_A0A291HPQ1 Condesin subunit E n=4 Tax=Aeromonadaceae T...  270     3e-89 
+  UniRef90_A0A1Y0D1I4 Chromosome partitioning protein MukE n=2 Ta...  269     3e-88 
+  UniRef90_H2FW85 Condesin subunit E n=7 Tax=Aeromonadaceae TaxID...  266     3e-87 
+  UniRef90_A0A1Y0CV00 Chromosome partitioning protein MukE n=1 Ta...  265     6e-87 
+  UniRef90_A0A3A1Y8D3 Chromosome partitioning protein MukE n=1 Ta...  267     1e-85 
+  UniRef90_A0A378DHE3 Condesin subunit E n=2 Tax=Enterobacteriace...  257     2e-84 
+  UniRef90_A0A3A1Y9L2 Chromosome partitioning protein MukE n=1 Ta...  262     2e-83 
+  UniRef90_A0A0S2SIB3 Condesin subunit E n=5 Tax=Aeromonas TaxID=...  247     8e-80 
+  UniRef90_A0A379FGE7 Condesin subunit E n=1 Tax=Proteus mirabili...  239     1e-77 
+  UniRef90_A0A377M4B3 Condesin subunit E n=1 Tax=Enterobacter clo...  229     8e-74 
+  UniRef90_A0A0H6HMS0 Condesin subunit E n=3 Tax=Vibrio cholerae ...  228     6e-73 
+  UniRef90_A0A378DYK6 Condesin subunit E n=3 Tax=Enterobacteriace...  224     4e-72 
+  UniRef90_A0A0H8TYH1 Condesin subunit E n=1 Tax=Vibrio cholerae ...  218     8e-69 
+  UniRef90_A0A376SXY2 Condesin subunit E n=2 Tax=Enterobacteriace...  209     3e-66 
+  UniRef90_A9G7H3 Chromosome partition protein mukE n=3 Tax=Soran...  213     4e-66 
+  UniRef90_A0A376JZ55 Condesin subunit E n=26 Tax=root TaxID=1 Re...  209     5e-66 
+  UniRef90_A0A379I4M3 Chromosome partition protein mukE n=16 Tax=...  210     3e-65 
+  UniRef90_A0A0G9I850 Condesin subunit E n=2 Tax=Xanthomonas hyac...  208     1e-64 
+  UniRef90_UPI0007862043 hypothetical protein n=1 Tax=Endozoicomo...  208     2e-64 
+  UniRef90_A0A3M8NVH5 Condensin subunit E n=1 Tax=Marichromatium ...  207     3e-64 
+  UniRef90_A0A2W4LK23 Condensin subunit E n=1 Tax=Proteobacteria ...  210     3e-64 
+  UniRef90_A0A1D2X596 Uncharacterized protein n=1 Tax=Endozoicomo...  208     4e-64 
+  UniRef90_A0A081K5S8 Uncharacterized protein n=2 Tax=Endozoicomo...  207     7e-64 
+  UniRef90_S4XVI7 Uncharacterized protein n=3 Tax=Sorangium cellu...  206     1e-63 
+  UniRef90_A0A1M3NHR6 Uncharacterized protein n=1 Tax=Myxococcale...  214     1e-63 
+  UniRef90_A0A150QC39 Condensin subunit E n=2 Tax=Sorangium cellu...  205     2e-63 
+  UniRef90_L0H1D6 Uncharacterized protein involved in chromosome ...  205     2e-63 
+  UniRef90_A0A1M3N943 Condensin subunit E n=1 Tax=Myxococcales ba...  205     2e-63 
+  UniRef90_UPI000C769AFB hypothetical protein n=1 Tax=Endozoicomo...  205     8e-63 
+  UniRef90_UPI0009A660A2 hypothetical protein n=2 Tax=Vibrio para...  205     1e-62 
+  UniRef90_A0A142BDH5 Chromosome partition protein n=2 Tax=Endozo...  204     1e-62 
+  UniRef90_A0A0K1QDP3 Chromosome partition protein MukE n=1 Tax=L...  205     2e-62 
+  UniRef90_A0A1F9F1Q9 Condensin subunit E n=1 Tax=Deltaproteobact...  202     3e-62 
+  UniRef90_UPI000792C3B4 chromosome partition protein MukE n=1 Ta...  199     3e-62 
+  UniRef90_UPI000471BD38 condensin subunit E n=1 Tax=Thioalkalivi...  202     5e-62 
+  UniRef90_A0A090T207 Chromosome partition protein MukE n=1 Tax=V...  198     4e-61 
+  UniRef90_A0A1Q9HR88 Uncharacterized protein n=3 Tax=Vibrio TaxI...  200     8e-61 
+  UniRef90_UPI000CD15987 condensin subunit E n=1 Tax=Pseudomonas ...  196     6e-60 
+  UniRef90_A0A2Z4FKM0 Condensin subunit E n=1 Tax=Bradymonas sedi...  193     1e-58 
+  UniRef90_UPI0009B8935D hypothetical protein n=1 Tax=Chromobacte...  195     2e-58 
+  UniRef90_UPI00037E74BA hypothetical protein n=1 Tax=Lamprocysti...  193     2e-58 
+  UniRef90_A0A022PKM2 Bacterial condensin subunit MukE n=1 Tax=Ph...  192     9e-58 
+  UniRef90_A0A377AWD7 Condesin subunit E n=1 Tax=Escherichia coli...  185     1e-56 
+  UniRef90_UPI0009EDBB15 hypothetical protein n=2 Tax=Vibrio TaxI...  189     2e-56 
+  UniRef90_A0A2N5QNY0 Condensin subunit MukE n=2 Tax=Chromobacter...  187     2e-56 
+  UniRef90_A0A3P8KNX8 Condesin subunit E n=1 Tax=Raoultella terri...  183     3e-56 
+  UniRef90_A0A376VLU7 Condesin subunit E n=1 Tax=Escherichia coli...  184     6e-56 
+  UniRef90_A0A0T9R4G8 Condesin subunit E n=20 Tax=Enterobacterale...  187     6e-56 
+  UniRef90_UPI000E1BEEF7 thioredoxin-disulfide reductase n=1 Tax=...  186     2e-55 
+  UniRef90_UPI0005B7CFEE hypothetical protein n=1 Tax=Paraburkhol...  181     8e-54 
+  UniRef90_A0A090T6I1 Chromosome partition protein MukE n=1 Tax=V...  176     3e-53 
+  UniRef90_A0A090REH7 Chromosome partition protein MukE n=1 Tax=V...  175     6e-53 
+  UniRef90_A0A1B1E8P6 Uncharacterized protein n=1 Tax=Vibrio natr...  178     1e-52 
+  UniRef90_A0A2X3I787 Condesin subunit E n=1 Tax=Klebsiella pneum...  174     2e-52 
+  UniRef90_A0A2X5BFK1 Condesin subunit E n=2 Tax=Enterobacteriace...  170     5e-51 
+  UniRef90_W1BA41 Chromosome partition protein MukF n=17 Tax=Ente...  182     7e-51 
+  UniRef90_A0A150S017 Condensin subunit E (Fragment) n=1 Tax=Sora...  170     3e-50 
+  UniRef90_A0A1B4V7S5 Condesin subunit E n=1 Tax=Sulfurifustis va...  170     1e-49 
+  UniRef90_UPI00037DBE5A hypothetical protein n=1 Tax=Thiobacillu...  161     2e-46 
+  UniRef90_A0KX07 Thioredoxin-disulfide reductase n=1 Tax=Shewane...  161     1e-45 
+  UniRef90_A0A3P4HKQ7 Chromosome partition protein MukE n=1 Tax=K...  156     4e-45 
+  UniRef90_UPI000996879D hypothetical protein n=1 Tax=Vibrio para...  165     6e-44 
+  UniRef90_O30870 MukE homolog (Fragment) n=1 Tax=Haemophilus inf...  151     1e-43 
+  UniRef90_A0A376ZR57 Condesin subunit E n=1 Tax=Escherichia coli...  148     5e-42 
+  UniRef90_A0A2X3IX71 Condesin subunit E n=4 Tax=Enterobacteriace...  145     2e-41 
+  UniRef90_A0A364UK31 Chromosome partitioning protein MukE (Fragm...  139     2e-39 
+  UniRef90_A0A377TP68 Condesin subunit E n=1 Tax=Klebsiella pneum...  135     1e-37 
+  UniRef90_A0A376ZU82 Condesin subunit E n=1 Tax=Escherichia coli...  128     4e-35 
+  UniRef90_A0A379WBJ5 Condesin subunit E n=2 Tax=Enterobacteriace...  125     1e-33 
+  UniRef90_A0A090S206 Chromosome partition protein MukE n=1 Tax=V...  124     4e-33 
+  UniRef90_A0A378N5F9 Chromosome partition protein mukE n=1 Tax=M...  122     3e-32 
+  UniRef90_A0A376RKX6 Condesin subunit E n=1 Tax=Escherichia coli...  120     6e-32 
+  UniRef90_A0A379WW29 Condesin subunit E n=1 Tax=Salmonella enter...  118     2e-31 
+  UniRef90_W1HRE1 Chromosome partition protein MukE n=1 Tax=Klebs...  115     2e-29 
+  UniRef90_W1ENK0 Chromosome partition protein MukE n=1 Tax=Klebs...  113     4e-29 
+  UniRef90_W1XH97 Chromosome partition protein MukE (Fragment) n=...  108     1e-27 
+  UniRef90_A0A2X4YKR5 Condesin subunit E n=1 Tax=Klebsiella oxyto...  109     2e-27 
+  UniRef90_A0A090T7V0 Chromosome partition protein MukE n=1 Tax=V...  104     2e-25 
+  UniRef90_A0A377DVY1 Condesin subunit E n=1 Tax=Escherichia coli...  101     5e-25 
+  UniRef90_A0A376KX43 Condesin subunit E n=1 Tax=Escherichia coli...  100     2e-24 
+  UniRef90_A0A090SDC1 Chromosome partition protein MukE n=1 Tax=V...  98.4    1e-23 
+  UniRef90_A0A379RCK8 Condesin subunit E n=1 Tax=Salmonella enter...  94.2    5e-22 
+  UniRef90_A0A381H5L1 Condesin subunit E n=1 Tax=Citrobacter kose...  93.8    7e-22 
+  UniRef90_A0A376F5A6 Condesin subunit E n=1 Tax=Enterobacter asb...  93.8    9e-22 
+  UniRef90_W1HPI7 Chromosome partition protein MukE n=1 Tax=Klebs...  84.9    2e-18 
+  UniRef90_A0A379BAU3 Chromosome partition protein MukE n=1 Tax=P...  83.4    7e-18 
+  UniRef90_A0A379WCM5 Condesin subunit E n=1 Tax=Salmonella enter...  80.3    2e-16 
+  UniRef90_A0A376VNS1 Condesin subunit E n=1 Tax=Escherichia coli...  77.2    1e-15 
+  UniRef90_B8K5Q3 Condesin subunit E n=1 Tax=Vibrio sp. 16 TaxID=...  77.6    3e-15 
+  UniRef90_A0A0H6F5E2 Condesin subunit E n=2 Tax=Vibrio cholerae ...  75.7    1e-14 
+  UniRef90_A0A378N5E1 Chromosome partition protein mukE n=1 Tax=M...  74.9    2e-14 
+  UniRef90_UPI000DE58332 hypothetical protein n=1 Tax=Escherichia...  69.5    1e-12 
+  UniRef90_A0A376VK89 Condesin subunit E n=2 Tax=Enterobacteriace...  63.0    3e-10 
+  UniRef90_K8CAN4 Chromosome partition protein MukE n=1 Tax=Crono...  58.7    1e-08 
+  UniRef90_A0A0H8Q4I1 Condesin subunit E n=1 Tax=Vibrio cholerae ...  57.6    3e-08 
+  UniRef90_A0A377AWX6 Condesin subunit E n=1 Tax=Escherichia coli...  57.2    4e-08 
+  UniRef90_A0A376JYA6 Condesin subunit E n=1 Tax=Escherichia coli...  51.8    4e-06 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A2N2TU66 Uncharacterized protein n=1 Tax=Betaproteob...  143     4e-38
+  UniRef90_UPI0004E0E341 hypothetical protein n=1 Tax=Vibrio shil...  76.1    5e-14
+  UniRef90_A0A1Q6GXP6 Uncharacterized protein n=2 Tax=Bacteroides...  73.0    3e-12
+  UniRef90_A0A2M9DTP4 Uncharacterized protein n=1 Tax=Desulfofaba...  73.8    4e-12
+  UniRef90_A0A1F9WAX6 Uncharacterized protein n=3 Tax=unclassifie...  68.4    7e-11
+  UniRef90_A0A3P3WDZ2 Uncharacterized protein n=1 Tax=Flavobacter...  66.8    5e-10
+  UniRef90_UPI000586B960 hypothetical protein n=1 Tax=Fibrisoma l...  64.9    2e-09
+  UniRef90_UPI0004887F8A hypothetical protein n=1 Tax=Desulfoverm...  63.8    9e-09
+  UniRef90_UPI00028A3467 hypothetical protein n=1 Tax=Aquimarina ...  63.4    1e-08
+  UniRef90_F8E596 Uncharacterized protein n=1 Tax=Flexistipes sin...  62.6    2e-08
+  UniRef90_UPI000F8E48A9 hypothetical protein n=1 Tax=Pseudoflavi...  61.8    3e-08
+  UniRef90_A0A0Q0RSM5 Uncharacterized protein n=2 Tax=Flavobacter...  61.4    4e-08
+  UniRef90_A0A2N2AME6 Uncharacterized protein n=1 Tax=Gammaproteo...  59.9    9e-08
+  UniRef90_A0A1M5ZCD0 Bacterial condensin subunit MukE n=2 Tax=Ba...  60.3    1e-07
+  UniRef90_UPI00046E843B hypothetical protein n=1 Tax=Prolixibact...  60.3    1e-07
+  UniRef90_A0A074KZQ2 Uncharacterized protein n=2 Tax=Bacteroidet...  59.5    2e-07
+  UniRef90_A0A1I4F695 MukE-like family protein n=1 Tax=Porphyromo...  59.5    3e-07
+  UniRef90_A0A1E5SJ77 Uncharacterized protein n=1 Tax=Algibacter ...  59.1    3e-07
+  UniRef90_A0A1I3UT99 Chromosome partition protein MukE n=2 Tax=D...  59.1    4e-07
+  UniRef90_A0A1Q3UK12 Uncharacterized protein n=1 Tax=Mucilaginib...  57.6    9e-07
+  UniRef90_A0A3D0VSM5 Uncharacterized protein n=2 Tax=Bacteroidet...  57.2    1e-06
+  UniRef90_A0A2G6LVZ4 Uncharacterized protein n=1 Tax=Candidatus ...  56.4    1e-06
+  UniRef90_A0A2E6EZM2 Uncharacterized protein n=1 Tax=Flavobacter...  57.2    2e-06
+  UniRef90_A0A238UDV7 Uncharacterized protein n=2 Tax=Tenacibacul...  56.8    2e-06
+  UniRef90_K1YCQ3 Uncharacterized protein n=1 Tax=uncultured bact...  56.4    2e-06
+  UniRef90_UPI000EACFD75 hypothetical protein n=1 Tax=Mucilaginib...  56.4    2e-06
+  UniRef90_A0A150PQX0 Uncharacterized protein n=1 Tax=Sorangium c...  53.0    2e-06
+  UniRef90_E4TFQ5 Uncharacterized protein n=1 Tax=Calditerrivibri...  56.1    4e-06
+  UniRef90_A0A1Q3X6F1 Uncharacterized protein n=1 Tax=Bacteroidet...  55.7    4e-06
+  UniRef90_UPI000EB0EC73 hypothetical protein n=1 Tax=Flavisoliba...  55.7    5e-06
+  UniRef90_A0A3C1BH50 Uncharacterized protein n=1 Tax=Mucilaginib...  55.7    6e-06
+  UniRef90_A0A0F5IWH0 Uncharacterized protein n=8 Tax=Bacteroidal...  55.3    6e-06
+  UniRef90_A0A1V2AXW5 Uncharacterized protein n=2 Tax=[Flexibacte...  55.3    7e-06
+  UniRef90_UPI00056C9BBE hypothetical protein n=1 Tax=Salegentiba...  54.9    9e-06
+  UniRef90_A0A3E0WNM8 Uncharacterized protein n=1 Tax=Alkalilimni...  54.5    9e-06
+  UniRef90_A0A1F3Q9A7 Uncharacterized protein n=1 Tax=Bacteroidet...  54.5    1e-05
+  UniRef90_UPI0005EB61AB hypothetical protein n=1 Tax=Desulfonatr...  54.5    1e-05
+  UniRef90_R5UQ44 Uncharacterized protein n=5 Tax=Bacteroidales T...  53.7    2e-05
+  UniRef90_UPI00054D067A hypothetical protein n=1 Tax=Gillisia sp...  54.1    2e-05
+  UniRef90_A0A2M9R3W5 Uncharacterized protein n=6 Tax=Flavobacter...  53.7    2e-05
+  UniRef90_A0A1N6QUU3 Uncharacterized protein n=1 Tax=Maribacter ...  53.7    2e-05
+  UniRef90_UPI000533916D hypothetical protein n=1 Tax=Chryseobact...  53.4    3e-05
+  UniRef90_UPI0003F5446C hypothetical protein n=1 Tax=Desulfobulb...  53.0    3e-05
+  UniRef90_A0A089YPY8 Chromosome partitioning protein n=9 Tax=Pse...  53.4    3e-05
+  UniRef90_A0A0A1YKQ2 Chromosome partitioning protein n=1 Tax=Pse...  53.4    4e-05
+  UniRef90_A0A1K2IMW1 Uncharacterized protein n=1 Tax=Chryseobact...  53.4    4e-05
+  UniRef90_UPI000680BFD5 hypothetical protein n=2 Tax=Bacteroidet...  53.0    4e-05
+  UniRef90_A0A2V9D6H9 Uncharacterized protein n=1 Tax=Acidobacter...  52.6    4e-05
+  UniRef90_J6CZ12 Condesin subunit E (Fragment) n=1 Tax=Pasteurel...  48.7    5e-05
+  UniRef90_A0A1H8TI87 Uncharacterized protein n=1 Tax=Aquisalimon...  52.2    6e-05
+  UniRef90_A0A1H7GS66 Uncharacterized protein n=2 Tax=Pseudomonas...  52.6    7e-05
+  UniRef90_A0A1Q6DQ57 Uncharacterized protein n=1 Tax=Desulfobulb...  51.8    7e-05
+  UniRef90_A0A1D9PCS1 Uncharacterized protein n=1 Tax=Flavobacter...  52.2    8e-05
+  UniRef90_A0A3E0ES22 Uncharacterized protein n=1 Tax=Flavobacter...  52.2    8e-05
+  UniRef90_A0A0B8T6L0 Uncharacterized protein n=3 Tax=Bacteria Ta...  52.2    8e-05
+  UniRef90_A0A1I5W9X0 Bacterial condensin subunit MukE n=9 Tax=Ga...  51.8    1e-04
+  UniRef90_A0A2E4P8V3 Uncharacterized protein n=1 Tax=Flavobacter...  51.4    2e-04
+  UniRef90_A0A3N5UP91 Uncharacterized protein n=1 Tax=Deltaproteo...  50.7    2e-04
+  UniRef90_UPI0009A1565B chromosome partitioning protein n=1 Tax=...  51.0    2e-04
+  UniRef90_A0A089WSD1 Chromosome partitioning protein n=2 Tax=Pse...  51.0    2e-04
+  UniRef90_N2JMJ5 Uncharacterized protein n=6 Tax=Pseudomonadacea...  50.7    3e-04
+  UniRef90_A0A2N2Y2G3 Uncharacterized protein n=1 Tax=Bacteroidet...  50.7    3e-04
+  UniRef90_UPI000E761A0C chromosome partitioning protein n=1 Tax=...  50.7    3e-04
+  UniRef90_A0A2V9CZV7 Uncharacterized protein n=1 Tax=Acidobacter...  49.9    3e-04
+  UniRef90_A0A1H0PXR0 Uncharacterized protein n=1 Tax=Pseudomonas...  50.3    4e-04
+  UniRef90_A0A0X8BZL5 Chromosome partitioning protein n=1 Tax=Pse...  50.3    4e-04
+  UniRef90_M4X373 Chromosome partitioning protein n=4 Tax=Pseudom...  50.7    4e-04
+  UniRef90_A0A0F0DZD3 Chromosome partitioning protein n=5 Tax=Pse...  50.3    4e-04
+  UniRef90_A0A024HMF1 Uncharacterized protein n=14 Tax=Proteobact...  50.3    4e-04
+  UniRef90_A0A257D730 Chromosome partitioning protein n=1 Tax=Pse...  49.9    5e-04
+  UniRef90_A6GZS4 Uncharacterized protein n=3 Tax=Flavobacterium ...  49.9    5e-04
+  UniRef90_A0A010RTC8 Chromosome partitioning protein n=3 Tax=Pse...  49.9    6e-04
+  UniRef90_A0A0S4IAU2 Uncharacterized protein n=7 Tax=Pseudomonas...  49.9    6e-04
+  UniRef90_A0A077LBB0 Uncharacterized protein n=34 Tax=Gammaprote...  49.5    7e-04
+  UniRef90_A0A318UMU9 Uncharacterized protein n=1 Tax=Mucilaginib...  49.5    7e-04
+  UniRef90_A0A1C7BI65 Uncharacterized protein n=65 Tax=Gammaprote...  49.5    7e-04
+  UniRef90_A0A2I0CR53 Chromosome partitioning protein n=2 Tax=Pse...  49.5    7e-04
+  UniRef90_UPI000C9FA9CA hypothetical protein n=1 Tax=Salinibacte...  48.7    8e-04
+  UniRef90_A0A365XY75 Uncharacterized protein n=1 Tax=Chitinophag...  49.1    9e-04
+  UniRef90_B1JF53 Uncharacterized protein n=111 Tax=Gammaproteoba...  49.1    9e-04
+  UniRef90_A0A2U1FUQ0 Uncharacterized protein n=2 Tax=Pseudomonas...  49.1    0.001
+  UniRef90_A0A0Q0SZL8 Chromosome partitioning protein n=27 Tax=Ps...  49.1    0.001
+  UniRef90_A0A0G3ED32 Uncharacterized protein n=1 Tax=Kiritimatie...  48.7    0.001
+  UniRef90_UPI000E5B38D6 hypothetical protein n=1 Tax=Chitinophag...  49.1    0.001
+  UniRef90_A0A2A2IR51 Chromosome partitioning protein n=1 Tax=Pse...  49.1    0.001
+  UniRef90_UPI00058DB608 chromosome partitioning protein n=1 Tax=...  49.1    0.001
+  UniRef90_UPI00035C4CA4 chromosome partitioning protein n=1 Tax=...  49.1    0.001
+  UniRef90_A0A1H6RR12 Uncharacterized protein n=1 Tax=Pseudomonas...  48.7    0.001
+  UniRef90_A0A2A2RX14 Uncharacterized protein n=1 Tax=Pedosphaera...  48.3    0.001
+  UniRef90_A0A1Y1Q4W6 Uncharacterized protein n=1 Tax=Thiotrichac...  48.3    0.001
+  UniRef90_UPI0009B9F1C1 hypothetical protein n=1 Tax=Parabactero...  48.3    0.002
+  UniRef90_A0A3M5AYI8 Uncharacterized protein (Fragment) n=1 Tax=...  48.0    0.002
+  UniRef90_UPI0009BB30B1 hypothetical protein n=1 Tax=Chryseobact...  48.3    0.002
+  UniRef90_A0A2V8ZUR7 Uncharacterized protein n=1 Tax=Acidobacter...  48.0    0.002
+  UniRef90_A0A1Q3VP38 Uncharacterized protein n=1 Tax=Candidatus ...  47.6    0.002
+  UniRef90_J8V8C6 Uncharacterized protein n=1 Tax=Pseudomonas put...  48.7    0.002
+  UniRef90_A0A385YXN3 Chromosome partitioning protein n=1 Tax=Pse...  48.3    0.002
+  UniRef90_A0A0J6L809 Chromosome partitioning protein n=17 Tax=Ps...  48.0    0.002
+  UniRef90_F6A9N6 Uncharacterized protein n=57 Tax=Gammaproteobac...  48.0    0.002
+  UniRef90_UPI00064917EA hypothetical protein n=1 Tax=Chryseobact...  48.0    0.002
+  UniRef90_A0A3M4DVB2 Uncharacterized protein n=3 Tax=Pseudomonas...  49.1    0.002
+  UniRef90_S6INT7 Uncharacterized protein n=122 Tax=Proteobacteri...  48.0    0.003
+  UniRef90_A0A1W9MMX6 Uncharacterized protein n=1 Tax=Candidatus ...  47.6    0.003
+  UniRef90_A0A0Q0J756 Chromosome partitioning protein n=33 Tax=Ps...  47.6    0.003
+  UniRef90_UPI000D920384 hypothetical protein n=1 Tax=Flavobacter...  47.6    0.003
+  UniRef90_W0H436 Uncharacterized protein n=48 Tax=Pseudomonas Ta...  47.6    0.003
+  UniRef90_A0A1G1BXH1 Uncharacterized protein n=1 Tax=Lentisphaer...  47.2    0.003
+  UniRef90_UPI000EAE1B15 chromosome partitioning protein n=1 Tax=...  47.6    0.004
+  UniRef90_UPI0004269B1B chromosome partitioning protein n=1 Tax=...  47.6    0.004
+  UniRef90_A0A1H3AGH5 Bacterial condensin subunit MukE n=2 Tax=Ps...  47.2    0.004
+  UniRef90_A0A2V4SIP6 Uncharacterized protein n=5 Tax=Pseudomonas...  47.2    0.004
+  UniRef90_UPI0002559871 hypothetical protein n=1 Tax=Ochrovirga ...  46.8    0.005
+  UniRef90_A0A2D9N9G9 Uncharacterized protein n=1 Tax=Altibacter ...  46.8    0.005
+  UniRef90_K9NRB1 Uncharacterized protein n=490 Tax=Bacteria TaxI...  46.8    0.006
+  UniRef90_A0A0E9MEE4 Uncharacterized protein n=1 Tax=Sulfuricell...  46.0    0.006
+  UniRef90_UPI000F620BC0 hypothetical protein n=1 Tax=Ancylomarin...  46.4    0.007
+  UniRef90_A0A1E5X8J9 Chromosome partitioning protein n=5 Tax=Pse...  46.4    0.008
+  UniRef90_A0A0F5J795 Uncharacterized protein n=6 Tax=Parabactero...  45.7    0.009
+  UniRef90_A0A0T6UMK4 Chromosome partitioning protein n=1 Tax=Pse...  46.0    0.010
+  UniRef90_A0A2V9AHF8 Uncharacterized protein n=1 Tax=Acidobacter...  45.7    0.012
+  UniRef90_A0A1W6MMS0 Uncharacterized protein n=2 Tax=Flavobacter...  45.7    0.012
+  UniRef90_A0A0F9U5H3 Uncharacterized protein n=2 Tax=root TaxID=...  45.7    0.014
+  UniRef90_A3XIZ4 Uncharacterized protein n=4 Tax=Flavobacteriace...  45.3    0.017
+  UniRef90_A0A1C5VC63 Uncharacterized protein n=1 Tax=uncultured ...  45.3    0.019
+  UniRef90_Q6AK38 Uncharacterized protein n=1 Tax=Desulfotalea ps...  44.9    0.021
+  UniRef90_A0A1H2GVU4 Bacterial condensin subunit MukE n=1 Tax=Ps...  44.9    0.027
+  UniRef90_A0A1K2IQL4 Uncharacterized protein n=1 Tax=Flaviramulu...  44.9    0.027
+  UniRef90_A0A1Y0KNV9 Chromosome partitioning protein n=3 Tax=Pse...  44.9    0.031
+  UniRef90_A0A1G7G3Z5 Bacterial condensin subunit MukE n=4 Tax=Ps...  44.9    0.032
+  UniRef90_UPI00041ED3E2 hypothetical protein n=2 Tax=Zooshikella...  44.5    0.034
+  UniRef90_A0A2D5P2P4 Uncharacterized protein n=1 Tax=Arcobacter ...  44.1    0.038
+  UniRef90_UPI000C1611F2 hypothetical protein n=2 Tax=Elizabethki...  44.1    0.044
+  UniRef90_A0A0U4HAV2 Chromosome partitioning protein n=19 Tax=Ps...  44.1    0.050
+  UniRef90_A0A2W1MFW3 Chromosome partitioning protein n=7 Tax=Pse...  44.1    0.054
+  UniRef90_A0A2K9PJX9 Uncharacterized protein n=1 Tax=Flavivirga ...  44.1    0.056
+  UniRef90_S0GKM4 Uncharacterized protein n=1 Tax=Parabacteroides...  43.7    0.066
+  UniRef90_A0A2G4E9W8 Chromosome partitioning protein n=1 Tax=Pse...  43.3    0.076
+  UniRef90_A0A2T2VFL9 Uncharacterized protein n=1 Tax=Bacteroidet...  43.0    0.091
+  UniRef90_A3RW97 Uncharacterized protein n=4 Tax=Ralstonia solan...  43.0    0.091
+  UniRef90_A0A0C2MV83 Chromosome partitioning protein n=85 Tax=Ba...  43.3    0.093
+  UniRef90_S6ANL9 Uncharacterized protein n=8 Tax=Pseudomonas Tax...  43.3    0.11 
+  UniRef90_A0A2E0YRY8 Uncharacterized protein n=1 Tax=Flavobacter...  43.0    0.12 
+  UniRef90_UPI000E597F65 hypothetical protein n=1 Tax=Salinibacte...  43.0    0.12 
+  UniRef90_UPI000C9F56F6 hypothetical protein n=2 Tax=Salinivenus...  42.6    0.12 
+  UniRef90_A0A2E4Y9X1 Uncharacterized protein n=1 Tax=Gammaproteo...  42.6    0.14 
+  UniRef90_A0A2D5KGF2 Uncharacterized protein n=1 Tax=Flavobacter...  42.6    0.15 
+  UniRef90_D2QNM0 Uncharacterized protein n=1 Tax=Spirosoma lingu...  42.6    0.15 
+  UniRef90_A0A1M7L8J1 Bacterial condensin subunit MukE n=1 Tax=Ch...  42.6    0.16 
+  UniRef90_A0A2D5TQJ5 Uncharacterized protein n=1 Tax=Flavobacter...  42.6    0.17 
+  UniRef90_UPI000E5605F4 hypothetical protein n=1 Tax=Odoribacter...  42.2    0.19 
+  UniRef90_A0A142INS9 Chromosome partitioning protein n=7 Tax=Pse...  42.2    0.20 
+  UniRef90_A0A1G9JX32 Bacterial condensin subunit MukE n=2 Tax=Ps...  42.2    0.20 
+  UniRef90_A0A1G3FEI1 Chromosome partitioning protein (Fragment) ...  42.2    0.22 
+  UniRef90_A0A0L8AK56 Uncharacterized protein n=1 Tax=Roseivirga ...  42.2    0.22 
+  UniRef90_UPI0003E7D3E8 hypothetical protein n=1 Tax=Alcanivorax...  41.8    0.26 
+  UniRef90_A0A0H8TWM5 Condesin subunit E n=1 Tax=Vibrio cholerae ...  38.7    0.26 
+  UniRef90_C0QC54 Uncharacterized protein n=1 Tax=Desulfobacteriu...  41.4    0.29 
+  UniRef90_A0A2V3FG89 Chromosome partitioning protein (Fragment) ...  40.3    0.33 
+  UniRef90_UPI0003B62E37 hypothetical protein n=1 Tax=Salisaeta l...  41.4    0.35 
+  UniRef90_A0A290WPV3 Uncharacterized protein n=9 Tax=Janthinobac...  41.4    0.36 
+  UniRef90_A0A1W9WMA1 Uncharacterized protein n=1 Tax=Desulfobact...  41.0    0.45 
+  UniRef90_A0A1M6SES5 Uncharacterized protein n=3 Tax=Chryseobact...  41.0    0.57 
+  UniRef90_A0A2J6A2U1 Uncharacterized protein (Fragment) n=1 Tax=...  39.9    0.61 
+  UniRef90_K2PRL6 Uncharacterized protein n=2 Tax=Galbibacter mar...  40.3    0.82 
+  UniRef90_X2HDB1 Uncharacterized protein n=7 Tax=Snodgrassella a...  40.6    0.84 
+  UniRef90_A0A0K6BW09 Uncharacterized protein n=36 Tax=Bacteroide...  40.3    0.85 
+  UniRef90_UPI000D52772B polysaccharide pyruvyl transferase famil...  40.6    0.86 
+  UniRef90_A0A3N5ZHZ6 Tetratricopeptide repeat protein n=1 Tax=De...  41.0    0.92 
+  UniRef90_A0A1C4EHS5 Uncharacterized protein n=1 Tax=Chitinophag...  39.9    0.95 
+  UniRef90_A0A1M3BNT7 K+/H+ antiporter n=1 Tax=Solirubrobacterale...  40.6    1.0  
+  UniRef90_A0A2S7SQB1 Uncharacterized protein n=1 Tax=Flavipsychr...  39.9    1.1  
+  UniRef90_A0A3B6LR48 Uncharacterized protein n=1 Tax=Triticum ae...  40.3    1.3  
+  UniRef90_UPI000F56511A hypothetical protein n=1 Tax=Desulfonema...  40.6    1.4  
+  UniRef90_C0QGQ0 Uncharacterized protein n=1 Tax=Desulfobacteriu...  39.5    1.4  
+  UniRef90_K5UKE3 Uncharacterized protein n=1 Tax=Phanerochaete c...  39.9    1.6  
+  UniRef90_UPI0009A1404E DUF4194 domain-containing protein n=1 Ta...  39.5    1.6  
+  UniRef90_UPI000C15741F DUF4194 domain-containing protein n=1 Ta...  39.5    1.6  
+  UniRef90_A0A349D147 Uncharacterized protein n=1 Tax=Candidatus ...  40.3    1.6  
+  UniRef90_A0A1J5G6A0 Uncharacterized protein n=1 Tax=Oscillatori...  39.9    1.9  
+  UniRef90_UPI000FDBCD77 DUF2312 domain-containing protein n=1 Ta...  39.5    2.0  
+  UniRef90_A0DDP5 Uncharacterized protein n=1 Tax=Paramecium tetr...  39.9    2.3  
+  UniRef90_A0A0A1T9B9 DNA polymerase n=1 Tax=Torrubiella hemipter...  39.9    2.3  
+  UniRef90_A0A1I5QHE8 1,4-alpha-glucan branching enzyme n=3 Tax=B...  39.9    2.3  
+  UniRef90_A0A1L8N3B4 Uncharacterized protein n=1 Tax=Treponema s...  39.1    2.4  
+  UniRef90_A0A365VM97 Chromosome partitioning protein (Fragment) ...  37.9    2.6  
+  UniRef90_A0A2W5NDP5 Uncharacterized protein n=2 Tax=Novosphingo...  38.7    2.6  
+  UniRef90_A0A2P8F0W8 Monosaccharide ABC transporter ATP-binding ...  39.5    2.7  
+  UniRef90_A0A2P5NTC7 Glutamate--cysteine ligase n=1 Tax=Methyloc...  39.5    2.7  
+  UniRef90_A0A3N0AH80 Uncharacterized protein n=1 Tax=Slackia fae...  38.7    2.7  
+  UniRef90_A0A014P2V1 ATPase P n=4 Tax=Comamonas aquatica TaxID=2...  39.5    2.8  
+  UniRef90_U6RNF4 Uncharacterized protein n=2 Tax=Bacteroides Tax...  38.7    2.8  
+  UniRef90_A0A2D6RVG6 Uncharacterized protein n=1 Tax=Sutterellac...  39.1    2.9  
+  UniRef90_A0A2P6CCZ8 Uncharacterized protein n=1 Tax=Polaribacte...  38.7    2.9  
+  UniRef90_A0A2E3REN6 Uncharacterized protein n=1 Tax=Planctomyce...  39.5    3.0  
+  UniRef90_UPI000DCFD8DE hypothetical protein n=1 Tax=Catenovulum...  38.7    3.0  
+  UniRef90_UPI0008361991 TRAP transporter substrate-binding prote...  39.1    3.0  
+  UniRef90_A0A1Y5DAI8 Uncharacterized protein n=1 Tax=Bermanella ...  38.7    3.0  
+  UniRef90_A0A348PL87 Aminotransferase n=1 Tax=Flavobacteriales b...  39.1    3.0  
+  UniRef90_A0A1Q9AY51 Histidine kinase n=1 Tax=Rhizobium oryzae T...  39.5    3.0  
+  UniRef90_A0A1F8SYW8 Uncharacterized protein n=1 Tax=Chloroflexi...  39.1    3.1  
+  UniRef90_UPI000FD9F7E6 DUF2312 domain-containing protein n=1 Ta...  39.1    3.1  
+  UniRef90_A0A378V0F2 Flavoprotein n=21 Tax=Mycobacteriaceae TaxI...  39.1    3.3  
+  UniRef90_I2G0S4 Uncharacterized protein n=2 Tax=Ustilago TaxID=...  39.1    3.6  
+  UniRef90_UPI000EF477B9 hypothetical protein n=1 Tax=Arcobacter ...  38.3    3.7  
+  UniRef90_A6L8M5 Uncharacterized protein n=8 Tax=Parabacteroides...  37.9    4.1  
+  UniRef90_A0A1C4MX60 Haloacid dehalogenase superfamily, subfamil...  38.3    4.5  
+  UniRef90_A0A1L9WRF8 Uncharacterized protein n=5 Tax=Aspergillus...  36.4    4.5  
+  UniRef90_A0A1Q7WKK0 Uncharacterized protein n=1 Tax=Actinobacte...  37.9    4.8  
+  UniRef90_A0A318D1V9 Histidinol-phosphate aminotransferase n=2 T...  38.3    5.1  
+  UniRef90_A0A3A9SZ46 1,4-alpha-glucan branching enzyme n=3 Tax=B...  38.7    5.1  
+  UniRef90_UPI000978181D DUF4194 domain-containing protein n=1 Ta...  37.9    5.8  
+  UniRef90_Q3B5I0 Uncharacterized protein n=2 Tax=Pelodictyon lut...  37.9    6.0  
+  UniRef90_A0A350XNS9 Uncharacterized protein n=1 Tax=Actinobacte...  38.3    6.3  
+  UniRef90_A0A2P5NUY3 Uncharacterized protein n=1 Tax=Methylobact...  37.6    6.4  
+  UniRef90_UPI0003B60484 1,4-alpha-glucan branching protein GlgB ...  38.3    7.0  
+  UniRef90_A0A2D4YFL2 Uncharacterized protein n=2 Tax=Flavobacter...  37.6    7.0  
+  UniRef90_UPI0004C5E98E HAD family hydrolase n=1 Tax=Streptomyce...  37.6    7.1  
+  UniRef90_A0A2U1CX76 Uncharacterized protein DUF4194 n=1 Tax=Tam...  37.2    8.1  
+  UniRef90_A0A375FRI6 Transcriptional regulatory protein btr n=1 ...  37.6    8.7  
+  UniRef90_UPI000685A350 adenylate/guanylate cyclase domain-conta...  37.9    9.2  
+  UniRef90_UPI000255BA1F hypothetical protein n=1 Tax=Croceivirga...  37.2    9.6  
+  UniRef90_UPI000B398105 kinesin-like protein KIF16B n=1 Tax=Fund...  37.9    9.7  
+  UniRef90_A0A2W4VV14 Uncharacterized protein n=1 Tax=Flavobacter...  36.8    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.153    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0469    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1494760288296
+Results from round 3
+
+
+Query= NP_415443.2
+
+Length=234
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P22524 Chromosome partition protein MukE n=847 Tax=Bac...  296     5e-99
+  UniRef90_A0A1D3U6D5 Chromosome partition protein MukE n=37 Tax=...  288     8e-96
+  UniRef90_C9Y084 Chromosome partition protein MukE n=34 Tax=Ente...  288     1e-95
+  UniRef90_A0A0L7TJ04 Chromosome partition protein MukE n=6 Tax=E...  285     1e-94
+  UniRef90_A0A089PUV5 Chromosome partition protein MukE n=4 Tax=E...  283     6e-94
+  UniRef90_UPI00035E9EB6 chromosome partition protein MukE n=1 Ta...  283     7e-94
+  UniRef90_A0A3A5JWY7 Chromosome partition protein MukE n=22 Tax=...  283     7e-94
+  UniRef90_E5YD54 Chromosome partition protein MukE n=12 Tax=Ente...  280     1e-92
+  UniRef90_UPI0004AF002C chromosome partition protein MukE n=1 Ta...  280     2e-92
+  UniRef90_A0A2N5ETQ9 Chromosome partition protein MukE n=3 Tax=u...  280     2e-92
+  UniRef90_UPI000F09A710 chromosome partition protein MukE n=1 Ta...  280     2e-92
+  UniRef90_H2IS77 Chromosome partition protein MukE n=17 Tax=Ente...  279     3e-92
+  UniRef90_A0A2Y9U1G0 Chromosome partition protein MukE n=1 Tax=L...  279     4e-92
+  UniRef90_E0LYK5 Chromosome partition protein MukE n=13 Tax=Pant...  278     5e-92
+  UniRef90_A0A0U5L114 Chromosome partition protein MukE n=1 Tax=E...  278     1e-91
+  UniRef90_A0A087L6G6 Chromosome partition protein MukE n=54 Tax=...  278     1e-91
+  UniRef90_D4I0A1 Chromosome partition protein MukE n=18 Tax=Ente...  277     1e-91
+  UniRef90_UPI000FE3E101 chromosome partition protein MukE n=1 Ta...  277     3e-91
+  UniRef90_A0A1W6B0E4 Chromosome partition protein MukE n=4 Tax=E...  276     3e-91
+  UniRef90_UPI000DEFC34E chromosome partition protein MukE n=1 Ta...  276     6e-91
+  UniRef90_A0A0G3CU10 Chromosome partition protein MukE n=4 Tax=B...  276     6e-91
+  UniRef90_I0QU21 Chromosome partition protein MukE n=2 Tax=Yersi...  276     6e-91
+  UniRef90_UPI000948B329 chromosome partition protein MukE n=1 Ta...  276     7e-91
+  UniRef90_A0A2X1IFN7 Chromosome partition protein MukE n=1 Tax=E...  275     1e-90
+  UniRef90_J3HPS6 Chromosome partition protein MukE n=39 Tax=Ente...  275     1e-90
+  UniRef90_UPI000F689BD0 chromosome partition protein MukE n=1 Ta...  274     2e-90
+  UniRef90_D0Z9L8 Chromosome partition protein MukE n=13 Tax=Hafn...  274     2e-90
+  UniRef90_UPI000FDDFEE7 UPI000FDDFEE7 related cluster n=1 Tax=un...  274     2e-90
+  UniRef90_A0A2I0FX31 Chromosome partition protein MukE n=1 Tax=E...  274     2e-90
+  UniRef90_I2BAM9 Chromosome partition protein MukE n=3 Tax=Enter...  273     3e-90
+  UniRef90_A0A0B1R7Z8 Chromosome partition protein MukE n=16 Tax=...  273     5e-90
+  UniRef90_A0A083ZWB5 Chromosome partition protein MukE n=5 Tax=B...  273     5e-90
+  UniRef90_UPI0008FB5699 chromosome partition protein MukE n=1 Ta...  273     5e-90
+  UniRef90_A0A246NJK1 Chromosome partition protein MukE n=5 Tax=P...  273     1e-89
+  UniRef90_A0A0J8YVD7 Chromosome partition protein MukE n=3 Tax=E...  272     2e-89
+  UniRef90_Q2NU98 Chromosome partition protein MukE n=6 Tax=Sodal...  271     5e-89
+  UniRef90_UPI000DCA4EB4 chromosome partition protein MukE n=1 Ta...  271     6e-89
+  UniRef90_A0A1B7K0M7 Chromosome partition protein MukE n=1 Tax=P...  271     7e-89
+  UniRef90_A0A0M0T789 Chromosome partition protein MukE n=13 Tax=...  269     1e-88
+  UniRef90_A0A068R6V2 Chromosome partition protein MukE n=6 Tax=X...  269     3e-88
+  UniRef90_A0A095VG17 Chromosome partition protein MukE n=5 Tax=T...  269     3e-88
+  UniRef90_A0A068QQQ8 Chromosome partition protein MukE n=3 Tax=X...  269     4e-88
+  UniRef90_D3UWV9 Chromosome partition protein MukE n=16 Tax=Xeno...  268     7e-88
+  UniRef90_Q7N6B8 Chromosome partition protein MukE n=27 Tax=Phot...  267     1e-87
+  UniRef90_A0A0N0I966 Chromosome partition protein MukE n=2 Tax=M...  266     3e-87
+  UniRef90_B6XBZ0 Chromosome partition protein MukE n=15 Tax=Prov...  266     3e-87
+  UniRef90_K8WLU6 Chromosome partition protein MukE n=10 Tax=Gamm...  266     3e-87
+  UniRef90_E0SAS4 Chromosome partition protein MukE n=20 Tax=Ente...  266     4e-87
+  UniRef90_A0A2U8I6L3 Chromosome partition protein MukE n=1 Tax=C...  266     4e-87
+  UniRef90_A0A2I5TLI9 Chromosome partition protein MukE n=7 Tax=E...  265     8e-87
+  UniRef90_UPI00048DE880 chromosome partition protein MukE n=1 Ta...  265     9e-87
+  UniRef90_R8AUQ5 Chromosome partition protein MukE n=4 Tax=Plesi...  265     1e-86
+  UniRef90_A0A0J8VFG2 Chromosome partition protein MukE n=4 Tax=P...  264     2e-86
+  UniRef90_A0A1E5D608 Chromosome partition protein MukE n=2 Tax=V...  264     3e-86
+  UniRef90_Q8D049 Chromosome partition protein MukE n=66 Tax=Yers...  263     3e-86
+  UniRef90_D8MQD9 Chromosome partition protein MukE n=10 Tax=Ente...  263     4e-86
+  UniRef90_A0A0J5FX77 Chromosome partition protein MukE n=1 Tax=X...  264     4e-86
+  UniRef90_A0A0A2VZ14 Chromosome partition protein mukF n=1 Tax=B...  281     6e-86
+  UniRef90_A0A2T3Q4P1 Chromosome partition protein MukE n=8 Tax=P...  263     6e-86
+  UniRef90_A0A2A2GXL8 Chromosome partition protein MukE n=3 Tax=A...  263     8e-86
+  UniRef90_A0A249E0S7 Chromosome partitioning protein MukE n=4 Ta...  263     8e-86
+  UniRef90_A0A2N7DGI3 Chromosome partition protein MukE n=2 Tax=V...  262     1e-85
+  UniRef90_A0A0J1HGV2 Chromosome partition protein MukE n=7 Tax=P...  262     1e-85
+  UniRef90_A0A1E7Z4X0 Chromosome partition protein MukE n=2 Tax=C...  262     1e-85
+  UniRef90_UPI00046524C2 chromosome partition protein MukE n=1 Ta...  262     2e-85
+  UniRef90_A0A0F5ASE6 Chromosome partition protein MukE n=14 Tax=...  262     2e-85
+  UniRef90_A0A1M5XWX4 Chromosome partition protein MukE n=2 Tax=V...  262     2e-85
+  UniRef90_UPI000E3DFCDB chromosome partition protein MukE n=1 Ta...  262     2e-85
+  UniRef90_A0A3N9TCM6 Chromosome partition protein MukE n=1 Tax=V...  262     3e-85
+  UniRef90_Q2C3X6 Chromosome partition protein MukE n=11 Tax=Phot...  261     4e-85
+  UniRef90_A0A1R4B2X0 Chromosome partition protein MukE n=2 Tax=V...  261     4e-85
+  UniRef90_L8JJE8 Chromosome partition protein MukE n=1 Tax=Photo...  261     6e-85
+  UniRef90_A0A090QTJ5 Chromosome partition protein MukE n=1 Tax=P...  260     1e-84
+  UniRef90_A0A1B7JHQ8 Chromosome partition protein MukE n=31 Tax=...  259     2e-84
+  UniRef90_A0A0F5VF60 Chromosome partition protein MukE n=3 Tax=V...  259     2e-84
+  UniRef90_A0A2M8S5N0 Chromosome partition protein MukE n=1 Tax=C...  259     3e-84
+  UniRef90_A0A2N7D6C5 Chromosome partition protein MukE n=1 Tax=V...  259     3e-84
+  UniRef90_Q65TL8 Chromosome partition protein MukE n=2 Tax=Basfi...  259     3e-84
+  UniRef90_Q6D446 Chromosome partition protein MukE n=33 Tax=Pect...  258     3e-84
+  UniRef90_UPI000EB1021E chromosome partition protein MukE n=1 Ta...  258     4e-84
+  UniRef90_A0A2T3NXZ1 Chromosome partition protein MukE n=3 Tax=P...  258     5e-84
+  UniRef90_UPI0006CFFAFD chromosome partition protein MukE n=1 Ta...  258     7e-84
+  UniRef90_A0A2M8H394 Chromosome partition protein MukE n=1 Tax=V...  258     7e-84
+  UniRef90_A0A2N8ZCH5 Chromosome partition protein MukE n=2 Tax=V...  258     1e-83
+  UniRef90_E0WS00 Protein involved in chromosome partitioning n=3...  257     1e-83
+  UniRef90_D0IA16 Chromosome partition protein MukE n=10 Tax=Vibr...  257     1e-83
+  UniRef90_A0A1V3K905 Chromosome partition protein MukE n=1 Tax=R...  257     1e-83
+  UniRef90_A0A1I5R9G5 Chromosome partition protein MukE n=5 Tax=E...  257     2e-83
+  UniRef90_Q9CN37 Chromosome partition protein MukE n=20 Tax=Past...  257     2e-83
+  UniRef90_A0A0F5EYM5 Chromosome partition protein MukE n=6 Tax=A...  256     3e-83
+  UniRef90_A0A333FER7 Chromosome partition protein MukE n=22 Tax=...  256     3e-83
+  UniRef90_A0A377I725 Chromosome partition protein MukE n=3 Tax=A...  256     5e-83
+  UniRef90_UPI00046A1264 chromosome partition protein MukE n=1 Ta...  255     9e-83
+  UniRef90_A0A142FXD1 Chromosome partition protein MukE n=30 Tax=...  255     9e-83
+  UniRef90_A0A090S1A8 Chromosome partition protein MukE n=3 Tax=V...  255     9e-83
+  UniRef90_A0A0A7S893 Chromosome partition protein MukE n=1 Tax=F...  256     1e-82
+  UniRef90_A0A242NFT7 Chromosome partition protein MukE n=39 Tax=...  255     1e-82
+  UniRef90_A0A356E8N0 Chromosome partition protein MukE n=1 Tax=P...  255     1e-82
+  UniRef90_B7VMH1 Chromosome partition protein MukE n=105 Tax=Vib...  256     1e-82
+  UniRef90_UPI0008D98A0E chromosome partition protein MukE n=1 Ta...  254     2e-82
+  UniRef90_A0A2M8RYZ4 Chromosome partition protein MukE n=1 Tax=C...  254     2e-82
+  UniRef90_UPI000509FAE2 chromosome partition protein MukE n=3 Ta...  254     3e-82
+  UniRef90_U3B895 Chromosome partition protein MukE n=4 Tax=Vibri...  254     3e-82
+  UniRef90_UPI000DD84ED8 chromosome partition protein MukE n=1 Ta...  254     3e-82
+  UniRef90_A6VP66 Chromosome partition protein MukE n=2 Tax=Paste...  253     4e-82
+  UniRef90_A0A0J5S5M6 Chromosome partition protein MukE n=1 Tax=M...  253     4e-82
+  UniRef90_A0A1C3EE00 Chromosome partition protein MukE n=1 Tax=E...  252     9e-82
+  UniRef90_A0A0B8P6E3 Chromosome partition protein mukE n=3 Tax=V...  252     1e-81
+  UniRef90_A0A2A4GH51 Chromosome partition protein MukE n=4 Tax=S...  252     1e-81
+  UniRef90_F0LSH7 Chromosome partition protein MukE n=7 Tax=Vibri...  252     1e-81
+  UniRef90_A0A2T3R2E0 Chromosome partition protein MukE n=23 Tax=...  252     2e-81
+  UniRef90_W0Q9B9 Chromosome partition protein MukE n=17 Tax=Past...  251     3e-81
+  UniRef90_A0A0W8JFP8 Chromosome partition protein MukE n=11 Tax=...  251     3e-81
+  UniRef90_I3DIL1 Chromosome partition protein MukE n=2 Tax=Paste...  251     3e-81
+  UniRef90_A0A2N7GG71 Chromosome partition protein MukE n=2 Tax=V...  251     4e-81
+  UniRef90_A0A1H7Y9Z5 Chromosome partition protein MukE n=1 Tax=P...  251     5e-81
+  UniRef90_A6D7K4 Chromosome partition protein MukE n=10 Tax=Vibr...  251     5e-81
+  UniRef90_F0ETX8 Chromosome partition protein MukE n=6 Tax=Haemo...  251     6e-81
+  UniRef90_P45186 Chromosome partition protein MukE n=136 Tax=Bac...  250     7e-81
+  UniRef90_UPI000D01DC93 chromosome partition protein MukE n=1 Ta...  251     8e-81
+  UniRef90_UPI000B359198 chromosome partition protein MukE n=1 Ta...  251     8e-81
+  UniRef90_A0A1G7Z968 Chromosome partition protein MukE n=1 Tax=V...  250     1e-80
+  UniRef90_A0A263HBM4 Chromosome partition protein MukE n=3 Tax=P...  249     1e-80
+  UniRef90_F4H9L4 Chromosome partition protein MukE n=19 Tax=Gall...  249     1e-80
+  UniRef90_A0A0A3APG2 Chromosome partition protein MukE n=1 Tax=C...  250     2e-80
+  UniRef90_V5FCP0 Chromosome partition protein MukE n=6 Tax=Vibri...  249     2e-80
+  UniRef90_A0A1H9ZAJ1 Chromosome partition protein MukE n=2 Tax=T...  250     2e-80
+  UniRef90_A0A379C8R7 Chromosome partition protein MukE n=1 Tax=P...  249     2e-80
+  UniRef90_Q6LPL4 Chromosome partition protein MukE n=5 Tax=Photo...  249     2e-80
+  UniRef90_U4K6B1 Chromosome partition protein MukE n=7 Tax=Vibri...  248     2e-80
+  UniRef90_UPI000838935F chromosome partition protein MukE n=1 Ta...  249     2e-80
+  UniRef90_A0A090PND6 Chromosome partition protein MukE n=5 Tax=V...  249     3e-80
+  UniRef90_A0A1E5BHM8 Chromosome partition protein MukE n=3 Tax=V...  249     3e-80
+  UniRef90_A0A380TXH4 Chromosome partition protein MukE n=1 Tax=[...  248     4e-80
+  UniRef90_A0A1T4KGL1 Chromosome partition protein MukE n=3 Tax=V...  248     5e-80
+  UniRef90_A0A377I3M9 Condesin subunit E n=7 Tax=Haemophilus TaxI...  248     5e-80
+  UniRef90_U4SN40 Chromosome partition protein mukE n=17 Tax=Past...  248     5e-80
+  UniRef90_C9P493 Chromosome partition protein MukE n=4 Tax=Vibri...  248     6e-80
+  UniRef90_A0A368LNB0 Chromosome partition protein MukE n=6 Tax=V...  249     7e-80
+  UniRef90_A0A1V3TMC4 Chromosome partition protein MukE n=1 Tax=P...  248     8e-80
+  UniRef90_A3MZU6 Chromosome partition protein MukE n=7 Tax=Actin...  248     8e-80
+  UniRef90_A0A1E5E1Y7 Chromosome partition protein MukE n=1 Tax=V...  248     1e-79
+  UniRef90_A0A1T0AT07 Chromosome partition protein MukE n=1 Tax=H...  247     1e-79
+  UniRef90_A0A1T0B6V4 Chromosome partition protein MukE n=1 Tax=[...  247     1e-79
+  UniRef90_Q9KRC7 Chromosome partition protein MukE n=59 Tax=Vibr...  246     1e-79
+  UniRef90_UPI000B35F8F9 chromosome partition protein MukE n=1 Ta...  246     2e-79
+  UniRef90_A0A0L7YY99 Chromosome partition protein MukE n=16 Tax=...  246     2e-79
+  UniRef90_A0A1V3JS12 Chromosome partition protein MukE n=2 Tax=R...  246     3e-79
+  UniRef90_UPI000B34BB83 chromosome partition protein MukE n=1 Ta...  246     4e-79
+  UniRef90_E3BF66 Chromosome partition protein MukE n=2 Tax=Vibri...  244     1e-78
+  UniRef90_A0A011P6D5 Chromosome partition protein MukE n=4 Tax=M...  244     2e-78
+  UniRef90_UPI000F6856DB chromosome partition protein MukE n=2 Ta...  244     2e-78
+  UniRef90_A0A1W1V0H9 Chromosome partition protein MukE n=2 Tax=P...  245     2e-78
+  UniRef90_UPI000EAD32C0 chromosome partition protein MukE n=1 Ta...  243     3e-78
+  UniRef90_UPI000F706AF8 chromosome partition protein MukE n=1 Ta...  243     4e-78
+  UniRef90_B0UU63 Chromosome partition protein MukE n=5 Tax=Paste...  243     6e-78
+  UniRef90_W0R560 Chromosome partition protein MukE n=3 Tax=Biber...  243     6e-78
+  UniRef90_A0A3N4X3V1 Condensin subunit MukE n=1 Tax=Frederikseni...  243     7e-78
+  UniRef90_A0A2J8GNZ6 Chromosome partition protein MukE n=6 Tax=V...  243     8e-78
+  UniRef90_Q87QW3 Chromosome partition protein MukE n=129 Tax=Vib...  241     2e-77
+  UniRef90_A0A1X1MQG3 Condesin subunit E n=1 Tax=Vibrio sp. qd031...  241     3e-77
+  UniRef90_B6ERZ8 Chromosome partition protein MukE n=15 Tax=Alii...  241     4e-77
+  UniRef90_Q7VL95 Chromosome partition protein MukE n=3 Tax=Haemo...  241     4e-77
+  UniRef90_J4TTW3 MukE-like family protein n=3 Tax=Haemophilus sp...  240     9e-77
+  UniRef90_Q8DAP9 Chromosome partition protein MukE n=17 Tax=Vibr...  239     1e-76
+  UniRef90_A0A3N4W8P7 Condensin subunit MukE n=1 Tax=Vespertiliib...  238     4e-76
+  UniRef90_C4LER0 Chromosome segregation and condensation protein...  235     8e-75
+  UniRef90_UPI000970BEAE chromosome partition protein MukE n=1 Ta...  232     9e-74
+  UniRef90_A0A0H6HY56 Condesin subunit E n=1 Tax=Vibrio cholerae ...  231     2e-73
+  UniRef90_A0A291HPQ1 Condesin subunit E n=4 Tax=Aeromonadaceae T...  230     5e-73
+  UniRef90_UPI000E745CA3 chromosome partition protein MukE n=1 Ta...  230     5e-73
+  UniRef90_A0A1Y0D1I4 Chromosome partitioning protein MukE n=2 Ta...  230     8e-73
+  UniRef90_A0A1Y0CV00 Chromosome partitioning protein MukE n=1 Ta...  227     9e-72
+  UniRef90_A0A3A9IRC4 Chromosome partition protein MukE n=74 Tax=...  227     1e-71
+  UniRef90_A5L1B6 Condesin subunit E n=1 Tax=Vibrionales bacteriu...  224     3e-71
+  UniRef90_H2FW85 Condesin subunit E n=7 Tax=Aeromonadaceae TaxID...  224     1e-70
+  UniRef90_UPI0009AFF50A chromosome partition protein MukE n=1 Ta...  218     4e-69
+  UniRef90_A0A3A1Y8D3 Chromosome partitioning protein MukE n=1 Ta...  221     1e-67
+  UniRef90_A0A378DHE3 Condesin subunit E n=2 Tax=Enterobacteriace...  212     6e-67
+  UniRef90_A0A3A1Y9L2 Chromosome partitioning protein MukE n=1 Ta...  216     1e-65
+  UniRef90_A0A0S2SIB3 Condesin subunit E n=5 Tax=Aeromonas TaxID=...  206     1e-63
+  UniRef90_A0A379FGE7 Condesin subunit E n=1 Tax=Proteus mirabili...  198     3e-61
+  UniRef90_A0A0H6HMS0 Condesin subunit E n=3 Tax=Vibrio cholerae ...  194     9e-60
+  UniRef90_A0A377M4B3 Condesin subunit E n=1 Tax=Enterobacter clo...  189     6e-58
+  UniRef90_A0A378DYK6 Condesin subunit E n=3 Tax=Enterobacteriace...  183     7e-56
+  UniRef90_A0A2W4LK23 Condensin subunit E n=1 Tax=Proteobacteria ...  188     2e-55
+  UniRef90_A0A0H8TYH1 Condesin subunit E n=1 Tax=Vibrio cholerae ...  183     3e-55
+  UniRef90_A0A1D2X596 Uncharacterized protein n=1 Tax=Endozoicomo...  184     8e-55
+  UniRef90_A9G7H3 Chromosome partition protein mukE n=3 Tax=Soran...  184     1e-54
+  UniRef90_UPI0007862043 hypothetical protein n=1 Tax=Endozoicomo...  181     1e-53
+  UniRef90_A0A376SXY2 Condesin subunit E n=2 Tax=Enterobacteriace...  177     1e-53
+  UniRef90_S4XVI7 Uncharacterized protein n=3 Tax=Sorangium cellu...  179     3e-53
+  UniRef90_A0A0G9I850 Condesin subunit E n=2 Tax=Xanthomonas hyac...  179     4e-53
+  UniRef90_A0A3M8NVH5 Condensin subunit E n=1 Tax=Marichromatium ...  179     5e-53
+  UniRef90_A0A142BDH5 Chromosome partition protein n=2 Tax=Endozo...  179     7e-53
+  UniRef90_A0A379I4M3 Chromosome partition protein mukE n=16 Tax=...  177     3e-52
+  UniRef90_UPI000C769AFB hypothetical protein n=1 Tax=Endozoicomo...  177     6e-52
+  UniRef90_UPI0009B8935D hypothetical protein n=1 Tax=Chromobacte...  178     8e-52
+  UniRef90_A0A081K5S8 Uncharacterized protein n=2 Tax=Endozoicomo...  176     9e-52
+  UniRef90_L0H1D6 Uncharacterized protein involved in chromosome ...  175     2e-51
+  UniRef90_A0A1M3NHR6 Uncharacterized protein n=1 Tax=Myxococcale...  182     3e-51
+  UniRef90_A0A1M3N943 Condensin subunit E n=1 Tax=Myxococcales ba...  173     1e-50
+  UniRef90_A0A150QC39 Condensin subunit E n=2 Tax=Sorangium cellu...  172     2e-50
+  UniRef90_A0A2Z4FKM0 Condensin subunit E n=1 Tax=Bradymonas sedi...  171     6e-50
+  UniRef90_UPI00037E74BA hypothetical protein n=1 Tax=Lamprocysti...  171     9e-50
+  UniRef90_UPI000471BD38 condensin subunit E n=1 Tax=Thioalkalivi...  168     9e-49
+  UniRef90_A0A0K1QDP3 Chromosome partition protein MukE n=1 Tax=L...  169     2e-48
+  UniRef90_UPI000792C3B4 chromosome partition protein MukE n=1 Ta...  164     3e-48
+  UniRef90_A0A2N5QNY0 Condensin subunit MukE n=2 Tax=Chromobacter...  167     3e-48
+  UniRef90_A0A376JZ55 Condesin subunit E n=26 Tax=root TaxID=1 Re...  163     4e-48
+  UniRef90_A0A1F9F1Q9 Condensin subunit E n=1 Tax=Deltaproteobact...  166     5e-48
+  UniRef90_UPI0009A660A2 hypothetical protein n=2 Tax=Vibrio para...  167     8e-48
+  UniRef90_A0A377AWD7 Condesin subunit E n=1 Tax=Escherichia coli...  162     2e-47
+  UniRef90_A0A1B1E8P6 Uncharacterized protein n=1 Tax=Vibrio natr...  164     9e-47
+  UniRef90_UPI000CD15987 condensin subunit E n=1 Tax=Pseudomonas ...  163     9e-47
+  UniRef90_A0A3P8KNX8 Condesin subunit E n=1 Tax=Raoultella terri...  159     2e-46
+  UniRef90_A0A090REH7 Chromosome partition protein MukE n=1 Tax=V...  159     2e-46
+  UniRef90_UPI0005B7CFEE hypothetical protein n=1 Tax=Paraburkhol...  162     2e-46
+  UniRef90_A0A2X3I787 Condesin subunit E n=1 Tax=Klebsiella pneum...  157     7e-46
+  UniRef90_A0A1Q9HR88 Uncharacterized protein n=3 Tax=Vibrio TaxI...  161     7e-46
+  UniRef90_A0A090T207 Chromosome partition protein MukE n=1 Tax=V...  158     1e-45
+  UniRef90_UPI0009EDBB15 hypothetical protein n=2 Tax=Vibrio TaxI...  160     5e-45
+  UniRef90_A0A090T6I1 Chromosome partition protein MukE n=1 Tax=V...  154     2e-44
+  UniRef90_A0A022PKM2 Bacterial condensin subunit MukE n=1 Tax=Ph...  157     2e-44
+  UniRef90_W1BA41 Chromosome partition protein MukF n=17 Tax=Ente...  160     1e-42
+  UniRef90_A0A376VLU7 Condesin subunit E n=1 Tax=Escherichia coli...  149     3e-42
+  UniRef90_A0A0T9R4G8 Condesin subunit E n=20 Tax=Enterobacterale...  151     7e-42
+  UniRef90_A0A2X5BFK1 Condesin subunit E n=2 Tax=Enterobacteriace...  146     8e-42
+  UniRef90_A0A1B4V7S5 Condesin subunit E n=1 Tax=Sulfurifustis va...  147     8e-41
+  UniRef90_A0A2N2TU66 Uncharacterized protein n=1 Tax=Betaproteob...  150     2e-40
+  UniRef90_UPI000E1BEEF7 thioredoxin-disulfide reductase n=1 Tax=...  145     1e-39
+  UniRef90_A0A150S017 Condensin subunit E (Fragment) n=1 Tax=Sora...  139     5e-38
+  UniRef90_A0KX07 Thioredoxin-disulfide reductase n=1 Tax=Shewane...  141     8e-38
+  UniRef90_O30870 MukE homolog (Fragment) n=1 Tax=Haemophilus inf...  135     2e-37
+  UniRef90_UPI00037DBE5A hypothetical protein n=1 Tax=Thiobacillu...  138     3e-37
+  UniRef90_A0A376ZR57 Condesin subunit E n=1 Tax=Escherichia coli...  135     3e-37
+  UniRef90_A0A3P4HKQ7 Chromosome partition protein MukE n=1 Tax=K...  128     3e-34
+  UniRef90_UPI000996879D hypothetical protein n=1 Tax=Vibrio para...  133     2e-32
+  UniRef90_A0A0A1YKQ2 Chromosome partitioning protein n=1 Tax=Pse...  123     3e-31
+  UniRef90_A0A364UK31 Chromosome partitioning protein MukE (Fragm...  118     4e-31
+  UniRef90_A0A377TP68 Condesin subunit E n=1 Tax=Klebsiella pneum...  117     7e-31
+  UniRef90_N2JMJ5 Uncharacterized protein n=6 Tax=Pseudomonadacea...  121     1e-30
+  UniRef90_UPI0009A1565B chromosome partitioning protein n=1 Tax=...  122     1e-30
+  UniRef90_UPI000E761A0C chromosome partitioning protein n=1 Tax=...  122     1e-30
+  UniRef90_A0A089YPY8 Chromosome partitioning protein n=9 Tax=Pse...  121     1e-30
+  UniRef90_A0A2X3IX71 Condesin subunit E n=4 Tax=Enterobacteriace...  116     3e-30
+  UniRef90_A0A1H0PXR0 Uncharacterized protein n=1 Tax=Pseudomonas...  120     3e-30
+  UniRef90_A0A089WSD1 Chromosome partitioning protein n=2 Tax=Pse...  120     5e-30
+  UniRef90_A0A257D730 Chromosome partitioning protein n=1 Tax=Pse...  120     5e-30
+  UniRef90_A0A1C7BI65 Uncharacterized protein n=65 Tax=Gammaprote...  120     5e-30
+  UniRef90_A0A010RTC8 Chromosome partitioning protein n=3 Tax=Pse...  119     6e-30
+  UniRef90_A0A2I0CR53 Chromosome partitioning protein n=2 Tax=Pse...  119     7e-30
+  UniRef90_A0A1I5W9X0 Bacterial condensin subunit MukE n=9 Tax=Ga...  119     9e-30
+  UniRef90_B1JF53 Uncharacterized protein n=111 Tax=Gammaproteoba...  118     3e-29
+  UniRef90_A0A0Q0SZL8 Chromosome partitioning protein n=27 Tax=Ps...  118     3e-29
+  UniRef90_A0A1H7GS66 Uncharacterized protein n=2 Tax=Pseudomonas...  118     3e-29
+  UniRef90_A0A0X8BZL5 Chromosome partitioning protein n=1 Tax=Pse...  117     3e-29
+  UniRef90_A0A0S4IAU2 Uncharacterized protein n=7 Tax=Pseudomonas...  117     6e-29
+  UniRef90_M4X373 Chromosome partitioning protein n=4 Tax=Pseudom...  117     1e-28
+  UniRef90_A0A077LBB0 Uncharacterized protein n=34 Tax=Gammaprote...  116     2e-28
+  UniRef90_A0A1I3UT99 Chromosome partition protein MukE n=2 Tax=D...  116     3e-28
+  UniRef90_A0A0F0DZD3 Chromosome partitioning protein n=5 Tax=Pse...  116     3e-28
+  UniRef90_A0A024HMF1 Uncharacterized protein n=14 Tax=Proteobact...  115     5e-28
+  UniRef90_A0A379WBJ5 Condesin subunit E n=2 Tax=Enterobacteriace...  110     8e-28
+  UniRef90_A0A2U1FUQ0 Uncharacterized protein n=2 Tax=Pseudomonas...  113     1e-27
+  UniRef90_A0A1Q3X6F1 Uncharacterized protein n=1 Tax=Bacteroidet...  112     4e-27
+  UniRef90_A0A090S206 Chromosome partition protein MukE n=1 Tax=V...  108     7e-27
+  UniRef90_UPI00056C9BBE hypothetical protein n=1 Tax=Salegentiba...  110     2e-26
+  UniRef90_A0A376ZU82 Condesin subunit E n=1 Tax=Escherichia coli...  105     3e-26
+  UniRef90_UPI000E5B38D6 hypothetical protein n=1 Tax=Chitinophag...  109     5e-26
+  UniRef90_A0A0B8T6L0 Uncharacterized protein n=3 Tax=Bacteria Ta...  109     6e-26
+  UniRef90_A0A378N5F9 Chromosome partition protein mukE n=1 Tax=M...  105     1e-25
+  UniRef90_A0A3E0ES22 Uncharacterized protein n=1 Tax=Flavobacter...  107     3e-25
+  UniRef90_A0A2E6EZM2 Uncharacterized protein n=1 Tax=Flavobacter...  107     5e-25
+  UniRef90_A0A1M5ZCD0 Bacterial condensin subunit MukE n=2 Tax=Ba...  106     9e-25
+  UniRef90_A0A2X4YKR5 Condesin subunit E n=1 Tax=Klebsiella oxyto...  102     1e-24
+  UniRef90_A0A238UDV7 Uncharacterized protein n=2 Tax=Tenacibacul...  105     1e-24
+  UniRef90_A0A1Q3UK12 Uncharacterized protein n=1 Tax=Mucilaginib...  105     1e-24
+  UniRef90_W1ENK0 Chromosome partition protein MukE n=1 Tax=Klebs...  101     2e-24
+  UniRef90_A0A2M9R3W5 Uncharacterized protein n=6 Tax=Flavobacter...  104     4e-24
+  UniRef90_F8E596 Uncharacterized protein n=1 Tax=Flexistipes sin...  104     5e-24
+  UniRef90_A0A3P3WDZ2 Uncharacterized protein n=1 Tax=Flavobacter...  104     5e-24
+  UniRef90_UPI00054D067A hypothetical protein n=1 Tax=Gillisia sp...  103     1e-23
+  UniRef90_A0A1Q6GXP6 Uncharacterized protein n=2 Tax=Bacteroides...  103     1e-23
+  UniRef90_A0A376RKX6 Condesin subunit E n=1 Tax=Escherichia coli...  99.3    1e-23
+  UniRef90_A0A1D9PCS1 Uncharacterized protein n=1 Tax=Flavobacter...  102     2e-23
+  UniRef90_A0A2M9DTP4 Uncharacterized protein n=1 Tax=Desulfofaba...  103     3e-23
+  UniRef90_A0A1F9WAX6 Uncharacterized protein n=3 Tax=unclassifie...  100     3e-23
+  UniRef90_A0A3C1BH50 Uncharacterized protein n=1 Tax=Mucilaginib...  100     1e-22
+  UniRef90_W1HRE1 Chromosome partition protein MukE n=1 Tax=Klebs...  97.0    2e-22
+  UniRef90_A0A379WW29 Condesin subunit E n=1 Tax=Salmonella enter...  95.9    2e-22
+  UniRef90_A0A3E0WNM8 Uncharacterized protein n=1 Tax=Alkalilimni...  98.6    4e-22
+  UniRef90_UPI00046E843B hypothetical protein n=1 Tax=Prolixibact...  99.3    5e-22
+  UniRef90_A0A365XY75 Uncharacterized protein n=1 Tax=Chitinophag...  99.0    5e-22
+  UniRef90_A0A1N6QUU3 Uncharacterized protein n=1 Tax=Maribacter ...  97.0    4e-21
+  UniRef90_UPI0004887F8A hypothetical protein n=1 Tax=Desulfoverm...  96.6    6e-21
+  UniRef90_A0A074KZQ2 Uncharacterized protein n=2 Tax=Bacteroidet...  95.1    1e-20
+  UniRef90_A0A1V2AXW5 Uncharacterized protein n=2 Tax=[Flexibacte...  95.1    2e-20
+  UniRef90_UPI00028A3467 hypothetical protein n=1 Tax=Aquimarina ...  95.1    2e-20
+  UniRef90_A0A2N2AME6 Uncharacterized protein n=1 Tax=Gammaproteo...  94.0    2e-20
+  UniRef90_A0A2V9CZV7 Uncharacterized protein n=1 Tax=Acidobacter...  93.2    4e-20
+  UniRef90_UPI000F8E48A9 hypothetical protein n=1 Tax=Pseudoflavi...  93.6    6e-20
+  UniRef90_UPI0003F5446C hypothetical protein n=1 Tax=Desulfobulb...  92.4    8e-20
+  UniRef90_A0A090SDC1 Chromosome partition protein MukE n=1 Tax=V...  88.6    9e-20
+  UniRef90_A0A1Q6DQ57 Uncharacterized protein n=1 Tax=Desulfobulb...  92.0    1e-19
+  UniRef90_A0A377DVY1 Condesin subunit E n=1 Tax=Escherichia coli...  88.2    1e-19
+  UniRef90_UPI000680BFD5 hypothetical protein n=2 Tax=Bacteroidet...  92.8    1e-19
+  UniRef90_A0A1E5SJ77 Uncharacterized protein n=1 Tax=Algibacter ...  92.8    1e-19
+  UniRef90_K1YCQ3 Uncharacterized protein n=1 Tax=uncultured bact...  91.6    2e-19
+  UniRef90_A0A1K2IMW1 Uncharacterized protein n=1 Tax=Chryseobact...  92.8    2e-19
+  UniRef90_UPI000EACFD75 hypothetical protein n=1 Tax=Mucilaginib...  92.4    2e-19
+  UniRef90_A0A2V9D6H9 Uncharacterized protein n=1 Tax=Acidobacter...  91.3    2e-19
+  UniRef90_W1XH97 Chromosome partition protein MukE (Fragment) n=...  86.6    6e-19
+  UniRef90_A0A2G6LVZ4 Uncharacterized protein n=1 Tax=Candidatus ...  89.3    9e-19
+  UniRef90_A0A379RCK8 Condesin subunit E n=1 Tax=Salmonella enter...  85.9    9e-19
+  UniRef90_A0A090T7V0 Chromosome partition protein MukE n=1 Tax=V...  87.0    2e-18
+  UniRef90_A0A381H5L1 Condesin subunit E n=1 Tax=Citrobacter kose...  85.1    2e-18
+  UniRef90_A0A3N5UP91 Uncharacterized protein n=1 Tax=Deltaproteo...  88.6    2e-18
+  UniRef90_A0A2N2Y2G3 Uncharacterized protein n=1 Tax=Bacteroidet...  89.7    2e-18
+  UniRef90_A6GZS4 Uncharacterized protein n=3 Tax=Flavobacterium ...  89.3    2e-18
+  UniRef90_A0A0Q0RSM5 Uncharacterized protein n=2 Tax=Flavobacter...  88.9    3e-18
+  UniRef90_R5UQ44 Uncharacterized protein n=5 Tax=Bacteroidales T...  88.9    3e-18
+  UniRef90_A0A1H8TI87 Uncharacterized protein n=1 Tax=Aquisalimon...  88.6    3e-18
+  UniRef90_A0A1F3Q9A7 Uncharacterized protein n=1 Tax=Bacteroidet...  88.6    4e-18
+  UniRef90_UPI0005EB61AB hypothetical protein n=1 Tax=Desulfonatr...  89.3    4e-18
+  UniRef90_A0A2E4P8V3 Uncharacterized protein n=1 Tax=Flavobacter...  88.2    6e-18
+  UniRef90_A0A3D0VSM5 Uncharacterized protein n=2 Tax=Bacteroidet...  88.2    7e-18
+  UniRef90_UPI000586B960 hypothetical protein n=1 Tax=Fibrisoma l...  87.0    2e-17
+  UniRef90_E4TFQ5 Uncharacterized protein n=1 Tax=Calditerrivibri...  85.5    7e-17
+  UniRef90_A0A318UMU9 Uncharacterized protein n=1 Tax=Mucilaginib...  84.7    1e-16
+  UniRef90_UPI000EB0EC73 hypothetical protein n=1 Tax=Flavisoliba...  83.9    2e-16
+  UniRef90_A0A0G3ED32 Uncharacterized protein n=1 Tax=Kiritimatie...  82.8    5e-16
+  UniRef90_A0A1I4F695 MukE-like family protein n=1 Tax=Porphyromo...  82.8    6e-16
+  UniRef90_A0A376KX43 Condesin subunit E n=1 Tax=Escherichia coli...  78.2    1e-15
+  UniRef90_A0A0F5IWH0 Uncharacterized protein n=8 Tax=Bacteroidal...  81.6    2e-15
+  UniRef90_UPI000C9FA9CA hypothetical protein n=1 Tax=Salinibacte...  80.5    2e-15
+  UniRef90_UPI000533916D hypothetical protein n=1 Tax=Chryseobact...  80.1    6e-15
+  UniRef90_W1HPI7 Chromosome partition protein MukE n=1 Tax=Klebs...  75.8    7e-15
+  UniRef90_A0A376VNS1 Condesin subunit E n=1 Tax=Escherichia coli...  72.8    5e-14
+  UniRef90_A0A379BAU3 Chromosome partition protein MukE n=1 Tax=P...  73.5    5e-14
+  UniRef90_A0A376F5A6 Condesin subunit E n=1 Tax=Enterobacter asb...  72.8    1e-13
+  UniRef90_UPI0004E0E341 hypothetical protein n=1 Tax=Vibrio shil...  72.0    2e-12
+  UniRef90_A0A0H6F5E2 Condesin subunit E n=2 Tax=Vibrio cholerae ...  68.5    7e-12
+  UniRef90_B8K5Q3 Condesin subunit E n=1 Tax=Vibrio sp. 16 TaxID=...  65.8    7e-11
+  UniRef90_A0A378N5E1 Chromosome partition protein mukE n=1 Tax=M...  65.1    1e-10
+  UniRef90_A0A379WCM5 Condesin subunit E n=1 Tax=Salmonella enter...  62.4    8e-10
+  UniRef90_UPI000DE58332 hypothetical protein n=1 Tax=Escherichia...  53.1    2e-06
+  UniRef90_A0A377AWX6 Condesin subunit E n=1 Tax=Escherichia coli...  52.7    2e-06
+  UniRef90_A0A0H8Q4I1 Condesin subunit E n=1 Tax=Vibrio cholerae ...  51.6    5e-06
+  UniRef90_A0A150PQX0 Uncharacterized protein n=1 Tax=Sorangium c...  50.4    2e-05
+  UniRef90_A0A376VK89 Condesin subunit E n=2 Tax=Enterobacteriace...  49.7    3e-05
+  UniRef90_K8CAN4 Chromosome partition protein MukE n=1 Tax=Crono...  47.7    2e-04
+  UniRef90_J6CZ12 Condesin subunit E (Fragment) n=1 Tax=Pasteurel...  43.5    0.004
+  UniRef90_A0A376JYA6 Condesin subunit E n=1 Tax=Escherichia coli...  43.5    0.004
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A2V4SIP6 Uncharacterized protein n=5 Tax=Pseudomonas...  121     3e-30
+  UniRef90_UPI000EAE1B15 chromosome partitioning protein n=1 Tax=...  120     5e-30
+  UniRef90_S6INT7 Uncharacterized protein n=122 Tax=Proteobacteri...  120     7e-30
+  UniRef90_UPI00058DB608 chromosome partitioning protein n=1 Tax=...  119     7e-30
+  UniRef90_A0A1Y0KNV9 Chromosome partitioning protein n=3 Tax=Pse...  119     1e-29
+  UniRef90_A0A3M4DVB2 Uncharacterized protein n=3 Tax=Pseudomonas...  124     2e-29
+  UniRef90_A0A1H3AGH5 Bacterial condensin subunit MukE n=2 Tax=Ps...  117     3e-29
+  UniRef90_K9NRB1 Uncharacterized protein n=490 Tax=Bacteria TaxI...  118     3e-29
+  UniRef90_A0A0J6L809 Chromosome partitioning protein n=17 Tax=Ps...  117     4e-29
+  UniRef90_UPI0004269B1B chromosome partitioning protein n=1 Tax=...  117     5e-29
+  UniRef90_A0A0Q0J756 Chromosome partitioning protein n=33 Tax=Ps...  116     2e-28
+  UniRef90_A0A1E5X8J9 Chromosome partitioning protein n=5 Tax=Pse...  116     2e-28
+  UniRef90_UPI00035C4CA4 chromosome partitioning protein n=1 Tax=...  115     3e-28
+  UniRef90_A0A385YXN3 Chromosome partitioning protein n=1 Tax=Pse...  115     3e-28
+  UniRef90_A0A0T6UMK4 Chromosome partitioning protein n=1 Tax=Pse...  114     7e-28
+  UniRef90_W0H436 Uncharacterized protein n=48 Tax=Pseudomonas Ta...  114     7e-28
+  UniRef90_A0A1H6RR12 Uncharacterized protein n=1 Tax=Pseudomonas...  113     2e-27
+  UniRef90_A0A142INS9 Chromosome partitioning protein n=7 Tax=Pse...  113     3e-27
+  UniRef90_A0A2A2IR51 Chromosome partitioning protein n=1 Tax=Pse...  112     7e-27
+  UniRef90_A0A1H2GVU4 Bacterial condensin subunit MukE n=1 Tax=Ps...  109     5e-26
+  UniRef90_F6A9N6 Uncharacterized protein n=57 Tax=Gammaproteobac...  109     6e-26
+  UniRef90_A0A1G7G3Z5 Bacterial condensin subunit MukE n=4 Tax=Ps...  109     6e-26
+  UniRef90_A0A0C2MV83 Chromosome partitioning protein n=85 Tax=Ba...  108     1e-25
+  UniRef90_A0A2W1MFW3 Chromosome partitioning protein n=7 Tax=Pse...  108     2e-25
+  UniRef90_A0A1G3FEI1 Chromosome partitioning protein (Fragment) ...  107     2e-25
+  UniRef90_A0A3M5AYI8 Uncharacterized protein (Fragment) n=1 Tax=...  107     2e-25
+  UniRef90_A0A1G9JX32 Bacterial condensin subunit MukE n=2 Tax=Ps...  108     2e-25
+  UniRef90_J8V8C6 Uncharacterized protein n=1 Tax=Pseudomonas put...  108     3e-25
+  UniRef90_A0A2G4E9W8 Chromosome partitioning protein n=1 Tax=Pse...  106     5e-25
+  UniRef90_A0A0U4HAV2 Chromosome partitioning protein n=19 Tax=Ps...  106     7e-25
+  UniRef90_UPI00064917EA hypothetical protein n=1 Tax=Chryseobact...  105     2e-24
+  UniRef90_S6ANL9 Uncharacterized protein n=8 Tax=Pseudomonas Tax...  105     4e-24
+  UniRef90_UPI000D920384 hypothetical protein n=1 Tax=Flavobacter...  97.4    3e-21
+  UniRef90_A0A3E1P4B4 Uncharacterized protein n=1 Tax=Chitinophag...  95.9    8e-21
+  UniRef90_A0A2E6K0U3 Chromosome partitioning protein n=1 Tax=Pse...  95.5    1e-20
+  UniRef90_A0A2V8ZUR7 Uncharacterized protein n=1 Tax=Acidobacter...  92.4    9e-20
+  UniRef90_A0A365VM97 Chromosome partitioning protein (Fragment) ...  89.3    4e-19
+  UniRef90_A0A3E1Y423 Uncharacterized protein n=1 Tax=Chitinophag...  87.4    1e-17
+  UniRef90_A0A2V9AHF8 Uncharacterized protein n=1 Tax=Acidobacter...  86.6    2e-17
+  UniRef90_A0A2V3FG89 Chromosome partitioning protein (Fragment) ...  82.8    9e-17
+  UniRef90_A0A2A2RX14 Uncharacterized protein n=1 Tax=Pedosphaera...  84.3    9e-17
+  UniRef90_UPI000C1611F2 hypothetical protein n=2 Tax=Elizabethki...  83.9    2e-16
+  UniRef90_A0A162QZM4 Uncharacterized protein n=1 Tax=Flavihumiba...  83.9    3e-16
+  UniRef90_UPI0009BB30B1 hypothetical protein n=1 Tax=Chryseobact...  80.9    5e-15
+  UniRef90_A0A1W6MMS0 Uncharacterized protein n=2 Tax=Flavobacter...  79.3    1e-14
+  UniRef90_A0A1Q3VP38 Uncharacterized protein n=1 Tax=Candidatus ...  77.8    2e-14
+  UniRef90_A0A1Y1Q4W6 Uncharacterized protein n=1 Tax=Thiotrichac...  77.8    3e-14
+  UniRef90_A3XIZ4 Uncharacterized protein n=4 Tax=Flavobacteriace...  77.8    4e-14
+  UniRef90_A0A0F9U5H3 Uncharacterized protein n=2 Tax=root TaxID=...  77.4    6e-14
+  UniRef90_UPI000B35D602 hypothetical protein n=1 Tax=Elizabethki...  77.4    6e-14
+  UniRef90_UPI0009B9F1C1 hypothetical protein n=1 Tax=Parabactero...  77.8    7e-14
+  UniRef90_A0A1K2IQL4 Uncharacterized protein n=1 Tax=Flaviramulu...  77.4    1e-13
+  UniRef90_A0A1M7L8J1 Bacterial condensin subunit MukE n=1 Tax=Ch...  76.6    1e-13
+  UniRef90_UPI000C9F56F6 hypothetical protein n=2 Tax=Salinivenus...  75.8    2e-13
+  UniRef90_A0A1G1BXH1 Uncharacterized protein n=1 Tax=Lentisphaer...  75.8    2e-13
+  UniRef90_A0A1W9MMX6 Uncharacterized protein n=1 Tax=Candidatus ...  75.8    2e-13
+  UniRef90_A0A2D4YFL2 Uncharacterized protein n=2 Tax=Flavobacter...  76.2    2e-13
+  UniRef90_A0A2H1E662 Uncharacterized protein n=1 Tax=Tenacibacul...  75.5    3e-13
+  UniRef90_A0A1M6SES5 Uncharacterized protein n=3 Tax=Chryseobact...  75.1    5e-13
+  UniRef90_UPI0002559871 hypothetical protein n=1 Tax=Ochrovirga ...  74.3    8e-13
+  UniRef90_Q6AK38 Uncharacterized protein n=1 Tax=Desulfotalea ps...  73.9    9e-13
+  UniRef90_UPI000E597F65 hypothetical protein n=1 Tax=Salinibacte...  73.9    1e-12
+  UniRef90_A0A0L8AK56 Uncharacterized protein n=1 Tax=Roseivirga ...  72.8    3e-12
+  UniRef90_A0A2K9PJX9 Uncharacterized protein n=1 Tax=Flavivirga ...  72.8    5e-12
+  UniRef90_A0A2P8HEM1 Uncharacterized protein n=1 Tax=Chitinophag...  72.0    6e-12
+  UniRef90_A3RW97 Uncharacterized protein n=4 Tax=Ralstonia solan...  70.5    1e-11
+  UniRef90_A0A0E9MEE4 Uncharacterized protein n=1 Tax=Sulfuricell...  69.7    2e-11
+  UniRef90_A0A2E0YRY8 Uncharacterized protein n=1 Tax=Flavobacter...  69.7    5e-11
+  UniRef90_A0A1W9WMA1 Uncharacterized protein n=1 Tax=Desulfobact...  68.9    6e-11
+  UniRef90_X5K5C1 Uncharacterized protein n=3 Tax=Flavobacteriace...  68.1    2e-10
+  UniRef90_UPI000F620BC0 hypothetical protein n=1 Tax=Ancylomarin...  67.8    3e-10
+  UniRef90_C0QC54 Uncharacterized protein n=1 Tax=Desulfobacteriu...  67.0    3e-10
+  UniRef90_C8X2Y1 Uncharacterized protein n=1 Tax=Desulfohalobium...  67.8    5e-10
+  UniRef90_A0A2D5TQJ5 Uncharacterized protein n=1 Tax=Flavobacter...  65.8    1e-09
+  UniRef90_A0A2D9N9G9 Uncharacterized protein n=1 Tax=Altibacter ...  65.8    1e-09
+  UniRef90_UPI0004E1A3B2 hypothetical protein n=1 Tax=Pararheinhe...  64.7    1e-09
+  UniRef90_A0A2D5KGF2 Uncharacterized protein n=1 Tax=Flavobacter...  65.1    2e-09
+  UniRef90_UPI0003B62E37 hypothetical protein n=1 Tax=Salisaeta l...  64.3    2e-09
+  UniRef90_UPI000F0287C8 chromosome partitioning protein n=1 Tax=...  63.5    4e-09
+  UniRef90_S0GKM4 Uncharacterized protein n=1 Tax=Parabacteroides...  63.9    6e-09
+  UniRef90_UPI000E5605F4 hypothetical protein n=1 Tax=Odoribacter...  63.9    6e-09
+  UniRef90_A0A1C5VC63 Uncharacterized protein n=1 Tax=uncultured ...  63.9    6e-09
+  UniRef90_A0A3D5BMC7 Uncharacterized protein n=1 Tax=Rheinheimer...  62.4    2e-08
+  UniRef90_A0A0A7EGD6 Uncharacterized protein n=4 Tax=Pseudoalter...  61.6    2e-08
+  UniRef90_UPI000DCFD8DE hypothetical protein n=1 Tax=Catenovulum...  61.6    3e-08
+  UniRef90_UPI000382466B hypothetical protein n=1 Tax=Algicola sa...  60.8    6e-08
+  UniRef90_D2QNM0 Uncharacterized protein n=1 Tax=Spirosoma lingu...  60.8    7e-08
+  UniRef90_K2ITT4 Uncharacterized protein n=3 Tax=Gallaecimonas T...  60.1    8e-08
+  UniRef90_I1DXG1 Uncharacterized protein n=2 Tax=Rheinheimera Ta...  60.1    9e-08
+  UniRef90_A0A1B7UKY6 Uncharacterized protein n=1 Tax=Rheinheimer...  60.1    9e-08
+  UniRef90_UPI000255BA1F hypothetical protein n=1 Tax=Croceivirga...  60.4    1e-07
+  UniRef90_A0A349LR24 Uncharacterized protein n=1 Tax=Rheinheimer...  59.7    1e-07
+  UniRef90_A0A354YQB1 Chromosome partitioning protein (Fragment) ...  58.5    2e-07
+  UniRef90_UPI000CF65E75 hypothetical protein n=4 Tax=Pseudoalter...  58.5    3e-07
+  UniRef90_A0A0F4PX98 Uncharacterized protein n=3 Tax=Pseudoalter...  58.1    4e-07
+  UniRef90_A0A244CTL2 Uncharacterized protein n=1 Tax=Pseudoalter...  57.0    9e-07
+  UniRef90_UPI00041ED3E2 hypothetical protein n=2 Tax=Zooshikella...  57.7    1e-06
+  UniRef90_A0A2W4VV14 Uncharacterized protein n=1 Tax=Flavobacter...  56.6    1e-06
+  UniRef90_A0A317C8M2 Uncharacterized protein n=1 Tax=Leucothrix ...  56.6    2e-06
+  UniRef90_A0A2J6A2U1 Uncharacterized protein (Fragment) n=1 Tax=...  55.4    2e-06
+  UniRef90_A4CFH0 Uncharacterized protein n=1 Tax=Pseudoalteromon...  55.8    2e-06
+  UniRef90_A6L8M5 Uncharacterized protein n=8 Tax=Parabacteroides...  55.4    4e-06
+  UniRef90_A0A0K6BW09 Uncharacterized protein n=36 Tax=Bacteroide...  55.4    4e-06
+  UniRef90_Q3IKT1 Uncharacterized protein n=49 Tax=root TaxID=1 R...  54.7    6e-06
+  UniRef90_UPI0003E7D3E8 hypothetical protein n=1 Tax=Alcanivorax...  55.0    8e-06
+  UniRef90_A0A0U2XW28 Uncharacterized protein n=7 Tax=Pseudoalter...  54.7    8e-06
+  UniRef90_D1W4P4 Uncharacterized protein n=6 Tax=Prevotella TaxI...  53.9    2e-05
+  UniRef90_A0A317C898 Uncharacterized protein n=1 Tax=Leucothrix ...  54.3    2e-05
+  UniRef90_V4HRA6 Uncharacterized protein n=9 Tax=Pseudoalteromon...  53.5    2e-05
+  UniRef90_G7EP94 Uncharacterized protein n=8 Tax=Pseudoalteromon...  53.5    2e-05
+  UniRef90_A0A0S2K0D7 Uncharacterized protein n=2 Tax=Pseudoalter...  53.5    2e-05
+  UniRef90_A0A2N3RZR0 Uncharacterized protein n=1 Tax=Fibrobacter...  53.5    2e-05
+  UniRef90_A0A1S1NDR5 Uncharacterized protein n=3 Tax=Pseudoalter...  53.1    3e-05
+  UniRef90_Z5XWL1 Uncharacterized protein n=14 Tax=Pseudoalteromo...  52.7    4e-05
+  UniRef90_U1KTD9 Uncharacterized protein n=2 Tax=Pseudoalteromon...  52.4    5e-05
+  UniRef90_A0A0F5J795 Uncharacterized protein n=6 Tax=Parabactero...  52.0    7e-05
+  UniRef90_A0A239RH04 Uncharacterized protein n=2 Tax=Prevotellac...  51.6    8e-05
+  UniRef90_A0A353VR20 Uncharacterized protein n=1 Tax=Rikenellace...  51.6    8e-05
+  UniRef90_A0A1N6IJU7 Uncharacterized protein n=1 Tax=Fibrobacter...  51.6    9e-05
+  UniRef90_A0A0F4Q7Z4 Uncharacterized protein n=9 Tax=Pseudoalter...  51.6    9e-05
+  UniRef90_A0A3M1KA88 Uncharacterized protein n=1 Tax=Gammaproteo...  51.6    1e-04
+  UniRef90_F7NXM7 Uncharacterized protein n=5 Tax=Chromatiaceae T...  51.6    1e-04
+  UniRef90_U2KQI7 Uncharacterized protein n=4 Tax=Prevotella disi...  51.2    1e-04
+  UniRef90_A0A374CCN5 Uncharacterized protein n=1 Tax=Prevotella ...  51.2    1e-04
+  UniRef90_A0A2P6UQL2 Uncharacterized protein n=1 Tax=Fibrobacter...  51.2    1e-04
+  UniRef90_A0A1I2QJS2 Uncharacterized protein n=2 Tax=Pontibacter...  50.8    2e-04
+  UniRef90_A0A2T2VFL9 Uncharacterized protein n=1 Tax=Bacteroidet...  50.8    2e-04
+  UniRef90_A0A081TWX8 Uncharacterized protein n=1 Tax=Bacteroides...  50.4    2e-04
+  UniRef90_UPI00097F706B hypothetical protein n=1 Tax=Bacteroides...  49.3    5e-04
+  UniRef90_A0A1W1D2N7 Uncharacterized protein n=1 Tax=hydrotherma...  49.3    6e-04
+  UniRef90_A0A2M9A500 Uncharacterized protein n=2 Tax=Fibrobacter...  49.3    6e-04
+  UniRef90_A0A1A7QNA2 Uncharacterized protein n=1 Tax=Gelidibacte...  49.3    6e-04
+  UniRef90_UPI000FE29346 hypothetical protein n=1 Tax=Aequorivita...  49.3    7e-04
+  UniRef90_A0A255TPC6 Uncharacterized protein n=1 Tax=Prevotella ...  48.5    0.001
+  UniRef90_E7S0M1 Uncharacterized protein n=1 Tax=Lautropia mirab...  49.7    0.001
+  UniRef90_A0A0K1J3D0 Uncharacterized protein n=2 Tax=Azoarcus Ta...  48.9    0.001
+  UniRef90_A0A1H4AX75 Uncharacterized protein n=1 Tax=Psychroflex...  48.5    0.001
+  UniRef90_A0A2S7SQB1 Uncharacterized protein n=1 Tax=Flavipsychr...  48.1    0.002
+  UniRef90_A0A1G3Y0G6 Uncharacterized protein n=1 Tax=Thermodesul...  48.1    0.002
+  UniRef90_K2PRL6 Uncharacterized protein n=2 Tax=Galbibacter mar...  47.7    0.002
+  UniRef90_L7WHT5 Uncharacterized protein n=4 Tax=Flavobacteriace...  47.7    0.002
+  UniRef90_A0A1G3EC85 Uncharacterized protein n=1 Tax=Pseudomonad...  45.0    0.002
+  UniRef90_L8DDL1 Uncharacterized protein n=1 Tax=Pseudoalteromon...  47.3    0.002
+  UniRef90_W5IZR5 Uncharacterized protein n=9 Tax=Pseudomonas Tax...  47.7    0.003
+  UniRef90_A0A1Q3VL24 Uncharacterized protein n=1 Tax=Candidatus ...  47.3    0.003
+  UniRef90_B5D339 Uncharacterized protein n=7 Tax=Bacteroides Tax...  47.3    0.003
+  UniRef90_A0A3B8X038 Uncharacterized protein n=1 Tax=Rikenellace...  47.0    0.004
+  UniRef90_A0A3B8VU74 Uncharacterized protein n=1 Tax=Porphyromon...  47.0    0.004
+  UniRef90_D1B1L5 Uncharacterized protein n=1 Tax=Sulfurospirillu...  46.6    0.005
+  UniRef90_A0A2P5NUY3 Uncharacterized protein n=1 Tax=Methylobact...  46.6    0.005
+  UniRef90_UPI0009309E61 hypothetical protein n=1 Tax=Bacteroides...  46.6    0.005
+  UniRef90_D6D2E8 Uncharacterized protein n=31 Tax=Bacteroides Ta...  46.6    0.005
+  UniRef90_S6UUI1 Uncharacterized protein n=1 Tax=Pseudomonas syr...  45.8    0.005
+  UniRef90_A0A255SWI9 Uncharacterized protein n=2 Tax=Prevotella ...  46.6    0.005
+  UniRef90_A0A2H1E9B9 Uncharacterized protein n=2 Tax=Tenacibacul...  46.6    0.006
+  UniRef90_K4I9N8 Uncharacterized protein n=1 Tax=Psychroflexus t...  46.6    0.006
+  UniRef90_A1WBT8 Uncharacterized protein n=20 Tax=Proteobacteria...  46.6    0.006
+  UniRef90_A0A212BQD4 Uncharacterized protein n=1 Tax=Pseudomonas...  46.2    0.008
+  UniRef90_R6MNP0 Uncharacterized protein n=5 Tax=Bacteroides Tax...  45.8    0.011
+  UniRef90_A0A3N0AH80 Uncharacterized protein n=1 Tax=Slackia fae...  45.8    0.011
+  UniRef90_A0A0U3KVN8 Uncharacterized protein n=4 Tax=Tenacibacul...  45.4    0.012
+  UniRef90_A0A1H6MK89 Uncharacterized protein n=2 Tax=Flavobacter...  45.4    0.013
+  UniRef90_A0A1Y1QF70 Uncharacterized protein n=1 Tax=Thiothrix l...  44.3    0.014
+  UniRef90_J9GSN0 Uncharacterized protein n=1 Tax=gut metagenome ...  45.4    0.015
+  UniRef90_A0A348V5C9 Uncharacterized protein n=2 Tax=Bacteroidet...  45.4    0.015
+  UniRef90_A0A2W7NBR0 Uncharacterized protein n=1 Tax=Cytophaga x...  45.4    0.015
+  UniRef90_A0A2D5P2P4 Uncharacterized protein n=1 Tax=Arcobacter ...  45.0    0.016
+  UniRef90_A0A1M6V6S5 Uncharacterized protein n=4 Tax=Fibrobacter...  45.0    0.016
+  UniRef90_A0A0P0D1J4 Uncharacterized protein n=5 Tax=Flavobacter...  45.0    0.016
+  UniRef90_A0A3B8RRZ2 Uncharacterized protein n=1 Tax=Ignavibacte...  45.0    0.019
+  UniRef90_UPI000D15D65C hypothetical protein n=1 Tax=Photobacter...  45.0    0.019
+  UniRef90_A0A177LTM4 Uncharacterized protein n=1 Tax=Chryseobact...  42.7    0.019
+  UniRef90_A1VVP1 Uncharacterized protein n=1 Tax=Polaromonas nap...  45.0    0.021
+  UniRef90_A0A353TXR3 Uncharacterized protein n=1 Tax=Marinilabil...  44.6    0.022
+  UniRef90_A0A127VJY3 Uncharacterized protein n=3 Tax=Pedobacter ...  44.6    0.023
+  UniRef90_A0A315Z9H7 Uncharacterized protein n=1 Tax=Sediminitom...  44.6    0.024
+  UniRef90_UPI000EF477B9 hypothetical protein n=1 Tax=Arcobacter ...  44.6    0.024
+  UniRef90_A0A177NU93 Uncharacterized protein n=1 Tax=Methylomona...  44.6    0.025
+  UniRef90_R6XSR7 Uncharacterized protein n=1 Tax=Alistipes sp. C...  44.6    0.027
+  UniRef90_A0A173W1W2 Uncharacterized protein n=19 Tax=Bacteroida...  44.6    0.028
+  UniRef90_UPI00035F607E hypothetical protein n=1 Tax=Thioalkaliv...  44.6    0.028
+  UniRef90_A0A0J8V9Y1 Uncharacterized protein n=1 Tax=Photobacter...  44.3    0.029
+  UniRef90_UPI00068FC493 hypothetical protein n=1 Tax=Pseudomonas...  43.5    0.031
+  UniRef90_A0A1M7LDH2 Uncharacterized protein n=1 Tax=Flavobacter...  44.3    0.031
+  UniRef90_A0A290WPV3 Uncharacterized protein n=9 Tax=Janthinobac...  44.3    0.033
+  UniRef90_A0A2N7G951 Uncharacterized protein n=4 Tax=Vibrio TaxI...  44.3    0.035
+  UniRef90_A0A1A9EYK8 Uncharacterized protein n=1 Tax=Marinobacte...  44.3    0.038
+  UniRef90_U6RNF4 Uncharacterized protein n=2 Tax=Bacteroides Tax...  43.9    0.042
+  UniRef90_A0A0F5ANL7 Uncharacterized protein n=8 Tax=Vibrionacea...  43.9    0.042
+  UniRef90_A0A0F5BUY5 Uncharacterized protein n=2 Tax=Enterobacte...  43.9    0.043
+  UniRef90_A0A1B9DJM3 Uncharacterized protein n=1 Tax=Flavobacter...  43.9    0.046
+  UniRef90_I3Z789 Uncharacterized protein n=1 Tax=Belliella balti...  43.9    0.051
+  UniRef90_A0A1B1FXY8 Uncharacterized protein n=2 Tax=Flammeovirg...  43.5    0.052
+  UniRef90_X6N9V6 Uncharacterized protein (Fragment) n=1 Tax=Reti...  45.0    0.052
+  UniRef90_A0A2D5KA65 Uncharacterized protein n=1 Tax=Flavobacter...  43.9    0.052
+  UniRef90_UPI0003B6B479 hypothetical protein n=1 Tax=Methylohalo...  43.9    0.053
+  UniRef90_A0A3N2M058 Uncharacterized protein n=1 Tax=Muribaculac...  43.5    0.054
+  UniRef90_I4AKJ8 Uncharacterized protein n=1 Tax=Bernardetia lit...  43.5    0.055
+  UniRef90_K0YKV8 Uncharacterized protein n=1 Tax=Slackia pirifor...  43.9    0.057
+  UniRef90_S6GNR3 tRNA-dihydrouridine synthase B n=2 Tax=Bacteria...  44.3    0.057
+  UniRef90_A0A1M4W4C3 Uncharacterized protein n=1 Tax=Dysgonomona...  43.5    0.060
+  UniRef90_A0A364Y1F4 Uncharacterized protein n=1 Tax=Chryseoline...  43.5    0.060
+  UniRef90_R6CT89 Uncharacterized protein n=1 Tax=Bacteroides sp....  43.5    0.063
+  UniRef90_A8H204 Uncharacterized protein n=1 Tax=Shewanella peal...  43.5    0.070
+  UniRef90_A0A1L8N3B4 Uncharacterized protein n=1 Tax=Treponema s...  43.5    0.075
+  UniRef90_UPI000987CEC2 hypothetical protein n=1 Tax=Salinivibri...  43.1    0.075
+  UniRef90_A0A2G2FYR5 Uncharacterized protein n=1 Tax=Arcobacter ...  43.1    0.080
+  UniRef90_A0A1H6DVN3 Bacterial condensin subunit MukE n=1 Tax=Ma...  43.5    0.081
+  UniRef90_UPI000E314434 hypothetical protein n=1 Tax=Pseudomonas...  43.1    0.081
+  UniRef90_R7GT18 Uncharacterized protein n=1 Tax=Prevotella ster...  42.7    0.089
+  UniRef90_A0A098LFF1 Uncharacterized protein n=2 Tax=Sporocytoph...  42.7    0.11 
+  UniRef90_F9ZD17 tRNA-dihydrouridine synthase B n=7 Tax=Nitrosom...  43.5    0.11 
+  UniRef90_A0A2T5EGR6 Uncharacterized protein n=7 Tax=Vibrionacea...  42.7    0.11 
+  UniRef90_A0A0D0IWW9 Contig10, whole genome shotgun sequence n=1...  42.3    0.14 
+  UniRef90_UPI00045E7224 hypothetical protein n=1 Tax=Methylosarc...  42.3    0.14 
+  UniRef90_U2II63 Uncharacterized protein n=9 Tax=Prevotella TaxI...  42.3    0.14 
+  UniRef90_C0QGQ0 Uncharacterized protein n=1 Tax=Desulfobacteriu...  42.3    0.15 
+  UniRef90_S2XEV9 Uncharacterized protein n=6 Tax=Burkholderiales...  42.3    0.15 
+  UniRef90_R6CV13 Uncharacterized protein n=1 Tax=Bacteroides sp....  42.3    0.15 
+  UniRef90_A0A2N5Y5R3 Uncharacterized protein n=1 Tax=Chromatocur...  41.6    0.15 
+  UniRef90_A0A2A4P0K9 Uncharacterized protein n=1 Tax=Flavobacter...  42.3    0.17 
+  UniRef90_A0A0H8TWM5 Condesin subunit E n=1 Tax=Vibrio cholerae ...  39.3    0.18 
+  UniRef90_A0A081K9B6 tRNA-dihydrouridine synthase B n=4 Tax=cell...  42.7    0.20 
+  UniRef90_UPI00037CFFBE tRNA dihydrouridine synthase DusB n=1 Ta...  42.7    0.20 
+  UniRef90_A0A0E2V487 Uncharacterized protein n=5 Tax=Fusobacteri...  42.0    0.21 
+  UniRef90_UPI000F82300E hypothetical protein n=1 Tax=Flammeovirg...  42.0    0.21 
+  UniRef90_A0A1X7JGK7 Uncharacterized protein n=1 Tax=Fibrobacter...  41.6    0.23 
+  UniRef90_A0A2Z6INZ9 Uncharacterized protein n=1 Tax=Acidithioba...  42.0    0.24 
+  UniRef90_A0A3M5IC40 Uncharacterized protein n=2 Tax=Pseudomonas...  42.0    0.24 
+  UniRef90_A0A385SSC0 Uncharacterized protein n=1 Tax=Chryseoline...  41.6    0.27 
+  UniRef90_A1ZHT6 Uncharacterized protein n=1 Tax=Microscilla mar...  41.2    0.33 
+  UniRef90_A0A1T5ABK6 Uncharacterized protein n=1 Tax=Arcobacter ...  41.2    0.33 
+  UniRef90_H2BCX0 Uncharacterized protein n=1 Tax=Synechococcus p...  42.0    0.36 
+  UniRef90_A0A1T5KS58 Uncharacterized protein n=2 Tax=Bacteria Ta...  41.2    0.37 
+  UniRef90_A0A1Q3GWG1 Uncharacterized protein n=2 Tax=Cytophagale...  41.2    0.38 
+  UniRef90_A0A1I5XGA5 Uncharacterized protein n=1 Tax=Pseudomonas...  41.2    0.39 
+  UniRef90_A0A0F4P570 Uncharacterized protein n=8 Tax=Vibrio TaxI...  41.2    0.41 
+  UniRef90_B3CDG8 Uncharacterized protein n=4 Tax=Bacteroidales T...  41.2    0.41 
+  UniRef90_UPI000C83B34C hypothetical protein n=1 Tax=Vibrio breo...  41.2    0.43 
+  UniRef90_A0A133QEF4 Uncharacterized protein n=5 Tax=Prevotellac...  40.8    0.47 
+  UniRef90_UPI000761239B hypothetical protein n=1 Tax=Persicobact...  40.8    0.47 
+  UniRef90_A0A1Q4C7P3 tRNA-dihydrouridine synthase B n=1 Tax=Nitr...  41.6    0.50 
+  UniRef90_UPI000EFEED40 hypothetical protein n=1 Tax=Parabactero...  40.8    0.52 
+  UniRef90_A0A1B1Q1G7 Uncharacterized protein n=1 Tax=Prosthecoch...  40.8    0.55 
+  UniRef90_A0A1F3Q938 Uncharacterized protein n=1 Tax=Bacteroidet...  40.8    0.56 
+  UniRef90_UPI0005D3A5F4 hypothetical protein n=1 Tax=Photobacter...  40.8    0.57 
+  UniRef90_A0A0E9LYD7 Uncharacterized protein n=2 Tax=Geofilum Ta...  40.0    0.59 
+  UniRef90_UPI00068665A9 tRNA dihydrouridine synthase DusB n=1 Ta...  41.2    0.67 
+  UniRef90_UPI000EB4536D hypothetical protein n=1 Tax=Pseudomonas...  40.4    0.83 
+  UniRef90_A0A1W1E3K7 Uncharacterized protein n=1 Tax=hydrotherma...  39.6    0.87 
+  UniRef90_S0F5X2 Uncharacterized protein n=2 Tax=Bacteroides Tax...  40.0    0.90 
+  UniRef90_A0A2U1CX76 Uncharacterized protein DUF4194 n=1 Tax=Tam...  40.0    0.92 
+  UniRef90_A1ZRT3 Uncharacterized protein n=1 Tax=Microscilla mar...  40.0    0.95 
+  UniRef90_A0A2G8TKP0 Uncharacterized protein n=1 Tax=Massilia eu...  40.0    1.0  
+  UniRef90_H0Z392 Uncharacterized protein n=1 Tax=Taeniopygia gut...  40.8    1.1  
+  UniRef90_A0A1G0CKC4 tRNA-dihydrouridine synthase B n=3 Tax=Nitr...  40.4    1.1  
+  UniRef90_A0A1E7IMU2 Uncharacterized protein n=1 Tax=Desulfuromo...  40.0    1.1  
+  UniRef90_A0A1I0QH23 Manganese/zinc/iron transport system permea...  40.4    1.1  
+  UniRef90_A3ZZ20 Uncharacterized protein n=2 Tax=Blastopirellula...  40.0    1.2  
+  UniRef90_A0A2T3IHY5 Uncharacterized protein n=2 Tax=Vibrionacea...  39.6    1.2  
+  UniRef90_A0A1G0CRX2 tRNA-dihydrouridine synthase B n=1 Tax=Gall...  40.4    1.3  
+  UniRef90_A0A3L0W438 Uncharacterized protein n=6 Tax=Gammaproteo...  39.6    1.4  
+  UniRef90_A0A1U7DS34 Uncharacterized protein n=2 Tax=Flavobacter...  39.3    1.5  
+  UniRef90_UPI0003FBCA18 hypothetical protein n=1 Tax=Saccharospi...  39.6    1.5  
+  UniRef90_A0A2G5VV08 Uncharacterized protein n=3 Tax=Caenorhabdi...  40.4    1.5  
+  UniRef90_D3IHT2 Uncharacterized protein n=3 Tax=Prevotella TaxI...  39.3    1.5  
+  UniRef90_A0A076FDT4 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--...  40.0    1.5  
+  UniRef90_C5S3W1 Uncharacterized protein n=1 Tax=Actinobacillus ...  39.3    1.5  
+  UniRef90_A0A1W6SLJ5 tRNA-dihydrouridine synthase B n=4 Tax=Nitr...  40.0    1.5  
+  UniRef90_A0A174QB20 Cell wall/surface repeat protein n=6 Tax=Hu...  40.4    1.6  
+  UniRef90_L8M5W2 Uncharacterized protein n=1 Tax=Xenococcus sp. ...  39.3    1.6  
+  UniRef90_A0A1F3WST6 tRNA-dihydrouridine synthase B n=1 Tax=Beta...  40.0    1.7  
+  UniRef90_A0A258TVI8 tRNA-dihydrouridine synthase B n=1 Tax=Hydr...  40.0    1.8  
+  UniRef90_A0A3M2RET7 Uncharacterized protein n=1 Tax=Marinobacte...  39.3    1.8  
+  UniRef90_K1SQT8 Uncharacterized protein n=1 Tax=human gut metag...  36.9    1.9  
+  UniRef90_A0A3D5KN15 Uncharacterized protein n=1 Tax=Cytophagale...  39.3    1.9  
+  UniRef90_A1U8N8 Uncharacterized protein n=1 Tax=Marinobacter hy...  39.3    2.0  
+  UniRef90_A0A1H7YHU4 Uncharacterized protein n=2 Tax=Flavobacter...  38.9    2.0  
+  UniRef90_UPI00082F563C DUF4194 domain-containing protein n=1 Ta...  39.3    2.1  
+  UniRef90_F0R700 Uncharacterized protein n=15 Tax=Bacteria TaxID...  38.9    2.3  
+  UniRef90_A0A2A4AU16 Uncharacterized protein n=1 Tax=Pseudomonas...  38.9    2.4  
+  UniRef90_A0A2N7TKE6 tRNA-dihydrouridine synthase B n=2 Tax=Halo...  39.6    2.4  
+  UniRef90_A0A0N7J7I3 Uncharacterized protein n=31 Tax=root TaxID...  38.9    2.5  
+  UniRef90_UPI0004912842 hypothetical protein n=1 Tax=Prevotella ...  38.5    2.6  
+  UniRef90_A0A1G0EP83 tRNA-dihydrouridine synthase B n=2 Tax=uncl...  39.3    2.8  
+  UniRef90_X6MBM9 Uncharacterized protein (Fragment) n=1 Tax=Reti...  39.6    2.9  
+  UniRef90_UPI000F66C99C NAD-dependent protein deacylase n=2 Tax=...  38.9    3.0  
+  UniRef90_A0A3B9FB68 Uncharacterized protein n=1 Tax=Prevotella ...  38.5    3.0  
+  UniRef90_UPI00047DF45F V-type ATP synthase subunit I n=1 Tax=Le...  39.3    3.1  
+  UniRef90_UPI000978181D DUF4194 domain-containing protein n=1 Ta...  38.5    3.2  
+  UniRef90_A0A3B7PU45 Helix-turn-helix transcriptional regulator ...  39.3    3.2  
+  UniRef90_A0A142WXU6 Uncharacterized protein n=2 Tax=Planctomyce...  38.5    3.2  
+  UniRef90_A0A1Y1R7F1 tRNA-dihydrouridine synthase B n=1 Tax=Ocea...  38.9    3.3  
+  UniRef90_A0A2S9KD25 Uncharacterized protein n=2 Tax=Burkholderi...  38.5    3.3  
+  UniRef90_UPI00034A5089 DUF4194 domain-containing protein n=1 Ta...  38.5    3.5  
+  UniRef90_UPI000B398105 kinesin-like protein KIF16B n=1 Tax=Fund...  39.3    3.6  
+  UniRef90_A0A0G2Z8M7 Endonuclease MutS2 n=1 Tax=Kosmotoga pacifi...  39.3    3.6  
+  UniRef90_A0A2A2WCW2 Cytochrome D ubiquinol oxidase subunit II n...  38.9    3.6  
+  UniRef90_R6YMV2 Uncharacterized protein n=1 Tax=Bacteroides sp....  38.1    3.7  
+  UniRef90_A0A2A2EAW3 Uncharacterized protein n=1 Tax=Pseudomonas...  38.5    3.8  
+  UniRef90_I1ZLL9 NAD-dependent protein deacetylase n=47 Tax=Stre...  38.5    3.8  
+  UniRef90_UPI0004E1937C hypothetical protein n=1 Tax=Bacteroides...  38.1    3.9  
+  UniRef90_A0A3M1C0A7 Uncharacterized protein (Fragment) n=1 Tax=...  38.1    4.0  
+  UniRef90_UPI000360DB40 hypothetical protein n=1 Tax=Methylosarc...  38.1    4.1  
+  UniRef90_A0A3B9CUM4 Uncharacterized protein n=1 Tax=Planctomyce...  38.1    4.1  
+  UniRef90_A0A3E0DUL2 Uncharacterized protein n=1 Tax=Algoriphagu...  37.7    4.3  
+  UniRef90_A0A1E5CWE7 TetR family transcriptional regulator n=2 T...  38.1    4.5  
+  UniRef90_UPI000DAE9716 hypothetical protein n=1 Tax=Marinobacte...  38.1    4.5  
+  UniRef90_A0A0Q4N1J0 Uncharacterized protein n=1 Tax=Pseudomonas...  38.1    4.7  
+  UniRef90_UPI000A395813 tRNA dihydrouridine synthase DusB n=1 Ta...  38.5    4.8  
+  UniRef90_A0A150ACD4 Uncharacterized protein n=2 Tax=Flammeovirg...  37.7    5.3  
+  UniRef90_A0A3L7R5G5 Uncharacterized protein n=1 Tax=Planctomyce...  38.5    5.3  
+  UniRef90_UPI000C9A8459 Crp/Fnr family transcriptional regulator...  37.7    5.5  
+  UniRef90_A0A3M1X0N5 Uncharacterized protein n=1 Tax=Bacteroidet...  37.7    5.8  
+  UniRef90_R5SX37 Uncharacterized protein n=1 Tax=Clostridium hat...  38.9    5.8  
+  UniRef90_A0A1V5WZC5 Uncharacterized protein n=1 Tax=Deltaproteo...  37.7    6.0  
+  UniRef90_A0A116KLL2 CRISPR-associated endonuclease Cas9 n=12 Ta...  38.5    6.0  
+  UniRef90_A0A1Z8KZI1 Uncharacterized protein n=2 Tax=unclassifie...  38.1    6.0  
+  UniRef90_B3ENG0 Uncharacterized protein n=1 Tax=Chlorobium phae...  37.7    6.4  
+  UniRef90_A0A150ARQ7 Uncharacterized protein n=2 Tax=Flammeovirg...  37.3    6.5  
+  UniRef90_A0A2S6NJV5 Uncharacterized protein n=1 Tax=Rhodopila g...  37.3    7.4  
+  UniRef90_A0A2J6A2B9 Uncharacterized protein (Fragment) n=1 Tax=...  35.8    7.4  
+  UniRef90_A0A349D147 Uncharacterized protein n=1 Tax=Candidatus ...  38.1    7.5  
+  UniRef90_A0A0T8LW24 Uncharacterized protein n=9 Tax=Bacteria Ta...  37.3    7.7  
+  UniRef90_A0A1F9PEZ5 Uncharacterized protein n=1 Tax=Desulfobact...  37.3    7.8  
+  UniRef90_A0A1M2V498 UDP-glucose:glycoprotein glucosyltransferas...  38.1    8.0  
+  UniRef90_A0A1I5SSX8 Uncharacterized protein n=2 Tax=Hydrogenimo...  37.3    8.0  
+  UniRef90_A0A2G2I954 Uncharacterized protein n=1 Tax=Methylophag...  37.3    8.0  
+  UniRef90_A0A3L9MEZ8 DUF4194 domain-containing protein n=1 Tax=F...  37.3    8.3  
+  UniRef90_A0A3A4RRW0 DUF4194 domain-containing protein n=1 Tax=D...  37.3    8.4  
+  UniRef90_A0A3A4WVZ6 DUF4194 domain-containing protein n=1 Tax=D...  37.3    8.6  
+  UniRef90_A0A399S5I8 Uncharacterized protein n=1 Tax=Pontibacter...  36.9    8.9  
+  UniRef90_A0A2G2FYA1 Uncharacterized protein n=1 Tax=Arcobacter ...  36.9    9.1  
+  UniRef90_A0A1Y4A9Z3 Uncharacterized protein n=5 Tax=Bacteroidal...  36.9    9.1  
+  UniRef90_A0A1I6ZE01 Uncharacterized protein n=1 Tax=Selenomonas...  37.3    9.4  
+  UniRef90_UPI000B91A24A DUF4194 domain-containing protein n=1 Ta...  36.9    9.5  
+  UniRef90_F7SXR2 Uncharacterized protein n=1 Tax=Achromobacter i...  36.9    10.0 
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.356    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0417    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1494760288296
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

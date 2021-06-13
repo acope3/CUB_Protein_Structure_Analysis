@@ -1,0 +1,247 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414914.2
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAQ1 Uncharacterized protein YaiZ n=334 Tax=Bacteria...  143     1e-43
+  UniRef90_A0A2B7LXL5 Uncharacterized protein n=7 Tax=Enterobacte...  141     5e-43
+  UniRef90_A0A2X6C007 Putative membrane protein YaiZ n=33 Tax=Ent...  140     2e-42
+  UniRef90_A0A383FUP9 Putative membrane protein YaiZ n=15 Tax=Ent...  139     6e-42
+  UniRef90_UPI000945C42E DUF2754 domain-containing protein n=1 Ta...  140     6e-42
+  UniRef90_S0XB21 Inner membrane protein n=8 Tax=Enterobacteriace...  138     1e-41
+  UniRef90_W0ARM2 Membrane protein n=6 Tax=Escherichia TaxID=561 ...  135     2e-40
+  UniRef90_D2TKW2 Putative membrane protein n=3 Tax=Enterobacteri...  132     5e-39
+  UniRef90_A0A0L0H339 Membrane protein n=3 Tax=Trabulsiella TaxID...  130     2e-38
+  UniRef90_A0A090URD5 Uncharacterized protein n=48 Tax=Gammaprote...  129     4e-38
+  UniRef90_R9VSX2 Membrane protein n=3 Tax=Enterobacteriaceae Tax...  129     6e-38
+  UniRef90_A0A1T5FWT9 Uncharacterized protein n=3 Tax=Enterobacte...  129     1e-37
+  UniRef90_E3G7H9 Uncharacterized protein n=9 Tax=Enterobacteriac...  128     1e-37
+  UniRef90_A0A0F6RDS3 Membrane protein n=4 Tax=Enterobacteriaceae...  128     1e-37
+  UniRef90_A0A0L0AMW5 Membrane protein n=1 Tax=Klebsiella sp. RIT...  125     9e-37
+  UniRef90_A0A090V140 Uncharacterized protein n=4 Tax=Enterobacte...  125     1e-36
+  UniRef90_A0A2I8NSD8 DUF2754 domain-containing protein n=6 Tax=E...  125     1e-36
+  UniRef90_H5V4N4 Uncharacterized protein n=4 Tax=Enterobacteriac...  125     2e-36
+  UniRef90_F0JMZ2 Uncharacterized protein yaiZ n=4 Tax=Escherichi...  124     3e-36
+  UniRef90_A9MMT0 Uncharacterized protein n=125 Tax=Salmonella en...  124     5e-36
+  UniRef90_F5RV71 Uncharacterized protein n=43 Tax=Bacteria TaxID...  124     6e-36
+  UniRef90_UPI0002F0E675 DUF2754 family protein n=1 Tax=Metakosak...  124     7e-36
+  UniRef90_L0M7X9 Uncharacterized protein n=3 Tax=Enterobacteriac...  123     8e-36
+  UniRef90_A0A0V9JYI4 Uncharacterized protein n=2 Tax=Citrobacter...  122     2e-35
+  UniRef90_A0A318W0B3 Uncharacterized protein DUF2754 n=1 Tax=Cit...  122     2e-35
+  UniRef90_A0A329HKJ6 DUF2754 domain-containing protein n=1 Tax=E...  122     3e-35
+  UniRef90_A0A0J8VT16 Membrane protein n=4 Tax=Franconibacter Tax...  121     4e-35
+  UniRef90_A4W753 Uncharacterized protein n=2 Tax=Enterobacteriac...  121     5e-35
+  UniRef90_G2S959 Uncharacterized protein n=2 Tax=Enterobacter Ta...  121     5e-35
+  UniRef90_A0A1C4DBH9 Uncharacterized protein n=3 Tax=Enterobacte...  121     7e-35
+  UniRef90_A0A1A9F928 Uncharacterized protein n=2 Tax=Enterobacte...  120     1e-34
+  UniRef90_A0A1U7E202 Uncharacterized protein n=4 Tax=Enterobacte...  119     3e-34
+  UniRef90_A0A370YHB1 DUF2754 family protein n=11 Tax=Enterobacte...  117     3e-33
+  UniRef90_W0BPN4 Membrane protein n=80 Tax=Enterobacterales TaxI...  117     4e-33
+  UniRef90_G8LP76 YaiZ n=2 Tax=Enterobacter cloacae TaxID=550 Rep...  116     1e-32
+  UniRef90_UPI000AA244E6 DUF2754 family protein n=1 Tax=Escherich...  115     2e-32
+  UniRef90_UPI0009B04F9B DUF2754 family protein n=3 Tax=Salmonell...  115     3e-32
+  UniRef90_A0A1Y4XZG5 Uncharacterized protein n=4 Tax=Pluralibact...  114     3e-32
+  UniRef90_A0A1Y6GS68 Protein of uncharacterized function (DUF275...  114     4e-32
+  UniRef90_UPI000931672F DUF2754 family protein n=2 Tax=Enterobac...  113     5e-32
+  UniRef90_A0A1L5KI49 Uncharacterized protein n=10 Tax=Bacteria T...  111     4e-31
+  UniRef90_A0A267S491 Uncharacterized protein n=3 Tax=Enterobacte...  111     4e-31
+  UniRef90_UPI000CFDDB4A DUF2754 family protein n=1 Tax=Cronobact...  111     5e-31
+  UniRef90_C9XX38 Uncharacterized protein yaiZ n=28 Tax=Cronobact...  111     5e-31
+  UniRef90_A0A0B5IN10 Membrane protein n=4 Tax=Raoultella TaxID=1...  111     5e-31
+  UniRef90_B5Y124 Uncharacterized protein n=7 Tax=Klebsiella TaxI...  111     1e-30
+  UniRef90_UPI0004E13BD2 DUF2754 family protein n=1 Tax=Siccibact...  110     1e-30
+  UniRef90_A0A2X3BXP3 Inner membrane protein n=5 Tax=Klebsiella p...  110     2e-30
+  UniRef90_A0A1B7HU76 Putative inner membrane protein n=3 Tax=But...  109     4e-30
+  UniRef90_A0A0W8AUT0 DUF2754 domain-containing protein n=70 Tax=...  108     5e-30
+  UniRef90_A0A381CBE4 Protein of uncharacterized function (DUF275...  109     9e-30
+  UniRef90_A0A0D5X0I0 Membrane protein n=3 Tax=Enterobacteriaceae...  107     1e-29
+  UniRef90_A0A2P8VNV7 Uncharacterized protein n=2 Tax=Enterobacte...  107     2e-29
+  UniRef90_UPI000EB36920 DUF2754 family protein n=1 Tax=Enterobac...  107     3e-29
+  UniRef90_A0A071LU23 Membrane protein n=3 Tax=Mangrovibacter Tax...  106     5e-29
+  UniRef90_A0A1B7IUW7 Putative inner membrane protein n=4 Tax=But...  105     9e-29
+  UniRef90_J5X5X7 PF10953 family protein n=14 Tax=Enterobacterale...  105     1e-28
+  UniRef90_UPI00037171CF DUF2754 family protein n=1 Tax=Enterobac...  100     1e-26
+  UniRef90_A0A2X2UTK8 Protein of uncharacterized function (DUF275...  95.9    5e-25
+  UniRef90_A0A370ZFJ9 DUF2754 family protein n=1 Tax=Klebsiella p...  94.0    3e-24
+  UniRef90_S3J4P5 Uncharacterized protein n=7 Tax=Enterobacteriac...  92.0    3e-23
+  UniRef90_I6D5X2 Putative membrane protein n=3 Tax=Bacteria TaxI...  86.7    2e-21
+  UniRef90_A0A378BXF8 Inner membrane protein n=1 Tax=Klebsiella p...  85.1    9e-21
+  UniRef90_UPI000D0B6360 DUF2754 family protein n=1 Tax=Escherich...  84.7    1e-20
+  UniRef90_UPI0009ABF8FE DUF2754 family protein n=1 Tax=Salmonell...  83.6    4e-20
+  UniRef90_A0A379S884 Inner membrane protein n=1 Tax=Salmonella e...  73.6    4e-16
+  UniRef90_A0A377KAY0 Putative membrane protein YaiZ n=1 Tax=Esch...  68.2    4e-14
+  UniRef90_A0A377UEG3 Inner membrane protein n=1 Tax=Klebsiella p...  57.8    7e-10
+  UniRef90_A0A379SIY5 Inner membrane protein n=1 Tax=Salmonella e...  53.5    2e-08
+  UniRef90_A0A1L5L1T1 Uncharacterized protein (Fragment) n=1 Tax=...  52.0    6e-08
+  UniRef90_A0A2X3IFW4 Inner membrane protein n=1 Tax=Klebsiella p...  51.6    1e-07
+  UniRef90_UPI00069BCA88 hypothetical protein n=1 Tax=Streptomyce...  39.7    0.065
+  UniRef90_A0A3M0GVG1 Sugar transporter n=1 Tax=Tessaracoccus sp....  37.0    0.66 
+  UniRef90_E2S3W3 Uncharacterized protein n=4 Tax=Corynebacterium...  35.8    1.4  
+  UniRef90_A0A1J4Q732 TIGR02611 family protein n=2 Tax=Streptomyc...  34.7    2.9  
+  UniRef90_UPI0004C7071F TIGR02611 family protein n=1 Tax=Strepto...  33.9    6.2  
+  UniRef90_L5K3Z6 Serine incorporator 4 n=1 Tax=Pteropus alecto T...  33.9    6.3  
+  UniRef90_A0A1T1IHW7 Uncharacterized protein n=2 Tax=Pseudomonas...  33.9    7.4  
+  UniRef90_A0A1X4H3K7 TIGR02611 family protein n=7 Tax=Streptomyc...  33.1    8.4  
+  UniRef90_A0A1G9U1V6 Predicted membrane protein n=1 Tax=Allokutz...  33.9    8.7  
+  UniRef90_A0A1I5A9Z4 Signal transduction histidine kinase n=1 Ta...  33.9    8.7  
+  UniRef90_I3E8W4 Uncharacterized protein n=1 Tax=Bacillus methan...  33.5    8.7  
+  UniRef90_A0A101RX50 Uncharacterized protein n=5 Tax=Streptomyce...  33.5    8.9  
+  UniRef90_UPI000B4EBF0E serine incorporator 4 n=1 Tax=Meriones u...  33.5    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.145    0.482    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 737849445284
+Warning: [psiblast] lcl|Query_1 NP_414914.2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414914.2
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1T5FWT9 Uncharacterized protein n=3 Tax=Enterobacte...  123     2e-35
+  UniRef90_UPI000945C42E DUF2754 domain-containing protein n=1 Ta...  121     2e-34
+  UniRef90_UPI0002F0E675 DUF2754 family protein n=1 Tax=Metakosak...  118     8e-34
+  UniRef90_E3G7H9 Uncharacterized protein n=9 Tax=Enterobacteriac...  118     1e-33
+  UniRef90_A0A0L0AMW5 Membrane protein n=1 Tax=Klebsiella sp. RIT...  118     1e-33
+  UniRef90_A0A1A9F928 Uncharacterized protein n=2 Tax=Enterobacte...  118     1e-33
+  UniRef90_R9VSX2 Membrane protein n=3 Tax=Enterobacteriaceae Tax...  117     2e-33
+  UniRef90_A0A2B7LXL5 Uncharacterized protein n=7 Tax=Enterobacte...  115     8e-33
+  UniRef90_P0AAQ1 Uncharacterized protein YaiZ n=334 Tax=Bacteria...  115     9e-33
+  UniRef90_A0A0L0H339 Membrane protein n=3 Tax=Trabulsiella TaxID...  115     1e-32
+  UniRef90_A4W753 Uncharacterized protein n=2 Tax=Enterobacteriac...  115     1e-32
+  UniRef90_A0A090V140 Uncharacterized protein n=4 Tax=Enterobacte...  115     1e-32
+  UniRef90_A0A2X6C007 Putative membrane protein YaiZ n=33 Tax=Ent...  115     2e-32
+  UniRef90_F5RV71 Uncharacterized protein n=43 Tax=Bacteria TaxID...  114     3e-32
+  UniRef90_A0A329HKJ6 DUF2754 domain-containing protein n=1 Tax=E...  114     4e-32
+  UniRef90_A0A318W0B3 Uncharacterized protein DUF2754 n=1 Tax=Cit...  114     4e-32
+  UniRef90_D2TKW2 Putative membrane protein n=3 Tax=Enterobacteri...  114     5e-32
+  UniRef90_S0XB21 Inner membrane protein n=8 Tax=Enterobacteriace...  113     7e-32
+  UniRef90_A0A2I8NSD8 DUF2754 domain-containing protein n=6 Tax=E...  112     1e-31
+  UniRef90_W0ARM2 Membrane protein n=6 Tax=Escherichia TaxID=561 ...  112     2e-31
+  UniRef90_G2S959 Uncharacterized protein n=2 Tax=Enterobacter Ta...  112     2e-31
+  UniRef90_H5V4N4 Uncharacterized protein n=4 Tax=Enterobacteriac...  112     2e-31
+  UniRef90_A0A383FUP9 Putative membrane protein YaiZ n=15 Tax=Ent...  111     3e-31
+  UniRef90_A0A090URD5 Uncharacterized protein n=48 Tax=Gammaprote...  111     3e-31
+  UniRef90_A0A0J8VT16 Membrane protein n=4 Tax=Franconibacter Tax...  111     3e-31
+  UniRef90_A0A381CBE4 Protein of uncharacterized function (DUF275...  111     6e-31
+  UniRef90_A0A1C4DBH9 Uncharacterized protein n=3 Tax=Enterobacte...  111     8e-31
+  UniRef90_L0M7X9 Uncharacterized protein n=3 Tax=Enterobacteriac...  110     9e-31
+  UniRef90_A0A2X3BXP3 Inner membrane protein n=5 Tax=Klebsiella p...  111     9e-31
+  UniRef90_G8LP76 YaiZ n=2 Tax=Enterobacter cloacae TaxID=550 Rep...  111     1e-30
+  UniRef90_B5Y124 Uncharacterized protein n=7 Tax=Klebsiella TaxI...  111     1e-30
+  UniRef90_F0JMZ2 Uncharacterized protein yaiZ n=4 Tax=Escherichi...  109     3e-30
+  UniRef90_A0A370YHB1 DUF2754 family protein n=11 Tax=Enterobacte...  109     4e-30
+  UniRef90_A0A1Y4XZG5 Uncharacterized protein n=4 Tax=Pluralibact...  109     5e-30
+  UniRef90_A0A1B7HU76 Putative inner membrane protein n=3 Tax=But...  109     5e-30
+  UniRef90_A0A0F6RDS3 Membrane protein n=4 Tax=Enterobacteriaceae...  108     9e-30
+  UniRef90_A0A1B7IUW7 Putative inner membrane protein n=4 Tax=But...  108     1e-29
+  UniRef90_A0A0B5IN10 Membrane protein n=4 Tax=Raoultella TaxID=1...  107     2e-29
+  UniRef90_A0A1U7E202 Uncharacterized protein n=4 Tax=Enterobacte...  107     2e-29
+  UniRef90_A9MMT0 Uncharacterized protein n=125 Tax=Salmonella en...  106     3e-29
+  UniRef90_W0BPN4 Membrane protein n=80 Tax=Enterobacterales TaxI...  107     3e-29
+  UniRef90_A0A267S491 Uncharacterized protein n=3 Tax=Enterobacte...  106     3e-29
+  UniRef90_A0A0W8AUT0 DUF2754 domain-containing protein n=70 Tax=...  106     4e-29
+  UniRef90_A0A1L5KI49 Uncharacterized protein n=10 Tax=Bacteria T...  106     5e-29
+  UniRef90_UPI000EB36920 DUF2754 family protein n=1 Tax=Enterobac...  106     8e-29
+  UniRef90_UPI0004E13BD2 DUF2754 family protein n=1 Tax=Siccibact...  105     9e-29
+  UniRef90_A0A1Y6GS68 Protein of uncharacterized function (DUF275...  104     2e-28
+  UniRef90_A0A071LU23 Membrane protein n=3 Tax=Mangrovibacter Tax...  104     3e-28
+  UniRef90_A0A2P8VNV7 Uncharacterized protein n=2 Tax=Enterobacte...  103     6e-28
+  UniRef90_UPI0009B04F9B DUF2754 family protein n=3 Tax=Salmonell...  103     9e-28
+  UniRef90_A0A0D5X0I0 Membrane protein n=3 Tax=Enterobacteriaceae...  102     1e-27
+  UniRef90_J5X5X7 PF10953 family protein n=14 Tax=Enterobacterale...  102     2e-27
+  UniRef90_A0A0V9JYI4 Uncharacterized protein n=2 Tax=Citrobacter...  101     4e-27
+  UniRef90_UPI000CFDDB4A DUF2754 family protein n=1 Tax=Cronobact...  99.6    3e-26
+  UniRef90_C9XX38 Uncharacterized protein yaiZ n=28 Tax=Cronobact...  99.6    3e-26
+  UniRef90_UPI000AA244E6 DUF2754 family protein n=1 Tax=Escherich...  98.4    9e-26
+  UniRef90_UPI00037171CF DUF2754 family protein n=1 Tax=Enterobac...  97.7    1e-25
+  UniRef90_UPI000931672F DUF2754 family protein n=2 Tax=Enterobac...  91.9    2e-23
+  UniRef90_S3J4P5 Uncharacterized protein n=7 Tax=Enterobacteriac...  89.2    3e-22
+  UniRef90_A0A370ZFJ9 DUF2754 family protein n=1 Tax=Klebsiella p...  86.5    2e-21
+  UniRef90_A0A2X2UTK8 Protein of uncharacterized function (DUF275...  82.3    1e-19
+  UniRef90_A0A378BXF8 Inner membrane protein n=1 Tax=Klebsiella p...  81.9    2e-19
+  UniRef90_UPI000D0B6360 DUF2754 family protein n=1 Tax=Escherich...  81.5    2e-19
+  UniRef90_UPI0009ABF8FE DUF2754 family protein n=1 Tax=Salmonell...  73.8    2e-16
+  UniRef90_I6D5X2 Putative membrane protein n=3 Tax=Bacteria TaxI...  69.2    1e-14
+  UniRef90_A0A379S884 Inner membrane protein n=1 Tax=Salmonella e...  63.0    6e-12
+  UniRef90_A0A377KAY0 Putative membrane protein YaiZ n=1 Tax=Esch...  60.7    3e-11
+  UniRef90_A0A377UEG3 Inner membrane protein n=1 Tax=Klebsiella p...  59.5    1e-10
+  UniRef90_A0A2X3IFW4 Inner membrane protein n=1 Tax=Klebsiella p...  53.0    3e-08
+  UniRef90_A0A379SIY5 Inner membrane protein n=1 Tax=Salmonella e...  52.6    6e-08
+  UniRef90_A0A1L5L1T1 Uncharacterized protein (Fragment) n=1 Tax=...  48.4    2e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00069BCA88 hypothetical protein n=1 Tax=Streptomyce...  39.9    0.053
+  UniRef90_A0A3M0GVG1 Sugar transporter n=1 Tax=Tessaracoccus sp....  34.5    4.6  
+  UniRef90_UPI000B4EBF0E serine incorporator 4 n=1 Tax=Meriones u...  33.7    8.5  
+  UniRef90_UPI000F745C16 hypothetical protein n=1 Tax=Streptomyce...  33.3    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.150    0.520    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0458    0.140     1.90     42.6     43.6 
+
+Effective search space used: 737849445284
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

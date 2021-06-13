@@ -1,0 +1,166 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414814.1
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P71297 Uncharacterized protein YagN n=24 Tax=Enterobac...  301     1e-103
+  UniRef90_UPI00069B5E35 hypothetical protein n=2 Tax=Enterobacte...  80.5    1e-16 
+  UniRef90_A0A379YTU5 Uncharacterized protein n=2 Tax=Yersiniacea...  78.6    7e-16 
+  UniRef90_UPI0009E41747 hypothetical protein n=1 Tax=Erwinia ini...  76.3    5e-15 
+  UniRef90_D4DVZ9 Uncharacterized protein n=1 Tax=Serratia odorif...  70.9    7e-13 
+  UniRef90_A0A0B2SYW6 Uncharacterized protein n=2 Tax=Pectobacter...  40.8    0.089 
+  UniRef90_A0A078LKZ3 Uncharacterized protein n=1 Tax=Citrobacter...  39.3    0.53  
+  UniRef90_UPI000829918F hypothetical protein n=1 Tax=Bariatricus...  37.7    2.2   
+  UniRef90_A0A1H6V4N4 Methyltransferase domain-containing protein...  37.4    3.3   
+  UniRef90_A0A2P9DBM2 Erythrocyte membrane protein 1, PfEMP1, put...  37.7    3.4   
+  UniRef90_H2MGF6 ATP-binding cassette, sub-family A (ABC1), memb...  37.4    3.9   
+  UniRef90_A0A066VDB9 Uncharacterized protein (Fragment) n=1 Tax=...  37.4    4.2   
+  UniRef90_A0A2E6RA46 Chromosome partition protein Smc n=1 Tax=Xa...  37.0    5.9   
+  UniRef90_UPI000E49CBE7 DNA-binding protein n=1 Tax=Collinsella ...  34.3    7.6   
+  UniRef90_UPI0009E1F9F8 uncharacterized protein LOC110047920 n=1...  36.6    7.7   
+  UniRef90_UPI000E560C77 coiled-coil domain-containing protein 13...  36.6    8.0   
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.122    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 751765810375
+Warning: [psiblast] lcl|Query_1 NP_414814.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414814.1
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P71297 Uncharacterized protein YagN n=24 Tax=Enterobac...  191     4e-60
+  UniRef90_UPI00069B5E35 hypothetical protein n=2 Tax=Enterobacte...  176     2e-54
+  UniRef90_UPI0009E41747 hypothetical protein n=1 Tax=Erwinia ini...  169     9e-52
+  UniRef90_D4DVZ9 Uncharacterized protein n=1 Tax=Serratia odorif...  167     9e-51
+  UniRef90_A0A379YTU5 Uncharacterized protein n=2 Tax=Yersiniacea...  163     3e-49
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A078LKZ3 Uncharacterized protein n=1 Tax=Citrobacter...  58.3    5e-08
+  UniRef90_A0A0B2SYW6 Uncharacterized protein n=2 Tax=Pectobacter...  45.2    0.003
+  UniRef90_UPI000F8440C6 hypothetical protein n=1 Tax=Atlantibact...  42.9    0.016
+  UniRef90_A0A2R6QDF6 Calcium/calmodulin-regulated receptor-like ...  41.7    0.14 
+  UniRef90_UPI000BDF183E hypothetical protein n=1 Tax=Escherichia...  39.8    0.36 
+  UniRef90_A0A2V9ZPZ8 Uncharacterized protein n=1 Tax=Acidobacter...  39.0    0.88 
+  UniRef90_A0A0D2I8G8 Rhinocladiella mackenziei CBS 650.93 unplac...  38.6    1.5  
+  UniRef90_A0A162K5D6 Arp2/3 complex, 34kDa subunit p34-Arc n=1 T...  37.5    3.4  
+  UniRef90_UPI000900B3B7 uncharacterized protein LOC109163918 n=1...  37.5    3.7  
+  UniRef90_W8B1Y7 Protein ITFG3 n=2 Tax=Ceratitis capitata TaxID=...  37.5    3.8  
+  UniRef90_R4GFT4 Uncharacterized protein n=2 Tax=Gallus gallus T...  37.1    4.2  
+  UniRef90_S2E5I3 Uncharacterized protein n=1 Tax=Candidatus Nitr...  37.1    4.6  
+  UniRef90_UPI0009009934 uncharacterized protein LOC109187795 n=1...  37.1    4.7  
+  UniRef90_K0T067 Uncharacterized protein (Fragment) n=1 Tax=Thal...  37.1    5.0  
+  UniRef90_L8WLV7 Fungal zn(2)-Cys(6) binuclear cluster domain-co...  36.7    5.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.117    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0359    0.140     1.90     42.6     43.6 
+
+Effective search space used: 751765810375
+Results from round 3
+
+
+Query= NP_414814.1
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI00069B5E35 hypothetical protein n=2 Tax=Enterobacte...  197     9e-63
+  UniRef90_D4DVZ9 Uncharacterized protein n=1 Tax=Serratia odorif...  189     2e-59
+  UniRef90_UPI0009E41747 hypothetical protein n=1 Tax=Erwinia ini...  188     7e-59
+  UniRef90_P71297 Uncharacterized protein YagN n=24 Tax=Enterobac...  185     8e-58
+  UniRef90_A0A379YTU5 Uncharacterized protein n=2 Tax=Yersiniacea...  183     5e-57
+  UniRef90_A0A078LKZ3 Uncharacterized protein n=1 Tax=Citrobacter...  102     5e-25
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0B2SYW6 Uncharacterized protein n=2 Tax=Pectobacter...  51.4    1e-05
+  UniRef90_UPI000F8440C6 hypothetical protein n=1 Tax=Atlantibact...  49.1    1e-04
+  UniRef90_UPI000E1CF887 hypothetical protein n=1 Tax=Escherichia...  44.5    0.005
+  UniRef90_A0A3L3CEW9 Uncharacterized protein n=1 Tax=Escherichia...  44.1    0.009
+  UniRef90_UPI000BDF183E hypothetical protein n=1 Tax=Escherichia...  40.6    0.20 
+  UniRef90_UPI000900B3B7 uncharacterized protein LOC109163918 n=1...  40.2    0.42 
+  UniRef90_S2E5I3 Uncharacterized protein n=1 Tax=Candidatus Nitr...  40.2    0.44 
+  UniRef90_A0A162K5D6 Arp2/3 complex, 34kDa subunit p34-Arc n=1 T...  40.2    0.46 
+  UniRef90_W8B1Y7 Protein ITFG3 n=2 Tax=Ceratitis capitata TaxID=...  39.4    0.84 
+  UniRef90_UPI0008FB18F3 hypothetical protein n=1 Tax=Escherichia...  38.3    0.86 
+  UniRef90_UPI000719A625 nuclear valosin-containing protein-like ...  39.4    0.88 
+  UniRef90_E2AUP4 Probable G-protein coupled receptor No9 n=1 Tax...  39.1    1.1  
+  UniRef90_A0A328RH21 Uncharacterized protein n=1 Tax=Candidatus ...  37.9    2.5  
+  UniRef90_A0A285JM86 Uncharacterized protein n=1 Tax=Enterobacte...  35.6    9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.119    0.297    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0364    0.140     1.90     42.6     43.6 
+
+Effective search space used: 751765810375
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

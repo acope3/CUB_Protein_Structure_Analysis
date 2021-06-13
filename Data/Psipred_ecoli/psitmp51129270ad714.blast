@@ -1,0 +1,2111 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415263.1
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAV2 Uncharacterized protein YbgE n=313 Tax=Bacteria...  194     3e-63
+  UniRef90_A0A2S4RZM8 Cyd operon protein YbgE n=2 Tax=Enterobacte...  177     2e-56
+  UniRef90_A0A379SBJ5 Cyd operon protein YbgE n=106 Tax=Salmonell...  176     5e-56
+  UniRef90_A0A2P5GR88 Cyd operon protein YbgE n=1 Tax=Superficiei...  175     2e-55
+  UniRef90_A0A078LJ58 Uncharacterized protein n=7 Tax=Enterobacte...  175     2e-55
+  UniRef90_UPI000373556E cyd operon protein YbgE n=1 Tax=Enteroba...  174     2e-55
+  UniRef90_A0A1C4A099 Cyd operon protein YbgE n=1 Tax=Kosakonia o...  171     7e-54
+  UniRef90_A0A2A7PN02 Cyd operon protein YbgE n=2 Tax=Lelliottia ...  171     7e-54
+  UniRef90_UPI0007899FC5 cyd operon protein YbgE n=1 Tax=Kluyvera...  171     8e-54
+  UniRef90_A0A090UQC4 Uncharacterized protein n=39 Tax=Enterobact...  171     1e-53
+  UniRef90_A0A0L0AM34 Cytochrome bd biosynthesis protein n=1 Tax=...  171     1e-53
+  UniRef90_A0A1X0XBB6 Cyd operon protein YbgE n=10 Tax=Enterobact...  170     2e-53
+  UniRef90_A0A0D5WRW2 Cytochrome bd biosynthesis protein n=7 Tax=...  169     3e-53
+  UniRef90_E3G3S6 Cyd operon protein YbgE n=4 Tax=Enterobacteriac...  168     8e-53
+  UniRef90_A0A2T3CIZ6 Cyd operon protein YbgE n=2 Tax=Enterobacte...  167     1e-52
+  UniRef90_L0M593 Cyd operon protein YbgE n=9 Tax=Enterobacteriac...  167     1e-52
+  UniRef90_A0A0B5IRT5 Cytochrome bd biosynthesis protein n=8 Tax=...  167     2e-52
+  UniRef90_A0A090V6G6 Uncharacterized protein n=4 Tax=Enterobacte...  167     3e-52
+  UniRef90_G5LL15 Protein YbgE n=28 Tax=Enterobacterales TaxID=91...  167     4e-52
+  UniRef90_UPI0002FA309F cyd operon protein YbgE n=1 Tax=Metakosa...  166     5e-52
+  UniRef90_A0A0J1LK07 Cyd operon protein YbgE n=1 Tax=Citrobacter...  165     2e-51
+  UniRef90_A0A089PTK0 Cyd operon protein YbgE n=2 Tax=Pluralibact...  164     3e-51
+  UniRef90_H5V305 Uncharacterized protein n=4 Tax=Enterobacteriac...  164     3e-51
+  UniRef90_A0A0F6TTL1 Cytochrome bd biosynthesis protein n=9 Tax=...  164     4e-51
+  UniRef90_A0A0L0GWM8 Cytochrome bd biosynthesis protein n=4 Tax=...  164     5e-51
+  UniRef90_A0A318W3V8 Cyd operon protein YbgE n=1 Tax=Citrobacter...  164     6e-51
+  UniRef90_A0A1I6D9F8 Cyd operon protein YbgE n=1 Tax=Enterobacte...  164     6e-51
+  UniRef90_UPI00073D96C9 cyd operon protein YbgE n=1 Tax=[Erwinia...  163     7e-51
+  UniRef90_I2BB36 Conserved inner membrane protein n=1 Tax=Shimwe...  163     1e-50
+  UniRef90_A0A0M3F035 Cytochrome bd biosynthesis protein n=1 Tax=...  162     2e-50
+  UniRef90_R9VWF1 Uncharacterized protein n=5 Tax=Enterobacteriac...  162     3e-50
+  UniRef90_A0A3A5JUX9 Cyd operon protein YbgE n=12 Tax=Enterobact...  160     2e-49
+  UniRef90_A0A127L229 Cyd operon protein YbgE n=10 Tax=Enterobact...  159     5e-49
+  UniRef90_A0A3N1IXC7 Cyd operon protein YbgE n=2 Tax=Enterobacte...  157     1e-48
+  UniRef90_A0A170LY03 Protein ybgE n=8 Tax=Enterobacteriaceae Tax...  157     2e-48
+  UniRef90_A0A1N6SYH7 Cyd operon protein YbgE n=2 Tax=Enterobacte...  155     7e-48
+  UniRef90_A0A2P8VR34 Cyd operon protein YbgE n=2 Tax=Siccibacter...  154     3e-47
+  UniRef90_A0A2I7CBC8 Cyd operon protein YbgE n=1 Tax=Enterobacte...  153     7e-47
+  UniRef90_G8LF24 YbgE n=118 Tax=Bacteria TaxID=2 RepID=G8LF24_ENTCL  153     8e-47
+  UniRef90_C9XZB5 Uncharacterized protein ybgE n=29 Tax=Cronobact...  151     4e-46
+  UniRef90_UPI000EB26B03 cyd operon protein YbgE n=1 Tax=Enteroba...  151     4e-46
+  UniRef90_UPI00077B76BA cyd operon protein YbgE n=1 Tax=Enteroba...  151     6e-46
+  UniRef90_A0A094XEM0 Cyd operon protein YbgE n=6 Tax=Enterobacte...  148     6e-45
+  UniRef90_K8CA09 Protein ybgE n=1 Tax=Cronobacter malonaticus 50...  147     1e-44
+  UniRef90_A0A071LTW5 Cytochrome bd biosynthesis protein n=3 Tax=...  145     6e-44
+  UniRef90_A0A379S7L7 Cyd operon protein YbgE n=1 Tax=Salmonella ...  145     9e-44
+  UniRef90_A0A3N2EP59 Cyd operon protein YbgE n=1 Tax=Raoultella ...  145     9e-44
+  UniRef90_UPI000E1D9C32 cyd operon protein YbgE n=2 Tax=Escheric...  142     6e-43
+  UniRef90_W9BNQ3 YbgE protein n=63 Tax=Enterobacterales TaxID=91...  141     5e-42
+  UniRef90_A0A1D3U701 Cyd operon protein YbgE n=32 Tax=Enterobact...  140     1e-41
+  UniRef90_G5PZX2 Protein YbgE n=7 Tax=Salmonella enterica I TaxI...  139     2e-41
+  UniRef90_UPI0004678083 cyd operon protein YbgE n=2 Tax=Franconi...  140     2e-41
+  UniRef90_A0A376YFV9 Inner membrane protein n=1 Tax=Escherichia ...  139     2e-41
+  UniRef90_G9YD34 Cyd operon protein YbgE n=11 Tax=Enterobacteral...  138     5e-41
+  UniRef90_A0A1M5LT16 Cyd operon protein YbgE n=23 Tax=Pectobacte...  138     6e-41
+  UniRef90_UPI00054DD6F9 cyd operon protein YbgE n=2 Tax=Erwinia ...  138     6e-41
+  UniRef90_A0A3P2C4U2 Cyd operon protein YbgE n=1 Tax=Klebsiella ...  138     7e-41
+  UniRef90_A0A376ZQJ4 Inner membrane protein n=5 Tax=Enterobacter...  138     9e-41
+  UniRef90_A0A1H3VWY1 Cyd operon protein YbgE n=10 Tax=Pectobacte...  138     1e-40
+  UniRef90_UPI000FE33305 cyd operon protein YbgE n=1 Tax=Pantoea ...  137     2e-40
+  UniRef90_D2TPD7 Putative exported protein n=1 Tax=Citrobacter r...  137     2e-40
+  UniRef90_A0A354A8E1 Cyd operon protein YbgE n=1 Tax=Erwinia per...  137     3e-40
+  UniRef90_A0A0J8VST7 Cytochrome bd biosynthesis protein n=4 Tax=...  135     2e-39
+  UniRef90_W0LGX0 Cytochrome bd biosynthesis protein n=7 Tax=Yers...  134     3e-39
+  UniRef90_J2U3Y7 Cyd operon protein YbgE n=4 Tax=Enterobacterale...  134     4e-39
+  UniRef90_A8GB88 Cyd operon protein YbgE n=16 Tax=Yersiniaceae T...  134     4e-39
+  UniRef90_A0A2V5D8R4 Cyd operon protein YbgE n=3 Tax=Enterobacte...  134     4e-39
+  UniRef90_D4F8E7 Cyd operon protein YbgE n=4 Tax=Edwardsiella Ta...  133     5e-39
+  UniRef90_G7LNQ3 Cyd operon protein YbgE n=7 Tax=Brenneria TaxID...  133     5e-39
+  UniRef90_A0A2I5TAJ8 Cyd operon protein YbgE n=1 Tax=Serratia sp...  133     8e-39
+  UniRef90_H2IWJ3 Cyd operon protein YbgE n=9 Tax=Yersiniaceae Ta...  133     8e-39
+  UniRef90_A0A2A3KP65 Cyd operon protein YbgE n=3 Tax=Enterobacte...  132     1e-38
+  UniRef90_A0A2L1UR30 Cyd operon protein YbgE n=2 Tax=Rahnella Ta...  132     2e-38
+  UniRef90_A0A370WKF1 Cyd operon protein YbgE (Fragment) n=1 Tax=...  130     6e-38
+  UniRef90_A0A250BET4 Cytochrome bd biosynthesis protein n=3 Tax=...  130     8e-38
+  UniRef90_U3TT13 Uncharacterized protein n=7 Tax=Enterobacterale...  130     9e-38
+  UniRef90_A0A2X3GP85 Protein ybgE n=1 Tax=Klebsiella pneumoniae ...  129     1e-37
+  UniRef90_A0A389M840 Inner membrane protein n=4 Tax=Enterobacter...  129     4e-37
+  UniRef90_D4E9I6 Cyd operon protein YbgE n=1 Tax=Serratia odorif...  129     4e-37
+  UniRef90_A0A250AXX3 Cytochrome bd biosynthesis protein n=1 Tax=...  128     5e-37
+  UniRef90_A0A3A8LR90 Cyd operon protein YbgE (Fragment) n=10 Tax...  128     5e-37
+  UniRef90_UPI000F6566B9 cyd operon protein YbgE n=1 Tax=Dickeya ...  128     6e-37
+  UniRef90_C6CCE5 Cyd operon protein YbgE n=1 Tax=Dickeya paradis...  127     9e-37
+  UniRef90_D2BVC5 Cyd operon protein YbgE n=26 Tax=Enterobacteral...  126     3e-36
+  UniRef90_A0A2S9II82 Cyd operon protein YbgE n=1 Tax=Pantoea cof...  126     3e-36
+  UniRef90_UPI0005535821 cyd operon protein YbgE n=1 Tax=Enteroba...  126     4e-36
+  UniRef90_A0A084A6G3 Cyd operon protein YbgE n=2 Tax=Serratia Ta...  126     4e-36
+  UniRef90_UPI000485310A cyd operon protein YbgE n=1 Tax=Leminore...  125     8e-36
+  UniRef90_A0A2J9E6V2 Cyd operon protein YbgE n=9 Tax=Erwiniaceae...  125     1e-35
+  UniRef90_A0A2I0FS22 Cyd operon protein YbgE n=1 Tax=Enterobacte...  125     1e-35
+  UniRef90_A0A2X4XYE2 Cyd operon protein YbgE n=1 Tax=Leminorella...  125     1e-35
+  UniRef90_A0A2Y9TVL6 Cyd operon protein YbgE n=1 Tax=Limnobaculu...  123     8e-35
+  UniRef90_UPI000DF013E9 cyd operon protein YbgE n=1 Tax=Rahnella...  123     8e-35
+  UniRef90_A0A3N4P520 Cyd operon protein YbgE n=1 Tax=Pantoea sp....  122     9e-35
+  UniRef90_A0A377W564 Protein ybgE n=1 Tax=Klebsiella pneumoniae ...  121     2e-34
+  UniRef90_W0HZZ5 Cyd operon protein n=3 Tax=Sodalis TaxID=84565 ...  121     3e-34
+  UniRef90_UPI000C6DAFA8 cyd operon protein YbgE n=1 Tax=Klebsiel...  120     3e-34
+  UniRef90_UPI0009489F70 cyd operon protein YbgE n=1 Tax=Pantoea ...  119     3e-33
+  UniRef90_A0A3A6U5W0 Cyd operon protein YbgE n=21 Tax=Enterobact...  118     5e-33
+  UniRef90_A0A3N1VTS5 Cyd operon protein YbgE n=1 Tax=Erwinia sp....  118     7e-33
+  UniRef90_UPI00034D685C cyd operon protein YbgE n=1 Tax=Erwinia ...  118     8e-33
+  UniRef90_D8MPS9 Putative membrane protein YbgE n=3 Tax=Erwinia ...  117     8e-33
+  UniRef90_A0A379WDD5 Cyd operon protein YbgE n=1 Tax=Salmonella ...  117     1e-32
+  UniRef90_J3BZF0 Cyd operon protein YbgE n=2 Tax=Enterobacterale...  117     1e-32
+  UniRef90_A0A379WX99 Cyd operon protein YbgE n=1 Tax=Salmonella ...  116     2e-32
+  UniRef90_D0ZBU5 Cyd operon protein n=9 Tax=Edwardsiella TaxID=1...  117     2e-32
+  UniRef90_A0A370QHK3 Cyd operon protein YbgE n=1 Tax=Enterobacil...  116     3e-32
+  UniRef90_UPI00093BF761 cyd operon protein YbgE n=1 Tax=Candidat...  116     3e-32
+  UniRef90_A0A2C6C1P7 Cyd operon protein YbgE n=1 Tax=Budvicia aq...  116     4e-32
+  UniRef90_A0A140EZY3 Cyd operon protein YbgE n=6 Tax=Yersiniacea...  114     2e-31
+  UniRef90_A0A0T9KGN8 Protein ybgE n=5 Tax=Yersinia TaxID=444888 ...  115     2e-31
+  UniRef90_E6WC28 Cyd operon protein YbgE n=4 Tax=Pantoea TaxID=5...  114     2e-31
+  UniRef90_A0A0Q4MMR2 Cytochrome bd biosynthesis protein n=2 Tax=...  114     2e-31
+  UniRef90_A0A085JBF1 YbgE family protein n=1 Tax=Tatumella ptyse...  113     5e-31
+  UniRef90_A0A087KV93 Cytochrome bd biosynthesis protein n=2 Tax=...  113     6e-31
+  UniRef90_A0A0N0I9K6 YbgE family protein n=2 Tax=Moellerella wis...  112     9e-31
+  UniRef90_A0A2A7VDJ4 Cyd operon protein YbgE n=18 Tax=Yersinia T...  113     1e-30
+  UniRef90_A0A1X1D9B6 Cyd operon protein YbgE n=1 Tax=Pantoea wal...  112     1e-30
+  UniRef90_A0A0J9B8W0 Cytochrome bd biosynthesis protein n=2 Tax=...  112     2e-30
+  UniRef90_A1JRG0 Uncharacterized protein n=46 Tax=Yersiniaceae T...  112     2e-30
+  UniRef90_A0A2X2UXD8 Cyd operon protein YbgE n=1 Tax=Citrobacter...  110     2e-30
+  UniRef90_A0A0T9RIJ3 Protein ybgE n=5 Tax=Yersinia TaxID=444888 ...  112     2e-30
+  UniRef90_A0A2V2BAL0 Cyd operon protein YbgE n=3 Tax=Pantoea Tax...  110     7e-30
+  UniRef90_UPI00046A7D36 cyd operon protein YbgE n=1 Tax=Pantoea ...  109     1e-29
+  UniRef90_A0A0B6XBB6 YbgE n=8 Tax=Xenorhabdus bovienii TaxID=405...  109     2e-29
+  UniRef90_A0A077N1D2 Protein ybgE n=2 Tax=Xenorhabdus TaxID=626 ...  108     3e-29
+  UniRef90_A0A022PH53 Cyd operon protein YbgE n=9 Tax=Photorhabdu...  108     3e-29
+  UniRef90_A0A0T7NRT8 Protein ybgE n=5 Tax=Yersinia TaxID=444888 ...  108     6e-29
+  UniRef90_A0A068R481 YbgE n=1 Tax=Xenorhabdus poinarii G6 TaxID=...  107     8e-29
+  UniRef90_A0A329WGS9 Cyd operon protein YbgE n=4 Tax=Photorhabdu...  107     1e-28
+  UniRef90_A0A0T9P418 Protein ybgE n=1 Tax=Yersinia pekkanenii Ta...  107     1e-28
+  UniRef90_A0A0L7TC27 Cytochrome bd biosynthesis protein n=1 Tax=...  107     1e-28
+  UniRef90_A0A2K1QBS0 Cyd operon protein YbgE n=1 Tax=Mixta theic...  107     2e-28
+  UniRef90_C0B259 Cyd operon protein YbgE n=11 Tax=Enterobacteral...  106     2e-28
+  UniRef90_H3RAT3 YbgE family protein n=2 Tax=Pantoea TaxID=53335...  105     5e-28
+  UniRef90_UPI00082F60CF cyd operon protein YbgE n=1 Tax=Erwinia ...  105     5e-28
+  UniRef90_A0A2G0QAG8 Cyd operon protein YbgE n=1 Tax=Xenorhabdus...  105     5e-28
+  UniRef90_A0A0G4QI04 Uncharacterized protein n=5 Tax=Proteus Tax...  105     7e-28
+  UniRef90_A0A1B7JZ13 YbgE family protein n=1 Tax=Providencia hei...  105     7e-28
+  UniRef90_V6MUZ6 Uncharacterized protein n=4 Tax=Proteus TaxID=2...  105     8e-28
+  UniRef90_A0A329X719 Cyd operon protein YbgE n=1 Tax=Photorhabdu...  105     9e-28
+  UniRef90_A0A2D0J5X5 Cyd operon protein YbgE n=4 Tax=Xenorhabdus...  105     9e-28
+  UniRef90_A0A0G3CPQ4 Cyd operon protein YbgE n=1 Tax=Pragia font...  105     1e-27
+  UniRef90_A0A1W6B0W8 Cyd operon protein YbgE n=1 Tax=Pantoea alh...  104     1e-27
+  UniRef90_A0A1Y2SRN9 Cyd operon protein YbgE n=1 Tax=Xenorhabdus...  104     1e-27
+  UniRef90_A0A068QPY6 YbgE n=9 Tax=Xenorhabdus TaxID=626 RepID=A0...  104     2e-27
+  UniRef90_UPI000B3E965E cyd operon protein YbgE n=1 Tax=Klebsiel...  102     4e-27
+  UniRef90_A0A2V3RY09 Cyd operon protein YbgE n=5 Tax=Pantoea ana...  103     5e-27
+  UniRef90_A0A1B8H021 Cyd operon protein YbgE n=3 Tax=Morganella ...  103     5e-27
+  UniRef90_A0A345LW90 Cyd operon protein YbgE n=5 Tax=Providencia...  102     9e-27
+  UniRef90_A0A1G5R366 Cyd operon protein YbgE n=1 Tax=Photorhabdu...  102     9e-27
+  UniRef90_B6VN80 Hypothetical Membrane Protein n=1 Tax=Photorhab...  102     1e-26
+  UniRef90_UPI00069BF9E3 cyd operon protein YbgE n=1 Tax=Yersinia...  102     1e-26
+  UniRef90_A0A0M0T894 Cytochrome bd biosynthesis protein n=2 Tax=...  101     2e-26
+  UniRef90_A0A068RCB8 Uncharacterized protein YbgE n=2 Tax=Serrat...  101     4e-26
+  UniRef90_A0A2S4RMG5 Cyd operon protein YbgE n=3 Tax=Erwiniaceae...  100     6e-26
+  UniRef90_UPI0005713BE2 cyd operon protein YbgE n=1 Tax=Xenorhab...  99.8    1e-25
+  UniRef90_A0A0D8LA45 Uncharacterized protein n=8 Tax=Bacteria Ta...  99.8    1e-25
+  UniRef90_A0A356DAM3 Cyd operon protein YbgE n=1 Tax=Providencia...  99.8    1e-25
+  UniRef90_A0A085HKP4 YbgE family protein n=1 Tax=Leminorella gri...  96.7    1e-24
+  UniRef90_A0A2D0KRE0 Cyd operon protein YbgE n=4 Tax=Xenorhabdus...  95.9    4e-24
+  UniRef90_B6XJH5 Cyd operon protein YbgE n=4 Tax=Providencia alc...  94.4    2e-23
+  UniRef90_A0A0M9CWD9 Cytochrome bd biosynthesis protein n=2 Tax=...  94.4    2e-23
+  UniRef90_D1NXN9 Cyd operon protein YbgE n=2 Tax=Providencia rus...  94.4    2e-23
+  UniRef90_K8WG46 Uncharacterized protein n=8 Tax=Gammaproteobact...  93.2    5e-23
+  UniRef90_D2U0E8 Uncharacterized protein n=1 Tax=Arsenophonus na...  93.2    6e-23
+  UniRef90_A0A1I4UDN6 Cyd operon protein YbgE n=1 Tax=Izhakiella ...  92.8    6e-23
+  UniRef90_UPI000FDCFFC6 UPI000FDCFFC6 related cluster n=1 Tax=un...  92.8    7e-23
+  UniRef90_A0A1X1DWY7 Cyd operon protein YbgE n=2 Tax=Pantoea Tax...  92.0    1e-22
+  UniRef90_A0A1X1C0W2 Cyd operon protein YbgE n=1 Tax=Pantoea con...  92.0    1e-22
+  UniRef90_A0A1S8YJ40 Cyd operon protein YbgE n=1 Tax=Izhakiella ...  91.7    2e-22
+  UniRef90_A0A377AX12 Inner membrane protein n=1 Tax=Escherichia ...  90.5    2e-22
+  UniRef90_A0A379AJR4 Cyd operon protein YbgE n=1 Tax=Enterobacte...  91.7    6e-22
+  UniRef90_E0LUE3 Cyd operon protein YbgE n=22 Tax=Bacteria TaxID...  90.5    6e-22
+  UniRef90_C4SDY3 Uncharacterized protein n=2 Tax=Yersinia TaxID=...  89.4    9e-22
+  UniRef90_E1SH19 Uncharacterized protein ybgE n=8 Tax=Pantoea Ta...  90.1    1e-21
+  UniRef90_A0A0F5Y6X5 Cytochrome bd biosynthesis protein n=2 Tax=...  89.7    1e-21
+  UniRef90_A0A3B0MJG7 Uncharacterized protein n=5 Tax=Arsenophonu...  89.4    2e-21
+  UniRef90_UPI00073E174D cyd operon protein YbgE n=2 Tax=Enteroba...  88.2    5e-21
+  UniRef90_A0A0A8NYD5 Protein ybgE n=3 Tax=Xenorhabdus nematophil...  87.8    8e-21
+  UniRef90_A0A2L0IE64 Cyd operon protein YbgE n=1 Tax=Mixta gavin...  86.7    2e-20
+  UniRef90_UPI00056ABE54 cyd operon protein YbgE n=1 Tax=Photorha...  86.3    2e-20
+  UniRef90_A0A1Y0L6W8 Cyd operon protein YbgE n=1 Tax=Tatumella c...  85.1    1e-19
+  UniRef90_A0A095VL70 Uncharacterized protein n=2 Tax=Tatumella m...  84.7    1e-19
+  UniRef90_A0A3N6UNE2 Cyd operon protein YbgE n=1 Tax=Erwinia psi...  84.7    2e-19
+  UniRef90_A0A2G8E4D5 Cyd operon protein YbgE n=1 Tax=Erwinia sp....  83.6    4e-19
+  UniRef90_M7CNX3 Protein YbgE n=1 Tax=Morganella morganii SC01 T...  82.4    5e-19
+  UniRef90_A0A2X5NLT7 Cyd operon protein YbgE n=1 Tax=Tatumella p...  76.6    7e-17
+  UniRef90_A0A1R4B1Y1 Uncharacterized protein n=2 Tax=Vibrio palu...  75.5    5e-16
+  UniRef90_UPI000570DDCC cytochrome bd biosynthesis protein n=1 T...  72.0    1e-14
+  UniRef90_A0A1T4UIY4 Cyd operon protein YbgE n=2 Tax=Enterovibri...  71.6    2e-14
+  UniRef90_UPI000F0B83BF cyd operon protein YbgE n=1 Tax=Vibrio s...  70.1    5e-14
+  UniRef90_A0A1E5C0T9 Cyd operon protein YbgE n=2 Tax=Enterovibri...  70.1    6e-14
+  UniRef90_A0A2K1DLC9 Cyd operon protein YbgE n=1 Tax=Vibrio agar...  68.6    3e-13
+  UniRef90_A0A3A2IEC5 Cytochrome bd biosynthesis protein n=1 Tax=...  68.6    3e-13
+  UniRef90_A0A2P1VNJ8 Cyd operon protein YbgE n=6 Tax=Plesiomonas...  68.6    4e-13
+  UniRef90_U7QTT4 Uncharacterized protein n=4 Tax=Photorhabdus Ta...  66.6    5e-13
+  UniRef90_A0A0A3AIR2 Cytochrome bd biosynthesis protein n=14 Tax...  67.4    6e-13
+  UniRef90_A0A0M9C9Z5 Cytochrome bd biosynthesis protein n=5 Tax=...  67.0    1e-12
+  UniRef90_A0A2N7J951 Cyd operon protein YbgE n=1 Tax=Vibrio kana...  66.6    2e-12
+  UniRef90_Q6LP42 Uncharacterized protein n=4 Tax=Photobacterium ...  66.6    2e-12
+  UniRef90_A0A318A991 Cyd operon protein YbgE n=2 Tax=Vibrio TaxI...  66.2    3e-12
+  UniRef90_U3BGC1 Uncharacterized protein n=1 Tax=Vibrio proteoly...  66.2    3e-12
+  UniRef90_A0A120DH50 Cytochrome bd biosynthesis protein n=62 Tax...  65.5    4e-12
+  UniRef90_A0A0X8LMP2 Cyd operon protein YbgE n=7 Tax=Vibrio fluv...  65.1    6e-12
+  UniRef90_A0A2M8HB57 Uncharacterized protein n=2 Tax=Aeromonas T...  65.1    7e-12
+  UniRef90_A0A2N8ZAP9 Uncharacterized protein n=1 Tax=Vibrio tape...  65.1    7e-12
+  UniRef90_A0A066V1J2 Cytochrome bd biosynthesis protein n=1 Tax=...  65.1    7e-12
+  UniRef90_UPI000488B97C cytochrome bd biosynthesis protein n=1 T...  64.7    8e-12
+  UniRef90_A0A3A1Q8P2 Cyd operon protein YbgE n=43 Tax=Vibrionace...  64.7    8e-12
+  UniRef90_A0A0H6SZP9 Cyd operon protein YbgE n=39 Tax=Vibrio Tax...  64.7    1e-11
+  UniRef90_A0A1E5CIA6 Cyd operon protein YbgE n=4 Tax=Enterovibri...  64.3    1e-11
+  UniRef90_Q7MJ81 Uncharacterized protein n=13 Tax=Vibrio TaxID=6...  64.3    2e-11
+  UniRef90_A0A1A7PWD2 Cytochrome bd biosynthesis protein n=3 Tax=...  63.9    2e-11
+  UniRef90_A6D8H7 Uncharacterized protein n=6 Tax=Vibrio TaxID=66...  63.5    2e-11
+  UniRef90_A0A0H0YP71 Cytochrome bd biosynthesis protein n=3 Tax=...  63.5    3e-11
+  UniRef90_A8T5R8 Uncharacterized protein n=1 Tax=Vibrio sp. AND4...  63.5    3e-11
+  UniRef90_A0A1A7QEH6 Cytochrome bd biosynthesis protein n=2 Tax=...  63.2    3e-11
+  UniRef90_E6KYY7 Uncharacterized protein n=5 Tax=Aggregatibacter...  63.2    3e-11
+  UniRef90_UPI000970E3EB cyd operon protein YbgE n=1 Tax=Vibrio o...  63.2    3e-11
+  UniRef90_A0A097QIV1 Cyd operon protein YbgE n=7 Tax=Vibrio TaxI...  63.2    4e-11
+  UniRef90_U2MP32 Protein YbgE n=1 Tax=Pantoea sp. AS-PWVM4 TaxID...  61.6    5e-11
+  UniRef90_A0A0F2IU90 Cytochrome bd biosynthesis protein n=5 Tax=...  62.4    7e-11
+  UniRef90_UPI00083904C7 cyd operon protein YbgE n=1 Tax=Vibrio t...  62.4    7e-11
+  UniRef90_UPI000D3EDFED hypothetical protein n=1 Tax=Gammaproteo...  62.4    8e-11
+  UniRef90_A0A090TAM2 Cyd operon protein YbgE n=3 Tax=Vibrio TaxI...  62.4    9e-11
+  UniRef90_A0A085TNY5 Cyd operon protein YbgE n=5 Tax=Vibrio TaxI...  62.4    9e-11
+  UniRef90_UPI00057160B3 cyd operon protein YbgE n=2 Tax=Vibrio T...  62.4    9e-11
+  UniRef90_A0A347UPF9 Cyd operon protein YbgE n=1 Tax=Vibrio alfa...  62.0    9e-11
+  UniRef90_A0A1E5D614 Cyd operon protein YbgE n=2 Tax=Vibrionales...  61.6    2e-10
+  UniRef90_A0A0A5JY35 Cytochrome bd biosynthesis protein n=1 Tax=...  61.2    2e-10
+  UniRef90_A0A0Q0Q1T7 Cytochrome bd biosynthesis protein n=4 Tax=...  61.2    2e-10
+  UniRef90_A0A1X9TZN8 Cyd operon protein YbgE n=9 Tax=Photobacter...  61.2    2e-10
+  UniRef90_F9T1P0 Cytochrome bd biosynthesis protein n=4 Tax=Vibr...  60.8    3e-10
+  UniRef90_UPI000B34D951 cyd operon protein YbgE n=1 Tax=Thaumasi...  60.8    3e-10
+  UniRef90_A0A3A6R9F2 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  60.8    3e-10
+  UniRef90_A0A0C3IB04 Cytochrome bd biosynthesis protein n=1 Tax=...  60.8    3e-10
+  UniRef90_A0A1G7Z821 Cyd operon protein YbgE n=1 Tax=Vibrio xiam...  60.5    4e-10
+  UniRef90_UPI000D6526C8 cyd operon protein YbgE n=1 Tax=Aggregat...  60.5    4e-10
+  UniRef90_UPI00031E3879 cyd operon protein YbgE n=1 Tax=Vibrio s...  60.5    5e-10
+  UniRef90_A0A1V4B1I1 Inner membrane protein n=1 Tax=Haemophilus ...  60.1    5e-10
+  UniRef90_A0A0L7YY43 Cytochrome bd biosynthesis protein n=1 Tax=...  60.1    5e-10
+  UniRef90_A0A2N7DI16 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  60.1    6e-10
+  UniRef90_A0A1H5SEK0 Cyd operon protein YbgE n=3 Tax=Gammaproteo...  59.7    6e-10
+  UniRef90_A0A0D8P7V1 Cytochrome bd biosynthesis protein n=5 Tax=...  60.1    6e-10
+  UniRef90_A0A0A3ANM4 Cytochrome bd biosynthesis protein n=1 Tax=...  59.7    7e-10
+  UniRef90_A0A1E5E1B5 Cytochrome bd biosynthesis protein n=1 Tax=...  59.7    8e-10
+  UniRef90_C9QJP0 Cyd operon protein YbgE n=3 Tax=Vibrio TaxID=66...  59.7    9e-10
+  UniRef90_F9GMG8 Putative cyd operon protein YbgE n=29 Tax=Haemo...  59.3    1e-09
+  UniRef90_H0KH74 Cyd operon protein YbgE n=7 Tax=Aggregatibacter...  59.3    1e-09
+  UniRef90_A0A1M5X8I9 Uncharacterized protein n=4 Tax=Vibrio TaxI...  59.3    1e-09
+  UniRef90_A0A0K1N4Z1 Cytochrome bd biosynthesis protein n=9 Tax=...  58.9    1e-09
+  UniRef90_A0A349FGK2 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  58.9    2e-09
+  UniRef90_C9PMN0 Cyd operon protein YbgE n=2 Tax=Pasteurella dag...  58.5    2e-09
+  UniRef90_A0A1V3JK06 Cyd operon protein YbgE n=1 Tax=Rodentibact...  58.5    2e-09
+  UniRef90_A0A072I9Y6 Cyd operon protein YbgE n=31 Tax=Vibrionace...  58.5    3e-09
+  UniRef90_A0A135I8M6 Cytochrome bd biosynthesis protein n=1 Tax=...  58.2    3e-09
+  UniRef90_A0A1B1EBF5 Cyd operon protein YbgE n=2 Tax=Vibrio TaxI...  58.2    3e-09
+  UniRef90_A0A2J8G2E4 Cyd operon protein YbgE n=6 Tax=Vibrio diaz...  58.5    3e-09
+  UniRef90_U1R189 Cyd operon protein YbgE n=1 Tax=Aggregatibacter...  58.2    3e-09
+  UniRef90_A0A0F4NJU3 Cytochrome bd biosynthesis protein n=1 Tax=...  58.2    3e-09
+  UniRef90_UPI000C16AD6F cyd operon protein YbgE n=1 Tax=Vibrio f...  58.2    3e-09
+  UniRef90_A0A377HLV1 Cyd operon protein YbgE n=2 Tax=Grimontia h...  58.2    3e-09
+  UniRef90_E8LZV9 Cyd operon protein YbgE n=1 Tax=Vibrio brasilie...  58.2    4e-09
+  UniRef90_A0A263HD12 Cyd operon protein YbgE n=2 Tax=Pasteurella...  57.8    4e-09
+  UniRef90_UPI000B35C077 cytochrome bd biosynthesis protein n=1 T...  58.2    4e-09
+  UniRef90_A0A1T4K5I8 Cyd operon protein YbgE n=1 Tax=Vibrio cinc...  57.8    5e-09
+  UniRef90_UPI000D018EA0 cytochrome bd biosynthesis protein n=1 T...  57.8    5e-09
+  UniRef90_A0A2M8RX60 Cyd operon protein YbgE n=1 Tax=Caviibacter...  57.4    5e-09
+  UniRef90_UPI000C796F8C cyd operon protein YbgE n=1 Tax=Pasteure...  57.4    6e-09
+  UniRef90_A0A1T4S4Z9 Uncharacterized protein n=2 Tax=Oceanospiri...  57.0    8e-09
+  UniRef90_A0A0A5I1I2 Cytochrome bd biosynthesis protein n=4 Tax=...  57.0    9e-09
+  UniRef90_A0A2M8S0E8 Cyd operon protein YbgE n=1 Tax=Conservatib...  57.0    9e-09
+  UniRef90_A0A1C3ERT2 Cyd operon protein YbgE n=1 Tax=Enterovibri...  57.0    9e-09
+  UniRef90_UPI0002E88DCE cyd operon protein YbgE n=2 Tax=Pasteure...  57.0    1e-08
+  UniRef90_UPI0002482D5A cyd operon protein YbgE n=1 Tax=Vibrio o...  57.0    1e-08
+  UniRef90_UPI000F685967 cyd operon protein YbgE n=1 Tax=Vibrio p...  56.6    1e-08
+  UniRef90_E8M3V6 Cyd operon protein YbgE n=1 Tax=Vibrio sinaloen...  56.6    1e-08
+  UniRef90_F9R8B1 Cyd operon protein YbgE n=5 Tax=Vibrio TaxID=66...  56.6    1e-08
+  UniRef90_A0A368LMB2 Cytochrome bd biosynthesis protein n=2 Tax=...  56.2    2e-08
+  UniRef90_A0A1E3XKQ3 Cyd operon protein YbgE n=10 Tax=Pasteurell...  55.8    2e-08
+  UniRef90_A0A090RG82 Protein YbgE n=1 Tax=Vibrio sp. C7 TaxID=10...  56.2    2e-08
+  UniRef90_A0A0C2K5G4 Cytochrome bd biosynthesis protein n=1 Tax=...  55.8    2e-08
+  UniRef90_A0A1Q9HUZ5 Cyd operon protein YbgE n=3 Tax=Vibrio TaxI...  55.8    3e-08
+  UniRef90_A0A0M0HWB9 Cytochrome bd biosynthesis protein n=1 Tax=...  55.8    3e-08
+  UniRef90_E3BI63 Cyd operon protein YbgE n=1 Tax=Vibrio caribbea...  55.8    3e-08
+  UniRef90_UPI000518D2E4 cyd operon protein YbgE n=1 Tax=Vibrio a...  55.8    3e-08
+  UniRef90_UPI000950F960 cyd operon protein YbgE n=1 Tax=Vibrio p...  55.5    4e-08
+  UniRef90_UPI000E0A9D3E cyd operon protein YbgE n=1 Tax=Vibrio s...  55.5    4e-08
+  UniRef90_A0A3D1Z6B9 Cyd operon protein YbgE n=2 Tax=Vibrio TaxI...  55.1    5e-08
+  UniRef90_A0A0F5ZT88 Cytochrome bd biosynthesis protein n=6 Tax=...  55.1    5e-08
+  UniRef90_A0A1H5ZZI2 Cyd operon protein YbgE n=1 Tax=Vibrio hang...  55.1    6e-08
+  UniRef90_A0A2N7D666 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  55.1    6e-08
+  UniRef90_F0LQE2 Uncharacterized protein n=4 Tax=Vibrio furnissi...  54.3    6e-08
+  UniRef90_UPI000B5C58E6 cyd operon protein YbgE n=1 Tax=Vibrio a...  54.7    8e-08
+  UniRef90_A0A0A8VB00 Cyd operon protein YbgE n=1 Tax=Yersinia ru...  52.8    1e-07
+  UniRef90_A0A2T3K6M3 Cyd operon protein YbgE n=19 Tax=Vibrionace...  54.7    1e-07
+  UniRef90_A0A175VHK3 Uncharacterized protein n=8 Tax=Aeromonadac...  54.3    1e-07
+  UniRef90_A0A0H3NST9 Protein ybgE n=1 Tax=Yersinia enterocolitic...  52.8    1e-07
+  UniRef90_UPI0005BA95A6 hypothetical protein n=1 Tax=Aeromonas m...  54.3    1e-07
+  UniRef90_A0A0F5EQ10 Cyd operon protein YbgE n=4 Tax=Avibacteriu...  53.9    1e-07
+  UniRef90_A0A0S2SNY5 Protein YbgE n=2 Tax=Aeromonas TaxID=642 Re...  53.5    2e-07
+  UniRef90_UPI0003F50DA9 hypothetical protein n=1 Tax=Oceanospiri...  53.1    2e-07
+  UniRef90_A0A178KMG4 Cytochrome bd biosynthesis protein n=1 Tax=...  53.5    3e-07
+  UniRef90_UPI00098570CF cyd operon protein YbgE n=2 Tax=Rodentib...  53.1    3e-07
+  UniRef90_A0A1W1UMH2 Cyd operon protein YbgE n=1 Tax=Pasteurella...  53.1    3e-07
+  UniRef90_A0A0M0HTB3 Cytochrome bd biosynthesis protein n=1 Tax=...  53.1    3e-07
+  UniRef90_E1W4A9 Conserved inner membrane protein n=21 Tax=Paste...  52.8    3e-07
+  UniRef90_UPI000E3CB960 cyd operon protein YbgE n=1 Tax=Vibrio m...  53.1    4e-07
+  UniRef90_A0A0D8LQ05 Cytochrome bd biosynthesis protein n=9 Tax=...  53.1    4e-07
+  UniRef90_A0A1B3JEL6 Uncharacterized protein n=6 Tax=Pasteurella...  52.8    4e-07
+  UniRef90_A0A3N9TG99 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  52.8    4e-07
+  UniRef90_UPI000509A53B cytochrome bd biosynthesis protein n=2 T...  52.8    4e-07
+  UniRef90_A0A379APS0 Cyd operon protein YbgE n=4 Tax=Avibacteriu...  52.8    5e-07
+  UniRef90_A0A1Z2SII3 Cytochrome bd biosynthesis protein n=3 Tax=...  52.4    6e-07
+  UniRef90_K1K5V0 Cyd operon protein YbgE n=60 Tax=Gammaproteobac...  51.6    7e-07
+  UniRef90_UPI000F81EF6F cyd operon protein YbgE n=1 Tax=Pasteure...  52.0    7e-07
+  UniRef90_UPI0005099733 cyd operon protein YbgE n=1 Tax=Necropso...  52.0    7e-07
+  UniRef90_UPI000A0737F5 hypothetical protein n=1 Tax=Aeromonas s...  52.0    8e-07
+  UniRef90_UPI00063CA020 cyd operon protein YbgE n=2 Tax=Vibrio T...  52.0    8e-07
+  UniRef90_R1H4V8 Protein YbgE n=2 Tax=Aeromonas TaxID=642 RepID=...  51.6    1e-06
+  UniRef90_U3AT34 Uncharacterized protein n=1 Tax=Vibrio azureus ...  50.8    1e-06
+  UniRef90_A0A1H7C107 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  51.2    2e-06
+  UniRef90_A0A0M9F952 Cytochrome bd biosynthesis protein n=5 Tax=...  51.2    2e-06
+  UniRef90_A0A1H7WWM2 Cyd operon protein YbgE n=1 Tax=Pasteurella...  50.8    2e-06
+  UniRef90_A0A1Y6IPA5 Uncharacterized protein n=1 Tax=Vibrio mang...  51.2    2e-06
+  UniRef90_W0QFG2 Cyd operon protein YbgE n=2 Tax=Mannheimia vari...  50.8    2e-06
+  UniRef90_U4E2Q9 Putative Cyd operon protein YbgE n=4 Tax=Vibrio...  50.4    4e-06
+  UniRef90_UPI000B359689 cyd operon protein YbgE n=1 Tax=Thaumasi...  50.1    4e-06
+  UniRef90_A0A0W7U0K6 Uncharacterized protein n=1 Tax=Aeromonas s...  49.7    5e-06
+  UniRef90_A0A1N6S3M9 Cyd operon protein YbgE n=1 Tax=Aeromonas s...  50.1    5e-06
+  UniRef90_UPI00056FAD5A cyd operon protein YbgE n=1 Tax=Vibrio r...  50.1    5e-06
+  UniRef90_W0Q7B9 Cyd operon protein YbgE n=1 Tax=Mannheimia sp. ...  49.7    5e-06
+  UniRef90_Q65UN5 Uncharacterized protein n=4 Tax=Basfia TaxID=69...  49.7    5e-06
+  UniRef90_A0A191W4K2 Cyd operon protein YbgE n=9 Tax=Vibrionacea...  49.7    7e-06
+  UniRef90_A0A1G7UM06 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  49.7    7e-06
+  UniRef90_A0A0J1HI82 Cytochrome bd biosynthesis protein n=1 Tax=...  49.7    7e-06
+  UniRef90_UPI000569B6FA cyd operon protein YbgE n=2 Tax=Photobac...  49.7    7e-06
+  UniRef90_A0A1P8EFX6 Cytochrome bd biosynthesis protein n=9 Tax=...  49.7    8e-06
+  UniRef90_J5HPM3 Cyd operon protein YbgE n=3 Tax=Haemophilus spu...  49.3    8e-06
+  UniRef90_A0A1H9MJG1 Cyd operon protein YbgE n=2 Tax=Pseudomonad...  49.3    9e-06
+  UniRef90_A0A329J4K5 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  49.3    1e-05
+  UniRef90_A0A2N0XUH9 Cyd operon protein YbgE n=3 Tax=Vibrio TaxI...  49.3    1e-05
+  UniRef90_A0A1T0BC78 Cyd operon protein YbgE n=1 Tax=[Haemophilu...  48.9    1e-05
+  UniRef90_UPI000EA0E215 cytochrome bd biosynthesis protein n=1 T...  48.9    2e-05
+  UniRef90_A0A0F5V7U4 Cytochrome bd biosynthesis protein n=1 Tax=...  48.9    2e-05
+  UniRef90_A0A0W8JHU2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  48.5    2e-05
+  UniRef90_A0A0J1HBW9 Cytochrome bd biosynthesis protein n=1 Tax=...  48.5    2e-05
+  UniRef90_A0A1C2E297 Cyd operon protein YbgE n=4 Tax=Pseudomonad...  48.5    2e-05
+  UniRef90_A0A1T0AQZ2 Cyd operon protein YbgE n=1 Tax=Haemophilus...  48.1    2e-05
+  UniRef90_A0A0H4GS67 Cytochrome bd biosynthesis protein n=2 Tax=...  48.1    2e-05
+  UniRef90_A0A380Z0F1 Cyd operon protein YbgE n=1 Tax=Avibacteriu...  48.9    2e-05
+  UniRef90_UPI0004041372 cytochrome bd biosynthesis protein n=1 T...  48.5    3e-05
+  UniRef90_A0A2D9ZZ76 Cytochrome bd biosynthesis protein n=1 Tax=...  48.1    3e-05
+  UniRef90_A0A1S2CTH8 Uncharacterized protein n=4 Tax=Aeromonas T...  48.1    3e-05
+  UniRef90_A0A0D0QYT5 Contig_4, whole genome shotgun sequence n=2...  47.8    4e-05
+  UniRef90_A0A3A6RE74 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  47.8    5e-05
+  UniRef90_A0A1I3TYS1 Cyd operon protein YbgE n=1 Tax=Methylophag...  47.4    5e-05
+  UniRef90_A0A1V3K8D3 Cyd operon protein YbgE n=1 Tax=Rodentibact...  47.4    5e-05
+  UniRef90_A0A135ZNF1 Cytochrome bd biosynthesis protein n=3 Tax=...  47.4    5e-05
+  UniRef90_UPI000F6090F7 Cyd operon protein YbgE n=1 Tax=Sulfurif...  47.4    5e-05
+  UniRef90_A0A1V3LBK8 Cyd operon protein YbgE n=8 Tax=Rodentibact...  47.0    6e-05
+  UniRef90_A0A1V9UNQ3 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  47.0    7e-05
+  UniRef90_A0A2T3N4L9 Cyd operon protein YbgE n=1 Tax=Photobacter...  47.0    8e-05
+  UniRef90_A0A1J5BYU2 Uncharacterized protein n=2 Tax=unclassifie...  47.0    8e-05
+  UniRef90_A0A0B9GIP1 Cytochrome bd biosynthesis protein n=2 Tax=...  46.6    9e-05
+  UniRef90_A0A2H9U8X3 Uncharacterized protein n=1 Tax=Aeromonas c...  46.2    1e-04
+  UniRef90_A0A011NEN2 Cyd operon protein YbgE n=3 Tax=Mannheimia ...  46.2    1e-04
+  UniRef90_A0A379ESK6 Cyd operon protein YbgE n=1 Tax=Pasteurella...  46.2    1e-04
+  UniRef90_A0A2T3IVI0 Cyd operon protein YbgE n=1 Tax=Photobacter...  46.2    1e-04
+  UniRef90_UPI000563E0C8 hypothetical protein n=1 Tax=Pseudomonas...  45.8    2e-04
+  UniRef90_C5S0A5 Uncharacterized protein n=1 Tax=Actinobacillus ...  45.8    2e-04
+  UniRef90_A0A143G3D0 Cytochrome bd biosynthesis protein n=1 Tax=...  45.8    2e-04
+  UniRef90_N8S7Y8 Cyd operon protein YbgE n=11 Tax=Acinetobacter ...  45.8    2e-04
+  UniRef90_A0A0J1GKG0 Cytochrome bd biosynthesis protein n=2 Tax=...  45.8    2e-04
+  UniRef90_A0A248ZYR8 Cyd operon protein YbgE n=3 Tax=Mannheimia ...  45.8    2e-04
+  UniRef90_A0A1V3IMZ2 Cyd operon protein YbgE n=4 Tax=Pasteurella...  45.8    2e-04
+  UniRef90_C1DEK9 Uncharacterized protein n=4 Tax=Azotobacter Tax...  45.8    2e-04
+  UniRef90_A0A385C4R6 Cytochrome bd biosynthesis protein n=1 Tax=...  45.4    3e-04
+  UniRef90_A0A1H2HKC3 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  45.4    3e-04
+  UniRef90_UPI0009B879DB hypothetical protein n=3 Tax=Aeromonas v...  45.1    3e-04
+  UniRef90_A0A2U1FT01 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  45.4    3e-04
+  UniRef90_A0A1Y0GAV9 Uncharacterized protein n=1 Tax=Sulfuriferu...  44.7    3e-04
+  UniRef90_A0A1V3IB23 Cyd operon protein YbgE n=1 Tax=Rodentibact...  45.1    4e-04
+  UniRef90_A0A1Q9G641 Cyd operon protein YbgE n=1 Tax=Photobacter...  45.1    5e-04
+  UniRef90_I4MY08 Uncharacterized protein n=1 Tax=Pseudomonas sp....  44.7    5e-04
+  UniRef90_A0A241WEB5 Cytochrome bd biosynthesis protein n=3 Tax=...  44.7    5e-04
+  UniRef90_N9M425 Cyd operon protein YbgE n=21 Tax=Bacteria TaxID...  44.7    5e-04
+  UniRef90_A0A1F4PF94 Uncharacterized protein n=2 Tax=unclassifie...  44.7    5e-04
+  UniRef90_UPI0009C19F4D hypothetical protein n=1 Tax=Aeromonas v...  45.1    5e-04
+  UniRef90_A0A3N6V0K6 Uncharacterized protein n=3 Tax=Aeromonas T...  44.3    6e-04
+  UniRef90_A0A365SY92 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  44.7    6e-04
+  UniRef90_A0A061CV10 Memnrane protein n=7 Tax=Pseudomonas TaxID=...  44.7    6e-04
+  UniRef90_A0A1Z4VPG4 Uncharacterized protein n=2 Tax=Thiohalobac...  44.3    7e-04
+  UniRef90_W8G807 Uncharacterized protein n=6 Tax=root TaxID=1 Re...  44.7    7e-04
+  UniRef90_UPI0003FC2753 hypothetical protein n=1 Tax=Oceanospiri...  44.3    8e-04
+  UniRef90_A0A0E2GK58 Cyd operon protein YbgE n=5 Tax=Acinetobact...  44.3    9e-04
+  UniRef90_N9CBT4 Cyd operon protein YbgE n=1 Tax=Acinetobacter b...  44.3    0.001
+  UniRef90_A0A1V3TTH7 Cyd operon protein YbgE n=1 Tax=Pasteurella...  43.9    0.001
+  UniRef90_A0A223MFH6 Uncharacterized protein n=4 Tax=Actinobacil...  43.9    0.001
+  UniRef90_A0A1G7SBI5 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  43.9    0.001
+  UniRef90_F5T248 Uncharacterized protein n=1 Tax=Methylophaga am...  43.5    0.001
+  UniRef90_Q1Z9K1 Uncharacterized protein n=3 Tax=Photobacterium ...  42.7    0.002
+  UniRef90_A0A1H6WDY0 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  43.5    0.002
+  UniRef90_A0A1I5X532 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  43.5    0.002
+  UniRef90_A0A0F9N1W7 Uncharacterized protein n=1 Tax=marine sedi...  43.1    0.002
+  UniRef90_UPI000DA5F3A1 Cyd operon protein YbgE n=2 Tax=Pseudomo...  43.1    0.002
+  UniRef90_UPI000684F630 hypothetical protein n=1 Tax=Psychromona...  43.5    0.002
+  UniRef90_N8YC51 Uncharacterized protein n=1 Tax=Acinetobacter g...  43.5    0.002
+  UniRef90_A0A0N9WF60 Cytochrome bd biosynthesis protein n=1 Tax=...  43.5    0.002
+  UniRef90_A0A3A8FBV9 Cytochrome bd biosynthesis protein n=3 Tax=...  43.1    0.002
+  UniRef90_A0A031LTJ4 Cytochrome bd biosynthesis protein n=3 Tax=...  43.1    0.002
+  UniRef90_A0A1V3I401 Uncharacterized protein n=10 Tax=Vibrionace...  43.1    0.002
+  UniRef90_A0A328BWY3 Cytochrome bd biosynthesis protein n=1 Tax=...  43.1    0.002
+  UniRef90_A0A1N6E779 Cyd operon protein YbgE n=1 Tax=Salinivibri...  42.7    0.003
+  UniRef90_A0A1Y5DRK3 Uncharacterized protein n=1 Tax=Methylophag...  42.4    0.004
+  UniRef90_A0A2N1DPH5 Uncharacterized protein n=1 Tax=Psychromona...  42.4    0.005
+  UniRef90_A0A1B2M0Q3 Cytochrome bd biosynthesis protein n=1 Tax=...  42.4    0.005
+  UniRef90_A0A2U8FJC6 Cyd operon protein YbgE n=1 Tax=Actinobacil...  42.0    0.005
+  UniRef90_A0A241V9I0 Cytochrome bd biosynthesis protein n=4 Tax=...  42.0    0.006
+  UniRef90_A0A176HMX8 Uncharacterized protein n=6 Tax=Proteobacte...  42.0    0.006
+  UniRef90_A0A2U3N3C5 Uncharacterized protein n=1 Tax=Acinetobact...  42.0    0.007
+  UniRef90_UPI000380D887 hypothetical protein n=1 Tax=Psychromona...  42.0    0.007
+  UniRef90_N2J7M3 Cyd operon protein YbgE n=6 Tax=Pseudomonadacea...  41.6    0.008
+  UniRef90_A0A379C7H8 Cyd operon protein YbgE n=1 Tax=Phocoenobac...  41.6    0.009
+  UniRef90_UPI000B90B016 cytochrome bd biosynthesis protein n=1 T...  41.2    0.010
+  UniRef90_A0A0C2RPA6 Cyd operon protein YbgE n=3 Tax=Pseudomonas...  41.2    0.012
+  UniRef90_K0G537 Cyd operon protein YbgE n=4 Tax=Actinobacillus ...  41.2    0.014
+  UniRef90_A0A2N5BIT3 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  41.2    0.014
+  UniRef90_A0A1B8T1F0 Cyd operon protein YbgE n=7 Tax=Pseudomonad...  40.8    0.016
+  UniRef90_A0A179CZM8 Cyd operon protein YbgE n=5 Tax=Bibersteini...  40.8    0.017
+  UniRef90_A0A0A7MFU4 Cytochrome bd biosynthesis protein n=1 Tax=...  40.8    0.018
+  UniRef90_A0A098T0Q1 Uncharacterized protein n=2 Tax=Pseudomonas...  40.8    0.018
+  UniRef90_A0A2T3NR18 Cyd operon protein YbgE n=1 Tax=Photobacter...  40.8    0.018
+  UniRef90_A0A2E2D991 Cytochrome bd biosynthesis protein n=1 Tax=...  40.4    0.019
+  UniRef90_A0A1P8PKD9 Cyd operon protein YbgE family protein n=2 ...  40.8    0.019
+  UniRef90_A0A1E4JL03 Uncharacterized protein n=2 Tax=Thiobacillu...  40.4    0.020
+  UniRef90_A0A323UYB4 Uncharacterized protein n=1 Tax=Azoarcus co...  40.4    0.021
+  UniRef90_A0A0W8H0L2 Cyd operon protein YbgE n=13 Tax=Pseudomona...  40.4    0.022
+  UniRef90_A0A172WWS2 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  40.4    0.023
+  UniRef90_A0A2E2GFX6 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  40.4    0.023
+  UniRef90_A0A1N6XGR2 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  40.4    0.024
+  UniRef90_A0A0J5P4K0 Cytochrome bd biosynthesis protein n=1 Tax=...  40.4    0.026
+  UniRef90_A0A0L0BCV1 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  40.4    0.027
+  UniRef90_A0A090IL50 Membrane protein, Cyd operon protein n=6 Ta...  40.0    0.033
+  UniRef90_A0A1G7J135 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  40.0    0.034
+  UniRef90_U4S478 Cyd operon YbgE family protein n=5 Tax=Haemophi...  40.0    0.034
+  UniRef90_I4ZUK4 Uncharacterized protein n=11 Tax=Acinetobacter ...  40.0    0.034
+  UniRef90_A0A089YJ62 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  40.0    0.039
+  UniRef90_A0A2N2ABC7 Uncharacterized protein n=1 Tax=Gammaproteo...  39.3    0.040
+  UniRef90_A0A0B3BW99 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  39.7    0.041
+  UniRef90_N6Z657 Uncharacterized protein n=1 Tax=Thauera linaloo...  40.0    0.042
+  UniRef90_A0A1G0NBA9 Uncharacterized protein n=1 Tax=Hydrogenoph...  39.7    0.047
+  UniRef90_A0A2H0J9E4 Uncharacterized protein n=1 Tax=Comamonadac...  39.7    0.048
+  UniRef90_A0A259DA53 Uncharacterized protein n=3 Tax=unclassifie...  39.7    0.053
+  UniRef90_N9MJ71 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  39.7    0.057
+  UniRef90_A0A0F5AN47 Uncharacterized protein n=24 Tax=Vibrionace...  39.3    0.063
+  UniRef90_A0A0E3ZQQ8 Cyd operon protein YbgE n=1 Tax=Pasteurella...  39.3    0.068
+  UniRef90_N8QJY3 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  39.3    0.068
+  UniRef90_A0A2E6JV23 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  39.3    0.072
+  UniRef90_A0A1B8YHC1 Uncharacterized protein n=1 Tax=Photorhabdu...  38.5    0.075
+  UniRef90_A0A254MYS6 Uncharacterized protein n=1 Tax=Pelomonas p...  38.9    0.077
+  UniRef90_A0A2E0WPR1 Cyd operon protein YbgE n=1 Tax=Gammaproteo...  38.9    0.091
+  UniRef90_UPI000FDE51F5 hypothetical protein n=1 Tax=Hahella sp....  38.5    0.11 
+  UniRef90_UPI0009FE8A63 hypothetical protein n=1 Tax=Ideonella s...  38.5    0.11 
+  UniRef90_UPI00038171F0 hypothetical protein n=1 Tax=Methylovers...  38.9    0.11 
+  UniRef90_A0A165UJC0 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  38.5    0.12 
+  UniRef90_A0A090P643 Cyd operon protein YbgE n=1 Tax=Vibrio pont...  37.4    0.12 
+  UniRef90_V2UVM4 Uncharacterized protein n=4 Tax=Gammaproteobact...  38.5    0.14 
+  UniRef90_UPI00068811DE Cyd operon protein YbgE n=1 Tax=gamma pr...  38.5    0.14 
+  UniRef90_B6EGJ8 Membrane protein n=3 Tax=Aliivibrio TaxID=51167...  38.5    0.15 
+  UniRef90_A0A1Z9Z248 Cytochrome bd biosynthesis protein n=2 Tax=...  38.1    0.16 
+  UniRef90_A0A2N5BZT7 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  38.1    0.18 
+  UniRef90_UPI000FD725AC Cyd operon protein YbgE n=1 Tax=Sulfuriv...  38.1    0.18 
+  UniRef90_UPI00071DB6DE hypothetical protein n=1 Tax=Vitreoscill...  38.1    0.19 
+  UniRef90_A0A241W0N6 Cytochrome bd biosynthesis protein n=1 Tax=...  38.1    0.19 
+  UniRef90_A0A017QHM4 Cyd operon protein YbgE n=9 Tax=Haemophilus...  38.5    0.20 
+  UniRef90_A0A2A2J1B0 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  38.1    0.22 
+  UniRef90_A0A2G2PSW0 Uncharacterized protein n=2 Tax=Proteobacte...  37.7    0.25 
+  UniRef90_D5CR00 Cyd operon protein YbgE n=1 Tax=Sideroxydans li...  37.7    0.26 
+  UniRef90_A0A1E4KI44 Uncharacterized protein n=3 Tax=Thiobacillu...  37.7    0.27 
+  UniRef90_UPI00034D73AD hypothetical protein n=1 Tax=Lysobacter ...  37.4    0.28 
+  UniRef90_I3DNN0 Putative cyd operon protein YbgE n=7 Tax=Haemop...  37.4    0.31 
+  UniRef90_Q5E695 Uncharacterized protein n=5 Tax=Aliivibrio fisc...  37.7    0.32 
+  UniRef90_A0A1G8XPK9 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  37.4    0.32 
+  UniRef90_A0A3A8FCE2 Cytochrome bd biosynthesis protein n=6 Tax=...  37.4    0.34 
+  UniRef90_A0A3D6AN72 Uncharacterized protein n=1 Tax=Oxalobacter...  37.4    0.34 
+  UniRef90_A0A3B7LUM6 Cytochrome bd biosynthesis protein n=2 Tax=...  37.4    0.34 
+  UniRef90_A0A1Q3QXT6 Uncharacterized protein n=1 Tax=Hydrogenoph...  37.4    0.37 
+  UniRef90_A0A1G3Y0S4 Uncharacterized protein n=2 Tax=Thiobacillu...  37.4    0.37 
+  UniRef90_I4JNH6 Uncharacterized protein n=5 Tax=Pseudomonas Tax...  37.4    0.38 
+  UniRef90_A0A2M7FPV7 Uncharacterized protein n=2 Tax=unclassifie...  37.0    0.38 
+  UniRef90_A0A009ZZF3 Cyd operon YbgE family protein n=7 Tax=Acin...  37.4    0.38 
+  UniRef90_A0A2D1IRU0 Cytochrome bd biosynthesis protein n=1 Tax=...  37.4    0.39 
+  UniRef90_A0A1H7FPD4 Cyd operon protein YbgE n=3 Tax=Pseudomonas...  37.4    0.39 
+  UniRef90_A0A1G3I596 Uncharacterized protein n=1 Tax=Rhodoferax ...  37.0    0.40 
+  UniRef90_N8WPM7 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  37.4    0.40 
+  UniRef90_UPI0009DD88B4 hypothetical protein n=2 Tax=Salinivibri...  37.4    0.41 
+  UniRef90_A0A1A7R5C8 Cytochrome bd biosynthesis protein n=4 Tax=...  37.4    0.44 
+  UniRef90_UPI00036C0FA1 hypothetical protein n=1 Tax=Thiobacillu...  37.0    0.48 
+  UniRef90_U5N8E8 Uncharacterized protein n=2 Tax=Candidatus Symb...  37.4    0.48 
+  UniRef90_A0A1E7RDS6 Cytochrome bd biosynthesis protein n=1 Tax=...  37.0    0.51 
+  UniRef90_A0A3N2RAG5 Cyd operon protein YbgE n=1 Tax=Lysobacter ...  37.0    0.56 
+  UniRef90_A0A3N4W827 Cyd operon protein YbgE n=1 Tax=Vespertilii...  36.6    0.59 
+  UniRef90_UPI000EB2299F cytochrome bd biosynthesis protein n=1 T...  36.6    0.63 
+  UniRef90_UPI000B9C5AC6 hypothetical protein n=1 Tax=Psychromona...  36.6    0.66 
+  UniRef90_N8QGJ1 Cyd operon protein YbgE n=6 Tax=Acinetobacter T...  36.6    0.69 
+  UniRef90_A0A1G6HFY5 Cyd operon protein YbgE n=1 Tax=Acinetobact...  36.6    0.73 
+  UniRef90_A0A1G8FK79 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  36.6    0.74 
+  UniRef90_A0A0T6VJ19 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  36.6    0.76 
+  UniRef90_A0A0F0E8E6 Membrane protein n=5 Tax=Burkholderiaceae T...  36.2    0.76 
+  UniRef90_V4PWH7 Uncharacterized protein n=13 Tax=Gammaproteobac...  36.6    0.77 
+  UniRef90_L0GNH0 Putative membrane protein n=5 Tax=Gammaproteoba...  36.2    0.94 
+  UniRef90_A0A2S2FFL2 Cytochrome bd biosynthesis protein n=3 Tax=...  36.2    0.94 
+  UniRef90_W9TRR2 Cyd operon protein YbgE n=2 Tax=Pseudomonas Tax...  36.2    0.96 
+  UniRef90_A0A350ETN2 Two-component system response regulator n=1...  37.4    1.1  
+  UniRef90_A0A1H5Z292 Piwi domain-containing protein n=2 Tax=Bact...  37.0    1.4  
+  UniRef90_A0A1H3IFW7 Predicted membrane protein, encoded in cydA...  35.8    1.5  
+  UniRef90_A0A061JLG8 Uncharacterized protein n=2 Tax=Pseudomonas...  35.4    1.7  
+  UniRef90_N9TA77 Cyd operon protein YbgE n=43 Tax=Acinetobacter ...  35.4    1.7  
+  UniRef90_UPI0004769981 hypothetical protein n=1 Tax=Alistipes o...  35.0    1.8  
+  UniRef90_A0A0A3W603 Uncharacterized protein n=1 Tax=Acinetobact...  35.4    1.9  
+  UniRef90_M4UMW1 Uncharacterized protein n=1 Tax=Psychromonas sp...  35.4    2.0  
+  UniRef90_A0A259FE50 Uncharacterized protein n=1 Tax=Hydrogenoph...  35.4    2.0  
+  UniRef90_N9RD60 Cyd operon protein YbgE n=6 Tax=Acinetobacter T...  35.4    2.0  
+  UniRef90_UPI0003B7412E membrane protein n=1 Tax=Aquaspirillum s...  35.0    2.1  
+  UniRef90_A0A235EWE7 Uncharacterized protein n=1 Tax=Thauera pro...  35.4    2.3  
+  UniRef90_A0A1L6KMU8 Cyd operon protein YbgE (Cyd_oper_YbgE) fam...  35.4    2.3  
+  UniRef90_N6ZW53 Uncharacterized protein n=1 Tax=Thauera phenyla...  35.8    2.3  
+  UniRef90_A0A3C1MVE6 Uncharacterized protein n=1 Tax=Betaproteob...  35.0    2.6  
+  UniRef90_F8H2Q1 Uncharacterized protein n=19 Tax=Bacteria TaxID...  35.0    2.6  
+  UniRef90_S7WF53 Protein ybgE n=7 Tax=Acinetobacter TaxID=469 Re...  35.0    2.7  
+  UniRef90_A0A2G4DLS0 Uncharacterized protein n=1 Tax=Pseudomonas...  35.0    2.8  
+  UniRef90_A0A151XXP0 Cytochrome bd biosynthesis protein n=2 Tax=...  35.0    2.8  
+  UniRef90_A0A1J5CT05 Uncharacterized protein n=2 Tax=unclassifie...  35.0    2.9  
+  UniRef90_A0A3N4WUV2 Cyd operon protein YbgE n=1 Tax=Frederiksen...  35.0    3.0  
+  UniRef90_A0A3C0YB98 Uncharacterized protein n=1 Tax=Polaromonas...  35.0    3.0  
+  UniRef90_UPI00034C490C PHP domain-containing protein n=1 Tax=Ge...  36.2    3.0  
+  UniRef90_A0A2N5BET7 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  35.0    3.1  
+  UniRef90_A0A1A9KB06 Cyd operon protein YbgE n=12 Tax=Proteobact...  35.0    3.2  
+  UniRef90_A0A1I6TAF1 Uncharacterized protein n=1 Tax=Saccharopol...  36.2    3.2  
+  UniRef90_A0A147HAW2 Cyd operon protein YbgE n=18 Tax=Pseudomona...  35.0    3.2  
+  UniRef90_A0A1F4GW37 Uncharacterized protein n=4 Tax=Betaproteob...  34.7    3.7  
+  UniRef90_A0A0S2FML8 Uncharacterized protein n=2 Tax=Lysobacter ...  34.3    3.7  
+  UniRef90_A0A2N2TKS4 Uncharacterized protein n=1 Tax=Betaproteob...  34.7    3.8  
+  UniRef90_A0A241W6Y9 Cytochrome bd biosynthesis protein n=2 Tax=...  34.7    3.8  
+  UniRef90_A0A2Z6I7C4 Uncharacterized protein n=1 Tax=Sutterella ...  34.3    3.8  
+  UniRef90_A1K4U2 Conserved hypothetical membrane protein n=2 Tax...  34.7    3.9  
+  UniRef90_UPI0006546C27 hypothetical protein n=1 Tax=Pseudomonas...  34.7    4.0  
+  UniRef90_A0A172YP51 Cytochrome bd biosynthesis protein n=1 Tax=...  34.7    4.0  
+  UniRef90_A0A0M4H906 Cytochrome bd biosynthesis protein n=4 Tax=...  34.7    4.1  
+  UniRef90_N9CH95 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  34.7    4.3  
+  UniRef90_A0A1C7HMN3 Cytochrome bd biosynthesis protein n=2 Tax=...  34.3    4.4  
+  UniRef90_A0A2I0CUX5 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  34.3    4.9  
+  UniRef90_A0A1H3T619 Signal transduction histidine kinase n=2 Ta...  35.4    4.9  
+  UniRef90_A0A2D5PAM1 Cytochrome bd biosynthesis protein n=1 Tax=...  34.3    5.1  
+  UniRef90_UPI000DAC2CE1 histidine kinase n=1 Tax=Marinobacter bo...  35.4    5.2  
+  UniRef90_A2SGV2 Uncharacterized protein n=3 Tax=Methylibium Tax...  33.9    5.4  
+  UniRef90_Q6FA35 Uncharacterized protein n=2 Tax=Acinetobacter T...  34.7    5.6  
+  UniRef90_A0A3N4U3K0 Cyd operon protein YbgE n=1 Tax=Tibeticola ...  33.9    5.8  
+  UniRef90_A0A2U8GKL9 Uncharacterized protein n=4 Tax=Betaproteob...  34.3    5.8  
+  UniRef90_A0A397RXT0 ABC1 family-domain-containing protein n=1 T...  35.4    5.8  
+  UniRef90_A0A0Q8D663 Uncharacterized protein n=1 Tax=Lysobacter ...  33.9    5.8  
+  UniRef90_A0A0D6S197 Protein ybgE n=7 Tax=Pseudomonas TaxID=286 ...  34.3    6.2  
+  UniRef90_A0A1N6Q125 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  34.3    6.2  
+  UniRef90_A0A2E6XN56 Uncharacterized protein n=1 Tax=Nitrospina ...  34.3    6.8  
+  UniRef90_A0A1H3MZR7 Predicted membrane protein, encoded in cydA...  33.9    6.9  
+  UniRef90_A0A0S2FBT9 Uncharacterized protein n=3 Tax=Lysobacter ...  32.7    7.3  
+  UniRef90_D8JIR3 Cyd operon protein YbgE (Cyd_oper_YbgE) family ...  33.9    7.9  
+  UniRef90_A0A1H6SI02 Cyd operon protein YbgE n=6 Tax=Azotobacter...  33.9    8.3  
+  UniRef90_UPI000DCFEA6B cytochrome bd biosynthesis protein n=1 T...  33.9    8.6  
+  UniRef90_N6YLG2 Uncharacterized protein n=2 Tax=Thauera TaxID=3...  33.9    8.9  
+  UniRef90_A0A024HG54 Uncharacterized protein n=1 Tax=Pseudomonas...  33.9    9.1  
+  UniRef90_A0A174HCP4 Uncharacterized conserved protein n=2 Tax=A...  34.7    9.3  
+  UniRef90_UPI0009A89203 cytochrome bd biosynthesis protein n=4 T...  33.5    9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.337    0.147    0.503    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 749902867697
+Warning: [psiblast] lcl|Query_1 NP_415263.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415263.1
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1X0XBB6 Cyd operon protein YbgE n=10 Tax=Enterobact...  119     2e-33
+  UniRef90_A0A1C4A099 Cyd operon protein YbgE n=1 Tax=Kosakonia o...  118     5e-33
+  UniRef90_UPI0007899FC5 cyd operon protein YbgE n=1 Tax=Kluyvera...  118     5e-33
+  UniRef90_P0AAV2 Uncharacterized protein YbgE n=313 Tax=Bacteria...  117     1e-32
+  UniRef90_A0A2P5GR88 Cyd operon protein YbgE n=1 Tax=Superficiei...  117     1e-32
+  UniRef90_G7LNQ3 Cyd operon protein YbgE n=7 Tax=Brenneria TaxID...  117     1e-32
+  UniRef90_R9VWF1 Uncharacterized protein n=5 Tax=Enterobacteriac...  117     1e-32
+  UniRef90_A0A250BET4 Cytochrome bd biosynthesis protein n=3 Tax=...  116     2e-32
+  UniRef90_A0A1M5LT16 Cyd operon protein YbgE n=23 Tax=Pectobacte...  116     3e-32
+  UniRef90_G9YD34 Cyd operon protein YbgE n=11 Tax=Enterobacteral...  115     4e-32
+  UniRef90_A0A127L229 Cyd operon protein YbgE n=10 Tax=Enterobact...  115     5e-32
+  UniRef90_A0A1I6D9F8 Cyd operon protein YbgE n=1 Tax=Enterobacte...  115     8e-32
+  UniRef90_A0A078LJ58 Uncharacterized protein n=7 Tax=Enterobacte...  114     1e-31
+  UniRef90_A0A090V6G6 Uncharacterized protein n=4 Tax=Enterobacte...  114     1e-31
+  UniRef90_E3G3S6 Cyd operon protein YbgE n=4 Tax=Enterobacteriac...  114     2e-31
+  UniRef90_A0A1N6SYH7 Cyd operon protein YbgE n=2 Tax=Enterobacte...  114     2e-31
+  UniRef90_A0A379SBJ5 Cyd operon protein YbgE n=106 Tax=Salmonell...  114     2e-31
+  UniRef90_A0A1H3VWY1 Cyd operon protein YbgE n=10 Tax=Pectobacte...  114     2e-31
+  UniRef90_A0A3A5JUX9 Cyd operon protein YbgE n=12 Tax=Enterobact...  114     2e-31
+  UniRef90_A0A0D5WRW2 Cytochrome bd biosynthesis protein n=7 Tax=...  114     3e-31
+  UniRef90_A0A0J1LK07 Cyd operon protein YbgE n=1 Tax=Citrobacter...  113     4e-31
+  UniRef90_A0A318W3V8 Cyd operon protein YbgE n=1 Tax=Citrobacter...  113     4e-31
+  UniRef90_A0A2A7PN02 Cyd operon protein YbgE n=2 Tax=Lelliottia ...  113     4e-31
+  UniRef90_I2BB36 Conserved inner membrane protein n=1 Tax=Shimwe...  113     5e-31
+  UniRef90_UPI00073D96C9 cyd operon protein YbgE n=1 Tax=[Erwinia...  113     6e-31
+  UniRef90_A0A090UQC4 Uncharacterized protein n=39 Tax=Enterobact...  112     7e-31
+  UniRef90_A0A0F6TTL1 Cytochrome bd biosynthesis protein n=9 Tax=...  112     7e-31
+  UniRef90_D4F8E7 Cyd operon protein YbgE n=4 Tax=Edwardsiella Ta...  112     1e-30
+  UniRef90_UPI000FE33305 cyd operon protein YbgE n=1 Tax=Pantoea ...  112     1e-30
+  UniRef90_A0A089PTK0 Cyd operon protein YbgE n=2 Tax=Pluralibact...  112     1e-30
+  UniRef90_A0A2S4RZM8 Cyd operon protein YbgE n=2 Tax=Enterobacte...  112     1e-30
+  UniRef90_H5V305 Uncharacterized protein n=4 Tax=Enterobacteriac...  112     2e-30
+  UniRef90_A0A0L0AM34 Cytochrome bd biosynthesis protein n=1 Tax=...  112     2e-30
+  UniRef90_A0A2I5TAJ8 Cyd operon protein YbgE n=1 Tax=Serratia sp...  112     2e-30
+  UniRef90_UPI0002FA309F cyd operon protein YbgE n=1 Tax=Metakosa...  112     2e-30
+  UniRef90_A0A0M3F035 Cytochrome bd biosynthesis protein n=1 Tax=...  111     2e-30
+  UniRef90_A0A354A8E1 Cyd operon protein YbgE n=1 Tax=Erwinia per...  111     2e-30
+  UniRef90_D2BVC5 Cyd operon protein YbgE n=26 Tax=Enterobacteral...  111     2e-30
+  UniRef90_A0A0L0GWM8 Cytochrome bd biosynthesis protein n=4 Tax=...  111     3e-30
+  UniRef90_UPI000373556E cyd operon protein YbgE n=1 Tax=Enteroba...  111     4e-30
+  UniRef90_UPI0004678083 cyd operon protein YbgE n=2 Tax=Franconi...  110     4e-30
+  UniRef90_C6CCE5 Cyd operon protein YbgE n=1 Tax=Dickeya paradis...  110     5e-30
+  UniRef90_UPI00054DD6F9 cyd operon protein YbgE n=2 Tax=Erwinia ...  110     6e-30
+  UniRef90_A0A2P8VR34 Cyd operon protein YbgE n=2 Tax=Siccibacter...  110     7e-30
+  UniRef90_G5LL15 Protein YbgE n=28 Tax=Enterobacterales TaxID=91...  110     9e-30
+  UniRef90_A0A0B5IRT5 Cytochrome bd biosynthesis protein n=8 Tax=...  109     1e-29
+  UniRef90_UPI000485310A cyd operon protein YbgE n=1 Tax=Leminore...  109     2e-29
+  UniRef90_A0A2V5D8R4 Cyd operon protein YbgE n=3 Tax=Enterobacte...  109     2e-29
+  UniRef90_A0A2J9E6V2 Cyd operon protein YbgE n=9 Tax=Erwiniaceae...  109     2e-29
+  UniRef90_H2IWJ3 Cyd operon protein YbgE n=9 Tax=Yersiniaceae Ta...  109     2e-29
+  UniRef90_A0A0T9KGN8 Protein ybgE n=5 Tax=Yersinia TaxID=444888 ...  109     2e-29
+  UniRef90_L0M593 Cyd operon protein YbgE n=9 Tax=Enterobacteriac...  109     2e-29
+  UniRef90_J2U3Y7 Cyd operon protein YbgE n=4 Tax=Enterobacterale...  109     3e-29
+  UniRef90_A0A2I7CBC8 Cyd operon protein YbgE n=1 Tax=Enterobacte...  108     3e-29
+  UniRef90_A0A3N1IXC7 Cyd operon protein YbgE n=2 Tax=Enterobacte...  108     4e-29
+  UniRef90_A0A2T3CIZ6 Cyd operon protein YbgE n=2 Tax=Enterobacte...  108     4e-29
+  UniRef90_A8GB88 Cyd operon protein YbgE n=16 Tax=Yersiniaceae T...  108     4e-29
+  UniRef90_UPI000EB26B03 cyd operon protein YbgE n=1 Tax=Enteroba...  108     6e-29
+  UniRef90_A0A250AXX3 Cytochrome bd biosynthesis protein n=1 Tax=...  107     7e-29
+  UniRef90_A1JRG0 Uncharacterized protein n=46 Tax=Yersiniaceae T...  108     9e-29
+  UniRef90_UPI000F6566B9 cyd operon protein YbgE n=1 Tax=Dickeya ...  107     1e-28
+  UniRef90_UPI000DF013E9 cyd operon protein YbgE n=1 Tax=Rahnella...  107     1e-28
+  UniRef90_A0A3A8LR90 Cyd operon protein YbgE (Fragment) n=10 Tax...  107     1e-28
+  UniRef90_W0LGX0 Cytochrome bd biosynthesis protein n=7 Tax=Yers...  107     1e-28
+  UniRef90_A0A379S7L7 Cyd operon protein YbgE n=1 Tax=Salmonella ...  107     1e-28
+  UniRef90_A0A389M840 Inner membrane protein n=4 Tax=Enterobacter...  107     2e-28
+  UniRef90_C9XZB5 Uncharacterized protein ybgE n=29 Tax=Cronobact...  107     2e-28
+  UniRef90_A0A0T7NRT8 Protein ybgE n=5 Tax=Yersinia TaxID=444888 ...  107     2e-28
+  UniRef90_A0A2A3KP65 Cyd operon protein YbgE n=3 Tax=Enterobacte...  106     2e-28
+  UniRef90_A0A2A7VDJ4 Cyd operon protein YbgE n=18 Tax=Yersinia T...  107     2e-28
+  UniRef90_A0A2L1UR30 Cyd operon protein YbgE n=2 Tax=Rahnella Ta...  106     3e-28
+  UniRef90_A0A2Y9TVL6 Cyd operon protein YbgE n=1 Tax=Limnobaculu...  106     3e-28
+  UniRef90_A0A0T9RIJ3 Protein ybgE n=5 Tax=Yersinia TaxID=444888 ...  106     4e-28
+  UniRef90_D4E9I6 Cyd operon protein YbgE n=1 Tax=Serratia odorif...  105     4e-28
+  UniRef90_A0A2X4XYE2 Cyd operon protein YbgE n=1 Tax=Leminorella...  105     4e-28
+  UniRef90_U3TT13 Uncharacterized protein n=7 Tax=Enterobacterale...  105     6e-28
+  UniRef90_A0A066V1J2 Cytochrome bd biosynthesis protein n=1 Tax=...  105     6e-28
+  UniRef90_A0A2C6C1P7 Cyd operon protein YbgE n=1 Tax=Budvicia aq...  105     7e-28
+  UniRef90_W0HZZ5 Cyd operon protein n=3 Tax=Sodalis TaxID=84565 ...  104     1e-27
+  UniRef90_A0A2N7J951 Cyd operon protein YbgE n=1 Tax=Vibrio kana...  104     1e-27
+  UniRef90_A0A1B1EBF5 Cyd operon protein YbgE n=2 Tax=Vibrio TaxI...  104     2e-27
+  UniRef90_UPI0005535821 cyd operon protein YbgE n=1 Tax=Enteroba...  104     2e-27
+  UniRef90_A0A2V2BAL0 Cyd operon protein YbgE n=3 Tax=Pantoea Tax...  104     2e-27
+  UniRef90_A0A1B8H021 Cyd operon protein YbgE n=3 Tax=Morganella ...  104     3e-27
+  UniRef90_A0A3A2IEC5 Cytochrome bd biosynthesis protein n=1 Tax=...  104     3e-27
+  UniRef90_A0A0B6XBB6 YbgE n=8 Tax=Xenorhabdus bovienii TaxID=405...  104     3e-27
+  UniRef90_A0A077N1D2 Protein ybgE n=2 Tax=Xenorhabdus TaxID=626 ...  103     3e-27
+  UniRef90_A0A071LTW5 Cytochrome bd biosynthesis protein n=3 Tax=...  103     3e-27
+  UniRef90_H3RAT3 YbgE family protein n=2 Tax=Pantoea TaxID=53335...  103     4e-27
+  UniRef90_A0A0M9C9Z5 Cytochrome bd biosynthesis protein n=5 Tax=...  103     4e-27
+  UniRef90_A0A0T9P418 Protein ybgE n=1 Tax=Yersinia pekkanenii Ta...  103     5e-27
+  UniRef90_A0A120DH50 Cytochrome bd biosynthesis protein n=62 Tax...  103     6e-27
+  UniRef90_A0A0N0I9K6 YbgE family protein n=2 Tax=Moellerella wis...  102     6e-27
+  UniRef90_A0A329WGS9 Cyd operon protein YbgE n=4 Tax=Photorhabdu...  102     7e-27
+  UniRef90_A0A0H0YP71 Cytochrome bd biosynthesis protein n=3 Tax=...  102     8e-27
+  UniRef90_K8CA09 Protein ybgE n=1 Tax=Cronobacter malonaticus 50...  102     8e-27
+  UniRef90_A0A0J8VST7 Cytochrome bd biosynthesis protein n=4 Tax=...  102     8e-27
+  UniRef90_B6VN80 Hypothetical Membrane Protein n=1 Tax=Photorhab...  102     1e-26
+  UniRef90_A0A085JBF1 YbgE family protein n=1 Tax=Tatumella ptyse...  102     1e-26
+  UniRef90_A0A3N4P520 Cyd operon protein YbgE n=1 Tax=Pantoea sp....  101     2e-26
+  UniRef90_A0A1B7JZ13 YbgE family protein n=1 Tax=Providencia hei...  101     2e-26
+  UniRef90_A0A3A6R9F2 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  101     4e-26
+  UniRef90_A0A0Q4MMR2 Cytochrome bd biosynthesis protein n=2 Tax=...  100     4e-26
+  UniRef90_U3BGC1 Uncharacterized protein n=1 Tax=Vibrio proteoly...  100     4e-26
+  UniRef90_A0A3A1Q8P2 Cyd operon protein YbgE n=43 Tax=Vibrionace...  100     6e-26
+  UniRef90_A0A2S9II82 Cyd operon protein YbgE n=1 Tax=Pantoea cof...  100     7e-26
+  UniRef90_G8LF24 YbgE n=118 Tax=Bacteria TaxID=2 RepID=G8LF24_ENTCL  100     9e-26
+  UniRef90_A0A2V3RY09 Cyd operon protein YbgE n=5 Tax=Pantoea ana...  99.8    1e-25
+  UniRef90_A0A0D8LA45 Uncharacterized protein n=8 Tax=Bacteria Ta...  99.8    1e-25
+  UniRef90_A0A0C3IB04 Cytochrome bd biosynthesis protein n=1 Tax=...  99.8    1e-25
+  UniRef90_A0A347UPF9 Cyd operon protein YbgE n=1 Tax=Vibrio alfa...  99.8    1e-25
+  UniRef90_UPI00057160B3 cyd operon protein YbgE n=2 Tax=Vibrio T...  99.8    2e-25
+  UniRef90_A0A1R4B1Y1 Uncharacterized protein n=2 Tax=Vibrio palu...  99.4    2e-25
+  UniRef90_A0A170LY03 Protein ybgE n=8 Tax=Enterobacteriaceae Tax...  99.4    2e-25
+  UniRef90_A0A084A6G3 Cyd operon protein YbgE n=2 Tax=Serratia Ta...  99.4    2e-25
+  UniRef90_A0A068R481 YbgE n=1 Tax=Xenorhabdus poinarii G6 TaxID=...  99.0    3e-25
+  UniRef90_A0A2D0J5X5 Cyd operon protein YbgE n=4 Tax=Xenorhabdus...  99.0    3e-25
+  UniRef90_A0A072I9Y6 Cyd operon protein YbgE n=31 Tax=Vibrionace...  99.0    3e-25
+  UniRef90_A0A0L7YY43 Cytochrome bd biosynthesis protein n=1 Tax=...  99.0    3e-25
+  UniRef90_A0A2G0QAG8 Cyd operon protein YbgE n=1 Tax=Xenorhabdus...  98.6    3e-25
+  UniRef90_A0A022PH53 Cyd operon protein YbgE n=9 Tax=Photorhabdu...  98.6    4e-25
+  UniRef90_A0A1Y2SRN9 Cyd operon protein YbgE n=1 Tax=Xenorhabdus...  98.2    4e-25
+  UniRef90_A0A345LW90 Cyd operon protein YbgE n=5 Tax=Providencia...  98.2    5e-25
+  UniRef90_UPI0005713BE2 cyd operon protein YbgE n=1 Tax=Xenorhab...  98.2    6e-25
+  UniRef90_A0A356DAM3 Cyd operon protein YbgE n=1 Tax=Providencia...  97.5    8e-25
+  UniRef90_UPI00077B76BA cyd operon protein YbgE n=1 Tax=Enteroba...  97.9    8e-25
+  UniRef90_A0A0H6SZP9 Cyd operon protein YbgE n=39 Tax=Vibrio Tax...  97.9    1e-24
+  UniRef90_A0A3A6U5W0 Cyd operon protein YbgE n=21 Tax=Enterobact...  97.5    1e-24
+  UniRef90_C0B259 Cyd operon protein YbgE n=11 Tax=Enterobacteral...  97.5    1e-24
+  UniRef90_E8LZV9 Cyd operon protein YbgE n=1 Tax=Vibrio brasilie...  97.5    1e-24
+  UniRef90_A0A068QPY6 YbgE n=9 Tax=Xenorhabdus TaxID=626 RepID=A0...  97.1    1e-24
+  UniRef90_F9T1P0 Cytochrome bd biosynthesis protein n=4 Tax=Vibr...  97.1    1e-24
+  UniRef90_UPI000E0A9D3E cyd operon protein YbgE n=1 Tax=Vibrio s...  97.1    1e-24
+  UniRef90_D8MPS9 Putative membrane protein YbgE n=3 Tax=Erwinia ...  97.1    1e-24
+  UniRef90_A0A0X8LMP2 Cyd operon protein YbgE n=7 Tax=Vibrio fluv...  97.1    2e-24
+  UniRef90_A0A097QIV1 Cyd operon protein YbgE n=7 Tax=Vibrio TaxI...  97.1    2e-24
+  UniRef90_A0A0A5JY35 Cytochrome bd biosynthesis protein n=1 Tax=...  96.7    2e-24
+  UniRef90_V6MUZ6 Uncharacterized protein n=4 Tax=Proteus TaxID=2...  96.7    2e-24
+  UniRef90_A0A3N2EP59 Cyd operon protein YbgE n=1 Tax=Raoultella ...  96.7    2e-24
+  UniRef90_J3BZF0 Cyd operon protein YbgE n=2 Tax=Enterobacterale...  96.7    2e-24
+  UniRef90_A0A0M0T894 Cytochrome bd biosynthesis protein n=2 Tax=...  96.3    2e-24
+  UniRef90_UPI00083904C7 cyd operon protein YbgE n=1 Tax=Vibrio t...  96.7    3e-24
+  UniRef90_D0ZBU5 Cyd operon protein n=9 Tax=Edwardsiella TaxID=1...  96.3    3e-24
+  UniRef90_A0A0G4QI04 Uncharacterized protein n=5 Tax=Proteus Tax...  96.3    3e-24
+  UniRef90_A0A0F4NJU3 Cytochrome bd biosynthesis protein n=1 Tax=...  96.3    3e-24
+  UniRef90_A0A2K1DLC9 Cyd operon protein YbgE n=1 Tax=Vibrio agar...  95.9    4e-24
+  UniRef90_UPI00093BF761 cyd operon protein YbgE n=1 Tax=Candidat...  95.9    4e-24
+  UniRef90_UPI000F685967 cyd operon protein YbgE n=1 Tax=Vibrio p...  95.9    5e-24
+  UniRef90_F9R8B1 Cyd operon protein YbgE n=5 Tax=Vibrio TaxID=66...  95.5    5e-24
+  UniRef90_A0A1E5D614 Cyd operon protein YbgE n=2 Tax=Vibrionales...  95.5    6e-24
+  UniRef90_A0A2I0FS22 Cyd operon protein YbgE n=1 Tax=Enterobacte...  95.2    7e-24
+  UniRef90_C9QJP0 Cyd operon protein YbgE n=3 Tax=Vibrio TaxID=66...  95.2    8e-24
+  UniRef90_A0A094XEM0 Cyd operon protein YbgE n=6 Tax=Enterobacte...  94.8    1e-23
+  UniRef90_E8M3V6 Cyd operon protein YbgE n=1 Tax=Vibrio sinaloen...  94.8    1e-23
+  UniRef90_A0A140EZY3 Cyd operon protein YbgE n=6 Tax=Yersiniacea...  94.8    1e-23
+  UniRef90_A0A318A991 Cyd operon protein YbgE n=2 Tax=Vibrio TaxI...  95.2    1e-23
+  UniRef90_E6WC28 Cyd operon protein YbgE n=4 Tax=Pantoea TaxID=5...  94.8    1e-23
+  UniRef90_UPI0009489F70 cyd operon protein YbgE n=1 Tax=Pantoea ...  94.4    2e-23
+  UniRef90_A8T5R8 Uncharacterized protein n=1 Tax=Vibrio sp. AND4...  94.4    2e-23
+  UniRef90_A0A370QHK3 Cyd operon protein YbgE n=1 Tax=Enterobacil...  94.0    2e-23
+  UniRef90_W9BNQ3 YbgE protein n=63 Tax=Enterobacterales TaxID=91...  94.0    2e-23
+  UniRef90_UPI00034D685C cyd operon protein YbgE n=1 Tax=Erwinia ...  94.0    3e-23
+  UniRef90_A0A2J8G2E4 Cyd operon protein YbgE n=6 Tax=Vibrio diaz...  94.0    3e-23
+  UniRef90_A0A376YFV9 Inner membrane protein n=1 Tax=Escherichia ...  93.6    3e-23
+  UniRef90_A0A3N1VTS5 Cyd operon protein YbgE n=1 Tax=Erwinia sp....  93.6    3e-23
+  UniRef90_A0A1T4K5I8 Cyd operon protein YbgE n=1 Tax=Vibrio cinc...  93.6    4e-23
+  UniRef90_A0A087KV93 Cytochrome bd biosynthesis protein n=2 Tax=...  93.2    4e-23
+  UniRef90_A0A095VL70 Uncharacterized protein n=2 Tax=Tatumella m...  93.2    5e-23
+  UniRef90_UPI000E1D9C32 cyd operon protein YbgE n=2 Tax=Escheric...  92.5    5e-23
+  UniRef90_A0A1Q9HUZ5 Cyd operon protein YbgE n=3 Tax=Vibrio TaxI...  93.2    6e-23
+  UniRef90_A0A329X719 Cyd operon protein YbgE n=1 Tax=Photorhabdu...  92.9    7e-23
+  UniRef90_A0A0M0HWB9 Cytochrome bd biosynthesis protein n=1 Tax=...  92.9    8e-23
+  UniRef90_A0A1D3U701 Cyd operon protein YbgE n=32 Tax=Enterobact...  92.9    8e-23
+  UniRef90_Q7MJ81 Uncharacterized protein n=13 Tax=Vibrio TaxID=6...  92.9    8e-23
+  UniRef90_A0A0G3CPQ4 Cyd operon protein YbgE n=1 Tax=Pragia font...  92.5    1e-22
+  UniRef90_A0A085TNY5 Cyd operon protein YbgE n=5 Tax=Vibrio TaxI...  92.5    1e-22
+  UniRef90_A0A0Q0Q1T7 Cytochrome bd biosynthesis protein n=4 Tax=...  92.5    1e-22
+  UniRef90_B6XJH5 Cyd operon protein YbgE n=4 Tax=Providencia alc...  92.1    1e-22
+  UniRef90_K8WG46 Uncharacterized protein n=8 Tax=Gammaproteobact...  92.1    1e-22
+  UniRef90_A6D8H7 Uncharacterized protein n=6 Tax=Vibrio TaxID=66...  92.1    1e-22
+  UniRef90_A0A1G7Z821 Cyd operon protein YbgE n=1 Tax=Vibrio xiam...  92.1    2e-22
+  UniRef90_A0A1Y0L6W8 Cyd operon protein YbgE n=1 Tax=Tatumella c...  91.7    2e-22
+  UniRef90_UPI00073E174D cyd operon protein YbgE n=2 Tax=Enteroba...  91.7    2e-22
+  UniRef90_A0A0F2IU90 Cytochrome bd biosynthesis protein n=5 Tax=...  91.7    2e-22
+  UniRef90_D2TPD7 Putative exported protein n=1 Tax=Citrobacter r...  91.7    2e-22
+  UniRef90_A0A2N7DI16 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  91.7    2e-22
+  UniRef90_E1SH19 Uncharacterized protein ybgE n=8 Tax=Pantoea Ta...  91.3    3e-22
+  UniRef90_UPI0002482D5A cyd operon protein YbgE n=1 Tax=Vibrio o...  91.3    3e-22
+  UniRef90_A0A1X1C0W2 Cyd operon protein YbgE n=1 Tax=Pantoea con...  91.3    3e-22
+  UniRef90_A0A0F5Y6X5 Cytochrome bd biosynthesis protein n=2 Tax=...  90.9    4e-22
+  UniRef90_UPI00031E3879 cyd operon protein YbgE n=1 Tax=Vibrio s...  90.9    5e-22
+  UniRef90_A0A0C2K5G4 Cytochrome bd biosynthesis protein n=1 Tax=...  90.5    5e-22
+  UniRef90_A0A1G5R366 Cyd operon protein YbgE n=1 Tax=Photorhabdu...  90.2    6e-22
+  UniRef90_A0A0A5I1I2 Cytochrome bd biosynthesis protein n=4 Tax=...  90.5    6e-22
+  UniRef90_D1NXN9 Cyd operon protein YbgE n=2 Tax=Providencia rus...  90.2    6e-22
+  UniRef90_UPI000970E3EB cyd operon protein YbgE n=1 Tax=Vibrio o...  90.5    6e-22
+  UniRef90_A0A090RG82 Protein YbgE n=1 Tax=Vibrio sp. C7 TaxID=10...  90.5    6e-22
+  UniRef90_A0A2D0KRE0 Cyd operon protein YbgE n=4 Tax=Xenorhabdus...  90.2    7e-22
+  UniRef90_A0A090TAM2 Cyd operon protein YbgE n=3 Tax=Vibrio TaxI...  90.2    8e-22
+  UniRef90_UPI00046A7D36 cyd operon protein YbgE n=1 Tax=Pantoea ...  90.2    9e-22
+  UniRef90_UPI000C16AD6F cyd operon protein YbgE n=1 Tax=Vibrio f...  90.2    9e-22
+  UniRef90_A0A0M0HTB3 Cytochrome bd biosynthesis protein n=1 Tax=...  90.2    1e-21
+  UniRef90_UPI00069BF9E3 cyd operon protein YbgE n=1 Tax=Yersinia...  89.8    1e-21
+  UniRef90_UPI000950F960 cyd operon protein YbgE n=1 Tax=Vibrio p...  89.4    1e-21
+  UniRef90_A0A0L7TC27 Cytochrome bd biosynthesis protein n=1 Tax=...  89.4    1e-21
+  UniRef90_A0A349FGK2 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  89.4    2e-21
+  UniRef90_E0LUE3 Cyd operon protein YbgE n=22 Tax=Bacteria TaxID...  88.6    3e-21
+  UniRef90_A0A1X1D9B6 Cyd operon protein YbgE n=1 Tax=Pantoea wal...  88.6    3e-21
+  UniRef90_UPI00063CA020 cyd operon protein YbgE n=2 Tax=Vibrio T...  88.2    5e-21
+  UniRef90_A0A1X1DWY7 Cyd operon protein YbgE n=2 Tax=Pantoea Tax...  87.8    5e-21
+  UniRef90_A0A379WX99 Cyd operon protein YbgE n=1 Tax=Salmonella ...  86.7    8e-21
+  UniRef90_UPI000B34D951 cyd operon protein YbgE n=1 Tax=Thaumasi...  87.5    9e-21
+  UniRef90_A0A2X3GP85 Protein ybgE n=1 Tax=Klebsiella pneumoniae ...  87.1    9e-21
+  UniRef90_A0A376ZQJ4 Inner membrane protein n=5 Tax=Enterobacter...  87.8    9e-21
+  UniRef90_A0A370WKF1 Cyd operon protein YbgE (Fragment) n=1 Tax=...  86.7    9e-21
+  UniRef90_A0A379AJR4 Cyd operon protein YbgE n=1 Tax=Enterobacte...  87.8    1e-20
+  UniRef90_A0A2N7D666 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  87.1    1e-20
+  UniRef90_A0A3N6UNE2 Cyd operon protein YbgE n=1 Tax=Erwinia psi...  87.1    2e-20
+  UniRef90_D2U0E8 Uncharacterized protein n=1 Tax=Arsenophonus na...  86.3    2e-20
+  UniRef90_A0A3P2C4U2 Cyd operon protein YbgE n=1 Tax=Klebsiella ...  86.3    3e-20
+  UniRef90_A0A1X9TZN8 Cyd operon protein YbgE n=9 Tax=Photobacter...  86.3    3e-20
+  UniRef90_UPI00082F60CF cyd operon protein YbgE n=1 Tax=Erwinia ...  85.9    3e-20
+  UniRef90_Q6LP42 Uncharacterized protein n=4 Tax=Photobacterium ...  85.9    4e-20
+  UniRef90_A0A2N8ZAP9 Uncharacterized protein n=1 Tax=Vibrio tape...  85.9    4e-20
+  UniRef90_A0A0M9CWD9 Cytochrome bd biosynthesis protein n=2 Tax=...  85.5    4e-20
+  UniRef90_G5PZX2 Protein YbgE n=7 Tax=Salmonella enterica I TaxI...  84.8    6e-20
+  UniRef90_UPI000F0B83BF cyd operon protein YbgE n=1 Tax=Vibrio s...  84.8    8e-20
+  UniRef90_UPI000518D2E4 cyd operon protein YbgE n=1 Tax=Vibrio a...  84.8    1e-19
+  UniRef90_A0A379WDD5 Cyd operon protein YbgE n=1 Tax=Salmonella ...  84.4    1e-19
+  UniRef90_A0A0J9B8W0 Cytochrome bd biosynthesis protein n=2 Tax=...  84.4    1e-19
+  UniRef90_A0A379APS0 Cyd operon protein YbgE n=4 Tax=Avibacteriu...  84.0    2e-19
+  UniRef90_UPI00056ABE54 cyd operon protein YbgE n=1 Tax=Photorha...  83.6    2e-19
+  UniRef90_A0A068RCB8 Uncharacterized protein YbgE n=2 Tax=Serrat...  83.2    4e-19
+  UniRef90_A0A0A8NYD5 Protein ybgE n=3 Tax=Xenorhabdus nematophil...  83.2    4e-19
+  UniRef90_UPI000C6DAFA8 cyd operon protein YbgE n=1 Tax=Klebsiel...  82.1    5e-19
+  UniRef90_A0A3B0MJG7 Uncharacterized protein n=5 Tax=Arsenophonu...  82.8    7e-19
+  UniRef90_A0A1T4UIY4 Cyd operon protein YbgE n=2 Tax=Enterovibri...  82.8    8e-19
+  UniRef90_UPI000D018EA0 cytochrome bd biosynthesis protein n=1 T...  82.5    9e-19
+  UniRef90_A0A1W6B0W8 Cyd operon protein YbgE n=1 Tax=Pantoea alh...  82.5    9e-19
+  UniRef90_A0A1E5C0T9 Cyd operon protein YbgE n=2 Tax=Enterovibri...  82.1    1e-18
+  UniRef90_UPI000B5C58E6 cyd operon protein YbgE n=1 Tax=Vibrio a...  82.1    1e-18
+  UniRef90_UPI000569B6FA cyd operon protein YbgE n=2 Tax=Photobac...  82.1    1e-18
+  UniRef90_A0A380Z0F1 Cyd operon protein YbgE n=1 Tax=Avibacteriu...  83.2    1e-18
+  UniRef90_A0A2S4RMG5 Cyd operon protein YbgE n=3 Tax=Erwiniaceae...  82.1    1e-18
+  UniRef90_A0A1E5CIA6 Cyd operon protein YbgE n=4 Tax=Enterovibri...  81.7    1e-18
+  UniRef90_A0A1A7PWD2 Cytochrome bd biosynthesis protein n=3 Tax=...  82.1    1e-18
+  UniRef90_UPI000E3CB960 cyd operon protein YbgE n=1 Tax=Vibrio m...  82.1    1e-18
+  UniRef90_A0A2M8S0E8 Cyd operon protein YbgE n=1 Tax=Conservatib...  81.3    2e-18
+  UniRef90_A0A2T3K6M3 Cyd operon protein YbgE n=19 Tax=Vibrionace...  81.7    2e-18
+  UniRef90_A0A3D1Z6B9 Cyd operon protein YbgE n=2 Tax=Vibrio TaxI...  81.3    3e-18
+  UniRef90_A0A377W564 Protein ybgE n=1 Tax=Klebsiella pneumoniae ...  80.9    3e-18
+  UniRef90_A0A0F5EQ10 Cyd operon protein YbgE n=4 Tax=Avibacteriu...  80.9    3e-18
+  UniRef90_A0A1Y6IPA5 Uncharacterized protein n=1 Tax=Vibrio mang...  80.9    4e-18
+  UniRef90_F0LQE2 Uncharacterized protein n=4 Tax=Vibrio furnissi...  80.5    4e-18
+  UniRef90_A0A0B9GIP1 Cytochrome bd biosynthesis protein n=2 Tax=...  80.9    4e-18
+  UniRef90_A0A2T3IVI0 Cyd operon protein YbgE n=1 Tax=Photobacter...  80.9    4e-18
+  UniRef90_A0A0A3ANM4 Cytochrome bd biosynthesis protein n=1 Tax=...  80.5    4e-18
+  UniRef90_A0A0D8P7V1 Cytochrome bd biosynthesis protein n=5 Tax=...  80.5    5e-18
+  UniRef90_UPI000B35C077 cytochrome bd biosynthesis protein n=1 T...  80.5    5e-18
+  UniRef90_A0A1E5E1B5 Cytochrome bd biosynthesis protein n=1 Tax=...  80.5    5e-18
+  UniRef90_UPI000488B97C cytochrome bd biosynthesis protein n=1 T...  80.1    7e-18
+  UniRef90_A0A178KMG4 Cytochrome bd biosynthesis protein n=1 Tax=...  80.1    8e-18
+  UniRef90_F9GMG8 Putative cyd operon protein YbgE n=29 Tax=Haemo...  80.1    8e-18
+  UniRef90_A0A0J1HBW9 Cytochrome bd biosynthesis protein n=1 Tax=...  79.8    9e-18
+  UniRef90_E3BI63 Cyd operon protein YbgE n=1 Tax=Vibrio caribbea...  79.8    1e-17
+  UniRef90_UPI000EA0E215 cytochrome bd biosynthesis protein n=1 T...  79.8    1e-17
+  UniRef90_A0A3N9TG99 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  79.8    1e-17
+  UniRef90_A0A1H5ZZI2 Cyd operon protein YbgE n=1 Tax=Vibrio hang...  79.8    1e-17
+  UniRef90_A0A2N0XUH9 Cyd operon protein YbgE n=3 Tax=Vibrio TaxI...  79.8    1e-17
+  UniRef90_A0A2K1QBS0 Cyd operon protein YbgE n=1 Tax=Mixta theic...  79.4    1e-17
+  UniRef90_A0A0F5V7U4 Cytochrome bd biosynthesis protein n=1 Tax=...  79.8    1e-17
+  UniRef90_A0A135ZNF1 Cytochrome bd biosynthesis protein n=3 Tax=...  79.4    2e-17
+  UniRef90_A0A0D8LQ05 Cytochrome bd biosynthesis protein n=9 Tax=...  79.4    2e-17
+  UniRef90_A0A1Z2SII3 Cytochrome bd biosynthesis protein n=3 Tax=...  79.4    2e-17
+  UniRef90_A0A191W4K2 Cyd operon protein YbgE n=9 Tax=Vibrionacea...  79.0    2e-17
+  UniRef90_UPI0004041372 cytochrome bd biosynthesis protein n=1 T...  79.4    2e-17
+  UniRef90_UPI000D6526C8 cyd operon protein YbgE n=1 Tax=Aggregat...  78.6    2e-17
+  UniRef90_UPI00056FAD5A cyd operon protein YbgE n=1 Tax=Vibrio r...  78.6    3e-17
+  UniRef90_UPI000C796F8C cyd operon protein YbgE n=1 Tax=Pasteure...  78.2    3e-17
+  UniRef90_U4E2Q9 Putative Cyd operon protein YbgE n=4 Tax=Vibrio...  78.2    4e-17
+  UniRef90_A0A085HKP4 YbgE family protein n=1 Tax=Leminorella gri...  77.4    4e-17
+  UniRef90_A0A1A7QEH6 Cytochrome bd biosynthesis protein n=2 Tax=...  78.2    4e-17
+  UniRef90_A0A1M5X8I9 Uncharacterized protein n=4 Tax=Vibrio TaxI...  78.2    5e-17
+  UniRef90_UPI0005099733 cyd operon protein YbgE n=1 Tax=Necropso...  77.8    5e-17
+  UniRef90_A0A368LMB2 Cytochrome bd biosynthesis protein n=2 Tax=...  77.8    5e-17
+  UniRef90_UPI0002E88DCE cyd operon protein YbgE n=2 Tax=Pasteure...  77.8    6e-17
+  UniRef90_A0A0W8JHU2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  77.8    6e-17
+  UniRef90_A0A1C3ERT2 Cyd operon protein YbgE n=1 Tax=Enterovibri...  77.4    7e-17
+  UniRef90_UPI00098570CF cyd operon protein YbgE n=2 Tax=Rodentib...  77.4    7e-17
+  UniRef90_C9PMN0 Cyd operon protein YbgE n=2 Tax=Pasteurella dag...  77.4    8e-17
+  UniRef90_A0A0K1N4Z1 Cytochrome bd biosynthesis protein n=9 Tax=...  77.1    1e-16
+  UniRef90_N8S7Y8 Cyd operon protein YbgE n=11 Tax=Acinetobacter ...  77.1    1e-16
+  UniRef90_A0A1W1UMH2 Cyd operon protein YbgE n=1 Tax=Pasteurella...  77.1    1e-16
+  UniRef90_A0A0M9F952 Cytochrome bd biosynthesis protein n=5 Tax=...  77.1    1e-16
+  UniRef90_E6KYY7 Uncharacterized protein n=5 Tax=Aggregatibacter...  77.1    1e-16
+  UniRef90_A0A241WEB5 Cytochrome bd biosynthesis protein n=3 Tax=...  77.1    1e-16
+  UniRef90_UPI000570DDCC cytochrome bd biosynthesis protein n=1 T...  76.7    2e-16
+  UniRef90_A0A0A3AIR2 Cytochrome bd biosynthesis protein n=14 Tax...  76.3    2e-16
+  UniRef90_A0A377HLV1 Cyd operon protein YbgE n=2 Tax=Grimontia h...  76.3    2e-16
+  UniRef90_A0A2X2UXD8 Cyd operon protein YbgE n=1 Tax=Citrobacter...  75.1    2e-16
+  UniRef90_C4SDY3 Uncharacterized protein n=2 Tax=Yersinia TaxID=...  75.5    2e-16
+  UniRef90_A0A0J1GKG0 Cytochrome bd biosynthesis protein n=2 Tax=...  76.3    3e-16
+  UniRef90_A0A0J1HI82 Cytochrome bd biosynthesis protein n=1 Tax=...  75.9    3e-16
+  UniRef90_A0A1I4UDN6 Cyd operon protein YbgE n=1 Tax=Izhakiella ...  75.5    4e-16
+  UniRef90_A0A1S8YJ40 Cyd operon protein YbgE n=1 Tax=Izhakiella ...  75.5    5e-16
+  UniRef90_A0A2M8RX60 Cyd operon protein YbgE n=1 Tax=Caviibacter...  75.5    5e-16
+  UniRef90_A0A2M8HB57 Uncharacterized protein n=2 Tax=Aeromonas T...  75.1    7e-16
+  UniRef90_N9M425 Cyd operon protein YbgE n=21 Tax=Bacteria TaxID...  75.1    7e-16
+  UniRef90_H0KH74 Cyd operon protein YbgE n=7 Tax=Aggregatibacter...  74.7    8e-16
+  UniRef90_A0A1B3JEL6 Uncharacterized protein n=6 Tax=Pasteurella...  74.7    8e-16
+  UniRef90_UPI000F81EF6F cyd operon protein YbgE n=1 Tax=Pasteure...  74.7    8e-16
+  UniRef90_E1W4A9 Conserved inner membrane protein n=21 Tax=Paste...  74.7    8e-16
+  UniRef90_A0A385C4R6 Cytochrome bd biosynthesis protein n=1 Tax=...  74.7    9e-16
+  UniRef90_M7CNX3 Protein YbgE n=1 Tax=Morganella morganii SC01 T...  74.0    1e-15
+  UniRef90_A0A1E3XKQ3 Cyd operon protein YbgE n=10 Tax=Pasteurell...  74.4    1e-15
+  UniRef90_C1DEK9 Uncharacterized protein n=4 Tax=Azotobacter Tax...  74.7    1e-15
+  UniRef90_Q65UN5 Uncharacterized protein n=4 Tax=Basfia TaxID=69...  74.4    1e-15
+  UniRef90_UPI000FDCFFC6 UPI000FDCFFC6 related cluster n=1 Tax=un...  74.4    1e-15
+  UniRef90_A0A263HD12 Cyd operon protein YbgE n=2 Tax=Pasteurella...  74.4    1e-15
+  UniRef90_W0QFG2 Cyd operon protein YbgE n=2 Tax=Mannheimia vari...  74.4    1e-15
+  UniRef90_A0A1H7C107 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  74.4    2e-15
+  UniRef90_UPI000509A53B cytochrome bd biosynthesis protein n=2 T...  74.0    2e-15
+  UniRef90_U1R189 Cyd operon protein YbgE n=1 Tax=Aggregatibacter...  74.0    2e-15
+  UniRef90_A0A1V3JK06 Cyd operon protein YbgE n=1 Tax=Rodentibact...  73.6    2e-15
+  UniRef90_A0A011NEN2 Cyd operon protein YbgE n=3 Tax=Mannheimia ...  73.6    3e-15
+  UniRef90_A0A1V3K8D3 Cyd operon protein YbgE n=1 Tax=Rodentibact...  73.2    3e-15
+  UniRef90_N9CBT4 Cyd operon protein YbgE n=1 Tax=Acinetobacter b...  73.2    4e-15
+  UniRef90_A0A365SY92 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  73.2    4e-15
+  UniRef90_UPI000563E0C8 hypothetical protein n=1 Tax=Pseudomonas...  72.8    6e-15
+  UniRef90_A0A2L0IE64 Cyd operon protein YbgE n=1 Tax=Mixta gavin...  72.4    8e-15
+  UniRef90_A0A1H7WWM2 Cyd operon protein YbgE n=1 Tax=Pasteurella...  72.1    9e-15
+  UniRef90_W0Q7B9 Cyd operon protein YbgE n=1 Tax=Mannheimia sp. ...  72.1    9e-15
+  UniRef90_U3AT34 Uncharacterized protein n=1 Tax=Vibrio azureus ...  71.7    9e-15
+  UniRef90_A0A2T3N4L9 Cyd operon protein YbgE n=1 Tax=Photobacter...  71.7    2e-14
+  UniRef90_A0A1T0BC78 Cyd operon protein YbgE n=1 Tax=[Haemophilu...  71.3    2e-14
+  UniRef90_A0A0F5ZT88 Cytochrome bd biosynthesis protein n=6 Tax=...  71.3    2e-14
+  UniRef90_A0A135I8M6 Cytochrome bd biosynthesis protein n=1 Tax=...  71.3    2e-14
+  UniRef90_A0A329J4K5 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  71.3    3e-14
+  UniRef90_A0A1H9MJG1 Cyd operon protein YbgE n=2 Tax=Pseudomonad...  70.9    3e-14
+  UniRef90_A0A143G3D0 Cytochrome bd biosynthesis protein n=1 Tax=...  70.9    3e-14
+  UniRef90_A0A1V4B1I1 Inner membrane protein n=1 Tax=Haemophilus ...  70.5    4e-14
+  UniRef90_A0A2P1VNJ8 Cyd operon protein YbgE n=6 Tax=Plesiomonas...  70.9    4e-14
+  UniRef90_A0A1T4S4Z9 Uncharacterized protein n=2 Tax=Oceanospiri...  70.1    5e-14
+  UniRef90_J5HPM3 Cyd operon protein YbgE n=3 Tax=Haemophilus spu...  70.1    5e-14
+  UniRef90_A0A1Q9G641 Cyd operon protein YbgE n=1 Tax=Photobacter...  70.1    6e-14
+  UniRef90_A0A1G7UM06 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  70.1    6e-14
+  UniRef90_A0A1C2E297 Cyd operon protein YbgE n=4 Tax=Pseudomonad...  69.7    8e-14
+  UniRef90_A0A2U1FT01 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  69.7    9e-14
+  UniRef90_A0A1V9UNQ3 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  69.7    1e-13
+  UniRef90_A0A1I3TYS1 Cyd operon protein YbgE n=1 Tax=Methylophag...  69.0    1e-13
+  UniRef90_A0A1V3IMZ2 Cyd operon protein YbgE n=4 Tax=Pasteurella...  69.0    2e-13
+  UniRef90_A0A379ESK6 Cyd operon protein YbgE n=1 Tax=Pasteurella...  69.0    2e-13
+  UniRef90_A0A3A6RE74 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  69.4    2e-13
+  UniRef90_A0A1T0AQZ2 Cyd operon protein YbgE n=1 Tax=Haemophilus...  69.0    2e-13
+  UniRef90_A0A1V3LBK8 Cyd operon protein YbgE n=8 Tax=Rodentibact...  69.0    2e-13
+  UniRef90_C5S0A5 Uncharacterized protein n=1 Tax=Actinobacillus ...  69.0    2e-13
+  UniRef90_A0A1P8EFX6 Cytochrome bd biosynthesis protein n=9 Tax=...  68.6    2e-13
+  UniRef90_A0A248ZYR8 Cyd operon protein YbgE n=3 Tax=Mannheimia ...  68.2    3e-13
+  UniRef90_UPI000B3E965E cyd operon protein YbgE n=1 Tax=Klebsiel...  67.4    4e-13
+  UniRef90_A0A1V3IB23 Cyd operon protein YbgE n=1 Tax=Rodentibact...  67.8    5e-13
+  UniRef90_A0A1H5SEK0 Cyd operon protein YbgE n=3 Tax=Gammaproteo...  67.4    6e-13
+  UniRef90_A0A0E2GK58 Cyd operon protein YbgE n=5 Tax=Acinetobact...  67.4    8e-13
+  UniRef90_A0A0H4GS67 Cytochrome bd biosynthesis protein n=2 Tax=...  67.0    9e-13
+  UniRef90_W8G807 Uncharacterized protein n=6 Tax=root TaxID=1 Re...  67.8    1e-12
+  UniRef90_A0A1V3TTH7 Cyd operon protein YbgE n=1 Tax=Pasteurella...  67.0    1e-12
+  UniRef90_A0A175VHK3 Uncharacterized protein n=8 Tax=Aeromonadac...  66.7    2e-12
+  UniRef90_UPI0005BA95A6 hypothetical protein n=1 Tax=Aeromonas m...  66.3    2e-12
+  UniRef90_A0A2G8E4D5 Cyd operon protein YbgE n=1 Tax=Erwinia sp....  65.5    4e-12
+  UniRef90_A0A061CV10 Memnrane protein n=7 Tax=Pseudomonas TaxID=...  65.5    4e-12
+  UniRef90_R1H4V8 Protein YbgE n=2 Tax=Aeromonas TaxID=642 RepID=...  65.1    6e-12
+  UniRef90_A0A2D9ZZ76 Cytochrome bd biosynthesis protein n=1 Tax=...  65.1    7e-12
+  UniRef90_I4MY08 Uncharacterized protein n=1 Tax=Pseudomonas sp....  64.0    2e-11
+  UniRef90_UPI0003F50DA9 hypothetical protein n=1 Tax=Oceanospiri...  63.6    2e-11
+  UniRef90_A0A0S2SNY5 Protein YbgE n=2 Tax=Aeromonas TaxID=642 Re...  64.0    2e-11
+  UniRef90_A0A2X5NLT7 Cyd operon protein YbgE n=1 Tax=Tatumella p...  62.8    2e-11
+  UniRef90_U7QTT4 Uncharacterized protein n=4 Tax=Photorhabdus Ta...  61.3    6e-11
+  UniRef90_A0A1S2CTH8 Uncharacterized protein n=4 Tax=Aeromonas T...  62.0    9e-11
+  UniRef90_A0A1Z4VPG4 Uncharacterized protein n=2 Tax=Thiohalobac...  62.0    1e-10
+  UniRef90_UPI000B359689 cyd operon protein YbgE n=1 Tax=Thaumasi...  61.3    1e-10
+  UniRef90_A0A0D0QYT5 Contig_4, whole genome shotgun sequence n=2...  61.3    2e-10
+  UniRef90_A0A1N6S3M9 Cyd operon protein YbgE n=1 Tax=Aeromonas s...  60.1    5e-10
+  UniRef90_UPI000D3EDFED hypothetical protein n=1 Tax=Gammaproteo...  60.5    5e-10
+  UniRef90_UPI0003FC2753 hypothetical protein n=1 Tax=Oceanospiri...  59.3    9e-10
+  UniRef90_A0A377AX12 Inner membrane protein n=1 Tax=Escherichia ...  54.7    3e-08
+  UniRef90_UPI000A0737F5 hypothetical protein n=1 Tax=Aeromonas s...  55.5    4e-08
+  UniRef90_K1K5V0 Cyd operon protein YbgE n=60 Tax=Gammaproteobac...  53.9    9e-08
+  UniRef90_UPI000F6090F7 Cyd operon protein YbgE n=1 Tax=Sulfurif...  54.3    9e-08
+  UniRef90_UPI0009C19F4D hypothetical protein n=1 Tax=Aeromonas v...  54.3    1e-07
+  UniRef90_A0A1H2HKC3 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  53.2    2e-07
+  UniRef90_A0A0W7U0K6 Uncharacterized protein n=1 Tax=Aeromonas s...  52.4    3e-07
+  UniRef90_A0A1J5BYU2 Uncharacterized protein n=2 Tax=unclassifie...  52.4    5e-07
+  UniRef90_UPI0009B879DB hypothetical protein n=3 Tax=Aeromonas v...  51.6    7e-07
+  UniRef90_U2MP32 Protein YbgE n=1 Tax=Pantoea sp. AS-PWVM4 TaxID...  50.9    8e-07
+  UniRef90_A0A1F4PF94 Uncharacterized protein n=2 Tax=unclassifie...  52.0    8e-07
+  UniRef90_A0A3N6V0K6 Uncharacterized protein n=3 Tax=Aeromonas T...  51.3    1e-06
+  UniRef90_A0A0H3NST9 Protein ybgE n=1 Tax=Yersinia enterocolitic...  47.0    2e-05
+  UniRef90_A0A0A8VB00 Cyd operon protein YbgE n=1 Tax=Yersinia ru...  46.6    2e-05
+  UniRef90_A0A2H9U8X3 Uncharacterized protein n=1 Tax=Aeromonas c...  45.5    2e-04
+  UniRef90_A0A1Y0GAV9 Uncharacterized protein n=1 Tax=Sulfuriferu...  43.5    7e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0W8H0L2 Cyd operon protein YbgE n=13 Tax=Pseudomona...  75.9    4e-16
+  UniRef90_A0A0N9WF60 Cytochrome bd biosynthesis protein n=1 Tax=...  75.5    5e-16
+  UniRef90_UPI000B90B016 cytochrome bd biosynthesis protein n=1 T...  74.4    1e-15
+  UniRef90_A0A241W0N6 Cytochrome bd biosynthesis protein n=1 Tax=...  74.4    1e-15
+  UniRef90_A0A1A7R5C8 Cytochrome bd biosynthesis protein n=4 Tax=...  74.0    2e-15
+  UniRef90_N9MJ71 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  73.2    5e-15
+  UniRef90_A0A223MFH6 Uncharacterized protein n=4 Tax=Actinobacil...  72.8    6e-15
+  UniRef90_A0A3A8FCE2 Cytochrome bd biosynthesis protein n=6 Tax=...  72.8    6e-15
+  UniRef90_A0A3A8FBV9 Cytochrome bd biosynthesis protein n=3 Tax=...  72.8    6e-15
+  UniRef90_A0A172YP51 Cytochrome bd biosynthesis protein n=1 Tax=...  72.4    8e-15
+  UniRef90_A0A1B2M0Q3 Cytochrome bd biosynthesis protein n=1 Tax=...  72.1    1e-14
+  UniRef90_A0A2S2FFL2 Cytochrome bd biosynthesis protein n=3 Tax=...  71.7    1e-14
+  UniRef90_A0A0E3ZQQ8 Cyd operon protein YbgE n=1 Tax=Pasteurella...  71.3    2e-14
+  UniRef90_A0A241V9I0 Cytochrome bd biosynthesis protein n=4 Tax=...  71.3    2e-14
+  UniRef90_N9CH95 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  71.3    2e-14
+  UniRef90_A0A1P8PKD9 Cyd operon protein YbgE family protein n=2 ...  71.3    3e-14
+  UniRef90_I4ZUK4 Uncharacterized protein n=11 Tax=Acinetobacter ...  70.9    3e-14
+  UniRef90_N8WPM7 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  70.5    4e-14
+  UniRef90_A0A031LTJ4 Cytochrome bd biosynthesis protein n=3 Tax=...  70.1    6e-14
+  UniRef90_N8YC51 Uncharacterized protein n=1 Tax=Acinetobacter g...  70.1    6e-14
+  UniRef90_A0A0A3W603 Uncharacterized protein n=1 Tax=Acinetobact...  70.1    7e-14
+  UniRef90_Q5E695 Uncharacterized protein n=5 Tax=Aliivibrio fisc...  69.7    8e-14
+  UniRef90_N8QJY3 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  69.7    8e-14
+  UniRef90_A0A2T3NR18 Cyd operon protein YbgE n=1 Tax=Photobacter...  69.7    8e-14
+  UniRef90_K0G537 Cyd operon protein YbgE n=4 Tax=Actinobacillus ...  69.7    9e-14
+  UniRef90_A0A090IL50 Membrane protein, Cyd operon protein n=6 Ta...  69.4    1e-13
+  UniRef90_A0A2U3N3C5 Uncharacterized protein n=1 Tax=Acinetobact...  69.4    1e-13
+  UniRef90_A0A0J5P4K0 Cytochrome bd biosynthesis protein n=1 Tax=...  69.4    1e-13
+  UniRef90_A0A098T0Q1 Uncharacterized protein n=2 Tax=Pseudomonas...  69.4    1e-13
+  UniRef90_A0A2D1IRU0 Cytochrome bd biosynthesis protein n=1 Tax=...  69.4    1e-13
+  UniRef90_A0A165UJC0 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  69.0    2e-13
+  UniRef90_A0A1G6HFY5 Cyd operon protein YbgE n=1 Tax=Acinetobact...  68.6    2e-13
+  UniRef90_A0A1E4UZZ3 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  68.6    2e-13
+  UniRef90_A0A1H6WDY0 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  68.2    4e-13
+  UniRef90_B6EGJ8 Membrane protein n=3 Tax=Aliivibrio TaxID=51167...  67.8    5e-13
+  UniRef90_A0A0A7MFU4 Cytochrome bd biosynthesis protein n=1 Tax=...  67.0    9e-13
+  UniRef90_A0A1G7SBI5 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  67.0    1e-12
+  UniRef90_A0A017QHM4 Cyd operon protein YbgE n=9 Tax=Haemophilus...  67.0    1e-12
+  UniRef90_A0A2U8FJC6 Cyd operon protein YbgE n=1 Tax=Actinobacil...  66.3    2e-12
+  UniRef90_A0A379C7H8 Cyd operon protein YbgE n=1 Tax=Phocoenobac...  66.3    2e-12
+  UniRef90_A0A1H7FPD4 Cyd operon protein YbgE n=3 Tax=Pseudomonas...  65.9    3e-12
+  UniRef90_U4S478 Cyd operon YbgE family protein n=5 Tax=Haemophi...  65.1    5e-12
+  UniRef90_A0A2N5BZT7 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  65.1    6e-12
+  UniRef90_A0A3N4WUV2 Cyd operon protein YbgE n=1 Tax=Frederiksen...  64.7    7e-12
+  UniRef90_A0A1B8T1F0 Cyd operon protein YbgE n=7 Tax=Pseudomonad...  64.7    8e-12
+  UniRef90_F5T248 Uncharacterized protein n=1 Tax=Methylophaga am...  64.7    8e-12
+  UniRef90_A0A089YJ62 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  64.3    1e-11
+  UniRef90_A0A0L0BCV1 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  64.0    1e-11
+  UniRef90_V2UVM4 Uncharacterized protein n=4 Tax=Gammaproteobact...  63.2    3e-11
+  UniRef90_A0A179CZM8 Cyd operon protein YbgE n=5 Tax=Bibersteini...  63.2    3e-11
+  UniRef90_A0A241W6Y9 Cytochrome bd biosynthesis protein n=2 Tax=...  63.2    3e-11
+  UniRef90_S3NH04 Cyd operon protein YbgE n=1 Tax=Acinetobacter r...  63.2    3e-11
+  UniRef90_A0A2G4DLS0 Uncharacterized protein n=1 Tax=Pseudomonas...  63.2    3e-11
+  UniRef90_A0A1G7J135 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  62.4    7e-11
+  UniRef90_A0A3N4W827 Cyd operon protein YbgE n=1 Tax=Vespertilii...  62.4    7e-11
+  UniRef90_N9RD60 Cyd operon protein YbgE n=6 Tax=Acinetobacter T...  62.0    8e-11
+  UniRef90_A0A151XXP0 Cytochrome bd biosynthesis protein n=2 Tax=...  62.0    1e-10
+  UniRef90_A0A009ZZF3 Cyd operon YbgE family protein n=7 Tax=Acin...  61.7    2e-10
+  UniRef90_A0A328BWY3 Cytochrome bd biosynthesis protein n=1 Tax=...  61.3    2e-10
+  UniRef90_N9TA77 Cyd operon protein YbgE n=43 Tax=Acinetobacter ...  61.3    2e-10
+  UniRef90_I3DNN0 Putative cyd operon protein YbgE n=7 Tax=Haemop...  61.3    2e-10
+  UniRef90_UPI000EB2299F cytochrome bd biosynthesis protein n=1 T...  61.3    2e-10
+  UniRef90_A0A1E7RDS6 Cytochrome bd biosynthesis protein n=1 Tax=...  61.3    2e-10
+  UniRef90_Q6FA35 Uncharacterized protein n=2 Tax=Acinetobacter T...  61.7    2e-10
+  UniRef90_A0A176HMX8 Uncharacterized protein n=6 Tax=Proteobacte...  60.9    3e-10
+  UniRef90_A0A377I0G1 Cyd operon protein YbgE n=1 Tax=Haemophilus...  60.5    3e-10
+  UniRef90_R9AUP9 Cyd operon protein YbgE n=4 Tax=Acinetobacter T...  60.5    4e-10
+  UniRef90_UPI00071DB6DE hypothetical protein n=1 Tax=Vitreoscill...  60.5    4e-10
+  UniRef90_A0A3B7LUM6 Cytochrome bd biosynthesis protein n=2 Tax=...  60.1    5e-10
+  UniRef90_UPI00057D2B5D cytochrome bd biosynthesis protein n=1 T...  59.7    7e-10
+  UniRef90_A0A2E2D991 Cytochrome bd biosynthesis protein n=1 Tax=...  59.3    8e-10
+  UniRef90_S7WF53 Protein ybgE n=7 Tax=Acinetobacter TaxID=469 Re...  59.3    9e-10
+  UniRef90_UPI000DA5F3A1 Cyd operon protein YbgE n=2 Tax=Pseudomo...  59.0    1e-09
+  UniRef90_A0A1L6KMU8 Cyd operon protein YbgE (Cyd_oper_YbgE) fam...  59.3    1e-09
+  UniRef90_N9FKM1 Cyd operon protein YbgE n=2 Tax=Acinetobacter b...  59.0    1e-09
+  UniRef90_N8QGJ1 Cyd operon protein YbgE n=6 Tax=Acinetobacter T...  59.0    1e-09
+  UniRef90_A0A1Z9Z248 Cytochrome bd biosynthesis protein n=2 Tax=...  59.0    1e-09
+  UniRef90_A0A2E2GFX6 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  58.6    2e-09
+  UniRef90_UPI000B9C5AC6 hypothetical protein n=1 Tax=Psychromona...  58.6    2e-09
+  UniRef90_A0A2E6JV23 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  58.2    3e-09
+  UniRef90_A0A172WWS2 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  57.4    5e-09
+  UniRef90_I4JNH6 Uncharacterized protein n=5 Tax=Pseudomonas Tax...  57.4    6e-09
+  UniRef90_D8JIR3 Cyd operon protein YbgE (Cyd_oper_YbgE) family ...  57.4    6e-09
+  UniRef90_A0A0M4H906 Cytochrome bd biosynthesis protein n=4 Tax=...  57.4    7e-09
+  UniRef90_A0A1H6SI02 Cyd operon protein YbgE n=6 Tax=Azotobacter...  57.0    7e-09
+  UniRef90_A0A2E0WPR1 Cyd operon protein YbgE n=1 Tax=Gammaproteo...  57.0    7e-09
+  UniRef90_A0A1V3I401 Uncharacterized protein n=10 Tax=Vibrionace...  56.6    1e-08
+  UniRef90_UPI00068811DE Cyd operon protein YbgE n=1 Tax=gamma pr...  56.6    1e-08
+  UniRef90_UPI0009A89203 cytochrome bd biosynthesis protein n=4 T...  56.3    1e-08
+  UniRef90_A0A147HAW2 Cyd operon protein YbgE n=18 Tax=Pseudomona...  56.3    2e-08
+  UniRef90_M4UMW1 Uncharacterized protein n=1 Tax=Psychromonas sp...  55.9    3e-08
+  UniRef90_V4PWH7 Uncharacterized protein n=13 Tax=Gammaproteobac...  55.5    3e-08
+  UniRef90_A0A1I5X532 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  55.5    3e-08
+  UniRef90_UPI000FD725AC Cyd operon protein YbgE n=1 Tax=Sulfuriv...  55.5    4e-08
+  UniRef90_A0A1E4JL03 Uncharacterized protein n=2 Tax=Thiobacillu...  55.1    5e-08
+  UniRef90_UPI000380D887 hypothetical protein n=1 Tax=Psychromona...  55.1    5e-08
+  UniRef90_A0A1N6Q125 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  54.7    6e-08
+  UniRef90_A0A0F9N1W7 Uncharacterized protein n=1 Tax=marine sedi...  54.3    6e-08
+  UniRef90_A0A2A2J1B0 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  55.1    6e-08
+  UniRef90_UPI000DCFEA6B cytochrome bd biosynthesis protein n=1 T...  54.7    6e-08
+  UniRef90_N2J7M3 Cyd operon protein YbgE n=6 Tax=Pseudomonadacea...  54.7    7e-08
+  UniRef90_A0A023WUA5 Uncharacterized protein n=2 Tax=Pseudomonas...  54.3    1e-07
+  UniRef90_A0A1Y5DRK3 Uncharacterized protein n=1 Tax=Methylophag...  53.9    1e-07
+  UniRef90_A0A2Z6I7C4 Uncharacterized protein n=1 Tax=Sutterella ...  53.6    1e-07
+  UniRef90_A0A090RTA1 Uncharacterized protein n=1 Tax=Vibrio mari...  52.8    2e-07
+  UniRef90_A0A1N6XGR2 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  53.9    2e-07
+  UniRef90_A0A259DA53 Uncharacterized protein n=3 Tax=unclassifie...  53.6    2e-07
+  UniRef90_UPI000684F630 hypothetical protein n=1 Tax=Psychromona...  53.6    2e-07
+  UniRef90_A0A0T6VJ19 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  53.6    2e-07
+  UniRef90_A0A0D6S197 Protein ybgE n=7 Tax=Pseudomonas TaxID=286 ...  53.6    2e-07
+  UniRef90_A0A061JLG8 Uncharacterized protein n=2 Tax=Pseudomonas...  53.2    3e-07
+  UniRef90_A0A0B3BW99 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  53.2    3e-07
+  UniRef90_UPI0009DD88B4 hypothetical protein n=2 Tax=Salinivibri...  53.6    3e-07
+  UniRef90_F8H2Q1 Uncharacterized protein n=19 Tax=Bacteria TaxID...  52.8    4e-07
+  UniRef90_H3KE25 Cyd operon protein YbgE n=1 Tax=Sutterella parv...  52.0    5e-07
+  UniRef90_A0A1A9KB06 Cyd operon protein YbgE n=12 Tax=Proteobact...  52.0    7e-07
+  UniRef90_L0GNH0 Putative membrane protein n=5 Tax=Gammaproteoba...  52.0    7e-07
+  UniRef90_A0A2I0CUX5 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  52.0    8e-07
+  UniRef90_UPI000DD39CDD Cyd operon protein YbgE n=2 Tax=Pseudomo...  52.0    8e-07
+  UniRef90_A0A2N2ABC7 Uncharacterized protein n=1 Tax=Gammaproteo...  51.3    8e-07
+  UniRef90_A0A2N5BET7 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  52.0    9e-07
+  UniRef90_A0A1N6E779 Cyd operon protein YbgE n=1 Tax=Salinivibri...  51.6    9e-07
+  UniRef90_A0A0F5AN47 Uncharacterized protein n=24 Tax=Vibrionace...  51.6    1e-06
+  UniRef90_A0A2N5BIT3 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  51.6    1e-06
+  UniRef90_A0A3C0YB98 Uncharacterized protein n=1 Tax=Polaromonas...  51.6    1e-06
+  UniRef90_A0A024HG54 Uncharacterized protein n=1 Tax=Pseudomonas...  51.3    2e-06
+  UniRef90_A0A1G8FK79 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  51.3    2e-06
+  UniRef90_UPI00083A3B46 hypothetical protein n=1 Tax=Thauera phe...  50.9    2e-06
+  UniRef90_A0A0C2RPA6 Cyd operon protein YbgE n=3 Tax=Pseudomonas...  50.9    2e-06
+  UniRef90_R7C1W3 Cyd operon protein YbgE n=2 Tax=Sutterella TaxI...  50.9    2e-06
+  UniRef90_UPI0006546C27 hypothetical protein n=1 Tax=Pseudomonas...  50.5    3e-06
+  UniRef90_A0A2H0J9E4 Uncharacterized protein n=1 Tax=Comamonadac...  50.5    3e-06
+  UniRef90_A0A0F0E8E6 Membrane protein n=5 Tax=Burkholderiaceae T...  50.1    4e-06
+  UniRef90_A0A235EWE7 Uncharacterized protein n=1 Tax=Thauera pro...  50.1    5e-06
+  UniRef90_A0A0K6ISV7 Predicted membrane protein, encoded in cydA...  49.7    7e-06
+  UniRef90_A0A1C7HMN3 Cytochrome bd biosynthesis protein n=2 Tax=...  49.3    7e-06
+  UniRef90_A0A369AG12 Cyd operon protein YbgE n=1 Tax=Extensimona...  49.7    8e-06
+  UniRef90_A0A2T4IGV9 Uncharacterized protein n=1 Tax=Thauera sp....  49.3    1e-05
+  UniRef90_E7H4M4 Uncharacterized protein n=3 Tax=Sutterella TaxI...  48.9    1e-05
+  UniRef90_A0A127KB45 Uncharacterized protein n=1 Tax=Thauera hum...  48.9    1e-05
+  UniRef90_A0A1H8KDL7 Predicted membrane protein, encoded in cydA...  48.2    2e-05
+  UniRef90_W9TRR2 Cyd operon protein YbgE n=2 Tax=Pseudomonas Tax...  48.2    2e-05
+  UniRef90_A0A2U1BRV0 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  48.2    2e-05
+  UniRef90_A0A323UYB4 Uncharacterized protein n=1 Tax=Azoarcus co...  48.2    2e-05
+  UniRef90_A0A100HR50 Uncharacterized protein n=5 Tax=Burkholderi...  47.8    3e-05
+  UniRef90_A0A2W4K0P8 Cyd operon protein YbgE n=1 Tax=Proteobacte...  48.2    3e-05
+  UniRef90_A0A2G2PSW0 Uncharacterized protein n=2 Tax=Proteobacte...  47.8    4e-05
+  UniRef90_A0A3D0HCW3 Cytochrome bd biosynthesis protein n=1 Tax=...  47.8    4e-05
+  UniRef90_A0A090P714 Protein YbgE n=1 Tax=Vibrio ponticus TaxID=...  46.6    4e-05
+  UniRef90_A0A2N1DPH5 Uncharacterized protein n=1 Tax=Psychromona...  47.8    4e-05
+  UniRef90_A0A1E4KI44 Uncharacterized protein n=3 Tax=Thiobacillu...  47.4    5e-05
+  UniRef90_A1K4U2 Conserved hypothetical membrane protein n=2 Tax...  47.4    5e-05
+  UniRef90_A0A1D9H990 Uncharacterized protein n=3 Tax=Burkholderi...  47.4    5e-05
+  UniRef90_UPI00036C0FA1 hypothetical protein n=1 Tax=Thiobacillu...  47.0    6e-05
+  UniRef90_A0A1G8XPK9 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  47.0    7e-05
+  UniRef90_A0A0F9SL50 Uncharacterized protein n=1 Tax=marine sedi...  46.6    7e-05
+  UniRef90_A0A2W5E2A0 Uncharacterized protein n=1 Tax=Roseateles ...  46.6    8e-05
+  UniRef90_A0A0N0JBN8 Uncharacterized protein n=2 Tax=unclassifie...  46.6    8e-05
+  UniRef90_A0A0J9GGJ0 Membrane protein n=1 Tax=Ralstonia sp. MD27...  46.6    9e-05
+  UniRef90_UPI000FDE51F5 hypothetical protein n=1 Tax=Hahella sp....  46.2    1e-04
+  UniRef90_A0A2N2SMR5 Uncharacterized protein n=1 Tax=Betaproteob...  46.6    1e-04
+  UniRef90_N6Y320 Uncharacterized protein (Fragment) n=2 Tax=Thau...  45.9    1e-04
+  UniRef90_UPI0009DE1C06 hypothetical protein n=1 Tax=Polaromonas...  46.2    2e-04
+  UniRef90_UPI000E0D8659 hypothetical protein n=1 Tax=Rhodoferax ...  46.2    2e-04
+  UniRef90_UPI00048AB219 hypothetical protein n=1 Tax=Tepidiphilu...  46.2    2e-04
+  UniRef90_UPI000E47DE01 cytochrome bd biosynthesis protein n=1 T...  45.9    2e-04
+  UniRef90_UPI0009ECCB6F hypothetical protein n=1 Tax=Alteromonad...  46.2    2e-04
+  UniRef90_A0A1S1TZV1 Membrane protein n=1 Tax=Janthinobacterium ...  45.9    2e-04
+  UniRef90_I3UNR2 Memnrane protein n=2 Tax=Pseudomonas TaxID=286 ...  45.9    2e-04
+  UniRef90_A0A3D6AN72 Uncharacterized protein n=1 Tax=Oxalobacter...  45.9    2e-04
+  UniRef90_A0A0C2RW31 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  45.9    2e-04
+  UniRef90_N6YLG2 Uncharacterized protein n=2 Tax=Thauera TaxID=3...  45.9    2e-04
+  UniRef90_A0A267AGT0 Uncharacterized protein n=2 Tax=Pseudomonas...  45.5    2e-04
+  UniRef90_A0A2M7FPV7 Uncharacterized protein n=2 Tax=unclassifie...  45.1    2e-04
+  UniRef90_A0A2S9KEI4 Uncharacterized protein n=2 Tax=Burkholderi...  45.5    2e-04
+  UniRef90_A0A0K8P2A9 Uncharacterized protein n=2 Tax=Ideonella s...  45.5    2e-04
+  UniRef90_A0A023C8F9 Membrane protein n=2 Tax=Pseudomonas extrem...  45.5    3e-04
+  UniRef90_R6ADL8 Putative cyd operon protein YbgE n=5 Tax=Proteo...  45.1    3e-04
+  UniRef90_A0A1J5CT05 Uncharacterized protein n=2 Tax=unclassifie...  45.1    3e-04
+  UniRef90_A0A398C4C4 Uncharacterized protein n=1 Tax=Simplicispi...  45.5    3e-04
+  UniRef90_UPI0009FE8A63 hypothetical protein n=1 Tax=Ideonella s...  44.7    3e-04
+  UniRef90_A0A1G0NBA9 Uncharacterized protein n=1 Tax=Hydrogenoph...  45.1    3e-04
+  UniRef90_A0A259FE50 Uncharacterized protein n=1 Tax=Hydrogenoph...  45.1    4e-04
+  UniRef90_UPI0003B7412E membrane protein n=1 Tax=Aquaspirillum s...  44.7    4e-04
+  UniRef90_A0A2N2TKS4 Uncharacterized protein n=1 Tax=Betaproteob...  45.1    4e-04
+  UniRef90_A0A1F4JBW8 Uncharacterized protein n=1 Tax=Burkholderi...  45.1    4e-04
+  UniRef90_UPI00048089AD membrane protein n=1 Tax=Pseudomonas Tax...  44.7    5e-04
+  UniRef90_N6Z657 Uncharacterized protein n=1 Tax=Thauera linaloo...  44.7    5e-04
+  UniRef90_D5CR00 Cyd operon protein YbgE n=1 Tax=Sideroxydans li...  44.7    5e-04
+  UniRef90_U5N8E8 Uncharacterized protein n=2 Tax=Candidatus Symb...  45.1    6e-04
+  UniRef90_A0A1H8LPN3 Cyd operon protein YbgE (Cyd_oper_YbgE) n=1...  44.7    6e-04
+  UniRef90_A0A0B1YJM1 Membrane protein n=2 Tax=Ralstonia sp. A12 ...  44.3    6e-04
+  UniRef90_A0A1Q3QXT6 Uncharacterized protein n=1 Tax=Hydrogenoph...  44.3    6e-04
+  UniRef90_A0A0R3AD82 Membrane protein n=11 Tax=Pseudomonas TaxID...  44.3    7e-04
+  UniRef90_A0A0K1QRY0 Membrane protein n=2 Tax=Pseudomonas TaxID=...  44.3    7e-04
+  UniRef90_UPI0009B81020 hypothetical protein n=2 Tax=Pseudomonas...  44.3    7e-04
+  UniRef90_UPI000FD736D9 hypothetical protein n=1 Tax=Pseudomonas...  44.3    8e-04
+  UniRef90_A0A1F4GW37 Uncharacterized protein n=4 Tax=Betaproteob...  44.3    8e-04
+  UniRef90_A0A254MYS6 Uncharacterized protein n=1 Tax=Pelomonas p...  43.9    8e-04
+  UniRef90_A0A1G3EKK3 Cyd operon protein YbgE n=1 Tax=Pseudomonad...  44.3    9e-04
+  UniRef90_A0A090P643 Cyd operon protein YbgE n=1 Tax=Vibrio pont...  42.8    9e-04
+  UniRef90_UPI0008387133 hypothetical protein n=1 Tax=Thauera but...  43.9    0.001
+  UniRef90_A0A3N7CDF0 Uncharacterized protein n=1 Tax=Paucibacter...  43.5    0.001
+  UniRef90_A0A2S9K5W9 Uncharacterized protein n=1 Tax=Malikia gra...  43.2    0.001
+  UniRef90_A0A2G8TC14 Uncharacterized protein n=1 Tax=Massilia eu...  43.5    0.002
+  UniRef90_A0A387C3Q6 Uncharacterized protein n=2 Tax=Pseudomonas...  43.5    0.002
+  UniRef90_A0A2S9K2T0 Uncharacterized protein n=1 Tax=Malikia gra...  43.2    0.002
+  UniRef90_A0A315D1X7 Uncharacterized protein n=1 Tax=Limnohabita...  43.2    0.002
+  UniRef90_A0A1G3Y0S4 Uncharacterized protein n=2 Tax=Thiobacillu...  43.2    0.002
+  UniRef90_A0A1N7F6Q4 Cyd operon protein YbgE (Cyd_oper_YbgE) n=3...  43.2    0.002
+  UniRef90_A0A085V9P1 Membrane protein n=1 Tax=Pseudomonas syring...  42.8    0.002
+  UniRef90_G8Q4E7 Cyd operon protein family protein n=14 Tax=Pseu...  42.4    0.003
+  UniRef90_A0A0A0DVY8 Membrane protein n=1 Tax=Aquabacterium sp. ...  42.4    0.003
+  UniRef90_A0A1G3I596 Uncharacterized protein n=1 Tax=Rhodoferax ...  42.4    0.003
+  UniRef90_W8PKP7 Membrane protein n=2 Tax=Pseudomonas brassicace...  42.4    0.004
+  UniRef90_A0A2T0ZUM4 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  42.0    0.005
+  UniRef90_UPI000A042494 hypothetical protein n=1 Tax=Hydrogenoph...  41.6    0.005
+  UniRef90_A0A2E2TL27 Cyd operon protein YbgE n=1 Tax=Legionellal...  42.0    0.005
+  UniRef90_A2SGV2 Uncharacterized protein n=3 Tax=Methylibium Tax...  41.6    0.005
+  UniRef90_A0A3D4Q0P5 Uncharacterized protein n=1 Tax=Cellvibrio ...  42.4    0.006
+  UniRef90_A0A1D9GT68 Uncharacterized protein n=3 Tax=Burkholderi...  42.0    0.006
+  UniRef90_Q1Z9K1 Uncharacterized protein n=3 Tax=Photobacterium ...  40.9    0.007
+  UniRef90_A0A1S8GT05 Uncharacterized protein n=4 Tax=Pseudomonas...  41.6    0.008
+  UniRef90_A0A1E4NDA2 Uncharacterized protein n=1 Tax=Thiobacillu...  41.6    0.008
+  UniRef90_UPI0008EE8DAD hypothetical protein n=1 Tax=Pseudomonas...  41.2    0.010
+  UniRef90_N6ZW53 Uncharacterized protein n=1 Tax=Thauera phenyla...  42.0    0.012
+  UniRef90_A0A1G3ZZ42 Uncharacterized protein n=2 Tax=Xanthomonad...  40.9    0.013
+  UniRef90_A0A2K4KW78 Uncharacterized protein n=2 Tax=Pseudomonas...  40.9    0.014
+  UniRef90_UPI00038171F0 hypothetical protein n=1 Tax=Methylovers...  40.9    0.014
+  UniRef90_UPI00046A2B63 hypothetical protein n=1 Tax=Cobetia Tax...  40.9    0.015
+  UniRef90_A0A1R0HAY0 Uncharacterized protein n=1 Tax=Polynucleob...  40.9    0.017
+  UniRef90_J9CA62 Cyd operon protein YbgE (Fragment) n=1 Tax=gut ...  40.1    0.019
+  UniRef90_UPI000FDCC529 ATP-binding cassette domain-containing p...  42.0    0.020
+  UniRef90_F1W237 Uncharacterized protein n=1 Tax=Oxalobacteracea...  40.5    0.020
+  UniRef90_A0A2D5PAM1 Cytochrome bd biosynthesis protein n=1 Tax=...  40.5    0.023
+  UniRef90_A0A2D8A7S5 Uncharacterized protein n=2 Tax=Oceanospiri...  40.5    0.025
+  UniRef90_UPI0003789930 hypothetical protein n=2 Tax=Solimonas T...  40.5    0.026
+  UniRef90_UPI0009860B95 hypothetical protein n=1 Tax=Cobetia Tax...  40.9    0.032
+  UniRef90_A0A1H9SC84 Cyd operon protein YbgE (Cyd_oper_YbgE) n=1...  39.7    0.042
+  UniRef90_A0A3N2RAG5 Cyd operon protein YbgE n=1 Tax=Lysobacter ...  39.7    0.044
+  UniRef90_UPI000E6616EE Cyd operon protein YbgE n=1 Tax=Rhodospi...  39.3    0.048
+  UniRef90_A0A1E3YUX9 Uncharacterized protein n=3 Tax=Burkholderi...  39.3    0.057
+  UniRef90_A0A1B3CVZ6 Uncharacterized protein n=3 Tax=Pseudomonas...  39.3    0.062
+  UniRef90_UPI00098F8261 hypothetical protein n=1 Tax=Cellvibrio ...  39.7    0.063
+  UniRef90_A0A2U8GKL9 Uncharacterized protein n=4 Tax=Betaproteob...  39.3    0.065
+  UniRef90_A0A2K9LB03 Uncharacterized protein n=3 Tax=Rhodocyclal...  39.3    0.066
+  UniRef90_A0A266Q3N8 Uncharacterized protein n=1 Tax=Cellvibrio ...  39.3    0.077
+  UniRef90_A0A345P9W1 Uncharacterized protein n=1 Tax=Moraxellace...  38.9    0.095
+  UniRef90_A0A0K6GV13 Predicted membrane protein, encoded in cydA...  38.5    0.10 
+  UniRef90_A0A2S0P6J7 Uncharacterized protein n=2 Tax=Microvirgul...  38.2    0.18 
+  UniRef90_UPI00040190D6 hypothetical protein n=2 Tax=Azonexus Ta...  38.2    0.21 
+  UniRef90_K1JVV8 Uncharacterized protein n=2 Tax=Sutterella TaxI...  37.8    0.22 
+  UniRef90_A0A1U9NF16 Uncharacterized protein n=1 Tax=Cellvibrio ...  37.4    0.31 
+  UniRef90_R7KIH6 Putative cyd operon protein YbgE n=1 Tax=Sutter...  36.6    0.48 
+  UniRef90_A0A259KLZ3 Uncharacterized protein n=1 Tax=Burkholderi...  36.6    0.54 
+  UniRef90_C1DAC5 Cyd_oper_YbgE domain containing protein n=3 Tax...  37.0    0.57 
+  UniRef90_A0A0P7E070 Uncharacterized protein n=5 Tax=Halomonadac...  35.8    0.89 
+  UniRef90_A0A0F9Y3G3 Uncharacterized protein n=1 Tax=Trichoderma...  37.4    0.98 
+  UniRef90_UPI000C32F80C hypothetical protein n=1 Tax=Macromonas ...  35.8    1.1  
+  UniRef90_A0A2T4ASC2 Uncharacterized protein n=1 Tax=Trichoderma...  37.4    1.2  
+  UniRef90_A0A3N4U3K0 Cyd operon protein YbgE n=1 Tax=Tibeticola ...  35.5    1.4  
+  UniRef90_UPI000FD42EAB UPI000FD42EAB related cluster n=1 Tax=un...  35.5    1.5  
+  UniRef90_A0A109K1X3 Uncharacterized protein n=2 Tax=Bradyrhizob...  35.5    1.5  
+  UniRef90_A0A3C1MVE6 Uncharacterized protein n=1 Tax=Betaproteob...  35.5    1.6  
+  UniRef90_A0A1B8YHC1 Uncharacterized protein n=1 Tax=Photorhabdu...  34.7    1.7  
+  UniRef90_A0A1R1I7U9 Uncharacterized protein n=1 Tax=Azonexus hy...  35.5    2.0  
+  UniRef90_L1PMD9 Uncharacterized protein n=24 Tax=Bacteria TaxID...  36.6    2.1  
+  UniRef90_A0A1T3C4Z4 C2H2 transcription factor n=1 Tax=Trichoder...  36.2    2.5  
+  UniRef90_A0A1B8AUF1 Uncharacterized protein n=1 Tax=Fusarium po...  36.2    2.7  
+  UniRef90_A0A3M6E0I5 Phage terminase, ATPase subunit n=2 Tax=Pse...  36.2    2.8  
+  UniRef90_W2RW49 Uncharacterized protein n=1 Tax=Cyphellophora e...  36.2    2.9  
+  UniRef90_A0A1H3IFW7 Predicted membrane protein, encoded in cydA...  35.1    3.0  
+  UniRef90_A0A2N1L5R5 Uncharacterized protein n=1 Tax=Trichoderma...  36.2    3.0  
+  UniRef90_A0A3B9XU92 Uncharacterized protein n=3 Tax=Gammaproteo...  35.8    3.0  
+  UniRef90_G9N012 Uncharacterized protein n=1 Tax=Hypocrea virens...  36.2    3.1  
+  UniRef90_A0A0M9EQV8 Transcription factor n=2 Tax=Fusarium sambu...  36.2    3.2  
+  UniRef90_A0A352LNQ0 Cytochrome bd biosynthesis protein n=1 Tax=...  34.3    3.2  
+  UniRef90_A0A2S4KAQ4 Uncharacterized protein n=1 Tax=Cobetia sp....  34.3    3.5  
+  UniRef90_A0A0S2DBV5 Uncharacterized protein n=2 Tax=Lysobacter ...  34.7    3.5  
+  UniRef90_A0A098DGD2 Uncharacterized protein n=5 Tax=Fusarium sa...  35.8    3.7  
+  UniRef90_A0A182Y6F3 Uncharacterized protein n=4 Tax=Cellia TaxI...  35.8    4.2  
+  UniRef90_A0A2G2GHY6 Uncharacterized protein n=1 Tax=Robiginitom...  35.8    4.3  
+  UniRef90_A0A132GSW2 Uncharacterized protein n=1 Tax=bacterium P...  35.5    4.4  
+  UniRef90_E1YEK7 Uncharacterized protein n=1 Tax=uncultured Desu...  35.8    4.5  
+  UniRef90_F5HKV2 AGAP002566-PB n=1 Tax=Anopheles gambiae TaxID=7...  35.5    4.5  
+  UniRef90_A0A182P066 Uncharacterized protein n=1 Tax=Anopheles e...  35.5    4.6  
+  UniRef90_A0A182HSP2 Uncharacterized protein n=4 Tax=gambiae spe...  35.5    4.6  
+  UniRef90_A0A2K0U0C5 Uncharacterized protein n=1 Tax=Trichoderma...  35.5    4.7  
+  UniRef90_UPI00037246D9 hypothetical protein n=1 Tax=Oxalobacter...  34.3    4.8  
+  UniRef90_A0A182LER5 Uncharacterized protein n=1 Tax=Anopheles c...  35.5    4.8  
+  UniRef90_N1SBM8 Zinc finger protein zas1 n=2 Tax=Fusarium oxysp...  35.5    4.9  
+  UniRef90_G9P0X2 Uncharacterized protein (Fragment) n=1 Tax=Hypo...  35.5    5.0  
+  UniRef90_UPI00034D73AD hypothetical protein n=1 Tax=Lysobacter ...  33.9    5.3  
+  UniRef90_A0A328XZI5 Cyd operon protein YbgE n=1 Tax=Halomonas t...  34.3    5.5  
+  UniRef90_Q7PR04 AGAP002566-PA n=1 Tax=Anopheles gambiae TaxID=7...  35.5    5.8  
+  UniRef90_A0A1P8UHY5 Uncharacterized protein n=1 Tax=Acidihaloba...  34.3    5.9  
+  UniRef90_A0A182SFC2 Uncharacterized protein n=1 Tax=Anopheles m...  35.1    6.3  
+  UniRef90_A0A2P4ZX58 Uncharacterized protein n=2 Tax=Trichoderma...  35.1    6.4  
+  UniRef90_UPI000E64E94E magnesium/cobalt transporter CorA n=1 Ta...  35.1    6.7  
+  UniRef90_UPI000023CEEA hypothetical protein n=1 Tax=Gibberella ...  35.1    6.7  
+  UniRef90_A0A094HU02 Uncharacterized protein n=1 Tax=Pseudogymno...  35.1    7.1  
+  UniRef90_A0A2T3YR98 Uncharacterized protein n=1 Tax=Trichoderma...  35.1    7.2  
+  UniRef90_A0A182FNW3 Uncharacterized protein n=1 Tax=Anopheles a...  35.1    7.5  
+  UniRef90_A0A293M143 Palmitoyltransferase (Fragment) n=1 Tax=Orn...  35.1    7.8  
+  UniRef90_E3S3A5 Uncharacterized protein n=1 Tax=Pyrenophora ter...  35.1    7.9  
+  UniRef90_A0A1H3MZR7 Predicted membrane protein, encoded in cydA...  33.9    8.0  
+  UniRef90_UPI000B99B33D putative L-type amino acid transporter 1...  34.3    8.1  
+  UniRef90_A0A2R7MER0 Pilus assembly protein n=1 Tax=Acidovorax s...  34.7    8.2  
+  UniRef90_A0A2M3Z1A8 Uncharacterized protein n=1 Tax=Anopheles b...  34.7    8.6  
+  UniRef90_A0A2P4ZQR9 Uncharacterized protein n=1 Tax=Trichoderma...  34.7    9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.171    0.563    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0523    0.140     1.90     42.6     43.6 
+
+Effective search space used: 749902867697
+Results from round 3
+
+
+Query= NP_415263.1
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_G7LNQ3 Cyd operon protein YbgE n=7 Tax=Brenneria TaxID...  104     3e-27
+  UniRef90_A0A250BET4 Cytochrome bd biosynthesis protein n=3 Tax=...  103     5e-27
+  UniRef90_A0A1X0XBB6 Cyd operon protein YbgE n=10 Tax=Enterobact...  101     2e-26
+  UniRef90_G9YD34 Cyd operon protein YbgE n=11 Tax=Enterobacteral...  100     7e-26
+  UniRef90_A0A1M5LT16 Cyd operon protein YbgE n=23 Tax=Pectobacte...  99.8    1e-25
+  UniRef90_UPI0007899FC5 cyd operon protein YbgE n=1 Tax=Kluyvera...  99.8    1e-25
+  UniRef90_R9VWF1 Uncharacterized protein n=5 Tax=Enterobacteriac...  99.4    2e-25
+  UniRef90_A0A1C4A099 Cyd operon protein YbgE n=1 Tax=Kosakonia o...  99.1    2e-25
+  UniRef90_D4F8E7 Cyd operon protein YbgE n=4 Tax=Edwardsiella Ta...  98.7    4e-25
+  UniRef90_A0A2P5GR88 Cyd operon protein YbgE n=1 Tax=Superficiei...  98.3    4e-25
+  UniRef90_A0A2I5TAJ8 Cyd operon protein YbgE n=1 Tax=Serratia sp...  98.3    5e-25
+  UniRef90_A0A354A8E1 Cyd operon protein YbgE n=1 Tax=Erwinia per...  98.3    5e-25
+  UniRef90_A0A0T9KGN8 Protein ybgE n=5 Tax=Yersinia TaxID=444888 ...  98.3    6e-25
+  UniRef90_P0AAV2 Uncharacterized protein YbgE n=313 Tax=Bacteria...  97.9    6e-25
+  UniRef90_A0A1H3VWY1 Cyd operon protein YbgE n=10 Tax=Pectobacte...  97.5    8e-25
+  UniRef90_A0A127L229 Cyd operon protein YbgE n=10 Tax=Enterobact...  97.5    9e-25
+  UniRef90_D2BVC5 Cyd operon protein YbgE n=26 Tax=Enterobacteral...  97.1    1e-24
+  UniRef90_A0A1N6SYH7 Cyd operon protein YbgE n=2 Tax=Enterobacte...  97.1    1e-24
+  UniRef90_A0A078LJ58 Uncharacterized protein n=7 Tax=Enterobacte...  97.1    1e-24
+  UniRef90_A0A0J1LK07 Cyd operon protein YbgE n=1 Tax=Citrobacter...  96.7    2e-24
+  UniRef90_A0A1I6D9F8 Cyd operon protein YbgE n=1 Tax=Enterobacte...  96.7    2e-24
+  UniRef90_C6CCE5 Cyd operon protein YbgE n=1 Tax=Dickeya paradis...  96.7    2e-24
+  UniRef90_A0A379SBJ5 Cyd operon protein YbgE n=106 Tax=Salmonell...  96.7    2e-24
+  UniRef90_UPI000FE33305 cyd operon protein YbgE n=1 Tax=Pantoea ...  96.4    2e-24
+  UniRef90_A0A0D5WRW2 Cytochrome bd biosynthesis protein n=7 Tax=...  96.4    3e-24
+  UniRef90_A0A3A5JUX9 Cyd operon protein YbgE n=12 Tax=Enterobact...  96.4    3e-24
+  UniRef90_E3G3S6 Cyd operon protein YbgE n=4 Tax=Enterobacteriac...  96.4    3e-24
+  UniRef90_A0A066V1J2 Cytochrome bd biosynthesis protein n=1 Tax=...  96.0    4e-24
+  UniRef90_A1JRG0 Uncharacterized protein n=46 Tax=Yersiniaceae T...  96.4    5e-24
+  UniRef90_UPI00054DD6F9 cyd operon protein YbgE n=2 Tax=Erwinia ...  95.6    5e-24
+  UniRef90_A0A090V6G6 Uncharacterized protein n=4 Tax=Enterobacte...  95.2    7e-24
+  UniRef90_A0A0T7NRT8 Protein ybgE n=5 Tax=Yersinia TaxID=444888 ...  95.6    8e-24
+  UniRef90_A0A089PTK0 Cyd operon protein YbgE n=2 Tax=Pluralibact...  95.2    8e-24
+  UniRef90_A0A090UQC4 Uncharacterized protein n=39 Tax=Enterobact...  95.2    8e-24
+  UniRef90_UPI0004678083 cyd operon protein YbgE n=2 Tax=Franconi...  95.2    8e-24
+  UniRef90_H2IWJ3 Cyd operon protein YbgE n=9 Tax=Yersiniaceae Ta...  95.2    9e-24
+  UniRef90_A0A2P8VR34 Cyd operon protein YbgE n=2 Tax=Siccibacter...  94.8    1e-23
+  UniRef90_UPI00073D96C9 cyd operon protein YbgE n=1 Tax=[Erwinia...  94.8    1e-23
+  UniRef90_A0A2J9E6V2 Cyd operon protein YbgE n=9 Tax=Erwiniaceae...  94.8    1e-23
+  UniRef90_A0A318W3V8 Cyd operon protein YbgE n=1 Tax=Citrobacter...  94.8    1e-23
+  UniRef90_A0A0F6TTL1 Cytochrome bd biosynthesis protein n=9 Tax=...  94.4    1e-23
+  UniRef90_A8GB88 Cyd operon protein YbgE n=16 Tax=Yersiniaceae T...  94.4    2e-23
+  UniRef90_A0A0M3F035 Cytochrome bd biosynthesis protein n=1 Tax=...  94.4    2e-23
+  UniRef90_A0A250AXX3 Cytochrome bd biosynthesis protein n=1 Tax=...  94.1    2e-23
+  UniRef90_UPI000F6566B9 cyd operon protein YbgE n=1 Tax=Dickeya ...  94.1    2e-23
+  UniRef90_A0A1B1EBF5 Cyd operon protein YbgE n=2 Tax=Vibrio TaxI...  94.1    2e-23
+  UniRef90_UPI000485310A cyd operon protein YbgE n=1 Tax=Leminore...  94.1    3e-23
+  UniRef90_H5V305 Uncharacterized protein n=4 Tax=Enterobacteriac...  94.1    3e-23
+  UniRef90_A0A2A7PN02 Cyd operon protein YbgE n=2 Tax=Lelliottia ...  93.7    3e-23
+  UniRef90_A0A0T9RIJ3 Protein ybgE n=5 Tax=Yersinia TaxID=444888 ...  94.1    3e-23
+  UniRef90_UPI000DF013E9 cyd operon protein YbgE n=1 Tax=Rahnella...  93.7    3e-23
+  UniRef90_A0A2N7J951 Cyd operon protein YbgE n=1 Tax=Vibrio kana...  93.7    3e-23
+  UniRef90_A0A2A7VDJ4 Cyd operon protein YbgE n=18 Tax=Yersinia T...  94.1    4e-23
+  UniRef90_A0A2S4RZM8 Cyd operon protein YbgE n=2 Tax=Enterobacte...  93.7    4e-23
+  UniRef90_A0A0M9C9Z5 Cytochrome bd biosynthesis protein n=5 Tax=...  93.7    4e-23
+  UniRef90_W0LGX0 Cytochrome bd biosynthesis protein n=7 Tax=Yers...  93.3    4e-23
+  UniRef90_I2BB36 Conserved inner membrane protein n=1 Tax=Shimwe...  93.3    4e-23
+  UniRef90_A0A0H0YP71 Cytochrome bd biosynthesis protein n=3 Tax=...  93.3    5e-23
+  UniRef90_A0A0B5IRT5 Cytochrome bd biosynthesis protein n=8 Tax=...  92.9    6e-23
+  UniRef90_D4E9I6 Cyd operon protein YbgE n=1 Tax=Serratia odorif...  92.9    7e-23
+  UniRef90_A0A2L1UR30 Cyd operon protein YbgE n=2 Tax=Rahnella Ta...  92.9    7e-23
+  UniRef90_UPI000EB26B03 cyd operon protein YbgE n=1 Tax=Enteroba...  92.9    8e-23
+  UniRef90_G5LL15 Protein YbgE n=28 Tax=Enterobacterales TaxID=91...  93.3    8e-23
+  UniRef90_UPI0005535821 cyd operon protein YbgE n=1 Tax=Enteroba...  92.5    8e-23
+  UniRef90_UPI0002FA309F cyd operon protein YbgE n=1 Tax=Metakosa...  92.5    8e-23
+  UniRef90_A0A2V5D8R4 Cyd operon protein YbgE n=3 Tax=Enterobacte...  92.5    8e-23
+  UniRef90_A0A389M840 Inner membrane protein n=4 Tax=Enterobacter...  92.5    8e-23
+  UniRef90_A0A3A2IEC5 Cytochrome bd biosynthesis protein n=1 Tax=...  92.5    9e-23
+  UniRef90_A0A2A3KP65 Cyd operon protein YbgE n=3 Tax=Enterobacte...  92.5    1e-22
+  UniRef90_A0A2I7CBC8 Cyd operon protein YbgE n=1 Tax=Enterobacte...  92.1    1e-22
+  UniRef90_A0A120DH50 Cytochrome bd biosynthesis protein n=62 Tax...  92.1    1e-22
+  UniRef90_A0A2Y9TVL6 Cyd operon protein YbgE n=1 Tax=Limnobaculu...  91.7    2e-22
+  UniRef90_A0A0L0AM34 Cytochrome bd biosynthesis protein n=1 Tax=...  91.7    2e-22
+  UniRef90_A0A379S7L7 Cyd operon protein YbgE n=1 Tax=Salmonella ...  91.7    2e-22
+  UniRef90_UPI000373556E cyd operon protein YbgE n=1 Tax=Enteroba...  91.4    2e-22
+  UniRef90_A0A3A6R9F2 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  91.4    2e-22
+  UniRef90_A0A0L0GWM8 Cytochrome bd biosynthesis protein n=4 Tax=...  91.4    3e-22
+  UniRef90_J2U3Y7 Cyd operon protein YbgE n=4 Tax=Enterobacterale...  91.4    3e-22
+  UniRef90_A0A0T9P418 Protein ybgE n=1 Tax=Yersinia pekkanenii Ta...  91.7    3e-22
+  UniRef90_A0A3N1IXC7 Cyd operon protein YbgE n=2 Tax=Enterobacte...  91.4    3e-22
+  UniRef90_A0A329WGS9 Cyd operon protein YbgE n=4 Tax=Photorhabdu...  91.0    4e-22
+  UniRef90_A0A3A8LR90 Cyd operon protein YbgE (Fragment) n=10 Tax...  91.0    4e-22
+  UniRef90_A0A2T3CIZ6 Cyd operon protein YbgE n=2 Tax=Enterobacte...  91.0    4e-22
+  UniRef90_H3RAT3 YbgE family protein n=2 Tax=Pantoea TaxID=53335...  91.0    4e-22
+  UniRef90_A0A0B6XBB6 YbgE n=8 Tax=Xenorhabdus bovienii TaxID=405...  90.6    4e-22
+  UniRef90_L0M593 Cyd operon protein YbgE n=9 Tax=Enterobacteriac...  90.6    5e-22
+  UniRef90_A0A1R4B1Y1 Uncharacterized protein n=2 Tax=Vibrio palu...  90.6    5e-22
+  UniRef90_A0A077N1D2 Protein ybgE n=2 Tax=Xenorhabdus TaxID=626 ...  90.6    6e-22
+  UniRef90_A0A2X4XYE2 Cyd operon protein YbgE n=1 Tax=Leminorella...  90.6    6e-22
+  UniRef90_U3BGC1 Uncharacterized protein n=1 Tax=Vibrio proteoly...  90.6    6e-22
+  UniRef90_B6VN80 Hypothetical Membrane Protein n=1 Tax=Photorhab...  90.2    7e-22
+  UniRef90_A0A2C6C1P7 Cyd operon protein YbgE n=1 Tax=Budvicia aq...  90.2    7e-22
+  UniRef90_W0HZZ5 Cyd operon protein n=3 Tax=Sodalis TaxID=84565 ...  90.2    8e-22
+  UniRef90_A0A1B8H021 Cyd operon protein YbgE n=3 Tax=Morganella ...  90.2    8e-22
+  UniRef90_A0A3A1Q8P2 Cyd operon protein YbgE n=43 Tax=Vibrionace...  90.2    8e-22
+  UniRef90_A0A2V2BAL0 Cyd operon protein YbgE n=3 Tax=Pantoea Tax...  90.2    9e-22
+  UniRef90_A0A347UPF9 Cyd operon protein YbgE n=1 Tax=Vibrio alfa...  89.8    1e-21
+  UniRef90_A0A0C3IB04 Cytochrome bd biosynthesis protein n=1 Tax=...  89.4    2e-21
+  UniRef90_A0A072I9Y6 Cyd operon protein YbgE n=31 Tax=Vibrionace...  89.4    2e-21
+  UniRef90_UPI000F685967 cyd operon protein YbgE n=1 Tax=Vibrio p...  89.0    2e-21
+  UniRef90_A0A0N0I9K6 YbgE family protein n=2 Tax=Moellerella wis...  88.7    3e-21
+  UniRef90_UPI00057160B3 cyd operon protein YbgE n=2 Tax=Vibrio T...  89.0    3e-21
+  UniRef90_C9XZB5 Uncharacterized protein ybgE n=29 Tax=Cronobact...  88.7    3e-21
+  UniRef90_A0A0L7YY43 Cytochrome bd biosynthesis protein n=1 Tax=...  88.7    4e-21
+  UniRef90_UPI000E0A9D3E cyd operon protein YbgE n=1 Tax=Vibrio s...  88.7    4e-21
+  UniRef90_A0A1B7JZ13 YbgE family protein n=1 Tax=Providencia hei...  88.3    4e-21
+  UniRef90_U3TT13 Uncharacterized protein n=7 Tax=Enterobacterale...  88.3    5e-21
+  UniRef90_E8LZV9 Cyd operon protein YbgE n=1 Tax=Vibrio brasilie...  88.3    5e-21
+  UniRef90_A0A0A5JY35 Cytochrome bd biosynthesis protein n=1 Tax=...  88.3    6e-21
+  UniRef90_A0A0Q4MMR2 Cytochrome bd biosynthesis protein n=2 Tax=...  87.9    6e-21
+  UniRef90_A0A085JBF1 YbgE family protein n=1 Tax=Tatumella ptyse...  87.9    7e-21
+  UniRef90_A0A0H6SZP9 Cyd operon protein YbgE n=39 Tax=Vibrio Tax...  87.9    8e-21
+  UniRef90_A0A0D8LA45 Uncharacterized protein n=8 Tax=Bacteria Ta...  87.5    8e-21
+  UniRef90_A0A2K1DLC9 Cyd operon protein YbgE n=1 Tax=Vibrio agar...  87.5    1e-20
+  UniRef90_A0A0J8VST7 Cytochrome bd biosynthesis protein n=4 Tax=...  87.1    1e-20
+  UniRef90_A0A2V3RY09 Cyd operon protein YbgE n=5 Tax=Pantoea ana...  87.1    1e-20
+  UniRef90_A0A022PH53 Cyd operon protein YbgE n=9 Tax=Photorhabdu...  87.1    1e-20
+  UniRef90_A0A2S9II82 Cyd operon protein YbgE n=1 Tax=Pantoea cof...  87.1    1e-20
+  UniRef90_A0A3N4P520 Cyd operon protein YbgE n=1 Tax=Pantoea sp....  86.7    2e-20
+  UniRef90_C9QJP0 Cyd operon protein YbgE n=3 Tax=Vibrio TaxID=66...  86.7    2e-20
+  UniRef90_F9T1P0 Cytochrome bd biosynthesis protein n=4 Tax=Vibr...  86.7    2e-20
+  UniRef90_A0A2J8G2E4 Cyd operon protein YbgE n=6 Tax=Vibrio diaz...  86.7    2e-20
+  UniRef90_A0A318A991 Cyd operon protein YbgE n=2 Tax=Vibrio TaxI...  86.7    2e-20
+  UniRef90_A0A2G0QAG8 Cyd operon protein YbgE n=1 Tax=Xenorhabdus...  86.3    3e-20
+  UniRef90_A0A068R481 YbgE n=1 Tax=Xenorhabdus poinarii G6 TaxID=...  86.0    3e-20
+  UniRef90_A0A071LTW5 Cytochrome bd biosynthesis protein n=3 Tax=...  86.0    3e-20
+  UniRef90_UPI00083904C7 cyd operon protein YbgE n=1 Tax=Vibrio t...  86.0    4e-20
+  UniRef90_A0A345LW90 Cyd operon protein YbgE n=5 Tax=Providencia...  86.0    4e-20
+  UniRef90_A0A097QIV1 Cyd operon protein YbgE n=7 Tax=Vibrio TaxI...  86.0    4e-20
+  UniRef90_A6D8H7 Uncharacterized protein n=6 Tax=Vibrio TaxID=66...  86.0    4e-20
+  UniRef90_A0A2D0J5X5 Cyd operon protein YbgE n=4 Tax=Xenorhabdus...  85.6    5e-20
+  UniRef90_UPI0005713BE2 cyd operon protein YbgE n=1 Tax=Xenorhab...  85.6    5e-20
+  UniRef90_A0A0F4NJU3 Cytochrome bd biosynthesis protein n=1 Tax=...  85.6    5e-20
+  UniRef90_A0A0M0T894 Cytochrome bd biosynthesis protein n=2 Tax=...  85.2    6e-20
+  UniRef90_K8CA09 Protein ybgE n=1 Tax=Cronobacter malonaticus 50...  85.2    6e-20
+  UniRef90_F9R8B1 Cyd operon protein YbgE n=5 Tax=Vibrio TaxID=66...  85.6    6e-20
+  UniRef90_A0A1Y2SRN9 Cyd operon protein YbgE n=1 Tax=Xenorhabdus...  85.2    6e-20
+  UniRef90_A0A0X8LMP2 Cyd operon protein YbgE n=7 Tax=Vibrio fluv...  85.6    7e-20
+  UniRef90_D8MPS9 Putative membrane protein YbgE n=3 Tax=Erwinia ...  85.2    7e-20
+  UniRef90_E8M3V6 Cyd operon protein YbgE n=1 Tax=Vibrio sinaloen...  85.2    7e-20
+  UniRef90_A0A068QPY6 YbgE n=9 Tax=Xenorhabdus TaxID=626 RepID=A0...  85.2    8e-20
+  UniRef90_A0A3A6U5W0 Cyd operon protein YbgE n=21 Tax=Enterobact...  85.2    9e-20
+  UniRef90_A0A1E5D614 Cyd operon protein YbgE n=2 Tax=Vibrionales...  85.2    9e-20
+  UniRef90_A0A1T4K5I8 Cyd operon protein YbgE n=1 Tax=Vibrio cinc...  84.8    1e-19
+  UniRef90_A0A085TNY5 Cyd operon protein YbgE n=5 Tax=Vibrio TaxI...  84.8    1e-19
+  UniRef90_A0A0Q0Q1T7 Cytochrome bd biosynthesis protein n=4 Tax=...  84.8    1e-19
+  UniRef90_A0A084A6G3 Cyd operon protein YbgE n=2 Tax=Serratia Ta...  84.4    2e-19
+  UniRef90_UPI00031E3879 cyd operon protein YbgE n=1 Tax=Vibrio s...  84.4    2e-19
+  UniRef90_A0A356DAM3 Cyd operon protein YbgE n=1 Tax=Providencia...  84.0    2e-19
+  UniRef90_A0A095VL70 Uncharacterized protein n=2 Tax=Tatumella m...  84.0    2e-19
+  UniRef90_A8T5R8 Uncharacterized protein n=1 Tax=Vibrio sp. AND4...  84.0    3e-19
+  UniRef90_A0A170LY03 Protein ybgE n=8 Tax=Enterobacteriaceae Tax...  83.7    3e-19
+  UniRef90_D0ZBU5 Cyd operon protein n=9 Tax=Edwardsiella TaxID=1...  83.7    3e-19
+  UniRef90_G8LF24 YbgE n=118 Tax=Bacteria TaxID=2 RepID=G8LF24_ENTCL  83.3    4e-19
+  UniRef90_C0B259 Cyd operon protein YbgE n=11 Tax=Enterobacteral...  83.3    4e-19
+  UniRef90_A0A0M0HTB3 Cytochrome bd biosynthesis protein n=1 Tax=...  83.3    4e-19
+  UniRef90_A0A0F2IU90 Cytochrome bd biosynthesis protein n=5 Tax=...  83.3    5e-19
+  UniRef90_A0A1Q9HUZ5 Cyd operon protein YbgE n=3 Tax=Vibrio TaxI...  83.3    5e-19
+  UniRef90_A0A090TAM2 Cyd operon protein YbgE n=3 Tax=Vibrio TaxI...  82.9    6e-19
+  UniRef90_A0A087KV93 Cytochrome bd biosynthesis protein n=2 Tax=...  82.9    6e-19
+  UniRef90_A0A0M0HWB9 Cytochrome bd biosynthesis protein n=1 Tax=...  82.9    6e-19
+  UniRef90_Q7MJ81 Uncharacterized protein n=13 Tax=Vibrio TaxID=6...  82.9    7e-19
+  UniRef90_UPI00093BF761 cyd operon protein YbgE n=1 Tax=Candidat...  82.5    7e-19
+  UniRef90_V6MUZ6 Uncharacterized protein n=4 Tax=Proteus TaxID=2...  82.5    8e-19
+  UniRef90_UPI0009489F70 cyd operon protein YbgE n=1 Tax=Pantoea ...  82.5    8e-19
+  UniRef90_UPI000C16AD6F cyd operon protein YbgE n=1 Tax=Vibrio f...  82.5    8e-19
+  UniRef90_A0A370QHK3 Cyd operon protein YbgE n=1 Tax=Enterobacil...  82.5    9e-19
+  UniRef90_A0A090RG82 Protein YbgE n=1 Tax=Vibrio sp. C7 TaxID=10...  82.5    1e-18
+  UniRef90_A0A1G7Z821 Cyd operon protein YbgE n=1 Tax=Vibrio xiam...  82.5    1e-18
+  UniRef90_UPI0002482D5A cyd operon protein YbgE n=1 Tax=Vibrio o...  82.5    1e-18
+  UniRef90_A0A0G4QI04 Uncharacterized protein n=5 Tax=Proteus Tax...  82.1    1e-18
+  UniRef90_UPI000970E3EB cyd operon protein YbgE n=1 Tax=Vibrio o...  82.5    1e-18
+  UniRef90_A0A2N7DI16 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  82.1    1e-18
+  UniRef90_A0A0A5I1I2 Cytochrome bd biosynthesis protein n=4 Tax=...  82.1    1e-18
+  UniRef90_UPI00077B76BA cyd operon protein YbgE n=1 Tax=Enteroba...  82.1    1e-18
+  UniRef90_A0A2N7D666 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  81.7    2e-18
+  UniRef90_J3BZF0 Cyd operon protein YbgE n=2 Tax=Enterobacterale...  81.7    2e-18
+  UniRef90_A0A140EZY3 Cyd operon protein YbgE n=6 Tax=Yersiniacea...  81.7    2e-18
+  UniRef90_A0A329X719 Cyd operon protein YbgE n=1 Tax=Photorhabdu...  81.7    2e-18
+  UniRef90_UPI00034D685C cyd operon protein YbgE n=1 Tax=Erwinia ...  81.3    2e-18
+  UniRef90_A0A1Y0L6W8 Cyd operon protein YbgE n=1 Tax=Tatumella c...  81.3    2e-18
+  UniRef90_UPI000950F960 cyd operon protein YbgE n=1 Tax=Vibrio p...  81.0    4e-18
+  UniRef90_A0A2I0FS22 Cyd operon protein YbgE n=1 Tax=Enterobacte...  81.0    4e-18
+  UniRef90_A0A0C2K5G4 Cytochrome bd biosynthesis protein n=1 Tax=...  81.0    4e-18
+  UniRef90_A0A0W8H0L2 Cyd operon protein YbgE n=13 Tax=Pseudomona...  81.0    4e-18
+  UniRef90_A0A1X1C0W2 Cyd operon protein YbgE n=1 Tax=Pantoea con...  80.6    4e-18
+  UniRef90_C1DEK9 Uncharacterized protein n=4 Tax=Azotobacter Tax...  80.6    5e-18
+  UniRef90_A0A3N1VTS5 Cyd operon protein YbgE n=1 Tax=Erwinia sp....  80.6    5e-18
+  UniRef90_A0A3N2EP59 Cyd operon protein YbgE n=1 Tax=Raoultella ...  80.6    5e-18
+  UniRef90_E1SH19 Uncharacterized protein ybgE n=8 Tax=Pantoea Ta...  80.2    6e-18
+  UniRef90_A0A0F5Y6X5 Cytochrome bd biosynthesis protein n=2 Tax=...  80.2    6e-18
+  UniRef90_A0A1A7R5C8 Cytochrome bd biosynthesis protein n=4 Tax=...  80.2    7e-18
+  UniRef90_N8S7Y8 Cyd operon protein YbgE n=11 Tax=Acinetobacter ...  80.2    8e-18
+  UniRef90_Q6LP42 Uncharacterized protein n=4 Tax=Photobacterium ...  79.8    9e-18
+  UniRef90_A0A349FGK2 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  79.8    9e-18
+  UniRef90_UPI00073E174D cyd operon protein YbgE n=2 Tax=Enteroba...  79.8    9e-18
+  UniRef90_A0A241WEB5 Cytochrome bd biosynthesis protein n=3 Tax=...  79.8    1e-17
+  UniRef90_K8WG46 Uncharacterized protein n=8 Tax=Gammaproteobact...  79.8    1e-17
+  UniRef90_A0A241W0N6 Cytochrome bd biosynthesis protein n=1 Tax=...  79.8    1e-17
+  UniRef90_A0A0N9WF60 Cytochrome bd biosynthesis protein n=1 Tax=...  79.8    1e-17
+  UniRef90_B6XJH5 Cyd operon protein YbgE n=4 Tax=Providencia alc...  79.4    1e-17
+  UniRef90_A0A094XEM0 Cyd operon protein YbgE n=6 Tax=Enterobacte...  79.4    1e-17
+  UniRef90_A0A2N8ZAP9 Uncharacterized protein n=1 Tax=Vibrio tape...  79.4    1e-17
+  UniRef90_W9BNQ3 YbgE protein n=63 Tax=Enterobacterales TaxID=91...  79.4    1e-17
+  UniRef90_UPI000518D2E4 cyd operon protein YbgE n=1 Tax=Vibrio a...  79.4    1e-17
+  UniRef90_UPI00063CA020 cyd operon protein YbgE n=2 Tax=Vibrio T...  79.4    2e-17
+  UniRef90_E6WC28 Cyd operon protein YbgE n=4 Tax=Pantoea TaxID=5...  79.0    2e-17
+  UniRef90_UPI000B34D951 cyd operon protein YbgE n=1 Tax=Thaumasi...  79.0    2e-17
+  UniRef90_UPI00069BF9E3 cyd operon protein YbgE n=1 Tax=Yersinia...  79.0    2e-17
+  UniRef90_A0A0G3CPQ4 Cyd operon protein YbgE n=1 Tax=Pragia font...  79.0    2e-17
+  UniRef90_A0A385C4R6 Cytochrome bd biosynthesis protein n=1 Tax=...  78.6    3e-17
+  UniRef90_D1NXN9 Cyd operon protein YbgE n=2 Tax=Providencia rus...  78.6    3e-17
+  UniRef90_A0A1X1DWY7 Cyd operon protein YbgE n=2 Tax=Pantoea Tax...  78.6    3e-17
+  UniRef90_A0A376YFV9 Inner membrane protein n=1 Tax=Escherichia ...  78.3    3e-17
+  UniRef90_A0A3A8FCE2 Cytochrome bd biosynthesis protein n=6 Tax=...  78.6    3e-17
+  UniRef90_A0A1G5R366 Cyd operon protein YbgE n=1 Tax=Photorhabdu...  78.3    3e-17
+  UniRef90_UPI00046A7D36 cyd operon protein YbgE n=1 Tax=Pantoea ...  78.3    4e-17
+  UniRef90_N9M425 Cyd operon protein YbgE n=21 Tax=Bacteria TaxID...  78.3    4e-17
+  UniRef90_A0A1D3U701 Cyd operon protein YbgE n=32 Tax=Enterobact...  78.3    4e-17
+  UniRef90_A0A2D0KRE0 Cyd operon protein YbgE n=4 Tax=Xenorhabdus...  77.9    5e-17
+  UniRef90_A0A2T3K6M3 Cyd operon protein YbgE n=19 Tax=Vibrionace...  78.6    5e-17
+  UniRef90_E0LUE3 Cyd operon protein YbgE n=22 Tax=Bacteria TaxID...  77.9    5e-17
+  UniRef90_A0A172YP51 Cytochrome bd biosynthesis protein n=1 Tax=...  77.9    5e-17
+  UniRef90_A0A0A3W603 Uncharacterized protein n=1 Tax=Acinetobact...  77.9    5e-17
+  UniRef90_A0A178KMG4 Cytochrome bd biosynthesis protein n=1 Tax=...  77.9    7e-17
+  UniRef90_UPI000D018EA0 cytochrome bd biosynthesis protein n=1 T...  77.9    7e-17
+  UniRef90_D2TPD7 Putative exported protein n=1 Tax=Citrobacter r...  77.5    8e-17
+  UniRef90_N9MJ71 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  77.5    1e-16
+  UniRef90_A0A379AJR4 Cyd operon protein YbgE n=1 Tax=Enterobacte...  77.9    1e-16
+  UniRef90_UPI000E1D9C32 cyd operon protein YbgE n=2 Tax=Escheric...  76.3    1e-16
+  UniRef90_A0A365SY92 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  77.1    1e-16
+  UniRef90_A0A2D1IRU0 Cytochrome bd biosynthesis protein n=1 Tax=...  77.1    1e-16
+  UniRef90_D2U0E8 Uncharacterized protein n=1 Tax=Arsenophonus na...  76.7    1e-16
+  UniRef90_W8G807 Uncharacterized protein n=6 Tax=root TaxID=1 Re...  77.1    2e-16
+  UniRef90_A0A1T4S4Z9 Uncharacterized protein n=2 Tax=Oceanospiri...  76.3    2e-16
+  UniRef90_UPI000B5C58E6 cyd operon protein YbgE n=1 Tax=Vibrio a...  76.7    2e-16
+  UniRef90_N9CBT4 Cyd operon protein YbgE n=1 Tax=Acinetobacter b...  76.7    2e-16
+  UniRef90_N8QJY3 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  76.7    2e-16
+  UniRef90_UPI000569B6FA cyd operon protein YbgE n=2 Tax=Photobac...  76.7    2e-16
+  UniRef90_A0A3A8FBV9 Cytochrome bd biosynthesis protein n=3 Tax=...  76.3    2e-16
+  UniRef90_A0A2S2FFL2 Cytochrome bd biosynthesis protein n=3 Tax=...  76.3    2e-16
+  UniRef90_A0A3D1Z6B9 Cyd operon protein YbgE n=2 Tax=Vibrio TaxI...  76.3    2e-16
+  UniRef90_A0A1X9TZN8 Cyd operon protein YbgE n=9 Tax=Photobacter...  76.3    3e-16
+  UniRef90_UPI000E3CB960 cyd operon protein YbgE n=1 Tax=Vibrio m...  75.9    3e-16
+  UniRef90_A0A135ZNF1 Cytochrome bd biosynthesis protein n=3 Tax=...  75.9    3e-16
+  UniRef90_A0A0L7TC27 Cytochrome bd biosynthesis protein n=1 Tax=...  75.9    3e-16
+  UniRef90_A0A1E5E1B5 Cytochrome bd biosynthesis protein n=1 Tax=...  75.9    3e-16
+  UniRef90_A0A0D8P7V1 Cytochrome bd biosynthesis protein n=5 Tax=...  75.9    3e-16
+  UniRef90_UPI000F0B83BF cyd operon protein YbgE n=1 Tax=Vibrio s...  75.6    3e-16
+  UniRef90_N9CH95 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  75.9    4e-16
+  UniRef90_A0A3N6UNE2 Cyd operon protein YbgE n=1 Tax=Erwinia psi...  75.9    4e-16
+  UniRef90_A0A376ZQJ4 Inner membrane protein n=5 Tax=Enterobacter...  76.3    4e-16
+  UniRef90_I4ZUK4 Uncharacterized protein n=11 Tax=Acinetobacter ...  75.9    4e-16
+  UniRef90_A0A379APS0 Cyd operon protein YbgE n=4 Tax=Avibacteriu...  75.6    4e-16
+  UniRef90_N8WPM7 Cyd operon protein YbgE n=5 Tax=Acinetobacter T...  75.6    4e-16
+  UniRef90_A0A1P8PKD9 Cyd operon protein YbgE family protein n=2 ...  75.6    4e-16
+  UniRef90_E3BI63 Cyd operon protein YbgE n=1 Tax=Vibrio caribbea...  75.2    6e-16
+  UniRef90_A0A0B9GIP1 Cytochrome bd biosynthesis protein n=2 Tax=...  75.2    6e-16
+  UniRef90_A0A1H7C107 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  75.2    6e-16
+  UniRef90_A0A241V9I0 Cytochrome bd biosynthesis protein n=4 Tax=...  75.2    7e-16
+  UniRef90_A0A1H5ZZI2 Cyd operon protein YbgE n=1 Tax=Vibrio hang...  75.2    7e-16
+  UniRef90_A0A1B2M0Q3 Cytochrome bd biosynthesis protein n=1 Tax=...  75.2    7e-16
+  UniRef90_A0A2T3IVI0 Cyd operon protein YbgE n=1 Tax=Photobacter...  75.2    7e-16
+  UniRef90_A0A380Z0F1 Cyd operon protein YbgE n=1 Tax=Avibacteriu...  76.3    7e-16
+  UniRef90_UPI000EA0E215 cytochrome bd biosynthesis protein n=1 T...  75.2    8e-16
+  UniRef90_A0A0F5V7U4 Cytochrome bd biosynthesis protein n=1 Tax=...  75.2    8e-16
+  UniRef90_UPI000B35C077 cytochrome bd biosynthesis protein n=1 T...  75.2    8e-16
+  UniRef90_A0A0A3ANM4 Cytochrome bd biosynthesis protein n=1 Tax=...  74.8    8e-16
+  UniRef90_UPI00082F60CF cyd operon protein YbgE n=1 Tax=Erwinia ...  74.8    9e-16
+  UniRef90_A0A0J9B8W0 Cytochrome bd biosynthesis protein n=2 Tax=...  74.8    9e-16
+  UniRef90_A0A143G3D0 Cytochrome bd biosynthesis protein n=1 Tax=...  74.8    9e-16
+  UniRef90_N8YC51 Uncharacterized protein n=1 Tax=Acinetobacter g...  74.8    9e-16
+  UniRef90_A0A2U3N3C5 Uncharacterized protein n=1 Tax=Acinetobact...  74.8    1e-15
+  UniRef90_A0A031LTJ4 Cytochrome bd biosynthesis protein n=3 Tax=...  74.8    1e-15
+  UniRef90_A0A1E4UZZ3 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  74.4    1e-15
+  UniRef90_A0A2X3GP85 Protein ybgE n=1 Tax=Klebsiella pneumoniae ...  74.0    1e-15
+  UniRef90_A0A2N0XUH9 Cyd operon protein YbgE n=3 Tax=Vibrio TaxI...  74.4    1e-15
+  UniRef90_A0A1I3TYS1 Cyd operon protein YbgE n=1 Tax=Methylophag...  74.0    1e-15
+  UniRef90_UPI0004041372 cytochrome bd biosynthesis protein n=1 T...  74.4    1e-15
+  UniRef90_UPI00056ABE54 cyd operon protein YbgE n=1 Tax=Photorha...  74.0    2e-15
+  UniRef90_A0A1W6B0W8 Cyd operon protein YbgE n=1 Tax=Pantoea alh...  74.0    2e-15
+  UniRef90_A0A0J1HBW9 Cytochrome bd biosynthesis protein n=1 Tax=...  74.0    2e-15
+  UniRef90_A0A1E5C0T9 Cyd operon protein YbgE n=2 Tax=Enterovibri...  73.6    2e-15
+  UniRef90_UPI000563E0C8 hypothetical protein n=1 Tax=Pseudomonas...  73.6    3e-15
+  UniRef90_A0A1H5SEK0 Cyd operon protein YbgE n=3 Tax=Gammaproteo...  73.3    3e-15
+  UniRef90_U4E2Q9 Putative Cyd operon protein YbgE n=4 Tax=Vibrio...  73.6    3e-15
+  UniRef90_A0A1E5CIA6 Cyd operon protein YbgE n=4 Tax=Enterovibri...  73.3    3e-15
+  UniRef90_A0A0A8NYD5 Protein ybgE n=3 Tax=Xenorhabdus nematophil...  73.3    4e-15
+  UniRef90_A0A3N9TG99 Cyd operon protein YbgE n=1 Tax=Vibrio sp. ...  73.3    4e-15
+  UniRef90_A0A329J4K5 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  73.3    4e-15
+  UniRef90_UPI000488B97C cytochrome bd biosynthesis protein n=1 T...  72.9    4e-15
+  UniRef90_A0A1P8EFX6 Cytochrome bd biosynthesis protein n=9 Tax=...  73.3    4e-15
+  UniRef90_A0A0M9CWD9 Cytochrome bd biosynthesis protein n=2 Tax=...  72.9    5e-15
+  UniRef90_A0A1C2E297 Cyd operon protein YbgE n=4 Tax=Pseudomonad...  72.9    5e-15
+  UniRef90_A0A379WX99 Cyd operon protein YbgE n=1 Tax=Salmonella ...  72.1    5e-15
+  UniRef90_A0A2S4RMG5 Cyd operon protein YbgE n=3 Tax=Erwiniaceae...  72.9    6e-15
+  UniRef90_A0A370WKF1 Cyd operon protein YbgE (Fragment) n=1 Tax=...  72.1    6e-15
+  UniRef90_A0A068RCB8 Uncharacterized protein YbgE n=2 Tax=Serrat...  72.9    6e-15
+  UniRef90_A0A3B0MJG7 Uncharacterized protein n=5 Tax=Arsenophonu...  72.9    6e-15
+  UniRef90_A0A2M8S0E8 Cyd operon protein YbgE n=1 Tax=Conservatib...  72.5    6e-15
+  UniRef90_A0A1H9MJG1 Cyd operon protein YbgE n=2 Tax=Pseudomonad...  72.5    7e-15
+  UniRef90_A0A1T4UIY4 Cyd operon protein YbgE n=2 Tax=Enterovibri...  72.5    7e-15
+  UniRef90_A0A2D9ZZ76 Cytochrome bd biosynthesis protein n=1 Tax=...  72.5    7e-15
+  UniRef90_A0A1Y6IPA5 Uncharacterized protein n=1 Tax=Vibrio mang...  72.5    8e-15
+  UniRef90_UPI000C796F8C cyd operon protein YbgE n=1 Tax=Pasteure...  72.1    9e-15
+  UniRef90_A0A165UJC0 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  72.1    9e-15
+  UniRef90_A0A0F5EQ10 Cyd operon protein YbgE n=4 Tax=Avibacteriu...  72.1    1e-14
+  UniRef90_A0A0J1GKG0 Cytochrome bd biosynthesis protein n=2 Tax=...  72.1    1e-14
+  UniRef90_A0A1X1D9B6 Cyd operon protein YbgE n=1 Tax=Pantoea wal...  71.7    1e-14
+  UniRef90_A0A368LMB2 Cytochrome bd biosynthesis protein n=2 Tax=...  72.1    1e-14
+  UniRef90_A0A1B8T1F0 Cyd operon protein YbgE n=7 Tax=Pseudomonad...  71.7    1e-14
+  UniRef90_A0A1Z2SII3 Cytochrome bd biosynthesis protein n=3 Tax=...  71.7    2e-14
+  UniRef90_UPI00098570CF cyd operon protein YbgE n=2 Tax=Rodentib...  71.7    2e-14
+  UniRef90_A0A1V9UNQ3 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  71.7    2e-14
+  UniRef90_A0A098T0Q1 Uncharacterized protein n=2 Tax=Pseudomonas...  71.7    2e-14
+  UniRef90_A0A191W4K2 Cyd operon protein YbgE n=9 Tax=Vibrionacea...  71.7    2e-14
+  UniRef90_A0A3P2C4U2 Cyd operon protein YbgE n=1 Tax=Klebsiella ...  71.3    2e-14
+  UniRef90_UPI0003F50DA9 hypothetical protein n=1 Tax=Oceanospiri...  71.3    2e-14
+  UniRef90_A0A2U1FT01 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  71.3    2e-14
+  UniRef90_C9PMN0 Cyd operon protein YbgE n=2 Tax=Pasteurella dag...  71.3    2e-14
+  UniRef90_F9GMG8 Putative cyd operon protein YbgE n=29 Tax=Haemo...  71.3    2e-14
+  UniRef90_UPI000D6526C8 cyd operon protein YbgE n=1 Tax=Aggregat...  71.3    2e-14
+  UniRef90_A0A1A7PWD2 Cytochrome bd biosynthesis protein n=3 Tax=...  71.3    2e-14
+  UniRef90_A0A1W1UMH2 Cyd operon protein YbgE n=1 Tax=Pasteurella...  71.3    2e-14
+  UniRef90_G5PZX2 Protein YbgE n=7 Tax=Salmonella enterica I TaxI...  70.6    2e-14
+  UniRef90_A0A241W6Y9 Cytochrome bd biosynthesis protein n=2 Tax=...  70.9    3e-14
+  UniRef90_F5T248 Uncharacterized protein n=1 Tax=Methylophaga am...  70.9    3e-14
+  UniRef90_A0A1G6HFY5 Cyd operon protein YbgE n=1 Tax=Acinetobact...  70.9    3e-14
+  UniRef90_A0A1H6WDY0 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  70.9    3e-14
+  UniRef90_A0A1G7UM06 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  70.9    3e-14
+  UniRef90_V2UVM4 Uncharacterized protein n=4 Tax=Gammaproteobact...  70.9    3e-14
+  UniRef90_UPI00056FAD5A cyd operon protein YbgE n=1 Tax=Vibrio r...  70.9    4e-14
+  UniRef90_Q5E695 Uncharacterized protein n=5 Tax=Aliivibrio fisc...  70.6    4e-14
+  UniRef90_A0A0W8JHU2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  70.6    4e-14
+  UniRef90_A0A090IL50 Membrane protein, Cyd operon protein n=6 Ta...  70.6    4e-14
+  UniRef90_F0LQE2 Uncharacterized protein n=4 Tax=Vibrio furnissi...  70.2    4e-14
+  UniRef90_A0A1E7RDS6 Cytochrome bd biosynthesis protein n=1 Tax=...  70.2    5e-14
+  UniRef90_N9RD60 Cyd operon protein YbgE n=6 Tax=Acinetobacter T...  70.2    6e-14
+  UniRef90_B6EGJ8 Membrane protein n=3 Tax=Aliivibrio TaxID=51167...  70.2    6e-14
+  UniRef90_A0A2N5BZT7 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  70.2    7e-14
+  UniRef90_A0A009ZZF3 Cyd operon YbgE family protein n=7 Tax=Acin...  70.2    7e-14
+  UniRef90_R7C1W3 Cyd operon protein YbgE n=2 Tax=Sutterella TaxI...  70.2    7e-14
+  UniRef90_A0A0M9F952 Cytochrome bd biosynthesis protein n=5 Tax=...  70.2    7e-14
+  UniRef90_A0A0D8LQ05 Cytochrome bd biosynthesis protein n=9 Tax=...  69.8    8e-14
+  UniRef90_N9TA77 Cyd operon protein YbgE n=43 Tax=Acinetobacter ...  69.8    8e-14
+  UniRef90_UPI0005099733 cyd operon protein YbgE n=1 Tax=Necropso...  69.8    8e-14
+  UniRef90_A0A0J1HI82 Cytochrome bd biosynthesis protein n=1 Tax=...  69.8    9e-14
+  UniRef90_Q6FA35 Uncharacterized protein n=2 Tax=Acinetobacter T...  70.2    9e-14
+  UniRef90_A0A1C3ERT2 Cyd operon protein YbgE n=1 Tax=Enterovibri...  69.8    9e-14
+  UniRef90_A0A1M5X8I9 Uncharacterized protein n=4 Tax=Vibrio TaxI...  69.8    9e-14
+  UniRef90_A0A1H7FPD4 Cyd operon protein YbgE n=3 Tax=Pseudomonas...  69.8    1e-13
+  UniRef90_A0A0K1N4Z1 Cytochrome bd biosynthesis protein n=9 Tax=...  69.4    1e-13
+  UniRef90_UPI000C6DAFA8 cyd operon protein YbgE n=1 Tax=Klebsiel...  68.6    1e-13
+  UniRef90_A0A1H7WWM2 Cyd operon protein YbgE n=1 Tax=Pasteurella...  69.4    1e-13
+  UniRef90_A0A3A6RE74 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  69.8    1e-13
+  UniRef90_A0A223MFH6 Uncharacterized protein n=4 Tax=Actinobacil...  69.4    1e-13
+  UniRef90_A0A011NEN2 Cyd operon protein YbgE n=3 Tax=Mannheimia ...  69.4    1e-13
+  UniRef90_UPI0002E88DCE cyd operon protein YbgE n=2 Tax=Pasteure...  69.4    1e-13
+  UniRef90_A0A0E2GK58 Cyd operon protein YbgE n=5 Tax=Acinetobact...  69.4    1e-13
+  UniRef90_A0A089YJ62 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  69.4    1e-13
+  UniRef90_A0A1L6KMU8 Cyd operon protein YbgE (Cyd_oper_YbgE) fam...  69.4    1e-13
+  UniRef90_A0A1G7SBI5 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  69.4    1e-13
+  UniRef90_W0QFG2 Cyd operon protein YbgE n=2 Tax=Mannheimia vari...  69.0    1e-13
+  UniRef90_UPI000570DDCC cytochrome bd biosynthesis protein n=1 T...  69.4    1e-13
+  UniRef90_UPI000B90B016 cytochrome bd biosynthesis protein n=1 T...  69.0    1e-13
+  UniRef90_A0A1T0BC78 Cyd operon protein YbgE n=1 Tax=[Haemophilu...  69.0    1e-13
+  UniRef90_A0A151XXP0 Cytochrome bd biosynthesis protein n=2 Tax=...  69.0    2e-13
+  UniRef90_A0A1Y5DRK3 Uncharacterized protein n=1 Tax=Methylophag...  68.6    2e-13
+  UniRef90_A0A1E3XKQ3 Cyd operon protein YbgE n=10 Tax=Pasteurell...  69.0    2e-13
+  UniRef90_A0A2M8HB57 Uncharacterized protein n=2 Tax=Aeromonas T...  69.0    2e-13
+  UniRef90_A0A0L0BCV1 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  68.6    2e-13
+  UniRef90_A0A2K1QBS0 Cyd operon protein YbgE n=1 Tax=Mixta theic...  68.6    2e-13
+  UniRef90_A0A377W564 Protein ybgE n=1 Tax=Klebsiella pneumoniae ...  68.6    2e-13
+  UniRef90_A0A377HLV1 Cyd operon protein YbgE n=2 Tax=Grimontia h...  68.6    2e-13
+  UniRef90_H0KH74 Cyd operon protein YbgE n=7 Tax=Aggregatibacter...  68.6    2e-13
+  UniRef90_A0A2U1BRV0 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  68.6    3e-13
+  UniRef90_N9FKM1 Cyd operon protein YbgE n=2 Tax=Acinetobacter b...  68.6    3e-13
+  UniRef90_A0A061CV10 Memnrane protein n=7 Tax=Pseudomonas TaxID=...  68.6    3e-13
+  UniRef90_A0A379WDD5 Cyd operon protein YbgE n=1 Tax=Salmonella ...  68.2    3e-13
+  UniRef90_E6KYY7 Uncharacterized protein n=5 Tax=Aggregatibacter...  68.2    3e-13
+  UniRef90_I3UNR2 Memnrane protein n=2 Tax=Pseudomonas TaxID=286 ...  68.2    3e-13
+  UniRef90_W0Q7B9 Cyd operon protein YbgE n=1 Tax=Mannheimia sp. ...  68.2    3e-13
+  UniRef90_A0A0A3AIR2 Cytochrome bd biosynthesis protein n=14 Tax...  67.9    4e-13
+  UniRef90_Q65UN5 Uncharacterized protein n=4 Tax=Basfia TaxID=69...  67.9    4e-13
+  UniRef90_S7WF53 Protein ybgE n=7 Tax=Acinetobacter TaxID=469 Re...  67.9    4e-13
+  UniRef90_A0A176HMX8 Uncharacterized protein n=6 Tax=Proteobacte...  68.2    4e-13
+  UniRef90_A0A0E3ZQQ8 Cyd operon protein YbgE n=1 Tax=Pasteurella...  67.9    5e-13
+  UniRef90_UPI000F81EF6F cyd operon protein YbgE n=1 Tax=Pasteure...  67.9    5e-13
+  UniRef90_A0A1A7QEH6 Cytochrome bd biosynthesis protein n=2 Tax=...  67.9    5e-13
+  UniRef90_A0A1B3JEL6 Uncharacterized protein n=6 Tax=Pasteurella...  67.5    5e-13
+  UniRef90_A0A0J5P4K0 Cytochrome bd biosynthesis protein n=1 Tax=...  67.5    6e-13
+  UniRef90_UPI0003FC2753 hypothetical protein n=1 Tax=Oceanospiri...  67.5    6e-13
+  UniRef90_S3NH04 Cyd operon protein YbgE n=1 Tax=Acinetobacter r...  67.5    7e-13
+  UniRef90_A0A2G4DLS0 Uncharacterized protein n=1 Tax=Pseudomonas...  67.1    8e-13
+  UniRef90_A0A3B7LUM6 Cytochrome bd biosynthesis protein n=2 Tax=...  67.1    9e-13
+  UniRef90_K0G537 Cyd operon protein YbgE n=4 Tax=Actinobacillus ...  67.1    9e-13
+  UniRef90_A0A2T3N4L9 Cyd operon protein YbgE n=1 Tax=Photobacter...  67.1    9e-13
+  UniRef90_A0A0F0E8E6 Membrane protein n=5 Tax=Burkholderiaceae T...  66.7    1e-12
+  UniRef90_A0A1Q9G641 Cyd operon protein YbgE n=1 Tax=Photobacter...  67.1    1e-12
+  UniRef90_I4MY08 Uncharacterized protein n=1 Tax=Pseudomonas sp....  66.7    1e-12
+  UniRef90_C4SDY3 Uncharacterized protein n=2 Tax=Yersinia TaxID=...  65.9    1e-12
+  UniRef90_A0A1G7J135 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  66.7    1e-12
+  UniRef90_R9AUP9 Cyd operon protein YbgE n=4 Tax=Acinetobacter T...  66.7    1e-12
+  UniRef90_A0A1Z9Z248 Cytochrome bd biosynthesis protein n=2 Tax=...  66.7    1e-12
+  UniRef90_UPI000509A53B cytochrome bd biosynthesis protein n=2 T...  66.3    1e-12
+  UniRef90_U1R189 Cyd operon protein YbgE n=1 Tax=Aggregatibacter...  66.3    2e-12
+  UniRef90_A0A379C7H8 Cyd operon protein YbgE n=1 Tax=Phocoenobac...  66.3    2e-12
+  UniRef90_A0A017QHM4 Cyd operon protein YbgE n=9 Tax=Haemophilus...  67.1    2e-12
+  UniRef90_E1W4A9 Conserved inner membrane protein n=21 Tax=Paste...  66.3    2e-12
+  UniRef90_A0A1V3K8D3 Cyd operon protein YbgE n=1 Tax=Rodentibact...  66.3    2e-12
+  UniRef90_UPI000B9C5AC6 hypothetical protein n=1 Tax=Psychromona...  66.3    2e-12
+  UniRef90_A0A1V3JK06 Cyd operon protein YbgE n=1 Tax=Rodentibact...  66.3    2e-12
+  UniRef90_A0A2M8RX60 Cyd operon protein YbgE n=1 Tax=Caviibacter...  65.9    2e-12
+  UniRef90_A0A263HD12 Cyd operon protein YbgE n=2 Tax=Pasteurella...  65.9    2e-12
+  UniRef90_UPI00057D2B5D cytochrome bd biosynthesis protein n=1 T...  65.9    2e-12
+  UniRef90_A0A085HKP4 YbgE family protein n=1 Tax=Leminorella gri...  65.2    3e-12
+  UniRef90_A0A0A7MFU4 Cytochrome bd biosynthesis protein n=1 Tax=...  65.5    3e-12
+  UniRef90_A0A2E2D991 Cytochrome bd biosynthesis protein n=1 Tax=...  65.2    4e-12
+  UniRef90_UPI000FDCFFC6 UPI000FDCFFC6 related cluster n=1 Tax=un...  65.2    4e-12
+  UniRef90_A0A1V4B1I1 Inner membrane protein n=1 Tax=Haemophilus ...  65.5    4e-12
+  UniRef90_N8QGJ1 Cyd operon protein YbgE n=6 Tax=Acinetobacter T...  65.5    4e-12
+  UniRef90_U3AT34 Uncharacterized protein n=1 Tax=Vibrio azureus ...  64.8    4e-12
+  UniRef90_A0A2T3NR18 Cyd operon protein YbgE n=1 Tax=Photobacter...  65.5    4e-12
+  UniRef90_A0A2U8FJC6 Cyd operon protein YbgE n=1 Tax=Actinobacil...  65.2    5e-12
+  UniRef90_A0A3N4WUV2 Cyd operon protein YbgE n=1 Tax=Frederiksen...  65.2    5e-12
+  UniRef90_A0A0R3AD82 Membrane protein n=11 Tax=Pseudomonas TaxID...  65.2    5e-12
+  UniRef90_C5S0A5 Uncharacterized protein n=1 Tax=Actinobacillus ...  65.2    6e-12
+  UniRef90_J5HPM3 Cyd operon protein YbgE n=3 Tax=Haemophilus spu...  65.2    6e-12
+  UniRef90_A0A1T0AQZ2 Cyd operon protein YbgE n=1 Tax=Haemophilus...  65.2    6e-12
+  UniRef90_A0A1H6SI02 Cyd operon protein YbgE n=6 Tax=Azotobacter...  65.2    6e-12
+  UniRef90_A0A3C0YB98 Uncharacterized protein n=1 Tax=Polaromonas...  65.2    6e-12
+  UniRef90_A0A248ZYR8 Cyd operon protein YbgE n=3 Tax=Mannheimia ...  64.8    7e-12
+  UniRef90_A0A0F5ZT88 Cytochrome bd biosynthesis protein n=6 Tax=...  64.8    7e-12
+  UniRef90_UPI0009B81020 hypothetical protein n=2 Tax=Pseudomonas...  64.8    7e-12
+  UniRef90_UPI00048089AD membrane protein n=1 Tax=Pseudomonas Tax...  64.8    7e-12
+  UniRef90_UPI0009A89203 cytochrome bd biosynthesis protein n=4 T...  64.8    8e-12
+  UniRef90_A0A1Z4VPG4 Uncharacterized protein n=2 Tax=Thiohalobac...  64.4    1e-11
+  UniRef90_H3KE25 Cyd operon protein YbgE n=1 Tax=Sutterella parv...  64.0    1e-11
+  UniRef90_A0A1F4PF94 Uncharacterized protein n=2 Tax=unclassifie...  64.4    1e-11
+  UniRef90_A0A023C8F9 Membrane protein n=2 Tax=Pseudomonas extrem...  64.4    1e-11
+  UniRef90_A0A1V3TTH7 Cyd operon protein YbgE n=1 Tax=Pasteurella...  64.4    1e-11
+  UniRef90_U4S478 Cyd operon YbgE family protein n=5 Tax=Haemophi...  64.0    1e-11
+  UniRef90_A0A1E4JL03 Uncharacterized protein n=2 Tax=Thiobacillu...  64.0    1e-11
+  UniRef90_UPI000DCFEA6B cytochrome bd biosynthesis protein n=1 T...  64.0    1e-11
+  UniRef90_M7CNX3 Protein YbgE n=1 Tax=Morganella morganii SC01 T...  63.2    2e-11
+  UniRef90_A0A1V3LBK8 Cyd operon protein YbgE n=8 Tax=Rodentibact...  64.0    2e-11
+  UniRef90_UPI000380D887 hypothetical protein n=1 Tax=Psychromona...  64.0    2e-11
+  UniRef90_UPI000FD736D9 hypothetical protein n=1 Tax=Pseudomonas...  63.6    2e-11
+  UniRef90_A0A379ESK6 Cyd operon protein YbgE n=1 Tax=Pasteurella...  63.6    2e-11
+  UniRef90_A0A377I0G1 Cyd operon protein YbgE n=1 Tax=Haemophilus...  64.0    2e-11
+  UniRef90_A0A175VHK3 Uncharacterized protein n=8 Tax=Aeromonadac...  64.0    2e-11
+  UniRef90_A0A2L0IE64 Cyd operon protein YbgE n=1 Tax=Mixta gavin...  63.6    2e-11
+  UniRef90_A0A0B1YJM1 Membrane protein n=2 Tax=Ralstonia sp. A12 ...  63.6    2e-11
+  UniRef90_A0A0K1QRY0 Membrane protein n=2 Tax=Pseudomonas TaxID=...  63.6    2e-11
+  UniRef90_A0A1J5BYU2 Uncharacterized protein n=2 Tax=unclassifie...  63.6    2e-11
+  UniRef90_A0A2E0WPR1 Cyd operon protein YbgE n=1 Tax=Gammaproteo...  63.6    2e-11
+  UniRef90_UPI00068811DE Cyd operon protein YbgE n=1 Tax=gamma pr...  63.2    3e-11
+  UniRef90_A0A2Z6I7C4 Uncharacterized protein n=1 Tax=Sutterella ...  62.9    3e-11
+  UniRef90_R1H4V8 Protein YbgE n=2 Tax=Aeromonas TaxID=642 RepID=...  63.6    3e-11
+  UniRef90_M4UMW1 Uncharacterized protein n=1 Tax=Psychromonas sp...  63.2    3e-11
+  UniRef90_A0A0M4H906 Cytochrome bd biosynthesis protein n=4 Tax=...  63.2    4e-11
+  UniRef90_A0A1V3IMZ2 Cyd operon protein YbgE n=4 Tax=Pasteurella...  62.9    4e-11
+  UniRef90_A0A369AG12 Cyd operon protein YbgE n=1 Tax=Extensimona...  63.6    4e-11
+  UniRef90_A0A0H4GS67 Cytochrome bd biosynthesis protein n=2 Tax=...  62.9    4e-11
+  UniRef90_E7H4M4 Uncharacterized protein n=3 Tax=Sutterella TaxI...  62.9    4e-11
+  UniRef90_A0A135I8M6 Cytochrome bd biosynthesis protein n=1 Tax=...  62.9    4e-11
+  UniRef90_UPI00071DB6DE hypothetical protein n=1 Tax=Vitreoscill...  62.9    4e-11
+  UniRef90_A0A235EWE7 Uncharacterized protein n=1 Tax=Thauera pro...  63.2    4e-11
+  UniRef90_A0A2E2GFX6 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  62.9    4e-11
+  UniRef90_UPI000DD39CDD Cyd operon protein YbgE n=2 Tax=Pseudomo...  62.9    4e-11
+  UniRef90_A0A2P1VNJ8 Cyd operon protein YbgE n=6 Tax=Plesiomonas...  63.2    5e-11
+  UniRef90_A0A1S8YJ40 Cyd operon protein YbgE n=1 Tax=Izhakiella ...  62.9    5e-11
+  UniRef90_D8JIR3 Cyd operon protein YbgE (Cyd_oper_YbgE) family ...  62.9    5e-11
+  UniRef90_A0A1H8KDL7 Predicted membrane protein, encoded in cydA...  62.5    5e-11
+  UniRef90_UPI000FD725AC Cyd operon protein YbgE n=1 Tax=Sulfuriv...  62.9    5e-11
+  UniRef90_UPI000684F630 hypothetical protein n=1 Tax=Psychromona...  62.9    5e-11
+  UniRef90_A0A1V3IB23 Cyd operon protein YbgE n=1 Tax=Rodentibact...  62.5    5e-11
+  UniRef90_A0A267AGT0 Uncharacterized protein n=2 Tax=Pseudomonas...  62.5    5e-11
+  UniRef90_A0A1N6Q125 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  62.5    6e-11
+  UniRef90_UPI000E0D8659 hypothetical protein n=1 Tax=Rhodoferax ...  62.5    6e-11
+  UniRef90_UPI0009DE1C06 hypothetical protein n=1 Tax=Polaromonas...  62.9    6e-11
+  UniRef90_A0A1I5X532 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  62.5    6e-11
+  UniRef90_V4PWH7 Uncharacterized protein n=13 Tax=Gammaproteobac...  62.5    6e-11
+  UniRef90_A0A2X2UXD8 Cyd operon protein YbgE n=1 Tax=Citrobacter...  61.3    7e-11
+  UniRef90_A0A1I4UDN6 Cyd operon protein YbgE n=1 Tax=Izhakiella ...  62.1    7e-11
+  UniRef90_UPI0006546C27 hypothetical protein n=1 Tax=Pseudomonas...  62.1    8e-11
+  UniRef90_UPI000EB2299F cytochrome bd biosynthesis protein n=1 T...  62.1    8e-11
+  UniRef90_A0A2N2SMR5 Uncharacterized protein n=1 Tax=Betaproteob...  62.1    9e-11
+  UniRef90_A0A172WWS2 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  62.1    1e-10
+  UniRef90_A0A100HR50 Uncharacterized protein n=5 Tax=Burkholderi...  62.1    1e-10
+  UniRef90_A0A3N4W827 Cyd operon protein YbgE n=1 Tax=Vespertilii...  62.1    1e-10
+  UniRef90_A0A2E6JV23 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  62.1    1e-10
+  UniRef90_A0A0J9GGJ0 Membrane protein n=1 Tax=Ralstonia sp. MD27...  61.7    1e-10
+  UniRef90_UPI00083A3B46 hypothetical protein n=1 Tax=Thauera phe...  61.7    1e-10
+  UniRef90_UPI0005BA95A6 hypothetical protein n=1 Tax=Aeromonas m...  61.7    1e-10
+  UniRef90_A0A1H8LPN3 Cyd operon protein YbgE (Cyd_oper_YbgE) n=1...  61.3    1e-10
+  UniRef90_I4JNH6 Uncharacterized protein n=5 Tax=Pseudomonas Tax...  61.3    2e-10
+  UniRef90_A0A127KB45 Uncharacterized protein n=1 Tax=Thauera hum...  61.3    2e-10
+  UniRef90_UPI0009ECCB6F hypothetical protein n=1 Tax=Alteromonad...  61.7    2e-10
+  UniRef90_U5N8E8 Uncharacterized protein n=2 Tax=Candidatus Symb...  61.7    2e-10
+  UniRef90_A0A0K6ISV7 Predicted membrane protein, encoded in cydA...  61.3    2e-10
+  UniRef90_A0A3D0HCW3 Cytochrome bd biosynthesis protein n=1 Tax=...  61.3    2e-10
+  UniRef90_A0A2H0J9E4 Uncharacterized protein n=1 Tax=Comamonadac...  60.9    2e-10
+  UniRef90_N2J7M3 Cyd operon protein YbgE n=6 Tax=Pseudomonadacea...  60.9    2e-10
+  UniRef90_A0A259DA53 Uncharacterized protein n=3 Tax=unclassifie...  60.9    2e-10
+  UniRef90_N6YLG2 Uncharacterized protein n=2 Tax=Thauera TaxID=3...  60.9    2e-10
+  UniRef90_A0A2A2J1B0 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  60.9    3e-10
+  UniRef90_A0A1S1TZV1 Membrane protein n=1 Tax=Janthinobacterium ...  60.9    3e-10
+  UniRef90_A0A179CZM8 Cyd operon protein YbgE n=5 Tax=Bibersteini...  60.5    3e-10
+  UniRef90_A0A0D6S197 Protein ybgE n=7 Tax=Pseudomonas TaxID=286 ...  60.5    3e-10
+  UniRef90_A0A398C4C4 Uncharacterized protein n=1 Tax=Simplicispi...  60.9    3e-10
+  UniRef90_A0A1C7HMN3 Cytochrome bd biosynthesis protein n=2 Tax=...  60.2    4e-10
+  UniRef90_UPI000F6090F7 Cyd operon protein YbgE n=1 Tax=Sulfurif...  60.2    5e-10
+  UniRef90_UPI000E47DE01 cytochrome bd biosynthesis protein n=1 T...  60.2    5e-10
+  UniRef90_I3DNN0 Putative cyd operon protein YbgE n=7 Tax=Haemop...  59.8    6e-10
+  UniRef90_A0A1S2CTH8 Uncharacterized protein n=4 Tax=Aeromonas T...  60.2    6e-10
+  UniRef90_A0A023WUA5 Uncharacterized protein n=2 Tax=Pseudomonas...  59.8    7e-10
+  UniRef90_A0A147HAW2 Cyd operon protein YbgE n=18 Tax=Pseudomona...  59.8    7e-10
+  UniRef90_A0A0S2SNY5 Protein YbgE n=2 Tax=Aeromonas TaxID=642 Re...  59.8    7e-10
+  UniRef90_A0A2W4K0P8 Cyd operon protein YbgE n=1 Tax=Proteobacte...  59.8    8e-10
+  UniRef90_A0A2I0CUX5 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  59.4    9e-10
+  UniRef90_A0A0T6VJ19 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  59.4    1e-09
+  UniRef90_A0A2G2PSW0 Uncharacterized protein n=2 Tax=Proteobacte...  59.4    1e-09
+  UniRef90_A0A328BWY3 Cytochrome bd biosynthesis protein n=1 Tax=...  59.0    1e-09
+  UniRef90_F8H2Q1 Uncharacterized protein n=19 Tax=Bacteria TaxID...  59.0    1e-09
+  UniRef90_A0A1V3I401 Uncharacterized protein n=10 Tax=Vibrionace...  59.0    1e-09
+  UniRef90_A0A0D0QYT5 Contig_4, whole genome shotgun sequence n=2...  59.4    1e-09
+  UniRef90_N6Y320 Uncharacterized protein (Fragment) n=2 Tax=Thau...  58.6    1e-09
+  UniRef90_A0A3D6AN72 Uncharacterized protein n=1 Tax=Oxalobacter...  58.6    2e-09
+  UniRef90_A0A061JLG8 Uncharacterized protein n=2 Tax=Pseudomonas...  58.6    2e-09
+  UniRef90_UPI000D3EDFED hypothetical protein n=1 Tax=Gammaproteo...  59.0    2e-09
+  UniRef90_A0A024HG54 Uncharacterized protein n=1 Tax=Pseudomonas...  58.6    2e-09
+  UniRef90_A0A2S9KEI4 Uncharacterized protein n=2 Tax=Burkholderi...  58.2    3e-09
+  UniRef90_UPI000DA5F3A1 Cyd operon protein YbgE n=2 Tax=Pseudomo...  57.8    3e-09
+  UniRef90_A0A0F9N1W7 Uncharacterized protein n=1 Tax=marine sedi...  57.8    3e-09
+  UniRef90_N6Z657 Uncharacterized protein n=1 Tax=Thauera linaloo...  58.2    3e-09
+  UniRef90_A0A2W5E2A0 Uncharacterized protein n=1 Tax=Roseateles ...  57.8    3e-09
+  UniRef90_A0A2M7FPV7 Uncharacterized protein n=2 Tax=unclassifie...  57.5    3e-09
+  UniRef90_A0A1A9KB06 Cyd operon protein YbgE n=12 Tax=Proteobact...  57.8    4e-09
+  UniRef90_L0GNH0 Putative membrane protein n=5 Tax=Gammaproteoba...  57.5    5e-09
+  UniRef90_A0A2T4IGV9 Uncharacterized protein n=1 Tax=Thauera sp....  57.5    5e-09
+  UniRef90_A0A0F5AN47 Uncharacterized protein n=24 Tax=Vibrionace...  57.5    6e-09
+  UniRef90_A0A1H2HKC3 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  57.5    6e-09
+  UniRef90_A0A1D9H990 Uncharacterized protein n=3 Tax=Burkholderi...  57.5    7e-09
+  UniRef90_A0A254MYS6 Uncharacterized protein n=1 Tax=Pelomonas p...  57.1    7e-09
+  UniRef90_A0A1G8FK79 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  57.1    7e-09
+  UniRef90_A0A1J5CT05 Uncharacterized protein n=2 Tax=unclassifie...  57.1    8e-09
+  UniRef90_UPI00048AB219 hypothetical protein n=1 Tax=Tepidiphilu...  57.1    8e-09
+  UniRef90_UPI0009DD88B4 hypothetical protein n=2 Tax=Salinivibri...  57.5    9e-09
+  UniRef90_UPI0009FE8A63 hypothetical protein n=1 Tax=Ideonella s...  56.3    1e-08
+  UniRef90_A0A0N0JBN8 Uncharacterized protein n=2 Tax=unclassifie...  56.7    1e-08
+  UniRef90_A0A323UYB4 Uncharacterized protein n=1 Tax=Azoarcus co...  56.7    1e-08
+  UniRef90_A0A0K8P2A9 Uncharacterized protein n=2 Tax=Ideonella s...  56.3    1e-08
+  UniRef90_UPI00036C0FA1 hypothetical protein n=1 Tax=Thiobacillu...  56.3    1e-08
+  UniRef90_A0A1N6S3M9 Cyd operon protein YbgE n=1 Tax=Aeromonas s...  56.7    1e-08
+  UniRef90_UPI000B3E965E cyd operon protein YbgE n=1 Tax=Klebsiel...  55.5    1e-08
+  UniRef90_A1K4U2 Conserved hypothetical membrane protein n=2 Tax...  56.3    1e-08
+  UniRef90_A0A2N5BET7 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  56.3    2e-08
+  UniRef90_UPI000FDE51F5 hypothetical protein n=1 Tax=Hahella sp....  55.9    2e-08
+  UniRef90_A0A2N2ABC7 Uncharacterized protein n=1 Tax=Gammaproteo...  55.5    2e-08
+  UniRef90_R6ADL8 Putative cyd operon protein YbgE n=5 Tax=Proteo...  55.9    2e-08
+  UniRef90_A0A1N6XGR2 Cyd operon protein YbgE n=4 Tax=Pseudomonas...  55.9    2e-08
+  UniRef90_A0A2N1DPH5 Uncharacterized protein n=1 Tax=Psychromona...  55.9    2e-08
+  UniRef90_A0A2N2TKS4 Uncharacterized protein n=1 Tax=Betaproteob...  55.9    2e-08
+  UniRef90_A0A1E4KI44 Uncharacterized protein n=3 Tax=Thiobacillu...  55.9    2e-08
+  UniRef90_A0A0C2RW31 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  55.9    2e-08
+  UniRef90_A0A1F4JBW8 Uncharacterized protein n=1 Tax=Burkholderi...  55.9    3e-08
+  UniRef90_A0A2X5NLT7 Cyd operon protein YbgE n=1 Tax=Tatumella p...  54.8    3e-08
+  UniRef90_A0A1Q3QXT6 Uncharacterized protein n=1 Tax=Hydrogenoph...  55.5    4e-08
+  UniRef90_A0A1G0NBA9 Uncharacterized protein n=1 Tax=Hydrogenoph...  55.1    4e-08
+  UniRef90_A0A2N5BIT3 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  55.1    5e-08
+  UniRef90_A0A0B3BW99 Cyd operon protein YbgE n=1 Tax=Pseudomonas...  54.8    5e-08
+  UniRef90_A0A2G8E4D5 Cyd operon protein YbgE n=1 Tax=Erwinia sp....  54.8    6e-08
+  UniRef90_A0A1F4GW37 Uncharacterized protein n=4 Tax=Betaproteob...  54.8    7e-08
+  UniRef90_UPI000B359689 cyd operon protein YbgE n=1 Tax=Thaumasi...  54.4    8e-08
+  UniRef90_A0A1N6E779 Cyd operon protein YbgE n=1 Tax=Salinivibri...  54.4    8e-08
+  UniRef90_A0A0C2RPA6 Cyd operon protein YbgE n=3 Tax=Pseudomonas...  54.4    9e-08
+  UniRef90_A0A259FE50 Uncharacterized protein n=1 Tax=Hydrogenoph...  52.8    3e-07
+  UniRef90_A0A0F9SL50 Uncharacterized protein n=1 Tax=marine sedi...  52.8    3e-07
+  UniRef90_W9TRR2 Cyd operon protein YbgE n=2 Tax=Pseudomonas Tax...  52.8    4e-07
+  UniRef90_U7QTT4 Uncharacterized protein n=4 Tax=Photorhabdus Ta...  51.3    6e-07
+  UniRef90_D5CR00 Cyd operon protein YbgE n=1 Tax=Sideroxydans li...  52.1    7e-07
+  UniRef90_UPI0009C19F4D hypothetical protein n=1 Tax=Aeromonas v...  51.7    1e-06
+  UniRef90_UPI0003B7412E membrane protein n=1 Tax=Aquaspirillum s...  50.1    3e-06
+  UniRef90_K1K5V0 Cyd operon protein YbgE n=60 Tax=Gammaproteobac...  49.4    5e-06
+  UniRef90_UPI000A0737F5 hypothetical protein n=1 Tax=Aeromonas s...  49.8    6e-06
+  UniRef90_A0A1G8XPK9 Cyd operon protein YbgE n=5 Tax=Pseudomonas...  49.8    6e-06
+  UniRef90_A0A090RTA1 Uncharacterized protein n=1 Tax=Vibrio mari...  48.6    6e-06
+  UniRef90_A0A0W7U0K6 Uncharacterized protein n=1 Tax=Aeromonas s...  49.4    6e-06
+  UniRef90_A0A1G3EKK3 Cyd operon protein YbgE n=1 Tax=Pseudomonad...  49.8    6e-06
+  UniRef90_A0A1Y0GAV9 Uncharacterized protein n=1 Tax=Sulfuriferu...  48.6    7e-06
+  UniRef90_A0A377AX12 Inner membrane protein n=1 Tax=Escherichia ...  48.2    1e-05
+  UniRef90_A0A3N6V0K6 Uncharacterized protein n=3 Tax=Aeromonas T...  48.2    1e-05
+  UniRef90_UPI0009B879DB hypothetical protein n=3 Tax=Aeromonas v...  47.8    2e-05
+  UniRef90_U2MP32 Protein YbgE n=1 Tax=Pantoea sp. AS-PWVM4 TaxID...  45.5    9e-05
+  UniRef90_A0A0A8VB00 Cyd operon protein YbgE n=1 Tax=Yersinia ru...  44.4    2e-04
+  UniRef90_A0A0H3NST9 Protein ybgE n=1 Tax=Yersinia enterocolitic...  43.2    5e-04
+  UniRef90_A0A2H9U8X3 Uncharacterized protein n=1 Tax=Aeromonas c...  42.4    0.003
+  UniRef90_A0A090P643 Cyd operon protein YbgE n=1 Tax=Vibrio pont...  41.3    0.003
+  UniRef90_A0A090P714 Protein YbgE n=1 Tax=Vibrio ponticus TaxID=...  39.4    0.020
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A2G8TC14 Uncharacterized protein n=1 Tax=Massilia eu...  62.1    8e-11
+  UniRef90_A0A085V9P1 Membrane protein n=1 Tax=Pseudomonas syring...  61.3    2e-10
+  UniRef90_A0A1S8GT05 Uncharacterized protein n=4 Tax=Pseudomonas...  61.3    2e-10
+  UniRef90_W8PKP7 Membrane protein n=2 Tax=Pseudomonas brassicace...  60.9    3e-10
+  UniRef90_A0A387C3Q6 Uncharacterized protein n=2 Tax=Pseudomonas...  60.9    3e-10
+  UniRef90_A0A1N7F6Q4 Cyd operon protein YbgE (Cyd_oper_YbgE) n=3...  59.8    7e-10
+  UniRef90_A0A3D4Q0P5 Uncharacterized protein n=1 Tax=Cellvibrio ...  60.2    1e-09
+  UniRef90_A0A2K4KW78 Uncharacterized protein n=2 Tax=Pseudomonas...  59.0    1e-09
+  UniRef90_G8Q4E7 Cyd operon protein family protein n=14 Tax=Pseu...  58.6    2e-09
+  UniRef90_UPI0008EE8DAD hypothetical protein n=1 Tax=Pseudomonas...  58.2    3e-09
+  UniRef90_A0A0A0DVY8 Membrane protein n=1 Tax=Aquabacterium sp. ...  57.5    4e-09
+  UniRef90_A0A2T0ZUM4 Cyd operon protein YbgE n=2 Tax=Pseudomonas...  56.3    2e-08
+  UniRef90_A0A2S9K2T0 Uncharacterized protein n=1 Tax=Malikia gra...  55.9    2e-08
+  UniRef90_A0A1B3CVZ6 Uncharacterized protein n=3 Tax=Pseudomonas...  55.9    2e-08
+  UniRef90_A0A3N7CDF0 Uncharacterized protein n=1 Tax=Paucibacter...  55.5    3e-08
+  UniRef90_N6ZW53 Uncharacterized protein n=1 Tax=Thauera phenyla...  56.3    4e-08
+  UniRef90_A0A2S9K5W9 Uncharacterized protein n=1 Tax=Malikia gra...  54.8    5e-08
+  UniRef90_A2SGV2 Uncharacterized protein n=3 Tax=Methylibium Tax...  53.6    1e-07
+  UniRef90_A0A1G3I596 Uncharacterized protein n=1 Tax=Rhodoferax ...  53.6    1e-07
+  UniRef90_J9CA62 Cyd operon protein YbgE (Fragment) n=1 Tax=gut ...  52.8    2e-07
+  UniRef90_A0A266Q3N8 Uncharacterized protein n=1 Tax=Cellvibrio ...  53.6    2e-07
+  UniRef90_F1W237 Uncharacterized protein n=1 Tax=Oxalobacteracea...  53.2    2e-07
+  UniRef90_UPI00098F8261 hypothetical protein n=1 Tax=Cellvibrio ...  54.0    2e-07
+  UniRef90_UPI0003789930 hypothetical protein n=2 Tax=Solimonas T...  52.8    3e-07
+  UniRef90_A0A1D9GT68 Uncharacterized protein n=3 Tax=Burkholderi...  52.5    4e-07
+  UniRef90_A0A2U8GKL9 Uncharacterized protein n=4 Tax=Betaproteob...  52.8    4e-07
+  UniRef90_A0A1G3Y0S4 Uncharacterized protein n=2 Tax=Thiobacillu...  52.5    5e-07
+  UniRef90_A0A315D1X7 Uncharacterized protein n=1 Tax=Limnohabita...  52.1    5e-07
+  UniRef90_UPI000A042494 hypothetical protein n=1 Tax=Hydrogenoph...  52.1    6e-07
+  UniRef90_UPI00038171F0 hypothetical protein n=1 Tax=Methylovers...  52.1    7e-07
+  UniRef90_K1JVV8 Uncharacterized protein n=2 Tax=Sutterella TaxI...  52.1    7e-07
+  UniRef90_A0A2E2TL27 Cyd operon protein YbgE n=1 Tax=Legionellal...  51.3    1e-06
+  UniRef90_UPI00037246D9 hypothetical protein n=1 Tax=Oxalobacter...  51.3    1e-06
+  UniRef90_UPI0008387133 hypothetical protein n=1 Tax=Thauera but...  51.3    2e-06
+  UniRef90_A0A345P9W1 Uncharacterized protein n=1 Tax=Moraxellace...  50.9    2e-06
+  UniRef90_A0A1U9NF16 Uncharacterized protein n=1 Tax=Cellvibrio ...  50.5    3e-06
+  UniRef90_A0A1E4NDA2 Uncharacterized protein n=1 Tax=Thiobacillu...  50.1    4e-06
+  UniRef90_A0A3C1MVE6 Uncharacterized protein n=1 Tax=Betaproteob...  49.4    7e-06
+  UniRef90_A0A1H9SC84 Cyd operon protein YbgE (Cyd_oper_YbgE) n=1...  49.0    1e-05
+  UniRef90_A0A1E3YUX9 Uncharacterized protein n=3 Tax=Burkholderi...  48.6    1e-05
+  UniRef90_A0A1R0HAY0 Uncharacterized protein n=1 Tax=Polynucleob...  49.0    1e-05
+  UniRef90_C1DAC5 Cyd_oper_YbgE domain containing protein n=3 Tax...  48.2    2e-05
+  UniRef90_UPI000C32F80C hypothetical protein n=1 Tax=Macromonas ...  47.4    4e-05
+  UniRef90_UPI000FD42EAB UPI000FD42EAB related cluster n=1 Tax=un...  47.4    4e-05
+  UniRef90_A0A2S0P6J7 Uncharacterized protein n=2 Tax=Microvirgul...  47.4    4e-05
+  UniRef90_UPI000FDCC529 ATP-binding cassette domain-containing p...  49.8    4e-05
+  UniRef90_A0A1G3ZZ42 Uncharacterized protein n=2 Tax=Xanthomonad...  47.1    5e-05
+  UniRef90_A0A259KLZ3 Uncharacterized protein n=1 Tax=Burkholderi...  46.7    6e-05
+  UniRef90_R7KIH6 Putative cyd operon protein YbgE n=1 Tax=Sutter...  47.1    6e-05
+  UniRef90_UPI00040190D6 hypothetical protein n=2 Tax=Azonexus Ta...  47.1    6e-05
+  UniRef90_A0A3N4U3K0 Cyd operon protein YbgE n=1 Tax=Tibeticola ...  46.7    7e-05
+  UniRef90_A0A2K9LB03 Uncharacterized protein n=3 Tax=Rhodocyclal...  46.7    1e-04
+  UniRef90_A0A2D8A7S5 Uncharacterized protein n=2 Tax=Oceanospiri...  45.5    2e-04
+  UniRef90_A0A352LNQ0 Cytochrome bd biosynthesis protein n=1 Tax=...  44.7    3e-04
+  UniRef90_A0A0K6GV13 Predicted membrane protein, encoded in cydA...  44.7    5e-04
+  UniRef90_A0A1R1I7U9 Uncharacterized protein n=1 Tax=Azonexus hy...  44.7    5e-04
+  UniRef90_A0A3N2RAG5 Cyd operon protein YbgE n=1 Tax=Lysobacter ...  44.7    6e-04
+  UniRef90_H0TEI7 Uncharacterized protein n=1 Tax=Bradyrhizobium ...  44.0    8e-04
+  UniRef90_A0A2D5PAM1 Cytochrome bd biosynthesis protein n=1 Tax=...  44.4    8e-04
+  UniRef90_UPI0009860B95 hypothetical protein n=1 Tax=Cobetia Tax...  44.7    9e-04
+  UniRef90_A0A2N2S240 Uncharacterized protein n=1 Tax=Betaproteob...  43.6    0.002
+  UniRef90_A0A109K1X3 Uncharacterized protein n=2 Tax=Bradyrhizob...  43.2    0.002
+  UniRef90_UPI00046A2B63 hypothetical protein n=1 Tax=Cobetia Tax...  43.2    0.002
+  UniRef90_I8T2H5 Uncharacterized protein n=1 Tax=Hydrocarbonipha...  42.8    0.003
+  UniRef90_A0A2H0I079 Uncharacterized protein (Fragment) n=1 Tax=...  41.7    0.005
+  UniRef90_UPI000E6616EE Cyd operon protein YbgE n=1 Tax=Rhodospi...  40.9    0.013
+  UniRef90_A0A0S2DBV5 Uncharacterized protein n=2 Tax=Lysobacter ...  40.5    0.026
+  UniRef90_Q1Z9K1 Uncharacterized protein n=3 Tax=Photobacterium ...  39.4    0.029
+  UniRef90_A0A1H3IFW7 Predicted membrane protein, encoded in cydA...  40.1    0.032
+  UniRef90_UPI00037AB329 hypothetical protein n=1 Tax=Cupriavidus...  39.0    0.064
+  UniRef90_A0A0S2FML8 Uncharacterized protein n=2 Tax=Lysobacter ...  38.6    0.082
+  UniRef90_A0A1U9JPZ6 Uncharacterized protein n=1 Tax=Aquaspirill...  38.6    0.087
+  UniRef90_A0A1H3MZR7 Predicted membrane protein, encoded in cydA...  39.0    0.090
+  UniRef90_UPI00034D73AD hypothetical protein n=1 Tax=Lysobacter ...  38.6    0.090
+  UniRef90_A0A0P7E070 Uncharacterized protein n=5 Tax=Halomonadac...  37.4    0.26 
+  UniRef90_A0A2N2QRR9 Uncharacterized protein n=1 Tax=Betaproteob...  37.4    0.28 
+  UniRef90_A0A329B3F4 Cyd operon protein YbgE n=2 Tax=Microvirgul...  37.0    0.37 
+  UniRef90_UPI000381F983 hypothetical protein n=1 Tax=beta proteo...  37.0    0.43 
+  UniRef90_UPI00048D5CE1 hypothetical protein n=1 Tax=Cupriavidus...  36.7    0.43 
+  UniRef90_A0A1H9I613 Cyd operon protein YbgE (Cyd_oper_YbgE) n=1...  36.7    0.49 
+  UniRef90_A0A318KML0 Cyd operon protein YbgE n=1 Tax=Rivicola pi...  36.7    0.54 
+  UniRef90_A0A0S2G657 Uncharacterized protein n=1 Tax=Lysobacter ...  36.7    0.58 
+  UniRef90_A0A1M5AFX9 Cyd operon protein YbgE (Cyd_oper_YbgE) n=1...  36.7    0.60 
+  UniRef90_A0A1P8UHY5 Uncharacterized protein n=1 Tax=Acidihaloba...  37.0    0.74 
+  UniRef90_A0A372DRN0 Cyd operon protein YbgE n=1 Tax=Lysobacter ...  36.3    0.81 
+  UniRef90_A0A2C9M9S5 Uncharacterized protein n=1 Tax=Biomphalari...  37.8    0.86 
+  UniRef90_A0A132GSW2 Uncharacterized protein n=1 Tax=bacterium P...  37.4    0.95 
+  UniRef90_N6X848 Uncharacterized protein n=1 Tax=Thauera sp. 63 ...  35.1    0.95 
+  UniRef90_N6XYI4 Memnrane protein n=1 Tax=Thauera sp. 63 TaxID=4...  35.1    1.1  
+  UniRef90_A0A2G2GHY6 Uncharacterized protein n=1 Tax=Robiginitom...  37.4    1.1  
+  UniRef90_A0A0Q8D663 Uncharacterized protein n=1 Tax=Lysobacter ...  35.9    1.1  
+  UniRef90_A0A1G9YK94 Uncharacterized protein n=1 Tax=Streptomyce...  35.5    1.4  
+  UniRef90_UPI0003F113CF mucin-22-like n=1 Tax=Chrysochloris asia...  37.0    1.5  
+  UniRef90_A0A1D8IP05 Uncharacterized protein n=1 Tax=Acidihaloba...  35.5    1.9  
+  UniRef90_A0A2E8XRI3 Uncharacterized protein n=1 Tax=Alphaproteo...  35.1    2.5  
+  UniRef90_A0A2S4KAQ4 Uncharacterized protein n=1 Tax=Cobetia sp....  34.7    2.8  
+  UniRef90_A0A1D8K7G3 Uncharacterized protein n=1 Tax=Acidihaloba...  35.1    3.0  
+  UniRef90_A0A0D1LDF9 Uncharacterized protein n=3 Tax=Bradyrhizob...  34.7    3.1  
+  UniRef90_A0A1F6LK82 Uncharacterized protein n=1 Tax=Candidatus ...  35.5    4.7  
+  UniRef90_A0A2W4R7F5 Uncharacterized protein n=1 Tax=Bacteroidet...  35.5    4.8  
+  UniRef90_UPI0005BC95B6 hypothetical protein n=1 Tax=Halomonas x...  34.3    5.0  
+  UniRef90_A0A2T4ASC2 Uncharacterized protein n=1 Tax=Trichoderma...  35.5    5.7  
+  UniRef90_A0A3N1NUY2 Cyd operon protein YbgE n=1 Tax=Gallaecimon...  33.6    6.5  
+  UniRef90_A0A1G4JA63 LAME_0D07052g1_1 n=1 Tax=Lachancea meyersii...  34.7    6.8  
+  UniRef90_A0A0D6A3F7 Acyltransferase n=8 Tax=Lactobacillus aceto...  35.1    7.0  
+  UniRef90_A0A0F9Y3G3 Uncharacterized protein n=1 Tax=Trichoderma...  35.1    7.0  
+  UniRef90_A0A3M1AHJ5 FAD-binding protein (Fragment) n=1 Tax=Cald...  35.1    7.4  
+  UniRef90_A0A2R7MER0 Pilus assembly protein n=1 Tax=Acidovorax s...  34.7    7.5  
+  UniRef90_A4CNV2 Copper-translocating P-type ATPase n=1 Tax=Robi...  35.1    7.7  
+  UniRef90_A0A3N0VM55 Uncharacterized protein n=1 Tax=Sinobactera...  33.6    7.8  
+  UniRef90_A0A0L0HPS6 Plasma membrane ATPase n=1 Tax=Spizellomyce...  34.7    8.3  
+  UniRef90_A0A0F9QNT7 Uncharacterized protein n=1 Tax=marine sedi...  34.7    8.4  
+  UniRef90_A0A3M6E0I5 Phage terminase, ATPase subunit n=2 Tax=Pse...  34.7    8.7  
+  UniRef90_A0A3B9XU92 Uncharacterized protein n=3 Tax=Gammaproteo...  34.7    9.5  
+  UniRef90_A0A069DH62 Phosphoenolpyruvate-protein phosphotransfer...  34.7    9.5  
+  UniRef90_G9N012 Uncharacterized protein n=1 Tax=Hypocrea virens...  34.7    9.6  
+  UniRef90_A0A351E9D3 Uncharacterized protein (Fragment) n=1 Tax=...  34.7    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.165    0.524    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0504    0.140     1.90     42.6     43.6 
+
+Effective search space used: 749902867697
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,229 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415656.1
+
+Length=234
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P75968 Uncharacterized protein YmfE n=11 Tax=Enterobac...  474     2e-169
+  UniRef90_A0A3P6NHW6 E14 prophage predicted inner membrane prote...  314     8e-107
+  UniRef90_A0A0J2A335 E14 prophage predicted inner membrane prote...  299     2e-100
+  UniRef90_UPI000FD96422 UPI000FD96422 related cluster n=5 Tax=En...  299     3e-100
+  UniRef90_UPI000B8CCF7C hypothetical protein n=2 Tax=Enterobacte...  297     2e-99 
+  UniRef90_UPI000CFAF0E9 hypothetical protein n=1 Tax=Cronobacter...  296     2e-99 
+  UniRef90_UPI0004E72DCD hypothetical protein n=1 Tax=Pectobacter...  294     2e-98 
+  UniRef90_A0A0G3QA86 Membrane protein n=4 Tax=Enterobacterales T...  292     1e-97 
+  UniRef90_L3P5R6 Phage inner membrane protein n=3 Tax=Escherichi...  292     2e-97 
+  UniRef90_UPI0005E2F057 hypothetical protein n=1 Tax=Yersinia fr...  291     5e-97 
+  UniRef90_A0A0A3YTE3 Membrane protein n=1 Tax=Enterobacter cance...  275     1e-90 
+  UniRef90_UPI000BA9B5CD hypothetical protein n=1 Tax=Vibrio meto...  177     2e-52 
+  UniRef90_UPI000493DDC4 hypothetical protein n=1 Tax=Escherichia...  157     6e-46 
+  UniRef90_A0A1A8THX0 Uncharacterized protein n=1 Tax=Marinomonas...  156     2e-44 
+  UniRef90_A0A2A2DK20 Uncharacterized protein n=1 Tax=Pseudomonas...  156     3e-44 
+  UniRef90_UPI000A1DB152 hypothetical protein n=1 Tax=Pseudomonas...  155     1e-43 
+  UniRef90_A0A1I6G5T0 Uncharacterized protein n=2 Tax=Marinobacte...  154     3e-43 
+  UniRef90_UPI000835478B hypothetical protein n=1 Tax=Endozoicomo...  141     2e-38 
+  UniRef90_A0A3P4R634 Uncharacterized protein n=1 Tax=Escherichia...  124     2e-33 
+  UniRef90_UPI00069DA00F hypothetical protein n=1 Tax=Pseudomonas...  127     4e-33 
+  UniRef90_A0A3P5CDT9 Uncharacterized protein n=1 Tax=Escherichia...  114     2e-29 
+  UniRef90_A0A0F7A9Y3 Uncharacterized protein n=2 Tax=Pseudomonas...  116     1e-28 
+  UniRef90_A0A271VLX8 Uncharacterized protein n=2 Tax=Vibrio meto...  105     2e-25 
+  UniRef90_A0A2X3KCK9 E14 prophage predicted inner membrane prote...  100     3e-24 
+  UniRef90_A0A2X3K9D7 E14 prophage predicted inner membrane prote...  80.5    1e-16 
+  UniRef90_A0A271VMT2 Uncharacterized protein n=1 Tax=Vibrio meto...  75.1    2e-14 
+  UniRef90_Q1QNM5 Uncharacterized protein n=1 Tax=Nitrobacter ham...  50.1    6e-04 
+  UniRef90_A0A387GCC2 Uncharacterized protein n=2 Tax=Rhizobium T...  49.7    7e-04 
+  UniRef90_A0A3N1PLW8 Uncharacterized protein n=3 Tax=Gammaproteo...  48.9    0.001 
+  UniRef90_A0A3P5CFK9 Uncharacterized protein n=1 Tax=Escherichia...  39.3    0.15  
+  UniRef90_UPI00047A9634 hypothetical protein n=1 Tax=Acidobacter...  41.6    0.19  
+  UniRef90_UPI00056DF038 hypothetical protein n=1 Tax=Bradyrhizob...  42.0    0.28  
+  UniRef90_A0A3A2ZJV7 FAD binding domain-containing protein n=1 T...  41.2    0.70  
+  UniRef90_A0A3A5NY50 DUF3043 domain-containing protein n=1 Tax=A...  40.0    1.1   
+  UniRef90_UPI0009A37B69 LOW QUALITY PROTEIN: extracellular calci...  40.0    2.2   
+  UniRef90_A0A2N4YRM3 Uncharacterized protein (Fragment) n=1 Tax=...  35.8    4.7   
+  UniRef90_UPI000FD729FC DUF3043 domain-containing protein n=1 Ta...  37.7    6.2   
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.145    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1494760288296
+Warning: [psiblast] lcl|Query_1 NP_415656.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415656.1
+
+Length=234
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0J2A335 E14 prophage predicted inner membrane prote...  304     2e-102
+  UniRef90_L3P5R6 Phage inner membrane protein n=3 Tax=Escherichi...  300     8e-101
+  UniRef90_UPI000FD96422 UPI000FD96422 related cluster n=5 Tax=En...  299     3e-100
+  UniRef90_A0A0G3QA86 Membrane protein n=4 Tax=Enterobacterales T...  298     4e-100
+  UniRef90_P75968 Uncharacterized protein YmfE n=11 Tax=Enterobac...  297     1e-99 
+  UniRef90_UPI0004E72DCD hypothetical protein n=1 Tax=Pectobacter...  297     2e-99 
+  UniRef90_UPI0005E2F057 hypothetical protein n=1 Tax=Yersinia fr...  296     2e-99 
+  UniRef90_UPI000CFAF0E9 hypothetical protein n=1 Tax=Cronobacter...  296     3e-99 
+  UniRef90_UPI000B8CCF7C hypothetical protein n=2 Tax=Enterobacte...  296     3e-99 
+  UniRef90_A0A0A3YTE3 Membrane protein n=1 Tax=Enterobacter cance...  280     9e-93 
+  UniRef90_UPI000BA9B5CD hypothetical protein n=1 Tax=Vibrio meto...  235     5e-75 
+  UniRef90_A0A1A8THX0 Uncharacterized protein n=1 Tax=Marinomonas...  231     1e-73 
+  UniRef90_A0A1I6G5T0 Uncharacterized protein n=2 Tax=Marinobacte...  229     9e-73 
+  UniRef90_UPI000A1DB152 hypothetical protein n=1 Tax=Pseudomonas...  225     3e-71 
+  UniRef90_A0A2A2DK20 Uncharacterized protein n=1 Tax=Pseudomonas...  224     8e-71 
+  UniRef90_UPI00069DA00F hypothetical protein n=1 Tax=Pseudomonas...  210     2e-65 
+  UniRef90_UPI000835478B hypothetical protein n=1 Tax=Endozoicomo...  210     2e-65 
+  UniRef90_A0A3P6NHW6 E14 prophage predicted inner membrane prote...  189     1e-57 
+  UniRef90_A0A0F7A9Y3 Uncharacterized protein n=2 Tax=Pseudomonas...  178     7e-53 
+  UniRef90_UPI000493DDC4 hypothetical protein n=1 Tax=Escherichia...  166     2e-49 
+  UniRef90_A0A271VLX8 Uncharacterized protein n=2 Tax=Vibrio meto...  150     1e-42 
+  UniRef90_Q1QNM5 Uncharacterized protein n=1 Tax=Nitrobacter ham...  150     1e-41 
+  UniRef90_A0A387GCC2 Uncharacterized protein n=2 Tax=Rhizobium T...  139     6e-37 
+  UniRef90_A0A3P4R634 Uncharacterized protein n=1 Tax=Escherichia...  127     2e-34 
+  UniRef90_A0A3P5CDT9 Uncharacterized protein n=1 Tax=Escherichia...  102     5e-25 
+  UniRef90_A0A2X3KCK9 E14 prophage predicted inner membrane prote...  91.2    1e-20 
+  UniRef90_A0A271VMT2 Uncharacterized protein n=1 Tax=Vibrio meto...  88.1    2e-19 
+  UniRef90_A0A2X3K9D7 E14 prophage predicted inner membrane prote...  84.7    2e-18 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00056DF038 hypothetical protein n=1 Tax=Bradyrhizob...  117     2e-28
+  UniRef90_A0A0N0BWS2 Uncharacterized protein n=1 Tax=Bradyrhizob...  109     6e-26
+  UniRef90_A0A023XXW5 Uncharacterized protein n=2 Tax=Bradyrhizob...  112     2e-25
+  UniRef90_Q89TW4 Blr1659 protein n=2 Tax=Bradyrhizobium diazoeff...  100     9e-22
+  UniRef90_A0A3N1PLW8 Uncharacterized protein n=3 Tax=Gammaproteo...  70.0    4e-11
+  UniRef90_UPI0004AC084B hypothetical protein n=1 Tax=Pseudomonas...  60.4    1e-08
+  UniRef90_UPI00047A9634 hypothetical protein n=1 Tax=Acidobacter...  60.8    3e-08
+  UniRef90_UPI000DDE3BAA hypothetical protein n=1 Tax=Rhizobiales...  59.6    2e-07
+  UniRef90_A0A1N6LE62 Uncharacterized protein n=1 Tax=Bradyrhizob...  56.5    4e-07
+  UniRef90_A0A3P5CFK9 Uncharacterized protein n=1 Tax=Escherichia...  36.9    0.98 
+  UniRef90_UPI0003FAB7DB DUF262 domain-containing protein n=1 Tax...  40.8    1.1  
+  UniRef90_UPI0007ECE842 lipid phosphate phosphatase 2 isoform X1...  40.4    1.3  
+  UniRef90_A0A3C0XNE4 Uncharacterized protein n=1 Tax=Chloroflexi...  38.8    4.0  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.140    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0429    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1494760288296
+Results from round 3
+
+
+Query= NP_415656.1
+
+Length=234
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0J2A335 E14 prophage predicted inner membrane prote...  261     3e-85
+  UniRef90_L3P5R6 Phage inner membrane protein n=3 Tax=Escherichi...  256     3e-83
+  UniRef90_A0A0G3QA86 Membrane protein n=4 Tax=Enterobacterales T...  254     1e-82
+  UniRef90_UPI000FD96422 UPI000FD96422 related cluster n=5 Tax=En...  254     1e-82
+  UniRef90_UPI0005E2F057 hypothetical protein n=1 Tax=Yersinia fr...  254     2e-82
+  UniRef90_UPI0004E72DCD hypothetical protein n=1 Tax=Pectobacter...  253     3e-82
+  UniRef90_UPI000CFAF0E9 hypothetical protein n=1 Tax=Cronobacter...  253     4e-82
+  UniRef90_P75968 Uncharacterized protein YmfE n=11 Tax=Enterobac...  252     1e-81
+  UniRef90_UPI000B8CCF7C hypothetical protein n=2 Tax=Enterobacte...  252     1e-81
+  UniRef90_A0A0A3YTE3 Membrane protein n=1 Tax=Enterobacter cance...  240     5e-77
+  UniRef90_UPI000BA9B5CD hypothetical protein n=1 Tax=Vibrio meto...  203     1e-62
+  UniRef90_A0A1A8THX0 Uncharacterized protein n=1 Tax=Marinomonas...  202     4e-62
+  UniRef90_A0A1I6G5T0 Uncharacterized protein n=2 Tax=Marinobacte...  202     5e-62
+  UniRef90_UPI000A1DB152 hypothetical protein n=1 Tax=Pseudomonas...  200     2e-61
+  UniRef90_A0A2A2DK20 Uncharacterized protein n=1 Tax=Pseudomonas...  196     1e-59
+  UniRef90_UPI00069DA00F hypothetical protein n=1 Tax=Pseudomonas...  186     7e-56
+  UniRef90_UPI000835478B hypothetical protein n=1 Tax=Endozoicomo...  182     2e-54
+  UniRef90_UPI00056DF038 hypothetical protein n=1 Tax=Bradyrhizob...  169     5e-49
+  UniRef90_A0A0F7A9Y3 Uncharacterized protein n=2 Tax=Pseudomonas...  162     2e-46
+  UniRef90_Q1QNM5 Uncharacterized protein n=1 Tax=Nitrobacter ham...  162     5e-46
+  UniRef90_A0A3P6NHW6 E14 prophage predicted inner membrane prote...  158     1e-45
+  UniRef90_UPI000493DDC4 hypothetical protein n=1 Tax=Escherichia...  142     9e-40
+  UniRef90_A0A0N0BWS2 Uncharacterized protein n=1 Tax=Bradyrhizob...  135     3e-36
+  UniRef90_A0A387GCC2 Uncharacterized protein n=2 Tax=Rhizobium T...  136     1e-35
+  UniRef90_A0A023XXW5 Uncharacterized protein n=2 Tax=Bradyrhizob...  136     4e-34
+  UniRef90_A0A271VLX8 Uncharacterized protein n=2 Tax=Vibrio meto...  128     5e-34
+  UniRef90_UPI000DDE3BAA hypothetical protein n=1 Tax=Rhizobiales...  130     7e-34
+  UniRef90_A0A3N1PLW8 Uncharacterized protein n=3 Tax=Gammaproteo...  127     8e-33
+  UniRef90_Q89TW4 Blr1659 protein n=2 Tax=Bradyrhizobium diazoeff...  123     2e-30
+  UniRef90_A0A3P4R634 Uncharacterized protein n=1 Tax=Escherichia...  108     3e-27
+  UniRef90_UPI00047A9634 hypothetical protein n=1 Tax=Acidobacter...  93.9    1e-20
+  UniRef90_A0A3P5CDT9 Uncharacterized protein n=1 Tax=Escherichia...  88.6    2e-19
+  UniRef90_A0A2X3KCK9 E14 prophage predicted inner membrane prote...  80.1    2e-16
+  UniRef90_A0A271VMT2 Uncharacterized protein n=1 Tax=Vibrio meto...  79.7    3e-16
+  UniRef90_A0A1N6LE62 Uncharacterized protein n=1 Tax=Bradyrhizob...  77.4    6e-15
+  UniRef90_A0A2X3K9D7 E14 prophage predicted inner membrane prote...  73.1    6e-14
+  UniRef90_UPI0004AC084B hypothetical protein n=1 Tax=Pseudomonas...  61.2    5e-09
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A3D2TNA6 Uncharacterized protein n=1 Tax=Planctomyce...  40.0    0.41 
+  UniRef90_A0A3C0XNE4 Uncharacterized protein n=1 Tax=Chloroflexi...  40.4    0.95 
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0418    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1494760288296
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

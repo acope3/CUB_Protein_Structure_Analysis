@@ -1,0 +1,680 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415578.3
+
+Length=84
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AB34 Biofilm regulator BssS n=365 Tax=Proteobacteria...  177     1e-56
+  UniRef90_A0A0V9J6Z8 Transcriptional regulator n=79 Tax=Gammapro...  165     5e-52
+  UniRef90_A0A127L3B0 Biofilm regulator n=2 Tax=Enterobacteriacea...  164     8e-51
+  UniRef90_V5A7N0 BssS family protein n=3 Tax=Enterobacteriaceae ...  161     2e-50
+  UniRef90_A0A1A9F9M1 Transcriptional regulator n=98 Tax=Enteroba...  160     4e-50
+  UniRef90_UPI00031181BC biofilm formation regulator BssS n=1 Tax...  158     2e-49
+  UniRef90_A0A2T2Y2W6 Transcriptional regulator n=3 Tax=Kluyvera ...  158     3e-49
+  UniRef90_A0A3N1I3H8 Biofilm regulator BssS n=2 Tax=Enterobacter...  156     1e-48
+  UniRef90_A0A2T3CK15 Transcriptional regulator n=4 Tax=Enterobac...  155     3e-48
+  UniRef90_A0A1N6S6Z5 Biofilm regulator BssS n=4 Tax=Enterobacter...  155     3e-48
+  UniRef90_A0A2J7P520 Transcriptional regulator n=102 Tax=Bacteri...  155     6e-48
+  UniRef90_A0A0D1MPA1 BssS protein n=5 Tax=Enterobacteriaceae Tax...  154     2e-47
+  UniRef90_A0A0F0VBE9 Biofilm formation regulatory protein BssS n...  150     4e-46
+  UniRef90_G9Z730 Biofilm formation regulatory protein BssS n=4 T...  150     5e-46
+  UniRef90_I2BAG6 Biofilm regulator BssS n=4 Tax=Enterobacteriace...  149     1e-45
+  UniRef90_A0A351LTB2 Transcriptional regulator n=2 Tax=Franconib...  146     1e-44
+  UniRef90_UPI00036EE660 biofilm formation regulator BssS n=1 Tax...  146     2e-44
+  UniRef90_V5U0G3 Biofilm formation regulatory protein BssS n=21 ...  145     5e-44
+  UniRef90_UPI00073D9786 biofilm formation regulator BssS n=1 Tax...  144     7e-44
+  UniRef90_A0A291E034 Biofilm formation regulatory protein BssS n...  144     1e-43
+  UniRef90_A0A2P8VQF2 Transcriptional regulator n=1 Tax=Siccibact...  141     1e-42
+  UniRef90_A0A0Q4MX88 Transcriptional regulator n=27 Tax=Erwiniac...  129     2e-37
+  UniRef90_A0A2G8EJV0 Transcriptional regulator n=3 Tax=Enterobac...  125     2e-36
+  UniRef90_A0A1E7Z3S2 BssS family protein n=1 Tax=Candidatus Erwi...  124     8e-36
+  UniRef90_A0A0U5E8V4 Uncharacterized protein n=1 Tax=Erwinia ger...  124     1e-35
+  UniRef90_A0A0T9P775 Biofilm formation regulatory protein BssS n...  122     6e-35
+  UniRef90_A0A1X1DZ65 Transcriptional regulator n=4 Tax=Erwiniace...  121     1e-34
+  UniRef90_UPI000BB688F4 transcriptional regulator n=2 Tax=Entero...  120     2e-34
+  UniRef90_A0A2K9QGW8 Transcriptional regulator n=20 Tax=Enteroba...  120     3e-34
+  UniRef90_A0A2I5TJI5 Transcriptional regulator n=28 Tax=Enteroba...  120     3e-34
+  UniRef90_UPI000948FE0D biofilm formation regulator BssS n=1 Tax...  120     4e-34
+  UniRef90_A0A0T9JLS2 Biofilm formation regulatory protein BssS n...  119     1e-33
+  UniRef90_A0A034SYU1 Biofilm formation regulatory protein n=9 Ta...  118     2e-33
+  UniRef90_U3U885 YceP protein n=1 Tax=Candidatus Pantoea carbeki...  118     3e-33
+  UniRef90_UPI00051171A4 biofilm formation regulatory protein Bss...  117     3e-33
+  UniRef90_A0A0Q4M6R5 Transcriptional regulator n=18 Tax=Yersinia...  117     4e-33
+  UniRef90_A0A0U1HMU5 Biofilm formation regulatory protein BssS n...  117     5e-33
+  UniRef90_A0A0F7HFI3 Biofilm formation regulatory protein BssS n...  117     8e-33
+  UniRef90_A0A0K0HN43 Biofilm formation regulatory protein BssS n...  116     1e-32
+  UniRef90_A0A2I0G026 Transcriptional regulator n=1 Tax=Enterobac...  116     2e-32
+  UniRef90_A0A0B1QXV1 Biofilm formation regulatory protein BssS n...  115     3e-32
+  UniRef90_A0A2N5EFU9 Transcriptional regulator n=3 Tax=unclassif...  115     3e-32
+  UniRef90_UPI0007D6F4B2 transcriptional regulator n=1 Tax=Klebsi...  114     4e-32
+  UniRef90_A0A2S6VQK1 Transcriptional regulator n=1 Tax=Pantoea s...  115     5e-32
+  UniRef90_E2XFA4 Biofilm formation regulatory protein BssS n=1 T...  114     6e-32
+  UniRef90_J3HNV1 Uncharacterized protein n=2 Tax=Pantoea TaxID=5...  114     1e-31
+  UniRef90_A0A370R355 Biofilm regulator BssS n=1 Tax=Enterobacill...  114     1e-31
+  UniRef90_UPI0003731751 biofilm formation regulator BssS n=1 Tax...  112     4e-31
+  UniRef90_A0A068RCN1 Biofilm regulator BssS n=1 Tax=Serratia sym...  112     4e-31
+  UniRef90_A0A095TAX4 Biofilm formation regulatory protein BssS n...  110     2e-30
+  UniRef90_UPI0004A28424 biofilm formation regulator BssS n=1 Tax...  110     3e-30
+  UniRef90_K8X1E3 Biofilm formation regulatory protein BssS n=7 T...  110     5e-30
+  UniRef90_K8WD82 Biofilm formation regulatory protein BssS n=1 T...  109     6e-30
+  UniRef90_Q2NU51 Biofilm regulator BssS n=3 Tax=Sodalis TaxID=84...  109     8e-30
+  UniRef90_B6XC88 Biofilm formation regulatory protein BssS n=6 T...  109     9e-30
+  UniRef90_A0A0G4Q3U3 Biofilm regulator BssS n=17 Tax=Enterobacte...  108     1e-29
+  UniRef90_A0A2U8I711 Transcriptional regulator n=1 Tax=Candidatu...  107     4e-29
+  UniRef90_A0A1I7EX30 Biofilm regulator BssS n=1 Tax=Xenorhabdus ...  107     5e-29
+  UniRef90_A0A2X5NLV0 Biofilm formation regulatory protein BssS n...  107     5e-29
+  UniRef90_A0A0H2QS14 Biofilm formation regulatory protein BssS n...  107     5e-29
+  UniRef90_A0A3D3HKE5 Transcriptional regulator n=4 Tax=Morganell...  106     1e-28
+  UniRef90_A0A2G0Q6C8 Biofilm formation regulatory protein BssS n...  106     1e-28
+  UniRef90_A0A0J9BKH9 Biofilm formation regulatory protein BssS n...  105     2e-28
+  UniRef90_UPI00048D93ED biofilm formation regulator BssS n=1 Tax...  105     3e-28
+  UniRef90_A0A1B7K0C6 Putative cytoplasmic protein n=1 Tax=Provid...  105     3e-28
+  UniRef90_A0A2X3H7L5 Biofilm formation regulatory protein BssS n...  104     4e-28
+  UniRef90_A0A356D7I6 Transcriptional regulator n=1 Tax=Providenc...  105     4e-28
+  UniRef90_A0A2A5Q4Y4 Biofilm formation regulatory protein BssS n...  105     4e-28
+  UniRef90_A0A2T4I3W4 Transcriptional regulator n=9 Tax=Bacteria ...  104     6e-28
+  UniRef90_A0A1I3HT85 Biofilm regulator BssS n=1 Tax=Xenorhabdus ...  104     7e-28
+  UniRef90_A0A068QTF5 Biofilm regulator BssS n=7 Tax=Xenorhabdus ...  104     1e-27
+  UniRef90_A0A1J7CA71 Transcriptional regulator (Fragment) n=1 Ta...  103     1e-27
+  UniRef90_A0A0J5FPK3 Biofilm formation regulatory protein BssS n...  103     1e-27
+  UniRef90_C5B8E1 Uncharacterized protein n=1 Tax=Edwardsiella ic...  103     1e-27
+  UniRef90_A0A1J0E5Y2 Transcriptional regulator n=1 Tax=Providenc...  102     4e-27
+  UniRef90_A0A0A0CW90 Biofilm formation regulatory protein BssS n...  102     6e-27
+  UniRef90_W1J7A0 Biofilm regulator BssS n=8 Tax=Xenorhabdus TaxI...  102     6e-27
+  UniRef90_UPI0004B7B274 biofilm formation regulator BssS n=1 Tax...  100     2e-26
+  UniRef90_W1J2L1 Biofilm regulator BssS n=1 Tax=Xenorhabdus szen...  96.3    1e-24
+  UniRef90_A0A379WAY2 Biofilm formation regulatory protein BssS n...  94.4    3e-24
+  UniRef90_A0A068R3M3 Biofilm regulator BssS n=1 Tax=Xenorhabdus ...  95.1    4e-24
+  UniRef90_A0A1Y2SIE4 Biofilm formation regulatory protein BssS n...  92.4    5e-23
+  UniRef90_A0A379VU73 Biofilm formation regulatory protein BssS n...  82.0    3e-19
+  UniRef90_A0A379TX87 Biofilm formation regulatory protein BssS n...  78.6    6e-18
+  UniRef90_UPI00034A0F61 hypothetical protein n=1 Tax=Halomonas t...  48.1    1e-05
+  UniRef90_A0A0T9T222 Biofilm formation regulatory protein BssS n...  46.6    5e-05
+  UniRef90_UPI000D973436 hypothetical protein n=1 Tax=Pseudomonas...  43.5    8e-04
+  UniRef90_UPI000641AF35 hypothetical protein n=1 Tax=Pseudomonas...  43.1    0.001
+  UniRef90_UPI000F8E0FEC UPI000F8E0FEC related cluster n=1 Tax=un...  42.4    0.003
+  UniRef90_A0A345LUF5 BssS family protein n=3 Tax=Morganellaceae ...  42.0    0.004
+  UniRef90_A0A318FY36 Biofilm formation regulator BssS-like prote...  42.0    0.004
+  UniRef90_UPI0009DD9E16 hypothetical protein n=1 Tax=Methylobaci...  40.4    0.017
+  UniRef90_C8TAZ3 Uncharacterized protein n=1 Tax=Klebsiella pneu...  40.0    0.021
+  UniRef90_UPI000F4B131C hypothetical protein n=1 Tax=Pseudomonas...  39.7    0.024
+  UniRef90_E0LU57 Uncharacterized protein n=4 Tax=Pantoea TaxID=5...  39.3    0.026
+  UniRef90_A0A370DDU8 Uncharacterized protein n=1 Tax=endosymbion...  39.3    0.034
+  UniRef90_UPI000DF26759 bssS family protein n=1 Tax=Enterobacter...  38.9    0.044
+  UniRef90_UPI0004DA2DD1 bssS family protein n=1 Tax=Enterobacter...  38.9    0.053
+  UniRef90_A0A1C7WF19 BssS family protein n=1 Tax=Serratia sp. 14...  37.0    0.24 
+  UniRef90_A0A3I1C549 BssS family protein n=5 Tax=Salmonella ente...  36.2    0.60 
+  UniRef90_A0A0U5L874 Uncharacterized protein n=1 Tax=Erwinia ger...  35.8    0.77 
+  UniRef90_A3JPE6 Putative permease n=1 Tax=Rhodobacteraceae bact...  37.4    0.78 
+  UniRef90_A0A1I6DMF2 BssS protein family protein n=1 Tax=Enterob...  35.4    0.95 
+  UniRef90_A0A2V8IVY2 Metal-dependent phosphohydrolase n=1 Tax=Ac...  36.6    1.3  
+  UniRef90_A0A1H2XN18 BssS protein family protein n=1 Tax=Lysobac...  35.0    1.6  
+  UniRef90_UPI0009E5470B DBH-like monooxygenase protein 1 n=1 Tax...  36.2    1.9  
+  UniRef90_V5ACX1 BssS family protein n=4 Tax=Enterobacteriaceae ...  34.7    2.2  
+  UniRef90_A0A3B0XDF1 Uncharacterized protein n=1 Tax=hydrotherma...  34.7    2.3  
+  UniRef90_UPI0009E3D4A0 DBH-like monooxygenase protein 1 n=1 Tax...  35.4    3.8  
+  UniRef90_A0A1E2UPD4 RNA polymerase-binding transcription factor...  34.7    4.3  
+  UniRef90_A0A3G7V1V7 Uncharacterized protein n=2 Tax=Pseudomonas...  33.9    4.3  
+  UniRef90_UPI00054EE43D ABC transporter permease subunit n=1 Tax...  35.0    5.2  
+  UniRef90_E3CW18 Metal dependent phosphohydrolase n=1 Tax=Aminom...  35.0    5.4  
+  UniRef90_G4N3Y8 C6 zinc finger domain-containing protein, varia...  34.7    6.5  
+  UniRef90_A0A370YLQ0 Uncharacterized protein n=10 Tax=Enterobact...  33.1    6.6  
+  UniRef90_N4VMP8 C6 zinc finger domain-containing protein n=1 Ta...  34.7    7.7  
+  UniRef90_UPI000947A3C2 DBH-like monooxygenase protein 1 n=1 Tax...  34.3    8.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 758132714850
+Warning: [psiblast] lcl|Query_1 NP_415578.3: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415578.3
+
+Length=84
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A127L3B0 Biofilm regulator n=2 Tax=Enterobacteriacea...  167     3e-52
+  UniRef90_A0A1A9F9M1 Transcriptional regulator n=98 Tax=Enteroba...  164     1e-51
+  UniRef90_A0A0D1MPA1 BssS protein n=5 Tax=Enterobacteriaceae Tax...  161     2e-50
+  UniRef90_UPI00031181BC biofilm formation regulator BssS n=1 Tax...  160     3e-50
+  UniRef90_P0AB34 Biofilm regulator BssS n=365 Tax=Proteobacteria...  160     3e-50
+  UniRef90_A0A0V9J6Z8 Transcriptional regulator n=79 Tax=Gammapro...  160     4e-50
+  UniRef90_A0A2J7P520 Transcriptional regulator n=102 Tax=Bacteri...  159     1e-49
+  UniRef90_A0A3N1I3H8 Biofilm regulator BssS n=2 Tax=Enterobacter...  159     2e-49
+  UniRef90_A0A2T3CK15 Transcriptional regulator n=4 Tax=Enterobac...  158     2e-49
+  UniRef90_I2BAG6 Biofilm regulator BssS n=4 Tax=Enterobacteriace...  158     3e-49
+  UniRef90_A0A0T9P775 Biofilm formation regulatory protein BssS n...  158     4e-49
+  UniRef90_A0A291E034 Biofilm formation regulatory protein BssS n...  157     9e-49
+  UniRef90_A0A351LTB2 Transcriptional regulator n=2 Tax=Franconib...  156     1e-48
+  UniRef90_UPI00036EE660 biofilm formation regulator BssS n=1 Tax...  156     1e-48
+  UniRef90_V5U0G3 Biofilm formation regulatory protein BssS n=21 ...  156     1e-48
+  UniRef90_UPI00073D9786 biofilm formation regulator BssS n=1 Tax...  156     2e-48
+  UniRef90_A0A0U1HMU5 Biofilm formation regulatory protein BssS n...  156     2e-48
+  UniRef90_A0A2T2Y2W6 Transcriptional regulator n=3 Tax=Kluyvera ...  155     3e-48
+  UniRef90_V5A7N0 BssS family protein n=3 Tax=Enterobacteriaceae ...  155     3e-48
+  UniRef90_A0A1N6S6Z5 Biofilm regulator BssS n=4 Tax=Enterobacter...  154     8e-48
+  UniRef90_A0A2P8VQF2 Transcriptional regulator n=1 Tax=Siccibact...  154     9e-48
+  UniRef90_A0A0T9JLS2 Biofilm formation regulatory protein BssS n...  154     1e-47
+  UniRef90_A0A0Q4MX88 Transcriptional regulator n=27 Tax=Erwiniac...  154     2e-47
+  UniRef90_A0A034SYU1 Biofilm formation regulatory protein n=9 Ta...  153     2e-47
+  UniRef90_A0A0K0HN43 Biofilm formation regulatory protein BssS n...  153     3e-47
+  UniRef90_A0A2I5TJI5 Transcriptional regulator n=28 Tax=Enteroba...  152     5e-47
+  UniRef90_A0A2N5EFU9 Transcriptional regulator n=3 Tax=unclassif...  152     6e-47
+  UniRef90_G9Z730 Biofilm formation regulatory protein BssS n=4 T...  152     1e-46
+  UniRef90_A0A1I7EX30 Biofilm regulator BssS n=1 Tax=Xenorhabdus ...  152     1e-46
+  UniRef90_B6XC88 Biofilm formation regulatory protein BssS n=6 T...  151     1e-46
+  UniRef90_A0A0Q4M6R5 Transcriptional regulator n=18 Tax=Yersinia...  151     1e-46
+  UniRef90_A0A0F7HFI3 Biofilm formation regulatory protein BssS n...  151     1e-46
+  UniRef90_A0A1X1DZ65 Transcriptional regulator n=4 Tax=Erwiniace...  150     3e-46
+  UniRef90_A0A0F0VBE9 Biofilm formation regulatory protein BssS n...  150     3e-46
+  UniRef90_A0A2K9QGW8 Transcriptional regulator n=20 Tax=Enteroba...  150     5e-46
+  UniRef90_A0A0U5E8V4 Uncharacterized protein n=1 Tax=Erwinia ger...  150     6e-46
+  UniRef90_K8WD82 Biofilm formation regulatory protein BssS n=1 T...  149     7e-46
+  UniRef90_A0A0B1QXV1 Biofilm formation regulatory protein BssS n...  149     7e-46
+  UniRef90_A0A2G0Q6C8 Biofilm formation regulatory protein BssS n...  149     8e-46
+  UniRef90_A0A0J5FPK3 Biofilm formation regulatory protein BssS n...  149     1e-45
+  UniRef90_J3HNV1 Uncharacterized protein n=2 Tax=Pantoea TaxID=5...  148     3e-45
+  UniRef90_A0A1E7Z3S2 BssS family protein n=1 Tax=Candidatus Erwi...  148     3e-45
+  UniRef90_A0A1B7K0C6 Putative cytoplasmic protein n=1 Tax=Provid...  148     4e-45
+  UniRef90_A0A1I3HT85 Biofilm regulator BssS n=1 Tax=Xenorhabdus ...  147     5e-45
+  UniRef90_A0A370R355 Biofilm regulator BssS n=1 Tax=Enterobacill...  147     7e-45
+  UniRef90_A0A0H2QS14 Biofilm formation regulatory protein BssS n...  147     8e-45
+  UniRef90_A0A2G8EJV0 Transcriptional regulator n=3 Tax=Enterobac...  147     9e-45
+  UniRef90_U3U885 YceP protein n=1 Tax=Candidatus Pantoea carbeki...  146     1e-44
+  UniRef90_UPI000948FE0D biofilm formation regulator BssS n=1 Tax...  146     2e-44
+  UniRef90_A0A068QTF5 Biofilm regulator BssS n=7 Tax=Xenorhabdus ...  146     2e-44
+  UniRef90_A0A068RCN1 Biofilm regulator BssS n=1 Tax=Serratia sym...  146     2e-44
+  UniRef90_K8X1E3 Biofilm formation regulatory protein BssS n=7 T...  145     3e-44
+  UniRef90_A0A356D7I6 Transcriptional regulator n=1 Tax=Providenc...  145     4e-44
+  UniRef90_A0A1J0E5Y2 Transcriptional regulator n=1 Tax=Providenc...  145     6e-44
+  UniRef90_A0A0A0CW90 Biofilm formation regulatory protein BssS n...  145     6e-44
+  UniRef90_A0A2S6VQK1 Transcriptional regulator n=1 Tax=Pantoea s...  144     9e-44
+  UniRef90_A0A2A5Q4Y4 Biofilm formation regulatory protein BssS n...  144     9e-44
+  UniRef90_W1J7A0 Biofilm regulator BssS n=8 Tax=Xenorhabdus TaxI...  144     1e-43
+  UniRef90_UPI0003731751 biofilm formation regulator BssS n=1 Tax...  144     1e-43
+  UniRef90_A0A2I0G026 Transcriptional regulator n=1 Tax=Enterobac...  144     1e-43
+  UniRef90_UPI0004A28424 biofilm formation regulator BssS n=1 Tax...  144     1e-43
+  UniRef90_A0A0G4Q3U3 Biofilm regulator BssS n=17 Tax=Enterobacte...  144     1e-43
+  UniRef90_A0A3D3HKE5 Transcriptional regulator n=4 Tax=Morganell...  143     2e-43
+  UniRef90_Q2NU51 Biofilm regulator BssS n=3 Tax=Sodalis TaxID=84...  141     1e-42
+  UniRef90_A0A095TAX4 Biofilm formation regulatory protein BssS n...  140     4e-42
+  UniRef90_A0A2T4I3W4 Transcriptional regulator n=9 Tax=Bacteria ...  140     4e-42
+  UniRef90_A0A2X5NLV0 Biofilm formation regulatory protein BssS n...  139     8e-42
+  UniRef90_A0A2U8I711 Transcriptional regulator n=1 Tax=Candidatu...  137     5e-41
+  UniRef90_C5B8E1 Uncharacterized protein n=1 Tax=Edwardsiella ic...  137     5e-41
+  UniRef90_A0A068R3M3 Biofilm regulator BssS n=1 Tax=Xenorhabdus ...  137     7e-41
+  UniRef90_UPI00048D93ED biofilm formation regulator BssS n=1 Tax...  135     3e-40
+  UniRef90_A0A1J7CA71 Transcriptional regulator (Fragment) n=1 Ta...  135     5e-40
+  UniRef90_UPI0004B7B274 biofilm formation regulator BssS n=1 Tax...  134     8e-40
+  UniRef90_A0A1Y2SIE4 Biofilm formation regulatory protein BssS n...  132     7e-39
+  UniRef90_A0A0J9BKH9 Biofilm formation regulatory protein BssS n...  130     4e-38
+  UniRef90_W1J2L1 Biofilm regulator BssS n=1 Tax=Xenorhabdus szen...  130     5e-38
+  UniRef90_UPI0007D6F4B2 transcriptional regulator n=1 Tax=Klebsi...  122     3e-35
+  UniRef90_A0A2X3H7L5 Biofilm formation regulatory protein BssS n...  116     8e-33
+  UniRef90_UPI000BB688F4 transcriptional regulator n=2 Tax=Entero...  110     1e-30
+  UniRef90_UPI00051171A4 biofilm formation regulatory protein Bss...  108     7e-30
+  UniRef90_UPI00034A0F61 hypothetical protein n=1 Tax=Halomonas t...  103     2e-27
+  UniRef90_A0A0T9T222 Biofilm formation regulatory protein BssS n...  101     8e-27
+  UniRef90_E2XFA4 Biofilm formation regulatory protein BssS n=1 T...  96.3    5e-25
+  UniRef90_UPI000D973436 hypothetical protein n=1 Tax=Pseudomonas...  95.9    2e-24
+  UniRef90_A0A379WAY2 Biofilm formation regulatory protein BssS n...  93.2    8e-24
+  UniRef90_A0A379TX87 Biofilm formation regulatory protein BssS n...  82.8    1e-19
+  UniRef90_A0A379VU73 Biofilm formation regulatory protein BssS n...  82.0    2e-19
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000F8E0FEC UPI000F8E0FEC related cluster n=1 Tax=un...  90.1    5e-22
+  UniRef90_A0A345LUF5 BssS family protein n=3 Tax=Morganellaceae ...  80.5    2e-18
+  UniRef90_A0A1C7WF19 BssS family protein n=1 Tax=Serratia sp. 14...  80.5    2e-18
+  UniRef90_A0A318FY36 Biofilm formation regulator BssS-like prote...  79.3    5e-18
+  UniRef90_UPI0004DA2DD1 bssS family protein n=1 Tax=Enterobacter...  78.6    1e-17
+  UniRef90_C8TAZ3 Uncharacterized protein n=1 Tax=Klebsiella pneu...  76.6    8e-17
+  UniRef90_UPI000DF26759 bssS family protein n=1 Tax=Enterobacter...  76.2    9e-17
+  UniRef90_UPI000F4B131C hypothetical protein n=1 Tax=Pseudomonas...  75.5    1e-16
+  UniRef90_A0A3G7V1V7 Uncharacterized protein n=2 Tax=Pseudomonas...  75.1    2e-16
+  UniRef90_UPI000641AF35 hypothetical protein n=1 Tax=Pseudomonas...  74.7    4e-16
+  UniRef90_UPI0006D3BB73 hypothetical protein n=1 Tax=Pseudomonas...  73.9    8e-16
+  UniRef90_A0A3I1C549 BssS family protein n=5 Tax=Salmonella ente...  72.0    5e-15
+  UniRef90_A0A346GM79 BssS family protein n=6 Tax=Escherichia col...  71.6    7e-15
+  UniRef90_A0A1G9UHJ0 BssS protein family protein n=4 Tax=Pseudom...  67.8    2e-13
+  UniRef90_UPI0009B3E978 hypothetical protein n=1 Tax=Pseudomonas...  67.8    2e-13
+  UniRef90_UPI000F661E16 bssS family protein n=1 Tax=Atlantibacte...  66.2    9e-13
+  UniRef90_A0A2G5N3L4 Uncharacterized protein n=1 Tax=Pseudomonas...  65.1    2e-12
+  UniRef90_UPI0009B1321B bssS family protein n=1 Tax=Salmonella e...  65.1    2e-12
+  UniRef90_A0A344QEK2 BssS family protein n=1 Tax=Salmonella ente...  63.5    1e-11
+  UniRef90_UPI0009BC490B hypothetical protein n=1 Tax=Alcaligenes...  63.2    2e-11
+  UniRef90_A0A370DDU8 Uncharacterized protein n=1 Tax=endosymbion...  60.1    2e-10
+  UniRef90_A0A3B0XDF1 Uncharacterized protein n=1 Tax=hydrotherma...  60.1    2e-10
+  UniRef90_A0A3B0YXF4 Uncharacterized protein n=1 Tax=hydrotherma...  57.8    2e-09
+  UniRef90_UPI0009BC8B4A hypothetical protein n=1 Tax=Alcaligenes...  59.3    2e-09
+  UniRef90_A0A1H2XN18 BssS protein family protein n=1 Tax=Lysobac...  56.6    5e-09
+  UniRef90_A0A1I4YQ17 BssS protein family protein n=1 Tax=Nitroso...  55.8    1e-08
+  UniRef90_A0A2N0UEL4 Uncharacterized protein n=2 Tax=Aeromonas T...  55.1    3e-08
+  UniRef90_A0A3B0Y209 Uncharacterized protein n=1 Tax=hydrotherma...  54.3    4e-08
+  UniRef90_A0A2L0LNF7 Uncharacterized protein n=1 Tax=Pseudomonas...  54.3    4e-08
+  UniRef90_A0A1W6SQ29 Uncharacterized protein n=1 Tax=Nitrosospir...  54.3    5e-08
+  UniRef90_A0A2T5JRQ2 Biofilm formation regulator BssS-like prote...  53.9    6e-08
+  UniRef90_Q2KZ70 Hypothetical phage protein n=3 Tax=Bordetella a...  53.9    7e-08
+  UniRef90_A0A0J1L5P0 Uncharacterized protein n=1 Tax=Citrobacter...  53.1    1e-07
+  UniRef90_A0A1H8QSH1 BssS protein family protein n=3 Tax=Nitroso...  53.5    1e-07
+  UniRef90_A0A0F5F8C1 Uncharacterized protein n=1 Tax=Pantoea ant...  52.7    2e-07
+  UniRef90_A0A0C3RN01 Uncharacterized protein n=1 Tax=Nitrosospir...  52.7    2e-07
+  UniRef90_A0A1I0CSN6 BssS protein family protein n=2 Tax=Nitroso...  52.4    2e-07
+  UniRef90_A0A0D1LFI4 Phage domain protein n=3 Tax=Enterobacteria...  52.0    3e-07
+  UniRef90_A0A1X1EA67 Uncharacterized protein n=1 Tax=Pantoea del...  51.6    5e-07
+  UniRef90_A0A0J8VKE9 Uncharacterized protein n=3 Tax=Enterobacte...  51.2    6e-07
+  UniRef90_A0A1G5EVI0 BssS protein family protein n=1 Tax=Nitroso...  51.2    9e-07
+  UniRef90_UPI000F66D3F8 hypothetical protein n=1 Tax=Atlantibact...  50.8    1e-06
+  UniRef90_E1SGI5 Uncharacterized protein n=1 Tax=Pantoea vagans ...  51.2    1e-06
+  UniRef90_A0A2R4JCF0 Uncharacterized protein n=2 Tax=Pantoea Tax...  50.1    2e-06
+  UniRef90_A0A1H7NI21 BssS protein family protein n=1 Tax=Nitroso...  50.1    2e-06
+  UniRef90_A0A2W4D8H8 Uncharacterized protein n=1 Tax=Pantoea sp....  50.1    2e-06
+  UniRef90_A0A370YLQ0 Uncharacterized protein n=10 Tax=Enterobact...  48.9    5e-06
+  UniRef90_Q2Y8T2 Uncharacterized protein n=15 Tax=Nitrosomonadal...  49.7    5e-06
+  UniRef90_V5ACX1 BssS family protein n=4 Tax=Enterobacteriaceae ...  48.5    7e-06
+  UniRef90_A0A1I6DMF2 BssS protein family protein n=1 Tax=Enterob...  48.1    9e-06
+  UniRef90_A0A1I5AA01 Biofilm regulator BssS n=10 Tax=Erwiniaceae...  48.1    1e-05
+  UniRef90_A0A2S9X5R0 Uncharacterized protein n=1 Tax=Chromobacte...  47.7    1e-05
+  UniRef90_UPI0009DD9E16 hypothetical protein n=1 Tax=Methylobaci...  48.1    1e-05
+  UniRef90_E0LU57 Uncharacterized protein n=4 Tax=Pantoea TaxID=5...  47.4    2e-05
+  UniRef90_A0A2A7V4Y0 Uncharacterized protein n=1 Tax=Enterobacte...  47.4    2e-05
+  UniRef90_UPI00094EC192 hypothetical protein n=1 Tax=Lysobacter ...  47.4    2e-05
+  UniRef90_A0A1M7D3M4 BssS protein family protein n=6 Tax=Nitroso...  47.4    2e-05
+  UniRef90_Q1H3K1 Uncharacterized protein n=1 Tax=Methylobacillus...  47.4    2e-05
+  UniRef90_A0A127L0L9 Phage protein n=2 Tax=Enterobacteriaceae Ta...  46.6    4e-05
+  UniRef90_UPI00050ECB72 hypothetical protein n=1 Tax=Pantoea vag...  46.2    6e-05
+  UniRef90_UPI00041B53FF hypothetical protein n=1 Tax=Franconibac...  46.2    7e-05
+  UniRef90_A0A1I3A1H9 BssS protein family protein n=2 Tax=Nitroso...  45.8    1e-04
+  UniRef90_A0A1X1C0M1 Uncharacterized protein n=1 Tax=Pantoea con...  45.0    1e-04
+  UniRef90_J4Y795 Uncharacterized protein n=2 Tax=Achromobacter T...  45.0    2e-04
+  UniRef90_A0A1N7DIM2 Biofilm regulator BssS n=2 Tax=Enterobacter...  45.0    2e-04
+  UniRef90_A0A0U5L874 Uncharacterized protein n=1 Tax=Erwinia ger...  44.7    3e-04
+  UniRef90_A0A1Q4BNS6 Uncharacterized protein n=1 Tax=Nitrosospir...  44.3    5e-04
+  UniRef90_A0A362XYF8 Biofilm formation regulator BssS-like prote...  44.3    5e-04
+  UniRef90_UPI000EB3C28A hypothetical protein n=1 Tax=Enterobacte...  42.7    0.001
+  UniRef90_R9VND6 Uncharacterized protein n=5 Tax=Enterobacteriac...  42.0    0.002
+  UniRef90_A0A090VWP4 Uncharacterized protein n=3 Tax=Enterobacte...  42.0    0.003
+  UniRef90_A0A0M7LZT1 Biofilm formation regulatory protein BssS n...  42.0    0.003
+  UniRef90_UPI0002D4EA78 phage domain protein n=1 Tax=Metakosakon...  41.6    0.003
+  UniRef90_A0A0F5Y5D6 Uncharacterized protein n=1 Tax=Pantoea sp....  40.4    0.009
+  UniRef90_A0A1V0LBL9 Uncharacterized protein n=7 Tax=Enterobacte...  40.4    0.009
+  UniRef90_I0QXQ5 Phage protein n=1 Tax=Serratia sp. M24T3 TaxID=...  40.4    0.015
+  UniRef90_A0A1Q4C4C5 Uncharacterized protein n=1 Tax=Nitrosospir...  39.7    0.060
+  UniRef90_UPI00085288F4 hypothetical protein n=1 Tax=Aeromonas c...  38.1    0.081
+  UniRef90_A0A2U8E6R3 Aldose 1-epimerase n=1 Tax=Ereboglobus lute...  38.5    0.30 
+  UniRef90_UPI00057BF20D phage domain protein n=1 Tax=Enterobacte...  36.6    0.34 
+  UniRef90_T5L4K0 Uncharacterized protein n=1 Tax=Stenotrophomona...  36.6    0.40 
+  UniRef90_A0A2E7IQ06 Uncharacterized protein n=1 Tax=Spongiibact...  36.2    0.50 
+  UniRef90_A0A1B7L6Z8 Uncharacterized protein n=3 Tax=Mangrovibac...  36.2    0.52 
+  UniRef90_A0A3D3X0R7 Uncharacterized protein n=1 Tax=Candidatus ...  37.3    0.71 
+  UniRef90_A0A248VWH6 Epimerase n=1 Tax=Paraburkholderia aromatic...  37.0    0.85 
+  UniRef90_J2EAI6 DNA-3-methyladenine glycosylase II n=46 Tax=Pse...  37.0    0.94 
+  UniRef90_A0A1Y1TFJ0 3-methyladenine DNA glycosylase 2 n=10 Tax=...  36.6    1.2  
+  UniRef90_A0A3D9FD50 Uncharacterized protein n=1 Tax=Parasphingo...  35.0    1.3  
+  UniRef90_UPI00070AF0D8 hypothetical protein n=1 Tax=Ensifer sp....  35.8    1.3  
+  UniRef90_A0A1Y2UVH9 Uncharacterized protein n=1 Tax=Hypoxylon s...  36.2    1.8  
+  UniRef90_G4N3Y8 C6 zinc finger domain-containing protein, varia...  36.2    2.0  
+  UniRef90_N4VMP8 C6 zinc finger domain-containing protein n=1 Ta...  35.8    2.2  
+  UniRef90_E5S7L1 Metabotropic glutamate receptor 2 n=2 Tax=Trich...  35.8    2.9  
+  UniRef90_A0A0V1BK09 Metabotropic glutamate receptor 3 n=13 Tax=...  35.8    2.9  
+  UniRef90_A0A3C1SQU8 Flagellar assembly protein FliH n=1 Tax=Can...  35.4    2.9  
+  UniRef90_A0A250INF9 Phosphate transport regulator n=1 Tax=Melit...  35.4    2.9  
+  UniRef90_A0A1Q3W1W8 Chemotaxis protein n=1 Tax=Afipia sp. 64-13...  34.3    2.9  
+  UniRef90_A0A0D4BZA8 NUDIX hydrolase n=1 Tax=Psychromicrobium la...  35.4    3.2  
+  UniRef90_A0A3L2H530 Uncharacterized protein n=2 Tax=Salmonella ...  34.3    3.3  
+  UniRef90_A0A167ASH2 C6 zinc finger domain-containing protein n=...  35.4    3.4  
+  UniRef90_A0A395JIA4 Uncharacterized protein n=1 Tax=Arenicella ...  34.6    4.1  
+  UniRef90_A0A1V3QF49 Uncharacterized protein n=5 Tax=Sinorhizobi...  33.9    4.4  
+  UniRef90_A0A0P0JF31 Protein GrpE n=1 Tax=Methanosarcina sp. 795...  34.6    4.6  
+  UniRef90_A0A2N5CX28 Uncharacterized protein n=1 Tax=Caulobacter...  33.1    5.6  
+  UniRef90_A0A0U1HH78 Uncharacterized protein n=18 Tax=Yersinia T...  33.5    6.2  
+  UniRef90_A0A0E3NDZ1 Protein GrpE n=4 Tax=Methanosarcina TaxID=2...  34.6    6.6  
+  UniRef90_UPI0005E0BD6B hypothetical protein n=2 Tax=Yersinia Ta...  33.1    7.9  
+  UniRef90_A0A2E4B2G3 Uncharacterized protein n=4 Tax=unclassifie...  34.3    8.5  
+  UniRef90_A0A2V6MAP9 SET domain-containing protein-lysine N-meth...  33.9    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.176    0.637    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0539    0.140     1.90     42.6     43.6 
+
+Effective search space used: 758132714850
+Results from round 3
+
+
+Query= NP_415578.3
+
+Length=84
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A127L3B0 Biofilm regulator n=2 Tax=Enterobacteriacea...  154     5e-47
+  UniRef90_A0A1A9F9M1 Transcriptional regulator n=98 Tax=Enteroba...  151     2e-46
+  UniRef90_A0A0D1MPA1 BssS protein n=5 Tax=Enterobacteriaceae Tax...  149     9e-46
+  UniRef90_A0A291E034 Biofilm formation regulatory protein BssS n...  149     1e-45
+  UniRef90_I2BAG6 Biofilm regulator BssS n=4 Tax=Enterobacteriace...  149     1e-45
+  UniRef90_A0A0U1HMU5 Biofilm formation regulatory protein BssS n...  149     2e-45
+  UniRef90_A0A0T9P775 Biofilm formation regulatory protein BssS n...  148     2e-45
+  UniRef90_UPI00031181BC biofilm formation regulator BssS n=1 Tax...  148     2e-45
+  UniRef90_A0A0V9J6Z8 Transcriptional regulator n=79 Tax=Gammapro...  148     2e-45
+  UniRef90_A0A2T3CK15 Transcriptional regulator n=4 Tax=Enterobac...  148     3e-45
+  UniRef90_A0A0K0HN43 Biofilm formation regulatory protein BssS n...  148     3e-45
+  UniRef90_A0A3N1I3H8 Biofilm regulator BssS n=2 Tax=Enterobacter...  147     6e-45
+  UniRef90_A0A2J7P520 Transcriptional regulator n=102 Tax=Bacteri...  147     7e-45
+  UniRef90_A0A2I5TJI5 Transcriptional regulator n=28 Tax=Enteroba...  147     7e-45
+  UniRef90_A0A0T9JLS2 Biofilm formation regulatory protein BssS n...  147     7e-45
+  UniRef90_P0AB34 Biofilm regulator BssS n=365 Tax=Proteobacteria...  147     9e-45
+  UniRef90_A0A0Q4MX88 Transcriptional regulator n=27 Tax=Erwiniac...  146     1e-44
+  UniRef90_V5U0G3 Biofilm formation regulatory protein BssS n=21 ...  146     2e-44
+  UniRef90_A0A351LTB2 Transcriptional regulator n=2 Tax=Franconib...  146     2e-44
+  UniRef90_UPI00036EE660 biofilm formation regulator BssS n=1 Tax...  146     2e-44
+  UniRef90_A0A034SYU1 Biofilm formation regulatory protein n=9 Ta...  146     2e-44
+  UniRef90_A0A2N5EFU9 Transcriptional regulator n=3 Tax=unclassif...  145     2e-44
+  UniRef90_A0A0F7HFI3 Biofilm formation regulatory protein BssS n...  145     3e-44
+  UniRef90_A0A2P8VQF2 Transcriptional regulator n=1 Tax=Siccibact...  145     3e-44
+  UniRef90_A0A2T2Y2W6 Transcriptional regulator n=3 Tax=Kluyvera ...  145     4e-44
+  UniRef90_A0A0Q4M6R5 Transcriptional regulator n=18 Tax=Yersinia...  145     4e-44
+  UniRef90_UPI00073D9786 biofilm formation regulator BssS n=1 Tax...  145     5e-44
+  UniRef90_B6XC88 Biofilm formation regulatory protein BssS n=6 T...  145     6e-44
+  UniRef90_V5A7N0 BssS family protein n=3 Tax=Enterobacteriaceae ...  144     9e-44
+  UniRef90_A0A1N6S6Z5 Biofilm regulator BssS n=4 Tax=Enterobacter...  144     9e-44
+  UniRef90_A0A1X1DZ65 Transcriptional regulator n=4 Tax=Erwiniace...  144     1e-43
+  UniRef90_A0A1I7EX30 Biofilm regulator BssS n=1 Tax=Xenorhabdus ...  143     2e-43
+  UniRef90_A0A0U5E8V4 Uncharacterized protein n=1 Tax=Erwinia ger...  143     3e-43
+  UniRef90_A0A370R355 Biofilm regulator BssS n=1 Tax=Enterobacill...  142     5e-43
+  UniRef90_A0A1B7K0C6 Putative cytoplasmic protein n=1 Tax=Provid...  142     5e-43
+  UniRef90_K8WD82 Biofilm formation regulatory protein BssS n=1 T...  142     5e-43
+  UniRef90_K8X1E3 Biofilm formation regulatory protein BssS n=7 T...  142     6e-43
+  UniRef90_A0A2G0Q6C8 Biofilm formation regulatory protein BssS n...  142     9e-43
+  UniRef90_A0A2K9QGW8 Transcriptional regulator n=20 Tax=Enteroba...  142     1e-42
+  UniRef90_A0A0B1QXV1 Biofilm formation regulatory protein BssS n...  142     1e-42
+  UniRef90_A0A0J5FPK3 Biofilm formation regulatory protein BssS n...  141     1e-42
+  UniRef90_G9Z730 Biofilm formation regulatory protein BssS n=4 T...  141     2e-42
+  UniRef90_A0A356D7I6 Transcriptional regulator n=1 Tax=Providenc...  140     4e-42
+  UniRef90_A0A1I3HT85 Biofilm regulator BssS n=1 Tax=Xenorhabdus ...  140     4e-42
+  UniRef90_A0A0H2QS14 Biofilm formation regulatory protein BssS n...  140     4e-42
+  UniRef90_J3HNV1 Uncharacterized protein n=2 Tax=Pantoea TaxID=5...  140     4e-42
+  UniRef90_A0A0F0VBE9 Biofilm formation regulatory protein BssS n...  140     6e-42
+  UniRef90_A0A1J0E5Y2 Transcriptional regulator n=1 Tax=Providenc...  139     8e-42
+  UniRef90_UPI000948FE0D biofilm formation regulator BssS n=1 Tax...  139     9e-42
+  UniRef90_A0A068QTF5 Biofilm regulator BssS n=7 Tax=Xenorhabdus ...  139     9e-42
+  UniRef90_A0A2A5Q4Y4 Biofilm formation regulatory protein BssS n...  139     1e-41
+  UniRef90_A0A0A0CW90 Biofilm formation regulatory protein BssS n...  139     1e-41
+  UniRef90_A0A1E7Z3S2 BssS family protein n=1 Tax=Candidatus Erwi...  139     1e-41
+  UniRef90_A0A068RCN1 Biofilm regulator BssS n=1 Tax=Serratia sym...  139     1e-41
+  UniRef90_W1J7A0 Biofilm regulator BssS n=8 Tax=Xenorhabdus TaxI...  139     1e-41
+  UniRef90_UPI0003731751 biofilm formation regulator BssS n=1 Tax...  139     1e-41
+  UniRef90_A0A2G8EJV0 Transcriptional regulator n=3 Tax=Enterobac...  139     2e-41
+  UniRef90_U3U885 YceP protein n=1 Tax=Candidatus Pantoea carbeki...  138     2e-41
+  UniRef90_A0A2S6VQK1 Transcriptional regulator n=1 Tax=Pantoea s...  138     2e-41
+  UniRef90_A0A2I0G026 Transcriptional regulator n=1 Tax=Enterobac...  138     3e-41
+  UniRef90_UPI0004A28424 biofilm formation regulator BssS n=1 Tax...  137     5e-41
+  UniRef90_A0A3D3HKE5 Transcriptional regulator n=4 Tax=Morganell...  137     9e-41
+  UniRef90_A0A0G4Q3U3 Biofilm regulator BssS n=17 Tax=Enterobacte...  136     2e-40
+  UniRef90_A0A095TAX4 Biofilm formation regulatory protein BssS n...  134     1e-39
+  UniRef90_Q2NU51 Biofilm regulator BssS n=3 Tax=Sodalis TaxID=84...  134     1e-39
+  UniRef90_A0A2T4I3W4 Transcriptional regulator n=9 Tax=Bacteria ...  134     1e-39
+  UniRef90_C5B8E1 Uncharacterized protein n=1 Tax=Edwardsiella ic...  131     9e-39
+  UniRef90_A0A2X5NLV0 Biofilm formation regulatory protein BssS n...  131     1e-38
+  UniRef90_A0A1J7CA71 Transcriptional regulator (Fragment) n=1 Ta...  130     2e-38
+  UniRef90_UPI0004B7B274 biofilm formation regulator BssS n=1 Tax...  130     2e-38
+  UniRef90_A0A068R3M3 Biofilm regulator BssS n=1 Tax=Xenorhabdus ...  130     3e-38
+  UniRef90_A0A2U8I711 Transcriptional regulator n=1 Tax=Candidatu...  129     8e-38
+  UniRef90_UPI00048D93ED biofilm formation regulator BssS n=1 Tax...  129     1e-37
+  UniRef90_A0A1Y2SIE4 Biofilm formation regulatory protein BssS n...  125     5e-36
+  UniRef90_A0A0J9BKH9 Biofilm formation regulatory protein BssS n...  124     7e-36
+  UniRef90_W1J2L1 Biofilm regulator BssS n=1 Tax=Xenorhabdus szen...  123     3e-35
+  UniRef90_A0A318FY36 Biofilm formation regulator BssS-like prote...  120     2e-34
+  UniRef90_A0A1C7WF19 BssS family protein n=1 Tax=Serratia sp. 14...  119     6e-34
+  UniRef90_UPI0004DA2DD1 bssS family protein n=1 Tax=Enterobacter...  118     1e-33
+  UniRef90_UPI000DF26759 bssS family protein n=1 Tax=Enterobacter...  117     3e-33
+  UniRef90_A0A0T9T222 Biofilm formation regulatory protein BssS n...  117     6e-33
+  UniRef90_C8TAZ3 Uncharacterized protein n=1 Tax=Klebsiella pneu...  117     8e-33
+  UniRef90_A0A346GM79 BssS family protein n=6 Tax=Escherichia col...  115     3e-32
+  UniRef90_A0A3I1C549 BssS family protein n=5 Tax=Salmonella ente...  114     7e-32
+  UniRef90_A0A345LUF5 BssS family protein n=3 Tax=Morganellaceae ...  114     1e-31
+  UniRef90_UPI0007D6F4B2 transcriptional regulator n=1 Tax=Klebsi...  109     3e-30
+  UniRef90_UPI00034A0F61 hypothetical protein n=1 Tax=Halomonas t...  109     5e-30
+  UniRef90_A0A2X3H7L5 Biofilm formation regulatory protein BssS n...  107     4e-29
+  UniRef90_UPI000D973436 hypothetical protein n=1 Tax=Pseudomonas...  104     5e-28
+  UniRef90_A0A344QEK2 BssS family protein n=1 Tax=Salmonella ente...  103     2e-27
+  UniRef90_UPI000F661E16 bssS family protein n=1 Tax=Atlantibacte...  103     2e-27
+  UniRef90_A0A3G7V1V7 Uncharacterized protein n=2 Tax=Pseudomonas...  102     3e-27
+  UniRef90_UPI0009B1321B bssS family protein n=1 Tax=Salmonella e...  102     4e-27
+  UniRef90_UPI000F8E0FEC UPI000F8E0FEC related cluster n=1 Tax=un...  103     4e-27
+  UniRef90_UPI000F4B131C hypothetical protein n=1 Tax=Pseudomonas...  102     6e-27
+  UniRef90_UPI0006D3BB73 hypothetical protein n=1 Tax=Pseudomonas...  101     1e-26
+  UniRef90_UPI00051171A4 biofilm formation regulatory protein Bss...  100     1e-26
+  UniRef90_UPI000BB688F4 transcriptional regulator n=2 Tax=Entero...  97.8    1e-25
+  UniRef90_A0A1G9UHJ0 BssS protein family protein n=4 Tax=Pseudom...  98.2    2e-25
+  UniRef90_UPI0009B3E978 hypothetical protein n=1 Tax=Pseudomonas...  97.8    3e-25
+  UniRef90_UPI0009BC8B4A hypothetical protein n=1 Tax=Alcaligenes...  99.7    3e-25
+  UniRef90_A0A0D1LFI4 Phage domain protein n=3 Tax=Enterobacteria...  96.7    9e-25
+  UniRef90_A0A1W6SQ29 Uncharacterized protein n=1 Tax=Nitrosospir...  96.3    2e-24
+  UniRef90_A0A1I4YQ17 BssS protein family protein n=1 Tax=Nitroso...  95.9    2e-24
+  UniRef90_UPI0009BC490B hypothetical protein n=1 Tax=Alcaligenes...  96.3    2e-24
+  UniRef90_UPI000F66D3F8 hypothetical protein n=1 Tax=Atlantibact...  95.1    3e-24
+  UniRef90_UPI000641AF35 hypothetical protein n=1 Tax=Pseudomonas...  94.3    7e-24
+  UniRef90_A0A0J1L5P0 Uncharacterized protein n=1 Tax=Citrobacter...  92.8    2e-23
+  UniRef90_A0A2A7V4Y0 Uncharacterized protein n=1 Tax=Enterobacte...  92.4    3e-23
+  UniRef90_A0A2R4JCF0 Uncharacterized protein n=2 Tax=Pantoea Tax...  92.4    3e-23
+  UniRef90_A0A1I6DMF2 BssS protein family protein n=1 Tax=Enterob...  92.0    6e-23
+  UniRef90_A0A2T5JRQ2 Biofilm formation regulator BssS-like prote...  92.0    7e-23
+  UniRef90_A0A1H8QSH1 BssS protein family protein n=3 Tax=Nitroso...  91.6    9e-23
+  UniRef90_A0A127L0L9 Phage protein n=2 Tax=Enterobacteriaceae Ta...  90.9    1e-22
+  UniRef90_A0A1I0CSN6 BssS protein family protein n=2 Tax=Nitroso...  91.3    2e-22
+  UniRef90_UPI00050ECB72 hypothetical protein n=1 Tax=Pantoea vag...  90.9    2e-22
+  UniRef90_A0A0F5F8C1 Uncharacterized protein n=1 Tax=Pantoea ant...  90.1    3e-22
+  UniRef90_Q2Y8T2 Uncharacterized protein n=15 Tax=Nitrosomonadal...  91.3    3e-22
+  UniRef90_E0LU57 Uncharacterized protein n=4 Tax=Pantoea TaxID=5...  90.1    3e-22
+  UniRef90_A0A0C3RN01 Uncharacterized protein n=1 Tax=Nitrosospir...  90.1    3e-22
+  UniRef90_Q2KZ70 Hypothetical phage protein n=3 Tax=Bordetella a...  90.1    5e-22
+  UniRef90_A0A2W4D8H8 Uncharacterized protein n=1 Tax=Pantoea sp....  89.3    6e-22
+  UniRef90_A0A1H2XN18 BssS protein family protein n=1 Tax=Lysobac...  88.6    1e-21
+  UniRef90_A0A1H7NI21 BssS protein family protein n=1 Tax=Nitroso...  88.6    1e-21
+  UniRef90_A0A2G5N3L4 Uncharacterized protein n=1 Tax=Pseudomonas...  88.6    1e-21
+  UniRef90_A0A2N0UEL4 Uncharacterized protein n=2 Tax=Aeromonas T...  88.2    2e-21
+  UniRef90_A0A370DDU8 Uncharacterized protein n=1 Tax=endosymbion...  87.8    2e-21
+  UniRef90_E1SGI5 Uncharacterized protein n=1 Tax=Pantoea vagans ...  88.6    2e-21
+  UniRef90_A0A379WAY2 Biofilm formation regulatory protein BssS n...  87.0    3e-21
+  UniRef90_A0A1Q4BNS6 Uncharacterized protein n=1 Tax=Nitrosospir...  88.2    3e-21
+  UniRef90_A0A1G5EVI0 BssS protein family protein n=1 Tax=Nitroso...  87.8    3e-21
+  UniRef90_A0A1I5AA01 Biofilm regulator BssS n=10 Tax=Erwiniaceae...  87.4    3e-21
+  UniRef90_A0A0U5L874 Uncharacterized protein n=1 Tax=Erwinia ger...  87.8    3e-21
+  UniRef90_A0A3B0XDF1 Uncharacterized protein n=1 Tax=hydrotherma...  87.4    3e-21
+  UniRef90_V5ACX1 BssS family protein n=4 Tax=Enterobacteriaceae ...  87.4    4e-21
+  UniRef90_A0A370YLQ0 Uncharacterized protein n=10 Tax=Enterobact...  87.0    5e-21
+  UniRef90_A0A1X1EA67 Uncharacterized protein n=1 Tax=Pantoea del...  87.0    6e-21
+  UniRef90_A0A1N7DIM2 Biofilm regulator BssS n=2 Tax=Enterobacter...  87.0    6e-21
+  UniRef90_A0A3B0YXF4 Uncharacterized protein n=1 Tax=hydrotherma...  86.6    6e-21
+  UniRef90_A0A1M7D3M4 BssS protein family protein n=6 Tax=Nitroso...  87.0    7e-21
+  UniRef90_A0A0J8VKE9 Uncharacterized protein n=3 Tax=Enterobacte...  86.6    7e-21
+  UniRef90_A0A1X1C0M1 Uncharacterized protein n=1 Tax=Pantoea con...  84.7    4e-20
+  UniRef90_A0A3B0Y209 Uncharacterized protein n=1 Tax=hydrotherma...  84.3    5e-20
+  UniRef90_A0A1I3A1H9 BssS protein family protein n=2 Tax=Nitroso...  84.7    5e-20
+  UniRef90_E2XFA4 Biofilm formation regulatory protein BssS n=1 T...  83.6    7e-20
+  UniRef90_UPI00041B53FF hypothetical protein n=1 Tax=Franconibac...  83.2    2e-19
+  UniRef90_A0A2L0LNF7 Uncharacterized protein n=1 Tax=Pseudomonas...  81.6    6e-19
+  UniRef90_UPI00094EC192 hypothetical protein n=1 Tax=Lysobacter ...  81.6    7e-19
+  UniRef90_A0A2S9X5R0 Uncharacterized protein n=1 Tax=Chromobacte...  80.5    2e-18
+  UniRef90_A0A379TX87 Biofilm formation regulatory protein BssS n...  79.7    2e-18
+  UniRef90_A0A379VU73 Biofilm formation regulatory protein BssS n...  78.5    5e-18
+  UniRef90_A0A362XYF8 Biofilm formation regulator BssS-like prote...  78.9    1e-17
+  UniRef90_UPI0009DD9E16 hypothetical protein n=1 Tax=Methylobaci...  76.6    9e-17
+  UniRef90_Q1H3K1 Uncharacterized protein n=1 Tax=Methylobacillus...  74.3    6e-16
+  UniRef90_J4Y795 Uncharacterized protein n=2 Tax=Achromobacter T...  66.6    7e-13
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0F5Y5D6 Uncharacterized protein n=1 Tax=Pantoea sp....  82.8    2e-19
+  UniRef90_A0A090VWP4 Uncharacterized protein n=3 Tax=Enterobacte...  82.4    3e-19
+  UniRef90_UPI0002D4EA78 phage domain protein n=1 Tax=Metakosakon...  81.2    8e-19
+  UniRef90_A0A1V0LBL9 Uncharacterized protein n=7 Tax=Enterobacte...  81.2    9e-19
+  UniRef90_R9VND6 Uncharacterized protein n=5 Tax=Enterobacteriac...  74.3    5e-16
+  UniRef90_UPI000EB3C28A hypothetical protein n=1 Tax=Enterobacte...  73.9    5e-16
+  UniRef90_I0QXQ5 Phage protein n=1 Tax=Serratia sp. M24T3 TaxID=...  71.6    9e-15
+  UniRef90_A0A2E7IQ06 Uncharacterized protein n=1 Tax=Spongiibact...  64.3    5e-12
+  UniRef90_UPI00057BF20D phage domain protein n=1 Tax=Enterobacte...  63.5    8e-12
+  UniRef90_A0A1Q4C4C5 Uncharacterized protein n=1 Tax=Nitrosospir...  63.5    5e-11
+  UniRef90_T5L4K0 Uncharacterized protein n=1 Tax=Stenotrophomona...  61.6    7e-11
+  UniRef90_A0A0M7LZT1 Biofilm formation regulatory protein BssS n...  55.4    1e-08
+  UniRef90_A0A0D0JMH3 Uncharacterized protein n=1 Tax=Stenotropho...  49.7    3e-06
+  UniRef90_UPI00047013A6 hypothetical protein n=1 Tax=Methylobaci...  47.3    4e-05
+  UniRef90_A0A1Q3W1W8 Chemotaxis protein n=1 Tax=Afipia sp. 64-13...  46.6    5e-05
+  UniRef90_A0A1B7L6Z8 Uncharacterized protein n=3 Tax=Mangrovibac...  45.8    1e-04
+  UniRef90_A0A0D6IEQ5 Uncharacterized protein n=10 Tax=Alcaligena...  45.0    2e-04
+  UniRef90_UPI00085288F4 hypothetical protein n=1 Tax=Aeromonas c...  44.7    2e-04
+  UniRef90_A0A365XKL1 Uncharacterized protein n=2 Tax=Bacteria Ta...  43.9    5e-04
+  UniRef90_A0A0F3VA66 Uncharacterized protein n=2 Tax=Escherichia...  43.9    5e-04
+  UniRef90_A0A2S0MF07 Uncharacterized protein n=1 Tax=Ottowia ory...  43.1    8e-04
+  UniRef90_F7SVC9 Uncharacterized protein n=6 Tax=Achromobacter T...  43.1    9e-04
+  UniRef90_A0A3D9FD50 Uncharacterized protein n=1 Tax=Parasphingo...  42.3    0.002
+  UniRef90_A0A261VYZ6 Uncharacterized protein n=1 Tax=Bordetella ...  42.3    0.002
+  UniRef90_A0A0M7L519 Uncharacterized protein n=5 Tax=Alcaligenac...  42.0    0.003
+  UniRef90_A0A2Y8K2W7 Uncharacterized protein n=2 Tax=Escherichia...  40.8    0.005
+  UniRef90_A0A3D9YMS8 Uncharacterized protein n=1 Tax=Methylovirg...  41.2    0.007
+  UniRef90_A0A2Y8K2U6 Uncharacterized protein n=2 Tax=Escherichia...  39.3    0.024
+  UniRef90_A0A1V3QF49 Uncharacterized protein n=5 Tax=Sinorhizobi...  39.3    0.036
+  UniRef90_A0A2U8E6R3 Aldose 1-epimerase n=1 Tax=Ereboglobus lute...  40.8    0.037
+  UniRef90_A0A2X2QDC8 Uncharacterized protein n=1 Tax=Yokenella r...  38.9    0.046
+  UniRef90_UPI00070AF0D8 hypothetical protein n=1 Tax=Ensifer sp....  39.3    0.048
+  UniRef90_UPI0006FD4E87 hypothetical protein n=1 Tax=Methylobact...  38.1    0.073
+  UniRef90_B2IDY0 Uncharacterized protein n=2 Tax=Beijerinckia Ta...  38.1    0.076
+  UniRef90_A0A3C1SQU8 Flagellar assembly protein FliH n=1 Tax=Can...  40.0    0.076
+  UniRef90_A0A1Q8ZQ02 Uncharacterized protein n=1 Tax=Rhizobium o...  38.1    0.085
+  UniRef90_A0A3G2IBB5 Uncharacterized protein n=1 Tax=Buttiauxell...  38.1    0.086
+  UniRef90_A0A3N6S0U6 Uncharacterized protein n=1 Tax=Erwinia psi...  37.7    0.087
+  UniRef90_A0A0N8IRL5 Uncharacterized protein n=5 Tax=Enterobacte...  38.1    0.095
+  UniRef90_A0A1C3HKS3 Uncharacterized protein n=2 Tax=Serratia ma...  37.7    0.10 
+  UniRef90_F8BV03 Uncharacterized protein n=1 Tax=Oligotropha car...  38.5    0.11 
+  UniRef90_A0A2P0B322 Uncharacterized protein n=4 Tax=Citromicrob...  37.7    0.12 
+  UniRef90_UPI000C17D8B8 hypothetical protein n=1 Tax=Serratia Ta...  37.7    0.13 
+  UniRef90_A0A250INF9 Phosphate transport regulator n=1 Tax=Melit...  38.9    0.19 
+  UniRef90_UPI0003F8A493 alpha/beta hydrolase n=1 Tax=Nocardioide...  38.9    0.20 
+  UniRef90_A0A0C2IVA8 DnaJ subfamily C member 17 n=1 Tax=Thelohan...  38.5    0.22 
+  UniRef90_A0A0S3UED5 Uncharacterized protein n=1 Tax=Leptolyngby...  37.3    0.27 
+  UniRef90_UPI0002E5AE49 hypothetical protein n=1 Tax=Zavarzinell...  38.1    0.34 
+  UniRef90_A0A317ZZZ8 ABC transporter permease n=1 Tax=Cryobacter...  38.1    0.35 
+  UniRef90_A0A193QLP4 Uncharacterized protein n=2 Tax=Sodalis glo...  36.6    0.35 
+  UniRef90_A0A2T3D893 Uncharacterized protein n=3 Tax=Rhizobiales...  36.6    0.38 
+  UniRef90_A0A3D3X0R7 Uncharacterized protein n=1 Tax=Candidatus ...  38.1    0.40 
+  UniRef90_A0A142YNQ8 Uncharacterized protein n=1 Tax=Planctomyce...  37.7    0.41 
+  UniRef90_A0A192YBC8 Uncharacterized protein n=16 Tax=Wphvirus T...  36.6    0.44 
+  UniRef90_A0A2X5B4Z3 Uncharacterized protein n=2 Tax=Serratia Ta...  36.6    0.46 
+  UniRef90_UPI0009D37BF0 hypothetical protein n=1 Tax=Ensifer sp....  35.8    0.67 
+  UniRef90_A0A2W4L532 NUDIX hydrolase n=1 Tax=Actinobacteria bact...  37.3    0.69 
+  UniRef90_A0A2P6U1Z8 Phosphoglycerate mutase n=1 Tax=Chlorella s...  37.3    0.69 
+  UniRef90_A0A317T3X1 Aconitate hydratase B n=1 Tax=Prosthecochlo...  37.3    0.75 
+  UniRef90_A0A3D1KHK5 DUF3467 domain-containing protein n=1 Tax=P...  35.8    0.89 
+  UniRef90_A0A3A5HFR2 Uncharacterized protein n=1 Tax=Methanobact...  36.9    0.92 
+  UniRef90_A1DJZ7 Uncharacterized protein n=1 Tax=Neosartorya fis...  36.9    0.93 
+  UniRef90_A0A1I1P360 Acetyl esterase/lipase n=1 Tax=Nocardioides...  36.9    1.0  
+  UniRef90_A0A0B7KFM9 Uncharacterized protein n=1 Tax=Bionectria ...  36.9    1.0  
+  UniRef90_A0A257WFB5 Uncharacterized protein n=1 Tax=Planctomyce...  36.9    1.1  
+  UniRef90_W7DKT5 Group 1 glycosyl transferase n=1 Tax=Listeria f...  36.6    1.2  
+  UniRef90_A0A1G9FDZ4 Uncharacterized protein n=1 Tax=Natronorubr...  35.4    1.4  
+  UniRef90_UPI000225F3D1 hypothetical protein n=1 Tax=Paracoccus ...  34.6    1.4  
+  UniRef90_A0A2U1Q997 Uncharacterized protein n=1 Tax=Artemisia a...  36.6    1.4  
+  UniRef90_E6WKF6 Uncharacterized protein n=1 Tax=Pantoea sp. (st...  35.0    1.5  
+  UniRef90_A0A2R6HYC2 Uncharacterized protein n=1 Tax=Halobacteri...  35.0    1.5  
+  UniRef90_H7F424 Glycosyl transferases group 1 n=4 Tax=Listeria ...  36.6    1.5  
+  UniRef90_A0A316TX51 DUF3467 domain-containing protein n=1 Tax=G...  35.4    1.6  
+  UniRef90_UPI000E6D751E trypsin-like n=1 Tax=Hyposmocoma kahaman...  36.2    1.7  
+  UniRef90_UPI000F8D1B7D hypothetical protein n=1 Tax=Veillonella...  35.4    1.7  
+  UniRef90_UPI000EB27475 hypothetical protein n=1 Tax=Robbsia sp....  35.0    1.7  
+  UniRef90_A0A2W6ZPI4 Uncharacterized protein n=1 Tax=Cyanobium s...  36.2    1.7  
+  UniRef90_A0A3A4QGV8 Aminotransferase class I/II-fold pyridoxal ...  36.2    2.0  
+  UniRef90_A0A3A8JXL0 Cation diffusion facilitator family transpo...  35.8    2.2  
+  UniRef90_H3KGL4 RNA polymerase sigma factor n=1 Tax=Sutterella ...  35.8    2.2  
+  UniRef90_L9VT21 Uncharacterized protein n=3 Tax=Natronorubrum T...  34.6    2.3  
+  UniRef90_A0A3L2H530 Uncharacterized protein n=2 Tax=Salmonella ...  34.6    2.7  
+  UniRef90_UPI000407879B acetylornithine transaminase n=1 Tax=Act...  35.8    2.8  
+  UniRef90_UPI0008F9CED2 suppressor protein SRP40-like n=1 Tax=Be...  35.8    2.9  
+  UniRef90_G7GX27 Uncharacterized protein n=1 Tax=Gordonia araii ...  35.4    3.1  
+  UniRef90_A0A379LP63 Uncharacterized protein n=1 Tax=Pandoraea p...  33.9    3.1  
+  UniRef90_A0A0U1HH78 Uncharacterized protein n=18 Tax=Yersinia T...  34.3    3.3  
+  UniRef90_A0A0A6PBZ4 Adenosylmethionine-8-amino-7-oxononanoate a...  35.4    3.8  
+  UniRef90_A0A2W2BJS9 Esterase n=1 Tax=Jiangella sp. GTF31 TaxID=...  35.0    3.9  
+  UniRef90_G7GNI3 Putative non-ribosomal peptide synthetase n=2 T...  35.0    4.3  
+  UniRef90_A0A3M1R1E9 Methyl-accepting chemotaxis protein (Fragme...  35.0    4.6  
+  UniRef90_B8E038 Uncharacterized protein n=1 Tax=Dictyoglomus tu...  34.6    4.6  
+  UniRef90_UPI00070E44C8 hypothetical protein n=1 Tax=Yersinia fr...  33.5    5.1  
+  UniRef90_A0A0D8XM90 Cullin family protein n=1 Tax=Dictyocaulus ...  35.0    5.5  
+  UniRef90_A0A2M8I1W7 Uncharacterized protein n=1 Tax=Mycobacteri...  33.5    5.6  
+  UniRef90_UPI0005E0BD6B hypothetical protein n=2 Tax=Yersinia Ta...  33.5    6.1  
+  UniRef90_A0A1Y4J0B7 Uncharacterized protein n=2 Tax=Gemmiger Ta...  34.6    6.1  
+  UniRef90_UPI000E211C03 hypothetical protein n=1 Tax=Halorussus ...  33.5    6.9  
+  UniRef90_UPI0007382DA9 GPI transamidase component PIG-S-like n=...  34.3    7.3  
+  UniRef90_UPI000FD8B42A UPI000FD8B42A related cluster n=1 Tax=un...  33.9    8.4  
+  UniRef90_A0A0G4EEF3 Uncharacterized protein n=1 Tax=Vitrella br...  33.5    8.7  
+  UniRef90_H8MZL2 Cation diffusionfacilitator family transporter ...  34.3    9.2  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.177    0.573    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0541    0.140     1.90     42.6     43.6 
+
+Effective search space used: 758132714850
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2202 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415473.1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AFW3 Ribosome modulation factor n=142 Tax=Proteobact...  114     1e-32
+  UniRef90_Q7UD19 Ribosome modulation factor n=93 Tax=Enterobacte...  112     8e-32
+  UniRef90_UPI000D6E8F2F ribosome modulation factor n=1 Tax=Esche...  110     3e-31
+  UniRef90_V1H135 Ribosome modulation factor n=82 Tax=Salmonella ...  107     1e-29
+  UniRef90_A0A1A9F9E7 Ribosome modulation factor n=35 Tax=Enterob...  106     1e-29
+  UniRef90_A0A0T5XPT1 Ribosome modulation factor n=35 Tax=Bacteri...  106     2e-29
+  UniRef90_A0A089PUT4 Ribosome modulation factor n=4 Tax=Enteroba...  104     7e-29
+  UniRef90_A0A0T5IB94 Ribosome modulation factor n=18 Tax=Enterob...  104     9e-29
+  UniRef90_A0A370YKF0 Ribosome modulation factor n=28 Tax=Enterob...  103     2e-28
+  UniRef90_A0A3B6ZGI9 Ribosome modulation factor n=4 Tax=Klebsiel...  101     1e-27
+  UniRef90_A0A3N1IY09 Ribosome modulation factor n=2 Tax=Enteroba...  101     1e-27
+  UniRef90_A0A2S9UDK5 Ribosome modulation factor n=10 Tax=Enterob...  101     2e-27
+  UniRef90_A0A071LW31 Ribosome modulation factor n=3 Tax=Mangrovi...  100     4e-27
+  UniRef90_I2BAL2 Ribosome modulation factor n=1 Tax=Shimwellia b...  100     4e-27
+  UniRef90_A0A2P8VQ73 Ribosome modulation factor n=7 Tax=Enteroba...  100     5e-27
+  UniRef90_UPI00073D40D9 ribosome modulation factor n=1 Tax=[Erwi...  99.8    8e-27
+  UniRef90_UPI0009490B2A ribosome modulation factor n=1 Tax=Panto...  99.0    2e-26
+  UniRef90_A0A376UCT7 Ribosome modulation factor n=1 Tax=Escheric...  98.2    3e-26
+  UniRef90_UPI0008FBF282 ribosome modulation factor n=1 Tax=Crono...  98.2    3e-26
+  UniRef90_D2BXQ9 Ribosome modulation factor n=11 Tax=Enterobacte...  96.3    2e-25
+  UniRef90_A0A2I5TJP8 Ribosome modulation factor n=17 Tax=Enterob...  95.1    5e-25
+  UniRef90_A0A095UGN8 Ribosome modulation factor n=5 Tax=Tatumell...  95.1    5e-25
+  UniRef90_H5UWZ9 Ribosome modulation factor n=2 Tax=Enterobacter...  95.1    6e-25
+  UniRef90_C6C3V6 Ribosome modulation factor n=1 Tax=Dickeya para...  94.7    9e-25
+  UniRef90_UPI0009081A65 ribosome modulation factor n=1 Tax=Brenn...  94.7    9e-25
+  UniRef90_D4I0C5 Ribosome modulation factor n=8 Tax=Erwiniaceae ...  94.0    1e-24
+  UniRef90_A0A1W9EYQ9 Ribosome modulation factor n=13 Tax=Erwinia...  93.6    2e-24
+  UniRef90_A0A1W6BAP5 Ribosome modulation factor n=15 Tax=Erwinia...  94.0    2e-24
+  UniRef90_I9P4Z6 Ribosome modulation factor n=11 Tax=cellular or...  93.2    3e-24
+  UniRef90_V5Z7A3 Ribosome modulation factor n=7 Tax=Erwiniaceae ...  93.2    3e-24
+  UniRef90_A0A370QMP5 Ribosome modulation factor n=1 Tax=Enteroba...  92.8    5e-24
+  UniRef90_A0A085GUR0 Ribosome modulation factor n=5 Tax=Enteroba...  92.4    6e-24
+  UniRef90_A0A290T3N8 Ribosome modulation factor n=3 Tax=Pseudoal...  92.4    6e-24
+  UniRef90_E6WCC7 Ribosome modulation factor n=6 Tax=Enterobacter...  92.4    6e-24
+  UniRef90_I0QTZ8 Ribosome modulation factor n=6 Tax=Enterobacter...  92.0    9e-24
+  UniRef90_A0A1A9AVM8 Ribosome modulation factor n=2 Tax=Plesiomo...  92.0    1e-23
+  UniRef90_A0A3N6W9P9 Ribosome modulation factor n=8 Tax=Erwiniac...  92.0    1e-23
+  UniRef90_UPI00048E6DAA ribosome modulation factor n=1 Tax=Phase...  92.0    1e-23
+  UniRef90_K8WEX0 Ribosome modulation factor n=8 Tax=Gammaproteob...  91.7    1e-23
+  UniRef90_A0A2M9WBM9 Ribosome modulation factor n=8 Tax=Gammapro...  91.7    1e-23
+  UniRef90_A0A384LNU5 Ribosome modulation factor n=42 Tax=Enterob...  91.3    2e-23
+  UniRef90_A0A0H3DRU4 Ribosome modulation factor n=3 Tax=Edwardsi...  90.9    3e-23
+  UniRef90_A0A2K9YVB5 Ribosome modulation factor n=13 Tax=Enterob...  90.5    4e-23
+  UniRef90_A0A2I0FX08 Ribosome modulation factor n=1 Tax=Enteroba...  90.1    5e-23
+  UniRef90_A0A1H3Z6P9 Ribosome modulation factor n=1 Tax=Alkalimo...  90.1    5e-23
+  UniRef90_UPI0008FFA9DD ribosome modulation factor n=1 Tax=Enter...  89.7    7e-23
+  UniRef90_A0A1E7Q6G1 Ribosome modulation factor n=8 Tax=Gammapro...  89.7    8e-23
+  UniRef90_A0A1B8SVB0 Ribosome modulation factor n=6 Tax=Providen...  89.7    9e-23
+  UniRef90_A0A269PKP7 Ribosome modulation factor n=2 Tax=Pseudoal...  89.4    9e-23
+  UniRef90_A0A0S2K181 Ribosome modulation factor n=1 Tax=Pseudoal...  89.4    1e-22
+  UniRef90_UPI000D0B16B5 ribosome modulation factor n=1 Tax=Esche...  89.4    1e-22
+  UniRef90_A0A0N1KHA3 Ribosome modulation factor n=2 Tax=Moellere...  89.0    1e-22
+  UniRef90_G2GZP0 Ribosome modulation factor n=1 Tax=Candidatus R...  89.0    1e-22
+  UniRef90_UPI0009EC74CE ribosome modulation factor n=3 Tax=Alter...  89.0    1e-22
+  UniRef90_A0A084A171 Ribosome modulation factor n=5 Tax=Enteroba...  89.0    2e-22
+  UniRef90_K7A1X9 Ribosome modulation factor n=2 Tax=Paraglacieco...  89.0    2e-22
+  UniRef90_UPI000587B4C1 ribosome modulation factor n=1 Tax=Parag...  88.6    2e-22
+  UniRef90_A0A1I0ARE9 Ribosome modulation factor n=1 Tax=Thalasso...  88.6    2e-22
+  UniRef90_A4C9L8 Ribosome modulation factor n=2 Tax=Pseudoaltero...  88.2    3e-22
+  UniRef90_B6XC14 Ribosome modulation factor n=7 Tax=Enterobacter...  88.2    3e-22
+  UniRef90_UPI000C292D45 ribosome modulation factor n=1 Tax=Alter...  88.2    4e-22
+  UniRef90_A0A1B7UJ65 Ribosome modulation factor n=4 Tax=Chromati...  88.2    4e-22
+  UniRef90_A0A346NM27 Ribosome modulation factor n=1 Tax=Salinimo...  88.2    4e-22
+  UniRef90_K6YU72 Ribosome modulation factor n=1 Tax=Aliiglacieco...  87.8    4e-22
+  UniRef90_A0A085GJJ3 Ribosome modulation factor n=1 Tax=Ewingell...  87.8    5e-22
+  UniRef90_A0A0F4Q0C1 Ribosome modulation factor n=1 Tax=Pseudoal...  87.4    6e-22
+  UniRef90_A0A136A1E9 Ribosome modulation factor n=1 Tax=Paraglac...  87.0    1e-21
+  UniRef90_UPI000DD09247 ribosome modulation factor n=1 Tax=Caten...  87.0    1e-21
+  UniRef90_UPI0003137C55 ribosome modulation factor n=1 Tax=Candi...  87.0    1e-21
+  UniRef90_A0A3D0Q534 Ribosome modulation factor n=4 Tax=Alteromo...  87.0    1e-21
+  UniRef90_A0A2A4VKE4 Ribosome modulation factor n=1 Tax=Gammapro...  87.0    1e-21
+  UniRef90_UPI000CF6AC37 ribosome modulation factor n=2 Tax=Pseud...  86.7    1e-21
+  UniRef90_UPI000F8635DB ribosome modulation factor n=1 Tax=Idiom...  86.7    1e-21
+  UniRef90_A0A3E0U944 Ribosome modulation factor n=2 Tax=Thalasso...  86.7    1e-21
+  UniRef90_UPI00039CBF04 ribosome modulation factor n=1 Tax=Salin...  86.7    1e-21
+  UniRef90_A0A0F4P291 Ribosome modulation factor n=5 Tax=Pseudoal...  86.7    1e-21
+  UniRef90_A0A2I0DZ12 Ribosome modulation factor n=2 Tax=Shewanel...  86.3    2e-21
+  UniRef90_UPI000416B769 ribosome modulation factor n=1 Tax=Aestu...  86.3    2e-21
+  UniRef90_A0A349LXW9 Ribosome modulation factor n=1 Tax=Rheinhei...  86.3    2e-21
+  UniRef90_A0A1E7ZDE4 Ribosome modulation factor n=6 Tax=Alteromo...  86.3    2e-21
+  UniRef90_UPI00082A0DF1 ribosome modulation factor n=1 Tax=Alter...  86.3    2e-21
+  UniRef90_A0A2S0VTW9 Ribosome modulation factor n=1 Tax=Catenovu...  86.3    2e-21
+  UniRef90_A8GCL2 Ribosome modulation factor n=6 Tax=Serratia Tax...  85.9    3e-21
+  UniRef90_UPI000A0629B9 ribosome modulation factor n=1 Tax=Glaci...  85.5    3e-21
+  UniRef90_A0A1G6A6X7 Ribosome modulation factor n=1 Tax=Idiomari...  85.5    4e-21
+  UniRef90_F7NWG8 Ribosome modulation factor n=5 Tax=Chromatiales...  85.5    4e-21
+  UniRef90_UPI000FDF3FE9 UPI000FDF3FE9 related cluster n=1 Tax=un...  85.1    5e-21
+  UniRef90_A0A2E4CI77 Ribosome modulation factor n=2 Tax=Pseudoal...  85.1    5e-21
+  UniRef90_A0A348MTP4 Ribosome modulation factor n=2 Tax=Glacieco...  85.1    6e-21
+  UniRef90_A0A167K048 Ribosome modulation factor n=8 Tax=Pseudoal...  85.9    6e-21
+  UniRef90_A0A368NQV2 Ribosome modulation factor n=1 Tax=Corallin...  84.7    7e-21
+  UniRef90_Q15UB2 Ribosome modulation factor n=5 Tax=Alteromonada...  84.7    8e-21
+  UniRef90_UPI0002E28862 ribosome modulation factor n=1 Tax=Edwar...  84.7    8e-21
+  UniRef90_UPI000D14DCB4 ribosome modulation factor n=1 Tax=Shewa...  84.7    9e-21
+  UniRef90_A0A3A6UJF0 Ribosome modulation factor n=1 Tax=Shewanel...  84.7    9e-21
+  UniRef90_A0A099LE14 Ribosome modulation factor n=3 Tax=Thalasso...  84.3    9e-21
+  UniRef90_UPI0003F90819 ribosome modulation factor n=1 Tax=Ferri...  84.3    1e-20
+  UniRef90_F5Z7V5 Ribosome modulation factor n=15 Tax=Proteobacte...  84.3    1e-20
+  UniRef90_A1S605 Ribosome modulation factor n=8 Tax=Shewanellace...  84.3    1e-20
+  UniRef90_A0A1S1NA55 Ribosome modulation factor n=2 Tax=Pseudoal...  84.0    1e-20
+  UniRef90_B0TIX3 Ribosome modulation factor n=13 Tax=Shewanellac...  84.0    1e-20
+  UniRef90_UPI000E00C8D3 ribosome modulation factor n=1 Tax=Esche...  84.3    1e-20
+  UniRef90_H5T9H0 Ribosome modulation factor n=1 Tax=Glaciecola p...  84.0    1e-20
+  UniRef90_UPI000970FD4F ribosome modulation factor n=1 Tax=Colwe...  84.0    2e-20
+  UniRef90_A0A1Y6ETP2 Ribosome modulation factor n=3 Tax=Idiomari...  84.0    2e-20
+  UniRef90_Q3IGH0 Ribosome modulation factor n=50 Tax=root TaxID=...  84.0    2e-20
+  UniRef90_A0A316FQW1 Ribosome modulation factor n=1 Tax=Pleionea...  84.0    2e-20
+  UniRef90_A0A2A4VU46 Ribosome modulation factor n=1 Tax=Gammapro...  84.0    2e-20
+  UniRef90_UPI000D3E4B24 ribosome modulation factor n=1 Tax=Gamma...  84.0    2e-20
+  UniRef90_A0A1H9HF67 Ribosome modulation factor n=2 Tax=Enteroba...  83.6    2e-20
+  UniRef90_V1DP13 Ribosome modulation factor n=7 Tax=Shewanella T...  84.0    2e-20
+  UniRef90_A0A2Z6U4I0 Ribosome modulation factor n=1 Tax=Glacieco...  83.6    2e-20
+  UniRef90_A0A0L0ESX4 Ribosome modulation factor n=5 Tax=Pseudoal...  83.6    2e-20
+  UniRef90_A0A2A6AZS7 Ribosome modulation factor n=1 Tax=Alteromo...  83.6    2e-20
+  UniRef90_A0A2S8QXE8 Ribosome modulation factor n=3 Tax=Morganel...  83.6    2e-20
+  UniRef90_A0A396TV42 Ribosome modulation factor n=1 Tax=Colwelli...  83.6    3e-20
+  UniRef90_A0A2U8I8U5 Ribosome modulation factor n=1 Tax=Candidat...  83.2    3e-20
+  UniRef90_A0A165K8F3 Ribosome modulation factor n=14 Tax=Shewane...  83.2    3e-20
+  UniRef90_A0A3D8M8N4 Ribosome modulation factor n=1 Tax=Alteromo...  83.2    3e-20
+  UniRef90_A0A3D3HQW6 Ribosome modulation factor n=6 Tax=Bacteria...  82.8    4e-20
+  UniRef90_A0A0N0M119 Ribosome modulation factor n=1 Tax=Pseudoal...  82.8    4e-20
+  UniRef90_A0A396TY77 Ribosome modulation factor n=1 Tax=Colwelli...  82.8    4e-20
+  UniRef90_Q2NU75 Ribosome modulation factor n=1 Tax=Sodalis glos...  84.3    4e-20
+  UniRef90_UPI000B35563A ribosome modulation factor n=1 Tax=Thaum...  82.8    4e-20
+  UniRef90_UPI000A04F928 ribosome modulation factor n=1 Tax=Ferri...  82.8    5e-20
+  UniRef90_Q47UR1 Ribosome modulation factor 2 n=9 Tax=Colwellia ...  82.4    5e-20
+  UniRef90_A0A2S7UWM6 Ribosome modulation factor n=1 Tax=Psychros...  82.4    5e-20
+  UniRef90_S5AFW1 Ribosome modulation factor n=7 Tax=Alteromonas ...  82.4    6e-20
+  UniRef90_A0A3N5Y3G3 Ribosome modulation factor n=1 Tax=Alteromo...  82.4    6e-20
+  UniRef90_A0A0K6GW29 Ribosome modulation factor n=9 Tax=Idiomari...  82.4    6e-20
+  UniRef90_UPI000F871465 ribosome modulation factor n=1 Tax=Aliid...  82.4    6e-20
+  UniRef90_UPI00035D3BFE ribosome modulation factor n=1 Tax=Colwe...  82.4    6e-20
+  UniRef90_UPI000DF32769 ribosome modulation factor n=1 Tax=Colwe...  82.4    6e-20
+  UniRef90_K2JUA4 Ribosome modulation factor n=1 Tax=Idiomarina x...  82.4    6e-20
+  UniRef90_W7QKI7 Ribosome modulation factor n=1 Tax=Catenovulum ...  82.4    7e-20
+  UniRef90_A0A094IV84 Ribosome modulation factor n=5 Tax=Idiomari...  82.0    1e-19
+  UniRef90_A0A0P7WRI1 Ribosome modulation factor n=3 Tax=Idiomari...  82.0    1e-19
+  UniRef90_UPI0003757429 ribosome modulation factor n=1 Tax=Algic...  82.0    1e-19
+  UniRef90_A0A1Y5CZE7 Ribosome modulation factor n=1 Tax=Colwelli...  81.6    1e-19
+  UniRef90_A0A1Q6CE97 Ribosome modulation factor n=1 Tax=Thalasso...  81.6    1e-19
+  UniRef90_A0A1M5NFY2 Ribosome modulation factor n=2 Tax=Ferrimon...  81.6    1e-19
+  UniRef90_A0A1Z9XM12 Ribosome modulation factor n=3 Tax=Alteromo...  81.6    1e-19
+  UniRef90_Q47Z13 Ribosome modulation factor 1 n=14 Tax=Colwellia...  80.9    2e-19
+  UniRef90_UPI00098518EF ribosome modulation factor n=1 Tax=Colwe...  80.9    2e-19
+  UniRef90_A0A0J8GTV3 Ribosome modulation factor n=1 Tax=Catenovu...  80.9    3e-19
+  UniRef90_Q12LD0 Ribosome modulation factor n=3 Tax=Shewanella T...  80.9    3e-19
+  UniRef90_A0A377HMI2 Ribosome modulation factor n=3 Tax=Grimonti...  80.9    3e-19
+  UniRef90_A0A0D8D145 Ribosome modulation factor n=2 Tax=Thalasso...  80.9    3e-19
+  UniRef90_A0A327X210 Ribosome modulation factor n=1 Tax=Aliidiom...  80.9    3e-19
+  UniRef90_UPI000E20BCA1 ribosome modulation factor n=1 Tax=Galla...  80.9    3e-19
+  UniRef90_UPI000F86C679 ribosome modulation factor n=1 Tax=Aliid...  80.9    3e-19
+  UniRef90_A0A3D3H4B2 Ribosome modulation factor n=1 Tax=Colwelli...  80.5    3e-19
+  UniRef90_C4LEL9 Ribosome modulation factor n=2 Tax=Tolumonas Ta...  80.5    3e-19
+  UniRef90_H2FW45 Ribosome modulation factor n=10 Tax=Aeromonadac...  80.5    4e-19
+  UniRef90_UPI000379C506 ribosome modulation factor n=1 Tax=Gayad...  80.5    4e-19
+  UniRef90_UPI000F86DF7F ribosome modulation factor n=1 Tax=Aliid...  80.5    4e-19
+  UniRef90_UPI0009F82918 ribosome modulation factor n=2 Tax=Agari...  80.1    5e-19
+  UniRef90_A0A125BEN2 Ribosome modulation factor n=10 Tax=Shewane...  80.1    5e-19
+  UniRef90_UPI0009DD2029 ribosome modulation factor n=1 Tax=Shewa...  80.1    5e-19
+  UniRef90_L8D8R2 Ribosome modulation factor n=1 Tax=Pseudoaltero...  80.1    5e-19
+  UniRef90_UPI000F7E7E23 ribosome modulation factor n=1 Tax=Shewa...  80.1    5e-19
+  UniRef90_A0A1H7JJB4 Ribosome modulation factor n=1 Tax=Colwelli...  80.1    6e-19
+  UniRef90_UPI000F896803 ribosome modulation factor n=1 Tax=Idiom...  80.1    6e-19
+  UniRef90_K6Y4E9 Ribosome modulation factor n=2 Tax=Glaciecola T...  80.1    6e-19
+  UniRef90_K2K449 Ribosome modulation factor n=2 Tax=Gallaecimona...  79.7    8e-19
+  UniRef90_UPI0009FE383D ribosome modulation factor n=1 Tax=Ferri...  79.7    8e-19
+  UniRef90_A0A3E0UC16 Ribosome modulation factor n=1 Tax=Thalasso...  79.7    9e-19
+  UniRef90_D3UWT8 Ribosome modulation factor n=27 Tax=Morganellac...  79.3    1e-18
+  UniRef90_A0A2H9U3R5 Ribosome modulation factor n=1 Tax=Aeromona...  79.3    1e-18
+  UniRef90_A0A090IDM5 Ribosome modulation factor n=7 Tax=Moritell...  79.3    1e-18
+  UniRef90_UPI000E0FDD72 ribosome modulation factor n=1 Tax=Shewa...  79.0    1e-18
+  UniRef90_UPI000F858329 UPI000F858329 related cluster n=1 Tax=un...  79.0    1e-18
+  UniRef90_UPI000B3627E8 ribosome modulation factor n=1 Tax=Thaum...  79.0    1e-18
+  UniRef90_A0A1D3DHR3 Ribosome modulation factor n=7 Tax=Enteroba...  79.0    2e-18
+  UniRef90_L8J8M4 Ribosome modulation factor n=1 Tax=Photobacteri...  79.0    2e-18
+  UniRef90_A0A1C3EBR4 Ribosome modulation factor n=1 Tax=Enterovi...  78.6    2e-18
+  UniRef90_UPI000B3C477B ribosome modulation factor n=1 Tax=Neiel...  78.6    2e-18
+  UniRef90_UPI000A01E1AA ribosome modulation factor n=1 Tax=Aliag...  78.6    2e-18
+  UniRef90_UPI000BA94786 ribosome modulation factor n=2 Tax=Paraf...  78.6    2e-18
+  UniRef90_B4EVD2 Ribosome modulation factor n=10 Tax=Enterobacte...  78.2    2e-18
+  UniRef90_UPI000E77A611 ribosome modulation factor n=1 Tax=Alter...  78.6    3e-18
+  UniRef90_A0A0S2JJU4 Ribosome modulation factor n=2 Tax=Colwelli...  78.2    3e-18
+  UniRef90_A0A1E5C8Y6 Ribosome modulation factor n=6 Tax=Enterovi...  78.2    3e-18
+  UniRef90_A0A2T3I3W3 Ribosome modulation factor n=3 Tax=Photobac...  78.2    3e-18
+  UniRef90_UPI000F8665A8 ribosome modulation factor n=1 Tax=Aliid...  78.2    3e-18
+  UniRef90_F4DAE8 Ribosome modulation factor n=45 Tax=Gammaproteo...  78.2    3e-18
+  UniRef90_A0A2D6RFD5 Ribosome modulation factor n=2 Tax=Colwelli...  78.2    3e-18
+  UniRef90_B6ELS2 Ribosome modulation factor n=5 Tax=Aliivibrio T...  78.2    3e-18
+  UniRef90_A0A178KKY8 Ribosome modulation factor n=3 Tax=Photobac...  77.8    4e-18
+  UniRef90_A0A2S2E2N8 Ribosome modulation factor n=1 Tax=Salinimo...  77.8    4e-18
+  UniRef90_F7RWX3 Ribosome modulation factor n=3 Tax=Idiomarinace...  77.8    5e-18
+  UniRef90_UPI000A16CE8F ribosome modulation factor n=1 Tax=Colwe...  77.4    6e-18
+  UniRef90_R1H727 Ribosome modulation factor n=4 Tax=Aeromonadace...  77.4    7e-18
+  UniRef90_A0A220VEM9 Ribosome modulation factor n=1 Tax=Paraphot...  77.0    8e-18
+  UniRef90_A0A1N6ERN3 Ribosome modulation factor n=2 Tax=Salinivi...  77.4    1e-17
+  UniRef90_D3VC10 Ribosome modulation factor n=7 Tax=Xenorhabdus ...  76.3    1e-17
+  UniRef90_UPI00046FA108 ribosome modulation factor n=1 Tax=Shewa...  76.6    1e-17
+  UniRef90_A0A1I3HZ73 Ribosome modulation factor n=1 Tax=Xenorhab...  76.3    1e-17
+  UniRef90_Q1Z9B3 Ribosome modulation factor n=5 Tax=Photobacteri...  76.3    2e-17
+  UniRef90_A0A2T3N226 Ribosome modulation factor n=1 Tax=Photobac...  76.3    2e-17
+  UniRef90_B7VNL5 Ribosome modulation factor n=1 Tax=Vibrio tasma...  76.3    2e-17
+  UniRef90_A0A3L8PQW7 Ribosome modulation factor n=1 Tax=Shewanel...  76.3    2e-17
+  UniRef90_A0A1V3HA89 Ribosome modulation factor n=8 Tax=Salinivi...  75.9    2e-17
+  UniRef90_A0A090P431 Ribosome modulation factor n=4 Tax=Vibrio T...  75.9    3e-17
+  UniRef90_A0A1X1MQS2 Ribosome modulation factor n=1 Tax=Vibrio s...  75.9    3e-17
+  UniRef90_A0A066RLD7 Ribosome modulation factor n=2 Tax=Vibriona...  75.5    3e-17
+  UniRef90_A0A193KFE9 Ribosome modulation factor n=5 Tax=Vibrio T...  75.1    4e-17
+  UniRef90_A0A1Q9G6N8 Ribosome modulation factor n=1 Tax=Photobac...  75.1    4e-17
+  UniRef90_A0A1R4B2G7 Ribosome modulation factor n=1 Tax=Vibrio p...  75.1    5e-17
+  UniRef90_S7JG16 Ribosome modulation factor n=3 Tax=Vibrio TaxID...  75.1    6e-17
+  UniRef90_A0A0J1GW38 Ribosome modulation factor n=6 Tax=Photobac...  75.1    6e-17
+  UniRef90_UPI0009707D20 ribosome modulation factor n=2 Tax=Vibri...  75.1    6e-17
+  UniRef90_A0A2A5T7C7 Ribosome modulation factor n=1 Tax=Candidat...  74.7    7e-17
+  UniRef90_A0A090IL41 Ribosome modulation factor n=12 Tax=Vibrion...  74.7    7e-17
+  UniRef90_A0A0D8MDD2 Ribosome modulation factor n=18 Tax=Photoba...  74.7    8e-17
+  UniRef90_A0A1D8RUG4 Ribosome modulation factor n=1 Tax=Colwelli...  74.7    8e-17
+  UniRef90_Q5QYY1 Ribosome modulation factor n=20 Tax=Idiomarinac...  74.7    8e-17
+  UniRef90_A0A2A4W7Q2 Ribosome modulation factor n=2 Tax=Gammapro...  74.3    1e-16
+  UniRef90_A0A1E5DTC5 Ribosome modulation factor n=18 Tax=Vibrio ...  74.3    1e-16
+  UniRef90_UPI0009E672FC ribosome modulation factor n=1 Tax=Vibri...  73.9    1e-16
+  UniRef90_A0A2U3BBQ2 Ribosome modulation factor n=1 Tax=Vibrio s...  73.9    1e-16
+  UniRef90_E3BFH0 Ribosome modulation factor n=7 Tax=Vibrionaceae...  73.9    2e-16
+  UniRef90_A0A0H2MUA2 Ribosome modulation factor n=13 Tax=Vibrio ...  73.6    2e-16
+  UniRef90_A7N0M4 Ribosome modulation factor n=77 Tax=Vibrionales...  73.9    2e-16
+  UniRef90_A0A097QKB9 Ribosome modulation factor n=5 Tax=Vibrio T...  73.6    2e-16
+  UniRef90_A0A151L114 Ribosome modulation factor n=4 Tax=Vibrio T...  73.6    2e-16
+  UniRef90_A0A090RKI7 Ribosome modulation factor n=1 Tax=Vibrio s...  73.2    3e-16
+  UniRef90_A0A1M5Z5X9 Ribosome modulation factor n=2 Tax=Vibrio T...  73.2    3e-16
+  UniRef90_A0A0D1GT46 Ribosome modulation factor n=9 Tax=Vibrio T...  73.2    3e-16
+  UniRef90_F7YJP1 Ribosome modulation factor n=9 Tax=Vibrionaceae...  72.8    4e-16
+  UniRef90_A0A2G6KWB1 Ribosome modulation factor n=1 Tax=Gammapro...  72.8    5e-16
+  UniRef90_A0A2N8Z9K6 Ribosome modulation factor n=1 Tax=Vibrio t...  72.8    5e-16
+  UniRef90_A0A2M8H2U8 Ribosome modulation factor n=2 Tax=Vibrio T...  72.4    5e-16
+  UniRef90_A0A2N4UTG8 Ribosome modulation factor n=1 Tax=Photobac...  72.4    5e-16
+  UniRef90_A0A1E5E7A3 Ribosome modulation factor n=5 Tax=Vibriona...  72.4    5e-16
+  UniRef90_UPI0009EB818B ribosome modulation factor n=1 Tax=Photo...  72.4    6e-16
+  UniRef90_E1ST49 Ribosome modulation factor n=1 Tax=Ferrimonas b...  71.6    1e-15
+  UniRef90_C3NQJ0 Ribosome modulation factor n=20 Tax=Vibrio TaxI...  71.6    1e-15
+  UniRef90_UPI0008DA767B ribosome modulation factor n=1 Tax=Vibri...  71.2    1e-15
+  UniRef90_C7RB40 Ribosome modulation factor n=2 Tax=Kangiella Ta...  71.2    2e-15
+  UniRef90_A0A1Z2SIL3 Ribosome modulation factor n=5 Tax=Vibrio T...  70.9    2e-15
+  UniRef90_UPI000C83EDF1 ribosome modulation factor n=1 Tax=Vibri...  70.9    2e-15
+  UniRef90_UPI000DB9C3AD ribosome modulation factor n=1 Tax=Alcan...  70.9    3e-15
+  UniRef90_A0A1G7YDY0 Ribosome modulation factor n=2 Tax=Vibrio x...  70.5    3e-15
+  UniRef90_UPI000FE1C166 ribosome modulation factor n=1 Tax=Serra...  70.5    3e-15
+  UniRef90_K0CEJ2 Ribosome modulation factor n=5 Tax=Alcanivorax ...  70.1    8e-15
+  UniRef90_A0A0B4XNY5 Ribosome modulation factor n=1 Tax=Alcanivo...  69.7    9e-15
+  UniRef90_A0A2N0WNC2 Ribosome modulation factor n=1 Tax=Alteromo...  69.3    1e-14
+  UniRef90_UPI000414C1D5 ribosome modulation factor n=1 Tax=Zoosh...  69.3    1e-14
+  UniRef90_I3IBF3 Ribosome modulation factor n=3 Tax=Cellvibrio T...  69.3    1e-14
+  UniRef90_A0A1B3BB33 Ribosome modulation factor n=5 Tax=Proteoba...  68.6    2e-14
+  UniRef90_UPI000DB93458 ribosome modulation factor n=1 Tax=Marin...  68.9    2e-14
+  UniRef90_UPI000D0BC9E3 ribosome modulation factor n=1 Tax=Halom...  68.6    2e-14
+  UniRef90_A0A3M1KCP6 Ribosome modulation factor n=1 Tax=Gammapro...  68.6    3e-14
+  UniRef90_U7G2T2 Ribosome modulation factor n=1 Tax=Alcanivorax ...  68.2    3e-14
+  UniRef90_A4A7X7 Ribosome modulation factor n=2 Tax=Gammaproteob...  68.2    3e-14
+  UniRef90_UPI00059FAD1B ribosome modulation factor n=2 Tax=Gilvi...  68.2    4e-14
+  UniRef90_A0A1H6T7C8 Ribosome modulation factor n=1 Tax=Pseudosp...  68.2    4e-14
+  UniRef90_A0A3F2UZ86 Ribosome modulation factor n=1 Tax=Ketobact...  68.2    4e-14
+  UniRef90_Q0VQU6 Ribosome modulation factor n=12 Tax=Alcanivorac...  67.8    6e-14
+  UniRef90_A0A2E2K842 Ribosome modulation factor n=1 Tax=Spongiib...  67.4    7e-14
+  UniRef90_UPI00040CBC03 ribosome modulation factor n=1 Tax=Marin...  67.4    7e-14
+  UniRef90_A0A2D5GCJ4 Ribosome modulation factor n=3 Tax=Oceanosp...  66.6    1e-13
+  UniRef90_B3PIL7 Ribosome modulation factor n=5 Tax=Cellvibrio T...  66.6    1e-13
+  UniRef90_A0A3M2EA95 Ribosome modulation factor n=1 Tax=Gammapro...  66.2    2e-13
+  UniRef90_UPI000DA146E3 ribosome modulation factor n=2 Tax=Salin...  66.2    2e-13
+  UniRef90_A0A2K9LGK0 Ribosome modulation factor n=1 Tax=Ketobact...  66.2    2e-13
+  UniRef90_A0A3P2C6E2 Uncharacterized protein n=1 Tax=Klebsiella ...  65.5    2e-13
+  UniRef90_W1N4D1 Ribosome modulation factor n=7 Tax=Halomonas Ta...  66.2    2e-13
+  UniRef90_A0A2E7IPD8 Ribosome modulation factor n=1 Tax=Spongiib...  65.9    2e-13
+  UniRef90_A0A086D5X5 Ribosome modulation factor n=8 Tax=Gammapro...  65.9    3e-13
+  UniRef90_A0A2A5CR07 Ribosome modulation factor n=1 Tax=Gammapro...  65.5    3e-13
+  UniRef90_A0A2K8KPY7 Ribosome modulation factor n=3 Tax=Reinekea...  65.9    3e-13
+  UniRef90_I2JJK2 Ribosome modulation factor n=2 Tax=Spongiibacte...  65.9    3e-13
+  UniRef90_A0A1Y0FSM3 Ribosome modulation factor n=1 Tax=Cellvibr...  65.9    3e-13
+  UniRef90_A0A2N1YJ83 Ribosome modulation factor n=1 Tax=Gammapro...  65.9    3e-13
+  UniRef90_H0IZV6 Ribosome modulation factor n=30 Tax=Gammaproteo...  65.9    3e-13
+  UniRef90_A0A2H0DB05 Ribosome modulation factor n=1 Tax=Gammapro...  65.5    3e-13
+  UniRef90_A0A3P3VVJ1 Ribosome modulation factor n=1 Tax=Simiduia...  65.9    3e-13
+  UniRef90_A0A2D4WJ90 Ribosome modulation factor n=6 Tax=Gammapro...  65.9    3e-13
+  UniRef90_A0A1H0KUM5 Ribosome modulation factor n=4 Tax=Halomona...  65.5    4e-13
+  UniRef90_A0A1J5N1L1 Ribosome modulation factor n=1 Tax=Gammapro...  65.1    4e-13
+  UniRef90_A0A3N1NXQ1 Ribosome modulation factor n=2 Tax=Marinimi...  65.5    5e-13
+  UniRef90_A0A1G9JW83 Ribosome modulation factor n=4 Tax=Halomona...  66.2    5e-13
+  UniRef90_A0A2D4XR59 Ribosome modulation factor n=8 Tax=Pseudomo...  65.5    5e-13
+  UniRef90_A0A1K1TKJ2 Ribosome modulation factor n=1 Tax=Marinosp...  65.5    5e-13
+  UniRef90_A0A2G6KY53 Ribosome modulation factor n=3 Tax=Proteoba...  65.1    6e-13
+  UniRef90_A0A2D7WGX4 Ribosome modulation factor n=1 Tax=Spongiib...  65.1    6e-13
+  UniRef90_A0A1E2VEH2 Ribosome modulation factor n=1 Tax=Terasaki...  65.1    6e-13
+  UniRef90_A0A2E2XF44 Ribosome modulation factor n=1 Tax=Cellvibr...  65.1    6e-13
+  UniRef90_UPI00040A58CD ribosome modulation factor n=1 Tax=Halom...  65.1    7e-13
+  UniRef90_A0A3B8TXY0 Ribosome modulation factor n=1 Tax=Pseudomo...  65.1    7e-13
+  UniRef90_A0A2E0HJS1 Ribosome modulation factor n=6 Tax=Gammapro...  64.7    7e-13
+  UniRef90_UPI000475672F ribosome modulation factor n=1 Tax=Gilvi...  65.1    7e-13
+  UniRef90_A0A2E3D252 Ribosome modulation factor n=1 Tax=Pseudomo...  64.7    9e-13
+  UniRef90_A0A139SXW2 Ribosome modulation factor n=1 Tax=Ventosim...  64.7    9e-13
+  UniRef90_A0A3C0TCL1 Ribosome modulation factor n=1 Tax=Gammapro...  63.9    1e-12
+  UniRef90_UPI000976AADA ribosome modulation factor n=1 Tax=Motil...  64.7    1e-12
+  UniRef90_Q1QXW0 Ribosome modulation factor n=65 Tax=root TaxID=...  64.7    1e-12
+  UniRef90_A0A220SLC0 Ribosome modulation factor n=1 Tax=Alcanivo...  64.3    1e-12
+  UniRef90_UPI0008FFA9C0 ribosome modulation factor n=1 Tax=Serra...  63.9    1e-12
+  UniRef90_A0A176H4V5 Ribosome modulation factor n=1 Tax=Oleiphil...  64.3    1e-12
+  UniRef90_A0A1M7IFH3 Ribosome modulation factor n=2 Tax=Halomona...  64.3    1e-12
+  UniRef90_A0A0F7M435 Ribosome modulation factor n=1 Tax=Spongiib...  63.9    1e-12
+  UniRef90_UPI000EB117A4 ribosome modulation factor n=1 Tax=Pseud...  64.3    1e-12
+  UniRef90_A0A291BBQ8 Ribosome modulation factor n=1 Tax=Candidat...  63.2    2e-12
+  UniRef90_A0A2E5T3X9 Ribosome modulation factor n=2 Tax=Alcanivo...  63.9    2e-12
+  UniRef90_A0A2A2FS45 Ribosome modulation factor n=1 Tax=Pseudomo...  63.5    2e-12
+  UniRef90_UPI000BE612E2 ribosome modulation factor n=1 Tax=Mangr...  63.5    2e-12
+  UniRef90_A0A2E2K614 Ribosome modulation factor n=1 Tax=Spongiib...  63.5    3e-12
+  UniRef90_A0A2D5FJG4 Ribosome modulation factor n=1 Tax=Halieace...  63.5    3e-12
+  UniRef90_A0A1T1H9Y7 Ribosome modulation factor n=2 Tax=Oceanosp...  63.5    3e-12
+  UniRef90_A0A0C5VPG6 Ribosome modulation factor n=1 Tax=Gynuella...  63.2    3e-12
+  UniRef90_A0A3M0A9D5 Ribosome modulation factor n=1 Tax=Umboniib...  62.8    3e-12
+  UniRef90_A0A1I6GHQ6 Ribosome modulation factor n=2 Tax=Marinoba...  63.2    3e-12
+  UniRef90_UPI0002E308F1 ribosome modulation factor n=1 Tax=gamma...  63.2    4e-12
+  UniRef90_UPI0004690F57 ribosome modulation factor n=1 Tax=Cobet...  63.2    4e-12
+  UniRef90_A0A142BE66 Ribosome modulation factor n=2 Tax=Endozoic...  63.2    4e-12
+  UniRef90_UPI000E3E1DA4 ribosome modulation factor n=1 Tax=Chrom...  62.8    4e-12
+  UniRef90_UPI0009D9432D ribosome modulation factor n=3 Tax=Endoz...  63.2    4e-12
+  UniRef90_A0A095VS00 Ribosome modulation factor n=2 Tax=Halieace...  62.8    4e-12
+  UniRef90_Q21JW8 Ribosome modulation factor n=1 Tax=Saccharophag...  62.8    4e-12
+  UniRef90_A0A1I4SQ16 Ribosome modulation factor n=1 Tax=Pseudomo...  62.8    5e-12
+  UniRef90_A0YCD4 Ribosome modulation factor n=2 Tax=Spongiibacte...  62.4    6e-12
+  UniRef90_A0A1E3GAL6 Ribosome modulation factor n=1 Tax=Pisciric...  62.4    6e-12
+  UniRef90_UPI000BB54E5B ribosome modulation factor n=1 Tax=Agari...  62.8    6e-12
+  UniRef90_A0A1X7AM62 Ribosome modulation factor n=1 Tax=Parendoz...  62.8    6e-12
+  UniRef90_Q2SCH0 Ribosome modulation factor n=1 Tax=Hahella chej...  62.4    7e-12
+  UniRef90_A0A2A5CQ82 Ribosome modulation factor n=2 Tax=Gammapro...  62.4    7e-12
+  UniRef90_UPI000477639B ribosome modulation factor n=1 Tax=Dasan...  62.4    7e-12
+  UniRef90_C5BKZ1 Ribosome modulation factor n=1 Tax=Teredinibact...  62.4    7e-12
+  UniRef90_A0A2I0CTR6 Ribosome modulation factor n=3 Tax=Pseudomo...  62.4    7e-12
+  UniRef90_A0A1H2Z9P8 Ribosome modulation factor n=2 Tax=Marinoba...  62.4    8e-12
+  UniRef90_UPI000BA36BE5 ribosome modulation factor n=1 Tax=Endoz...  62.4    8e-12
+  UniRef90_A0A2E7C110 Ribosome modulation factor n=4 Tax=Halieace...  62.0    9e-12
+  UniRef90_UPI000A2F507A ribosome modulation factor n=1 Tax=Pseud...  62.0    1e-11
+  UniRef90_A0A1G9TLH4 Ribosome modulation factor n=3 Tax=Pseudomo...  62.0    1e-11
+  UniRef90_A0A0B3BT80 Ribosome modulation factor n=1 Tax=Pseudomo...  62.0    1e-11
+  UniRef90_UPI000DAEAAE7 ribosome modulation factor n=1 Tax=Marin...  62.0    1e-11
+  UniRef90_A0A2E4YJG4 Ribosome modulation factor n=3 Tax=Alcanivo...  62.0    1e-11
+  UniRef90_F6AKB2 Ribosome modulation factor n=301 Tax=cellular o...  62.0    1e-11
+  UniRef90_A0A024HKX2 Ribosome modulation factor n=30 Tax=Gammapr...  62.0    1e-11
+  UniRef90_A0A261GKQ6 Ribosome modulation factor n=1 Tax=Hahella ...  61.6    1e-11
+  UniRef90_A0A1H4A8E0 Ribosome modulation factor n=2 Tax=Marinoba...  61.6    1e-11
+  UniRef90_A0A3N0CW15 Ribosome modulation factor n=2 Tax=Zhongsha...  61.6    1e-11
+  UniRef90_A0A165U2F2 Ribosome modulation factor n=2 Tax=Halioglo...  61.6    1e-11
+  UniRef90_A0A1Y5HP14 Ribosome modulation factor n=2 Tax=Bacteria...  61.6    2e-11
+  UniRef90_A0A1T4LDT5 Ribosome modulation factor n=1 Tax=Oceanosp...  61.6    2e-11
+  UniRef90_UPI00046F84A1 ribosome modulation factor n=1 Tax=Carni...  61.6    2e-11
+  UniRef90_A0A0C4WHF8 Ribosome modulation factor n=7 Tax=Pseudomo...  61.6    2e-11
+  UniRef90_S6HKK2 Ribosome modulation factor n=1 Tax=Osedax symbi...  61.2    2e-11
+  UniRef90_UPI000EADF9D5 ribosome modulation factor n=1 Tax=Alter...  61.2    2e-11
+  UniRef90_UPI00041F6F8C ribosome modulation factor n=2 Tax=Marin...  61.2    2e-11
+  UniRef90_A0A1Y0IAE9 Ribosome modulation factor n=1 Tax=Oleiphil...  61.2    2e-11
+  UniRef90_UPI000DD05F91 ribosome modulation factor n=1 Tax=Cellv...  61.2    2e-11
+  UniRef90_A0A2T6E5P5 Ribosome modulation factor n=2 Tax=Saccharo...  61.2    2e-11
+  UniRef90_A0A2E0YYE7 Ribosome modulation factor n=1 Tax=Halioglo...  61.2    2e-11
+  UniRef90_A0A0K2L793 Ribosome modulation factor n=4 Tax=Pisciric...  60.8    2e-11
+  UniRef90_M4WZB2 Ribosome modulation factor n=5 Tax=Pseudomonas ...  61.2    2e-11
+  UniRef90_A0A3D4UDY7 Ribosome modulation factor n=1 Tax=Moraxell...  61.2    2e-11
+  UniRef90_A0A2E5MMV3 Ribosome modulation factor n=1 Tax=Alteromo...  61.2    2e-11
+  UniRef90_A0A072N600 Ribosome modulation factor n=2 Tax=Marinoba...  60.8    3e-11
+  UniRef90_A0A0U4VUJ2 Ribosome modulation factor n=10 Tax=Pseudom...  61.2    3e-11
+  UniRef90_N6X026 Ribosome modulation factor n=2 Tax=Marinobacter...  60.8    3e-11
+  UniRef90_UPI000E65EC9D ribosome modulation factor n=1 Tax=Ocean...  60.8    3e-11
+  UniRef90_A0A1H1UIQ0 Ribosome modulation factor n=3 Tax=Pseudomo...  60.8    3e-11
+  UniRef90_A0A2D8J2T9 Ribosome modulation factor n=1 Tax=Alteromo...  60.8    3e-11
+  UniRef90_E4PJF6 Ribosome modulation factor n=60 Tax=root TaxID=...  60.8    3e-11
+  UniRef90_A0A1S1NWA1 Ribosome modulation factor n=2 Tax=Kushneri...  60.5    4e-11
+  UniRef90_A0A2V4LXB5 Ribosome modulation factor n=3 Tax=Pseudomo...  60.5    4e-11
+  UniRef90_A0A2A2J165 Ribosome modulation factor n=1 Tax=Pseudomo...  60.5    4e-11
+  UniRef90_Q48JX9 Ribosome modulation factor n=199 Tax=Pseudomona...  60.5    4e-11
+  UniRef90_A0A318CH12 Ribosome modulation factor n=2 Tax=Proteoba...  60.5    4e-11
+  UniRef90_A0A1H9UNU0 Ribosome modulation factor n=16 Tax=root Ta...  60.5    4e-11
+  UniRef90_A0A2E4GBT0 Ribosome modulation factor n=3 Tax=cellular...  60.5    5e-11
+  UniRef90_A0A2A2I7A7 Ribosome modulation factor n=1 Tax=Tamilnad...  60.5    5e-11
+  UniRef90_UPI000832B4FA ribosome modulation factor n=2 Tax=Neptu...  60.5    5e-11
+  UniRef90_A0Z5Y7 Ribosome modulation factor n=1 Tax=marine gamma...  60.1    5e-11
+  UniRef90_N2IQA4 Ribosome modulation factor n=4 Tax=Pseudomonas ...  60.5    5e-11
+  UniRef90_A0A259P1I1 Uncharacterized protein n=1 Tax=Alishewanel...  59.7    5e-11
+  UniRef90_A0A081N438 Ribosome modulation factor n=1 Tax=Endozoic...  60.1    5e-11
+  UniRef90_A0A2T5PAZ7 Ribosome modulation factor n=1 Tax=Pseudomo...  60.1    6e-11
+  UniRef90_A0A1H2EI27 Ribosome modulation factor n=1 Tax=Pseudomo...  60.1    6e-11
+  UniRef90_UPI0009D953EE ribosome modulation factor n=2 Tax=Pseud...  60.1    6e-11
+  UniRef90_A0A2A4AZU9 Ribosome modulation factor n=1 Tax=Pseudomo...  60.1    7e-11
+  UniRef90_A0A1H2FHX2 Ribosome modulation factor n=1 Tax=Pseudomo...  60.1    7e-11
+  UniRef90_A0A2T1K358 Ribosome modulation factor n=2 Tax=Marinoba...  60.1    7e-11
+  UniRef90_A0A3D0UZR9 Ribosome modulation factor n=1 Tax=Rhodobac...  59.7    7e-11
+  UniRef90_A0A2A2F7C2 Ribosome modulation factor n=2 Tax=Halomona...  60.1    7e-11
+  UniRef90_M7CWF6 Ribosome modulation factor n=1 Tax=Marinobacter...  59.7    7e-11
+  UniRef90_A0A1H7GWV4 Ribosome modulation factor n=1 Tax=Pseudomo...  59.7    9e-11
+  UniRef90_UPI000C7D55C3 ribosome modulation factor n=1 Tax=Ocean...  59.7    9e-11
+  UniRef90_UPI00037DFCCA ribosome modulation factor n=1 Tax=Kushn...  59.3    1e-10
+  UniRef90_UPI00040C78BD ribosome modulation factor n=2 Tax=Sacch...  59.3    1e-10
+  UniRef90_A0A2H9T500 Ribosome modulation factor n=1 Tax=inverteb...  59.3    1e-10
+  UniRef90_A0A369WTW6 Ribosome modulation factor n=1 Tax=Motilipr...  59.3    1e-10
+  UniRef90_UPI000948D3F2 ribosome modulation factor n=1 Tax=Neptu...  59.3    1e-10
+  UniRef90_A0A2D5FB75 Ribosome modulation factor n=1 Tax=Haliea s...  58.9    2e-10
+  UniRef90_A0A099PAD4 Ribosome modulation factor n=2 Tax=Nitrinco...  58.9    2e-10
+  UniRef90_A0A3P1STZ6 Ribosome modulation factor n=1 Tax=Amphrite...  58.9    2e-10
+  UniRef90_A0A3L7DXU5 Ribosome modulation factor n=1 Tax=Halioglo...  58.9    2e-10
+  UniRef90_R9S5J9 Ribosome modulation factor n=1 Tax=Simiduia aga...  58.9    2e-10
+  UniRef90_A0A0Q9YFM6 Ribosome modulation factor n=1 Tax=Candidat...  58.5    2e-10
+  UniRef90_Q2BHA9 Ribosome modulation factor n=3 Tax=Oceanospiril...  58.5    2e-10
+  UniRef90_A0A2X0VZB1 Ribosome modulation factor n=1 Tax=Aeromona...  58.5    2e-10
+  UniRef90_A0A2N5Y2L5 Ribosome modulation factor n=1 Tax=Chromato...  58.5    2e-10
+  UniRef90_A0A2N5WY65 Ribosome modulation factor n=3 Tax=Halieace...  58.5    2e-10
+  UniRef90_A0A0Q9YN00 Ribosome modulation factor n=1 Tax=Candidat...  58.5    2e-10
+  UniRef90_A0A2Z2H362 Ribosome modulation factor n=5 Tax=Kushneri...  58.5    2e-10
+  UniRef90_A0A1Q3SGX6 Uncharacterized protein n=1 Tax=Gammaproteo...  58.5    3e-10
+  UniRef90_UPI000A045983 ribosome modulation factor n=1 Tax=Marin...  58.2    3e-10
+  UniRef90_UPI0003F815DD ribosome modulation factor n=1 Tax=Neptu...  58.2    3e-10
+  UniRef90_A0A1I3WNI2 Ribosome modulation factor n=4 Tax=Marinoba...  58.2    3e-10
+  UniRef90_A0A2D8RA31 Ribosome modulation factor n=1 Tax=Hahellac...  58.2    3e-10
+  UniRef90_A0A3N2DZ11 Ribosome modulation factor n=1 Tax=Sinobact...  58.2    4e-10
+  UniRef90_F8H0S8 Ribosome modulation factor n=52 Tax=Bacteria Ta...  58.2    4e-10
+  UniRef90_UPI000B3443C8 ribosome modulation factor n=1 Tax=Agari...  57.8    5e-10
+  UniRef90_UPI000E2E637E ribosome modulation factor n=1 Tax=Parah...  57.8    5e-10
+  UniRef90_A0A2A5HBT3 Ribosome modulation factor n=1 Tax=Alteromo...  57.8    5e-10
+  UniRef90_A0A1N7KFL0 Ribosome modulation factor n=2 Tax=Neptunom...  57.4    7e-10
+  UniRef90_A0A2D4T574 Ribosome modulation factor n=1 Tax=Halieace...  57.4    8e-10
+  UniRef90_A0A377NF24 Ribosome modulation factor n=1 Tax=Ewingell...  57.8    8e-10
+  UniRef90_A0A1H5U8Y3 Ribosome modulation factor n=2 Tax=Oceanosp...  57.0    1e-09
+  UniRef90_UPI0009E95FA4 ribosome modulation factor n=2 Tax=Ocean...  57.0    1e-09
+  UniRef90_A0A1Y6C7B7 Ribosome modulation factor n=1 Tax=Alteromo...  57.0    1e-09
+  UniRef90_B8KXX2 Ribosome modulation factor n=1 Tax=Luminiphilus...  57.0    1e-09
+  UniRef90_UPI0009D65A71 ribosome modulation factor n=1 Tax=Balne...  56.6    1e-09
+  UniRef90_UPI0009DF9065 ribosome modulation factor n=1 Tax=Halot...  56.6    1e-09
+  UniRef90_UPI0009FE0553 ribosome modulation factor n=1 Tax=Amphr...  56.6    1e-09
+  UniRef90_A0A2V1GUP8 Ribosome modulation factor n=1 Tax=Flavobac...  56.2    1e-09
+  UniRef90_UPI0009489ECF ribosome modulation factor n=1 Tax=Alter...  56.6    2e-09
+  UniRef90_A0A1Y5G1T1 Ribosome modulation factor n=2 Tax=Gammapro...  56.6    2e-09
+  UniRef90_Q1N649 Ribosome modulation factor n=1 Tax=Bermanella m...  56.2    2e-09
+  UniRef90_A0A1N6Q6E2 Ribosome modulation factor n=1 Tax=Marinoba...  56.2    2e-09
+  UniRef90_W9V897 Ribosome modulation factor n=2 Tax=Nitrincola T...  56.2    2e-09
+  UniRef90_A0A2V5EVE1 Ribosome modulation factor n=2 Tax=Pseudomo...  56.2    2e-09
+  UniRef90_A0A352Q2U1 Ribosome modulation factor (Fragment) n=1 T...  55.8    2e-09
+  UniRef90_UPI000FD6E009 ribosome modulation factor n=1 Tax=Neptu...  55.8    3e-09
+  UniRef90_A0A0F4R625 Ribosome modulation factor n=1 Tax=Marinomo...  55.8    3e-09
+  UniRef90_A0A2E8J3Q7 Ribosome modulation factor n=2 Tax=Gammapro...  55.5    3e-09
+  UniRef90_A0A1I1DWC1 Ribosome modulation factor n=2 Tax=Marinosp...  55.5    4e-09
+  UniRef90_UPI0009E400D7 ribosome modulation factor n=1 Tax=Cellv...  55.5    4e-09
+  UniRef90_UPI0009448C20 ribosome modulation factor n=1 Tax=Marin...  55.5    5e-09
+  UniRef90_UPI0006B565DA ribosome modulation factor n=1 Tax=Marin...  55.1    6e-09
+  UniRef90_A0A2A4UMA3 Ribosome modulation factor n=1 Tax=Moraxell...  55.1    6e-09
+  UniRef90_A0A1H9HWB8 Ribosome modulation factor n=1 Tax=Amphrite...  54.7    7e-09
+  UniRef90_F3KZ23 Ribosome modulation factor n=1 Tax=gamma proteo...  54.7    7e-09
+  UniRef90_A0A0F2NSN9 Ribosome modulation factor n=1 Tax=Gammapro...  54.3    1e-08
+  UniRef90_UPI000F7E0222 ribosome modulation factor n=1 Tax=Amphr...  53.9    1e-08
+  UniRef90_A0A162KF09 Ribosome modulation factor n=2 Tax=Oleiphil...  53.9    2e-08
+  UniRef90_A0A166FRZ7 Ribosome modulation factor n=4 Tax=Oceanosp...  52.8    3e-08
+  UniRef90_A0A1Z9WR53 Ribosome modulation factor n=4 Tax=Gammapro...  52.8    4e-08
+  UniRef90_A0A2E9P5L0 Ribosome modulation factor n=6 Tax=Gammapro...  52.8    4e-08
+  UniRef90_A0A2D4S370 Ribosome modulation factor n=1 Tax=Bermanel...  52.4    5e-08
+  UniRef90_A0A2E1VGK5 Ribosome modulation factor n=2 Tax=Gammapro...  52.4    6e-08
+  UniRef90_A0A2A5AKW7 Ribosome modulation factor n=1 Tax=Gammapro...  52.4    7e-08
+  UniRef90_A0A370U5U7 Ribosome modulation factor n=1 Tax=Marinomo...  52.4    7e-08
+  UniRef90_A0A2E2TX99 Ribosome modulation factor n=1 Tax=Legionel...  51.6    1e-07
+  UniRef90_A0A1C9W9F8 Ribosome modulation factor n=2 Tax=Microbul...  52.0    1e-07
+  UniRef90_A0A222FLH9 Ribosome modulation factor n=1 Tax=Bacterio...  51.6    1e-07
+  UniRef90_A0A2E0VG37 Ribosome modulation factor n=1 Tax=Porticoc...  51.6    1e-07
+  UniRef90_A0A2H0I3N4 Ribosome modulation factor n=2 Tax=Proteoba...  51.2    2e-07
+  UniRef90_A0A1Y5FJB1 Uncharacterized protein n=1 Tax=Gammaproteo...  51.6    2e-07
+  UniRef90_A0A2E2W2M2 Ribosome modulation factor n=3 Tax=Porticoc...  51.2    2e-07
+  UniRef90_A0A1A8TBI9 Ribosome modulation factor n=1 Tax=Marinomo...  51.2    2e-07
+  UniRef90_A0A1Q2M5G2 Ribosome modulation factor n=2 Tax=Microbul...  50.8    2e-07
+  UniRef90_A0A3E0DSM6 Ribosome modulation factor n=1 Tax=Marinomo...  50.4    3e-07
+  UniRef90_A0A1A8TEE4 Ribosome modulation factor n=5 Tax=Marinomo...  50.4    4e-07
+  UniRef90_A0A143HMD1 Ribosome modulation factor n=1 Tax=Microbul...  50.4    4e-07
+  UniRef90_UPI000B3ED0E3 hypothetical protein n=1 Tax=Marinomonas...  49.3    9e-07
+  UniRef90_A0A2A5GJC9 Ribosome modulation factor n=1 Tax=Porticoc...  49.3    1e-06
+  UniRef90_UPI00042005A0 ribosome modulation factor n=1 Tax=Ocean...  48.9    1e-06
+  UniRef90_A0A2E6LXM2 Ribosome modulation factor n=1 Tax=Gammapro...  48.9    1e-06
+  UniRef90_UPI0009E0519B ribosome modulation factor n=1 Tax=Micro...  48.9    1e-06
+  UniRef90_A0A2E2MUB0 Ribosome modulation factor n=1 Tax=Porticoc...  48.9    2e-06
+  UniRef90_F2JWN1 Ribosome modulation factor n=1 Tax=Marinomonas ...  48.9    2e-06
+  UniRef90_A0A2E1IAT6 Ribosome modulation factor n=1 Tax=Gammapro...  48.9    2e-06
+  UniRef90_A0A2S1JTW2 Ribosome modulation factor n=2 Tax=Microbul...  48.9    2e-06
+  UniRef90_A0A0R2UGK0 Uncharacterized protein n=1 Tax=SAR92 bacte...  48.5    2e-06
+  UniRef90_A0A1Y5DBN6 Ribosome modulation factor n=1 Tax=Bermanel...  48.1    2e-06
+  UniRef90_A0A2G2D2U6 Ribosome modulation factor n=1 Tax=Sphingop...  48.1    3e-06
+  UniRef90_UPI0009909D21 ribosome modulation factor n=3 Tax=Micro...  48.1    3e-06
+  UniRef90_A0A351NY35 Ribosome modulation factor n=1 Tax=Porticoc...  48.1    4e-06
+  UniRef90_A0A1M4U073 Ribosome modulation factor n=2 Tax=Microbul...  47.8    5e-06
+  UniRef90_A0A2R3INQ9 Ribosome modulation factor family protein n...  47.0    6e-06
+  UniRef90_A0A2E0A0M0 Ribosome modulation factor n=1 Tax=Oceanosp...  47.0    7e-06
+  UniRef90_A0A3D3T7I3 Ribosome modulation factor n=1 Tax=Porticoc...  47.0    9e-06
+  UniRef90_UPI0009EE6C8E hypothetical protein n=1 Tax=Oleiphilus ...  46.2    1e-05
+  UniRef90_A0A2E7E6U5 Ribosome modulation factor n=1 Tax=Oceanosp...  46.2    1e-05
+  UniRef90_A0A2A5VZ27 Ribosome modulation factor n=2 Tax=unclassi...  46.6    1e-05
+  UniRef90_L0WEX5 Ribosome modulation factor n=2 Tax=Alcanivorax ...  45.8    2e-05
+  UniRef90_A0A176HUG6 Ribosome modulation factor n=4 Tax=Oceanosp...  46.2    2e-05
+  UniRef90_W8GA92 Ribosome modulation factor n=5 Tax=root TaxID=1...  45.8    2e-05
+  UniRef90_A0A1G9A8F3 Ribosome modulation factor n=1 Tax=Microbul...  46.2    2e-05
+  UniRef90_A0A2E6GAS3 Ribosome modulation factor n=1 Tax=Porticoc...  45.8    2e-05
+  UniRef90_UPI0009DB0FDA ribosome modulation factor n=1 Tax=Pseud...  45.4    4e-05
+  UniRef90_A0A2D6ZEG2 Ribosome modulation factor n=2 Tax=Cellvibr...  45.4    4e-05
+  UniRef90_R4YTF8 Ribosome modulation factor n=3 Tax=Oceanospiril...  45.1    5e-05
+  UniRef90_A0A2E1ST90 Ribosome modulation factor n=1 Tax=Porticoc...  44.3    9e-05
+  UniRef90_A0A085DTW3 Ribosome modulation factor n=1 Tax=Halomona...  43.5    2e-04
+  UniRef90_A0A2E0CPU0 Ribosome modulation factor n=4 Tax=Cellvibr...  43.1    3e-04
+  UniRef90_A0A356CJY2 Ribosome modulation factor n=1 Tax=Porticoc...  41.6    0.001
+  UniRef90_A4BKG7 Uncharacterized protein n=1 Tax=Reinekea blande...  41.2    0.002
+  UniRef90_W2UDX7 Ribosome modulation factor n=1 Tax=Gammaproteob...  41.2    0.002
+  UniRef90_A0A2D5U887 Ribosome modulation factor n=1 Tax=Porticoc...  40.0    0.004
+  UniRef90_A0A2A4V2H0 RND transporter n=1 Tax=Moraxellaceae bacte...  42.0    0.005
+  UniRef90_A0A2A5CAS1 Ribosome modulation factor n=1 Tax=Moraxell...  40.0    0.006
+  UniRef90_A0A1Y5D5X6 Ribosome modulation factor n=2 Tax=Bermanel...  39.7    0.007
+  UniRef90_A0A1Y5GZN2 Ribosome modulation factor n=2 Tax=unclassi...  39.7    0.008
+  UniRef90_Q1YPL6 Uncharacterized protein n=1 Tax=gamma proteobac...  39.3    0.009
+  UniRef90_R4YJT6 AcrB/AcrD/AcrF family cation efflux protein n=1...  40.4    0.021
+  UniRef90_A0A3M3AD23 Ribosome modulation factor n=4 Tax=Pseudomo...  37.7    0.033
+  UniRef90_E1VQS7 Ribosome modulation factor-related protein n=1 ...  37.7    0.041
+  UniRef90_A0A0B4XJV2 Uncharacterized protein n=1 Tax=Alcanivorax...  37.4    0.054
+  UniRef90_A0A1Y5I2J9 Uncharacterized protein n=1 Tax=Oleispira a...  39.3    0.058
+  UniRef90_A0A3L8C2C3 Ribosome modulation factor n=4 Tax=Gammapro...  37.4    0.059
+  UniRef90_A0A3F2V5P7 Ribosome modulation factor n=1 Tax=Ketobact...  37.4    0.059
+  UniRef90_A0A176H213 Uncharacterized protein n=1 Tax=Oleiphilus ...  37.4    0.062
+  UniRef90_A0A2T6E827 Ribosome modulation factor n=1 Tax=Saccharo...  37.0    0.066
+  UniRef90_UPI000D3791AB hypothetical protein n=1 Tax=Saccharospi...  37.0    0.079
+  UniRef90_UPI000DB94258 ribosome modulation factor n=1 Tax=Alcan...  36.6    0.11 
+  UniRef90_A0A2E0HER6 Ribosome modulation factor n=1 Tax=Pseudomo...  36.6    0.12 
+  UniRef90_A0A1Q9XLX0 Uncharacterized protein n=1 Tax=Pseudomonas...  36.2    0.17 
+  UniRef90_Q1MYZ8 Uncharacterized protein n=1 Tax=Bermanella mari...  35.8    0.18 
+  UniRef90_A0A349SP42 Ribosome modulation factor n=4 Tax=Gammapro...  35.8    0.22 
+  UniRef90_A0A1Y6CVH0 Ribosome modulation factor n=1 Tax=Methylom...  36.2    0.22 
+  UniRef90_UPI000BE5302F hypothetical protein n=1 Tax=Mangrovital...  35.8    0.23 
+  UniRef90_UPI00083A4AD6 hypothetical protein n=1 Tax=Pseudomonas...  35.8    0.24 
+  UniRef90_U3HGS4 Uncharacterized protein n=1 Tax=Pseudomonas alc...  35.4    0.24 
+  UniRef90_A0A2D4S3Y5 Ribosome modulation factor n=1 Tax=Bermanel...  35.4    0.31 
+  UniRef90_A0A1G8EGW6 Ribosome modulation factor n=1 Tax=Pseudomo...  35.8    0.31 
+  UniRef90_A0A2D8IZ80 Uncharacterized protein n=1 Tax=Alteromonad...  35.4    0.32 
+  UniRef90_A0A261GU94 Uncharacterized protein n=2 Tax=Hahella Tax...  35.4    0.32 
+  UniRef90_A0A136GQ97 Ribosome modulation factor n=2 Tax=Alcanivo...  35.0    0.35 
+  UniRef90_A0A3B9ACC9 Ribosome modulation factor (Fragment) n=1 T...  34.3    0.40 
+  UniRef90_Q2S8F8 Uncharacterized protein n=1 Tax=Hahella chejuen...  35.0    0.45 
+  UniRef90_A0A1I3PJ66 Ribosome modulation factor n=5 Tax=Pseudomo...  35.4    0.52 
+  UniRef90_A0A1V2DX01 Uncharacterized protein n=3 Tax=cellular or...  34.7    0.55 
+  UniRef90_A0A335NQS6 Uncharacterized protein n=1 Tax=Acinetobact...  34.7    0.59 
+  UniRef90_M5DV45 RND superfamily transporter n=4 Tax=root TaxID=...  36.2    0.71 
+  UniRef90_A0A0D0KAF0 Uncharacterized protein n=1 Tax=Pseudomonas...  34.7    0.72 
+  UniRef90_A0A1M7L3F0 Ribosome modulation factor n=2 Tax=Pseudomo...  34.7    0.73 
+  UniRef90_A0A2K9LJM1 Ribosome modulation factor n=1 Tax=Ketobact...  34.7    0.75 
+  UniRef90_UPI0004230D19 hypothetical protein n=1 Tax=Marinobacte...  34.3    0.79 
+  UniRef90_A0A1W0D2H9 Cell division protein FtsK n=3 Tax=Chromoba...  35.8    0.79 
+  UniRef90_UPI000971A2BE hypothetical protein n=1 Tax=Phaeobacter...  35.8    0.86 
+  UniRef90_A0A3M1KAG0 Uncharacterized protein n=1 Tax=Gammaproteo...  34.3    0.88 
+  UniRef90_F6AJ41 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  34.3    0.93 
+  UniRef90_A0A0P7YAP6 Ribosome modulation factor n=1 Tax=Marinoba...  34.3    0.97 
+  UniRef90_A0A3M1DBG3 Uncharacterized protein n=1 Tax=Candidatus ...  35.8    0.98 
+  UniRef90_A0A1H6V8S0 Uncharacterized protein n=1 Tax=Azotobacter...  33.5    1.1  
+  UniRef90_N6W3P4 Uncharacterized protein n=1 Tax=Marinobacter na...  33.9    1.2  
+  UniRef90_A0A1Y0I1D3 Ribosome modulation factor-related protein ...  33.9    1.3  
+  UniRef90_A0A137S2V6 Uncharacterized protein n=5 Tax=Marinobacte...  33.9    1.3  
+  UniRef90_UPI000E56A029 magnesium-dependent phosphatase 1-like n...  35.0    1.4  
+  UniRef90_G8QM80 Ribosome modulation factor n=1 Tax=Azospira ory...  35.0    1.4  
+  UniRef90_A0A176H705 Uncharacterized protein n=2 Tax=Oleiphilus ...  35.0    1.5  
+  UniRef90_A0A2A5AC36 RND transporter n=1 Tax=Gammaproteobacteria...  35.0    1.5  
+  UniRef90_UPI0009EEECB6 hypothetical protein n=1 Tax=Oleiphilus ...  35.0    1.5  
+  UniRef90_A0A0T6W7Z5 Uncharacterized protein n=3 Tax=Marinobacte...  33.9    1.5  
+  UniRef90_A0A385Z7G8 Uncharacterized protein n=1 Tax=Pseudomonas...  33.5    1.9  
+  UniRef90_A0A1G7LMB1 Ribosome modulation factor n=1 Tax=Pseudomo...  33.5    2.0  
+  UniRef90_A0A2E5MKS8 Uncharacterized protein n=1 Tax=Alteromonad...  33.5    2.0  
+  UniRef90_UPI000DAEE144 hypothetical protein n=1 Tax=Marinobacte...  33.1    2.2  
+  UniRef90_UPI0006878654 ribosome modulation factor n=2 Tax=Sacch...  33.1    2.3  
+  UniRef90_A0A2A2HYY3 Ribosome modulation factor n=1 Tax=Tamilnad...  33.1    2.4  
+  UniRef90_A0A2T5KX08 Ribosome modulation factor n=1 Tax=Pseudomo...  33.1    2.5  
+  UniRef90_A0A0V7ZAV6 Ribosome modulation factor n=2 Tax=Methylob...  33.1    2.6  
+  UniRef90_M7CKA5 Uncharacterized protein n=1 Tax=Marinobacter sa...  33.1    2.7  
+  UniRef90_U7NSY8 Uncharacterized protein n=9 Tax=Marinobacter Ta...  33.1    2.7  
+  UniRef90_E6XGY1 Uncharacterized protein n=1 Tax=Shewanella putr...  32.7    2.7  
+  UniRef90_A0A220SRV9 Ribosome modulation factor n=1 Tax=Alcanivo...  32.7    2.8  
+  UniRef90_A0A3N2QGK4 Uncharacterized protein n=1 Tax=Marinobacte...  33.1    2.9  
+  UniRef90_UPI000D01C5D2 hypothetical protein n=1 Tax=Lactobacill...  34.3    3.1  
+  UniRef90_A0A0L6JC15 Ribosome modulation factor n=4 Tax=Methylob...  32.7    3.2  
+  UniRef90_A0A1H2XR84 Ribosome modulation factor n=1 Tax=Marinoba...  32.7    3.2  
+  UniRef90_A0A2E9RPC1 Ribosome modulation factor n=2 Tax=Alcanivo...  32.7    3.5  
+  UniRef90_R6N3D2 Regulatory protein RecX n=1 Tax=Bacteroides sp....  33.9    3.5  
+  UniRef90_A0A2V4LFP3 Uncharacterized protein n=1 Tax=Pseudomonas...  32.3    3.6  
+  UniRef90_A0A173H0V9 Uncharacterized protein n=1 Tax=Pseudoalter...  32.3    3.8  
+  UniRef90_A0A2A5LTC2 Uncharacterized protein n=1 Tax=Marinobacte...  32.7    4.0  
+  UniRef90_A4XP62 Uncharacterized protein n=34 Tax=Gammaproteobac...  32.7    4.2  
+  UniRef90_A0A259LQC8 Uncharacterized protein n=1 Tax=Marinobacte...  32.7    4.2  
+  UniRef90_A0A2G6D1S7 Uncharacterized protein n=1 Tax=Proteobacte...  32.3    4.2  
+  UniRef90_A0A2T1KQ39 Uncharacterized protein n=1 Tax=Marinobacte...  32.3    4.6  
+  UniRef90_A0A2T4ZX57 Ribosome modulation factor n=1 Tax=Nitrosom...  33.9    4.6  
+  UniRef90_L0WCR0 Ribosome modulation factor-related protein n=1 ...  32.3    5.0  
+  UniRef90_UPI0007C242CB hypothetical protein n=1 Tax=Oleiphilus ...  33.1    5.3  
+  UniRef90_F7TAE7 Uncharacterized protein n=2 Tax=Achromobacter T...  33.5    5.6  
+  UniRef90_A0A2T1KJG7 Uncharacterized protein n=1 Tax=Marinobacte...  32.0    6.3  
+  UniRef90_T5L7L7 Uncharacterized protein n=1 Tax=Stenotrophomona...  32.0    6.5  
+  UniRef90_UPI000900360B hypothetical protein n=2 Tax=Pseudomonas...  32.0    6.6  
+  UniRef90_A0A1M6P9S1 Ribosome modulation factor n=1 Tax=Marinoba...  32.0    6.7  
+  UniRef90_A0A1I6H866 Ribosome modulation factor n=1 Tax=Marinoba...  32.0    7.8  
+  UniRef90_A0A2G1UJG6 Uncharacterized protein n=1 Tax=Marinobacte...  32.0    7.9  
+  UniRef90_A0A366WP44 Uncharacterized protein n=1 Tax=Marinobacte...  32.0    7.9  
+  UniRef90_A0A2G2JNW0 RND transporter n=1 Tax=Oceanobacter sp. Ta...  33.1    8.2  
+  UniRef90_A0A2A4XSM2 Uncharacterized protein n=1 Tax=Oceanospiri...  32.0    8.7  
+  UniRef90_A0A1W9KX56 RecBCD enzyme subunit RecB n=1 Tax=Rhodofer...  32.7    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.131    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 745538954733
+Warning: [psiblast] lcl|Query_1 NP_415473.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415473.1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A167K048 Ribosome modulation factor n=8 Tax=Pseudoal...  103     5e-28
+  UniRef90_A0A089PUT4 Ribosome modulation factor n=4 Tax=Enteroba...  101     1e-27
+  UniRef90_UPI0009490B2A ribosome modulation factor n=1 Tax=Panto...  101     1e-27
+  UniRef90_C6C3V6 Ribosome modulation factor n=1 Tax=Dickeya para...  101     2e-27
+  UniRef90_D2BXQ9 Ribosome modulation factor n=11 Tax=Enterobacte...  101     2e-27
+  UniRef90_A0A2I5TJP8 Ribosome modulation factor n=17 Tax=Enterob...  100     5e-27
+  UniRef90_A0A3N1IY09 Ribosome modulation factor n=2 Tax=Enteroba...   99     5e-27
+  UniRef90_B6XC14 Ribosome modulation factor n=7 Tax=Enterobacter...   99     7e-27
+  UniRef90_A0A085GUR0 Ribosome modulation factor n=5 Tax=Enteroba...  99.6    9e-27
+  UniRef90_F5Z7V5 Ribosome modulation factor n=15 Tax=Proteobacte...  99.6    1e-26
+  UniRef90_UPI0009081A65 ribosome modulation factor n=1 Tax=Brenn...  99.2    1e-26
+  UniRef90_A0A0N1KHA3 Ribosome modulation factor n=2 Tax=Moellere...  99.2    1e-26
+  UniRef90_A0A1A9AVM8 Ribosome modulation factor n=2 Tax=Plesiomo...  99.2    1e-26
+  UniRef90_D4I0C5 Ribosome modulation factor n=8 Tax=Erwiniaceae ...  98.8    2e-26
+  UniRef90_A0A384LNU5 Ribosome modulation factor n=42 Tax=Enterob...  98.4    2e-26
+  UniRef90_A0A290T3N8 Ribosome modulation factor n=3 Tax=Pseudoal...  98.4    2e-26
+  UniRef90_K6YU72 Ribosome modulation factor n=1 Tax=Aliiglacieco...  98.4    2e-26
+  UniRef90_A0A370YKF0 Ribosome modulation factor n=28 Tax=Enterob...  98.4    3e-26
+  UniRef90_E6WCC7 Ribosome modulation factor n=6 Tax=Enterobacter...  98.4    3e-26
+  UniRef90_A0A2I0FX08 Ribosome modulation factor n=1 Tax=Enteroba...  98.4    3e-26
+  UniRef90_A0A1W9EYQ9 Ribosome modulation factor n=13 Tax=Erwinia...  98.4    3e-26
+  UniRef90_P0AFW3 Ribosome modulation factor n=142 Tax=Proteobact...  98.0    3e-26
+  UniRef90_A0A1B8SVB0 Ribosome modulation factor n=6 Tax=Providen...  98.0    3e-26
+  UniRef90_A0A370QMP5 Ribosome modulation factor n=1 Tax=Enteroba...  98.0    3e-26
+  UniRef90_G2GZP0 Ribosome modulation factor n=1 Tax=Candidatus R...  98.0    3e-26
+  UniRef90_A0A2M9WBM9 Ribosome modulation factor n=8 Tax=Gammapro...  98.0    4e-26
+  UniRef90_K8WEX0 Ribosome modulation factor n=8 Tax=Gammaproteob...  98.0    4e-26
+  UniRef90_A0A1A9F9E7 Ribosome modulation factor n=35 Tax=Enterob...  98.0    4e-26
+  UniRef90_A0A1W6BAP5 Ribosome modulation factor n=15 Tax=Erwinia...  98.0    4e-26
+  UniRef90_A0A0H3DRU4 Ribosome modulation factor n=3 Tax=Edwardsi...  98.0    4e-26
+  UniRef90_A0A1N6ERN3 Ribosome modulation factor n=2 Tax=Salinivi...  98.4    5e-26
+  UniRef90_A0A099LE14 Ribosome modulation factor n=3 Tax=Thalasso...  97.6    6e-26
+  UniRef90_UPI0008FBF282 ribosome modulation factor n=1 Tax=Crono...  97.3    6e-26
+  UniRef90_A0A071LW31 Ribosome modulation factor n=3 Tax=Mangrovi...  97.3    6e-26
+  UniRef90_A0A085GJJ3 Ribosome modulation factor n=1 Tax=Ewingell...  97.3    6e-26
+  UniRef90_Q7UD19 Ribosome modulation factor n=93 Tax=Enterobacte...  97.3    6e-26
+  UniRef90_A0A2S9UDK5 Ribosome modulation factor n=10 Tax=Enterob...  97.3    7e-26
+  UniRef90_A0A0S2K181 Ribosome modulation factor n=1 Tax=Pseudoal...  97.3    8e-26
+  UniRef90_I9P4Z6 Ribosome modulation factor n=11 Tax=cellular or...  97.3    8e-26
+  UniRef90_V5Z7A3 Ribosome modulation factor n=7 Tax=Erwiniaceae ...  96.9    9e-26
+  UniRef90_A0A0T5IB94 Ribosome modulation factor n=18 Tax=Enterob...  96.9    9e-26
+  UniRef90_UPI00039CBF04 ribosome modulation factor n=1 Tax=Salin...  96.9    1e-25
+  UniRef90_A0A1H3Z6P9 Ribosome modulation factor n=1 Tax=Alkalimo...  96.9    1e-25
+  UniRef90_A0A2I0DZ12 Ribosome modulation factor n=2 Tax=Shewanel...  96.5    1e-25
+  UniRef90_A0A095UGN8 Ribosome modulation factor n=5 Tax=Tatumell...  96.5    1e-25
+  UniRef90_UPI000C292D45 ribosome modulation factor n=1 Tax=Alter...  96.5    1e-25
+  UniRef90_A0A0T5XPT1 Ribosome modulation factor n=35 Tax=Bacteri...  96.5    1e-25
+  UniRef90_A0A2P8VQ73 Ribosome modulation factor n=7 Tax=Enteroba...  96.5    1e-25
+  UniRef90_UPI000D14DCB4 ribosome modulation factor n=1 Tax=Shewa...  96.5    1e-25
+  UniRef90_UPI000DD09247 ribosome modulation factor n=1 Tax=Caten...  96.5    2e-25
+  UniRef90_Q15UB2 Ribosome modulation factor n=5 Tax=Alteromonada...  96.5    2e-25
+  UniRef90_V1DP13 Ribosome modulation factor n=7 Tax=Shewanella T...  96.9    2e-25
+  UniRef90_A0A136A1E9 Ribosome modulation factor n=1 Tax=Paraglac...  96.1    2e-25
+  UniRef90_A0A1S1NA55 Ribosome modulation factor n=2 Tax=Pseudoal...  96.1    2e-25
+  UniRef90_A8GCL2 Ribosome modulation factor n=6 Tax=Serratia Tax...  96.1    2e-25
+  UniRef90_K7A1X9 Ribosome modulation factor n=2 Tax=Paraglacieco...  96.1    2e-25
+  UniRef90_UPI0008FFA9DD ribosome modulation factor n=1 Tax=Enter...  95.7    3e-25
+  UniRef90_I2BAL2 Ribosome modulation factor n=1 Tax=Shimwellia b...  95.7    3e-25
+  UniRef90_A0A3N6W9P9 Ribosome modulation factor n=8 Tax=Erwiniac...  95.7    3e-25
+  UniRef90_UPI000DB9C3AD ribosome modulation factor n=1 Tax=Alcan...  96.1    3e-25
+  UniRef90_UPI000587B4C1 ribosome modulation factor n=1 Tax=Parag...  95.7    3e-25
+  UniRef90_UPI00082A0DF1 ribosome modulation factor n=1 Tax=Alter...  95.7    3e-25
+  UniRef90_V1H135 Ribosome modulation factor n=82 Tax=Salmonella ...  95.7    3e-25
+  UniRef90_UPI00073D40D9 ribosome modulation factor n=1 Tax=[Erwi...  95.7    3e-25
+  UniRef90_A0A1E7ZDE4 Ribosome modulation factor n=6 Tax=Alteromo...  95.7    3e-25
+  UniRef90_A0A1M5NFY2 Ribosome modulation factor n=2 Tax=Ferrimon...  95.7    3e-25
+  UniRef90_UPI000416B769 ribosome modulation factor n=1 Tax=Aestu...  95.7    3e-25
+  UniRef90_S5AFW1 Ribosome modulation factor n=7 Tax=Alteromonas ...  95.7    4e-25
+  UniRef90_A0A1E7Q6G1 Ribosome modulation factor n=8 Tax=Gammapro...  95.3    4e-25
+  UniRef90_A0A2K9YVB5 Ribosome modulation factor n=13 Tax=Enterob...  95.3    4e-25
+  UniRef90_UPI0003F90819 ribosome modulation factor n=1 Tax=Ferri...  95.3    4e-25
+  UniRef90_I0QTZ8 Ribosome modulation factor n=6 Tax=Enterobacter...  95.3    5e-25
+  UniRef90_A0A084A171 Ribosome modulation factor n=5 Tax=Enteroba...  94.9    5e-25
+  UniRef90_A0A2S0VTW9 Ribosome modulation factor n=1 Tax=Catenovu...  95.3    5e-25
+  UniRef90_A0A0F4Q0C1 Ribosome modulation factor n=1 Tax=Pseudoal...  94.9    5e-25
+  UniRef90_A0A3D8M8N4 Ribosome modulation factor n=1 Tax=Alteromo...  94.9    6e-25
+  UniRef90_UPI000D3E4B24 ribosome modulation factor n=1 Tax=Gamma...  94.9    6e-25
+  UniRef90_A0A1G9JW83 Ribosome modulation factor n=4 Tax=Halomona...  96.1    7e-25
+  UniRef90_A0A2K9LGK0 Ribosome modulation factor n=1 Tax=Ketobact...  94.9    7e-25
+  UniRef90_A0A3B6ZGI9 Ribosome modulation factor n=4 Tax=Klebsiel...  94.6    7e-25
+  UniRef90_A0A1Z9XM12 Ribosome modulation factor n=3 Tax=Alteromo...  94.6    9e-25
+  UniRef90_A0A1E2VEH2 Ribosome modulation factor n=1 Tax=Terasaki...  94.9    9e-25
+  UniRef90_A0A0B4XNY5 Ribosome modulation factor n=1 Tax=Alcanivo...  94.6    9e-25
+  UniRef90_A0A165K8F3 Ribosome modulation factor n=14 Tax=Shewane...  94.6    1e-24
+  UniRef90_A0A3D0Q534 Ribosome modulation factor n=4 Tax=Alteromo...  94.6    1e-24
+  UniRef90_A0A0D8D145 Ribosome modulation factor n=2 Tax=Thalasso...  94.2    1e-24
+  UniRef90_UPI000BE612E2 ribosome modulation factor n=1 Tax=Mangr...  94.6    1e-24
+  UniRef90_A0A2Z6U4I0 Ribosome modulation factor n=1 Tax=Glacieco...  94.2    1e-24
+  UniRef90_A0A3A6UJF0 Ribosome modulation factor n=1 Tax=Shewanel...  94.2    1e-24
+  UniRef90_A0A346NM27 Ribosome modulation factor n=1 Tax=Salinimo...  94.2    1e-24
+  UniRef90_W7QKI7 Ribosome modulation factor n=1 Tax=Catenovulum ...  94.2    1e-24
+  UniRef90_UPI000CF6AC37 ribosome modulation factor n=2 Tax=Pseud...  94.2    1e-24
+  UniRef90_A4C9L8 Ribosome modulation factor n=2 Tax=Pseudoaltero...  94.2    1e-24
+  UniRef90_A0A1Y5CZE7 Ribosome modulation factor n=1 Tax=Colwelli...  94.2    1e-24
+  UniRef90_A0A348MTP4 Ribosome modulation factor n=2 Tax=Glacieco...  93.8    1e-24
+  UniRef90_UPI000E0FDD72 ribosome modulation factor n=1 Tax=Shewa...  93.8    2e-24
+  UniRef90_A0A2E4CI77 Ribosome modulation factor n=2 Tax=Pseudoal...  93.8    2e-24
+  UniRef90_A0A0F4P291 Ribosome modulation factor n=5 Tax=Pseudoal...  93.8    2e-24
+  UniRef90_A0A2A4VKE4 Ribosome modulation factor n=1 Tax=Gammapro...  93.8    2e-24
+  UniRef90_A0A3F2UZ86 Ribosome modulation factor n=1 Tax=Ketobact...  94.2    2e-24
+  UniRef90_A0A269PKP7 Ribosome modulation factor n=2 Tax=Pseudoal...  93.8    2e-24
+  UniRef90_UPI0003137C55 ribosome modulation factor n=1 Tax=Candi...  93.8    2e-24
+  UniRef90_A0A2E5MMV3 Ribosome modulation factor n=1 Tax=Alteromo...  93.8    2e-24
+  UniRef90_A0A0J8GTV3 Ribosome modulation factor n=1 Tax=Catenovu...  93.4    2e-24
+  UniRef90_A0A139SXW2 Ribosome modulation factor n=1 Tax=Ventosim...  93.8    2e-24
+  UniRef90_L8D8R2 Ribosome modulation factor n=1 Tax=Pseudoaltero...  93.4    2e-24
+  UniRef90_A0A1D3DHR3 Ribosome modulation factor n=7 Tax=Enteroba...  93.4    2e-24
+  UniRef90_B0TIX3 Ribosome modulation factor n=13 Tax=Shewanellac...  93.4    2e-24
+  UniRef90_A0A3D3HQW6 Ribosome modulation factor n=6 Tax=Bacteria...  93.4    3e-24
+  UniRef90_A1S605 Ribosome modulation factor n=8 Tax=Shewanellace...  93.4    3e-24
+  UniRef90_A0A349LXW9 Ribosome modulation factor n=1 Tax=Rheinhei...  93.4    3e-24
+  UniRef90_A0A2D5GCJ4 Ribosome modulation factor n=3 Tax=Oceanosp...  93.4    3e-24
+  UniRef90_UPI000A0629B9 ribosome modulation factor n=1 Tax=Glaci...  93.0    3e-24
+  UniRef90_A0A2A6AZS7 Ribosome modulation factor n=1 Tax=Alteromo...  93.0    3e-24
+  UniRef90_UPI00048E6DAA ribosome modulation factor n=1 Tax=Phase...  93.0    3e-24
+  UniRef90_A0A2A4VU46 Ribosome modulation factor n=1 Tax=Gammapro...  93.0    3e-24
+  UniRef90_A0A0N0M119 Ribosome modulation factor n=1 Tax=Pseudoal...  93.0    4e-24
+  UniRef90_A0A2E3D252 Ribosome modulation factor n=1 Tax=Pseudomo...  93.0    4e-24
+  UniRef90_UPI0009EC74CE ribosome modulation factor n=3 Tax=Alter...  93.0    4e-24
+  UniRef90_A0A3N5Y3G3 Ribosome modulation factor n=1 Tax=Alteromo...  93.0    4e-24
+  UniRef90_A0A1I6GHQ6 Ribosome modulation factor n=2 Tax=Marinoba...  93.0    4e-24
+  UniRef90_Q3IGH0 Ribosome modulation factor n=50 Tax=root TaxID=...  92.6    4e-24
+  UniRef90_A0A1H7JJB4 Ribosome modulation factor n=1 Tax=Colwelli...  92.6    4e-24
+  UniRef90_A0A2E0HJS1 Ribosome modulation factor n=6 Tax=Gammapro...  93.0    5e-24
+  UniRef90_H5UWZ9 Ribosome modulation factor n=2 Tax=Enterobacter...  92.6    5e-24
+  UniRef90_A0A1T1H9Y7 Ribosome modulation factor n=2 Tax=Oceanosp...  93.0    5e-24
+  UniRef90_UPI000D0BC9E3 ribosome modulation factor n=1 Tax=Halom...  93.0    5e-24
+  UniRef90_W1N4D1 Ribosome modulation factor n=7 Tax=Halomonas Ta...  93.0    5e-24
+  UniRef90_A0A1B7UJ65 Ribosome modulation factor n=4 Tax=Chromati...  92.6    5e-24
+  UniRef90_A0A125BEN2 Ribosome modulation factor n=10 Tax=Shewane...  92.6    6e-24
+  UniRef90_UPI000BA94786 ribosome modulation factor n=2 Tax=Paraf...  92.6    6e-24
+  UniRef90_A0A2E4GBT0 Ribosome modulation factor n=3 Tax=cellular...  92.6    6e-24
+  UniRef90_A0A176H4V5 Ribosome modulation factor n=1 Tax=Oleiphil...  92.6    6e-24
+  UniRef90_Q47UR1 Ribosome modulation factor 2 n=9 Tax=Colwellia ...  92.2    7e-24
+  UniRef90_A0YCD4 Ribosome modulation factor n=2 Tax=Spongiibacte...  92.6    7e-24
+  UniRef90_A0A2T3I3W3 Ribosome modulation factor n=3 Tax=Photobac...  92.2    7e-24
+  UniRef90_A0A1H9HF67 Ribosome modulation factor n=2 Tax=Enteroba...  92.2    7e-24
+  UniRef90_A0A2G6KWB1 Ribosome modulation factor n=1 Tax=Gammapro...  92.2    8e-24
+  UniRef90_A0A090P431 Ribosome modulation factor n=4 Tax=Vibrio T...  91.9    9e-24
+  UniRef90_UPI000DAEAAE7 ribosome modulation factor n=1 Tax=Marin...  92.2    9e-24
+  UniRef90_A0A2U8I8U5 Ribosome modulation factor n=1 Tax=Candidat...  91.9    1e-23
+  UniRef90_UPI000B3627E8 ribosome modulation factor n=1 Tax=Thaum...  91.9    1e-23
+  UniRef90_UPI000D6E8F2F ribosome modulation factor n=1 Tax=Esche...  91.9    1e-23
+  UniRef90_E4PJF6 Ribosome modulation factor n=60 Tax=root TaxID=...  92.2    1e-23
+  UniRef90_UPI0009DD2029 ribosome modulation factor n=1 Tax=Shewa...  91.9    1e-23
+  UniRef90_H5T9H0 Ribosome modulation factor n=1 Tax=Glaciecola p...  91.9    1e-23
+  UniRef90_UPI0009D9432D ribosome modulation factor n=3 Tax=Endoz...  92.2    1e-23
+  UniRef90_A0A0J1GW38 Ribosome modulation factor n=6 Tax=Photobac...  91.9    1e-23
+  UniRef90_A0A2T1K358 Ribosome modulation factor n=2 Tax=Marinoba...  92.2    1e-23
+  UniRef90_UPI00035D3BFE ribosome modulation factor n=1 Tax=Colwe...  91.5    1e-23
+  UniRef90_UPI0009E672FC ribosome modulation factor n=1 Tax=Vibri...  91.5    1e-23
+  UniRef90_H0IZV6 Ribosome modulation factor n=30 Tax=Gammaproteo...  91.9    1e-23
+  UniRef90_A0A3D3H4B2 Ribosome modulation factor n=1 Tax=Colwelli...  91.5    1e-23
+  UniRef90_A0A1I0ARE9 Ribosome modulation factor n=1 Tax=Thalasso...  91.5    1e-23
+  UniRef90_A0A3E0U944 Ribosome modulation factor n=2 Tax=Thalasso...  91.5    1e-23
+  UniRef90_A0A2S8QXE8 Ribosome modulation factor n=3 Tax=Morganel...  91.5    1e-23
+  UniRef90_A0A2D8J2T9 Ribosome modulation factor n=1 Tax=Alteromo...  91.9    2e-23
+  UniRef90_Q12LD0 Ribosome modulation factor n=3 Tax=Shewanella T...  91.5    2e-23
+  UniRef90_UPI000F8635DB ribosome modulation factor n=1 Tax=Idiom...  91.5    2e-23
+  UniRef90_L8J8M4 Ribosome modulation factor n=1 Tax=Photobacteri...  91.1    2e-23
+  UniRef90_A0A1M7IFH3 Ribosome modulation factor n=2 Tax=Halomona...  91.5    2e-23
+  UniRef90_UPI000FDF3FE9 UPI000FDF3FE9 related cluster n=1 Tax=un...  91.1    2e-23
+  UniRef90_A0A081N438 Ribosome modulation factor n=1 Tax=Endozoic...  91.5    2e-23
+  UniRef90_A0A072N600 Ribosome modulation factor n=2 Tax=Marinoba...  91.5    2e-23
+  UniRef90_A0A1Q6CE97 Ribosome modulation factor n=1 Tax=Thalasso...  91.1    2e-23
+  UniRef90_A0A1M5Z5X9 Ribosome modulation factor n=2 Tax=Vibrio T...  91.1    2e-23
+  UniRef90_A0A368NQV2 Ribosome modulation factor n=1 Tax=Corallin...  91.1    2e-23
+  UniRef90_A7N0M4 Ribosome modulation factor n=77 Tax=Vibrionales...  91.1    2e-23
+  UniRef90_A0A1Y0IAE9 Ribosome modulation factor n=1 Tax=Oleiphil...  91.5    2e-23
+  UniRef90_UPI000C7D55C3 ribosome modulation factor n=1 Tax=Ocean...  91.5    2e-23
+  UniRef90_UPI000BA36BE5 ribosome modulation factor n=1 Tax=Endoz...  91.5    2e-23
+  UniRef90_A0A1H2Z9P8 Ribosome modulation factor n=2 Tax=Marinoba...  91.5    2e-23
+  UniRef90_I3IBF3 Ribosome modulation factor n=3 Tax=Cellvibrio T...  91.5    2e-23
+  UniRef90_A0A1H0KUM5 Ribosome modulation factor n=4 Tax=Halomona...  91.1    2e-23
+  UniRef90_UPI0002E28862 ribosome modulation factor n=1 Tax=Edwar...  91.1    2e-23
+  UniRef90_A0A396TY77 Ribosome modulation factor n=1 Tax=Colwelli...  91.1    2e-23
+  UniRef90_A0A2D6RFD5 Ribosome modulation factor n=2 Tax=Colwelli...  90.7    3e-23
+  UniRef90_A0A2A2F7C2 Ribosome modulation factor n=2 Tax=Halomona...  91.1    3e-23
+  UniRef90_A0A2G6KY53 Ribosome modulation factor n=3 Tax=Proteoba...  91.1    3e-23
+  UniRef90_A0A376UCT7 Ribosome modulation factor n=1 Tax=Escheric...  90.7    3e-23
+  UniRef90_UPI000970FD4F ribosome modulation factor n=1 Tax=Colwe...  90.7    3e-23
+  UniRef90_A0A1T4LDT5 Ribosome modulation factor n=1 Tax=Oceanosp...  91.1    3e-23
+  UniRef90_N6X026 Ribosome modulation factor n=2 Tax=Marinobacter...  91.1    3e-23
+  UniRef90_UPI00046FA108 ribosome modulation factor n=1 Tax=Shewa...  90.7    3e-23
+  UniRef90_C3NQJ0 Ribosome modulation factor n=20 Tax=Vibrio TaxI...  90.7    3e-23
+  UniRef90_B4EVD2 Ribosome modulation factor n=10 Tax=Enterobacte...  90.7    3e-23
+  UniRef90_UPI000A16CE8F ribosome modulation factor n=1 Tax=Colwe...  90.7    3e-23
+  UniRef90_A0A3M1KCP6 Ribosome modulation factor n=1 Tax=Gammapro...  90.7    3e-23
+  UniRef90_K0CEJ2 Ribosome modulation factor n=5 Tax=Alcanivorax ...  91.1    3e-23
+  UniRef90_UPI0009F82918 ribosome modulation factor n=2 Tax=Agari...  90.7    3e-23
+  UniRef90_UPI000B35563A ribosome modulation factor n=1 Tax=Thaum...  90.3    4e-23
+  UniRef90_A0A3N0CW15 Ribosome modulation factor n=2 Tax=Zhongsha...  90.7    4e-23
+  UniRef90_A0A097QKB9 Ribosome modulation factor n=5 Tax=Vibrio T...  90.3    4e-23
+  UniRef90_A0A316FQW1 Ribosome modulation factor n=1 Tax=Pleionea...  90.3    4e-23
+  UniRef90_UPI0009707D20 ribosome modulation factor n=2 Tax=Vibri...  90.3    4e-23
+  UniRef90_E3BFH0 Ribosome modulation factor n=7 Tax=Vibrionaceae...  90.3    4e-23
+  UniRef90_A0A0L0ESX4 Ribosome modulation factor n=5 Tax=Pseudoal...  90.3    4e-23
+  UniRef90_Q1QXW0 Ribosome modulation factor n=65 Tax=root TaxID=...  90.7    4e-23
+  UniRef90_UPI00040A58CD ribosome modulation factor n=1 Tax=Halom...  90.7    4e-23
+  UniRef90_A0A2A2J165 Ribosome modulation factor n=1 Tax=Pseudomo...  90.7    4e-23
+  UniRef90_A0A1I3WNI2 Ribosome modulation factor n=4 Tax=Marinoba...  90.7    4e-23
+  UniRef90_Q21JW8 Ribosome modulation factor n=1 Tax=Saccharophag...  90.7    4e-23
+  UniRef90_A0A377HMI2 Ribosome modulation factor n=3 Tax=Grimonti...  90.3    4e-23
+  UniRef90_UPI00098518EF ribosome modulation factor n=1 Tax=Colwe...  90.3    4e-23
+  UniRef90_UPI000DA146E3 ribosome modulation factor n=2 Tax=Salin...  90.7    4e-23
+  UniRef90_K2K449 Ribosome modulation factor n=2 Tax=Gallaecimona...  90.3    5e-23
+  UniRef90_A0A0H2MUA2 Ribosome modulation factor n=13 Tax=Vibrio ...  90.3    5e-23
+  UniRef90_UPI0008DA767B ribosome modulation factor n=1 Tax=Vibri...  90.3    5e-23
+  UniRef90_A0A0S2JJU4 Ribosome modulation factor n=2 Tax=Colwelli...  89.9    5e-23
+  UniRef90_A0A142BE66 Ribosome modulation factor n=2 Tax=Endozoic...  90.3    5e-23
+  UniRef90_I2JJK2 Ribosome modulation factor n=2 Tax=Spongiibacte...  90.3    5e-23
+  UniRef90_H2FW45 Ribosome modulation factor n=10 Tax=Aeromonadac...  89.9    5e-23
+  UniRef90_A0A2N1YJ83 Ribosome modulation factor n=1 Tax=Gammapro...  90.3    5e-23
+  UniRef90_A0A1G6A6X7 Ribosome modulation factor n=1 Tax=Idiomari...  89.9    5e-23
+  UniRef90_UPI000F858329 UPI000F858329 related cluster n=1 Tax=un...  89.9    6e-23
+  UniRef90_UPI000F86C679 ribosome modulation factor n=1 Tax=Aliid...  89.9    6e-23
+  UniRef90_UPI000379C506 ribosome modulation factor n=1 Tax=Gayad...  89.9    6e-23
+  UniRef90_B3PIL7 Ribosome modulation factor n=5 Tax=Cellvibrio T...  90.3    6e-23
+  UniRef90_B6ELS2 Ribosome modulation factor n=5 Tax=Aliivibrio T...  89.9    6e-23
+  UniRef90_C5BKZ1 Ribosome modulation factor n=1 Tax=Teredinibact...  90.3    6e-23
+  UniRef90_A0A2E2K842 Ribosome modulation factor n=1 Tax=Spongiib...  90.3    6e-23
+  UniRef90_S7JG16 Ribosome modulation factor n=3 Tax=Vibrio TaxID...  89.9    6e-23
+  UniRef90_A0A0P7WRI1 Ribosome modulation factor n=3 Tax=Idiomari...  89.9    7e-23
+  UniRef90_A0A1H7GWV4 Ribosome modulation factor n=1 Tax=Pseudomo...  90.3    7e-23
+  UniRef90_E1ST49 Ribosome modulation factor n=1 Tax=Ferrimonas b...  89.9    7e-23
+  UniRef90_A0A1V3HA89 Ribosome modulation factor n=8 Tax=Salinivi...  89.6    7e-23
+  UniRef90_Q2NU75 Ribosome modulation factor n=1 Tax=Sodalis glos...  91.1    7e-23
+  UniRef90_UPI000A01E1AA ribosome modulation factor n=1 Tax=Aliag...  89.6    7e-23
+  UniRef90_F7YJP1 Ribosome modulation factor n=9 Tax=Vibrionaceae...  89.6    7e-23
+  UniRef90_A0A2E7IPD8 Ribosome modulation factor n=1 Tax=Spongiib...  89.9    7e-23
+  UniRef90_A0A1E5E7A3 Ribosome modulation factor n=5 Tax=Vibriona...  89.6    7e-23
+  UniRef90_F7NWG8 Ribosome modulation factor n=5 Tax=Chromatiales...  89.9    7e-23
+  UniRef90_A0A1Y0FSM3 Ribosome modulation factor n=1 Tax=Cellvibr...  90.3    7e-23
+  UniRef90_A0A261GKQ6 Ribosome modulation factor n=1 Tax=Hahella ...  89.9    8e-23
+  UniRef90_UPI0003757429 ribosome modulation factor n=1 Tax=Algic...  89.6    8e-23
+  UniRef90_A0A2U3BBQ2 Ribosome modulation factor n=1 Tax=Vibrio s...  89.6    8e-23
+  UniRef90_C7RB40 Ribosome modulation factor n=2 Tax=Kangiella Ta...  89.6    8e-23
+  UniRef90_A0A2M8H2U8 Ribosome modulation factor n=2 Tax=Vibrio T...  89.6    9e-23
+  UniRef90_A0A086D5X5 Ribosome modulation factor n=8 Tax=Gammapro...  89.9    9e-23
+  UniRef90_A0A369WTW6 Ribosome modulation factor n=1 Tax=Motilipr...  89.9    9e-23
+  UniRef90_Q0VQU6 Ribosome modulation factor n=12 Tax=Alcanivorac...  89.9    9e-23
+  UniRef90_A0A2K8KPY7 Ribosome modulation factor n=3 Tax=Reinekea...  89.9    9e-23
+  UniRef90_A0A1Q9G6N8 Ribosome modulation factor n=1 Tax=Photobac...  89.6    9e-23
+  UniRef90_A0A1Y6ETP2 Ribosome modulation factor n=3 Tax=Idiomari...  89.6    9e-23
+  UniRef90_A0A090RKI7 Ribosome modulation factor n=1 Tax=Vibrio s...  89.6    1e-22
+  UniRef90_UPI000477639B ribosome modulation factor n=1 Tax=Dasan...  89.6    1e-22
+  UniRef90_UPI000EB117A4 ribosome modulation factor n=1 Tax=Pseud...  89.6    1e-22
+  UniRef90_UPI00040CBC03 ribosome modulation factor n=1 Tax=Marin...  89.6    1e-22
+  UniRef90_A0A2I0CTR6 Ribosome modulation factor n=3 Tax=Pseudomo...  89.6    1e-22
+  UniRef90_M7CWF6 Ribosome modulation factor n=1 Tax=Marinobacter...  89.6    1e-22
+  UniRef90_D3UWT8 Ribosome modulation factor n=27 Tax=Morganellac...  89.2    1e-22
+  UniRef90_A0A2E2XF44 Ribosome modulation factor n=1 Tax=Cellvibr...  89.6    1e-22
+  UniRef90_A0A1X1MQS2 Ribosome modulation factor n=1 Tax=Vibrio s...  89.2    1e-22
+  UniRef90_UPI0009D953EE ribosome modulation factor n=2 Tax=Pseud...  89.6    1e-22
+  UniRef90_A0A396TV42 Ribosome modulation factor n=1 Tax=Colwelli...  89.2    1e-22
+  UniRef90_A0A1C3EBR4 Ribosome modulation factor n=1 Tax=Enterovi...  89.2    1e-22
+  UniRef90_A0A3D0UZR9 Ribosome modulation factor n=1 Tax=Rhodobac...  89.2    1e-22
+  UniRef90_A0A090IL41 Ribosome modulation factor n=12 Tax=Vibrion...  89.2    1e-22
+  UniRef90_A0A3E0UC16 Ribosome modulation factor n=1 Tax=Thalasso...  89.2    1e-22
+  UniRef90_A0A2S7UWM6 Ribosome modulation factor n=1 Tax=Psychros...  89.2    1e-22
+  UniRef90_UPI000F896803 ribosome modulation factor n=1 Tax=Idiom...  88.8    2e-22
+  UniRef90_Q47Z13 Ribosome modulation factor 1 n=14 Tax=Colwellia...  88.8    2e-22
+  UniRef90_UPI000F7E7E23 ribosome modulation factor n=1 Tax=Shewa...  88.8    2e-22
+  UniRef90_A0A1R4B2G7 Ribosome modulation factor n=1 Tax=Vibrio p...  88.8    2e-22
+  UniRef90_A0A024HKX2 Ribosome modulation factor n=30 Tax=Gammapr...  89.2    2e-22
+  UniRef90_Q1Z9B3 Ribosome modulation factor n=5 Tax=Photobacteri...  88.8    2e-22
+  UniRef90_M4WZB2 Ribosome modulation factor n=5 Tax=Pseudomonas ...  89.2    2e-22
+  UniRef90_UPI000F871465 ribosome modulation factor n=1 Tax=Aliid...  88.4    2e-22
+  UniRef90_A0A0K6GW29 Ribosome modulation factor n=9 Tax=Idiomari...  88.8    2e-22
+  UniRef90_UPI000E20BCA1 ribosome modulation factor n=1 Tax=Galla...  88.8    2e-22
+  UniRef90_A0A1Z2SIL3 Ribosome modulation factor n=5 Tax=Vibrio T...  88.4    2e-22
+  UniRef90_UPI000DB93458 ribosome modulation factor n=1 Tax=Marin...  88.8    2e-22
+  UniRef90_A0A2A5T7C7 Ribosome modulation factor n=1 Tax=Candidat...  88.4    2e-22
+  UniRef90_A0A0D8MDD2 Ribosome modulation factor n=18 Tax=Photoba...  88.4    2e-22
+  UniRef90_UPI000DF32769 ribosome modulation factor n=1 Tax=Colwe...  88.4    2e-22
+  UniRef90_UPI000E77A611 ribosome modulation factor n=1 Tax=Alter...  88.4    2e-22
+  UniRef90_A0A2V4LXB5 Ribosome modulation factor n=3 Tax=Pseudomo...  88.8    2e-22
+  UniRef90_A0A1E5C8Y6 Ribosome modulation factor n=6 Tax=Enterovi...  88.4    2e-22
+  UniRef90_C4LEL9 Ribosome modulation factor n=2 Tax=Tolumonas Ta...  88.4    2e-22
+  UniRef90_A0A3N1NXQ1 Ribosome modulation factor n=2 Tax=Marinimi...  88.8    3e-22
+  UniRef90_F7RWX3 Ribosome modulation factor n=3 Tax=Idiomarinace...  88.4    3e-22
+  UniRef90_A0A1G9TLH4 Ribosome modulation factor n=3 Tax=Pseudomo...  88.8    3e-22
+  UniRef90_A0A193KFE9 Ribosome modulation factor n=5 Tax=Vibrio T...  88.0    3e-22
+  UniRef90_A0A2D4XR59 Ribosome modulation factor n=8 Tax=Pseudomo...  88.4    3e-22
+  UniRef90_A0A1H6T7C8 Ribosome modulation factor n=1 Tax=Pseudosp...  88.4    3e-22
+  UniRef90_A0A3B8TXY0 Ribosome modulation factor n=1 Tax=Pseudomo...  88.4    3e-22
+  UniRef90_A0A327X210 Ribosome modulation factor n=1 Tax=Aliidiom...  88.0    3e-22
+  UniRef90_U7G2T2 Ribosome modulation factor n=1 Tax=Alcanivorax ...  88.4    4e-22
+  UniRef90_A0A2A4W7Q2 Ribosome modulation factor n=2 Tax=Gammapro...  88.0    4e-22
+  UniRef90_UPI000976AADA ribosome modulation factor n=1 Tax=Motil...  88.0    4e-22
+  UniRef90_A0A165U2F2 Ribosome modulation factor n=2 Tax=Halioglo...  88.0    4e-22
+  UniRef90_A0A1S1NWA1 Ribosome modulation factor n=2 Tax=Kushneri...  88.0    4e-22
+  UniRef90_A0A0C4WHF8 Ribosome modulation factor n=7 Tax=Pseudomo...  88.4    4e-22
+  UniRef90_UPI00040C78BD ribosome modulation factor n=2 Tax=Sacch...  88.0    4e-22
+  UniRef90_A0A151L114 Ribosome modulation factor n=4 Tax=Vibrio T...  87.6    4e-22
+  UniRef90_A0A2A2FS45 Ribosome modulation factor n=1 Tax=Pseudomo...  88.0    4e-22
+  UniRef90_A0A178KKY8 Ribosome modulation factor n=3 Tax=Photobac...  87.6    4e-22
+  UniRef90_A0A3P3VVJ1 Ribosome modulation factor n=1 Tax=Simiduia...  88.0    4e-22
+  UniRef90_UPI0004690F57 ribosome modulation factor n=1 Tax=Cobet...  88.0    5e-22
+  UniRef90_A0A1H2EI27 Ribosome modulation factor n=1 Tax=Pseudomo...  88.0    5e-22
+  UniRef90_A0A1M4U073 Ribosome modulation factor n=2 Tax=Microbul...  88.4    5e-22
+  UniRef90_A0A2E2K614 Ribosome modulation factor n=1 Tax=Spongiib...  88.0    5e-22
+  UniRef90_UPI000F86DF7F ribosome modulation factor n=1 Tax=Aliid...  87.6    5e-22
+  UniRef90_UPI000F8665A8 ribosome modulation factor n=1 Tax=Aliid...  87.6    5e-22
+  UniRef90_A0A0F7M435 Ribosome modulation factor n=1 Tax=Spongiib...  87.6    5e-22
+  UniRef90_A0A3P1STZ6 Ribosome modulation factor n=1 Tax=Amphrite...  87.6    5e-22
+  UniRef90_UPI00046F84A1 ribosome modulation factor n=1 Tax=Carni...  88.0    5e-22
+  UniRef90_A0A377NF24 Ribosome modulation factor n=1 Tax=Ewingell...  88.8    6e-22
+  UniRef90_A0A0D1GT46 Ribosome modulation factor n=9 Tax=Vibrio T...  87.2    6e-22
+  UniRef90_A0A2T5PAZ7 Ribosome modulation factor n=1 Tax=Pseudomo...  87.6    6e-22
+  UniRef90_A0A090IDM5 Ribosome modulation factor n=7 Tax=Moritell...  87.2    6e-22
+  UniRef90_A0A2A2I7A7 Ribosome modulation factor n=1 Tax=Tamilnad...  87.6    6e-22
+  UniRef90_A0A1H2FHX2 Ribosome modulation factor n=1 Tax=Pseudomo...  87.6    7e-22
+  UniRef90_K2JUA4 Ribosome modulation factor n=1 Tax=Idiomarina x...  87.2    7e-22
+  UniRef90_F8H0S8 Ribosome modulation factor n=52 Tax=Bacteria Ta...  87.6    7e-22
+  UniRef90_A0A2S2E2N8 Ribosome modulation factor n=1 Tax=Salinimo...  87.2    7e-22
+  UniRef90_A0A0B3BT80 Ribosome modulation factor n=1 Tax=Pseudomo...  87.6    7e-22
+  UniRef90_A0A1K1TKJ2 Ribosome modulation factor n=1 Tax=Marinosp...  87.6    7e-22
+  UniRef90_A0A2T6E5P5 Ribosome modulation factor n=2 Tax=Saccharo...  87.6    7e-22
+  UniRef90_UPI000E3E1DA4 ribosome modulation factor n=1 Tax=Chrom...  87.2    8e-22
+  UniRef90_UPI000414C1D5 ribosome modulation factor n=1 Tax=Zoosh...  87.2    9e-22
+  UniRef90_A0A094IV84 Ribosome modulation factor n=5 Tax=Idiomari...  86.9    9e-22
+  UniRef90_A0A1I4SQ16 Ribosome modulation factor n=1 Tax=Pseudomo...  87.2    9e-22
+  UniRef90_UPI000DD05F91 ribosome modulation factor n=1 Tax=Cellv...  87.2    9e-22
+  UniRef90_UPI0009EB818B ribosome modulation factor n=1 Tax=Photo...  86.9    9e-22
+  UniRef90_UPI000475672F ribosome modulation factor n=1 Tax=Gilvi...  87.2    1e-21
+  UniRef90_A0A1Y5G1T1 Ribosome modulation factor n=2 Tax=Gammapro...  87.2    1e-21
+  UniRef90_Q48JX9 Ribosome modulation factor n=199 Tax=Pseudomona...  87.2    1e-21
+  UniRef90_A0A2H9U3R5 Ribosome modulation factor n=1 Tax=Aeromona...  86.9    1e-21
+  UniRef90_A0A3L8PQW7 Ribosome modulation factor n=1 Tax=Shewanel...  86.9    1e-21
+  UniRef90_A0A220SLC0 Ribosome modulation factor n=1 Tax=Alcanivo...  87.2    1e-21
+  UniRef90_A0A2D7WGX4 Ribosome modulation factor n=1 Tax=Spongiib...  86.9    1e-21
+  UniRef90_K6Y4E9 Ribosome modulation factor n=2 Tax=Glaciecola T...  86.9    1e-21
+  UniRef90_A0A2S1JTW2 Ribosome modulation factor n=2 Tax=Microbul...  87.6    1e-21
+  UniRef90_D3VC10 Ribosome modulation factor n=7 Tax=Xenorhabdus ...  86.5    1e-21
+  UniRef90_F6AKB2 Ribosome modulation factor n=301 Tax=cellular o...  86.9    1e-21
+  UniRef90_A0A1D8RUG4 Ribosome modulation factor n=1 Tax=Colwelli...  86.5    1e-21
+  UniRef90_A0A2E7C110 Ribosome modulation factor n=4 Tax=Halieace...  86.9    1e-21
+  UniRef90_UPI000A04F928 ribosome modulation factor n=1 Tax=Ferri...  86.5    1e-21
+  UniRef90_UPI00037DFCCA ribosome modulation factor n=1 Tax=Kushn...  86.9    1e-21
+  UniRef90_A0A2A5CQ82 Ribosome modulation factor n=2 Tax=Gammapro...  86.9    1e-21
+  UniRef90_UPI00059FAD1B ribosome modulation factor n=2 Tax=Gilvi...  86.5    2e-21
+  UniRef90_A0A1B3BB33 Ribosome modulation factor n=5 Tax=Proteoba...  86.5    2e-21
+  UniRef90_B7VNL5 Ribosome modulation factor n=1 Tax=Vibrio tasma...  86.5    2e-21
+  UniRef90_A0A2A4AZU9 Ribosome modulation factor n=1 Tax=Pseudomo...  86.5    2e-21
+  UniRef90_A0A1E5DTC5 Ribosome modulation factor n=18 Tax=Vibrio ...  86.1    2e-21
+  UniRef90_A0A143HMD1 Ribosome modulation factor n=1 Tax=Microbul...  86.9    2e-21
+  UniRef90_UPI000E65EC9D ribosome modulation factor n=1 Tax=Ocean...  86.5    2e-21
+  UniRef90_UPI0002E308F1 ribosome modulation factor n=1 Tax=gamma...  86.1    2e-21
+  UniRef90_A0A1Y6C7B7 Ribosome modulation factor n=1 Tax=Alteromo...  86.1    2e-21
+  UniRef90_UPI000A2F507A ribosome modulation factor n=1 Tax=Pseud...  86.1    3e-21
+  UniRef90_Q2SCH0 Ribosome modulation factor n=1 Tax=Hahella chej...  86.1    3e-21
+  UniRef90_Q5QYY1 Ribosome modulation factor n=20 Tax=Idiomarinac...  85.7    3e-21
+  UniRef90_UPI00041F6F8C ribosome modulation factor n=2 Tax=Marin...  86.1    3e-21
+  UniRef90_A0A1G7YDY0 Ribosome modulation factor n=2 Tax=Vibrio x...  85.7    3e-21
+  UniRef90_N2IQA4 Ribosome modulation factor n=4 Tax=Pseudomonas ...  86.1    3e-21
+  UniRef90_A0A3C0TCL1 Ribosome modulation factor n=1 Tax=Gammapro...  85.3    3e-21
+  UniRef90_A0A2T3N226 Ribosome modulation factor n=1 Tax=Photobac...  85.7    3e-21
+  UniRef90_A0A2Z2H362 Ribosome modulation factor n=5 Tax=Kushneri...  85.7    3e-21
+  UniRef90_UPI000948D3F2 ribosome modulation factor n=1 Tax=Neptu...  85.7    4e-21
+  UniRef90_A0A2E4YJG4 Ribosome modulation factor n=3 Tax=Alcanivo...  85.7    4e-21
+  UniRef90_A0A2N8Z9K6 Ribosome modulation factor n=1 Tax=Vibrio t...  85.3    4e-21
+  UniRef90_A0A0C5VPG6 Ribosome modulation factor n=1 Tax=Gynuella...  85.7    4e-21
+  UniRef90_A0A1H9UNU0 Ribosome modulation factor n=16 Tax=root Ta...  85.7    4e-21
+  UniRef90_F4DAE8 Ribosome modulation factor n=45 Tax=Gammaproteo...  85.3    5e-21
+  UniRef90_A0A1I3HZ73 Ribosome modulation factor n=1 Tax=Xenorhab...  84.9    5e-21
+  UniRef90_UPI000832B4FA ribosome modulation factor n=2 Tax=Neptu...  85.3    5e-21
+  UniRef90_A0A2N0WNC2 Ribosome modulation factor n=1 Tax=Alteromo...  84.9    5e-21
+  UniRef90_A0A095VS00 Ribosome modulation factor n=2 Tax=Halieace...  85.3    5e-21
+  UniRef90_A0A2H9T500 Ribosome modulation factor n=1 Tax=inverteb...  85.3    6e-21
+  UniRef90_UPI0009FE383D ribosome modulation factor n=1 Tax=Ferri...  84.9    6e-21
+  UniRef90_A0A3L7DXU5 Ribosome modulation factor n=1 Tax=Halioglo...  84.9    6e-21
+  UniRef90_A0A1Y5FJB1 Uncharacterized protein n=1 Tax=Gammaproteo...  85.3    7e-21
+  UniRef90_R1H727 Ribosome modulation factor n=4 Tax=Aeromonadace...  84.9    7e-21
+  UniRef90_UPI000EADF9D5 ribosome modulation factor n=1 Tax=Alter...  84.9    7e-21
+  UniRef90_UPI0009448C20 ribosome modulation factor n=1 Tax=Marin...  84.9    7e-21
+  UniRef90_A0A2D4WJ90 Ribosome modulation factor n=6 Tax=Gammapro...  84.9    7e-21
+  UniRef90_UPI000B3443C8 ribosome modulation factor n=1 Tax=Agari...  84.9    7e-21
+  UniRef90_Q2BHA9 Ribosome modulation factor n=3 Tax=Oceanospiril...  84.9    8e-21
+  UniRef90_UPI000B3C477B ribosome modulation factor n=1 Tax=Neiel...  84.5    8e-21
+  UniRef90_A0A2E5T3X9 Ribosome modulation factor n=2 Tax=Alcanivo...  84.9    8e-21
+  UniRef90_A0A0U4VUJ2 Ribosome modulation factor n=10 Tax=Pseudom...  84.9    8e-21
+  UniRef90_UPI000E2E637E ribosome modulation factor n=1 Tax=Parah...  84.5    9e-21
+  UniRef90_A0A1H9HWB8 Ribosome modulation factor n=1 Tax=Amphrite...  84.5    9e-21
+  UniRef90_A0A2N5WY65 Ribosome modulation factor n=3 Tax=Halieace...  84.5    1e-20
+  UniRef90_A0A1H4A8E0 Ribosome modulation factor n=2 Tax=Marinoba...  84.5    1e-20
+  UniRef90_A0A3D4UDY7 Ribosome modulation factor n=1 Tax=Moraxell...  84.5    1e-20
+  UniRef90_A0A2N4UTG8 Ribosome modulation factor n=1 Tax=Photobac...  84.2    1e-20
+  UniRef90_UPI0009FE0553 ribosome modulation factor n=1 Tax=Amphr...  84.5    1e-20
+  UniRef90_UPI0003F815DD ribosome modulation factor n=1 Tax=Neptu...  84.5    1e-20
+  UniRef90_A0A1H1UIQ0 Ribosome modulation factor n=3 Tax=Pseudomo...  84.5    1e-20
+  UniRef90_A0A1N6Q6E2 Ribosome modulation factor n=1 Tax=Marinoba...  84.2    1e-20
+  UniRef90_A0A066RLD7 Ribosome modulation factor n=2 Tax=Vibriona...  83.8    1e-20
+  UniRef90_UPI0009E95FA4 ribosome modulation factor n=2 Tax=Ocean...  84.2    1e-20
+  UniRef90_UPI000A045983 ribosome modulation factor n=1 Tax=Marin...  84.2    1e-20
+  UniRef90_UPI000BB54E5B ribosome modulation factor n=1 Tax=Agari...  84.2    1e-20
+  UniRef90_A0A1C9W9F8 Ribosome modulation factor n=2 Tax=Microbul...  84.5    2e-20
+  UniRef90_A0A2D5FB75 Ribosome modulation factor n=1 Tax=Haliea s...  84.2    2e-20
+  UniRef90_A0A1X7AM62 Ribosome modulation factor n=1 Tax=Parendoz...  84.2    2e-20
+  UniRef90_A0A2N5Y2L5 Ribosome modulation factor n=1 Tax=Chromato...  83.8    2e-20
+  UniRef90_A0A162KF09 Ribosome modulation factor n=2 Tax=Oleiphil...  83.8    2e-20
+  UniRef90_A0A2E8J3Q7 Ribosome modulation factor n=2 Tax=Gammapro...  83.8    2e-20
+  UniRef90_A0A2D8RA31 Ribosome modulation factor n=1 Tax=Hahellac...  83.4    2e-20
+  UniRef90_UPI000F7E0222 ribosome modulation factor n=1 Tax=Amphr...  83.8    2e-20
+  UniRef90_UPI0009DF9065 ribosome modulation factor n=1 Tax=Halot...  83.4    3e-20
+  UniRef90_A0A1H5U8Y3 Ribosome modulation factor n=2 Tax=Oceanosp...  83.4    3e-20
+  UniRef90_A0A2E2W2M2 Ribosome modulation factor n=3 Tax=Porticoc...  83.4    3e-20
+  UniRef90_A0A1Y5HP14 Ribosome modulation factor n=2 Tax=Bacteria...  83.4    3e-20
+  UniRef90_A0A2E0YYE7 Ribosome modulation factor n=1 Tax=Halioglo...  83.0    4e-20
+  UniRef90_A4A7X7 Ribosome modulation factor n=2 Tax=Gammaproteob...  83.0    4e-20
+  UniRef90_UPI0009489ECF ribosome modulation factor n=1 Tax=Alter...  83.0    4e-20
+  UniRef90_B8KXX2 Ribosome modulation factor n=1 Tax=Luminiphilus...  83.0    4e-20
+  UniRef90_UPI0006B565DA ribosome modulation factor n=1 Tax=Marin...  83.0    5e-20
+  UniRef90_S6HKK2 Ribosome modulation factor n=1 Tax=Osedax symbi...  83.0    5e-20
+  UniRef90_UPI000C83EDF1 ribosome modulation factor n=1 Tax=Vibri...  82.2    6e-20
+  UniRef90_A0A1N7KFL0 Ribosome modulation factor n=2 Tax=Neptunom...  82.6    6e-20
+  UniRef90_UPI000FD6E009 ribosome modulation factor n=1 Tax=Neptu...  82.2    7e-20
+  UniRef90_A0A3N2DZ11 Ribosome modulation factor n=1 Tax=Sinobact...  81.8    1e-19
+  UniRef90_Q1N649 Ribosome modulation factor n=1 Tax=Bermanella m...  81.8    1e-19
+  UniRef90_A0A2E0VG37 Ribosome modulation factor n=1 Tax=Porticoc...  81.8    1e-19
+  UniRef90_A0A318CH12 Ribosome modulation factor n=2 Tax=Proteoba...  81.8    1e-19
+  UniRef90_R9S5J9 Ribosome modulation factor n=1 Tax=Simiduia aga...  81.5    2e-19
+  UniRef90_A0A2A5HBT3 Ribosome modulation factor n=1 Tax=Alteromo...  81.5    2e-19
+  UniRef90_A0A1I1DWC1 Ribosome modulation factor n=2 Tax=Marinosp...  81.5    2e-19
+  UniRef90_A0A1G9A8F3 Ribosome modulation factor n=1 Tax=Microbul...  81.8    2e-19
+  UniRef90_UPI0009E400D7 ribosome modulation factor n=1 Tax=Cellv...  81.1    2e-19
+  UniRef90_A0A220VEM9 Ribosome modulation factor n=1 Tax=Paraphot...  80.7    2e-19
+  UniRef90_A0A370U5U7 Ribosome modulation factor n=1 Tax=Marinomo...  81.1    2e-19
+  UniRef90_A0A1J5N1L1 Ribosome modulation factor n=1 Tax=Gammapro...  80.7    2e-19
+  UniRef90_A0A2D5FJG4 Ribosome modulation factor n=1 Tax=Halieace...  81.1    2e-19
+  UniRef90_A0A2A5GJC9 Ribosome modulation factor n=1 Tax=Porticoc...  80.7    3e-19
+  UniRef90_A0A2A4UMA3 Ribosome modulation factor n=1 Tax=Moraxell...  80.7    4e-19
+  UniRef90_A0A099PAD4 Ribosome modulation factor n=2 Tax=Nitrinco...  80.3    4e-19
+  UniRef90_A0A3M0A9D5 Ribosome modulation factor n=1 Tax=Umboniib...  80.3    4e-19
+  UniRef90_A0A1A8TBI9 Ribosome modulation factor n=1 Tax=Marinomo...  80.3    5e-19
+  UniRef90_A0Z5Y7 Ribosome modulation factor n=1 Tax=marine gamma...  80.3    5e-19
+  UniRef90_A0A1Q2M5G2 Ribosome modulation factor n=2 Tax=Microbul...  80.3    5e-19
+  UniRef90_A0A0F4R625 Ribosome modulation factor n=1 Tax=Marinomo...  79.9    7e-19
+  UniRef90_UPI0009E0519B ribosome modulation factor n=1 Tax=Micro...  79.9    8e-19
+  UniRef90_W9V897 Ribosome modulation factor n=2 Tax=Nitrincola T...  79.5    9e-19
+  UniRef90_A0A1E3GAL6 Ribosome modulation factor n=1 Tax=Pisciric...  79.5    9e-19
+  UniRef90_A0A0F2NSN9 Ribosome modulation factor n=1 Tax=Gammapro...  79.5    9e-19
+  UniRef90_A0A2A5CR07 Ribosome modulation factor n=1 Tax=Gammapro...  78.8    2e-18
+  UniRef90_UPI0009909D21 ribosome modulation factor n=3 Tax=Micro...  78.8    2e-18
+  UniRef90_A0A2A5AKW7 Ribosome modulation factor n=1 Tax=Gammapro...  78.8    2e-18
+  UniRef90_UPI000D0B16B5 ribosome modulation factor n=1 Tax=Esche...  78.4    2e-18
+  UniRef90_A0A2H0DB05 Ribosome modulation factor n=1 Tax=Gammapro...  78.4    2e-18
+  UniRef90_A0A2D4S370 Ribosome modulation factor n=1 Tax=Bermanel...  78.4    3e-18
+  UniRef90_F2JWN1 Ribosome modulation factor n=1 Tax=Marinomonas ...  78.4    3e-18
+  UniRef90_A0A0Q9YN00 Ribosome modulation factor n=1 Tax=Candidat...  78.0    3e-18
+  UniRef90_A0A3E0DSM6 Ribosome modulation factor n=1 Tax=Marinomo...  78.0    4e-18
+  UniRef90_UPI000FE1C166 ribosome modulation factor n=1 Tax=Serra...  77.2    6e-18
+  UniRef90_F3KZ23 Ribosome modulation factor n=1 Tax=gamma proteo...  77.2    8e-18
+  UniRef90_A0A0Q9YFM6 Ribosome modulation factor n=1 Tax=Candidat...  76.8    9e-18
+  UniRef90_A0A1A8TEE4 Ribosome modulation factor n=5 Tax=Marinomo...  77.2    1e-17
+  UniRef90_A0A0K2L793 Ribosome modulation factor n=4 Tax=Pisciric...  76.5    2e-17
+  UniRef90_A0A2V1GUP8 Ribosome modulation factor n=1 Tax=Flavobac...  76.1    2e-17
+  UniRef90_A0A1Y5DBN6 Ribosome modulation factor n=1 Tax=Bermanel...  76.1    2e-17
+  UniRef90_A0A2E2MUB0 Ribosome modulation factor n=1 Tax=Porticoc...  76.1    3e-17
+  UniRef90_UPI0009D65A71 ribosome modulation factor n=1 Tax=Balne...  75.7    3e-17
+  UniRef90_A0A2D4T574 Ribosome modulation factor n=1 Tax=Halieace...  75.7    3e-17
+  UniRef90_UPI000B3ED0E3 hypothetical protein n=1 Tax=Marinomonas...  75.3    4e-17
+  UniRef90_A0A352Q2U1 Ribosome modulation factor (Fragment) n=1 T...  75.3    4e-17
+  UniRef90_A0A2G2D2U6 Ribosome modulation factor n=1 Tax=Sphingop...  74.1    1e-16
+  UniRef90_W8GA92 Ribosome modulation factor n=5 Tax=root TaxID=1...  74.1    1e-16
+  UniRef90_A0A3D3T7I3 Ribosome modulation factor n=1 Tax=Porticoc...  74.1    1e-16
+  UniRef90_A0A3M2EA95 Ribosome modulation factor n=1 Tax=Gammapro...  73.8    2e-16
+  UniRef90_A0A2V5EVE1 Ribosome modulation factor n=2 Tax=Pseudomo...  73.8    2e-16
+  UniRef90_A0A0R2UGK0 Uncharacterized protein n=1 Tax=SAR92 bacte...  73.0    4e-16
+  UniRef90_UPI000E00C8D3 ribosome modulation factor n=1 Tax=Esche...  72.6    4e-16
+  UniRef90_UPI00042005A0 ribosome modulation factor n=1 Tax=Ocean...  72.6    4e-16
+  UniRef90_A0A176HUG6 Ribosome modulation factor n=4 Tax=Oceanosp...  72.6    6e-16
+  UniRef90_A0A2E0A0M0 Ribosome modulation factor n=1 Tax=Oceanosp...  72.2    6e-16
+  UniRef90_A0A2E6LXM2 Ribosome modulation factor n=1 Tax=Gammapro...  72.2    7e-16
+  UniRef90_R4YTF8 Ribosome modulation factor n=3 Tax=Oceanospiril...  72.2    7e-16
+  UniRef90_UPI0008FFA9C0 ribosome modulation factor n=1 Tax=Serra...  71.8    7e-16
+  UniRef90_A0A2D6ZEG2 Ribosome modulation factor n=2 Tax=Cellvibr...  71.8    1e-15
+  UniRef90_A0A1Z9WR53 Ribosome modulation factor n=4 Tax=Gammapro...  71.8    1e-15
+  UniRef90_A0A2E0CPU0 Ribosome modulation factor n=4 Tax=Cellvibr...  71.8    1e-15
+  UniRef90_A0A166FRZ7 Ribosome modulation factor n=4 Tax=Oceanosp...  71.8    1e-15
+  UniRef90_A0A1Q3SGX6 Uncharacterized protein n=1 Tax=Gammaproteo...  71.8    1e-15
+  UniRef90_A0A2A5VZ27 Ribosome modulation factor n=2 Tax=unclassi...  71.8    1e-15
+  UniRef90_A0A2E1VGK5 Ribosome modulation factor n=2 Tax=Gammapro...  71.4    1e-15
+  UniRef90_A0A2E1ST90 Ribosome modulation factor n=1 Tax=Porticoc...  71.4    1e-15
+  UniRef90_A0A351NY35 Ribosome modulation factor n=1 Tax=Porticoc...  71.4    2e-15
+  UniRef90_A0A222FLH9 Ribosome modulation factor n=1 Tax=Bacterio...  71.4    2e-15
+  UniRef90_A0A2E9P5L0 Ribosome modulation factor n=6 Tax=Gammapro...  71.1    2e-15
+  UniRef90_A0A2H0I3N4 Ribosome modulation factor n=2 Tax=Proteoba...  70.7    3e-15
+  UniRef90_A0A2E7E6U5 Ribosome modulation factor n=1 Tax=Oceanosp...  70.7    3e-15
+  UniRef90_A0A2E1IAT6 Ribosome modulation factor n=1 Tax=Gammapro...  70.7    3e-15
+  UniRef90_A0A2E6GAS3 Ribosome modulation factor n=1 Tax=Porticoc...  69.9    7e-15
+  UniRef90_A0A085DTW3 Ribosome modulation factor n=1 Tax=Halomona...  68.8    2e-14
+  UniRef90_A0A2R3INQ9 Ribosome modulation factor family protein n...  66.1    2e-13
+  UniRef90_A0A2X0VZB1 Ribosome modulation factor n=1 Tax=Aeromona...  65.7    2e-13
+  UniRef90_A0A291BBQ8 Ribosome modulation factor n=1 Tax=Candidat...  65.3    3e-13
+  UniRef90_A0A2E2TX99 Ribosome modulation factor n=1 Tax=Legionel...  64.5    7e-13
+  UniRef90_UPI0009DB0FDA ribosome modulation factor n=1 Tax=Pseud...  64.5    7e-13
+  UniRef90_A0A259P1I1 Uncharacterized protein n=1 Tax=Alishewanel...  63.4    2e-12
+  UniRef90_A0A3P2C6E2 Uncharacterized protein n=1 Tax=Klebsiella ...  61.0    1e-11
+  UniRef90_L0WEX5 Ribosome modulation factor n=2 Tax=Alcanivorax ...  61.0    1e-11
+  UniRef90_UPI0009EE6C8E hypothetical protein n=1 Tax=Oleiphilus ...  60.7    2e-11
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A356CJY2 Ribosome modulation factor n=1 Tax=Porticoc...  71.1    2e-15
+  UniRef90_A0A2D5U887 Ribosome modulation factor n=1 Tax=Porticoc...  68.0    3e-14
+  UniRef90_W2UDX7 Ribosome modulation factor n=1 Tax=Gammaproteob...  65.7    3e-13
+  UniRef90_Q1YPL6 Uncharacterized protein n=1 Tax=gamma proteobac...  62.6    5e-12
+  UniRef90_A0A3M3AD23 Ribosome modulation factor n=4 Tax=Pseudomo...  55.7    2e-09
+  UniRef90_A0A3B9ACC9 Ribosome modulation factor (Fragment) n=1 T...  51.4    7e-08
+  UniRef90_A0A1Y5D5X6 Ribosome modulation factor n=2 Tax=Bermanel...  51.4    1e-07
+  UniRef90_A0A2A5CAS1 Ribosome modulation factor n=1 Tax=Moraxell...  49.9    7e-07
+  UniRef90_A0A1Y5GZN2 Ribosome modulation factor n=2 Tax=unclassi...  47.6    5e-06
+  UniRef90_A4BKG7 Uncharacterized protein n=1 Tax=Reinekea blande...  46.4    1e-05
+  UniRef90_E1VQS7 Ribosome modulation factor-related protein n=1 ...  46.4    1e-05
+  UniRef90_A3YDN5 Dihydroorotate dehydrogenase n=3 Tax=Marinomona...  45.6    2e-05
+  UniRef90_A0A1Y6CVH0 Ribosome modulation factor n=1 Tax=Methylom...  46.4    2e-05
+  UniRef90_A0A3F2V5P7 Ribosome modulation factor n=1 Tax=Ketobact...  45.6    3e-05
+  UniRef90_A0A2A4V2H0 RND transporter n=1 Tax=Moraxellaceae bacte...  47.6    5e-05
+  UniRef90_A0A1Y5I2J9 Uncharacterized protein n=1 Tax=Oleispira a...  47.2    7e-05
+  UniRef90_A0A176H213 Uncharacterized protein n=1 Tax=Oleiphilus ...  44.5    8e-05
+  UniRef90_A0A2D4S3Y5 Ribosome modulation factor n=1 Tax=Bermanel...  44.1    1e-04
+  UniRef90_A0A0B4XJV2 Uncharacterized protein n=1 Tax=Alcanivorax...  43.7    1e-04
+  UniRef90_UPI000DB94258 ribosome modulation factor n=1 Tax=Alcan...  43.7    2e-04
+  UniRef90_Q1MYZ8 Uncharacterized protein n=1 Tax=Bermanella mari...  43.3    2e-04
+  UniRef90_R4YJT6 AcrB/AcrD/AcrF family cation efflux protein n=1...  46.0    2e-04
+  UniRef90_A0A3L8C2C3 Ribosome modulation factor n=4 Tax=Gammapro...  43.3    2e-04
+  UniRef90_A0A2E9XKB5 Uncharacterized protein n=1 Tax=Porticoccac...  42.6    2e-04
+  UniRef90_A0A2E0HER6 Ribosome modulation factor n=1 Tax=Pseudomo...  42.9    4e-04
+  UniRef90_A0A2D8IZ80 Uncharacterized protein n=1 Tax=Alteromonad...  41.4    0.001
+  UniRef90_A0A261GU94 Uncharacterized protein n=2 Tax=Hahella Tax...  41.4    0.001
+  UniRef90_UPI000BE5302F hypothetical protein n=1 Tax=Mangrovital...  41.0    0.001
+  UniRef90_UPI000D3791AB hypothetical protein n=1 Tax=Saccharospi...  41.4    0.001
+  UniRef90_A0A349SP42 Ribosome modulation factor n=4 Tax=Gammapro...  41.0    0.002
+  UniRef90_A0A2K9LJM1 Ribosome modulation factor n=1 Tax=Ketobact...  41.0    0.002
+  UniRef90_G8QM80 Ribosome modulation factor n=1 Tax=Azospira ory...  42.9    0.002
+  UniRef90_A0A385Z7G8 Uncharacterized protein n=1 Tax=Pseudomonas...  40.6    0.002
+  UniRef90_A0A1Y0I1D3 Ribosome modulation factor-related protein ...  40.2    0.003
+  UniRef90_A0A2A2DX14 Uncharacterized protein n=2 Tax=Pseudomonas...  40.6    0.003
+  UniRef90_A0A3M1KAG0 Uncharacterized protein n=1 Tax=Gammaproteo...  39.9    0.005
+  UniRef90_A0A1I3PJ66 Ribosome modulation factor n=5 Tax=Pseudomo...  40.2    0.005
+  UniRef90_UPI000971A2BE hypothetical protein n=1 Tax=Phaeobacter...  41.8    0.006
+  UniRef90_A0A2N2SV59 Uncharacterized protein n=1 Tax=Betaproteob...  41.8    0.007
+  UniRef90_A0A2T6E827 Ribosome modulation factor n=1 Tax=Saccharo...  39.5    0.007
+  UniRef90_A0A0D6SU38 Uncharacterized protein n=5 Tax=Pseudomonas...  39.5    0.007
+  UniRef90_Q2S8F8 Uncharacterized protein n=1 Tax=Hahella chejuen...  39.1    0.008
+  UniRef90_UPI000370C49E hypothetical protein n=1 Tax=Hoeflea sp....  40.6    0.010
+  UniRef90_UPI000C9BE349 hypothetical protein n=1 Tax=Bowmanella ...  39.5    0.011
+  UniRef90_A0A0D0KAF0 Uncharacterized protein n=1 Tax=Pseudomonas...  39.1    0.013
+  UniRef90_A0A1G8EGW6 Ribosome modulation factor n=1 Tax=Pseudomo...  39.1    0.013
+  UniRef90_UPI000900360B hypothetical protein n=2 Tax=Pseudomonas...  38.7    0.013
+  UniRef90_A0A1H2XR84 Ribosome modulation factor n=1 Tax=Marinoba...  38.7    0.014
+  UniRef90_A0A2T4ZX57 Ribosome modulation factor n=1 Tax=Nitrosom...  40.6    0.015
+  UniRef90_A0A1Q9XLX0 Uncharacterized protein n=1 Tax=Pseudomonas...  38.7    0.015
+  UniRef90_A0A2A5AC36 RND transporter n=1 Tax=Gammaproteobacteria...  40.6    0.015
+  UniRef90_UPI0002FF06C8 hypothetical protein n=1 Tax=Zavarzinell...  39.1    0.016
+  UniRef90_U3HGS4 Uncharacterized protein n=1 Tax=Pseudomonas alc...  37.9    0.018
+  UniRef90_L0WCR0 Ribosome modulation factor-related protein n=1 ...  38.3    0.021
+  UniRef90_A4XP62 Uncharacterized protein n=34 Tax=Gammaproteobac...  38.3    0.023
+  UniRef90_A0A1H2HMV7 Ribosome modulation factor n=1 Tax=Pseudomo...  37.9    0.026
+  UniRef90_G2ZT83 Uncharacterized protein n=2 Tax=unclassified Ra...  39.9    0.027
+  UniRef90_U3HEJ3 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  37.9    0.028
+  UniRef90_UPI0006878654 ribosome modulation factor n=2 Tax=Sacch...  37.9    0.029
+  UniRef90_A0A3N2QGK4 Uncharacterized protein n=1 Tax=Marinobacte...  37.9    0.029
+  UniRef90_N6W3P4 Uncharacterized protein n=1 Tax=Marinobacter na...  37.9    0.030
+  UniRef90_A0A2V4T7L3 Ribosome modulation factor n=5 Tax=Pseudomo...  37.9    0.031
+  UniRef90_A0A1H8QLP8 Ribosome modulation factor n=3 Tax=Nitrosom...  39.5    0.032
+  UniRef90_UPI000832EA70 hypothetical protein n=1 Tax=Rhizobiales...  37.6    0.033
+  UniRef90_A0A335NQS6 Uncharacterized protein n=1 Tax=Acinetobact...  37.6    0.033
+  UniRef90_A0A1M7L3F0 Ribosome modulation factor n=2 Tax=Pseudomo...  37.9    0.034
+  UniRef90_A0A2W5MIH7 Ribosome modulation factor n=1 Tax=Pseudomo...  37.2    0.042
+  UniRef90_A0A136GQ97 Ribosome modulation factor n=2 Tax=Alcanivo...  37.2    0.042
+  UniRef90_UPI00083A4AD6 hypothetical protein n=1 Tax=Pseudomonas...  37.6    0.043
+  UniRef90_A0A2N1YN46 Ribosome modulation factor n=1 Tax=Gammapro...  37.2    0.044
+  UniRef90_UPI0004230D19 hypothetical protein n=1 Tax=Marinobacte...  37.6    0.047
+  UniRef90_A0A2T5PBB2 Uncharacterized protein n=1 Tax=Pseudomonas...  37.2    0.051
+  UniRef90_A0A2A2FBX9 Uncharacterized protein n=1 Tax=Halovibrio ...  37.6    0.052
+  UniRef90_A0A2G6D1S7 Uncharacterized protein n=1 Tax=Proteobacte...  37.2    0.055
+  UniRef90_UPI000E744866 hypothetical protein n=1 Tax=Pseudomonas...  37.2    0.058
+  UniRef90_A0A1Z7YQS5 Uncharacterized protein n=1 Tax=Gammaproteo...  39.1    0.060
+  UniRef90_A0A220SRV9 Ribosome modulation factor n=1 Tax=Alcanivo...  36.8    0.063
+  UniRef90_A0A2E5MKS8 Uncharacterized protein n=1 Tax=Alteromonad...  37.2    0.064
+  UniRef90_T5L7L7 Uncharacterized protein n=1 Tax=Stenotrophomona...  36.8    0.074
+  UniRef90_UPI000382B3D7 hypothetical protein n=1 Tax=Thioalkaliv...  37.2    0.074
+  UniRef90_A0A0B4DZG7 Uncharacterized protein n=3 Tax=Leisingera ...  38.3    0.077
+  UniRef90_A0A1G7Z8R9 Ribosome modulation factor n=1 Tax=Pseudomo...  36.8    0.084
+  UniRef90_UPI0009DDAFE8 hypothetical protein n=1 Tax=Sphingomona...  36.8    0.084
+  UniRef90_UPI000DAEE144 hypothetical protein n=1 Tax=Marinobacte...  36.8    0.086
+  UniRef90_A0A137S2V6 Uncharacterized protein n=5 Tax=Marinobacte...  36.8    0.087
+  UniRef90_A0A1Y5H212 Uncharacterized protein n=1 Tax=Gammaproteo...  38.3    0.088
+  UniRef90_A0A239JET9 Ribosome modulation factor n=1 Tax=Pseudomo...  36.8    0.089
+  UniRef90_A0A1V2DX01 Uncharacterized protein n=3 Tax=cellular or...  36.8    0.091
+  UniRef90_A0A1B8S348 Uncharacterized protein n=2 Tax=Leisingera ...  37.9    0.093
+  UniRef90_A0A1W0D2H9 Cell division protein FtsK n=3 Tax=Chromoba...  38.3    0.11 
+  UniRef90_A0A2V4LFP3 Uncharacterized protein n=1 Tax=Pseudomonas...  36.4    0.11 
+  UniRef90_E6XGY1 Uncharacterized protein n=1 Tax=Shewanella putr...  36.0    0.12 
+  UniRef90_A0A2A2HYY3 Ribosome modulation factor n=1 Tax=Tamilnad...  36.4    0.13 
+  UniRef90_UPI000FC3DD76 hypothetical protein n=1 Tax=unknown Tax...  36.0    0.16 
+  UniRef90_A0A1H8IZG8 Uncharacterized protein n=3 Tax=Nitrosomona...  37.6    0.16 
+  UniRef90_A0A087CPK5 Excinuclease ATPase subunit n=2 Tax=Bifidob...  37.6    0.17 
+  UniRef90_A0A2T5KX08 Ribosome modulation factor n=1 Tax=Pseudomo...  36.0    0.18 
+  UniRef90_A0A0P7YAP6 Ribosome modulation factor n=1 Tax=Marinoba...  36.0    0.18 
+  UniRef90_UPI000255A6A5 hypothetical protein n=1 Tax=Oceanicola ...  37.6    0.20 
+  UniRef90_F6AJ41 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  36.0    0.20 
+  UniRef90_A0A0T6W7Z5 Uncharacterized protein n=3 Tax=Marinobacte...  35.6    0.20 
+  UniRef90_A0A1H7EG94 Uncharacterized protein n=1 Tax=Paraburkhol...  36.0    0.22 
+  UniRef90_A0A0V7ZAV6 Ribosome modulation factor n=2 Tax=Methylob...  35.6    0.23 
+  UniRef90_A0A2G1UJG6 Uncharacterized protein n=1 Tax=Marinobacte...  35.6    0.23 
+  UniRef90_A0A2P7NSA8 Cell division protein FtsK n=1 Tax=Nitrosom...  37.2    0.23 
+  UniRef90_A0A2A4XSM2 Uncharacterized protein n=1 Tax=Oceanospiri...  35.6    0.24 
+  UniRef90_A0A257D354 Uncharacterized protein n=1 Tax=Pseudomonas...  35.6    0.26 
+  UniRef90_A0A0H5BCE3 Uncharacterized protein n=1 Tax=Blastochlor...  35.2    0.30 
+  UniRef90_E1SNH3 Uncharacterized protein n=1 Tax=Ferrimonas bale...  36.8    0.30 
+  UniRef90_M5DV45 RND superfamily transporter n=4 Tax=root TaxID=...  36.8    0.31 
+  UniRef90_A0A259LQC8 Uncharacterized protein n=1 Tax=Marinobacte...  35.2    0.32 
+  UniRef90_U2ZIT3 Uncharacterized protein n=4 Tax=Pseudomonas Tax...  35.2    0.34 
+  UniRef90_UPI000DBE2D52 hypothetical protein n=1 Tax=Roseovarius...  36.8    0.35 
+  UniRef90_F7TAE7 Uncharacterized protein n=2 Tax=Achromobacter T...  36.8    0.35 
+  UniRef90_UPI000420BC33 hypothetical protein n=1 Tax=Leisingera ...  36.4    0.38 
+  UniRef90_UPI0007C242CB hypothetical protein n=1 Tax=Oleiphilus ...  36.0    0.40 
+  UniRef90_A0A1Q9XNT8 Uncharacterized protein n=1 Tax=Pseudomonas...  34.9    0.41 
+  UniRef90_Q11J31 Uncharacterized protein n=1 Tax=Chelativorans s...  36.4    0.45 
+  UniRef90_A0A162JNJ9 Uncharacterized protein n=1 Tax=Oleiphilus ...  34.9    0.47 
+  UniRef90_A0A1G7LMB1 Ribosome modulation factor n=1 Tax=Pseudomo...  34.9    0.48 
+  UniRef90_A0A166FA81 Uncharacterized protein n=1 Tax=Oleiphilus ...  34.9    0.50 
+  UniRef90_U7NSY8 Uncharacterized protein n=9 Tax=Marinobacter Ta...  34.9    0.51 
+  UniRef90_A0A366WP44 Uncharacterized protein n=1 Tax=Marinobacte...  34.9    0.52 
+  UniRef90_A0A1E5X6Q6 Uncharacterized protein n=2 Tax=Pseudomonad...  34.9    0.53 
+  UniRef90_A0A0A1YQN9 Ribosome modulation factor n=1 Tax=Pseudomo...  34.5    0.55 
+  UniRef90_A0A099KPN0 Ribosome modulation factor n=1 Tax=Colwelli...  34.9    0.60 
+  UniRef90_A0A2P7NTX1 Cell division protein FtsK n=1 Tax=Nitrosom...  36.0    0.62 
+  UniRef90_A0A0S9RTS2 Uncharacterized protein n=2 Tax=Methylobact...  34.5    0.65 
+  UniRef90_S9QDV2 Long-chain-fatty-acid--CoA ligase n=2 Tax=Cysto...  36.0    0.66 
+  UniRef90_A0A327UPL1 Uncharacterized protein n=1 Tax=Streptomyce...  34.1    0.69 
+  UniRef90_UPI00069B64FB hypothetical protein n=1 Tax=Mesorhizobi...  35.6    0.71 
+  UniRef90_A0A1M6P9S1 Ribosome modulation factor n=1 Tax=Marinoba...  34.5    0.71 
+  UniRef90_B4X3W2 Uncharacterized protein n=3 Tax=Alcanivorax Tax...  34.1    0.71 
+  UniRef90_A0A1W9M851 4Fe-4S ferredoxin n=1 Tax=Desulfobacteracea...  36.0    0.75 
+  UniRef90_UPI0009EEECB6 hypothetical protein n=1 Tax=Oleiphilus ...  36.0    0.75 
+  UniRef90_A0A176H705 Uncharacterized protein n=2 Tax=Oleiphilus ...  36.0    0.76 
+  UniRef90_A0A1I4MCU2 Ribosome modulation factor n=1 Tax=Marinoba...  34.5    0.77 
+  UniRef90_A0A212UG26 Ribosome modulation factor n=1 Tax=Marinoba...  34.5    0.80 
+  UniRef90_A0A1I2SKW5 Uncharacterized protein n=1 Tax=Methylobact...  34.1    0.88 
+  UniRef90_A0A2T1KQ39 Uncharacterized protein n=1 Tax=Marinobacte...  34.1    0.90 
+  UniRef90_A0A378YZH9 DNA translocase FtsK n=1 Tax=Pandoraea pnom...  35.6    1.00 
+  UniRef90_A0A1W1YGA4 Uncharacterized protein n=1 Tax=Fulvimarina...  34.1    1.0  
+  UniRef90_A0A2E9RPC1 Ribosome modulation factor n=2 Tax=Alcanivo...  33.7    1.0  
+  UniRef90_A0A2A5LTC2 Uncharacterized protein n=1 Tax=Marinobacte...  34.1    1.0  
+  UniRef90_A0A1H6NTX3 Uncharacterized protein n=1 Tax=Pseudomonas...  33.3    1.0  
+  UniRef90_A0A1I6H866 Ribosome modulation factor n=1 Tax=Marinoba...  34.1    1.0  
+  UniRef90_A0A1E4V4A8 Ribosome modulation factor n=2 Tax=Pseudomo...  34.1    1.0  
+  UniRef90_A0A3N7WRQ1 Uncharacterized protein n=1 Tax=Burkholderi...  33.7    1.1  
+  UniRef90_A0A0M7PMX2 Ribosome modulation factor n=6 Tax=Alcalige...  35.2    1.1  
+  UniRef90_A0A0Q5CYE7 Uncharacterized protein n=4 Tax=Methylobact...  33.7    1.1  
+  UniRef90_A0A196QET8 Uncharacterized protein n=14 Tax=Marinobact...  34.1    1.1  
+  UniRef90_M7CKA5 Uncharacterized protein n=1 Tax=Marinobacter sa...  33.7    1.1  
+  UniRef90_A0A1W6KE70 Ribosome modulation factor n=6 Tax=Marinoba...  33.7    1.2  
+  UniRef90_B8IG40 Uncharacterized protein n=2 Tax=Methylobacteriu...  34.1    1.2  
+  UniRef90_UPI00055455E1 hypothetical protein n=1 Tax=Agrobacteri...  34.9    1.2  
+  UniRef90_UPI00036D08D3 hypothetical protein n=1 Tax=Teredinibac...  33.7    1.3  
+  UniRef90_A0A0P8AVR8 Ribosome modulation factor n=1 Tax=Marinoba...  33.7    1.4  
+  UniRef90_UPI000C2913CC hypothetical protein n=1 Tax=Marinobacte...  33.7    1.4  
+  UniRef90_A0A165XF49 Ribosome modulation factor n=1 Tax=Pseudovi...  34.9    1.5  
+  UniRef90_UPI0006B159FF hypothetical protein n=2 Tax=Gordonia Ta...  34.9    1.6  
+  UniRef90_A0A0S9PRX9 Uncharacterized protein n=1 Tax=Methylobact...  33.3    1.7  
+  UniRef90_A0A349XSC2 Uncharacterized protein n=1 Tax=Agrobacteri...  34.1    1.7  
+  UniRef90_UPI0008157D4E cell division protein FtsK n=2 Tax=Cupri...  34.9    1.7  
+  UniRef90_A0A0Q4WTY8 Uncharacterized protein n=2 Tax=Methylobact...  33.3    1.8  
+  UniRef90_A0A0Q6BMH9 Uncharacterized protein n=2 Tax=Methylobact...  33.3    1.9  
+  UniRef90_L2E727 Uncharacterized protein n=1 Tax=Cupriavidus sp....  34.5    2.0  
+  UniRef90_K2JP99 Uncharacterized protein n=2 Tax=Oceanibaculum T...  34.5    2.1  
+  UniRef90_Q2W8Y0 TRAP-type uncharacterized transport system n=5 ...  34.5    2.2  
+  UniRef90_A0A0P9LDH8 Uncharacterized protein n=3 Tax=Pseudomonas...  32.9    2.2  
+  UniRef90_Q8GGP2 Polyketide synthase n=3 Tax=Streptomyces TaxID=...  34.5    2.2  
+  UniRef90_UPI000FD97B37 DUF2914 domain-containing protein n=1 Ta...  34.5    2.3  
+  UniRef90_A9I8S7 Uncharacterized protein n=1 Tax=Bordetella petr...  34.5    2.3  
+  UniRef90_V9VZ35 Uncharacterized protein n=2 Tax=Leisingera TaxI...  34.1    2.4  
+  UniRef90_A0A257PH72 Uncharacterized protein n=1 Tax=Rhodospiril...  32.9    2.4  
+  UniRef90_A0A285Q5Z7 Ribosome modulation factor n=1 Tax=Marinoba...  32.9    2.5  
+  UniRef90_R8AXQ8 Uncharacterized protein n=1 Tax=Marinobacter li...  32.9    2.6  
+  UniRef90_A0A175RQ17 Uncharacterized protein n=3 Tax=Aurantimona...  32.9    2.6  
+  UniRef90_UPI0007873F09 hypothetical protein n=1 Tax=Sphingopyxi...  32.9    2.7  
+  UniRef90_A0A2V3UCK8 Uncharacterized protein n=1 Tax=Methylobact...  32.5    2.7  
+  UniRef90_A0A0Q6EUJ4 Uncharacterized protein n=1 Tax=Aurantimona...  33.3    2.7  
+  UniRef90_A0A1S1GPQ9 Uncharacterized protein n=3 Tax=Pseudomonas...  32.5    3.0  
+  UniRef90_A0A2A5BG94 RND transporter n=1 Tax=Moraxellaceae bacte...  34.1    3.2  
+  UniRef90_A0A1D9GNF5 Uncharacterized protein n=1 Tax=Marinobacte...  32.5    3.3  
+  UniRef90_A0A2C9AX78 Uncharacterized protein n=1 Tax=Burkholderi...  32.2    3.4  
+  UniRef90_A0A1S2CHL1 Uncharacterized protein n=1 Tax=Marinobacte...  32.5    3.6  
+  UniRef90_A0A2T1KJG7 Uncharacterized protein n=1 Tax=Marinobacte...  32.5    3.6  
+  UniRef90_J0B8B9 Lipoprotein n=15 Tax=Alcaligenes TaxID=507 RepI...  33.7    3.8  
+  UniRef90_A0A2D4YP16 Uncharacterized protein n=1 Tax=Marinobacte...  32.5    3.9  
+  UniRef90_UPI000E66CB36 hypothetical protein n=1 Tax=Rhodospiril...  33.7    4.0  
+  UniRef90_UPI000684C321 hypothetical protein n=1 Tax=Marinobacte...  33.7    4.1  
+  UniRef90_A0A226D2Y2 Uncharacterized protein n=1 Tax=Folsomia ca...  33.7    4.1  
+  UniRef90_UPI000640BD9A H-NS histone family protein n=1 Tax=Chro...  33.7    4.1  
+  UniRef90_UPI000B843429 hypothetical protein n=1 Tax=Methylobact...  32.2    4.1  
+  UniRef90_A0A346S3K5 Uncharacterized protein n=3 Tax=Gammaproteo...  32.5    4.2  
+  UniRef90_A0A399EJU6 Uncharacterized protein n=1 Tax=Meiothermus...  33.3    4.2  
+  UniRef90_A0A3M2RBI0 Ribosome modulation factor n=1 Tax=Marinoba...  32.5    4.3  
+  UniRef90_A0A0Q4ZE71 Uncharacterized protein n=1 Tax=Methylobact...  32.2    4.3  
+  UniRef90_UPI000FD74652 hypothetical protein n=1 Tax=Saccharospi...  33.7    4.4  
+  UniRef90_S6BRX9 Ferrous iron transport protein B n=1 Tax=endosy...  33.7    4.5  
+  UniRef90_UPI0009BF2B2B hypothetical protein n=1 Tax=Metallibact...  32.2    4.5  
+  UniRef90_T0GJH8 Uncharacterized protein n=1 Tax=Sphingobium sp....  32.5    4.5  
+  UniRef90_A0A1N7RL33 Uncharacterized protein n=2 Tax=Paraburkhol...  32.9    4.5  
+  UniRef90_A0A1G3EPJ3 Ribosome modulation factor n=2 Tax=Pseudomo...  32.2    4.6  
+  UniRef90_A0A2K9MH72 Uncharacterized protein n=1 Tax=Paracoccus ...  33.7    5.0  
+  UniRef90_A0A1D9H3C2 Cell division protein FtsK n=1 Tax=Cupriavi...  33.7    5.0  
+  UniRef90_A0A2T4DD57 Uncharacterized protein (Fragment) n=1 Tax=...  32.2    5.0  
+  UniRef90_UPI00082BE823 biotin--[acetyl-CoA-carboxylase] ligase ...  33.3    5.4  
+  UniRef90_A0A1H5PCD5 Uncharacterized protein n=1 Tax=Burkholderi...  32.5    5.6  
+  UniRef90_C7CH71 Uncharacterized protein n=4 Tax=Rhizobiales Tax...  32.5    5.6  
+  UniRef90_A0A0Q5YW56 Uncharacterized protein n=2 Tax=Methylobact...  32.2    5.6  
+  UniRef90_UPI0009C0E450 hypothetical protein n=1 Tax=Epibacteriu...  33.3    5.6  
+  UniRef90_UPI0005C19EE5 hypothetical protein n=1 Tax=Methylobact...  31.8    5.9  
+  UniRef90_C9D3J2 RecT protein n=2 Tax=Rhodobacteraceae TaxID=319...  33.3    6.2  
+  UniRef90_UPI000A3A8B48 hypothetical protein n=1 Tax=Lentzea ken...  31.8    6.2  
+  UniRef90_UPI00036924FA hypothetical protein n=1 Tax=Methylobact...  31.8    6.3  
+  UniRef90_A0A177IFG2 Uncharacterized protein n=2 Tax=Methylorubr...  32.2    6.4  
+  UniRef90_A0A0Q7TVE7 Uncharacterized protein n=1 Tax=Pseudolabry...  31.8    6.7  
+  UniRef90_A0A1V5R7L3 Peptidoglycan-associated protein n=1 Tax=Ac...  33.3    6.7  
+  UniRef90_A0A395NAJ0 Uncharacterized protein n=1 Tax=Trichoderma...  33.3    7.0  
+  UniRef90_A0A385EDL1 Uncharacterized protein n=1 Tax=Caulobacter...  31.4    7.1  
+  UniRef90_A0A0S2EMU9 Uncharacterized protein n=2 Tax=Aureimonas ...  31.8    7.1  
+  UniRef90_A0A1B8VDZ2 Uncharacterized protein n=1 Tax=Pseudomonas...  32.2    7.4  
+  UniRef90_UPI000E6596C5 hypothetical protein n=1 Tax=Capsulimona...  32.9    7.6  
+  UniRef90_A0A3C1NZJ7 Mycothiol S-conjugate amidase n=1 Tax=Actin...  32.9    7.9  
+  UniRef90_A0A107NM07 Cell division protein FtsK n=10 Tax=Burkhol...  32.9    8.2  
+  UniRef90_A0A1I4QJR7 Ribosome modulation factor n=2 Tax=Marinoba...  31.8    8.2  
+  UniRef90_A0A1G5TET9 Uncharacterized protein n=1 Tax=Methylobact...  31.8    8.2  
+  UniRef90_UPI00051198A5 apoptosis facilitator Bcl-2-like protein...  32.9    8.6  
+  UniRef90_A0A2D8REW1 Uncharacterized protein n=1 Tax=Hahellaceae...  31.4    9.0  
+  UniRef90_A0A0U4BX83 Cell division protein FtsK n=31 Tax=Burkhol...  32.9    9.5  
+  UniRef90_UPI00037CE9C8 hypothetical protein n=1 Tax=Aureimonas ...  31.4    9.5  
+  UniRef90_A0A0Q4X725 Uncharacterized protein n=3 Tax=Methylobact...  31.4    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.199    0.915    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0610    0.140     1.90     42.6     43.6 
+
+Effective search space used: 745538954733
+Results from round 3
+
+
+Query= NP_415473.1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A167K048 Ribosome modulation factor n=8 Tax=Pseudoal...  98.0    8e-26
+  UniRef90_A0A089PUT4 Ribosome modulation factor n=4 Tax=Enteroba...  95.3    3e-25
+  UniRef90_C6C3V6 Ribosome modulation factor n=1 Tax=Dickeya para...  95.0    7e-25
+  UniRef90_UPI0009490B2A ribosome modulation factor n=1 Tax=Panto...  94.6    8e-25
+  UniRef90_A0A2I5TJP8 Ribosome modulation factor n=17 Tax=Enterob...  94.2    1e-24
+  UniRef90_D2BXQ9 Ribosome modulation factor n=11 Tax=Enterobacte...  94.2    1e-24
+  UniRef90_A0A3N1IY09 Ribosome modulation factor n=2 Tax=Enteroba...  93.4    2e-24
+  UniRef90_B6XC14 Ribosome modulation factor n=7 Tax=Enterobacter...  93.4    2e-24
+  UniRef90_UPI0009081A65 ribosome modulation factor n=1 Tax=Brenn...  93.0    3e-24
+  UniRef90_F5Z7V5 Ribosome modulation factor n=15 Tax=Proteobacte...  92.6    5e-24
+  UniRef90_A0A2I0FX08 Ribosome modulation factor n=1 Tax=Enteroba...  92.6    5e-24
+  UniRef90_A0A085GUR0 Ribosome modulation factor n=5 Tax=Enteroba...  92.6    5e-24
+  UniRef90_A0A1A9AVM8 Ribosome modulation factor n=2 Tax=Plesiomo...  92.6    5e-24
+  UniRef90_A0A0N1KHA3 Ribosome modulation factor n=2 Tax=Moellere...  92.6    5e-24
+  UniRef90_A0A370QMP5 Ribosome modulation factor n=1 Tax=Enteroba...  92.3    7e-24
+  UniRef90_A0A384LNU5 Ribosome modulation factor n=42 Tax=Enterob...  92.3    8e-24
+  UniRef90_E6WCC7 Ribosome modulation factor n=6 Tax=Enterobacter...  92.3    8e-24
+  UniRef90_A0A370YKF0 Ribosome modulation factor n=28 Tax=Enterob...  91.9    9e-24
+  UniRef90_A0A0H3DRU4 Ribosome modulation factor n=3 Tax=Edwardsi...  91.9    9e-24
+  UniRef90_K6YU72 Ribosome modulation factor n=1 Tax=Aliiglacieco...  91.9    1e-23
+  UniRef90_A0A290T3N8 Ribosome modulation factor n=3 Tax=Pseudoal...  91.9    1e-23
+  UniRef90_A0A2M9WBM9 Ribosome modulation factor n=8 Tax=Gammapro...  91.9    1e-23
+  UniRef90_A0A1B8SVB0 Ribosome modulation factor n=6 Tax=Providen...  91.9    1e-23
+  UniRef90_I9P4Z6 Ribosome modulation factor n=11 Tax=cellular or...  91.9    1e-23
+  UniRef90_A0A1W9EYQ9 Ribosome modulation factor n=13 Tax=Erwinia...  91.5    1e-23
+  UniRef90_D4I0C5 Ribosome modulation factor n=8 Tax=Erwiniaceae ...  91.5    1e-23
+  UniRef90_A0A0S2K181 Ribosome modulation factor n=1 Tax=Pseudoal...  91.5    1e-23
+  UniRef90_K8WEX0 Ribosome modulation factor n=8 Tax=Gammaproteob...  91.5    1e-23
+  UniRef90_G2GZP0 Ribosome modulation factor n=1 Tax=Candidatus R...  91.5    1e-23
+  UniRef90_A0A1H3Z6P9 Ribosome modulation factor n=1 Tax=Alkalimo...  91.5    2e-23
+  UniRef90_UPI000DB9C3AD ribosome modulation factor n=1 Tax=Alcan...  91.5    2e-23
+  UniRef90_A0A1N6ERN3 Ribosome modulation factor n=2 Tax=Salinivi...  92.3    2e-23
+  UniRef90_A0A099LE14 Ribosome modulation factor n=3 Tax=Thalasso...  91.1    2e-23
+  UniRef90_A0A1E7Q6G1 Ribosome modulation factor n=8 Tax=Gammapro...  91.1    2e-23
+  UniRef90_A0A0T5IB94 Ribosome modulation factor n=18 Tax=Enterob...  91.1    2e-23
+  UniRef90_UPI00039CBF04 ribosome modulation factor n=1 Tax=Salin...  91.1    2e-23
+  UniRef90_UPI0008FBF282 ribosome modulation factor n=1 Tax=Crono...  91.1    2e-23
+  UniRef90_A0A1S1NA55 Ribosome modulation factor n=2 Tax=Pseudoal...  91.1    2e-23
+  UniRef90_A0A085GJJ3 Ribosome modulation factor n=1 Tax=Ewingell...  91.1    2e-23
+  UniRef90_A0A1A9F9E7 Ribosome modulation factor n=35 Tax=Enterob...  90.7    2e-23
+  UniRef90_A0A1W6BAP5 Ribosome modulation factor n=15 Tax=Erwinia...  91.1    2e-23
+  UniRef90_A0A071LW31 Ribosome modulation factor n=3 Tax=Mangrovi...  90.7    3e-23
+  UniRef90_UPI000C292D45 ribosome modulation factor n=1 Tax=Alter...  90.7    3e-23
+  UniRef90_P0AFW3 Ribosome modulation factor n=142 Tax=Proteobact...  90.7    3e-23
+  UniRef90_UPI000D14DCB4 ribosome modulation factor n=1 Tax=Shewa...  90.7    3e-23
+  UniRef90_A0A2S9UDK5 Ribosome modulation factor n=10 Tax=Enterob...  90.3    3e-23
+  UniRef90_UPI000BE612E2 ribosome modulation factor n=1 Tax=Mangr...  90.7    5e-23
+  UniRef90_A0A2I0DZ12 Ribosome modulation factor n=2 Tax=Shewanel...  90.3    5e-23
+  UniRef90_A0A095UGN8 Ribosome modulation factor n=5 Tax=Tatumell...  89.9    5e-23
+  UniRef90_A0A136A1E9 Ribosome modulation factor n=1 Tax=Paraglac...  89.9    5e-23
+  UniRef90_Q7UD19 Ribosome modulation factor n=93 Tax=Enterobacte...  89.9    6e-23
+  UniRef90_V5Z7A3 Ribosome modulation factor n=7 Tax=Erwiniaceae ...  89.9    6e-23
+  UniRef90_UPI000416B769 ribosome modulation factor n=1 Tax=Aestu...  89.9    6e-23
+  UniRef90_Q15UB2 Ribosome modulation factor n=5 Tax=Alteromonada...  89.9    7e-23
+  UniRef90_A0A0B4XNY5 Ribosome modulation factor n=1 Tax=Alcanivo...  89.9    7e-23
+  UniRef90_A0A139SXW2 Ribosome modulation factor n=1 Tax=Ventosim...  90.3    7e-23
+  UniRef90_A0A2K9LGK0 Ribosome modulation factor n=1 Tax=Ketobact...  89.9    7e-23
+  UniRef90_A0A1G9JW83 Ribosome modulation factor n=4 Tax=Halomona...  91.1    7e-23
+  UniRef90_UPI00082A0DF1 ribosome modulation factor n=1 Tax=Alter...  89.6    8e-23
+  UniRef90_A0A2P8VQ73 Ribosome modulation factor n=7 Tax=Enteroba...  89.6    8e-23
+  UniRef90_A0A0T5XPT1 Ribosome modulation factor n=35 Tax=Bacteri...  89.6    8e-23
+  UniRef90_UPI000DD09247 ribosome modulation factor n=1 Tax=Caten...  89.6    8e-23
+  UniRef90_A0A1E2VEH2 Ribosome modulation factor n=1 Tax=Terasaki...  89.9    9e-23
+  UniRef90_UPI000D3E4B24 ribosome modulation factor n=1 Tax=Gamma...  89.6    9e-23
+  UniRef90_UPI0008FFA9DD ribosome modulation factor n=1 Tax=Enter...  89.6    9e-23
+  UniRef90_A0A0F4Q0C1 Ribosome modulation factor n=1 Tax=Pseudoal...  89.6    9e-23
+  UniRef90_A0A1E7ZDE4 Ribosome modulation factor n=6 Tax=Alteromo...  89.6    1e-22
+  UniRef90_V1DP13 Ribosome modulation factor n=7 Tax=Shewanella T...  89.9    1e-22
+  UniRef90_I2BAL2 Ribosome modulation factor n=1 Tax=Shimwellia b...  89.2    1e-22
+  UniRef90_K7A1X9 Ribosome modulation factor n=2 Tax=Paraglacieco...  89.2    1e-22
+  UniRef90_A0A3F2UZ86 Ribosome modulation factor n=1 Tax=Ketobact...  89.6    1e-22
+  UniRef90_UPI00073D40D9 ribosome modulation factor n=1 Tax=[Erwi...  89.2    1e-22
+  UniRef90_A0A3B6ZGI9 Ribosome modulation factor n=4 Tax=Klebsiel...  89.2    1e-22
+  UniRef90_A0A2E0HJS1 Ribosome modulation factor n=6 Tax=Gammapro...  89.2    1e-22
+  UniRef90_UPI0003F90819 ribosome modulation factor n=1 Tax=Ferri...  89.2    1e-22
+  UniRef90_A0A3N6W9P9 Ribosome modulation factor n=8 Tax=Erwiniac...  88.8    1e-22
+  UniRef90_A0A2E5MMV3 Ribosome modulation factor n=1 Tax=Alteromo...  89.2    1e-22
+  UniRef90_W7QKI7 Ribosome modulation factor n=1 Tax=Catenovulum ...  89.2    1e-22
+  UniRef90_A0A1M5NFY2 Ribosome modulation factor n=2 Tax=Ferrimon...  89.2    1e-22
+  UniRef90_A0A084A171 Ribosome modulation factor n=5 Tax=Enteroba...  88.8    1e-22
+  UniRef90_A0A2E3D252 Ribosome modulation factor n=1 Tax=Pseudomo...  89.2    1e-22
+  UniRef90_UPI000587B4C1 ribosome modulation factor n=1 Tax=Parag...  88.8    2e-22
+  UniRef90_A8GCL2 Ribosome modulation factor n=6 Tax=Serratia Tax...  88.8    2e-22
+  UniRef90_A0A176H4V5 Ribosome modulation factor n=1 Tax=Oleiphil...  89.2    2e-22
+  UniRef90_S5AFW1 Ribosome modulation factor n=7 Tax=Alteromonas ...  88.8    2e-22
+  UniRef90_V1H135 Ribosome modulation factor n=82 Tax=Salmonella ...  88.8    2e-22
+  UniRef90_A0A2S0VTW9 Ribosome modulation factor n=1 Tax=Catenovu...  88.8    2e-22
+  UniRef90_I0QTZ8 Ribosome modulation factor n=6 Tax=Enterobacter...  88.4    2e-22
+  UniRef90_A0A3D8M8N4 Ribosome modulation factor n=1 Tax=Alteromo...  88.4    2e-22
+  UniRef90_A0A2D8J2T9 Ribosome modulation factor n=1 Tax=Alteromo...  88.8    2e-22
+  UniRef90_A0A269PKP7 Ribosome modulation factor n=2 Tax=Pseudoal...  88.4    2e-22
+  UniRef90_A0A2E4CI77 Ribosome modulation factor n=2 Tax=Pseudoal...  88.4    2e-22
+  UniRef90_A4C9L8 Ribosome modulation factor n=2 Tax=Pseudoaltero...  88.4    2e-22
+  UniRef90_A0A0D8D145 Ribosome modulation factor n=2 Tax=Thalasso...  88.4    3e-22
+  UniRef90_A0A1T1H9Y7 Ribosome modulation factor n=2 Tax=Oceanosp...  88.8    3e-22
+  UniRef90_A0A3D0Q534 Ribosome modulation factor n=4 Tax=Alteromo...  88.4    3e-22
+  UniRef90_UPI000CF6AC37 ribosome modulation factor n=2 Tax=Pseud...  88.4    3e-22
+  UniRef90_A0A1Y5CZE7 Ribosome modulation factor n=1 Tax=Colwelli...  88.4    3e-22
+  UniRef90_A0A2K9YVB5 Ribosome modulation factor n=13 Tax=Enterob...  88.0    3e-22
+  UniRef90_UPI000A0629B9 ribosome modulation factor n=1 Tax=Glaci...  88.0    3e-22
+  UniRef90_A0A3A6UJF0 Ribosome modulation factor n=1 Tax=Shewanel...  88.0    3e-22
+  UniRef90_UPI000E0FDD72 ribosome modulation factor n=1 Tax=Shewa...  88.0    3e-22
+  UniRef90_A0A348MTP4 Ribosome modulation factor n=2 Tax=Glacieco...  88.0    3e-22
+  UniRef90_A0A2Z6U4I0 Ribosome modulation factor n=1 Tax=Glacieco...  88.0    4e-22
+  UniRef90_A0A0F4P291 Ribosome modulation factor n=5 Tax=Pseudoal...  88.0    4e-22
+  UniRef90_L8D8R2 Ribosome modulation factor n=1 Tax=Pseudoaltero...  88.0    4e-22
+  UniRef90_A0A2E4GBT0 Ribosome modulation factor n=3 Tax=cellular...  88.4    4e-22
+  UniRef90_A0A1H7JJB4 Ribosome modulation factor n=1 Tax=Colwelli...  88.0    4e-22
+  UniRef90_A0A165K8F3 Ribosome modulation factor n=14 Tax=Shewane...  88.0    4e-22
+  UniRef90_A0A346NM27 Ribosome modulation factor n=1 Tax=Salinimo...  87.6    4e-22
+  UniRef90_A0A1Z9XM12 Ribosome modulation factor n=3 Tax=Alteromo...  87.6    4e-22
+  UniRef90_A0A1I6GHQ6 Ribosome modulation factor n=2 Tax=Marinoba...  88.0    4e-22
+  UniRef90_UPI0009D9432D ribosome modulation factor n=3 Tax=Endoz...  88.4    5e-22
+  UniRef90_A0A0J8GTV3 Ribosome modulation factor n=1 Tax=Catenovu...  87.6    5e-22
+  UniRef90_A0A2A4VU46 Ribosome modulation factor n=1 Tax=Gammapro...  87.6    5e-22
+  UniRef90_A0A1D3DHR3 Ribosome modulation factor n=7 Tax=Enteroba...  87.6    5e-22
+  UniRef90_UPI000BA36BE5 ribosome modulation factor n=1 Tax=Endoz...  88.0    5e-22
+  UniRef90_A0A2D5GCJ4 Ribosome modulation factor n=3 Tax=Oceanosp...  87.6    6e-22
+  UniRef90_W1N4D1 Ribosome modulation factor n=7 Tax=Halomonas Ta...  87.6    6e-22
+  UniRef90_A0A0N0M119 Ribosome modulation factor n=1 Tax=Pseudoal...  87.2    6e-22
+  UniRef90_UPI000DAEAAE7 ribosome modulation factor n=1 Tax=Marin...  87.6    6e-22
+  UniRef90_A0A072N600 Ribosome modulation factor n=2 Tax=Marinoba...  87.6    6e-22
+  UniRef90_A0A2G6KWB1 Ribosome modulation factor n=1 Tax=Gammapro...  87.6    6e-22
+  UniRef90_Q47UR1 Ribosome modulation factor 2 n=9 Tax=Colwellia ...  87.2    6e-22
+  UniRef90_A0A081N438 Ribosome modulation factor n=1 Tax=Endozoic...  87.6    6e-22
+  UniRef90_H5UWZ9 Ribosome modulation factor n=2 Tax=Enterobacter...  87.2    6e-22
+  UniRef90_A0A2T1K358 Ribosome modulation factor n=2 Tax=Marinoba...  87.6    6e-22
+  UniRef90_UPI000D0BC9E3 ribosome modulation factor n=1 Tax=Halom...  87.6    7e-22
+  UniRef90_UPI000BA94786 ribosome modulation factor n=2 Tax=Paraf...  87.2    7e-22
+  UniRef90_B0TIX3 Ribosome modulation factor n=13 Tax=Shewanellac...  87.2    7e-22
+  UniRef90_A0YCD4 Ribosome modulation factor n=2 Tax=Spongiibacte...  87.2    7e-22
+  UniRef90_A1S605 Ribosome modulation factor n=8 Tax=Shewanellace...  87.2    7e-22
+  UniRef90_A0A2A4VKE4 Ribosome modulation factor n=1 Tax=Gammapro...  87.2    8e-22
+  UniRef90_Q3IGH0 Ribosome modulation factor n=50 Tax=root TaxID=...  86.9    8e-22
+  UniRef90_A0A090P431 Ribosome modulation factor n=4 Tax=Vibrio T...  86.9    8e-22
+  UniRef90_UPI0003137C55 ribosome modulation factor n=1 Tax=Candi...  86.9    8e-22
+  UniRef90_Q21JW8 Ribosome modulation factor n=1 Tax=Saccharophag...  87.2    9e-22
+  UniRef90_A0A1H2Z9P8 Ribosome modulation factor n=2 Tax=Marinoba...  87.2    9e-22
+  UniRef90_A0A3D3HQW6 Ribosome modulation factor n=6 Tax=Bacteria...  86.9    9e-22
+  UniRef90_A0A2T3I3W3 Ribosome modulation factor n=3 Tax=Photobac...  86.9    9e-22
+  UniRef90_A0A349LXW9 Ribosome modulation factor n=1 Tax=Rheinhei...  86.9    9e-22
+  UniRef90_A0A1B7UJ65 Ribosome modulation factor n=4 Tax=Chromati...  86.9    1e-21
+  UniRef90_UPI00048E6DAA ribosome modulation factor n=1 Tax=Phase...  86.9    1e-21
+  UniRef90_UPI0009D953EE ribosome modulation factor n=2 Tax=Pseud...  87.2    1e-21
+  UniRef90_A0A2A2F7C2 Ribosome modulation factor n=2 Tax=Halomona...  87.2    1e-21
+  UniRef90_A0A0J1GW38 Ribosome modulation factor n=6 Tax=Photobac...  86.9    1e-21
+  UniRef90_E4PJF6 Ribosome modulation factor n=60 Tax=root TaxID=...  86.9    1e-21
+  UniRef90_UPI0009E672FC ribosome modulation factor n=1 Tax=Vibri...  86.5    1e-21
+  UniRef90_A0A2A6AZS7 Ribosome modulation factor n=1 Tax=Alteromo...  86.5    1e-21
+  UniRef90_A0A3N5Y3G3 Ribosome modulation factor n=1 Tax=Alteromo...  86.5    1e-21
+  UniRef90_A0A261GKQ6 Ribosome modulation factor n=1 Tax=Hahella ...  86.9    1e-21
+  UniRef90_A0A3D3H4B2 Ribosome modulation factor n=1 Tax=Colwelli...  86.5    1e-21
+  UniRef90_A0A1M5Z5X9 Ribosome modulation factor n=2 Tax=Vibrio T...  86.5    1e-21
+  UniRef90_A0A3D0UZR9 Ribosome modulation factor n=1 Tax=Rhodobac...  86.9    1e-21
+  UniRef90_A0A1Y0IAE9 Ribosome modulation factor n=1 Tax=Oleiphil...  86.9    1e-21
+  UniRef90_H0IZV6 Ribosome modulation factor n=30 Tax=Gammaproteo...  86.9    1e-21
+  UniRef90_A0A3M1KCP6 Ribosome modulation factor n=1 Tax=Gammapro...  86.5    2e-21
+  UniRef90_A0A125BEN2 Ribosome modulation factor n=10 Tax=Shewane...  86.5    2e-21
+  UniRef90_UPI00035D3BFE ribosome modulation factor n=1 Tax=Colwe...  86.5    2e-21
+  UniRef90_A0A1H0KUM5 Ribosome modulation factor n=4 Tax=Halomona...  86.5    2e-21
+  UniRef90_N6X026 Ribosome modulation factor n=2 Tax=Marinobacter...  86.5    2e-21
+  UniRef90_UPI0009EC74CE ribosome modulation factor n=3 Tax=Alter...  86.1    2e-21
+  UniRef90_A0A1M7IFH3 Ribosome modulation factor n=2 Tax=Halomona...  86.5    2e-21
+  UniRef90_UPI000F8635DB ribosome modulation factor n=1 Tax=Idiom...  86.1    2e-21
+  UniRef90_A0A2U8I8U5 Ribosome modulation factor n=1 Tax=Candidat...  86.1    2e-21
+  UniRef90_A0A1H9HF67 Ribosome modulation factor n=2 Tax=Enteroba...  86.1    2e-21
+  UniRef90_A0A2A2J165 Ribosome modulation factor n=1 Tax=Pseudomo...  86.5    2e-21
+  UniRef90_A0A0P7WRI1 Ribosome modulation factor n=3 Tax=Idiomari...  86.1    2e-21
+  UniRef90_UPI000B3627E8 ribosome modulation factor n=1 Tax=Thaum...  86.1    2e-21
+  UniRef90_UPI00040A58CD ribosome modulation factor n=1 Tax=Halom...  86.5    2e-21
+  UniRef90_UPI000F896803 ribosome modulation factor n=1 Tax=Idiom...  86.1    2e-21
+  UniRef90_I2JJK2 Ribosome modulation factor n=2 Tax=Spongiibacte...  86.1    2e-21
+  UniRef90_L8J8M4 Ribosome modulation factor n=1 Tax=Photobacteri...  85.7    2e-21
+  UniRef90_A0A1T4LDT5 Ribosome modulation factor n=1 Tax=Oceanosp...  86.1    2e-21
+  UniRef90_A0A1I3WNI2 Ribosome modulation factor n=4 Tax=Marinoba...  86.1    2e-21
+  UniRef90_A0A142BE66 Ribosome modulation factor n=2 Tax=Endozoic...  86.1    3e-21
+  UniRef90_A0A3N0CW15 Ribosome modulation factor n=2 Tax=Zhongsha...  86.1    3e-21
+  UniRef90_UPI000C7D55C3 ribosome modulation factor n=1 Tax=Ocean...  86.1    3e-21
+  UniRef90_A0A2D6RFD5 Ribosome modulation factor n=2 Tax=Colwelli...  85.7    3e-21
+  UniRef90_UPI000F86C679 ribosome modulation factor n=1 Tax=Aliid...  85.7    3e-21
+  UniRef90_A0A2N1YJ83 Ribosome modulation factor n=1 Tax=Gammapro...  86.1    3e-21
+  UniRef90_A7N0M4 Ribosome modulation factor n=77 Tax=Vibrionales...  85.7    3e-21
+  UniRef90_C5BKZ1 Ribosome modulation factor n=1 Tax=Teredinibact...  86.1    3e-21
+  UniRef90_UPI0002E28862 ribosome modulation factor n=1 Tax=Edwar...  85.7    3e-21
+  UniRef90_A0A396TY77 Ribosome modulation factor n=1 Tax=Colwelli...  85.7    3e-21
+  UniRef90_Q1QXW0 Ribosome modulation factor n=65 Tax=root TaxID=...  86.1    3e-21
+  UniRef90_H5T9H0 Ribosome modulation factor n=1 Tax=Glaciecola p...  85.7    3e-21
+  UniRef90_UPI0009DD2029 ribosome modulation factor n=1 Tax=Shewa...  85.7    3e-21
+  UniRef90_C3NQJ0 Ribosome modulation factor n=20 Tax=Vibrio TaxI...  85.7    3e-21
+  UniRef90_A0A2G6KY53 Ribosome modulation factor n=3 Tax=Proteoba...  85.7    3e-21
+  UniRef90_A0A1G6A6X7 Ribosome modulation factor n=1 Tax=Idiomari...  85.3    3e-21
+  UniRef90_A0A1Q6CE97 Ribosome modulation factor n=1 Tax=Thalasso...  85.3    3e-21
+  UniRef90_A0A024HKX2 Ribosome modulation factor n=30 Tax=Gammapr...  86.1    3e-21
+  UniRef90_UPI000B35563A ribosome modulation factor n=1 Tax=Thaum...  85.3    3e-21
+  UniRef90_A0A1I0ARE9 Ribosome modulation factor n=1 Tax=Thalasso...  85.3    3e-21
+  UniRef90_A0A2I0CTR6 Ribosome modulation factor n=3 Tax=Pseudomo...  85.7    4e-21
+  UniRef90_K2K449 Ribosome modulation factor n=2 Tax=Gallaecimona...  85.3    4e-21
+  UniRef90_A0A2K8KPY7 Ribosome modulation factor n=3 Tax=Reinekea...  85.7    4e-21
+  UniRef90_UPI000FDF3FE9 UPI000FDF3FE9 related cluster n=1 Tax=un...  85.3    4e-21
+  UniRef90_UPI000477639B ribosome modulation factor n=1 Tax=Dasan...  85.7    4e-21
+  UniRef90_A0A0L0ESX4 Ribosome modulation factor n=5 Tax=Pseudoal...  85.3    4e-21
+  UniRef90_A0A3E0U944 Ribosome modulation factor n=2 Tax=Thalasso...  85.3    4e-21
+  UniRef90_Q2NU75 Ribosome modulation factor n=1 Tax=Sodalis glos...  86.9    4e-21
+  UniRef90_A0A2E2K842 Ribosome modulation factor n=1 Tax=Spongiib...  85.7    4e-21
+  UniRef90_A0A0S2JJU4 Ribosome modulation factor n=2 Tax=Colwelli...  85.3    4e-21
+  UniRef90_UPI000DA146E3 ribosome modulation factor n=2 Tax=Salin...  85.7    4e-21
+  UniRef90_UPI000F858329 UPI000F858329 related cluster n=1 Tax=un...  85.3    4e-21
+  UniRef90_H2FW45 Ribosome modulation factor n=10 Tax=Aeromonadac...  85.3    4e-21
+  UniRef90_B4EVD2 Ribosome modulation factor n=10 Tax=Enterobacte...  84.9    5e-21
+  UniRef90_UPI00098518EF ribosome modulation factor n=1 Tax=Colwe...  85.3    5e-21
+  UniRef90_I3IBF3 Ribosome modulation factor n=3 Tax=Cellvibrio T...  85.7    5e-21
+  UniRef90_M7CWF6 Ribosome modulation factor n=1 Tax=Marinobacter...  85.3    5e-21
+  UniRef90_A0A376UCT7 Ribosome modulation factor n=1 Tax=Escheric...  85.3    5e-21
+  UniRef90_A0A368NQV2 Ribosome modulation factor n=1 Tax=Corallin...  84.9    5e-21
+  UniRef90_A0A097QKB9 Ribosome modulation factor n=5 Tax=Vibrio T...  84.9    5e-21
+  UniRef90_UPI000EB117A4 ribosome modulation factor n=1 Tax=Pseud...  85.3    5e-21
+  UniRef90_A0A0H2MUA2 Ribosome modulation factor n=13 Tax=Vibrio ...  84.9    5e-21
+  UniRef90_A0A2S8QXE8 Ribosome modulation factor n=3 Tax=Morganel...  84.9    5e-21
+  UniRef90_M4WZB2 Ribosome modulation factor n=5 Tax=Pseudomonas ...  85.3    5e-21
+  UniRef90_K0CEJ2 Ribosome modulation factor n=5 Tax=Alcanivorax ...  85.3    5e-21
+  UniRef90_UPI0009707D20 ribosome modulation factor n=2 Tax=Vibri...  84.9    6e-21
+  UniRef90_Q12LD0 Ribosome modulation factor n=3 Tax=Shewanella T...  84.9    6e-21
+  UniRef90_A0A369WTW6 Ribosome modulation factor n=1 Tax=Motilipr...  85.3    6e-21
+  UniRef90_UPI000970FD4F ribosome modulation factor n=1 Tax=Colwe...  84.9    6e-21
+  UniRef90_UPI00046FA108 ribosome modulation factor n=1 Tax=Shewa...  84.9    6e-21
+  UniRef90_A0A0C4WHF8 Ribosome modulation factor n=7 Tax=Pseudomo...  85.3    6e-21
+  UniRef90_UPI000A16CE8F ribosome modulation factor n=1 Tax=Colwe...  84.9    7e-21
+  UniRef90_UPI000D6E8F2F ribosome modulation factor n=1 Tax=Esche...  84.9    7e-21
+  UniRef90_B3PIL7 Ribosome modulation factor n=5 Tax=Cellvibrio T...  85.3    7e-21
+  UniRef90_A0A1H7GWV4 Ribosome modulation factor n=1 Tax=Pseudomo...  84.9    7e-21
+  UniRef90_A0A2V4LXB5 Ribosome modulation factor n=3 Tax=Pseudomo...  84.9    7e-21
+  UniRef90_UPI0008DA767B ribosome modulation factor n=1 Tax=Vibri...  84.6    7e-21
+  UniRef90_A0A2E2XF44 Ribosome modulation factor n=1 Tax=Cellvibr...  84.9    7e-21
+  UniRef90_A0A1Y6ETP2 Ribosome modulation factor n=3 Tax=Idiomari...  84.6    7e-21
+  UniRef90_B6ELS2 Ribosome modulation factor n=5 Tax=Aliivibrio T...  84.6    8e-21
+  UniRef90_UPI000E20BCA1 ribosome modulation factor n=1 Tax=Galla...  84.6    8e-21
+  UniRef90_A0A377HMI2 Ribosome modulation factor n=3 Tax=Grimonti...  84.6    9e-21
+  UniRef90_F7NWG8 Ribosome modulation factor n=5 Tax=Chromatiales...  84.6    9e-21
+  UniRef90_E3BFH0 Ribosome modulation factor n=7 Tax=Vibrionaceae...  84.6    9e-21
+  UniRef90_F7YJP1 Ribosome modulation factor n=9 Tax=Vibrionaceae...  84.6    9e-21
+  UniRef90_A0A3B8TXY0 Ribosome modulation factor n=1 Tax=Pseudomo...  84.9    9e-21
+  UniRef90_A0A086D5X5 Ribosome modulation factor n=8 Tax=Gammapro...  84.6    1e-20
+  UniRef90_UPI00040CBC03 ribosome modulation factor n=1 Tax=Marin...  84.6    1e-20
+  UniRef90_UPI0009F82918 ribosome modulation factor n=2 Tax=Agari...  84.2    1e-20
+  UniRef90_A0A1G9TLH4 Ribosome modulation factor n=3 Tax=Pseudomo...  84.6    1e-20
+  UniRef90_A0A090RKI7 Ribosome modulation factor n=1 Tax=Vibrio s...  84.2    1e-20
+  UniRef90_UPI000379C506 ribosome modulation factor n=1 Tax=Gayad...  84.2    1e-20
+  UniRef90_A0A1S1NWA1 Ribosome modulation factor n=2 Tax=Kushneri...  84.6    1e-20
+  UniRef90_S7JG16 Ribosome modulation factor n=3 Tax=Vibrio TaxID...  84.2    1e-20
+  UniRef90_A0A2T5PAZ7 Ribosome modulation factor n=1 Tax=Pseudomo...  84.6    1e-20
+  UniRef90_A0A2A4W7Q2 Ribosome modulation factor n=2 Tax=Gammapro...  84.2    1e-20
+  UniRef90_F8H0S8 Ribosome modulation factor n=52 Tax=Bacteria Ta...  84.6    1e-20
+  UniRef90_A0A0D8MDD2 Ribosome modulation factor n=18 Tax=Photoba...  84.2    1e-20
+  UniRef90_A0A1X1MQS2 Ribosome modulation factor n=1 Tax=Vibrio s...  84.2    1e-20
+  UniRef90_A0A1R4B2G7 Ribosome modulation factor n=1 Tax=Vibrio p...  84.2    1e-20
+  UniRef90_A0A316FQW1 Ribosome modulation factor n=1 Tax=Pleionea...  84.2    1e-20
+  UniRef90_A0A1Y0FSM3 Ribosome modulation factor n=1 Tax=Cellvibr...  84.6    1e-20
+  UniRef90_A0A1Q9G6N8 Ribosome modulation factor n=1 Tax=Photobac...  84.2    1e-20
+  UniRef90_A0A1E5E7A3 Ribosome modulation factor n=5 Tax=Vibriona...  84.2    1e-20
+  UniRef90_A0A0K6GW29 Ribosome modulation factor n=9 Tax=Idiomari...  84.2    1e-20
+  UniRef90_F6AKB2 Ribosome modulation factor n=301 Tax=cellular o...  84.6    1e-20
+  UniRef90_A0A1H2EI27 Ribosome modulation factor n=1 Tax=Pseudomo...  84.6    1e-20
+  UniRef90_Q1Z9B3 Ribosome modulation factor n=5 Tax=Photobacteri...  84.2    1e-20
+  UniRef90_A0A090IL41 Ribosome modulation factor n=12 Tax=Vibrion...  84.2    1e-20
+  UniRef90_A0A2M8H2U8 Ribosome modulation factor n=2 Tax=Vibrio T...  84.2    1e-20
+  UniRef90_A0A1V3HA89 Ribosome modulation factor n=8 Tax=Salinivi...  83.8    1e-20
+  UniRef90_A0A0F7M435 Ribosome modulation factor n=1 Tax=Spongiib...  84.2    1e-20
+  UniRef90_UPI000F871465 ribosome modulation factor n=1 Tax=Aliid...  83.8    1e-20
+  UniRef90_A0A2A5T7C7 Ribosome modulation factor n=1 Tax=Candidat...  83.8    1e-20
+  UniRef90_A0A2U3BBQ2 Ribosome modulation factor n=1 Tax=Vibrio s...  83.8    1e-20
+  UniRef90_E1ST49 Ribosome modulation factor n=1 Tax=Ferrimonas b...  83.8    1e-20
+  UniRef90_A0A1C3EBR4 Ribosome modulation factor n=1 Tax=Enterovi...  83.8    1e-20
+  UniRef90_C7RB40 Ribosome modulation factor n=2 Tax=Kangiella Ta...  84.2    1e-20
+  UniRef90_A0A0B3BT80 Ribosome modulation factor n=1 Tax=Pseudomo...  84.2    1e-20
+  UniRef90_Q48JX9 Ribosome modulation factor n=199 Tax=Pseudomona...  84.2    2e-20
+  UniRef90_A0A3E0UC16 Ribosome modulation factor n=1 Tax=Thalasso...  83.8    2e-20
+  UniRef90_F7RWX3 Ribosome modulation factor n=3 Tax=Idiomarinace...  83.8    2e-20
+  UniRef90_A0A396TV42 Ribosome modulation factor n=1 Tax=Colwelli...  83.8    2e-20
+  UniRef90_Q47Z13 Ribosome modulation factor 1 n=14 Tax=Colwellia...  83.8    2e-20
+  UniRef90_A0A3N1NXQ1 Ribosome modulation factor n=2 Tax=Marinimi...  84.2    2e-20
+  UniRef90_UPI000A01E1AA ribosome modulation factor n=1 Tax=Aliag...  83.8    2e-20
+  UniRef90_A0A165U2F2 Ribosome modulation factor n=2 Tax=Halioglo...  83.8    2e-20
+  UniRef90_D3UWT8 Ribosome modulation factor n=27 Tax=Morganellac...  83.4    2e-20
+  UniRef90_A0A2E7IPD8 Ribosome modulation factor n=1 Tax=Spongiib...  83.8    2e-20
+  UniRef90_A0A143HMD1 Ribosome modulation factor n=1 Tax=Microbul...  84.2    2e-20
+  UniRef90_UPI000DF32769 ribosome modulation factor n=1 Tax=Colwe...  83.4    2e-20
+  UniRef90_A0A2A2I7A7 Ribosome modulation factor n=1 Tax=Tamilnad...  83.8    2e-20
+  UniRef90_UPI000F8665A8 ribosome modulation factor n=1 Tax=Aliid...  83.4    2e-20
+  UniRef90_UPI0003757429 ribosome modulation factor n=1 Tax=Algic...  83.4    2e-20
+  UniRef90_UPI00040C78BD ribosome modulation factor n=2 Tax=Sacch...  83.8    2e-20
+  UniRef90_A0A2S7UWM6 Ribosome modulation factor n=1 Tax=Psychros...  83.4    2e-20
+  UniRef90_A0A1H2FHX2 Ribosome modulation factor n=1 Tax=Pseudomo...  83.8    2e-20
+  UniRef90_A0A1E5C8Y6 Ribosome modulation factor n=6 Tax=Enterovi...  83.4    2e-20
+  UniRef90_UPI00046F84A1 ribosome modulation factor n=1 Tax=Carni...  83.8    2e-20
+  UniRef90_A0A2A2FS45 Ribosome modulation factor n=1 Tax=Pseudomo...  83.8    2e-20
+  UniRef90_A0A1M4U073 Ribosome modulation factor n=2 Tax=Microbul...  84.2    2e-20
+  UniRef90_A0A1I4SQ16 Ribosome modulation factor n=1 Tax=Pseudomo...  83.8    3e-20
+  UniRef90_UPI000DB93458 ribosome modulation factor n=1 Tax=Marin...  83.8    3e-20
+  UniRef90_A0A3P3VVJ1 Ribosome modulation factor n=1 Tax=Simiduia...  83.4    3e-20
+  UniRef90_C4LEL9 Ribosome modulation factor n=2 Tax=Tolumonas Ta...  83.0    3e-20
+  UniRef90_A0A193KFE9 Ribosome modulation factor n=5 Tax=Vibrio T...  83.0    3e-20
+  UniRef90_UPI000F86DF7F ribosome modulation factor n=1 Tax=Aliid...  83.0    3e-20
+  UniRef90_A0A1K1TKJ2 Ribosome modulation factor n=1 Tax=Marinosp...  83.4    3e-20
+  UniRef90_A0A1H6T7C8 Ribosome modulation factor n=1 Tax=Pseudosp...  83.4    3e-20
+  UniRef90_Q2SCH0 Ribosome modulation factor n=1 Tax=Hahella chej...  83.4    3e-20
+  UniRef90_UPI0004690F57 ribosome modulation factor n=1 Tax=Cobet...  83.4    3e-20
+  UniRef90_A0A1Z2SIL3 Ribosome modulation factor n=5 Tax=Vibrio T...  83.0    3e-20
+  UniRef90_Q0VQU6 Ribosome modulation factor n=12 Tax=Alcanivorac...  83.4    3e-20
+  UniRef90_A0A3P1STZ6 Ribosome modulation factor n=1 Tax=Amphrite...  83.4    4e-20
+  UniRef90_A0A2D4XR59 Ribosome modulation factor n=8 Tax=Pseudomo...  83.4    4e-20
+  UniRef90_A0A327X210 Ribosome modulation factor n=1 Tax=Aliidiom...  83.0    4e-20
+  UniRef90_A0A094IV84 Ribosome modulation factor n=5 Tax=Idiomari...  82.6    4e-20
+  UniRef90_A0A1D8RUG4 Ribosome modulation factor n=1 Tax=Colwelli...  83.0    4e-20
+  UniRef90_A0A2A5CQ82 Ribosome modulation factor n=2 Tax=Gammapro...  83.0    4e-20
+  UniRef90_A0A2S1JTW2 Ribosome modulation factor n=2 Tax=Microbul...  83.4    4e-20
+  UniRef90_A0A2A4AZU9 Ribosome modulation factor n=1 Tax=Pseudomo...  83.0    4e-20
+  UniRef90_UPI000A2F507A ribosome modulation factor n=1 Tax=Pseud...  83.0    4e-20
+  UniRef90_A0A2D7WGX4 Ribosome modulation factor n=1 Tax=Spongiib...  83.0    4e-20
+  UniRef90_A0A1Y6C7B7 Ribosome modulation factor n=1 Tax=Alteromo...  83.0    4e-20
+  UniRef90_UPI000E77A611 ribosome modulation factor n=1 Tax=Alter...  82.6    5e-20
+  UniRef90_UPI000976AADA ribosome modulation factor n=1 Tax=Motil...  83.0    5e-20
+  UniRef90_A0A2T6E5P5 Ribosome modulation factor n=2 Tax=Saccharo...  83.0    5e-20
+  UniRef90_A0A178KKY8 Ribosome modulation factor n=3 Tax=Photobac...  82.2    6e-20
+  UniRef90_A0A090IDM5 Ribosome modulation factor n=7 Tax=Moritell...  82.2    6e-20
+  UniRef90_UPI000F7E7E23 ribosome modulation factor n=1 Tax=Shewa...  82.2    6e-20
+  UniRef90_A0A0D1GT46 Ribosome modulation factor n=9 Tax=Vibrio T...  82.2    6e-20
+  UniRef90_N2IQA4 Ribosome modulation factor n=4 Tax=Pseudomonas ...  82.6    6e-20
+  UniRef90_UPI00037DFCCA ribosome modulation factor n=1 Tax=Kushn...  82.6    6e-20
+  UniRef90_A0A151L114 Ribosome modulation factor n=4 Tax=Vibrio T...  82.2    7e-20
+  UniRef90_Q5QYY1 Ribosome modulation factor n=20 Tax=Idiomarinac...  82.2    7e-20
+  UniRef90_A0A1Y5G1T1 Ribosome modulation factor n=2 Tax=Gammapro...  82.6    7e-20
+  UniRef90_K2JUA4 Ribosome modulation factor n=1 Tax=Idiomarina x...  82.2    7e-20
+  UniRef90_UPI000475672F ribosome modulation factor n=1 Tax=Gilvi...  82.6    7e-20
+  UniRef90_A0A2E7C110 Ribosome modulation factor n=4 Tax=Halieace...  82.2    8e-20
+  UniRef90_A0A2S2E2N8 Ribosome modulation factor n=1 Tax=Salinimo...  81.9    8e-20
+  UniRef90_UPI000A04F928 ribosome modulation factor n=1 Tax=Ferri...  81.9    9e-20
+  UniRef90_A0A0C5VPG6 Ribosome modulation factor n=1 Tax=Gynuella...  82.2    9e-20
+  UniRef90_UPI00059FAD1B ribosome modulation factor n=2 Tax=Gilvi...  82.2    9e-20
+  UniRef90_UPI000E3E1DA4 ribosome modulation factor n=1 Tax=Chrom...  82.2    9e-20
+  UniRef90_U7G2T2 Ribosome modulation factor n=1 Tax=Alcanivorax ...  82.2    9e-20
+  UniRef90_A0A1H9UNU0 Ribosome modulation factor n=16 Tax=root Ta...  82.2    1e-19
+  UniRef90_UPI0002E308F1 ribosome modulation factor n=1 Tax=gamma...  81.9    1e-19
+  UniRef90_D3VC10 Ribosome modulation factor n=7 Tax=Xenorhabdus ...  81.5    1e-19
+  UniRef90_UPI000414C1D5 ribosome modulation factor n=1 Tax=Zoosh...  82.2    1e-19
+  UniRef90_A0A220SLC0 Ribosome modulation factor n=1 Tax=Alcanivo...  81.9    1e-19
+  UniRef90_A0A162KF09 Ribosome modulation factor n=2 Tax=Oleiphil...  81.9    1e-19
+  UniRef90_A0A2Z2H362 Ribosome modulation factor n=5 Tax=Kushneri...  81.9    1e-19
+  UniRef90_UPI000EADF9D5 ribosome modulation factor n=1 Tax=Alter...  81.9    1e-19
+  UniRef90_A0A1C9W9F8 Ribosome modulation factor n=2 Tax=Microbul...  82.2    1e-19
+  UniRef90_A0A3L8PQW7 Ribosome modulation factor n=1 Tax=Shewanel...  81.5    1e-19
+  UniRef90_UPI000832B4FA ribosome modulation factor n=2 Tax=Neptu...  81.9    1e-19
+  UniRef90_A0A1G7YDY0 Ribosome modulation factor n=2 Tax=Vibrio x...  81.5    1e-19
+  UniRef90_A0A2E2K614 Ribosome modulation factor n=1 Tax=Spongiib...  81.5    1e-19
+  UniRef90_A0A2H9U3R5 Ribosome modulation factor n=1 Tax=Aeromona...  81.5    1e-19
+  UniRef90_A0A1E5DTC5 Ribosome modulation factor n=18 Tax=Vibrio ...  81.5    1e-19
+  UniRef90_B7VNL5 Ribosome modulation factor n=1 Tax=Vibrio tasma...  81.5    2e-19
+  UniRef90_A0A2T3N226 Ribosome modulation factor n=1 Tax=Photobac...  81.1    2e-19
+  UniRef90_A0A3C0TCL1 Ribosome modulation factor n=1 Tax=Gammapro...  81.1    2e-19
+  UniRef90_A0A1B3BB33 Ribosome modulation factor n=5 Tax=Proteoba...  81.5    2e-19
+  UniRef90_K6Y4E9 Ribosome modulation factor n=2 Tax=Glaciecola T...  81.1    2e-19
+  UniRef90_A0A3L7DXU5 Ribosome modulation factor n=1 Tax=Halioglo...  81.5    2e-19
+  UniRef90_A0A0U4VUJ2 Ribosome modulation factor n=10 Tax=Pseudom...  81.5    2e-19
+  UniRef90_UPI0009EB818B ribosome modulation factor n=1 Tax=Photo...  81.1    2e-19
+  UniRef90_UPI000E2E637E ribosome modulation factor n=1 Tax=Parah...  81.1    2e-19
+  UniRef90_A0A1H4A8E0 Ribosome modulation factor n=2 Tax=Marinoba...  81.1    3e-19
+  UniRef90_A0A3D4UDY7 Ribosome modulation factor n=1 Tax=Moraxell...  81.1    3e-19
+  UniRef90_UPI00041F6F8C ribosome modulation factor n=2 Tax=Marin...  81.1    3e-19
+  UniRef90_A0A2E4YJG4 Ribosome modulation factor n=3 Tax=Alcanivo...  81.1    3e-19
+  UniRef90_UPI000948D3F2 ribosome modulation factor n=1 Tax=Neptu...  81.1    3e-19
+  UniRef90_A0A2N5WY65 Ribosome modulation factor n=3 Tax=Halieace...  81.1    3e-19
+  UniRef90_A0A095VS00 Ribosome modulation factor n=2 Tax=Halieace...  80.7    3e-19
+  UniRef90_UPI000B3443C8 ribosome modulation factor n=1 Tax=Agari...  80.7    3e-19
+  UniRef90_A0A1H9HWB8 Ribosome modulation factor n=1 Tax=Amphrite...  80.7    3e-19
+  UniRef90_A0A2E8J3Q7 Ribosome modulation factor n=2 Tax=Gammapro...  80.7    3e-19
+  UniRef90_R1H727 Ribosome modulation factor n=4 Tax=Aeromonadace...  80.3    3e-19
+  UniRef90_F4DAE8 Ribosome modulation factor n=45 Tax=Gammaproteo...  80.3    3e-19
+  UniRef90_Q2BHA9 Ribosome modulation factor n=3 Tax=Oceanospiril...  80.7    4e-19
+  UniRef90_A0A1N6Q6E2 Ribosome modulation factor n=1 Tax=Marinoba...  80.7    4e-19
+  UniRef90_A0A1H1UIQ0 Ribosome modulation factor n=3 Tax=Pseudomo...  80.7    4e-19
+  UniRef90_UPI0009448C20 ribosome modulation factor n=1 Tax=Marin...  80.7    4e-19
+  UniRef90_UPI0009489ECF ribosome modulation factor n=1 Tax=Alter...  80.3    4e-19
+  UniRef90_UPI000E65EC9D ribosome modulation factor n=1 Tax=Ocean...  80.7    4e-19
+  UniRef90_UPI000F7E0222 ribosome modulation factor n=1 Tax=Amphr...  80.3    5e-19
+  UniRef90_UPI0009FE0553 ribosome modulation factor n=1 Tax=Amphr...  80.3    5e-19
+  UniRef90_A0A1Y5FJB1 Uncharacterized protein n=1 Tax=Gammaproteo...  80.3    5e-19
+  UniRef90_UPI0006B565DA ribosome modulation factor n=1 Tax=Marin...  80.3    5e-19
+  UniRef90_A0A2E2W2M2 Ribosome modulation factor n=3 Tax=Porticoc...  80.3    5e-19
+  UniRef90_A0A2N4UTG8 Ribosome modulation factor n=1 Tax=Photobac...  79.9    6e-19
+  UniRef90_A0A2N5Y2L5 Ribosome modulation factor n=1 Tax=Chromato...  80.3    6e-19
+  UniRef90_UPI000A045983 ribosome modulation factor n=1 Tax=Marin...  80.3    6e-19
+  UniRef90_A0A2D5FB75 Ribosome modulation factor n=1 Tax=Haliea s...  80.3    6e-19
+  UniRef90_A0A2D4WJ90 Ribosome modulation factor n=6 Tax=Gammapro...  79.9    6e-19
+  UniRef90_A0A2N8Z9K6 Ribosome modulation factor n=1 Tax=Vibrio t...  79.9    6e-19
+  UniRef90_UPI000DD05F91 ribosome modulation factor n=1 Tax=Cellv...  80.3    6e-19
+  UniRef90_A0A2H9T500 Ribosome modulation factor n=1 Tax=inverteb...  79.9    7e-19
+  UniRef90_A0A1H5U8Y3 Ribosome modulation factor n=2 Tax=Oceanosp...  79.9    7e-19
+  UniRef90_UPI0009FE383D ribosome modulation factor n=1 Tax=Ferri...  79.5    7e-19
+  UniRef90_A0A2D8RA31 Ribosome modulation factor n=1 Tax=Hahellac...  79.9    8e-19
+  UniRef90_UPI000B3C477B ribosome modulation factor n=1 Tax=Neiel...  79.5    8e-19
+  UniRef90_UPI0009E95FA4 ribosome modulation factor n=2 Tax=Ocean...  79.5    9e-19
+  UniRef90_UPI0009DF9065 ribosome modulation factor n=1 Tax=Halot...  79.5    1e-18
+  UniRef90_UPI0003F815DD ribosome modulation factor n=1 Tax=Neptu...  79.5    1e-18
+  UniRef90_A0A2E0YYE7 Ribosome modulation factor n=1 Tax=Halioglo...  79.5    1e-18
+  UniRef90_A0A2E5T3X9 Ribosome modulation factor n=2 Tax=Alcanivo...  79.5    1e-18
+  UniRef90_A0A2N0WNC2 Ribosome modulation factor n=1 Tax=Alteromo...  79.2    1e-18
+  UniRef90_A0A2E0VG37 Ribosome modulation factor n=1 Tax=Porticoc...  79.5    1e-18
+  UniRef90_A0A1A8TBI9 Ribosome modulation factor n=1 Tax=Marinomo...  79.5    1e-18
+  UniRef90_A0A1I3HZ73 Ribosome modulation factor n=1 Tax=Xenorhab...  78.8    1e-18
+  UniRef90_A0A066RLD7 Ribosome modulation factor n=2 Tax=Vibriona...  79.2    1e-18
+  UniRef90_A0A377NF24 Ribosome modulation factor n=1 Tax=Ewingell...  80.3    1e-18
+  UniRef90_A0A3N2DZ11 Ribosome modulation factor n=1 Tax=Sinobact...  79.2    2e-18
+  UniRef90_A0A1X7AM62 Ribosome modulation factor n=1 Tax=Parendoz...  79.2    2e-18
+  UniRef90_S6HKK2 Ribosome modulation factor n=1 Tax=Osedax symbi...  78.8    2e-18
+  UniRef90_B8KXX2 Ribosome modulation factor n=1 Tax=Luminiphilus...  78.8    2e-18
+  UniRef90_A4A7X7 Ribosome modulation factor n=2 Tax=Gammaproteob...  78.8    2e-18
+  UniRef90_A0A1Y5HP14 Ribosome modulation factor n=2 Tax=Bacteria...  78.8    2e-18
+  UniRef90_UPI000C83EDF1 ribosome modulation factor n=1 Tax=Vibri...  78.4    2e-18
+  UniRef90_A0A318CH12 Ribosome modulation factor n=2 Tax=Proteoba...  78.4    3e-18
+  UniRef90_A0A0F2NSN9 Ribosome modulation factor n=1 Tax=Gammapro...  78.4    3e-18
+  UniRef90_A0A1G9A8F3 Ribosome modulation factor n=1 Tax=Microbul...  78.8    3e-18
+  UniRef90_A0A370U5U7 Ribosome modulation factor n=1 Tax=Marinomo...  78.4    3e-18
+  UniRef90_A0A1N7KFL0 Ribosome modulation factor n=2 Tax=Neptunom...  78.4    3e-18
+  UniRef90_UPI000FD6E009 ribosome modulation factor n=1 Tax=Neptu...  78.0    3e-18
+  UniRef90_UPI000BB54E5B ribosome modulation factor n=1 Tax=Agari...  78.0    4e-18
+  UniRef90_A0A2A5HBT3 Ribosome modulation factor n=1 Tax=Alteromo...  78.0    4e-18
+  UniRef90_UPI0009E400D7 ribosome modulation factor n=1 Tax=Cellv...  78.0    4e-18
+  UniRef90_A0A0F4R625 Ribosome modulation factor n=1 Tax=Marinomo...  78.0    5e-18
+  UniRef90_Q1N649 Ribosome modulation factor n=1 Tax=Bermanella m...  77.6    5e-18
+  UniRef90_A0A2A5GJC9 Ribosome modulation factor n=1 Tax=Porticoc...  77.2    7e-18
+  UniRef90_A0A2D5FJG4 Ribosome modulation factor n=1 Tax=Halieace...  76.8    1e-17
+  UniRef90_A0A3M0A9D5 Ribosome modulation factor n=1 Tax=Umboniib...  76.5    1e-17
+  UniRef90_R9S5J9 Ribosome modulation factor n=1 Tax=Simiduia aga...  76.5    2e-17
+  UniRef90_A0A3E0DSM6 Ribosome modulation factor n=1 Tax=Marinomo...  76.5    2e-17
+  UniRef90_W9V897 Ribosome modulation factor n=2 Tax=Nitrincola T...  76.5    2e-17
+  UniRef90_A0A099PAD4 Ribosome modulation factor n=2 Tax=Nitrinco...  76.1    2e-17
+  UniRef90_A0A2E2MUB0 Ribosome modulation factor n=1 Tax=Porticoc...  76.5    2e-17
+  UniRef90_A0A1I1DWC1 Ribosome modulation factor n=2 Tax=Marinosp...  76.1    2e-17
+  UniRef90_A0Z5Y7 Ribosome modulation factor n=1 Tax=marine gamma...  76.1    2e-17
+  UniRef90_A0A1E3GAL6 Ribosome modulation factor n=1 Tax=Pisciric...  75.7    3e-17
+  UniRef90_F2JWN1 Ribosome modulation factor n=1 Tax=Marinomonas ...  75.7    3e-17
+  UniRef90_A0A220VEM9 Ribosome modulation factor n=1 Tax=Paraphot...  75.3    3e-17
+  UniRef90_A0A1J5N1L1 Ribosome modulation factor n=1 Tax=Gammapro...  75.7    3e-17
+  UniRef90_A0A1Q2M5G2 Ribosome modulation factor n=2 Tax=Microbul...  75.7    3e-17
+  UniRef90_A0A2D4S370 Ribosome modulation factor n=1 Tax=Bermanel...  75.3    4e-17
+  UniRef90_F3KZ23 Ribosome modulation factor n=1 Tax=gamma proteo...  75.3    5e-17
+  UniRef90_A0A2A4UMA3 Ribosome modulation factor n=1 Tax=Moraxell...  75.3    5e-17
+  UniRef90_A0A1A8TEE4 Ribosome modulation factor n=5 Tax=Marinomo...  74.9    8e-17
+  UniRef90_UPI0009E0519B ribosome modulation factor n=1 Tax=Micro...  74.5    9e-17
+  UniRef90_A0A2A5AKW7 Ribosome modulation factor n=1 Tax=Gammapro...  74.5    9e-17
+  UniRef90_A0A2H0DB05 Ribosome modulation factor n=1 Tax=Gammapro...  74.2    1e-16
+  UniRef90_UPI0009909D21 ribosome modulation factor n=3 Tax=Micro...  74.5    1e-16
+  UniRef90_A0A2A5CR07 Ribosome modulation factor n=1 Tax=Gammapro...  73.8    2e-16
+  UniRef90_A0A0Q9YN00 Ribosome modulation factor n=1 Tax=Candidat...  73.8    2e-16
+  UniRef90_A0A0R2UGK0 Uncharacterized protein n=1 Tax=SAR92 bacte...  73.4    3e-16
+  UniRef90_A0A1Y5DBN6 Ribosome modulation factor n=1 Tax=Bermanel...  73.4    3e-16
+  UniRef90_A0A0K2L793 Ribosome modulation factor n=4 Tax=Pisciric...  73.0    3e-16
+  UniRef90_UPI000B3ED0E3 hypothetical protein n=1 Tax=Marinomonas...  73.0    3e-16
+  UniRef90_A0A2E0CPU0 Ribosome modulation factor n=4 Tax=Cellvibr...  72.6    5e-16
+  UniRef90_A0A2D6ZEG2 Ribosome modulation factor n=2 Tax=Cellvibr...  72.6    6e-16
+  UniRef90_A0A2D4T574 Ribosome modulation factor n=1 Tax=Halieace...  72.2    7e-16
+  UniRef90_A0A0Q9YFM6 Ribosome modulation factor n=1 Tax=Candidat...  71.8    9e-16
+  UniRef90_UPI000D0B16B5 ribosome modulation factor n=1 Tax=Esche...  71.8    1e-15
+  UniRef90_UPI000FE1C166 ribosome modulation factor n=1 Tax=Serra...  71.5    1e-15
+  UniRef90_UPI0009D65A71 ribosome modulation factor n=1 Tax=Balne...  71.5    2e-15
+  UniRef90_A0A2A5VZ27 Ribosome modulation factor n=2 Tax=unclassi...  71.5    2e-15
+  UniRef90_A0A356CJY2 Ribosome modulation factor n=1 Tax=Porticoc...  71.5    2e-15
+  UniRef90_A0A2V1GUP8 Ribosome modulation factor n=1 Tax=Flavobac...  70.7    2e-15
+  UniRef90_A0A352Q2U1 Ribosome modulation factor (Fragment) n=1 T...  70.7    3e-15
+  UniRef90_W2UDX7 Ribosome modulation factor n=1 Tax=Gammaproteob...  70.7    3e-15
+  UniRef90_A0A351NY35 Ribosome modulation factor n=1 Tax=Porticoc...  70.7    4e-15
+  UniRef90_A0A3M2EA95 Ribosome modulation factor n=1 Tax=Gammapro...  69.9    4e-15
+  UniRef90_A0A3D3T7I3 Ribosome modulation factor n=1 Tax=Porticoc...  70.3    5e-15
+  UniRef90_A0A2E6GAS3 Ribosome modulation factor n=1 Tax=Porticoc...  70.3    5e-15
+  UniRef90_A0A2V5EVE1 Ribosome modulation factor n=2 Tax=Pseudomo...  70.3    5e-15
+  UniRef90_W8GA92 Ribosome modulation factor n=5 Tax=root TaxID=1...  69.9    5e-15
+  UniRef90_A0A2G2D2U6 Ribosome modulation factor n=1 Tax=Sphingop...  69.9    5e-15
+  UniRef90_UPI00042005A0 ribosome modulation factor n=1 Tax=Ocean...  69.5    8e-15
+  UniRef90_A0A2E1ST90 Ribosome modulation factor n=1 Tax=Porticoc...  69.5    1e-14
+  UniRef90_A0A2E0A0M0 Ribosome modulation factor n=1 Tax=Oceanosp...  69.1    1e-14
+  UniRef90_A0A2D5U887 Ribosome modulation factor n=1 Tax=Porticoc...  69.1    1e-14
+  UniRef90_A0A176HUG6 Ribosome modulation factor n=4 Tax=Oceanosp...  68.8    2e-14
+  UniRef90_A0A1Z9WR53 Ribosome modulation factor n=4 Tax=Gammapro...  68.8    2e-14
+  UniRef90_A0A2E1IAT6 Ribosome modulation factor n=1 Tax=Gammapro...  68.4    2e-14
+  UniRef90_UPI000E00C8D3 ribosome modulation factor n=1 Tax=Esche...  68.0    3e-14
+  UniRef90_A0A2E1VGK5 Ribosome modulation factor n=2 Tax=Gammapro...  68.0    3e-14
+  UniRef90_R4YTF8 Ribosome modulation factor n=3 Tax=Oceanospiril...  68.0    4e-14
+  UniRef90_A0A222FLH9 Ribosome modulation factor n=1 Tax=Bacterio...  68.0    4e-14
+  UniRef90_A0A2E7E6U5 Ribosome modulation factor n=1 Tax=Oceanosp...  68.0    4e-14
+  UniRef90_A0A166FRZ7 Ribosome modulation factor n=4 Tax=Oceanosp...  67.6    4e-14
+  UniRef90_UPI0008FFA9C0 ribosome modulation factor n=1 Tax=Serra...  67.6    4e-14
+  UniRef90_Q1YPL6 Uncharacterized protein n=1 Tax=gamma proteobac...  67.6    6e-14
+  UniRef90_A0A2E9P5L0 Ribosome modulation factor n=6 Tax=Gammapro...  67.2    7e-14
+  UniRef90_A0A2H0I3N4 Ribosome modulation factor n=2 Tax=Proteoba...  67.2    7e-14
+  UniRef90_A0A1Q3SGX6 Uncharacterized protein n=1 Tax=Gammaproteo...  66.8    1e-13
+  UniRef90_A0A2E6LXM2 Ribosome modulation factor n=1 Tax=Gammapro...  66.4    1e-13
+  UniRef90_A0A2R3INQ9 Ribosome modulation factor family protein n...  63.0    2e-12
+  UniRef90_A0A085DTW3 Ribosome modulation factor n=1 Tax=Halomona...  63.4    3e-12
+  UniRef90_UPI0009DB0FDA ribosome modulation factor n=1 Tax=Pseud...  62.6    4e-12
+  UniRef90_A0A2X0VZB1 Ribosome modulation factor n=1 Tax=Aeromona...  62.2    5e-12
+  UniRef90_A0A291BBQ8 Ribosome modulation factor n=1 Tax=Candidat...  61.1    9e-12
+  UniRef90_A0A2E2TX99 Ribosome modulation factor n=1 Tax=Legionel...  61.1    2e-11
+  UniRef90_A0A1Y5D5X6 Ribosome modulation factor n=2 Tax=Bermanel...  60.3    4e-11
+  UniRef90_UPI0009EE6C8E hypothetical protein n=1 Tax=Oleiphilus ...  59.5    6e-11
+  UniRef90_A0A2A5CAS1 Ribosome modulation factor n=1 Tax=Moraxell...  59.9    6e-11
+  UniRef90_A0A259P1I1 Uncharacterized protein n=1 Tax=Alishewanel...  59.1    7e-11
+  UniRef90_A0A1Y5GZN2 Ribosome modulation factor n=2 Tax=unclassi...  59.1    1e-10
+  UniRef90_L0WEX5 Ribosome modulation factor n=2 Tax=Alcanivorax ...  58.0    2e-10
+  UniRef90_A0A3P2C6E2 Uncharacterized protein n=1 Tax=Klebsiella ...  57.2    3e-10
+  UniRef90_A0A3F2V5P7 Ribosome modulation factor n=1 Tax=Ketobact...  56.4    1e-09
+  UniRef90_E1VQS7 Ribosome modulation factor-related protein n=1 ...  54.9    5e-09
+  UniRef90_A0A0B4XJV2 Uncharacterized protein n=1 Tax=Alcanivorax...  54.9    5e-09
+  UniRef90_A0A176H213 Uncharacterized protein n=1 Tax=Oleiphilus ...  54.5    8e-09
+  UniRef90_A0A1Y5I2J9 Uncharacterized protein n=1 Tax=Oleispira a...  58.4    9e-09
+  UniRef90_R4YJT6 AcrB/AcrD/AcrF family cation efflux protein n=1...  58.0    1e-08
+  UniRef90_A0A3M3AD23 Ribosome modulation factor n=4 Tax=Pseudomo...  54.1    1e-08
+  UniRef90_A4BKG7 Uncharacterized protein n=1 Tax=Reinekea blande...  54.1    1e-08
+  UniRef90_A0A2D4S3Y5 Ribosome modulation factor n=1 Tax=Bermanel...  53.7    1e-08
+  UniRef90_UPI000DB94258 ribosome modulation factor n=1 Tax=Alcan...  54.1    1e-08
+  UniRef90_Q1MYZ8 Uncharacterized protein n=1 Tax=Bermanella mari...  53.4    2e-08
+  UniRef90_A0A2E0HER6 Ribosome modulation factor n=1 Tax=Pseudomo...  53.4    3e-08
+  UniRef90_A0A3L8C2C3 Ribosome modulation factor n=4 Tax=Gammapro...  53.0    3e-08
+  UniRef90_A0A1Y6CVH0 Ribosome modulation factor n=1 Tax=Methylom...  53.0    5e-08
+  UniRef90_A0A2A4V2H0 RND transporter n=1 Tax=Moraxellaceae bacte...  56.0    5e-08
+  UniRef90_A0A3B9ACC9 Ribosome modulation factor (Fragment) n=1 T...  48.7    9e-07
+  UniRef90_A0A2E9XKB5 Uncharacterized protein n=1 Tax=Porticoccac...  45.6    1e-05
+  UniRef90_A3YDN5 Dihydroorotate dehydrogenase n=3 Tax=Marinomona...  44.1    6e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A2K9LJM1 Ribosome modulation factor n=1 Tax=Ketobact...  51.8    1e-07
+  UniRef90_A0A349SP42 Ribosome modulation factor n=4 Tax=Gammapro...  51.4    1e-07
+  UniRef90_A0A385Z7G8 Uncharacterized protein n=1 Tax=Pseudomonas...  49.5    8e-07
+  UniRef90_A0A0D6SU38 Uncharacterized protein n=5 Tax=Pseudomonas...  49.1    1e-06
+  UniRef90_A0A2A2DX14 Uncharacterized protein n=2 Tax=Pseudomonas...  49.1    1e-06
+  UniRef90_UPI000D3791AB hypothetical protein n=1 Tax=Saccharospi...  49.1    1e-06
+  UniRef90_UPI000BE5302F hypothetical protein n=1 Tax=Mangrovital...  48.7    1e-06
+  UniRef90_A0A261GU94 Uncharacterized protein n=2 Tax=Hahella Tax...  48.3    2e-06
+  UniRef90_A0A2V4T7L3 Ribosome modulation factor n=5 Tax=Pseudomo...  48.3    2e-06
+  UniRef90_A0A1Y0I1D3 Ribosome modulation factor-related protein ...  48.3    2e-06
+  UniRef90_A0A3M1KAG0 Uncharacterized protein n=1 Tax=Gammaproteo...  48.0    3e-06
+  UniRef90_A0A2D8IZ80 Uncharacterized protein n=1 Tax=Alteromonad...  47.2    6e-06
+  UniRef90_A0A2T6E827 Ribosome modulation factor n=1 Tax=Saccharo...  47.2    7e-06
+  UniRef90_U3HEJ3 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  47.2    7e-06
+  UniRef90_UPI000E744866 hypothetical protein n=1 Tax=Pseudomonas...  46.8    1e-05
+  UniRef90_A0A1H2HMV7 Ribosome modulation factor n=1 Tax=Pseudomo...  46.4    2e-05
+  UniRef90_UPI00083A4AD6 hypothetical protein n=1 Tax=Pseudomonas...  46.0    2e-05
+  UniRef90_A0A2A5AC36 RND transporter n=1 Tax=Gammaproteobacteria...  48.7    2e-05
+  UniRef90_Q2S8F8 Uncharacterized protein n=1 Tax=Hahella chejuen...  46.0    2e-05
+  UniRef90_A0A2N1YN46 Ribosome modulation factor n=1 Tax=Gammapro...  45.6    2e-05
+  UniRef90_UPI000FC3DD76 hypothetical protein n=1 Tax=unknown Tax...  46.0    2e-05
+  UniRef90_A0A220SRV9 Ribosome modulation factor n=1 Tax=Alcanivo...  45.6    2e-05
+  UniRef90_UPI0006878654 ribosome modulation factor n=2 Tax=Sacch...  45.6    3e-05
+  UniRef90_A0A3N2QGK4 Uncharacterized protein n=1 Tax=Marinobacte...  45.6    3e-05
+  UniRef90_N6W3P4 Uncharacterized protein n=1 Tax=Marinobacter na...  45.6    3e-05
+  UniRef90_L0WCR0 Ribosome modulation factor-related protein n=1 ...  45.6    3e-05
+  UniRef90_UPI0004230D19 hypothetical protein n=1 Tax=Marinobacte...  45.6    3e-05
+  UniRef90_A0A2G1UJG6 Uncharacterized protein n=1 Tax=Marinobacte...  45.3    3e-05
+  UniRef90_A0A137S2V6 Uncharacterized protein n=5 Tax=Marinobacte...  45.3    4e-05
+  UniRef90_A0A1H2XR84 Ribosome modulation factor n=1 Tax=Marinoba...  45.3    4e-05
+  UniRef90_A0A1G7Z8R9 Ribosome modulation factor n=1 Tax=Pseudomo...  44.5    6e-05
+  UniRef90_A0A1M6P9S1 Ribosome modulation factor n=1 Tax=Marinoba...  44.9    6e-05
+  UniRef90_A0A136GQ97 Ribosome modulation factor n=2 Tax=Alcanivo...  44.1    8e-05
+  UniRef90_A0A2A2FBX9 Uncharacterized protein n=1 Tax=Halovibrio ...  44.9    8e-05
+  UniRef90_A0A2E5MKS8 Uncharacterized protein n=1 Tax=Alteromonad...  44.1    9e-05
+  UniRef90_A0A1I3PJ66 Ribosome modulation factor n=5 Tax=Pseudomo...  44.9    9e-05
+  UniRef90_A0A2T5PBB2 Uncharacterized protein n=1 Tax=Pseudomonas...  44.1    1e-04
+  UniRef90_A0A366WP44 Uncharacterized protein n=1 Tax=Marinobacte...  44.1    1e-04
+  UniRef90_A0A0T6W7Z5 Uncharacterized protein n=3 Tax=Marinobacte...  44.1    1e-04
+  UniRef90_U2ZIT3 Uncharacterized protein n=4 Tax=Pseudomonas Tax...  44.1    1e-04
+  UniRef90_A0A239JET9 Ribosome modulation factor n=1 Tax=Pseudomo...  44.1    1e-04
+  UniRef90_A0A259LQC8 Uncharacterized protein n=1 Tax=Marinobacte...  44.1    1e-04
+  UniRef90_A0A0P7YAP6 Ribosome modulation factor n=1 Tax=Marinoba...  44.1    1e-04
+  UniRef90_A0A2V4LFP3 Uncharacterized protein n=1 Tax=Pseudomonas...  43.7    1e-04
+  UniRef90_A0A257D354 Uncharacterized protein n=1 Tax=Pseudomonas...  43.7    2e-04
+  UniRef90_A0A2A2HYY3 Ribosome modulation factor n=1 Tax=Tamilnad...  43.7    2e-04
+  UniRef90_A0A2G6D1S7 Uncharacterized protein n=1 Tax=Proteobacte...  43.7    2e-04
+  UniRef90_UPI000900360B hypothetical protein n=2 Tax=Pseudomonas...  43.7    2e-04
+  UniRef90_A4XP62 Uncharacterized protein n=34 Tax=Gammaproteobac...  43.7    2e-04
+  UniRef90_A0A1V2DX01 Uncharacterized protein n=3 Tax=cellular or...  43.7    2e-04
+  UniRef90_A0A1Z7YQS5 Uncharacterized protein n=1 Tax=Gammaproteo...  46.0    2e-04
+  UniRef90_A0A0D0KAF0 Uncharacterized protein n=1 Tax=Pseudomonas...  43.7    2e-04
+  UniRef90_A0A1Y5H212 Uncharacterized protein n=1 Tax=Gammaproteo...  45.6    2e-04
+  UniRef90_UPI000DAEE144 hypothetical protein n=1 Tax=Marinobacte...  43.3    2e-04
+  UniRef90_A0A1Q9XLX0 Uncharacterized protein n=1 Tax=Pseudomonas...  43.3    2e-04
+  UniRef90_A0A1G8EGW6 Ribosome modulation factor n=1 Tax=Pseudomo...  43.3    3e-04
+  UniRef90_A0A2A5LTC2 Uncharacterized protein n=1 Tax=Marinobacte...  43.3    3e-04
+  UniRef90_U7NSY8 Uncharacterized protein n=9 Tax=Marinobacter Ta...  42.9    3e-04
+  UniRef90_A0A1W6KE70 Ribosome modulation factor n=6 Tax=Marinoba...  42.9    3e-04
+  UniRef90_A0A2A4XSM2 Uncharacterized protein n=1 Tax=Oceanospiri...  42.9    4e-04
+  UniRef90_A0A2N2SV59 Uncharacterized protein n=1 Tax=Betaproteob...  44.9    4e-04
+  UniRef90_A0A2T1KQ39 Uncharacterized protein n=1 Tax=Marinobacte...  42.6    5e-04
+  UniRef90_A0A196QET8 Uncharacterized protein n=14 Tax=Marinobact...  42.6    5e-04
+  UniRef90_A0A1I6H866 Ribosome modulation factor n=1 Tax=Marinoba...  42.6    5e-04
+  UniRef90_A0A166FA81 Uncharacterized protein n=1 Tax=Oleiphilus ...  42.2    5e-04
+  UniRef90_A0A2E9RPC1 Ribosome modulation factor n=2 Tax=Alcanivo...  42.2    6e-04
+  UniRef90_UPI0007C242CB hypothetical protein n=1 Tax=Oleiphilus ...  43.3    6e-04
+  UniRef90_B4X3W2 Uncharacterized protein n=3 Tax=Alcanivorax Tax...  42.2    6e-04
+  UniRef90_A0A0P8AVR8 Ribosome modulation factor n=1 Tax=Marinoba...  42.2    6e-04
+  UniRef90_A0A1M7L3F0 Ribosome modulation factor n=2 Tax=Pseudomo...  42.2    7e-04
+  UniRef90_M7CKA5 Uncharacterized protein n=1 Tax=Marinobacter sa...  42.2    7e-04
+  UniRef90_A0A162JNJ9 Uncharacterized protein n=1 Tax=Oleiphilus ...  41.8    0.001
+  UniRef90_R8AXQ8 Uncharacterized protein n=1 Tax=Marinobacter li...  41.4    0.001
+  UniRef90_A0A1D9GNF5 Uncharacterized protein n=1 Tax=Marinobacte...  41.4    0.001
+  UniRef90_A0A0A1YQN9 Ribosome modulation factor n=1 Tax=Pseudomo...  41.4    0.001
+  UniRef90_UPI000C2913CC hypothetical protein n=1 Tax=Marinobacte...  41.4    0.001
+  UniRef90_A0A1S2CHL1 Uncharacterized protein n=1 Tax=Marinobacte...  41.4    0.001
+  UniRef90_A0A346S3K5 Uncharacterized protein n=3 Tax=Gammaproteo...  41.4    0.001
+  UniRef90_A0A3M2RBI0 Ribosome modulation factor n=1 Tax=Marinoba...  41.4    0.001
+  UniRef90_A0A285Q5Z7 Ribosome modulation factor n=1 Tax=Marinoba...  41.4    0.001
+  UniRef90_A0A1G3EPJ3 Ribosome modulation factor n=2 Tax=Pseudomo...  41.0    0.002
+  UniRef90_M5DV45 RND superfamily transporter n=4 Tax=root TaxID=...  43.3    0.002
+  UniRef90_A0A212UG26 Ribosome modulation factor n=1 Tax=Marinoba...  41.0    0.002
+  UniRef90_UPI0009EEECB6 hypothetical protein n=1 Tax=Oleiphilus ...  43.3    0.002
+  UniRef90_A0A176H705 Uncharacterized protein n=2 Tax=Oleiphilus ...  43.3    0.002
+  UniRef90_A0A1G7LMB1 Ribosome modulation factor n=1 Tax=Pseudomo...  41.4    0.002
+  UniRef90_G8QM80 Ribosome modulation factor n=1 Tax=Azospira ory...  42.9    0.002
+  UniRef90_A0A2A5BG94 RND transporter n=1 Tax=Moraxellaceae bacte...  42.9    0.002
+  UniRef90_A0A1I4MCU2 Ribosome modulation factor n=1 Tax=Marinoba...  40.6    0.002
+  UniRef90_F6AJ41 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  40.6    0.003
+  UniRef90_A0A2D4YP16 Uncharacterized protein n=1 Tax=Marinobacte...  40.6    0.003
+  UniRef90_A0A1B8S348 Uncharacterized protein n=2 Tax=Leisingera ...  42.2    0.003
+  UniRef90_A0A1Y0KMQ9 Ribosome modulation factor n=1 Tax=Pseudomo...  40.3    0.003
+  UniRef90_A0A1E4V4A8 Ribosome modulation factor n=2 Tax=Pseudomo...  40.3    0.004
+  UniRef90_A0A1I4QJR7 Ribosome modulation factor n=2 Tax=Marinoba...  39.9    0.006
+  UniRef90_A0A0B4DZG7 Uncharacterized protein n=3 Tax=Leisingera ...  41.4    0.006
+  UniRef90_A0A2T1KJG7 Uncharacterized protein n=1 Tax=Marinobacte...  39.5    0.007
+  UniRef90_A0A0J7LWS7 Uncharacterized protein n=1 Tax=Marinobacte...  39.5    0.007
+  UniRef90_UPI000420BC33 hypothetical protein n=1 Tax=Leisingera ...  41.0    0.009
+  UniRef90_A0A2T4DD57 Uncharacterized protein (Fragment) n=1 Tax=...  39.1    0.010
+  UniRef90_U3HGS4 Uncharacterized protein n=1 Tax=Pseudomonas alc...  38.7    0.010
+  UniRef90_UPI0002FF06C8 hypothetical protein n=1 Tax=Zavarzinell...  39.5    0.011
+  UniRef90_A0A2D8REW1 Uncharacterized protein n=1 Tax=Hahellaceae...  39.1    0.012
+  UniRef90_A0A1H8QLP8 Ribosome modulation factor n=3 Tax=Nitrosom...  40.6    0.012
+  UniRef90_A0A095SBX8 Uncharacterized protein n=5 Tax=Alcanivorax...  38.7    0.015
+  UniRef90_UPI000971A2BE hypothetical protein n=1 Tax=Phaeobacter...  40.6    0.015
+  UniRef90_A0A359DGK0 Uncharacterized protein n=1 Tax=Pseudomonas...  38.3    0.016
+  UniRef90_A0A2T4ZX57 Ribosome modulation factor n=1 Tax=Nitrosom...  40.3    0.018
+  UniRef90_A0A2A2IRY4 Ribosome modulation factor n=1 Tax=Pseudomo...  38.3    0.019
+  UniRef90_UPI000C28D596 hypothetical protein n=1 Tax=Marinobacte...  38.3    0.025
+  UniRef90_UPI000C9BE349 hypothetical protein n=1 Tax=Bowmanella ...  38.3    0.025
+  UniRef90_E6XGY1 Uncharacterized protein n=1 Tax=Shewanella putr...  37.9    0.027
+  UniRef90_A0A1I5M4Q7 Ribosome modulation factor n=1 Tax=Pseudomo...  37.9    0.028
+  UniRef90_A0A1H8IZG8 Uncharacterized protein n=3 Tax=Nitrosomona...  39.9    0.029
+  UniRef90_UPI0009DDAFE8 hypothetical protein n=1 Tax=Sphingomona...  37.6    0.034
+  UniRef90_UPI000370C49E hypothetical protein n=1 Tax=Hoeflea sp....  39.1    0.047
+  UniRef90_A0A1I3F490 Ribosome modulation factor n=6 Tax=Gammapro...  37.2    0.050
+  UniRef90_A0A0T6UTD3 Ribosome modulation factor n=1 Tax=Pseudomo...  37.2    0.052
+  UniRef90_G2ZT83 Uncharacterized protein n=2 Tax=unclassified Ra...  39.1    0.059
+  UniRef90_A0A2W5MIH7 Ribosome modulation factor n=1 Tax=Pseudomo...  36.4    0.067
+  UniRef90_A0A1W0D2H9 Cell division protein FtsK n=3 Tax=Chromoba...  38.7    0.075
+  UniRef90_A0A1Q9XNT8 Uncharacterized protein n=1 Tax=Pseudomonas...  36.8    0.084
+  UniRef90_A0A2G2JNW0 RND transporter n=1 Tax=Oceanobacter sp. Ta...  38.3    0.091
+  UniRef90_A0A399EJU6 Uncharacterized protein n=1 Tax=Meiothermus...  37.9    0.098
+  UniRef90_U7FYJ3 Ribosome modulation factor n=3 Tax=Alcanivoraca...  36.4    0.10 
+  UniRef90_A0A335NQS6 Uncharacterized protein n=1 Tax=Acinetobact...  36.4    0.11 
+  UniRef90_V9VZ35 Uncharacterized protein n=2 Tax=Leisingera TaxI...  37.6    0.14 
+  UniRef90_UPI00036D08D3 hypothetical protein n=1 Tax=Teredinibac...  36.4    0.15 
+  UniRef90_A0A2P7NSA8 Cell division protein FtsK n=1 Tax=Nitrosom...  37.9    0.15 
+  UniRef90_A0A099KPN0 Ribosome modulation factor n=1 Tax=Colwelli...  36.0    0.15 
+  UniRef90_E1VJX8 Acriflavin resistance protein n=1 Tax=gamma pro...  37.9    0.16 
+  UniRef90_UPI000382B3D7 hypothetical protein n=1 Tax=Thioalkaliv...  36.4    0.16 
+  UniRef90_F7TAE7 Uncharacterized protein n=2 Tax=Achromobacter T...  37.6    0.16 
+  UniRef90_A0A3F2V745 Efflux RND transporter permease subunit n=1...  37.6    0.17 
+  UniRef90_L2E727 Uncharacterized protein n=1 Tax=Cupriavidus sp....  37.2    0.19 
+  UniRef90_A0A2P7NTX1 Cell division protein FtsK n=1 Tax=Nitrosom...  37.6    0.19 
+  UniRef90_UPI000832EA70 hypothetical protein n=1 Tax=Rhizobiales...  35.6    0.20 
+  UniRef90_UPI000DBE2D52 hypothetical protein n=1 Tax=Roseovarius...  37.6    0.20 
+  UniRef90_UPI000E0D0F4E hypothetical protein n=1 Tax=Microvirga ...  37.2    0.23 
+  UniRef90_A0A0X3UAE6 Uncharacterized protein n=1 Tax=Ruegeria ma...  36.8    0.27 
+  UniRef90_A0A2M9PCC6 Uncharacterized protein (Fragment) n=1 Tax=...  35.2    0.28 
+  UniRef90_A0A2E0HM85 RND transporter n=1 Tax=Pseudomonadales bac...  36.8    0.34 
+  UniRef90_A0A1E5X3K6 Ribosome modulation factor n=4 Tax=Pseudomo...  35.2    0.34 
+  UniRef90_UPI0006B159FF hypothetical protein n=2 Tax=Gordonia Ta...  36.8    0.35 
+  UniRef90_A0A2E3CY60 RND transporter n=10 Tax=Gammaproteobacteri...  36.8    0.36 
+  UniRef90_A0A378YZH9 DNA translocase FtsK n=1 Tax=Pandoraea pnom...  36.8    0.39 
+  UniRef90_A0A1Y0IAZ1 RND superfamily NFE family efflux transport...  36.8    0.41 
+  UniRef90_A0A0P9LDH8 Uncharacterized protein n=3 Tax=Pseudomonas...  34.9    0.42 
+  UniRef90_A0A1E5X6Q6 Uncharacterized protein n=2 Tax=Pseudomonad...  34.9    0.46 
+  UniRef90_A0A2T5KX08 Ribosome modulation factor n=1 Tax=Pseudomo...  34.9    0.47 
+  UniRef90_A0A0V7ZAV6 Ribosome modulation factor n=2 Tax=Methylob...  34.5    0.59 
+  UniRef90_UPI000E66CB36 hypothetical protein n=1 Tax=Rhodospiril...  36.0    0.61 
+  UniRef90_B6B4M7 Uncharacterized protein n=2 Tax=Rhodobacterales...  36.0    0.63 
+  UniRef90_A0A2R7SNY1 Ribosome modulation factor n=1 Tax=Pseudomo...  34.5    0.65 
+  UniRef90_A0A1B8VDZ2 Uncharacterized protein n=1 Tax=Pseudomonas...  34.9    0.68 
+  UniRef90_A0A2N1YMD8 AcrB/AcrD/AcrF family protein n=1 Tax=Gamma...  36.0    0.70 
+  UniRef90_A0A095SJR3 Uncharacterized protein n=1 Tax=Alcanivorax...  34.1    0.73 
+  UniRef90_UPI00069B64FB hypothetical protein n=1 Tax=Mesorhizobi...  35.6    0.73 
+  UniRef90_UPI000FD97B37 DUF2914 domain-containing protein n=1 Ta...  36.0    0.74 
+  UniRef90_UPI000640BD9A H-NS histone family protein n=1 Tax=Chro...  35.6    0.80 
+  UniRef90_UPI000255A6A5 hypothetical protein n=1 Tax=Oceanicola ...  35.6    0.82 
+  UniRef90_UPI000571F466 DUF2914 domain-containing protein n=1 Ta...  35.6    0.83 
+  UniRef90_T5L7L7 Uncharacterized protein n=1 Tax=Stenotrophomona...  34.1    0.88 
+  UniRef90_A0A0M7PMX2 Ribosome modulation factor n=6 Tax=Alcalige...  35.6    0.88 
+  UniRef90_A0A066ZR97 Uncharacterized protein n=1 Tax=Hydrogenovi...  35.6    0.94 
+  UniRef90_UPI0004A6E66C hypothetical protein n=1 Tax=Thiomicrosp...  35.6    0.97 
+  UniRef90_UPI0007873F09 hypothetical protein n=1 Tax=Sphingopyxi...  34.1    0.98 
+  UniRef90_A0A0H5BCE3 Uncharacterized protein n=1 Tax=Blastochlor...  33.7    1.0  
+  UniRef90_A0A1B8T7Q9 Uncharacterized protein n=3 Tax=Pseudomonas...  34.1    1.1  
+  UniRef90_A0A1H7EG94 Uncharacterized protein n=1 Tax=Paraburkhol...  34.1    1.2  
+  UniRef90_Q11J31 Uncharacterized protein n=1 Tax=Chelativorans s...  34.9    1.3  
+  UniRef90_A0A165XF49 Ribosome modulation factor n=1 Tax=Pseudovi...  34.9    1.4  
+  UniRef90_A9I8S7 Uncharacterized protein n=1 Tax=Bordetella petr...  34.9    1.7  
+  UniRef90_A0A2I0CP52 Uncharacterized protein n=1 Tax=Pseudomonas...  33.3    1.7  
+  UniRef90_A0A0S9PRX9 Uncharacterized protein n=1 Tax=Methylobact...  33.3    1.7  
+  UniRef90_A0A072NAX6 Uncharacterized protein n=1 Tax=Marinobacte...  33.3    1.8  
+  UniRef90_A0A011PHN8 Uncharacterized protein n=2 Tax=Candidatus ...  34.9    1.8  
+  UniRef90_UPI00036729C6 hypothetical protein n=1 Tax=Pseudomonas...  33.3    1.9  
+  UniRef90_A0A2K9LGC7 Uncharacterized protein n=1 Tax=Ketobacter ...  34.9    1.9  
+  UniRef90_A0A2T3LAB7 Uncharacterized protein n=1 Tax=Photobacter...  33.7    2.2  
+  UniRef90_E1SNH3 Uncharacterized protein n=1 Tax=Ferrimonas bale...  34.5    2.3  
+  UniRef90_UPI00035C4FC7 hypothetical protein n=1 Tax=Fangia hong...  34.1    2.4  
+  UniRef90_UPI0009C0E450 hypothetical protein n=1 Tax=Epibacteriu...  34.5    2.4  
+  UniRef90_UPI0008157D4E cell division protein FtsK n=2 Tax=Cupri...  34.5    2.5  
+  UniRef90_UPI0004C2F167 Gfo/Idh/MocA family oxidoreductase n=1 T...  34.5    2.5  
+  UniRef90_UPI00056DCD89 DUF2914 domain-containing protein n=1 Ta...  34.5    2.5  
+  UniRef90_A0A107NM07 Cell division protein FtsK n=10 Tax=Burkhol...  34.5    2.6  
+  UniRef90_A0A0U4BX83 Cell division protein FtsK n=31 Tax=Burkhol...  34.1    2.9  
+  UniRef90_C9D3J2 RecT protein n=2 Tax=Rhodobacteraceae TaxID=319...  34.1    3.0  
+  UniRef90_A0A1Z8AAL3 Uncharacterized protein n=1 Tax=Rhodobacter...  34.1    3.0  
+  UniRef90_A0A327UPL1 Uncharacterized protein n=1 Tax=Streptomyce...  32.5    3.0  
+  UniRef90_UPI000684C321 hypothetical protein n=1 Tax=Marinobacte...  33.7    3.1  
+  UniRef90_A0A1Q9GJZ5 Uncharacterized protein n=1 Tax=Photobacter...  33.3    3.2  
+  UniRef90_A0A1H5PCD5 Uncharacterized protein n=1 Tax=Burkholderi...  32.9    3.3  
+  UniRef90_A0A1I2SKW5 Uncharacterized protein n=1 Tax=Methylobact...  32.5    3.5  
+  UniRef90_A0A1W9M851 4Fe-4S ferredoxin n=1 Tax=Desulfobacteracea...  34.1    3.8  
+  UniRef90_Q46YP6 Putative DNA segregation ATPase FtsK/SpoIIIE-re...  33.7    3.8  
+  UniRef90_S6BRX9 Ferrous iron transport protein B n=1 Tax=endosy...  33.7    3.8  
+  UniRef90_A0A2C9AX78 Uncharacterized protein n=1 Tax=Burkholderi...  32.2    4.0  
+  UniRef90_A0A0Q6BMH9 Uncharacterized protein n=2 Tax=Methylobact...  32.2    4.1  
+  UniRef90_A0A0Q6EUJ4 Uncharacterized protein n=1 Tax=Aurantimona...  32.5    4.6  
+  UniRef90_T0GJH8 Uncharacterized protein n=1 Tax=Sphingobium sp....  32.5    4.7  
+  UniRef90_A0A0Q7TVE7 Uncharacterized protein n=1 Tax=Pseudolabry...  32.2    4.7  
+  UniRef90_A0A349XSC2 Uncharacterized protein n=1 Tax=Agrobacteri...  32.9    5.1  
+  UniRef90_A0A0C4Y7N5 Cell division protein FtsK n=1 Tax=Cupriavi...  33.3    5.1  
+  UniRef90_A0A1H6NTX3 Uncharacterized protein n=1 Tax=Pseudomonas...  31.8    5.3  
+  UniRef90_A0A0C1E8A4 Uncharacterized protein n=1 Tax=Leisingera ...  33.3    5.3  
+  UniRef90_A0A175RQ17 Uncharacterized protein n=3 Tax=Aurantimona...  32.2    5.4  
+  UniRef90_S9QDV2 Long-chain-fatty-acid--CoA ligase n=2 Tax=Cysto...  33.3    5.4  
+  UniRef90_UPI000FDB3883 cell division protein FtsK n=1 Tax=Borde...  33.3    5.6  
+  UniRef90_A0A0S9RTS2 Uncharacterized protein n=2 Tax=Methylobact...  32.2    5.6  
+  UniRef90_A0A1D9H3C2 Cell division protein FtsK n=1 Tax=Cupriavi...  33.3    5.7  
+  UniRef90_A0A1S1GPQ9 Uncharacterized protein n=3 Tax=Pseudomonas...  31.8    5.7  
+  UniRef90_A0A257PH72 Uncharacterized protein n=1 Tax=Rhodospiril...  31.8    5.8  
+  UniRef90_A0A0D8CJ57 Uncharacterized protein n=6 Tax=Thalassospi...  33.3    6.0  
+  UniRef90_B8IG40 Uncharacterized protein n=2 Tax=Methylobacteriu...  32.5    6.1  
+  UniRef90_A0A3N7WRQ1 Uncharacterized protein n=1 Tax=Burkholderi...  31.8    6.1  
+  UniRef90_A0A385EDL1 Uncharacterized protein n=1 Tax=Caulobacter...  31.4    6.2  
+  UniRef90_A0A1W1YGA4 Uncharacterized protein n=1 Tax=Fulvimarina...  32.2    6.4  
+  UniRef90_A0A1A5T3S3 Uncharacterized protein n=1 Tax=Mesorhizobi...  32.9    6.8  
+  UniRef90_A0A395NAJ0 Uncharacterized protein n=1 Tax=Trichoderma...  32.9    7.3  
+  UniRef90_A0A1N7RL33 Uncharacterized protein n=2 Tax=Paraburkhol...  32.5    7.4  
+  UniRef90_UPI000806836F hypothetical protein n=1 Tax=Epibacteriu...  32.9    7.6  
+  UniRef90_B1ZD01 Uncharacterized protein n=1 Tax=Methylobacteriu...  32.9    7.7  
+  UniRef90_UPI0009EEEBDC CrpP family protein n=1 Tax=Pseudomonas ...  31.4    8.2  
+  UniRef90_A0A087CPK5 Excinuclease ATPase subunit n=2 Tax=Bifidob...  32.9    8.5  
+  UniRef90_A0A2V3UCK8 Uncharacterized protein n=1 Tax=Methylobact...  31.4    8.5  
+  UniRef90_K2JP99 Uncharacterized protein n=2 Tax=Oceanibaculum T...  32.9    8.6  
+  UniRef90_A0A0Q5CYE7 Uncharacterized protein n=4 Tax=Methylobact...  31.4    9.2  
+  UniRef90_A0A0Q4WTY8 Uncharacterized protein n=2 Tax=Methylobact...  31.4    9.3  
+  UniRef90_UPI0009BF2B2B hypothetical protein n=1 Tax=Metallibact...  31.4    9.5  
+  UniRef90_UPI00055455E1 hypothetical protein n=1 Tax=Agrobacteri...  32.5    9.6  
+  UniRef90_UPI000A6D43BE hypothetical protein n=2 Tax=Vibrio chol...  31.8    9.7  
+  UniRef90_A0A2U0VI64 Uncharacterized protein n=1 Tax=Sphingomona...  31.0    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.198    0.892    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0605    0.140     1.90     42.6     43.6 
+
+Effective search space used: 745538954733
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

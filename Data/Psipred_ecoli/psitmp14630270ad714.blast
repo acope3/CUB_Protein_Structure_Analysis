@@ -1,0 +1,846 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414991.4
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAS1 Inner membrane protein YlaC n=193 Tax=Proteobac...  322     1e-111
+  UniRef90_A0A0A1A1N2 Inner membrane protein YlaC n=130 Tax=root ...  320     3e-111
+  UniRef90_A0A0K4NH80 Inner membrane protein n=13 Tax=Escherichia...  296     9e-102
+  UniRef90_B7LLR1 Uncharacterized protein n=3 Tax=Escherichia fer...  288     2e-98 
+  UniRef90_D2TLT4 Putative membrane protein n=2 Tax=Citrobacter T...  275     3e-93 
+  UniRef90_A0A381G3T1 Inner membrane protein ylaC n=13 Tax=Gammap...  274     1e-92 
+  UniRef90_A0A090UR33 Uncharacterized protein n=39 Tax=Enterobact...  273     1e-92 
+  UniRef90_R9VQT2 Membrane protein n=7 Tax=Enterobacteriaceae Tax...  273     3e-92 
+  UniRef90_A0A2S4S0C5 Uncharacterized protein n=1 Tax=Citrobacter...  271     9e-92 
+  UniRef90_A0A1N6TT22 Inner membrane protein YlaC n=2 Tax=Enterob...  268     2e-90 
+  UniRef90_A0A1C4FD72 Inner membrane protein YlaC n=8 Tax=Enterob...  265     3e-89 
+  UniRef90_V5B2R0 Inner membrane protein ylaC n=5 Tax=Enterobacte...  263     2e-88 
+  UniRef90_A0A1I6DE38 Inner membrane protein YlaC n=1 Tax=Enterob...  261     8e-88 
+  UniRef90_UPI0003158F31 membrane protein n=1 Tax=Metakosakonia m...  260     3e-87 
+  UniRef90_G9Z4N0 Uncharacterized protein n=5 Tax=Enterobacteriac...  256     1e-85 
+  UniRef90_A0A090V1A6 Uncharacterized protein n=4 Tax=Enterobacte...  255     3e-85 
+  UniRef90_A0A0W2NSQ9 Uncharacterized protein n=6 Tax=Enterobacte...  254     8e-85 
+  UniRef90_A0A2X3E6N7 Inner membrane protein ylaC n=5 Tax=Kluyver...  253     1e-84 
+  UniRef90_A0A285JNY1 Inner membrane protein YlaC n=3 Tax=Enterob...  252     5e-84 
+  UniRef90_UPI000EB10EBA hypothetical protein n=1 Tax=Enterobacte...  251     7e-84 
+  UniRef90_A0A1Y6GPU5 Inner membrane protein ylaC n=12 Tax=Entero...  250     2e-83 
+  UniRef90_A0A3A8UPR0 Uncharacterized protein (Fragment) n=2 Tax=...  249     2e-83 
+  UniRef90_A8AJY8 Uncharacterized protein n=2 Tax=Citrobacter kos...  249     6e-83 
+  UniRef90_A0A336PZP5 Inner membrane protein ylaC n=7 Tax=Enterob...  248     1e-82 
+  UniRef90_A0A127L6V8 Extracytoplasmic function sigma factor YlaC...  248     2e-82 
+  UniRef90_UPI000786A7D7 hypothetical protein n=2 Tax=Kluyvera Ta...  247     3e-82 
+  UniRef90_A0A163Z2W8 Inner membrane protein n=39 Tax=Enterobacte...  247     4e-82 
+  UniRef90_A0A379SDG2 Inner membrane protein n=147 Tax=Bacteria T...  246     1e-81 
+  UniRef90_A0A1B7HUF1 Putative inner membrane protein n=10 Tax=Bu...  244     4e-81 
+  UniRef90_A0A089PQI1 Membrane protein n=4 Tax=Pluralibacter gerg...  244     4e-81 
+  UniRef90_A0A291DV32 Inner membrane protein ylaC n=9 Tax=cellula...  243     2e-80 
+  UniRef90_A0A0L0H2Q9 Membrane protein n=2 Tax=Trabulsiella TaxID...  241     6e-80 
+  UniRef90_A0A0K2NZL3 Uncharacterized protein n=7 Tax=Cronobacter...  242     7e-80 
+  UniRef90_A0A1X0X7T8 Uncharacterized protein n=10 Tax=Enterobact...  239     3e-79 
+  UniRef90_UPI0009BED5F6 hypothetical protein n=1 Tax=Citrobacter...  239     4e-79 
+  UniRef90_A0A0L0AL67 Membrane protein n=2 Tax=Enterobacteriaceae...  239     5e-79 
+  UniRef90_L0M7L8 Extracytoplasmic function sigma factor YlaC n=2...  237     2e-78 
+  UniRef90_G5RRM1 Putative inner membrane protein n=8 Tax=Salmone...  237     6e-78 
+  UniRef90_A0A0M3FAF4 Membrane protein n=8 Tax=Enterobacteriaceae...  235     2e-77 
+  UniRef90_UPI00073D5049 hypothetical protein n=1 Tax=[Erwinia] t...  235     3e-77 
+  UniRef90_UPI00077B756B hypothetical protein n=1 Tax=Enterobacte...  231     7e-76 
+  UniRef90_A0A3N1I581 Inner membrane protein YlaC n=2 Tax=Enterob...  230     1e-75 
+  UniRef90_A0A2P8VP31 Uncharacterized protein n=2 Tax=Enterobacte...  231     2e-75 
+  UniRef90_A0A0J4M7R9 Inner membrane protein n=83 Tax=Enterobacte...  230     2e-75 
+  UniRef90_UPI000F67E687 hypothetical protein n=1 Tax=Atlantibact...  228     8e-75 
+  UniRef90_A0A0D1KB44 Membrane protein n=3 Tax=Enterobacteriaceae...  226     5e-74 
+  UniRef90_E3G6B8 Extracytoplasmic function sigma factor YlaC n=2...  226     6e-74 
+  UniRef90_UPI0004E10785 membrane protein n=1 Tax=Siccibacter col...  225     2e-73 
+  UniRef90_A0A376E6E8 Inner membrane protein ylaC n=24 Tax=Cronob...  225     2e-73 
+  UniRef90_I2BBN2 Putative membrane protein YlaC n=1 Tax=Shimwell...  221     4e-72 
+  UniRef90_A0A0J8VUT8 Membrane protein n=3 Tax=Franconibacter Tax...  221     1e-71 
+  UniRef90_UPI000D0821A9 hypothetical protein n=1 Tax=Escherichia...  219     2e-71 
+  UniRef90_K8A0U6 Putative inner membrane protein n=1 Tax=Cronoba...  220     2e-71 
+  UniRef90_A4W7E2 Putative inner membrane protein n=7 Tax=Enterob...  216     1e-69 
+  UniRef90_A0A377DW38 Inner membrane protein n=1 Tax=Escherichia ...  212     1e-68 
+  UniRef90_A0A0K0HQB4 inner membrane protein YlaC n=12 Tax=Entero...  211     5e-68 
+  UniRef90_A0A181CV95 Membrane protein n=63 Tax=Bacteria TaxID=2 ...  211     5e-68 
+  UniRef90_A0A071LV36 Membrane protein n=3 Tax=Mangrovibacter Tax...  210     2e-67 
+  UniRef90_A0A378CWH9 Inner membrane protein n=2 Tax=Klebsiella T...  210     2e-67 
+  UniRef90_F5RUX0 Inner membrane protein YlaC n=43 Tax=Enterobact...  206     6e-66 
+  UniRef90_W7P1M3 Inner membrane protein YlaC n=30 Tax=Enterobact...  205     1e-65 
+  UniRef90_UPI000370DCF0 hypothetical protein n=1 Tax=Enterobacte...  205     2e-65 
+  UniRef90_UPI0006ACB956 hypothetical protein n=1 Tax=Cronobacter...  191     2e-60 
+  UniRef90_UPI000190E09F hypothetical protein n=1 Tax=Salmonella ...  181     5e-56 
+  UniRef90_UPI0009A9AF96 hypothetical protein n=2 Tax=Salmonella ...  179     7e-56 
+  UniRef90_A0A378F7J5 Inner membrane protein n=2 Tax=Klebsiella p...  178     2e-55 
+  UniRef90_A0A140D6C2 Putative inner membrane protein n=1 Tax=gam...  167     2e-51 
+  UniRef90_A0A379WYF5 Inner membrane protein n=1 Tax=Salmonella e...  165     5e-50 
+  UniRef90_A0A0A3Z6H6 Membrane protein n=1 Tax=Erwinia typographi...  151     4e-44 
+  UniRef90_A0A377A1F7 Inner membrane protein n=1 Tax=Escherichia ...  144     2e-42 
+  UniRef90_D8MWY8 Uncharacterized protein n=1 Tax=Erwinia billing...  147     2e-42 
+  UniRef90_I6H9F9 Inner membrane protein ylaC n=1 Tax=Shigella fl...  145     3e-42 
+  UniRef90_A0A0J9BI10 Membrane protein n=2 Tax=unclassified Erwin...  146     4e-42 
+  UniRef90_UPI00082E2799 hypothetical protein n=1 Tax=Erwinia sp....  145     7e-42 
+  UniRef90_UPI000F684D87 hypothetical protein n=1 Tax=Erwinia sp....  144     2e-41 
+  UniRef90_A0A014N863 Membrane protein n=1 Tax=Erwinia mallotivor...  143     4e-41 
+  UniRef90_A0A2S9IDB3 Uncharacterized protein n=2 Tax=Erwiniaceae...  142     7e-41 
+  UniRef90_A0A0Q4NER8 Uncharacterized protein n=1 Tax=Erwinia sp....  142     8e-41 
+  UniRef90_UPI000469EFCC membrane protein n=1 Tax=Pantoea sp. IMH...  142     8e-41 
+  UniRef90_UPI0009E5A365 hypothetical protein n=1 Tax=Erwinia sp....  143     1e-40 
+  UniRef90_B2VGE7 Putative inner membrane protein YlaC n=2 Tax=Er...  142     1e-40 
+  UniRef90_K8WF28 Uncharacterized protein n=1 Tax=Providencia sne...  142     1e-40 
+  UniRef90_A0A3N6RZ70 Uncharacterized protein n=1 Tax=Erwinia psi...  141     2e-40 
+  UniRef90_D4HVF0 Inner membrane protein ylaC n=9 Tax=Erwinia Tax...  140     6e-40 
+  UniRef90_UPI000A041627 hypothetical protein n=1 Tax=Tatumella m...  141     1e-39 
+  UniRef90_A0A2G8EC88 Uncharacterized protein n=1 Tax=Erwinia sp....  140     1e-39 
+  UniRef90_A0A2K1QBP9 Uncharacterized protein n=3 Tax=Erwiniaceae...  139     2e-39 
+  UniRef90_A0A1I4VYS1 Inner membrane protein YlaC n=2 Tax=Izhakie...  139     3e-39 
+  UniRef90_UPI000F658439 hypothetical protein n=1 Tax=Dickeya sp....  139     3e-39 
+  UniRef90_A0A2I0FYS7 Uncharacterized protein n=1 Tax=Enterobacte...  138     4e-39 
+  UniRef90_A0A375A8D5 Inner membrane protein n=1 Tax=Dickeya aqua...  139     5e-39 
+  UniRef90_A0A1Y0L4H2 Uncharacterized protein n=1 Tax=Tatumella c...  137     1e-38 
+  UniRef90_A0A385XZB5 Inner membrane protein YlaC n=3 Tax=Dickeya...  137     2e-38 
+  UniRef90_UPI0003A4BF73 membrane protein n=1 Tax=Dickeya dianthi...  137     2e-38 
+  UniRef90_A0A250AVY8 Uncharacterized protein n=2 Tax=Gibbsiella ...  136     3e-38 
+  UniRef90_A0A2J9E2K2 Uncharacterized protein n=6 Tax=Erwiniaceae...  135     7e-38 
+  UniRef90_E0SKF3 Putative membrane protein n=11 Tax=Dickeya TaxI...  133     3e-37 
+  UniRef90_A0A1S1HU64 Uncharacterized protein n=1 Tax=Providencia...  133     7e-37 
+  UniRef90_D4GN03 YlaC n=18 Tax=Erwiniaceae TaxID=1903409 RepID=D...  133     1e-36 
+  UniRef90_A0A379GZ31 Inner membrane protein ylaC n=4 Tax=Gammapr...  131     3e-36 
+  UniRef90_K8X1D3 Uncharacterized protein n=1 Tax=Providencia bur...  131     3e-36 
+  UniRef90_UPI000FE32AD9 hypothetical protein n=1 Tax=Pantoea sp....  131     3e-36 
+  UniRef90_E1SE89 Inner membrane protein ylaC n=14 Tax=Erwiniacea...  130     5e-36 
+  UniRef90_D2BS14 Extracytoplasmic function sigma factor YlaC n=9...  130     5e-36 
+  UniRef90_A0A0F7HEB0 Membrane protein n=13 Tax=Yersiniaceae TaxI...  130     5e-36 
+  UniRef90_A0A1J0E5A0 Uncharacterized protein n=1 Tax=Providencia...  130     6e-36 
+  UniRef90_E6WD16 Extracytoplasmic function sigma factor YlaC n=3...  130     6e-36 
+  UniRef90_UPI00097F735A hypothetical protein n=1 Tax=Escherichia...  127     9e-36 
+  UniRef90_B6XAZ2 Uncharacterized protein n=6 Tax=cellular organi...  129     1e-35 
+  UniRef90_A0A2X1T3M9 Inner membrane protein ylaC n=15 Tax=Bacter...  129     2e-35 
+  UniRef90_W0LJN3 Membrane protein n=1 Tax=Chania multitudinisent...  129     2e-35 
+  UniRef90_J2U7I7 Extracytoplasmic function sigma factor YlaC n=1...  129     3e-35 
+  UniRef90_A0A376ZNK7 Inner membrane protein n=1 Tax=Escherichia ...  127     3e-35 
+  UniRef90_UPI000DEF1356 hypothetical protein n=1 Tax=Rahnella sp...  128     3e-35 
+  UniRef90_A0A083ZWI4 Inner membrane protein YlaC n=2 Tax=Serrati...  128     4e-35 
+  UniRef90_A0A0N0Z779 Putative membrane protein n=2 Tax=Moellerel...  128     5e-35 
+  UniRef90_A0A379FT09 Inner membrane protein ylaC n=7 Tax=Provide...  128     6e-35 
+  UniRef90_A0A246NLK0 Uncharacterized protein n=2 Tax=Pantoea Tax...  127     9e-35 
+  UniRef90_A0A2N5ETK1 Uncharacterized protein n=1 Tax=Yersiniacea...  126     3e-34 
+  UniRef90_UPI000948D105 hypothetical protein n=1 Tax=Pantoea sp....  124     9e-34 
+  UniRef90_UPI00034D09C9 membrane protein n=1 Tax=Erwinia toletan...  124     1e-33 
+  UniRef90_A0A2X5BV26 Inner membrane protein ylaC n=6 Tax=Serrati...  124     1e-33 
+  UniRef90_A0A0M0T8E5 Membrane protein n=1 Tax=Xenorhabdus sp. GD...  124     1e-33 
+  UniRef90_A0A0L7TFK2 Membrane protein n=1 Tax=Erwinia iniecta Ta...  124     1e-33 
+  UniRef90_A0A0G3SKE2 Inner membrane protein ylaC n=25 Tax=cellul...  124     2e-33 
+  UniRef90_A0A0U5L9N5 Membrane protein n=1 Tax=Erwinia gerundensi...  124     2e-33 
+  UniRef90_A0A2X3C1E0 Inner membrane protein n=1 Tax=Klebsiella p...  122     2e-33 
+  UniRef90_D1NZT2 Uncharacterized protein n=4 Tax=Providencia rus...  123     4e-33 
+  UniRef90_D4E7S8 Uncharacterized protein n=1 Tax=Serratia odorif...  123     4e-33 
+  UniRef90_A0A356D7W0 Uncharacterized protein n=1 Tax=Providencia...  123     5e-33 
+  UniRef90_A0A2I5TIY9 Uncharacterized protein n=1 Tax=Serratia sp...  122     5e-33 
+  UniRef90_A0A1B7K0A1 Putative membrane protein n=1 Tax=Providenc...  122     7e-33 
+  UniRef90_A0A1B8HJI8 Uncharacterized protein n=4 Tax=Morganella ...  122     7e-33 
+  UniRef90_A0A1B1KPE1 Inner membrane protein YlaC n=18 Tax=Yersin...  122     8e-33 
+  UniRef90_A0A240BU46 Inner membrane protein ylaC n=1 Tax=Serrati...  122     1e-32 
+  UniRef90_A0A1S8CQE1 Uncharacterized protein n=1 Tax=Serratia or...  122     1e-32 
+  UniRef90_W1J3G1 Putative membrane protein n=1 Tax=Xenorhabdus s...  122     2e-32 
+  UniRef90_A0A1I3HT83 Inner membrane protein YlaC n=1 Tax=Xenorha...  122     2e-32 
+  UniRef90_A0A0B2T4K8 Membrane protein n=1 Tax=Pectobacterium car...  121     2e-32 
+  UniRef90_A0A2N5ECV2 Uncharacterized protein n=2 Tax=unclassifie...  121     3e-32 
+  UniRef90_A0A1B8YGF8 Inner membrane protein YlaC n=4 Tax=Photorh...  120     3e-32 
+  UniRef90_A0A087L5N2 Membrane protein n=1 Tax=Serratia sp. Ag1 T...  120     4e-32 
+  UniRef90_A0A085U942 Inner membrane protein ylaC n=5 Tax=Yersini...  119     2e-31 
+  UniRef90_C6C999 Uncharacterized protein n=1 Tax=Dickeya paradis...  118     3e-31 
+  UniRef90_A0A068R3E4 Putative membrane protein n=1 Tax=Xenorhabd...  118     3e-31 
+  UniRef90_A0A0M9D192 Uncharacterized protein n=1 Tax=Photorhabdu...  118     4e-31 
+  UniRef90_W1J6K4 Inner membrane protein ylaC n=3 Tax=Xenorhabdus...  117     8e-31 
+  UniRef90_A0A1G5Q994 Inner membrane protein YlaC n=1 Tax=Photorh...  117     8e-31 
+  UniRef90_A0A0J5FM33 Membrane protein n=1 Tax=Xenorhabdus khoisa...  117     1e-30 
+  UniRef90_A0A0H5LQT4 Inner membrane protein ylaC n=8 Tax=Yersini...  117     1e-30 
+  UniRef90_A0A1X0WG42 Uncharacterized protein n=1 Tax=Rouxiella b...  117     1e-30 
+  UniRef90_Q7N5U3 Uncharacterized protein n=14 Tax=Photorhabdus T...  116     2e-30 
+  UniRef90_C7BPK5 Putative inner membrane protein ylac n=3 Tax=Ph...  115     4e-30 
+  UniRef90_A0A2D0J4G3 Membrane protein n=2 Tax=Xenorhabdus budape...  117     4e-30 
+  UniRef90_A0A2D0KCJ3 Membrane protein n=1 Tax=Xenorhabdus ishiba...  115     4e-30 
+  UniRef90_UPI0005D3F1C7 membrane protein n=1 Tax=Rouxiella chamb...  115     4e-30 
+  UniRef90_A0A2G0Q6A4 Membrane protein n=1 Tax=Xenorhabdus homini...  115     6e-30 
+  UniRef90_A0A068QTU7 Putative membrane protein n=5 Tax=Xenorhabd...  115     1e-29 
+  UniRef90_D3V2R7 Putative membrane protein n=10 Tax=Xenorhabdus ...  114     1e-29 
+  UniRef90_A0A0R4FLM1 Putative membrane protein n=4 Tax=Xenorhabd...  114     1e-29 
+  UniRef90_A0A1I7EXC4 Inner membrane protein YlaC n=1 Tax=Xenorha...  114     2e-29 
+  UniRef90_A0A2D0LDG4 Membrane protein n=1 Tax=Xenorhabdus kozodo...  114     2e-29 
+  UniRef90_G7LU68 Extracytoplasmic function sigma factor YlaC n=3...  113     2e-29 
+  UniRef90_A0A0T9KVM5 Inner membrane protein ylaC n=2 Tax=Yersini...  113     3e-29 
+  UniRef90_A0A1N6MVW2 Putative membrane protein n=4 Tax=Xenorhabd...  113     4e-29 
+  UniRef90_G5QVU2 Putative inner membrane protein n=1 Tax=Salmone...  110     4e-29 
+  UniRef90_UPI000DD42D4F hypothetical protein n=2 Tax=Rahnella Ta...  112     5e-29 
+  UniRef90_A0A1Y2SPX5 Membrane protein n=4 Tax=Xenorhabdus TaxID=...  114     6e-29 
+  UniRef90_A0A2L1UQN6 Uncharacterized protein n=1 Tax=Rahnella sp...  111     2e-28 
+  UniRef90_A0A0T9TEA5 Inner membrane protein ylaC n=7 Tax=Yersini...  111     2e-28 
+  UniRef90_A0A1B7JDG6 Uncharacterized protein n=2 Tax=Proteus Tax...  110     3e-28 
+  UniRef90_H2IUZ1 Extracytoplasmic function sigma factor YlaC n=9...  110     3e-28 
+  UniRef90_A0A0T9SSI7 Inner membrane protein ylaC n=32 Tax=Yersin...  110     4e-28 
+  UniRef90_C6DA21 Uncharacterized protein n=47 Tax=Pectobacterium...  108     2e-27 
+  UniRef90_A0A0Q4ML24 Uncharacterized protein n=2 Tax=Yersiniacea...  108     2e-27 
+  UniRef90_A0A0T9NZC3 Inner membrane protein ylaC n=1 Tax=Yersini...  108     2e-27 
+  UniRef90_A0A0T9LYP7 Inner membrane protein ylaC n=7 Tax=Yersini...  108     2e-27 
+  UniRef90_I0QQN0 Extracytoplasmic function sigma factor YlaC n=1...  108     3e-27 
+  UniRef90_A0A0J9BAF2 Uncharacterized protein n=3 Tax=Enterobacte...  108     3e-27 
+  UniRef90_A0A0G4Q3S6 Inner membrane protein YlaC n=17 Tax=Entero...  108     3e-27 
+  UniRef90_A0A0U1HSQ7 Inner membrane protein ylaC n=4 Tax=Yersini...  108     3e-27 
+  UniRef90_D2TYJ3 Uncharacterized protein n=1 Tax=Arsenophonus na...  107     4e-27 
+  UniRef90_A0A377TM27 Inner membrane protein n=1 Tax=Klebsiella p...  104     8e-27 
+  UniRef90_A0A085GB30 Uncharacterized protein n=2 Tax=Ewingella a...  106     2e-26 
+  UniRef90_A0A384LA21 Inner membrane protein ylaC n=34 Tax=Yersin...  106     2e-26 
+  UniRef90_A0A198GI97 Uncharacterized protein n=1 Tax=Cosenzaea m...  106     2e-26 
+  UniRef90_A0A0T9TPU6 Inner membrane protein ylaC n=4 Tax=Yersini...  103     2e-25 
+  UniRef90_A0A0Q4M5H7 Uncharacterized protein n=2 Tax=Yersiniacea...  102     1e-24 
+  UniRef90_A0A2S5K8R5 Uncharacterized protein n=2 Tax=Pantoea Tax...  100     2e-24 
+  UniRef90_UPI00037E1771 hypothetical protein n=1 Tax=Pantoea sp....  99.4    8e-24 
+  UniRef90_A0A3B0LXQ7 Inner membrane protein YlaC n=1 Tax=Arsenop...  97.8    4e-23 
+  UniRef90_A0A0F3LZK8 Uncharacterized protein n=6 Tax=Enterobacte...  97.4    4e-23 
+  UniRef90_A0A383K902 Inner membrane protein n=10 Tax=Enterobacte...  94.4    1e-21 
+  UniRef90_A0A2M9W6Z5 Uncharacterized protein n=1 Tax=Pantoea rod...  93.6    2e-21 
+  UniRef90_UPI00057E8FF4 hypothetical protein n=2 Tax=Enterobacte...  92.8    3e-21 
+  UniRef90_A0A2P5ILC3 Uncharacterized protein n=6 Tax=Erwiniaceae...  92.4    4e-21 
+  UniRef90_A0A1X1D9F5 Uncharacterized protein n=1 Tax=Pantoea wal...  90.1    3e-20 
+  UniRef90_UPI000A0530E8 hypothetical protein n=1 Tax=Pantoea sep...  89.4    2e-19 
+  UniRef90_A0A1V9DAC5 Uncharacterized protein n=1 Tax=Pantoea lat...  87.8    2e-19 
+  UniRef90_A0A3N4NTM4 Uncharacterized protein n=1 Tax=Pantoea sp....  87.0    4e-19 
+  UniRef90_A0A0E1L441 Uncharacterized protein n=1 Tax=Escherichia...  82.0    3e-18 
+  UniRef90_UPI0009ADF4A1 hypothetical protein n=1 Tax=Yersinia pe...  80.9    7e-17 
+  UniRef90_A0A377A500 Inner membrane protein n=1 Tax=Escherichia ...  78.2    8e-17 
+  UniRef90_A0A1Q5TFR5 Membrane protein n=1 Tax=Xenorhabdus eapoke...  79.7    8e-17 
+  UniRef90_A0A1W6B6W8 Uncharacterized protein n=1 Tax=Pantoea alh...  79.0    6e-16 
+  UniRef90_A0A377TP71 Inner membrane protein n=1 Tax=Klebsiella p...  67.8    1e-12 
+  UniRef90_A0A2A2HQ46 Uncharacterized protein n=1 Tax=Arsenophonu...  62.4    3e-10 
+  UniRef90_A0A1W9F0I0 Membrane protein (Fragment) n=1 Tax=Serrati...  60.5    2e-09 
+  UniRef90_A0A378F7W8 Inner membrane protein n=1 Tax=Klebsiella p...  54.7    1e-07 
+  UniRef90_A0A383M9N3 Inner membrane protein ylaC n=1 Tax=Acineto...  54.3    3e-07 
+  UniRef90_A0A0L8QDR5 Phosphoesterase (Fragment) n=2 Tax=Streptom...  41.2    0.25  
+  UniRef90_R4Z1D9 Uncharacterized protein n=2 Tax=Candidatus Micr...  40.8    0.25  
+  UniRef90_A0A1G2WQE1 Uncharacterized protein n=1 Tax=Planctomyce...  39.7    0.86  
+  UniRef90_A0A261AZE6 Uncharacterized protein (Fragment) n=2 Tax=...  37.4    4.0   
+  UniRef90_W6LSA8 Putative Calcium/calmodulin-dependent protein k...  36.6    9.2   
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.141    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 741284556122
+Warning: [psiblast] lcl|Query_1 NP_414991.4: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414991.4
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_R9VQT2 Membrane protein n=7 Tax=Enterobacteriaceae Tax...  248     2e-82
+  UniRef90_A0A090UR33 Uncharacterized protein n=39 Tax=Enterobact...  247     3e-82
+  UniRef90_A0A1C4FD72 Inner membrane protein YlaC n=8 Tax=Enterob...  247     4e-82
+  UniRef90_D2TLT4 Putative membrane protein n=2 Tax=Citrobacter T...  246     6e-82
+  UniRef90_P0AAS1 Inner membrane protein YlaC n=193 Tax=Proteobac...  246     1e-81
+  UniRef90_A0A0A1A1N2 Inner membrane protein YlaC n=130 Tax=root ...  246     1e-81
+  UniRef90_A0A381G3T1 Inner membrane protein ylaC n=13 Tax=Gammap...  245     2e-81
+  UniRef90_B7LLR1 Uncharacterized protein n=3 Tax=Escherichia fer...  245     2e-81
+  UniRef90_A0A1I6DE38 Inner membrane protein YlaC n=1 Tax=Enterob...  244     4e-81
+  UniRef90_V5B2R0 Inner membrane protein ylaC n=5 Tax=Enterobacte...  245     5e-81
+  UniRef90_A0A090V1A6 Uncharacterized protein n=4 Tax=Enterobacte...  244     6e-81
+  UniRef90_A0A2S4S0C5 Uncharacterized protein n=1 Tax=Citrobacter...  243     2e-80
+  UniRef90_A0A1N6TT22 Inner membrane protein YlaC n=2 Tax=Enterob...  241     1e-79
+  UniRef90_A0A0K2NZL3 Uncharacterized protein n=7 Tax=Cronobacter...  240     2e-79
+  UniRef90_G9Z4N0 Uncharacterized protein n=5 Tax=Enterobacteriac...  239     4e-79
+  UniRef90_A0A291DV32 Inner membrane protein ylaC n=9 Tax=cellula...  239     6e-79
+  UniRef90_A0A1B7HUF1 Putative inner membrane protein n=10 Tax=Bu...  237     2e-78
+  UniRef90_A0A0K4NH80 Inner membrane protein n=13 Tax=Escherichia...  237     4e-78
+  UniRef90_A0A163Z2W8 Inner membrane protein n=39 Tax=Enterobacte...  236     5e-78
+  UniRef90_A0A2X3E6N7 Inner membrane protein ylaC n=5 Tax=Kluyver...  236     6e-78
+  UniRef90_A0A0W2NSQ9 Uncharacterized protein n=6 Tax=Enterobacte...  235     1e-77
+  UniRef90_A0A1Y6GPU5 Inner membrane protein ylaC n=12 Tax=Entero...  235     1e-77
+  UniRef90_UPI000EB10EBA hypothetical protein n=1 Tax=Enterobacte...  235     2e-77
+  UniRef90_UPI0003158F31 membrane protein n=1 Tax=Metakosakonia m...  234     5e-77
+  UniRef90_UPI000786A7D7 hypothetical protein n=2 Tax=Kluyvera Ta...  232     2e-76
+  UniRef90_A0A285JNY1 Inner membrane protein YlaC n=3 Tax=Enterob...  231     6e-76
+  UniRef90_A0A127L6V8 Extracytoplasmic function sigma factor YlaC...  231     7e-76
+  UniRef90_A0A379SDG2 Inner membrane protein n=147 Tax=Bacteria T...  231     8e-76
+  UniRef90_A0A089PQI1 Membrane protein n=4 Tax=Pluralibacter gerg...  230     1e-75
+  UniRef90_A0A0J9BI10 Membrane protein n=2 Tax=unclassified Erwin...  230     2e-75
+  UniRef90_UPI000F684D87 hypothetical protein n=1 Tax=Erwinia sp....  230     4e-75
+  UniRef90_B2VGE7 Putative inner membrane protein YlaC n=2 Tax=Er...  230     4e-75
+  UniRef90_A0A014N863 Membrane protein n=1 Tax=Erwinia mallotivor...  229     4e-75
+  UniRef90_D4HVF0 Inner membrane protein ylaC n=9 Tax=Erwinia Tax...  228     8e-75
+  UniRef90_A0A0M3FAF4 Membrane protein n=8 Tax=Enterobacteriaceae...  228     9e-75
+  UniRef90_UPI00082E2799 hypothetical protein n=1 Tax=Erwinia sp....  228     1e-74
+  UniRef90_A0A336PZP5 Inner membrane protein ylaC n=7 Tax=Enterob...  228     1e-74
+  UniRef90_A0A2S9IDB3 Uncharacterized protein n=2 Tax=Erwiniaceae...  228     1e-74
+  UniRef90_D8MWY8 Uncharacterized protein n=1 Tax=Erwinia billing...  228     1e-74
+  UniRef90_UPI0009E5A365 hypothetical protein n=1 Tax=Erwinia sp....  229     1e-74
+  UniRef90_A0A0J4M7R9 Inner membrane protein n=83 Tax=Enterobacte...  228     1e-74
+  UniRef90_A8AJY8 Uncharacterized protein n=2 Tax=Citrobacter kos...  228     2e-74
+  UniRef90_A0A2K1QBP9 Uncharacterized protein n=3 Tax=Erwiniaceae...  228     2e-74
+  UniRef90_A0A0L0H2Q9 Membrane protein n=2 Tax=Trabulsiella TaxID...  227     2e-74
+  UniRef90_A0A0A3Z6H6 Membrane protein n=1 Tax=Erwinia typographi...  227     4e-74
+  UniRef90_A0A0J8VUT8 Membrane protein n=3 Tax=Franconibacter Tax...  226     7e-74
+  UniRef90_A0A0L0AL67 Membrane protein n=2 Tax=Enterobacteriaceae...  225     2e-73
+  UniRef90_UPI000469EFCC membrane protein n=1 Tax=Pantoea sp. IMH...  225     2e-73
+  UniRef90_UPI00077B756B hypothetical protein n=1 Tax=Enterobacte...  225     2e-73
+  UniRef90_UPI000A041627 hypothetical protein n=1 Tax=Tatumella m...  226     2e-73
+  UniRef90_UPI00073D5049 hypothetical protein n=1 Tax=[Erwinia] t...  225     3e-73
+  UniRef90_A0A376E6E8 Inner membrane protein ylaC n=24 Tax=Cronob...  225     3e-73
+  UniRef90_A0A1I4VYS1 Inner membrane protein YlaC n=2 Tax=Izhakie...  224     5e-73
+  UniRef90_A0A1X0X7T8 Uncharacterized protein n=10 Tax=Enterobact...  223     8e-73
+  UniRef90_K8A0U6 Putative inner membrane protein n=1 Tax=Cronoba...  223     1e-72
+  UniRef90_A0A2N5ETK1 Uncharacterized protein n=1 Tax=Yersiniacea...  223     1e-72
+  UniRef90_I2BBN2 Putative membrane protein YlaC n=1 Tax=Shimwell...  223     1e-72
+  UniRef90_A0A1Y0L4H2 Uncharacterized protein n=1 Tax=Tatumella c...  222     3e-72
+  UniRef90_A0A3N6RZ70 Uncharacterized protein n=1 Tax=Erwinia psi...  222     3e-72
+  UniRef90_A0A3N1I581 Inner membrane protein YlaC n=2 Tax=Enterob...  222     3e-72
+  UniRef90_L0M7L8 Extracytoplasmic function sigma factor YlaC n=2...  221     4e-72
+  UniRef90_A0A0D1KB44 Membrane protein n=3 Tax=Enterobacteriaceae...  221     6e-72
+  UniRef90_UPI000FE32AD9 hypothetical protein n=1 Tax=Pantoea sp....  221     6e-72
+  UniRef90_UPI000DEF1356 hypothetical protein n=1 Tax=Rahnella sp...  221     7e-72
+  UniRef90_G5RRM1 Putative inner membrane protein n=8 Tax=Salmone...  221     8e-72
+  UniRef90_A0A0J5FM33 Membrane protein n=1 Tax=Xenorhabdus khoisa...  221     1e-71
+  UniRef90_A0A2J9E2K2 Uncharacterized protein n=6 Tax=Erwiniaceae...  220     1e-71
+  UniRef90_A0A0M0T8E5 Membrane protein n=1 Tax=Xenorhabdus sp. GD...  221     1e-71
+  UniRef90_UPI000370DCF0 hypothetical protein n=1 Tax=Enterobacte...  220     2e-71
+  UniRef90_A0A0Q4NER8 Uncharacterized protein n=1 Tax=Erwinia sp....  220     3e-71
+  UniRef90_E1SE89 Inner membrane protein ylaC n=14 Tax=Erwiniacea...  220     3e-71
+  UniRef90_A0A068QTU7 Putative membrane protein n=5 Tax=Xenorhabd...  220     4e-71
+  UniRef90_A0A246NLK0 Uncharacterized protein n=2 Tax=Pantoea Tax...  219     4e-71
+  UniRef90_A0A0L7TFK2 Membrane protein n=1 Tax=Erwinia iniecta Ta...  219     4e-71
+  UniRef90_A0A2D0LDG4 Membrane protein n=1 Tax=Xenorhabdus kozodo...  219     5e-71
+  UniRef90_A0A1I3HT83 Inner membrane protein YlaC n=1 Tax=Xenorha...  219     6e-71
+  UniRef90_A0A1I7EXC4 Inner membrane protein YlaC n=1 Tax=Xenorha...  219     7e-71
+  UniRef90_UPI000F67E687 hypothetical protein n=1 Tax=Atlantibact...  218     7e-71
+  UniRef90_D4GN03 YlaC n=18 Tax=Erwiniaceae TaxID=1903409 RepID=D...  219     1e-70
+  UniRef90_W1J3G1 Putative membrane protein n=1 Tax=Xenorhabdus s...  218     1e-70
+  UniRef90_UPI0004E10785 membrane protein n=1 Tax=Siccibacter col...  218     1e-70
+  UniRef90_K8WF28 Uncharacterized protein n=1 Tax=Providencia sne...  218     1e-70
+  UniRef90_A0A2P8VP31 Uncharacterized protein n=2 Tax=Enterobacte...  218     1e-70
+  UniRef90_A0A2G8EC88 Uncharacterized protein n=1 Tax=Erwinia sp....  218     1e-70
+  UniRef90_A0A0K0HQB4 inner membrane protein YlaC n=12 Tax=Entero...  218     1e-70
+  UniRef90_A0A2I0FYS7 Uncharacterized protein n=1 Tax=Enterobacte...  218     1e-70
+  UniRef90_A0A1J0E5A0 Uncharacterized protein n=1 Tax=Providencia...  218     1e-70
+  UniRef90_A0A379FT09 Inner membrane protein ylaC n=7 Tax=Provide...  218     2e-70
+  UniRef90_A0A2G0Q6A4 Membrane protein n=1 Tax=Xenorhabdus homini...  218     2e-70
+  UniRef90_J2U7I7 Extracytoplasmic function sigma factor YlaC n=1...  217     2e-70
+  UniRef90_B6XAZ2 Uncharacterized protein n=6 Tax=cellular organi...  218     2e-70
+  UniRef90_A0A2D0KCJ3 Membrane protein n=1 Tax=Xenorhabdus ishiba...  218     3e-70
+  UniRef90_E6WD16 Extracytoplasmic function sigma factor YlaC n=3...  217     3e-70
+  UniRef90_UPI00034D09C9 membrane protein n=1 Tax=Erwinia toletan...  216     6e-70
+  UniRef90_E3G6B8 Extracytoplasmic function sigma factor YlaC n=2...  215     1e-69
+  UniRef90_A0A1S1HU64 Uncharacterized protein n=1 Tax=Providencia...  216     2e-69
+  UniRef90_A0A1B8YGF8 Inner membrane protein YlaC n=4 Tax=Photorh...  215     2e-69
+  UniRef90_A0A240BU46 Inner membrane protein ylaC n=1 Tax=Serrati...  215     2e-69
+  UniRef90_D4E7S8 Uncharacterized protein n=1 Tax=Serratia odorif...  215     2e-69
+  UniRef90_A0A068R3E4 Putative membrane protein n=1 Tax=Xenorhabd...  215     3e-69
+  UniRef90_A0A0F7HEB0 Membrane protein n=13 Tax=Yersiniaceae TaxI...  215     3e-69
+  UniRef90_UPI0009BED5F6 hypothetical protein n=1 Tax=Citrobacter...  214     4e-69
+  UniRef90_A0A0R4FLM1 Putative membrane protein n=4 Tax=Xenorhabd...  215     4e-69
+  UniRef90_A0A083ZWI4 Inner membrane protein YlaC n=2 Tax=Serrati...  215     4e-69
+  UniRef90_A0A1S8CQE1 Uncharacterized protein n=1 Tax=Serratia or...  214     5e-69
+  UniRef90_Q7N5U3 Uncharacterized protein n=14 Tax=Photorhabdus T...  214     5e-69
+  UniRef90_A0A250AVY8 Uncharacterized protein n=2 Tax=Gibbsiella ...  213     9e-69
+  UniRef90_A4W7E2 Putative inner membrane protein n=7 Tax=Enterob...  213     1e-68
+  UniRef90_A0A379GZ31 Inner membrane protein ylaC n=4 Tax=Gammapr...  213     1e-68
+  UniRef90_D1NZT2 Uncharacterized protein n=4 Tax=Providencia rus...  213     1e-68
+  UniRef90_A0A1Y2SPX5 Membrane protein n=4 Tax=Xenorhabdus TaxID=...  215     1e-68
+  UniRef90_D3V2R7 Putative membrane protein n=10 Tax=Xenorhabdus ...  213     2e-68
+  UniRef90_A0A087L5N2 Membrane protein n=1 Tax=Serratia sp. Ag1 T...  213     2e-68
+  UniRef90_UPI0003A4BF73 membrane protein n=1 Tax=Dickeya dianthi...  212     2e-68
+  UniRef90_A0A385XZB5 Inner membrane protein YlaC n=3 Tax=Dickeya...  212     2e-68
+  UniRef90_A0A2X5BV26 Inner membrane protein ylaC n=6 Tax=Serrati...  212     3e-68
+  UniRef90_A0A356D7W0 Uncharacterized protein n=1 Tax=Providencia...  212     3e-68
+  UniRef90_A0A375A8D5 Inner membrane protein n=1 Tax=Dickeya aqua...  212     4e-68
+  UniRef90_UPI000DD42D4F hypothetical protein n=2 Tax=Rahnella Ta...  212     4e-68
+  UniRef90_D2BS14 Extracytoplasmic function sigma factor YlaC n=9...  211     8e-68
+  UniRef90_A0A2D0J4G3 Membrane protein n=2 Tax=Xenorhabdus budape...  213     9e-68
+  UniRef90_W1J6K4 Inner membrane protein ylaC n=3 Tax=Xenorhabdus...  211     9e-68
+  UniRef90_K8X1D3 Uncharacterized protein n=1 Tax=Providencia bur...  211     1e-67
+  UniRef90_A0A1G5Q994 Inner membrane protein YlaC n=1 Tax=Photorh...  211     1e-67
+  UniRef90_UPI0005D3F1C7 membrane protein n=1 Tax=Rouxiella chamb...  211     1e-67
+  UniRef90_A0A1B7K0A1 Putative membrane protein n=1 Tax=Providenc...  210     1e-67
+  UniRef90_C7BPK5 Putative inner membrane protein ylac n=3 Tax=Ph...  210     2e-67
+  UniRef90_A0A2L1UQN6 Uncharacterized protein n=1 Tax=Rahnella sp...  210     2e-67
+  UniRef90_A0A1N6MVW2 Putative membrane protein n=4 Tax=Xenorhabd...  210     2e-67
+  UniRef90_A0A0G3SKE2 Inner membrane protein ylaC n=25 Tax=cellul...  210     3e-67
+  UniRef90_A0A071LV36 Membrane protein n=3 Tax=Mangrovibacter Tax...  209     3e-67
+  UniRef90_A0A085GB30 Uncharacterized protein n=2 Tax=Ewingella a...  209     3e-67
+  UniRef90_W7P1M3 Inner membrane protein YlaC n=30 Tax=Enterobact...  209     3e-67
+  UniRef90_F5RUX0 Inner membrane protein YlaC n=43 Tax=Enterobact...  209     4e-67
+  UniRef90_A0A1X0WG42 Uncharacterized protein n=1 Tax=Rouxiella b...  209     5e-67
+  UniRef90_UPI000948D105 hypothetical protein n=1 Tax=Pantoea sp....  209     6e-67
+  UniRef90_A0A0Q4ML24 Uncharacterized protein n=2 Tax=Yersiniacea...  208     8e-67
+  UniRef90_W0LJN3 Membrane protein n=1 Tax=Chania multitudinisent...  208     9e-67
+  UniRef90_H2IUZ1 Extracytoplasmic function sigma factor YlaC n=9...  208     1e-66
+  UniRef90_UPI000F658439 hypothetical protein n=1 Tax=Dickeya sp....  208     2e-66
+  UniRef90_A0A1B1KPE1 Inner membrane protein YlaC n=18 Tax=Yersin...  208     2e-66
+  UniRef90_E0SKF3 Putative membrane protein n=11 Tax=Dickeya TaxI...  207     2e-66
+  UniRef90_A0A085U942 Inner membrane protein ylaC n=5 Tax=Yersini...  207     2e-66
+  UniRef90_A0A2N5ECV2 Uncharacterized protein n=2 Tax=unclassifie...  207     3e-66
+  UniRef90_A0A0B2T4K8 Membrane protein n=1 Tax=Pectobacterium car...  207     4e-66
+  UniRef90_A0A181CV95 Membrane protein n=63 Tax=Bacteria TaxID=2 ...  206     4e-66
+  UniRef90_A0A2I5TIY9 Uncharacterized protein n=1 Tax=Serratia sp...  206     4e-66
+  UniRef90_A0A0M9D192 Uncharacterized protein n=1 Tax=Photorhabdu...  206     6e-66
+  UniRef90_I0QQN0 Extracytoplasmic function sigma factor YlaC n=1...  206     6e-66
+  UniRef90_A0A0U5L9N5 Membrane protein n=1 Tax=Erwinia gerundensi...  204     2e-65
+  UniRef90_A0A0T9KVM5 Inner membrane protein ylaC n=2 Tax=Yersini...  204     7e-65
+  UniRef90_A0A0G4Q3S6 Inner membrane protein YlaC n=17 Tax=Entero...  203     2e-64
+  UniRef90_A0A2X1T3M9 Inner membrane protein ylaC n=15 Tax=Bacter...  201     5e-64
+  UniRef90_G7LU68 Extracytoplasmic function sigma factor YlaC n=3...  200     1e-63
+  UniRef90_A0A1B7JDG6 Uncharacterized protein n=2 Tax=Proteus Tax...  200     2e-63
+  UniRef90_A0A0N0Z779 Putative membrane protein n=2 Tax=Moellerel...  198     7e-63
+  UniRef90_A0A1B8HJI8 Uncharacterized protein n=4 Tax=Morganella ...  198     2e-62
+  UniRef90_A0A198GI97 Uncharacterized protein n=1 Tax=Cosenzaea m...  196     6e-62
+  UniRef90_A0A378CWH9 Inner membrane protein n=2 Tax=Klebsiella T...  196     1e-61
+  UniRef90_A0A0T9SSI7 Inner membrane protein ylaC n=32 Tax=Yersin...  194     5e-61
+  UniRef90_A0A0H5LQT4 Inner membrane protein ylaC n=8 Tax=Yersini...  194     6e-61
+  UniRef90_A0A0T9TEA5 Inner membrane protein ylaC n=7 Tax=Yersini...  194     6e-61
+  UniRef90_A0A384LA21 Inner membrane protein ylaC n=34 Tax=Yersin...  193     1e-60
+  UniRef90_A0A3A8UPR0 Uncharacterized protein (Fragment) n=2 Tax=...  191     1e-60
+  UniRef90_A0A0T9LYP7 Inner membrane protein ylaC n=7 Tax=Yersini...  193     1e-60
+  UniRef90_A0A0T9NZC3 Inner membrane protein ylaC n=1 Tax=Yersini...  193     2e-60
+  UniRef90_A0A0Q4M5H7 Uncharacterized protein n=2 Tax=Yersiniacea...  191     4e-60
+  UniRef90_UPI0006ACB956 hypothetical protein n=1 Tax=Cronobacter...  190     6e-60
+  UniRef90_C6C999 Uncharacterized protein n=1 Tax=Dickeya paradis...  191     6e-60
+  UniRef90_A0A0U1HSQ7 Inner membrane protein ylaC n=4 Tax=Yersini...  190     2e-59
+  UniRef90_A0A0T9TPU6 Inner membrane protein ylaC n=4 Tax=Yersini...  189     4e-59
+  UniRef90_C6DA21 Uncharacterized protein n=47 Tax=Pectobacterium...  184     2e-57
+  UniRef90_D2TYJ3 Uncharacterized protein n=1 Tax=Arsenophonus na...  184     3e-57
+  UniRef90_A0A383K902 Inner membrane protein n=10 Tax=Enterobacte...  183     1e-56
+  UniRef90_A0A3B0LXQ7 Inner membrane protein YlaC n=1 Tax=Arsenop...  175     9e-54
+  UniRef90_UPI00037E1771 hypothetical protein n=1 Tax=Pantoea sp....  170     7e-52
+  UniRef90_UPI000190E09F hypothetical protein n=1 Tax=Salmonella ...  169     3e-51
+  UniRef90_A0A1X1D9F5 Uncharacterized protein n=1 Tax=Pantoea wal...  169     3e-51
+  UniRef90_UPI00057E8FF4 hypothetical protein n=2 Tax=Enterobacte...  168     3e-51
+  UniRef90_A0A2P5ILC3 Uncharacterized protein n=6 Tax=Erwiniaceae...  168     4e-51
+  UniRef90_A0A2S5K8R5 Uncharacterized protein n=2 Tax=Pantoea Tax...  168     4e-51
+  UniRef90_UPI000A0530E8 hypothetical protein n=1 Tax=Pantoea sep...  168     3e-50
+  UniRef90_A0A0F3LZK8 Uncharacterized protein n=6 Tax=Enterobacte...  166     4e-50
+  UniRef90_A0A1V9DAC5 Uncharacterized protein n=1 Tax=Pantoea lat...  166     4e-50
+  UniRef90_A0A3N4NTM4 Uncharacterized protein n=1 Tax=Pantoea sp....  165     6e-50
+  UniRef90_A0A2M9W6Z5 Uncharacterized protein n=1 Tax=Pantoea rod...  163     3e-49
+  UniRef90_UPI000D0821A9 hypothetical protein n=1 Tax=Escherichia...  161     7e-49
+  UniRef90_A0A378F7J5 Inner membrane protein n=2 Tax=Klebsiella p...  161     1e-48
+  UniRef90_UPI0009A9AF96 hypothetical protein n=2 Tax=Salmonella ...  158     2e-47
+  UniRef90_A0A0J9BAF2 Uncharacterized protein n=3 Tax=Enterobacte...  154     1e-45
+  UniRef90_A0A140D6C2 Putative inner membrane protein n=1 Tax=gam...  152     2e-45
+  UniRef90_A0A379WYF5 Inner membrane protein n=1 Tax=Salmonella e...  152     6e-45
+  UniRef90_A0A377DW38 Inner membrane protein n=1 Tax=Escherichia ...  151     1e-44
+  UniRef90_A0A1W6B6W8 Uncharacterized protein n=1 Tax=Pantoea alh...  147     5e-43
+  UniRef90_UPI0009ADF4A1 hypothetical protein n=1 Tax=Yersinia pe...  147     6e-43
+  UniRef90_I6H9F9 Inner membrane protein ylaC n=1 Tax=Shigella fl...  133     2e-37
+  UniRef90_A0A376ZNK7 Inner membrane protein n=1 Tax=Escherichia ...  130     1e-36
+  UniRef90_A0A1Q5TFR5 Membrane protein n=1 Tax=Xenorhabdus eapoke...  129     3e-36
+  UniRef90_A0A2X3C1E0 Inner membrane protein n=1 Tax=Klebsiella p...  121     8e-33
+  UniRef90_A0A377A1F7 Inner membrane protein n=1 Tax=Escherichia ...  116     2e-31
+  UniRef90_A0A377TM27 Inner membrane protein n=1 Tax=Klebsiella p...  104     6e-27
+  UniRef90_G5QVU2 Putative inner membrane protein n=1 Tax=Salmone...  99.8    4e-25
+  UniRef90_UPI00097F735A hypothetical protein n=1 Tax=Escherichia...  99.4    9e-25
+  UniRef90_A0A2A2HQ46 Uncharacterized protein n=1 Tax=Arsenophonu...  96.7    1e-23
+  UniRef90_A0A383M9N3 Inner membrane protein ylaC n=1 Tax=Acineto...  91.0    2e-21
+  UniRef90_A0A1W9F0I0 Membrane protein (Fragment) n=1 Tax=Serrati...  89.8    9e-21
+  UniRef90_A0A377TP71 Inner membrane protein n=1 Tax=Klebsiella p...  83.6    7e-19
+  UniRef90_A0A377A500 Inner membrane protein n=1 Tax=Escherichia ...  79.4    3e-17
+  UniRef90_A0A378F7W8 Inner membrane protein n=1 Tax=Klebsiella p...  75.2    1e-15
+  UniRef90_A0A0E1L441 Uncharacterized protein n=1 Tax=Escherichia...  64.0    2e-11
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A358L914 Uncharacterized protein n=1 Tax=Erwinia cit...  54.0    1e-06
+  UniRef90_UPI00068FFC6B phosphodiester glycosidase family protei...  41.3    0.21 
+  UniRef90_A0A103XZQ4 Leucine-rich repeat-containing protein n=2 ...  40.5    0.40 
+  UniRef90_A0A3N4MN94 Phosphatidylethanolamine N-methyltransferas...  40.1    0.55 
+  UniRef90_A0A1J0GKX1 Exopolysaccharide biosynthesis protein n=1 ...  39.7    0.65 
+  UniRef90_R4K4T3 Exopolysaccharide biosynthesis protein n=1 Tax=...  39.7    0.66 
+  UniRef90_E1F107 Dynein heavy chain n=1 Tax=Giardia intestinalis...  39.7    0.90 
+  UniRef90_A0Q3C5 Conserved protein n=6 Tax=Clostridium TaxID=148...  39.0    1.2  
+  UniRef90_A0A2E3ZUS5 tRNA dimethylallyltransferase n=1 Tax=Alpha...  38.2    2.1  
+  UniRef90_A0A1H1LXJ6 Uncharacterized membrane protein HdeD, DUF3...  37.8    2.1  
+  UniRef90_UPI000532EFBC dentin sialophosphoprotein-like n=2 Tax=...  38.6    2.2  
+  UniRef90_M0ZYE3 Uncharacterized protein n=2 Tax=Solanum tuberos...  38.2    2.4  
+  UniRef90_A0A072X226 Uncharacterized protein n=6 Tax=Clostridium...  38.2    2.5  
+  UniRef90_A0A337SKX5 Uncharacterized protein n=9 Tax=Boreoeuther...  38.2    2.5  
+  UniRef90_A0A0A7I7Y6 Membrane protein n=11 Tax=Bifidobacterium p...  37.8    2.7  
+  UniRef90_K4C378 Uncharacterized protein n=1 Tax=Solanum lycoper...  38.2    2.8  
+  UniRef90_A0A379GGG0 Uncharacterized protein n=1 Tax=Proteus mir...  34.7    2.9  
+  UniRef90_A0A0L6Z7Y6 Uncharacterized protein n=1 Tax=Clostridium...  37.8    3.2  
+  UniRef90_A0A1Y5DRT3 Helix-turn-helix transcriptional regulator ...  37.4    3.7  
+  UniRef90_A0A158QXG0 Glucose transporter type 1 (inferred by ort...  37.8    3.8  
+  UniRef90_A0A2P5E9G5 Survival motor neuron n=2 Tax=Cannabaceae T...  37.4    4.3  
+  UniRef90_A0A0L7P6G8 Exopolysaccharide biosynthesis protein n=8 ...  37.4    4.3  
+  UniRef90_A0A2H2ZIZ3 Uncharacterized protein n=1 Tax=Trichoderma...  37.4    4.6  
+  UniRef90_UPI0004840F3D hypothetical protein n=1 Tax=Hungateiclo...  37.0    4.7  
+  UniRef90_A0A0V0HZQ5 Putative ovule protein (Fragment) n=1 Tax=S...  37.4    4.8  
+  UniRef90_A0A368G5L7 Uncharacterized protein (Fragment) n=1 Tax=...  36.3    4.8  
+  UniRef90_A0A059AUQ6 Uncharacterized protein n=1 Tax=Eucalyptus ...  37.0    5.0  
+  UniRef90_UPI000D389282 lipid A export permease/ATP-binding prot...  37.4    5.0  
+  UniRef90_A0A1F5DQ68 Uncharacterized protein n=1 Tax=Candidatus ...  36.7    5.1  
+  UniRef90_F7MLK9 Uncharacterized protein n=1 Tax=Clostridium bot...  35.9    5.2  
+  UniRef90_A0A0G3BQE8 Penicillin-binding protein n=2 Tax=[Polyang...  37.4    5.3  
+  UniRef90_A0A1W1X7P1 Exopolysaccharide biosynthesis protein n=1 ...  37.0    5.7  
+  UniRef90_A0A059ATH5 Uncharacterized protein n=4 Tax=Eucalyptus ...  37.0    5.9  
+  UniRef90_A0A2V6GEW9 Uncharacterized protein n=2 Tax=Verrucomicr...  37.0    6.2  
+  UniRef90_R7CZW9 Phosphatidate cytidylyltransferase n=3 Tax=Coll...  36.7    6.4  
+  UniRef90_UPI000F5C4F03 DUF983 domain-containing protein n=1 Tax...  35.5    7.1  
+  UniRef90_A0A151APN2 Uncharacterized protein n=2 Tax=Clostridium...  36.7    7.3  
+  UniRef90_K7FAM9 CKLF like MARVEL transmembrane domain containin...  36.3    7.6  
+  UniRef90_K0HZA7 Uncharacterized protein n=8 Tax=Acidovorax TaxI...  36.7    7.6  
+  UniRef90_A0A341B8M6 CKLF-like MARVEL transmembrane domain-conta...  36.7    7.7  
+  UniRef90_A0A3P4NFD4 Uncharacterized protein (Fragment) n=1 Tax=...  36.3    7.8  
+  UniRef90_G8TTA4 Uncharacterized protein n=1 Tax=Sulfobacillus a...  36.7    8.0  
+  UniRef90_A0A1S6YD95 NPF family transporter n=1 Tax=Pinus pinast...  36.7    8.4  
+  UniRef90_A0A1B7XLD4 Chromosome segregation protein n=3 Tax=Taml...  36.7    9.1  
+  UniRef90_A0A0N0CN01 Uncharacterized protein n=1 Tax=Photorhabdu...  35.1    9.2  
+  UniRef90_UPI00053F6AFE CKLF-like MARVEL transmembrane domain-co...  36.3    9.3  
+  UniRef90_A0A151ANM5 Uncharacterized protein n=2 Tax=Clostridium...  36.3    9.4  
+  UniRef90_UPI0009EA2A70 TrkH family potassium uptake protein n=1...  36.3    9.5  
+  UniRef90_A0A221MAG8 Uncharacterized protein n=1 Tax=Virgibacill...  36.3    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.166    0.532    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0508    0.140     1.90     42.6     43.6 
+
+Effective search space used: 741284556122
+Results from round 3
+
+
+Query= NP_414991.4
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_R9VQT2 Membrane protein n=7 Tax=Enterobacteriaceae Tax...  242     5e-80
+  UniRef90_A0A090UR33 Uncharacterized protein n=39 Tax=Enterobact...  241     9e-80
+  UniRef90_A0A1C4FD72 Inner membrane protein YlaC n=8 Tax=Enterob...  241     1e-79
+  UniRef90_D2TLT4 Putative membrane protein n=2 Tax=Citrobacter T...  240     2e-79
+  UniRef90_A0A381G3T1 Inner membrane protein ylaC n=13 Tax=Gammap...  238     9e-79
+  UniRef90_A0A0A1A1N2 Inner membrane protein YlaC n=130 Tax=root ...  238     1e-78
+  UniRef90_P0AAS1 Inner membrane protein YlaC n=193 Tax=Proteobac...  238     1e-78
+  UniRef90_B7LLR1 Uncharacterized protein n=3 Tax=Escherichia fer...  238     1e-78
+  UniRef90_A0A1I6DE38 Inner membrane protein YlaC n=1 Tax=Enterob...  238     2e-78
+  UniRef90_A0A090V1A6 Uncharacterized protein n=4 Tax=Enterobacte...  238     2e-78
+  UniRef90_V5B2R0 Inner membrane protein ylaC n=5 Tax=Enterobacte...  238     2e-78
+  UniRef90_A0A2S4S0C5 Uncharacterized protein n=1 Tax=Citrobacter...  236     6e-78
+  UniRef90_A0A291DV32 Inner membrane protein ylaC n=9 Tax=cellula...  235     2e-77
+  UniRef90_G9Z4N0 Uncharacterized protein n=5 Tax=Enterobacteriac...  235     2e-77
+  UniRef90_A0A1N6TT22 Inner membrane protein YlaC n=2 Tax=Enterob...  234     4e-77
+  UniRef90_A0A0K2NZL3 Uncharacterized protein n=7 Tax=Cronobacter...  234     7e-77
+  UniRef90_A0A1B7HUF1 Putative inner membrane protein n=10 Tax=Bu...  233     1e-76
+  UniRef90_A0A163Z2W8 Inner membrane protein n=39 Tax=Enterobacte...  232     2e-76
+  UniRef90_B2VGE7 Putative inner membrane protein YlaC n=2 Tax=Er...  233     2e-76
+  UniRef90_A0A2X3E6N7 Inner membrane protein ylaC n=5 Tax=Kluyver...  232     2e-76
+  UniRef90_A0A0J9BI10 Membrane protein n=2 Tax=unclassified Erwin...  232     3e-76
+  UniRef90_A0A1Y6GPU5 Inner membrane protein ylaC n=12 Tax=Entero...  231     4e-76
+  UniRef90_A0A014N863 Membrane protein n=1 Tax=Erwinia mallotivor...  232     4e-76
+  UniRef90_D4HVF0 Inner membrane protein ylaC n=9 Tax=Erwinia Tax...  231     5e-76
+  UniRef90_UPI00082E2799 hypothetical protein n=1 Tax=Erwinia sp....  231     9e-76
+  UniRef90_UPI000F684D87 hypothetical protein n=1 Tax=Erwinia sp....  231     1e-75
+  UniRef90_A0A0W2NSQ9 Uncharacterized protein n=6 Tax=Enterobacte...  230     1e-75
+  UniRef90_UPI0009E5A365 hypothetical protein n=1 Tax=Erwinia sp....  231     2e-75
+  UniRef90_A0A2S9IDB3 Uncharacterized protein n=2 Tax=Erwiniaceae...  230     2e-75
+  UniRef90_A0A0A3Z6H6 Membrane protein n=1 Tax=Erwinia typographi...  230     2e-75
+  UniRef90_A0A2K1QBP9 Uncharacterized protein n=3 Tax=Erwiniaceae...  229     4e-75
+  UniRef90_UPI000EB10EBA hypothetical protein n=1 Tax=Enterobacte...  229     5e-75
+  UniRef90_A0A0K4NH80 Inner membrane protein n=13 Tax=Escherichia...  229     6e-75
+  UniRef90_D8MWY8 Uncharacterized protein n=1 Tax=Erwinia billing...  229     6e-75
+  UniRef90_UPI000786A7D7 hypothetical protein n=2 Tax=Kluyvera Ta...  228     1e-74
+  UniRef90_UPI0003158F31 membrane protein n=1 Tax=Metakosakonia m...  228     2e-74
+  UniRef90_A0A285JNY1 Inner membrane protein YlaC n=3 Tax=Enterob...  228     2e-74
+  UniRef90_UPI000469EFCC membrane protein n=1 Tax=Pantoea sp. IMH...  227     3e-74
+  UniRef90_A0A089PQI1 Membrane protein n=4 Tax=Pluralibacter gerg...  225     2e-73
+  UniRef90_A0A3N6RZ70 Uncharacterized protein n=1 Tax=Erwinia psi...  225     3e-73
+  UniRef90_A0A0J4M7R9 Inner membrane protein n=83 Tax=Enterobacte...  224     5e-73
+  UniRef90_A0A127L6V8 Extracytoplasmic function sigma factor YlaC...  224     5e-73
+  UniRef90_A0A379SDG2 Inner membrane protein n=147 Tax=Bacteria T...  224     5e-73
+  UniRef90_UPI000FE32AD9 hypothetical protein n=1 Tax=Pantoea sp....  224     6e-73
+  UniRef90_A0A0L0H2Q9 Membrane protein n=2 Tax=Trabulsiella TaxID...  223     7e-73
+  UniRef90_A0A1I4VYS1 Inner membrane protein YlaC n=2 Tax=Izhakie...  224     7e-73
+  UniRef90_A0A2N5ETK1 Uncharacterized protein n=1 Tax=Yersiniacea...  224     7e-73
+  UniRef90_A0A0M3FAF4 Membrane protein n=8 Tax=Enterobacteriaceae...  223     2e-72
+  UniRef90_UPI000DEF1356 hypothetical protein n=1 Tax=Rahnella sp...  223     2e-72
+  UniRef90_UPI000A041627 hypothetical protein n=1 Tax=Tatumella m...  224     2e-72
+  UniRef90_A0A0J8VUT8 Membrane protein n=3 Tax=Franconibacter Tax...  223     3e-72
+  UniRef90_A0A336PZP5 Inner membrane protein ylaC n=7 Tax=Enterob...  222     3e-72
+  UniRef90_A0A0L0AL67 Membrane protein n=2 Tax=Enterobacteriaceae...  222     4e-72
+  UniRef90_A0A0Q4NER8 Uncharacterized protein n=1 Tax=Erwinia sp....  222     4e-72
+  UniRef90_E1SE89 Inner membrane protein ylaC n=14 Tax=Erwiniacea...  221     4e-72
+  UniRef90_A8AJY8 Uncharacterized protein n=2 Tax=Citrobacter kos...  222     4e-72
+  UniRef90_A0A0L7TFK2 Membrane protein n=1 Tax=Erwinia iniecta Ta...  221     6e-72
+  UniRef90_A0A2J9E2K2 Uncharacterized protein n=6 Tax=Erwiniaceae...  221     1e-71
+  UniRef90_A0A2I0FYS7 Uncharacterized protein n=1 Tax=Enterobacte...  221     1e-71
+  UniRef90_UPI00034D09C9 membrane protein n=1 Tax=Erwinia toletan...  220     1e-71
+  UniRef90_A0A0M0T8E5 Membrane protein n=1 Tax=Xenorhabdus sp. GD...  221     1e-71
+  UniRef90_A0A1Y0L4H2 Uncharacterized protein n=1 Tax=Tatumella c...  220     1e-71
+  UniRef90_D4GN03 YlaC n=18 Tax=Erwiniaceae TaxID=1903409 RepID=D...  221     1e-71
+  UniRef90_UPI00073D5049 hypothetical protein n=1 Tax=[Erwinia] t...  220     2e-71
+  UniRef90_A0A0J5FM33 Membrane protein n=1 Tax=Xenorhabdus khoisa...  220     2e-71
+  UniRef90_A0A2D0LDG4 Membrane protein n=1 Tax=Xenorhabdus kozodo...  220     2e-71
+  UniRef90_UPI00077B756B hypothetical protein n=1 Tax=Enterobacte...  220     2e-71
+  UniRef90_A0A068QTU7 Putative membrane protein n=5 Tax=Xenorhabd...  220     2e-71
+  UniRef90_A0A376E6E8 Inner membrane protein ylaC n=24 Tax=Cronob...  220     2e-71
+  UniRef90_A0A246NLK0 Uncharacterized protein n=2 Tax=Pantoea Tax...  220     2e-71
+  UniRef90_K8WF28 Uncharacterized protein n=1 Tax=Providencia sne...  220     3e-71
+  UniRef90_K8A0U6 Putative inner membrane protein n=1 Tax=Cronoba...  219     5e-71
+  UniRef90_A0A2G8EC88 Uncharacterized protein n=1 Tax=Erwinia sp....  219     5e-71
+  UniRef90_A0A2G0Q6A4 Membrane protein n=1 Tax=Xenorhabdus homini...  219     6e-71
+  UniRef90_A0A2D0KCJ3 Membrane protein n=1 Tax=Xenorhabdus ishiba...  219     8e-71
+  UniRef90_A0A0D1KB44 Membrane protein n=3 Tax=Enterobacteriaceae...  218     9e-71
+  UniRef90_A0A1X0X7T8 Uncharacterized protein n=10 Tax=Enterobact...  218     1e-70
+  UniRef90_D4E7S8 Uncharacterized protein n=1 Tax=Serratia odorif...  218     1e-70
+  UniRef90_W1J3G1 Putative membrane protein n=1 Tax=Xenorhabdus s...  218     1e-70
+  UniRef90_I2BBN2 Putative membrane protein YlaC n=1 Tax=Shimwell...  218     1e-70
+  UniRef90_J2U7I7 Extracytoplasmic function sigma factor YlaC n=1...  218     1e-70
+  UniRef90_E6WD16 Extracytoplasmic function sigma factor YlaC n=3...  218     2e-70
+  UniRef90_A0A1J0E5A0 Uncharacterized protein n=1 Tax=Providencia...  218     2e-70
+  UniRef90_A0A1I7EXC4 Inner membrane protein YlaC n=1 Tax=Xenorha...  218     2e-70
+  UniRef90_A0A3N1I581 Inner membrane protein YlaC n=2 Tax=Enterob...  217     2e-70
+  UniRef90_A0A1S1HU64 Uncharacterized protein n=1 Tax=Providencia...  218     2e-70
+  UniRef90_A0A379FT09 Inner membrane protein ylaC n=7 Tax=Provide...  217     3e-70
+  UniRef90_A0A379GZ31 Inner membrane protein ylaC n=4 Tax=Gammapr...  217     5e-70
+  UniRef90_L0M7L8 Extracytoplasmic function sigma factor YlaC n=2...  216     6e-70
+  UniRef90_UPI000F67E687 hypothetical protein n=1 Tax=Atlantibact...  216     6e-70
+  UniRef90_B6XAZ2 Uncharacterized protein n=6 Tax=cellular organi...  216     6e-70
+  UniRef90_A0A1I3HT83 Inner membrane protein YlaC n=1 Tax=Xenorha...  216     7e-70
+  UniRef90_A0A1B8YGF8 Inner membrane protein YlaC n=4 Tax=Photorh...  216     7e-70
+  UniRef90_A0A240BU46 Inner membrane protein ylaC n=1 Tax=Serrati...  216     9e-70
+  UniRef90_Q7N5U3 Uncharacterized protein n=14 Tax=Photorhabdus T...  216     1e-69
+  UniRef90_A0A0R4FLM1 Putative membrane protein n=4 Tax=Xenorhabd...  215     1e-69
+  UniRef90_A0A068R3E4 Putative membrane protein n=1 Tax=Xenorhabd...  215     2e-69
+  UniRef90_A0A1S8CQE1 Uncharacterized protein n=1 Tax=Serratia or...  215     2e-69
+  UniRef90_A0A083ZWI4 Inner membrane protein YlaC n=2 Tax=Serrati...  215     3e-69
+  UniRef90_A0A0F7HEB0 Membrane protein n=13 Tax=Yersiniaceae TaxI...  215     3e-69
+  UniRef90_UPI000DD42D4F hypothetical protein n=2 Tax=Rahnella Ta...  215     3e-69
+  UniRef90_UPI000370DCF0 hypothetical protein n=1 Tax=Enterobacte...  215     4e-69
+  UniRef90_G5RRM1 Putative inner membrane protein n=8 Tax=Salmone...  214     6e-69
+  UniRef90_UPI0005D3F1C7 membrane protein n=1 Tax=Rouxiella chamb...  214     6e-69
+  UniRef90_D2BS14 Extracytoplasmic function sigma factor YlaC n=9...  213     7e-69
+  UniRef90_UPI0003A4BF73 membrane protein n=1 Tax=Dickeya dianthi...  213     8e-69
+  UniRef90_UPI0004E10785 membrane protein n=1 Tax=Siccibacter col...  213     9e-69
+  UniRef90_A0A385XZB5 Inner membrane protein YlaC n=3 Tax=Dickeya...  213     9e-69
+  UniRef90_A0A087L5N2 Membrane protein n=1 Tax=Serratia sp. Ag1 T...  213     1e-68
+  UniRef90_A0A0K0HQB4 inner membrane protein YlaC n=12 Tax=Entero...  213     1e-68
+  UniRef90_A0A2P8VP31 Uncharacterized protein n=2 Tax=Enterobacte...  213     1e-68
+  UniRef90_D1NZT2 Uncharacterized protein n=4 Tax=Providencia rus...  213     1e-68
+  UniRef90_D3V2R7 Putative membrane protein n=10 Tax=Xenorhabdus ...  213     1e-68
+  UniRef90_A0A1Y2SPX5 Membrane protein n=4 Tax=Xenorhabdus TaxID=...  214     1e-68
+  UniRef90_A0A250AVY8 Uncharacterized protein n=2 Tax=Gibbsiella ...  213     1e-68
+  UniRef90_A0A2D0J4G3 Membrane protein n=2 Tax=Xenorhabdus budape...  215     2e-68
+  UniRef90_A0A1G5Q994 Inner membrane protein YlaC n=1 Tax=Photorh...  213     2e-68
+  UniRef90_A0A2X5BV26 Inner membrane protein ylaC n=6 Tax=Serrati...  213     2e-68
+  UniRef90_E3G6B8 Extracytoplasmic function sigma factor YlaC n=2...  212     2e-68
+  UniRef90_A0A0G3SKE2 Inner membrane protein ylaC n=25 Tax=cellul...  213     2e-68
+  UniRef90_A0A0Q4ML24 Uncharacterized protein n=2 Tax=Yersiniacea...  213     2e-68
+  UniRef90_A0A085GB30 Uncharacterized protein n=2 Tax=Ewingella a...  212     3e-68
+  UniRef90_W1J6K4 Inner membrane protein ylaC n=3 Tax=Xenorhabdus...  212     3e-68
+  UniRef90_K8X1D3 Uncharacterized protein n=1 Tax=Providencia bur...  212     3e-68
+  UniRef90_C7BPK5 Putative inner membrane protein ylac n=3 Tax=Ph...  212     3e-68
+  UniRef90_UPI000948D105 hypothetical protein n=1 Tax=Pantoea sp....  211     5e-68
+  UniRef90_A0A356D7W0 Uncharacterized protein n=1 Tax=Providencia...  211     6e-68
+  UniRef90_A0A375A8D5 Inner membrane protein n=1 Tax=Dickeya aqua...  211     6e-68
+  UniRef90_A0A1X0WG42 Uncharacterized protein n=1 Tax=Rouxiella b...  211     8e-68
+  UniRef90_H2IUZ1 Extracytoplasmic function sigma factor YlaC n=9...  211     9e-68
+  UniRef90_A0A1N6MVW2 Putative membrane protein n=4 Tax=Xenorhabd...  211     1e-67
+  UniRef90_A0A2L1UQN6 Uncharacterized protein n=1 Tax=Rahnella sp...  210     1e-67
+  UniRef90_A0A0B2T4K8 Membrane protein n=1 Tax=Pectobacterium car...  210     3e-67
+  UniRef90_W0LJN3 Membrane protein n=1 Tax=Chania multitudinisent...  209     5e-67
+  UniRef90_A0A2N5ECV2 Uncharacterized protein n=2 Tax=unclassifie...  209     6e-67
+  UniRef90_A0A1B7K0A1 Putative membrane protein n=1 Tax=Providenc...  209     6e-67
+  UniRef90_UPI000F658439 hypothetical protein n=1 Tax=Dickeya sp....  209     7e-67
+  UniRef90_A0A0U5L9N5 Membrane protein n=1 Tax=Erwinia gerundensi...  208     7e-67
+  UniRef90_A0A1B1KPE1 Inner membrane protein YlaC n=18 Tax=Yersin...  208     8e-67
+  UniRef90_A0A0M9D192 Uncharacterized protein n=1 Tax=Photorhabdu...  209     8e-67
+  UniRef90_E0SKF3 Putative membrane protein n=11 Tax=Dickeya TaxI...  208     8e-67
+  UniRef90_I0QQN0 Extracytoplasmic function sigma factor YlaC n=1...  208     1e-66
+  UniRef90_A4W7E2 Putative inner membrane protein n=7 Tax=Enterob...  208     1e-66
+  UniRef90_A0A2I5TIY9 Uncharacterized protein n=1 Tax=Serratia sp...  208     1e-66
+  UniRef90_UPI0009BED5F6 hypothetical protein n=1 Tax=Citrobacter...  207     2e-66
+  UniRef90_A0A085U942 Inner membrane protein ylaC n=5 Tax=Yersini...  207     3e-66
+  UniRef90_W7P1M3 Inner membrane protein YlaC n=30 Tax=Enterobact...  205     1e-65
+  UniRef90_A0A0T9KVM5 Inner membrane protein ylaC n=2 Tax=Yersini...  206     1e-65
+  UniRef90_A0A071LV36 Membrane protein n=3 Tax=Mangrovibacter Tax...  204     2e-65
+  UniRef90_F5RUX0 Inner membrane protein YlaC n=43 Tax=Enterobact...  204     2e-65
+  UniRef90_G7LU68 Extracytoplasmic function sigma factor YlaC n=3...  204     4e-65
+  UniRef90_A0A2X1T3M9 Inner membrane protein ylaC n=15 Tax=Bacter...  204     6e-65
+  UniRef90_A0A0G4Q3S6 Inner membrane protein YlaC n=17 Tax=Entero...  203     1e-64
+  UniRef90_A0A181CV95 Membrane protein n=63 Tax=Bacteria TaxID=2 ...  202     2e-64
+  UniRef90_A0A0N0Z779 Putative membrane protein n=2 Tax=Moellerel...  202     3e-64
+  UniRef90_A0A1B7JDG6 Uncharacterized protein n=2 Tax=Proteus Tax...  201     7e-64
+  UniRef90_A0A1B8HJI8 Uncharacterized protein n=4 Tax=Morganella ...  201     1e-63
+  UniRef90_A0A198GI97 Uncharacterized protein n=1 Tax=Cosenzaea m...  196     4e-62
+  UniRef90_A0A0Q4M5H7 Uncharacterized protein n=2 Tax=Yersiniacea...  194     3e-61
+  UniRef90_A0A0H5LQT4 Inner membrane protein ylaC n=8 Tax=Yersini...  193     1e-60
+  UniRef90_A0A384LA21 Inner membrane protein ylaC n=34 Tax=Yersin...  193     1e-60
+  UniRef90_A0A0T9SSI7 Inner membrane protein ylaC n=32 Tax=Yersin...  193     1e-60
+  UniRef90_A0A0T9LYP7 Inner membrane protein ylaC n=7 Tax=Yersini...  193     2e-60
+  UniRef90_A0A0T9NZC3 Inner membrane protein ylaC n=1 Tax=Yersini...  192     3e-60
+  UniRef90_A0A0T9TEA5 Inner membrane protein ylaC n=7 Tax=Yersini...  192     4e-60
+  UniRef90_C6C999 Uncharacterized protein n=1 Tax=Dickeya paradis...  191     4e-60
+  UniRef90_A0A378CWH9 Inner membrane protein n=2 Tax=Klebsiella T...  191     5e-60
+  UniRef90_A0A0U1HSQ7 Inner membrane protein ylaC n=4 Tax=Yersini...  189     5e-59
+  UniRef90_C6DA21 Uncharacterized protein n=47 Tax=Pectobacterium...  189     5e-59
+  UniRef90_A0A0T9TPU6 Inner membrane protein ylaC n=4 Tax=Yersini...  189     6e-59
+  UniRef90_A0A3A8UPR0 Uncharacterized protein (Fragment) n=2 Tax=...  185     4e-58
+  UniRef90_UPI0006ACB956 hypothetical protein n=1 Tax=Cronobacter...  185     4e-58
+  UniRef90_D2TYJ3 Uncharacterized protein n=1 Tax=Arsenophonus na...  185     9e-58
+  UniRef90_A0A383K902 Inner membrane protein n=10 Tax=Enterobacte...  183     1e-56
+  UniRef90_A0A3B0LXQ7 Inner membrane protein YlaC n=1 Tax=Arsenop...  176     7e-54
+  UniRef90_UPI000190E09F hypothetical protein n=1 Tax=Salmonella ...  174     2e-53
+  UniRef90_UPI00037E1771 hypothetical protein n=1 Tax=Pantoea sp....  169     1e-51
+  UniRef90_A0A1X1D9F5 Uncharacterized protein n=1 Tax=Pantoea wal...  169     3e-51
+  UniRef90_A0A2P5ILC3 Uncharacterized protein n=6 Tax=Erwiniaceae...  168     3e-51
+  UniRef90_A0A2S5K8R5 Uncharacterized protein n=2 Tax=Pantoea Tax...  168     5e-51
+  UniRef90_UPI00057E8FF4 hypothetical protein n=2 Tax=Enterobacte...  167     1e-50
+  UniRef90_UPI000A0530E8 hypothetical protein n=1 Tax=Pantoea sep...  168     2e-50
+  UniRef90_A0A3N4NTM4 Uncharacterized protein n=1 Tax=Pantoea sp....  165     5e-50
+  UniRef90_A0A1V9DAC5 Uncharacterized protein n=1 Tax=Pantoea lat...  165     7e-50
+  UniRef90_A0A0F3LZK8 Uncharacterized protein n=6 Tax=Enterobacte...  165     1e-49
+  UniRef90_A0A2M9W6Z5 Uncharacterized protein n=1 Tax=Pantoea rod...  164     2e-49
+  UniRef90_A0A378F7J5 Inner membrane protein n=2 Tax=Klebsiella p...  157     3e-47
+  UniRef90_UPI000D0821A9 hypothetical protein n=1 Tax=Escherichia...  155     3e-46
+  UniRef90_UPI0009A9AF96 hypothetical protein n=2 Tax=Salmonella ...  152     2e-45
+  UniRef90_A0A0J9BAF2 Uncharacterized protein n=3 Tax=Enterobacte...  152     5e-45
+  UniRef90_A0A140D6C2 Putative inner membrane protein n=1 Tax=gam...  149     5e-44
+  UniRef90_A0A1W6B6W8 Uncharacterized protein n=1 Tax=Pantoea alh...  148     4e-43
+  UniRef90_UPI0009ADF4A1 hypothetical protein n=1 Tax=Yersinia pe...  147     7e-43
+  UniRef90_A0A379WYF5 Inner membrane protein n=1 Tax=Salmonella e...  145     5e-42
+  UniRef90_A0A377DW38 Inner membrane protein n=1 Tax=Escherichia ...  144     7e-42
+  UniRef90_I6H9F9 Inner membrane protein ylaC n=1 Tax=Shigella fl...  139     1e-39
+  UniRef90_A0A376ZNK7 Inner membrane protein n=1 Tax=Escherichia ...  129     2e-36
+  UniRef90_A0A1Q5TFR5 Membrane protein n=1 Tax=Xenorhabdus eapoke...  124     2e-34
+  UniRef90_A0A2X3C1E0 Inner membrane protein n=1 Tax=Klebsiella p...  120     2e-32
+  UniRef90_A0A377A1F7 Inner membrane protein n=1 Tax=Escherichia ...  111     1e-29
+  UniRef90_A0A377TM27 Inner membrane protein n=1 Tax=Klebsiella p...  103     2e-26
+  UniRef90_G5QVU2 Putative inner membrane protein n=1 Tax=Salmone...  98.7    1e-24
+  UniRef90_UPI00097F735A hypothetical protein n=1 Tax=Escherichia...  93.7    2e-22
+  UniRef90_A0A2A2HQ46 Uncharacterized protein n=1 Tax=Arsenophonu...  93.3    2e-22
+  UniRef90_A0A1W9F0I0 Membrane protein (Fragment) n=1 Tax=Serrati...  91.0    3e-21
+  UniRef90_A0A383M9N3 Inner membrane protein ylaC n=1 Tax=Acineto...  89.8    4e-21
+  UniRef90_A0A377TP71 Inner membrane protein n=1 Tax=Klebsiella p...  81.7    4e-18
+  UniRef90_A0A377A500 Inner membrane protein n=1 Tax=Escherichia ...  79.4    3e-17
+  UniRef90_A0A378F7W8 Inner membrane protein n=1 Tax=Klebsiella p...  75.6    9e-16
+  UniRef90_A0A0E1L441 Uncharacterized protein n=1 Tax=Escherichia...  62.9    6e-11
+  UniRef90_A0A358L914 Uncharacterized protein n=1 Tax=Erwinia cit...  56.7    1e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A337SKX5 Uncharacterized protein n=9 Tax=Boreoeuther...  40.5    0.36 
+  UniRef90_UPI00068FFC6B phosphodiester glycosidase family protei...  39.7    0.61 
+  UniRef90_A0A2H2ZIZ3 Uncharacterized protein n=1 Tax=Trichoderma...  39.0    1.2  
+  UniRef90_A0A3P4NFD4 Uncharacterized protein (Fragment) n=1 Tax=...  38.6    1.3  
+  UniRef90_R4K4T3 Exopolysaccharide biosynthesis protein n=1 Tax=...  39.0    1.3  
+  UniRef90_UPI00053F6AFE CKLF-like MARVEL transmembrane domain-co...  38.6    1.4  
+  UniRef90_A0A3N4MN94 Phosphatidylethanolamine N-methyltransferas...  39.0    1.4  
+  UniRef90_A0A341B8M6 CKLF-like MARVEL transmembrane domain-conta...  38.6    1.4  
+  UniRef90_A0A103XZQ4 Leucine-rich repeat-containing protein n=2 ...  39.0    1.5  
+  UniRef90_A0A1W1X7P1 Exopolysaccharide biosynthesis protein n=1 ...  38.6    1.9  
+  UniRef90_UPI000A1BCBFA CKLF-like MARVEL transmembrane domain-co...  38.2    1.9  
+  UniRef90_UPI000BFDFAA1 hypothetical protein n=1 Tax=Bacillus ce...  38.6    1.9  
+  UniRef90_A0A379GGG0 Uncharacterized protein n=1 Tax=Proteus mir...  35.1    1.9  
+  UniRef90_Q6K877 Os02g0290900 protein n=10 Tax=Oryzinae TaxID=16...  38.2    2.0  
+  UniRef90_A0A1J0GKX1 Exopolysaccharide biosynthesis protein n=1 ...  38.2    2.1  
+  UniRef90_UPI000255D7C6 DUF2516 family protein n=1 Tax=Nesterenk...  36.7    2.2  
+  UniRef90_K0HZA7 Uncharacterized protein n=8 Tax=Acidovorax TaxI...  38.2    2.3  
+  UniRef90_E1F107 Dynein heavy chain n=1 Tax=Giardia intestinalis...  38.6    2.4  
+  UniRef90_A0A1X3PAU3 Uncharacterized protein n=1 Tax=Nesterenkon...  36.7    2.4  
+  UniRef90_K7FAM9 CKLF like MARVEL transmembrane domain containin...  37.4    2.8  
+  UniRef90_UPI0004E1D0D9 hypothetical protein n=1 Tax=Bryobacter ...  37.8    2.9  
+  UniRef90_A0A3P8XG68 Uncharacterized protein n=1 Tax=Esox lucius...  37.4    2.9  
+  UniRef90_G8TTA4 Uncharacterized protein n=1 Tax=Sulfobacillus a...  37.8    3.2  
+  UniRef90_B8AFV2 Uncharacterized protein n=1 Tax=Oryza sativa su...  37.8    3.3  
+  UniRef90_UPI000D389282 lipid A export permease/ATP-binding prot...  37.8    3.3  
+  UniRef90_A0A2E3ZUS5 tRNA dimethylallyltransferase n=1 Tax=Alpha...  37.4    3.6  
+  UniRef90_A0A251RKF2 Uncharacterized protein n=8 Tax=Amygdaloide...  37.4    3.6  
+  UniRef90_A0A0A7I7Y6 Membrane protein n=11 Tax=Bifidobacterium p...  37.4    3.8  
+  UniRef90_M5XFY1 Uncharacterized protein n=5 Tax=Amygdaloideae T...  37.4    3.9  
+  UniRef90_UPI000532EFBC dentin sialophosphoprotein-like n=2 Tax=...  37.8    4.1  
+  UniRef90_M0ZYE3 Uncharacterized protein n=2 Tax=Solanum tuberos...  37.8    4.1  
+  UniRef90_A0A2P5E9G5 Survival motor neuron n=2 Tax=Cannabaceae T...  37.4    4.2  
+  UniRef90_F7BW18 Uncharacterized protein n=2 Tax=Monodelphis dom...  37.4    4.5  
+  UniRef90_A0A2B1FJF1 Uncharacterized protein n=1 Tax=Bacillus ce...  37.4    5.0  
+  UniRef90_K4C378 Uncharacterized protein n=1 Tax=Solanum lycoper...  37.4    5.1  
+  UniRef90_A0A367XUY2 Transcription factor CPH2 n=1 Tax=Candida v...  37.0    6.2  
+  UniRef90_I0KHK3 Multicopper oxidase type 3 n=1 Tax=Fibrella aes...  37.0    6.6  
+  UniRef90_A0A1F5K3A2 Uncharacterized protein n=1 Tax=Candidatus ...  36.7    6.9  
+  UniRef90_A0A1H1LXJ6 Uncharacterized membrane protein HdeD, DUF3...  36.3    7.3  
+  UniRef90_UPI000D732FAB glycine--tRNA ligase-like n=1 Tax=Pomace...  36.7    7.4  
+  UniRef90_A0A158QXG0 Glucose transporter type 1 (inferred by ort...  36.7    7.7  
+  UniRef90_A0A384AWE7 CKLF-like MARVEL transmembrane domain-conta...  36.3    7.7  
+  UniRef90_A0A179IJQ2 Uncharacterized protein (Fragment) n=1 Tax=...  36.3    8.0  
+  UniRef90_A0A0V0HZQ5 Putative ovule protein (Fragment) n=1 Tax=S...  36.7    8.0  
+  UniRef90_Q753G0 Cation-transporting ATPase n=2 Tax=Saccharomyce...  36.7    8.0  
+  UniRef90_F9X2M7 Uncharacterized protein n=5 Tax=Zymoseptoria Ta...  36.7    8.2  
+  UniRef90_A0A368G5L7 Uncharacterized protein (Fragment) n=1 Tax=...  35.5    8.3  
+  UniRef90_A0A3A8ZDM6 Glycosyltransferase n=1 Tax=bacterium 1xD42...  36.7    8.8  
+  UniRef90_W0PL33 Putative membrane protein n=2 Tax=Advenella Tax...  36.7    8.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.165    0.516    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0505    0.140     1.90     42.6     43.6 
+
+Effective search space used: 741284556122
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

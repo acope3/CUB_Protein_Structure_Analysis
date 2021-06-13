@@ -1,0 +1,1166 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415476.1
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_A7ZK59 Macrodomain Ter protein n=30 Tax=Enterobacteral...  303     1e-104
+  UniRef90_A0A0M3E1L7 Macrodomain Ter protein n=1 Tax=Vibrio para...  285     2e-97 
+  UniRef90_B7LNW6 Macrodomain Ter protein n=63 Tax=Bacteria TaxID...  283     9e-97 
+  UniRef90_A0A0J1LPW0 Macrodomain Ter protein n=5 Tax=Enterobacte...  282     3e-96 
+  UniRef90_D2TS86 Macrodomain Ter protein n=481 Tax=cellular orga...  281     7e-96 
+  UniRef90_A0A2U2HUZ4 Macrodomain Ter protein n=5 Tax=Enterobacte...  279     6e-95 
+  UniRef90_A0A2P5GRJ3 Macrodomain Ter protein n=12 Tax=Enterobact...  278     2e-94 
+  UniRef90_A4W8W8 Macrodomain Ter protein n=68 Tax=Enterobacteral...  276     1e-93 
+  UniRef90_A0A2X2UW81 Macrodomain Ter protein n=1 Tax=Citrobacter...  283     1e-93 
+  UniRef90_A0A089PSU8 Macrodomain Ter protein n=1 Tax=Pluralibact...  274     6e-93 
+  UniRef90_A7MFW6 Macrodomain Ter protein n=140 Tax=Enterobacteri...  271     4e-92 
+  UniRef90_C9Y0P6 Macrodomain Ter protein n=3 Tax=Cronobacter Tax...  271     7e-92 
+  UniRef90_A0A1B7I8P9 Macrodomain Ter protein n=11 Tax=Enterobact...  269     4e-91 
+  UniRef90_A0A0D1MRM3 Macrodomain Ter protein n=4 Tax=Enterobacte...  268     8e-91 
+  UniRef90_A0A2P8VQU9 Macrodomain Ter protein n=2 Tax=Siccibacter...  268     9e-91 
+  UniRef90_A0A089PYD3 Macrodomain Ter protein n=9 Tax=cellular or...  266     9e-90 
+  UniRef90_UPI00073DADF3 macrodomain Ter protein MatP n=1 Tax=[Er...  264     5e-89 
+  UniRef90_A0A0A5LVA4 Macrodomain Ter protein n=53 Tax=Enterobact...  264     7e-89 
+  UniRef90_U2MP49 Macrodomain Ter protein n=6 Tax=Erwiniaceae Tax...  263     3e-88 
+  UniRef90_UPI00036C4CF7 macrodomain Ter protein MatP n=1 Tax=Ent...  261     5e-88 
+  UniRef90_A0A0U4IQ20 Macrodomain Ter protein n=5 Tax=Serratia Ta...  259     3e-87 
+  UniRef90_UPI000C1A5AD2 macrodomain Ter protein MatP n=1 Tax=Ser...  259     4e-87 
+  UniRef90_UPI000BE45596 macrodomain Ter protein MatP n=2 Tax=Sal...  259     5e-87 
+  UniRef90_A0A0A3Z555 Macrodomain Ter protein n=4 Tax=Erwiniaceae...  257     2e-86 
+  UniRef90_E6WCD0 Macrodomain Ter protein n=11 Tax=Erwiniaceae Ta...  257     3e-86 
+  UniRef90_UPI000948CCBD macrodomain Ter protein MatP n=1 Tax=Pan...  256     4e-86 
+  UniRef90_A0A2A2MI44 Macrodomain Ter protein n=15 Tax=Enterobact...  256     5e-86 
+  UniRef90_A0A2I0FWZ3 Macrodomain Ter protein n=1 Tax=Enterobacte...  256     6e-86 
+  UniRef90_U3TQ32 Macrodomain Ter protein n=2 Tax=Plautia stali s...  256     7e-86 
+  UniRef90_B2VDE5 Macrodomain Ter protein n=10 Tax=Erwiniaceae Ta...  256     1e-85 
+  UniRef90_A0A2S6VQG3 Macrodomain Ter protein n=2 Tax=Pantoea Tax...  256     1e-85 
+  UniRef90_A0A068ZA86 Macrodomain Ter protein n=3 Tax=Serratia sy...  254     4e-85 
+  UniRef90_D8MQG4 Macrodomain Ter protein n=3 Tax=Enterobacterale...  253     8e-85 
+  UniRef90_A0A0U5L347 Macrodomain Ter protein n=1 Tax=Erwinia ger...  253     9e-85 
+  UniRef90_A0A1X1E774 Macrodomain Ter protein n=2 Tax=Pantoea Tax...  254     1e-84 
+  UniRef90_A0A071LVB3 Macrodomain Ter protein n=3 Tax=Mangrovibac...  253     1e-84 
+  UniRef90_UPI0005509E54 macrodomain Ter protein MatP n=3 Tax=Erw...  253     1e-84 
+  UniRef90_A0A1V9DPI7 Macrodomain Ter protein n=2 Tax=Pantoea Tax...  253     2e-84 
+  UniRef90_A0A250B5J1 Macrodomain Ter protein n=1 Tax=Gibbsiella ...  253     2e-84 
+  UniRef90_A0A084A174 Macrodomain Ter protein n=2 Tax=Serratia Ta...  252     2e-84 
+  UniRef90_A0A1W6BAR9 Macrodomain Ter protein n=6 Tax=Erwiniaceae...  252     3e-84 
+  UniRef90_A0A1I4UP88 Macrodomain Ter protein n=2 Tax=Izhakiella ...  255     3e-84 
+  UniRef90_A0A2S9IA73 Macrodomain Ter protein n=2 Tax=Erwiniaceae...  252     3e-84 
+  UniRef90_A0A0F5Y4N0 Macrodomain Ter protein n=48 Tax=Enterobact...  253     4e-84 
+  UniRef90_H2ISA4 Macrodomain Ter protein n=13 Tax=Yersiniaceae T...  251     1e-83 
+  UniRef90_A0A014M6L0 Macrodomain Ter protein n=3 Tax=Erwinia Tax...  250     1e-83 
+  UniRef90_A0A1Y0L798 Macrodomain Ter protein n=2 Tax=Tatumella T...  249     3e-83 
+  UniRef90_A0A2N5ETK0 Macrodomain Ter protein n=3 Tax=unclassifie...  249     6e-83 
+  UniRef90_UPI000DEF7E6D macrodomain Ter protein MatP n=1 Tax=Rah...  248     6e-83 
+  UniRef90_A0A1H3YQJ1 Macrodomain Ter protein n=9 Tax=Pectobacter...  249     7e-83 
+  UniRef90_A0A0G4JZ97 Macrodomain Ter protein n=5 Tax=Brenneria T...  248     9e-83 
+  UniRef90_UPI0004B9086D macrodomain Ter protein MatP n=1 Tax=Ent...  248     1e-82 
+  UniRef90_A1JMT1 Macrodomain Ter protein n=69 Tax=Yersinia TaxID...  248     1e-82 
+  UniRef90_UPI00046A5387 macrodomain Ter protein MatP n=1 Tax=Pan...  247     2e-82 
+  UniRef90_A0A2U1UKL4 Macrodomain Ter protein n=2 Tax=Brenneria r...  246     5e-82 
+  UniRef90_I2BAK8 Macrodomain Ter protein n=1 Tax=Shimwellia blat...  246     7e-82 
+  UniRef90_A0A0Q4N2E6 Macrodomain Ter protein n=1 Tax=Erwinia sp....  245     1e-81 
+  UniRef90_A0A366I3A9 Macrodomain Ter protein n=2 Tax=Brenneria s...  248     1e-81 
+  UniRef90_Q7N603 Macrodomain Ter protein n=21 Tax=Photorhabdus T...  245     1e-81 
+  UniRef90_UPI000FDF20AF UPI000FDF20AF related cluster n=1 Tax=un...  245     1e-81 
+  UniRef90_A0A0G3CKQ9 Macrodomain Ter protein n=5 Tax=Enterobacte...  244     3e-81 
+  UniRef90_A0A370QML9 Macrodomain Ter protein n=1 Tax=Enterobacil...  244     5e-81 
+  UniRef90_A0A358L3S6 Macrodomain Ter protein n=2 Tax=Erwinia Tax...  243     1e-80 
+  UniRef90_A0A085JCG7 Macrodomain Ter protein n=3 Tax=Tatumella T...  242     2e-80 
+  UniRef90_UPI000B59F307 macrodomain Ter protein MatP n=1 Tax=Shi...  241     2e-80 
+  UniRef90_C7BPQ3 Macrodomain Ter protein n=2 Tax=Photorhabdus as...  243     4e-80 
+  UniRef90_A0A2I5TD40 Macrodomain Ter protein n=1 Tax=Serratia sp...  241     5e-80 
+  UniRef90_W3V4W7 Macrodomain Ter protein n=2 Tax=Morganellaceae ...  243     7e-80 
+  UniRef90_Q6D6D5 Macrodomain Ter protein n=37 Tax=Pectobacterium...  241     8e-80 
+  UniRef90_A0A2A7U412 Macrodomain Ter protein n=12 Tax=Edwardsiel...  240     1e-79 
+  UniRef90_A0A0Q4M3Z7 Macrodomain Ter protein n=9 Tax=Enterobacte...  240     1e-79 
+  UniRef90_A0A1B8H4Z2 Macrodomain Ter protein n=3 Tax=Morganella ...  240     1e-79 
+  UniRef90_D2BX42 Macrodomain Ter protein n=21 Tax=Enterobacteral...  239     5e-79 
+  UniRef90_A0A1E7Z3E3 Macrodomain Ter protein n=1 Tax=Candidatus ...  238     9e-79 
+  UniRef90_M7CB10 Macrodomain Ter protein n=13 Tax=Bacteria TaxID...  239     1e-78 
+  UniRef90_C6C3L9 Macrodomain Ter protein n=1 Tax=Dickeya paradis...  238     1e-78 
+  UniRef90_A0A0A8P2E9 Macrodomain Ter protein n=26 Tax=Xenorhabdu...  237     3e-78 
+  UniRef90_A0A3D3HRL3 Macrodomain Ter protein n=1 Tax=Morganella ...  236     6e-78 
+  UniRef90_W1JBM2 Macrodomain Ter protein n=4 Tax=Xenorhabdus Tax...  234     2e-77 
+  UniRef90_A0A375ADQ2 Macrodomain Ter protein n=1 Tax=Dickeya aqu...  235     3e-77 
+  UniRef90_UPI000F658177 macrodomain Ter protein MatP n=1 Tax=Dic...  234     3e-77 
+  UniRef90_A0A2G8C712 Macrodomain Ter protein n=2 Tax=Enterobacte...  229     5e-75 
+  UniRef90_K8X0R3 Macrodomain Ter protein n=1 Tax=Providencia bur...  228     8e-75 
+  UniRef90_W1IYG5 Macrodomain Ter protein n=1 Tax=Xenorhabdus sze...  228     8e-75 
+  UniRef90_UPI000BB8DAEE macrodomain Ter protein MatP n=1 Tax=Ent...  226     2e-74 
+  UniRef90_A0A379GZ68 Macrodomain Ter protein n=15 Tax=Gammaprote...  227     3e-74 
+  UniRef90_A0A0J5FUP4 Macrodomain Ter protein n=3 Tax=Xenorhabdus...  226     3e-74 
+  UniRef90_A0A1S1HX14 Macrodomain Ter protein n=2 Tax=Providencia...  226     6e-74 
+  UniRef90_A0A1B7JHQ2 Macrodomain Ter protein n=2 Tax=Proteus Tax...  225     1e-73 
+  UniRef90_A0A1N6MVZ5 Macrodomain Ter protein n=4 Tax=Xenorhabdus...  224     2e-73 
+  UniRef90_D1NZX7 Macrodomain Ter protein n=2 Tax=Providencia rus...  224     2e-73 
+  UniRef90_A0A383KF92 Macrodomain Ter protein n=24 Tax=Enterobact...  224     3e-73 
+  UniRef90_D2TZJ3 Macrodomain Ter protein n=5 Tax=Arsenophonus Ta...  224     3e-73 
+  UniRef90_A0A242P6H5 Macrodomain Ter protein n=5 Tax=Gilliamella...  224     4e-73 
+  UniRef90_A0A0N0I9J2 Macrodomain Ter protein n=2 Tax=Moellerella...  224     4e-73 
+  UniRef90_B6XC17 Macrodomain Ter protein n=5 Tax=Providencia alc...  223     6e-73 
+  UniRef90_X2H502 Macrodomain Ter protein n=26 Tax=Gilliamella Ta...  223     7e-73 
+  UniRef90_A0A356D835 Macrodomain Ter protein n=1 Tax=Providencia...  222     2e-72 
+  UniRef90_A0A2U8I5P7 Macrodomain Ter protein n=1 Tax=Candidatus ...  221     4e-72 
+  UniRef90_A0A1B9KHZ4 Macrodomain Ter protein n=5 Tax=Gilliamella...  219     3e-71 
+  UniRef90_UPI000EB3DBD3 macrodomain Ter protein MatP n=1 Tax=Orb...  219     4e-71 
+  UniRef90_Q2NU72 Macrodomain Ter protein n=4 Tax=Sodalis TaxID=8...  218     5e-71 
+  UniRef90_A0A0A7RZI8 Macrodomain Ter protein n=1 Tax=Frischella ...  216     7e-70 
+  UniRef90_A0A1B9JZA0 Macrodomain Ter protein n=1 Tax=Gilliamella...  216     8e-70 
+  UniRef90_UPI000491115D macrodomain Ter protein MatP n=1 Tax=Pha...  215     1e-69 
+  UniRef90_UPI000467B982 macrodomain Ter protein MatP n=1 Tax=Can...  214     3e-69 
+  UniRef90_K8WQP5 Macrodomain Ter protein n=1 Tax=Providencia sne...  212     2e-68 
+  UniRef90_A0A376VLI0 Macrodomain Ter protein n=1 Tax=Escherichia...  209     1e-67 
+  UniRef90_E0WTV2 Macrodomain Ter protein n=2 Tax=Candidatus Regi...  208     5e-67 
+  UniRef90_A0A378CQ89 Macrodomain Ter protein n=1 Tax=Klebsiella ...  206     1e-66 
+  UniRef90_A0A377M3V4 Macrodomain Ter protein n=1 Tax=Enterobacte...  202     3e-65 
+  UniRef90_UPI00030CF2A2 macrodomain Ter protein MatP n=1 Tax=Sal...  198     2e-63 
+  UniRef90_UPI000A120BD6 macrodomain Ter protein MatP n=1 Tax=Cro...  192     3e-61 
+  UniRef90_W1APB9 Uncharacterized protein n=2 Tax=Enterobacteriac...  192     6e-61 
+  UniRef90_A0A377ATW1 Putative dehydrogenase n=1 Tax=Escherichia ...  192     7e-61 
+  UniRef90_A0A378DY99 Macrodomain Ter protein n=2 Tax=Klebsiella ...  188     1e-59 
+  UniRef90_A0A1H9Y5C9 Macrodomain Ter protein n=2 Tax=Thorsellia ...  186     8e-58 
+  UniRef90_A0A0J8YA60 Macrodomain Ter protein (Fragment) n=1 Tax=...  180     3e-56 
+  UniRef90_B6ELS5 Macrodomain Ter protein n=18 Tax=Aliivibrio Tax...  179     2e-55 
+  UniRef90_A0A1C3EBQ8 Macrodomain Ter protein n=1 Tax=Enterovibri...  179     3e-55 
+  UniRef90_UPI000B34B5A4 macrodomain Ter protein MatP n=1 Tax=Tha...  178     4e-55 
+  UniRef90_UPI000D021021 macrodomain Ter protein MatP n=1 Tax=Vib...  177     1e-54 
+  UniRef90_A0A2A4GHJ7 Macrodomain Ter protein n=5 Tax=Salinivibri...  177     1e-54 
+  UniRef90_A0A2N7L4I7 Macrodomain Ter protein n=2 Tax=Enterovibri...  176     2e-54 
+  UniRef90_A0A377T887 Dehydrogenase n=1 Tax=Raoultella planticola...  174     6e-54 
+  UniRef90_U4DV12 Macrodomain Ter protein n=4 Tax=Vibrio TaxID=66...  174     2e-53 
+  UniRef90_A0A240EN03 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  174     2e-53 
+  UniRef90_A6D8Y9 Macrodomain Ter protein n=9 Tax=Vibrio TaxID=66...  174     2e-53 
+  UniRef90_A0A0B9G4U3 Macrodomain Ter protein n=4 Tax=Photobacter...  174     2e-53 
+  UniRef90_Q2BXY9 Macrodomain Ter protein n=6 Tax=Photobacterium ...  174     3e-53 
+  UniRef90_A0A1E5E6N4 Macrodomain Ter protein n=8 Tax=Vibrio TaxI...  172     6e-53 
+  UniRef90_F7YJN8 Macrodomain Ter protein n=11 Tax=Vibrio TaxID=6...  172     2e-52 
+  UniRef90_A0A1Y6IR34 Macrodomain Ter protein n=1 Tax=Vibrio mang...  171     2e-52 
+  UniRef90_A0A0J1H542 Macrodomain Ter protein n=1 Tax=Photobacter...  171     2e-52 
+  UniRef90_A0A2A9FZN3 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  171     2e-52 
+  UniRef90_A0A0F5V9Y8 Macrodomain Ter protein n=3 Tax=Photobacter...  171     2e-52 
+  UniRef90_UPI0008DA3D74 macrodomain Ter protein MatP n=1 Tax=Vib...  171     2e-52 
+  UniRef90_A0A2N7DIG6 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  171     3e-52 
+  UniRef90_A0A135I599 Macrodomain Ter protein n=2 Tax=Enterovibri...  171     3e-52 
+  UniRef90_A0A1G7YD81 Macrodomain Ter protein n=1 Tax=Vibrio xiam...  171     3e-52 
+  UniRef90_A0A0W8JGY3 Macrodomain Ter protein n=6 Tax=Vibrio TaxI...  171     4e-52 
+  UniRef90_A0A3P4IGA0 Macrodomain Ter protein n=1 Tax=Klebsiella ...  168     4e-52 
+  UniRef90_U3ATY0 Macrodomain Ter protein n=2 Tax=Vibrio TaxID=66...  170     6e-52 
+  UniRef90_D0IAH5 Macrodomain Ter protein n=8 Tax=Vibrionaceae Ta...  170     6e-52 
+  UniRef90_A0A2N7D534 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  170     7e-52 
+  UniRef90_X0P820 Macrodomain Ter protein n=4 Tax=Photobacterium ...  170     1e-51 
+  UniRef90_A0A1R4B2H4 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  169     1e-51 
+  UniRef90_A0A2T3N1U7 Macrodomain Ter protein n=1 Tax=Photobacter...  170     1e-51 
+  UniRef90_UPI0006D0EE67 macrodomain Ter protein MatP n=1 Tax=Pho...  169     1e-51 
+  UniRef90_A0A0B8QAJ6 Macrodomain Ter protein n=4 Tax=Vibrio TaxI...  169     1e-51 
+  UniRef90_L8J6Q9 Macrodomain Ter protein n=1 Tax=Photobacterium ...  169     1e-51 
+  UniRef90_UPI0009714B97 macrodomain Ter protein MatP n=1 Tax=Vib...  169     1e-51 
+  UniRef90_F0LTZ0 Macrodomain Ter protein n=3 Tax=Vibrio TaxID=66...  169     2e-51 
+  UniRef90_A0A2M8H2S7 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  169     2e-51 
+  UniRef90_A7N0M1 Macrodomain Ter protein n=68 Tax=Vibrio TaxID=6...  169     2e-51 
+  UniRef90_UPI000E3E05A7 macrodomain Ter protein MatP n=1 Tax=Vib...  169     2e-51 
+  UniRef90_A0A1N6ES21 Macrodomain Ter protein n=12 Tax=Vibrionace...  169     2e-51 
+  UniRef90_Q6LR94 Macrodomain Ter protein n=4 Tax=Photobacterium ...  168     3e-51 
+  UniRef90_A0A090QP35 Macrodomain Ter protein n=3 Tax=Photobacter...  168     4e-51 
+  UniRef90_E3BFH3 Macrodomain Ter protein n=1 Tax=Vibrio caribbea...  168     5e-51 
+  UniRef90_A0A1E5BFL7 Macrodomain Ter protein n=3 Tax=Vibrio TaxI...  167     9e-51 
+  UniRef90_A0A0L7YT29 Macrodomain Ter protein n=1 Tax=Vibrio algi...  167     1e-50 
+  UniRef90_A0A3N9TH05 Macrodomain Ter protein MatP n=1 Tax=Vibrio...  167     1e-50 
+  UniRef90_UPI000F818960 macrodomain Ter protein MatP n=1 Tax=Vib...  167     1e-50 
+  UniRef90_A0A0J1GVW6 Macrodomain Ter protein n=1 Tax=Photobacter...  166     2e-50 
+  UniRef90_A0A1X1MQV3 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  166     2e-50 
+  UniRef90_A0A380NWJ2 Macrodomain Ter protein n=5 Tax=Vibrio TaxI...  166     3e-50 
+  UniRef90_UPI000B34EF4A macrodomain Ter protein MatP n=1 Tax=Tha...  166     3e-50 
+  UniRef90_A0A2N8Z9K2 Macrodomain Ter protein n=1 Tax=Vibrio tape...  166     4e-50 
+  UniRef90_UPI000F68B82E macrodomain Ter protein MatP n=1 Tax=Vib...  166     4e-50 
+  UniRef90_A0A2J8GQP9 Macrodomain Ter protein n=1 Tax=Vibrio diaz...  165     5e-50 
+  UniRef90_A0A066RVL7 Macrodomain Ter protein n=1 Tax=Photobacter...  165     5e-50 
+  UniRef90_UPI000838313F macrodomain Ter protein MatP n=1 Tax=Vib...  165     6e-50 
+  UniRef90_A0A193KBH7 Macrodomain Ter protein n=5 Tax=Vibrionacea...  165     7e-50 
+  UniRef90_A0A0J8Y047 Macrodomain Ter protein n=4 Tax=Photobacter...  165     7e-50 
+  UniRef90_U2ZUZ6 Macrodomain Ter protein n=1 Tax=Vibrio proteoly...  164     1e-49 
+  UniRef90_A0A1X9U186 Macrodomain Ter protein n=6 Tax=Proteobacte...  164     2e-49 
+  UniRef90_A0A1E5CAJ0 Macrodomain Ter protein n=2 Tax=Vibrionacea...  164     2e-49 
+  UniRef90_A0A1T4LTP8 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  164     2e-49 
+  UniRef90_A0A1M5Z5W9 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  163     4e-49 
+  UniRef90_B7VNL8 Macrodomain Ter protein n=62 Tax=Vibrionales Ta...  163     4e-49 
+  UniRef90_F9T1C9 Macrodomain Ter protein n=15 Tax=Vibrio TaxID=6...  162     5e-49 
+  UniRef90_UPI00063CEB06 macrodomain Ter protein MatP n=2 Tax=Vib...  162     6e-49 
+  UniRef90_Q9KS02 Macrodomain Ter protein n=46 Tax=Vibrio TaxID=6...  162     7e-49 
+  UniRef90_A0A067B6C3 Macrodomain Ter protein n=3 Tax=Vibrio meto...  162     8e-49 
+  UniRef90_Q7MKW4 Macrodomain Ter protein n=10 Tax=Vibrio TaxID=6...  162     1e-48 
+  UniRef90_A0A0D8PND7 Macrodomain Ter protein n=15 Tax=Photobacte...  162     1e-48 
+  UniRef90_A0A3A6QJQ5 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  161     2e-48 
+  UniRef90_A0A1E5D732 Macrodomain Ter protein n=2 Tax=Vibrionales...  161     3e-48 
+  UniRef90_A0A090S862 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  160     3e-48 
+  UniRef90_C9QI24 Macrodomain Ter protein n=8 Tax=Vibrio TaxID=66...  159     9e-48 
+  UniRef90_UPI00047044E9 macrodomain Ter protein MatP n=1 Tax=Sal...  159     1e-47 
+  UniRef90_A0A0M0HMX3 Macrodomain Ter protein n=1 Tax=Vibrio nere...  159     2e-47 
+  UniRef90_A0A1B1NP27 Macrodomain Ter protein n=11 Tax=Vibrio Tax...  158     2e-47 
+  UniRef90_UPI000E0B49E5 macrodomain Ter protein MatP n=1 Tax=Vib...  158     4e-47 
+  UniRef90_UPI000F6EEDAD macrodomain Ter protein MatP n=1 Tax=Act...  157     7e-47 
+  UniRef90_A0A1W1V0H2 Macrodomain Ter protein n=1 Tax=Pasteurella...  154     1e-45 
+  UniRef90_A0A0F2HZH7 Macrodomain Ter protein n=3 Tax=Vibrio TaxI...  154     1e-45 
+  UniRef90_Q9CNF0 Macrodomain Ter protein n=10 Tax=Pasteurella mu...  154     2e-45 
+  UniRef90_A0A379CQU2 Macrodomain Ter protein n=7 Tax=unclassifie...  152     7e-45 
+  UniRef90_Q4QKK3 Macrodomain Ter protein n=49 Tax=Bacteria TaxID...  152     8e-45 
+  UniRef90_A0A2M8RUZ7 Macrodomain Ter protein n=1 Tax=Caviibacter...  151     2e-44 
+  UniRef90_A0A263HBR0 Macrodomain Ter protein n=3 Tax=Pasteurella...  151     2e-44 
+  UniRef90_F9QC62 Macrodomain Ter protein n=2 Tax=Haemophilus pit...  150     3e-44 
+  UniRef90_M4R6X9 Macrodomain Ter protein n=4 Tax=Bibersteinia tr...  150     3e-44 
+  UniRef90_A0A377XDD1 Dehydrogenase n=1 Tax=Klebsiella pneumoniae...  148     4e-44 
+  UniRef90_A0A379ATF9 Macrodomain Ter protein n=7 Tax=Avibacteriu...  150     6e-44 
+  UniRef90_A0A1T4TR04 Macrodomain Ter protein n=2 Tax=Photobacter...  149     6e-44 
+  UniRef90_UPI000BE41A7E macrodomain Ter protein MatP n=1 Tax=Can...  149     8e-44 
+  UniRef90_A0A0E3ZMJ9 Macrodomain Ter protein n=2 Tax=Pasteurella...  149     1e-43 
+  UniRef90_UPI000509615B macrodomain Ter protein MatP n=3 Tax=Pas...  149     2e-43 
+  UniRef90_A0A1V4AZJ4 Macrodomain Ter protein n=1 Tax=Haemophilus...  149     2e-43 
+  UniRef90_A0A0A3AU51 Macrodomain Ter protein n=1 Tax=Chelonobact...  148     2e-43 
+  UniRef90_UPI000C7D8DCF macrodomain Ter protein MatP n=1 Tax=Pas...  148     2e-43 
+  UniRef90_A0A0K1N4Y6 Macrodomain Ter protein n=21 Tax=Aggregatib...  148     3e-43 
+  UniRef90_A0A3N4W5T0 Uncharacterized protein n=1 Tax=Frederiksen...  148     3e-43 
+  UniRef90_A0A1V3TUB6 Macrodomain Ter protein n=1 Tax=Pasteurella...  147     5e-43 
+  UniRef90_A0A379CC90 Macrodomain Ter protein n=1 Tax=Phocoenobac...  147     6e-43 
+  UniRef90_A0A380TXT7 Macrodomain Ter protein n=2 Tax=Pasteurella...  147     9e-43 
+  UniRef90_A6VPA7 Macrodomain Ter protein n=1 Tax=Actinobacillus ...  146     1e-42 
+  UniRef90_A0A2M8S5Y6 Macrodomain Ter protein n=1 Tax=Conservatib...  146     2e-42 
+  UniRef90_A0A1B3JJF2 Macrodomain Ter protein n=19 Tax=Pasteurell...  145     2e-42 
+  UniRef90_I3D6W9 Macrodomain Ter protein n=2 Tax=Pasteurellaceae...  145     6e-42 
+  UniRef90_A0A1T0B1P7 Macrodomain Ter protein n=1 Tax=[Haemophilu...  145     6e-42 
+  UniRef90_I3DAA6 Macrodomain Ter protein n=7 Tax=Haemophilus Tax...  145     7e-42 
+  UniRef90_C9PR52 Macrodomain Ter protein n=2 Tax=Pasteurella Tax...  144     9e-42 
+  UniRef90_A0A328BXE1 Macrodomain Ter protein n=7 Tax=Glaesserell...  144     1e-41 
+  UniRef90_A0A1B8T649 Macrodomain Ter protein n=13 Tax=Pasteurell...  144     1e-41 
+  UniRef90_Q65TA7 Macrodomain Ter protein n=3 Tax=Pasteurellaceae...  144     2e-41 
+  UniRef90_A0A356EBD6 Macrodomain Ter protein (Fragment) n=1 Tax=...  143     2e-41 
+  UniRef90_A0A0A2ZRK7 Macrodomain Ter protein n=10 Tax=Gallibacte...  143     2e-41 
+  UniRef90_Q0I3K9 Macrodomain Ter protein n=3 Tax=Histophilus som...  143     3e-41 
+  UniRef90_A0A1V3K9A1 Macrodomain Ter protein n=1 Tax=Rodentibact...  142     1e-40 
+  UniRef90_A0A3N4VU76 Uncharacterized protein n=1 Tax=Vespertilii...  141     1e-40 
+  UniRef90_W0QGW6 Macrodomain Ter protein n=6 Tax=Mannheimia TaxI...  141     1e-40 
+  UniRef90_A0A376ZW85 Putative dehydrogenase n=1 Tax=Escherichia ...  138     3e-40 
+  UniRef90_J5HU71 Macrodomain Ter protein n=2 Tax=Haemophilus spu...  140     5e-40 
+  UniRef90_A0A1T0APZ5 Macrodomain Ter protein n=1 Tax=Haemophilus...  139     6e-40 
+  UniRef90_A0A1H7XQT0 Macrodomain Ter protein n=1 Tax=Pasteurella...  139     1e-39 
+  UniRef90_UPI000EB0F924 macrodomain Ter protein MatP n=1 Tax=Ota...  138     2e-39 
+  UniRef90_C5S3T6 Macrodomain Ter protein n=2 Tax=Actinobacillus ...  138     2e-39 
+  UniRef90_A0A1A7NTK0 Macrodomain Ter protein n=5 Tax=Gallibacter...  137     5e-39 
+  UniRef90_A0A223ME10 Macrodomain Ter protein n=7 Tax=Actinobacil...  137     6e-39 
+  UniRef90_K0G6G8 Macrodomain Ter protein n=5 Tax=Actinobacillus ...  137     8e-39 
+  UniRef90_Q7VPB1 Macrodomain Ter protein n=2 Tax=Haemophilus duc...  135     3e-38 
+  UniRef90_A0A2N4UW42 Macrodomain Ter protein n=1 Tax=Photobacter...  133     1e-37 
+  UniRef90_A0A2T3HWQ4 Macrodomain Ter protein n=3 Tax=Photobacter...  132     2e-37 
+  UniRef90_A0A0J5P4H2 Macrodomain Ter protein n=1 Tax=Muribacter ...  132     4e-37 
+  UniRef90_A0A379UNU3 Macrodomain Ter protein n=1 Tax=Salmonella ...  129     1e-36 
+  UniRef90_A0A2T3PFJ6 Macrodomain Ter protein n=1 Tax=Photobacter...  129     6e-36 
+  UniRef90_A0A336N5B2 Macrodomain Ter protein n=1 Tax=Aggregatiba...  120     2e-32 
+  UniRef90_A0A3P4IDE3 Macrodomain Ter protein n=1 Tax=Klebsiella ...  105     1e-27 
+  UniRef90_A0A0J8YA85 Uncharacterized protein (Fragment) n=1 Tax=...  105     3e-27 
+  UniRef90_A0A3A1YNN1 Macrodomain Ter protein n=1 Tax=Bisgaard ta...  104     2e-25 
+  UniRef90_A0A2A5T7C9 Macrodomain Ter protein n=1 Tax=Candidatus ...  100     4e-25 
+  UniRef90_A4MZW6 Uncharacterized protein n=1 Tax=Haemophilus inf...  100     4e-25 
+  UniRef90_A0A2X4U9M4 Macrodomain Ter protein n=1 Tax=Serratia pl...  94.0    6e-23 
+  UniRef90_A0A2X1RVT8 Macrodomain Ter protein n=1 Tax=Haemophilus...  90.1    1e-20 
+  UniRef90_A0A3A1Y740 Macrodomain Ter protein n=1 Tax=Bisgaard ta...  89.4    5e-20 
+  UniRef90_A0A291BBS2 Macrodomain Ter protein n=2 Tax=Candidatus ...  87.4    6e-20 
+  UniRef90_A0A3A1Y9W0 Macrodomain Ter protein n=1 Tax=Bisgaard Ta...  88.6    7e-20 
+  UniRef90_A0A3A1YB16 Macrodomain Ter protein n=1 Tax=Bisgaard ta...  88.2    1e-19 
+  UniRef90_A0A377NCW6 Macrodomain Ter protein n=1 Tax=Ewingella a...  80.1    1e-17 
+  UniRef90_A0A377M396 Ter macrodomain organizer matS-binding prot...  78.2    8e-17 
+  UniRef90_A0A220VEP4 Macrodomain Ter protein n=1 Tax=Paraphotoba...  71.6    2e-13 
+  UniRef90_UPI000C85A209 hypothetical protein n=1 Tax=Vibrio sple...  61.6    2e-09 
+  UniRef90_A0A2T7FGC5 Ter macrodomain-binding protein MatP (Fragm...  57.8    6e-09 
+  UniRef90_A0A1E5BGB5 Macrodomain Ter protein n=1 Tax=Vibrio geno...  58.9    3e-08 
+  UniRef90_C4NV48 Macrodomain Ter protein n=85 Tax=Bacteria TaxID...  42.7    0.022 
+  UniRef90_A0A2A5CCS1 Uncharacterized protein n=1 Tax=Moraxellace...  42.4    0.029 
+  UniRef90_K2LI74 Uncharacterized protein n=6 Tax=Thalassospira T...  38.9    0.28  
+  UniRef90_A0A1G1ZNH9 Arginine--tRNA ligase n=1 Tax=Candidatus Ha...  40.4    0.34  
+  UniRef90_A0A1G5SI28 Uncharacterized protein n=2 Tax=Nitrosomona...  39.3    0.47  
+  UniRef90_A0A367VNA8 Uncharacterized protein n=3 Tax=Thalassospi...  37.4    0.88  
+  UniRef90_A0A0D8CKA3 Uncharacterized protein n=2 Tax=Thalassospi...  37.0    1.4   
+  UniRef90_U1FU29 Uncharacterized protein n=1 Tax=Endocarpon pusi...  38.9    1.6   
+  UniRef90_A0A0D2J6X4 DNA helicase n=2 Tax=Dethiosulfatarculus sa...  38.5    1.7   
+  UniRef90_UPI0003678041 hypothetical protein n=1 Tax=Hahella gan...  37.0    2.9   
+  UniRef90_A0A0A8NV61 Uncharacterized protein n=2 Tax=Xenorhabdus...  36.6    3.2   
+  UniRef90_UPI000FDECBD7 hypothetical protein n=1 Tax=Hahella sp....  36.6    3.2   
+  UniRef90_A0A367V448 Uncharacterized protein n=4 Tax=Thalassospi...  35.8    3.4   
+  UniRef90_A0A3M8W902 MarR family transcriptional regulator n=1 T...  37.4    4.0   
+  UniRef90_UPI000EE992F4 hypothetical protein n=2 Tax=Parabactero...  36.2    4.4   
+  UniRef90_A0A2Z7ASV9 F-box protein-like n=1 Tax=Dorcoceras hygro...  36.2    4.6   
+  UniRef90_A0A3N5SHH4 Arginine--tRNA ligase (Fragment) n=1 Tax=Sp...  37.0    5.2   
+  UniRef90_A0A367WA86 Uncharacterized protein n=1 Tax=Thalassospi...  35.4    5.6   
+  UniRef90_A0A2N3KQ28 Uncharacterized protein n=2 Tax=Thalassospi...  35.4    6.4   
+  UniRef90_A0A367WPG6 Uncharacterized protein n=1 Tax=Thalassospi...  35.0    7.1   
+  UniRef90_D8QZ12 Uncharacterized protein n=6 Tax=Selaginella moe...  36.6    7.8   
+  UniRef90_A0A2E0B107 Dehydrogenase n=2 Tax=Planctomycetaceae Tax...  36.6    8.2   
+  UniRef90_UPI00071E7129 hypothetical protein n=1 Tax=Haloparvum ...  33.9    9.1   
+  UniRef90_A8ZR43 Uncharacterized protein n=1 Tax=Deinococcus geo...  36.2    9.6   
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.130    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 738437480343
+Warning: [psiblast] lcl|Query_1 NP_415476.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415476.1
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A2X2UW81 Macrodomain Ter protein n=1 Tax=Citrobacter...  289     6e-96
+  UniRef90_UPI000948CCBD macrodomain Ter protein MatP n=1 Tax=Pan...  251     5e-84
+  UniRef90_A0A1I4UP88 Macrodomain Ter protein n=2 Tax=Izhakiella ...  254     1e-83
+  UniRef90_A0A1X1E774 Macrodomain Ter protein n=2 Tax=Pantoea Tax...  251     2e-83
+  UniRef90_A0A2S6VQG3 Macrodomain Ter protein n=2 Tax=Pantoea Tax...  249     7e-83
+  UniRef90_A7ZK59 Macrodomain Ter protein n=30 Tax=Enterobacteral...  248     1e-82
+  UniRef90_U2MP49 Macrodomain Ter protein n=6 Tax=Erwiniaceae Tax...  249     1e-82
+  UniRef90_B7LNW6 Macrodomain Ter protein n=63 Tax=Bacteria TaxID...  248     1e-82
+  UniRef90_A0A1B7I8P9 Macrodomain Ter protein n=11 Tax=Enterobact...  246     5e-82
+  UniRef90_A0A014M6L0 Macrodomain Ter protein n=3 Tax=Erwinia Tax...  246     8e-82
+  UniRef90_A0A1W6BAR9 Macrodomain Ter protein n=6 Tax=Erwiniaceae...  246     8e-82
+  UniRef90_A0A1V9DPI7 Macrodomain Ter protein n=2 Tax=Pantoea Tax...  246     8e-82
+  UniRef90_UPI00073DADF3 macrodomain Ter protein MatP n=1 Tax=[Er...  245     8e-82
+  UniRef90_W3V4W7 Macrodomain Ter protein n=2 Tax=Morganellaceae ...  247     9e-82
+  UniRef90_A7MFW6 Macrodomain Ter protein n=140 Tax=Enterobacteri...  245     1e-81
+  UniRef90_A0A0D1MRM3 Macrodomain Ter protein n=4 Tax=Enterobacte...  245     2e-81
+  UniRef90_E6WCD0 Macrodomain Ter protein n=11 Tax=Erwiniaceae Ta...  245     2e-81
+  UniRef90_A0A1H3YQJ1 Macrodomain Ter protein n=9 Tax=Pectobacter...  245     2e-81
+  UniRef90_A0A358L3S6 Macrodomain Ter protein n=2 Tax=Erwinia Tax...  244     3e-81
+  UniRef90_D8MQG4 Macrodomain Ter protein n=3 Tax=Enterobacterale...  244     3e-81
+  UniRef90_A0A068ZA86 Macrodomain Ter protein n=3 Tax=Serratia sy...  244     4e-81
+  UniRef90_C9Y0P6 Macrodomain Ter protein n=3 Tax=Cronobacter Tax...  244     4e-81
+  UniRef90_A0A0U4IQ20 Macrodomain Ter protein n=5 Tax=Serratia Ta...  243     5e-81
+  UniRef90_A0A0A5LVA4 Macrodomain Ter protein n=53 Tax=Enterobact...  243     5e-81
+  UniRef90_UPI000C1A5AD2 macrodomain Ter protein MatP n=1 Tax=Ser...  243     6e-81
+  UniRef90_M7CB10 Macrodomain Ter protein n=13 Tax=Bacteria TaxID...  244     7e-81
+  UniRef90_UPI00046A5387 macrodomain Ter protein MatP n=1 Tax=Pan...  243     1e-80
+  UniRef90_UPI000FDF20AF UPI000FDF20AF related cluster n=1 Tax=un...  242     1e-80
+  UniRef90_A0A0J1LPW0 Macrodomain Ter protein n=5 Tax=Enterobacte...  242     2e-80
+  UniRef90_A0A2I0FWZ3 Macrodomain Ter protein n=1 Tax=Enterobacte...  242     2e-80
+  UniRef90_D2TS86 Macrodomain Ter protein n=481 Tax=cellular orga...  242     2e-80
+  UniRef90_A0A0A3Z555 Macrodomain Ter protein n=4 Tax=Erwiniaceae...  242     2e-80
+  UniRef90_A0A2P8VQU9 Macrodomain Ter protein n=2 Tax=Siccibacter...  242     2e-80
+  UniRef90_A0A089PSU8 Macrodomain Ter protein n=1 Tax=Pluralibact...  242     3e-80
+  UniRef90_A0A0U5L347 Macrodomain Ter protein n=1 Tax=Erwinia ger...  242     4e-80
+  UniRef90_A0A2U1UKL4 Macrodomain Ter protein n=2 Tax=Brenneria r...  241     4e-80
+  UniRef90_A0A0M3E1L7 Macrodomain Ter protein n=1 Tax=Vibrio para...  241     5e-80
+  UniRef90_UPI0005509E54 macrodomain Ter protein MatP n=3 Tax=Erw...  241     6e-80
+  UniRef90_A0A2P5GRJ3 Macrodomain Ter protein n=12 Tax=Enterobact...  241     6e-80
+  UniRef90_C7BPQ3 Macrodomain Ter protein n=2 Tax=Photorhabdus as...  242     9e-80
+  UniRef90_A0A0F5Y4N0 Macrodomain Ter protein n=48 Tax=Enterobact...  241     1e-79
+  UniRef90_A0A2U2HUZ4 Macrodomain Ter protein n=5 Tax=Enterobacte...  240     2e-79
+  UniRef90_A0A2S9IA73 Macrodomain Ter protein n=2 Tax=Erwiniaceae...  240     2e-79
+  UniRef90_U3TQ32 Macrodomain Ter protein n=2 Tax=Plautia stali s...  240     2e-79
+  UniRef90_D2TZJ3 Macrodomain Ter protein n=5 Tax=Arsenophonus Ta...  240     2e-79
+  UniRef90_D2BX42 Macrodomain Ter protein n=21 Tax=Enterobacteral...  239     3e-79
+  UniRef90_A0A0G4JZ97 Macrodomain Ter protein n=5 Tax=Brenneria T...  238     5e-79
+  UniRef90_A4W8W8 Macrodomain Ter protein n=68 Tax=Enterobacteral...  238     5e-79
+  UniRef90_A0A2I5TD40 Macrodomain Ter protein n=1 Tax=Serratia sp...  238     6e-79
+  UniRef90_A0A1Y0L798 Macrodomain Ter protein n=2 Tax=Tatumella T...  238     6e-79
+  UniRef90_H2ISA4 Macrodomain Ter protein n=13 Tax=Yersiniaceae T...  238     7e-79
+  UniRef90_B2VDE5 Macrodomain Ter protein n=10 Tax=Erwiniaceae Ta...  238     1e-78
+  UniRef90_A0A250B5J1 Macrodomain Ter protein n=1 Tax=Gibbsiella ...  238     1e-78
+  UniRef90_A0A366I3A9 Macrodomain Ter protein n=2 Tax=Brenneria s...  240     1e-78
+  UniRef90_UPI0004B9086D macrodomain Ter protein MatP n=1 Tax=Ent...  237     2e-78
+  UniRef90_A0A375ADQ2 Macrodomain Ter protein n=1 Tax=Dickeya aqu...  237     3e-78
+  UniRef90_A0A0Q4N2E6 Macrodomain Ter protein n=1 Tax=Erwinia sp....  236     3e-78
+  UniRef90_A0A2N5ETK0 Macrodomain Ter protein n=3 Tax=unclassifie...  236     6e-78
+  UniRef90_A0A0A8P2E9 Macrodomain Ter protein n=26 Tax=Xenorhabdu...  236     7e-78
+  UniRef90_A0A085JCG7 Macrodomain Ter protein n=3 Tax=Tatumella T...  235     8e-78
+  UniRef90_A0A071LVB3 Macrodomain Ter protein n=3 Tax=Mangrovibac...  235     9e-78
+  UniRef90_UPI000DEF7E6D macrodomain Ter protein MatP n=1 Tax=Rah...  235     1e-77
+  UniRef90_Q6D6D5 Macrodomain Ter protein n=37 Tax=Pectobacterium...  235     1e-77
+  UniRef90_UPI00036C4CF7 macrodomain Ter protein MatP n=1 Tax=Ent...  235     1e-77
+  UniRef90_Q7N603 Macrodomain Ter protein n=21 Tax=Photorhabdus T...  235     1e-77
+  UniRef90_C6C3L9 Macrodomain Ter protein n=1 Tax=Dickeya paradis...  235     1e-77
+  UniRef90_A1JMT1 Macrodomain Ter protein n=69 Tax=Yersinia TaxID...  235     1e-77
+  UniRef90_A0A1B8H4Z2 Macrodomain Ter protein n=3 Tax=Morganella ...  235     2e-77
+  UniRef90_A0A084A174 Macrodomain Ter protein n=2 Tax=Serratia Ta...  235     2e-77
+  UniRef90_A0A2A2MI44 Macrodomain Ter protein n=15 Tax=Enterobact...  234     3e-77
+  UniRef90_A0A383KF92 Macrodomain Ter protein n=24 Tax=Enterobact...  234     3e-77
+  UniRef90_UPI000F658177 macrodomain Ter protein MatP n=1 Tax=Dic...  234     5e-77
+  UniRef90_I2BAK8 Macrodomain Ter protein n=1 Tax=Shimwellia blat...  233     9e-77
+  UniRef90_A0A242P6H5 Macrodomain Ter protein n=5 Tax=Gilliamella...  233     1e-76
+  UniRef90_K8X0R3 Macrodomain Ter protein n=1 Tax=Providencia bur...  232     2e-76
+  UniRef90_UPI000BE45596 macrodomain Ter protein MatP n=2 Tax=Sal...  231     2e-76
+  UniRef90_F0LTZ0 Macrodomain Ter protein n=3 Tax=Vibrio TaxID=66...  232     2e-76
+  UniRef90_A0A089PYD3 Macrodomain Ter protein n=9 Tax=cellular or...  231     3e-76
+  UniRef90_A0A1B7JHQ2 Macrodomain Ter protein n=2 Tax=Proteus Tax...  231     4e-76
+  UniRef90_A0A2A7U412 Macrodomain Ter protein n=12 Tax=Edwardsiel...  231     5e-76
+  UniRef90_A0A0G3CKQ9 Macrodomain Ter protein n=5 Tax=Enterobacte...  230     8e-76
+  UniRef90_A0A3D3HRL3 Macrodomain Ter protein n=1 Tax=Morganella ...  230     1e-75
+  UniRef90_A0A0Q4M3Z7 Macrodomain Ter protein n=9 Tax=Enterobacte...  230     2e-75
+  UniRef90_X2H502 Macrodomain Ter protein n=26 Tax=Gilliamella Ta...  230     2e-75
+  UniRef90_A0A1E7Z3E3 Macrodomain Ter protein n=1 Tax=Candidatus ...  228     5e-75
+  UniRef90_A0A1R4B2H4 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  228     5e-75
+  UniRef90_UPI000F818960 macrodomain Ter protein MatP n=1 Tax=Vib...  228     5e-75
+  UniRef90_A0A1B9KHZ4 Macrodomain Ter protein n=5 Tax=Gilliamella...  228     7e-75
+  UniRef90_A0A370QML9 Macrodomain Ter protein n=1 Tax=Enterobacil...  228     9e-75
+  UniRef90_A0A379GZ68 Macrodomain Ter protein n=15 Tax=Gammaprote...  228     1e-74
+  UniRef90_A0A0N0I9J2 Macrodomain Ter protein n=2 Tax=Moellerella...  228     1e-74
+  UniRef90_C9QI24 Macrodomain Ter protein n=8 Tax=Vibrio TaxID=66...  227     2e-74
+  UniRef90_B7VNL8 Macrodomain Ter protein n=62 Tax=Vibrionales Ta...  227     2e-74
+  UniRef90_F9T1C9 Macrodomain Ter protein n=15 Tax=Vibrio TaxID=6...  226     3e-74
+  UniRef90_E3BFH3 Macrodomain Ter protein n=1 Tax=Vibrio caribbea...  226     3e-74
+  UniRef90_A0A2G8C712 Macrodomain Ter protein n=2 Tax=Enterobacte...  226     4e-74
+  UniRef90_A0A2N7D534 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  226     4e-74
+  UniRef90_B6XC17 Macrodomain Ter protein n=5 Tax=Providencia alc...  226     6e-74
+  UniRef90_A0A240EN03 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  225     8e-74
+  UniRef90_W1IYG5 Macrodomain Ter protein n=1 Tax=Xenorhabdus sze...  225     9e-74
+  UniRef90_A0A1N6MVZ5 Macrodomain Ter protein n=4 Tax=Xenorhabdus...  225     1e-73
+  UniRef90_F7YJN8 Macrodomain Ter protein n=11 Tax=Vibrio TaxID=6...  225     1e-73
+  UniRef90_UPI000D021021 macrodomain Ter protein MatP n=1 Tax=Vib...  225     1e-73
+  UniRef90_W1JBM2 Macrodomain Ter protein n=4 Tax=Xenorhabdus Tax...  225     1e-73
+  UniRef90_A6D8Y9 Macrodomain Ter protein n=9 Tax=Vibrio TaxID=66...  225     2e-73
+  UniRef90_A0A2T3N1U7 Macrodomain Ter protein n=1 Tax=Photobacter...  225     2e-73
+  UniRef90_A0A090QP35 Macrodomain Ter protein n=3 Tax=Photobacter...  225     2e-73
+  UniRef90_UPI000E3E05A7 macrodomain Ter protein MatP n=1 Tax=Vib...  224     2e-73
+  UniRef90_U3ATY0 Macrodomain Ter protein n=2 Tax=Vibrio TaxID=66...  224     3e-73
+  UniRef90_A0A1B9JZA0 Macrodomain Ter protein n=1 Tax=Gilliamella...  224     3e-73
+  UniRef90_UPI0009714B97 macrodomain Ter protein MatP n=1 Tax=Vib...  223     4e-73
+  UniRef90_A0A1G7YD81 Macrodomain Ter protein n=1 Tax=Vibrio xiam...  223     4e-73
+  UniRef90_A0A2A4GHJ7 Macrodomain Ter protein n=5 Tax=Salinivibri...  223     4e-73
+  UniRef90_K8WQP5 Macrodomain Ter protein n=1 Tax=Providencia sne...  224     4e-73
+  UniRef90_A0A1S1HX14 Macrodomain Ter protein n=2 Tax=Providencia...  223     5e-73
+  UniRef90_U4DV12 Macrodomain Ter protein n=4 Tax=Vibrio TaxID=66...  223     5e-73
+  UniRef90_A7N0M1 Macrodomain Ter protein n=68 Tax=Vibrio TaxID=6...  223     7e-73
+  UniRef90_UPI000838313F macrodomain Ter protein MatP n=1 Tax=Vib...  223     9e-73
+  UniRef90_A0A0B8QAJ6 Macrodomain Ter protein n=4 Tax=Vibrio TaxI...  222     1e-72
+  UniRef90_A0A2N8Z9K2 Macrodomain Ter protein n=1 Tax=Vibrio tape...  222     1e-72
+  UniRef90_UPI000EB3DBD3 macrodomain Ter protein MatP n=1 Tax=Orb...  222     2e-72
+  UniRef90_A0A067B6C3 Macrodomain Ter protein n=3 Tax=Vibrio meto...  222     2e-72
+  UniRef90_A0A0F2HZH7 Macrodomain Ter protein n=3 Tax=Vibrio TaxI...  222     2e-72
+  UniRef90_Q9KS02 Macrodomain Ter protein n=46 Tax=Vibrio TaxID=6...  221     2e-72
+  UniRef90_A0A2N7DIG6 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  221     3e-72
+  UniRef90_UPI0006D0EE67 macrodomain Ter protein MatP n=1 Tax=Pho...  221     3e-72
+  UniRef90_A0A0J5FUP4 Macrodomain Ter protein n=3 Tax=Xenorhabdus...  221     3e-72
+  UniRef90_A0A2J8GQP9 Macrodomain Ter protein n=1 Tax=Vibrio diaz...  221     3e-72
+  UniRef90_A0A0J1H542 Macrodomain Ter protein n=1 Tax=Photobacter...  221     3e-72
+  UniRef90_D1NZX7 Macrodomain Ter protein n=2 Tax=Providencia rus...  221     3e-72
+  UniRef90_A0A2N7L4I7 Macrodomain Ter protein n=2 Tax=Enterovibri...  221     4e-72
+  UniRef90_A0A1Y6IR34 Macrodomain Ter protein n=1 Tax=Vibrio mang...  221     5e-72
+  UniRef90_A0A0A7RZI8 Macrodomain Ter protein n=1 Tax=Frischella ...  221     5e-72
+  UniRef90_A0A2M8H2S7 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  221     5e-72
+  UniRef90_A0A0M0HMX3 Macrodomain Ter protein n=1 Tax=Vibrio nere...  221     6e-72
+  UniRef90_UPI0008DA3D74 macrodomain Ter protein MatP n=1 Tax=Vib...  220     7e-72
+  UniRef90_A0A356D835 Macrodomain Ter protein n=1 Tax=Providencia...  220     8e-72
+  UniRef90_X0P820 Macrodomain Ter protein n=4 Tax=Photobacterium ...  220     9e-72
+  UniRef90_A0A1T4LTP8 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  220     9e-72
+  UniRef90_A0A1E5D732 Macrodomain Ter protein n=2 Tax=Vibrionales...  220     1e-71
+  UniRef90_UPI00063CEB06 macrodomain Ter protein MatP n=2 Tax=Vib...  220     1e-71
+  UniRef90_A0A1E5E6N4 Macrodomain Ter protein n=8 Tax=Vibrio TaxI...  220     1e-71
+  UniRef90_A0A1X9U186 Macrodomain Ter protein n=6 Tax=Proteobacte...  220     2e-71
+  UniRef90_A0A3A6QJQ5 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  219     2e-71
+  UniRef90_Q2BXY9 Macrodomain Ter protein n=6 Tax=Photobacterium ...  220     2e-71
+  UniRef90_A0A0W8JGY3 Macrodomain Ter protein n=6 Tax=Vibrio TaxI...  219     2e-71
+  UniRef90_L8J6Q9 Macrodomain Ter protein n=1 Tax=Photobacterium ...  219     2e-71
+  UniRef90_A0A380NWJ2 Macrodomain Ter protein n=5 Tax=Vibrio TaxI...  219     2e-71
+  UniRef90_A0A1E5BFL7 Macrodomain Ter protein n=3 Tax=Vibrio TaxI...  219     3e-71
+  UniRef90_U2ZUZ6 Macrodomain Ter protein n=1 Tax=Vibrio proteoly...  219     3e-71
+  UniRef90_Q7MKW4 Macrodomain Ter protein n=10 Tax=Vibrio TaxID=6...  219     3e-71
+  UniRef90_A0A193KBH7 Macrodomain Ter protein n=5 Tax=Vibrionacea...  218     4e-71
+  UniRef90_A0A2A9FZN3 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  218     4e-71
+  UniRef90_A0A0B9G4U3 Macrodomain Ter protein n=4 Tax=Photobacter...  218     4e-71
+  UniRef90_A0A3N9TH05 Macrodomain Ter protein MatP n=1 Tax=Vibrio...  218     4e-71
+  UniRef90_A0A2U8I5P7 Macrodomain Ter protein n=1 Tax=Candidatus ...  218     5e-71
+  UniRef90_A0A1M5Z5W9 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  218     6e-71
+  UniRef90_UPI000467B982 macrodomain Ter protein MatP n=1 Tax=Can...  218     6e-71
+  UniRef90_A0A1X1MQV3 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  218     6e-71
+  UniRef90_D0IAH5 Macrodomain Ter protein n=8 Tax=Vibrionaceae Ta...  217     1e-70
+  UniRef90_Q6LR94 Macrodomain Ter protein n=4 Tax=Photobacterium ...  217     1e-70
+  UniRef90_A0A1C3EBQ8 Macrodomain Ter protein n=1 Tax=Enterovibri...  217     2e-70
+  UniRef90_B6ELS5 Macrodomain Ter protein n=18 Tax=Aliivibrio Tax...  216     2e-70
+  UniRef90_A0A1E5CAJ0 Macrodomain Ter protein n=2 Tax=Vibrionacea...  216     2e-70
+  UniRef90_A0A090S862 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  216     4e-70
+  UniRef90_UPI000F68B82E macrodomain Ter protein MatP n=1 Tax=Vib...  216     6e-70
+  UniRef90_A0A135I599 Macrodomain Ter protein n=2 Tax=Enterovibri...  215     7e-70
+  UniRef90_A0A0J1GVW6 Macrodomain Ter protein n=1 Tax=Photobacter...  215     7e-70
+  UniRef90_A0A1B1NP27 Macrodomain Ter protein n=11 Tax=Vibrio Tax...  215     7e-70
+  UniRef90_A0A0L7YT29 Macrodomain Ter protein n=1 Tax=Vibrio algi...  215     1e-69
+  UniRef90_A0A0J8Y047 Macrodomain Ter protein n=4 Tax=Photobacter...  215     1e-69
+  UniRef90_UPI000491115D macrodomain Ter protein MatP n=1 Tax=Pha...  215     1e-69
+  UniRef90_A0A066RVL7 Macrodomain Ter protein n=1 Tax=Photobacter...  214     2e-69
+  UniRef90_A0A0F5V9Y8 Macrodomain Ter protein n=3 Tax=Photobacter...  214     2e-69
+  UniRef90_UPI000E0B49E5 macrodomain Ter protein MatP n=1 Tax=Vib...  214     2e-69
+  UniRef90_A0A1N6ES21 Macrodomain Ter protein n=12 Tax=Vibrionace...  213     7e-69
+  UniRef90_Q2NU72 Macrodomain Ter protein n=4 Tax=Sodalis TaxID=8...  213     8e-69
+  UniRef90_A0A0D8PND7 Macrodomain Ter protein n=15 Tax=Photobacte...  211     5e-68
+  UniRef90_UPI000B34B5A4 macrodomain Ter protein MatP n=1 Tax=Tha...  208     3e-67
+  UniRef90_UPI00047044E9 macrodomain Ter protein MatP n=1 Tax=Sal...  208     4e-67
+  UniRef90_UPI000BB8DAEE macrodomain Ter protein MatP n=1 Tax=Ent...  205     5e-66
+  UniRef90_UPI000B34EF4A macrodomain Ter protein MatP n=1 Tax=Tha...  205     9e-66
+  UniRef90_E0WTV2 Macrodomain Ter protein n=2 Tax=Candidatus Regi...  204     2e-65
+  UniRef90_A0A0K1N4Y6 Macrodomain Ter protein n=21 Tax=Aggregatib...  202     1e-64
+  UniRef90_A0A0E3ZMJ9 Macrodomain Ter protein n=2 Tax=Pasteurella...  201     2e-64
+  UniRef90_A0A2M8RUZ7 Macrodomain Ter protein n=1 Tax=Caviibacter...  201     4e-64
+  UniRef90_UPI000509615B macrodomain Ter protein MatP n=3 Tax=Pas...  201     5e-64
+  UniRef90_Q9CNF0 Macrodomain Ter protein n=10 Tax=Pasteurella mu...  200     7e-64
+  UniRef90_A0A1B3JJF2 Macrodomain Ter protein n=19 Tax=Pasteurell...  200     1e-63
+  UniRef90_A0A1H9Y5C9 Macrodomain Ter protein n=2 Tax=Thorsellia ...  200     1e-63
+  UniRef90_Q0I3K9 Macrodomain Ter protein n=3 Tax=Histophilus som...  199     2e-63
+  UniRef90_Q4QKK3 Macrodomain Ter protein n=49 Tax=Bacteria TaxID...  199     2e-63
+  UniRef90_F9QC62 Macrodomain Ter protein n=2 Tax=Haemophilus pit...  199     2e-63
+  UniRef90_A0A1V4AZJ4 Macrodomain Ter protein n=1 Tax=Haemophilus...  199     2e-63
+  UniRef90_A0A1V3K9A1 Macrodomain Ter protein n=1 Tax=Rodentibact...  198     5e-63
+  UniRef90_A0A1B8T649 Macrodomain Ter protein n=13 Tax=Pasteurell...  198     8e-63
+  UniRef90_Q65TA7 Macrodomain Ter protein n=3 Tax=Pasteurellaceae...  198     9e-63
+  UniRef90_UPI000C7D8DCF macrodomain Ter protein MatP n=1 Tax=Pas...  197     1e-62
+  UniRef90_UPI000F6EEDAD macrodomain Ter protein MatP n=1 Tax=Act...  197     1e-62
+  UniRef90_A6VPA7 Macrodomain Ter protein n=1 Tax=Actinobacillus ...  196     2e-62
+  UniRef90_A0A263HBR0 Macrodomain Ter protein n=3 Tax=Pasteurella...  195     9e-62
+  UniRef90_A0A379CQU2 Macrodomain Ter protein n=7 Tax=unclassifie...  195     1e-61
+  UniRef90_A0A379ATF9 Macrodomain Ter protein n=7 Tax=Avibacteriu...  193     3e-61
+  UniRef90_A0A356EBD6 Macrodomain Ter protein (Fragment) n=1 Tax=...  193     4e-61
+  UniRef90_A0A0A2ZRK7 Macrodomain Ter protein n=10 Tax=Gallibacte...  193     6e-61
+  UniRef90_A0A2M8S5Y6 Macrodomain Ter protein n=1 Tax=Conservatib...  193     8e-61
+  UniRef90_A0A378CQ89 Macrodomain Ter protein n=1 Tax=Klebsiella ...  191     8e-61
+  UniRef90_I3D6W9 Macrodomain Ter protein n=2 Tax=Pasteurellaceae...  192     9e-61
+  UniRef90_M4R6X9 Macrodomain Ter protein n=4 Tax=Bibersteinia tr...  192     1e-60
+  UniRef90_C9PR52 Macrodomain Ter protein n=2 Tax=Pasteurella Tax...  192     1e-60
+  UniRef90_A0A1V3TUB6 Macrodomain Ter protein n=1 Tax=Pasteurella...  191     3e-60
+  UniRef90_UPI000BE41A7E macrodomain Ter protein MatP n=1 Tax=Can...  191     3e-60
+  UniRef90_A0A1W1V0H2 Macrodomain Ter protein n=1 Tax=Pasteurella...  191     4e-60
+  UniRef90_A0A1T4TR04 Macrodomain Ter protein n=2 Tax=Photobacter...  190     5e-60
+  UniRef90_A0A1T0B1P7 Macrodomain Ter protein n=1 Tax=[Haemophilu...  190     8e-60
+  UniRef90_A0A380TXT7 Macrodomain Ter protein n=2 Tax=Pasteurella...  190     8e-60
+  UniRef90_A0A0A3AU51 Macrodomain Ter protein n=1 Tax=Chelonobact...  189     2e-59
+  UniRef90_A0A1A7NTK0 Macrodomain Ter protein n=5 Tax=Gallibacter...  188     7e-59
+  UniRef90_A0A0J8YA60 Macrodomain Ter protein (Fragment) n=1 Tax=...  186     1e-58
+  UniRef90_A0A3N4W5T0 Uncharacterized protein n=1 Tax=Frederiksen...  187     1e-58
+  UniRef90_UPI000B59F307 macrodomain Ter protein MatP n=1 Tax=Shi...  184     4e-58
+  UniRef90_A0A3N4VU76 Uncharacterized protein n=1 Tax=Vespertilii...  185     5e-58
+  UniRef90_A0A328BXE1 Macrodomain Ter protein n=7 Tax=Glaesserell...  183     6e-57
+  UniRef90_A0A0J5P4H2 Macrodomain Ter protein n=1 Tax=Muribacter ...  182     1e-56
+  UniRef90_A0A1T0APZ5 Macrodomain Ter protein n=1 Tax=Haemophilus...  182     1e-56
+  UniRef90_Q7VPB1 Macrodomain Ter protein n=2 Tax=Haemophilus duc...  182     1e-56
+  UniRef90_I3DAA6 Macrodomain Ter protein n=7 Tax=Haemophilus Tax...  181     4e-56
+  UniRef90_K0G6G8 Macrodomain Ter protein n=5 Tax=Actinobacillus ...  180     5e-56
+  UniRef90_A0A379CC90 Macrodomain Ter protein n=1 Tax=Phocoenobac...  180     5e-56
+  UniRef90_UPI000EB0F924 macrodomain Ter protein MatP n=1 Tax=Ota...  179     1e-55
+  UniRef90_A0A223ME10 Macrodomain Ter protein n=7 Tax=Actinobacil...  179     2e-55
+  UniRef90_J5HU71 Macrodomain Ter protein n=2 Tax=Haemophilus spu...  177     7e-55
+  UniRef90_A0A1H7XQT0 Macrodomain Ter protein n=1 Tax=Pasteurella...  177     1e-54
+  UniRef90_C5S3T6 Macrodomain Ter protein n=2 Tax=Actinobacillus ...  176     2e-54
+  UniRef90_W0QGW6 Macrodomain Ter protein n=6 Tax=Mannheimia TaxI...  175     7e-54
+  UniRef90_A0A2N4UW42 Macrodomain Ter protein n=1 Tax=Photobacter...  173     3e-53
+  UniRef90_UPI000A120BD6 macrodomain Ter protein MatP n=1 Tax=Cro...  171     4e-53
+  UniRef90_W1APB9 Uncharacterized protein n=2 Tax=Enterobacteriac...  171     1e-52
+  UniRef90_A0A377ATW1 Putative dehydrogenase n=1 Tax=Escherichia ...  171     1e-52
+  UniRef90_UPI00030CF2A2 macrodomain Ter protein MatP n=1 Tax=Sal...  169     3e-52
+  UniRef90_A0A2T3HWQ4 Macrodomain Ter protein n=3 Tax=Photobacter...  169     9e-52
+  UniRef90_A0A377M3V4 Macrodomain Ter protein n=1 Tax=Enterobacte...  167     2e-51
+  UniRef90_A0A376VLI0 Macrodomain Ter protein n=1 Tax=Escherichia...  166     6e-51
+  UniRef90_A0A336N5B2 Macrodomain Ter protein n=1 Tax=Aggregatiba...  167     7e-51
+  UniRef90_A0A2T3PFJ6 Macrodomain Ter protein n=1 Tax=Photobacter...  164     5e-50
+  UniRef90_A0A377T887 Dehydrogenase n=1 Tax=Raoultella planticola...  163     2e-49
+  UniRef90_A0A378DY99 Macrodomain Ter protein n=2 Tax=Klebsiella ...  154     2e-46
+  UniRef90_A0A377XDD1 Dehydrogenase n=1 Tax=Klebsiella pneumoniae...  143     3e-42
+  UniRef90_A0A376ZW85 Putative dehydrogenase n=1 Tax=Escherichia ...  141     2e-41
+  UniRef90_A0A3P4IGA0 Macrodomain Ter protein n=1 Tax=Klebsiella ...  140     9e-41
+  UniRef90_A4MZW6 Uncharacterized protein n=1 Tax=Haemophilus inf...  140     1e-40
+  UniRef90_A0A3A1YNN1 Macrodomain Ter protein n=1 Tax=Bisgaard ta...  140     1e-39
+  UniRef90_A0A3A1Y740 Macrodomain Ter protein n=1 Tax=Bisgaard ta...  137     9e-39
+  UniRef90_A0A3A1YB16 Macrodomain Ter protein n=1 Tax=Bisgaard ta...  136     9e-39
+  UniRef90_A0A3A1Y9W0 Macrodomain Ter protein n=1 Tax=Bisgaard Ta...  136     1e-38
+  UniRef90_A0A2A5T7C9 Macrodomain Ter protein n=1 Tax=Candidatus ...  129     3e-36
+  UniRef90_A0A220VEP4 Macrodomain Ter protein n=1 Tax=Paraphotoba...  125     3e-34
+  UniRef90_A0A2X1RVT8 Macrodomain Ter protein n=1 Tax=Haemophilus...  115     1e-30
+  UniRef90_A0A291BBS2 Macrodomain Ter protein n=2 Tax=Candidatus ...  112     9e-30
+  UniRef90_A0A1E5BGB5 Macrodomain Ter protein n=1 Tax=Vibrio geno...  113     2e-29
+  UniRef90_UPI000C85A209 hypothetical protein n=1 Tax=Vibrio sple...  108     6e-28
+  UniRef90_A0A379UNU3 Macrodomain Ter protein n=1 Tax=Salmonella ...  105     2e-27
+  UniRef90_A0A3P4IDE3 Macrodomain Ter protein n=1 Tax=Klebsiella ...  100     2e-25
+  UniRef90_A0A0J8YA85 Uncharacterized protein (Fragment) n=1 Tax=...  97.6    3e-24
+  UniRef90_A0A2X4U9M4 Macrodomain Ter protein n=1 Tax=Serratia pl...  92.2    3e-22
+  UniRef90_A0A377M396 Ter macrodomain organizer matS-binding prot...  83.7    5e-19
+  UniRef90_A0A377NCW6 Macrodomain Ter protein n=1 Tax=Ewingella a...  81.4    4e-18
+  UniRef90_A0A2T7FGC5 Ter macrodomain-binding protein MatP (Fragm...  60.2    5e-10
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_C4NV48 Macrodomain Ter protein n=85 Tax=Bacteria TaxID...  53.3    2e-06
+  UniRef90_A0A2A5CCS1 Uncharacterized protein n=1 Tax=Moraxellace...  52.9    3e-06
+  UniRef90_A0A0F2QYG0 Uncharacterized protein n=1 Tax=Desulfatita...  48.6    1e-04
+  UniRef90_A0A1H3QM01 Organiser of macrodomain of Terminus of chr...  46.7    9e-04
+  UniRef90_A0A0A8NV61 Uncharacterized protein n=2 Tax=Xenorhabdus...  44.4    0.004
+  UniRef90_A0A1G5SI28 Uncharacterized protein n=2 Tax=Nitrosomona...  44.0    0.010
+  UniRef90_A0A250KVZ7 Uncharacterized protein n=1 Tax=Methylocald...  43.2    0.016
+  UniRef90_A0A1H3IQS8 Organiser of macrodomain of Terminus of chr...  42.9    0.018
+  UniRef90_K0CWM9 Uncharacterized protein n=1 Tax=Alteromonas mac...  43.2    0.023
+  UniRef90_UPI0003678041 hypothetical protein n=1 Tax=Hahella gan...  42.1    0.030
+  UniRef90_A0A1Z4I794 PAS/PAC sensor hybrid histidine kinase n=2 ...  43.6    0.035
+  UniRef90_A0A353BCL9 Uncharacterized protein n=1 Tax=Planctomyce...  41.7    0.036
+  UniRef90_UPI0004070FD1 hypothetical protein n=1 Tax=Methylocald...  42.1    0.048
+  UniRef90_A0A1D1V085 Uncharacterized protein n=1 Tax=Ramazzottiu...  42.5    0.073
+  UniRef90_A0A3D9SFH8 H+/Cl-antiporter ClcA n=2 Tax=Paenibacillus...  42.1    0.099
+  UniRef90_A0A1B5E1Q1 Uncharacterized protein n=1 Tax=Pseudomonas...  40.5    0.15 
+  UniRef90_UPI000FDECBD7 hypothetical protein n=1 Tax=Hahella sp....  40.2    0.16 
+  UniRef90_A0A346NST3 Uncharacterized protein n=1 Tax=Salinimonas...  40.2    0.22 
+  UniRef90_A0A349BY66 Probable GTP-binding protein EngB n=1 Tax=L...  40.5    0.24 
+  UniRef90_UPI000984DFF3 translesion error-prone DNA polymerase V...  40.5    0.27 
+  UniRef90_A0A2Z5SWH2 Uncharacterized protein n=1 Tax=Geobacter s...  39.4    0.29 
+  UniRef90_A0A353BBN2 Uncharacterized protein n=1 Tax=Planctomyce...  39.8    0.29 
+  UniRef90_A0A1H3J842 Organiser of macrodomain of Terminus of chr...  39.4    0.34 
+  UniRef90_A0A2H2IBG9 Uncharacterized protein n=1 Tax=Caenorhabdi...  40.5    0.36 
+  UniRef90_UPI000D3E1266 hypothetical protein n=1 Tax=Gammaproteo...  39.4    0.43 
+  UniRef90_UPI000837CCAD SAM-dependent DNA methyltransferase n=1 ...  40.2    0.43 
+  UniRef90_A0A353B2M1 Uncharacterized protein n=1 Tax=Planctomyce...  39.0    0.44 
+  UniRef90_A0A1I5U1Y2 Ribbon-helix-helix protein, copG family n=2...  39.4    0.44 
+  UniRef90_A0A1I0CX32 Organiser of macrodomain of Terminus of chr...  39.0    0.45 
+  UniRef90_A0A2X2E616 Uncharacterized protein n=1 Tax=Pseudomonas...  37.5    0.50 
+  UniRef90_UPI000D3E3EF1 hypothetical protein n=1 Tax=Gammaproteo...  38.2    0.56 
+  UniRef90_UPI0003FB301E TIGR02757 family protein n=1 Tax=Gramell...  39.8    0.58 
+  UniRef90_A0A1V6NVY3 Uncharacterized protein n=1 Tax=Penicillium...  39.8    0.65 
+  UniRef90_L8G030 Uncharacterized protein n=2 Tax=Pseudogymnoascu...  39.8    0.68 
+  UniRef90_D2SCH9 CopG domain protein DNA-binding domain protein ...  38.6    0.69 
+  UniRef90_UPI000E7436EA hypothetical protein n=1 Tax=Motilimonas...  38.2    0.75 
+  UniRef90_Q2SG86 Uncharacterized protein conserved in bacteria n...  38.2    0.86 
+  UniRef90_UPI00098BA5A4 hypothetical protein n=2 Tax=Methylocald...  38.2    0.89 
+  UniRef90_A0A1Z4R637 Ferric aerobactin receptor n=2 Tax=Calothri...  39.4    0.94 
+  UniRef90_A0C0G3 Uncharacterized protein n=1 Tax=Paramecium tetr...  39.0    1.1  
+  UniRef90_A0A3D3CJT6 Lactate dehydrogenase n=1 Tax=Synergistacea...  39.0    1.1  
+  UniRef90_D2YA38 Uncharacterized protein n=7 Tax=Gammaproteobact...  37.9    1.2  
+  UniRef90_A0A1Q5CN03 Uncharacterized protein n=4 Tax=Streptomyce...  37.1    1.2  
+  UniRef90_A0A3A4JXP2 Glycine--tRNA ligase n=1 Tax=Candidatus Omn...  39.0    1.3  
+  UniRef90_A0A2P7YGL1 Uncharacterized protein n=1 Tax=Elsinoe aus...  38.6    1.5  
+  UniRef90_Q0AGW1 Uncharacterized protein n=3 Tax=Nitrosomonas eu...  37.5    1.7  
+  UniRef90_UPI000592559A hypothetical protein n=1 Tax=Nocardia br...  35.9    2.2  
+  UniRef90_UPI000510C1E8 uncharacterized protein LOC103954720 n=1...  38.2    2.2  
+  UniRef90_UPI000B77722C probable BOI-related E3 ubiquitin-protei...  37.9    2.3  
+  UniRef90_A0A2S5I776 Uncharacterized protein n=3 Tax=Pseudomonas...  37.1    2.4  
+  UniRef90_UPI0009F69CB6 aryl-sulfate sulfotransferase n=1 Tax=Cu...  37.1    2.5  
+  UniRef90_UPI00082E3429 hypothetical protein n=2 Tax=Nocardia Ta...  35.9    2.6  
+  UniRef90_A0A1G9R2S9 Uncharacterized protein n=1 Tax=Geodermatop...  37.1    2.7  
+  UniRef90_B8LRB1 Aminopeptidase n=2 Tax=Picea sitchensis TaxID=3...  37.9    2.7  
+  UniRef90_A0A1Z4IH02 TetR family transcriptional regulator prote...  37.9    2.8  
+  UniRef90_UPI000375021B hypothetical protein n=1 Tax=Algicola sa...  37.1    2.8  
+  UniRef90_A0A1Q7BFW5 Aryl-sulfate sulfotransferase n=1 Tax=Alpha...  35.9    3.0  
+  UniRef90_A0A1H0JTC0 Uncharacterized protein n=1 Tax=Geodermatop...  36.7    3.0  
+  UniRef90_A0A218XGT1 Uncharacterized protein n=1 Tax=Punica gran...  37.5    3.0  
+  UniRef90_I2AYA5 Oxidoreductase iron/ascorbate family protein n=...  37.5    3.0  
+  UniRef90_A0A372J1S5 Arc family DNA-binding protein n=1 Tax=Geod...  36.7    3.1  
+  UniRef90_A0A2A3E8N2 Kinase n=2 Tax=Apis cerana TaxID=7461 RepID...  37.9    3.2  
+  UniRef90_UPI000FE197E6 hypothetical protein n=1 Tax=Sparassis c...  37.5    3.7  
+  UniRef90_UPI00052E53AD hypothetical protein n=1 Tax=Streptomyce...  35.9    3.8  
+  UniRef90_UPI000629310B uncharacterized protein LOC105736865 n=1...  37.1    3.8  
+  UniRef90_A0A158H2P0 DNA-binding helix-turn-helix protein n=1 Ta...  37.5    4.0  
+  UniRef90_A0A3N2KWX7 Uncharacterized protein n=1 Tax=Muribaculac...  37.5    4.0  
+  UniRef90_K9UHP7 Uncharacterized protein n=1 Tax=Chamaesiphon mi...  37.1    4.1  
+  UniRef90_A0A373NV60 DUF386 domain-containing protein n=3 Tax=Cl...  36.3    4.6  
+  UniRef90_A0A1I7L8Y0 Uncharacterized protein n=1 Tax=Methylobact...  35.5    4.7  
+  UniRef90_UPI000FDDDAC2 hypothetical protein n=1 Tax=Lactococcus...  37.1    4.8  
+  UniRef90_A0A0F7KI71 Uncharacterized protein n=4 Tax=Nitrosomona...  36.3    4.9  
+  UniRef90_A0A1Q5LYZ5 Uncharacterized protein n=1 Tax=Streptomyce...  35.2    5.5  
+  UniRef90_A0A3G9AJ14 Uncharacterized protein n=1 Tax=Chryseobact...  36.7    5.7  
+  UniRef90_UPI000F6170DE glutamine synthetase n=1 Tax=Clostridium...  37.1    5.7  
+  UniRef90_A0A1I0DK93 Outer membrane receptor for ferrienterochel...  37.1    5.9  
+  UniRef90_A0A1Z4SDX5 TetR family transcriptional regulator prote...  36.7    6.1  
+  UniRef90_A0A0A8LBW6 WGS project CCBQ000000000 data, contig 0005...  37.1    6.2  
+  UniRef90_A0A1A0TVU2 Uncharacterized protein n=1 Tax=Mycobacteri...  36.3    6.2  
+  UniRef90_D5U2I0 Conserved protein implicated in secretion n=1 T...  36.3    6.3  
+  UniRef90_A0A2M8RTM6 Mechanosensitive channel MscK n=1 Tax=Cavii...  37.1    6.4  
+  UniRef90_F5Z5I2 Uncharacterized protein n=2 Tax=Alteromonas nap...  35.9    6.4  
+  UniRef90_A0A1Y1UUN3 Uncharacterized protein n=1 Tax=Piromyces f...  36.7    6.6  
+  UniRef90_UPI0007F8B431 myosin-10-like isoform X2 n=1 Tax=Krypto...  37.1    6.6  
+  UniRef90_A0A0P1BUJ2 Transcriptional regulator n=1 Tax=Chrysospo...  36.7    6.6  
+  UniRef90_UPI00090EB0C9 putative E3 ubiquitin-protein ligase RF2...  36.7    6.9  
+  UniRef90_K9QW21 Transcriptional regulator n=1 Tax=Nostoc sp. (s...  36.3    7.2  
+  UniRef90_UPI0007F93F1D myosin-10-like isoform X4 n=1 Tax=Krypto...  36.7    7.5  
+  UniRef90_A0A1I4RN37 Organiser of macrodomain of Terminus of chr...  35.9    7.6  
+  UniRef90_A0A1Z8RVE0 Glucose-6-phosphate isomerase n=2 Tax=Cellv...  36.7    7.6  
+  UniRef90_UPI0003EBBF4B interferon-induced very large GTPase 1-l...  36.7    8.0  
+  UniRef90_A0A218QA70 Transcriptional regulator n=2 Tax=Nodularia...  36.3    8.0  
+  UniRef90_A0A1G8HM05 Organiser of macrodomain of Terminus of chr...  36.3    8.1  
+  UniRef90_K2F5X9 Sortase family protein n=1 Tax=uncultured bacte...  36.3    8.1  
+  UniRef90_A0A0Q8H5X0 Uncharacterized protein n=1 Tax=Caulobacter...  35.5    8.3  
+  UniRef90_A0A367Q2F9 TetR family transcriptional regulator n=1 T...  36.3    8.9  
+  UniRef90_A0A2I6KEU6 Uncharacterized protein n=1 Tax=Enterobacte...  36.3    8.9  
+  UniRef90_A0A1B9JKW0 ABC transporter ATP-binding protein n=8 Tax...  36.3    9.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.163    0.560    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0499    0.140     1.90     42.6     43.6 
+
+Effective search space used: 738437480343
+Results from round 3
+
+
+Query= NP_415476.1
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A2X2UW81 Macrodomain Ter protein n=1 Tax=Citrobacter...  280     3e-92
+  UniRef90_UPI000948CCBD macrodomain Ter protein MatP n=1 Tax=Pan...  243     1e-80
+  UniRef90_A0A1I4UP88 Macrodomain Ter protein n=2 Tax=Izhakiella ...  246     1e-80
+  UniRef90_A0A1X1E774 Macrodomain Ter protein n=2 Tax=Pantoea Tax...  242     7e-80
+  UniRef90_A0A1H3YQJ1 Macrodomain Ter protein n=9 Tax=Pectobacter...  240     3e-79
+  UniRef90_A7ZK59 Macrodomain Ter protein n=30 Tax=Enterobacteral...  239     3e-79
+  UniRef90_B7LNW6 Macrodomain Ter protein n=63 Tax=Bacteria TaxID...  239     4e-79
+  UniRef90_A0A2S6VQG3 Macrodomain Ter protein n=2 Tax=Pantoea Tax...  240     5e-79
+  UniRef90_UPI00073DADF3 macrodomain Ter protein MatP n=1 Tax=[Er...  238     5e-79
+  UniRef90_W3V4W7 Macrodomain Ter protein n=2 Tax=Morganellaceae ...  240     6e-79
+  UniRef90_U2MP49 Macrodomain Ter protein n=6 Tax=Erwiniaceae Tax...  239     7e-79
+  UniRef90_A0A1V9DPI7 Macrodomain Ter protein n=2 Tax=Pantoea Tax...  238     1e-78
+  UniRef90_A0A1B7I8P9 Macrodomain Ter protein n=11 Tax=Enterobact...  237     1e-78
+  UniRef90_A0A014M6L0 Macrodomain Ter protein n=3 Tax=Erwinia Tax...  237     2e-78
+  UniRef90_A0A1W6BAR9 Macrodomain Ter protein n=6 Tax=Erwiniaceae...  237     3e-78
+  UniRef90_A0A0D1MRM3 Macrodomain Ter protein n=4 Tax=Enterobacte...  237     4e-78
+  UniRef90_A7MFW6 Macrodomain Ter protein n=140 Tax=Enterobacteri...  237     4e-78
+  UniRef90_M7CB10 Macrodomain Ter protein n=13 Tax=Bacteria TaxID...  237     8e-78
+  UniRef90_A0A068ZA86 Macrodomain Ter protein n=3 Tax=Serratia sy...  236     8e-78
+  UniRef90_A0A0A5LVA4 Macrodomain Ter protein n=53 Tax=Enterobact...  235     8e-78
+  UniRef90_C9Y0P6 Macrodomain Ter protein n=3 Tax=Cronobacter Tax...  235     9e-78
+  UniRef90_D8MQG4 Macrodomain Ter protein n=3 Tax=Enterobacterale...  235     9e-78
+  UniRef90_UPI000C1A5AD2 macrodomain Ter protein MatP n=1 Tax=Ser...  235     1e-77
+  UniRef90_E6WCD0 Macrodomain Ter protein n=11 Tax=Erwiniaceae Ta...  235     1e-77
+  UniRef90_A0A358L3S6 Macrodomain Ter protein n=2 Tax=Erwinia Tax...  235     1e-77
+  UniRef90_A0A0U4IQ20 Macrodomain Ter protein n=5 Tax=Serratia Ta...  235     1e-77
+  UniRef90_A0A2U1UKL4 Macrodomain Ter protein n=2 Tax=Brenneria r...  234     3e-77
+  UniRef90_UPI000FDF20AF UPI000FDF20AF related cluster n=1 Tax=un...  234     3e-77
+  UniRef90_UPI00046A5387 macrodomain Ter protein MatP n=1 Tax=Pan...  234     4e-77
+  UniRef90_A0A089PSU8 Macrodomain Ter protein n=1 Tax=Pluralibact...  233     4e-77
+  UniRef90_D2BX42 Macrodomain Ter protein n=21 Tax=Enterobacteral...  234     4e-77
+  UniRef90_A0A2P8VQU9 Macrodomain Ter protein n=2 Tax=Siccibacter...  233     5e-77
+  UniRef90_A0A0A3Z555 Macrodomain Ter protein n=4 Tax=Erwiniaceae...  233     5e-77
+  UniRef90_A0A2I5TD40 Macrodomain Ter protein n=1 Tax=Serratia sp...  233     5e-77
+  UniRef90_U3TQ32 Macrodomain Ter protein n=2 Tax=Plautia stali s...  233     6e-77
+  UniRef90_D2TS86 Macrodomain Ter protein n=481 Tax=cellular orga...  233     7e-77
+  UniRef90_A0A2I0FWZ3 Macrodomain Ter protein n=1 Tax=Enterobacte...  233     7e-77
+  UniRef90_A0A0U5L347 Macrodomain Ter protein n=1 Tax=Erwinia ger...  233     8e-77
+  UniRef90_A0A0J1LPW0 Macrodomain Ter protein n=5 Tax=Enterobacte...  233     9e-77
+  UniRef90_UPI0005509E54 macrodomain Ter protein MatP n=3 Tax=Erw...  233     1e-76
+  UniRef90_C7BPQ3 Macrodomain Ter protein n=2 Tax=Photorhabdus as...  233     2e-76
+  UniRef90_A0A2P5GRJ3 Macrodomain Ter protein n=12 Tax=Enterobact...  231     4e-76
+  UniRef90_H2ISA4 Macrodomain Ter protein n=13 Tax=Yersiniaceae T...  231     4e-76
+  UniRef90_D2TZJ3 Macrodomain Ter protein n=5 Tax=Arsenophonus Ta...  231     4e-76
+  UniRef90_A0A2S9IA73 Macrodomain Ter protein n=2 Tax=Erwiniaceae...  231     6e-76
+  UniRef90_A0A0F5Y4N0 Macrodomain Ter protein n=48 Tax=Enterobact...  232     6e-76
+  UniRef90_A4W8W8 Macrodomain Ter protein n=68 Tax=Enterobacteral...  231     7e-76
+  UniRef90_A0A0G4JZ97 Macrodomain Ter protein n=5 Tax=Brenneria T...  230     8e-76
+  UniRef90_A0A2U2HUZ4 Macrodomain Ter protein n=5 Tax=Enterobacte...  230     8e-76
+  UniRef90_A0A0M3E1L7 Macrodomain Ter protein n=1 Tax=Vibrio para...  230     1e-75
+  UniRef90_A0A1Y0L798 Macrodomain Ter protein n=2 Tax=Tatumella T...  230     2e-75
+  UniRef90_A0A366I3A9 Macrodomain Ter protein n=2 Tax=Brenneria s...  232     2e-75
+  UniRef90_A0A375ADQ2 Macrodomain Ter protein n=1 Tax=Dickeya aqu...  230     2e-75
+  UniRef90_A0A2N5ETK0 Macrodomain Ter protein n=3 Tax=unclassifie...  229     3e-75
+  UniRef90_A0A250B5J1 Macrodomain Ter protein n=1 Tax=Gibbsiella ...  229     3e-75
+  UniRef90_UPI0004B9086D macrodomain Ter protein MatP n=1 Tax=Ent...  229     3e-75
+  UniRef90_A0A071LVB3 Macrodomain Ter protein n=3 Tax=Mangrovibac...  229     3e-75
+  UniRef90_B2VDE5 Macrodomain Ter protein n=10 Tax=Erwiniaceae Ta...  229     4e-75
+  UniRef90_A0A0Q4N2E6 Macrodomain Ter protein n=1 Tax=Erwinia sp....  228     4e-75
+  UniRef90_UPI000DEF7E6D macrodomain Ter protein MatP n=1 Tax=Rah...  228     5e-75
+  UniRef90_A0A0A8P2E9 Macrodomain Ter protein n=26 Tax=Xenorhabdu...  228     6e-75
+  UniRef90_C6C3L9 Macrodomain Ter protein n=1 Tax=Dickeya paradis...  228     7e-75
+  UniRef90_Q6D6D5 Macrodomain Ter protein n=37 Tax=Pectobacterium...  228     8e-75
+  UniRef90_UPI00036C4CF7 macrodomain Ter protein MatP n=1 Tax=Ent...  228     8e-75
+  UniRef90_Q7N603 Macrodomain Ter protein n=21 Tax=Photorhabdus T...  228     8e-75
+  UniRef90_A0A1B8H4Z2 Macrodomain Ter protein n=3 Tax=Morganella ...  227     1e-74
+  UniRef90_A0A084A174 Macrodomain Ter protein n=2 Tax=Serratia Ta...  227     2e-74
+  UniRef90_A0A383KF92 Macrodomain Ter protein n=24 Tax=Enterobact...  227     2e-74
+  UniRef90_A1JMT1 Macrodomain Ter protein n=69 Tax=Yersinia TaxID...  226     3e-74
+  UniRef90_A0A085JCG7 Macrodomain Ter protein n=3 Tax=Tatumella T...  226     3e-74
+  UniRef90_UPI000F658177 macrodomain Ter protein MatP n=1 Tax=Dic...  226     4e-74
+  UniRef90_A0A2A2MI44 Macrodomain Ter protein n=15 Tax=Enterobact...  226     5e-74
+  UniRef90_A0A242P6H5 Macrodomain Ter protein n=5 Tax=Gilliamella...  226     6e-74
+  UniRef90_F0LTZ0 Macrodomain Ter protein n=3 Tax=Vibrio TaxID=66...  225     8e-74
+  UniRef90_A0A089PYD3 Macrodomain Ter protein n=9 Tax=cellular or...  225     1e-73
+  UniRef90_K8X0R3 Macrodomain Ter protein n=1 Tax=Providencia bur...  225     2e-73
+  UniRef90_I2BAK8 Macrodomain Ter protein n=1 Tax=Shimwellia blat...  224     2e-73
+  UniRef90_A0A0Q4M3Z7 Macrodomain Ter protein n=9 Tax=Enterobacte...  223     5e-73
+  UniRef90_A0A1B7JHQ2 Macrodomain Ter protein n=2 Tax=Proteus Tax...  223     5e-73
+  UniRef90_A0A2A7U412 Macrodomain Ter protein n=12 Tax=Edwardsiel...  223     6e-73
+  UniRef90_UPI000BE45596 macrodomain Ter protein MatP n=2 Tax=Sal...  222     9e-73
+  UniRef90_A0A3D3HRL3 Macrodomain Ter protein n=1 Tax=Morganella ...  222     1e-72
+  UniRef90_A0A1B9KHZ4 Macrodomain Ter protein n=5 Tax=Gilliamella...  223     2e-72
+  UniRef90_UPI000F818960 macrodomain Ter protein MatP n=1 Tax=Vib...  221     3e-72
+  UniRef90_X2H502 Macrodomain Ter protein n=26 Tax=Gilliamella Ta...  221     3e-72
+  UniRef90_A0A0N0I9J2 Macrodomain Ter protein n=2 Tax=Moellerella...  221     3e-72
+  UniRef90_A0A0G3CKQ9 Macrodomain Ter protein n=5 Tax=Enterobacte...  221     5e-72
+  UniRef90_A0A1R4B2H4 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  221     5e-72
+  UniRef90_A0A379GZ68 Macrodomain Ter protein n=15 Tax=Gammaprote...  221     6e-72
+  UniRef90_A0A1E7Z3E3 Macrodomain Ter protein n=1 Tax=Candidatus ...  221     6e-72
+  UniRef90_B7VNL8 Macrodomain Ter protein n=62 Tax=Vibrionales Ta...  220     8e-72
+  UniRef90_A0A370QML9 Macrodomain Ter protein n=1 Tax=Enterobacil...  220     9e-72
+  UniRef90_F9T1C9 Macrodomain Ter protein n=15 Tax=Vibrio TaxID=6...  220     1e-71
+  UniRef90_A0A240EN03 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  220     2e-71
+  UniRef90_C9QI24 Macrodomain Ter protein n=8 Tax=Vibrio TaxID=66...  219     2e-71
+  UniRef90_E3BFH3 Macrodomain Ter protein n=1 Tax=Vibrio caribbea...  219     2e-71
+  UniRef90_A0A1N6MVZ5 Macrodomain Ter protein n=4 Tax=Xenorhabdus...  219     3e-71
+  UniRef90_A0A2N7D534 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  219     3e-71
+  UniRef90_UPI000D021021 macrodomain Ter protein MatP n=1 Tax=Vib...  218     4e-71
+  UniRef90_B6XC17 Macrodomain Ter protein n=5 Tax=Providencia alc...  218     5e-71
+  UniRef90_A6D8Y9 Macrodomain Ter protein n=9 Tax=Vibrio TaxID=66...  218     5e-71
+  UniRef90_F7YJN8 Macrodomain Ter protein n=11 Tax=Vibrio TaxID=6...  219     5e-71
+  UniRef90_W1JBM2 Macrodomain Ter protein n=4 Tax=Xenorhabdus Tax...  218     6e-71
+  UniRef90_A0A2G8C712 Macrodomain Ter protein n=2 Tax=Enterobacte...  218     7e-71
+  UniRef90_UPI0009714B97 macrodomain Ter protein MatP n=1 Tax=Vib...  218     9e-71
+  UniRef90_A0A090QP35 Macrodomain Ter protein n=3 Tax=Photobacter...  217     1e-70
+  UniRef90_A0A2T3N1U7 Macrodomain Ter protein n=1 Tax=Photobacter...  218     1e-70
+  UniRef90_UPI000E3E05A7 macrodomain Ter protein MatP n=1 Tax=Vib...  217     1e-70
+  UniRef90_W1IYG5 Macrodomain Ter protein n=1 Tax=Xenorhabdus sze...  217     2e-70
+  UniRef90_A0A1B9JZA0 Macrodomain Ter protein n=1 Tax=Gilliamella...  217     2e-70
+  UniRef90_UPI000EB3DBD3 macrodomain Ter protein MatP n=1 Tax=Orb...  217     2e-70
+  UniRef90_U3ATY0 Macrodomain Ter protein n=2 Tax=Vibrio TaxID=66...  217     2e-70
+  UniRef90_A0A1S1HX14 Macrodomain Ter protein n=2 Tax=Providencia...  217     2e-70
+  UniRef90_UPI000838313F macrodomain Ter protein MatP n=1 Tax=Vib...  216     2e-70
+  UniRef90_A7N0M1 Macrodomain Ter protein n=68 Tax=Vibrio TaxID=6...  216     2e-70
+  UniRef90_A0A1G7YD81 Macrodomain Ter protein n=1 Tax=Vibrio xiam...  216     3e-70
+  UniRef90_U4DV12 Macrodomain Ter protein n=4 Tax=Vibrio TaxID=66...  216     3e-70
+  UniRef90_A0A0B8QAJ6 Macrodomain Ter protein n=4 Tax=Vibrio TaxI...  216     3e-70
+  UniRef90_A0A2N8Z9K2 Macrodomain Ter protein n=1 Tax=Vibrio tape...  216     5e-70
+  UniRef90_K8WQP5 Macrodomain Ter protein n=1 Tax=Providencia sne...  216     6e-70
+  UniRef90_D1NZX7 Macrodomain Ter protein n=2 Tax=Providencia rus...  216     7e-70
+  UniRef90_A0A2A4GHJ7 Macrodomain Ter protein n=5 Tax=Salinivibri...  215     8e-70
+  UniRef90_Q9KS02 Macrodomain Ter protein n=46 Tax=Vibrio TaxID=6...  215     9e-70
+  UniRef90_A0A2J8GQP9 Macrodomain Ter protein n=1 Tax=Vibrio diaz...  215     1e-69
+  UniRef90_A0A067B6C3 Macrodomain Ter protein n=3 Tax=Vibrio meto...  215     1e-69
+  UniRef90_A0A0F2HZH7 Macrodomain Ter protein n=3 Tax=Vibrio TaxI...  215     1e-69
+  UniRef90_A0A0A7RZI8 Macrodomain Ter protein n=1 Tax=Frischella ...  215     1e-69
+  UniRef90_A0A2N7L4I7 Macrodomain Ter protein n=2 Tax=Enterovibri...  215     1e-69
+  UniRef90_A0A1E5E6N4 Macrodomain Ter protein n=8 Tax=Vibrio TaxI...  215     1e-69
+  UniRef90_A0A1Y6IR34 Macrodomain Ter protein n=1 Tax=Vibrio mang...  215     1e-69
+  UniRef90_X0P820 Macrodomain Ter protein n=4 Tax=Photobacterium ...  215     1e-69
+  UniRef90_A0A2N7DIG6 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  214     2e-69
+  UniRef90_A0A1T4LTP8 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  214     2e-69
+  UniRef90_A0A0M0HMX3 Macrodomain Ter protein n=1 Tax=Vibrio nere...  214     2e-69
+  UniRef90_A0A0J1H542 Macrodomain Ter protein n=1 Tax=Photobacter...  214     2e-69
+  UniRef90_A0A2M8H2S7 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  214     3e-69
+  UniRef90_A0A1E5D732 Macrodomain Ter protein n=2 Tax=Vibrionales...  214     3e-69
+  UniRef90_A0A380NWJ2 Macrodomain Ter protein n=5 Tax=Vibrio TaxI...  214     4e-69
+  UniRef90_L8J6Q9 Macrodomain Ter protein n=1 Tax=Photobacterium ...  213     5e-69
+  UniRef90_UPI0008DA3D74 macrodomain Ter protein MatP n=1 Tax=Vib...  213     5e-69
+  UniRef90_UPI0006D0EE67 macrodomain Ter protein MatP n=1 Tax=Pho...  213     6e-69
+  UniRef90_A0A0J5FUP4 Macrodomain Ter protein n=3 Tax=Xenorhabdus...  213     6e-69
+  UniRef90_A0A1X9U186 Macrodomain Ter protein n=6 Tax=Proteobacte...  213     6e-69
+  UniRef90_UPI00063CEB06 macrodomain Ter protein MatP n=2 Tax=Vib...  213     6e-69
+  UniRef90_A0A2A9FZN3 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  213     7e-69
+  UniRef90_A0A3A6QJQ5 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  213     8e-69
+  UniRef90_A0A356D835 Macrodomain Ter protein n=1 Tax=Providencia...  213     8e-69
+  UniRef90_A0A3N9TH05 Macrodomain Ter protein MatP n=1 Tax=Vibrio...  213     9e-69
+  UniRef90_Q7MKW4 Macrodomain Ter protein n=10 Tax=Vibrio TaxID=6...  213     1e-68
+  UniRef90_A0A193KBH7 Macrodomain Ter protein n=5 Tax=Vibrionacea...  212     1e-68
+  UniRef90_Q2BXY9 Macrodomain Ter protein n=6 Tax=Photobacterium ...  212     1e-68
+  UniRef90_A0A1E5BFL7 Macrodomain Ter protein n=3 Tax=Vibrio TaxI...  212     1e-68
+  UniRef90_UPI000467B982 macrodomain Ter protein MatP n=1 Tax=Can...  212     1e-68
+  UniRef90_A0A0W8JGY3 Macrodomain Ter protein n=6 Tax=Vibrio TaxI...  212     2e-68
+  UniRef90_A0A2U8I5P7 Macrodomain Ter protein n=1 Tax=Candidatus ...  212     2e-68
+  UniRef90_U2ZUZ6 Macrodomain Ter protein n=1 Tax=Vibrio proteoly...  212     2e-68
+  UniRef90_A0A0B9G4U3 Macrodomain Ter protein n=4 Tax=Photobacter...  212     2e-68
+  UniRef90_A0A1X1MQV3 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  211     2e-68
+  UniRef90_A0A1M5Z5W9 Macrodomain Ter protein n=2 Tax=Vibrio TaxI...  211     3e-68
+  UniRef90_B6ELS5 Macrodomain Ter protein n=18 Tax=Aliivibrio Tax...  211     4e-68
+  UniRef90_A0A090S862 Macrodomain Ter protein n=1 Tax=Vibrio sp. ...  210     6e-68
+  UniRef90_Q6LR94 Macrodomain Ter protein n=4 Tax=Photobacterium ...  210     6e-68
+  UniRef90_D0IAH5 Macrodomain Ter protein n=8 Tax=Vibrionaceae Ta...  210     7e-68
+  UniRef90_UPI000F68B82E macrodomain Ter protein MatP n=1 Tax=Vib...  210     7e-68
+  UniRef90_A0A1C3EBQ8 Macrodomain Ter protein n=1 Tax=Enterovibri...  210     1e-67
+  UniRef90_UPI000E0B49E5 macrodomain Ter protein MatP n=1 Tax=Vib...  209     2e-67
+  UniRef90_A0A0J1GVW6 Macrodomain Ter protein n=1 Tax=Photobacter...  209     2e-67
+  UniRef90_A0A0L7YT29 Macrodomain Ter protein n=1 Tax=Vibrio algi...  209     3e-67
+  UniRef90_A0A0J8Y047 Macrodomain Ter protein n=4 Tax=Photobacter...  209     3e-67
+  UniRef90_A0A1E5CAJ0 Macrodomain Ter protein n=2 Tax=Vibrionacea...  209     3e-67
+  UniRef90_A0A135I599 Macrodomain Ter protein n=2 Tax=Enterovibri...  208     5e-67
+  UniRef90_A0A1B1NP27 Macrodomain Ter protein n=11 Tax=Vibrio Tax...  208     7e-67
+  UniRef90_A0A066RVL7 Macrodomain Ter protein n=1 Tax=Photobacter...  207     1e-66
+  UniRef90_A0A0F5V9Y8 Macrodomain Ter protein n=3 Tax=Photobacter...  206     2e-66
+  UniRef90_UPI000491115D macrodomain Ter protein MatP n=1 Tax=Pha...  206     2e-66
+  UniRef90_A0A1N6ES21 Macrodomain Ter protein n=12 Tax=Vibrionace...  205     6e-66
+  UniRef90_Q2NU72 Macrodomain Ter protein n=4 Tax=Sodalis TaxID=8...  205     1e-65
+  UniRef90_UPI000B34B5A4 macrodomain Ter protein MatP n=1 Tax=Tha...  204     3e-65
+  UniRef90_A0A0D8PND7 Macrodomain Ter protein n=15 Tax=Photobacte...  204     3e-65
+  UniRef90_UPI00047044E9 macrodomain Ter protein MatP n=1 Tax=Sal...  200     1e-63
+  UniRef90_UPI000B34EF4A macrodomain Ter protein MatP n=1 Tax=Tha...  199     2e-63
+  UniRef90_E0WTV2 Macrodomain Ter protein n=2 Tax=Candidatus Regi...  198     4e-63
+  UniRef90_UPI000BB8DAEE macrodomain Ter protein MatP n=1 Tax=Ent...  197     5e-63
+  UniRef90_A0A0K1N4Y6 Macrodomain Ter protein n=21 Tax=Aggregatib...  196     2e-62
+  UniRef90_A0A0E3ZMJ9 Macrodomain Ter protein n=2 Tax=Pasteurella...  196     4e-62
+  UniRef90_UPI000509615B macrodomain Ter protein MatP n=3 Tax=Pas...  195     6e-62
+  UniRef90_A0A2M8RUZ7 Macrodomain Ter protein n=1 Tax=Caviibacter...  195     9e-62
+  UniRef90_Q9CNF0 Macrodomain Ter protein n=10 Tax=Pasteurella mu...  195     1e-61
+  UniRef90_Q0I3K9 Macrodomain Ter protein n=3 Tax=Histophilus som...  194     2e-61
+  UniRef90_A0A1V4AZJ4 Macrodomain Ter protein n=1 Tax=Haemophilus...  194     2e-61
+  UniRef90_A0A1B3JJF2 Macrodomain Ter protein n=19 Tax=Pasteurell...  194     2e-61
+  UniRef90_F9QC62 Macrodomain Ter protein n=2 Tax=Haemophilus pit...  193     3e-61
+  UniRef90_Q4QKK3 Macrodomain Ter protein n=49 Tax=Bacteria TaxID...  193     4e-61
+  UniRef90_A0A1V3K9A1 Macrodomain Ter protein n=1 Tax=Rodentibact...  193     6e-61
+  UniRef90_A0A1H9Y5C9 Macrodomain Ter protein n=2 Tax=Thorsellia ...  193     1e-60
+  UniRef90_UPI000F6EEDAD macrodomain Ter protein MatP n=1 Tax=Act...  192     1e-60
+  UniRef90_Q65TA7 Macrodomain Ter protein n=3 Tax=Pasteurellaceae...  192     1e-60
+  UniRef90_UPI000C7D8DCF macrodomain Ter protein MatP n=1 Tax=Pas...  192     1e-60
+  UniRef90_A0A1B8T649 Macrodomain Ter protein n=13 Tax=Pasteurell...  191     2e-60
+  UniRef90_A0A263HBR0 Macrodomain Ter protein n=3 Tax=Pasteurella...  191     3e-60
+  UniRef90_A6VPA7 Macrodomain Ter protein n=1 Tax=Actinobacillus ...  191     3e-60
+  UniRef90_A0A379CQU2 Macrodomain Ter protein n=7 Tax=unclassifie...  189     1e-59
+  UniRef90_A0A356EBD6 Macrodomain Ter protein (Fragment) n=1 Tax=...  188     4e-59
+  UniRef90_A0A379ATF9 Macrodomain Ter protein n=7 Tax=Avibacteriu...  188     5e-59
+  UniRef90_A0A0A2ZRK7 Macrodomain Ter protein n=10 Tax=Gallibacte...  188     6e-59
+  UniRef90_I3D6W9 Macrodomain Ter protein n=2 Tax=Pasteurellaceae...  187     1e-58
+  UniRef90_C9PR52 Macrodomain Ter protein n=2 Tax=Pasteurella Tax...  187     1e-58
+  UniRef90_A0A378CQ89 Macrodomain Ter protein n=1 Tax=Klebsiella ...  186     2e-58
+  UniRef90_M4R6X9 Macrodomain Ter protein n=4 Tax=Bibersteinia tr...  186     2e-58
+  UniRef90_A0A2M8S5Y6 Macrodomain Ter protein n=1 Tax=Conservatib...  186     2e-58
+  UniRef90_UPI000BE41A7E macrodomain Ter protein MatP n=1 Tax=Can...  185     5e-58
+  UniRef90_A0A1V3TUB6 Macrodomain Ter protein n=1 Tax=Pasteurella...  185     6e-58
+  UniRef90_A0A1W1V0H2 Macrodomain Ter protein n=1 Tax=Pasteurella...  185     7e-58
+  UniRef90_A0A380TXT7 Macrodomain Ter protein n=2 Tax=Pasteurella...  185     8e-58
+  UniRef90_A0A1T0B1P7 Macrodomain Ter protein n=1 Tax=[Haemophilu...  185     1e-57
+  UniRef90_A0A1T4TR04 Macrodomain Ter protein n=2 Tax=Photobacter...  183     2e-57
+  UniRef90_A0A0A3AU51 Macrodomain Ter protein n=1 Tax=Chelonobact...  184     2e-57
+  UniRef90_A0A3N4W5T0 Uncharacterized protein n=1 Tax=Frederiksen...  182     1e-56
+  UniRef90_A0A1A7NTK0 Macrodomain Ter protein n=5 Tax=Gallibacter...  182     1e-56
+  UniRef90_A0A3N4VU76 Uncharacterized protein n=1 Tax=Vespertilii...  181     3e-56
+  UniRef90_A0A0J8YA60 Macrodomain Ter protein (Fragment) n=1 Tax=...  179     4e-56
+  UniRef90_UPI000B59F307 macrodomain Ter protein MatP n=1 Tax=Shi...  177     3e-55
+  UniRef90_A0A328BXE1 Macrodomain Ter protein n=7 Tax=Glaesserell...  177     8e-55
+  UniRef90_A0A0J5P4H2 Macrodomain Ter protein n=1 Tax=Muribacter ...  177     1e-54
+  UniRef90_Q7VPB1 Macrodomain Ter protein n=2 Tax=Haemophilus duc...  177     1e-54
+  UniRef90_A0A1T0APZ5 Macrodomain Ter protein n=1 Tax=Haemophilus...  176     2e-54
+  UniRef90_I3DAA6 Macrodomain Ter protein n=7 Tax=Haemophilus Tax...  176     4e-54
+  UniRef90_K0G6G8 Macrodomain Ter protein n=5 Tax=Actinobacillus ...  175     7e-54
+  UniRef90_A0A379CC90 Macrodomain Ter protein n=1 Tax=Phocoenobac...  174     2e-53
+  UniRef90_A0A223ME10 Macrodomain Ter protein n=7 Tax=Actinobacil...  174     2e-53
+  UniRef90_UPI000EB0F924 macrodomain Ter protein MatP n=1 Tax=Ota...  173     3e-53
+  UniRef90_J5HU71 Macrodomain Ter protein n=2 Tax=Haemophilus spu...  173     6e-53
+  UniRef90_C5S3T6 Macrodomain Ter protein n=2 Tax=Actinobacillus ...  171     2e-52
+  UniRef90_A0A1H7XQT0 Macrodomain Ter protein n=1 Tax=Pasteurella...  171     2e-52
+  UniRef90_W0QGW6 Macrodomain Ter protein n=6 Tax=Mannheimia TaxI...  168     2e-51
+  UniRef90_A0A2N4UW42 Macrodomain Ter protein n=1 Tax=Photobacter...  168     2e-51
+  UniRef90_W1APB9 Uncharacterized protein n=2 Tax=Enterobacteriac...  166     5e-51
+  UniRef90_A0A377ATW1 Putative dehydrogenase n=1 Tax=Escherichia ...  166     6e-51
+  UniRef90_UPI000A120BD6 macrodomain Ter protein MatP n=1 Tax=Cro...  164     2e-50
+  UniRef90_UPI00030CF2A2 macrodomain Ter protein MatP n=1 Tax=Sal...  162     2e-49
+  UniRef90_A0A2T3HWQ4 Macrodomain Ter protein n=3 Tax=Photobacter...  163     2e-49
+  UniRef90_A0A377M3V4 Macrodomain Ter protein n=1 Tax=Enterobacte...  161     5e-49
+  UniRef90_A0A377T887 Dehydrogenase n=1 Tax=Raoultella planticola...  161     8e-49
+  UniRef90_A0A336N5B2 Macrodomain Ter protein n=1 Tax=Aggregatiba...  161     1e-48
+  UniRef90_A0A376VLI0 Macrodomain Ter protein n=1 Tax=Escherichia...  160     2e-48
+  UniRef90_A0A2T3PFJ6 Macrodomain Ter protein n=1 Tax=Photobacter...  158     2e-47
+  UniRef90_A0A378DY99 Macrodomain Ter protein n=2 Tax=Klebsiella ...  147     1e-43
+  UniRef90_A0A377XDD1 Dehydrogenase n=1 Tax=Klebsiella pneumoniae...  141     3e-41
+  UniRef90_A0A376ZW85 Putative dehydrogenase n=1 Tax=Escherichia ...  138     4e-40
+  UniRef90_A4MZW6 Uncharacterized protein n=1 Tax=Haemophilus inf...  138     1e-39
+  UniRef90_A0A3A1YNN1 Macrodomain Ter protein n=1 Tax=Bisgaard ta...  139     5e-39
+  UniRef90_A0A3P4IGA0 Macrodomain Ter protein n=1 Tax=Klebsiella ...  134     2e-38
+  UniRef90_A0A3A1Y740 Macrodomain Ter protein n=1 Tax=Bisgaard ta...  134     1e-37
+  UniRef90_A0A3A1YB16 Macrodomain Ter protein n=1 Tax=Bisgaard ta...  133     2e-37
+  UniRef90_A0A3A1Y9W0 Macrodomain Ter protein n=1 Tax=Bisgaard Ta...  133     2e-37
+  UniRef90_A0A2A5T7C9 Macrodomain Ter protein n=1 Tax=Candidatus ...  125     1e-34
+  UniRef90_A0A220VEP4 Macrodomain Ter protein n=1 Tax=Paraphotoba...  121     1e-32
+  UniRef90_A0A2X1RVT8 Macrodomain Ter protein n=1 Tax=Haemophilus...  111     4e-29
+  UniRef90_A0A291BBS2 Macrodomain Ter protein n=2 Tax=Candidatus ...  108     4e-28
+  UniRef90_A0A1E5BGB5 Macrodomain Ter protein n=1 Tax=Vibrio geno...  106     1e-26
+  UniRef90_UPI000C85A209 hypothetical protein n=1 Tax=Vibrio sple...  104     4e-26
+  UniRef90_A0A379UNU3 Macrodomain Ter protein n=1 Tax=Salmonella ...  101     1e-25
+  UniRef90_A0A3P4IDE3 Macrodomain Ter protein n=1 Tax=Klebsiella ...  99.5    4e-25
+  UniRef90_A0A0J8YA85 Uncharacterized protein (Fragment) n=1 Tax=...  92.9    2e-22
+  UniRef90_A0A2X4U9M4 Macrodomain Ter protein n=1 Tax=Serratia pl...  91.0    9e-22
+  UniRef90_A0A377M396 Ter macrodomain organizer matS-binding prot...  81.8    3e-18
+  UniRef90_A0A377NCW6 Macrodomain Ter protein n=1 Tax=Ewingella a...  80.2    1e-17
+  UniRef90_C4NV48 Macrodomain Ter protein n=85 Tax=Bacteria TaxID...  79.5    2e-16
+  UniRef90_A0A1H3QM01 Organiser of macrodomain of Terminus of chr...  77.1    2e-15
+  UniRef90_A0A0F2QYG0 Uncharacterized protein n=1 Tax=Desulfatita...  76.4    3e-15
+  UniRef90_A0A2A5CCS1 Uncharacterized protein n=1 Tax=Moraxellace...  74.5    2e-14
+  UniRef90_A0A2T7FGC5 Ter macrodomain-binding protein MatP (Fragm...  59.4    1e-09
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1H3IQS8 Organiser of macrodomain of Terminus of chr...  71.0    6e-13
+  UniRef90_A0A0A8NV61 Uncharacterized protein n=2 Tax=Xenorhabdus...  66.7    2e-11
+  UniRef90_A0A0F7KI71 Uncharacterized protein n=4 Tax=Nitrosomona...  63.7    3e-10
+  UniRef90_D2YA38 Uncharacterized protein n=7 Tax=Gammaproteobact...  63.3    4e-10
+  UniRef90_A0A1I4RN37 Organiser of macrodomain of Terminus of chr...  61.0    4e-09
+  UniRef90_A0A1I0CX32 Organiser of macrodomain of Terminus of chr...  60.6    4e-09
+  UniRef90_A0A1G5SI28 Uncharacterized protein n=2 Tax=Nitrosomona...  60.2    7e-09
+  UniRef90_A0A1H3J842 Organiser of macrodomain of Terminus of chr...  59.4    1e-08
+  UniRef90_Q0AGW1 Uncharacterized protein n=3 Tax=Nitrosomonas eu...  57.1    9e-08
+  UniRef90_UPI000FDECBD7 hypothetical protein n=1 Tax=Hahella sp....  56.3    2e-07
+  UniRef90_Q2SG86 Uncharacterized protein conserved in bacteria n...  56.0    2e-07
+  UniRef90_A0A1J5J0E1 Uncharacterized protein n=1 Tax=Zetaproteob...  55.6    3e-07
+  UniRef90_A0A353BCL9 Uncharacterized protein n=1 Tax=Planctomyce...  54.0    1e-06
+  UniRef90_A0A1I7F5L3 Uncharacterized protein n=1 Tax=Nitrosomona...  54.0    2e-06
+  UniRef90_A0A353B2M1 Uncharacterized protein n=1 Tax=Planctomyce...  53.3    2e-06
+  UniRef90_UPI0003678041 hypothetical protein n=1 Tax=Hahella gan...  53.3    3e-06
+  UniRef90_A0A353BBN2 Uncharacterized protein n=1 Tax=Planctomyce...  53.3    3e-06
+  UniRef90_A0A3B1AZ84 Uncharacterized protein n=1 Tax=hydrotherma...  51.7    1e-05
+  UniRef90_A0A2M7HAH2 Uncharacterized protein n=1 Tax=Zetaproteob...  50.6    2e-05
+  UniRef90_A0A261GMK6 Uncharacterized protein n=1 Tax=Hahella sp....  51.0    2e-05
+  UniRef90_UPI000D3E1266 hypothetical protein n=1 Tax=Gammaproteo...  50.6    4e-05
+  UniRef90_UPI000D3E3EF1 hypothetical protein n=1 Tax=Gammaproteo...  49.0    6e-05
+  UniRef90_A0A353BFL2 Uncharacterized protein n=1 Tax=Planctomyce...  48.3    2e-04
+  UniRef90_K0CWM9 Uncharacterized protein n=1 Tax=Alteromonas mac...  47.9    5e-04
+  UniRef90_UPI0004070FD1 hypothetical protein n=1 Tax=Methylocald...  46.7    9e-04
+  UniRef90_A0A1Y6D115 Uncharacterized protein n=1 Tax=Methylomagn...  46.7    0.001
+  UniRef90_A0A346NST3 Uncharacterized protein n=1 Tax=Salinimonas...  45.9    0.002
+  UniRef90_A0A3F2UY65 Uncharacterized protein n=1 Tax=Ketobacter ...  45.2    0.002
+  UniRef90_A0A250KVZ7 Uncharacterized protein n=1 Tax=Methylocald...  45.6    0.002
+  UniRef90_UPI000375021B hypothetical protein n=1 Tax=Algicola sa...  44.0    0.007
+  UniRef90_A0A3M1HUH0 Uncharacterized protein n=1 Tax=Zetaproteob...  43.3    0.011
+  UniRef90_UPI000E7436EA hypothetical protein n=1 Tax=Motilimonas...  42.9    0.012
+  UniRef90_A0A1Z4I794 PAS/PAC sensor hybrid histidine kinase n=2 ...  44.8    0.014
+  UniRef90_UPI00098BA5A4 hypothetical protein n=2 Tax=Methylocald...  43.3    0.018
+  UniRef90_F5Z5I2 Uncharacterized protein n=2 Tax=Alteromonas nap...  42.1    0.036
+  UniRef90_A0A2M9DIQ3 Uncharacterized protein n=1 Tax=Desulfofaba...  42.9    0.049
+  UniRef90_A0A1I5U1Y2 Ribbon-helix-helix protein, copG family n=2...  41.3    0.088
+  UniRef90_A0A2X2E616 Uncharacterized protein n=1 Tax=Pseudomonas...  39.4    0.11 
+  UniRef90_D2SCH9 CopG domain protein DNA-binding domain protein ...  40.2    0.20 
+  UniRef90_UPI000984DFF3 translesion error-prone DNA polymerase V...  40.9    0.22 
+  UniRef90_A0A2A4UEX0 Uncharacterized protein n=1 Tax=Proteobacte...  39.4    0.26 
+  UniRef90_A0A1B5E1Q1 Uncharacterized protein n=1 Tax=Pseudomonas...  39.8    0.29 
+  UniRef90_A0A3P1STR6 Uncharacterized protein n=1 Tax=Amphritea b...  39.4    0.36 
+  UniRef90_UPI00047BEF19 hypothetical protein n=1 Tax=Ectothiorho...  38.6    0.38 
+  UniRef90_A0C0G3 Uncharacterized protein n=1 Tax=Paramecium tetr...  40.2    0.41 
+  UniRef90_A0A349BY66 Probable GTP-binding protein EngB n=1 Tax=L...  39.8    0.41 
+  UniRef90_A0A2Z5SWH2 Uncharacterized protein n=1 Tax=Geobacter s...  38.6    0.43 
+  UniRef90_A0A1Q7BFW5 Aryl-sulfate sulfotransferase n=1 Tax=Alpha...  37.5    0.70 
+  UniRef90_A0A1G9R2S9 Uncharacterized protein n=1 Tax=Geodermatop...  38.6    0.72 
+  UniRef90_A0A2H2IBG9 Uncharacterized protein n=1 Tax=Caenorhabdi...  39.8    0.74 
+  UniRef90_A0A1Z4IH02 TetR family transcriptional regulator prote...  39.4    0.75 
+  UniRef90_A0A2A3E8N2 Kinase n=2 Tax=Apis cerana TaxID=7461 RepID...  39.4    0.76 
+  UniRef90_UPI000837CCAD SAM-dependent DNA methyltransferase n=1 ...  39.8    0.76 
+  UniRef90_UPI000629310B uncharacterized protein LOC105736865 n=1...  39.4    0.78 
+  UniRef90_A0A0D2B030 Uncharacterized protein n=1 Tax=Exophiala s...  39.4    0.80 
+  UniRef90_A0A1H0JTC0 Uncharacterized protein n=1 Tax=Geodermatop...  38.6    0.81 
+  UniRef90_A0A1D1V085 Uncharacterized protein n=1 Tax=Ramazzottiu...  39.4    0.83 
+  UniRef90_UPI0009F69CB6 aryl-sulfate sulfotransferase n=1 Tax=Cu...  38.2    0.93 
+  UniRef90_A0A0P1BUJ2 Transcriptional regulator n=1 Tax=Chrysospo...  39.0    1.0  
+  UniRef90_UPI0007B7A612 endothelin B receptor-like n=1 Tax=Sinoc...  39.0    1.1  
+  UniRef90_A0A252E7R4 Histidine kinase n=2 Tax=Nostoc TaxID=1177 ...  39.0    1.1  
+  UniRef90_UPI00059F12D5 hypothetical protein n=1 Tax=Gilvimarinu...  37.9    1.1  
+  UniRef90_L8G030 Uncharacterized protein n=2 Tax=Pseudogymnoascu...  39.0    1.2  
+  UniRef90_UPI00034D23D8 TetR/AcrR family transcriptional regulat...  38.6    1.2  
+  UniRef90_A0A1G8HM05 Organiser of macrodomain of Terminus of chr...  38.6    1.3  
+  UniRef90_K9QW21 Transcriptional regulator n=1 Tax=Nostoc sp. (s...  38.6    1.4  
+  UniRef90_A0A2V2YR65 Ribbon-helix-helix CopG family protein n=2 ...  36.7    1.4  
+  UniRef90_A0A2S5I776 Uncharacterized protein n=3 Tax=Pseudomonas...  37.9    1.4  
+  UniRef90_A0A353B6M4 Uncharacterized protein n=1 Tax=Planctomyce...  37.1    1.4  
+  UniRef90_A0A1H8Q152 Predicted DNA-binding protein, contains Rib...  37.5    1.5  
+  UniRef90_A0A1F9AIY9 Uncharacterized protein n=1 Tax=Deltaproteo...  37.1    1.6  
+  UniRef90_A0A2P7YGL1 Uncharacterized protein n=1 Tax=Elsinoe aus...  38.6    1.6  
+  UniRef90_A0A372J1S5 Arc family DNA-binding protein n=1 Tax=Geod...  37.5    1.9  
+  UniRef90_H6RT56 Ribbon-helix-helix protein, copG family n=1 Tax...  37.5    1.9  
+  UniRef90_A0A0Q8H5X0 Uncharacterized protein n=1 Tax=Caulobacter...  37.1    2.0  
+  UniRef90_UPI00082E3429 hypothetical protein n=2 Tax=Nocardia Ta...  35.9    2.3  
+  UniRef90_J9JTX1 Uncharacterized protein n=9 Tax=Aphididae TaxID...  38.2    2.3  
+  UniRef90_A0A1Z4SDX5 TetR family transcriptional regulator prote...  37.9    2.5  
+  UniRef90_A0A1U7IJF1 Uncharacterized protein n=1 Tax=Phormidium ...  38.2    2.5  
+  UniRef90_Q8YPB9 Transcriptional regulator n=4 Tax=Nostocaceae T...  37.9    2.6  
+  UniRef90_UPI000B3F58C7 myosin-15 n=1 Tax=Herrania umbratica Tax...  37.9    2.7  
+  UniRef90_A0A2S2Q6X6 Protein hu-li tai shao n=4 Tax=Aphididae Ta...  37.9    2.8  
+  UniRef90_A0A1Q5CN03 Uncharacterized protein n=4 Tax=Streptomyce...  35.9    3.0  
+  UniRef90_A0A1Z4QI23 Putative two component hybrid sensor regula...  37.9    3.2  
+  UniRef90_A0A127F138 Arylsulfate sulfotransferase-like protein n...  35.9    3.5  
+  UniRef90_A0A1D2XAP3 Uncharacterized protein n=1 Tax=Endozoicomo...  36.7    3.5  
+  UniRef90_A0A154PT30 Kinesin-like protein (Fragment) n=1 Tax=Duf...  37.5    3.6  
+  UniRef90_UPI000592559A hypothetical protein n=1 Tax=Nocardia br...  35.2    3.6  
+  UniRef90_A0A1H3CWD4 Uncharacterized protein n=1 Tax=Geodermatop...  36.7    3.6  
+  UniRef90_UPI00045D554D serine/threonine-protein phosphatase 6 r...  37.5    3.8  
+  UniRef90_A0A367Q2F9 TetR family transcriptional regulator n=1 T...  37.1    3.9  
+  UniRef90_UPI00045D78E5 serine/threonine-protein phosphatase 6 r...  37.5    4.0  
+  UniRef90_A0A218QA70 Transcriptional regulator n=2 Tax=Nodularia...  37.1    4.2  
+  UniRef90_A0A1I7L8Y0 Uncharacterized protein n=1 Tax=Methylobact...  35.5    4.2  
+  UniRef90_W3RPX9 Arylsulfate sulfotransferase n=2 Tax=Afipia sp....  35.9    4.4  
+  UniRef90_A0A0S3PTP5 Uncharacterized protein n=1 Tax=Variibacter...  35.9    4.4  
+  UniRef90_A0A2S2P3B4 Protein hu-li tai shao n=1 Tax=Schizaphis g...  37.1    4.5  
+  UniRef90_UPI00040021F6 hypothetical protein n=1 Tax=Psychromona...  36.3    4.6  
+  UniRef90_I2AYA5 Oxidoreductase iron/ascorbate family protein n=...  37.1    4.6  
+  UniRef90_UPI000375AEC5 stability/partitioning determinant n=2 T...  35.9    4.8  
+  UniRef90_A0A2I8A9C1 TetR family transcriptional regulator n=1 T...  37.1    4.9  
+  UniRef90_A0A2K6N4Z8 Protein phosphatase 6 regulatory subunit 3 ...  37.1    5.2  
+  UniRef90_UPI000510C1E8 uncharacterized protein LOC103954720 n=1...  37.1    5.7  
+  UniRef90_UPI0006CF1E2D protein hu-li tai shao isoform X6 n=8 Ta...  37.1    5.9  
+  UniRef90_UPI0003FB301E TIGR02757 family protein n=1 Tax=Gramell...  36.7    6.5  
+  UniRef90_A0A0C2LRT5 TetR family transcriptional regulator n=3 T...  36.7    6.7  
+  UniRef90_A0A2I6KEU6 Uncharacterized protein n=1 Tax=Enterobacte...  36.7    6.8  
+  UniRef90_A0A1Q7B8J4 Aryl-sulfate sulfotransferase n=1 Tax=Alpha...  35.2    6.8  
+  UniRef90_A0A3D1YGQ3 Glycine--tRNA ligase n=1 Tax=Dehalococcoidi...  36.7    6.8  
+  UniRef90_UPI00052E53AD hypothetical protein n=1 Tax=Streptomyce...  35.2    7.0  
+  UniRef90_K9UHP7 Uncharacterized protein n=1 Tax=Chamaesiphon mi...  36.3    7.2  
+  UniRef90_A0A2R6Q0P9 Abscisic acid 8'-hydroxylase n=2 Tax=Actini...  36.7    7.3  
+  UniRef90_A0A0C2QI42 TetR family transcriptional regulator n=1 T...  36.3    7.4  
+  UniRef90_UPI00030B165F TetR/AcrR family transcriptional regulat...  36.3    7.6  
+  UniRef90_UPI0003F9115D hypothetical protein n=1 Tax=Nocardia sp...  34.4    7.8  
+  UniRef90_UPI000F029712 hypothetical protein n=2 Tax=Pseudomonas...  35.5    8.0  
+  UniRef90_A0A1D2PF82 Uncharacterized protein n=2 Tax=Scytonema T...  34.0    8.0  
+  UniRef90_A0A2N7XXX5 Uncharacterized protein n=2 Tax=Pseudomonas...  34.4    8.0  
+  UniRef90_A0A2E3CSZ7 Uncharacterized protein n=1 Tax=Pseudomonad...  35.5    8.5  
+  UniRef90_Q5H9R7 Serine/threonine-protein phosphatase 6 regulato...  36.7    8.6  
+  UniRef90_A0A0A7EMH5 Arylsulfate sulfotransferase n=1 Tax=Pseudo...  34.8    8.7  
+  UniRef90_A0A3B9XSC1 Uncharacterized protein n=2 Tax=Gammaproteo...  35.2    9.1  
+  UniRef90_A0A2I3M022 Protein phosphatase 6 regulatory subunit 3 ...  36.3    9.5  
+  UniRef90_A0A0V8SZM8 Uncharacterized protein n=6 Tax=Proteobacte...  35.9    9.7  
+  UniRef90_A0A1G2ZGH0 Uncharacterized protein n=1 Tax=Planctomyce...  36.3    9.7  
+  UniRef90_A0A250KM88 Uncharacterized protein n=3 Tax=Methylocald...  34.4    10.0 
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.161    0.553    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0493    0.140     1.90     42.6     43.6 
+
+Effective search space used: 738437480343
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

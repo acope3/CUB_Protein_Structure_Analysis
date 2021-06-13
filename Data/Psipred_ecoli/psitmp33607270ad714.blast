@@ -1,0 +1,1383 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414705.1
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_A8ALC5 UPF0325 protein CKO_03204 n=549 Tax=root TaxID=...  251     8e-85
+  UniRef90_A4W6R0 UPF0325 protein Ent638_0703 n=162 Tax=Bacteria ...  250     2e-84
+  UniRef90_I2BCK9 UPF0325 protein EBL_c32000 n=1 Tax=Shimwellia b...  240     2e-80
+  UniRef90_A0A1S2B3W7 UPF0325 protein BB778_04915 n=7 Tax=Enterob...  240     2e-80
+  UniRef90_D2BTV9 UPF0325 protein Dd586_0925 n=21 Tax=Enterobacte...  236     9e-79
+  UniRef90_A0A2S5K902 UPF0325 protein C1Y41_11950 n=2 Tax=Pantoea...  234     1e-77
+  UniRef90_A0A2I0FVC5 UPF0325 protein CIG19_12530 n=1 Tax=Enterob...  233     3e-77
+  UniRef90_A0A0K0HMP7 UPF0325 protein BN1044_03399 n=19 Tax=Enter...  231     1e-76
+  UniRef90_A0A095U7G2 UPF0325 protein HA49_18845 n=5 Tax=Tatumell...  231     1e-76
+  UniRef90_A1JP87 UPF0325 protein YE3288 n=80 Tax=Enterobacterale...  230     2e-76
+  UniRef90_C6DAH9 UPF0325 protein PC1_0937 n=28 Tax=Enterobactera...  230     2e-76
+  UniRef90_D4HZ86 UPF0325 protein EAMY_2764 n=9 Tax=Enterobactera...  229     4e-76
+  UniRef90_A0A0Q4M9I5 UPF0325 protein ASE93_21485 n=3 Tax=Yersini...  229     8e-76
+  UniRef90_U2NEL8 UPF0325 protein L579_0475 n=74 Tax=Enterobacter...  228     1e-75
+  UniRef90_A0A0M2KF15 UPF0325 protein AV903_24665 n=5 Tax=Erwinia...  228     2e-75
+  UniRef90_A0A084A4D7 UPF0325 protein SRDD_09160 n=1 Tax=Serratia...  227     4e-75
+  UniRef90_A0A1B7KKB2 UPF0325 protein M993_00628 n=3 Tax=Enteroba...  226     1e-74
+  UniRef90_A0A1X0WAS4 UPF0325 protein BS640_19355 n=3 Tax=Yersini...  224     4e-74
+  UniRef90_A0A1I4WTP4 UPF0325 protein SAMN05216516_10335 n=1 Tax=...  221     8e-73
+  UniRef90_Q7N8Q1 UPF0325 protein plu0668 n=20 Tax=Morganellaceae...  221     1e-72
+  UniRef90_C5BHB2 UPF0325 protein NT01EI_0832 n=8 Tax=Edwardsiell...  218     1e-71
+  UniRef90_A0A250B423 UPF0325 protein AWC35_16770 n=1 Tax=Gibbsie...  217     5e-71
+  UniRef90_UPI000948D567 DUF3461 family protein n=1 Tax=Pantoea s...  215     2e-70
+  UniRef90_Q2NRK3 UPF0325 protein SG1947 n=6 Tax=Sodalis TaxID=84...  215     3e-70
+  UniRef90_A0A068QWG1 UPF0325 protein XDD1_3311 n=25 Tax=Xenorhab...  214     5e-70
+  UniRef90_B6XDN8 UPF0325 protein PROVALCAL_01462 n=19 Tax=Morgan...  212     3e-69
+  UniRef90_B4F2D7 UPF0325 protein PMI2289 n=29 Tax=Enterobacteral...  211     7e-69
+  UniRef90_A0A379GXI9 UPF0325 protein NCTC11800_00853 n=5 Tax=Gam...  211     5e-68
+  UniRef90_UPI000B9FC859 DUF3461 family protein n=1 Tax=Klebsiell...  208     2e-67
+  UniRef90_A0A2Y9U1R6 UPF0325 protein HYN51_13545 n=3 Tax=Enterob...  206     6e-67
+  UniRef90_UPI0004AC6407 DUF3461 family protein n=1 Tax=Enterobac...  205     3e-66
+  UniRef90_A0A3D3HSA0 UPF0325 protein DIT05_17660 n=12 Tax=Bacter...  202     2e-65
+  UniRef90_A0A3L7LTP4 DUF3461 family protein n=1 Tax=Sodalis-like...  199     3e-64
+  UniRef90_A0A085HMV7 UPF0325 protein GLGR_0236 n=2 Tax=Leminorel...  199     5e-64
+  UniRef90_A0A2X3ACA6 Putative structural protein n=2 Tax=Escheri...  192     9e-62
+  UniRef90_A0A2G8C5B5 Uncharacterized protein n=2 Tax=Enterobacte...  183     1e-57
+  UniRef90_A0A379AK97 Protein of uncharacterized function (DUF346...  182     1e-57
+  UniRef90_A0A1A9B0R6 Protein of uncharacterized function (DUF346...  177     5e-55
+  UniRef90_A0A1Q9GWE1 UPF0325 protein BIT28_17490 n=1 Tax=Photoba...  176     6e-55
+  UniRef90_L8J7U4 UPF0325 protein C942_03497 n=2 Tax=Photobacteri...  174     3e-54
+  UniRef90_W1DQU6 Chromosome segregation ATPase n=1 Tax=Klebsiell...  173     9e-54
+  UniRef90_A0A2T3MT75 UPF0325 protein C9I89_19600 n=1 Tax=Photoba...  171     6e-53
+  UniRef90_A0A0J1HJD8 UPF0325 protein ABT57_00245 n=2 Tax=Photoba...  171     9e-53
+  UniRef90_R9PJK5 Chromosome segregation ATPase n=2 Tax=Agarivora...  170     1e-52
+  UniRef90_A0A0J8V8D2 UPF0325 protein C9I94_21980 n=2 Tax=Photoba...  170     1e-52
+  UniRef90_Q6LN21 UPF0325 protein PBPRA2971 n=4 Tax=Photobacteriu...  170     2e-52
+  UniRef90_A0A178KA65 UPF0325 protein A3K86_12405 n=1 Tax=Photoba...  169     3e-52
+  UniRef90_A0A0B9G8A7 UPF0325 protein RJ45_03830 n=4 Tax=Photobac...  169     3e-52
+  UniRef90_A0KHF9 UPF0325 protein AHA_1169 n=65 Tax=Gammaproteoba...  168     1e-51
+  UniRef90_A0A0I1R9Z4 Protein yaeH n=4 Tax=Enterobacteriaceae Tax...  165     3e-51
+  UniRef90_A0A1N6WH34 UPF0325 protein SAMN05880558_106199 n=2 Tax...  166     6e-51
+  UniRef90_UPI00041D3B57 DUF3461 family protein n=1 Tax=Aliagariv...  165     1e-50
+  UniRef90_UPI0006D01988 DUF3461 family protein n=1 Tax=Photobact...  164     2e-50
+  UniRef90_A0A1I0B2T4 Uncharacterized protein n=1 Tax=Thorsellia ...  164     5e-50
+  UniRef90_A7N1Y0 UPF0325 protein VIBHAR_03240 n=61 Tax=Vibrio Ta...  162     2e-49
+  UniRef90_A0A376FHG0 Protein of uncharacterized function (DUF346...  161     3e-49
+  UniRef90_UPI000E3E9DFC DUF3461 family protein n=1 Tax=Vibrio ma...  161     3e-49
+  UniRef90_UPI000B357428 DUF3461 family protein n=1 Tax=Thaumasio...  161     3e-49
+  UniRef90_D0ICN6 UPF0325 protein VHA_003515 n=13 Tax=Vibrionacea...  161     4e-49
+  UniRef90_Q87MD5 UPF0325 protein VP2321 n=45 Tax=Vibrionales Tax...  161     5e-49
+  UniRef90_A0A378E386 YaeH n=1 Tax=Klebsiella oxytoca TaxID=571 R...  159     9e-49
+  UniRef90_A0A066RS28 Uncharacterized protein n=1 Tax=Photobacter...  160     1e-48
+  UniRef90_A0A0S2SIK7 UPF0325 protein ATO46_15190 n=2 Tax=Aeromon...  160     1e-48
+  UniRef90_A0A2N7D3Z1 UPF0325 protein BCU70_17965 n=1 Tax=Vibrio ...  160     1e-48
+  UniRef90_A0A2A2GVP0 Uncharacterized protein n=3 Tax=Arsenophonu...  160     1e-48
+  UniRef90_F0LUI0 UPF0325 protein vfu_A01066 n=4 Tax=Vibrio TaxID...  160     2e-48
+  UniRef90_B7VIS1 UPF0325 protein VS_2356 n=47 Tax=Vibrionales Ta...  159     2e-48
+  UniRef90_E3BLK5 UPF0325 protein VIBC2010_14429 n=1 Tax=Vibrio c...  159     2e-48
+  UniRef90_A0A1C3EI83 Uncharacterized protein n=1 Tax=Enterovibri...  159     3e-48
+  UniRef90_A0A1M5WHN0 UPF0325 protein VA7868_00736 n=2 Tax=Vibrio...  159     4e-48
+  UniRef90_UPI0009898D96 DUF3461 family protein n=1 Tax=Salinivib...  158     6e-48
+  UniRef90_A0A2N8ZEH5 UPF0325 protein VTAP4600_A2348 n=1 Tax=Vibr...  158     1e-47
+  UniRef90_A0A2J8HC23 UPF0325 protein C1N32_09895 n=2 Tax=Vibrio ...  157     1e-47
+  UniRef90_UPI000E0CBC37 DUF3461 family protein n=2 Tax=Vibrio Ta...  157     2e-47
+  UniRef90_UPI0008DA39D1 DUF3461 family protein n=2 Tax=Vibrio Ta...  157     2e-47
+  UniRef90_UPI000503C3F0 DUF3461 family protein n=4 Tax=Vibrio vu...  157     3e-47
+  UniRef90_UPI0004641C1A DUF3461 family protein n=1 Tax=Candidatu...  156     4e-47
+  UniRef90_A0A378AEG0 YaeH n=2 Tax=Enterobacteriaceae TaxID=543 R...  155     5e-47
+  UniRef90_UPI000420F5A3 DUF3461 family protein n=2 Tax=Photobact...  155     9e-47
+  UniRef90_U3A3H7 UPF0325 protein VPR01S_10_00730 n=2 Tax=Vibrio ...  155     1e-46
+  UniRef90_A0A151KYI2 UPF0325 protein ATY37_17330 n=7 Tax=Vibrio ...  155     1e-46
+  UniRef90_A6D2T4 UPF0325 protein VSAK1_11790 n=6 Tax=Vibrio TaxI...  155     1e-46
+  UniRef90_A0A1E3WQY4 UPF0325 protein VSF3289_02478 n=2 Tax=Vibri...  155     1e-46
+  UniRef90_C9P307 Chromosome segregation ATPase n=3 Tax=Vibrio Ta...  155     1e-46
+  UniRef90_UPI000E77C88D DUF3461 family protein n=1 Tax=Alteromon...  154     2e-46
+  UniRef90_A0A1B1NLS4 UPF0325 protein VSVS12_00862 n=13 Tax=Vibri...  154     2e-46
+  UniRef90_Q5E3D6 UPF0325 protein VF_1965 n=15 Tax=Aliivibrio Tax...  154     3e-46
+  UniRef90_A0A1G8EEH8 UPF0325 protein SAMN04488136_12448 n=1 Tax=...  154     4e-46
+  UniRef90_Q9KPU8 UPF0325 protein VC_2264 n=28 Tax=Vibrio TaxID=6...  154     5e-46
+  UniRef90_UPI0008389006 DUF3461 family protein n=1 Tax=Vibrio tr...  153     9e-46
+  UniRef90_A4B979 Uncharacterized protein n=1 Tax=Reinekea blande...  152     1e-45
+  UniRef90_A0A0F5ATH5 Uncharacterized protein n=8 Tax=Salinivibri...  152     2e-45
+  UniRef90_A0A0C2KJ29 UPF0325 protein OJ16_03465 n=1 Tax=Vibrio r...  152     3e-45
+  UniRef90_A0A0B8PPY2 UPF0325 protein JCM19236_5448 n=2 Tax=Vibri...  151     3e-45
+  UniRef90_A0A1Z2SD49 UPF0325 protein BSQ33_04780 n=4 Tax=Vibrio ...  150     7e-45
+  UniRef90_UPI0005AA5913 DUF3461 family protein n=3 Tax=Vibrio ma...  150     1e-44
+  UniRef90_UPI00041FD915 DUF3461 family protein n=2 Tax=Saccharos...  149     2e-44
+  UniRef90_A0A0W8JDZ2 UPF0325 protein VRK_23310 n=3 Tax=Vibrio Ta...  149     2e-44
+  UniRef90_A0A261GUZ6 Uncharacterized protein n=2 Tax=Hahella Tax...  148     6e-44
+  UniRef90_UPI000416BB69 DUF3461 family protein n=2 Tax=Zooshikel...  148     8e-44
+  UniRef90_A0A3D1Z5F7 DUF3461 domain-containing protein n=3 Tax=V...  148     9e-44
+  UniRef90_A0A3N9U8B3 DUF3461 family protein n=1 Tax=Vibrio sp. L...  147     2e-43
+  UniRef90_A0A1E5E126 Uncharacterized protein n=3 Tax=Vibrio TaxI...  147     2e-43
+  UniRef90_UPI000B35947B DUF3461 family protein n=1 Tax=Vibrio ap...  146     3e-43
+  UniRef90_A0A193KEZ8 UPF0325 protein A6E01_09745 n=3 Tax=Vibrio ...  146     4e-43
+  UniRef90_A0A0C5VPP4 Uncharacterized protein n=1 Tax=Gynuella su...  146     5e-43
+  UniRef90_A0A3A6QRV6 UPF0325 protein DZ860_10210 n=1 Tax=Vibrio ...  145     5e-43
+  UniRef90_A0A376P0G1 Putative structural protein n=4 Tax=root Ta...  144     6e-43
+  UniRef90_A0A1X1MTP4 UPF0325 protein ST37_11490 n=1 Tax=Vibrio s...  145     7e-43
+  UniRef90_U3AEL6 UPF0325 protein VEZ01S_01_01250 n=2 Tax=Vibrio ...  145     1e-42
+  UniRef90_UPI000D0129FD DUF3461 family protein n=1 Tax=Vibrio ga...  145     1e-42
+  UniRef90_A0A2X2BL75 Protein of uncharacterized function (DUF346...  144     2e-42
+  UniRef90_A0A2K8KK99 Uncharacterized protein n=2 Tax=Reinekea fo...  143     7e-42
+  UniRef90_A0A2N7DBB1 Uncharacterized protein n=1 Tax=Vibrio sp. ...  142     2e-41
+  UniRef90_A0A2T6E8H5 Uncharacterized protein n=2 Tax=Saccharospi...  140     6e-41
+  UniRef90_A0A3P3VNN4 DUF3461 family protein n=1 Tax=Simiduia aga...  140     9e-41
+  UniRef90_Q2SPM9 UPF0325 protein HCH_00487 n=2 Tax=Hahella TaxID...  139     2e-40
+  UniRef90_A1SSV2 UPF0325 protein Ping_0715 n=2 Tax=Psychromonas ...  138     4e-40
+  UniRef90_UPI000360B0E6 DUF3461 family protein n=2 Tax=Psychromo...  138     6e-40
+  UniRef90_A0A377CXI0 Putative structural protein n=1 Tax=Escheri...  136     2e-39
+  UniRef90_E9CND9 Putative conserved protein n=1 Tax=Serratia sym...  132     3e-38
+  UniRef90_UPI000E6606C9 DUF3461 family protein n=1 Tax=Oceanospi...  133     6e-38
+  UniRef90_A0A378CV92 YaeH n=2 Tax=Enterobacteriaceae TaxID=543 R...  128     1e-36
+  UniRef90_A0A2N0WZV0 Uncharacterized protein n=1 Tax=Psychromona...  127     1e-35
+  UniRef90_A0A2N6GMX9 Uncharacterized protein n=1 Tax=Sedimentico...  126     3e-35
+  UniRef90_A0A2S6VPN5 Uncharacterized protein n=1 Tax=Pantoea sp....  124     6e-35
+  UniRef90_A0A3M1KGX9 DUF3461 family protein n=1 Tax=Gammaproteob...  125     9e-35
+  UniRef90_A0A2N6CU81 Uncharacterized protein n=2 Tax=Sedimentico...  124     2e-34
+  UniRef90_UPI00048E696B DUF3461 family protein n=1 Tax=Phaseolib...  122     8e-34
+  UniRef90_A0A090TBN6 UPF0325 protein YaeH n=3 Tax=Vibrio TaxID=6...  120     5e-33
+  UniRef90_UPI0003B6E7A5 DUF3461 family protein n=1 Tax=Psychromo...  119     1e-32
+  UniRef90_UPI000411D85B DUF3461 family protein n=1 Tax=Psychromo...  119     2e-32
+  UniRef90_A0A0B8NYB4 Chromosome segregation ATPase n=1 Tax=Vibri...  117     7e-32
+  UniRef90_A0A366W782 Uncharacterized protein n=2 Tax=Psychromona...  117     7e-32
+  UniRef90_A0A0F7K0M3 Uncharacterized protein n=1 Tax=Sedimentico...  117     8e-32
+  UniRef90_A0A2N1A7X7 Uncharacterized protein n=1 Tax=Psychromona...  117     1e-31
+  UniRef90_A0A0J8YC89 Uncharacterized protein (Fragment) n=1 Tax=...  115     2e-31
+  UniRef90_A0A378CXU8 YaeH n=2 Tax=Bacteria TaxID=2 RepID=A0A378C...  114     2e-31
+  UniRef90_M4UN31 Uncharacterized protein n=1 Tax=Psychromonas sp...  116     3e-31
+  UniRef90_UPI000D3E1222 DUF3461 family protein n=1 Tax=Gammaprot...  115     4e-31
+  UniRef90_A0A2X2XIU9 Protein of uncharacterized function (DUF346...  112     1e-30
+  UniRef90_A0A2G6CW38 Uncharacterized protein n=1 Tax=Proteobacte...  114     2e-30
+  UniRef90_F3LGQ7 Chromosome segregation ATPase n=1 Tax=gamma pro...  113     3e-30
+  UniRef90_A0A3D2AU60 DUF3461 domain-containing protein n=2 Tax=O...  109     1e-28
+  UniRef90_A0A165VFT8 Uncharacterized protein n=2 Tax=Oleiphilus ...  107     8e-28
+  UniRef90_UPI0004847EEA DUF3461 family protein n=1 Tax=Balneatri...  105     4e-27
+  UniRef90_A0A1A8TRC4 Uncharacterized protein n=1 Tax=Marinomonas...  105     4e-27
+  UniRef90_A6VT88 Putative structural protein n=11 Tax=Marinomona...  105     8e-27
+  UniRef90_A0A1A8T4I0 Uncharacterized protein n=1 Tax=Marinomonas...  105     8e-27
+  UniRef90_A0A0K6IHY0 Uncharacterized protein n=5 Tax=Marinomonas...  104     2e-26
+  UniRef90_A0A166LDB0 Structural protein n=2 Tax=Marinomonas TaxI...  103     2e-26
+  UniRef90_F6D1A9 Uncharacterized protein n=1 Tax=Marinomonas pos...  103     3e-26
+  UniRef90_A0A166F3R4 Uncharacterized protein n=2 Tax=Oleiphilus ...  103     3e-26
+  UniRef90_A3YAR0 Putative structural protein n=2 Tax=Marinomonas...  102     7e-26
+  UniRef90_A0A369WS27 DUF3461 family protein n=1 Tax=Motiliproteu...  102     8e-26
+  UniRef90_A0A3D1ZU30 DUF3461 domain-containing protein n=1 Tax=O...  101     2e-25
+  UniRef90_A0A2Z4PYI4 Structural protein n=1 Tax=Marinomonas prim...  99.8    1e-24
+  UniRef90_A0A3E0DIY3 Uncharacterized protein DUF3461 n=1 Tax=Mar...  99.0    2e-24
+  UniRef90_A0A370U6E4 DUF3461 domain-containing protein n=1 Tax=M...  98.6    3e-24
+  UniRef90_F2JUC4 Uncharacterized protein n=1 Tax=Marinomonas med...  98.2    4e-24
+  UniRef90_A0A1R1M1P9 Uncharacterized protein n=1 Tax=Motiliprote...  96.3    3e-23
+  UniRef90_UPI000B3E5BE2 DUF3461 family protein n=1 Tax=Marinomon...  95.9    3e-23
+  UniRef90_A0A2X5CAG6 Chromosome segregation ATPase n=1 Tax=Salmo...  92.0    1e-22
+  UniRef90_A0A2S5KMW6 DUF3461 domain-containing protein n=2 Tax=P...  93.2    5e-22
+  UniRef90_A0A0B8P6T7 Chromosome segregation ATPase n=1 Tax=Vibri...  90.9    8e-22
+  UniRef90_UPI000FD794F4 DUF3461 family protein n=1 Tax=Neptunomo...  91.7    1e-21
+  UniRef90_UPI000948A024 DUF3461 family protein n=1 Tax=Neptunomo...  89.7    8e-21
+  UniRef90_UPI000421C888 DUF3461 family protein n=1 Tax=Oceanospi...  88.2    3e-20
+  UniRef90_A0A1R1LW27 Uncharacterized protein n=1 Tax=Motiliprote...  86.3    2e-19
+  UniRef90_A0A1E5X8W5 Uncharacterized protein n=5 Tax=Pseudomonad...  85.5    4e-19
+  UniRef90_W9VRG2 Uncharacterized protein n=2 Tax=Nitrincola TaxI...  85.1    6e-19
+  UniRef90_A0A1Y5GYW1 Uncharacterized protein n=1 Tax='Osedax' sy...  84.7    7e-19
+  UniRef90_A0A376FMG4 Protein of uncharacterized function (DUF346...  82.0    1e-18
+  UniRef90_A0A376MRC6 Putative structural protein n=1 Tax=Escheri...  81.6    2e-18
+  UniRef90_A0A1A9F498 Uncharacterized protein n=2 Tax=Marinobacte...  84.0    2e-18
+  UniRef90_UPI000413186D DUF3461 family protein n=1 Tax=Oceanospi...  84.0    2e-18
+  UniRef90_A0A0A1YID6 Uncharacterized protein n=1 Tax=Pseudomonas...  83.2    3e-18
+  UniRef90_A0A1N7J636 Uncharacterized protein n=3 Tax=Neptunomona...  83.2    3e-18
+  UniRef90_UPI00040BE4BF DUF3461 family protein n=1 Tax=Neptunomo...  82.8    4e-18
+  UniRef90_A4BBX7 Uncharacterized protein n=1 Tax=Reinekea blande...  81.6    5e-18
+  UniRef90_A0A1J4QCE4 Uncharacterized protein n=1 Tax=Oceanisphae...  82.8    5e-18
+  UniRef90_UPI0003A03AE4 DUF3461 family protein n=1 Tax=Marinobac...  82.0    1e-17
+  UniRef90_S6GLV7 Uncharacterized protein n=3 Tax=Bacteria TaxID=...  81.6    1e-17
+  UniRef90_UPI00036C2CE1 DUF3461 family protein n=1 Tax=Marinobac...  81.6    1e-17
+  UniRef90_UPI000E307F59 DUF3461 family protein n=1 Tax=Zobellell...  81.3    2e-17
+  UniRef90_A0A377E217 Putative structural protein n=1 Tax=Escheri...  79.0    2e-17
+  UniRef90_A0A317C7R2 DUF3461 domain-containing protein n=1 Tax=L...  81.3    2e-17
+  UniRef90_A0A357ID44 DUF3461 domain-containing protein n=1 Tax=G...  80.9    2e-17
+  UniRef90_UPI000FDAE093 DUF3461 family protein n=1 Tax=Neptunomo...  80.1    5e-17
+  UniRef90_UPI0004819945 DUF3461 family protein n=1 Tax=Marinobac...  79.7    5e-17
+  UniRef90_A0A1Y0KUP3 Uncharacterized protein n=1 Tax=Pseudomonas...  80.1    8e-17
+  UniRef90_A0A2P5TND5 Uncharacterized protein n=1 Tax=Oceanisphae...  79.0    2e-16
+  UniRef90_A0A3P1SRN0 DUF3461 family protein n=1 Tax=Amphritea ba...  79.0    2e-16
+  UniRef90_UPI0004807EC3 DUF3461 family protein n=1 Tax=Marinobac...  78.2    3e-16
+  UniRef90_A0A2V1GZ42 Uncharacterized protein n=1 Tax=Flavobacter...  77.4    3e-16
+  UniRef90_A0A2G6D418 Uncharacterized protein n=1 Tax=Proteobacte...  77.8    4e-16
+  UniRef90_A0A063Y675 UPF0325 protein yaeH n=2 Tax=Nitrincola Tax...  77.8    4e-16
+  UniRef90_A0A1V0KSZ8 Uncharacterized protein n=1 Tax=Colwellia s...  77.8    5e-16
+  UniRef90_A0A1Y5DWS5 Uncharacterized protein n=1 Tax=Colwellia p...  77.4    7e-16
+  UniRef90_A0A233RJY2 Uncharacterized protein n=1 Tax=Oceanimonas...  76.6    1e-15
+  UniRef90_H2FVR2 Uncharacterized protein n=1 Tax=Oceanimonas sp....  75.1    5e-15
+  UniRef90_UPI0003B79550 DUF3461 family protein n=1 Tax=Leucothri...  75.1    5e-15
+  UniRef90_A0A061PEK8 YaeH protein n=1 Tax=Vibrio sp. JCM 19053 T...  73.2    5e-15
+  UniRef90_UPI0003806916 DUF3461 family protein n=1 Tax=Oceanimon...  75.9    9e-15
+  UniRef90_A0A1H5RSU5 Uncharacterized protein n=3 Tax=Oceanospiri...  74.3    9e-15
+  UniRef90_A0A2Z2NZ47 Uncharacterized protein n=2 Tax=Granulosico...  74.7    1e-14
+  UniRef90_A0A369WDM0 DUF3461 family protein n=1 Tax=Motiliproteu...  74.3    1e-14
+  UniRef90_A0A3P1SQS8 DUF3461 family protein n=1 Tax=Amphritea ba...  73.9    1e-14
+  UniRef90_UPI000F7F10E0 DUF3461 family protein n=1 Tax=Amphritea...  73.2    2e-14
+  UniRef90_A0A317CPY3 DUF3461 domain-containing protein n=1 Tax=L...  73.2    3e-14
+  UniRef90_A0A291HKW0 Uncharacterized protein n=2 Tax=Zobellella ...  73.2    3e-14
+  UniRef90_A0A235CLY9 Uncharacterized protein n=2 Tax=Oceanimonas...  72.8    4e-14
+  UniRef90_A0A1T4P5Z3 Uncharacterized protein n=1 Tax=Oceanospiri...  72.4    5e-14
+  UniRef90_A0A2G6ETJ0 Uncharacterized protein n=1 Tax=Gammaproteo...  72.0    7e-14
+  UniRef90_A0A376W023 Putative structural protein n=1 Tax=Escheri...  67.8    4e-13
+  UniRef90_A0A2P7QTV7 DUF3461 domain-containing protein n=1 Tax=Z...  69.3    8e-13
+  UniRef90_A0A2Z2P324 Uncharacterized protein n=1 Tax=Granulosico...  69.7    1e-12
+  UniRef90_S6HQC3 Uncharacterized protein n=1 Tax=Osedax symbiont...  68.2    2e-12
+  UniRef90_UPI0009E9F8C3 DUF3461 family protein n=1 Tax=Marinobac...  68.2    3e-12
+  UniRef90_A0A2G6EM62 Uncharacterized protein n=1 Tax=Gammaproteo...  69.3    3e-12
+  UniRef90_A0A1T4XVC3 Uncharacterized protein n=2 Tax=Thiothrix e...  67.8    4e-12
+  UniRef90_UPI000373C376 DUF3461 family protein n=1 Tax=Amphritea...  67.4    5e-12
+  UniRef90_A0A2G6DFS3 Uncharacterized protein n=1 Tax=Proteobacte...  66.6    1e-11
+  UniRef90_A0A1R1LW25 Uncharacterized protein n=2 Tax=Motiliprote...  65.9    1e-11
+  UniRef90_UPI000DA146E6 DUF3461 family protein n=1 Tax=Thiofilum...  65.9    2e-11
+  UniRef90_UPI0003672AB3 DUF3461 family protein n=1 Tax=Thiolinea...  65.1    4e-11
+  UniRef90_A0A239CI04 Uncharacterized protein n=2 Tax=Pseudomonas...  62.4    4e-10
+  UniRef90_A0A1Y5HBP2 Uncharacterized protein n=1 Tax='Osedax' sy...  62.0    6e-10
+  UniRef90_Q2BP51 Uncharacterized protein n=1 Tax=Neptuniibacter ...  62.0    6e-10
+  UniRef90_K6YUP7 Uncharacterized protein n=3 Tax=Proteobacteria ...  60.5    6e-10
+  UniRef90_A0A1T4XC05 Uncharacterized protein n=1 Tax=Thiothrix e...  60.8    2e-09
+  UniRef90_S6HVZ6 Uncharacterized protein n=1 Tax=Osedax symbiont...  60.5    2e-09
+  UniRef90_A0A1Y5E390 Structural protein (Fragment) n=1 Tax=Marin...  59.3    3e-09
+  UniRef90_UPI0004200AF5 DUF3461 family protein n=1 Tax=Neptunomo...  59.3    5e-09
+  UniRef90_A0A2P7QTU4 Uncharacterized protein n=1 Tax=Zobellella ...  58.5    2e-08
+  UniRef90_A0A2Z2NQH8 Uncharacterized protein n=1 Tax=Granulosico...  58.5    2e-08
+  UniRef90_A0A1A9F4N3 Uncharacterized protein n=2 Tax=Marinobacte...  57.4    2e-08
+  UniRef90_A0A1Y5E190 Uncharacterized protein n=1 Tax=Colwellia p...  57.8    2e-08
+  UniRef90_UPI000A03AE1B DUF3461 family protein n=1 Tax=Marinobac...  58.2    2e-08
+  UniRef90_A0A1H9F0H5 Uncharacterized protein n=1 Tax=Amphritea a...  57.4    4e-08
+  UniRef90_A0A1A9F1V2 Uncharacterized protein n=2 Tax=Marinobacte...  57.4    4e-08
+  UniRef90_A0A1V0KT70 Uncharacterized protein n=1 Tax=Colwellia s...  56.6    6e-08
+  UniRef90_UPI000489F259 DUF3461 family protein n=1 Tax=Marinobac...  56.2    9e-08
+  UniRef90_UPI000BA0D261 DUF3461 family protein n=1 Tax=Klebsiell...  54.3    1e-07
+  UniRef90_UPI000EB1373F DUF3461 family protein n=1 Tax=Litoreiba...  53.5    1e-06
+  UniRef90_A0A291HKV3 Uncharacterized protein n=3 Tax=Zobellella ...  52.8    1e-06
+  UniRef90_A0A3P1SSW5 DUF3461 family protein n=1 Tax=Amphritea ba...  52.8    2e-06
+  UniRef90_A0A233RJX8 Uncharacterized protein n=1 Tax=Oceanimonas...  52.4    2e-06
+  UniRef90_A0A2X3EW13 YaeH n=1 Tax=Klebsiella pneumoniae TaxID=57...  50.1    2e-06
+  UniRef90_H2FVH9 Uncharacterized protein n=1 Tax=Oceanimonas sp....  51.2    5e-06
+  UniRef90_UPI000E3017BD DUF3461 family protein n=1 Tax=Zobellell...  50.8    7e-06
+  UniRef90_UPI000D30CAB0 DUF3461 family protein n=1 Tax=Oceanimon...  50.8    9e-06
+  UniRef90_A0A1J4QBF1 Uncharacterized protein n=1 Tax=Oceanisphae...  50.1    1e-05
+  UniRef90_A0A0P8YA73 Uncharacterized protein n=1 Tax=Marinosulfo...  50.4    2e-05
+  UniRef90_A0A2G2BHJ7 Uncharacterized protein n=1 Tax=Marinosulfo...  50.1    2e-05
+  UniRef90_A0A1H7VXY0 Uncharacterized protein n=1 Tax=Pasteurella...  49.7    3e-05
+  UniRef90_A0A2H5EUL8 Uncharacterized protein n=1 Tax=Paracoccus ...  49.3    6e-05
+  UniRef90_A0A347UCJ6 DUF3461 family protein n=1 Tax=Rhodobactera...  48.9    6e-05
+  UniRef90_A0A2P5TN74 Uncharacterized protein n=1 Tax=Oceanisphae...  47.0    2e-04
+  UniRef90_A0A2K9EBA5 Uncharacterized protein n=1 Tax=Paracoccus ...  47.0    3e-04
+  UniRef90_A0A356V6F1 Uncharacterized protein (Fragment) n=1 Tax=...  45.8    0.001
+  UniRef90_A0A235CMD7 Uncharacterized protein n=1 Tax=Oceanimonas...  45.1    0.001
+  UniRef90_UPI000373A5B3 DUF3461 family protein n=1 Tax=Oceanimon...  44.3    0.003
+  UniRef90_A0A3D5MTN4 Uncharacterized protein n=1 Tax=Clostridium...  44.7    0.003
+  UniRef90_A0A369WFI7 DUF3461 family protein n=1 Tax=Motiliproteu...  42.7    0.017
+  UniRef90_UPI000FD89052 DUF3461 family protein n=1 Tax=Neptunomo...  42.0    0.017
+  UniRef90_UPI0003735049 hypothetical protein n=1 Tax=Pseudomonas...  42.4    0.025
+  UniRef90_W1WDC7 Uncharacterized protein (Fragment) n=1 Tax=huma...  37.4    0.21 
+  UniRef90_A0A3D3JVR9 Uncharacterized protein n=1 Tax=Lentisphaer...  40.0    0.29 
+  UniRef90_A0A1F8NXM8 Uncharacterized protein n=1 Tax=Chloroflexi...  39.3    0.58 
+  UniRef90_UPI0004850217 IS630 family transposase n=1 Tax=Desulfo...  38.1    0.86 
+  UniRef90_A0A143WS32 Uncharacterized protein n=1 Tax=Candidatus ...  36.2    1.3  
+  UniRef90_N8Y531 Uncharacterized protein n=1 Tax=Acinetobacter s...  36.2    1.7  
+  UniRef90_UPI0008547336 UPF0585 protein C16orf13 homolog isoform...  37.4    1.9  
+  UniRef90_UPI00085409F2 UPF0585 protein C16orf13 homolog isoform...  37.0    2.5  
+  UniRef90_A0A2W5TB30 ATP-dependent deoxyribonuclease subunit A n...  37.4    3.0  
+  UniRef90_UPI000FDCD775 DUF4011 domain-containing protein n=1 Ta...  37.0    4.4  
+  UniRef90_A0A067M3B1 Uncharacterized protein n=1 Tax=Botryobasid...  36.6    5.0  
+  UniRef90_A0A1E4RRT4 Uncharacterized protein n=1 Tax=Hyphopichia...  36.2    6.2  
+  UniRef90_A0A1A7KD88 Uncharacterized protein n=1 Tax=Chryseobact...  35.8    6.2  
+  UniRef90_UPI000937FE55 hypothetical protein n=1 Tax=Rhizobacter...  35.4    8.5  
+  UniRef90_A0A2D7REP7 Aspartate aminotransferase family protein n...  35.8    8.7  
+  UniRef90_UPI000B8F2C81 myosin-6-like n=1 Tax=Helianthus annuus ...  35.8    8.8  
+  UniRef90_A0A1Q6S6T4 Uncharacterized protein n=2 Tax=Oscillibact...  35.8    9.2  
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.137    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736740530590
+Warning: [psiblast] lcl|Query_1 NP_414705.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414705.1
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1S2B3W7 UPF0325 protein BB778_04915 n=7 Tax=Enterob...  200     1e-64
+  UniRef90_A8ALC5 UPF0325 protein CKO_03204 n=549 Tax=root TaxID=...  198     1e-63
+  UniRef90_A4W6R0 UPF0325 protein Ent638_0703 n=162 Tax=Bacteria ...  198     2e-63
+  UniRef90_I2BCK9 UPF0325 protein EBL_c32000 n=1 Tax=Shimwellia b...  196     1e-62
+  UniRef90_D2BTV9 UPF0325 protein Dd586_0925 n=21 Tax=Enterobacte...  195     2e-62
+  UniRef90_A1JP87 UPF0325 protein YE3288 n=80 Tax=Enterobacterale...  194     3e-62
+  UniRef90_A0A2S5K902 UPF0325 protein C1Y41_11950 n=2 Tax=Pantoea...  194     4e-62
+  UniRef90_A0A379GXI9 UPF0325 protein NCTC11800_00853 n=5 Tax=Gam...  195     4e-62
+  UniRef90_C6DAH9 UPF0325 protein PC1_0937 n=28 Tax=Enterobactera...  194     5e-62
+  UniRef90_U2NEL8 UPF0325 protein L579_0475 n=74 Tax=Enterobacter...  193     8e-62
+  UniRef90_A0A0Q4M9I5 UPF0325 protein ASE93_21485 n=3 Tax=Yersini...  193     8e-62
+  UniRef90_A0A0K0HMP7 UPF0325 protein BN1044_03399 n=19 Tax=Enter...  193     9e-62
+  UniRef90_D4HZ86 UPF0325 protein EAMY_2764 n=9 Tax=Enterobactera...  193     1e-61
+  UniRef90_A0A1X0WAS4 UPF0325 protein BS640_19355 n=3 Tax=Yersini...  192     2e-61
+  UniRef90_A0A2I0FVC5 UPF0325 protein CIG19_12530 n=1 Tax=Enterob...  192     2e-61
+  UniRef90_Q2NRK3 UPF0325 protein SG1947 n=6 Tax=Sodalis TaxID=84...  191     4e-61
+  UniRef90_A0A0M2KF15 UPF0325 protein AV903_24665 n=5 Tax=Erwinia...  191     5e-61
+  UniRef90_A0A095U7G2 UPF0325 protein HA49_18845 n=5 Tax=Tatumell...  190     1e-60
+  UniRef90_A0A1B7KKB2 UPF0325 protein M993_00628 n=3 Tax=Enteroba...  188     7e-60
+  UniRef90_A0A084A4D7 UPF0325 protein SRDD_09160 n=1 Tax=Serratia...  188     7e-60
+  UniRef90_B6XDN8 UPF0325 protein PROVALCAL_01462 n=19 Tax=Morgan...  187     3e-59
+  UniRef90_A0A250B423 UPF0325 protein AWC35_16770 n=1 Tax=Gibbsie...  187     3e-59
+  UniRef90_Q7N8Q1 UPF0325 protein plu0668 n=20 Tax=Morganellaceae...  186     6e-59
+  UniRef90_B4F2D7 UPF0325 protein PMI2289 n=29 Tax=Enterobacteral...  186     6e-59
+  UniRef90_UPI000948D567 DUF3461 family protein n=1 Tax=Pantoea s...  184     3e-58
+  UniRef90_C5BHB2 UPF0325 protein NT01EI_0832 n=8 Tax=Edwardsiell...  184     5e-58
+  UniRef90_A0A1I4WTP4 UPF0325 protein SAMN05216516_10335 n=1 Tax=...  183     9e-58
+  UniRef90_A0A068QWG1 UPF0325 protein XDD1_3311 n=25 Tax=Xenorhab...  183     1e-57
+  UniRef90_UPI000E3E9DFC DUF3461 family protein n=1 Tax=Vibrio ma...  178     6e-56
+  UniRef90_A0A2N8ZEH5 UPF0325 protein VTAP4600_A2348 n=1 Tax=Vibr...  177     1e-55
+  UniRef90_A6D2T4 UPF0325 protein VSAK1_11790 n=6 Tax=Vibrio TaxI...  177     2e-55
+  UniRef90_L8J7U4 UPF0325 protein C942_03497 n=2 Tax=Photobacteri...  177     2e-55
+  UniRef90_A0A085HMV7 UPF0325 protein GLGR_0236 n=2 Tax=Leminorel...  177     3e-55
+  UniRef90_A0A2Y9U1R6 UPF0325 protein HYN51_13545 n=3 Tax=Enterob...  177     3e-55
+  UniRef90_A0A1Q9GWE1 UPF0325 protein BIT28_17490 n=1 Tax=Photoba...  176     4e-55
+  UniRef90_A0A3L7LTP4 DUF3461 family protein n=1 Tax=Sodalis-like...  176     4e-55
+  UniRef90_F0LUI0 UPF0325 protein vfu_A01066 n=4 Tax=Vibrio TaxID...  176     5e-55
+  UniRef90_UPI000B357428 DUF3461 family protein n=1 Tax=Thaumasio...  176     6e-55
+  UniRef90_Q87MD5 UPF0325 protein VP2321 n=45 Tax=Vibrionales Tax...  176     8e-55
+  UniRef90_UPI000503C3F0 DUF3461 family protein n=4 Tax=Vibrio vu...  176     8e-55
+  UniRef90_A0A0B8PPY2 UPF0325 protein JCM19236_5448 n=2 Tax=Vibri...  176     9e-55
+  UniRef90_A0A151KYI2 UPF0325 protein ATY37_17330 n=7 Tax=Vibrio ...  175     9e-55
+  UniRef90_UPI0004AC6407 DUF3461 family protein n=1 Tax=Enterobac...  175     1e-54
+  UniRef90_A7N1Y0 UPF0325 protein VIBHAR_03240 n=61 Tax=Vibrio Ta...  175     1e-54
+  UniRef90_C9P307 Chromosome segregation ATPase n=3 Tax=Vibrio Ta...  175     1e-54
+  UniRef90_A0A1G8EEH8 UPF0325 protein SAMN04488136_12448 n=1 Tax=...  175     2e-54
+  UniRef90_U3A3H7 UPF0325 protein VPR01S_10_00730 n=2 Tax=Vibrio ...  174     3e-54
+  UniRef90_A0A2N7D3Z1 UPF0325 protein BCU70_17965 n=1 Tax=Vibrio ...  174     3e-54
+  UniRef90_A0A2K8KK99 Uncharacterized protein n=2 Tax=Reinekea fo...  174     4e-54
+  UniRef90_A0A1A9B0R6 Protein of uncharacterized function (DUF346...  174     4e-54
+  UniRef90_B7VIS1 UPF0325 protein VS_2356 n=47 Tax=Vibrionales Ta...  174     5e-54
+  UniRef90_A0A0J1HJD8 UPF0325 protein ABT57_00245 n=2 Tax=Photoba...  173     6e-54
+  UniRef90_A0A0J8V8D2 UPF0325 protein C9I94_21980 n=2 Tax=Photoba...  173     6e-54
+  UniRef90_Q9KPU8 UPF0325 protein VC_2264 n=28 Tax=Vibrio TaxID=6...  173     8e-54
+  UniRef90_A0A0B9G8A7 UPF0325 protein RJ45_03830 n=4 Tax=Photobac...  173     9e-54
+  UniRef90_A0A2T3MT75 UPF0325 protein C9I89_19600 n=1 Tax=Photoba...  172     1e-53
+  UniRef90_A0A3D3HSA0 UPF0325 protein DIT05_17660 n=12 Tax=Bacter...  173     1e-53
+  UniRef90_D0ICN6 UPF0325 protein VHA_003515 n=13 Tax=Vibrionacea...  172     1e-53
+  UniRef90_UPI0008389006 DUF3461 family protein n=1 Tax=Vibrio tr...  172     1e-53
+  UniRef90_UPI0008DA39D1 DUF3461 family protein n=2 Tax=Vibrio Ta...  172     2e-53
+  UniRef90_UPI000B9FC859 DUF3461 family protein n=1 Tax=Klebsiell...  172     2e-53
+  UniRef90_A4B979 Uncharacterized protein n=1 Tax=Reinekea blande...  171     5e-53
+  UniRef90_UPI0006D01988 DUF3461 family protein n=1 Tax=Photobact...  171     7e-53
+  UniRef90_Q6LN21 UPF0325 protein PBPRA2971 n=4 Tax=Photobacteriu...  170     1e-52
+  UniRef90_A0A1N6WH34 UPF0325 protein SAMN05880558_106199 n=2 Tax...  170     1e-52
+  UniRef90_R9PJK5 Chromosome segregation ATPase n=2 Tax=Agarivora...  169     2e-52
+  UniRef90_A0A178KA65 UPF0325 protein A3K86_12405 n=1 Tax=Photoba...  169     2e-52
+  UniRef90_A0A1B1NLS4 UPF0325 protein VSVS12_00862 n=13 Tax=Vibri...  169     2e-52
+  UniRef90_A0A2J8HC23 UPF0325 protein C1N32_09895 n=2 Tax=Vibrio ...  169     3e-52
+  UniRef90_A0A0C2KJ29 UPF0325 protein OJ16_03465 n=1 Tax=Vibrio r...  169     3e-52
+  UniRef90_A0A1E3WQY4 UPF0325 protein VSF3289_02478 n=2 Tax=Vibri...  169     4e-52
+  UniRef90_UPI000B35947B DUF3461 family protein n=1 Tax=Vibrio ap...  169     5e-52
+  UniRef90_A0A066RS28 Uncharacterized protein n=1 Tax=Photobacter...  168     6e-52
+  UniRef90_A0A193KEZ8 UPF0325 protein A6E01_09745 n=3 Tax=Vibrio ...  168     7e-52
+  UniRef90_A0A3D1Z5F7 DUF3461 domain-containing protein n=3 Tax=V...  168     7e-52
+  UniRef90_A0A1M5WHN0 UPF0325 protein VA7868_00736 n=2 Tax=Vibrio...  167     1e-51
+  UniRef90_A0KHF9 UPF0325 protein AHA_1169 n=65 Tax=Gammaproteoba...  167     1e-51
+  UniRef90_UPI000E0CBC37 DUF3461 family protein n=2 Tax=Vibrio Ta...  167     1e-51
+  UniRef90_A0A3A6QRV6 UPF0325 protein DZ860_10210 n=1 Tax=Vibrio ...  167     2e-51
+  UniRef90_U3AEL6 UPF0325 protein VEZ01S_01_01250 n=2 Tax=Vibrio ...  167     2e-51
+  UniRef90_A0A1C3EI83 Uncharacterized protein n=1 Tax=Enterovibri...  167     2e-51
+  UniRef90_A0A0W8JDZ2 UPF0325 protein VRK_23310 n=3 Tax=Vibrio Ta...  166     4e-51
+  UniRef90_A0A1Z2SD49 UPF0325 protein BSQ33_04780 n=4 Tax=Vibrio ...  166     4e-51
+  UniRef90_UPI000D0129FD DUF3461 family protein n=1 Tax=Vibrio ga...  165     1e-50
+  UniRef90_A0A1E5E126 Uncharacterized protein n=3 Tax=Vibrio TaxI...  165     1e-50
+  UniRef90_E3BLK5 UPF0325 protein VIBC2010_14429 n=1 Tax=Vibrio c...  164     2e-50
+  UniRef90_A0A0K6IHY0 Uncharacterized protein n=5 Tax=Marinomonas...  164     2e-50
+  UniRef90_A0A1X1MTP4 UPF0325 protein ST37_11490 n=1 Tax=Vibrio s...  164     2e-50
+  UniRef90_UPI000E77C88D DUF3461 family protein n=1 Tax=Alteromon...  164     3e-50
+  UniRef90_UPI000420F5A3 DUF3461 family protein n=2 Tax=Photobact...  164     3e-50
+  UniRef90_UPI0009898D96 DUF3461 family protein n=1 Tax=Salinivib...  164     4e-50
+  UniRef90_A0A1A8TRC4 Uncharacterized protein n=1 Tax=Marinomonas...  163     6e-50
+  UniRef90_A0A3N9U8B3 DUF3461 family protein n=1 Tax=Vibrio sp. L...  163     7e-50
+  UniRef90_UPI00041D3B57 DUF3461 family protein n=1 Tax=Aliagariv...  163     8e-50
+  UniRef90_A0A0S2SIK7 UPF0325 protein ATO46_15190 n=2 Tax=Aeromon...  163     8e-50
+  UniRef90_A0A3P3VNN4 DUF3461 family protein n=1 Tax=Simiduia aga...  163     8e-50
+  UniRef90_UPI000416BB69 DUF3461 family protein n=2 Tax=Zooshikel...  162     1e-49
+  UniRef90_A0A2G8C5B5 Uncharacterized protein n=2 Tax=Enterobacte...  162     1e-49
+  UniRef90_A0A0F5ATH5 Uncharacterized protein n=8 Tax=Salinivibri...  162     2e-49
+  UniRef90_UPI00041FD915 DUF3461 family protein n=2 Tax=Saccharos...  162     2e-49
+  UniRef90_UPI0005AA5913 DUF3461 family protein n=3 Tax=Vibrio ma...  162     2e-49
+  UniRef90_Q5E3D6 UPF0325 protein VF_1965 n=15 Tax=Aliivibrio Tax...  162     2e-49
+  UniRef90_A6VT88 Putative structural protein n=11 Tax=Marinomona...  161     5e-49
+  UniRef90_A0A3D2AU60 DUF3461 domain-containing protein n=2 Tax=O...  159     2e-48
+  UniRef90_A0A370U6E4 DUF3461 domain-containing protein n=1 Tax=M...  159     3e-48
+  UniRef90_A0A2Z4PYI4 Structural protein n=1 Tax=Marinomonas prim...  159     3e-48
+  UniRef90_A0A2T6E8H5 Uncharacterized protein n=2 Tax=Saccharospi...  159     4e-48
+  UniRef90_A0A2N7DBB1 Uncharacterized protein n=1 Tax=Vibrio sp. ...  159     4e-48
+  UniRef90_A0A369WS27 DUF3461 family protein n=1 Tax=Motiliproteu...  158     6e-48
+  UniRef90_A0A0C5VPP4 Uncharacterized protein n=1 Tax=Gynuella su...  158     7e-48
+  UniRef90_A0A166LDB0 Structural protein n=2 Tax=Marinomonas TaxI...  158     8e-48
+  UniRef90_UPI000FD794F4 DUF3461 family protein n=1 Tax=Neptunomo...  157     1e-47
+  UniRef90_A0A3D1ZU30 DUF3461 domain-containing protein n=1 Tax=O...  157     2e-47
+  UniRef90_F2JUC4 Uncharacterized protein n=1 Tax=Marinomonas med...  157     2e-47
+  UniRef90_A3YAR0 Putative structural protein n=2 Tax=Marinomonas...  156     3e-47
+  UniRef90_F6D1A9 Uncharacterized protein n=1 Tax=Marinomonas pos...  156     5e-47
+  UniRef90_UPI000B3E5BE2 DUF3461 family protein n=1 Tax=Marinomon...  156     5e-47
+  UniRef90_A0A2A2GVP0 Uncharacterized protein n=3 Tax=Arsenophonu...  155     9e-47
+  UniRef90_UPI000E6606C9 DUF3461 family protein n=1 Tax=Oceanospi...  155     1e-46
+  UniRef90_UPI000360B0E6 DUF3461 family protein n=2 Tax=Psychromo...  155     1e-46
+  UniRef90_A0A1N7J636 Uncharacterized protein n=3 Tax=Neptunomona...  155     1e-46
+  UniRef90_A0A3E0DIY3 Uncharacterized protein DUF3461 n=1 Tax=Mar...  154     2e-46
+  UniRef90_A0A2N6GMX9 Uncharacterized protein n=1 Tax=Sedimentico...  154     2e-46
+  UniRef90_UPI0004847EEA DUF3461 family protein n=1 Tax=Balneatri...  154     2e-46
+  UniRef90_A0A379AK97 Protein of uncharacterized function (DUF346...  153     3e-46
+  UniRef90_UPI0004641C1A DUF3461 family protein n=1 Tax=Candidatu...  154     3e-46
+  UniRef90_A0A0F7K0M3 Uncharacterized protein n=1 Tax=Sedimentico...  153     7e-46
+  UniRef90_A0A2N6CU81 Uncharacterized protein n=2 Tax=Sedimentico...  152     9e-46
+  UniRef90_A0A1J4QCE4 Uncharacterized protein n=1 Tax=Oceanisphae...  153     9e-46
+  UniRef90_UPI000421C888 DUF3461 family protein n=1 Tax=Oceanospi...  152     1e-45
+  UniRef90_A0A261GUZ6 Uncharacterized protein n=2 Tax=Hahella Tax...  152     1e-45
+  UniRef90_A1SSV2 UPF0325 protein Ping_0715 n=2 Tax=Psychromonas ...  151     4e-45
+  UniRef90_H2FVR2 Uncharacterized protein n=1 Tax=Oceanimonas sp....  151     4e-45
+  UniRef90_A0A1I0B2T4 Uncharacterized protein n=1 Tax=Thorsellia ...  151     6e-45
+  UniRef90_W9VRG2 Uncharacterized protein n=2 Tax=Nitrincola TaxI...  151     6e-45
+  UniRef90_A0A1A8T4I0 Uncharacterized protein n=1 Tax=Marinomonas...  150     8e-45
+  UniRef90_UPI0003806916 DUF3461 family protein n=1 Tax=Oceanimon...  152     8e-45
+  UniRef90_A0A2X3ACA6 Putative structural protein n=2 Tax=Escheri...  149     2e-44
+  UniRef90_UPI000411D85B DUF3461 family protein n=1 Tax=Psychromo...  149     2e-44
+  UniRef90_A0A3M1KGX9 DUF3461 family protein n=1 Tax=Gammaproteob...  149     3e-44
+  UniRef90_UPI000E307F59 DUF3461 family protein n=1 Tax=Zobellell...  149     3e-44
+  UniRef90_UPI000948A024 DUF3461 family protein n=1 Tax=Neptunomo...  149     4e-44
+  UniRef90_Q2SPM9 UPF0325 protein HCH_00487 n=2 Tax=Hahella TaxID...  148     4e-44
+  UniRef90_A0A1A9F498 Uncharacterized protein n=2 Tax=Marinobacte...  148     7e-44
+  UniRef90_A0A2N0WZV0 Uncharacterized protein n=1 Tax=Psychromona...  147     1e-43
+  UniRef90_A0A1R1M1P9 Uncharacterized protein n=1 Tax=Motiliprote...  147     1e-43
+  UniRef90_A0A1R1LW27 Uncharacterized protein n=1 Tax=Motiliprote...  147     2e-43
+  UniRef90_A0A1E5X8W5 Uncharacterized protein n=5 Tax=Pseudomonad...  147     2e-43
+  UniRef90_A0A291HKW0 Uncharacterized protein n=2 Tax=Zobellella ...  147     2e-43
+  UniRef90_S6GLV7 Uncharacterized protein n=3 Tax=Bacteria TaxID=...  146     4e-43
+  UniRef90_A0A2P5TND5 Uncharacterized protein n=1 Tax=Oceanisphae...  146     5e-43
+  UniRef90_UPI000413186D DUF3461 family protein n=1 Tax=Oceanospi...  146     6e-43
+  UniRef90_A0A2N1A7X7 Uncharacterized protein n=1 Tax=Psychromona...  145     7e-43
+  UniRef90_A0A2P7QTV7 DUF3461 domain-containing protein n=1 Tax=Z...  145     9e-43
+  UniRef90_A0A0A1YID6 Uncharacterized protein n=1 Tax=Pseudomonas...  144     2e-42
+  UniRef90_UPI00040BE4BF DUF3461 family protein n=1 Tax=Neptunomo...  144     3e-42
+  UniRef90_UPI0004807EC3 DUF3461 family protein n=1 Tax=Marinobac...  144     3e-42
+  UniRef90_A0A357ID44 DUF3461 domain-containing protein n=1 Tax=G...  144     3e-42
+  UniRef90_UPI0003B6E7A5 DUF3461 family protein n=1 Tax=Psychromo...  143     5e-42
+  UniRef90_A0A233RJY2 Uncharacterized protein n=1 Tax=Oceanimonas...  143     6e-42
+  UniRef90_UPI0003A03AE4 DUF3461 family protein n=1 Tax=Marinobac...  143     7e-42
+  UniRef90_A0A235CLY9 Uncharacterized protein n=2 Tax=Oceanimonas...  143     8e-42
+  UniRef90_A0A3P1SRN0 DUF3461 family protein n=1 Tax=Amphritea ba...  142     1e-41
+  UniRef90_A0A1Y0KUP3 Uncharacterized protein n=1 Tax=Pseudomonas...  142     2e-41
+  UniRef90_UPI000FDAE093 DUF3461 family protein n=1 Tax=Neptunomo...  142     2e-41
+  UniRef90_W1DQU6 Chromosome segregation ATPase n=1 Tax=Klebsiell...  141     2e-41
+  UniRef90_A0A366W782 Uncharacterized protein n=2 Tax=Psychromona...  141     3e-41
+  UniRef90_M4UN31 Uncharacterized protein n=1 Tax=Psychromonas sp...  141     4e-41
+  UniRef90_A0A166F3R4 Uncharacterized protein n=2 Tax=Oleiphilus ...  141     5e-41
+  UniRef90_A0A2G6CW38 Uncharacterized protein n=1 Tax=Proteobacte...  140     9e-41
+  UniRef90_A0A165VFT8 Uncharacterized protein n=2 Tax=Oleiphilus ...  139     3e-40
+  UniRef90_A0A1Y5GYW1 Uncharacterized protein n=1 Tax='Osedax' sy...  138     7e-40
+  UniRef90_UPI00048E696B DUF3461 family protein n=1 Tax=Phaseolib...  137     9e-40
+  UniRef90_A0A369WDM0 DUF3461 family protein n=1 Tax=Motiliproteu...  137     1e-39
+  UniRef90_A0A1Y5DWS5 Uncharacterized protein n=1 Tax=Colwellia p...  137     1e-39
+  UniRef90_A0A1V0KSZ8 Uncharacterized protein n=1 Tax=Colwellia s...  136     4e-39
+  UniRef90_A0A317C7R2 DUF3461 domain-containing protein n=1 Tax=L...  134     1e-38
+  UniRef90_UPI00036C2CE1 DUF3461 family protein n=1 Tax=Marinobac...  134     3e-38
+  UniRef90_A0A0B8NYB4 Chromosome segregation ATPase n=1 Tax=Vibri...  132     6e-38
+  UniRef90_A0A2X2BL75 Protein of uncharacterized function (DUF346...  131     1e-37
+  UniRef90_A0A2G6D418 Uncharacterized protein n=1 Tax=Proteobacte...  132     2e-37
+  UniRef90_F3LGQ7 Chromosome segregation ATPase n=1 Tax=gamma pro...  130     4e-37
+  UniRef90_UPI0004819945 DUF3461 family protein n=1 Tax=Marinobac...  130     5e-37
+  UniRef90_A0A090TBN6 UPF0325 protein YaeH n=3 Tax=Vibrio TaxID=6...  129     7e-37
+  UniRef90_A0A063Y675 UPF0325 protein yaeH n=2 Tax=Nitrincola Tax...  129     1e-36
+  UniRef90_A0A2S5KMW6 DUF3461 domain-containing protein n=2 Tax=P...  129     2e-36
+  UniRef90_A0A3P1SQS8 DUF3461 family protein n=1 Tax=Amphritea ba...  129     2e-36
+  UniRef90_UPI0003B79550 DUF3461 family protein n=1 Tax=Leucothri...  128     4e-36
+  UniRef90_UPI0009E9F8C3 DUF3461 family protein n=1 Tax=Marinobac...  128     5e-36
+  UniRef90_A0A1T4P5Z3 Uncharacterized protein n=1 Tax=Oceanospiri...  127     7e-36
+  UniRef90_A0A317CPY3 DUF3461 domain-containing protein n=1 Tax=L...  127     9e-36
+  UniRef90_UPI000373C376 DUF3461 family protein n=1 Tax=Amphritea...  127     2e-35
+  UniRef90_A0A378AEG0 YaeH n=2 Tax=Enterobacteriaceae TaxID=543 R...  125     2e-35
+  UniRef90_A0A2P7QTU4 Uncharacterized protein n=1 Tax=Zobellella ...  127     2e-35
+  UniRef90_A0A376FHG0 Protein of uncharacterized function (DUF346...  125     3e-35
+  UniRef90_A0A378E386 YaeH n=1 Tax=Klebsiella oxytoca TaxID=571 R...  124     8e-35
+  UniRef90_A0A1H5RSU5 Uncharacterized protein n=3 Tax=Oceanospiri...  125     1e-34
+  UniRef90_A0A2G6EM62 Uncharacterized protein n=1 Tax=Gammaproteo...  126     2e-34
+  UniRef90_A0A0I1R9Z4 Protein yaeH n=4 Tax=Enterobacteriaceae Tax...  122     3e-34
+  UniRef90_UPI0003672AB3 DUF3461 family protein n=1 Tax=Thiolinea...  123     4e-34
+  UniRef90_UPI000DA146E6 DUF3461 family protein n=1 Tax=Thiofilum...  123     5e-34
+  UniRef90_UPI000F7F10E0 DUF3461 family protein n=1 Tax=Amphritea...  123     5e-34
+  UniRef90_A0A2Z2NZ47 Uncharacterized protein n=2 Tax=Granulosico...  123     7e-34
+  UniRef90_UPI000D3E1222 DUF3461 family protein n=1 Tax=Gammaprot...  121     2e-33
+  UniRef90_A0A1T4XVC3 Uncharacterized protein n=2 Tax=Thiothrix e...  120     5e-33
+  UniRef90_A0A2G6DFS3 Uncharacterized protein n=1 Tax=Proteobacte...  120     1e-32
+  UniRef90_A0A291HKV3 Uncharacterized protein n=3 Tax=Zobellella ...  119     1e-32
+  UniRef90_A0A2G6ETJ0 Uncharacterized protein n=1 Tax=Gammaproteo...  119     2e-32
+  UniRef90_UPI000A03AE1B DUF3461 family protein n=1 Tax=Marinobac...  120     2e-32
+  UniRef90_UPI000E3017BD DUF3461 family protein n=1 Tax=Zobellell...  118     4e-32
+  UniRef90_A0A1T4XC05 Uncharacterized protein n=1 Tax=Thiothrix e...  118     6e-32
+  UniRef90_A0A376P0G1 Putative structural protein n=4 Tax=root Ta...  115     1e-31
+  UniRef90_A0A2Z2P324 Uncharacterized protein n=1 Tax=Granulosico...  117     2e-31
+  UniRef90_UPI000EB1373F DUF3461 family protein n=1 Tax=Litoreiba...  116     3e-31
+  UniRef90_A0A2Z2NQH8 Uncharacterized protein n=1 Tax=Granulosico...  117     3e-31
+  UniRef90_A0A0P8YA73 Uncharacterized protein n=1 Tax=Marinosulfo...  116     3e-31
+  UniRef90_A0A1A9F4N3 Uncharacterized protein n=2 Tax=Marinobacte...  115     4e-31
+  UniRef90_A0A1Y5E190 Uncharacterized protein n=1 Tax=Colwellia p...  114     1e-30
+  UniRef90_A0A356V6F1 Uncharacterized protein (Fragment) n=1 Tax=...  114     3e-30
+  UniRef90_A0A2P5TN74 Uncharacterized protein n=1 Tax=Oceanisphae...  112     4e-30
+  UniRef90_A0A1R1LW25 Uncharacterized protein n=2 Tax=Motiliprote...  112     5e-30
+  UniRef90_A0A3P1SSW5 DUF3461 family protein n=1 Tax=Amphritea ba...  112     7e-30
+  UniRef90_H2FVH9 Uncharacterized protein n=1 Tax=Oceanimonas sp....  111     2e-29
+  UniRef90_A0A377CXI0 Putative structural protein n=1 Tax=Escheri...  110     3e-29
+  UniRef90_UPI0004200AF5 DUF3461 family protein n=1 Tax=Neptunomo...  110     4e-29
+  UniRef90_E9CND9 Putative conserved protein n=1 Tax=Serratia sym...  109     4e-29
+  UniRef90_A0A347UCJ6 DUF3461 family protein n=1 Tax=Rhodobactera...  110     6e-29
+  UniRef90_A0A1J4QBF1 Uncharacterized protein n=1 Tax=Oceanisphae...  109     7e-29
+  UniRef90_Q2BP51 Uncharacterized protein n=1 Tax=Neptuniibacter ...  109     1e-28
+  UniRef90_S6HQC3 Uncharacterized protein n=1 Tax=Osedax symbiont...  109     2e-28
+  UniRef90_A0A1Y5HBP2 Uncharacterized protein n=1 Tax='Osedax' sy...  109     2e-28
+  UniRef90_A0A2G2BHJ7 Uncharacterized protein n=1 Tax=Marinosulfo...  109     3e-28
+  UniRef90_A0A239CI04 Uncharacterized protein n=2 Tax=Pseudomonas...  107     7e-28
+  UniRef90_UPI000D30CAB0 DUF3461 family protein n=1 Tax=Oceanimon...  107     7e-28
+  UniRef90_A0A2V1GZ42 Uncharacterized protein n=1 Tax=Flavobacter...  106     9e-28
+  UniRef90_A0A1V0KT70 Uncharacterized protein n=1 Tax=Colwellia s...  106     2e-27
+  UniRef90_A0A2S6VPN5 Uncharacterized protein n=1 Tax=Pantoea sp....  105     2e-27
+  UniRef90_UPI000489F259 DUF3461 family protein n=1 Tax=Marinobac...  106     3e-27
+  UniRef90_A0A233RJX8 Uncharacterized protein n=1 Tax=Oceanimonas...  105     4e-27
+  UniRef90_S6HVZ6 Uncharacterized protein n=1 Tax=Osedax symbiont...  105     5e-27
+  UniRef90_A0A1H9F0H5 Uncharacterized protein n=1 Tax=Amphritea a...  105     6e-27
+  UniRef90_A0A0B8P6T7 Chromosome segregation ATPase n=1 Tax=Vibri...  103     1e-26
+  UniRef90_A0A1A9F1V2 Uncharacterized protein n=2 Tax=Marinobacte...  104     1e-26
+  UniRef90_A0A2H5EUL8 Uncharacterized protein n=1 Tax=Paracoccus ...  104     2e-26
+  UniRef90_A0A1H7VXY0 Uncharacterized protein n=1 Tax=Pasteurella...  103     4e-26
+  UniRef90_A4BBX7 Uncharacterized protein n=1 Tax=Reinekea blande...  98.6    9e-25
+  UniRef90_A0A2K9EBA5 Uncharacterized protein n=1 Tax=Paracoccus ...  98.6    3e-24
+  UniRef90_A0A0J8YC89 Uncharacterized protein (Fragment) n=1 Tax=...  97.1    3e-24
+  UniRef90_A0A378CXU8 YaeH n=2 Tax=Bacteria TaxID=2 RepID=A0A378C...  95.9    6e-24
+  UniRef90_A0A1Y5E390 Structural protein (Fragment) n=1 Tax=Marin...  94.8    3e-23
+  UniRef90_A0A378CV92 YaeH n=2 Tax=Enterobacteriaceae TaxID=543 R...  94.0    4e-23
+  UniRef90_A0A2X2XIU9 Protein of uncharacterized function (DUF346...  88.6    4e-21
+  UniRef90_A0A061PEK8 YaeH protein n=1 Tax=Vibrio sp. JCM 19053 T...  83.2    6e-19
+  UniRef90_K6YUP7 Uncharacterized protein n=3 Tax=Proteobacteria ...  73.6    4e-15
+  UniRef90_A0A376FMG4 Protein of uncharacterized function (DUF346...  72.1    9e-15
+  UniRef90_A0A2X5CAG6 Chromosome segregation ATPase n=1 Tax=Salmo...  71.7    1e-14
+  UniRef90_A0A376MRC6 Putative structural protein n=1 Tax=Escheri...  67.4    5e-13
+  UniRef90_A0A377E217 Putative structural protein n=1 Tax=Escheri...  65.5    3e-12
+  UniRef90_A0A376W023 Putative structural protein n=1 Tax=Escheri...  59.3    8e-10
+  UniRef90_UPI000BA0D261 DUF3461 family protein n=1 Tax=Klebsiell...  48.9    1e-05
+  UniRef90_A0A2X3EW13 YaeH n=1 Tax=Klebsiella pneumoniae TaxID=57...  45.5    1e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A235CMD7 Uncharacterized protein n=1 Tax=Oceanimonas...  101     1e-25
+  UniRef90_A0A369WFI7 DUF3461 family protein n=1 Tax=Motiliproteu...  102     2e-25
+  UniRef90_UPI000373A5B3 DUF3461 family protein n=1 Tax=Oceanimon...  97.1    7e-24
+  UniRef90_UPI000FD89052 DUF3461 family protein n=1 Tax=Neptunomo...  73.6    1e-14
+  UniRef90_A0A2G2BBZ2 Uncharacterized protein (Fragment) n=1 Tax=...  65.1    2e-11
+  UniRef90_A0A259MRS9 Methyltransferase n=1 Tax=Rhodospirillales ...  42.8    0.025
+  UniRef90_A0A3L7VHW2 Uncharacterized protein (Fragment) n=1 Tax=...  42.8    0.029
+  UniRef90_UPI000C0406FE LOW QUALITY PROTEIN: autophagy-related p...  42.4    0.053
+  UniRef90_A0A3B7D3H3 Mammalian cell entry protein n=1 Tax=Aeromi...  42.0    0.067
+  UniRef90_UPI0004DB8911 hypothetical protein n=1 Tax=Kineothrix ...  40.9    0.13 
+  UniRef90_UPI000CEF0BD2 hypothetical protein n=1 Tax=Helicobacte...  40.9    0.16 
+  UniRef90_F8KPG8 Dextran-binding lectin n=2 Tax=Helicobacter biz...  40.9    0.16 
+  UniRef90_A0A3B8JIW7 Uncharacterized protein n=1 Tax=Cyanobacter...  40.1    0.18 
+  UniRef90_UPI0007653391 choline-binding protein n=1 Tax=Streptoc...  40.5    0.20 
+  UniRef90_A0A345M267 Uncharacterized protein n=3 Tax=Providencia...  40.5    0.21 
+  UniRef90_A0A182J3F8 Uncharacterized protein n=1 Tax=Anopheles a...  40.1    0.27 
+  UniRef90_UPI000669B469 choline-binding protein n=1 Tax=Streptoc...  40.1    0.28 
+  UniRef90_UPI000D321276 MCE family protein n=1 Tax=Nocardioides ...  40.1    0.31 
+  UniRef90_UPI00029C5232 hypothetical protein n=1 Tax=Providencia...  40.1    0.33 
+  UniRef90_R7XWT8 Virulence factor Mce family protein (Fragment) ...  40.1    0.34 
+  UniRef90_UPI0007694375 choline-binding protein n=1 Tax=Streptoc...  39.3    0.48 
+  UniRef90_A0A1G1H326 Uncharacterized protein n=1 Tax=Nitrospirae...  39.3    0.51 
+  UniRef90_I2GK42 Signal transduction histidine-protein kinase at...  39.3    0.51 
+  UniRef90_A0A2I0TLJ0 Uncharacterized protein n=1 Tax=Limosa lapp...  39.3    0.51 
+  UniRef90_A0A1F3ISN2 Protein translocase subunit SecA n=1 Tax=Ba...  39.3    0.53 
+  UniRef90_UPI00034BBB2B SAM-dependent DNA methyltransferase n=1 ...  39.3    0.61 
+  UniRef90_UPI000469CB40 hypothetical protein n=1 Tax=Bacillus sp...  39.3    0.64 
+  UniRef90_D8RNC4 Uncharacterized protein n=1 Tax=Selaginella moe...  38.9    0.67 
+  UniRef90_A0A182Q9F7 Uncharacterized protein n=1 Tax=Anopheles f...  38.9    0.71 
+  UniRef90_A0A1M4XJ14 Phosphoenolpyruvate synthase n=2 Tax=Seinon...  38.9    0.80 
+  UniRef90_A0A1F6QH76 Uncharacterized protein n=2 Tax=unclassifie...  38.9    0.80 
+  UniRef90_B3PN22 Massive surface protein MspH n=1 Tax=Mycoplasma...  38.9    0.80 
+  UniRef90_A0A2E6LSH4 Histidine kinase n=2 Tax=Gammaproteobacteri...  38.9    0.86 
+  UniRef90_UPI00082F765D hypothetical protein n=1 Tax=Nocardiopsi...  38.2    0.87 
+  UniRef90_UPI000248C493 prolipoprotein p65 n=4 Tax=Mycoplasma ov...  38.5    0.88 
+  UniRef90_UPI0007654BE1 choline-binding protein n=10 Tax=Strepto...  38.5    1.0  
+  UniRef90_A0A226D3B7 Uncharacterized protein n=1 Tax=Folsomia ca...  38.2    1.1  
+  UniRef90_A0A1W6AYW1 PspA n=6 Tax=Streptococcus pneumoniae TaxID...  38.5    1.1  
+  UniRef90_A0A1W5D464 Immunoglobulin-like fold n=1 Tax=Umbilicari...  38.5    1.2  
+  UniRef90_A0A258D743 Methyltransferase (Fragment) n=1 Tax=Rhizob...  36.6    1.2  
+  UniRef90_B3PM29 Massive surface protein MspI n=1 Tax=Mycoplasma...  38.5    1.2  
+  UniRef90_A0A178MXK6 Uncharacterized protein n=2 Tax=Magnetospir...  38.2    1.2  
+  UniRef90_A0A387KMT2 Endo-beta-N-acetylglucosaminidase n=9 Tax=S...  38.2    1.3  
+  UniRef90_A0A1D7QXK3 Putative iron compound ABC uptake transport...  38.2    1.3  
+  UniRef90_A0A379M3B3 Type I restriction-modification system meth...  38.2    1.3  
+  UniRef90_A0A1H1Z5A2 Putative hydrolase n=2 Tax=Microlunatus sol...  38.2    1.3  
+  UniRef90_A0A2E0VC91 Uncharacterized protein n=1 Tax=Euryarchaeo...  38.2    1.4  
+  UniRef90_A0A2D8MWL7 Chromosome segregation protein n=2 Tax=Plan...  38.2    1.4  
+  UniRef90_A0A2E7MCX8 Uncharacterized protein n=1 Tax=Deltaproteo...  37.8    1.4  
+  UniRef90_A0A3F3Q5A5 Uncharacterized protein n=1 Tax=Aspergillus...  37.8    1.5  
+  UniRef90_A0A2T2N9E9 Alpha/beta-hydrolase n=1 Tax=Corynespora ca...  38.2    1.5  
+  UniRef90_A0A1Q6K3G5 Uncharacterized protein n=1 Tax=Clostridium...  37.8    1.6  
+  UniRef90_A0A0T7IF17 Pneumococcal surface protein A n=33 Tax=Str...  37.8    1.6  
+  UniRef90_UPI0002658ED4 dynactin subunit 1 n=1 Tax=Galendromus o...  38.2    1.6  
+  UniRef90_A0A3N0E1D6 Peptide chain release factor 2 n=1 Tax=Noca...  37.8    1.6  
+  UniRef90_A2FDG8 Uncharacterized protein n=1 Tax=Trichomonas vag...  37.8    1.7  
+  UniRef90_UPI0009408A08 choline-binding protein n=1 Tax=Streptoc...  37.8    1.7  
+  UniRef90_A0A2P6P5D0 Putative transcription factor WD40-like fam...  37.8    1.7  
+  UniRef90_A0A1G2Z4C4 UDP-glucose 6-dehydrogenase n=1 Tax=Plancto...  37.8    1.7  
+  UniRef90_UPI00047D875E TPM domain-containing protein n=1 Tax=Ge...  37.8    1.7  
+  UniRef90_UPI000FDA2003 Tat pathway signal protein n=1 Tax=Corio...  37.8    1.8  
+  UniRef90_G2FT12 Uncharacterized protein n=6 Tax=Peptococcaceae ...  37.8    1.8  
+  UniRef90_A0A084FZZ6 Uncharacterized protein n=2 Tax=Microascace...  37.8    1.9  
+  UniRef90_A0A0F7E6P6 Uncharacterized protein n=2 Tax=Myxococcus ...  37.8    1.9  
+  UniRef90_A0A085N8C0 Uncharacterized protein n=1 Tax=Trichuris s...  37.8    1.9  
+  UniRef90_A0A373NM58 Uncharacterized protein n=3 Tax=Ruminococcu...  37.8    1.9  
+  UniRef90_A0A2S8AHP9 DNA helicase n=4 Tax=Streptomyces TaxID=188...  37.8    2.0  
+  UniRef90_A0A1M4NH90 OMP1798 n=2 Tax=Helicobacter bizzozeronii T...  37.8    2.0  
+  UniRef90_Q7SGV1 Sorting nexin-4 n=5 Tax=Sordariaceae TaxID=5148...  37.8    2.0  
+  UniRef90_A8N173 Uncharacterized protein n=1 Tax=Coprinopsis cin...  37.8    2.1  
+  UniRef90_A0A0V0QP64 p-loop containing nucleoside triphosphate h...  37.8    2.1  
+  UniRef90_A0A1E5IKY9 Uncharacterized protein n=1 Tax=Candidatus ...  37.4    2.2  
+  UniRef90_W4H9W9 Uncharacterized protein n=1 Tax=Aphanomyces ast...  37.4    2.4  
+  UniRef90_A0A1D6MI25 Protein ALWAYS EARLY 3 n=2 Tax=Zea mays Tax...  37.4    2.4  
+  UniRef90_A0A3M7P3G0 Uncharacterized protein n=1 Tax=Brachionus ...  37.0    2.5  
+  UniRef90_UPI000C7D00DE hypothetical protein n=1 Tax=Shewanella ...  37.0    2.5  
+  UniRef90_A0A3M1DKH5 Uncharacterized protein n=1 Tax=Gammaproteo...  37.4    2.5  
+  UniRef90_UPI00077DE6BD glucose transporter type 1 isoform X1 n=...  37.4    2.5  
+  UniRef90_A0A1B7XML6 Uncharacterized protein n=1 Tax=Halodesulfo...  37.4    2.5  
+  UniRef90_A0A3B8VEW1 Uncharacterized protein n=1 Tax=Bacteroidet...  37.4    2.6  
+  UniRef90_A0A1D5PA65 Uncharacterized protein n=1 Tax=Gallus gall...  37.4    2.6  
+  UniRef90_A0A168GIB6 Spindle pole body-associated protein sad1 n...  37.4    2.6  
+  UniRef90_I3KDH0 Si:dkey-24l11.2 n=1 Tax=Oreochromis niloticus T...  37.0    2.7  
+  UniRef90_A0A397D0M8 Uncharacterized protein n=7 Tax=Aphanomyces...  37.4    2.8  
+  UniRef90_A0A0P5Q0R0 Beclin 1-associated autophagy-related key r...  37.0    2.9  
+  UniRef90_A0A0Q6V6I1 Uncharacterized protein n=4 Tax=Aeromicrobi...  37.0    2.9  
+  UniRef90_A0A0J5GQI0 ABC transporter n=2 Tax=Bacillus sp. LL01 T...  37.0    3.0  
+  UniRef90_A0A2D4PRG6 Uncharacterized protein (Fragment) n=3 Tax=...  37.4    3.0  
+  UniRef90_A0A1H0AEI8 Transcriptional regulator, RpiR family n=1 ...  37.0    3.1  
+  UniRef90_A0A2E2ZQI1 2-keto-4-pentenoate hydratase n=2 Tax=Sphin...  37.0    3.2  
+  UniRef90_A0A373PHT0 Uncharacterized protein n=1 Tax=Ruminococcu...  37.0    3.2  
+  UniRef90_UPI00071C9AFE homer protein homolog 3 isoform X3 n=1 T...  37.0    3.2  
+  UniRef90_A0A0D6JEI0 Uncharacterized protein n=1 Tax=Candidatus ...  37.0    3.3  
+  UniRef90_A0A285EFA8 TLP18.3, Psb32 and MOLO-1 founding protein ...  37.0    3.3  
+  UniRef90_A0A396RR96 FAA hydrolase family protein n=1 Tax=Sphing...  37.0    3.3  
+  UniRef90_A0A1F4VLN5 Uncharacterized protein n=1 Tax=candidate d...  37.0    3.3  
+  UniRef90_A0A1S3WUL9 helicase POLQ-like isoform X1 n=1 Tax=Erina...  37.0    3.4  
+  UniRef90_A0A220SQ57 TIGR00153 family protein n=1 Tax=Alcanivora...  36.6    3.4  
+  UniRef90_A0A1W6AZE8 PspA n=5 Tax=Streptococcus pneumoniae TaxID...  37.0    3.4  
+  UniRef90_UPI000B45BDBE uncharacterized protein LOC110441713 n=1...  37.0    3.5  
+  UniRef90_D4C650 Uncharacterized protein (Fragment) n=1 Tax=Prov...  36.6    3.6  
+  UniRef90_UPI0008010011 MCE family protein n=1 Tax=Mycobacterium...  37.0    3.6  
+  UniRef90_R8B9S9 Uncharacterized protein n=1 Tax=Togninia minima...  37.0    3.7  
+  UniRef90_A0A372YVV7 Uncharacterized protein n=3 Tax=Bacteroides...  36.6    3.7  
+  UniRef90_UPI000D732818 centlein-like n=1 Tax=Pomacea canalicula...  37.0    3.8  
+  UniRef90_A0A3B9MVM5 Magnesium transporter CorA n=1 Tax=Lachnosp...  36.6    3.8  
+  UniRef90_A0A084VGU4 AGAP001643-PA-like protein n=1 Tax=Anophele...  37.0    3.8  
+  UniRef90_UPI000A1C42DF uncharacterized protein LOC110158067 n=1...  36.6    3.9  
+  UniRef90_A0A2H0LM92 Uncharacterized protein n=1 Tax=Candidatus ...  36.6    4.0  
+  UniRef90_UPI0004D04E0E adenomatous polyposis coli protein 2 n=1...  37.0    4.1  
+  UniRef90_UPI0005E2B1D9 choline-binding protein n=2 Tax=Streptoc...  36.6    4.2  
+  UniRef90_A0A0C2D0E2 Uncharacterized protein n=1 Tax=Ancylostoma...  36.6    4.2  
+  UniRef90_A0A3P9PDL9 Uncharacterized protein n=1 Tax=Poecilia re...  37.0    4.2  
+  UniRef90_I2C520 Chromosome segregation protein n=1 Tax=Bacillus...  36.6    4.3  
+  UniRef90_A0A0R2C9L9 Uncharacterized protein n=1 Tax=Lactobacill...  36.6    4.4  
+  UniRef90_H6BYK5 Myosin heavy chain n=3 Tax=Herpotrichiellaceae ...  36.6    4.4  
+  UniRef90_A0A2X4VS21 Alkaline amylopullulanase n=1 Tax=Bacillus ...  36.6    4.4  
+  UniRef90_A0A239GB06 DNA-binding transcriptional regulator, MerR...  35.9    4.4  
+  UniRef90_UPI00061C98B1 choline-binding protein n=12 Tax=Strepto...  36.6    4.5  
+  UniRef90_S7MFP0 BRCA1-A complex subunit Abraxas n=1 Tax=Myotis ...  36.6    4.5  
+  UniRef90_G2QI20 Structural maintenance of chromosomes protein 6...  36.6    4.6  
+  UniRef90_A0A374KL73 Uncharacterized protein (Fragment) n=1 Tax=...  36.6    4.6  
+  UniRef90_A0A2G9YHS8 Uncharacterized protein n=1 Tax=Candidatus ...  36.6    4.6  
+  UniRef90_UPI0009418540 choline-binding protein n=1 Tax=Streptoc...  36.6    4.6  
+  UniRef90_W6QW82 Mg2+ transporter protein, CorA-like/Zinc transp...  36.6    4.7  
+  UniRef90_W4HC13 Uncharacterized protein n=2 Tax=Aphanomyces ast...  36.6    4.7  
+  UniRef90_A0A327KTG3 Uncharacterized protein n=1 Tax=Rhodoplanes...  36.6    4.7  
+  UniRef90_A0A225W8Q3 Uncharacterized protein n=1 Tax=Phytophthor...  36.6    4.8  
+  UniRef90_A0A0U5CBD4 Structural maintenance of chromosomes prote...  36.6    4.8  
+  UniRef90_H0XAQ5 Abraxas 1, BRCA1 A complex subunit n=3 Tax=Otol...  36.6    4.9  
+  UniRef90_W9S8Q7 Protein tipD n=1 Tax=Morus notabilis TaxID=9810...  36.6    4.9  
+  UniRef90_A0A344TSU6 Two-component sensor histidine kinase n=2 T...  36.6    4.9  
+  UniRef90_UPI000E1B7530 homer protein homolog 3 isoform X6 n=1 T...  36.6    5.0  
+  UniRef90_A0A366WA56 Protein BatD n=1 Tax=Psychromonas sp. B3M02...  36.6    5.0  
+  UniRef90_UPI000CE63075 apolipoprotein Eb-like isoform X1 n=2 Ta...  36.2    5.0  
+  UniRef90_A0A0T8B8M4 Pneumococcal surface protein A n=6 Tax=Stre...  36.6    5.0  
+  UniRef90_UPI000A1C272C helicase ARIP4-like n=1 Tax=Boleophthalm...  36.6    5.1  
+  UniRef90_A0A2M9A1Z5 Uncharacterized protein n=6 Tax=Streptomyce...  36.2    5.2  
+  UniRef90_D4C5J9 Uncharacterized protein (Fragment) n=1 Tax=Prov...  36.2    5.2  
+  UniRef90_UPI0005DDEC12 choline-binding protein n=6 Tax=Streptoc...  36.6    5.2  
+  UniRef90_A0A1H8P8U5 Signal transduction histidine kinase n=1 Ta...  36.6    5.5  
+  UniRef90_A0A2R5GF40 tRNA (guanine(37)-N1)-methyltransferase n=1...  36.2    5.6  
+  UniRef90_A0BIM6 Uncharacterized protein n=1 Tax=Paramecium tetr...  36.6    5.6  
+  UniRef90_A0A2E7EQX3 Uncharacterized protein n=1 Tax=Planctomyce...  36.2    5.6  
+  UniRef90_A0A182RPE9 Uncharacterized protein n=1 Tax=Anopheles f...  36.2    5.7  
+  UniRef90_K9QMG2 Tetratricopeptide repeat protein n=1 Tax=Nostoc...  36.2    5.7  
+  UniRef90_G1PW09 Abraxas 1, BRCA1 A complex subunit n=17 Tax=Chi...  36.2    5.7  
+  UniRef90_A0A1Y0IL24 Uncharacterized protein n=1 Tax=Tumebacillu...  36.2    5.8  
+  UniRef90_UPI000997BFC2 peptidase M23 n=1 Tax=Bacillus alkalitel...  36.2    5.8  
+  UniRef90_UPI0005E23F90 choline-binding protein n=2 Tax=Streptoc...  36.2    5.9  
+  UniRef90_UPI000A1C6A98 coiled-coil domain-containing protein 22...  36.2    6.0  
+  UniRef90_C6WU74 Peptidase M23 n=2 Tax=Methylotenera mobilis Tax...  36.2    6.1  
+  UniRef90_A0A022RUC8 Uncharacterized protein n=1 Tax=Erythranthe...  36.2    6.1  
+  UniRef90_A0A2N2GLK9 Uncharacterized protein n=1 Tax=Deltaproteo...  36.2    6.1  
+  UniRef90_A0A182TLA0 Uncharacterized protein n=1 Tax=Anopheles m...  36.2    6.2  
+  UniRef90_A0A0E9LV61 Export cytoplasm protein SecA ATPase RNA he...  36.2    6.3  
+  UniRef90_A0A1D9QBE1 Uncharacterized protein n=3 Tax=Sclerotinia...  36.2    6.4  
+  UniRef90_A0A0A0J9L1 Uncharacterized protein n=1 Tax=Knoellia si...  35.9    6.4  
+  UniRef90_UPI0007B9E4EB protein DENND6B-like isoform X1 n=5 Tax=...  36.2    6.4  
+  UniRef90_A0A0C9YNP0 Unplaced genomic scaffold scaffold_16, whol...  36.2    6.4  
+  UniRef90_A0A087GG38 Uncharacterized protein n=1 Tax=Arabis alpi...  36.2    6.4  
+  UniRef90_A0A084G4H2 Sorting nexin-4 n=1 Tax=Scedosporium apiosp...  36.2    6.6  
+  UniRef90_A0A2T7NFN1 Uncharacterized protein n=1 Tax=Pomacea can...  36.2    6.6  
+  UniRef90_A0A2E3GAS6 Uncharacterized protein n=1 Tax=Rickettsial...  36.2    6.6  
+  UniRef90_UPI000E5970E7 glucose transporter type 1 isoform X1 n=...  36.2    6.7  
+  UniRef90_A0A0F9EEF4 Uncharacterized protein n=1 Tax=marine sedi...  35.9    6.7  
+  UniRef90_A0A2E9D3H2 Uncharacterized protein n=1 Tax=Chromatiale...  35.9    6.8  
+  UniRef90_A0A1S3AM87 helicase POLQ-like isoform X5 n=1 Tax=Erina...  36.2    6.8  
+  UniRef90_A0A366GXH2 HAMP domain-containing protein n=1 Tax=Mari...  35.9    7.1  
+  UniRef90_A6UNV1 Restriction modification system DNA specificity...  35.9    7.2  
+  UniRef90_E2BLS6 Uncharacterized protein n=3 Tax=Harpegnathos sa...  36.2    7.3  
+  UniRef90_R8BN30 Putative vacuolar targeting protein n=1 Tax=Tog...  35.9    7.5  
+  UniRef90_E6U7H6 Transcriptional regulator, RpiR family n=2 Tax=...  35.9    7.5  
+  UniRef90_B7S890 Uncharacterized protein n=1 Tax=Glyptapanteles ...  35.9    7.5  
+  UniRef90_UPI000510FD58 homer protein homolog 3 isoform X4 n=11 ...  35.9    7.5  
+  UniRef90_A0A076K2I7 Uncharacterized protein n=2 Tax=Rhodobacter...  34.7    7.6  
+  UniRef90_A0A0B1P4N4 Putative gtpase activating protein n=1 Tax=...  36.2    7.6  
+  UniRef90_A0A1T5KMI4 Penicillin-binding protein 2 n=1 Tax=Maledi...  35.9    7.8  
+  UniRef90_A0A2M9CRY8 7TMR-DISM extracellular protein 2 n=1 Tax=T...  35.9    7.9  
+  UniRef90_A0A1U7TLY9 BRCA1-A complex subunit Abraxas n=1 Tax=Tar...  35.9    7.9  
+  UniRef90_A0A150FV62 Uncharacterized protein n=2 Tax=Gonium pect...  33.9    8.2  
+  UniRef90_G1T570 Abraxas 1, BRCA1 A complex subunit n=3 Tax=Oryc...  35.9    8.2  
+  UniRef90_UPI000E0FDBD2 HlyD family efflux transporter periplasm...  35.9    8.2  
+  UniRef90_UPI000B98EA63 uncharacterized protein LOC111046376 iso...  35.9    8.3  
+  UniRef90_G1MZE5 Uncharacterized protein n=7 Tax=Neognathae TaxI...  35.9    8.3  
+  UniRef90_UPI000FDF23D0 UPI000FDF23D0 related cluster n=1 Tax=un...  35.9    8.4  
+  UniRef90_A0A3P6MQM2 DNA polymerase III subunit alpha n=2 Tax=Fl...  35.9    8.5  
+  UniRef90_A0CZ53 Uncharacterized protein n=1 Tax=Paramecium tetr...  35.9    8.6  
+  UniRef90_UPI00094F1337 coiled-coil domain-containing protein 22...  35.9    8.7  
+  UniRef90_A0A378JAH7 Uncharacterized protein n=1 Tax=Legionella ...  35.9    8.7  
+  UniRef90_UPI000A00E502 choline-binding protein n=4 Tax=Streptoc...  35.9    8.8  
+  UniRef90_A0A3M1VIE5 IS1182 family transposase (Fragment) n=1 Ta...  35.9    8.8  
+  UniRef90_A0A368S8A8 Uncharacterized protein n=5 Tax=Paniceae Ta...  35.9    9.0  
+  UniRef90_A0A2H6K984 Extracellular matrix-binding ebh, putative ...  35.9    9.1  
+  UniRef90_A0A0U0CCE1 Chromosome partition protein Smc n=99 Tax=T...  35.9    9.2  
+  UniRef90_A0A359FYD8 Preprotein translocase subunit SecA (Fragme...  35.9    9.2  
+  UniRef90_UPI0007EF7A10 F-box/FBD/LRR-repeat protein At1g13570-l...  35.9    9.3  
+  UniRef90_A0A174VEU6 Sensor protein KdpD n=1 Tax=Fusicatenibacte...  35.9    9.3  
+  UniRef90_A0A2T4BZ60 Phox-like protein n=2 Tax=Trichoderma TaxID...  35.5    9.3  
+  UniRef90_UPI000A03ABD4 hypothetical protein n=1 Tax=Rubripirell...  35.5    9.4  
+  UniRef90_A0BL90 Uncharacterized protein n=1 Tax=Paramecium tetr...  35.9    9.5  
+  UniRef90_A0A2M9A5R2 Exonuclease SbcC n=2 Tax=Fibrobacter TaxID=...  35.9    9.5  
+  UniRef90_J6F1N5 Uncharacterized protein n=1 Tax=Trichosporon as...  35.9    9.6  
+  UniRef90_A0A0U5DZJ5 Chromosome partition protein Smc n=1 Tax=Th...  35.9    9.6  
+  UniRef90_A0A1C6FR26 Holliday junction DNA helicase RuvB n=2 Tax...  35.9    9.8  
+  UniRef90_UPI000B99A27F uncharacterized protein LOC111046376 iso...  35.9    9.8  
+  UniRef90_F9RYE8 Uncharacterized protein (Fragment) n=1 Tax=Vibr...  35.1    9.9  
+  UniRef90_UPI000A064FB1 hypothetical protein n=1 Tax=Spirosoma s...  35.9    9.9  
+  UniRef90_A0A0V0QNR0 p-loop containing nucleoside triphosphate h...  35.9    9.9  
+  UniRef90_UPI000F788D91 VWA domain-containing protein n=1 Tax=No...  35.5    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.170    0.523    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0520    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736740530590
+Results from round 3
+
+
+Query= NP_414705.1
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1S2B3W7 UPF0325 protein BB778_04915 n=7 Tax=Enterob...  189     4e-60
+  UniRef90_A8ALC5 UPF0325 protein CKO_03204 n=549 Tax=root TaxID=...  186     5e-59
+  UniRef90_A4W6R0 UPF0325 protein Ent638_0703 n=162 Tax=Bacteria ...  186     8e-59
+  UniRef90_D2BTV9 UPF0325 protein Dd586_0925 n=21 Tax=Enterobacte...  185     1e-58
+  UniRef90_A0A379GXI9 UPF0325 protein NCTC11800_00853 n=5 Tax=Gam...  186     1e-58
+  UniRef90_A1JP87 UPF0325 protein YE3288 n=80 Tax=Enterobacterale...  184     2e-58
+  UniRef90_C6DAH9 UPF0325 protein PC1_0937 n=28 Tax=Enterobactera...  184     3e-58
+  UniRef90_I2BCK9 UPF0325 protein EBL_c32000 n=1 Tax=Shimwellia b...  184     3e-58
+  UniRef90_A0A0Q4M9I5 UPF0325 protein ASE93_21485 n=3 Tax=Yersini...  184     5e-58
+  UniRef90_A0A0K0HMP7 UPF0325 protein BN1044_03399 n=19 Tax=Enter...  184     5e-58
+  UniRef90_D4HZ86 UPF0325 protein EAMY_2764 n=9 Tax=Enterobactera...  183     1e-57
+  UniRef90_A0A2S5K902 UPF0325 protein C1Y41_11950 n=2 Tax=Pantoea...  183     1e-57
+  UniRef90_A0A1X0WAS4 UPF0325 protein BS640_19355 n=3 Tax=Yersini...  183     2e-57
+  UniRef90_U2NEL8 UPF0325 protein L579_0475 n=74 Tax=Enterobacter...  182     2e-57
+  UniRef90_Q2NRK3 UPF0325 protein SG1947 n=6 Tax=Sodalis TaxID=84...  182     3e-57
+  UniRef90_A0A2I0FVC5 UPF0325 protein CIG19_12530 n=1 Tax=Enterob...  181     6e-57
+  UniRef90_A0A0M2KF15 UPF0325 protein AV903_24665 n=5 Tax=Erwinia...  180     2e-56
+  UniRef90_A0A095U7G2 UPF0325 protein HA49_18845 n=5 Tax=Tatumell...  179     3e-56
+  UniRef90_A0A1B7KKB2 UPF0325 protein M993_00628 n=3 Tax=Enteroba...  179     4e-56
+  UniRef90_A0A084A4D7 UPF0325 protein SRDD_09160 n=1 Tax=Serratia...  178     1e-55
+  UniRef90_A0A250B423 UPF0325 protein AWC35_16770 n=1 Tax=Gibbsie...  178     1e-55
+  UniRef90_B6XDN8 UPF0325 protein PROVALCAL_01462 n=19 Tax=Morgan...  178     2e-55
+  UniRef90_Q7N8Q1 UPF0325 protein plu0668 n=20 Tax=Morganellaceae...  176     4e-55
+  UniRef90_B4F2D7 UPF0325 protein PMI2289 n=29 Tax=Enterobacteral...  175     2e-54
+  UniRef90_UPI000948D567 DUF3461 family protein n=1 Tax=Pantoea s...  174     2e-54
+  UniRef90_C5BHB2 UPF0325 protein NT01EI_0832 n=8 Tax=Edwardsiell...  174     4e-54
+  UniRef90_A0A1I4WTP4 UPF0325 protein SAMN05216516_10335 n=1 Tax=...  174     5e-54
+  UniRef90_A0A068QWG1 UPF0325 protein XDD1_3311 n=25 Tax=Xenorhab...  173     8e-54
+  UniRef90_A0A2N8ZEH5 UPF0325 protein VTAP4600_A2348 n=1 Tax=Vibr...  171     3e-53
+  UniRef90_UPI000E3E9DFC DUF3461 family protein n=1 Tax=Vibrio ma...  171     4e-53
+  UniRef90_A6D2T4 UPF0325 protein VSAK1_11790 n=6 Tax=Vibrio TaxI...  170     9e-53
+  UniRef90_L8J7U4 UPF0325 protein C942_03497 n=2 Tax=Photobacteri...  170     1e-52
+  UniRef90_A0A085HMV7 UPF0325 protein GLGR_0236 n=2 Tax=Leminorel...  170     2e-52
+  UniRef90_UPI000503C3F0 DUF3461 family protein n=4 Tax=Vibrio vu...  170     2e-52
+  UniRef90_A0A1Q9GWE1 UPF0325 protein BIT28_17490 n=1 Tax=Photoba...  169     2e-52
+  UniRef90_A0A2K8KK99 Uncharacterized protein n=2 Tax=Reinekea fo...  169     2e-52
+  UniRef90_F0LUI0 UPF0325 protein vfu_A01066 n=4 Tax=Vibrio TaxID...  169     2e-52
+  UniRef90_Q87MD5 UPF0325 protein VP2321 n=45 Tax=Vibrionales Tax...  169     2e-52
+  UniRef90_UPI000B357428 DUF3461 family protein n=1 Tax=Thaumasio...  169     3e-52
+  UniRef90_A0A151KYI2 UPF0325 protein ATY37_17330 n=7 Tax=Vibrio ...  169     3e-52
+  UniRef90_A7N1Y0 UPF0325 protein VIBHAR_03240 n=61 Tax=Vibrio Ta...  169     3e-52
+  UniRef90_A0A2Y9U1R6 UPF0325 protein HYN51_13545 n=3 Tax=Enterob...  169     4e-52
+  UniRef90_C9P307 Chromosome segregation ATPase n=3 Tax=Vibrio Ta...  169     4e-52
+  UniRef90_A0A1G8EEH8 UPF0325 protein SAMN04488136_12448 n=1 Tax=...  169     4e-52
+  UniRef90_U3A3H7 UPF0325 protein VPR01S_10_00730 n=2 Tax=Vibrio ...  168     7e-52
+  UniRef90_A0A0B8PPY2 UPF0325 protein JCM19236_5448 n=2 Tax=Vibri...  168     8e-52
+  UniRef90_UPI0004AC6407 DUF3461 family protein n=1 Tax=Enterobac...  168     1e-51
+  UniRef90_Q9KPU8 UPF0325 protein VC_2264 n=28 Tax=Vibrio TaxID=6...  167     2e-51
+  UniRef90_A0A3L7LTP4 DUF3461 family protein n=1 Tax=Sodalis-like...  167     2e-51
+  UniRef90_A0A0J1HJD8 UPF0325 protein ABT57_00245 n=2 Tax=Photoba...  167     2e-51
+  UniRef90_UPI0008389006 DUF3461 family protein n=1 Tax=Vibrio tr...  167     3e-51
+  UniRef90_A0A0B9G8A7 UPF0325 protein RJ45_03830 n=4 Tax=Photobac...  166     3e-51
+  UniRef90_A0A2N7D3Z1 UPF0325 protein BCU70_17965 n=1 Tax=Vibrio ...  167     3e-51
+  UniRef90_B7VIS1 UPF0325 protein VS_2356 n=47 Tax=Vibrionales Ta...  166     3e-51
+  UniRef90_A0A0J8V8D2 UPF0325 protein C9I94_21980 n=2 Tax=Photoba...  166     3e-51
+  UniRef90_UPI0008DA39D1 DUF3461 family protein n=2 Tax=Vibrio Ta...  166     3e-51
+  UniRef90_A4B979 Uncharacterized protein n=1 Tax=Reinekea blande...  166     4e-51
+  UniRef90_A0A2T3MT75 UPF0325 protein C9I89_19600 n=1 Tax=Photoba...  166     4e-51
+  UniRef90_D0ICN6 UPF0325 protein VHA_003515 n=13 Tax=Vibrionacea...  166     7e-51
+  UniRef90_A0A1A9B0R6 Protein of uncharacterized function (DUF346...  166     1e-50
+  UniRef90_UPI0006D01988 DUF3461 family protein n=1 Tax=Photobact...  164     3e-50
+  UniRef90_Q6LN21 UPF0325 protein PBPRA2971 n=4 Tax=Photobacteriu...  164     3e-50
+  UniRef90_R9PJK5 Chromosome segregation ATPase n=2 Tax=Agarivora...  164     4e-50
+  UniRef90_A0A178KA65 UPF0325 protein A3K86_12405 n=1 Tax=Photoba...  164     4e-50
+  UniRef90_A0A1N6WH34 UPF0325 protein SAMN05880558_106199 n=2 Tax...  163     6e-50
+  UniRef90_A0A066RS28 Uncharacterized protein n=1 Tax=Photobacter...  163     6e-50
+  UniRef90_A0A1E3WQY4 UPF0325 protein VSF3289_02478 n=2 Tax=Vibri...  163     8e-50
+  UniRef90_A0A1B1NLS4 UPF0325 protein VSVS12_00862 n=13 Tax=Vibri...  162     1e-49
+  UniRef90_A0A2J8HC23 UPF0325 protein C1N32_09895 n=2 Tax=Vibrio ...  162     1e-49
+  UniRef90_A0A3D1Z5F7 DUF3461 domain-containing protein n=3 Tax=V...  162     2e-49
+  UniRef90_A0A193KEZ8 UPF0325 protein A6E01_09745 n=3 Tax=Vibrio ...  162     2e-49
+  UniRef90_A0A3D3HSA0 UPF0325 protein DIT05_17660 n=12 Tax=Bacter...  162     2e-49
+  UniRef90_U3AEL6 UPF0325 protein VEZ01S_01_01250 n=2 Tax=Vibrio ...  162     2e-49
+  UniRef90_A0A0C2KJ29 UPF0325 protein OJ16_03465 n=1 Tax=Vibrio r...  162     3e-49
+  UniRef90_A0A1M5WHN0 UPF0325 protein VA7868_00736 n=2 Tax=Vibrio...  161     3e-49
+  UniRef90_UPI000B35947B DUF3461 family protein n=1 Tax=Vibrio ap...  161     3e-49
+  UniRef90_UPI000B9FC859 DUF3461 family protein n=1 Tax=Klebsiell...  161     3e-49
+  UniRef90_A0A3A6QRV6 UPF0325 protein DZ860_10210 n=1 Tax=Vibrio ...  161     3e-49
+  UniRef90_A0A1C3EI83 Uncharacterized protein n=1 Tax=Enterovibri...  161     3e-49
+  UniRef90_UPI000E0CBC37 DUF3461 family protein n=2 Tax=Vibrio Ta...  161     6e-49
+  UniRef90_A0KHF9 UPF0325 protein AHA_1169 n=65 Tax=Gammaproteoba...  160     8e-49
+  UniRef90_A0A0K6IHY0 Uncharacterized protein n=5 Tax=Marinomonas...  160     9e-49
+  UniRef90_A0A0W8JDZ2 UPF0325 protein VRK_23310 n=3 Tax=Vibrio Ta...  160     9e-49
+  UniRef90_A0A1Z2SD49 UPF0325 protein BSQ33_04780 n=4 Tax=Vibrio ...  159     2e-48
+  UniRef90_A0A1E5E126 Uncharacterized protein n=3 Tax=Vibrio TaxI...  159     2e-48
+  UniRef90_A0A1A8TRC4 Uncharacterized protein n=1 Tax=Marinomonas...  159     2e-48
+  UniRef90_UPI000420F5A3 DUF3461 family protein n=2 Tax=Photobact...  159     3e-48
+  UniRef90_UPI000D0129FD DUF3461 family protein n=1 Tax=Vibrio ga...  158     5e-48
+  UniRef90_A0A1X1MTP4 UPF0325 protein ST37_11490 n=1 Tax=Vibrio s...  158     7e-48
+  UniRef90_E3BLK5 UPF0325 protein VIBC2010_14429 n=1 Tax=Vibrio c...  158     8e-48
+  UniRef90_UPI000E77C88D DUF3461 family protein n=1 Tax=Alteromon...  158     8e-48
+  UniRef90_UPI000416BB69 DUF3461 family protein n=2 Tax=Zooshikel...  157     1e-47
+  UniRef90_UPI0009898D96 DUF3461 family protein n=1 Tax=Salinivib...  157     1e-47
+  UniRef90_UPI00041D3B57 DUF3461 family protein n=1 Tax=Aliagariv...  157     1e-47
+  UniRef90_UPI00041FD915 DUF3461 family protein n=2 Tax=Saccharos...  157     1e-47
+  UniRef90_A0A3P3VNN4 DUF3461 family protein n=1 Tax=Simiduia aga...  157     1e-47
+  UniRef90_A0A3N9U8B3 DUF3461 family protein n=1 Tax=Vibrio sp. L...  157     1e-47
+  UniRef90_A6VT88 Putative structural protein n=11 Tax=Marinomona...  157     2e-47
+  UniRef90_A0A0F5ATH5 Uncharacterized protein n=8 Tax=Salinivibri...  156     2e-47
+  UniRef90_Q5E3D6 UPF0325 protein VF_1965 n=15 Tax=Aliivibrio Tax...  156     2e-47
+  UniRef90_A0A3D2AU60 DUF3461 domain-containing protein n=2 Tax=O...  156     4e-47
+  UniRef90_A0A0S2SIK7 UPF0325 protein ATO46_15190 n=2 Tax=Aeromon...  156     4e-47
+  UniRef90_A0A370U6E4 DUF3461 domain-containing protein n=1 Tax=M...  156     6e-47
+  UniRef90_A0A2Z4PYI4 Structural protein n=1 Tax=Marinomonas prim...  155     1e-46
+  UniRef90_UPI0005AA5913 DUF3461 family protein n=3 Tax=Vibrio ma...  154     2e-46
+  UniRef90_A0A2T6E8H5 Uncharacterized protein n=2 Tax=Saccharospi...  154     2e-46
+  UniRef90_A0A369WS27 DUF3461 family protein n=1 Tax=Motiliproteu...  154     3e-46
+  UniRef90_A0A2N7DBB1 Uncharacterized protein n=1 Tax=Vibrio sp. ...  154     4e-46
+  UniRef90_A0A166LDB0 Structural protein n=2 Tax=Marinomonas TaxI...  153     4e-46
+  UniRef90_A0A0C5VPP4 Uncharacterized protein n=1 Tax=Gynuella su...  154     4e-46
+  UniRef90_F2JUC4 Uncharacterized protein n=1 Tax=Marinomonas med...  153     5e-46
+  UniRef90_A0A3D1ZU30 DUF3461 domain-containing protein n=1 Tax=O...  153     6e-46
+  UniRef90_UPI000FD794F4 DUF3461 family protein n=1 Tax=Neptunomo...  153     8e-46
+  UniRef90_UPI000B3E5BE2 DUF3461 family protein n=1 Tax=Marinomon...  152     1e-45
+  UniRef90_A0A2G8C5B5 Uncharacterized protein n=2 Tax=Enterobacte...  152     1e-45
+  UniRef90_A3YAR0 Putative structural protein n=2 Tax=Marinomonas...  152     2e-45
+  UniRef90_UPI000E6606C9 DUF3461 family protein n=1 Tax=Oceanospi...  152     2e-45
+  UniRef90_F6D1A9 Uncharacterized protein n=1 Tax=Marinomonas pos...  151     2e-45
+  UniRef90_A0A1N7J636 Uncharacterized protein n=3 Tax=Neptunomona...  151     3e-45
+  UniRef90_A0A2N6GMX9 Uncharacterized protein n=1 Tax=Sedimentico...  151     4e-45
+  UniRef90_A0A0F7K0M3 Uncharacterized protein n=1 Tax=Sedimentico...  151     5e-45
+  UniRef90_A0A3E0DIY3 Uncharacterized protein DUF3461 n=1 Tax=Mar...  151     6e-45
+  UniRef90_UPI0004847EEA DUF3461 family protein n=1 Tax=Balneatri...  149     1e-44
+  UniRef90_A0A2N6CU81 Uncharacterized protein n=2 Tax=Sedimentico...  149     1e-44
+  UniRef90_A0A261GUZ6 Uncharacterized protein n=2 Tax=Hahella Tax...  148     4e-44
+  UniRef90_UPI000360B0E6 DUF3461 family protein n=2 Tax=Psychromo...  148     4e-44
+  UniRef90_W9VRG2 Uncharacterized protein n=2 Tax=Nitrincola TaxI...  148     4e-44
+  UniRef90_UPI000421C888 DUF3461 family protein n=1 Tax=Oceanospi...  148     8e-44
+  UniRef90_A0A1J4QCE4 Uncharacterized protein n=1 Tax=Oceanisphae...  147     1e-43
+  UniRef90_A1SSV2 UPF0325 protein Ping_0715 n=2 Tax=Psychromonas ...  147     1e-43
+  UniRef90_UPI0004641C1A DUF3461 family protein n=1 Tax=Candidatu...  147     2e-43
+  UniRef90_A0A1A8T4I0 Uncharacterized protein n=1 Tax=Marinomonas...  147     2e-43
+  UniRef90_A0A3M1KGX9 DUF3461 family protein n=1 Tax=Gammaproteob...  146     4e-43
+  UniRef90_A0A2A2GVP0 Uncharacterized protein n=3 Tax=Arsenophonu...  146     4e-43
+  UniRef90_A0A379AK97 Protein of uncharacterized function (DUF346...  145     5e-43
+  UniRef90_UPI000948A024 DUF3461 family protein n=1 Tax=Neptunomo...  146     6e-43
+  UniRef90_UPI0003806916 DUF3461 family protein n=1 Tax=Oceanimon...  147     7e-43
+  UniRef90_UPI000411D85B DUF3461 family protein n=1 Tax=Psychromo...  145     8e-43
+  UniRef90_H2FVR2 Uncharacterized protein n=1 Tax=Oceanimonas sp....  145     9e-43
+  UniRef90_Q2SPM9 UPF0325 protein HCH_00487 n=2 Tax=Hahella TaxID...  144     2e-42
+  UniRef90_A0A1A9F498 Uncharacterized protein n=2 Tax=Marinobacte...  144     4e-42
+  UniRef90_S6GLV7 Uncharacterized protein n=3 Tax=Bacteria TaxID=...  144     4e-42
+  UniRef90_A0A1R1M1P9 Uncharacterized protein n=1 Tax=Motiliprote...  143     6e-42
+  UniRef90_A0A1I0B2T4 Uncharacterized protein n=1 Tax=Thorsellia ...  143     7e-42
+  UniRef90_A0A2N0WZV0 Uncharacterized protein n=1 Tax=Psychromona...  142     1e-41
+  UniRef90_UPI000E307F59 DUF3461 family protein n=1 Tax=Zobellell...  142     1e-41
+  UniRef90_A0A1R1LW27 Uncharacterized protein n=1 Tax=Motiliprote...  142     2e-41
+  UniRef90_A0A1E5X8W5 Uncharacterized protein n=5 Tax=Pseudomonad...  141     2e-41
+  UniRef90_A0A2X3ACA6 Putative structural protein n=2 Tax=Escheri...  140     4e-41
+  UniRef90_UPI000413186D DUF3461 family protein n=1 Tax=Oceanospi...  141     5e-41
+  UniRef90_A0A357ID44 DUF3461 domain-containing protein n=1 Tax=G...  141     5e-41
+  UniRef90_UPI0004807EC3 DUF3461 family protein n=1 Tax=Marinobac...  141     6e-41
+  UniRef90_A0A291HKW0 Uncharacterized protein n=2 Tax=Zobellella ...  141     7e-41
+  UniRef90_A0A2P5TND5 Uncharacterized protein n=1 Tax=Oceanisphae...  141     8e-41
+  UniRef90_A0A0A1YID6 Uncharacterized protein n=1 Tax=Pseudomonas...  140     1e-40
+  UniRef90_A0A2N1A7X7 Uncharacterized protein n=1 Tax=Psychromona...  139     2e-40
+  UniRef90_UPI00040BE4BF DUF3461 family protein n=1 Tax=Neptunomo...  139     2e-40
+  UniRef90_A0A366W782 Uncharacterized protein n=2 Tax=Psychromona...  139     2e-40
+  UniRef90_A0A2G6CW38 Uncharacterized protein n=1 Tax=Proteobacte...  139     4e-40
+  UniRef90_A0A2P7QTV7 DUF3461 domain-containing protein n=1 Tax=Z...  139     4e-40
+  UniRef90_UPI0003A03AE4 DUF3461 family protein n=1 Tax=Marinobac...  138     5e-40
+  UniRef90_A0A1Y0KUP3 Uncharacterized protein n=1 Tax=Pseudomonas...  138     6e-40
+  UniRef90_A0A3P1SRN0 DUF3461 family protein n=1 Tax=Amphritea ba...  137     1e-39
+  UniRef90_UPI0003B6E7A5 DUF3461 family protein n=1 Tax=Psychromo...  137     1e-39
+  UniRef90_A0A235CLY9 Uncharacterized protein n=2 Tax=Oceanimonas...  137     2e-39
+  UniRef90_UPI000FDAE093 DUF3461 family protein n=1 Tax=Neptunomo...  137     2e-39
+  UniRef90_A0A166F3R4 Uncharacterized protein n=2 Tax=Oleiphilus ...  136     2e-39
+  UniRef90_M4UN31 Uncharacterized protein n=1 Tax=Psychromonas sp...  136     3e-39
+  UniRef90_A0A233RJY2 Uncharacterized protein n=1 Tax=Oceanimonas...  136     3e-39
+  UniRef90_A0A1Y5GYW1 Uncharacterized protein n=1 Tax='Osedax' sy...  135     1e-38
+  UniRef90_A0A165VFT8 Uncharacterized protein n=2 Tax=Oleiphilus ...  134     1e-38
+  UniRef90_UPI00048E696B DUF3461 family protein n=1 Tax=Phaseolib...  134     2e-38
+  UniRef90_A0A1Y5DWS5 Uncharacterized protein n=1 Tax=Colwellia p...  133     4e-38
+  UniRef90_A0A1V0KSZ8 Uncharacterized protein n=1 Tax=Colwellia s...  133     4e-38
+  UniRef90_A0A369WDM0 DUF3461 family protein n=1 Tax=Motiliproteu...  132     1e-37
+  UniRef90_W1DQU6 Chromosome segregation ATPase n=1 Tax=Klebsiell...  131     2e-37
+  UniRef90_UPI00036C2CE1 DUF3461 family protein n=1 Tax=Marinobac...  131     2e-37
+  UniRef90_A0A317C7R2 DUF3461 domain-containing protein n=1 Tax=L...  131     4e-37
+  UniRef90_A0A063Y675 UPF0325 protein yaeH n=2 Tax=Nitrincola Tax...  129     1e-36
+  UniRef90_A0A2G6D418 Uncharacterized protein n=1 Tax=Proteobacte...  127     6e-36
+  UniRef90_A0A3P1SQS8 DUF3461 family protein n=1 Tax=Amphritea ba...  127     7e-36
+  UniRef90_UPI0004819945 DUF3461 family protein n=1 Tax=Marinobac...  127     7e-36
+  UniRef90_F3LGQ7 Chromosome segregation ATPase n=1 Tax=gamma pro...  127     1e-35
+  UniRef90_A0A0B8NYB4 Chromosome segregation ATPase n=1 Tax=Vibri...  126     1e-35
+  UniRef90_UPI0003672AB3 DUF3461 family protein n=1 Tax=Thiolinea...  127     1e-35
+  UniRef90_A0A2S5KMW6 DUF3461 domain-containing protein n=2 Tax=P...  126     3e-35
+  UniRef90_A0A1T4P5Z3 Uncharacterized protein n=1 Tax=Oceanospiri...  126     3e-35
+  UniRef90_UPI000373C376 DUF3461 family protein n=1 Tax=Amphritea...  126     4e-35
+  UniRef90_A0A2Z2NZ47 Uncharacterized protein n=2 Tax=Granulosico...  126     5e-35
+  UniRef90_UPI000DA146E6 DUF3461 family protein n=1 Tax=Thiofilum...  125     9e-35
+  UniRef90_A0A2X2BL75 Protein of uncharacterized function (DUF346...  124     9e-35
+  UniRef90_UPI0009E9F8C3 DUF3461 family protein n=1 Tax=Marinobac...  124     2e-34
+  UniRef90_A0A2G6EM62 Uncharacterized protein n=1 Tax=Gammaproteo...  126     2e-34
+  UniRef90_A0A090TBN6 UPF0325 protein YaeH n=3 Tax=Vibrio TaxID=6...  123     2e-34
+  UniRef90_UPI0003B79550 DUF3461 family protein n=1 Tax=Leucothri...  123     3e-34
+  UniRef90_A0A317CPY3 DUF3461 domain-containing protein n=1 Tax=L...  123     4e-34
+  UniRef90_UPI000F7F10E0 DUF3461 family protein n=1 Tax=Amphritea...  122     8e-34
+  UniRef90_A0A2P7QTU4 Uncharacterized protein n=1 Tax=Zobellella ...  122     9e-34
+  UniRef90_A0A1H5RSU5 Uncharacterized protein n=3 Tax=Oceanospiri...  122     1e-33
+  UniRef90_A0A1T4XVC3 Uncharacterized protein n=2 Tax=Thiothrix e...  121     3e-33
+  UniRef90_A0A2G6DFS3 Uncharacterized protein n=1 Tax=Proteobacte...  121     3e-33
+  UniRef90_A0A1T4XC05 Uncharacterized protein n=1 Tax=Thiothrix e...  121     5e-33
+  UniRef90_A0A376FHG0 Protein of uncharacterized function (DUF346...  119     1e-32
+  UniRef90_A0A378AEG0 YaeH n=2 Tax=Enterobacteriaceae TaxID=543 R...  118     1e-32
+  UniRef90_A0A2Z2P324 Uncharacterized protein n=1 Tax=Granulosico...  120     2e-32
+  UniRef90_A0A2Z2NQH8 Uncharacterized protein n=1 Tax=Granulosico...  119     4e-32
+  UniRef90_UPI000A03AE1B DUF3461 family protein n=1 Tax=Marinobac...  118     7e-32
+  UniRef90_A0A378E386 YaeH n=1 Tax=Klebsiella oxytoca TaxID=571 R...  116     1e-31
+  UniRef90_UPI000D3E1222 DUF3461 family protein n=1 Tax=Gammaprot...  116     1e-31
+  UniRef90_UPI000EB1373F DUF3461 family protein n=1 Tax=Litoreiba...  117     1e-31
+  UniRef90_A0A0I1R9Z4 Protein yaeH n=4 Tax=Enterobacteriaceae Tax...  114     3e-31
+  UniRef90_A0A0P8YA73 Uncharacterized protein n=1 Tax=Marinosulfo...  116     3e-31
+  UniRef90_A0A291HKV3 Uncharacterized protein n=3 Tax=Zobellella ...  114     6e-31
+  UniRef90_A0A356V6F1 Uncharacterized protein (Fragment) n=1 Tax=...  115     1e-30
+  UniRef90_A0A1Y5E190 Uncharacterized protein n=1 Tax=Colwellia p...  113     3e-30
+  UniRef90_UPI000E3017BD DUF3461 family protein n=1 Tax=Zobellell...  112     5e-30
+  UniRef90_A0A2G6ETJ0 Uncharacterized protein n=1 Tax=Gammaproteo...  112     9e-30
+  UniRef90_A0A1A9F4N3 Uncharacterized protein n=2 Tax=Marinobacte...  111     9e-30
+  UniRef90_H2FVH9 Uncharacterized protein n=1 Tax=Oceanimonas sp....  111     1e-29
+  UniRef90_A0A1R1LW25 Uncharacterized protein n=2 Tax=Motiliprote...  111     1e-29
+  UniRef90_A0A347UCJ6 DUF3461 family protein n=1 Tax=Rhodobactera...  112     2e-29
+  UniRef90_A0A3P1SSW5 DUF3461 family protein n=1 Tax=Amphritea ba...  110     4e-29
+  UniRef90_A0A376P0G1 Putative structural protein n=4 Tax=root Ta...  108     5e-29
+  UniRef90_UPI0004200AF5 DUF3461 family protein n=1 Tax=Neptunomo...  110     8e-29
+  UniRef90_A0A2P5TN74 Uncharacterized protein n=1 Tax=Oceanisphae...  109     9e-29
+  UniRef90_A0A2G2BHJ7 Uncharacterized protein n=1 Tax=Marinosulfo...  109     1e-28
+  UniRef90_UPI000489F259 DUF3461 family protein n=1 Tax=Marinobac...  108     3e-28
+  UniRef90_Q2BP51 Uncharacterized protein n=1 Tax=Neptuniibacter ...  108     4e-28
+  UniRef90_A0A2H5EUL8 Uncharacterized protein n=1 Tax=Paracoccus ...  108     5e-28
+  UniRef90_A0A1J4QBF1 Uncharacterized protein n=1 Tax=Oceanisphae...  107     6e-28
+  UniRef90_UPI000D30CAB0 DUF3461 family protein n=1 Tax=Oceanimon...  106     1e-27
+  UniRef90_A0A1A9F1V2 Uncharacterized protein n=2 Tax=Marinobacte...  107     1e-27
+  UniRef90_A0A377CXI0 Putative structural protein n=1 Tax=Escheri...  106     2e-27
+  UniRef90_A0A369WFI7 DUF3461 family protein n=1 Tax=Motiliproteu...  107     2e-27
+  UniRef90_A0A239CI04 Uncharacterized protein n=2 Tax=Pseudomonas...  106     2e-27
+  UniRef90_A0A1H9F0H5 Uncharacterized protein n=1 Tax=Amphritea a...  106     2e-27
+  UniRef90_A0A1V0KT70 Uncharacterized protein n=1 Tax=Colwellia s...  106     2e-27
+  UniRef90_A0A233RJX8 Uncharacterized protein n=1 Tax=Oceanimonas...  105     3e-27
+  UniRef90_S6HVZ6 Uncharacterized protein n=1 Tax=Osedax symbiont...  105     6e-27
+  UniRef90_S6HQC3 Uncharacterized protein n=1 Tax=Osedax symbiont...  105     7e-27
+  UniRef90_E9CND9 Putative conserved protein n=1 Tax=Serratia sym...  103     7e-27
+  UniRef90_A0A1Y5HBP2 Uncharacterized protein n=1 Tax='Osedax' sy...  105     8e-27
+  UniRef90_A0A2V1GZ42 Uncharacterized protein n=1 Tax=Flavobacter...  104     1e-26
+  UniRef90_A0A235CMD7 Uncharacterized protein n=1 Tax=Oceanimonas...  103     2e-26
+  UniRef90_UPI000373A5B3 DUF3461 family protein n=1 Tax=Oceanimon...  101     9e-26
+  UniRef90_A0A2K9EBA5 Uncharacterized protein n=1 Tax=Paracoccus ...  102     1e-25
+  UniRef90_A4BBX7 Uncharacterized protein n=1 Tax=Reinekea blande...  98.7    7e-25
+  UniRef90_A0A0B8P6T7 Chromosome segregation ATPase n=1 Tax=Vibri...  98.3    8e-25
+  UniRef90_A0A1H7VXY0 Uncharacterized protein n=1 Tax=Pasteurella...  99.4    1e-24
+  UniRef90_A0A2S6VPN5 Uncharacterized protein n=1 Tax=Pantoea sp....  97.5    2e-24
+  UniRef90_A0A1Y5E390 Structural protein (Fragment) n=1 Tax=Marin...  91.4    5e-22
+  UniRef90_A0A0J8YC89 Uncharacterized protein (Fragment) n=1 Tax=...  90.6    1e-21
+  UniRef90_A0A378CXU8 YaeH n=2 Tax=Bacteria TaxID=2 RepID=A0A378C...  89.8    1e-21
+  UniRef90_A0A378CV92 YaeH n=2 Tax=Enterobacteriaceae TaxID=543 R...  87.9    7e-21
+  UniRef90_UPI000FD89052 DUF3461 family protein n=1 Tax=Neptunomo...  86.7    7e-20
+  UniRef90_A0A2X2XIU9 Protein of uncharacterized function (DUF346...  83.6    3e-19
+  UniRef90_A0A061PEK8 YaeH protein n=1 Tax=Vibrio sp. JCM 19053 T...  81.7    2e-18
+  UniRef90_K6YUP7 Uncharacterized protein n=3 Tax=Proteobacteria ...  72.1    1e-14
+  UniRef90_A0A376FMG4 Protein of uncharacterized function (DUF346...  69.4    1e-13
+  UniRef90_A0A2X5CAG6 Chromosome segregation ATPase n=1 Tax=Salmo...  68.2    3e-13
+  UniRef90_A0A376MRC6 Putative structural protein n=1 Tax=Escheri...  66.7    1e-12
+  UniRef90_A0A2G2BBZ2 Uncharacterized protein (Fragment) n=1 Tax=...  67.9    1e-12
+  UniRef90_A0A377E217 Putative structural protein n=1 Tax=Escheri...  64.0    1e-11
+  UniRef90_A0A376W023 Putative structural protein n=1 Tax=Escheri...  57.5    5e-09
+  UniRef90_UPI000BA0D261 DUF3461 family protein n=1 Tax=Klebsiell...  47.8    3e-05
+  UniRef90_A0A2X3EW13 YaeH n=1 Tax=Klebsiella pneumoniae TaxID=57...  44.7    3e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A259MRS9 Methyltransferase n=1 Tax=Rhodospirillales ...  42.4    0.034
+  UniRef90_A0A3L7VHW2 Uncharacterized protein (Fragment) n=1 Tax=...  42.4    0.041
+  UniRef90_A0A3B7D3H3 Mammalian cell entry protein n=1 Tax=Aeromi...  42.0    0.066
+  UniRef90_UPI000C0406FE LOW QUALITY PROTEIN: autophagy-related p...  41.7    0.071
+  UniRef90_UPI0007653391 choline-binding protein n=1 Tax=Streptoc...  41.7    0.084
+  UniRef90_UPI000C6C744D LOW QUALITY PROTEIN: glucose transporter...  41.7    0.094
+  UniRef90_UPI000669B469 choline-binding protein n=1 Tax=Streptoc...  41.3    0.12 
+  UniRef90_UPI0007654BE1 choline-binding protein n=10 Tax=Strepto...  40.9    0.15 
+  UniRef90_A0A345M267 Uncharacterized protein n=3 Tax=Providencia...  40.9    0.16 
+  UniRef90_D8RNC4 Uncharacterized protein n=1 Tax=Selaginella moe...  40.9    0.17 
+  UniRef90_B3M5D6 Uncharacterized protein n=2 Tax=ananassae subgr...  40.9    0.18 
+  UniRef90_UPI0007E356C0 LOW QUALITY PROTEIN: glucose transporter...  40.5    0.20 
+  UniRef90_UPI000CE64EAD E3 ubiquitin-protein ligase TRIM39-like ...  40.5    0.20 
+  UniRef90_UPI0007694375 choline-binding protein n=1 Tax=Streptoc...  40.5    0.21 
+  UniRef90_A0A0Q9WIL2 Uncharacterized protein n=1 Tax=Drosophila ...  40.5    0.23 
+  UniRef90_R7V2X5 Uncharacterized protein n=1 Tax=Capitella telet...  40.5    0.23 
+  UniRef90_A0A0Q5U5J5 Uncharacterized protein n=4 Tax=melanogaste...  40.5    0.24 
+  UniRef90_A0A0M3QW43 Glut1 n=1 Tax=Drosophila busckii TaxID=3001...  40.5    0.24 
+  UniRef90_Q8IRI6-15 Isoform X of Glucose transporter type 1 n=6 ...  40.5    0.25 
+  UniRef90_UPI000A1D0B64 LOW QUALITY PROTEIN: glucose transporter...  40.5    0.26 
+  UniRef90_UPI00029C5232 hypothetical protein n=1 Tax=Providencia...  40.1    0.27 
+  UniRef90_UPI0004DB8911 hypothetical protein n=1 Tax=Kineothrix ...  40.1    0.28 
+  UniRef90_B4KWH4 Uncharacterized protein n=3 Tax=mojavensis spec...  40.1    0.28 
+  UniRef90_Q8IRI6-14 Isoform W of Glucose transporter type 1 n=6 ...  40.1    0.28 
+  UniRef90_Q8IRI6-13 Isoform R of Glucose transporter type 1 n=1 ...  40.1    0.28 
+  UniRef90_I2GK42 Signal transduction histidine-protein kinase at...  40.1    0.31 
+  UniRef90_A0A1S2ZV30 laminin subunit alpha-2 n=1 Tax=Erinaceus e...  40.1    0.32 
+  UniRef90_A0A1W6AYW1 PspA n=6 Tax=Streptococcus pneumoniae TaxID...  39.7    0.38 
+  UniRef90_UPI000D321276 MCE family protein n=1 Tax=Nocardioides ...  39.7    0.40 
+  UniRef90_A0A387KMT2 Endo-beta-N-acetylglucosaminidase n=9 Tax=S...  39.7    0.42 
+  UniRef90_R7XWT8 Virulence factor Mce family protein (Fragment) ...  39.7    0.43 
+  UniRef90_A0A085N8C0 Uncharacterized protein n=1 Tax=Trichuris s...  39.7    0.47 
+  UniRef90_UPI000CEF0BD2 hypothetical protein n=1 Tax=Helicobacte...  39.3    0.51 
+  UniRef90_H0XAQ5 Abraxas 1, BRCA1 A complex subunit n=3 Tax=Otol...  39.3    0.55 
+  UniRef90_UPI0009408A08 choline-binding protein n=1 Tax=Streptoc...  39.3    0.55 
+  UniRef90_A0A2E0VC91 Uncharacterized protein n=1 Tax=Euryarchaeo...  39.3    0.59 
+  UniRef90_UPI000A1C272C helicase ARIP4-like n=1 Tax=Boleophthalm...  39.3    0.59 
+  UniRef90_A0A1U7TLY9 BRCA1-A complex subunit Abraxas n=1 Tax=Tar...  39.0    0.60 
+  UniRef90_A8N173 Uncharacterized protein n=1 Tax=Coprinopsis cin...  39.0    0.63 
+  UniRef90_A0A182Q9F7 Uncharacterized protein n=1 Tax=Anopheles f...  39.3    0.64 
+  UniRef90_UPI00082F765D hypothetical protein n=1 Tax=Nocardiopsi...  38.2    0.64 
+  UniRef90_A0A1H1Z5A2 Putative hydrolase n=2 Tax=Microlunatus sol...  39.0    0.65 
+  UniRef90_A0A1F3ISN2 Protein translocase subunit SecA n=1 Tax=Ba...  39.0    0.69 
+  UniRef90_A0A2E6LSH4 Histidine kinase n=2 Tax=Gammaproteobacteri...  39.0    0.71 
+  UniRef90_A0A2T2N9E9 Alpha/beta-hydrolase n=1 Tax=Corynespora ca...  39.0    0.73 
+  UniRef90_F8KPG8 Dextran-binding lectin n=2 Tax=Helicobacter biz...  39.0    0.76 
+  UniRef90_A0A182J3F8 Uncharacterized protein n=1 Tax=Anopheles a...  39.0    0.78 
+  UniRef90_UPI00067BB92D serine-rich adhesin for platelets-like n...  39.0    0.80 
+  UniRef90_A0A3P9PDL9 Uncharacterized protein n=1 Tax=Poecilia re...  39.0    0.81 
+  UniRef90_A0A0T7IF17 Pneumococcal surface protein A n=33 Tax=Str...  39.0    0.82 
+  UniRef90_A0A0F7IET9 Na+/H+ antiporter, bacterial form n=1 Tax=G...  39.0    0.82 
+  UniRef90_UPI000248C493 prolipoprotein p65 n=4 Tax=Mycoplasma ov...  38.6    0.85 
+  UniRef90_UPI000B58BD69 choline-binding protein n=1 Tax=Streptoc...  38.6    0.85 
+  UniRef90_UPI0005DDEC12 choline-binding protein n=6 Tax=Streptoc...  38.6    0.92 
+  UniRef90_A0CZ53 Uncharacterized protein n=1 Tax=Paramecium tetr...  38.6    0.93 
+  UniRef90_A0A2I0TLJ0 Uncharacterized protein n=1 Tax=Limosa lapp...  38.6    0.99 
+  UniRef90_A0A1D6MI25 Protein ALWAYS EARLY 3 n=2 Tax=Zea mays Tax...  38.6    1.0  
+  UniRef90_A0A1Z4GK07 Pseudouridine synthase n=3 Tax=Nostocales T...  38.6    1.1  
+  UniRef90_A0A2S8AHP9 DNA helicase n=4 Tax=Streptomyces TaxID=188...  38.6    1.1  
+  UniRef90_A0A1S3WUL9 helicase POLQ-like isoform X1 n=1 Tax=Erina...  38.6    1.1  
+  UniRef90_A0A2D8MWL7 Chromosome segregation protein n=2 Tax=Plan...  38.6    1.1  
+  UniRef90_UPI000FDA2003 Tat pathway signal protein n=1 Tax=Corio...  38.2    1.1  
+  UniRef90_A0A1Q6K3G5 Uncharacterized protein n=1 Tax=Clostridium...  38.2    1.1  
+  UniRef90_A0A2D4PRG6 Uncharacterized protein (Fragment) n=3 Tax=...  38.6    1.1  
+  UniRef90_UPI000B58ED98 cell division protein FtsK n=1 Tax=Liste...  38.6    1.2  
+  UniRef90_UPI00047D875E TPM domain-containing protein n=1 Tax=Ge...  38.2    1.2  
+  UniRef90_A0A2E9D3H2 Uncharacterized protein n=1 Tax=Chromatiale...  38.2    1.2  
+  UniRef90_A0A1W6AZE8 PspA n=5 Tax=Streptococcus pneumoniae TaxID...  38.2    1.3  
+  UniRef90_A0A0F7E6P6 Uncharacterized protein n=2 Tax=Myxococcus ...  38.2    1.3  
+  UniRef90_A0A3B8JIW7 Uncharacterized protein n=1 Tax=Cyanobacter...  37.8    1.3  
+  UniRef90_A0A2H0LM92 Uncharacterized protein n=1 Tax=Candidatus ...  37.8    1.3  
+  UniRef90_UPI0005E2B1D9 choline-binding protein n=2 Tax=Streptoc...  38.2    1.4  
+  UniRef90_A0A1M4NH90 OMP1798 n=2 Tax=Helicobacter bizzozeronii T...  38.2    1.4  
+  UniRef90_A0A0D7BFB9 Uncharacterized protein n=1 Tax=Cylindrobas...  38.2    1.5  
+  UniRef90_UPI0009418540 choline-binding protein n=1 Tax=Streptoc...  38.2    1.5  
+  UniRef90_A0A1E5IKY9 Uncharacterized protein n=1 Tax=Candidatus ...  37.8    1.6  
+  UniRef90_A0A1H0AEI8 Transcriptional regulator, RpiR family n=1 ...  37.8    1.6  
+  UniRef90_R9JR84 Serine acetyltransferase n=1 Tax=Lachnospiracea...  37.8    1.6  
+  UniRef90_A0A1G1H326 Uncharacterized protein n=1 Tax=Nitrospirae...  37.8    1.6  
+  UniRef90_A0A0R2C9L9 Uncharacterized protein n=1 Tax=Lactobacill...  37.8    1.7  
+  UniRef90_A0A1W5D464 Immunoglobulin-like fold n=1 Tax=Umbilicari...  37.8    1.7  
+  UniRef90_A0A2E2ZQI1 2-keto-4-pentenoate hydratase n=2 Tax=Sphin...  37.8    1.7  
+  UniRef90_B3PN22 Massive surface protein MspH n=1 Tax=Mycoplasma...  37.8    1.7  
+  UniRef90_A0A068TVW4 Carbonic anhydrase n=7 Tax=Coffea TaxID=134...  37.4    1.8  
+  UniRef90_A0A2I1HIF5 Uncharacterized protein n=1 Tax=Rhizophagus...  37.8    1.8  
+  UniRef90_UPI0004CD4AA8 glucose transporter type 1 isoform X1 n=...  37.8    1.8  
+  UniRef90_A0A1F4VLN5 Uncharacterized protein n=1 Tax=candidate d...  37.8    1.8  
+  UniRef90_A0A366GXH2 HAMP domain-containing protein n=1 Tax=Mari...  37.4    1.8  
+  UniRef90_A0A1F6QH76 Uncharacterized protein n=2 Tax=unclassifie...  37.8    1.9  
+  UniRef90_UPI000469CB40 hypothetical protein n=1 Tax=Bacillus sp...  37.8    1.9  
+  UniRef90_UPI00034BBB2B SAM-dependent DNA methyltransferase n=1 ...  37.8    1.9  
+  UniRef90_A0A3F3Q5A5 Uncharacterized protein n=1 Tax=Aspergillus...  37.8    1.9  
+  UniRef90_UPI0007B9E4EB protein DENND6B-like isoform X1 n=5 Tax=...  37.8    1.9  
+  UniRef90_A0A1D7QXK3 Putative iron compound ABC uptake transport...  37.4    2.0  
+  UniRef90_A0A3M1DKH5 Uncharacterized protein n=1 Tax=Gammaproteo...  37.8    2.0  
+  UniRef90_UPI000A0FE993 glucose transporter type 1 n=1 Tax=Cerat...  37.8    2.0  
+  UniRef90_UPI0005E23F90 choline-binding protein n=2 Tax=Streptoc...  37.8    2.0  
+  UniRef90_A0A1S3AM87 helicase POLQ-like isoform X5 n=1 Tax=Erina...  37.4    2.1  
+  UniRef90_A0A396RR96 FAA hydrolase family protein n=1 Tax=Sphing...  37.4    2.1  
+  UniRef90_A0A2J7RDC5 Tumor susceptibility gene 101 protein n=4 T...  37.4    2.2  
+  UniRef90_A0A368S8A8 Uncharacterized protein n=5 Tax=Paniceae Ta...  37.8    2.2  
+  UniRef90_Q7SGV1 Sorting nexin-4 n=5 Tax=Sordariaceae TaxID=5148...  37.4    2.2  
+  UniRef90_D2GUE2 Abraxas 1, BRCA1 A complex subunit (Fragment) n...  37.4    2.3  
+  UniRef90_A0A2J7RDC7 Tumor susceptibility gene 101 protein n=2 T...  37.4    2.3  
+  UniRef90_H6BYK5 Myosin heavy chain n=3 Tax=Herpotrichiellaceae ...  37.4    2.3  
+  UniRef90_A0A379M3B3 Type I restriction-modification system meth...  37.4    2.3  
+  UniRef90_UPI000997BFC2 peptidase M23 n=1 Tax=Bacillus alkalitel...  37.4    2.4  
+  UniRef90_A0A0D6JEI0 Uncharacterized protein n=1 Tax=Candidatus ...  37.4    2.4  
+  UniRef90_A0A0Q6V6I1 Uncharacterized protein n=4 Tax=Aeromicrobi...  37.4    2.4  
+  UniRef90_A0A1M4XJ14 Phosphoenolpyruvate synthase n=2 Tax=Seinon...  37.4    2.5  
+  UniRef90_B3PM29 Massive surface protein MspI n=1 Tax=Mycoplasma...  37.4    2.6  
+  UniRef90_E2BLS6 Uncharacterized protein n=3 Tax=Harpegnathos sa...  37.4    2.6  
+  UniRef90_UPI00059AD7D9 BRCA1-A complex subunit Abraxas isoform ...  37.0    2.6  
+  UniRef90_A0A367RPN4 RNA pseudouridine synthase n=1 Tax=Nostoc p...  37.4    2.7  
+  UniRef90_A0A3M7P3G0 Uncharacterized protein n=1 Tax=Brachionus ...  37.0    2.7  
+  UniRef90_A0A0F9EEF4 Uncharacterized protein n=1 Tax=marine sedi...  36.7    2.7  
+  UniRef90_G1T570 Abraxas 1, BRCA1 A complex subunit n=3 Tax=Oryc...  37.0    2.8  
+  UniRef90_A0A2T7NFN1 Uncharacterized protein n=1 Tax=Pomacea can...  37.4    2.9  
+  UniRef90_A0A318L7R1 Protein-glutamate methylesterase n=1 Tax=Ha...  37.4    2.9  
+  UniRef90_A0A220SQ57 TIGR00153 family protein n=1 Tax=Alcanivora...  37.0    2.9  
+  UniRef90_UPI000D732818 centlein-like n=1 Tax=Pomacea canalicula...  37.4    3.0  
+  UniRef90_UPI0002658ED4 dynactin subunit 1 n=1 Tax=Galendromus o...  37.4    3.0  
+  UniRef90_F1KPT3 Laminin-like protein lam-2 n=1 Tax=Ascaris suum...  37.4    3.1  
+  UniRef90_UPI000A197B9C hypothetical protein n=1 Tax=Bradyrhizob...  36.7    3.1  
+  UniRef90_UPI000BA0A497 LOW QUALITY PROTEIN: glucose transporter...  37.0    3.1  
+  UniRef90_UPI00061C98B1 choline-binding protein n=12 Tax=Strepto...  37.0    3.2  
+  UniRef90_UPI0006794480 RNA-binding protein 26 isoform X4 n=2 Ta...  37.0    3.2  
+  UniRef90_D4C650 Uncharacterized protein (Fragment) n=1 Tax=Prov...  37.0    3.3  
+  UniRef90_A0A256WJ45 Uncharacterized protein n=1 Tax=Bacteroidet...  37.0    3.3  
+  UniRef90_S7MFP0 BRCA1-A complex subunit Abraxas n=1 Tax=Myotis ...  37.0    3.4  
+  UniRef90_A0A3P6MQM2 DNA polymerase III subunit alpha n=2 Tax=Fl...  37.0    3.4  
+  UniRef90_UPI000CE63075 apolipoprotein Eb-like isoform X1 n=2 Ta...  36.7    3.4  
+  UniRef90_F6W379 Gap junction protein n=5 Tax=Xenopus TaxID=2620...  36.7    3.4  
+  UniRef90_A0A166KJ75 Uncharacterized protein n=1 Tax=Fibularhizo...  37.0    3.5  
+  UniRef90_A0A0T8B8M4 Pneumococcal surface protein A n=6 Tax=Stre...  37.0    3.5  
+  UniRef90_UPI000494F7DC vegetative cell wall protein gp1-like n=...  37.0    3.5  
+  UniRef90_G9NJ58 Uncharacterized protein n=3 Tax=Trichoderma Tax...  37.0    3.5  
+  UniRef90_UPI000E3E56D1 peptidase M23 n=1 Tax=Chromatocurvus hal...  37.0    3.6  
+  UniRef90_A0A0V0QP64 p-loop containing nucleoside triphosphate h...  37.0    3.7  
+  UniRef90_A0A373NM58 Uncharacterized protein n=3 Tax=Ruminococcu...  37.0    3.7  
+  UniRef90_W6QW82 Mg2+ transporter protein, CorA-like/Zinc transp...  37.0    3.7  
+  UniRef90_A0A2A9CJ95 3'-5' exonuclease DinG n=1 Tax=Bacillus sp....  37.0    3.8  
+  UniRef90_UPI000F637018 hypothetical protein n=1 Tax=Thiohalobac...  36.7    3.8  
+  UniRef90_A0A2E8HTU9 Uncharacterized protein n=1 Tax=Bdellovibri...  37.0    3.8  
+  UniRef90_D8RLU8 Uncharacterized protein n=3 Tax=Selaginella moe...  37.0    4.0  
+  UniRef90_A0A2M9A1Z5 Uncharacterized protein n=6 Tax=Streptomyce...  36.7    4.0  
+  UniRef90_UPI000FDF23D0 UPI000FDF23D0 related cluster n=1 Tax=un...  36.7    4.0  
+  UniRef90_UPI000C7D00DE hypothetical protein n=1 Tax=Shewanella ...  36.3    4.1  
+  UniRef90_UPI0005DD9051 choline-binding protein n=36 Tax=Strepto...  36.7    4.1  
+  UniRef90_G1PW09 Abraxas 1, BRCA1 A complex subunit n=17 Tax=Chi...  36.7    4.1  
+  UniRef90_A0A369KGI3 Epidermal growth factor receptor substrate ...  36.7    4.1  
+  UniRef90_A0A1Y2BXY0 Uncharacterized protein n=1 Tax=Neocallimas...  36.7    4.2  
+  UniRef90_UPI000B58CDAB choline-binding protein n=5 Tax=Streptoc...  36.7    4.2  
+  UniRef90_A0A3M1VIE5 IS1182 family transposase (Fragment) n=1 Ta...  36.7    4.3  
+  UniRef90_A4S058 Uncharacterized protein (Fragment) n=1 Tax=Ostr...  36.7    4.5  
+  UniRef90_A0A2A7N3D7 Uncharacterized protein n=1 Tax=Mycobacteri...  36.7    4.7  
+  UniRef90_A5LJ23 Uncharacterized protein n=6 Tax=Streptococcus p...  36.7    4.7  
+  UniRef90_A0A1I8MN39 Uncharacterized protein n=1 Tax=Musca domes...  36.7    4.7  
+  UniRef90_UPI00071A168B prominin-1-A-like isoform X1 n=3 Tax=Stu...  36.7    4.7  
+  UniRef90_A0A2E3GAS6 Uncharacterized protein n=1 Tax=Rickettsial...  36.7    4.7  
+  UniRef90_A0A285EFA8 TLP18.3, Psb32 and MOLO-1 founding protein ...  36.7    4.7  
+  UniRef90_UPI000B45BDBE uncharacterized protein LOC110441713 n=1...  36.7    4.8  
+  UniRef90_A0A2X4VS21 Alkaline amylopullulanase n=1 Tax=Bacillus ...  36.7    4.8  
+  UniRef90_UPI00070402E7 zinc finger protein RFP-like n=1 Tax=Pel...  36.7    4.9  
+  UniRef90_A0A2J6SRX8 RabGAP/TBC n=3 Tax=Helotiales TaxID=5178 Re...  36.7    5.1  
+  UniRef90_D7FKX6 Uncharacterized protein n=1 Tax=Ectocarpus sili...  36.7    5.1  
+  UniRef90_A0A1M4NIW3 Pneumococcal surface protein A (Fragment) n...  36.3    5.2  
+  UniRef90_A0A2E7MCX8 Uncharacterized protein n=1 Tax=Deltaproteo...  35.9    5.2  
+  UniRef90_A0A1D9QBE1 Uncharacterized protein n=3 Tax=Sclerotinia...  36.7    5.3  
+  UniRef90_A0A3B0JWX8 Blast:Glucose transporter type 1 n=1 Tax=Dr...  36.7    5.3  
+  UniRef90_A0A2H6KKE4 Uncharacterized protein n=1 Tax=Babesia ova...  36.7    5.4  
+  UniRef90_A0A1V6PR35 Uncharacterized protein n=1 Tax=Penicillium...  36.3    5.5  
+  UniRef90_UPI00047BC45E hypothetical protein n=1 Tax=Alkaliphilu...  36.3    5.5  
+  UniRef90_D4C5J9 Uncharacterized protein (Fragment) n=1 Tax=Prov...  36.3    5.5  
+  UniRef90_A0A1D5PA65 Uncharacterized protein n=1 Tax=Gallus gall...  36.3    5.5  
+  UniRef90_UPI000A00E502 choline-binding protein n=4 Tax=Streptoc...  36.3    5.5  
+  UniRef90_A0A1R2BFJ2 Uncharacterized protein n=1 Tax=Stentor coe...  36.3    5.7  
+  UniRef90_A0A373PHT0 Uncharacterized protein n=1 Tax=Ruminococcu...  36.3    5.8  
+  UniRef90_A2FDG8 Uncharacterized protein n=1 Tax=Trichomonas vag...  36.3    5.9  
+  UniRef90_UPI00097235EB glucose transporter type 1 n=1 Tax=Musca...  36.3    6.1  
+  UniRef90_R8B9S9 Uncharacterized protein n=1 Tax=Togninia minima...  36.3    6.1  
+  UniRef90_A0A378JAH7 Uncharacterized protein n=1 Tax=Legionella ...  36.3    6.1  
+  UniRef90_UPI000E0FDBD2 HlyD family efflux transporter periplasm...  36.3    6.2  
+  UniRef90_B7S890 Uncharacterized protein n=1 Tax=Glyptapanteles ...  36.3    6.3  
+  UniRef90_A0A1M4NJ83 Pneumococcal surface protein A (Fragment) n...  36.3    6.3  
+  UniRef90_A0A1M4NIP2 Pneumococcal surface protein A n=1 Tax=Stre...  36.3    6.3  
+  UniRef90_A0A2H3FBJ7 Putative GTPase-activating protein GYP5 n=2...  36.3    6.3  
+  UniRef90_A0A2G9YHS8 Uncharacterized protein n=1 Tax=Candidatus ...  36.3    6.3  
+  UniRef90_A0A0U5DZJ5 Chromosome partition protein Smc n=1 Tax=Th...  36.3    6.5  
+  UniRef90_F1RW10 Abraxas 1, BRCA1 A complex subunit n=3 Tax=Sus ...  36.3    6.5  
+  UniRef90_UPI00032B093F BRCA1-A complex subunit Abraxas n=1 Tax=...  36.3    6.6  
+  UniRef90_A0A239GB06 DNA-binding transcriptional regulator, MerR...  35.1    6.7  
+  UniRef90_A0A084FZZ6 Uncharacterized protein n=2 Tax=Microascace...  36.3    6.7  
+  UniRef90_A0A0E9LV61 Export cytoplasm protein SecA ATPase RNA he...  35.9    6.7  
+  UniRef90_UPI000369047F HAMP domain-containing histidine kinase ...  35.9    6.7  
+  UniRef90_A0A0V1EDF3 Bifunctional arginine demethylase and lysyl...  35.9    6.8  
+  UniRef90_UPI0003291739 BRCA1-A complex subunit Abraxas 1 isofor...  36.3    6.8  
+  UniRef90_A0A344TSU6 Two-component sensor histidine kinase n=2 T...  36.3    6.9  
+  UniRef90_A0A1V5QJC7 Uncharacterized protein n=1 Tax=Betaproteob...  35.5    6.9  
+  UniRef90_A0A368SLL1 Uncharacterized protein n=2 Tax=Setaria ita...  35.9    7.0  
+  UniRef90_A0A3M5A953 Uncharacterized protein n=1 Tax=Pseudomonas...  35.5    7.1  
+  UniRef90_A0A258D743 Methyltransferase (Fragment) n=1 Tax=Rhizob...  34.3    7.1  
+  UniRef90_A0A0S8ZMV8 Uncharacterized protein n=1 Tax=Pseudomonas...  35.9    7.1  
+  UniRef90_S0NXL4 Chromosome partition protein Smc n=1 Tax=Entero...  36.3    7.1  
+  UniRef90_A0A380JRK9 Antiphagocytic cell surface-anchored fibrin...  35.9    7.3  
+  UniRef90_R8BN30 Putative vacuolar targeting protein n=1 Tax=Tog...  35.9    7.4  
+  UniRef90_A0A2T4BZ60 Phox-like protein n=2 Tax=Trichoderma TaxID...  35.9    7.5  
+  UniRef90_UPI00071C9AFE homer protein homolog 3 isoform X3 n=1 T...  36.3    7.5  
+  UniRef90_UPI0008F9D377 glucose transporter type 1 isoform X1 n=...  35.9    7.5  
+  UniRef90_A0A3B5A7K6 MICOS complex subunit n=1 Tax=Stegastes par...  35.9    7.6  
+  UniRef90_A0A218Z9G0 GTPase-activating protein GYP n=1 Tax=Marss...  35.9    7.6  
+  UniRef90_A0A182RPE9 Uncharacterized protein n=1 Tax=Anopheles f...  35.9    7.6  
+  UniRef90_UPI00094073FC choline-binding protein n=2 Tax=Streptoc...  35.9    7.7  
+  UniRef90_A0A359FYD8 Preprotein translocase subunit SecA (Fragme...  35.9    7.8  
+  UniRef90_A0A2M9A5R2 Exonuclease SbcC n=2 Tax=Fibrobacter TaxID=...  35.9    7.8  
+  UniRef90_F9RYE8 Uncharacterized protein (Fragment) n=1 Tax=Vibr...  35.5    7.9  
+  UniRef90_A0A096BH74 Pyridine nucleotide-disulfide oxidoreductas...  35.9    8.0  
+  UniRef90_A0A1I8MKR8 Uncharacterized protein n=3 Tax=Muscinae Ta...  35.9    8.0  
+  UniRef90_UPI0007E85A12 structural maintenance of chromosomes pr...  35.9    8.0  
+  UniRef90_A0A084G4H2 Sorting nexin-4 n=1 Tax=Scedosporium apiosp...  35.9    8.0  
+  UniRef90_F1T3J6 DNA-directed RNA polymerase subunit beta' n=3 T...  35.9    8.1  
+  UniRef90_A0A336M9T2 CSON012634 protein n=2 Tax=Culicoides sonor...  35.9    8.1  
+  UniRef90_UPI000E01B0EE LPXTG cell wall anchor domain-containing...  35.9    8.2  
+  UniRef90_UPI00071CFE68 tripartite motif-containing protein 7-li...  35.9    8.3  
+  UniRef90_UPI0007656D31 choline-binding protein n=2 Tax=Streptoc...  35.9    8.4  
+  UniRef90_A0A0V0SGY4 Uncharacterized protein (Fragment) n=1 Tax=...  35.9    8.4  
+  UniRef90_A0A3M1UKF0 Uncharacterized protein n=1 Tax=Bacteroidet...  35.9    8.4  
+  UniRef90_UPI00076921CE choline-binding protein n=7 Tax=Streptoc...  35.9    8.5  
+  UniRef90_W9CF44 Uncharacterized protein n=1 Tax=Sclerotinia bor...  35.9    8.6  
+  UniRef90_A0A2J6T403 Uncharacterized protein n=1 Tax=Meliniomyce...  35.9    8.7  
+  UniRef90_UPI000B98EA63 uncharacterized protein LOC111046376 iso...  35.9    8.7  
+  UniRef90_A0A076K2I7 Uncharacterized protein n=2 Tax=Rhodobacter...  34.7    8.7  
+  UniRef90_A0A370TXC8 Ypt of gyp1p n=1 Tax=Phialophora cf. hyalin...  35.9    8.7  
+  UniRef90_E6U7H6 Transcriptional regulator, RpiR family n=2 Tax=...  35.5    8.8  
+  UniRef90_A0A2T8I6R0 Uncharacterized protein n=2 Tax=Panicum hal...  35.9    8.8  
+  UniRef90_A0A182TLA0 Uncharacterized protein n=1 Tax=Anopheles m...  35.9    8.8  
+  UniRef90_K2NR73 Peptidase M23B n=1 Tax=Nitratireductor indicus ...  35.9    8.9  
+  UniRef90_A0A336M5V2 CSON012634 protein n=2 Tax=Culicoides sonor...  35.9    9.0  
+  UniRef90_C3XRV7 Uncharacterized protein (Fragment) n=1 Tax=Bran...  35.9    9.1  
+  UniRef90_A6UNV1 Restriction modification system DNA specificity...  35.9    9.1  
+  UniRef90_A0A354EWZ1 TIGR00153 family protein n=1 Tax=Legionella...  35.5    9.1  
+  UniRef90_A0A1D6MI79 Protein ALWAYS EARLY 3 n=3 Tax=Zea mays Tax...  35.9    9.1  
+  UniRef90_K0C8S2 Uncharacterized protein n=4 Tax=Alcanivorax Tax...  35.5    9.1  
+  UniRef90_A0A2E5T9N2 TIGR00153 family protein n=1 Tax=Alcanivora...  35.5    9.1  
+  UniRef90_G2SP07 Uncharacterized protein n=8 Tax=Lactobacillus T...  35.5    9.2  
+  UniRef90_A0A2N7PJL5 Ribonuclease Y n=1 Tax=Caldimicrobium thiod...  35.9    9.2  
+  UniRef90_A0A183V7R3 Kinesin-like protein n=1 Tax=Toxocara canis...  35.9    9.3  
+  UniRef90_A0A2N0HH66 AraC family transcriptional regulator n=1 T...  35.5    9.6  
+  UniRef90_A0A135UP53 Uncharacterized protein n=1 Tax=Colletotric...  35.9    9.6  
+  UniRef90_K9IJG3 Putative brca1-a complex subunit abraxas n=6 Ta...  35.5    9.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.169    0.508    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0517    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736740530590
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

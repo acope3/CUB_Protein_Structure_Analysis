@@ -1,0 +1,114 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414829.1
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P56257 Uncharacterized protein YkgL n=101 Tax=Enteroba...  153     2e-47
+  UniRef90_UPI000BE56D7E hypothetical protein n=3 Tax=Escherichia...  131     9e-39
+  UniRef90_UPI000E1FE0BA hypothetical protein n=3 Tax=Enterobacte...  125     2e-36
+  UniRef90_A0A376P112 Protein n=1 Tax=Escherichia coli TaxID=562 ...  118     9e-34
+  UniRef90_UPI0006ACFCCB hypothetical protein n=1 Tax=Escherichia...  115     1e-32
+  UniRef90_A0A3L1MG31 Uncharacterized protein n=2 Tax=Escherichia...  110     7e-31
+  UniRef90_UPI0006B5FB8E hypothetical protein n=2 Tax=Enterobacte...  110     2e-30
+  UniRef90_A0A3K2TEM3 Uncharacterized protein (Fragment) n=3 Tax=...  106     4e-29
+  UniRef90_C3TNK7 Protein n=14 Tax=Escherichia coli TaxID=562 Rep...  103     7e-28
+  UniRef90_A0A3L4QYA0 Uncharacterized protein n=1 Tax=Escherichia...  65.5    5e-13
+  UniRef90_A0A1K1XI70 Uncharacterized protein n=1 Tax=Marinospiri...  33.9    3.1  
+  UniRef90_A0A3D1K240 Magnesium transport protein CorA n=2 Tax=Le...  34.3    6.5  
+  UniRef90_X0WR66 Uncharacterized protein (Fragment) n=1 Tax=mari...  33.9    7.8  
+  UniRef90_A0A2E7FT54 Nitroreductase n=2 Tax=Pelagibacterium sp. ...  33.9    8.6  
+  UniRef90_A0A0F9U9N0 Uncharacterized protein n=1 Tax=marine sedi...  33.9    9.2  
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.129    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 753754682243
+Warning: [psiblast] lcl|Query_1 NP_414829.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414829.1
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P56257 Uncharacterized protein YkgL n=101 Tax=Enteroba...  125     1e-36
+  UniRef90_UPI000E1FE0BA hypothetical protein n=3 Tax=Enterobacte...  123     9e-36
+  UniRef90_UPI000BE56D7E hypothetical protein n=3 Tax=Escherichia...  111     5e-31
+  UniRef90_A0A376P112 Protein n=1 Tax=Escherichia coli TaxID=562 ...  100     1e-26
+  UniRef90_UPI0006B5FB8E hypothetical protein n=2 Tax=Enterobacte...  98.6    8e-26
+  UniRef90_UPI0006ACFCCB hypothetical protein n=1 Tax=Escherichia...  96.7    4e-25
+  UniRef90_C3TNK7 Protein n=14 Tax=Escherichia coli TaxID=562 Rep...  96.7    4e-25
+  UniRef90_A0A3L1MG31 Uncharacterized protein n=2 Tax=Escherichia...  95.9    6e-25
+  UniRef90_A0A3K2TEM3 Uncharacterized protein (Fragment) n=3 Tax=...  89.8    2e-22
+  UniRef90_A0A3L4QYA0 Uncharacterized protein n=1 Tax=Escherichia...  70.5    6e-15
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0F9U9N0 Uncharacterized protein n=1 Tax=marine sedi...  39.7    0.075
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.126    0.342    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0385    0.140     1.90     42.6     43.6 
+
+Effective search space used: 753754682243
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

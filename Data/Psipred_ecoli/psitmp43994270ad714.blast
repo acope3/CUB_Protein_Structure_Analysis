@@ -1,0 +1,228 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414785.4
+
+Length=147
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P77365 Lipoprotein YafY n=15 Tax=Bacteria TaxID=2 RepI...  304     4e-105
+  UniRef90_A0A377N5P7 CP4-6 prophage putative DNA-binding transcr...  291     9e-100
+  UniRef90_O52982 Lipoprotein YfjS n=119 Tax=Gammaproteobacteria ...  277     2e-94 
+  UniRef90_A0A0D7L5N2 Uncharacterized lipoprotein yafY n=36 Tax=E...  261     3e-88 
+  UniRef90_A0A085GKA0 Uncharacterized protein n=2 Tax=Enterobacte...  249     3e-83 
+  UniRef90_A0A2U9U591 Uncharacterized protein n=1 Tax=Citrobacter...  236     5e-78 
+  UniRef90_A0A3L9UWQ0 Uncharacterized protein n=1 Tax=Enterobacte...  218     2e-71 
+  UniRef90_A0A377C542 CP4-6 prophage putative DNA-binding transcr...  206     2e-66 
+  UniRef90_A0A0F0XAM4 Uncharacterized protein (Fragment) n=2 Tax=...  175     7e-55 
+  UniRef90_A0A377E2C1 CP4-6 prophage putative DNA-binding transcr...  167     9e-52 
+  UniRef90_A0A376D9J4 Uncharacterized lipoprotein yafY n=33 Tax=E...  165     7e-50 
+  UniRef90_A0A3F3JEU0 Uncharacterized protein n=3 Tax=Enterobacte...  164     2e-49 
+  UniRef90_V5AQZ0 Uncharacterized protein n=10 Tax=Enterobacteral...  160     4e-48 
+  UniRef90_V5Z6H1 Putative lipoprotein yfjS n=4 Tax=Enterobactera...  159     9e-48 
+  UniRef90_A0A2X2WME1 Uncharacterized lipoprotein yafY n=1 Tax=Ci...  162     3e-47 
+  UniRef90_A0A1A9F6R6 Uncharacterized protein n=71 Tax=Gammaprote...  158     4e-47 
+  UniRef90_W3VC44 Uncharacterized protein n=4 Tax=Enterobacterale...  157     1e-46 
+  UniRef90_UPI000B498D31 hypothetical protein n=2 Tax=Enterobacte...  154     8e-46 
+  UniRef90_UPI00061C5F4E hypothetical protein n=3 Tax=Yersinia Ta...  152     5e-45 
+  UniRef90_A0A2V2BFT8 Uncharacterized protein n=4 Tax=Erwiniaceae...  148     2e-43 
+  UniRef90_A0A221DLL4 Uncharacterized protein n=1 Tax=Serratia ma...  144     1e-41 
+  UniRef90_UPI000BDFA58D hypothetical protein n=1 Tax=Escherichia...  120     1e-32 
+  UniRef90_UPI0009ACBC08 hypothetical protein n=1 Tax=Salmonella ...  117     1e-31 
+  UniRef90_UPI000E69CBFF hypothetical protein n=1 Tax=Klebsiella ...  106     1e-27 
+  UniRef90_UPI000A3C915E hypothetical protein n=1 Tax=Salmonella ...  105     3e-27 
+  UniRef90_A0A3L9UVQ3 Uncharacterized protein (Fragment) n=1 Tax=...  67.8    1e-12 
+  UniRef90_A0A377E1W0 CP4-6 prophage putative DNA-binding transcr...  57.8    1e-08 
+  UniRef90_UPI0004AE7477 hypothetical protein n=1 Tax=Patulibacte...  39.3    0.73  
+  UniRef90_A0A0G4HKS1 Uncharacterized protein n=1 Tax=Chromera ve...  39.3    0.91  
+  UniRef90_A0A0D3DN82 Uncharacterized protein n=8 Tax=Brassiceae ...  38.1    2.3   
+  UniRef90_A0A0G1CXA9 Elongation factor G n=4 Tax=Microgenomates ...  37.7    3.0   
+  UniRef90_A0A2N4SAT2 Fibronectin type III domain-containing prot...  37.7    3.4   
+  UniRef90_UPI0006908CE8 hypothetical protein n=1 Tax=Kitasatospo...  37.4    3.8   
+  UniRef90_UPI00058FF1B4 hypothetical protein n=1 Tax=Pseudomonas...  35.0    5.9   
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 748433727867
+Warning: [psiblast] lcl|Query_1 NP_414785.4: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414785.4
+
+Length=147
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A377N5P7 CP4-6 prophage putative DNA-binding transcr...  272     2e-92
+  UniRef90_O52982 Lipoprotein YfjS n=119 Tax=Gammaproteobacteria ...  270     1e-91
+  UniRef90_P77365 Lipoprotein YafY n=15 Tax=Bacteria TaxID=2 RepI...  267     2e-90
+  UniRef90_A0A0D7L5N2 Uncharacterized lipoprotein yafY n=36 Tax=E...  263     9e-89
+  UniRef90_A0A085GKA0 Uncharacterized protein n=2 Tax=Enterobacte...  262     3e-88
+  UniRef90_A0A2U9U591 Uncharacterized protein n=1 Tax=Citrobacter...  258     6e-87
+  UniRef90_A0A1A9F6R6 Uncharacterized protein n=71 Tax=Gammaprote...  251     5e-84
+  UniRef90_A0A2X2WME1 Uncharacterized lipoprotein yafY n=1 Tax=Ci...  253     3e-83
+  UniRef90_A0A376D9J4 Uncharacterized lipoprotein yafY n=33 Tax=E...  248     6e-83
+  UniRef90_A0A3F3JEU0 Uncharacterized protein n=3 Tax=Enterobacte...  247     2e-82
+  UniRef90_W3VC44 Uncharacterized protein n=4 Tax=Enterobacterale...  247     2e-82
+  UniRef90_V5AQZ0 Uncharacterized protein n=10 Tax=Enterobacteral...  245     9e-82
+  UniRef90_UPI00061C5F4E hypothetical protein n=3 Tax=Yersinia Ta...  236     4e-78
+  UniRef90_A0A221DLL4 Uncharacterized protein n=1 Tax=Serratia ma...  236     6e-78
+  UniRef90_V5Z6H1 Putative lipoprotein yfjS n=4 Tax=Enterobactera...  234     3e-77
+  UniRef90_A0A2V2BFT8 Uncharacterized protein n=4 Tax=Erwiniaceae...  229     4e-75
+  UniRef90_UPI000B498D31 hypothetical protein n=2 Tax=Enterobacte...  221     1e-72
+  UniRef90_A0A3L9UWQ0 Uncharacterized protein n=1 Tax=Enterobacte...  208     2e-67
+  UniRef90_A0A377C542 CP4-6 prophage putative DNA-binding transcr...  206     2e-66
+  UniRef90_UPI000BDFA58D hypothetical protein n=1 Tax=Escherichia...  194     9e-62
+  UniRef90_UPI0009ACBC08 hypothetical protein n=1 Tax=Salmonella ...  176     5e-55
+  UniRef90_A0A377E2C1 CP4-6 prophage putative DNA-binding transcr...  163     4e-50
+  UniRef90_A0A0F0XAM4 Uncharacterized protein (Fragment) n=2 Tax=...  163     5e-50
+  UniRef90_UPI000A3C915E hypothetical protein n=1 Tax=Salmonella ...  159     3e-48
+  UniRef90_UPI000E69CBFF hypothetical protein n=1 Tax=Klebsiella ...  117     4e-32
+  UniRef90_A0A377E1W0 CP4-6 prophage putative DNA-binding transcr...  97.5    4e-24
+  UniRef90_A0A3L9UVQ3 Uncharacterized protein (Fragment) n=1 Tax=...  80.9    9e-18
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_J7KJH3 Uncharacterized protein n=2 Tax=unclassified Sp...  47.4    3e-04
+  UniRef90_A0A1B2IAC1 Uncharacterized protein n=1 Tax=Erwinia pha...  43.9    0.007
+  UniRef90_UPI0009A9E311 hypothetical protein n=1 Tax=Salmonella ...  40.4    0.17 
+  UniRef90_A0A1S1NT51 Uncharacterized protein n=1 Tax=Kushneria s...  40.4    0.33 
+  UniRef90_C6RER4 Uncharacterized protein n=9 Tax=Campylobacter T...  39.7    0.44 
+  UniRef90_UPI0006D58D06 glycosyltransferase family 2 protein n=1...  38.9    0.82 
+  UniRef90_UPI0004A75D33 methyl-accepting chemotaxis protein n=1 ...  39.3    0.92 
+  UniRef90_A0A356JL34 Uncharacterized protein n=2 Tax=Lentisphaer...  38.1    1.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0414    0.140     1.90     42.6     43.6 
+
+Effective search space used: 748433727867
+Results from round 3
+
+
+Query= NP_414785.4
+
+Length=147
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A377N5P7 CP4-6 prophage putative DNA-binding transcr...  244     3e-81
+  UniRef90_O52982 Lipoprotein YfjS n=119 Tax=Gammaproteobacteria ...  242     2e-80
+  UniRef90_P77365 Lipoprotein YafY n=15 Tax=Bacteria TaxID=2 RepI...  238     8e-79
+  UniRef90_A0A0D7L5N2 Uncharacterized lipoprotein yafY n=36 Tax=E...  236     3e-78
+  UniRef90_A0A085GKA0 Uncharacterized protein n=2 Tax=Enterobacte...  236     3e-78
+  UniRef90_A0A2U9U591 Uncharacterized protein n=1 Tax=Citrobacter...  231     3e-76
+  UniRef90_A0A2X2WME1 Uncharacterized lipoprotein yafY n=1 Tax=Ci...  234     8e-76
+  UniRef90_A0A1A9F6R6 Uncharacterized protein n=71 Tax=Gammaprote...  226     3e-74
+  UniRef90_A0A3F3JEU0 Uncharacterized protein n=3 Tax=Enterobacte...  225     7e-74
+  UniRef90_A0A376D9J4 Uncharacterized lipoprotein yafY n=33 Tax=E...  225     8e-74
+  UniRef90_W3VC44 Uncharacterized protein n=4 Tax=Enterobacterale...  224     1e-73
+  UniRef90_V5AQZ0 Uncharacterized protein n=10 Tax=Enterobacteral...  221     3e-72
+  UniRef90_A0A221DLL4 Uncharacterized protein n=1 Tax=Serratia ma...  214     2e-69
+  UniRef90_UPI00061C5F4E hypothetical protein n=3 Tax=Yersinia Ta...  214     3e-69
+  UniRef90_V5Z6H1 Putative lipoprotein yfjS n=4 Tax=Enterobactera...  213     7e-69
+  UniRef90_A0A2V2BFT8 Uncharacterized protein n=4 Tax=Erwiniaceae...  209     2e-67
+  UniRef90_UPI000B498D31 hypothetical protein n=2 Tax=Enterobacte...  200     4e-64
+  UniRef90_A0A3L9UWQ0 Uncharacterized protein n=1 Tax=Enterobacte...  184     5e-58
+  UniRef90_UPI000BDFA58D hypothetical protein n=1 Tax=Escherichia...  181     8e-57
+  UniRef90_A0A377C542 CP4-6 prophage putative DNA-binding transcr...  181     1e-56
+  UniRef90_UPI0009ACBC08 hypothetical protein n=1 Tax=Salmonella ...  156     5e-47
+  UniRef90_A0A377E2C1 CP4-6 prophage putative DNA-binding transcr...  147     2e-43
+  UniRef90_A0A0F0XAM4 Uncharacterized protein (Fragment) n=2 Tax=...  145     8e-43
+  UniRef90_UPI000A3C915E hypothetical protein n=1 Tax=Salmonella ...  141     3e-41
+  UniRef90_J7KJH3 Uncharacterized protein n=2 Tax=unclassified Sp...  123     1e-33
+  UniRef90_UPI000E69CBFF hypothetical protein n=1 Tax=Klebsiella ...  111     1e-29
+  UniRef90_A0A377E1W0 CP4-6 prophage putative DNA-binding transcr...  91.3    9e-22
+  UniRef90_A0A3L9UVQ3 Uncharacterized protein (Fragment) n=1 Tax=...  73.2    1e-14
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1B2IAC1 Uncharacterized protein n=1 Tax=Erwinia pha...  109     3e-28
+  UniRef90_A0A2U8UY20 Uncharacterized protein n=1 Tax=Salmonella ...  77.8    6e-16
+  UniRef90_G5DES6 Uncharacterized protein n=2 Tax=Salmonella viru...  71.7    2e-13
+  UniRef90_A0A1X1LLB7 Uncharacterized protein n=1 Tax=Escherichia...  57.8    4e-08
+  UniRef90_A0A1B2IDC2 Uncharacterized protein n=3 Tax=unclassifie...  47.8    3e-04
+  UniRef90_A0A1B2IB46 Uncharacterized protein n=1 Tax=Erwinia pha...  45.9    0.001
+  UniRef90_A0A2H0WPN2 Uncharacterized protein n=1 Tax=Candidatus ...  45.9    0.002
+  UniRef90_A0A1B2ICW3 Uncharacterized protein n=1 Tax=Erwinia pha...  41.2    0.057
+  UniRef90_R4IG11 Uncharacterized protein n=1 Tax=Cronobacter pha...  40.5    0.11 
+  UniRef90_A0A1B2IGL9 Uncharacterized protein n=1 Tax=Erwinia pha...  38.9    0.46 
+  UniRef90_A0A1B2IBW7 Uncharacterized protein n=1 Tax=Erwinia pha...  38.5    0.58 
+  UniRef90_UPI0004A75D33 methyl-accepting chemotaxis protein n=1 ...  39.7    0.60 
+  UniRef90_A0A1S8CLP8 Uncharacterized protein n=1 Tax=Serratia or...  37.0    2.3  
+  UniRef90_UPI000F77A4B7 DUF4968 domain-containing protein n=1 Ta...  38.2    2.4  
+  UniRef90_A0A0T9T8A1 Uncharacterized protein n=7 Tax=Yersinia Ta...  36.6    2.8  
+  UniRef90_A0A067NZ10 Uncharacterized protein n=1 Tax=Pleurotus o...  37.8    3.1  
+  UniRef90_A0A3A2J2I0 Uncharacterized protein n=1 Tax=Methylococc...  37.0    3.2  
+  UniRef90_A0A2G5KA55 Uncharacterized protein n=2 Tax=Maribacter ...  36.2    4.3  
+  UniRef90_A0A084A4H4 Uncharacterized protein n=1 Tax=Serratia sp...  36.2    4.5  
+  UniRef90_A0A2N2BS45 Uncharacterized protein (Fragment) n=1 Tax=...  35.5    5.9  
+  UniRef90_C6RER4 Uncharacterized protein n=9 Tax=Campylobacter T...  36.2    6.2  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.128    0.348    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0392    0.140     1.90     42.6     43.6 
+
+Effective search space used: 748433727867
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

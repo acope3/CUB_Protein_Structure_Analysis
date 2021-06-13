@@ -1,0 +1,1491 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415086.1
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0A9R3 Lysis protein S homolog from lambdoid prophage ...  143     9e-44
+  UniRef90_A0A0V9HE22 Holin n=17 Tax=root TaxID=1 RepID=A0A0V9HE2...  142     2e-43
+  UniRef90_A0A0E0VEJ0 DLP12 prophage, predicted phage lysis prote...  141     8e-43
+  UniRef90_A0A061L122 Holin n=29 Tax=Enterobacteriaceae TaxID=543...  140     2e-42
+  UniRef90_P77237 Prophage lysis protein S homolog EssQ n=66 Tax=...  137     3e-41
+  UniRef90_UPI000CE54659 hypothetical protein n=1 Tax=Escherichia...  137     7e-41
+  UniRef90_A0A0D8WDA4 Holin n=19 Tax=Enterobacteriaceae TaxID=543...  135     1e-40
+  UniRef90_UPI000CF15F73 holin n=2 Tax=Escherichia coli TaxID=562...  134     6e-40
+  UniRef90_UPI000D16AA57 holin n=2 Tax=Escherichia coli TaxID=562...  133     1e-39
+  UniRef90_A0A2H9A338 Holin n=2 Tax=Escherichia coli TaxID=562 Re...  132     2e-39
+  UniRef90_A0A0D8W279 Holin n=22 Tax=Escherichia coli TaxID=562 R...  132     4e-39
+  UniRef90_A0A066SYA7 DLP12 prophage phage lysis protein n=145 Ta...  131     5e-39
+  UniRef90_UPI000DA4BC60 holin n=1 Tax=Escherichia coli TaxID=562...  131     8e-39
+  UniRef90_P27360 Antiholin n=119 Tax=root TaxID=1 RepID=HOLIN_BPP21  130     9e-39
+  UniRef90_UPI000B7FEEE9 holin n=4 Tax=Escherichia coli TaxID=562...  129     5e-38
+  UniRef90_A0A140NC30 Lysis S family protein n=3 Tax=Escherichia ...  129     7e-38
+  UniRef90_A0A3L4ZBK2 Holin n=1 Tax=Escherichia coli TaxID=562 Re...  128     9e-38
+  UniRef90_A7ZM17 Lysis protein S n=2 Tax=Enterobacteriaceae TaxI...  128     1e-37
+  UniRef90_A0A3G4X6X2 Holin n=2 Tax=Escherichia coli TaxID=562 Re...  127     2e-37
+  UniRef90_K8BZC2 Phage lysis protein S n=15 Tax=Enterobacteriace...  127     2e-37
+  UniRef90_UPI000669374B holin n=1 Tax=Klebsiella oxytoca TaxID=5...  126     5e-37
+  UniRef90_A0A090V636 Phage lysis protein homolog EssQ n=7 Tax=En...  126     6e-37
+  UniRef90_UPI0002A3670A phage lysis protein n=2 Tax=Escherichia ...  125     1e-36
+  UniRef90_UPI00067DE355 holin n=4 Tax=Escherichia coli TaxID=562...  125     2e-36
+  UniRef90_A0A376ZAW0 Lysis protein S n=61 Tax=Proteobacteria Tax...  125     3e-36
+  UniRef90_A0A0L1BMK3 Holin n=8 Tax=Enterobacteriaceae TaxID=543 ...  124     4e-36
+  UniRef90_A0A0H3HCM4 Lysis S family protein n=25 Tax=Enterobacte...  123     1e-35
+  UniRef90_A0A066R382 Holin n=155 Tax=root TaxID=1 RepID=A0A066R3...  123     1e-35
+  UniRef90_A4WB41 Lysis S family protein n=1 Tax=Enterobacter sp....  123     1e-35
+  UniRef90_A0A061K7U8 Holin n=116 Tax=Enterobacterales TaxID=9134...  122     2e-35
+  UniRef90_A0A061YHU7 Holin n=116 Tax=root TaxID=1 RepID=A0A061YH...  122     4e-35
+  UniRef90_Q8X4M8 Putative lysis protein S of prophage CP-933V n=...  122     4e-35
+  UniRef90_A0A1E5WSR4 Holin n=8 Tax=Escherichia coli TaxID=562 Re...  121     6e-35
+  UniRef90_UPI00098A7831 hypothetical protein n=1 Tax=Escherichia...  124     7e-35
+  UniRef90_A0A0Q4MLZ8 Holin n=1 Tax=Erwinia sp. Leaf53 TaxID=1736...  121     7e-35
+  UniRef90_D6HVZ5 Uncharacterized protein n=5 Tax=Escherichia col...  120     1e-34
+  UniRef90_UPI00058F0B4D holin n=1 Tax=Klebsiella TaxID=570 RepID...  120     1e-34
+  UniRef90_Q32GL7 Lysis protein S n=349 Tax=root TaxID=1 RepID=Q3...  120     1e-34
+  UniRef90_A0A029I151 Lysis S family protein n=26 Tax=Enterobacte...  119     3e-34
+  UniRef90_A0A2S9I5N5 Holin n=1 Tax=Pantoea coffeiphila TaxID=146...  119     3e-34
+  UniRef90_A0A0F3VRS0 Holin n=68 Tax=root TaxID=1 RepID=A0A0F3VRS...  119     5e-34
+  UniRef90_UPI000D59BC47 holin n=1 Tax=Escherichia coli TaxID=562...  119     6e-34
+  UniRef90_UPI000BD02E93 holin n=1 Tax=Klebsiella pneumoniae TaxI...  118     1e-33
+  UniRef90_UPI000BE53F12 holin n=3 Tax=Escherichia coli TaxID=562...  117     2e-33
+  UniRef90_A0A0F3T655 Holin n=56 Tax=Enterobacteriaceae TaxID=543...  117     2e-33
+  UniRef90_I2WDI0 Lysis protein S n=2 Tax=Escherichia coli TaxID=...  117     5e-33
+  UniRef90_UPI000944FBD5 hypothetical protein n=1 Tax=Escherichia...  119     6e-33
+  UniRef90_A0A3E1WCQ7 Holin n=11 Tax=Escherichia coli TaxID=562 R...  115     7e-33
+  UniRef90_A0A0F3TR56 Holin n=9 Tax=Escherichia coli TaxID=562 Re...  115     7e-33
+  UniRef90_UPI000D59EA55 holin n=1 Tax=Escherichia coli TaxID=562...  116     8e-33
+  UniRef90_A0A0J6M8P9 Holin n=17 Tax=Enterobacteriaceae TaxID=543...  115     1e-32
+  UniRef90_A0A348DDK9 Lysis protein S homolog from lambdoid proph...  115     1e-32
+  UniRef90_A0A376SJJ8 Endolysin of cryptic prophage CP-933M n=9 T...  118     1e-32
+  UniRef90_UPI0009C13130 holin n=1 Tax=Citrobacter freundii TaxID...  115     2e-32
+  UniRef90_UPI00076F1D39 holin n=3 Tax=Escherichia coli TaxID=562...  115     2e-32
+  UniRef90_UPI000C7DF9BE hypothetical protein n=1 Tax=Escherichia...  114     3e-32
+  UniRef90_UPI00027E0B58 holin n=3 Tax=Pectobacterium TaxID=12227...  114     4e-32
+  UniRef90_A0A376V6U8 Phage lysis protein n=1 Tax=Escherichia col...  114     4e-32
+  UniRef90_UPI00050A5702 holin n=2 Tax=Escherichia coli TaxID=562...  114     5e-32
+  UniRef90_UPI000BDEE3BA holin n=2 Tax=Escherichia coli TaxID=562...  114     6e-32
+  UniRef90_UPI000DD2CA89 holin n=1 Tax=Escherichia coli TaxID=562...  112     1e-31
+  UniRef90_A0A376M5L2 Lysis protein S from bacteriophage origin n...  112     3e-31
+  UniRef90_UPI000CE68BA2 holin n=1 Tax=Pectobacterium carotovorum...  111     4e-31
+  UniRef90_UPI000A390224 holin n=2 Tax=Escherichia coli TaxID=562...  111     4e-31
+  UniRef90_UPI0006A5CEFA holin n=3 Tax=Escherichia TaxID=561 RepI...  111     4e-31
+  UniRef90_UPI000DAD0937 holin n=8 Tax=Escherichia coli TaxID=562...  110     2e-30
+  UniRef90_UPI000BDF17B5 holin n=1 Tax=Escherichia coli TaxID=562...  109     3e-30
+  UniRef90_UPI000C77CDE0 holin n=1 Tax=Escherichia coli TaxID=562...  108     5e-30
+  UniRef90_A0A097R819 Holin n=7 Tax=Hafniaceae TaxID=1903412 RepI...  107     1e-29
+  UniRef90_UPI000C1BAB0A holin n=5 Tax=Escherichia coli TaxID=562...  107     2e-29
+  UniRef90_A0A376NFD7 Phage lysis protein n=1 Tax=Escherichia col...  107     3e-29
+  UniRef90_A0A2X3KFT3 Holin protein n=19 Tax=Escherichia coli Tax...  106     4e-29
+  UniRef90_UPI0006807639 holin n=7 Tax=Enterobacteriaceae TaxID=5...  105     8e-29
+  UniRef90_UPI0006B65E41 hypothetical protein n=1 Tax=Escherichia...  105     1e-28
+  UniRef90_A0A0K4D619 Holin protein n=5 Tax=Enterobacteriaceae Ta...  105     2e-28
+  UniRef90_UPI000D1362CB holin n=1 Tax=Escherichia coli TaxID=562...  105     2e-28
+  UniRef90_I2RQW0 Lysis protein S n=2 Tax=Escherichia coli TaxID=...  104     2e-28
+  UniRef90_UPI0008FB7E97 lysis protein n=1 Tax=Escherichia coli T...  104     3e-28
+  UniRef90_UPI00068A0D2D holin n=1 Tax=Escherichia coli TaxID=562...  104     4e-28
+  UniRef90_UPI000F8E0B53 holin n=1 Tax=Pectobacterium parmentieri...  103     4e-28
+  UniRef90_A0A0K9TB53 Lysis protein S n=1 Tax=Escherichia coli M1...  104     4e-28
+  UniRef90_UPI000B3F613F holin n=1 Tax=Escherichia coli TaxID=562...  103     5e-28
+  UniRef90_UPI000BDEB80B holin n=1 Tax=Escherichia coli TaxID=562...  103     5e-28
+  UniRef90_A0A0W2CVH5 Holin n=25 Tax=Enterobacterales TaxID=91347...  103     7e-28
+  UniRef90_UPI000DF4A07D holin n=1 Tax=Escherichia coli TaxID=562...  103     8e-28
+  UniRef90_UPI000BE8887B hypothetical protein n=1 Tax=Escherichia...  102     9e-28
+  UniRef90_A0A0M1U731 Lysis protein S n=27 Tax=Enterobacterales T...  102     2e-27
+  UniRef90_UPI0005CE7D46 hypothetical protein n=1 Tax=Escherichia...  102     2e-27
+  UniRef90_A0A0F0TY50 Holin n=18 Tax=Enterobacteriaceae TaxID=543...  102     3e-27
+  UniRef90_UPI0009E5A50C holin n=1 Tax=Brenneria goodwinii TaxID=...  102     3e-27
+  UniRef90_UPI000C1C220C hypothetical protein n=1 Tax=Escherichia...  101     3e-27
+  UniRef90_UPI000A3D7D57 holin n=4 Tax=Enterobacteriaceae TaxID=5...  102     4e-27
+  UniRef90_UPI000BB6289A holin n=1 Tax=Escherichia coli TaxID=562...  100     5e-27
+  UniRef90_A0A1Q8YNL4 Holin n=17 Tax=Enterobacteriaceae TaxID=543...  100     8e-27
+  UniRef90_A0A2W7XBF5 Lysis protein n=18 Tax=Escherichia coli Tax...  100     1e-26
+  UniRef90_A0A078LF33 Lysis protein S n=4 Tax=Enterobacteriaceae ...  100     1e-26
+  UniRef90_I6FDK7 Lysis S family protein n=10 Tax=Enterobacteriac...  100     1e-26
+  UniRef90_UPI000E1D0401 holin n=9 Tax=Escherichia coli TaxID=562...  100     1e-26
+  UniRef90_Q66BG7 Putative holin protein n=4 Tax=Yersiniaceae Tax...  100     1e-26
+  UniRef90_UPI000CDE98B4 holin n=1 Tax=Escherichia coli TaxID=562...  100     2e-26
+  UniRef90_A0A0L0GJE6 Holin n=2 Tax=Trabulsiella TaxID=158851 Rep...  100     2e-26
+  UniRef90_A0A380AEM8 Lysis protein S n=8 Tax=Enterobacteriaceae ...  99.8    2e-26
+  UniRef90_H9C183 Putative lysis protein n=3 Tax=root TaxID=1 Rep...  99.4    3e-26
+  UniRef90_I2RWI0 Lysis protein S n=5 Tax=Escherichia coli TaxID=...  98.6    5e-26
+  UniRef90_A0A329XMK8 Holin n=1 Tax=Escherichia coli TaxID=562 Re...  98.2    9e-26
+  UniRef90_UPI000652199D holin n=2 Tax=Pluralibacter gergoviae Ta...  98.2    1e-25
+  UniRef90_UPI000BE4E8C9 holin n=2 Tax=Escherichia TaxID=561 RepI...  97.8    1e-25
+  UniRef90_A0A376R0Z6 Lysis protein n=9 Tax=Enterobacteriaceae Ta...  97.4    2e-25
+  UniRef90_A0A3L2QXL4 Holin (Fragment) n=13 Tax=Escherichia coli ...  96.7    2e-25
+  UniRef90_UPI000CF6FAAE holin n=1 Tax=Escherichia coli TaxID=562...  96.7    3e-25
+  UniRef90_UPI000F6B807F holin n=1 Tax=Cedecea lapagei TaxID=1588...  96.3    5e-25
+  UniRef90_UPI0009BA979B holin n=1 Tax=Klebsiella pneumoniae TaxI...  96.3    6e-25
+  UniRef90_A0A3G4WVB7 Lysis protein n=2 Tax=Escherichia coli TaxI...  95.1    1e-24
+  UniRef90_B7MV00 Putative phage lysis protein S n=2 Tax=Escheric...  94.7    2e-24
+  UniRef90_UPI0006A42036 holin n=1 Tax=Escherichia coli TaxID=562...  93.6    5e-24
+  UniRef90_UPI0006996A46 holin n=1 Tax=Shigella sonnei TaxID=624 ...  93.6    5e-24
+  UniRef90_UPI000BDE852B hypothetical protein n=1 Tax=Escherichia...  93.6    6e-24
+  UniRef90_A0A193QJR2 Lysis protein S n=4 Tax=Sodalis TaxID=84565...  93.6    6e-24
+  UniRef90_A0A2A2SM99 Lysis protein n=1 Tax=Klebsiella pneumoniae...  93.2    6e-24
+  UniRef90_A0A086GBD3 Holin n=5 Tax=Serratia TaxID=613 RepID=A0A0...  93.6    8e-24
+  UniRef90_A0A376SQF2 Holin protein n=1 Tax=Escherichia coli TaxI...  93.2    1e-23
+  UniRef90_Q7UCH5 Holin n=15 Tax=Enterobacteriaceae TaxID=543 Rep...  92.4    2e-23
+  UniRef90_UPI000B4299D7 holin n=1 Tax=Escherichia coli TaxID=562...  92.0    2e-23
+  UniRef90_UPI000BB8B617 hypothetical protein n=1 Tax=Escherichia...  93.2    2e-23
+  UniRef90_UPI0006B68E54 hypothetical protein n=1 Tax=Escherichia...  92.0    2e-23
+  UniRef90_UPI0006ACD544 hypothetical protein n=2 Tax=Escherichia...  91.7    3e-23
+  UniRef90_A0A0X4EJN4 Holin n=9 Tax=Enterobacterales TaxID=91347 ...  91.7    3e-23
+  UniRef90_UPI0005C60A79 holin n=1 Tax=Pectobacterium carotovorum...  92.0    3e-23
+  UniRef90_K4W372 Putative holin protein n=2 Tax=Escherichia coli...  90.9    4e-23
+  UniRef90_UPI0008FF1C2A hypothetical protein n=1 Tax=Escherichia...  90.1    1e-22
+  UniRef90_V3F5E3 Uncharacterized protein n=10 Tax=Enterobacteria...  90.5    1e-22
+  UniRef90_A0A1K3FWG8 Lysis protein S n=1 Tax=Mycobacterium tuber...  90.5    1e-22
+  UniRef90_UPI000F4D1124 holin n=1 Tax=Escherichia coli TaxID=562...  90.1    2e-22
+  UniRef90_A0A1X3J4Z1 Lysis protein S-like protein n=1 Tax=Escher...  90.1    2e-22
+  UniRef90_UPI000937BBAF phage tail protein n=1 Tax=Escherichia c...  90.5    3e-22
+  UniRef90_UPI000BDEEFE0 hypothetical protein n=1 Tax=Escherichia...  89.0    3e-22
+  UniRef90_F4SL76 Lysis protein S, lambdoid prophage DLP12-like p...  88.6    3e-22
+  UniRef90_A0A0H3FIE0 Lysis S family protein n=6 Tax=Yersiniaceae...  88.6    6e-22
+  UniRef90_UPI000BE8D9C1 holin n=1 Tax=Escherichia coli TaxID=562...  87.8    7e-22
+  UniRef90_A0A0A2R9Z7 Holin n=2 Tax=Morganella morganii TaxID=582...  87.8    1e-21
+  UniRef90_UPI000BB6988C lysis protein n=1 Tax=Escherichia coli T...  86.3    4e-21
+  UniRef90_A0A2Y3LER8 Lysis protein S n=10 Tax=Shigella sonnei Ta...  86.7    5e-21
+  UniRef90_A0A0I1ENI9 Lysis protein S n=3 Tax=Enterobacteriaceae ...  86.7    5e-21
+  UniRef90_A0A3L8UTH8 Uncharacterized protein n=2 Tax=Escherichia...  84.7    2e-20
+  UniRef90_UPI000CDE6F9A lysis protein n=1 Tax=Escherichia coli T...  84.7    2e-20
+  UniRef90_A0A3P6K2I9 Lysis protein S n=1 Tax=Escherichia coli Ta...  84.3    2e-20
+  UniRef90_UPI0005CD9BA2 holin n=1 Tax=Escherichia coli TaxID=562...  83.6    4e-20
+  UniRef90_UPI0008FFCBCE hypothetical protein n=1 Tax=Escherichia...  84.0    4e-20
+  UniRef90_UPI000B3F316C holin n=1 Tax=Escherichia coli TaxID=562...  83.6    7e-20
+  UniRef90_UPI000B3EFEA1 holin n=5 Tax=Enterobacteriaceae TaxID=5...  82.4    1e-19
+  UniRef90_UPI0003A5D263 holin n=1 Tax=Escherichia coli TaxID=562...  82.0    2e-19
+  UniRef90_UPI000B3F4CB6 holin n=1 Tax=Escherichia coli TaxID=562...  82.4    2e-19
+  UniRef90_A0A2T1MZA4 Host specificity protein J (Fragment) n=4 T...  88.2    2e-19
+  UniRef90_UPI000B3F0C43 holin n=1 Tax=Escherichia coli TaxID=562...  81.6    3e-19
+  UniRef90_A0A1V3CAJ7 Lysis protein n=1 Tax=Escherichia coli TaxI...  80.5    5e-19
+  UniRef90_UPI0003BEEF4E lysis S family protein n=2 Tax=Enterobac...  80.9    7e-19
+  UniRef90_UPI0006C87B40 lysis protein n=1 Tax=Escherichia coli T...  79.7    1e-18
+  UniRef90_A0A377FDY8 Lysis protein S n=1 Tax=Escherichia coli Ta...  79.3    2e-18
+  UniRef90_A0A1B7HMB8 Lysis S family protein n=2 Tax=Buttiauxella...  79.0    4e-18
+  UniRef90_A0A2U8I3L3 Lysis protein n=6 Tax=Candidatus Fukatsuia ...  78.6    5e-18
+  UniRef90_UPI00069C5158 hypothetical protein n=1 Tax=Shigella so...  78.6    5e-18
+  UniRef90_A0A163YM83 Lysis S family protein n=14 Tax=Enterobacte...  78.6    6e-18
+  UniRef90_UPI000A37FC52 holin n=5 Tax=Enterobacteriaceae TaxID=5...  78.6    7e-18
+  UniRef90_A0A377LFR7 Putative prophage lysis protein n=1 Tax=Esc...  77.8    7e-18
+  UniRef90_UPI0007B608C4 holin n=1 Tax=Escherichia coli TaxID=562...  77.8    8e-18
+  UniRef90_A0A2J0QP78 Holin (Fragment) n=11 Tax=Escherichia coli ...  77.4    1e-17
+  UniRef90_A0A2Y5AV78 Lysis protein S n=2 Tax=Shigella flexneri T...  77.4    1e-17
+  UniRef90_A0A0H3FU89 Lysis S family protein n=13 Tax=Enterobacte...  77.4    2e-17
+  UniRef90_I2WFI8 PF07041 family protein n=1 Tax=Escherichia coli...  82.8    2e-17
+  UniRef90_UPI0009082673 hypothetical protein n=1 Tax=Escherichia...  76.6    2e-17
+  UniRef90_A0A0M3F2V1 Lysis protein n=6 Tax=Enterobacteriaceae Ta...  76.6    4e-17
+  UniRef90_A0A1E5MXK0 Lysis protein n=6 Tax=Enterobacteriaceae Ta...  76.6    4e-17
+  UniRef90_A0A270V663 Lysis protein n=1 Tax=Enterobacter cloacae ...  76.3    6e-17
+  UniRef90_A0A0H3FHD6 Lysis S family protein n=2 Tax=Rahnella Tax...  75.9    6e-17
+  UniRef90_E0WR75 Putative phage lysis (Holin) protein n=2 Tax=Ca...  74.7    1e-16
+  UniRef90_UPI000940E573 hypothetical protein n=1 Tax=Enterobacte...  77.0    2e-16
+  UniRef90_UPI0003EEF9F7 holin n=5 Tax=Escherichia coli TaxID=562...  74.3    2e-16
+  UniRef90_UPI00064A2564 lysis protein n=1 Tax=Enterobacter genom...  74.7    2e-16
+  UniRef90_UPI000663D46D holin n=2 Tax=Shigella sonnei TaxID=624 ...  73.9    5e-16
+  UniRef90_UPI000D596EC4 holin n=1 Tax=Escherichia coli TaxID=562...  73.2    5e-16
+  UniRef90_C8T826 Lysis protein S n=17 Tax=Enterobacterales TaxID...  73.6    6e-16
+  UniRef90_UPI000E00AB86 holin n=1 Tax=Escherichia coli TaxID=562...  72.8    6e-16
+  UniRef90_UPI00050BA72F holin n=1 Tax=Escherichia coli TaxID=562...  71.6    2e-15
+  UniRef90_D1P370 Lysis protein S n=8 Tax=Gammaproteobacteria Tax...  72.4    2e-15
+  UniRef90_UPI0003356A14 hypothetical protein n=1 Tax=Escherichia...  71.6    2e-15
+  UniRef90_UPI00057A0A1C lysis protein n=1 Tax=Leclercia adecarbo...  71.2    4e-15
+  UniRef90_UPI00029CB2CF hypothetical protein n=1 Tax=Klebsiella ...  70.1    1e-14
+  UniRef90_UPI000E5CA07E holin n=1 Tax=Shigella sonnei TaxID=624 ...  68.9    2e-14
+  UniRef90_UPI000E5D90D8 holin n=5 Tax=Enterobacterales TaxID=913...  68.9    3e-14
+  UniRef90_UPI00097D85A2 holin n=1 Tax=Shigella sonnei TaxID=624 ...  68.9    3e-14
+  UniRef90_UPI000F4AF22F DUF1327 domain-containing protein n=1 Ta...  69.7    3e-14
+  UniRef90_A0A376PU41 Putative lysis protein S n=6 Tax=Escherichi...  69.3    3e-14
+  UniRef90_F4T742 Lysis protein S, lambdoid prophage DLP12-like p...  68.6    5e-14
+  UniRef90_UPI00069AE661 holin n=1 Tax=Escherichia coli TaxID=562...  68.2    5e-14
+  UniRef90_UPI000B3F29BB holin n=1 Tax=Escherichia coli TaxID=562...  68.2    6e-14
+  UniRef90_UPI00098986AD holin n=1 Tax=Escherichia coli TaxID=562...  68.2    7e-14
+  UniRef90_A0A1X3I7G8 Lysis protein S-like protein n=2 Tax=Escher...  68.2    8e-14
+  UniRef90_UPI000691B837 hypothetical protein n=1 Tax=Enterobacte...  68.2    1e-13
+  UniRef90_UPI000F4984D4 holin n=1 Tax=Escherichia coli TaxID=562...  67.4    1e-13
+  UniRef90_A0A379TZX0 Lysis protein S n=7 Tax=Salmonella enterica...  67.0    2e-13
+  UniRef90_UPI000B3F150C holin n=1 Tax=Escherichia coli TaxID=562...  66.6    2e-13
+  UniRef90_UPI000D136692 lysis protein n=1 Tax=Escherichia coli T...  66.2    3e-13
+  UniRef90_G8LD41 Lysis protein S-like protein from lambdoid prop...  66.2    5e-13
+  UniRef90_UPI000C1BC700 hypothetical protein n=1 Tax=Escherichia...  65.5    6e-13
+  UniRef90_H3RLK4 Lysis protein S n=1 Tax=Pantoea stewartii subsp...  63.9    4e-12
+  UniRef90_UPI000B3F5ED4 hypothetical protein n=1 Tax=Escherichia...  62.8    7e-12
+  UniRef90_A0A3I8C1G6 Lysis protein n=5 Tax=Salmonella enterica T...  63.2    7e-12
+  UniRef90_A0A3J4FFR4 Lysis protein n=1 Tax=Salmonella enterica T...  62.0    2e-11
+  UniRef90_A0A3J5HJW5 Lysis protein n=3 Tax=Salmonella enterica T...  61.6    3e-11
+  UniRef90_A0A0A0GNL6 Lysis protein S-like protein n=2 Tax=Entero...  60.5    3e-11
+  UniRef90_A0A3K9FEC0 Lysis protein n=5 Tax=Salmonella enterica T...  60.5    9e-11
+  UniRef90_UPI0007B38721 lysis protein n=1 Tax=Enterobacter kobei...  59.7    2e-10
+  UniRef90_UPI0005DC9F12 peptidoglycan-binding protein LysM n=1 T...  59.3    2e-10
+  UniRef90_UPI000BAAFCFB hypothetical protein n=2 Tax=Escherichia...  58.5    3e-10
+  UniRef90_UPI00085A4DC8 DUF1327 domain-containing protein n=1 Ta...  58.9    4e-10
+  UniRef90_A0A376ZGP8 Putative lysis protein S n=1 Tax=Escherichi...  57.8    5e-10
+  UniRef90_UPI000B3F2233 holin n=1 Tax=Escherichia coli TaxID=562...  58.2    5e-10
+  UniRef90_UPI00098BD343 hypothetical protein n=1 Tax=Escherichia...  57.8    8e-10
+  UniRef90_UPI0009917770 hypothetical protein n=1 Tax=Shigella bo...  57.4    1e-09
+  UniRef90_UPI000A1DECB8 hypothetical protein n=1 Tax=Escherichia...  56.6    2e-09
+  UniRef90_UPI000A38FD1F hypothetical protein n=1 Tax=Escherichia...  58.9    3e-09
+  UniRef90_UPI000B3F2E3B hypothetical protein n=1 Tax=Escherichia...  56.6    3e-09
+  UniRef90_A0A3A9INX5 Lysis protein n=2 Tax=Erwiniaceae TaxID=190...  56.6    3e-09
+  UniRef90_UPI000DE4E8A3 hypothetical protein n=1 Tax=Escherichia...  55.5    4e-09
+  UniRef90_A0A0K3ZW39 Phage protein YjhS encoded within prophage ...  57.0    7e-09
+  UniRef90_UPI000E431BC5 hypothetical protein n=1 Tax=Escherichia...  53.5    4e-08
+  UniRef90_UPI0002670E4D holin n=1 Tax=Escherichia coli TaxID=562...  52.8    6e-08
+  UniRef90_UPI0005DF3AC9 peptidoglycan-binding protein LysM n=1 T...  53.1    7e-08
+  UniRef90_A0A0U1I2P3 Holin protein n=4 Tax=Yersinia TaxID=444888...  52.8    8e-08
+  UniRef90_A0A0T9PSS2 Holin protein n=2 Tax=Yersinia pseudotuberc...  52.8    9e-08
+  UniRef90_UPI00063D4E2C holin n=1 Tax=Escherichia coli TaxID=562...  52.0    1e-07
+  UniRef90_A0A0E8L7B4 Holin protein n=2 Tax=Yersinia enterocoliti...  51.6    3e-07
+  UniRef90_D2AA42 Lysis protein S n=2 Tax=Shigella flexneri TaxID...  50.8    4e-07
+  UniRef90_A0A0B1R4K8 Lysis protein n=1 Tax=Pantoea rodasii TaxID...  50.1    1e-06
+  UniRef90_A0A3P4KIB2 Uncharacterized protein n=1 Tax=Escherichia...  49.3    1e-06
+  UniRef90_A0A1B7K1H9 Putative holin protein n=4 Tax=Providencia ...  49.7    1e-06
+  UniRef90_A0A3H7SX74 Uncharacterized protein (Fragment) n=4 Tax=...  48.1    2e-06
+  UniRef90_A0A1X3I4C9 Lysis protein S-like protein n=2 Tax=Escher...  49.7    2e-06
+  UniRef90_A0A090V0R8 Putative phage lysis protein homolog n=3 Ta...  49.3    2e-06
+  UniRef90_UPI000B97C89A lysis protein n=1 Tax=Kosakonia cowanii ...  49.3    3e-06
+  UniRef90_A0A377X0N9 Lysis S family protein n=1 Tax=Klebsiella p...  48.1    3e-06
+  UniRef90_UPI000F88B76D UPI000F88B76D related cluster n=1 Tax=un...  49.3    3e-06
+  UniRef90_UPI000F88D48A lysis protein n=1 Tax=Enterobacter horma...  48.5    4e-06
+  UniRef90_A0A090VYT6 Phage lysis protein homolog EssD n=4 Tax=En...  48.5    4e-06
+  UniRef90_UPI00073652EF lysis protein n=1 Tax=Pantoea dispersa T...  48.5    4e-06
+  UniRef90_UPI0009EEB0EF lysis protein n=1 Tax=Erwinia sp. ErVv1 ...  48.5    5e-06
+  UniRef90_A0A2M9WIG9 Lysis protein n=2 Tax=Enterobacterales TaxI...  48.1    7e-06
+  UniRef90_A0A376U7V4 Putative lysis protein S n=2 Tax=Escherichi...  47.0    8e-06
+  UniRef90_D1NX73 Uncharacterized protein (Fragment) n=1 Tax=Prov...  47.0    8e-06
+  UniRef90_A0A3M7UIH0 Lysis protein n=3 Tax=Erwiniaceae TaxID=190...  47.8    9e-06
+  UniRef90_UPI0009B8FF72 lysis protein n=1 Tax=Enterobacter cance...  47.8    1e-05
+  UniRef90_U9XMT2 Uncharacterized protein n=1 Tax=Escherichia col...  46.2    1e-05
+  UniRef90_UPI0007875A40 hypothetical protein n=1 Tax=Erwinia per...  47.4    2e-05
+  UniRef90_UPI00026D2541 Lysis S family protein n=4 Tax=Pantoea T...  47.0    2e-05
+  UniRef90_A0A3A9IDJ0 Lysis protein n=1 Tax=Erwiniaceae bacterium...  46.6    2e-05
+  UniRef90_J3CFH1 Lysis protein S n=3 Tax=Erwiniaceae TaxID=19034...  46.6    3e-05
+  UniRef90_A0A0U1HD64 Holin protein n=26 Tax=Yersiniaceae TaxID=1...  46.2    3e-05
+  UniRef90_A0A2S5KGV8 Lysis protein n=14 Tax=Enterobacterales Tax...  45.4    8e-05
+  UniRef90_A0A2U8I482 Lysis protein n=1 Tax=Candidatus Fukatsuia ...  45.1    9e-05
+  UniRef90_A0A376VJV2 Putative prophage lysis protein n=1 Tax=Esc...  44.3    1e-04
+  UniRef90_UPI000B9FCFCB lysis protein n=1 Tax=Salmonella enteric...  44.3    2e-04
+  UniRef90_A0A1X0WAZ6 Uncharacterized protein n=1 Tax=Rouxiella b...  44.3    2e-04
+  UniRef90_A0A376NFC3 Phage lysis protein n=1 Tax=Escherichia col...  43.1    2e-04
+  UniRef90_A0A1J4QPT0 Lysis protein n=1 Tax=Salmonella enterica I...  43.9    3e-04
+  UniRef90_UPI00058079B6 lysis protein n=1 Tax=Pantoea sp. MBLJ3 ...  43.9    3e-04
+  UniRef90_A0A0V9JAT1 Uncharacterized protein n=14 Tax=Enterobact...  43.1    5e-04
+  UniRef90_A0A2U1D8R4 Holin family HP1 protein n=1 Tax=Pantoea an...  43.1    6e-04
+  UniRef90_UPI0009B580FB lysis protein n=1 Tax=Enterobacter cloac...  43.1    7e-04
+  UniRef90_UPI0009072363 hypothetical protein n=1 Tax=Escherichia...  42.7    8e-04
+  UniRef90_Q1I0Z2 Hol n=3 Tax=root TaxID=1 RepID=Q1I0Z2_9CAUD         42.4    0.001
+  UniRef90_UPI00024F1E69 hypothetical protein n=1 Tax=Enterobacte...  42.0    0.003
+  UniRef90_UPI000FDA7FAA holin n=1 Tax=Pantoea dispersa TaxID=598...  42.0    0.003
+  UniRef90_UPI000D52574F lysis protein n=1 Tax=Klebsiella oxytoca...  41.2    0.004
+  UniRef90_UPI00097DBD95 hypothetical protein n=1 Tax=Shigella so...  40.4    0.004
+  UniRef90_F3LHY1 Uncharacterized protein n=1 Tax=gamma proteobac...  40.8    0.004
+  UniRef90_A0A3P1K5R9 Lysis protein n=1 Tax=Escherichia coli TaxI...  41.6    0.007
+  UniRef90_A0A1X2RJH0 Lysis protein n=4 Tax=Salmonella enterica T...  40.4    0.007
+  UniRef90_UPI0002144E92 hypothetical protein n=1 Tax=Pasteurella...  40.0    0.008
+  UniRef90_UPI000A3AABF1 lysis protein n=1 Tax=Klebsiella michiga...  40.4    0.009
+  UniRef90_UPI0009A9897B lysis protein n=1 Tax=Salmonella enteric...  40.0    0.009
+  UniRef90_A0A2M9WBY1 Lysis protein n=9 Tax=Pantoea TaxID=53335 R...  40.0    0.010
+  UniRef90_A0A3N6Y080 Holin n=9 Tax=Pantoea TaxID=53335 RepID=A0A...  40.8    0.010
+  UniRef90_A0A2H4YH15 Uncharacterized protein n=1 Tax=Raoultella ...  41.6    0.017
+  UniRef90_A0A3M1Y0J7 Uncharacterized protein n=1 Tax=Chloroflexi...  39.7    0.017
+  UniRef90_UPI0009DCEB4F hypothetical protein n=1 Tax=Tolumonas l...  40.0    0.018
+  UniRef90_A0A1X0X4X4 Lysis protein n=1 Tax=Kluyvera intermedia T...  39.7    0.018
+  UniRef90_A0A089PPW3 Lysis protein n=2 Tax=Enterobacteriaceae Ta...  39.3    0.019
+  UniRef90_A0A0J9B8R8 Lysis protein n=2 Tax=Enterobacterales TaxI...  39.3    0.024
+  UniRef90_A0A384GE61 Lysis protein n=10 Tax=Enterobacteriaceae T...  38.9    0.029
+  UniRef90_A0A318G5Z1 Bacteriophage P21 holin S n=1 Tax=Grimontel...  37.7    0.031
+  UniRef90_UPI00073F4523 lysis protein n=1 Tax=Type-C symbiont of...  38.5    0.037
+  UniRef90_A0A0B1RA92 Lysis protein n=2 Tax=Pantoea TaxID=53335 R...  38.5    0.039
+  UniRef90_A0A1D3U0G2 Lysis S family protein n=48 Tax=Enterobacte...  38.5    0.039
+  UniRef90_V3CXZ1 Uncharacterized protein n=1 Tax=Enterobacter cl...  38.5    0.040
+  UniRef90_A0A1Q8YQA7 Lysis protein n=5 Tax=Bacteria TaxID=2 RepI...  38.5    0.040
+  UniRef90_A0A3I1H5R6 DUF1737 domain-containing protein n=6 Tax=E...  38.5    0.042
+  UniRef90_A0A3L5AE00 Uncharacterized protein n=1 Tax=Escherichia...  37.4    0.043
+  UniRef90_UPI0007E8F7C3 hypothetical protein n=1 Tax=Escherichia...  38.1    0.043
+  UniRef90_A0A3C0H5A1 Lysis protein n=1 Tax=Enterobacteriaceae ba...  38.5    0.044
+  UniRef90_A0A2T7ALI1 Lysis protein n=12 Tax=Enterobacteriaceae T...  38.1    0.054
+  UniRef90_H3N069 Uncharacterized protein n=4 Tax=Klebsiella TaxI...  38.1    0.055
+  UniRef90_A0A0N8IRF2 Uncharacterized protein n=3 Tax=Escherichia...  37.7    0.064
+  UniRef90_A0A1X0X4R4 Lysis protein n=1 Tax=Kluyvera intermedia T...  38.1    0.065
+  UniRef90_UPI000A39F150 hypothetical protein n=1 Tax=Escherichia...  38.1    0.080
+  UniRef90_D1P079 Uncharacterized protein n=1 Tax=Providencia rus...  36.6    0.10 
+  UniRef90_A0A2L0ILL7 Lysis protein n=1 Tax=Mixta gaviniae TaxID=...  37.4    0.11 
+  UniRef90_A0A0J8Y957 Lysis protein n=5 Tax=Enterobacteriaceae Ta...  37.4    0.12 
+  UniRef90_A0A0H3GM77 Uncharacterized protein n=1 Tax=Klebsiella ...  37.0    0.15 
+  UniRef90_A0A2P5GPD0 Lysis protein n=3 Tax=Enterobacteriaceae Ta...  37.0    0.17 
+  UniRef90_A0A2V4FX05 Lysis protein n=9 Tax=Yersiniaceae TaxID=19...  37.0    0.19 
+  UniRef90_A0A085JGT8 Lysis protein S n=1 Tax=Tatumella ptyseos A...  36.2    0.19 
+  UniRef90_A0A0L0GHF3 Lysis protein n=3 Tax=Trabulsiella odontote...  37.0    0.21 
+  UniRef90_A0A2X5PC42 Lysis protein S n=2 Tax=Erwiniaceae TaxID=1...  36.6    0.21 
+  UniRef90_I2B9S8 Uncharacterized protein n=3 Tax=Shimwellia blat...  36.6    0.23 
+  UniRef90_UPI00076201EE holin n=2 Tax=Pseudomonas TaxID=286 RepI...  36.6    0.25 
+  UniRef90_A0A0U4DBS0 Uncharacterized protein n=1 Tax=Aeromicrobi...  37.0    0.26 
+  UniRef90_A0A3I6P1Z3 Uncharacterized protein n=2 Tax=Salmonella ...  36.6    0.26 
+  UniRef90_A0A3I7QV55 Uncharacterized protein n=3 Tax=Salmonella ...  36.6    0.27 
+  UniRef90_A0A1E7Z2M6 Uncharacterized protein n=7 Tax=Gammaproteo...  36.2    0.32 
+  UniRef90_UPI0003821E6A hypothetical protein n=1 Tax=Pantoea sp....  36.2    0.34 
+  UniRef90_A0A349Z2D4 Holin n=1 Tax=Alteromonas sp. TaxID=232 Rep...  35.8    0.38 
+  UniRef90_UPI000255F16C hypothetical protein n=1 Tax=Citricoccus...  35.8    0.43 
+  UniRef90_UPI000CE33B35 hypothetical protein n=1 Tax=Cryobacteri...  35.8    0.45 
+  UniRef90_A0A379R5Y9 Lysis protein S n=2 Tax=Salmonella enterica...  35.8    0.45 
+  UniRef90_A0A2S4RKL0 Uncharacterized protein n=1 Tax=Pantoea sp....  35.8    0.45 
+  UniRef90_A0A267S209 Lysis protein n=1 Tax=Enterobacter sp. 10-1...  35.4    0.50 
+  UniRef90_F7NLI4 Acetolactate synthase n=1 Tax=Acetonema longum ...  37.0    0.56 
+  UniRef90_A0A2R3H7X9 Lysis protein n=5 Tax=Serratia TaxID=613 Re...  35.4    0.63 
+  UniRef90_UPI00091E9D36 lysis protein n=3 Tax=Pantoea ananas Tax...  35.4    0.64 
+  UniRef90_D8JEI7 Uncharacterized protein n=13 Tax=Acinetobacter ...  35.8    0.67 
+  UniRef90_A0A370YM91 Lysis protein n=1 Tax=Escherichia coli TaxI...  35.8    0.70 
+  UniRef90_A0A334ZK25 Lysis protein S n=1 Tax=Acinetobacter bauma...  35.0    0.71 
+  UniRef90_A0A381PPT7 Uncharacterized protein n=1 Tax=marine meta...  37.0    0.72 
+  UniRef90_A0A089Q387 Lysis protein n=4 Tax=Enterobacteriaceae Ta...  35.4    0.73 
+  UniRef90_A0A3I5PDE3 Lysis protein n=1 Tax=Salmonella enterica T...  35.0    0.73 
+  UniRef90_N9D7I1 Uncharacterized protein n=12 Tax=Acinetobacter ...  35.4    0.73 
+  UniRef90_UPI0009DE2D77 hypothetical protein n=1 Tax=Pantoea sp....  35.0    0.76 
+  UniRef90_A0A2U8I6M1 Uncharacterized protein n=1 Tax=Candidatus ...  35.4    0.81 
+  UniRef90_UPI0007B3B644 hypothetical protein n=1 Tax=Klebsiella ...  35.0    0.90 
+  UniRef90_A0A1I5BDN8 Bacteriophage holin family HP1 n=2 Tax=Izha...  35.0    0.99 
+  UniRef90_A0A336JAV5 Lysis protein S n=12 Tax=Gammaproteobacteri...  35.0    1.1  
+  UniRef90_UPI0003B229B1 hypothetical protein n=3 Tax=Pantoea Tax...  35.4    1.2  
+  UniRef90_A0A3I0Z6U8 Coat protein n=1 Tax=Salmonella enterica Ta...  36.2    1.3  
+  UniRef90_UPI000E4B99A4 lysis protein n=1 Tax=Erwinia persicina ...  34.7    1.3  
+  UniRef90_P17597 Acetolactate synthase, chloroplastic n=75 Tax=E...  35.8    1.5  
+  UniRef90_UPI000736E512 lysis protein n=3 Tax=Pantoea TaxID=5333...  34.3    1.8  
+  UniRef90_A0A0U5L3G4 Uncharacterized protein n=1 Tax=Erwinia ger...  34.3    1.9  
+  UniRef90_A0A165NZR3 Uncharacterized protein n=5 Tax=Proteobacte...  34.7    1.9  
+  UniRef90_UPI0009339F24 lysis protein n=1 Tax=Nissabacter archet...  34.3    2.0  
+  UniRef90_A0A0F4R544 Uncharacterized protein n=2 Tax=Marinomonas...  33.9    2.1  
+  UniRef90_UPI0007E44B19 hypothetical protein n=1 Tax=Yersinia sp...  33.9    2.1  
+  UniRef90_A0A292IIZ3 Uncharacterized protein n=1 Tax=Mycoplasma ...  35.4    2.3  
+  UniRef90_A0A210TNM5 Uncharacterized protein n=1 Tax=Yersinia en...  34.7    2.3  
+  UniRef90_A0A2T5Q7F6 Lysis protein n=2 Tax=Acinetobacter TaxID=4...  34.3    2.5  
+  UniRef90_A0A2A7V2G1 Lysis protein n=14 Tax=root TaxID=1 RepID=A...  33.9    2.6  
+  UniRef90_UPI00070CF759 lysis protein n=1 Tax=Acinetobacter pitt...  34.3    2.8  
+  UniRef90_A0A209B1X7 Uncharacterized protein n=1 Tax=Yersinia fr...  34.3    2.9  
+  UniRef90_W1PRG9 Acetolactate synthase n=3 Tax=Amborella trichop...  35.0    2.9  
+  UniRef90_A0A1H0A108 Acetolactate synthase n=2 Tax=Dendrosporoba...  35.0    2.9  
+  UniRef90_J3DEC3 Lysis protein S n=3 Tax=Pantoea TaxID=53335 Rep...  33.9    3.1  
+  UniRef90_A0A2T5QAQ7 Lysis protein n=3 Tax=Acinetobacter TaxID=4...  33.9    3.1  
+  UniRef90_C7ZNM9 Predicted protein n=2 Tax=Fusarium solani speci...  35.0    3.2  
+  UniRef90_A0A3I1JZT1 Holin (Fragment) n=8 Tax=Escherichia coli T...  32.7    3.3  
+  UniRef90_UPI0006AC7772 DUF3644 domain-containing protein n=1 Ta...  35.0    3.3  
+  UniRef90_UPI00066FF8DF biosynthetic-type acetolactate synthase ...  35.0    3.4  
+  UniRef90_A0A1H9RLN4 Uncharacterized protein n=1 Tax=Pseudomonas...  35.0    3.6  
+  UniRef90_A0A381V8U9 Uncharacterized protein (Fragment) n=1 Tax=...  34.7    3.9  
+  UniRef90_A0A3G2FNS5 Lysis protein n=2 Tax=Serratia TaxID=613 Re...  33.5    4.4  
+  UniRef90_A0A1E7W5N7 Para-nitrobenzyl esterase n=1 Tax=Duganella...  34.7    4.6  
+  UniRef90_A0A3B9I2H6 Uncharacterized protein n=1 Tax=Clostridial...  34.7    4.7  
+  UniRef90_A0A3E2HKM5 Uncharacterized protein (Fragment) n=1 Tax=...  34.7    4.8  
+  UniRef90_A0A2U3JW63 Acetolactate synthase n=1 Tax=Candidatus Su...  34.3    5.0  
+  UniRef90_UPI0008A64985 hypothetical protein n=1 Tax=Staphylococ...  34.3    5.1  
+  UniRef90_A0A0F2C4M6 Uncharacterized protein n=2 Tax=Microbacter...  33.9    5.3  
+  UniRef90_A0A127KNH9 Uncharacterized protein n=1 Tax=Pseudomonas...  32.7    5.3  
+  UniRef90_A0A2T7X5L3 Uncharacterized protein n=1 Tax=Microbacter...  33.5    5.6  
+  UniRef90_A0A2E6YAK7 Acetolactate synthase n=1 Tax=Gammaproteoba...  34.3    5.6  
+  UniRef90_A0A1N6RWR1 Uncharacterized protein n=1 Tax=Enterobacte...  33.1    5.7  
+  UniRef90_A0A2I8CPF0 Lysis protein n=7 Tax=Acinetobacter calcoac...  33.1    5.9  
+  UniRef90_UPI000D170FD8 lysis protein n=1 Tax=Kosakonia sp. H7A ...  33.1    6.0  
+  UniRef90_UPI000A3A88AE flavodoxin family protein n=1 Tax=Strept...  33.9    6.4  
+  UniRef90_A0A0Q8RCX5 Uncharacterized protein n=1 Tax=Sphingomona...  32.7    6.7  
+  UniRef90_A0A0S9RB49 Uncharacterized protein n=2 Tax=Nocardioida...  33.1    7.1  
+  UniRef90_A0A059CXQ0 Acetolactate synthase n=1 Tax=Eucalyptus gr...  33.9    7.4  
+  UniRef90_A0A2S9I893 Lysis protein n=1 Tax=Pantoea coffeiphila T...  32.7    7.7  
+  UniRef90_A0A0R0AE19 Uncharacterized protein n=3 Tax=Stenotropho...  32.7    7.8  
+  UniRef90_A0A2A7V153 Lysis protein n=1 Tax=Enterobacter agglomer...  32.7    7.8  
+  UniRef90_A0A1T2XX20 Holin n=3 Tax=Pseudomonas TaxID=286 RepID=A...  32.7    8.1  
+  UniRef90_UPI000482D02F hypothetical protein n=1 Tax=Solirubroba...  33.5    8.1  
+  UniRef90_A0A1Y2X8F9 Uncharacterized protein (Fragment) n=3 Tax=...  33.9    8.2  
+  UniRef90_A0A2M8K6T2 Uncharacterized protein n=1 Tax=Marinomonas...  32.3    8.2  
+  UniRef90_UPI000A038225 hypothetical protein n=1 Tax=Agromyces i...  32.3    8.3  
+  UniRef90_UPI00090759A4 hypothetical protein n=1 Tax=Pantoea sep...  32.0    8.6  
+  UniRef90_U5D252 Uncharacterized protein n=1 Tax=Amborella trich...  33.9    8.6  
+  UniRef90_V4NHL8 Uncharacterized protein n=1 Tax=Eutrema salsugi...  33.5    9.5  
+  UniRef90_UPI000EB23F3A DNA translocase FtsK n=1 Tax=Mucilaginib...  33.5    9.7  
+  UniRef90_S8C5M7 Acetolactate synthase (Fragment) n=1 Tax=Genlis...  33.5    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 735327869332
+Warning: [psiblast] lcl|Query_1 NP_415086.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415086.1
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI00098A7831 hypothetical protein n=1 Tax=Escherichia...  109     6e-29
+  UniRef90_Q8X4M8 Putative lysis protein S of prophage CP-933V n=...  106     8e-29
+  UniRef90_K8BZC2 Phage lysis protein S n=15 Tax=Enterobacteriace...  104     3e-28
+  UniRef90_P0A9R3 Lysis protein S homolog from lambdoid prophage ...  104     4e-28
+  UniRef90_A0A0V9HE22 Holin n=17 Tax=root TaxID=1 RepID=A0A0V9HE2...  103     6e-28
+  UniRef90_A0A0E0VEJ0 DLP12 prophage, predicted phage lysis prote...  103     7e-28
+  UniRef90_A0A061L122 Holin n=29 Tax=Enterobacteriaceae TaxID=543...  103     9e-28
+  UniRef90_UPI000669374B holin n=1 Tax=Klebsiella oxytoca TaxID=5...  101     3e-27
+  UniRef90_P77237 Prophage lysis protein S homolog EssQ n=66 Tax=...  101     4e-27
+  UniRef90_A0A0L1BMK3 Holin n=8 Tax=Enterobacteriaceae TaxID=543 ...  101     4e-27
+  UniRef90_A0A066R382 Holin n=155 Tax=root TaxID=1 RepID=A0A066R3...  101     5e-27
+  UniRef90_A0A061YHU7 Holin n=116 Tax=root TaxID=1 RepID=A0A061YH...  101     5e-27
+  UniRef90_UPI000D59EA55 holin n=1 Tax=Escherichia coli TaxID=562...  101     9e-27
+  UniRef90_A0A029I151 Lysis S family protein n=26 Tax=Enterobacte...  101     9e-27
+  UniRef90_A0A3L4ZBK2 Holin n=1 Tax=Escherichia coli TaxID=562 Re...  100     9e-27
+  UniRef90_A0A066SYA7 DLP12 prophage phage lysis protein n=145 Ta...  100     1e-26
+  UniRef90_A0A061K7U8 Holin n=116 Tax=Enterobacterales TaxID=9134...  100     1e-26
+  UniRef90_UPI000CE54659 hypothetical protein n=1 Tax=Escherichia...  101     1e-26
+  UniRef90_P27360 Antiholin n=119 Tax=root TaxID=1 RepID=HOLIN_BPP21  100     1e-26
+  UniRef90_A0A376ZAW0 Lysis protein S n=61 Tax=Proteobacteria Tax...  101     1e-26
+  UniRef90_A0A0D8W279 Holin n=22 Tax=Escherichia coli TaxID=562 R...  100     1e-26
+  UniRef90_A0A3G4X6X2 Holin n=2 Tax=Escherichia coli TaxID=562 Re...  100     2e-26
+  UniRef90_Q32GL7 Lysis protein S n=349 Tax=root TaxID=1 RepID=Q3...  99.9    2e-26
+  UniRef90_A7ZM17 Lysis protein S n=2 Tax=Enterobacteriaceae TaxI...  99.5    3e-26
+  UniRef90_A0A0D8WDA4 Holin n=19 Tax=Enterobacteriaceae TaxID=543...  99.1    4e-26
+  UniRef90_UPI000D16AA57 holin n=2 Tax=Escherichia coli TaxID=562...  98.7    6e-26
+  UniRef90_A0A376SJJ8 Endolysin of cryptic prophage CP-933M n=9 T...  101     7e-26
+  UniRef90_UPI00076F1D39 holin n=3 Tax=Escherichia coli TaxID=562...  98.7    9e-26
+  UniRef90_A0A2S9I5N5 Holin n=1 Tax=Pantoea coffeiphila TaxID=146...  98.4    9e-26
+  UniRef90_A0A2H9A338 Holin n=2 Tax=Escherichia coli TaxID=562 Re...  98.4    1e-25
+  UniRef90_A0A097R819 Holin n=7 Tax=Hafniaceae TaxID=1903412 RepI...  98.0    1e-25
+  UniRef90_UPI000CF15F73 holin n=2 Tax=Escherichia coli TaxID=562...  98.0    1e-25
+  UniRef90_A0A090V636 Phage lysis protein homolog EssQ n=7 Tax=En...  98.0    1e-25
+  UniRef90_A0A0F3VRS0 Holin n=68 Tax=root TaxID=1 RepID=A0A0F3VRS...  97.6    2e-25
+  UniRef90_A0A0F3T655 Holin n=56 Tax=Enterobacteriaceae TaxID=543...  96.8    3e-25
+  UniRef90_A4WB41 Lysis S family protein n=1 Tax=Enterobacter sp....  96.8    4e-25
+  UniRef90_A0A0F3TR56 Holin n=9 Tax=Escherichia coli TaxID=562 Re...  96.0    6e-25
+  UniRef90_UPI000C77CDE0 holin n=1 Tax=Escherichia coli TaxID=562...  96.0    7e-25
+  UniRef90_A0A348DDK9 Lysis protein S homolog from lambdoid proph...  96.0    7e-25
+  UniRef90_A0A0H3HCM4 Lysis S family protein n=25 Tax=Enterobacte...  96.0    1e-24
+  UniRef90_A0A1E5WSR4 Holin n=8 Tax=Escherichia coli TaxID=562 Re...  95.7    1e-24
+  UniRef90_UPI000B7FEEE9 holin n=4 Tax=Escherichia coli TaxID=562...  94.5    3e-24
+  UniRef90_A0A140NC30 Lysis S family protein n=3 Tax=Escherichia ...  94.5    3e-24
+  UniRef90_A0A0Q4MLZ8 Holin n=1 Tax=Erwinia sp. Leaf53 TaxID=1736...  94.5    3e-24
+  UniRef90_A0A0J6M8P9 Holin n=17 Tax=Enterobacteriaceae TaxID=543...  94.1    4e-24
+  UniRef90_UPI000DA4BC60 holin n=1 Tax=Escherichia coli TaxID=562...  93.7    7e-24
+  UniRef90_UPI000944FBD5 hypothetical protein n=1 Tax=Escherichia...  95.7    1e-23
+  UniRef90_I2WDI0 Lysis protein S n=2 Tax=Escherichia coli TaxID=...  93.7    1e-23
+  UniRef90_UPI000B3F613F holin n=1 Tax=Escherichia coli TaxID=562...  93.0    1e-23
+  UniRef90_D6HVZ5 Uncharacterized protein n=5 Tax=Escherichia col...  92.2    2e-23
+  UniRef90_A0A0F0TY50 Holin n=18 Tax=Enterobacteriaceae TaxID=543...  92.2    3e-23
+  UniRef90_UPI0002A3670A phage lysis protein n=2 Tax=Escherichia ...  91.4    4e-23
+  UniRef90_UPI00058F0B4D holin n=1 Tax=Klebsiella TaxID=570 RepID...  91.4    5e-23
+  UniRef90_UPI000CE68BA2 holin n=1 Tax=Pectobacterium carotovorum...  91.0    6e-23
+  UniRef90_UPI000D59BC47 holin n=1 Tax=Escherichia coli TaxID=562...  91.4    6e-23
+  UniRef90_UPI0006807639 holin n=7 Tax=Enterobacteriaceae TaxID=5...  91.0    7e-23
+  UniRef90_UPI00027E0B58 holin n=3 Tax=Pectobacterium TaxID=12227...  90.7    1e-22
+  UniRef90_A0A376M5L2 Lysis protein S from bacteriophage origin n...  90.7    1e-22
+  UniRef90_UPI000BD02E93 holin n=1 Tax=Klebsiella pneumoniae TaxI...  89.9    2e-22
+  UniRef90_UPI000F6B807F holin n=1 Tax=Cedecea lapagei TaxID=1588...  89.9    2e-22
+  UniRef90_UPI000DAD0937 holin n=8 Tax=Escherichia coli TaxID=562...  90.3    2e-22
+  UniRef90_A0A3E1WCQ7 Holin n=11 Tax=Escherichia coli TaxID=562 R...  89.9    2e-22
+  UniRef90_UPI00050A5702 holin n=2 Tax=Escherichia coli TaxID=562...  89.5    2e-22
+  UniRef90_UPI000BDF17B5 holin n=1 Tax=Escherichia coli TaxID=562...  89.5    3e-22
+  UniRef90_Q66BG7 Putative holin protein n=4 Tax=Yersiniaceae Tax...  88.3    7e-22
+  UniRef90_UPI000BDEE3BA holin n=2 Tax=Escherichia coli TaxID=562...  88.7    7e-22
+  UniRef90_H9C183 Putative lysis protein n=3 Tax=root TaxID=1 Rep...  88.3    7e-22
+  UniRef90_UPI000BE53F12 holin n=3 Tax=Escherichia coli TaxID=562...  88.3    8e-22
+  UniRef90_UPI00067DE355 holin n=4 Tax=Escherichia coli TaxID=562...  88.0    1e-21
+  UniRef90_A0A0K9TB53 Lysis protein S n=1 Tax=Escherichia coli M1...  88.0    1e-21
+  UniRef90_UPI000F8E0B53 holin n=1 Tax=Pectobacterium parmentieri...  87.6    1e-21
+  UniRef90_A0A0L0GJE6 Holin n=2 Tax=Trabulsiella TaxID=158851 Rep...  88.0    1e-21
+  UniRef90_UPI000C1BAB0A holin n=5 Tax=Escherichia coli TaxID=562...  87.6    2e-21
+  UniRef90_UPI000A3D7D57 holin n=4 Tax=Enterobacteriaceae TaxID=5...  87.2    3e-21
+  UniRef90_A0A1Q8YNL4 Holin n=17 Tax=Enterobacteriaceae TaxID=543...  86.4    4e-21
+  UniRef90_A0A0W2CVH5 Holin n=25 Tax=Enterobacterales TaxID=91347...  86.4    5e-21
+  UniRef90_UPI000A390224 holin n=2 Tax=Escherichia coli TaxID=562...  86.4    5e-21
+  UniRef90_A0A078LF33 Lysis protein S n=4 Tax=Enterobacteriaceae ...  86.4    5e-21
+  UniRef90_UPI000BE4E8C9 holin n=2 Tax=Escherichia TaxID=561 RepI...  85.6    8e-21
+  UniRef90_UPI0009C13130 holin n=1 Tax=Citrobacter freundii TaxID...  85.3    1e-20
+  UniRef90_A0A086GBD3 Holin n=5 Tax=Serratia TaxID=613 RepID=A0A0...  85.6    1e-20
+  UniRef90_A0A1K3FWG8 Lysis protein S n=1 Tax=Mycobacterium tuber...  85.3    2e-20
+  UniRef90_A0A376V6U8 Phage lysis protein n=1 Tax=Escherichia col...  84.9    2e-20
+  UniRef90_UPI000652199D holin n=2 Tax=Pluralibacter gergoviae Ta...  84.9    2e-20
+  UniRef90_A0A376R0Z6 Lysis protein n=9 Tax=Enterobacteriaceae Ta...  84.1    4e-20
+  UniRef90_I2RQW0 Lysis protein S n=2 Tax=Escherichia coli TaxID=...  83.3    6e-20
+  UniRef90_UPI0006B65E41 hypothetical protein n=1 Tax=Escherichia...  83.3    6e-20
+  UniRef90_A0A2X3KFT3 Holin protein n=19 Tax=Escherichia coli Tax...  82.9    8e-20
+  UniRef90_UPI000C7DF9BE hypothetical protein n=1 Tax=Escherichia...  82.6    1e-19
+  UniRef90_A0A0K4D619 Holin protein n=5 Tax=Enterobacteriaceae Ta...  82.6    1e-19
+  UniRef90_A0A0M1U731 Lysis protein S n=27 Tax=Enterobacterales T...  82.9    1e-19
+  UniRef90_A0A0X4EJN4 Holin n=9 Tax=Enterobacterales TaxID=91347 ...  82.6    1e-19
+  UniRef90_B7MV00 Putative phage lysis protein S n=2 Tax=Escheric...  81.8    2e-19
+  UniRef90_UPI000B3F316C holin n=1 Tax=Escherichia coli TaxID=562...  82.2    2e-19
+  UniRef90_UPI0009BA979B holin n=1 Tax=Klebsiella pneumoniae TaxI...  81.8    3e-19
+  UniRef90_UPI000D1362CB holin n=1 Tax=Escherichia coli TaxID=562...  81.8    3e-19
+  UniRef90_V3F5E3 Uncharacterized protein n=10 Tax=Enterobacteria...  81.8    3e-19
+  UniRef90_A0A329XMK8 Holin n=1 Tax=Escherichia coli TaxID=562 Re...  81.4    4e-19
+  UniRef90_A0A0H3FIE0 Lysis S family protein n=6 Tax=Yersiniaceae...  81.4    4e-19
+  UniRef90_UPI000DD2CA89 holin n=1 Tax=Escherichia coli TaxID=562...  81.4    5e-19
+  UniRef90_UPI000E1D0401 holin n=9 Tax=Escherichia coli TaxID=562...  80.6    6e-19
+  UniRef90_A0A380AEM8 Lysis protein S n=8 Tax=Enterobacteriaceae ...  81.0    6e-19
+  UniRef90_UPI0009E5A50C holin n=1 Tax=Brenneria goodwinii TaxID=...  81.0    7e-19
+  UniRef90_A0A0A2R9Z7 Holin n=2 Tax=Morganella morganii TaxID=582...  80.2    1e-18
+  UniRef90_UPI000940E573 hypothetical protein n=1 Tax=Enterobacte...  81.4    4e-18
+  UniRef90_UPI0003BEEF4E lysis S family protein n=2 Tax=Enterobac...  79.1    4e-18
+  UniRef90_UPI000B3F4CB6 holin n=1 Tax=Escherichia coli TaxID=562...  78.7    5e-18
+  UniRef90_UPI0006A42036 holin n=1 Tax=Escherichia coli TaxID=562...  78.3    6e-18
+  UniRef90_UPI0006A5CEFA holin n=3 Tax=Escherichia TaxID=561 RepI...  78.3    6e-18
+  UniRef90_A0A0H3FHD6 Lysis S family protein n=2 Tax=Rahnella Tax...  78.3    6e-18
+  UniRef90_UPI000C1C220C hypothetical protein n=1 Tax=Escherichia...  78.3    7e-18
+  UniRef90_Q7UCH5 Holin n=15 Tax=Enterobacteriaceae TaxID=543 Rep...  77.9    9e-18
+  UniRef90_A0A1B7HMB8 Lysis S family protein n=2 Tax=Buttiauxella...  77.9    9e-18
+  UniRef90_UPI000F4D1124 holin n=1 Tax=Escherichia coli TaxID=562...  77.9    1e-17
+  UniRef90_A0A193QJR2 Lysis protein S n=4 Tax=Sodalis TaxID=84565...  77.6    2e-17
+  UniRef90_A0A270V663 Lysis protein n=1 Tax=Enterobacter cloacae ...  77.6    2e-17
+  UniRef90_A0A376SQF2 Holin protein n=1 Tax=Escherichia coli TaxI...  77.6    2e-17
+  UniRef90_A0A376NFD7 Phage lysis protein n=1 Tax=Escherichia col...  77.2    2e-17
+  UniRef90_A0A0H3FU89 Lysis S family protein n=13 Tax=Enterobacte...  77.2    2e-17
+  UniRef90_UPI000B3EFEA1 holin n=5 Tax=Enterobacteriaceae TaxID=5...  76.8    2e-17
+  UniRef90_A0A0M3F2V1 Lysis protein n=6 Tax=Enterobacteriaceae Ta...  76.8    3e-17
+  UniRef90_A0A1E5MXK0 Lysis protein n=6 Tax=Enterobacteriaceae Ta...  76.8    3e-17
+  UniRef90_UPI00064A2564 lysis protein n=1 Tax=Enterobacter genom...  76.8    3e-17
+  UniRef90_UPI000B3F2E3B hypothetical protein n=1 Tax=Escherichia...  76.8    3e-17
+  UniRef90_UPI0006996A46 holin n=1 Tax=Shigella sonnei TaxID=624 ...  76.0    5e-17
+  UniRef90_A0A2Y3LER8 Lysis protein S n=10 Tax=Shigella sonnei Ta...  76.4    7e-17
+  UniRef90_UPI0008FB7E97 lysis protein n=1 Tax=Escherichia coli T...  75.6    7e-17
+  UniRef90_A0A376PU41 Putative lysis protein S n=6 Tax=Escherichi...  75.6    1e-16
+  UniRef90_I2RWI0 Lysis protein S n=5 Tax=Escherichia coli TaxID=...  74.5    2e-16
+  UniRef90_UPI0005CE7D46 hypothetical protein n=1 Tax=Escherichia...  74.9    2e-16
+  UniRef90_UPI00068A0D2D holin n=1 Tax=Escherichia coli TaxID=562...  74.9    2e-16
+  UniRef90_A0A2W7XBF5 Lysis protein n=18 Tax=Escherichia coli Tax...  74.1    3e-16
+  UniRef90_UPI000B3F0C43 holin n=1 Tax=Escherichia coli TaxID=562...  74.1    3e-16
+  UniRef90_A0A1X3J4Z1 Lysis protein S-like protein n=1 Tax=Escher...  74.1    4e-16
+  UniRef90_UPI0005C60A79 holin n=1 Tax=Pectobacterium carotovorum...  74.1    4e-16
+  UniRef90_A0A0I1ENI9 Lysis protein S n=3 Tax=Enterobacteriaceae ...  74.1    6e-16
+  UniRef90_UPI00057A0A1C lysis protein n=1 Tax=Leclercia adecarbo...  73.7    6e-16
+  UniRef90_UPI000A37FC52 holin n=5 Tax=Enterobacteriaceae TaxID=5...  73.7    6e-16
+  UniRef90_I6FDK7 Lysis S family protein n=10 Tax=Enterobacteriac...  72.9    6e-16
+  UniRef90_UPI000DF4A07D holin n=1 Tax=Escherichia coli TaxID=562...  72.9    9e-16
+  UniRef90_UPI000B3F29BB holin n=1 Tax=Escherichia coli TaxID=562...  72.5    1e-15
+  UniRef90_UPI000BE8887B hypothetical protein n=1 Tax=Escherichia...  72.2    1e-15
+  UniRef90_A0A163YM83 Lysis S family protein n=14 Tax=Enterobacte...  72.9    1e-15
+  UniRef90_UPI000BDEB80B holin n=1 Tax=Escherichia coli TaxID=562...  72.2    1e-15
+  UniRef90_A0A3G4WVB7 Lysis protein n=2 Tax=Escherichia coli TaxI...  71.8    2e-15
+  UniRef90_UPI000CDE98B4 holin n=1 Tax=Escherichia coli TaxID=562...  72.2    2e-15
+  UniRef90_A0A2U8I3L3 Lysis protein n=6 Tax=Candidatus Fukatsuia ...  71.8    3e-15
+  UniRef90_UPI000B3F5ED4 hypothetical protein n=1 Tax=Escherichia...  71.4    3e-15
+  UniRef90_UPI000F4AF22F DUF1327 domain-containing protein n=1 Ta...  72.2    4e-15
+  UniRef90_UPI000BB6289A holin n=1 Tax=Escherichia coli TaxID=562...  71.0    4e-15
+  UniRef90_A0A3L2QXL4 Holin (Fragment) n=13 Tax=Escherichia coli ...  70.2    6e-15
+  UniRef90_UPI00050BA72F holin n=1 Tax=Escherichia coli TaxID=562...  70.2    7e-15
+  UniRef90_A0A377LFR7 Putative prophage lysis protein n=1 Tax=Esc...  69.8    1e-14
+  UniRef90_UPI0007B608C4 holin n=1 Tax=Escherichia coli TaxID=562...  69.8    1e-14
+  UniRef90_A0A3P6K2I9 Lysis protein S n=1 Tax=Escherichia coli Ta...  69.8    1e-14
+  UniRef90_UPI0005CD9BA2 holin n=1 Tax=Escherichia coli TaxID=562...  69.8    1e-14
+  UniRef90_UPI000BE8D9C1 holin n=1 Tax=Escherichia coli TaxID=562...  69.5    1e-14
+  UniRef90_UPI000691B837 hypothetical protein n=1 Tax=Enterobacte...  70.2    1e-14
+  UniRef90_D1P370 Lysis protein S n=8 Tax=Gammaproteobacteria Tax...  69.8    2e-14
+  UniRef90_E0WR75 Putative phage lysis (Holin) protein n=2 Tax=Ca...  69.5    2e-14
+  UniRef90_UPI000E00AB86 holin n=1 Tax=Escherichia coli TaxID=562...  68.7    3e-14
+  UniRef90_UPI000B4299D7 holin n=1 Tax=Escherichia coli TaxID=562...  68.3    4e-14
+  UniRef90_UPI000D596EC4 holin n=1 Tax=Escherichia coli TaxID=562...  68.3    4e-14
+  UniRef90_UPI000937BBAF phage tail protein n=1 Tax=Escherichia c...  69.5    5e-14
+  UniRef90_UPI0006ACD544 hypothetical protein n=2 Tax=Escherichia...  68.3    5e-14
+  UniRef90_G8LD41 Lysis protein S-like protein from lambdoid prop...  68.7    6e-14
+  UniRef90_UPI000B3F150C holin n=1 Tax=Escherichia coli TaxID=562...  67.9    6e-14
+  UniRef90_UPI000663D46D holin n=2 Tax=Shigella sonnei TaxID=624 ...  68.3    7e-14
+  UniRef90_UPI000BB8B617 hypothetical protein n=1 Tax=Escherichia...  69.5    7e-14
+  UniRef90_UPI000BDEEFE0 hypothetical protein n=1 Tax=Escherichia...  67.9    7e-14
+  UniRef90_UPI00069C5158 hypothetical protein n=1 Tax=Shigella so...  67.5    1e-13
+  UniRef90_A0A2A2SM99 Lysis protein n=1 Tax=Klebsiella pneumoniae...  67.2    1e-13
+  UniRef90_UPI000F4984D4 holin n=1 Tax=Escherichia coli TaxID=562...  67.2    1e-13
+  UniRef90_A0A2J0QP78 Holin (Fragment) n=11 Tax=Escherichia coli ...  66.8    2e-13
+  UniRef90_A0A2T1MZA4 Host specificity protein J (Fragment) n=4 T...  72.2    2e-13
+  UniRef90_UPI000CF6FAAE holin n=1 Tax=Escherichia coli TaxID=562...  66.8    2e-13
+  UniRef90_A0A3L8UTH8 Uncharacterized protein n=2 Tax=Escherichia...  66.4    3e-13
+  UniRef90_F4SL76 Lysis protein S, lambdoid prophage DLP12-like p...  66.0    3e-13
+  UniRef90_UPI0005DC9F12 peptidoglycan-binding protein LysM n=1 T...  66.4    3e-13
+  UniRef90_A0A0U1I2P3 Holin protein n=4 Tax=Yersinia TaxID=444888...  66.4    4e-13
+  UniRef90_UPI000BDE852B hypothetical protein n=1 Tax=Escherichia...  65.6    7e-13
+  UniRef90_A0A379TZX0 Lysis protein S n=7 Tax=Salmonella enterica...  65.2    1e-12
+  UniRef90_A0A377FDY8 Lysis protein S n=1 Tax=Escherichia coli Ta...  64.8    1e-12
+  UniRef90_K4W372 Putative holin protein n=2 Tax=Escherichia coli...  64.1    2e-12
+  UniRef90_C8T826 Lysis protein S n=17 Tax=Enterobacterales TaxID...  64.5    2e-12
+  UniRef90_UPI00069AE661 holin n=1 Tax=Escherichia coli TaxID=562...  63.3    3e-12
+  UniRef90_UPI00085A4DC8 DUF1327 domain-containing protein n=1 Ta...  63.7    5e-12
+  UniRef90_UPI0005DF3AC9 peptidoglycan-binding protein LysM n=1 T...  63.3    6e-12
+  UniRef90_UPI000A38FD1F hypothetical protein n=1 Tax=Escherichia...  66.0    6e-12
+  UniRef90_F4T742 Lysis protein S, lambdoid prophage DLP12-like p...  63.3    6e-12
+  UniRef90_UPI000E5CA07E holin n=1 Tax=Shigella sonnei TaxID=624 ...  62.1    1e-11
+  UniRef90_UPI0006B68E54 hypothetical protein n=1 Tax=Escherichia...  62.1    2e-11
+  UniRef90_UPI000C1BC700 hypothetical protein n=1 Tax=Escherichia...  61.4    2e-11
+  UniRef90_A0A0T9PSS2 Holin protein n=2 Tax=Yersinia pseudotuberc...  61.8    2e-11
+  UniRef90_UPI000CDE6F9A lysis protein n=1 Tax=Escherichia coli T...  61.4    3e-11
+  UniRef90_UPI00098986AD holin n=1 Tax=Escherichia coli TaxID=562...  61.4    3e-11
+  UniRef90_A0A090V0R8 Putative phage lysis protein homolog n=3 Ta...  61.4    4e-11
+  UniRef90_UPI0003A5D263 holin n=1 Tax=Escherichia coli TaxID=562...  60.6    4e-11
+  UniRef90_UPI00026D2541 Lysis S family protein n=4 Tax=Pantoea T...  61.0    5e-11
+  UniRef90_A0A3J4FFR4 Lysis protein n=1 Tax=Salmonella enterica T...  61.0    5e-11
+  UniRef90_UPI00097D85A2 holin n=1 Tax=Shigella sonnei TaxID=624 ...  60.6    6e-11
+  UniRef90_A0A2Y5AV78 Lysis protein S n=2 Tax=Shigella flexneri T...  60.2    7e-11
+  UniRef90_A0A0U1HD64 Holin protein n=26 Tax=Yersiniaceae TaxID=1...  60.6    7e-11
+  UniRef90_UPI000E5D90D8 holin n=5 Tax=Enterobacterales TaxID=913...  60.2    8e-11
+  UniRef90_UPI00029CB2CF hypothetical protein n=1 Tax=Klebsiella ...  60.2    9e-11
+  UniRef90_A0A3M7UIH0 Lysis protein n=3 Tax=Erwiniaceae TaxID=190...  60.2    1e-10
+  UniRef90_A0A3K9FEC0 Lysis protein n=5 Tax=Salmonella enterica T...  60.2    1e-10
+  UniRef90_A0A0B1R4K8 Lysis protein n=1 Tax=Pantoea rodasii TaxID...  59.8    1e-10
+  UniRef90_UPI000BB6988C lysis protein n=1 Tax=Escherichia coli T...  59.4    2e-10
+  UniRef90_A0A3J5HJW5 Lysis protein n=3 Tax=Salmonella enterica T...  59.8    2e-10
+  UniRef90_UPI00073652EF lysis protein n=1 Tax=Pantoea dispersa T...  59.4    2e-10
+  UniRef90_A0A2U1D8R4 Holin family HP1 protein n=1 Tax=Pantoea an...  59.4    2e-10
+  UniRef90_H3RLK4 Lysis protein S n=1 Tax=Pantoea stewartii subsp...  59.4    3e-10
+  UniRef90_UPI0007B38721 lysis protein n=1 Tax=Enterobacter kobei...  59.1    3e-10
+  UniRef90_UPI000D136692 lysis protein n=1 Tax=Escherichia coli T...  58.7    3e-10
+  UniRef90_UPI0006C87B40 lysis protein n=1 Tax=Escherichia coli T...  58.3    4e-10
+  UniRef90_A0A090VYT6 Phage lysis protein homolog EssD n=4 Tax=En...  58.7    5e-10
+  UniRef90_UPI0003356A14 hypothetical protein n=1 Tax=Escherichia...  57.9    6e-10
+  UniRef90_A0A3I8C1G6 Lysis protein n=5 Tax=Salmonella enterica T...  58.3    6e-10
+  UniRef90_A0A1V3CAJ7 Lysis protein n=1 Tax=Escherichia coli TaxI...  57.5    7e-10
+  UniRef90_UPI00058079B6 lysis protein n=1 Tax=Pantoea sp. MBLJ3 ...  58.3    7e-10
+  UniRef90_UPI000DE4E8A3 hypothetical protein n=1 Tax=Escherichia...  57.5    8e-10
+  UniRef90_A0A3A9INX5 Lysis protein n=2 Tax=Erwiniaceae TaxID=190...  57.9    1e-09
+  UniRef90_UPI0008FF1C2A hypothetical protein n=1 Tax=Escherichia...  57.1    1e-09
+  UniRef90_UPI0009EEB0EF lysis protein n=1 Tax=Erwinia sp. ErVv1 ...  57.5    1e-09
+  UniRef90_UPI0003EEF9F7 holin n=5 Tax=Escherichia coli TaxID=562...  56.8    2e-09
+  UniRef90_A0A3A9IDJ0 Lysis protein n=1 Tax=Erwiniaceae bacterium...  57.1    2e-09
+  UniRef90_UPI00063D4E2C holin n=1 Tax=Escherichia coli TaxID=562...  56.4    2e-09
+  UniRef90_UPI0008FFCBCE hypothetical protein n=1 Tax=Escherichia...  56.8    3e-09
+  UniRef90_A0A376ZGP8 Putative lysis protein S n=1 Tax=Escherichi...  55.6    3e-09
+  UniRef90_A0A2S5KGV8 Lysis protein n=14 Tax=Enterobacterales Tax...  56.8    3e-09
+  UniRef90_A0A2M9WIG9 Lysis protein n=2 Tax=Enterobacterales TaxI...  56.0    5e-09
+  UniRef90_UPI000F88B76D UPI000F88B76D related cluster n=1 Tax=un...  56.4    7e-09
+  UniRef90_A0A0K3ZW39 Phage protein YjhS encoded within prophage ...  56.8    9e-09
+  UniRef90_UPI0002670E4D holin n=1 Tax=Escherichia coli TaxID=562...  54.8    1e-08
+  UniRef90_UPI0009B8FF72 lysis protein n=1 Tax=Enterobacter cance...  54.8    2e-08
+  UniRef90_I2WFI8 PF07041 family protein n=1 Tax=Escherichia coli...  57.9    2e-08
+  UniRef90_UPI0009917770 hypothetical protein n=1 Tax=Shigella bo...  53.7    3e-08
+  UniRef90_UPI0009082673 hypothetical protein n=1 Tax=Escherichia...  53.7    3e-08
+  UniRef90_J3CFH1 Lysis protein S n=3 Tax=Erwiniaceae TaxID=19034...  53.7    4e-08
+  UniRef90_D2AA42 Lysis protein S n=2 Tax=Shigella flexneri TaxID...  51.7    1e-07
+  UniRef90_A0A1X3I4C9 Lysis protein S-like protein n=2 Tax=Escher...  52.5    2e-07
+  UniRef90_UPI000B3F2233 holin n=1 Tax=Escherichia coli TaxID=562...  51.7    2e-07
+  UniRef90_A0A376VJV2 Putative prophage lysis protein n=1 Tax=Esc...  51.4    2e-07
+  UniRef90_UPI0007875A40 hypothetical protein n=1 Tax=Erwinia per...  52.1    2e-07
+  UniRef90_A0A376U7V4 Putative lysis protein S n=2 Tax=Escherichi...  51.0    3e-07
+  UniRef90_UPI000B9FCFCB lysis protein n=1 Tax=Salmonella enteric...  51.7    3e-07
+  UniRef90_UPI000B97C89A lysis protein n=1 Tax=Kosakonia cowanii ...  51.4    4e-07
+  UniRef90_A0A1X3I7G8 Lysis protein S-like protein n=2 Tax=Escher...  51.0    6e-07
+  UniRef90_A0A0E8L7B4 Holin protein n=2 Tax=Yersinia enterocoliti...  50.6    7e-07
+  UniRef90_A0A1J4QPT0 Lysis protein n=1 Tax=Salmonella enterica I...  49.0    2e-06
+  UniRef90_UPI000BAAFCFB hypothetical protein n=2 Tax=Escherichia...  48.7    3e-06
+  UniRef90_D1NX73 Uncharacterized protein (Fragment) n=1 Tax=Prov...  47.1    8e-06
+  UniRef90_A0A1X0WAZ6 Uncharacterized protein n=1 Tax=Rouxiella b...  47.5    9e-06
+  UniRef90_A0A1B7K1H9 Putative holin protein n=4 Tax=Providencia ...  47.1    1e-05
+  UniRef90_A0A377X0N9 Lysis S family protein n=1 Tax=Klebsiella p...  46.7    2e-05
+  UniRef90_A0A2U8I482 Lysis protein n=1 Tax=Candidatus Fukatsuia ...  47.1    2e-05
+  UniRef90_UPI000F88D48A lysis protein n=1 Tax=Enterobacter horma...  46.7    2e-05
+  UniRef90_UPI00098BD343 hypothetical protein n=1 Tax=Escherichia...  46.7    2e-05
+  UniRef90_A0A0A0GNL6 Lysis protein S-like protein n=2 Tax=Entero...  45.2    4e-05
+  UniRef90_A0A0V9JAT1 Uncharacterized protein n=14 Tax=Enterobact...  45.6    7e-05
+  UniRef90_UPI000A1DECB8 hypothetical protein n=1 Tax=Escherichia...  44.8    7e-05
+  UniRef90_UPI000E431BC5 hypothetical protein n=1 Tax=Escherichia...  44.4    1e-04
+  UniRef90_A0A3P4KIB2 Uncharacterized protein n=1 Tax=Escherichia...  44.0    2e-04
+  UniRef90_UPI0009B580FB lysis protein n=1 Tax=Enterobacter cloac...  40.6    0.005
+  UniRef90_A0A3H7SX74 Uncharacterized protein (Fragment) n=4 Tax=...  38.3    0.021
+  UniRef90_UPI0009072363 hypothetical protein n=1 Tax=Escherichia...  38.3    0.051
+  UniRef90_U9XMT2 Uncharacterized protein n=1 Tax=Escherichia col...  35.6    0.22 
+  UniRef90_A0A376NFC3 Phage lysis protein n=1 Tax=Escherichia col...  34.8    0.55 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A3N6Y080 Holin n=9 Tax=Pantoea TaxID=53335 RepID=A0A...  57.5    4e-09
+  UniRef90_UPI000FDA7FAA holin n=1 Tax=Pantoea dispersa TaxID=598...  53.7    1e-07
+  UniRef90_A0A1X2RJH0 Lysis protein n=4 Tax=Salmonella enterica T...  52.1    2e-07
+  UniRef90_UPI00024F1E69 hypothetical protein n=1 Tax=Enterobacte...  52.1    3e-07
+  UniRef90_UPI0007E8F7C3 hypothetical protein n=1 Tax=Escherichia...  49.4    2e-06
+  UniRef90_A0A0J8Y957 Lysis protein n=5 Tax=Enterobacteriaceae Ta...  48.7    5e-06
+  UniRef90_UPI0003B229B1 hypothetical protein n=3 Tax=Pantoea Tax...  49.0    8e-06
+  UniRef90_A0A1X0X4R4 Lysis protein n=1 Tax=Kluyvera intermedia T...  47.9    1e-05
+  UniRef90_A0A1D3U0G2 Lysis S family protein n=48 Tax=Enterobacte...  47.9    1e-05
+  UniRef90_A0A0J9B8R8 Lysis protein n=2 Tax=Enterobacterales TaxI...  45.6    7e-05
+  UniRef90_A0A1I5BDN8 Bacteriophage holin family HP1 n=2 Tax=Izha...  45.2    9e-05
+  UniRef90_A0A089PPW3 Lysis protein n=2 Tax=Enterobacteriaceae Ta...  44.8    1e-04
+  UniRef90_UPI00091E9D36 lysis protein n=3 Tax=Pantoea ananas Tax...  44.8    2e-04
+  UniRef90_A0A370YM91 Lysis protein n=1 Tax=Escherichia coli TaxI...  44.8    2e-04
+  UniRef90_UPI000D170FD8 lysis protein n=1 Tax=Kosakonia sp. H7A ...  44.8    2e-04
+  UniRef90_H3N069 Uncharacterized protein n=4 Tax=Klebsiella TaxI...  44.4    3e-04
+  UniRef90_A0A3I0Z6U8 Coat protein n=1 Tax=Salmonella enterica Ta...  46.0    4e-04
+  UniRef90_A0A0H3GM77 Uncharacterized protein n=1 Tax=Klebsiella ...  42.9    6e-04
+  UniRef90_UPI000E6AFE4F holin n=1 Tax=Arsenophonus endosymbiont ...  42.5    7e-04
+  UniRef90_A0A318G5Z1 Bacteriophage P21 holin S n=1 Tax=Grimontel...  41.7    7e-04
+  UniRef90_A0A2H4YH15 Uncharacterized protein n=1 Tax=Raoultella ...  44.4    0.002
+  UniRef90_V3CXZ1 Uncharacterized protein n=1 Tax=Enterobacter cl...  42.1    0.002
+  UniRef90_A0A379R5Y9 Lysis protein S n=2 Tax=Salmonella enterica...  42.1    0.002
+  UniRef90_A0A384GQQ6 Lysis protein n=4 Tax=Enterobacterales TaxI...  41.7    0.002
+  UniRef90_A0A2V4FX05 Lysis protein n=9 Tax=Yersiniaceae TaxID=19...  41.7    0.003
+  UniRef90_A0A0B1RA92 Lysis protein n=2 Tax=Pantoea TaxID=53335 R...  41.7    0.003
+  UniRef90_C4K561 Phage holin n=4 Tax=Enterobacterales TaxID=9134...  41.0    0.003
+  UniRef90_UPI000736E512 lysis protein n=3 Tax=Pantoea TaxID=5333...  41.3    0.004
+  UniRef90_UPI0009A9897B lysis protein n=1 Tax=Salmonella enteric...  41.0    0.004
+  UniRef90_Q1I0Z2 Hol n=3 Tax=root TaxID=1 RepID=Q1I0Z2_9CAUD         41.0    0.004
+  UniRef90_Q7Y3V4 Uncharacterized protein n=1 Tax=Yersinia phage ...  41.3    0.004
+  UniRef90_A0A1E7Z2M6 Uncharacterized protein n=7 Tax=Gammaproteo...  41.0    0.004
+  UniRef90_A0A2T7ALI1 Lysis protein n=12 Tax=Enterobacteriaceae T...  40.6    0.006
+  UniRef90_A0A349Z2D4 Holin n=1 Tax=Alteromonas sp. TaxID=232 Rep...  40.2    0.007
+  UniRef90_A0A2L0ILL7 Lysis protein n=1 Tax=Mixta gaviniae TaxID=...  40.6    0.007
+  UniRef90_UPI00073F4523 lysis protein n=1 Tax=Type-C symbiont of...  40.6    0.007
+  UniRef90_UPI000CF6CF05 hypothetical protein n=1 Tax=Pseudoalter...  40.6    0.010
+  UniRef90_UPI0003048351 holin n=1 Tax=Sodalis glossinidius TaxID...  39.8    0.010
+  UniRef90_A0A127KNH9 Uncharacterized protein n=1 Tax=Pseudomonas...  39.8    0.011
+  UniRef90_A0A2Z3X7F1 Holin n=2 Tax=Enterobacteriaceae TaxID=543 ...  39.8    0.012
+  UniRef90_UPI0009DCEB4F hypothetical protein n=1 Tax=Tolumonas l...  40.2    0.014
+  UniRef90_A0A2S4RKL0 Uncharacterized protein n=1 Tax=Pantoea sp....  39.8    0.014
+  UniRef90_A0A0U5L3G4 Uncharacterized protein n=1 Tax=Erwinia ger...  39.8    0.015
+  UniRef90_UPI0009DE2D77 hypothetical protein n=1 Tax=Pantoea sp....  39.4    0.015
+  UniRef90_A0A3I6P1Z3 Uncharacterized protein n=2 Tax=Salmonella ...  39.4    0.016
+  UniRef90_V3SXQ5 Lysis protein n=1 Tax=Serratia sp. (strain ATCC...  39.4    0.020
+  UniRef90_UPI000E4B99A4 lysis protein n=1 Tax=Erwinia persicina ...  39.4    0.021
+  UniRef90_A0A3I7QV55 Uncharacterized protein n=3 Tax=Salmonella ...  39.4    0.022
+  UniRef90_A0A2A7V2G1 Lysis protein n=14 Tax=root TaxID=1 RepID=A...  39.4    0.023
+  UniRef90_A0A384GE61 Lysis protein n=10 Tax=Enterobacteriaceae T...  39.4    0.024
+  UniRef90_A0A3C0H5A1 Lysis protein n=1 Tax=Enterobacteriaceae ba...  39.0    0.028
+  UniRef90_J3DEC3 Lysis protein S n=3 Tax=Pantoea TaxID=53335 Rep...  39.0    0.029
+  UniRef90_A0A1X0X4X4 Lysis protein n=1 Tax=Kluyvera intermedia T...  39.0    0.029
+  UniRef90_F3LHY1 Uncharacterized protein n=1 Tax=gamma proteobac...  38.6    0.033
+  UniRef90_UPI000E6B1B5A holin n=1 Tax=Arsenophonus endosymbiont ...  38.3    0.040
+  UniRef90_A0A2A7V153 Lysis protein n=1 Tax=Enterobacter agglomer...  38.6    0.044
+  UniRef90_I2B9S8 Uncharacterized protein n=3 Tax=Shimwellia blat...  38.3    0.045
+  UniRef90_A0A267S209 Lysis protein n=1 Tax=Enterobacter sp. 10-1...  37.9    0.047
+  UniRef90_A0A3P1K5R9 Lysis protein n=1 Tax=Escherichia coli TaxI...  39.4    0.048
+  UniRef90_UPI0009339F24 lysis protein n=1 Tax=Nissabacter archet...  38.3    0.056
+  UniRef90_UPI000A3AABF1 lysis protein n=1 Tax=Klebsiella michiga...  38.3    0.062
+  UniRef90_A0A2M9WBY1 Lysis protein n=9 Tax=Pantoea TaxID=53335 R...  37.9    0.081
+  UniRef90_A0A1Q8YQA7 Lysis protein n=5 Tax=Bacteria TaxID=2 RepI...  37.9    0.081
+  UniRef90_A0A3G2FNS5 Lysis protein n=2 Tax=Serratia TaxID=613 Re...  37.9    0.082
+  UniRef90_B6SD41 Phage 21-like group II holin n=1 Tax=Bacterioph...  37.1    0.096
+  UniRef90_UPI0007B3B644 hypothetical protein n=1 Tax=Klebsiella ...  37.5    0.098
+  UniRef90_UPI0002144E92 hypothetical protein n=1 Tax=Pasteurella...  37.5    0.100
+  UniRef90_UPI000948E9E1 lysis protein n=1 Tax=Pantoea sp. 1.19 T...  37.5    0.11 
+  UniRef90_A0A2D5RWZ1 Uncharacterized protein n=1 Tax=Rheinheimer...  37.9    0.12 
+  UniRef90_UPI000D52574F lysis protein n=1 Tax=Klebsiella oxytoca...  37.5    0.13 
+  UniRef90_A0A2P5GPD0 Lysis protein n=3 Tax=Enterobacteriaceae Ta...  37.1    0.13 
+  UniRef90_UPI00037A4F03 hypothetical protein n=1 Tax=Thiolinea d...  37.1    0.13 
+  UniRef90_A0A3I5PDE3 Lysis protein n=1 Tax=Salmonella enterica T...  37.1    0.14 
+  UniRef90_A0A0L0GHF3 Lysis protein n=3 Tax=Trabulsiella odontote...  37.1    0.16 
+  UniRef90_A0A2R3H7X9 Lysis protein n=5 Tax=Serratia TaxID=613 Re...  37.1    0.16 
+  UniRef90_A0A165NZR3 Uncharacterized protein n=5 Tax=Proteobacte...  37.1    0.18 
+  UniRef90_UPI0003821E6A hypothetical protein n=1 Tax=Pantoea sp....  36.7    0.22 
+  UniRef90_W1J276 Similar to bacteriophage Gp13 protein n=1 Tax=X...  36.3    0.22 
+  UniRef90_A0A1N6RWR1 Uncharacterized protein n=1 Tax=Enterobacte...  36.3    0.31 
+  UniRef90_A0A3I1JZT1 Holin (Fragment) n=8 Tax=Escherichia coli T...  35.2    0.35 
+  UniRef90_UPI000418464F hypothetical protein n=1 Tax=Pseudoalter...  36.3    0.38 
+  UniRef90_Q54418 Extracellular secretory protein n=23 Tax=Entero...  36.3    0.39 
+  UniRef90_UPI000744EC21 primosomal protein n=3 Tax=Serratia marc...  36.0    0.42 
+  UniRef90_UPI000A054F0A hypothetical protein n=1 Tax=Comamonas s...  36.7    0.43 
+  UniRef90_W1J3W0 Similar to bacteriophage Gp13 protein n=2 Tax=X...  35.6    0.47 
+  UniRef90_A0A2V4FM46 Lysis protein n=2 Tax=Pasteurellaceae TaxID...  35.6    0.49 
+  UniRef90_A0A077N583 Similar to bacteriophage Gp13 protein n=2 T...  35.2    0.57 
+  UniRef90_A0A2R7NTM4 Holin n=1 Tax=Acidovorax sp. HMWF018 TaxID=...  36.0    0.58 
+  UniRef90_A0A2X5PC42 Lysis protein S n=2 Tax=Erwiniaceae TaxID=1...  35.6    0.59 
+  UniRef90_A0A1H3L9H9 Bacteriophage holin family, superfamily II-...  36.0    0.59 
+  UniRef90_E1W2C6 Holin n=6 Tax=Pasteurellaceae TaxID=712 RepID=E...  35.2    0.69 
+  UniRef90_UPI000157D814 hypothetical protein n=6 Tax=Vibrionacea...  35.2    0.72 
+  UniRef90_UPI0007E44B19 hypothetical protein n=1 Tax=Yersinia sp...  35.2    0.73 
+  UniRef90_A0A2E9L6M7 Leucine--tRNA ligase n=1 Tax=Euryarchaeota ...  36.7    0.79 
+  UniRef90_A0A2S9I893 Lysis protein n=1 Tax=Pantoea coffeiphila T...  35.2    0.80 
+  UniRef90_N8ZZD0 Uncharacterized protein n=1 Tax=Acinetobacter v...  35.6    0.87 
+  UniRef90_UPI00064573E8 hypothetical protein n=4 Tax=Yersiniacea...  34.8    0.90 
+  UniRef90_UPI0009771416 hypothetical protein n=1 Tax=Pseudoalter...  35.6    1.0  
+  UniRef90_UPI00067B5650 hypothetical protein n=1 Tax=Yersinia fr...  34.8    1.1  
+  UniRef90_UPI000362B75D hypothetical protein n=2 Tax=Pseudoalter...  35.2    1.1  
+  UniRef90_F9Q9R8 Lysis protein S n=1 Tax=Haemophilus pittmaniae ...  34.4    1.2  
+  UniRef90_A0A3L5AE00 Uncharacterized protein n=1 Tax=Escherichia...  33.6    1.2  
+  UniRef90_A0A0T7E2G2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  34.4    1.3  
+  UniRef90_A0A2N0MWV1 Uncharacterized protein n=1 Tax=Ewingella a...  34.4    1.4  
+  UniRef90_UPI00090759A4 hypothetical protein n=1 Tax=Pantoea sep...  34.0    1.4  
+  UniRef90_A0A3M1Y0J7 Uncharacterized protein n=1 Tax=Chloroflexi...  34.4    1.6  
+  UniRef90_A0A0M1GNF1 Lysis protein n=31 Tax=Pasteurellaceae TaxI...  34.4    1.6  
+  UniRef90_A0A1A7P5R8 Lysis protein n=4 Tax=Gallibacterium anatis...  34.4    1.6  
+  UniRef90_UPI0005AC758C hypothetical protein n=1 Tax=Yersinia Ta...  34.0    1.7  
+  UniRef90_A0A0H3F5X6 Prophage Hp1 family holin n=15 Tax=Enteroba...  34.0    1.9  
+  UniRef90_A0A2I5T8S4 Uncharacterized protein n=1 Tax=Serratia sp...  34.0    2.2  
+  UniRef90_A0A1B1ITN8 Uncharacterized protein n=1 Tax=uncultured ...  34.4    2.5  
+  UniRef90_A0A089Q387 Lysis protein n=4 Tax=Enterobacteriaceae Ta...  34.0    2.6  
+  UniRef90_D1P079 Uncharacterized protein n=1 Tax=Providencia rus...  32.9    2.6  
+  UniRef90_A0A2T5Q7F6 Lysis protein n=2 Tax=Acinetobacter TaxID=4...  34.0    2.7  
+  UniRef90_A0A193QIX7 Uncharacterized protein n=11 Tax=Sodalis Ta...  33.6    2.7  
+  UniRef90_UPI000B9EE28A hypothetical protein n=1 Tax=Zooshikella...  33.6    2.8  
+  UniRef90_UPI0004B7F110 hypothetical protein n=1 Tax=alpha prote...  33.6    2.8  
+  UniRef90_UPI000B3F529D hypothetical protein n=1 Tax=Escherichia...  33.3    2.9  
+  UniRef90_A0A3I1H5R6 DUF1737 domain-containing protein n=6 Tax=E...  33.6    3.0  
+  UniRef90_A0A209B1X7 Uncharacterized protein n=1 Tax=Yersinia fr...  34.0    3.0  
+  UniRef90_A0A1V3KL12 Lysis protein n=3 Tax=Rodentibacter TaxID=1...  33.6    3.2  
+  UniRef90_UPI00061D2ECF hypothetical protein n=1 Tax=Hafnia TaxI...  33.6    3.3  
+  UniRef90_UPI0003978B86 hypothetical protein n=4 Tax=Yersiniacea...  33.3    3.5  
+  UniRef90_A0A0F4R544 Uncharacterized protein n=2 Tax=Marinomonas...  33.3    3.6  
+  UniRef90_A0A0U3J826 Uncharacterized protein n=5 Tax=Acinetobact...  33.6    3.7  
+  UniRef90_A0A2N0N1P4 Uncharacterized protein n=1 Tax=Ewingella a...  33.3    3.7  
+  UniRef90_Q2NV04 Hypothetical phage protein n=2 Tax=Sodalis glos...  33.6    4.0  
+  UniRef90_A0A0F7HC23 Holin family HP1 protein n=7 Tax=Bacteria T...  33.3    4.1  
+  UniRef90_UPI0007451FF4 primosomal protein n=1 Tax=Serratia marc...  33.3    4.2  
+  UniRef90_A0A241UYC0 Uncharacterized protein n=3 Tax=Acinetobact...  33.6    4.6  
+  UniRef90_R8AND0 Prophage Hp1 family holin n=1 Tax=Plesiomonas s...  33.3    4.7  
+  UniRef90_A0A1C2VT36 Lysis protein n=5 Tax=Acinetobacter calcoac...  33.6    4.9  
+  UniRef90_UPI0005823C7B holin n=1 Tax=Pectobacterium carotovorum...  32.9    5.0  
+  UniRef90_UPI000255A5EC hypothetical protein n=1 Tax=Marinobacte...  32.9    5.1  
+  UniRef90_A0A210TNM5 Uncharacterized protein n=1 Tax=Yersinia en...  33.6    5.2  
+  UniRef90_A0A3M3K4V3 Uncharacterized protein n=2 Tax=Serratia pl...  33.6    6.0  
+  UniRef90_G9Y6I0 Uncharacterized protein n=8 Tax=Enterobacterale...  33.3    6.2  
+  UniRef90_A0A2A2GV86 Holin n=1 Tax=Arsenophonus sp. ENCA TaxID=1...  32.9    6.4  
+  UniRef90_A0A0U4HI86 Uncharacterized protein n=2 Tax=Serratia Ta...  32.5    6.6  
+  UniRef90_N8YGJ1 Uncharacterized protein n=1 Tax=Acinetobacter b...  32.9    7.2  
+  UniRef90_A0A2M9PTZ7 Holin n=3 Tax=Bacteria TaxID=2 RepID=A0A2M9...  33.3    7.3  
+  UniRef90_A0A3G2KAY7 Uncharacterized protein n=1 Tax=Pseudoalter...  32.5    7.5  
+  UniRef90_UPI0006D2BE3A hypothetical protein n=1 Tax=Photobacter...  32.5    7.7  
+  UniRef90_A0A250AZF7 Primosomal protein n=1 Tax=Gibbsiella querc...  32.5    9.1  
+  UniRef90_A0A318P1E4 Uncharacterized protein n=2 Tax=Serratia pl...  32.5    9.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.120    0.306    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0368    0.140     1.90     42.6     43.6 
+
+Effective search space used: 735327869332
+Results from round 3
+
+
+Query= NP_415086.1
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI00098A7831 hypothetical protein n=1 Tax=Escherichia...  113     2e-30
+  UniRef90_Q8X4M8 Putative lysis protein S of prophage CP-933V n=...  108     1e-29
+  UniRef90_K8BZC2 Phage lysis protein S n=15 Tax=Enterobacteriace...  106     6e-29
+  UniRef90_P0A9R3 Lysis protein S homolog from lambdoid prophage ...  106     6e-29
+  UniRef90_A0A0E0VEJ0 DLP12 prophage, predicted phage lysis prote...  106     7e-29
+  UniRef90_A0A061L122 Holin n=29 Tax=Enterobacteriaceae TaxID=543...  105     8e-29
+  UniRef90_A0A0V9HE22 Holin n=17 Tax=root TaxID=1 RepID=A0A0V9HE2...  105     9e-29
+  UniRef90_UPI000669374B holin n=1 Tax=Klebsiella oxytoca TaxID=5...  105     2e-28
+  UniRef90_P77237 Prophage lysis protein S homolog EssQ n=66 Tax=...  104     2e-28
+  UniRef90_A0A066R382 Holin n=155 Tax=root TaxID=1 RepID=A0A066R3...  104     3e-28
+  UniRef90_A0A061YHU7 Holin n=116 Tax=root TaxID=1 RepID=A0A061YH...  104     4e-28
+  UniRef90_A0A3G4X6X2 Holin n=2 Tax=Escherichia coli TaxID=562 Re...  104     5e-28
+  UniRef90_A0A029I151 Lysis S family protein n=26 Tax=Enterobacte...  104     5e-28
+  UniRef90_A0A061K7U8 Holin n=116 Tax=Enterobacterales TaxID=9134...  104     5e-28
+  UniRef90_Q32GL7 Lysis protein S n=349 Tax=root TaxID=1 RepID=Q3...  103     9e-28
+  UniRef90_A0A0L1BMK3 Holin n=8 Tax=Enterobacteriaceae TaxID=543 ...  103     1e-27
+  UniRef90_P27360 Antiholin n=119 Tax=root TaxID=1 RepID=HOLIN_BPP21  103     1e-27
+  UniRef90_A0A376ZAW0 Lysis protein S n=61 Tax=Proteobacteria Tax...  103     1e-27
+  UniRef90_A0A066SYA7 DLP12 prophage phage lysis protein n=145 Ta...  102     1e-27
+  UniRef90_A0A3L4ZBK2 Holin n=1 Tax=Escherichia coli TaxID=562 Re...  102     1e-27
+  UniRef90_UPI000CE54659 hypothetical protein n=1 Tax=Escherichia...  103     2e-27
+  UniRef90_A7ZM17 Lysis protein S n=2 Tax=Enterobacteriaceae TaxI...  102     2e-27
+  UniRef90_A0A0D8W279 Holin n=22 Tax=Escherichia coli TaxID=562 R...  102     2e-27
+  UniRef90_A0A376SJJ8 Endolysin of cryptic prophage CP-933M n=9 T...  105     3e-27
+  UniRef90_UPI000D59EA55 holin n=1 Tax=Escherichia coli TaxID=562...  102     4e-27
+  UniRef90_A0A090V636 Phage lysis protein homolog EssQ n=7 Tax=En...  101     4e-27
+  UniRef90_UPI00076F1D39 holin n=3 Tax=Escherichia coli TaxID=562...  102     5e-27
+  UniRef90_A0A0D8WDA4 Holin n=19 Tax=Enterobacteriaceae TaxID=543...  101     5e-27
+  UniRef90_A0A2H9A338 Holin n=2 Tax=Escherichia coli TaxID=562 Re...  101     6e-27
+  UniRef90_A0A097R819 Holin n=7 Tax=Hafniaceae TaxID=1903412 RepI...  100     8e-27
+  UniRef90_A4WB41 Lysis S family protein n=1 Tax=Enterobacter sp....  100     9e-27
+  UniRef90_A0A0F3VRS0 Holin n=68 Tax=root TaxID=1 RepID=A0A0F3VRS...  100     1e-26
+  UniRef90_A0A2S9I5N5 Holin n=1 Tax=Pantoea coffeiphila TaxID=146...  100     1e-26
+  UniRef90_UPI000D16AA57 holin n=2 Tax=Escherichia coli TaxID=562...  100     2e-26
+  UniRef90_A0A0F3T655 Holin n=56 Tax=Enterobacteriaceae TaxID=543...  99.8    2e-26
+  UniRef90_A0A0H3HCM4 Lysis S family protein n=25 Tax=Enterobacte...  99.8    3e-26
+  UniRef90_UPI000CF15F73 holin n=2 Tax=Escherichia coli TaxID=562...  99.8    3e-26
+  UniRef90_A0A0F3TR56 Holin n=9 Tax=Escherichia coli TaxID=562 Re...  99.0    4e-26
+  UniRef90_A0A1E5WSR4 Holin n=8 Tax=Escherichia coli TaxID=562 Re...  98.6    6e-26
+  UniRef90_A0A348DDK9 Lysis protein S homolog from lambdoid proph...  98.3    1e-25
+  UniRef90_UPI000C77CDE0 holin n=1 Tax=Escherichia coli TaxID=562...  97.9    1e-25
+  UniRef90_UPI000944FBD5 hypothetical protein n=1 Tax=Escherichia...  100     2e-25
+  UniRef90_A0A0Q4MLZ8 Holin n=1 Tax=Erwinia sp. Leaf53 TaxID=1736...  97.1    3e-25
+  UniRef90_A0A0J6M8P9 Holin n=17 Tax=Enterobacteriaceae TaxID=543...  97.1    3e-25
+  UniRef90_A0A140NC30 Lysis S family protein n=3 Tax=Escherichia ...  96.3    6e-25
+  UniRef90_UPI000B7FEEE9 holin n=4 Tax=Escherichia coli TaxID=562...  96.3    7e-25
+  UniRef90_UPI000DA4BC60 holin n=1 Tax=Escherichia coli TaxID=562...  95.6    1e-24
+  UniRef90_D6HVZ5 Uncharacterized protein n=5 Tax=Escherichia col...  95.2    1e-24
+  UniRef90_UPI00058F0B4D holin n=1 Tax=Klebsiella TaxID=570 RepID...  95.2    1e-24
+  UniRef90_UPI000CE68BA2 holin n=1 Tax=Pectobacterium carotovorum...  95.2    2e-24
+  UniRef90_I2WDI0 Lysis protein S n=2 Tax=Escherichia coli TaxID=...  95.6    2e-24
+  UniRef90_UPI00027E0B58 holin n=3 Tax=Pectobacterium TaxID=12227...  94.8    2e-24
+  UniRef90_UPI000D59BC47 holin n=1 Tax=Escherichia coli TaxID=562...  94.8    3e-24
+  UniRef90_UPI000B3F613F holin n=1 Tax=Escherichia coli TaxID=562...  94.0    4e-24
+  UniRef90_UPI000BD02E93 holin n=1 Tax=Klebsiella pneumoniae TaxI...  93.6    5e-24
+  UniRef90_UPI0006807639 holin n=7 Tax=Enterobacteriaceae TaxID=5...  93.3    8e-24
+  UniRef90_UPI0002A3670A phage lysis protein n=2 Tax=Escherichia ...  93.3    8e-24
+  UniRef90_UPI000F6B807F holin n=1 Tax=Cedecea lapagei TaxID=1588...  92.9    1e-23
+  UniRef90_UPI000BDF17B5 holin n=1 Tax=Escherichia coli TaxID=562...  92.9    1e-23
+  UniRef90_A0A376M5L2 Lysis protein S from bacteriophage origin n...  92.5    2e-23
+  UniRef90_UPI000DAD0937 holin n=8 Tax=Escherichia coli TaxID=562...  92.9    2e-23
+  UniRef90_A0A0F0TY50 Holin n=18 Tax=Enterobacteriaceae TaxID=543...  92.5    2e-23
+  UniRef90_A0A3E1WCQ7 Holin n=11 Tax=Escherichia coli TaxID=562 R...  92.1    2e-23
+  UniRef90_UPI00050A5702 holin n=2 Tax=Escherichia coli TaxID=562...  92.1    3e-23
+  UniRef90_Q66BG7 Putative holin protein n=4 Tax=Yersiniaceae Tax...  91.7    4e-23
+  UniRef90_UPI000BE53F12 holin n=3 Tax=Escherichia coli TaxID=562...  91.3    6e-23
+  UniRef90_H9C183 Putative lysis protein n=3 Tax=root TaxID=1 Rep...  91.3    6e-23
+  UniRef90_UPI00067DE355 holin n=4 Tax=Escherichia coli TaxID=562...  90.9    8e-23
+  UniRef90_UPI000F8E0B53 holin n=1 Tax=Pectobacterium parmentieri...  90.6    1e-22
+  UniRef90_A0A0L0GJE6 Holin n=2 Tax=Trabulsiella TaxID=158851 Rep...  90.6    1e-22
+  UniRef90_A0A0W2CVH5 Holin n=25 Tax=Enterobacterales TaxID=91347...  90.2    2e-22
+  UniRef90_A0A0K9TB53 Lysis protein S n=1 Tax=Escherichia coli M1...  90.2    2e-22
+  UniRef90_UPI0009C13130 holin n=1 Tax=Citrobacter freundii TaxID...  89.8    2e-22
+  UniRef90_UPI000C1BAB0A holin n=5 Tax=Escherichia coli TaxID=562...  89.8    2e-22
+  UniRef90_A0A078LF33 Lysis protein S n=4 Tax=Enterobacteriaceae ...  89.8    2e-22
+  UniRef90_UPI000A3D7D57 holin n=4 Tax=Enterobacteriaceae TaxID=5...  89.8    2e-22
+  UniRef90_UPI000BDEE3BA holin n=2 Tax=Escherichia coli TaxID=562...  89.8    3e-22
+  UniRef90_A0A1Q8YNL4 Holin n=17 Tax=Enterobacteriaceae TaxID=543...  89.4    3e-22
+  UniRef90_UPI000652199D holin n=2 Tax=Pluralibacter gergoviae Ta...  89.0    4e-22
+  UniRef90_A0A1K3FWG8 Lysis protein S n=1 Tax=Mycobacterium tuber...  89.0    5e-22
+  UniRef90_A0A376V6U8 Phage lysis protein n=1 Tax=Escherichia col...  88.2    8e-22
+  UniRef90_A0A086GBD3 Holin n=5 Tax=Serratia TaxID=613 RepID=A0A0...  88.2    1e-21
+  UniRef90_UPI000A390224 holin n=2 Tax=Escherichia coli TaxID=562...  88.2    1e-21
+  UniRef90_UPI000BE4E8C9 holin n=2 Tax=Escherichia TaxID=561 RepI...  87.5    2e-21
+  UniRef90_A0A0H3FIE0 Lysis S family protein n=6 Tax=Yersiniaceae...  87.5    2e-21
+  UniRef90_UPI0003BEEF4E lysis S family protein n=2 Tax=Enterobac...  86.7    4e-21
+  UniRef90_I2RQW0 Lysis protein S n=2 Tax=Escherichia coli TaxID=...  86.3    4e-21
+  UniRef90_A0A376R0Z6 Lysis protein n=9 Tax=Enterobacteriaceae Ta...  86.7    5e-21
+  UniRef90_A0A2X3KFT3 Holin protein n=19 Tax=Escherichia coli Tax...  85.9    6e-21
+  UniRef90_UPI0006B65E41 hypothetical protein n=1 Tax=Escherichia...  85.9    7e-21
+  UniRef90_UPI000C7DF9BE hypothetical protein n=1 Tax=Escherichia...  85.6    9e-21
+  UniRef90_A0A0K4D619 Holin protein n=5 Tax=Enterobacteriaceae Ta...  85.2    9e-21
+  UniRef90_A0A0H3FU89 Lysis S family protein n=13 Tax=Enterobacte...  85.2    1e-20
+  UniRef90_UPI0009BA979B holin n=1 Tax=Klebsiella pneumoniae TaxI...  85.2    2e-20
+  UniRef90_UPI000940E573 hypothetical protein n=1 Tax=Enterobacte...  86.7    2e-20
+  UniRef90_UPI0009E5A50C holin n=1 Tax=Brenneria goodwinii TaxID=...  84.4    3e-20
+  UniRef90_UPI00064A2564 lysis protein n=1 Tax=Enterobacter genom...  84.4    3e-20
+  UniRef90_UPI000D1362CB holin n=1 Tax=Escherichia coli TaxID=562...  84.4    3e-20
+  UniRef90_A0A1B7HMB8 Lysis S family protein n=2 Tax=Buttiauxella...  84.0    4e-20
+  UniRef90_A0A270V663 Lysis protein n=1 Tax=Enterobacter cloacae ...  84.4    4e-20
+  UniRef90_UPI000E1D0401 holin n=9 Tax=Escherichia coli TaxID=562...  83.6    4e-20
+  UniRef90_A0A329XMK8 Holin n=1 Tax=Escherichia coli TaxID=562 Re...  84.0    4e-20
+  UniRef90_A0A0M3F2V1 Lysis protein n=6 Tax=Enterobacteriaceae Ta...  84.0    4e-20
+  UniRef90_B7MV00 Putative phage lysis protein S n=2 Tax=Escheric...  83.6    5e-20
+  UniRef90_A0A0X4EJN4 Holin n=9 Tax=Enterobacterales TaxID=91347 ...  83.2    7e-20
+  UniRef90_A0A1E5MXK0 Lysis protein n=6 Tax=Enterobacteriaceae Ta...  83.2    7e-20
+  UniRef90_UPI000DD2CA89 holin n=1 Tax=Escherichia coli TaxID=562...  82.9    1e-19
+  UniRef90_A0A0A2R9Z7 Holin n=2 Tax=Morganella morganii TaxID=582...  82.9    1e-19
+  UniRef90_V3F5E3 Uncharacterized protein n=10 Tax=Enterobacteria...  82.9    1e-19
+  UniRef90_UPI000C1C220C hypothetical protein n=1 Tax=Escherichia...  82.1    2e-19
+  UniRef90_A0A0M1U731 Lysis protein S n=27 Tax=Enterobacterales T...  81.7    3e-19
+  UniRef90_UPI0006A42036 holin n=1 Tax=Escherichia coli TaxID=562...  80.9    4e-19
+  UniRef90_A0A376NFD7 Phage lysis protein n=1 Tax=Escherichia col...  80.2    9e-19
+  UniRef90_UPI00057A0A1C lysis protein n=1 Tax=Leclercia adecarbo...  80.5    1e-18
+  UniRef90_UPI000B3F4CB6 holin n=1 Tax=Escherichia coli TaxID=562...  80.2    1e-18
+  UniRef90_UPI0006A5CEFA holin n=3 Tax=Escherichia TaxID=561 RepI...  79.8    2e-18
+  UniRef90_A0A193QJR2 Lysis protein S n=4 Tax=Sodalis TaxID=84565...  79.8    2e-18
+  UniRef90_A0A380AEM8 Lysis protein S n=8 Tax=Enterobacteriaceae ...  79.8    2e-18
+  UniRef90_UPI0005C60A79 holin n=1 Tax=Pectobacterium carotovorum...  79.8    3e-18
+  UniRef90_A0A376SQF2 Holin protein n=1 Tax=Escherichia coli TaxI...  79.4    3e-18
+  UniRef90_UPI0008FB7E97 lysis protein n=1 Tax=Escherichia coli T...  78.6    3e-18
+  UniRef90_Q7UCH5 Holin n=15 Tax=Enterobacteriaceae TaxID=543 Rep...  78.2    6e-18
+  UniRef90_UPI0005CE7D46 hypothetical protein n=1 Tax=Escherichia...  77.8    1e-17
+  UniRef90_UPI000F4D1124 holin n=1 Tax=Escherichia coli TaxID=562...  77.8    1e-17
+  UniRef90_I2RWI0 Lysis protein S n=5 Tax=Escherichia coli TaxID=...  77.5    1e-17
+  UniRef90_UPI000B3F316C holin n=1 Tax=Escherichia coli TaxID=562...  77.5    1e-17
+  UniRef90_UPI000DF4A07D holin n=1 Tax=Escherichia coli TaxID=562...  77.5    1e-17
+  UniRef90_A0A1X3J4Z1 Lysis protein S-like protein n=1 Tax=Escher...  77.5    2e-17
+  UniRef90_A0A0H3FHD6 Lysis S family protein n=2 Tax=Rahnella Tax...  77.5    2e-17
+  UniRef90_A0A2U8I3L3 Lysis protein n=6 Tax=Candidatus Fukatsuia ...  77.1    2e-17
+  UniRef90_A0A2W7XBF5 Lysis protein n=18 Tax=Escherichia coli Tax...  76.7    2e-17
+  UniRef90_UPI00068A0D2D holin n=1 Tax=Escherichia coli TaxID=562...  77.1    2e-17
+  UniRef90_UPI000B3EFEA1 holin n=5 Tax=Enterobacteriaceae TaxID=5...  76.3    3e-17
+  UniRef90_UPI0006996A46 holin n=1 Tax=Shigella sonnei TaxID=624 ...  75.9    4e-17
+  UniRef90_I6FDK7 Lysis S family protein n=10 Tax=Enterobacteriac...  75.9    5e-17
+  UniRef90_A0A3G4WVB7 Lysis protein n=2 Tax=Escherichia coli TaxI...  75.2    8e-17
+  UniRef90_UPI000BE8887B hypothetical protein n=1 Tax=Escherichia...  75.2    9e-17
+  UniRef90_UPI000CDE98B4 holin n=1 Tax=Escherichia coli TaxID=562...  75.2    1e-16
+  UniRef90_UPI000B3F2E3B hypothetical protein n=1 Tax=Escherichia...  75.2    1e-16
+  UniRef90_D1P370 Lysis protein S n=8 Tax=Gammaproteobacteria Tax...  74.8    2e-16
+  UniRef90_E0WR75 Putative phage lysis (Holin) protein n=2 Tax=Ca...  74.4    2e-16
+  UniRef90_UPI000B3F0C43 holin n=1 Tax=Escherichia coli TaxID=562...  74.0    3e-16
+  UniRef90_UPI000BB6289A holin n=1 Tax=Escherichia coli TaxID=562...  73.6    3e-16
+  UniRef90_A0A2A2SM99 Lysis protein n=1 Tax=Klebsiella pneumoniae...  73.2    4e-16
+  UniRef90_UPI000CF6FAAE holin n=1 Tax=Escherichia coli TaxID=562...  73.6    5e-16
+  UniRef90_A0A2Y3LER8 Lysis protein S n=10 Tax=Shigella sonnei Ta...  74.4    5e-16
+  UniRef90_UPI000BDEB80B holin n=1 Tax=Escherichia coli TaxID=562...  73.2    6e-16
+  UniRef90_G8LD41 Lysis protein S-like protein from lambdoid prop...  73.2    7e-16
+  UniRef90_A0A163YM83 Lysis S family protein n=14 Tax=Enterobacte...  73.6    7e-16
+  UniRef90_UPI0006ACD544 hypothetical protein n=2 Tax=Escherichia...  73.2    7e-16
+  UniRef90_A0A376PU41 Putative lysis protein S n=6 Tax=Escherichi...  73.6    9e-16
+  UniRef90_UPI000A37FC52 holin n=5 Tax=Enterobacteriaceae TaxID=5...  73.2    1e-15
+  UniRef90_UPI0005CD9BA2 holin n=1 Tax=Escherichia coli TaxID=562...  72.5    1e-15
+  UniRef90_A0A3N6Y080 Holin n=9 Tax=Pantoea TaxID=53335 RepID=A0A...  74.0    1e-15
+  UniRef90_UPI000BDE852B hypothetical protein n=1 Tax=Escherichia...  71.7    3e-15
+  UniRef90_A0A0I1ENI9 Lysis protein S n=3 Tax=Enterobacteriaceae ...  71.7    5e-15
+  UniRef90_UPI0007B608C4 holin n=1 Tax=Escherichia coli TaxID=562...  70.5    6e-15
+  UniRef90_K4W372 Putative holin protein n=2 Tax=Escherichia coli...  70.1    6e-15
+  UniRef90_UPI000BE8D9C1 holin n=1 Tax=Escherichia coli TaxID=562...  70.1    7e-15
+  UniRef90_UPI000F4AF22F DUF1327 domain-containing protein n=1 Ta...  71.7    7e-15
+  UniRef90_UPI000CDE6F9A lysis protein n=1 Tax=Escherichia coli T...  69.8    1e-14
+  UniRef90_UPI0006B68E54 hypothetical protein n=1 Tax=Escherichia...  69.4    2e-14
+  UniRef90_UPI000B3F29BB holin n=1 Tax=Escherichia coli TaxID=562...  69.4    2e-14
+  UniRef90_A0A3P6K2I9 Lysis protein S n=1 Tax=Escherichia coli Ta...  69.0    2e-14
+  UniRef90_A0A379TZX0 Lysis protein S n=7 Tax=Salmonella enterica...  69.4    2e-14
+  UniRef90_UPI00098986AD holin n=1 Tax=Escherichia coli TaxID=562...  69.4    2e-14
+  UniRef90_UPI000BB6988C lysis protein n=1 Tax=Escherichia coli T...  69.0    2e-14
+  UniRef90_A0A1D3U0G2 Lysis S family protein n=48 Tax=Enterobacte...  69.4    3e-14
+  UniRef90_A0A377LFR7 Putative prophage lysis protein n=1 Tax=Esc...  68.6    3e-14
+  UniRef90_UPI00050BA72F holin n=1 Tax=Escherichia coli TaxID=562...  68.6    3e-14
+  UniRef90_UPI000FDA7FAA holin n=1 Tax=Pantoea dispersa TaxID=598...  70.1    4e-14
+  UniRef90_A0A3L2QXL4 Holin (Fragment) n=13 Tax=Escherichia coli ...  68.2    4e-14
+  UniRef90_UPI000BB8B617 hypothetical protein n=1 Tax=Escherichia...  69.8    4e-14
+  UniRef90_A0A3L8UTH8 Uncharacterized protein n=2 Tax=Escherichia...  68.2    5e-14
+  UniRef90_UPI000B3F5ED4 hypothetical protein n=1 Tax=Escherichia...  68.2    6e-14
+  UniRef90_A0A2T1MZA4 Host specificity protein J (Fragment) n=4 T...  73.6    6e-14
+  UniRef90_UPI0006C87B40 lysis protein n=1 Tax=Escherichia coli T...  68.2    6e-14
+  UniRef90_A0A089PPW3 Lysis protein n=2 Tax=Enterobacteriaceae Ta...  68.6    6e-14
+  UniRef90_UPI000D596EC4 holin n=1 Tax=Escherichia coli TaxID=562...  67.8    7e-14
+  UniRef90_UPI000E00AB86 holin n=1 Tax=Escherichia coli TaxID=562...  67.8    7e-14
+  UniRef90_UPI000691B837 hypothetical protein n=1 Tax=Enterobacte...  68.2    8e-14
+  UniRef90_UPI000937BBAF phage tail protein n=1 Tax=Escherichia c...  68.6    9e-14
+  UniRef90_A0A2J0QP78 Holin (Fragment) n=11 Tax=Escherichia coli ...  67.1    1e-13
+  UniRef90_UPI000BDEEFE0 hypothetical protein n=1 Tax=Escherichia...  67.4    1e-13
+  UniRef90_UPI000B4299D7 holin n=1 Tax=Escherichia coli TaxID=562...  66.7    2e-13
+  UniRef90_UPI0003A5D263 holin n=1 Tax=Escherichia coli TaxID=562...  66.7    2e-13
+  UniRef90_UPI0005DC9F12 peptidoglycan-binding protein LysM n=1 T...  67.1    2e-13
+  UniRef90_UPI0007B38721 lysis protein n=1 Tax=Enterobacter kobei...  67.1    2e-13
+  UniRef90_A0A0U1I2P3 Holin protein n=4 Tax=Yersinia TaxID=444888...  66.7    2e-13
+  UniRef90_UPI000663D46D holin n=2 Tax=Shigella sonnei TaxID=624 ...  66.7    3e-13
+  UniRef90_A0A0H3GM77 Uncharacterized protein n=1 Tax=Klebsiella ...  66.7    3e-13
+  UniRef90_F4T742 Lysis protein S, lambdoid prophage DLP12-like p...  66.3    4e-13
+  UniRef90_H3N069 Uncharacterized protein n=4 Tax=Klebsiella TaxI...  66.7    4e-13
+  UniRef90_UPI000C1BC700 hypothetical protein n=1 Tax=Escherichia...  65.9    4e-13
+  UniRef90_UPI0008FFCBCE hypothetical protein n=1 Tax=Escherichia...  65.9    4e-13
+  UniRef90_UPI00069AE661 holin n=1 Tax=Escherichia coli TaxID=562...  65.5    6e-13
+  UniRef90_C8T826 Lysis protein S n=17 Tax=Enterobacterales TaxID...  65.5    8e-13
+  UniRef90_F4SL76 Lysis protein S, lambdoid prophage DLP12-like p...  64.8    8e-13
+  UniRef90_UPI0008FF1C2A hypothetical protein n=1 Tax=Escherichia...  65.1    9e-13
+  UniRef90_UPI00069C5158 hypothetical protein n=1 Tax=Shigella so...  64.8    1e-12
+  UniRef90_A0A3K9FEC0 Lysis protein n=5 Tax=Salmonella enterica T...  64.8    2e-12
+  UniRef90_UPI000F4984D4 holin n=1 Tax=Escherichia coli TaxID=562...  64.4    2e-12
+  UniRef90_UPI000B3F150C holin n=1 Tax=Escherichia coli TaxID=562...  64.0    2e-12
+  UniRef90_UPI0005DF3AC9 peptidoglycan-binding protein LysM n=1 T...  64.4    2e-12
+  UniRef90_A0A377FDY8 Lysis protein S n=1 Tax=Escherichia coli Ta...  64.4    2e-12
+  UniRef90_A0A090V0R8 Putative phage lysis protein homolog n=3 Ta...  64.4    3e-12
+  UniRef90_A0A1V3CAJ7 Lysis protein n=1 Tax=Escherichia coli TaxI...  63.2    3e-12
+  UniRef90_A0A370YM91 Lysis protein n=1 Tax=Escherichia coli TaxI...  64.8    3e-12
+  UniRef90_A0A0T9PSS2 Holin protein n=2 Tax=Yersinia pseudotuberc...  64.0    4e-12
+  UniRef90_A0A3J4FFR4 Lysis protein n=1 Tax=Salmonella enterica T...  63.6    4e-12
+  UniRef90_A0A3J5HJW5 Lysis protein n=3 Tax=Salmonella enterica T...  63.6    4e-12
+  UniRef90_UPI0009082673 hypothetical protein n=1 Tax=Escherichia...  62.8    6e-12
+  UniRef90_UPI000D136692 lysis protein n=1 Tax=Escherichia coli T...  62.8    6e-12
+  UniRef90_A0A1X0X4R4 Lysis protein n=1 Tax=Kluyvera intermedia T...  63.6    7e-12
+  UniRef90_UPI00029CB2CF hypothetical protein n=1 Tax=Klebsiella ...  63.2    8e-12
+  UniRef90_A0A3I8C1G6 Lysis protein n=5 Tax=Salmonella enterica T...  63.2    8e-12
+  UniRef90_UPI000D170FD8 lysis protein n=1 Tax=Kosakonia sp. H7A ...  63.6    9e-12
+  UniRef90_A0A1I5BDN8 Bacteriophage holin family HP1 n=2 Tax=Izha...  63.2    9e-12
+  UniRef90_A0A3A9INX5 Lysis protein n=2 Tax=Erwiniaceae TaxID=190...  63.2    9e-12
+  UniRef90_A0A090VYT6 Phage lysis protein homolog EssD n=4 Tax=En...  62.4    2e-11
+  UniRef90_UPI000E5CA07E holin n=1 Tax=Shigella sonnei TaxID=624 ...  61.7    2e-11
+  UniRef90_A0A0U1HD64 Holin protein n=26 Tax=Yersiniaceae TaxID=1...  62.1    2e-11
+  UniRef90_I2WFI8 PF07041 family protein n=1 Tax=Escherichia coli...  66.3    2e-11
+  UniRef90_UPI00085A4DC8 DUF1327 domain-containing protein n=1 Ta...  61.7    2e-11
+  UniRef90_UPI00026D2541 Lysis S family protein n=4 Tax=Pantoea T...  61.7    3e-11
+  UniRef90_UPI0003EEF9F7 holin n=5 Tax=Escherichia coli TaxID=562...  60.5    6e-11
+  UniRef90_A0A2S5KGV8 Lysis protein n=14 Tax=Enterobacterales Tax...  60.5    8e-11
+  UniRef90_UPI0009EEB0EF lysis protein n=1 Tax=Erwinia sp. ErVv1 ...  60.9    8e-11
+  UniRef90_A0A0B1R4K8 Lysis protein n=1 Tax=Pantoea rodasii TaxID...  60.1    1e-10
+  UniRef90_A0A3M7UIH0 Lysis protein n=3 Tax=Erwiniaceae TaxID=190...  60.1    1e-10
+  UniRef90_UPI00091E9D36 lysis protein n=3 Tax=Pantoea ananas Tax...  60.5    1e-10
+  UniRef90_A0A0J9B8R8 Lysis protein n=2 Tax=Enterobacterales TaxI...  60.1    2e-10
+  UniRef90_H3RLK4 Lysis protein S n=1 Tax=Pantoea stewartii subsp...  59.7    2e-10
+  UniRef90_UPI00073652EF lysis protein n=1 Tax=Pantoea dispersa T...  59.7    2e-10
+  UniRef90_A0A2U1D8R4 Holin family HP1 protein n=1 Tax=Pantoea an...  59.7    2e-10
+  UniRef90_A0A2Y5AV78 Lysis protein S n=2 Tax=Shigella flexneri T...  59.0    2e-10
+  UniRef90_UPI000A38FD1F hypothetical protein n=1 Tax=Escherichia...  61.7    3e-10
+  UniRef90_UPI000E5D90D8 holin n=5 Tax=Enterobacterales TaxID=913...  58.6    3e-10
+  UniRef90_UPI000F88B76D UPI000F88B76D related cluster n=1 Tax=un...  59.4    3e-10
+  UniRef90_UPI00097D85A2 holin n=1 Tax=Shigella sonnei TaxID=624 ...  58.6    4e-10
+  UniRef90_UPI00058079B6 lysis protein n=1 Tax=Pantoea sp. MBLJ3 ...  58.2    6e-10
+  UniRef90_UPI0003B229B1 hypothetical protein n=3 Tax=Pantoea Tax...  59.4    8e-10
+  UniRef90_A0A2M9WIG9 Lysis protein n=2 Tax=Enterobacterales TaxI...  58.2    8e-10
+  UniRef90_J3CFH1 Lysis protein S n=3 Tax=Erwiniaceae TaxID=19034...  57.8    1e-09
+  UniRef90_A0A1X2RJH0 Lysis protein n=4 Tax=Salmonella enterica T...  57.4    2e-09
+  UniRef90_A0A3A9IDJ0 Lysis protein n=1 Tax=Erwiniaceae bacterium...  57.0    2e-09
+  UniRef90_UPI000B9FCFCB lysis protein n=1 Tax=Salmonella enteric...  56.7    2e-09
+  UniRef90_UPI000BAAFCFB hypothetical protein n=2 Tax=Escherichia...  56.3    3e-09
+  UniRef90_UPI000F88D48A lysis protein n=1 Tax=Enterobacter horma...  56.3    4e-09
+  UniRef90_UPI0007E8F7C3 hypothetical protein n=1 Tax=Escherichia...  55.9    4e-09
+  UniRef90_UPI0009B8FF72 lysis protein n=1 Tax=Enterobacter cance...  55.9    7e-09
+  UniRef90_A0A0E8L7B4 Holin protein n=2 Tax=Yersinia enterocoliti...  55.5    7e-09
+  UniRef90_UPI00024F1E69 hypothetical protein n=1 Tax=Enterobacte...  56.3    9e-09
+  UniRef90_A0A0K3ZW39 Phage protein YjhS encoded within prophage ...  56.3    1e-08
+  UniRef90_A0A376ZGP8 Putative lysis protein S n=1 Tax=Escherichi...  54.0    1e-08
+  UniRef90_A0A1X3I7G8 Lysis protein S-like protein n=2 Tax=Escher...  54.7    2e-08
+  UniRef90_UPI00063D4E2C holin n=1 Tax=Escherichia coli TaxID=562...  54.0    2e-08
+  UniRef90_UPI0002670E4D holin n=1 Tax=Escherichia coli TaxID=562...  54.0    2e-08
+  UniRef90_UPI000B97C89A lysis protein n=1 Tax=Kosakonia cowanii ...  54.4    2e-08
+  UniRef90_UPI000B3F2233 holin n=1 Tax=Escherichia coli TaxID=562...  53.6    4e-08
+  UniRef90_UPI00098BD343 hypothetical protein n=1 Tax=Escherichia...  53.6    4e-08
+  UniRef90_UPI0003356A14 hypothetical protein n=1 Tax=Escherichia...  53.2    4e-08
+  UniRef90_UPI0007875A40 hypothetical protein n=1 Tax=Erwinia per...  53.6    6e-08
+  UniRef90_UPI000DE4E8A3 hypothetical protein n=1 Tax=Escherichia...  52.4    7e-08
+  UniRef90_A0A376VJV2 Putative prophage lysis protein n=1 Tax=Esc...  52.0    1e-07
+  UniRef90_A0A1X3I4C9 Lysis protein S-like protein n=2 Tax=Escher...  52.8    1e-07
+  UniRef90_A0A0J8Y957 Lysis protein n=5 Tax=Enterobacteriaceae Ta...  50.9    6e-07
+  UniRef90_A0A0A0GNL6 Lysis protein S-like protein n=2 Tax=Entero...  49.7    7e-07
+  UniRef90_A0A3I0Z6U8 Coat protein n=1 Tax=Salmonella enterica Ta...  53.6    8e-07
+  UniRef90_A0A1J4QPT0 Lysis protein n=1 Tax=Salmonella enterica I...  50.5    8e-07
+  UniRef90_A0A1B7K1H9 Putative holin protein n=4 Tax=Providencia ...  50.1    1e-06
+  UniRef90_UPI0009917770 hypothetical protein n=1 Tax=Shigella bo...  49.3    1e-06
+  UniRef90_UPI000E431BC5 hypothetical protein n=1 Tax=Escherichia...  49.7    1e-06
+  UniRef90_A0A377X0N9 Lysis S family protein n=1 Tax=Klebsiella p...  49.0    2e-06
+  UniRef90_UPI000A1DECB8 hypothetical protein n=1 Tax=Escherichia...  49.0    2e-06
+  UniRef90_A0A1X0WAZ6 Uncharacterized protein n=1 Tax=Rouxiella b...  49.0    3e-06
+  UniRef90_D1NX73 Uncharacterized protein (Fragment) n=1 Tax=Prov...  47.8    4e-06
+  UniRef90_D2AA42 Lysis protein S n=2 Tax=Shigella flexneri TaxID...  48.2    4e-06
+  UniRef90_A0A376U7V4 Putative lysis protein S n=2 Tax=Escherichi...  47.4    7e-06
+  UniRef90_A0A0V9JAT1 Uncharacterized protein n=14 Tax=Enterobact...  47.8    9e-06
+  UniRef90_UPI000E6AFE4F holin n=1 Tax=Arsenophonus endosymbiont ...  47.4    9e-06
+  UniRef90_A0A2U8I482 Lysis protein n=1 Tax=Candidatus Fukatsuia ...  47.4    1e-05
+  UniRef90_A0A3P4KIB2 Uncharacterized protein n=1 Tax=Escherichia...  39.7    0.009
+  UniRef90_A0A318G5Z1 Bacteriophage P21 holin S n=1 Tax=Grimontel...  38.9    0.012
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A384GQQ6 Lysis protein n=4 Tax=Enterobacterales TaxI...  63.2    1e-11
+  UniRef90_V3CXZ1 Uncharacterized protein n=1 Tax=Enterobacter cl...  62.4    2e-11
+  UniRef90_A0A384GE61 Lysis protein n=10 Tax=Enterobacteriaceae T...  57.4    2e-09
+  UniRef90_UPI000A3AABF1 lysis protein n=1 Tax=Klebsiella michiga...  57.4    2e-09
+  UniRef90_UPI000736E512 lysis protein n=3 Tax=Pantoea TaxID=5333...  57.0    2e-09
+  UniRef90_A0A1Q8YQA7 Lysis protein n=5 Tax=Bacteria TaxID=2 RepI...  56.7    3e-09
+  UniRef90_A0A0B1RA92 Lysis protein n=2 Tax=Pantoea TaxID=53335 R...  56.3    5e-09
+  UniRef90_UPI000D52574F lysis protein n=1 Tax=Klebsiella oxytoca...  56.3    6e-09
+  UniRef90_A0A2V4FX05 Lysis protein n=9 Tax=Yersiniaceae TaxID=19...  55.1    1e-08
+  UniRef90_A0A0L0GHF3 Lysis protein n=3 Tax=Trabulsiella odontote...  54.7    2e-08
+  UniRef90_UPI000E4B99A4 lysis protein n=1 Tax=Erwinia persicina ...  54.0    3e-08
+  UniRef90_I2B9S8 Uncharacterized protein n=3 Tax=Shimwellia blat...  53.6    5e-08
+  UniRef90_UPI0003821E6A hypothetical protein n=1 Tax=Pantoea sp....  53.6    6e-08
+  UniRef90_UPI000948E9E1 lysis protein n=1 Tax=Pantoea sp. 1.19 T...  53.2    7e-08
+  UniRef90_A0A2R3H7X9 Lysis protein n=5 Tax=Serratia TaxID=613 Re...  52.8    1e-07
+  UniRef90_A0A089Q387 Lysis protein n=4 Tax=Enterobacteriaceae Ta...  52.0    2e-07
+  UniRef90_A0A2S9I893 Lysis protein n=1 Tax=Pantoea coffeiphila T...  52.0    2e-07
+  UniRef90_V3SXQ5 Lysis protein n=1 Tax=Serratia sp. (strain ATCC...  50.9    6e-07
+  UniRef90_UPI0009DCEB4F hypothetical protein n=1 Tax=Tolumonas l...  50.9    8e-07
+  UniRef90_A0A1X0X4X4 Lysis protein n=1 Tax=Kluyvera intermedia T...  50.1    1e-06
+  UniRef90_A0A3G2FNS5 Lysis protein n=2 Tax=Serratia TaxID=613 Re...  49.3    2e-06
+  UniRef90_A0A1E7Z2M6 Uncharacterized protein n=7 Tax=Gammaproteo...  49.0    4e-06
+  UniRef90_A0A2X5PC42 Lysis protein S n=2 Tax=Erwiniaceae TaxID=1...  48.6    5e-06
+  UniRef90_UPI0009DE2D77 hypothetical protein n=1 Tax=Pantoea sp....  47.4    2e-05
+  UniRef90_A0A127KNH9 Uncharacterized protein n=1 Tax=Pseudomonas...  46.6    2e-05
+  UniRef90_A0A2S4RKL0 Uncharacterized protein n=1 Tax=Pantoea sp....  46.6    3e-05
+  UniRef90_A0A370T1V9 Bacteriophage P21 holin S n=6 Tax=Serratia ...  46.3    5e-05
+  UniRef90_A0A379R5Y9 Lysis protein S n=2 Tax=Salmonella enterica...  45.9    5e-05
+  UniRef90_A0A168KB29 Lysis protein S n=8 Tax=Enterobacterales Ta...  46.3    5e-05
+  UniRef90_UPI0007B3B644 hypothetical protein n=1 Tax=Klebsiella ...  45.9    5e-05
+  UniRef90_UPI0009C2FBAA hypothetical protein n=1 Tax=Serratia ma...  46.3    5e-05
+  UniRef90_UPI0005D3B244 lysis protein n=1 Tax=Rouxiella chamberi...  45.9    5e-05
+  UniRef90_C4K561 Phage holin n=4 Tax=Enterobacterales TaxID=9134...  45.5    6e-05
+  UniRef90_UPI000CF6CF05 hypothetical protein n=1 Tax=Pseudoalter...  46.3    6e-05
+  UniRef90_Q1I0Z2 Hol n=3 Tax=root TaxID=1 RepID=Q1I0Z2_9CAUD         45.1    1e-04
+  UniRef90_F3LHY1 Uncharacterized protein n=1 Tax=gamma proteobac...  44.7    1e-04
+  UniRef90_UPI00067F357F lysis protein n=2 Tax=Klebsiella pneumon...  44.3    2e-04
+  UniRef90_UPI0009B580FB lysis protein n=1 Tax=Enterobacter cloac...  44.7    2e-04
+  UniRef90_A0A2U1DFZ1 Holin family HP1 protein n=2 Tax=Erwiniacea...  44.7    2e-04
+  UniRef90_A0A2T7ALI1 Lysis protein n=12 Tax=Enterobacteriaceae T...  44.7    2e-04
+  UniRef90_UPI000377C005 hypothetical protein n=1 Tax=gamma prote...  44.3    2e-04
+  UniRef90_A0A095VKW3 Lysis protein n=2 Tax=Tatumella TaxID=82986...  44.7    2e-04
+  UniRef90_A0A2Z3X7F1 Holin n=2 Tax=Enterobacteriaceae TaxID=543 ...  44.3    2e-04
+  UniRef90_UPI0003048351 holin n=1 Tax=Sodalis glossinidius TaxID...  43.6    2e-04
+  UniRef90_A0A3H7SX74 Uncharacterized protein (Fragment) n=4 Tax=...  42.8    3e-04
+  UniRef90_UPI000745090B hypothetical protein n=1 Tax=Serratia ma...  44.0    3e-04
+  UniRef90_UPI000E6B1B5A holin n=1 Tax=Arsenophonus endosymbiont ...  43.2    4e-04
+  UniRef90_A0A165NZR3 Uncharacterized protein n=5 Tax=Proteobacte...  43.6    6e-04
+  UniRef90_W1DFB7 Uncharacterized protein n=1 Tax=Klebsiella pneu...  42.4    6e-04
+  UniRef90_A0A3C0H5A1 Lysis protein n=1 Tax=Enterobacteriaceae ba...  42.8    7e-04
+  UniRef90_A0A349Z2D4 Holin n=1 Tax=Alteromonas sp. TaxID=232 Rep...  42.4    0.001
+  UniRef90_A0A0N8IRF2 Uncharacterized protein n=3 Tax=Escherichia...  42.4    0.001
+  UniRef90_UPI0002144E92 hypothetical protein n=1 Tax=Pasteurella...  42.4    0.001
+  UniRef90_A0A2L0ILL7 Lysis protein n=1 Tax=Mixta gaviniae TaxID=...  42.4    0.001
+  UniRef90_UPI00073F4523 lysis protein n=1 Tax=Type-C symbiont of...  42.4    0.002
+  UniRef90_Q7Y3V4 Uncharacterized protein n=1 Tax=Yersinia phage ...  42.4    0.002
+  UniRef90_UPI000418464F hypothetical protein n=1 Tax=Pseudoalter...  42.4    0.002
+  UniRef90_A0A3I6P1Z3 Uncharacterized protein n=2 Tax=Salmonella ...  42.0    0.002
+  UniRef90_UPI0009A9897B lysis protein n=1 Tax=Salmonella enteric...  42.0    0.002
+  UniRef90_A0A3I7QV55 Uncharacterized protein n=3 Tax=Salmonella ...  41.6    0.002
+  UniRef90_B6SD41 Phage 21-like group II holin n=1 Tax=Bacterioph...  41.3    0.002
+  UniRef90_A0A3I5PDE3 Lysis protein n=1 Tax=Salmonella enterica T...  41.3    0.003
+  UniRef90_A0A0U5L3G4 Uncharacterized protein n=1 Tax=Erwinia ger...  41.6    0.003
+  UniRef90_UPI00037A4F03 hypothetical protein n=1 Tax=Thiolinea d...  41.3    0.004
+  UniRef90_E1W2C6 Holin n=6 Tax=Pasteurellaceae TaxID=712 RepID=E...  40.9    0.004
+  UniRef90_A0A2D5RWZ1 Uncharacterized protein n=1 Tax=Rheinheimer...  41.3    0.004
+  UniRef90_UPI0009072363 hypothetical protein n=1 Tax=Escherichia...  40.9    0.005
+  UniRef90_A0A2M9WBY1 Lysis protein n=9 Tax=Pantoea TaxID=53335 R...  40.9    0.005
+  UniRef90_A0A2P5GPD0 Lysis protein n=3 Tax=Enterobacteriaceae Ta...  40.5    0.007
+  UniRef90_A0A2A7V2G1 Lysis protein n=14 Tax=root TaxID=1 RepID=A...  40.1    0.010
+  UniRef90_UPI0009771416 hypothetical protein n=1 Tax=Pseudoalter...  40.9    0.011
+  UniRef90_U9XMT2 Uncharacterized protein n=1 Tax=Escherichia col...  38.9    0.012
+  UniRef90_J3DEC3 Lysis protein S n=3 Tax=Pantoea TaxID=53335 Rep...  39.7    0.013
+  UniRef90_A0A267S209 Lysis protein n=1 Tax=Enterobacter sp. 10-1...  39.3    0.013
+  UniRef90_A0A0M1GNF1 Lysis protein n=31 Tax=Pasteurellaceae TaxI...  39.7    0.014
+  UniRef90_A0A2H4YH15 Uncharacterized protein n=1 Tax=Raoultella ...  41.6    0.016
+  UniRef90_A0A1B1ITN8 Uncharacterized protein n=1 Tax=uncultured ...  40.1    0.017
+  UniRef90_UPI000362B75D hypothetical protein n=2 Tax=Pseudoalter...  40.1    0.017
+  UniRef90_W1J276 Similar to bacteriophage Gp13 protein n=1 Tax=X...  38.9    0.017
+  UniRef90_UPI0009339F24 lysis protein n=1 Tax=Nissabacter archet...  39.3    0.019
+  UniRef90_A0A2A7V153 Lysis protein n=1 Tax=Enterobacter agglomer...  39.3    0.021
+  UniRef90_A0A2V4FM46 Lysis protein n=2 Tax=Pasteurellaceae TaxID...  39.3    0.021
+  UniRef90_UPI0004B7F110 hypothetical protein n=1 Tax=alpha prote...  38.9    0.024
+  UniRef90_UPI0005AC758C hypothetical protein n=1 Tax=Yersinia Ta...  38.6    0.028
+  UniRef90_W1J3W0 Similar to bacteriophage Gp13 protein n=2 Tax=X...  38.6    0.031
+  UniRef90_A0A077N583 Similar to bacteriophage Gp13 protein n=2 T...  38.6    0.032
+  UniRef90_A0A377SXL1 Uncharacterized protein n=1 Tax=Raoultella ...  37.8    0.034
+  UniRef90_F9Q9R8 Lysis protein S n=1 Tax=Haemophilus pittmaniae ...  38.2    0.036
+  UniRef90_A0A193QIX7 Uncharacterized protein n=11 Tax=Sodalis Ta...  38.2    0.038
+  UniRef90_A0A267KCY8 Holin n=4 Tax=Pseudomonas savastanoi TaxID=...  39.3    0.038
+  UniRef90_UPI00064573E8 hypothetical protein n=4 Tax=Yersiniacea...  38.2    0.040
+  UniRef90_A0A2A2GV86 Holin n=1 Tax=Arsenophonus sp. ENCA TaxID=1...  38.2    0.043
+  UniRef90_Q2NV04 Hypothetical phage protein n=2 Tax=Sodalis glos...  38.6    0.044
+  UniRef90_A0A0W1KS99 Uncharacterized protein n=1 Tax=Pseudoalter...  39.3    0.045
+  UniRef90_A0A3D0JXY6 Uncharacterized protein n=2 Tax=Pseudomonas...  38.6    0.047
+  UniRef90_A0A3M1Y0J7 Uncharacterized protein n=1 Tax=Chloroflexi...  38.2    0.049
+  UniRef90_A0A085JGT8 Lysis protein S n=1 Tax=Tatumella ptyseos A...  37.8    0.053
+  UniRef90_UPI000157D814 hypothetical protein n=6 Tax=Vibrionacea...  38.2    0.055
+  UniRef90_A0A0U4HI86 Uncharacterized protein n=2 Tax=Serratia Ta...  37.8    0.057
+  UniRef90_D1P079 Uncharacterized protein n=1 Tax=Providencia rus...  37.0    0.061
+  UniRef90_A0A2R7NTM4 Holin n=1 Tax=Acidovorax sp. HMWF018 TaxID=...  38.6    0.061
+  UniRef90_A0A1A7P5R8 Lysis protein n=4 Tax=Gallibacterium anatis...  37.8    0.063
+  UniRef90_UPI0007E44B19 hypothetical protein n=1 Tax=Yersinia sp...  37.8    0.064
+  UniRef90_UPI00067B5650 hypothetical protein n=1 Tax=Yersinia fr...  37.8    0.066
+  UniRef90_A0A1N6RWR1 Uncharacterized protein n=1 Tax=Enterobacte...  38.2    0.071
+  UniRef90_A0A1V3KL12 Lysis protein n=3 Tax=Rodentibacter TaxID=1...  37.8    0.075
+  UniRef90_A0A2T5Q7F6 Lysis protein n=2 Tax=Acinetobacter TaxID=4...  38.2    0.081
+  UniRef90_UPI00047D11EB hypothetical protein n=1 Tax=Arsenophonu...  37.4    0.087
+  UniRef90_A0A369AFC0 Uncharacterized protein n=1 Tax=Marinomonas...  37.8    0.089
+  UniRef90_A0A0H3F5X6 Prophage Hp1 family holin n=15 Tax=Enteroba...  37.4    0.092
+  UniRef90_A0A327X408 Holin family HP1 protein n=1 Tax=Aliidiomar...  38.2    0.093
+  UniRef90_UPI0005A4899C holin n=2 Tax=Sodalis glossinidius TaxID...  37.0    0.097
+  UniRef90_A0A3M6ENM6 Holin n=1 Tax=Pseudomonas caricapapayae Tax...  37.8    0.097
+  UniRef90_UPI000B9EE28A hypothetical protein n=1 Tax=Zooshikella...  37.4    0.10 
+  UniRef90_A0A0U4IS35 Uncharacterized protein n=1 Tax=Serratia fo...  37.4    0.11 
+  UniRef90_A0A2S1B8A3 Holin n=1 Tax=Morganella morganii TaxID=582...  37.4    0.11 
+  UniRef90_A0A2A2GU69 Uncharacterized protein n=1 Tax=Arsenophonu...  37.4    0.12 
+  UniRef90_A0A3L5MBS1 Uncharacterized protein n=1 Tax=Escherichia...  37.8    0.13 
+  UniRef90_D2U452 Conserved hypothetical phage protein n=1 Tax=Ar...  37.0    0.14 
+  UniRef90_UPI00097DBD95 hypothetical protein n=1 Tax=Shigella so...  36.6    0.14 
+  UniRef90_W1INE4 Similar to bacteriophage Gp13 protein n=2 Tax=X...  36.6    0.15 
+  UniRef90_UPI0005823C7B holin n=1 Tax=Pectobacterium carotovorum...  36.6    0.15 
+  UniRef90_A0A3B8KFV1 Holin n=2 Tax=Pseudomonas TaxID=286 RepID=A...  37.0    0.15 
+  UniRef90_A0A0F4R544 Uncharacterized protein n=2 Tax=Marinomonas...  36.6    0.17 
+  UniRef90_A0A3P1K5R9 Lysis protein n=1 Tax=Escherichia coli TaxI...  38.2    0.17 
+  UniRef90_B6SD15 Phage 21-like group II holin n=1 Tax=Bacterioph...  36.6    0.17 
+  UniRef90_A0A3A9UM93 Uncharacterized protein n=1 Tax=Alteromonas...  37.0    0.20 
+  UniRef90_UPI00040ACB27 hypothetical protein n=2 Tax=Arsenophonu...  36.6    0.20 
+  UniRef90_Q54418 Extracellular secretory protein n=23 Tax=Entero...  37.0    0.21 
+  UniRef90_N8ZZD0 Uncharacterized protein n=1 Tax=Acinetobacter v...  37.0    0.25 
+  UniRef90_A0A1G4UE31 Bacteriophage holin family, superfamily II-...  36.6    0.25 
+  UniRef90_A0A1Q8G4V9 Uncharacterized protein n=1 Tax=Marinobacte...  37.0    0.26 
+  UniRef90_A0A2S4HGX4 Uncharacterized protein n=1 Tax=Zhongshania...  36.2    0.27 
+  UniRef90_A0A2N0MWV1 Uncharacterized protein n=1 Tax=Ewingella a...  36.2    0.28 
+  UniRef90_A0A209B1X7 Uncharacterized protein n=1 Tax=Yersinia fr...  36.6    0.31 
+  UniRef90_A0A2I5T8S4 Uncharacterized protein n=1 Tax=Serratia sp...  35.9    0.33 
+  UniRef90_A0A3G2KAY7 Uncharacterized protein n=1 Tax=Pseudoalter...  35.9    0.33 
+  UniRef90_A0A068R193 Similar to bacteriophage Gp13 protein n=1 T...  35.9    0.34 
+  UniRef90_A0A1C2VT36 Lysis protein n=5 Tax=Acinetobacter calcoac...  36.6    0.34 
+  UniRef90_A0A1T2XX20 Holin n=3 Tax=Pseudomonas TaxID=286 RepID=A...  36.2    0.34 
+  UniRef90_A0A1B4LAY1 Holin n=4 Tax=Burkholderia cepacia complex ...  35.9    0.34 
+  UniRef90_A0A1S6HXP2 Uncharacterized protein n=1 Tax=Shewanella ...  36.2    0.35 
+  UniRef90_UPI0003770095 hypothetical protein n=1 Tax=Hahella gan...  35.9    0.36 
+  UniRef90_UPI000744EC21 primosomal protein n=3 Tax=Serratia marc...  35.9    0.38 
+  UniRef90_A0A1Q5TQU3 Holin n=2 Tax=Xenorhabdus TaxID=626 RepID=A...  35.5    0.39 
+  UniRef90_A0A210TNM5 Uncharacterized protein n=1 Tax=Yersinia en...  36.6    0.43 
+  UniRef90_UPI00073D88C4 holin n=1 Tax=[Erwinia] teleogrylli TaxI...  35.9    0.44 
+  UniRef90_A0A3I1JZT1 Holin (Fragment) n=8 Tax=Escherichia coli T...  34.7    0.48 
+  UniRef90_A0A376NFC3 Phage lysis protein n=1 Tax=Escherichia col...  34.7    0.50 
+  UniRef90_A0A3N2RW85 Uncharacterized protein n=2 Tax=Enterobacte...  35.5    0.50 
+  UniRef90_UPI0006D2BE3A hypothetical protein n=1 Tax=Photobacter...  35.5    0.51 
+  UniRef90_UPI000BA8F613 hypothetical protein n=1 Tax=Paraferrimo...  36.2    0.51 
+  UniRef90_A0A3I1H5R6 DUF1737 domain-containing protein n=6 Tax=E...  35.5    0.51 
+  UniRef90_A0A330M2P5 Uncharacterized protein n=1 Tax=Shewanella ...  35.5    0.57 
+  UniRef90_UPI0009E9AF9F hypothetical protein n=1 Tax=Alishewanel...  36.2    0.61 
+  UniRef90_A0A1V5VR06 Uncharacterized protein n=1 Tax=Chloroflexi...  37.0    0.61 
+  UniRef90_A0A1G7JHC2 Bacteriophage holin family HP1 n=2 Tax=Pseu...  35.5    0.65 
+  UniRef90_Q6APY0 Uncharacterized protein n=1 Tax=Desulfotalea ps...  36.6    0.70 
+  UniRef90_A0A0A0CRS4 Holin n=1 Tax=Photorhabdus luminescens TaxI...  35.1    0.71 
+  UniRef90_UPI00061D2ECF hypothetical protein n=1 Tax=Hafnia TaxI...  35.1    0.75 
+  UniRef90_UPI00090759A4 hypothetical protein n=1 Tax=Pantoea sep...  34.7    0.78 
+  UniRef90_UPI00087DA9DA holin n=1 Tax=Pseudomonas brenneri TaxID...  35.5    0.80 
+  UniRef90_O80287 Gp13 n=67 Tax=root TaxID=1 RepID=O80287_BPPS3       35.1    0.81 
+  UniRef90_UPI000255A5EC hypothetical protein n=1 Tax=Marinobacte...  35.1    0.84 
+  UniRef90_G9Y6I0 Uncharacterized protein n=8 Tax=Enterobacterale...  35.5    0.84 
+  UniRef90_A0A2G6DNY5 Uncharacterized protein n=1 Tax=Pasteurella...  35.1    0.86 
+  UniRef90_A0A2A2GZ25 Uncharacterized protein n=1 Tax=Arsenophonu...  35.1    0.94 
+  UniRef90_M4RLU0 Uncharacterized protein n=2 Tax=Paraglaciecola ...  34.3    0.97 
+  UniRef90_A0A0A5SII2 Holin n=5 Tax=root TaxID=1 RepID=A0A0A5SII2...  34.7    1.00 
+  UniRef90_A0A1N6N1T0 Similar to bacteriophage Gp13 protein n=4 T...  34.3    1.1  
+  UniRef90_A0A334ZK25 Lysis protein S n=1 Tax=Acinetobacter bauma...  34.7    1.1  
+  UniRef90_A0A2U8I6M1 Uncharacterized protein n=1 Tax=Candidatus ...  35.1    1.1  
+  UniRef90_A0A3B0LVE5 Uncharacterized protein n=1 Tax=Arsenophonu...  34.3    1.1  
+  UniRef90_A0A0T7E2G2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  34.7    1.2  
+  UniRef90_A0A2V4W927 Holin family HP1 protein n=3 Tax=Shewanella...  34.7    1.3  
+  UniRef90_A0A2M9PTZ7 Holin n=3 Tax=Bacteria TaxID=2 RepID=A0A2M9...  35.1    1.3  
+  UniRef90_A0A193QHU1 Uncharacterized protein n=2 Tax=Sodalis Tax...  34.3    1.3  
+  UniRef90_UPI000A054F0A hypothetical protein n=1 Tax=Comamonas s...  35.5    1.3  
+  UniRef90_UPI0009B8DF78 hypothetical protein n=5 Tax=Orbaceae Ta...  34.7    1.3  
+  UniRef90_UPI000A019A7A hypothetical protein n=1 Tax=Zooshikella...  34.3    1.3  
+  UniRef90_UPI0002E33B54 hypothetical protein n=2 Tax=Enterovibri...  34.3    1.4  
+  UniRef90_A0A2T5QAQ7 Lysis protein n=3 Tax=Acinetobacter TaxID=4...  35.1    1.4  
+  UniRef90_UPI0007451FF4 primosomal protein n=1 Tax=Serratia marc...  34.3    1.4  
+  UniRef90_B6XF90 Uncharacterized protein n=12 Tax=Providencia Ta...  34.3    1.4  
+  UniRef90_UPI0003B4C593 hypothetical protein n=1 Tax=Spongiibact...  34.7    1.4  
+  UniRef90_V2UVE3 Uncharacterized protein n=1 Tax=Acinetobacter t...  34.7    1.4  
+  UniRef90_A0A2C5TFC1 Holin n=3 Tax=Morganella morganii TaxID=582...  34.3    1.5  
+  UniRef90_A0A336JAV5 Lysis protein S n=12 Tax=Gammaproteobacteri...  34.7    1.6  
+  UniRef90_A0A1H5F6Q1 Bacteriophage holin family HP1 n=1 Tax=Pseu...  34.7    1.6  
+  UniRef90_R8AND0 Prophage Hp1 family holin n=1 Tax=Plesiomonas s...  34.3    1.7  
+  UniRef90_A0A2J0Y4S1 Uncharacterized protein n=1 Tax=Neisseria s...  34.3    1.8  
+  UniRef90_A0A2N2AC09 Uncharacterized protein n=1 Tax=Gammaproteo...  34.7    1.8  
+  UniRef90_E3HHN8 Uncharacterized protein n=1 Tax=Achromobacter x...  34.3    1.8  
+  UniRef90_A0A2S9IC04 Uncharacterized protein n=1 Tax=Pantoea cof...  34.3    1.8  
+  UniRef90_UPI000EB59272 holin n=1 Tax=Orbus hercynius TaxID=5931...  34.3    1.9  
+  UniRef90_A0A2S9PBA0 Holin n=3 Tax=Yersinia pestis TaxID=632 Rep...  33.9    1.9  
+  UniRef90_A0A2J9H2E8 Uncharacterized protein n=2 Tax=Hafniaceae ...  33.9    1.9  
+  UniRef90_A0A0Q4N2X9 Uncharacterized protein n=1 Tax=Erwinia sp....  33.9    2.0  
+  UniRef90_B0KHE0 Uncharacterized protein n=1 Tax=Pseudomonas put...  34.3    2.0  
+  UniRef90_A0A3L7LB51 Lysis protein n=3 Tax=Hafnia alvei TaxID=56...  34.3    2.1  
+  UniRef90_A0A2K0KDI5 Uncharacterized protein n=11 Tax=Enterobact...  33.9    2.1  
+  UniRef90_UPI0009FC1B06 holin n=1 Tax=Sodalis glossinidius TaxID...  33.9    2.1  
+  UniRef90_A0A2N5C432 Holin n=1 Tax=Cupriavidus pauculus TaxID=82...  33.9    2.1  
+  UniRef90_A0A0F7HC23 Holin family HP1 protein n=7 Tax=Bacteria T...  33.9    2.1  
+  UniRef90_A0A264VLD6 Holin n=2 Tax=Providencia rettgeri TaxID=58...  33.9    2.1  
+  UniRef90_UPI00066BDB28 hypothetical protein n=2 Tax=Neisseria T...  34.3    2.2  
+  UniRef90_A0A2K3QPT5 Transporter n=1 Tax=Tolypocladium capitatum...  35.5    2.2  
+  UniRef90_UPI00093F1958 hypothetical protein n=1 Tax=Candidatus ...  33.6    2.3  
+  UniRef90_A0A3N7EMM8 Holin n=1 Tax=Pseudomonas sp. KBW05 TaxID=2...  33.9    2.5  
+  UniRef90_D2U1M7 Conserved hypothetical phage protein n=2 Tax=Ar...  33.9    2.5  
+  UniRef90_UPI0003978B86 hypothetical protein n=4 Tax=Yersiniacea...  33.6    2.5  
+  UniRef90_UPI00073D755D holin n=1 Tax=[Erwinia] teleogrylli TaxI...  33.6    2.6  
+  UniRef90_A0A3G5J4B5 Holin n=1 Tax=Yersinia pseudotuberculosis T...  33.6    2.6  
+  UniRef90_UPI0003717316 hypothetical protein n=2 Tax=Uliginosiba...  33.9    2.7  
+  UniRef90_B0UTP2 Uncharacterized protein n=2 Tax=Histophilus som...  33.9    2.7  
+  UniRef90_UPI00047D3F61 hypothetical protein n=1 Tax=Alkanindige...  33.9    3.0  
+  UniRef90_N8YGJ1 Uncharacterized protein n=1 Tax=Acinetobacter b...  33.9    3.0  
+  UniRef90_U3U518 Uncharacterized protein n=5 Tax=Enterobacterale...  33.6    3.1  
+  UniRef90_A0A2N0N1P4 Uncharacterized protein n=1 Tax=Ewingella a...  33.6    3.1  
+  UniRef90_A0A3M1IFH9 Magnesium and cobalt transport protein CorA...  35.1    3.3  
+  UniRef90_UPI0003F8130E hypothetical protein n=1 Tax=Marinobacte...  33.2    3.4  
+  UniRef90_B6SCV0 Phage 21-like group II holin n=2 Tax=root TaxID...  33.6    3.5  
+  UniRef90_A0A2X1HUW6 Uncharacterized protein n=1 Tax=Edwardsiell...  33.6    3.7  
+  UniRef90_N9QXS7 Uncharacterized protein n=1 Tax=Acinetobacter c...  33.6    3.7  
+  UniRef90_A0A2M8RTA9 Uncharacterized protein n=1 Tax=Caviibacter...  33.2    3.8  
+  UniRef90_UPI0006D1D46E hypothetical protein n=1 Tax=Photobacter...  33.2    3.8  
+  UniRef90_A0A3B0MJC2 Lysozyme n=1 Tax=Arsenophonus endosymbiont ...  34.7    3.9  
+  UniRef90_A0A084EYK2 Uncharacterized protein n=10 Tax=Haemophilu...  33.2    3.9  
+  UniRef90_A0A250AZF7 Primosomal protein n=1 Tax=Gibbsiella querc...  33.2    4.0  
+  UniRef90_D8JEI7 Uncharacterized protein n=13 Tax=Acinetobacter ...  33.6    4.0  
+  UniRef90_UPI000EB1E304 holin n=1 Tax=Orbus hercynius TaxID=5931...  33.2    4.1  
+  UniRef90_A0A0U2WHA5 Uncharacterized protein n=1 Tax=Pseudoalter...  33.6    4.2  
+  UniRef90_A0A0A2RFN5 Holin n=11 Tax=Bacteria TaxID=2 RepID=A0A0A...  33.2    4.2  
+  UniRef90_UPI0006784415 holin n=1 Tax=Acinetobacter parvus TaxID...  33.6    4.2  
+  UniRef90_A0A3L8Q0H1 Uncharacterized protein n=1 Tax=Shewanellac...  33.6    4.3  
+  UniRef90_A0A249DZD5 Uncharacterized protein n=1 Tax=Candidatus ...  33.2    4.4  
+  UniRef90_UPI00082A3DD2 hypothetical protein n=1 Tax=Marinomonas...  33.2    4.4  
+  UniRef90_A0A1H3L9H9 Bacteriophage holin family, superfamily II-...  33.6    4.5  
+  UniRef90_A0A3M3K4V3 Uncharacterized protein n=2 Tax=Serratia pl...  33.9    4.5  
+  UniRef90_A0A128EZX4 Uncharacterized protein n=1 Tax=Grimontia m...  32.8    4.6  
+  UniRef90_UPI000381E552 hypothetical protein n=1 Tax=Gayadomonas...  33.2    4.9  
+  UniRef90_J7U231 Uncharacterized protein n=16 Tax=root TaxID=1 R...  32.8    4.9  
+  UniRef90_N9D7I1 Uncharacterized protein n=12 Tax=Acinetobacter ...  33.6    5.0  
+  UniRef90_H8NSZ3 Prophage Hp1 family holin n=5 Tax=Rahnella TaxI...  33.2    5.1  
+  UniRef90_A0A2T3C8N8 Primosomal protein n=1 Tax=Enterobacter sp....  33.2    5.2  
+  UniRef90_UPI000B3F529D hypothetical protein n=1 Tax=Escherichia...  32.8    5.3  
+  UniRef90_A0A193QKW9 Uncharacterized protein n=1 Tax=Sodalis glo...  32.8    5.3  
+  UniRef90_UPI000509E26F hypothetical protein n=1 Tax=Arsenophonu...  33.2    5.4  
+  UniRef90_A0A2D2M913 Holin n=2 Tax=Pseudomonas TaxID=286 RepID=A...  33.2    5.4  
+  UniRef90_D0IZ12 Uncharacterized protein n=3 Tax=Comamonadaceae ...  33.6    5.5  
+  UniRef90_UPI000907F3F3 hypothetical protein n=1 Tax=Citrobacter...  32.4    5.8  
+  UniRef90_UPI00076201EE holin n=2 Tax=Pseudomonas TaxID=286 RepI...  33.2    5.9  
+  UniRef90_A0A0U3J826 Uncharacterized protein n=5 Tax=Acinetobact...  33.2    6.0  
+  UniRef90_A0A1W1UMW9 Holin, HP1 family n=1 Tax=Pasteurella testu...  32.8    6.0  
+  UniRef90_A0A1C3H924 Uncharacterized protein n=13 Tax=Gammaprote...  32.8    6.0  
+  UniRef90_UPI0006C43D77 holin n=2 Tax=Alcaligenes xylosoxydans x...  33.2    6.1  
+  UniRef90_A0A2S8PUA5 Holin n=1 Tax=Photorhabdus luminescens TaxI...  32.4    6.4  
+  UniRef90_UPI000972F075 hypothetical protein n=1 Tax=Shigella so...  32.8    6.4  
+  UniRef90_A0A1V4B175 Holin n=2 Tax=Haemophilus haemoglobinophilu...  32.8    6.6  
+  UniRef90_W0LEL1 Uncharacterized protein n=1 Tax=Chania multitud...  32.8    6.6  
+  UniRef90_A0A087L165 Primosomal protein n=1 Tax=Serratia sp. Ag1...  32.8    6.7  
+  UniRef90_UPI00070CF759 lysis protein n=1 Tax=Acinetobacter pitt...  33.2    6.8  
+  UniRef90_B5XSJ7 Uncharacterized protein n=3 Tax=Klebsiella TaxI...  33.6    6.8  
+  UniRef90_A0A2N5EJ58 Uncharacterized protein n=1 Tax=Yersiniacea...  32.8    6.8  
+  UniRef90_A0A2N2CID5 Glycine reductase (Fragment) n=1 Tax=Firmic...  33.9    6.9  
+  UniRef90_UPI000365ED15 hypothetical protein n=1 Tax=Hahella gan...  32.8    7.0  
+  UniRef90_A0A077P4B9 Similar to bacteriophage Gp13 protein n=1 T...  32.4    7.0  
+  UniRef90_S2WK92 Uncharacterized protein n=2 Tax=Delftia acidovo...  33.2    7.1  
+  UniRef90_A0A0F7LPS6 Holin n=8 Tax=Photorhabdus TaxID=29487 RepI...  32.4    7.3  
+  UniRef90_Q083P1 Uncharacterized protein n=2 Tax=Shewanella TaxI...  33.2    7.3  
+  UniRef90_V2UTD0 Uncharacterized protein n=1 Tax=Acinetobacter b...  32.8    7.3  
+  UniRef90_A0A3P2K3Q0 Holin n=1 Tax=Klebsiella pneumoniae TaxID=5...  32.8    7.5  
+  UniRef90_A0A1H5Y9Q6 Bacteriophage holin family HP1 n=2 Tax=Mari...  32.8    7.5  
+  UniRef90_A0A221FQX2 Lysis protein n=13 Tax=Serratia TaxID=613 R...  32.8    7.5  
+  UniRef90_A0A2E5BTJ3 Uncharacterized protein n=1 Tax=Rhodobiacea...  32.4    7.6  
+  UniRef90_A0A3M5ZAT0 Uncharacterized protein n=2 Tax=Pseudomonas...  32.8    7.8  
+  UniRef90_A0A318P1E4 Uncharacterized protein n=2 Tax=Serratia pl...  32.4    7.9  
+  UniRef90_A0A1A7PTP4 Uncharacterized protein n=3 Tax=Gallibacter...  32.4    8.0  
+  UniRef90_B6SD28 Phage 21-like group II holin n=1 Tax=Bacterioph...  32.4    8.3  
+  UniRef90_UPI000A06AFC7 hypothetical protein n=1 Tax=Pseudomonas...  32.4    8.5  
+  UniRef90_UPI0009EACEF2 holin n=1 Tax=Achromobacter TaxID=222 Re...  32.8    8.6  
+  UniRef90_UPI000378E556 hypothetical protein n=1 Tax=Novispirill...  32.4    8.7  
+  UniRef90_UPI000F6E19E5 lysozyme n=1 Tax=Serratia rubidaea TaxID...  33.6    9.0  
+  UniRef90_A0A0F6GCH7 Putative gp59 n=10 Tax=root TaxID=1 RepID=A...  32.4    9.7  
+  UniRef90_A0A0R0AE19 Uncharacterized protein n=3 Tax=Stenotropho...  32.8    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0396    0.140     1.90     42.6     43.6 
+
+Effective search space used: 735327869332
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

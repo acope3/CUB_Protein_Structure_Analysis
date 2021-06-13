@@ -1,0 +1,2078 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414755.1
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AD60 Inhibitor of vertebrate lysozyme n=329 Tax=Prot...  326     2e-113
+  UniRef90_A0A1V2FMJ1 C-lysozyme inhibitor n=62 Tax=Enterobacteri...  324     2e-112
+  UniRef90_A0A0K4V6P1 Inhibitor of vertebrate lysozyme n=8 Tax=Es...  280     2e-95 
+  UniRef90_A0A2T2XWU1 C-lysozyme inhibitor n=1 Tax=Kluyvera ascor...  256     1e-85 
+  UniRef90_A0A3P4FM67 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  235     5e-78 
+  UniRef90_A0A0H3FST6 C-lysozyme inhibitor n=16 Tax=Enterobactera...  236     7e-78 
+  UniRef90_A0A2S4RRP1 C-lysozyme inhibitor n=3 Tax=Citrobacter Ta...  234     5e-77 
+  UniRef90_A0A1D3KJA3 Inhibitor of vertebrate lysozyme n=153 Tax=...  230     2e-75 
+  UniRef90_A0A285B3P7 Inhibitor of vertebrate C-lysozyme n=12 Tax...  220     1e-71 
+  UniRef90_A0A2X4YV47 Lysozyme inhibitor n=9 Tax=Enterobacteriace...  220     2e-71 
+  UniRef90_A0A379D598 Inhibitor of vertebrate lysozyme n=7 Tax=Pl...  217     2e-70 
+  UniRef90_J6IGE0 Inhibitor of vertebrate lysozyme n=25 Tax=Enter...  209     3e-67 
+  UniRef90_UPI000379E74E C-lysozyme inhibitor n=1 Tax=Enterobacte...  204     5e-65 
+  UniRef90_I2BCF1 Inhibitor of vertebrate C-lysozyme n=1 Tax=Shim...  190     1e-59 
+  UniRef90_A0A202CBL5 C-lysozyme inhibitor (Fragment) n=1 Tax=Chr...  187     3e-59 
+  UniRef90_UPI0009B1F20C C-lysozyme inhibitor n=1 Tax=Cronobacter...  189     3e-59 
+  UniRef90_UPI000D5011F0 C-lysozyme inhibitor n=7 Tax=Enterobacte...  185     1e-57 
+  UniRef90_UPI000B4B3134 C-lysozyme inhibitor n=1 Tax=Cronobacter...  184     2e-57 
+  UniRef90_B6XG14 Inhibitor of vertebrate lysozyme n=12 Tax=cellu...  181     2e-56 
+  UniRef90_UPI0005289E7B C-lysozyme inhibitor n=1 Tax=Enterobacte...  178     5e-55 
+  UniRef90_A0A3J4WVZ7 C-lysozyme inhibitor n=5 Tax=Salmonella ent...  177     1e-54 
+  UniRef90_UPI000513F874 C-lysozyme inhibitor n=2 Tax=Enterobacte...  176     2e-54 
+  UniRef90_A0A377DG05 Inhibitor of vertebrate lysozyme n=2 Tax=Es...  174     3e-54 
+  UniRef90_UPI000B8EB6B8 C-lysozyme inhibitor n=1 Tax=Serratia ne...  174     2e-53 
+  UniRef90_B2VKX7 Probable inhibitor of vertebrate lysozyme n=2 T...  173     4e-53 
+  UniRef90_UPI00073D677C C-lysozyme inhibitor n=1 Tax=[Erwinia] t...  173     7e-53 
+  UniRef90_A0A198F1N6 Inhibitor of vertebrate lysozyme n=2 Tax=Co...  171     4e-52 
+  UniRef90_D4HVL0 Inhibitor of vertebrate lysozyme n=4 Tax=Erwini...  170     7e-52 
+  UniRef90_F2Q8M2 Inhibitor of vertebrate lysozyme n=9 Tax=Entero...  170     7e-52 
+  UniRef90_A0A210TMJ9 C-lysozyme inhibitor n=1 Tax=Yersinia entom...  169     2e-51 
+  UniRef90_UPI000F84B949 C-lysozyme inhibitor n=1 Tax=Enterobacte...  167     7e-51 
+  UniRef90_A0A336P340 Inhibitor of vertebrate lysozyme n=1 Tax=Ci...  167     9e-51 
+  UniRef90_A0A2X2ELY9 Inhibitor of vertebrate lysozyme n=4 Tax=En...  167     1e-50 
+  UniRef90_E3DFK5 Inhibitor of vertebrate lysozyme n=2 Tax=Erwini...  167     2e-50 
+  UniRef90_D2T774 Inhibitor of vertebrate lysozyme n=3 Tax=Erwini...  168     2e-50 
+  UniRef90_A0A1C4GIA9 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  166     3e-50 
+  UniRef90_UPI00049FC715 C-lysozyme inhibitor n=1 Tax=Klebsiella ...  159     1e-47 
+  UniRef90_A0A095U6P4 Uncharacterized protein n=1 Tax=Tatumella m...  157     7e-47 
+  UniRef90_W7DVT7 C-lysozyme inhibitor n=1 Tax=Commensalibacter s...  155     5e-46 
+  UniRef90_A0A2J5PGP4 C-lysozyme inhibitor (Fragment) n=1 Tax=Kle...  153     8e-46 
+  UniRef90_A0A1Y0LQL3 Uncharacterized protein n=1 Tax=Tatumella c...  153     6e-45 
+  UniRef90_A0A0J9BE87 Uncharacterized protein n=4 Tax=Enterobacte...  151     3e-44 
+  UniRef90_UPI0004709BFC C-lysozyme inhibitor n=1 Tax=Asaia prune...  151     3e-44 
+  UniRef90_UPI0006870F1A hypothetical protein n=1 Tax=Asaia platy...  150     4e-44 
+  UniRef90_A0A095F661 Inhibitor of vertebrate lysozyme n=13 Tax=B...  150     1e-43 
+  UniRef90_A0A085JKU7 Inhibitor of vertebrate lysozyme n=3 Tax=Ta...  149     2e-43 
+  UniRef90_A0A379H5Q2 Inhibitor of vertebrate lysozyme n=9 Tax=Pl...  146     2e-42 
+  UniRef90_UPI0009B2123D C-lysozyme inhibitor n=1 Tax=Burkholderi...  145     5e-42 
+  UniRef90_A0A2X1LIZ0 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  138     3e-40 
+  UniRef90_UPI000683F7AA hypothetical protein n=1 Tax=Tatumella s...  138     8e-39 
+  UniRef90_A0A088TXY3 Inhibitor of vertebrate lysozyme n=4 Tax=Bu...  137     9e-39 
+  UniRef90_A0A377XNX3 C-lysozyme inhibitor n=2 Tax=Klebsiella pne...  135     1e-38 
+  UniRef90_A0A118DM04 C-lysozyme inhibitor n=2 Tax=Burkholderia s...  136     2e-38 
+  UniRef90_UPI000554544A C-lysozyme inhibitor n=1 Tax=Agrobacteri...  135     4e-38 
+  UniRef90_A0A124PCH8 C-lysozyme inhibitor n=1 Tax=Burkholderia s...  134     1e-37 
+  UniRef90_UPI000A10057F C-lysozyme inhibitor n=1 Tax=Cronobacter...  132     2e-37 
+  UniRef90_UPI000DD93A36 C-lysozyme inhibitor n=9 Tax=Rhizobiales...  130     3e-36 
+  UniRef90_Q392N1 Uncharacterized protein n=16 Tax=Bacteria TaxID...  130     5e-36 
+  UniRef90_A0A1C3X237 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  130     6e-36 
+  UniRef90_A0A2G8E953 Uncharacterized protein n=1 Tax=Erwinia sp....  128     2e-35 
+  UniRef90_A0A2X3GNH8 C-lysozyme inhibitor n=1 Tax=Klebsiella pne...  126     4e-35 
+  UniRef90_A0A1I3D2H5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  127     7e-35 
+  UniRef90_UPI00068CE785 C-lysozyme inhibitor n=1 Tax=Agrobacteri...  126     2e-34 
+  UniRef90_A0A1S8YGT2 Uncharacterized protein n=1 Tax=Izhakiella ...  125     5e-34 
+  UniRef90_A0A1V3FGW7 C-lysozyme inhibitor n=1 Tax=Rhizobium sp. ...  124     2e-33 
+  UniRef90_UPI0009DD4D51 hypothetical protein n=1 Tax=Enterobacte...  124     2e-33 
+  UniRef90_A0A377E1N2 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  119     5e-33 
+  UniRef90_UPI0007818281 C-lysozyme inhibitor n=2 Tax=Paracoccus ...  122     6e-33 
+  UniRef90_A0A1B9SBG6 C-lysozyme inhibitor n=1 Tax=Rhizobium sp. ...  120     5e-32 
+  UniRef90_UPI000DE01C5C C-lysozyme inhibitor n=1 Tax=Rhizobiales...  119     7e-32 
+  UniRef90_A0A1M3Q385 C-lysozyme inhibitor n=1 Tax=Rhizobium sp. ...  118     2e-31 
+  UniRef90_UPI000F816373 hypothetical protein n=1 Tax=Enterobacte...  118     7e-31 
+  UniRef90_UPI000642B4AF hypothetical protein n=2 Tax=Enterobacte...  116     2e-30 
+  UniRef90_A0A3N7GCE4 C-lysozyme inhibitor n=2 Tax=Rhodobacterace...  116     2e-30 
+  UniRef90_UPI000E6C92F0 C-lysozyme inhibitor n=1 Tax=Paracoccus ...  115     5e-30 
+  UniRef90_A0A1X7LLW2 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  114     2e-29 
+  UniRef90_V2TXF6 Uncharacterized protein n=2 Tax=Acinetobacter n...  112     8e-29 
+  UniRef90_UPI000DD9B425 C-lysozyme inhibitor n=1 Tax=Rhizobiales...  112     9e-29 
+  UniRef90_UPI00084A5C9E inhibitor of vertebrate lysozyme-like n=...  112     1e-28 
+  UniRef90_A1B846 Uncharacterized protein n=3 Tax=Paracoccus TaxI...  111     3e-28 
+  UniRef90_A0A217EDN3 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  109     7e-28 
+  UniRef90_A0A3E0BYN7 Inhibitor of lysozyme (Ivy) n=6 Tax=Paracoc...  109     3e-27 
+  UniRef90_A0A1I5JQU6 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  108     6e-27 
+  UniRef90_S5Z1G7 Uncharacterized protein n=1 Tax=Paracoccus amin...  106     1e-26 
+  UniRef90_A0A1X1DQH6 C-lysozyme inhibitor n=2 Tax=Pantoea TaxID=...  105     2e-26 
+  UniRef90_A0A1X1BXG7 C-lysozyme inhibitor n=1 Tax=Pantoea conspi...  105     2e-26 
+  UniRef90_A0A2M9RIC0 C-lysozyme inhibitor n=1 Tax=Raoultella sp....  104     4e-26 
+  UniRef90_UPI0005368755 C-lysozyme inhibitor n=1 Tax=Citrobacter...  104     4e-26 
+  UniRef90_A0A1V0GW58 C-lysozyme inhibitor n=6 Tax=Paracoccus Tax...  100     2e-24 
+  UniRef90_A0A331QDV0 C-lysozyme inhibitor n=32 Tax=Enterobactera...  100     3e-24 
+  UniRef90_A0A2J7P446 C-lysozyme inhibitor n=1 Tax=Enterobacter c...  99.0    6e-24 
+  UniRef90_A0A0F5F9L4 C-lysozyme inhibitor n=3 Tax=Pantoea TaxID=...  98.2    2e-23 
+  UniRef90_UPI000DA4EB81 C-lysozyme inhibitor n=4 Tax=Enterobacte...  96.7    6e-23 
+  UniRef90_UPI0006501311 C-lysozyme inhibitor n=1 Tax=Citrobacter...  96.7    7e-23 
+  UniRef90_A0A1C3WN92 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  94.4    1e-22 
+  UniRef90_A0A2U9D5Z4 C-lysozyme inhibitor n=1 Tax=Pantoea vagans...  95.1    2e-22 
+  UniRef90_UPI000DE25466 C-lysozyme inhibitor n=1 Tax=Pantoea sp....  94.7    3e-22 
+  UniRef90_UPI000FE343A9 C-lysozyme inhibitor n=5 Tax=Sinirhodoba...  95.9    5e-22 
+  UniRef90_UPI000F6851AA C-lysozyme inhibitor n=1 Tax=Pantoea dis...  93.6    1e-21 
+  UniRef90_A0A376L059 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  90.1    2e-21 
+  UniRef90_UPI00068AB7D9 hypothetical protein n=1 Tax=Paenirhodob...  91.7    7e-21 
+  UniRef90_A0A2K1QCH3 C-lysozyme inhibitor n=1 Tax=Mixta theicola...  89.7    3e-20 
+  UniRef90_A0A1W6NYK0 Uncharacterized protein n=1 Tax=Ketogulonic...  89.7    4e-20 
+  UniRef90_A0A376YCY3 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  85.9    8e-20 
+  UniRef90_W1GXT8 Inhibitor of vertebrate lysozyme n=2 Tax=Klebsi...  84.7    2e-19 
+  UniRef90_UPI0004720646 hypothetical protein n=1 Tax=Acetobacter...  86.3    1e-18 
+  UniRef90_UPI0004189E35 hypothetical protein n=1 Tax=Acetobacter...  85.9    1e-18 
+  UniRef90_A0A2S3W4T0 C-lysozyme inhibitor n=1 Tax=Komagataeibact...  84.7    3e-18 
+  UniRef90_A0A318PTU2 C-lysozyme inhibitor n=1 Tax=Gluconacetobac...  85.1    4e-18 
+  UniRef90_A0A143WLE4 Inhibitor of vertebrate lysozyme n=3 Tax=Ko...  84.3    6e-18 
+  UniRef90_UPI0009BD9093 hypothetical protein n=1 Tax=Pantoea vag...  78.6    2e-16 
+  UniRef90_A0A376LI87 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  76.6    4e-16 
+  UniRef90_A0A378AL52 C-lysozyme inhibitor n=1 Tax=Klebsiella pne...  76.6    6e-16 
+  UniRef90_A0A1M3P3K5 Uncharacterized protein n=1 Tax=Rhodanobact...  77.0    2e-15 
+  UniRef90_A0A3M0FJJ2 Inhibitor of lysozyme (Ivy) n=2 Tax=Dyella ...  78.2    2e-15 
+  UniRef90_A0A1V3P220 Uncharacterized protein n=1 Tax=Rhodanobact...  76.3    5e-15 
+  UniRef90_UPI0009859649 hypothetical protein n=1 Tax=Rhodanobact...  77.0    1e-14 
+  UniRef90_UPI0009E47B95 hypothetical protein n=1 Tax=Dyella japo...  76.3    2e-14 
+  UniRef90_A0A318DX80 Inhibitor of lysozyme (Ivy) n=1 Tax=Dyella ...  73.2    1e-13 
+  UniRef90_UPI000D646280 hypothetical protein n=1 Tax=Dyella sp. ...  72.4    4e-13 
+  UniRef90_UPI0003147423 hypothetical protein n=1 Tax=Dyella japo...  71.6    6e-13 
+  UniRef90_A0A1I6MUG6 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  72.0    6e-13 
+  UniRef90_A0A2X5AP36 Inhibitor of vertebrate lysozyme n=5 Tax=Se...  70.1    2e-12 
+  UniRef90_UPI000DEFC5AF hypothetical protein n=1 Tax=Dyella sp. ...  69.3    6e-12 
+  UniRef90_A0A0T9KJ73 Inhibitor of vertebrate lysozyme n=2 Tax=Ye...  68.6    7e-12 
+  UniRef90_I3UAR4 C-lysozyme inhibitor n=1 Tax=Advenella kashmire...  67.8    1e-11 
+  UniRef90_UPI0001E8AA6F hypothetical protein n=1 Tax=Escherichia...  67.4    1e-11 
+  UniRef90_A0A0U3MVI9 Uncharacterized protein n=1 Tax=Pandoraea t...  68.6    1e-11 
+  UniRef90_A0A239SKV6 Inhibitor of vertebrate lysozyme n=11 Tax=P...  68.2    1e-11 
+  UniRef90_A0A1I2FU13 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  68.2    2e-11 
+  UniRef90_A0A0U2Y7E8 Uncharacterized protein n=1 Tax=Pandoraea n...  67.4    2e-11 
+  UniRef90_A0A085UAF3 Inhibitor of vertebrate lysozyme n=4 Tax=Ye...  67.0    2e-11 
+  UniRef90_A0A0G3SR90 Inhibitor of vertebrate lysozyme n=38 Tax=E...  66.6    4e-11 
+  UniRef90_A0A238H4J3 Mobile element protein n=1 Tax=Burkholderia...  68.6    6e-11 
+  UniRef90_A0A328NYF2 Uncharacterized protein n=1 Tax=Dyella jian...  66.2    7e-11 
+  UniRef90_A0A0F7D0S6 Uncharacterized protein n=8 Tax=Yersiniacea...  65.5    1e-10 
+  UniRef90_A0A1B1KUV6 Inhibitor of vertebrate lysozyme n=18 Tax=Y...  65.1    2e-10 
+  UniRef90_P58483 Uncharacterized protein YPO2857/y1376/YP_2723 n...  64.3    3e-10 
+  UniRef90_A0A095B9A6 Uncharacterized protein n=1 Tax=Acetobacter...  63.2    4e-10 
+  UniRef90_D4E2Z8 Inhibitor of vertebrate lysozyme n=2 Tax=Serrat...  63.9    5e-10 
+  UniRef90_H8L037 Inhibitor of vertebrate lysozyme (Ivy) n=1 Tax=...  63.5    5e-10 
+  UniRef90_A0A0D6NSY3 Uncharacterized protein n=1 Tax=Acetobacter...  63.2    5e-10 
+  UniRef90_A8GHT2 Inhibitor of vertebrate lysozyme n=4 Tax=Serrat...  63.5    6e-10 
+  UniRef90_A0A291PLG9 Uncharacterized protein n=4 Tax=Acetobacter...  63.2    7e-10 
+  UniRef90_A0A3D3AZ30 Lysozyme inhibitor n=1 Tax=Rhizobiales bact...  62.8    8e-10 
+  UniRef90_A0A023NQK9 C-lysozyme inhibitor n=2 Tax=Dyella jiangni...  63.2    9e-10 
+  UniRef90_A0A149TYQ8 Uncharacterized protein n=1 Tax=Acetobacter...  61.6    1e-09 
+  UniRef90_A0A149TRS3 Uncharacterized protein n=6 Tax=Acetobacter...  61.6    2e-09 
+  UniRef90_A0A1W4UIB9 uncharacterized protein YPO2857/y1376/YP_27...  60.8    3e-09 
+  UniRef90_A0A240C7S9 Inhibitor of vertebrate lysozyme n=2 Tax=Se...  61.2    4e-09 
+  UniRef90_A0A0C5VZ68 Inhibitor of vertebrate lysozyme n=5 Tax=En...  60.8    5e-09 
+  UniRef90_A0A1E3VS07 Uncharacterized protein n=3 Tax=Methylocean...  60.1    6e-09 
+  UniRef90_A0A376DIN2 Inhibitor of vertebrate lysozyme n=2 Tax=Ed...  60.8    6e-09 
+  UniRef90_C5BHM1 Inhibitor of vertebrate lysozyme (Ivy) n=2 Tax=...  60.5    8e-09 
+  UniRef90_UPI00046CB140 hypothetical protein n=1 Tax=Advenella m...  59.7    1e-08 
+  UniRef90_A0A356LM99 C-lysozyme inhibitor n=1 Tax=Advenella kash...  59.7    1e-08 
+  UniRef90_A0A1U9LFQ9 Uncharacterized protein n=6 Tax=Acetobacter...  59.3    1e-08 
+  UniRef90_UPI000FE215B4 hypothetical protein n=1 Tax=Serratia ru...  60.1    2e-08 
+  UniRef90_A0A0J6GRZ3 Lysozyme inhibitor n=2 Tax=Pseudomonas TaxI...  59.3    2e-08 
+  UniRef90_A0A0A7JP33 Uncharacterized protein n=1 Tax=Pseudomonas...  58.9    2e-08 
+  UniRef90_A0A0D6N7S4 Uncharacterized protein n=3 Tax=Acetobacter...  58.5    2e-08 
+  UniRef90_UPI0002F3801B hypothetical protein n=1 Tax=Pseudomonas...  58.9    3e-08 
+  UniRef90_A0A377PD06 Inhibitor of vertebrate lysozyme n=11 Tax=H...  58.9    3e-08 
+  UniRef90_A0A149UU20 Uncharacterized protein n=4 Tax=Acetobacter...  57.8    5e-08 
+  UniRef90_UPI000DA613BA lysozyme inhibitor n=1 Tax=Pseudomonas b...  57.8    7e-08 
+  UniRef90_G2JA14 Putative inhibitor of vertebrate lysozyme (Ivy)...  57.0    1e-07 
+  UniRef90_A0A149V1C7 Uncharacterized protein n=9 Tax=Acetobacter...  56.6    1e-07 
+  UniRef90_UPI000F056379 lysozyme inhibitor n=1 Tax=Pseudomonas s...  56.6    2e-07 
+  UniRef90_A0A0T9S536 Inhibitor of vertebrate lysozyme n=22 Tax=Y...  57.4    2e-07 
+  UniRef90_V8QRR2 Uncharacterized protein n=2 Tax=Advenella kashm...  56.2    2e-07 
+  UniRef90_A0A2Z3J1E9 Uncharacterized protein n=1 Tax=Salinisphae...  56.2    3e-07 
+  UniRef90_A0A1D8UU31 Uncharacterized protein n=3 Tax=Kozakia bal...  55.8    3e-07 
+  UniRef90_D4F368 Inhibitor of vertebrate lysozyme (Ivy) n=5 Tax=...  55.8    4e-07 
+  UniRef90_A0A076LLR7 Inhibitor of vertebrate lysozyme n=5 Tax=Ed...  55.8    4e-07 
+  UniRef90_A0A0D6NNE3 Uncharacterized protein n=5 Tax=Acetobacter...  55.5    5e-07 
+  UniRef90_A0A0T9SX53 Inhibitor of vertebrate lysozyme n=5 Tax=Ye...  55.8    7e-07 
+  UniRef90_A0A2E5FV83 Uncharacterized protein n=2 Tax=Gammaproteo...  55.1    8e-07 
+  UniRef90_A0A0N8VSN3 Lysozyme inhibitor n=1 Tax=Pseudomonas endo...  54.3    1e-06 
+  UniRef90_A0A0A8K9H0 Inhibitor of vertebrate lysozyme n=1 Tax=Me...  54.3    1e-06 
+  UniRef90_A0A266NAE3 Lysozyme inhibitor n=1 Tax=Pseudomonas lund...  54.3    1e-06 
+  UniRef90_A0A0T9UG07 Inhibitor of vertebrate lysozyme n=7 Tax=Ye...  54.7    2e-06 
+  UniRef90_UPI000F77662B hypothetical protein n=1 Tax=Aeromonas s...  54.3    2e-06 
+  UniRef90_A0A0T7NQU7 Inhibitor of vertebrate lysozyme n=2 Tax=Ye...  53.9    3e-06 
+  UniRef90_UPI000762E2DD lysozyme inhibitor n=1 Tax=Pseudomonas f...  52.8    4e-06 
+  UniRef90_A0A0C5DYE3 Uncharacterized protein n=2 Tax=Pseudomonas...  52.4    6e-06 
+  UniRef90_Q5FUI2 Uncharacterized protein n=7 Tax=Gluconobacter o...  52.4    7e-06 
+  UniRef90_A0A0T6UM40 Uncharacterized protein n=1 Tax=Pseudomonas...  52.4    8e-06 
+  UniRef90_A0A1Q8EP36 Lysozyme inhibitor n=1 Tax=Pseudomonas chlo...  52.0    9e-06 
+  UniRef90_A9HBN7 Uncharacterized protein n=2 Tax=Gluconacetobact...  52.0    1e-05 
+  UniRef90_W0SK73 Uncharacterized protein n=1 Tax=Sulfuritalea hy...  51.2    2e-05 
+  UniRef90_UPI0009FA6F4E hypothetical protein n=1 Tax=Methylobact...  51.6    2e-05 
+  UniRef90_UPI00055B2CB8 hypothetical protein n=1 Tax=Leisingera ...  51.2    3e-05 
+  UniRef90_A0A177FY09 Inhibitor of vertebrate lysozyme n=2 Tax=Gl...  50.4    3e-05 
+  UniRef90_A0A0U1I9Q8 Inhibitor of vertebrate lysozyme n=6 Tax=Ye...  51.2    3e-05 
+  UniRef90_A0A0X8EWA7 Lysozyme inhibitor n=3 Tax=Pseudomonas TaxI...  50.4    3e-05 
+  UniRef90_A0A0X8GRM1 Uncharacterized protein n=1 Tax=Janthinobac...  51.2    3e-05 
+  UniRef90_A0A0J6I298 Lysozyme inhibitor n=4 Tax=Pseudomonas TaxI...  50.4    4e-05 
+  UniRef90_A0A1Y2ZTC7 Uncharacterized protein n=1 Tax=Crenothrix ...  50.4    4e-05 
+  UniRef90_J0JDP7 C-lysozyme inhibitor n=1 Tax=Alcaligenes faecal...  50.4    4e-05 
+  UniRef90_UPI0009BDFF04 hypothetical protein n=3 Tax=Aeromonas h...  50.4    4e-05 
+  UniRef90_A0A177G4H5 Inhibitor of vertebrate lysozyme n=1 Tax=Ac...  50.1    5e-05 
+  UniRef90_A0A1H1KLN6 Inhibitor of vertebrate lysozyme (Ivy) n=5 ...  50.1    5e-05 
+  UniRef90_A0A1B6VNI6 Inhibitor of vertebrate lysozyme n=5 Tax=Gl...  49.7    6e-05 
+  UniRef90_V5F693 Inhibitor of vertebrate lysozyme family protein...  50.1    6e-05 
+  UniRef90_A0A0T9M7X3 Inhibitor of vertebrate lysozyme n=11 Tax=Y...  50.1    7e-05 
+  UniRef90_A0A084II74 C-lysozyme inhibitor n=1 Tax=Salinisphaera ...  49.7    7e-05 
+  UniRef90_A0A209AC96 Inhibitor of vertebrate lysozyme n=2 Tax=Ye...  50.1    8e-05 
+  UniRef90_A0A0T9NDX4 Inhibitor of vertebrate lysozyme n=1 Tax=Ye...  50.1    8e-05 
+  UniRef90_UPI0005A6265C lysozyme inhibitor n=1 Tax=Aeromonas sim...  49.7    8e-05 
+  UniRef90_A0A105T934 Inhibitor of vertebrate lysozyme n=2 Tax=Ps...  49.3    9e-05 
+  UniRef90_A0A1Y3G2I0 Uncharacterized protein n=2 Tax=Acetobacter...  49.3    9e-05 
+  UniRef90_A0A1Y1QPX6 Uncharacterized protein n=1 Tax=Thiothrix l...  49.7    1e-04 
+  UniRef90_M9LW14 Uncharacterized protein n=6 Tax=Gluconobacter T...  48.9    1e-04 
+  UniRef90_A0A2H0HYV8 Uncharacterized protein n=1 Tax=Thalassolit...  48.9    1e-04 
+  UniRef90_UPI000DCE6302 hypothetical protein n=1 Tax=Aerococcus ...  48.9    1e-04 
+  UniRef90_A0A1D9IGZ0 Lysozyme inhibitor n=8 Tax=Pseudomonadaceae...  48.9    1e-04 
+  UniRef90_A0A0H5LWD5 Inhibitor of vertebrate lysozyme n=7 Tax=Ye...  49.3    2e-04 
+  UniRef90_A0A0A2N691 C-lysozyme inhibitor n=10 Tax=Alcaligenes T...  48.5    2e-04 
+  UniRef90_A0A3D0L0C0 C-lysozyme inhibitor n=1 Tax=Alcaligenes fa...  48.5    2e-04 
+  UniRef90_A0A149S8I0 Uncharacterized protein n=5 Tax=Gluconobact...  47.8    4e-04 
+  UniRef90_A0A1E3W5S7 Uncharacterized protein n=1 Tax=Methylocean...  46.2    4e-04 
+  UniRef90_U3HDJ7 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  47.8    4e-04 
+  UniRef90_A0A3A5J338 Uncharacterized protein n=1 Tax=Salinisphae...  47.8    5e-04 
+  UniRef90_UPI000F4A4DF9 hypothetical protein n=1 Tax=Salinisphae...  48.1    5e-04 
+  UniRef90_UPI000A3A205F hypothetical protein n=2 Tax=Acetobacter...  47.8    6e-04 
+  UniRef90_A0A329P861 Uncharacterized protein (Fragment) n=1 Tax=...  46.2    6e-04 
+  UniRef90_UPI000F4C9E5A hypothetical protein n=1 Tax=Salinisphae...  48.5    7e-04 
+  UniRef90_A0A0B6FRM1 Inhibitor of vertebrate lysozyme domain pro...  47.4    7e-04 
+  UniRef90_UPI000CF6ACB5 hypothetical protein n=1 Tax=Pseudoalter...  47.4    8e-04 
+  UniRef90_A0A0D8LQJ2 Lysozyme inhibitor n=13 Tax=Vibrionaceae Ta...  47.0    8e-04 
+  UniRef90_A0A254VG60 Lysozyme inhibitor n=1 Tax=Xenophilus sp. A...  47.0    8e-04 
+  UniRef90_A0A0U1HUZ1 Inhibitor of vertebrate lysozyme n=3 Tax=Ye...  47.4    9e-04 
+  UniRef90_A0A0D6N253 Uncharacterized protein n=2 Tax=Acetobacter...  46.6    0.001 
+  UniRef90_UPI0007C45D6D C-lysozyme inhibitor n=7 Tax=Alcaligenes...  46.6    0.001 
+  UniRef90_A0KMD6 Inhibitor of vertebrate lysozyme n=36 Tax=Aerom...  46.2    0.002 
+  UniRef90_A0A0T9TP08 Inhibitor of vertebrate lysozyme n=1 Tax=Ye...  46.6    0.002 
+  UniRef90_UPI0005590612 hypothetical protein n=1 Tax=Andreprevot...  46.2    0.002 
+  UniRef90_A0A2N7QRY7 Inhibitor of vertebrate lysozyme n=1 Tax=Dy...  43.9    0.002 
+  UniRef90_A0A1S1X5Y3 Lysozyme inhibitor n=3 Tax=Chromobacterium ...  45.8    0.002 
+  UniRef90_A0A120G0Y3 Inhibitor of vertebrate lysozyme n=13 Tax=P...  45.4    0.003 
+  UniRef90_A0A370FZT9 Inhibitor of lysozyme (Ivy) n=2 Tax=Glucona...  45.4    0.003 
+  UniRef90_A0A2S5DCB6 Lysozyme inhibitor n=1 Tax=Chromobacterium ...  45.4    0.004 
+  UniRef90_A0A2T3KJZ2 Lysozyme inhibitor n=9 Tax=Photobacterium T...  45.1    0.004 
+  UniRef90_UPI00046ECFC7 lysozyme inhibitor n=3 Tax=Pseudomonas c...  45.1    0.004 
+  UniRef90_A0A1T4TV71 Inhibitor of vertebrate lysozyme n=1 Tax=Ph...  44.7    0.005 
+  UniRef90_A0A2N5QPE3 Inhibitor of lysozyme (Ivy) n=3 Tax=Chromob...  45.1    0.005 
+  UniRef90_UPI000A072B63 hypothetical protein n=1 Tax=Bradyrhizob...  44.7    0.005 
+  UniRef90_A0A1D2TDB7 Uncharacterized protein n=1 Tax=Lautropia s...  45.8    0.006 
+  UniRef90_UPI0009DDA90B hypothetical protein n=1 Tax=Acetobacter...  43.5    0.006 
+  UniRef90_UPI00054B2492 lysozyme inhibitor n=1 Tax=Pseudomonas f...  44.3    0.006 
+  UniRef90_A0A1H7LIE1 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  44.7    0.007 
+  UniRef90_A0A2N4UVK3 Uncharacterized protein n=1 Tax=Photobacter...  44.3    0.007 
+  UniRef90_A0A1T5HWN6 Inhibitor of vertebrate lysozyme n=4 Tax=Ph...  44.3    0.008 
+  UniRef90_A0A127N271 Inhibitor of vertebrate lysozyme n=11 Tax=P...  44.3    0.008 
+  UniRef90_U2A0F7 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  43.9    0.010 
+  UniRef90_A0A1H5AL30 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  43.9    0.010 
+  UniRef90_A0A1B8V0X7 Uncharacterized protein n=3 Tax=Pseudomonas...  43.9    0.010 
+  UniRef90_A0A1Y6KX77 Inhibitor of vertebrate lysozyme n=5 Tax=Ph...  43.9    0.010 
+  UniRef90_A0A1Q4BH17 Uncharacterized protein n=1 Tax=Rhizobiales...  43.1    0.012 
+  UniRef90_Q9HT89 Uncharacterized protein PA5481 n=69 Tax=Gammapr...  43.9    0.013 
+  UniRef90_A0A0U5F065 Uncharacterized protein n=1 Tax=Acetobacter...  43.1    0.015 
+  UniRef90_A0A2T3QBM6 Lysozyme inhibitor n=1 Tax=Photobacterium a...  43.5    0.017 
+  UniRef90_A0A0F0DS02 Uncharacterized protein n=4 Tax=Pseudomonas...  43.1    0.019 
+  UniRef90_A0A1Q3VVQ9 Uncharacterized protein n=1 Tax=Candidatus ...  43.5    0.019 
+  UniRef90_A0A149T8C8 Uncharacterized protein n=2 Tax=Gluconobact...  42.7    0.022 
+  UniRef90_UPI0009DC9FCC hypothetical protein n=2 Tax=Bilophila w...  42.7    0.029 
+  UniRef90_A0A2G3J8J8 Uncharacterized protein n=2 Tax=Iodobacter ...  42.7    0.035 
+  UniRef90_UPI00055CF869 hypothetical protein n=1 Tax=Pseudomonas...  42.4    0.037 
+  UniRef90_UPI000D17654F lysozyme inhibitor n=1 Tax=Photobacteriu...  42.4    0.039 
+  UniRef90_A0A1N7C9J5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  42.4    0.041 
+  UniRef90_A0A345DBR9 Uncharacterized protein n=1 Tax=Hydromonas ...  42.4    0.041 
+  UniRef90_UPI000374840D hypothetical protein n=1 Tax=beta proteo...  42.4    0.043 
+  UniRef90_A0A2G3K4T9 Uncharacterized protein n=1 Tax=Chitinimona...  42.0    0.044 
+  UniRef90_X7EDU9 Uncharacterized protein n=1 Tax=Roseivivax halo...  42.0    0.047 
+  UniRef90_A0A379IMP0 Lysozyme inhibitor n=31 Tax=Gammaproteobact...  42.0    0.054 
+  UniRef90_A0A2H5DR96 Lysozyme inhibitor n=1 Tax=Chromobacterium ...  42.0    0.056 
+  UniRef90_A0A344UHG0 Lysozyme inhibitor n=2 Tax=Chromobacterium ...  42.0    0.058 
+  UniRef90_A0A1M7Z926 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  42.0    0.064 
+  UniRef90_A0A1I1C029 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  41.2    0.12  
+  UniRef90_A0A1C6LVV7 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  41.2    0.13  
+  UniRef90_A0A1F0AJC7 Uncharacterized protein n=4 Tax=Neisseria T...  40.8    0.13  
+  UniRef90_UPI0009A4942C hypothetical protein n=1 Tax=Thiomonas i...  41.6    0.14  
+  UniRef90_A0A1G9FXF7 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  40.8    0.14  
+  UniRef90_A0A1E3W2F9 Uncharacterized protein n=1 Tax=Methylocean...  40.4    0.15  
+  UniRef90_A0A1E4C1M6 Uncharacterized protein n=1 Tax=Kaistia sp....  41.6    0.15  
+  UniRef90_A0A1I9XZR1 Uncharacterized protein n=1 Tax=Janthinobac...  40.8    0.16  
+  UniRef90_A0A2G3M313 Uncharacterized protein n=15 Tax=Oxalobacte...  40.8    0.23  
+  UniRef90_A0A1E3W3U2 Uncharacterized protein n=1 Tax=Methylocean...  39.3    0.24  
+  UniRef90_A0A2W5WF63 Lysozyme inhibitor n=4 Tax=Pseudomonas TaxI...  40.0    0.27  
+  UniRef90_A0A2W5R9I4 Uncharacterized protein n=1 Tax=Starkeya no...  39.7    0.34  
+  UniRef90_A0A1C0XNZ7 Uncharacterized protein n=1 Tax=Ralstonia p...  39.7    0.36  
+  UniRef90_A0A2N7RCL4 Inhibitor of vertebrate lysozyme n=1 Tax=Ja...  39.7    0.40  
+  UniRef90_A0A2N8QZK3 Uncharacterized protein n=2 Tax=Burkholderi...  39.7    0.47  
+  UniRef90_A0A086C0Q2 Lysozyme inhibitor n=7 Tax=Pseudomonadaceae...  39.3    0.48  
+  UniRef90_A0A0M2WLN8 C-lysozyme inhibitor n=3 Tax=Janthinobacter...  39.3    0.52  
+  UniRef90_A0A1G7PKF0 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  39.3    0.56  
+  UniRef90_A0A2T5P9P7 Uncharacterized protein n=1 Tax=Pseudomonas...  38.9    0.62  
+  UniRef90_A0A0A8K0F0 Inhibitor of vertebrate lysozyme n=2 Tax=Me...  38.9    0.71  
+  UniRef90_A0A1E3WDY0 Uncharacterized protein n=1 Tax=Methylocean...  38.9    0.80  
+  UniRef90_A0A1S6F514 Uncharacterized protein n=7 Tax=Oxalobacter...  38.5    0.84  
+  UniRef90_UPI0009EDFD02 hypothetical protein n=1 Tax=Eikenella s...  38.5    0.87  
+  UniRef90_A0A270BFJ5 Uncharacterized protein n=1 Tax=Acetobacter...  38.5    0.89  
+  UniRef90_A0A2R3QMU8 Uncharacterized protein n=1 Tax=Pseudomonas...  38.5    1.0   
+  UniRef90_UPI0008A2CA06 hypothetical protein n=1 Tax=Eikenella s...  38.1    1.1   
+  UniRef90_A0A1I1YE53 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  38.5    1.1   
+  UniRef90_A0A3N9QLK8 Uncharacterized protein n=1 Tax=Rhodobacter...  38.1    1.2   
+  UniRef90_UPI000382D104 hypothetical protein n=1 Tax=Leeia oryza...  38.1    1.2   
+  UniRef90_A0A2N2RE82 Uncharacterized protein n=1 Tax=Betaproteob...  38.9    1.3   
+  UniRef90_A0A353IMS7 Uncharacterized protein n=1 Tax=Methylocean...  38.1    1.4   
+  UniRef90_A0A1G3DIX5 Uncharacterized protein n=5 Tax=Gammaproteo...  38.1    1.5   
+  UniRef90_A0A269XZ32 Uncharacterized protein n=2 Tax=Acetobacter...  37.7    1.6   
+  UniRef90_A0A2G3LTH5 Uncharacterized protein n=5 Tax=Janthinobac...  38.1    1.7   
+  UniRef90_C6M9V4 Inhibitor of vertebrate lysozyme (Ivy) n=14 Tax...  37.7    1.7   
+  UniRef90_W0V4A6 Uncharacterized protein n=1 Tax=Janthinobacteri...  37.7    2.0   
+  UniRef90_A0A2U2HWD0 Uncharacterized protein n=6 Tax=Enterobacte...  37.4    2.4   
+  UniRef90_A0A348HE28 D-alanyl-D-alanine carboxypeptidase n=1 Tax...  37.4    2.5   
+  UniRef90_A0A1F3X1T5 Uncharacterized protein n=1 Tax=Betaproteob...  38.1    2.6   
+  UniRef90_A0A250DK80 Lysozyme inhibitor n=6 Tax=Variovorax TaxID...  38.1    2.6   
+  UniRef90_A0A383MAD5 Inhibitor of vertebrate lysozyme n=1 Tax=Ac...  37.0    2.8   
+  UniRef90_A0A381FV88 Inhibitor of vertebrate lysozyme n=9 Tax=Ch...  37.4    2.9   
+  UniRef90_UPI000DDBF4CE hypothetical protein n=1 Tax=Rhizobiales...  37.0    3.1   
+  UniRef90_A0A387AGS0 Uncharacterized protein n=2 Tax=Pseudomonas...  37.0    3.6   
+  UniRef90_J2KC06 Inhibitor of vertebrate lysozyme (Ivy) n=3 Tax=...  37.4    4.1   
+  UniRef90_A0A1H1JHW7 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  37.7    4.1   
+  UniRef90_A0A2W6TXZ4 Uncharacterized protein n=1 Tax=Stenotropho...  37.0    4.5   
+  UniRef90_A0A0D6SRH6 Inhibitor of vertebrate lysozyme n=4 Tax=Ps...  36.6    4.7   
+  UniRef90_G2JBS9 Uncharacterized protein n=1 Tax=Candidatus Glom...  35.0    5.2   
+  UniRef90_A0A3N7CUH9 Lysozyme inhibitor n=1 Tax=Variovorax sp. K...  37.0    5.3   
+  UniRef90_A0A377Z8F0 C-lysozyme inhibitor n=2 Tax=Klebsiella pne...  34.3    5.5   
+  UniRef90_A0A2V8N829 Carbon starvation protein A (Fragment) n=1 ...  37.0    5.6   
+  UniRef90_A0A367M5B2 Lysozyme inhibitor (Fragment) n=1 Tax=Pseud...  35.8    5.8   
+  UniRef90_A0A0E1W5E7 Inhibitor of vertebrate lysozyme (Ivy) supe...  36.2    6.0   
+  UniRef90_E6UV26 Inhibitor of vertebrate lysozyme n=1 Tax=Variov...  37.0    6.1   
+  UniRef90_U1KPY0 Uncharacterized protein (Fragment) n=1 Tax=Pseu...  36.2    7.0   
+  UniRef90_A0A1W2FC42 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  35.8    7.2   
+  UniRef90_Q9HXB1 Inhibitor of vertebrate lysozyme n=48 Tax=Bacte...  36.2    7.4   
+  UniRef90_A0A2N4TTM1 Uncharacterized protein n=2 Tax=Ralstonia T...  36.2    7.5   
+  UniRef90_F6AEB8 Inhibitor of vertebrate lysozyme n=17 Tax=Pseud...  35.8    7.6   
+  UniRef90_A0A1U9JYC7 Uncharacterized protein n=1 Tax=Paenalcalig...  35.8    7.6   
+  UniRef90_A0A1X3CQG9 Uncharacterized protein n=1 Tax=Neisseria z...  35.8    7.7   
+  UniRef90_A0A3A1WEM2 Lysozyme inhibitor n=1 Tax=Acidovorax caver...  36.6    8.0   
+  UniRef90_A0A2A4ZLR9 Uncharacterized protein n=1 Tax=Rhodobacter...  36.6    8.1   
+  UniRef90_A0A1I5RJ51 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  35.8    8.6   
+  UniRef90_A3N749 Uncharacterized protein n=10 Tax=pseudomallei g...  36.6    8.7   
+  UniRef90_A0A359D843 Uncharacterized protein n=1 Tax=Pseudomonas...  35.8    8.8   
+  UniRef90_A0A363S3Q3 Uncharacterized protein n=3 Tax=Stenotropho...  36.2    9.0   
+  UniRef90_A0A1B4FCB1 Uncharacterized protein n=1 Tax=Burkholderi...  35.8    9.3   
+  UniRef90_A0A1H7E043 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  36.2    9.4   
+  UniRef90_C4KT88 Inhibitor of vertebrate lysozyme (Ivy) superfam...  35.8    9.7   
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.127    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 737862417330
+Warning: [psiblast] lcl|Query_1 NP_414755.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414755.1
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P0AD60 Inhibitor of vertebrate lysozyme n=329 Tax=Prot...  252     2e-84
+  UniRef90_A0A1V2FMJ1 C-lysozyme inhibitor n=62 Tax=Enterobacteri...  252     5e-84
+  UniRef90_A0A0K4V6P1 Inhibitor of vertebrate lysozyme n=8 Tax=Es...  228     9e-75
+  UniRef90_A0A2S4RRP1 C-lysozyme inhibitor n=3 Tax=Citrobacter Ta...  223     1e-72
+  UniRef90_A0A2T2XWU1 C-lysozyme inhibitor n=1 Tax=Kluyvera ascor...  222     1e-72
+  UniRef90_A0A0H3FST6 C-lysozyme inhibitor n=16 Tax=Enterobactera...  218     9e-71
+  UniRef90_A0A1D3KJA3 Inhibitor of vertebrate lysozyme n=153 Tax=...  218     9e-71
+  UniRef90_D4HVL0 Inhibitor of vertebrate lysozyme n=4 Tax=Erwini...  214     2e-69
+  UniRef90_UPI000B8EB6B8 C-lysozyme inhibitor n=1 Tax=Serratia ne...  212     2e-68
+  UniRef90_UPI0009B1F20C C-lysozyme inhibitor n=1 Tax=Cronobacter...  212     2e-68
+  UniRef90_I2BCF1 Inhibitor of vertebrate C-lysozyme n=1 Tax=Shim...  211     4e-68
+  UniRef90_A0A379D598 Inhibitor of vertebrate lysozyme n=7 Tax=Pl...  210     8e-68
+  UniRef90_UPI000B4B3134 C-lysozyme inhibitor n=1 Tax=Cronobacter...  210     9e-68
+  UniRef90_UPI000D5011F0 C-lysozyme inhibitor n=7 Tax=Enterobacte...  210     1e-67
+  UniRef90_F2Q8M2 Inhibitor of vertebrate lysozyme n=9 Tax=Entero...  210     2e-67
+  UniRef90_A0A336P340 Inhibitor of vertebrate lysozyme n=1 Tax=Ci...  210     2e-67
+  UniRef90_A0A285B3P7 Inhibitor of vertebrate C-lysozyme n=12 Tax...  209     2e-67
+  UniRef90_A0A210TMJ9 C-lysozyme inhibitor n=1 Tax=Yersinia entom...  209     3e-67
+  UniRef90_A0A3J4WVZ7 C-lysozyme inhibitor n=5 Tax=Salmonella ent...  209     3e-67
+  UniRef90_UPI0005289E7B C-lysozyme inhibitor n=1 Tax=Enterobacte...  209     3e-67
+  UniRef90_A0A2X4YV47 Lysozyme inhibitor n=9 Tax=Enterobacteriace...  209     4e-67
+  UniRef90_UPI000513F874 C-lysozyme inhibitor n=2 Tax=Enterobacte...  208     7e-67
+  UniRef90_B2VKX7 Probable inhibitor of vertebrate lysozyme n=2 T...  208     1e-66
+  UniRef90_B6XG14 Inhibitor of vertebrate lysozyme n=12 Tax=cellu...  207     2e-66
+  UniRef90_E3DFK5 Inhibitor of vertebrate lysozyme n=2 Tax=Erwini...  206     4e-66
+  UniRef90_UPI00073D677C C-lysozyme inhibitor n=1 Tax=[Erwinia] t...  204     4e-65
+  UniRef90_UPI000F84B949 C-lysozyme inhibitor n=1 Tax=Enterobacte...  203     6e-65
+  UniRef90_UPI00049FC715 C-lysozyme inhibitor n=1 Tax=Klebsiella ...  203     6e-65
+  UniRef90_UPI000379E74E C-lysozyme inhibitor n=1 Tax=Enterobacte...  202     1e-64
+  UniRef90_D2T774 Inhibitor of vertebrate lysozyme n=3 Tax=Erwini...  204     2e-64
+  UniRef90_J6IGE0 Inhibitor of vertebrate lysozyme n=25 Tax=Enter...  202     2e-64
+  UniRef90_A0A198F1N6 Inhibitor of vertebrate lysozyme n=2 Tax=Co...  202     2e-64
+  UniRef90_A0A1C4GIA9 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  200     1e-63
+  UniRef90_A0A2X2ELY9 Inhibitor of vertebrate lysozyme n=4 Tax=En...  199     3e-63
+  UniRef90_A0A1C3X237 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  199     6e-63
+  UniRef90_W7DVT7 C-lysozyme inhibitor n=1 Tax=Commensalibacter s...  196     5e-62
+  UniRef90_A0A0J9BE87 Uncharacterized protein n=4 Tax=Enterobacte...  195     6e-62
+  UniRef90_UPI0006870F1A hypothetical protein n=1 Tax=Asaia platy...  192     1e-60
+  UniRef90_UPI0004709BFC C-lysozyme inhibitor n=1 Tax=Asaia prune...  192     1e-60
+  UniRef90_UPI000554544A C-lysozyme inhibitor n=1 Tax=Agrobacteri...  191     5e-60
+  UniRef90_A0A095F661 Inhibitor of vertebrate lysozyme n=13 Tax=B...  189     3e-59
+  UniRef90_A0A085JKU7 Inhibitor of vertebrate lysozyme n=3 Tax=Ta...  188     7e-59
+  UniRef90_UPI0009B2123D C-lysozyme inhibitor n=1 Tax=Burkholderi...  188     1e-58
+  UniRef90_A0A095U6P4 Uncharacterized protein n=1 Tax=Tatumella m...  187     1e-58
+  UniRef90_A0A124PCH8 C-lysozyme inhibitor n=1 Tax=Burkholderia s...  186     5e-58
+  UniRef90_A0A379H5Q2 Inhibitor of vertebrate lysozyme n=9 Tax=Pl...  185     7e-58
+  UniRef90_A0A088TXY3 Inhibitor of vertebrate lysozyme n=4 Tax=Bu...  185     1e-57
+  UniRef90_A0A1V3FGW7 C-lysozyme inhibitor n=1 Tax=Rhizobium sp. ...  185     2e-57
+  UniRef90_UPI000DD93A36 C-lysozyme inhibitor n=9 Tax=Rhizobiales...  184     3e-57
+  UniRef90_A0A118DM04 C-lysozyme inhibitor n=2 Tax=Burkholderia s...  183     6e-57
+  UniRef90_UPI000683F7AA hypothetical protein n=1 Tax=Tatumella s...  183     2e-56
+  UniRef90_UPI00068CE785 C-lysozyme inhibitor n=1 Tax=Agrobacteri...  182     2e-56
+  UniRef90_A0A1Y0LQL3 Uncharacterized protein n=1 Tax=Tatumella c...  182     2e-56
+  UniRef90_UPI000DE01C5C C-lysozyme inhibitor n=1 Tax=Rhizobiales...  182     3e-56
+  UniRef90_A0A2G8E953 Uncharacterized protein n=1 Tax=Erwinia sp....  180     1e-55
+  UniRef90_Q392N1 Uncharacterized protein n=16 Tax=Bacteria TaxID...  177     1e-54
+  UniRef90_A0A1M3Q385 C-lysozyme inhibitor n=1 Tax=Rhizobium sp. ...  177     2e-54
+  UniRef90_A0A1S8YGT2 Uncharacterized protein n=1 Tax=Izhakiella ...  173     4e-53
+  UniRef90_UPI0005368755 C-lysozyme inhibitor n=1 Tax=Citrobacter...  173     5e-53
+  UniRef90_A0A1I3D2H5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  173     6e-53
+  UniRef90_A0A1B9SBG6 C-lysozyme inhibitor n=1 Tax=Rhizobium sp. ...  173     8e-53
+  UniRef90_A0A2M9RIC0 C-lysozyme inhibitor n=1 Tax=Raoultella sp....  171     3e-52
+  UniRef90_A0A3N7GCE4 C-lysozyme inhibitor n=2 Tax=Rhodobacterace...  172     4e-52
+  UniRef90_UPI0007818281 C-lysozyme inhibitor n=2 Tax=Paracoccus ...  171     5e-52
+  UniRef90_UPI000E6C92F0 C-lysozyme inhibitor n=1 Tax=Paracoccus ...  170     8e-52
+  UniRef90_A0A3P4FM67 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  168     3e-51
+  UniRef90_A0A2K1QCH3 C-lysozyme inhibitor n=1 Tax=Mixta theicola...  163     3e-49
+  UniRef90_S5Z1G7 Uncharacterized protein n=1 Tax=Paracoccus amin...  163     4e-49
+  UniRef90_UPI000F6851AA C-lysozyme inhibitor n=1 Tax=Pantoea dis...  163     4e-49
+  UniRef90_A0A1X1BXG7 C-lysozyme inhibitor n=1 Tax=Pantoea conspi...  162     6e-49
+  UniRef90_UPI000DD9B425 C-lysozyme inhibitor n=1 Tax=Rhizobiales...  162     1e-48
+  UniRef90_A0A202CBL5 C-lysozyme inhibitor (Fragment) n=1 Tax=Chr...  160     1e-48
+  UniRef90_UPI0006501311 C-lysozyme inhibitor n=1 Tax=Citrobacter...  161     2e-48
+  UniRef90_A1B846 Uncharacterized protein n=3 Tax=Paracoccus TaxI...  163     2e-48
+  UniRef90_A0A2U9D5Z4 C-lysozyme inhibitor n=1 Tax=Pantoea vagans...  161     2e-48
+  UniRef90_A0A3E0BYN7 Inhibitor of lysozyme (Ivy) n=6 Tax=Paracoc...  162     5e-48
+  UniRef90_UPI000DA4EB81 C-lysozyme inhibitor n=4 Tax=Enterobacte...  160     9e-48
+  UniRef90_UPI0009DD4D51 hypothetical protein n=1 Tax=Enterobacte...  160     1e-47
+  UniRef90_A0A1X1DQH6 C-lysozyme inhibitor n=2 Tax=Pantoea TaxID=...  158     2e-47
+  UniRef90_UPI00084A5C9E inhibitor of vertebrate lysozyme-like n=...  159     2e-47
+  UniRef90_A0A1X7LLW2 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  158     5e-47
+  UniRef90_A0A1V0GW58 C-lysozyme inhibitor n=6 Tax=Paracoccus Tax...  158     5e-47
+  UniRef90_A0A0F5F9L4 C-lysozyme inhibitor n=3 Tax=Pantoea TaxID=...  157     8e-47
+  UniRef90_A0A1I5JQU6 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  158     9e-47
+  UniRef90_A0A2J5PGP4 C-lysozyme inhibitor (Fragment) n=1 Tax=Kle...  154     2e-46
+  UniRef90_V2TXF6 Uncharacterized protein n=2 Tax=Acinetobacter n...  154     2e-45
+  UniRef90_UPI0004189E35 hypothetical protein n=1 Tax=Acetobacter...  154     2e-45
+  UniRef90_UPI000FE343A9 C-lysozyme inhibitor n=5 Tax=Sinirhodoba...  155     2e-45
+  UniRef90_A0A2J7P446 C-lysozyme inhibitor n=1 Tax=Enterobacter c...  153     2e-45
+  UniRef90_A0A2S3W4T0 C-lysozyme inhibitor n=1 Tax=Komagataeibact...  154     2e-45
+  UniRef90_A0A143WLE4 Inhibitor of vertebrate lysozyme n=3 Tax=Ko...  154     2e-45
+  UniRef90_A0A331QDV0 C-lysozyme inhibitor n=32 Tax=Enterobactera...  153     3e-45
+  UniRef90_A0A1W6NYK0 Uncharacterized protein n=1 Tax=Ketogulonic...  153     4e-45
+  UniRef90_A0A318PTU2 C-lysozyme inhibitor n=1 Tax=Gluconacetobac...  153     4e-45
+  UniRef90_UPI000A10057F C-lysozyme inhibitor n=1 Tax=Cronobacter...  150     2e-44
+  UniRef90_A0A217EDN3 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  149     9e-44
+  UniRef90_UPI000642B4AF hypothetical protein n=2 Tax=Enterobacte...  149     1e-43
+  UniRef90_UPI00068AB7D9 hypothetical protein n=1 Tax=Paenirhodob...  149     2e-43
+  UniRef90_UPI000DE25466 C-lysozyme inhibitor n=1 Tax=Pantoea sp....  148     2e-43
+  UniRef90_A0A0G3SR90 Inhibitor of vertebrate lysozyme n=38 Tax=E...  147     6e-43
+  UniRef90_A0A1B1KUV6 Inhibitor of vertebrate lysozyme n=18 Tax=Y...  147     1e-42
+  UniRef90_UPI000F816373 hypothetical protein n=1 Tax=Enterobacte...  147     2e-42
+  UniRef90_A0A240C7S9 Inhibitor of vertebrate lysozyme n=2 Tax=Se...  144     1e-41
+  UniRef90_A0A0F7D0S6 Uncharacterized protein n=8 Tax=Yersiniacea...  143     3e-41
+  UniRef90_A8GHT2 Inhibitor of vertebrate lysozyme n=4 Tax=Serrat...  143     3e-41
+  UniRef90_UPI0004720646 hypothetical protein n=1 Tax=Acetobacter...  143     5e-41
+  UniRef90_D4E2Z8 Inhibitor of vertebrate lysozyme n=2 Tax=Serrat...  142     6e-41
+  UniRef90_A0A2X5AP36 Inhibitor of vertebrate lysozyme n=5 Tax=Se...  142     9e-41
+  UniRef90_A0A0C5VZ68 Inhibitor of vertebrate lysozyme n=5 Tax=En...  138     3e-39
+  UniRef90_A0A377PD06 Inhibitor of vertebrate lysozyme n=11 Tax=H...  137     7e-39
+  UniRef90_A0A0T9KJ73 Inhibitor of vertebrate lysozyme n=2 Tax=Ye...  136     2e-38
+  UniRef90_UPI000FE215B4 hypothetical protein n=1 Tax=Serratia ru...  135     9e-38
+  UniRef90_A0A0D6NSY3 Uncharacterized protein n=1 Tax=Acetobacter...  133     3e-37
+  UniRef90_A0A085UAF3 Inhibitor of vertebrate lysozyme n=4 Tax=Ye...  133     4e-37
+  UniRef90_A0A1C3WN92 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  128     3e-36
+  UniRef90_A0A377XNX3 C-lysozyme inhibitor n=2 Tax=Klebsiella pne...  129     3e-36
+  UniRef90_A0A1W4UIB9 uncharacterized protein YPO2857/y1376/YP_27...  128     1e-35
+  UniRef90_P58483 Uncharacterized protein YPO2857/y1376/YP_2723 n...  129     1e-35
+  UniRef90_A0A1U9LFQ9 Uncharacterized protein n=6 Tax=Acetobacter...  126     1e-34
+  UniRef90_UPI0009BD9093 hypothetical protein n=1 Tax=Pantoea vag...  123     4e-34
+  UniRef90_A0A0N8VSN3 Lysozyme inhibitor n=1 Tax=Pseudomonas endo...  125     5e-34
+  UniRef90_A0A095B9A6 Uncharacterized protein n=1 Tax=Acetobacter...  124     5e-34
+  UniRef90_A0A377DG05 Inhibitor of vertebrate lysozyme n=2 Tax=Es...  122     7e-34
+  UniRef90_A0A0J6I298 Lysozyme inhibitor n=4 Tax=Pseudomonas TaxI...  123     2e-33
+  UniRef90_UPI0002F3801B hypothetical protein n=1 Tax=Pseudomonas...  123     2e-33
+  UniRef90_A0A149UU20 Uncharacterized protein n=4 Tax=Acetobacter...  122     3e-33
+  UniRef90_A0A149V1C7 Uncharacterized protein n=9 Tax=Acetobacter...  122     3e-33
+  UniRef90_A0A376DIN2 Inhibitor of vertebrate lysozyme n=2 Tax=Ed...  123     4e-33
+  UniRef90_A0A266NAE3 Lysozyme inhibitor n=1 Tax=Pseudomonas lund...  122     7e-33
+  UniRef90_A0A149TRS3 Uncharacterized protein n=6 Tax=Acetobacter...  121     9e-33
+  UniRef90_UPI000DA613BA lysozyme inhibitor n=1 Tax=Pseudomonas b...  121     1e-32
+  UniRef90_A0A3M0FJJ2 Inhibitor of lysozyme (Ivy) n=2 Tax=Dyella ...  122     1e-32
+  UniRef90_A0A0D6N7S4 Uncharacterized protein n=3 Tax=Acetobacter...  120     2e-32
+  UniRef90_A0A0T9UG07 Inhibitor of vertebrate lysozyme n=7 Tax=Ye...  120     6e-32
+  UniRef90_A0A177G4H5 Inhibitor of vertebrate lysozyme n=1 Tax=Ac...  119     9e-32
+  UniRef90_UPI000F056379 lysozyme inhibitor n=1 Tax=Pseudomonas s...  118     1e-31
+  UniRef90_UPI0003147423 hypothetical protein n=1 Tax=Dyella japo...  119     1e-31
+  UniRef90_A0A1M3P3K5 Uncharacterized protein n=1 Tax=Rhodanobact...  117     2e-31
+  UniRef90_A0A1I6MUG6 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  119     2e-31
+  UniRef90_A0A0T9S536 Inhibitor of vertebrate lysozyme n=22 Tax=Y...  119     2e-31
+  UniRef90_A0A239SKV6 Inhibitor of vertebrate lysozyme n=11 Tax=P...  118     2e-31
+  UniRef90_A0A291PLG9 Uncharacterized protein n=4 Tax=Acetobacter...  118     2e-31
+  UniRef90_A0A105T934 Inhibitor of vertebrate lysozyme n=2 Tax=Ps...  117     3e-31
+  UniRef90_A0A2X3GNH8 C-lysozyme inhibitor n=1 Tax=Klebsiella pne...  116     4e-31
+  UniRef90_A0A0J6GRZ3 Lysozyme inhibitor n=2 Tax=Pseudomonas TaxI...  116     5e-31
+  UniRef90_D4F368 Inhibitor of vertebrate lysozyme (Ivy) n=5 Tax=...  116     8e-31
+  UniRef90_A0A0U1I9Q8 Inhibitor of vertebrate lysozyme n=6 Tax=Ye...  117     1e-30
+  UniRef90_A0A0H5LWD5 Inhibitor of vertebrate lysozyme n=7 Tax=Ye...  117     2e-30
+  UniRef90_A0A1D9IGZ0 Lysozyme inhibitor n=8 Tax=Pseudomonadaceae...  115     2e-30
+  UniRef90_A0A0X8EWA7 Lysozyme inhibitor n=3 Tax=Pseudomonas TaxI...  115     2e-30
+  UniRef90_UPI000762E2DD lysozyme inhibitor n=1 Tax=Pseudomonas f...  115     2e-30
+  UniRef90_UPI0009E47B95 hypothetical protein n=1 Tax=Dyella japo...  117     3e-30
+  UniRef90_A0A0T7NQU7 Inhibitor of vertebrate lysozyme n=2 Tax=Ye...  116     3e-30
+  UniRef90_A0A0U3MVI9 Uncharacterized protein n=1 Tax=Pandoraea t...  116     4e-30
+  UniRef90_A9HBN7 Uncharacterized protein n=2 Tax=Gluconacetobact...  115     4e-30
+  UniRef90_A0A3D3AZ30 Lysozyme inhibitor n=1 Tax=Rhizobiales bact...  115     4e-30
+  UniRef90_A0A1V3P220 Uncharacterized protein n=1 Tax=Rhodanobact...  114     4e-30
+  UniRef90_UPI000DEFC5AF hypothetical protein n=1 Tax=Dyella sp. ...  116     5e-30
+  UniRef90_A0A0T9SX53 Inhibitor of vertebrate lysozyme n=5 Tax=Ye...  115     1e-29
+  UniRef90_A0A0A8K9H0 Inhibitor of vertebrate lysozyme n=1 Tax=Me...  113     1e-29
+  UniRef90_A0A209AC96 Inhibitor of vertebrate lysozyme n=2 Tax=Ye...  114     2e-29
+  UniRef90_UPI000D646280 hypothetical protein n=1 Tax=Dyella sp. ...  114     2e-29
+  UniRef90_UPI000F77662B hypothetical protein n=1 Tax=Aeromonas s...  113     2e-29
+  UniRef90_A0A0T9M7X3 Inhibitor of vertebrate lysozyme n=11 Tax=Y...  113     2e-29
+  UniRef90_A0A0U2Y7E8 Uncharacterized protein n=1 Tax=Pandoraea n...  113     2e-29
+  UniRef90_A0A0B6FRM1 Inhibitor of vertebrate lysozyme domain pro...  113     4e-29
+  UniRef90_A0A149TYQ8 Uncharacterized protein n=1 Tax=Acetobacter...  111     4e-29
+  UniRef90_A0A1D8UU31 Uncharacterized protein n=3 Tax=Kozakia bal...  112     5e-29
+  UniRef90_A0A0C5DYE3 Uncharacterized protein n=2 Tax=Pseudomonas...  110     2e-28
+  UniRef90_A0A1Q8EP36 Lysozyme inhibitor n=1 Tax=Pseudomonas chlo...  110     2e-28
+  UniRef90_A0A1E3VS07 Uncharacterized protein n=3 Tax=Methylocean...  110     2e-28
+  UniRef90_G2JA14 Putative inhibitor of vertebrate lysozyme (Ivy)...  110     2e-28
+  UniRef90_A0A318DX80 Inhibitor of lysozyme (Ivy) n=1 Tax=Dyella ...  111     2e-28
+  UniRef90_UPI0009859649 hypothetical protein n=1 Tax=Rhodanobact...  111     3e-28
+  UniRef90_Q5FUI2 Uncharacterized protein n=7 Tax=Gluconobacter o...  109     4e-28
+  UniRef90_A0A0T9NDX4 Inhibitor of vertebrate lysozyme n=1 Tax=Ye...  110     6e-28
+  UniRef90_A0A076LLR7 Inhibitor of vertebrate lysozyme n=5 Tax=Ed...  109     8e-28
+  UniRef90_A0A254VG60 Lysozyme inhibitor n=1 Tax=Xenophilus sp. A...  108     2e-27
+  UniRef90_A0A1I2FU13 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  109     3e-27
+  UniRef90_A0A1Y3G2I0 Uncharacterized protein n=2 Tax=Acetobacter...  107     3e-27
+  UniRef90_A0A0U1HUZ1 Inhibitor of vertebrate lysozyme n=3 Tax=Ye...  108     4e-27
+  UniRef90_A0A2X1LIZ0 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  103     2e-26
+  UniRef90_UPI000A3A205F hypothetical protein n=2 Tax=Acetobacter...  105     7e-26
+  UniRef90_C5BHM1 Inhibitor of vertebrate lysozyme (Ivy) n=2 Tax=...  104     9e-26
+  UniRef90_A0A328NYF2 Uncharacterized protein n=1 Tax=Dyella jian...  104     1e-25
+  UniRef90_A0A023NQK9 C-lysozyme inhibitor n=2 Tax=Dyella jiangni...  104     1e-25
+  UniRef90_H8L037 Inhibitor of vertebrate lysozyme (Ivy) n=1 Tax=...  103     2e-25
+  UniRef90_UPI0009BDFF04 hypothetical protein n=3 Tax=Aeromonas h...  101     8e-25
+  UniRef90_A0A0D6NNE3 Uncharacterized protein n=5 Tax=Acetobacter...  101     9e-25
+  UniRef90_A0A2Z3J1E9 Uncharacterized protein n=1 Tax=Salinisphae...  100     2e-24
+  UniRef90_A0A1B6VNI6 Inhibitor of vertebrate lysozyme n=5 Tax=Gl...  100     3e-24
+  UniRef90_M9LW14 Uncharacterized protein n=6 Tax=Gluconobacter T...  99.7    4e-24
+  UniRef90_A0A377E1N2 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  97.4    4e-24
+  UniRef90_A0A177FY09 Inhibitor of vertebrate lysozyme n=2 Tax=Gl...  99.7    4e-24
+  UniRef90_A0A0D6N253 Uncharacterized protein n=2 Tax=Acetobacter...  99.7    6e-24
+  UniRef90_A0A084II74 C-lysozyme inhibitor n=1 Tax=Salinisphaera ...  99.3    6e-24
+  UniRef90_A0A1H1KLN6 Inhibitor of vertebrate lysozyme (Ivy) n=5 ...  98.9    8e-24
+  UniRef90_A0A149S8I0 Uncharacterized protein n=5 Tax=Gluconobact...  98.9    9e-24
+  UniRef90_UPI0005A6265C lysozyme inhibitor n=1 Tax=Aeromonas sim...  98.5    1e-23
+  UniRef90_A0A1Y2ZTC7 Uncharacterized protein n=1 Tax=Crenothrix ...  98.1    2e-23
+  UniRef90_A0A0A7JP33 Uncharacterized protein n=1 Tax=Pseudomonas...  97.7    3e-23
+  UniRef90_U3HDJ7 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  97.7    3e-23
+  UniRef90_I3UAR4 C-lysozyme inhibitor n=1 Tax=Advenella kashmire...  95.4    2e-22
+  UniRef90_UPI0009FA6F4E hypothetical protein n=1 Tax=Methylobact...  96.2    3e-22
+  UniRef90_A0A0A2N691 C-lysozyme inhibitor n=10 Tax=Alcaligenes T...  94.7    5e-22
+  UniRef90_A0A3D0L0C0 C-lysozyme inhibitor n=1 Tax=Alcaligenes fa...  93.5    1e-21
+  UniRef90_J0JDP7 C-lysozyme inhibitor n=1 Tax=Alcaligenes faecal...  93.5    1e-21
+  UniRef90_A0A356LM99 C-lysozyme inhibitor n=1 Tax=Advenella kash...  93.1    2e-21
+  UniRef90_UPI000F4A4DF9 hypothetical protein n=1 Tax=Salinisphae...  93.1    6e-21
+  UniRef90_W0SK73 Uncharacterized protein n=1 Tax=Sulfuritalea hy...  91.2    8e-21
+  UniRef90_UPI0001E8AA6F hypothetical protein n=1 Tax=Escherichia...  90.0    1e-20
+  UniRef90_UPI00046CB140 hypothetical protein n=1 Tax=Advenella m...  90.8    1e-20
+  UniRef90_V8QRR2 Uncharacterized protein n=2 Tax=Advenella kashm...  90.4    2e-20
+  UniRef90_A0A2E5FV83 Uncharacterized protein n=2 Tax=Gammaproteo...  90.8    2e-20
+  UniRef90_UPI000F4C9E5A hypothetical protein n=1 Tax=Salinisphae...  92.7    4e-20
+  UniRef90_A0A376L059 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  86.2    5e-20
+  UniRef90_A0A0T6UM40 Uncharacterized protein n=1 Tax=Pseudomonas...  87.0    6e-19
+  UniRef90_W1GXT8 Inhibitor of vertebrate lysozyme n=2 Tax=Klebsi...  83.5    7e-19
+  UniRef90_A0A1E3W5S7 Uncharacterized protein n=1 Tax=Methylocean...  84.3    9e-19
+  UniRef90_A0A238H4J3 Mobile element protein n=1 Tax=Burkholderia...  89.7    9e-19
+  UniRef90_A0A0X8GRM1 Uncharacterized protein n=1 Tax=Janthinobac...  83.9    1e-17
+  UniRef90_A0A3A5J338 Uncharacterized protein n=1 Tax=Salinisphae...  81.9    5e-17
+  UniRef90_V5F693 Inhibitor of vertebrate lysozyme family protein...  80.8    1e-16
+  UniRef90_A0A1Y1QPX6 Uncharacterized protein n=1 Tax=Thiothrix l...  81.2    2e-16
+  UniRef90_UPI000CF6ACB5 hypothetical protein n=1 Tax=Pseudoalter...  76.9    6e-15
+  UniRef90_A0A378AL52 C-lysozyme inhibitor n=1 Tax=Klebsiella pne...  72.7    2e-14
+  UniRef90_A0A2H0HYV8 Uncharacterized protein n=1 Tax=Thalassolit...  73.5    7e-14
+  UniRef90_UPI00055B2CB8 hypothetical protein n=1 Tax=Leisingera ...  73.1    1e-13
+  UniRef90_A0A376YCY3 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  65.8    7e-12
+  UniRef90_UPI000DCE6302 hypothetical protein n=1 Tax=Aerococcus ...  67.3    1e-11
+  UniRef90_A0A329P861 Uncharacterized protein (Fragment) n=1 Tax=...  65.0    4e-11
+  UniRef90_A0A0D8LQJ2 Lysozyme inhibitor n=13 Tax=Vibrionaceae Ta...  65.4    1e-10
+  UniRef90_A0A376LI87 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  62.3    2e-10
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0T9TP08 Inhibitor of vertebrate lysozyme n=1 Tax=Ye...  113     6e-29
+  UniRef90_UPI00054B2492 lysozyme inhibitor n=1 Tax=Pseudomonas f...  110     2e-28
+  UniRef90_A0A383MAD5 Inhibitor of vertebrate lysozyme n=1 Tax=Ac...  109     5e-28
+  UniRef90_A0A120G0Y3 Inhibitor of vertebrate lysozyme n=13 Tax=P...  109     6e-28
+  UniRef90_UPI00046ECFC7 lysozyme inhibitor n=3 Tax=Pseudomonas c...  106     1e-26
+  UniRef90_A0A0U5F065 Uncharacterized protein n=1 Tax=Acetobacter...  102     2e-25
+  UniRef90_A0A370FZT9 Inhibitor of lysozyme (Ivy) n=2 Tax=Glucona...  102     3e-25
+  UniRef90_A0A270BFJ5 Uncharacterized protein n=1 Tax=Acetobacter...  98.5    2e-23
+  UniRef90_A0A149TGM6 Uncharacterized protein n=5 Tax=Gluconobact...  97.7    2e-23
+  UniRef90_A0A1E3W2F9 Uncharacterized protein n=1 Tax=Methylocean...  97.4    3e-23
+  UniRef90_A0A2S5DCB6 Lysozyme inhibitor n=1 Tax=Chromobacterium ...  97.0    6e-23
+  UniRef90_A0A2H5DR96 Lysozyme inhibitor n=1 Tax=Chromobacterium ...  96.2    1e-22
+  UniRef90_A0A149T8C8 Uncharacterized protein n=2 Tax=Gluconobact...  95.4    1e-22
+  UniRef90_A0A1H7LIE1 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  96.6    2e-22
+  UniRef90_A0A2N8QZK3 Uncharacterized protein n=2 Tax=Burkholderi...  95.0    5e-22
+  UniRef90_A0A2N5QPE3 Inhibitor of lysozyme (Ivy) n=3 Tax=Chromob...  94.7    6e-22
+  UniRef90_A3N749 Uncharacterized protein n=10 Tax=pseudomallei g...  97.4    9e-22
+  UniRef90_C4KT88 Inhibitor of vertebrate lysozyme (Ivy) superfam...  93.5    1e-21
+  UniRef90_A0A381BY15 Inhibitor of vertebrate lysozyme n=4 Tax=ps...  93.5    2e-21
+  UniRef90_A0A0E1W5E7 Inhibitor of vertebrate lysozyme (Ivy) supe...  93.1    2e-21
+  UniRef90_A0A1S1X5Y3 Lysozyme inhibitor n=3 Tax=Chromobacterium ...  92.7    4e-21
+  UniRef90_UPI0007C45D6D C-lysozyme inhibitor n=7 Tax=Alcaligenes...  92.0    5e-21
+  UniRef90_A0A353IMS7 Uncharacterized protein n=1 Tax=Methylocean...  91.6    6e-21
+  UniRef90_A0A1C0XNZ7 Uncharacterized protein n=1 Tax=Ralstonia p...  92.0    7e-21
+  UniRef90_A0A1B4SAE7 Uncharacterized protein n=2 Tax=pseudomalle...  91.6    1e-20
+  UniRef90_A0A269XZ32 Uncharacterized protein n=2 Tax=Acetobacter...  91.2    1e-20
+  UniRef90_A0A127N271 Inhibitor of vertebrate lysozyme n=11 Tax=P...  91.2    1e-20
+  UniRef90_A0A1B8V0X7 Uncharacterized protein n=3 Tax=Pseudomonas...  90.4    3e-20
+  UniRef90_A0KMD6 Inhibitor of vertebrate lysozyme n=36 Tax=Aerom...  90.0    3e-20
+  UniRef90_A0A1G3DIX5 Uncharacterized protein n=5 Tax=Gammaproteo...  89.7    4e-20
+  UniRef90_A0A344UHG0 Lysozyme inhibitor n=2 Tax=Chromobacterium ...  89.7    6e-20
+  UniRef90_A0A1B4FCB1 Uncharacterized protein n=1 Tax=Burkholderi...  89.7    6e-20
+  UniRef90_A0A1E3WDY0 Uncharacterized protein n=1 Tax=Methylocean...  89.7    8e-20
+  UniRef90_A0A0F0DS02 Uncharacterized protein n=4 Tax=Pseudomonas...  88.5    1e-19
+  UniRef90_A0A086C0Q2 Lysozyme inhibitor n=7 Tax=Pseudomonadaceae...  88.5    1e-19
+  UniRef90_A0A1G7PKF0 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  88.1    2e-19
+  UniRef90_A0A1E4C1M6 Uncharacterized protein n=1 Tax=Kaistia sp....  92.0    2e-19
+  UniRef90_U2A0F7 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  87.3    3e-19
+  UniRef90_A0A1M7Z926 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  86.6    7e-19
+  UniRef90_Q9HXB1 Inhibitor of vertebrate lysozyme n=48 Tax=Bacte...  86.2    1e-18
+  UniRef90_UPI0009DDA90B hypothetical protein n=1 Tax=Acetobacter...  84.6    1e-18
+  UniRef90_A0A379IMP0 Lysozyme inhibitor n=31 Tax=Gammaproteobact...  85.4    2e-18
+  UniRef90_A0A1I5RJ51 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  85.8    2e-18
+  UniRef90_A0A359D843 Uncharacterized protein n=1 Tax=Pseudomonas...  85.4    2e-18
+  UniRef90_UPI000A2F4D46 hypothetical protein n=1 Tax=Burkholderi...  86.2    3e-18
+  UniRef90_A0A0D6SRH6 Inhibitor of vertebrate lysozyme n=4 Tax=Ps...  85.0    3e-18
+  UniRef90_UPI000A072B63 hypothetical protein n=1 Tax=Bradyrhizob...  84.3    3e-18
+  UniRef90_A0A381FV88 Inhibitor of vertebrate lysozyme n=9 Tax=Ch...  84.6    4e-18
+  UniRef90_UPI0005590612 hypothetical protein n=1 Tax=Andreprevot...  84.3    5e-18
+  UniRef90_UPI0006942DB3 hypothetical protein n=1 Tax=Pseudomonas...  84.3    6e-18
+  UniRef90_UPI00055CF869 hypothetical protein n=1 Tax=Pseudomonas...  84.3    6e-18
+  UniRef90_A0A0A8K0F0 Inhibitor of vertebrate lysozyme n=2 Tax=Me...  83.5    8e-18
+  UniRef90_UPI0009E68250 hypothetical protein n=2 Tax=Burkholderi...  85.8    8e-18
+  UniRef90_A0A2G3K4T9 Uncharacterized protein n=1 Tax=Chitinimona...  83.1    1e-17
+  UniRef90_UPI00083A7769 hypothetical protein n=1 Tax=Pseudomonas...  83.5    1e-17
+  UniRef90_A0A117MTJ7 Uncharacterized protein n=2 Tax=Bosea sp. W...  82.7    2e-17
+  UniRef90_A0A1Y5KUR3 Inhibitor of vertebrate lysozyme n=62 Tax=G...  82.7    2e-17
+  UniRef90_A0A0F7Y1C4 Uncharacterized protein n=11 Tax=Pseudomona...  82.7    3e-17
+  UniRef90_A0A383RL59 Uncharacterized protein n=1 Tax=Pseudomonas...  82.7    3e-17
+  UniRef90_A0A387AGS0 Uncharacterized protein n=2 Tax=Pseudomonas...  82.3    3e-17
+  UniRef90_UPI000011365B INHIBITOR OF VERTEBRATE LYSOZYME n=2 Tax...  81.9    3e-17
+  UniRef90_UPI0009FC6895 hypothetical protein n=1 Tax=Methylobact...  83.5    3e-17
+  UniRef90_A0A0H2WHY2 Uncharacterized protein n=1 Tax=Burkholderi...  80.8    4e-17
+  UniRef90_A0A2T5P9P7 Uncharacterized protein n=1 Tax=Pseudomonas...  81.6    4e-17
+  UniRef90_A0A2S3W7H5 Uncharacterized protein n=2 Tax=Pseudomonas...  81.9    6e-17
+  UniRef90_A0A1E5X8F7 Uncharacterized protein n=4 Tax=Pseudomonad...  81.6    7e-17
+  UniRef90_A0A379KF88 Inhibitor of vertebrate lysozyme n=2 Tax=Ps...  81.2    9e-17
+  UniRef90_Q9HT89 Uncharacterized protein PA5481 n=69 Tax=Gammapr...  81.2    1e-16
+  UniRef90_A0A2N4TTM1 Uncharacterized protein n=2 Tax=Ralstonia T...  81.6    1e-16
+  UniRef90_A0A1B2F0K1 Inhibitor of vertebrate lysozyme n=4 Tax=Ps...  80.8    1e-16
+  UniRef90_A0A0P7D923 Uncharacterized protein n=13 Tax=Pseudomona...  80.4    2e-16
+  UniRef90_A0A1I1YE53 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  80.4    2e-16
+  UniRef90_A0A1H5AL30 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  80.0    2e-16
+  UniRef90_A0A239FGG4 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  80.0    2e-16
+  UniRef90_UPI0009DC9FCC hypothetical protein n=2 Tax=Bilophila w...  80.0    3e-16
+  UniRef90_F6AEB8 Inhibitor of vertebrate lysozyme n=17 Tax=Pseud...  80.0    3e-16
+  UniRef90_J2YRQ7 Inhibitor of vertebrate lysozyme (Ivy) n=3 Tax=...  80.0    3e-16
+  UniRef90_A0A0F0EAD3 Uncharacterized protein n=2 Tax=Pseudomonas...  79.6    4e-16
+  UniRef90_A0A1G9FXF7 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  79.3    5e-16
+  UniRef90_A0A160GIK2 Uncharacterized protein n=5 Tax=Pseudomonad...  79.3    5e-16
+  UniRef90_A0A0Q4NV65 Uncharacterized protein n=2 Tax=Pseudomonas...  79.3    6e-16
+  UniRef90_UPI000F47D774 hypothetical protein n=1 Tax=Pseudomonas...  78.9    8e-16
+  UniRef90_A0A367M5B2 Lysozyme inhibitor (Fragment) n=1 Tax=Pseud...  77.7    8e-16
+  UniRef90_A0A2S8Z3G5 Uncharacterized protein n=1 Tax=Pseudomonas...  78.5    9e-16
+  UniRef90_A0A2R3QMU8 Uncharacterized protein n=1 Tax=Pseudomonas...  78.5    9e-16
+  UniRef90_A0A120HJV5 Uncharacterized protein n=1 Tax=Pseudomonas...  78.5    1e-15
+  UniRef90_A0A2W5WF63 Lysozyme inhibitor n=4 Tax=Pseudomonas TaxI...  78.1    1e-15
+  UniRef90_UPI000F497B07 hypothetical protein n=1 Tax=Pseudomonas...  78.1    1e-15
+  UniRef90_A0A3D5GYX2 Uncharacterized protein n=2 Tax=Pseudomonas...  78.1    1e-15
+  UniRef90_A0A329C3M4 Inhibitor of lysozyme (Ivy) n=13 Tax=Gammap...  78.1    2e-15
+  UniRef90_UPI00076172F3 hypothetical protein n=1 Tax=Pseudomonas...  78.1    2e-15
+  UniRef90_A0A366EVL4 Inhibitor of lysozyme (Ivy) n=1 Tax=Roseiar...  76.6    3e-15
+  UniRef90_A0A1E3VVG7 Uncharacterized protein n=2 Tax=Methylocean...  76.6    4e-15
+  UniRef90_UPI0009EBA518 hypothetical protein n=3 Tax=Methylobact...  76.2    5e-15
+  UniRef90_A0A1E3W3U2 Uncharacterized protein n=1 Tax=Methylocean...  75.0    5e-15
+  UniRef90_A0A1Q4BH17 Uncharacterized protein n=1 Tax=Rhizobiales...  75.4    6e-15
+  UniRef90_A0A084C9M2 Uncharacterized protein n=3 Tax=Pseudomonas...  76.6    7e-15
+  UniRef90_A0A2L1HDU2 Uncharacterized protein n=2 Tax=Pseudomonas...  76.2    8e-15
+  UniRef90_I4N809 Uncharacterized protein n=2 Tax=Gammaproteobact...  76.2    1e-14
+  UniRef90_A0A1H1JHW7 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  79.6    1e-14
+  UniRef90_UPI000DA64777 hypothetical protein n=3 Tax=Pseudomonas...  75.8    1e-14
+  UniRef90_A0A3D3N3P6 Uncharacterized protein n=4 Tax=Pseudomonas...  75.8    1e-14
+  UniRef90_A0A0A7JVC2 Uncharacterized protein n=2 Tax=Pseudomonas...  75.8    1e-14
+  UniRef90_A0A1H1W1I9 Inhibitor of vertebrate lysozyme (Ivy) n=4 ...  75.4    1e-14
+  UniRef90_A0A177Z2T8 Inhibitor of vertebrate lysozyme n=4 Tax=Ps...  75.0    2e-14
+  UniRef90_M4X5Q0 Uncharacterized protein n=1 Tax=Pseudomonas sp....  75.0    3e-14
+  UniRef90_A0A239J6K2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  74.6    3e-14
+  UniRef90_UPI000BA4D157 hypothetical protein n=2 Tax=Pseudomonas...  74.6    3e-14
+  UniRef90_A0A1E4UTS1 Uncharacterized protein n=2 Tax=Pseudomonas...  74.6    4e-14
+  UniRef90_A0A0D1PD39 Uncharacterized protein n=7 Tax=Pseudomonas...  74.2    4e-14
+  UniRef90_A0A0M4RKT7 Uncharacterized protein n=1 Tax=Pseudomonas...  74.2    5e-14
+  UniRef90_UPI000494CCBB hypothetical protein n=1 Tax=Bosea sp. 1...  73.9    5e-14
+  UniRef90_UPI000D17654F lysozyme inhibitor n=1 Tax=Photobacteriu...  73.9    5e-14
+  UniRef90_UPI000A1F9EB1 hypothetical protein n=1 Tax=Pseudomonas...  73.9    6e-14
+  UniRef90_A0A1G8P8E4 Inhibitor of vertebrate lysozyme (Ivy) n=5 ...  73.9    6e-14
+  UniRef90_A0A0Q3SYS2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  73.5    6e-14
+  UniRef90_A0A1T5HWN6 Inhibitor of vertebrate lysozyme n=4 Tax=Ph...  73.5    6e-14
+  UniRef90_A0A1X0NBZ0 Uncharacterized protein n=1 Tax=Pseudomonas...  73.9    7e-14
+  UniRef90_A0A0F0F3H6 Uncharacterized protein n=4 Tax=Pseudomonad...  73.9    7e-14
+  UniRef90_A0A0S4I8M5 Inhibitor of vertebrate lysozyme n=12 Tax=P...  73.5    1e-13
+  UniRef90_UPI000420F7D3 hypothetical protein n=2 Tax=Pseudomonas...  73.5    1e-13
+  UniRef90_A0A1D2TDB7 Uncharacterized protein n=1 Tax=Lautropia s...  75.8    1e-13
+  UniRef90_A0A0N0VJ63 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  73.1    1e-13
+  UniRef90_Q1IGW9 Uncharacterized protein n=1 Tax=Pseudomonas ent...  73.1    1e-13
+  UniRef90_A0A2S5CGL2 Uncharacterized protein n=1 Tax=Methylovulu...  75.4    2e-13
+  UniRef90_A0A3M5NYW1 Uncharacterized protein n=2 Tax=Pseudomonas...  73.9    2e-13
+  UniRef90_A0A0X7JY27 Uncharacterized protein n=4 Tax=Pseudomonas...  72.7    2e-13
+  UniRef90_A0A1G7T7L7 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  71.9    3e-13
+  UniRef90_A0A1M3C8X9 Uncharacterized protein n=1 Tax=Nitrobacter...  71.5    3e-13
+  UniRef90_A0A0N8VT54 Uncharacterized protein n=1 Tax=Pseudomonas...  71.9    3e-13
+  UniRef90_A0A2U1FER8 Inhibitor of lysozyme (Ivy) n=2 Tax=Pseudom...  72.3    3e-13
+  UniRef90_UPI0009A4942C hypothetical protein n=1 Tax=Thiomonas i...  74.2    3e-13
+  UniRef90_A0A1H7B8F2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  71.9    4e-13
+  UniRef90_A0A2G3J8J8 Uncharacterized protein n=2 Tax=Iodobacter ...  71.9    4e-13
+  UniRef90_UPI000BA40630 hypothetical protein n=1 Tax=Pseudomonas...  71.9    4e-13
+  UniRef90_A0A105T3B8 Inhibitor of vertebrate lysozyme n=9 Tax=Ps...  71.5    5e-13
+  UniRef90_A0A0P9XFW4 Uncharacterized protein n=7 Tax=Pseudomonas...  71.2    6e-13
+  UniRef90_A0A2N7RCL4 Inhibitor of vertebrate lysozyme n=1 Tax=Ja...  70.8    9e-13
+  UniRef90_A0A1B5CUZ7 Inhibitor of vertebrate lysozyme n=36 Tax=P...  70.8    9e-13
+  UniRef90_A0A1T4TV71 Inhibitor of vertebrate lysozyme n=1 Tax=Ph...  70.4    1e-12
+  UniRef90_A0A0L1MLI9 Uncharacterized protein n=3 Tax=Pseudomonas...  70.4    1e-12
+  UniRef90_W0MXP3 Uncharacterized protein n=21 Tax=Pseudomonas Ta...  70.4    1e-12
+  UniRef90_A0A1H6LPY1 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  70.4    1e-12
+  UniRef90_C6M9V4 Inhibitor of vertebrate lysozyme (Ivy) n=14 Tax...  70.0    2e-12
+  UniRef90_UPI0004668063 hypothetical protein n=1 Tax=Pseudomonas...  70.4    2e-12
+  UniRef90_U6ZR75 Uncharacterized protein n=5 Tax=Pseudomonas Tax...  70.4    2e-12
+  UniRef90_A0A1C6LVV7 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  70.4    2e-12
+  UniRef90_A0A2W5ME95 Uncharacterized protein n=1 Tax=Pseudomonas...  70.0    2e-12
+  UniRef90_A0A2G0VR13 Uncharacterized protein n=5 Tax=Pseudomonas...  70.0    2e-12
+  UniRef90_A0A1B3CDK0 Uncharacterized protein n=16 Tax=Pseudomona...  69.6    3e-12
+  UniRef90_UPI000F06F896 hypothetical protein n=1 Tax=Pseudomonas...  69.6    3e-12
+  UniRef90_UPI00067FF681 hypothetical protein n=2 Tax=Ottowia Tax...  70.0    3e-12
+  UniRef90_A0A1H8RKE0 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  69.2    3e-12
+  UniRef90_A0A1N7C9J5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  69.2    4e-12
+  UniRef90_A0A2G3LTH5 Uncharacterized protein n=5 Tax=Janthinobac...  70.4    4e-12
+  UniRef90_A0A3N9QLK8 Uncharacterized protein n=1 Tax=Rhodobacter...  68.8    4e-12
+  UniRef90_A0A089WI36 Uncharacterized protein n=2 Tax=Pseudomonas...  69.2    4e-12
+  UniRef90_UPI000DA6235F hypothetical protein n=1 Tax=Pseudomonas...  68.8    4e-12
+  UniRef90_A0A1T1I4P1 Uncharacterized protein n=2 Tax=Pseudomonas...  68.8    5e-12
+  UniRef90_W0H312 Uncharacterized protein n=10 Tax=Pseudomonas Ta...  68.8    5e-12
+  UniRef90_A0A2T3KJZ2 Lysozyme inhibitor n=9 Tax=Photobacterium T...  68.5    5e-12
+  UniRef90_A0A1Q3VVQ9 Uncharacterized protein n=1 Tax=Candidatus ...  69.2    5e-12
+  UniRef90_A0A2T3QBM6 Lysozyme inhibitor n=1 Tax=Photobacterium a...  68.8    6e-12
+  UniRef90_A0A1B5EBA9 Inhibitor of vertebrate lysozyme n=47 Tax=P...  68.8    6e-12
+  UniRef90_A0A2K1FAG7 Uncharacterized protein n=1 Tax=Pseudomonas...  68.8    6e-12
+  UniRef90_A0A1V4X8F8 C-lysozyme inhibitor n=1 Tax=Syntrophorhabd...  69.2    6e-12
+  UniRef90_UPI000F7B5CCB hypothetical protein n=1 Tax=Pseudomonas...  68.5    8e-12
+  UniRef90_A0A0S4HUT3 Inhibitor of vertebrate lysozyme n=6 Tax=Ps...  68.5    8e-12
+  UniRef90_A0A2N2RE82 Uncharacterized protein n=1 Tax=Betaproteob...  70.4    8e-12
+  UniRef90_A0A1F3CA86 Uncharacterized protein n=1 Tax=Armatimonad...  68.1    8e-12
+  UniRef90_A0A177SFS6 Uncharacterized protein n=4 Tax=Pseudomonas...  68.5    9e-12
+  UniRef90_A0A0C5DQ59 Uncharacterized protein n=2 Tax=Pseudomonas...  68.1    9e-12
+  UniRef90_A0A085VM88 Uncharacterized protein n=3 Tax=Pseudomonas...  68.1    9e-12
+  UniRef90_A0A0V0Q725 Uncharacterized protein n=3 Tax=Paracoccus ...  68.8    9e-12
+  UniRef90_A0A2V4I1A6 Uncharacterized protein n=1 Tax=Pseudomonas...  68.1    1e-11
+  UniRef90_A0A0B7D0P8 Inhibitor of vertebrate lysozyme n=2 Tax=Ps...  68.1    1e-11
+  UniRef90_A0A0P9SAW1 Uncharacterized protein n=32 Tax=Pseudomona...  69.2    1e-11
+  UniRef90_A0A1U9JYC7 Uncharacterized protein n=1 Tax=Paenalcalig...  68.1    1e-11
+  UniRef90_A0A2N4UVK3 Uncharacterized protein n=1 Tax=Photobacter...  67.7    1e-11
+  UniRef90_A0A098SXL6 Uncharacterized protein n=5 Tax=Pseudomonas...  68.1    1e-11
+  UniRef90_A0A1H2NTV3 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  67.7    1e-11
+  UniRef90_UPI00057320D7 hypothetical protein n=1 Tax=Pseudomonas...  66.5    1e-11
+  UniRef90_A0A0K1QJN8 Uncharacterized protein n=2 Tax=Pseudomonas...  67.7    2e-11
+  UniRef90_A0A0P9K0I7 Uncharacterized protein n=13 Tax=Pseudomona...  68.5    2e-11
+  UniRef90_A0A336J7M8 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  69.6    2e-11
+  UniRef90_A0A0D6B9J4 Inhibitor of vertebrate lysozyme family pro...  67.3    2e-11
+  UniRef90_UPI000F05330F hypothetical protein n=2 Tax=Pseudomonas...  67.3    2e-11
+  UniRef90_A0A1S6F514 Uncharacterized protein n=7 Tax=Oxalobacter...  66.9    2e-11
+  UniRef90_UPI00069D4C04 hypothetical protein n=1 Tax=Pseudomonas...  67.3    2e-11
+  UniRef90_A0A0X8ET34 Uncharacterized protein n=2 Tax=Pseudomonas...  67.3    2e-11
+  UniRef90_G2JBS9 Uncharacterized protein n=1 Tax=Candidatus Glom...  65.0    3e-11
+  UniRef90_A0A120G818 Inhibitor of vertebrate lysozyme n=92 Tax=P...  66.9    3e-11
+  UniRef90_A0A1E1G6P1 Inhibitor of vertebrate c-type lysozyme n=2...  66.9    3e-11
+  UniRef90_A0A0D0MY69 Lysozyme inhibitor n=2 Tax=Variovorax TaxID...  68.8    3e-11
+  UniRef90_A0A1Y6KX77 Inhibitor of vertebrate lysozyme n=5 Tax=Ph...  66.2    4e-11
+  UniRef90_A0A1X3CQG9 Uncharacterized protein n=1 Tax=Neisseria z...  66.5    4e-11
+  UniRef90_UPI000F07AC7D hypothetical protein n=1 Tax=Pseudomonas...  66.5    4e-11
+  UniRef90_A0A1I1C029 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  66.5    4e-11
+  UniRef90_A0A1H7RPQ8 Inhibitor of vertebrate lysozyme (Ivy) n=4 ...  68.5    4e-11
+  UniRef90_UPI000374840D hypothetical protein n=1 Tax=beta proteo...  66.5    6e-11
+  UniRef90_UPI000F03CA40 hypothetical protein n=1 Tax=Pseudomonas...  65.8    8e-11
+  UniRef90_UPI000F467023 hypothetical protein n=1 Tax=Pseudomonas...  65.8    8e-11
+  UniRef90_E6UV26 Inhibitor of vertebrate lysozyme n=1 Tax=Variov...  67.7    8e-11
+  UniRef90_A0A1V4WRE0 C-lysozyme inhibitor n=1 Tax=Syntrophorhabd...  66.2    8e-11
+  UniRef90_UPI0002DD2BFF hypothetical protein n=1 Tax=Pseudomonas...  65.4    8e-11
+  UniRef90_A0A1W2FC42 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  65.4    9e-11
+  UniRef90_A0A172YTJ8 Uncharacterized protein n=5 Tax=Pseudomonas...  65.4    1e-10
+  UniRef90_B4SSG1 Uncharacterized protein n=10 Tax=Stenotrophomon...  66.9    1e-10
+  UniRef90_A0A011QPC3 C-lysozyme inhibitor n=1 Tax=Candidatus Acc...  65.8    1e-10
+  UniRef90_UPI000F03DC63 hypothetical protein n=1 Tax=Pseudomonas...  65.4    1e-10
+  UniRef90_UPI000DDBF4CE hypothetical protein n=1 Tax=Rhizobiales...  65.0    1e-10
+  UniRef90_A0A1I3FWY7 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  65.4    1e-10
+  UniRef90_A0A1C7Z848 Uncharacterized protein n=3 Tax=Pseudomonas...  65.4    1e-10
+  UniRef90_A0A2N7REA0 Inhibitor of vertebrate lysozyme n=59 Tax=P...  65.4    1e-10
+  UniRef90_A0A0W0M3Y2 Uncharacterized protein n=3 Tax=Pseudomonas...  65.4    1e-10
+  UniRef90_UPI000382D104 hypothetical protein n=1 Tax=Leeia oryza...  65.0    1e-10
+  UniRef90_A0A191Z217 Uncharacterized protein n=1 Tax=Pseudomonas...  65.0    1e-10
+  UniRef90_A0A1I9XZR1 Uncharacterized protein n=1 Tax=Janthinobac...  65.0    2e-10
+  UniRef90_A0A1X9U5Y6 Uncharacterized protein n=4 Tax=Photobacter...  65.0    2e-10
+  UniRef90_A0A2G3M313 Uncharacterized protein n=15 Tax=Oxalobacte...  65.8    2e-10
+  UniRef90_A0A1F0AJC7 Uncharacterized protein n=4 Tax=Neisseria T...  64.6    2e-10
+  UniRef90_A0A290WUV5 Uncharacterized protein n=8 Tax=Janthinobac...  65.4    2e-10
+  UniRef90_A0A379I6T7 Inhibitor of vertebrate lysozyme family pro...  64.2    3e-10
+  UniRef90_A0A2N6ILR5 Uncharacterized protein n=4 Tax=Oxalobacter...  64.6    3e-10
+  UniRef90_A0A1G4ZSA5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  66.5    3e-10
+  UniRef90_UPI0007177673 lysozyme inhibitor n=1 Tax=Pseudomonas a...  63.5    3e-10
+  UniRef90_J2KC06 Inhibitor of vertebrate lysozyme (Ivy) n=3 Tax=...  66.2    3e-10
+  UniRef90_A0A0M2WLN8 C-lysozyme inhibitor n=3 Tax=Janthinobacter...  63.8    3e-10
+  UniRef90_F0F2W6 Inhibitor of vertebrate lysozyme (Ivy) n=2 Tax=...  64.2    4e-10
+  UniRef90_UPI000409B493 hypothetical protein n=1 Tax=Bradyrhizob...  63.5    4e-10
+  UniRef90_UPI0009EDFD02 hypothetical protein n=1 Tax=Eikenella s...  63.5    5e-10
+  UniRef90_A0A3N7CUH9 Lysozyme inhibitor n=1 Tax=Variovorax sp. K...  65.8    5e-10
+  UniRef90_UPI0006679716 lysozyme inhibitor n=1 Tax=Neisseria bac...  63.8    5e-10
+  UniRef90_A0A3D4NVN5 Uncharacterized protein n=1 Tax=Pseudomonas...  63.5    5e-10
+  UniRef90_A0A250DK80 Lysozyme inhibitor n=6 Tax=Variovorax TaxID...  65.4    6e-10
+  UniRef90_A0A077LHA7 Inhibitor of vertebrate lysozyme n=1 Tax=Ps...  63.5    7e-10
+  UniRef90_A0A2P1V670 Lysozyme inhibitor n=2 Tax=Variovorax TaxID...  65.4    7e-10
+  UniRef90_Q4ZZT9 Uncharacterized protein n=102 Tax=Pseudomonadac...  63.1    7e-10
+  UniRef90_A0A286B0S7 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  65.0    7e-10
+  UniRef90_A0A292E592 Uncharacterized protein n=1 Tax=Rhizobium s...  62.7    8e-10
+  UniRef90_A0A2T3QGN2 Inhibitor of vertebrate lysozyme n=8 Tax=Ph...  63.1    9e-10
+  UniRef90_A0A355ET95 Uncharacterized protein n=1 Tax=Deltaproteo...  63.5    9e-10
+  UniRef90_L1P269 Inhibitor of vertebrate lysozyme n=2 Tax=Neisse...  63.1    9e-10
+  UniRef90_UPI000469058E hypothetical protein n=1 Tax=Pseudomonas...  63.1    9e-10
+  UniRef90_J2MF32 Inhibitor of vertebrate lysozyme family protein...  62.7    1e-09
+  UniRef90_A0A2W5R9I4 Uncharacterized protein n=1 Tax=Starkeya no...  62.3    1e-09
+  UniRef90_A0A142N2R2 Uncharacterized protein n=23 Tax=Pseudomona...  62.7    1e-09
+  UniRef90_Q4KKI7 Inhibitor of vertebrate lysozyme family protein...  62.7    1e-09
+  UniRef90_A0A1H7E043 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  64.6    1e-09
+  UniRef90_UPI0003700578 inhibitor of vertebrate lysozyme n=3 Tax...  64.6    1e-09
+  UniRef90_A0A0S8ZLE2 Uncharacterized protein n=1 Tax=Pseudomonas...  62.7    1e-09
+  UniRef90_A0A0M1EXI1 Uncharacterized protein n=3 Tax=Stenotropho...  63.8    1e-09
+  UniRef90_A0A2U0ZES5 Inhibitor of lysozyme (Ivy) n=1 Tax=Variovo...  64.2    1e-09
+  UniRef90_A0A1I1IDZ2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  64.2    2e-09
+  UniRef90_G8PX65 Inhibitor of vertebrate lysozyme n=33 Tax=Pseud...  62.3    2e-09
+  UniRef90_A0A348HE28 D-alanyl-D-alanine carboxypeptidase n=1 Tax...  62.3    2e-09
+  UniRef90_A0A2X4CI97 Inhibitor of vertebrate lysozyme n=1 Tax=Pa...  62.3    2e-09
+  UniRef90_A0A0D9A9B1 Uncharacterized protein n=3 Tax=Pseudomonas...  61.9    2e-09
+  UniRef90_A0A238ZYU3 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  62.7    2e-09
+  UniRef90_A0A2W6HMU7 Uncharacterized protein n=1 Tax=Stenotropho...  63.5    2e-09
+  UniRef90_A0A024ECD7 Uncharacterized protein n=9 Tax=Pseudomonas...  61.9    2e-09
+  UniRef90_A0A149QGJ8 Uncharacterized protein n=12 Tax=Gammaprote...  63.1    3e-09
+  UniRef90_A0A1F3X1T5 Uncharacterized protein n=1 Tax=Betaproteob...  63.5    3e-09
+  UniRef90_F2BGD0 Uncharacterized protein n=1 Tax=Neisseria bacil...  61.5    3e-09
+  UniRef90_UPI000A073E74 hypothetical protein n=1 Tax=Desulforegu...  60.8    3e-09
+  UniRef90_A0A0Q5E7J7 Uncharacterized protein n=4 Tax=Pseudomonad...  61.5    4e-09
+  UniRef90_A0A2T3WZP7 Uncharacterized protein n=1 Tax=Stenotropho...  62.7    4e-09
+  UniRef90_A0A329YA39 Uncharacterized protein n=1 Tax=Rhizobium t...  60.4    5e-09
+  UniRef90_UPI000DE3B53B hypothetical protein n=1 Tax=Rhizobiales...  60.8    5e-09
+  UniRef90_A0A363S3Q3 Uncharacterized protein n=3 Tax=Stenotropho...  62.3    5e-09
+  UniRef90_UPI000F48617B hypothetical protein n=1 Tax=Pseudomonas...  61.1    5e-09
+  UniRef90_A0A085F179 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  60.8    5e-09
+  UniRef90_A0A3A1WEM2 Lysozyme inhibitor n=1 Tax=Acidovorax caver...  62.7    6e-09
+  UniRef90_A0A353XUZ8 Uncharacterized protein n=1 Tax=Psychrobact...  60.4    6e-09
+  UniRef90_A0A0L0B4R0 Uncharacterized protein n=6 Tax=Pseudomonas...  60.8    6e-09
+  UniRef90_A0A0M0P6M4 Uncharacterized protein n=17 Tax=Stenotroph...  61.9    7e-09
+  UniRef90_UPI00069A8C85 hypothetical protein n=1 Tax=Microvirga ...  60.4    7e-09
+  UniRef90_J3I5P9 Inhibitor of vertebrate lysozyme (Ivy) n=2 Tax=...  62.3    7e-09
+  UniRef90_A0A1E4Y773 Uncharacterized protein n=7 Tax=Rhizobiales...  60.0    7e-09
+  UniRef90_A0A3M5RL64 Uncharacterized protein n=33 Tax=Pseudomona...  61.5    8e-09
+  UniRef90_A0A089ZR53 Uncharacterized protein n=1 Tax=Pseudomonas...  60.4    8e-09
+  UniRef90_UPI0003808DAD hypothetical protein n=1 Tax=Paracoccus ...  61.1    8e-09
+  UniRef90_A0A2W7H1Y3 Inhibitor of lysozyme (Ivy) n=1 Tax=Variovo...  62.3    1e-08
+  UniRef90_A0A0R0CIY2 Uncharacterized protein n=1 Tax=Stenotropho...  61.5    1e-08
+  UniRef90_A0A377R537 Inhibitor of vertebrate lysozyme n=1 Tax=Ki...  60.0    1e-08
+  UniRef90_A0A369XND7 Uncharacterized protein n=1 Tax=Candidatus ...  60.4    1e-08
+  UniRef90_A0A0M3CQX4 Uncharacterized protein n=10 Tax=Pseudomona...  60.0    1e-08
+  UniRef90_UPI0009F9C40A hypothetical protein n=1 Tax=Pseudomonas...  60.0    1e-08
+  UniRef90_W0V4A6 Uncharacterized protein n=1 Tax=Janthinobacteri...  59.6    2e-08
+  UniRef90_UPI000BEACAC6 hypothetical protein n=2 Tax=Enterobacte...  61.5    2e-08
+  UniRef90_UPI000D541BF6 hypothetical protein n=1 Tax=Stenotropho...  60.0    2e-08
+  UniRef90_UPI000D53CEB7 hypothetical protein n=1 Tax=Stenotropho...  60.4    2e-08
+  UniRef90_A0A1W1H2K2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  60.4    3e-08
+  UniRef90_UPI0009A1E894 hypothetical protein n=3 Tax=Stenotropho...  60.4    3e-08
+  UniRef90_UPI000D541D26 hypothetical protein n=5 Tax=Stenotropho...  60.4    3e-08
+  UniRef90_A0A011PUS9 C-lysozyme inhibitor n=1 Tax=Candidatus Acc...  59.2    3e-08
+  UniRef90_J7SY67 Uncharacterized protein n=71 Tax=Gammaproteobac...  60.0    3e-08
+  UniRef90_E3GBN4 Uncharacterized protein n=9 Tax=Enterobacterale...  60.8    3e-08
+  UniRef90_A0A2U2HWD0 Uncharacterized protein n=6 Tax=Enterobacte...  58.8    3e-08
+  UniRef90_UPI000E0DDC3A hypothetical protein n=1 Tax=Microvirga ...  58.4    4e-08
+  UniRef90_S6B9Q2 Uncharacterized protein n=1 Tax=Pseudomonas res...  57.3    4e-08
+  UniRef90_A0A0T2YFT9 Uncharacterized protein n=1 Tax=Hydrogenoph...  59.6    7e-08
+  UniRef90_A0A1C3W582 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  57.3    7e-08
+  UniRef90_A0A1I1XZI4 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  59.6    7e-08
+  UniRef90_A0A0R0BCH5 Uncharacterized protein n=1 Tax=Stenotropho...  58.8    8e-08
+  UniRef90_A0A2G7R3V7 Uncharacterized protein n=15 Tax=Xanthomona...  58.8    1e-07
+  UniRef90_A0A2P8KGF6 Uncharacterized protein n=1 Tax=Variovorax ...  57.7    1e-07
+  UniRef90_A0A1P8JU82 Uncharacterized protein n=2 Tax=Rhodoferax ...  58.8    1e-07
+  UniRef90_A0A345DBR9 Uncharacterized protein n=1 Tax=Hydromonas ...  57.3    1e-07
+  UniRef90_A0A3N5N6H7 Uncharacterized protein n=1 Tax=Betaproteob...  58.8    1e-07
+  UniRef90_UPI0004914782 hypothetical protein n=1 Tax=Pseudomonas...  57.3    1e-07
+  UniRef90_UPI000DDA09B0 hypothetical protein n=3 Tax=Rhizobiales...  56.5    1e-07
+  UniRef90_A0A2T7TUZ0 Uncharacterized protein n=1 Tax=Microvirga ...  56.9    2e-07
+  UniRef90_UPI0008A2CA06 hypothetical protein n=1 Tax=Eikenella s...  56.5    2e-07
+  UniRef90_A0A1L1PCK6 Inhibitor of vertebrate lysozyme n=2 Tax=Hy...  58.4    2e-07
+  UniRef90_A0A2M8ULP4 Uncharacterized protein n=1 Tax=Rhizobium s...  56.5    2e-07
+  UniRef90_D2BSX2 Uncharacterized protein n=2 Tax=Enterobacterale...  56.5    2e-07
+  UniRef90_UPI000F657310 hypothetical protein n=1 Tax=Dickeya sp....  56.9    2e-07
+  UniRef90_A0A1B3NZV7 Inhibitor of vertebrate lysozyme family pro...  56.1    2e-07
+  UniRef90_UPI00046E71FF hypothetical protein n=1 Tax=Shewanella ...  56.1    3e-07
+  UniRef90_A0A3M8F982 Uncharacterized protein n=1 Tax=Desulfuromo...  57.7    3e-07
+  UniRef90_A0A2W5GIS2 Uncharacterized protein n=1 Tax=Stenotropho...  55.0    4e-07
+  UniRef90_A0A0R0AX74 Uncharacterized protein n=3 Tax=Stenotropho...  56.5    4e-07
+  UniRef90_B8LAE7 Uncharacterized protein n=2 Tax=Stenotrophomona...  56.5    7e-07
+  UniRef90_A0A1Q9AAT7 Uncharacterized protein n=2 Tax=Rhizobium t...  55.0    7e-07
+  UniRef90_A0A2N7QRY7 Inhibitor of vertebrate lysozyme n=1 Tax=Dy...  53.1    7e-07
+  UniRef90_UPI000B81598F hypothetical protein n=2 Tax=Methylobact...  53.1    8e-07
+  UniRef90_K2P9N6 Uncharacterized protein n=4 Tax=Rhizobiales Tax...  54.6    9e-07
+  UniRef90_UPI0009A169FF hypothetical protein n=1 Tax=Stenotropho...  55.0    1e-06
+  UniRef90_UPI0009E81E0D hypothetical protein n=1 Tax=Methylobact...  54.2    2e-06
+  UniRef90_A0A2W6Y9H5 Uncharacterized protein n=10 Tax=Rhizobiale...  54.2    2e-06
+  UniRef90_A0A376ANF1 Uncharacterized protein n=2 Tax=Rhizobium T...  54.2    2e-06
+  UniRef90_A0A2W6TXZ4 Uncharacterized protein n=1 Tax=Stenotropho...  55.0    2e-06
+  UniRef90_A0A2N4Y7C9 Uncharacterized protein n=1 Tax=Rhizobium s...  53.4    3e-06
+  UniRef90_A0A317MQI3 Inhibitor of lysozyme (Ivy) n=1 Tax=Plastic...  53.8    3e-06
+  UniRef90_A0A2M6VIQ3 Uncharacterized protein n=1 Tax=Limnohabita...  54.2    3e-06
+  UniRef90_A0A1A6XTV0 Uncharacterized protein n=1 Tax=Stenotropho...  54.6    4e-06
+  UniRef90_UPI00037052BF hypothetical protein n=1 Tax=Vitreoscill...  53.1    4e-06
+  UniRef90_L1NU01 Inhibitor of vertebrate lysozyme n=2 Tax=Neisse...  53.4    5e-06
+  UniRef90_H4FE25 Uncharacterized protein n=1 Tax=Rhizobium sp. P...  52.7    5e-06
+  UniRef90_UPI0009DF4233 hypothetical protein n=1 Tax=Methylobaci...  51.5    7e-06
+  UniRef90_A0A1H1DVE0 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  53.8    7e-06
+  UniRef90_A0A3N5H4J0 Uncharacterized protein n=1 Tax=Myxococcace...  54.2    7e-06
+  UniRef90_UPI000DDBD1D8 hypothetical protein n=1 Tax=Rhizobiales...  52.3    7e-06
+  UniRef90_A0A285XKM6 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  51.9    9e-06
+  UniRef90_UPI000DDA5B0B hypothetical protein n=1 Tax=Rhizobiales...  52.3    1e-05
+  UniRef90_A0A2I8WMC4 Uncharacterized protein n=10 Tax=Enterobact...  53.4    1e-05
+  UniRef90_A0A1F6S4A6 Uncharacterized protein n=1 Tax=Candidatus ...  52.3    1e-05
+  UniRef90_A0A0S3EW44 Uncharacterized protein n=2 Tax=Sphingobium...  51.9    2e-05
+  UniRef90_UPI000DDE4D2B hypothetical protein n=1 Tax=Rhizobiales...  51.1    2e-05
+  UniRef90_A0A0N1A9S2 Uncharacterized protein n=1 Tax=Rhizobium s...  51.1    2e-05
+  UniRef90_UPI000BE61B75 hypothetical protein n=3 Tax=Enterobacte...  52.3    2e-05
+  UniRef90_A0A1Q8ZU38 Uncharacterized protein n=1 Tax=Rhizobium o...  50.7    2e-05
+  UniRef90_A0A3I9P5M5 Uncharacterized protein n=15 Tax=Escherichi...  51.9    3e-05
+  UniRef90_A0A1E8PN58 Uncharacterized protein n=1 Tax=Janthinobac...  50.4    4e-05
+  UniRef90_A0A3D3B826 Uncharacterized protein n=1 Tax=Rhizobium s...  49.6    6e-05
+  UniRef90_A0A3L5D7X2 Uncharacterized protein n=1 Tax=Escherichia...  51.5    6e-05
+  UniRef90_X7EDU9 Uncharacterized protein n=1 Tax=Roseivivax halo...  49.2    8e-05
+  UniRef90_UPI000DD94D57 hypothetical protein n=1 Tax=Rhizobiales...  49.6    9e-05
+  UniRef90_A0A2V4HSM2 Uncharacterized protein n=2 Tax=Rhizobium T...  49.2    9e-05
+  UniRef90_A0A2S6BIY2 Uncharacterized protein n=1 Tax=Rhizobium s...  49.2    1e-04
+  UniRef90_A0A3D9XMP9 Inhibitor of lysozyme (Ivy) n=1 Tax=Paracoc...  49.2    1e-04
+  UniRef90_A0A0Q7YZU1 Uncharacterized protein n=1 Tax=Rhizobium s...  49.2    1e-04
+  UniRef90_A0A1Y2R8B6 Uncharacterized protein n=1 Tax=Hydrogenoph...  50.7    1e-04
+  UniRef90_UPI00098D29CE hypothetical protein n=1 Tax=Salmonella ...  50.4    1e-04
+  UniRef90_UPI000A03E9F3 hypothetical protein n=1 Tax=Hydrogenoph...  50.7    1e-04
+  UniRef90_A0A0G0U1X9 Uncharacterized protein n=1 Tax=Candidatus ...  49.2    2e-04
+  UniRef90_UPI000E6CDE9C hypothetical protein n=1 Tax=Deinococcus...  48.0    2e-04
+  UniRef90_K2TKF6 Uncharacterized protein n=2 Tax=Pseudomonas syr...  47.3    2e-04
+  UniRef90_A0A2H0J3C5 Uncharacterized protein n=1 Tax=Comamonadac...  50.0    3e-04
+  UniRef90_UPI000DDA9D50 hypothetical protein n=1 Tax=Rhizobiales...  48.0    3e-04
+  UniRef90_A0A379VJN4 Prophage protein n=1 Tax=Salmonella enteric...  48.4    3e-04
+  UniRef90_A0A0R0CQZ6 Uncharacterized protein n=2 Tax=Stenotropho...  48.4    5e-04
+  UniRef90_A0A1E1F393 Uncharacterized protein n=1 Tax=Sphingobium...  47.7    6e-04
+  UniRef90_A0A376RT65 Uncharacterized protein n=13 Tax=Enterobact...  47.3    7e-04
+  UniRef90_A0A1G4SV90 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  47.7    7e-04
+  UniRef90_A0A248KCL9 Uncharacterized protein n=33 Tax=Enterobact...  48.0    0.001
+  UniRef90_A0A200L1C6 Uncharacterized protein n=4 Tax=Enterobacte...  46.5    0.001
+  UniRef90_A0A357NNQ4 Uncharacterized protein n=2 Tax=Stenotropho...  47.3    0.001
+  UniRef90_UPI000DDF8F6D hypothetical protein n=1 Tax=Rhizobiales...  45.7    0.002
+  UniRef90_A0A2X5TG07 Uncharacterized protein n=9 Tax=Escherichia...  46.9    0.002
+  UniRef90_UPI000B3DF1FF hypothetical protein n=3 Tax=Escherichia...  46.5    0.002
+  UniRef90_A0A1H7XAK5 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  46.5    0.002
+  UniRef90_J2WSZ4 Uncharacterized protein n=1 Tax=Sphingobium sp....  46.1    0.003
+  UniRef90_UPI000F8152CE hypothetical protein n=1 Tax=Chitinophag...  45.7    0.003
+  UniRef90_A0A0Q7A6G5 Uncharacterized protein n=1 Tax=Rhizobium s...  45.4    0.003
+  UniRef90_UPI000989D798 hypothetical protein n=1 Tax=Escherichia...  45.4    0.003
+  UniRef90_A0A1N6NXS5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  45.0    0.004
+  UniRef90_K5YVE3 Uncharacterized protein n=1 Tax=Acidocella sp. ...  44.6    0.006
+  UniRef90_B9JT70 Uncharacterized protein n=6 Tax=Agrobacterium v...  44.6    0.006
+  UniRef90_A0A0X1T232 Uncharacterized protein n=1 Tax=Pseudomonas...  44.2    0.006
+  UniRef90_UPI00055C68A8 hypothetical protein n=1 Tax=Methylocaps...  44.6    0.007
+  UniRef90_A0A2V6SP50 Uncharacterized protein n=1 Tax=Candidatus ...  45.0    0.009
+  UniRef90_A0A2V6S1E4 Uncharacterized protein n=2 Tax=Candidatus ...  44.2    0.011
+  UniRef90_A0A196M9V9 Uncharacterized protein n=1 Tax=Sphingobium...  43.8    0.012
+  UniRef90_A0A192C8Q9 Uncharacterized protein n=6 Tax=Escherichia...  43.0    0.013
+  UniRef90_A0A368IKU6 Uncharacterized protein n=7 Tax=Enterobacte...  43.8    0.014
+  UniRef90_UPI000DEA239F hypothetical protein n=1 Tax=Escherichia...  44.2    0.017
+  UniRef90_W0HUC6 Uncharacterized protein n=2 Tax=Enterobacterale...  44.2    0.017
+  UniRef90_A0A0Q4T291 Uncharacterized protein n=2 Tax=Methylobact...  42.7    0.018
+  UniRef90_A0A353G4L8 Uncharacterized protein n=1 Tax=Rhizobium s...  43.0    0.022
+  UniRef90_A0A1H9UJQ1 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  43.0    0.026
+  UniRef90_A0A2X1LXW8 Uncharacterized protein n=4 Tax=Escherichia...  42.7    0.033
+  UniRef90_A0A257LRH5 Uncharacterized protein n=1 Tax=Burkholderi...  41.5    0.038
+  UniRef90_UPI0004238F0E hypothetical protein n=1 Tax=Sphingomona...  42.7    0.038
+  UniRef90_A0A1G6WSM0 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  42.3    0.052
+  UniRef90_UPI0009AA50AF hypothetical protein n=1 Tax=Salmonella ...  42.7    0.054
+  UniRef90_UPI00098A03AF DNA polymerase III subunit gamma/tau n=1...  40.7    0.061
+  UniRef90_UPI000D0AE883 DNA polymerase III subunit gamma/tau n=1...  40.0    0.070
+  UniRef90_M4UIS5 Uncharacterized protein n=6 Tax=Ralstonia solan...  42.7    0.071
+  UniRef90_A0A1X1LLB3 DNA polymerase III subunit gamma/tau n=1 Ta...  40.3    0.072
+  UniRef90_A0A1M3QBC9 Uncharacterized protein n=1 Tax=Rhizobium s...  40.7    0.075
+  UniRef90_UPI000B42C731 DNA polymerase III subunit gamma/tau n=1...  40.3    0.082
+  UniRef90_UPI000F8320B9 hypothetical protein n=1 Tax=Deinococcus...  41.5    0.085
+  UniRef90_A0A3N4MCV3 Uncharacterized protein n=1 Tax=Chitinophag...  41.5    0.087
+  UniRef90_A0A355TAE4 Uncharacterized protein n=1 Tax=Rhodospiril...  41.5    0.092
+  UniRef90_F3QKE2 Uncharacterized protein n=5 Tax=Burkholderiales...  40.3    0.10 
+  UniRef90_A0A379RCR4 Prophage protein n=16 Tax=Salmonella enteri...  41.9    0.11 
+  UniRef90_A0A0Q5IZX0 Trypsin n=4 Tax=Xanthomonas TaxID=338 RepID...  41.9    0.11 
+  UniRef90_UPI000D6ADC2A hypothetical protein n=1 Tax=Chitinophag...  41.1    0.12 
+  UniRef90_A0A147J7I4 Lipoprotein n=4 Tax=Sphingomonas sanguinis ...  41.1    0.12 
+  UniRef90_UPI0009DFE0A2 hypothetical protein n=1 Tax=Rhizobium T...  41.1    0.12 
+  UniRef90_A0A2W5NC71 Uncharacterized protein n=1 Tax=Sphingopyxi...  41.5    0.12 
+  UniRef90_A0A2W5AF40 Uncharacterized protein n=1 Tax=Sphingomona...  41.5    0.12 
+  UniRef90_A0A0W1GA66 Uncharacterized protein n=1 Tax=Sphingopyxi...  41.1    0.13 
+  UniRef90_A0A118KE82 Uncharacterized protein n=1 Tax=Burkholderi...  41.1    0.13 
+  UniRef90_M9RL79 Uncharacterized protein n=1 Tax=Octadecabacter ...  41.1    0.14 
+  UniRef90_A0A0D9X372 Uncharacterized protein n=1 Tax=Leersia per...  41.5    0.14 
+  UniRef90_A0A1E4JBS8 Uncharacterized protein n=1 Tax=Sphingomona...  41.1    0.15 
+  UniRef90_A0A085GWY9 Uncharacterized protein n=6 Tax=Enterobacte...  41.5    0.15 
+  UniRef90_A0A1Y2XIM2 Uncharacterized protein n=3 Tax=Escherichia...  41.5    0.15 
+  UniRef90_UPI000BDEC1B8 hypothetical protein n=1 Tax=Escherichia...  41.5    0.16 
+  UniRef90_A0A2U9KLJ4 Uncharacterized protein n=25 Tax=Enterobact...  41.5    0.17 
+  UniRef90_A0A2W5PFQ7 Uncharacterized protein n=1 Tax=Sphingomona...  40.7    0.19 
+  UniRef90_A0A377PFF9 Uncharacterized protein n=1 Tax=Hafnia alve...  41.1    0.19 
+  UniRef90_UPI000E2FEFF5 hypothetical protein n=1 Tax=Klebsiella ...  41.1    0.20 
+  UniRef90_A0A1Q5V3D2 Uncharacterized protein n=2 Tax=Serratia fo...  41.1    0.21 
+  UniRef90_A0A228I238 Uncharacterized protein n=2 Tax=Burkholderi...  40.3    0.23 
+  UniRef90_A0A2Y0A7J1 Uncharacterized protein n=9 Tax=Enterobacte...  40.3    0.24 
+  UniRef90_A0A2A4HXK8 Uncharacterized protein n=1 Tax=Sphingomona...  39.6    0.24 
+  UniRef90_UPI000C7B032E hypothetical protein n=1 Tax=Escherichia...  41.1    0.25 
+  UniRef90_R5ZX40 Uncharacterized protein n=1 Tax=Proteobacteria ...  39.2    0.26 
+  UniRef90_UPI000DF2E94C hypothetical protein n=1 Tax=Ciceribacte...  40.0    0.26 
+  UniRef90_UPI0009848115 DNA polymerase III subunit gamma/tau n=2...  38.8    0.28 
+  UniRef90_UPI00082C51D3 DUF3828 domain-containing protein n=1 Ta...  41.1    0.28 
+  UniRef90_A0A1W9KH82 Uncharacterized protein n=1 Tax=Proteobacte...  40.3    0.41 
+  UniRef90_A0A136MX85 Uncharacterized protein n=1 Tax=Bacteroidet...  40.0    0.42 
+  UniRef90_A0A3C1SP70 Uncharacterized protein n=1 Tax=Candidatus ...  40.0    0.46 
+  UniRef90_A0A2Z2P241 Uncharacterized protein n=1 Tax=Granulosico...  39.2    0.47 
+  UniRef90_A0A2T0JMC2 Uncharacterized protein n=2 Tax=Martelella ...  40.3    0.48 
+  UniRef90_A0A2D5Z6W3 Uncharacterized protein n=1 Tax=Phycisphaer...  40.0    0.48 
+  UniRef90_UPI00069E09C6 hypothetical protein n=1 Tax=Serratia sp...  39.2    0.49 
+  UniRef90_A0A3E1RJ87 Uncharacterized protein n=1 Tax=Duganella s...  37.6    0.55 
+  UniRef90_A0A2Z6FUI3 Uncharacterized protein n=1 Tax=Sphingosini...  39.6    0.57 
+  UniRef90_A0A1G7S0R2 Uncharacterized protein n=2 Tax=Sphingomona...  39.2    0.60 
+  UniRef90_UPI0007543993 hypothetical protein n=1 Tax=Burkholderi...  38.4    0.61 
+  UniRef90_A0A2V6Z3N5 Uncharacterized protein n=2 Tax=Candidatus ...  39.2    0.62 
+  UniRef90_A0A3D0VUT2 Uncharacterized protein n=2 Tax=Bacteroidet...  39.2    0.64 
+  UniRef90_U9XL21 Uncharacterized protein (Fragment) n=2 Tax=Esch...  38.8    0.64 
+  UniRef90_A0A2X1M8L5 Uncharacterized protein n=4 Tax=Escherichia...  39.2    0.65 
+  UniRef90_A0A377Z8F0 C-lysozyme inhibitor n=2 Tax=Klebsiella pne...  36.9    0.75 
+  UniRef90_UPI00071C7873 hypothetical protein n=1 Tax=Vitreoscill...  38.4    0.92 
+  UniRef90_K5XQC6 Uncharacterized protein n=2 Tax=Acidocella TaxI...  38.4    0.93 
+  UniRef90_A0A3B0ULP8 Alkaline phosphatase (Fragment) n=1 Tax=hyd...  39.2    1.1  
+  UniRef90_A0A3L1H3P8 Uncharacterized protein (Fragment) n=10 Tax...  38.8    1.2  
+  UniRef90_A0A0H0P4E5 Uncharacterized protein n=267 Tax=Proteobac...  38.8    1.2  
+  UniRef90_A0A102LJU7 Uncharacterized protein n=7 Tax=Burkholderi...  38.4    1.2  
+  UniRef90_A0A1Q5EMG5 Uncharacterized protein n=1 Tax=Kitasatospo...  38.4    1.2  
+  UniRef90_UPI00068BCF66 hypothetical protein n=2 Tax=Burkholderi...  38.4    1.4  
+  UniRef90_A0A2E0Q0K8 Uncharacterized protein n=1 Tax=Legionellal...  38.8    1.4  
+  UniRef90_N9ENW4 Uncharacterized protein n=5 Tax=Acinetobacter T...  37.6    1.7  
+  UniRef90_A0A091W860 Sodium/nucleoside cotransporter (Fragment) ...  38.8    1.7  
+  UniRef90_A0A3D1B7S6 Uncharacterized protein n=1 Tax=Pseudomonas...  38.4    1.7  
+  UniRef90_UPI000DD678FF hypothetical protein n=8 Tax=Rhizobiales...  38.4    1.8  
+  UniRef90_UPI000488E33A hypothetical protein n=1 Tax=Rhizobium u...  37.3    1.9  
+  UniRef90_A0A1H7MP20 Uncharacterized protein n=1 Tax=Sphingomona...  37.6    2.0  
+  UniRef90_A0A2A4I606 Uncharacterized protein n=1 Tax=Sphingomona...  37.6    2.2  
+  UniRef90_F2IBV0 Uncharacterized protein n=1 Tax=Fluviicola taff...  36.5    2.3  
+  UniRef90_UPI0003EF4063 hypothetical protein n=3 Tax=Escherichia...  37.6    2.5  
+  UniRef90_A0A175Y1B3 Uncharacterized protein n=5 Tax=cellular or...  37.6    2.5  
+  UniRef90_L9PLS0 Uncharacterized protein n=3 Tax=Oxalobacteracea...  38.0    2.5  
+  UniRef90_A0A2V8DPC0 DUF1080 domain-containing protein n=2 Tax=A...  38.0    2.6  
+  UniRef90_A0A1H6VDV4 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  37.6    2.6  
+  UniRef90_A0A084ELU7 Putative lipoprotein n=12 Tax=Sphingomonada...  37.6    2.6  
+  UniRef90_UPI00037D9433 hypothetical protein n=1 Tax=Sphingomona...  37.3    2.6  
+  UniRef90_A0A023Y2E2 Uncharacterized protein n=3 Tax=Stenotropho...  37.6    2.7  
+  UniRef90_A0A0M0HYP4 Uncharacterized protein n=5 Tax=Vibrio TaxI...  38.0    2.7  
+  UniRef90_A0A258FDK8 Uncharacterized protein n=1 Tax=Hydrogenoph...  38.0    2.8  
+  UniRef90_A0A0P0DV61 Uncharacterized protein n=1 Tax=Sphingopyxi...  37.6    2.9  
+  UniRef90_A0A1H6G339 Uncharacterized protein n=1 Tax=Sphingopyxi...  37.3    2.9  
+  UniRef90_A0A2N2HKI7 Uncharacterized protein n=1 Tax=Deltaproteo...  38.0    3.0  
+  UniRef90_A0A0F5YAD3 Uncharacterized protein n=1 Tax=Limnoraphis...  37.3    3.2  
+  UniRef90_A0A2J7YNR4 Uncharacterized protein n=1 Tax=Streptomyce...  37.3    3.2  
+  UniRef90_A0A0Q4I8F3 Uncharacterized protein n=5 Tax=Sphingomona...  37.3    3.4  
+  UniRef90_A0A318V3B8 Uncharacterized protein n=2 Tax=Marinomonas...  38.0    3.7  
+  UniRef90_A0A1V2F149 Uncharacterized protein n=1 Tax=Aeromonas h...  35.0    3.7  
+  UniRef90_A0A2T5GWW3 Uncharacterized protein n=1 Tax=Sphingomona...  36.9    3.7  
+  UniRef90_UPI0008351FF4 hypothetical protein n=1 Tax=Sphingomona...  37.3    3.7  
+  UniRef90_A0A0N9UZ98 Uncharacterized protein n=1 Tax=Sphingopyxi...  37.3    3.8  
+  UniRef90_UPI0007B20F15 TonB-dependent receptor n=1 Tax=Sphingom...  37.6    3.9  
+  UniRef90_A0A1C5FXC7 PRiA4b ORF-3-like protein n=6 Tax=Streptomy...  37.3    4.1  
+  UniRef90_A0A120LUW0 Uncharacterized protein n=4 Tax=Sphingopyxi...  36.9    4.5  
+  UniRef90_A0A1I7JIR3 Aminopeptidase N n=1 Tax=Pontibacter akesue...  37.6    4.7  
+  UniRef90_A0A239JKJ4 Uncharacterized protein n=1 Tax=Sphingopyxi...  36.9    4.8  
+  UniRef90_A0A2T7BI25 Glutaminase n=1 Tax=Chitinophaga parva TaxI...  37.3    4.9  
+  UniRef90_A0A3B0ZU66 Uncharacterized protein n=1 Tax=hydrotherma...  36.1    5.1  
+  UniRef90_A0A3D2VMW4 Uncharacterized protein n=1 Tax=Candidatus ...  36.9    5.2  
+  UniRef90_A0A1V6H4R2 Uncharacterized protein n=1 Tax=Verrucomicr...  36.5    5.2  
+  UniRef90_UPI000362A886 hypothetical protein n=1 Tax=Pseudomonas...  36.9    5.6  
+  UniRef90_A0A1F7PCU3 Uncharacterized protein n=1 Tax=Candidatus ...  36.5    6.0  
+  UniRef90_UPI0009FCBA7A LysM peptidoglycan-binding domain-contai...  36.9    6.3  
+  UniRef90_UPI00056E3604 hypothetical protein n=1 Tax=Vibrio rhiz...  36.5    6.4  
+  UniRef90_UPI00082A50D8 hypothetical protein n=1 Tax=Cupriavidus...  36.5    6.5  
+  UniRef90_D3HV49 Uncharacterized protein n=2 Tax=Prevotella bucc...  36.5    6.6  
+  UniRef90_A0A257EN42 Uncharacterized protein n=1 Tax=Alphaproteo...  36.5    6.8  
+  UniRef90_A0A1B1NQ42 tRNA pseudouridine(32) synthase n=6 Tax=Vib...  36.5    8.3  
+  UniRef90_A0A1B1NWM9 Uncharacterized protein n=1 Tax=Vibrio scop...  36.1    8.5  
+  UniRef90_A0A2E6T1A9 Sialate O-acetylesterase n=1 Tax=Verrucomic...  36.5    8.9  
+  UniRef90_A0A2Z5EHF1 Uncharacterized protein n=1 Tax=Novosphingo...  35.7    9.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.143    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0438    0.140     1.90     42.6     43.6 
+
+Effective search space used: 737862417330
+Results from round 3
+
+
+Query= NP_414755.1
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P0AD60 Inhibitor of vertebrate lysozyme n=329 Tax=Prot...  217     2e-70
+  UniRef90_A0A1V2FMJ1 C-lysozyme inhibitor n=62 Tax=Enterobacteri...  216     5e-70
+  UniRef90_A0A2T2XWU1 C-lysozyme inhibitor n=1 Tax=Kluyvera ascor...  199     3e-63
+  UniRef90_A0A0K4V6P1 Inhibitor of vertebrate lysozyme n=8 Tax=Es...  197     1e-62
+  UniRef90_A0A2S4RRP1 C-lysozyme inhibitor n=3 Tax=Citrobacter Ta...  197     2e-62
+  UniRef90_UPI000B8EB6B8 C-lysozyme inhibitor n=1 Tax=Serratia ne...  195     1e-61
+  UniRef90_D4HVL0 Inhibitor of vertebrate lysozyme n=4 Tax=Erwini...  195     1e-61
+  UniRef90_A0A336P340 Inhibitor of vertebrate lysozyme n=1 Tax=Ci...  194     2e-61
+  UniRef90_UPI0009B1F20C C-lysozyme inhibitor n=1 Tax=Cronobacter...  193     6e-61
+  UniRef90_A0A1D3KJA3 Inhibitor of vertebrate lysozyme n=153 Tax=...  192     9e-61
+  UniRef90_A0A0H3FST6 C-lysozyme inhibitor n=16 Tax=Enterobactera...  192     1e-60
+  UniRef90_UPI000B4B3134 C-lysozyme inhibitor n=1 Tax=Cronobacter...  192     1e-60
+  UniRef90_A0A210TMJ9 C-lysozyme inhibitor n=1 Tax=Yersinia entom...  192     3e-60
+  UniRef90_F2Q8M2 Inhibitor of vertebrate lysozyme n=9 Tax=Entero...  192     3e-60
+  UniRef90_UPI0005289E7B C-lysozyme inhibitor n=1 Tax=Enterobacte...  191     4e-60
+  UniRef90_I2BCF1 Inhibitor of vertebrate C-lysozyme n=1 Tax=Shim...  190     7e-60
+  UniRef90_UPI000513F874 C-lysozyme inhibitor n=2 Tax=Enterobacte...  190     9e-60
+  UniRef90_A0A3J4WVZ7 C-lysozyme inhibitor n=5 Tax=Salmonella ent...  190     1e-59
+  UniRef90_E3DFK5 Inhibitor of vertebrate lysozyme n=2 Tax=Erwini...  190     1e-59
+  UniRef90_UPI000D5011F0 C-lysozyme inhibitor n=7 Tax=Enterobacte...  190     1e-59
+  UniRef90_B2VKX7 Probable inhibitor of vertebrate lysozyme n=2 T...  189     2e-59
+  UniRef90_B6XG14 Inhibitor of vertebrate lysozyme n=12 Tax=cellu...  188     5e-59
+  UniRef90_UPI00049FC715 C-lysozyme inhibitor n=1 Tax=Klebsiella ...  188     7e-59
+  UniRef90_A0A379D598 Inhibitor of vertebrate lysozyme n=7 Tax=Pl...  187     8e-59
+  UniRef90_A0A2X4YV47 Lysozyme inhibitor n=9 Tax=Enterobacteriace...  186     4e-58
+  UniRef90_UPI00073D677C C-lysozyme inhibitor n=1 Tax=[Erwinia] t...  186     5e-58
+  UniRef90_A0A2X2ELY9 Inhibitor of vertebrate lysozyme n=4 Tax=En...  185     6e-58
+  UniRef90_UPI000F84B949 C-lysozyme inhibitor n=1 Tax=Enterobacte...  184     2e-57
+  UniRef90_A0A1C4GIA9 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  184     3e-57
+  UniRef90_A0A285B3P7 Inhibitor of vertebrate C-lysozyme n=12 Tax...  184     3e-57
+  UniRef90_A0A1C3X237 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  184     6e-57
+  UniRef90_D2T774 Inhibitor of vertebrate lysozyme n=3 Tax=Erwini...  184     1e-56
+  UniRef90_A0A0J9BE87 Uncharacterized protein n=4 Tax=Enterobacte...  181     2e-56
+  UniRef90_J6IGE0 Inhibitor of vertebrate lysozyme n=25 Tax=Enter...  181     3e-56
+  UniRef90_UPI000379E74E C-lysozyme inhibitor n=1 Tax=Enterobacte...  180     6e-56
+  UniRef90_W7DVT7 C-lysozyme inhibitor n=1 Tax=Commensalibacter s...  178     5e-55
+  UniRef90_A0A198F1N6 Inhibitor of vertebrate lysozyme n=2 Tax=Co...  175     8e-54
+  UniRef90_UPI0006870F1A hypothetical protein n=1 Tax=Asaia platy...  173     4e-53
+  UniRef90_UPI0004709BFC C-lysozyme inhibitor n=1 Tax=Asaia prune...  172     2e-52
+  UniRef90_UPI000554544A C-lysozyme inhibitor n=1 Tax=Agrobacteri...  170     1e-51
+  UniRef90_A0A2G8E953 Uncharacterized protein n=1 Tax=Erwinia sp....  169     2e-51
+  UniRef90_A0A1Y0LQL3 Uncharacterized protein n=1 Tax=Tatumella c...  169     4e-51
+  UniRef90_A0A379H5Q2 Inhibitor of vertebrate lysozyme n=9 Tax=Pl...  168     5e-51
+  UniRef90_A0A1V3FGW7 C-lysozyme inhibitor n=1 Tax=Rhizobium sp. ...  168     6e-51
+  UniRef90_A0A095F661 Inhibitor of vertebrate lysozyme n=13 Tax=B...  168     8e-51
+  UniRef90_A0A095U6P4 Uncharacterized protein n=1 Tax=Tatumella m...  167     1e-50
+  UniRef90_A0A085JKU7 Inhibitor of vertebrate lysozyme n=3 Tax=Ta...  165     5e-50
+  UniRef90_A0A124PCH8 C-lysozyme inhibitor n=1 Tax=Burkholderia s...  165     7e-50
+  UniRef90_UPI0009B2123D C-lysozyme inhibitor n=1 Tax=Burkholderi...  165     1e-49
+  UniRef90_UPI00068CE785 C-lysozyme inhibitor n=1 Tax=Agrobacteri...  164     1e-49
+  UniRef90_UPI000683F7AA hypothetical protein n=1 Tax=Tatumella s...  165     2e-49
+  UniRef90_A0A118DM04 C-lysozyme inhibitor n=2 Tax=Burkholderia s...  164     2e-49
+  UniRef90_UPI000DE01C5C C-lysozyme inhibitor n=1 Tax=Rhizobiales...  163     6e-49
+  UniRef90_A0A1S8YGT2 Uncharacterized protein n=1 Tax=Izhakiella ...  162     1e-48
+  UniRef90_UPI000DD93A36 C-lysozyme inhibitor n=9 Tax=Rhizobiales...  160     4e-48
+  UniRef90_UPI000E6C92F0 C-lysozyme inhibitor n=1 Tax=Paracoccus ...  159     2e-47
+  UniRef90_A0A088TXY3 Inhibitor of vertebrate lysozyme n=4 Tax=Bu...  159     2e-47
+  UniRef90_A0A2M9RIC0 C-lysozyme inhibitor n=1 Tax=Raoultella sp....  159     2e-47
+  UniRef90_A0A1M3Q385 C-lysozyme inhibitor n=1 Tax=Rhizobium sp. ...  159     2e-47
+  UniRef90_UPI0005368755 C-lysozyme inhibitor n=1 Tax=Citrobacter...  158     4e-47
+  UniRef90_Q392N1 Uncharacterized protein n=16 Tax=Bacteria TaxID...  158     6e-47
+  UniRef90_A0A0G3SR90 Inhibitor of vertebrate lysozyme n=38 Tax=E...  157     7e-47
+  UniRef90_A0A2U9D5Z4 C-lysozyme inhibitor n=1 Tax=Pantoea vagans...  156     2e-46
+  UniRef90_A0A1B9SBG6 C-lysozyme inhibitor n=1 Tax=Rhizobium sp. ...  156     3e-46
+  UniRef90_A0A3N7GCE4 C-lysozyme inhibitor n=2 Tax=Rhodobacterace...  157     3e-46
+  UniRef90_A0A1I3D2H5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  155     5e-46
+  UniRef90_UPI0007818281 C-lysozyme inhibitor n=2 Tax=Paracoccus ...  155     9e-46
+  UniRef90_UPI000F6851AA C-lysozyme inhibitor n=1 Tax=Pantoea dis...  154     1e-45
+  UniRef90_A0A1B1KUV6 Inhibitor of vertebrate lysozyme n=18 Tax=Y...  154     1e-45
+  UniRef90_A0A240C7S9 Inhibitor of vertebrate lysozyme n=2 Tax=Se...  153     4e-45
+  UniRef90_A0A2K1QCH3 C-lysozyme inhibitor n=1 Tax=Mixta theicola...  152     5e-45
+  UniRef90_A0A0F7D0S6 Uncharacterized protein n=8 Tax=Yersiniacea...  152     1e-44
+  UniRef90_D4E2Z8 Inhibitor of vertebrate lysozyme n=2 Tax=Serrat...  152     1e-44
+  UniRef90_A0A1X7LLW2 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  152     2e-44
+  UniRef90_A0A2X5AP36 Inhibitor of vertebrate lysozyme n=5 Tax=Se...  151     3e-44
+  UniRef90_S5Z1G7 Uncharacterized protein n=1 Tax=Paracoccus amin...  151     3e-44
+  UniRef90_A0A1X1BXG7 C-lysozyme inhibitor n=1 Tax=Pantoea conspi...  149     9e-44
+  UniRef90_UPI000DA4EB81 C-lysozyme inhibitor n=4 Tax=Enterobacte...  149     1e-43
+  UniRef90_A8GHT2 Inhibitor of vertebrate lysozyme n=4 Tax=Serrat...  148     3e-43
+  UniRef90_A0A0C5VZ68 Inhibitor of vertebrate lysozyme n=5 Tax=En...  148     5e-43
+  UniRef90_UPI0006501311 C-lysozyme inhibitor n=1 Tax=Citrobacter...  147     6e-43
+  UniRef90_A0A0F5F9L4 C-lysozyme inhibitor n=3 Tax=Pantoea TaxID=...  146     1e-42
+  UniRef90_A0A3E0BYN7 Inhibitor of lysozyme (Ivy) n=6 Tax=Paracoc...  147     2e-42
+  UniRef90_A1B846 Uncharacterized protein n=3 Tax=Paracoccus TaxI...  147     4e-42
+  UniRef90_A0A143WLE4 Inhibitor of vertebrate lysozyme n=3 Tax=Ko...  145     5e-42
+  UniRef90_A0A377PD06 Inhibitor of vertebrate lysozyme n=11 Tax=H...  145     5e-42
+  UniRef90_A0A318PTU2 C-lysozyme inhibitor n=1 Tax=Gluconacetobac...  145     6e-42
+  UniRef90_A0A0T9KJ73 Inhibitor of vertebrate lysozyme n=2 Tax=Ye...  144     1e-41
+  UniRef90_A0A2J7P446 C-lysozyme inhibitor n=1 Tax=Enterobacter c...  143     1e-41
+  UniRef90_A0A2S3W4T0 C-lysozyme inhibitor n=1 Tax=Komagataeibact...  144     2e-41
+  UniRef90_UPI0004189E35 hypothetical protein n=1 Tax=Acetobacter...  144     2e-41
+  UniRef90_UPI000DE25466 C-lysozyme inhibitor n=1 Tax=Pantoea sp....  143     2e-41
+  UniRef90_A0A1X1DQH6 C-lysozyme inhibitor n=2 Tax=Pantoea TaxID=...  143     2e-41
+  UniRef90_A0A1V0GW58 C-lysozyme inhibitor n=6 Tax=Paracoccus Tax...  142     6e-41
+  UniRef90_A0A3P4FM67 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  142     6e-41
+  UniRef90_A0A331QDV0 C-lysozyme inhibitor n=32 Tax=Enterobactera...  142     6e-41
+  UniRef90_A0A0F7Y1C4 Uncharacterized protein n=11 Tax=Pseudomona...  142     1e-40
+  UniRef90_A0A160GIK2 Uncharacterized protein n=5 Tax=Pseudomonad...  142     1e-40
+  UniRef90_A0A1Y5KUR3 Inhibitor of vertebrate lysozyme n=62 Tax=G...  142     2e-40
+  UniRef90_A0A379KF88 Inhibitor of vertebrate lysozyme n=2 Tax=Ps...  142     2e-40
+  UniRef90_A0A383RL59 Uncharacterized protein n=1 Tax=Pseudomonas...  142     2e-40
+  UniRef90_A0A1I5JQU6 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  142     2e-40
+  UniRef90_A0A2S8Z3G5 Uncharacterized protein n=1 Tax=Pseudomonas...  141     2e-40
+  UniRef90_A0A085UAF3 Inhibitor of vertebrate lysozyme n=4 Tax=Ye...  141     3e-40
+  UniRef90_A0A0J6I298 Lysozyme inhibitor n=4 Tax=Pseudomonas TaxI...  140     5e-40
+  UniRef90_UPI000A10057F C-lysozyme inhibitor n=1 Tax=Cronobacter...  139     5e-40
+  UniRef90_A0A1B2F0K1 Inhibitor of vertebrate lysozyme n=4 Tax=Ps...  140     6e-40
+  UniRef90_A0A0F0EAD3 Uncharacterized protein n=2 Tax=Pseudomonas...  140     7e-40
+  UniRef90_UPI000FE215B4 hypothetical protein n=1 Tax=Serratia ru...  141     7e-40
+  UniRef90_A0A0P7D923 Uncharacterized protein n=13 Tax=Pseudomona...  140     1e-39
+  UniRef90_J2YRQ7 Inhibitor of vertebrate lysozyme (Ivy) n=3 Tax=...  139     2e-39
+  UniRef90_P58483 Uncharacterized protein YPO2857/y1376/YP_2723 n...  139     2e-39
+  UniRef90_A0A3D5GYX2 Uncharacterized protein n=2 Tax=Pseudomonas...  138     2e-39
+  UniRef90_A0A1W6NYK0 Uncharacterized protein n=1 Tax=Ketogulonic...  138     3e-39
+  UniRef90_UPI0002F3801B hypothetical protein n=1 Tax=Pseudomonas...  138     3e-39
+  UniRef90_UPI00068AB7D9 hypothetical protein n=1 Tax=Paenirhodob...  138     3e-39
+  UniRef90_A0A0A7JVC2 Uncharacterized protein n=2 Tax=Pseudomonas...  138     3e-39
+  UniRef90_A0A2J5PGP4 C-lysozyme inhibitor (Fragment) n=1 Tax=Kle...  136     4e-39
+  UniRef90_A0A2L1HDU2 Uncharacterized protein n=2 Tax=Pseudomonas...  138     4e-39
+  UniRef90_V2TXF6 Uncharacterized protein n=2 Tax=Acinetobacter n...  137     5e-39
+  UniRef90_A0A0D6NSY3 Uncharacterized protein n=1 Tax=Acetobacter...  137     5e-39
+  UniRef90_UPI00084A5C9E inhibitor of vertebrate lysozyme-like n=...  138     5e-39
+  UniRef90_UPI00076172F3 hypothetical protein n=1 Tax=Pseudomonas...  137     7e-39
+  UniRef90_A0A329C3M4 Inhibitor of lysozyme (Ivy) n=13 Tax=Gammap...  137     7e-39
+  UniRef90_UPI000F47D774 hypothetical protein n=1 Tax=Pseudomonas...  137     8e-39
+  UniRef90_UPI000FE343A9 C-lysozyme inhibitor n=5 Tax=Sinirhodoba...  138     1e-38
+  UniRef90_A0A217EDN3 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  136     2e-38
+  UniRef90_I4N809 Uncharacterized protein n=2 Tax=Gammaproteobact...  137     2e-38
+  UniRef90_UPI000DD9B425 C-lysozyme inhibitor n=1 Tax=Rhizobiales...  136     2e-38
+  UniRef90_A0A2S3W7H5 Uncharacterized protein n=2 Tax=Pseudomonas...  135     4e-38
+  UniRef90_A0A0L1MLI9 Uncharacterized protein n=3 Tax=Pseudomonas...  135     4e-38
+  UniRef90_U3HDJ7 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  135     4e-38
+  UniRef90_A0A1T1I4P1 Uncharacterized protein n=2 Tax=Pseudomonas...  135     5e-38
+  UniRef90_A0A084C9M2 Uncharacterized protein n=3 Tax=Pseudomonas...  135     5e-38
+  UniRef90_A0A239J6K2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  135     5e-38
+  UniRef90_A0A1B5CUZ7 Inhibitor of vertebrate lysozyme n=36 Tax=P...  135     6e-38
+  UniRef90_A0A202CBL5 C-lysozyme inhibitor (Fragment) n=1 Tax=Chr...  132     8e-38
+  UniRef90_UPI000F497B07 hypothetical protein n=1 Tax=Pseudomonas...  134     1e-37
+  UniRef90_UPI000F06F896 hypothetical protein n=1 Tax=Pseudomonas...  134     1e-37
+  UniRef90_A0A0N8VSN3 Lysozyme inhibitor n=1 Tax=Pseudomonas endo...  133     2e-37
+  UniRef90_UPI000DA64777 hypothetical protein n=3 Tax=Pseudomonas...  133     3e-37
+  UniRef90_A0A1H1W1I9 Inhibitor of vertebrate lysozyme (Ivy) n=4 ...  133     4e-37
+  UniRef90_A0A0X7JY27 Uncharacterized protein n=4 Tax=Pseudomonas...  133     4e-37
+  UniRef90_A0A266NAE3 Lysozyme inhibitor n=1 Tax=Pseudomonas lund...  132     4e-37
+  UniRef90_A0A0N0VJ63 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  133     4e-37
+  UniRef90_UPI0004720646 hypothetical protein n=1 Tax=Acetobacter...  133     4e-37
+  UniRef90_G2JA14 Putative inhibitor of vertebrate lysozyme (Ivy)...  133     4e-37
+  UniRef90_A0A1X0NBZ0 Uncharacterized protein n=1 Tax=Pseudomonas...  132     7e-37
+  UniRef90_A0A0F0F3H6 Uncharacterized protein n=4 Tax=Pseudomonad...  132     7e-37
+  UniRef90_A0A095B9A6 Uncharacterized protein n=1 Tax=Acetobacter...  132     7e-37
+  UniRef90_UPI000A1F9EB1 hypothetical protein n=1 Tax=Pseudomonas...  132     8e-37
+  UniRef90_A0A0Q4NV65 Uncharacterized protein n=2 Tax=Pseudomonas...  132     1e-36
+  UniRef90_A0A3M5NYW1 Uncharacterized protein n=2 Tax=Pseudomonas...  133     1e-36
+  UniRef90_A0A1H7B8F2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  131     2e-36
+  UniRef90_A0A1G3DIX5 Uncharacterized protein n=5 Tax=Gammaproteo...  131     2e-36
+  UniRef90_A0A1H8RKE0 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  131     2e-36
+  UniRef90_A0A0J6GRZ3 Lysozyme inhibitor n=2 Tax=Pseudomonas TaxI...  130     2e-36
+  UniRef90_A0A0M4RKT7 Uncharacterized protein n=1 Tax=Pseudomonas...  131     2e-36
+  UniRef90_A0A105T934 Inhibitor of vertebrate lysozyme n=2 Tax=Ps...  130     2e-36
+  UniRef90_A0A1B5EBA9 Inhibitor of vertebrate lysozyme n=47 Tax=P...  131     2e-36
+  UniRef90_A0A0S4I8M5 Inhibitor of vertebrate lysozyme n=12 Tax=P...  131     3e-36
+  UniRef90_A0A127N271 Inhibitor of vertebrate lysozyme n=11 Tax=P...  131     3e-36
+  UniRef90_A0A0P9XFW4 Uncharacterized protein n=7 Tax=Pseudomonas...  130     4e-36
+  UniRef90_A0A177Z2T8 Inhibitor of vertebrate lysozyme n=4 Tax=Ps...  130     4e-36
+  UniRef90_A0A0K1QJN8 Uncharacterized protein n=2 Tax=Pseudomonas...  130     4e-36
+  UniRef90_UPI0009DD4D51 hypothetical protein n=1 Tax=Enterobacte...  130     5e-36
+  UniRef90_W0MXP3 Uncharacterized protein n=21 Tax=Pseudomonas Ta...  130     6e-36
+  UniRef90_UPI000420F7D3 hypothetical protein n=2 Tax=Pseudomonas...  130     6e-36
+  UniRef90_A0A120HJV5 Uncharacterized protein n=1 Tax=Pseudomonas...  129     9e-36
+  UniRef90_A0A1W4UIB9 uncharacterized protein YPO2857/y1376/YP_27...  129     9e-36
+  UniRef90_A0A0D6N7S4 Uncharacterized protein n=3 Tax=Acetobacter...  128     1e-35
+  UniRef90_W0H312 Uncharacterized protein n=10 Tax=Pseudomonas Ta...  129     1e-35
+  UniRef90_A0A0P9K0I7 Uncharacterized protein n=13 Tax=Pseudomona...  131     1e-35
+  UniRef90_A0A1G7PKF0 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  129     1e-35
+  UniRef90_UPI000F03DC63 hypothetical protein n=1 Tax=Pseudomonas...  129     1e-35
+  UniRef90_A0A0S4HUT3 Inhibitor of vertebrate lysozyme n=6 Tax=Ps...  129     2e-35
+  UniRef90_A0A3D3N3P6 Uncharacterized protein n=4 Tax=Pseudomonas...  129     2e-35
+  UniRef90_A0A105T3B8 Inhibitor of vertebrate lysozyme n=9 Tax=Ps...  128     2e-35
+  UniRef90_A0A149TRS3 Uncharacterized protein n=6 Tax=Acetobacter...  128     2e-35
+  UniRef90_U6ZR75 Uncharacterized protein n=5 Tax=Pseudomonas Tax...  128     2e-35
+  UniRef90_UPI000DA6235F hypothetical protein n=1 Tax=Pseudomonas...  128     2e-35
+  UniRef90_A0A1U9LFQ9 Uncharacterized protein n=6 Tax=Acetobacter...  128     2e-35
+  UniRef90_UPI000DA613BA lysozyme inhibitor n=1 Tax=Pseudomonas b...  128     2e-35
+  UniRef90_UPI000BA4D157 hypothetical protein n=2 Tax=Pseudomonas...  128     3e-35
+  UniRef90_A0A0T9UG07 Inhibitor of vertebrate lysozyme n=7 Tax=Ye...  129     3e-35
+  UniRef90_A0A0P9SAW1 Uncharacterized protein n=32 Tax=Pseudomona...  130     3e-35
+  UniRef90_A0A1G8P8E4 Inhibitor of vertebrate lysozyme (Ivy) n=5 ...  128     3e-35
+  UniRef90_UPI000F7B5CCB hypothetical protein n=1 Tax=Pseudomonas...  128     3e-35
+  UniRef90_UPI000BA40630 hypothetical protein n=1 Tax=Pseudomonas...  128     3e-35
+  UniRef90_A0A0B6FRM1 Inhibitor of vertebrate lysozyme domain pro...  129     3e-35
+  UniRef90_UPI00069D4C04 hypothetical protein n=1 Tax=Pseudomonas...  128     3e-35
+  UniRef90_A0A1H2NTV3 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  128     4e-35
+  UniRef90_A0A376DIN2 Inhibitor of vertebrate lysozyme n=2 Tax=Ed...  128     4e-35
+  UniRef90_A0A0B7D0P8 Inhibitor of vertebrate lysozyme n=2 Tax=Ps...  128     4e-35
+  UniRef90_A0A379IMP0 Lysozyme inhibitor n=31 Tax=Gammaproteobact...  128     4e-35
+  UniRef90_A0A0X8EWA7 Lysozyme inhibitor n=3 Tax=Pseudomonas TaxI...  127     5e-35
+  UniRef90_A0A0U1I9Q8 Inhibitor of vertebrate lysozyme n=6 Tax=Ye...  128     5e-35
+  UniRef90_UPI000F77662B hypothetical protein n=1 Tax=Aeromonas s...  127     5e-35
+  UniRef90_A0A1E5X8F7 Uncharacterized protein n=4 Tax=Pseudomonad...  127     5e-35
+  UniRef90_A0A1D9IGZ0 Lysozyme inhibitor n=8 Tax=Pseudomonadaceae...  127     6e-35
+  UniRef90_A0A0T7NQU7 Inhibitor of vertebrate lysozyme n=2 Tax=Ye...  128     6e-35
+  UniRef90_U2A0F7 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  127     7e-35
+  UniRef90_A0A239FGG4 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  127     7e-35
+  UniRef90_A0A0W0M3Y2 Uncharacterized protein n=3 Tax=Pseudomonas...  127     8e-35
+  UniRef90_UPI000762E2DD lysozyme inhibitor n=1 Tax=Pseudomonas f...  127     8e-35
+  UniRef90_A0A0D1PD39 Uncharacterized protein n=7 Tax=Pseudomonas...  127     8e-35
+  UniRef90_A0A191Z217 Uncharacterized protein n=1 Tax=Pseudomonas...  127     8e-35
+  UniRef90_A0A089WI36 Uncharacterized protein n=2 Tax=Pseudomonas...  127     9e-35
+  UniRef90_A0A149UU20 Uncharacterized protein n=4 Tax=Acetobacter...  126     1e-34
+  UniRef90_A0A1E1G6P1 Inhibitor of vertebrate c-type lysozyme n=2...  127     1e-34
+  UniRef90_A0A3D3AZ30 Lysozyme inhibitor n=1 Tax=Rhizobiales bact...  126     1e-34
+  UniRef90_A0A0T9S536 Inhibitor of vertebrate lysozyme n=22 Tax=Y...  127     2e-34
+  UniRef90_A0A0T9SX53 Inhibitor of vertebrate lysozyme n=5 Tax=Ye...  127     2e-34
+  UniRef90_A0A0T9NDX4 Inhibitor of vertebrate lysozyme n=1 Tax=Ye...  127     2e-34
+  UniRef90_A0A149V1C7 Uncharacterized protein n=9 Tax=Acetobacter...  125     3e-34
+  UniRef90_A0A0H5LWD5 Inhibitor of vertebrate lysozyme n=7 Tax=Ye...  127     3e-34
+  UniRef90_A0A209AC96 Inhibitor of vertebrate lysozyme n=2 Tax=Ye...  126     3e-34
+  UniRef90_A0A1B8V0X7 Uncharacterized protein n=3 Tax=Pseudomonas...  125     3e-34
+  UniRef90_Q1IGW9 Uncharacterized protein n=1 Tax=Pseudomonas ent...  125     3e-34
+  UniRef90_A0A0X8ET34 Uncharacterized protein n=2 Tax=Pseudomonas...  125     4e-34
+  UniRef90_UPI000F056379 lysozyme inhibitor n=1 Tax=Pseudomonas s...  125     4e-34
+  UniRef90_A0A1H6LPY1 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  125     4e-34
+  UniRef90_A0A383MAD5 Inhibitor of vertebrate lysozyme n=1 Tax=Ac...  124     5e-34
+  UniRef90_A0A098SXL6 Uncharacterized protein n=5 Tax=Pseudomonas...  125     5e-34
+  UniRef90_A0A0N8VT54 Uncharacterized protein n=1 Tax=Pseudomonas...  125     6e-34
+  UniRef90_F6AEB8 Inhibitor of vertebrate lysozyme n=17 Tax=Pseud...  125     6e-34
+  UniRef90_A0A2W5ME95 Uncharacterized protein n=1 Tax=Pseudomonas...  125     6e-34
+  UniRef90_A0A291PLG9 Uncharacterized protein n=4 Tax=Acetobacter...  125     6e-34
+  UniRef90_UPI00055CF869 hypothetical protein n=1 Tax=Pseudomonas...  125     7e-34
+  UniRef90_J2MF32 Inhibitor of vertebrate lysozyme family protein...  125     7e-34
+  UniRef90_A0A0F0DS02 Uncharacterized protein n=4 Tax=Pseudomonas...  124     9e-34
+  UniRef90_UPI000F05330F hypothetical protein n=2 Tax=Pseudomonas...  124     1e-33
+  UniRef90_A0A0T9TP08 Inhibitor of vertebrate lysozyme n=1 Tax=Ye...  125     1e-33
+  UniRef90_A0A177G4H5 Inhibitor of vertebrate lysozyme n=1 Tax=Ac...  123     1e-33
+  UniRef90_A0A3D4NVN5 Uncharacterized protein n=1 Tax=Pseudomonas...  124     1e-33
+  UniRef90_A0A2N7REA0 Inhibitor of vertebrate lysozyme n=59 Tax=P...  124     1e-33
+  UniRef90_UPI00054B2492 lysozyme inhibitor n=1 Tax=Pseudomonas f...  123     1e-33
+  UniRef90_A0A0D9A9B1 Uncharacterized protein n=3 Tax=Pseudomonas...  124     1e-33
+  UniRef90_A0A120G818 Inhibitor of vertebrate lysozyme n=92 Tax=P...  124     1e-33
+  UniRef90_A0A1I1YE53 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  123     2e-33
+  UniRef90_A0A0C5DQ59 Uncharacterized protein n=2 Tax=Pseudomonas...  124     2e-33
+  UniRef90_A0A085VM88 Uncharacterized protein n=3 Tax=Pseudomonas...  123     2e-33
+  UniRef90_A0A120G0Y3 Inhibitor of vertebrate lysozyme n=13 Tax=P...  123     2e-33
+  UniRef90_A0A254VG60 Lysozyme inhibitor n=1 Tax=Xenophilus sp. A...  123     2e-33
+  UniRef90_A0A359D843 Uncharacterized protein n=1 Tax=Pseudomonas...  123     2e-33
+  UniRef90_A0A1B3CDK0 Uncharacterized protein n=16 Tax=Pseudomona...  123     2e-33
+  UniRef90_A0A1C7Z848 Uncharacterized protein n=3 Tax=Pseudomonas...  123     2e-33
+  UniRef90_A0A2G0VR13 Uncharacterized protein n=5 Tax=Pseudomonas...  123     2e-33
+  UniRef90_UPI00046ECFC7 lysozyme inhibitor n=3 Tax=Pseudomonas c...  123     3e-33
+  UniRef90_A0A0T9M7X3 Inhibitor of vertebrate lysozyme n=11 Tax=Y...  123     4e-33
+  UniRef90_UPI0004668063 hypothetical protein n=1 Tax=Pseudomonas...  123     4e-33
+  UniRef90_UPI0006942DB3 hypothetical protein n=1 Tax=Pseudomonas...  122     5e-33
+  UniRef90_Q4ZZT9 Uncharacterized protein n=102 Tax=Pseudomonadac...  122     5e-33
+  UniRef90_A0A387AGS0 Uncharacterized protein n=2 Tax=Pseudomonas...  122     5e-33
+  UniRef90_UPI000F467023 hypothetical protein n=1 Tax=Pseudomonas...  122     5e-33
+  UniRef90_UPI000642B4AF hypothetical protein n=2 Tax=Enterobacte...  122     6e-33
+  UniRef90_G8PX65 Inhibitor of vertebrate lysozyme n=33 Tax=Pseud...  122     7e-33
+  UniRef90_A0A2V4I1A6 Uncharacterized protein n=1 Tax=Pseudomonas...  122     7e-33
+  UniRef90_UPI000F03CA40 hypothetical protein n=1 Tax=Pseudomonas...  122     7e-33
+  UniRef90_A0A2K1FAG7 Uncharacterized protein n=1 Tax=Pseudomonas...  122     9e-33
+  UniRef90_A0A177SFS6 Uncharacterized protein n=4 Tax=Pseudomonas...  122     1e-32
+  UniRef90_A0A379I6T7 Inhibitor of vertebrate lysozyme family pro...  122     1e-32
+  UniRef90_A0A0U3MVI9 Uncharacterized protein n=1 Tax=Pandoraea t...  122     1e-32
+  UniRef90_D4F368 Inhibitor of vertebrate lysozyme (Ivy) n=5 Tax=...  121     2e-32
+  UniRef90_A0A142N2R2 Uncharacterized protein n=23 Tax=Pseudomona...  121     2e-32
+  UniRef90_A0A0L0B4R0 Uncharacterized protein n=6 Tax=Pseudomonas...  121     2e-32
+  UniRef90_UPI0002DD2BFF hypothetical protein n=1 Tax=Pseudomonas...  120     3e-32
+  UniRef90_A0A0S8ZLE2 Uncharacterized protein n=1 Tax=Pseudomonas...  120     3e-32
+  UniRef90_A0A0D6SRH6 Inhibitor of vertebrate lysozyme n=4 Tax=Ps...  120     3e-32
+  UniRef90_UPI000469058E hypothetical protein n=1 Tax=Pseudomonas...  120     3e-32
+  UniRef90_A0A0A8K9H0 Inhibitor of vertebrate lysozyme n=1 Tax=Me...  120     3e-32
+  UniRef90_A0A3M5RL64 Uncharacterized protein n=33 Tax=Pseudomona...  122     3e-32
+  UniRef90_A0A1Q8EP36 Lysozyme inhibitor n=1 Tax=Pseudomonas chlo...  120     3e-32
+  UniRef90_A0A1E4UTS1 Uncharacterized protein n=2 Tax=Pseudomonas...  120     3e-32
+  UniRef90_A0A024ECD7 Uncharacterized protein n=9 Tax=Pseudomonas...  120     3e-32
+  UniRef90_A0A172YTJ8 Uncharacterized protein n=5 Tax=Pseudomonas...  120     4e-32
+  UniRef90_UPI00083A7769 hypothetical protein n=1 Tax=Pseudomonas...  120     5e-32
+  UniRef90_UPI000F07AC7D hypothetical protein n=1 Tax=Pseudomonas...  120     5e-32
+  UniRef90_A0A0U1HUZ1 Inhibitor of vertebrate lysozyme n=3 Tax=Ye...  120     5e-32
+  UniRef90_UPI000F816373 hypothetical protein n=1 Tax=Enterobacte...  121     5e-32
+  UniRef90_UPI000F48617B hypothetical protein n=1 Tax=Pseudomonas...  120     6e-32
+  UniRef90_A9HBN7 Uncharacterized protein n=2 Tax=Gluconacetobact...  119     8e-32
+  UniRef90_UPI0004914782 hypothetical protein n=1 Tax=Pseudomonas...  119     9e-32
+  UniRef90_A0A1I6MUG6 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  120     1e-31
+  UniRef90_UPI0009BDFF04 hypothetical protein n=3 Tax=Aeromonas h...  118     1e-31
+  UniRef90_A0A377XNX3 C-lysozyme inhibitor n=2 Tax=Klebsiella pne...  117     2e-31
+  UniRef90_A0A1G9FXF7 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  118     3e-31
+  UniRef90_A0A1E3W2F9 Uncharacterized protein n=1 Tax=Methylocean...  117     3e-31
+  UniRef90_A0A239SKV6 Inhibitor of vertebrate lysozyme n=11 Tax=P...  118     3e-31
+  UniRef90_A0A0C5DYE3 Uncharacterized protein n=2 Tax=Pseudomonas...  117     3e-31
+  UniRef90_A0A089ZR53 Uncharacterized protein n=1 Tax=Pseudomonas...  117     5e-31
+  UniRef90_A0A0M3CQX4 Uncharacterized protein n=10 Tax=Pseudomona...  117     6e-31
+  UniRef90_A0A3M0FJJ2 Inhibitor of lysozyme (Ivy) n=2 Tax=Dyella ...  117     1e-30
+  UniRef90_A0A2X4CI97 Inhibitor of vertebrate lysozyme n=1 Tax=Pa...  117     1e-30
+  UniRef90_A0A2R3QMU8 Uncharacterized protein n=1 Tax=Pseudomonas...  117     1e-30
+  UniRef90_A0A2N8QZK3 Uncharacterized protein n=2 Tax=Burkholderi...  117     1e-30
+  UniRef90_A0A0U2Y7E8 Uncharacterized protein n=1 Tax=Pandoraea n...  117     1e-30
+  UniRef90_A0A149TYQ8 Uncharacterized protein n=1 Tax=Acetobacter...  115     1e-30
+  UniRef90_A0A076LLR7 Inhibitor of vertebrate lysozyme n=5 Tax=Ed...  116     2e-30
+  UniRef90_A0A1D8UU31 Uncharacterized protein n=3 Tax=Kozakia bal...  115     3e-30
+  UniRef90_A0A2S5DCB6 Lysozyme inhibitor n=1 Tax=Chromobacterium ...  115     3e-30
+  UniRef90_A0A0Q5E7J7 Uncharacterized protein n=4 Tax=Pseudomonad...  115     4e-30
+  UniRef90_UPI00057320D7 hypothetical protein n=1 Tax=Pseudomonas...  114     4e-30
+  UniRef90_A0A370FZT9 Inhibitor of lysozyme (Ivy) n=2 Tax=Glucona...  115     4e-30
+  UniRef90_A0A381BY15 Inhibitor of vertebrate lysozyme n=4 Tax=ps...  115     4e-30
+  UniRef90_UPI0009F9C40A hypothetical protein n=1 Tax=Pseudomonas...  115     4e-30
+  UniRef90_A0A2H5DR96 Lysozyme inhibitor n=1 Tax=Chromobacterium ...  115     5e-30
+  UniRef90_A0A2N5QPE3 Inhibitor of lysozyme (Ivy) n=3 Tax=Chromob...  115     5e-30
+  UniRef90_A0A1Y3G2I0 Uncharacterized protein n=2 Tax=Acetobacter...  114     5e-30
+  UniRef90_A0A2U1FER8 Inhibitor of lysozyme (Ivy) n=2 Tax=Pseudom...  115     6e-30
+  UniRef90_Q4KKI7 Inhibitor of vertebrate lysozyme family protein...  115     7e-30
+  UniRef90_A0A1I3FWY7 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  114     7e-30
+  UniRef90_A0A0D6B9J4 Inhibitor of vertebrate lysozyme family pro...  114     8e-30
+  UniRef90_A0A086C0Q2 Lysozyme inhibitor n=7 Tax=Pseudomonadaceae...  114     9e-30
+  UniRef90_A0A2W5WF63 Lysozyme inhibitor n=4 Tax=Pseudomonas TaxI...  114     9e-30
+  UniRef90_C5BHM1 Inhibitor of vertebrate lysozyme (Ivy) n=2 Tax=...  113     2e-29
+  UniRef90_A0A1H1KLN6 Inhibitor of vertebrate lysozyme (Ivy) n=5 ...  113     2e-29
+  UniRef90_Q9HT89 Uncharacterized protein PA5481 n=69 Tax=Gammapr...  113     2e-29
+  UniRef90_Q9HXB1 Inhibitor of vertebrate lysozyme n=48 Tax=Bacte...  113     2e-29
+  UniRef90_A0A1M3P3K5 Uncharacterized protein n=1 Tax=Rhodanobact...  112     2e-29
+  UniRef90_UPI000A3A205F hypothetical protein n=2 Tax=Acetobacter...  113     3e-29
+  UniRef90_A0A1B4SAE7 Uncharacterized protein n=2 Tax=pseudomalle...  113     3e-29
+  UniRef90_C4KT88 Inhibitor of vertebrate lysozyme (Ivy) superfam...  113     3e-29
+  UniRef90_A3N749 Uncharacterized protein n=10 Tax=pseudomallei g...  116     4e-29
+  UniRef90_A0A1E3VS07 Uncharacterized protein n=3 Tax=Methylocean...  111     5e-29
+  UniRef90_UPI0005A6265C lysozyme inhibitor n=1 Tax=Aeromonas sim...  112     6e-29
+  UniRef90_A0A0E1W5E7 Inhibitor of vertebrate lysozyme (Ivy) supe...  112     7e-29
+  UniRef90_A0A0A7JP33 Uncharacterized protein n=1 Tax=Pseudomonas...  111     1e-28
+  UniRef90_A0A353IMS7 Uncharacterized protein n=1 Tax=Methylocean...  111     1e-28
+  UniRef90_UPI0003147423 hypothetical protein n=1 Tax=Dyella japo...  112     1e-28
+  UniRef90_A0A1B4FCB1 Uncharacterized protein n=1 Tax=Burkholderi...  111     1e-28
+  UniRef90_A0A1V3P220 Uncharacterized protein n=1 Tax=Rhodanobact...  110     2e-28
+  UniRef90_UPI0009DC9FCC hypothetical protein n=2 Tax=Bilophila w...  111     2e-28
+  UniRef90_A0A0U5F065 Uncharacterized protein n=1 Tax=Acetobacter...  110     2e-28
+  UniRef90_A0A1S1X5Y3 Lysozyme inhibitor n=3 Tax=Chromobacterium ...  111     2e-28
+  UniRef90_Q5FUI2 Uncharacterized protein n=7 Tax=Gluconobacter o...  110     2e-28
+  UniRef90_A0A270BFJ5 Uncharacterized protein n=1 Tax=Acetobacter...  110     3e-28
+  UniRef90_A0A1C0XNZ7 Uncharacterized protein n=1 Tax=Ralstonia p...  111     3e-28
+  UniRef90_A0A1Y2ZTC7 Uncharacterized protein n=1 Tax=Crenothrix ...  110     3e-28
+  UniRef90_A0A377DG05 Inhibitor of vertebrate lysozyme n=2 Tax=Es...  108     4e-28
+  UniRef90_A0A1C3WN92 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  107     5e-28
+  UniRef90_UPI000011365B INHIBITOR OF VERTEBRATE LYSOZYME n=2 Tax...  108     1e-27
+  UniRef90_UPI0009E47B95 hypothetical protein n=1 Tax=Dyella japo...  110     1e-27
+  UniRef90_A0A344UHG0 Lysozyme inhibitor n=2 Tax=Chromobacterium ...  108     2e-27
+  UniRef90_A0A1E3WDY0 Uncharacterized protein n=1 Tax=Methylocean...  108     2e-27
+  UniRef90_A0A0D6NNE3 Uncharacterized protein n=5 Tax=Acetobacter...  107     3e-27
+  UniRef90_UPI0009BD9093 hypothetical protein n=1 Tax=Pantoea vag...  105     5e-27
+  UniRef90_UPI000DEFC5AF hypothetical protein n=1 Tax=Dyella sp. ...  108     7e-27
+  UniRef90_A0A1I2FU13 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  108     7e-27
+  UniRef90_M4X5Q0 Uncharacterized protein n=1 Tax=Pseudomonas sp....  107     8e-27
+  UniRef90_A0A149TGM6 Uncharacterized protein n=5 Tax=Gluconobact...  106     8e-27
+  UniRef90_A0A1H7LIE1 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  107     9e-27
+  UniRef90_A0A177FY09 Inhibitor of vertebrate lysozyme n=2 Tax=Gl...  106     1e-26
+  UniRef90_UPI0009859649 hypothetical protein n=1 Tax=Rhodanobact...  107     2e-26
+  UniRef90_A0A0D6N253 Uncharacterized protein n=2 Tax=Acetobacter...  105     2e-26
+  UniRef90_M9LW14 Uncharacterized protein n=6 Tax=Gluconobacter T...  105     2e-26
+  UniRef90_A0A0T6UM40 Uncharacterized protein n=1 Tax=Pseudomonas...  105     2e-26
+  UniRef90_UPI000D646280 hypothetical protein n=1 Tax=Dyella sp. ...  106     3e-26
+  UniRef90_A0A2X3GNH8 C-lysozyme inhibitor n=1 Tax=Klebsiella pne...  103     5e-26
+  UniRef90_A0A318DX80 Inhibitor of lysozyme (Ivy) n=1 Tax=Dyella ...  105     6e-26
+  UniRef90_A0A381FV88 Inhibitor of vertebrate lysozyme n=9 Tax=Ch...  104     7e-26
+  UniRef90_A0A077LHA7 Inhibitor of vertebrate lysozyme n=1 Tax=Ps...  104     8e-26
+  UniRef90_A0A1B6VNI6 Inhibitor of vertebrate lysozyme n=5 Tax=Gl...  103     1e-25
+  UniRef90_A0A0A8K0F0 Inhibitor of vertebrate lysozyme n=2 Tax=Me...  103     1e-25
+  UniRef90_A0A149S8I0 Uncharacterized protein n=5 Tax=Gluconobact...  103     1e-25
+  UniRef90_A0A1I5RJ51 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  103     2e-25
+  UniRef90_A0A0A2N691 C-lysozyme inhibitor n=10 Tax=Alcaligenes T...  103     2e-25
+  UniRef90_I3UAR4 C-lysozyme inhibitor n=1 Tax=Advenella kashmire...  102     3e-25
+  UniRef90_A0KMD6 Inhibitor of vertebrate lysozyme n=36 Tax=Aerom...  102     3e-25
+  UniRef90_UPI0009FA6F4E hypothetical protein n=1 Tax=Methylobact...  103     4e-25
+  UniRef90_UPI0007C45D6D C-lysozyme inhibitor n=7 Tax=Alcaligenes...  102     5e-25
+  UniRef90_H8L037 Inhibitor of vertebrate lysozyme (Ivy) n=1 Tax=...  102     5e-25
+  UniRef90_A0A1H5AL30 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  101     6e-25
+  UniRef90_UPI0005590612 hypothetical protein n=1 Tax=Andreprevot...  102     7e-25
+  UniRef90_UPI0009FC6895 hypothetical protein n=1 Tax=Methylobact...  103     9e-25
+  UniRef90_A0A328NYF2 Uncharacterized protein n=1 Tax=Dyella jian...  101     1e-24
+  UniRef90_A0A2T5P9P7 Uncharacterized protein n=1 Tax=Pseudomonas...  101     1e-24
+  UniRef90_A0A149T8C8 Uncharacterized protein n=2 Tax=Gluconobact...  100     2e-24
+  UniRef90_A0A1T5HWN6 Inhibitor of vertebrate lysozyme n=4 Tax=Ph...  100     2e-24
+  UniRef90_A0A2Z3J1E9 Uncharacterized protein n=1 Tax=Salinisphae...  100     2e-24
+  UniRef90_A0A084II74 C-lysozyme inhibitor n=1 Tax=Salinisphaera ...  100     3e-24
+  UniRef90_UPI000A072B63 hypothetical protein n=1 Tax=Bradyrhizob...  99.7    4e-24
+  UniRef90_A0A117MTJ7 Uncharacterized protein n=2 Tax=Bosea sp. W...  99.7    4e-24
+  UniRef90_A0A356LM99 C-lysozyme inhibitor n=1 Tax=Advenella kash...  99.7    5e-24
+  UniRef90_A0A1E4C1M6 Uncharacterized protein n=1 Tax=Kaistia sp....  104     6e-24
+  UniRef90_UPI0009EBA518 hypothetical protein n=3 Tax=Methylobact...  98.5    9e-24
+  UniRef90_A0A023NQK9 C-lysozyme inhibitor n=2 Tax=Dyella jiangni...  98.9    1e-23
+  UniRef90_A0A3D0L0C0 C-lysozyme inhibitor n=1 Tax=Alcaligenes fa...  98.5    1e-23
+  UniRef90_A0A1M7Z926 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  98.5    2e-23
+  UniRef90_A0A336J7M8 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  102     2e-23
+  UniRef90_A0A2N4UVK3 Uncharacterized protein n=1 Tax=Photobacter...  98.2    2e-23
+  UniRef90_J0JDP7 C-lysozyme inhibitor n=1 Tax=Alcaligenes faecal...  98.2    2e-23
+  UniRef90_A0A269XZ32 Uncharacterized protein n=2 Tax=Acetobacter...  98.5    2e-23
+  UniRef90_W0SK73 Uncharacterized protein n=1 Tax=Sulfuritalea hy...  98.2    2e-23
+  UniRef90_A0A2G3K4T9 Uncharacterized protein n=1 Tax=Chitinimona...  97.0    4e-23
+  UniRef90_V5F693 Inhibitor of vertebrate lysozyme family protein...  97.4    4e-23
+  UniRef90_A0A0H2WHY2 Uncharacterized protein n=1 Tax=Burkholderi...  95.8    4e-23
+  UniRef90_A0A2N4TTM1 Uncharacterized protein n=2 Tax=Ralstonia T...  98.2    4e-23
+  UniRef90_K2TKF6 Uncharacterized protein n=2 Tax=Pseudomonas syr...  95.5    7e-23
+  UniRef90_A0A1T4TV71 Inhibitor of vertebrate lysozyme n=1 Tax=Ph...  96.6    7e-23
+  UniRef90_UPI00046CB140 hypothetical protein n=1 Tax=Advenella m...  96.6    8e-23
+  UniRef90_A0A1E3VVG7 Uncharacterized protein n=2 Tax=Methylocean...  95.8    1e-22
+  UniRef90_UPI000A2F4D46 hypothetical protein n=1 Tax=Burkholderi...  97.4    1e-22
+  UniRef90_UPI0009E68250 hypothetical protein n=2 Tax=Burkholderi...  97.8    2e-22
+  UniRef90_A0A2T3KJZ2 Lysozyme inhibitor n=9 Tax=Photobacterium T...  95.1    3e-22
+  UniRef90_V8QRR2 Uncharacterized protein n=2 Tax=Advenella kashm...  93.9    7e-22
+  UniRef90_A0A2E5FV83 Uncharacterized protein n=2 Tax=Gammaproteo...  94.3    8e-22
+  UniRef90_A0A329YA39 Uncharacterized protein n=1 Tax=Rhizobium t...  93.2    1e-21
+  UniRef90_UPI000F4A4DF9 hypothetical protein n=1 Tax=Salinisphae...  95.1    1e-21
+  UniRef90_A0A1X9U5Y6 Uncharacterized protein n=4 Tax=Photobacter...  92.8    3e-21
+  UniRef90_A0A1E4Y773 Uncharacterized protein n=7 Tax=Rhizobiales...  92.0    3e-21
+  UniRef90_UPI000D17654F lysozyme inhibitor n=1 Tax=Photobacteriu...  92.0    5e-21
+  UniRef90_A0A2T3QBM6 Lysozyme inhibitor n=1 Tax=Photobacterium a...  91.2    1e-20
+  UniRef90_S6B9Q2 Uncharacterized protein n=1 Tax=Pseudomonas res...  89.7    1e-20
+  UniRef90_A0A1Y6KX77 Inhibitor of vertebrate lysozyme n=5 Tax=Ph...  90.8    1e-20
+  UniRef90_A0A2G3LTH5 Uncharacterized protein n=5 Tax=Janthinobac...  92.4    2e-20
+  UniRef90_A0A3A5J338 Uncharacterized protein n=1 Tax=Salinisphae...  90.5    3e-20
+  UniRef90_UPI000F4C9E5A hypothetical protein n=1 Tax=Salinisphae...  92.8    3e-20
+  UniRef90_A0A0Q3SYS2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  89.7    3e-20
+  UniRef90_A0A1E3W5S7 Uncharacterized protein n=1 Tax=Methylocean...  87.4    4e-20
+  UniRef90_A0A367M5B2 Lysozyme inhibitor (Fragment) n=1 Tax=Pseud...  88.5    4e-20
+  UniRef90_A0A1Q4BH17 Uncharacterized protein n=1 Tax=Rhizobiales...  88.5    5e-20
+  UniRef90_A0A1C3W582 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  88.9    6e-20
+  UniRef90_A0A1N7C9J5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  88.9    8e-20
+  UniRef90_A0A366EVL4 Inhibitor of lysozyme (Ivy) n=1 Tax=Roseiar...  88.5    9e-20
+  UniRef90_UPI000DDA09B0 hypothetical protein n=3 Tax=Rhizobiales...  88.1    1e-19
+  UniRef90_UPI0009DDA90B hypothetical protein n=1 Tax=Acetobacter...  87.0    1e-19
+  UniRef90_A0A1G7T7L7 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  87.8    2e-19
+  UniRef90_A0A0D8LQJ2 Lysozyme inhibitor n=13 Tax=Vibrionaceae Ta...  88.1    2e-19
+  UniRef90_A0A2T3QGN2 Inhibitor of vertebrate lysozyme n=8 Tax=Ph...  87.4    3e-19
+  UniRef90_A0A0X8GRM1 Uncharacterized protein n=1 Tax=Janthinobac...  88.1    3e-19
+  UniRef90_A0A1E3W3U2 Uncharacterized protein n=1 Tax=Methylocean...  85.8    3e-19
+  UniRef90_A0A2X1LIZ0 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  85.1    4e-19
+  UniRef90_A0A1D2TDB7 Uncharacterized protein n=1 Tax=Lautropia s...  90.8    4e-19
+  UniRef90_E3GBN4 Uncharacterized protein n=9 Tax=Enterobacterale...  90.1    5e-19
+  UniRef90_A0A2G3M313 Uncharacterized protein n=15 Tax=Oxalobacte...  88.1    6e-19
+  UniRef90_A0A011QPC3 C-lysozyme inhibitor n=1 Tax=Candidatus Acc...  87.0    7e-19
+  UniRef90_A0A292E592 Uncharacterized protein n=1 Tax=Rhizobium s...  85.8    9e-19
+  UniRef90_A0A1V4X8F8 C-lysozyme inhibitor n=1 Tax=Syntrophorhabd...  86.6    1e-18
+  UniRef90_A0A1I1XZI4 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  89.3    1e-18
+  UniRef90_UPI000BEACAC6 hypothetical protein n=2 Tax=Enterobacte...  89.3    1e-18
+  UniRef90_A0A1M3C8X9 Uncharacterized protein n=1 Tax=Nitrobacter...  85.1    1e-18
+  UniRef90_UPI0007177673 lysozyme inhibitor n=1 Tax=Pseudomonas a...  84.3    2e-18
+  UniRef90_A0A1H7RPQ8 Inhibitor of vertebrate lysozyme (Ivy) n=4 ...  88.5    2e-18
+  UniRef90_F2BGD0 Uncharacterized protein n=1 Tax=Neisseria bacil...  85.4    2e-18
+  UniRef90_A0A1Y1QPX6 Uncharacterized protein n=1 Tax=Thiothrix l...  85.8    2e-18
+  UniRef90_UPI0006679716 lysozyme inhibitor n=1 Tax=Neisseria bac...  85.4    2e-18
+  UniRef90_UPI0003700578 inhibitor of vertebrate lysozyme n=3 Tax...  88.1    2e-18
+  UniRef90_G2JBS9 Uncharacterized protein n=1 Tax=Candidatus Glom...  82.8    2e-18
+  UniRef90_UPI0001E8AA6F hypothetical protein n=1 Tax=Escherichia...  84.3    3e-18
+  UniRef90_A0A0D0MY69 Lysozyme inhibitor n=2 Tax=Variovorax TaxID...  87.8    3e-18
+  UniRef90_UPI000494CCBB hypothetical protein n=1 Tax=Bosea sp. 1...  84.3    4e-18
+  UniRef90_E6UV26 Inhibitor of vertebrate lysozyme n=1 Tax=Variov...  87.8    4e-18
+  UniRef90_UPI0009A4942C hypothetical protein n=1 Tax=Thiomonas i...  87.4    4e-18
+  UniRef90_A0A2N7RCL4 Inhibitor of vertebrate lysozyme n=1 Tax=Ja...  84.7    4e-18
+  UniRef90_A0A1X3CQG9 Uncharacterized protein n=1 Tax=Neisseria z...  84.3    5e-18
+  UniRef90_J2KC06 Inhibitor of vertebrate lysozyme (Ivy) n=3 Tax=...  87.4    5e-18
+  UniRef90_A0A1F3CA86 Uncharacterized protein n=1 Tax=Armatimonad...  83.9    8e-18
+  UniRef90_A0A1H1JHW7 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  88.5    9e-18
+  UniRef90_C6M9V4 Inhibitor of vertebrate lysozyme (Ivy) n=14 Tax...  83.5    1e-17
+  UniRef90_A0A250DK80 Lysozyme inhibitor n=6 Tax=Variovorax TaxID...  86.2    1e-17
+  UniRef90_A0A1G4ZSA5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  86.2    1e-17
+  UniRef90_A0A2W5R9I4 Uncharacterized protein n=1 Tax=Starkeya no...  82.8    2e-17
+  UniRef90_A0A377R537 Inhibitor of vertebrate lysozyme n=1 Tax=Ki...  83.1    2e-17
+  UniRef90_A0A2W6HMU7 Uncharacterized protein n=1 Tax=Stenotropho...  84.3    2e-17
+  UniRef90_A0A1I1C029 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  82.4    3e-17
+  UniRef90_UPI000409B493 hypothetical protein n=1 Tax=Bradyrhizob...  82.0    3e-17
+  UniRef90_A0A0M2WLN8 C-lysozyme inhibitor n=3 Tax=Janthinobacter...  82.4    3e-17
+  UniRef90_A0A286B0S7 Inhibitor of vertebrate lysozyme (Ivy) n=3 ...  85.1    3e-17
+  UniRef90_A0A1Q3VVQ9 Uncharacterized protein n=1 Tax=Candidatus ...  82.8    3e-17
+  UniRef90_A0A2U0ZES5 Inhibitor of lysozyme (Ivy) n=1 Tax=Variovo...  85.1    4e-17
+  UniRef90_A0A2P1V670 Lysozyme inhibitor n=2 Tax=Variovorax TaxID...  85.1    4e-17
+  UniRef90_UPI000DDBF4CE hypothetical protein n=1 Tax=Rhizobiales...  81.6    5e-17
+  UniRef90_UPI00069A8C85 hypothetical protein n=1 Tax=Microvirga ...  81.6    5e-17
+  UniRef90_A0A3N7CUH9 Lysozyme inhibitor n=1 Tax=Variovorax sp. K...  84.3    7e-17
+  UniRef90_A0A1S6F514 Uncharacterized protein n=7 Tax=Oxalobacter...  81.2    9e-17
+  UniRef90_A0A1V4WRE0 C-lysozyme inhibitor n=1 Tax=Syntrophorhabd...  81.6    1e-16
+  UniRef90_UPI00046E71FF hypothetical protein n=1 Tax=Shewanella ...  80.4    1e-16
+  UniRef90_A0A0M1EXI1 Uncharacterized protein n=3 Tax=Stenotropho...  82.4    1e-16
+  UniRef90_A0A3L5D7X2 Uncharacterized protein n=1 Tax=Escherichia...  83.9    1e-16
+  UniRef90_A0A3A1WEM2 Lysozyme inhibitor n=1 Tax=Acidovorax caver...  83.1    2e-16
+  UniRef90_A0A2S5CGL2 Uncharacterized protein n=1 Tax=Methylovulu...  82.8    2e-16
+  UniRef90_A0A1H7E043 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  82.8    3e-16
+  UniRef90_A0A149QGJ8 Uncharacterized protein n=12 Tax=Gammaprote...  81.6    3e-16
+  UniRef90_A0A1I9XZR1 Uncharacterized protein n=1 Tax=Janthinobac...  79.7    3e-16
+  UniRef90_B4SSG1 Uncharacterized protein n=10 Tax=Stenotrophomon...  81.2    4e-16
+  UniRef90_A0A2W7H1Y3 Inhibitor of lysozyme (Ivy) n=1 Tax=Variovo...  82.4    4e-16
+  UniRef90_A0A285XKM6 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  78.9    5e-16
+  UniRef90_L1P269 Inhibitor of vertebrate lysozyme n=2 Tax=Neisse...  79.7    5e-16
+  UniRef90_A0A377E1N2 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  76.6    6e-16
+  UniRef90_UPI000DE3B53B hypothetical protein n=1 Tax=Rhizobiales...  78.5    6e-16
+  UniRef90_A0A355ET95 Uncharacterized protein n=1 Tax=Deltaproteo...  79.3    7e-16
+  UniRef90_A0A2N2RE82 Uncharacterized protein n=1 Tax=Betaproteob...  81.2    8e-16
+  UniRef90_UPI000CF6ACB5 hypothetical protein n=1 Tax=Pseudoalter...  78.9    9e-16
+  UniRef90_J3I5P9 Inhibitor of vertebrate lysozyme (Ivy) n=2 Tax=...  80.8    1e-15
+  UniRef90_A0A1C6LVV7 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  78.1    2e-15
+  UniRef90_A0A0M0P6M4 Uncharacterized protein n=17 Tax=Stenotroph...  79.7    2e-15
+  UniRef90_A0A2N6ILR5 Uncharacterized protein n=4 Tax=Oxalobacter...  78.1    2e-15
+  UniRef90_A0A369XND7 Uncharacterized protein n=1 Tax=Candidatus ...  78.1    2e-15
+  UniRef90_UPI00067FF681 hypothetical protein n=2 Tax=Ottowia Tax...  78.1    2e-15
+  UniRef90_A0A290WUV5 Uncharacterized protein n=8 Tax=Janthinobac...  78.9    2e-15
+  UniRef90_A0A238H4J3 Mobile element protein n=1 Tax=Burkholderia...  80.4    3e-15
+  UniRef90_A0A348HE28 D-alanyl-D-alanine carboxypeptidase n=1 Tax...  77.4    3e-15
+  UniRef90_A0A1W2FC42 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  77.0    3e-15
+  UniRef90_A0A2M8ULP4 Uncharacterized protein n=1 Tax=Rhizobium s...  77.0    3e-15
+  UniRef90_J7SY67 Uncharacterized protein n=71 Tax=Gammaproteobac...  78.5    4e-15
+  UniRef90_A0A3N9QLK8 Uncharacterized protein n=1 Tax=Rhodobacter...  76.6    4e-15
+  UniRef90_UPI0009EDFD02 hypothetical protein n=1 Tax=Eikenella s...  76.6    4e-15
+  UniRef90_A0A011PUS9 C-lysozyme inhibitor n=1 Tax=Candidatus Acc...  77.0    6e-15
+  UniRef90_A0A2T3WZP7 Uncharacterized protein n=1 Tax=Stenotropho...  78.1    6e-15
+  UniRef90_F0F2W6 Inhibitor of vertebrate lysozyme (Ivy) n=2 Tax=...  76.6    7e-15
+  UniRef90_A0A376L059 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  73.1    7e-15
+  UniRef90_A0A0V0Q725 Uncharacterized protein n=3 Tax=Paracoccus ...  77.4    7e-15
+  UniRef90_A0A363S3Q3 Uncharacterized protein n=3 Tax=Stenotropho...  77.7    7e-15
+  UniRef90_A0A1B3NZV7 Inhibitor of vertebrate lysozyme family pro...  75.4    1e-14
+  UniRef90_A0A2G3J8J8 Uncharacterized protein n=2 Tax=Iodobacter ...  76.2    1e-14
+  UniRef90_A0A2T7TUZ0 Uncharacterized protein n=1 Tax=Microvirga ...  75.4    1e-14
+  UniRef90_A0A2U2HWD0 Uncharacterized protein n=6 Tax=Enterobacte...  75.4    2e-14
+  UniRef90_UPI000E0DDC3A hypothetical protein n=1 Tax=Microvirga ...  75.0    2e-14
+  UniRef90_A0A2W6Y9H5 Uncharacterized protein n=10 Tax=Rhizobiale...  74.7    2e-14
+  UniRef90_A0A1I1IDZ2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  77.4    2e-14
+  UniRef90_UPI000DDA5B0B hypothetical protein n=1 Tax=Rhizobiales...  74.7    3e-14
+  UniRef90_A0A1F3X1T5 Uncharacterized protein n=1 Tax=Betaproteob...  77.0    3e-14
+  UniRef90_W1GXT8 Inhibitor of vertebrate lysozyme n=2 Tax=Klebsi...  71.6    4e-14
+  UniRef90_UPI000DDBD1D8 hypothetical protein n=1 Tax=Rhizobiales...  73.9    4e-14
+  UniRef90_A0A238ZYU3 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  74.7    5e-14
+  UniRef90_A0A376ANF1 Uncharacterized protein n=2 Tax=Rhizobium T...  73.9    5e-14
+  UniRef90_W0V4A6 Uncharacterized protein n=1 Tax=Janthinobacteri...  73.9    6e-14
+  UniRef90_A0A1F0AJC7 Uncharacterized protein n=4 Tax=Neisseria T...  73.9    6e-14
+  UniRef90_A0A1Q9AAT7 Uncharacterized protein n=2 Tax=Rhizobium t...  73.5    6e-14
+  UniRef90_UPI000382D104 hypothetical protein n=1 Tax=Leeia oryza...  73.9    7e-14
+  UniRef90_UPI000D53CEB7 hypothetical protein n=1 Tax=Stenotropho...  75.0    7e-14
+  UniRef90_A0A1L1PCK6 Inhibitor of vertebrate lysozyme n=2 Tax=Hy...  76.2    7e-14
+  UniRef90_A0A0R0CIY2 Uncharacterized protein n=1 Tax=Stenotropho...  75.0    8e-14
+  UniRef90_UPI000DDE4D2B hypothetical protein n=1 Tax=Rhizobiales...  72.7    1e-13
+  UniRef90_A0A1Q8ZU38 Uncharacterized protein n=1 Tax=Rhizobium o...  72.7    1e-13
+  UniRef90_A0A2P8KGF6 Uncharacterized protein n=1 Tax=Variovorax ...  73.5    1e-13
+  UniRef90_UPI0009A1E894 hypothetical protein n=3 Tax=Stenotropho...  74.7    1e-13
+  UniRef90_UPI000DCE6302 hypothetical protein n=1 Tax=Aerococcus ...  72.4    2e-13
+  UniRef90_A0A1W1H2K2 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  74.3    2e-13
+  UniRef90_A0A2N4Y7C9 Uncharacterized protein n=1 Tax=Rhizobium s...  72.4    2e-13
+  UniRef90_D2BSX2 Uncharacterized protein n=2 Tax=Enterobacterale...  72.4    2e-13
+  UniRef90_UPI000F657310 hypothetical protein n=1 Tax=Dickeya sp....  72.7    2e-13
+  UniRef90_L1NU01 Inhibitor of vertebrate lysozyme n=2 Tax=Neisse...  72.7    3e-13
+  UniRef90_UPI000D541BF6 hypothetical protein n=1 Tax=Stenotropho...  72.7    3e-13
+  UniRef90_H4FE25 Uncharacterized protein n=1 Tax=Rhizobium sp. P...  72.0    3e-13
+  UniRef90_A0A3M8F982 Uncharacterized protein n=1 Tax=Desulfuromo...  74.3    3e-13
+  UniRef90_A0A0Q7YZU1 Uncharacterized protein n=1 Tax=Rhizobium s...  71.6    3e-13
+  UniRef90_UPI000A073E74 hypothetical protein n=1 Tax=Desulforegu...  71.2    3e-13
+  UniRef90_B8LAE7 Uncharacterized protein n=2 Tax=Stenotrophomona...  73.1    4e-13
+  UniRef90_A0A0T2YFT9 Uncharacterized protein n=1 Tax=Hydrogenoph...  73.9    5e-13
+  UniRef90_A0A3I9P5M5 Uncharacterized protein n=15 Tax=Escherichi...  73.1    5e-13
+  UniRef90_A0A2G7R3V7 Uncharacterized protein n=15 Tax=Xanthomona...  73.1    5e-13
+  UniRef90_A0A085F179 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  71.2    6e-13
+  UniRef90_UPI0009E81E0D hypothetical protein n=1 Tax=Methylobact...  70.8    7e-13
+  UniRef90_A0A2W5GIS2 Uncharacterized protein n=1 Tax=Stenotropho...  70.0    7e-13
+  UniRef90_UPI000374840D hypothetical protein n=1 Tax=beta proteo...  71.2    8e-13
+  UniRef90_K2P9N6 Uncharacterized protein n=4 Tax=Rhizobiales Tax...  70.4    1e-12
+  UniRef90_UPI00055B2CB8 hypothetical protein n=1 Tax=Leisingera ...  70.8    1e-12
+  UniRef90_A0A2V4HSM2 Uncharacterized protein n=2 Tax=Rhizobium T...  70.0    1e-12
+  UniRef90_A0A3D3B826 Uncharacterized protein n=1 Tax=Rhizobium s...  70.0    1e-12
+  UniRef90_A0A2I8WMC4 Uncharacterized protein n=10 Tax=Enterobact...  72.7    2e-12
+  UniRef90_A0A329P861 Uncharacterized protein (Fragment) n=1 Tax=...  68.1    2e-12
+  UniRef90_A0A1P8JU82 Uncharacterized protein n=2 Tax=Rhodoferax ...  71.6    3e-12
+  UniRef90_A0A378AL52 C-lysozyme inhibitor n=1 Tax=Klebsiella pne...  67.3    3e-12
+  UniRef90_UPI000DD94D57 hypothetical protein n=1 Tax=Rhizobiales...  69.3    3e-12
+  UniRef90_A0A0R0BCH5 Uncharacterized protein n=1 Tax=Stenotropho...  70.8    3e-12
+  UniRef90_UPI000DDA9D50 hypothetical protein n=1 Tax=Rhizobiales...  68.9    4e-12
+  UniRef90_A0A0R0AX74 Uncharacterized protein n=3 Tax=Stenotropho...  69.7    5e-12
+  UniRef90_A0A2H0HYV8 Uncharacterized protein n=1 Tax=Thalassolit...  68.5    5e-12
+  UniRef90_A0A3N5N6H7 Uncharacterized protein n=1 Tax=Betaproteob...  70.8    6e-12
+  UniRef90_UPI000D541D26 hypothetical protein n=5 Tax=Stenotropho...  70.0    7e-12
+  UniRef90_UPI0009A169FF hypothetical protein n=1 Tax=Stenotropho...  69.3    7e-12
+  UniRef90_UPI000BE61B75 hypothetical protein n=3 Tax=Enterobacte...  70.0    1e-11
+  UniRef90_A0A353XUZ8 Uncharacterized protein n=1 Tax=Psychrobact...  67.0    2e-11
+  UniRef90_A0A1U9JYC7 Uncharacterized protein n=1 Tax=Paenalcalig...  67.3    2e-11
+  UniRef90_A0A345DBR9 Uncharacterized protein n=1 Tax=Hydromonas ...  67.3    2e-11
+  UniRef90_UPI0008A2CA06 hypothetical protein n=1 Tax=Eikenella s...  67.0    2e-11
+  UniRef90_A0A0N1A9S2 Uncharacterized protein n=1 Tax=Rhizobium s...  67.0    2e-11
+  UniRef90_A0A2S6BIY2 Uncharacterized protein n=1 Tax=Rhizobium s...  66.6    3e-11
+  UniRef90_UPI000A03E9F3 hypothetical protein n=1 Tax=Hydrogenoph...  68.9    3e-11
+  UniRef90_UPI0003808DAD hypothetical protein n=1 Tax=Paracoccus ...  67.7    3e-11
+  UniRef90_A0A1Y2R8B6 Uncharacterized protein n=1 Tax=Hydrogenoph...  68.9    4e-11
+  UniRef90_A0A2W6TXZ4 Uncharacterized protein n=1 Tax=Stenotropho...  68.1    4e-11
+  UniRef90_UPI00098D29CE hypothetical protein n=1 Tax=Salmonella ...  68.5    4e-11
+  UniRef90_UPI000B81598F hypothetical protein n=2 Tax=Methylobact...  63.5    6e-11
+  UniRef90_A0A379VJN4 Prophage protein n=1 Tax=Salmonella enteric...  65.8    7e-11
+  UniRef90_A0A1A6XTV0 Uncharacterized protein n=1 Tax=Stenotropho...  67.3    7e-11
+  UniRef90_A0A376RT65 Uncharacterized protein n=13 Tax=Enterobact...  65.4    1e-10
+  UniRef90_A0A248KCL9 Uncharacterized protein n=33 Tax=Enterobact...  66.2    4e-10
+  UniRef90_A0A0S3EW44 Uncharacterized protein n=2 Tax=Sphingobium...  63.9    6e-10
+  UniRef90_X7EDU9 Uncharacterized protein n=1 Tax=Roseivivax halo...  62.0    2e-09
+  UniRef90_A0A2M6VIQ3 Uncharacterized protein n=1 Tax=Limnohabita...  62.7    2e-09
+  UniRef90_A0A0R0CQZ6 Uncharacterized protein n=2 Tax=Stenotropho...  63.1    2e-09
+  UniRef90_A0A1E8PN58 Uncharacterized protein n=1 Tax=Janthinobac...  61.2    4e-09
+  UniRef90_A0A376YCY3 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  58.5    4e-09
+  UniRef90_A0A3N5H4J0 Uncharacterized protein n=1 Tax=Myxococcace...  62.7    5e-09
+  UniRef90_A0A1G4SV90 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  61.2    7e-09
+  UniRef90_A0A1H1DVE0 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  62.0    1e-08
+  UniRef90_A0A1E1F393 Uncharacterized protein n=1 Tax=Sphingobium...  60.4    1e-08
+  UniRef90_A0A317MQI3 Inhibitor of lysozyme (Ivy) n=1 Tax=Plastic...  59.6    2e-08
+  UniRef90_A0A1F6S4A6 Uncharacterized protein n=1 Tax=Candidatus ...  59.6    3e-08
+  UniRef90_A0A0G0U1X9 Uncharacterized protein n=1 Tax=Candidatus ...  59.3    4e-08
+  UniRef90_UPI00037052BF hypothetical protein n=1 Tax=Vitreoscill...  58.5    4e-08
+  UniRef90_A0A376LI87 Inhibitor of vertebrate lysozyme n=1 Tax=Es...  55.8    5e-08
+  UniRef90_UPI000E6CDE9C hypothetical protein n=1 Tax=Deinococcus...  56.2    2e-07
+  UniRef90_UPI0009DF4233 hypothetical protein n=1 Tax=Methylobaci...  55.0    3e-07
+  UniRef90_A0A2H0J3C5 Uncharacterized protein n=1 Tax=Comamonadac...  56.2    2e-06
+  UniRef90_A0A3D9XMP9 Inhibitor of lysozyme (Ivy) n=1 Tax=Paracoc...  51.9    8e-06
+  UniRef90_A0A2N7QRY7 Inhibitor of vertebrate lysozyme n=1 Tax=Dy...  48.1    5e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0X1T232 Uncharacterized protein n=1 Tax=Pseudomonas...  83.1    6e-18
+  UniRef90_A0A1N6NXS5 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  67.0    2e-11
+  UniRef90_UPI000B3DF1FF hypothetical protein n=3 Tax=Escherichia...  67.0    6e-11
+  UniRef90_A0A200L1C6 Uncharacterized protein n=4 Tax=Enterobacte...  65.8    7e-11
+  UniRef90_A0A353G4L8 Uncharacterized protein n=1 Tax=Rhizobium s...  65.4    9e-11
+  UniRef90_UPI000989D798 hypothetical protein n=1 Tax=Escherichia...  65.4    9e-11
+  UniRef90_UPI000DDF8F6D hypothetical protein n=1 Tax=Rhizobiales...  64.6    1e-10
+  UniRef90_B9JT70 Uncharacterized protein n=6 Tax=Agrobacterium v...  64.6    1e-10
+  UniRef90_F2BGD1 Uncharacterized protein n=2 Tax=Neisseria TaxID...  65.0    2e-10
+  UniRef90_UPI000DF2E94C hypothetical protein n=1 Tax=Ciceribacte...  63.9    2e-10
+  UniRef90_A0A1M3QBC9 Uncharacterized protein n=1 Tax=Rhizobium s...  62.7    3e-10
+  UniRef90_A0A0Q7A6G5 Uncharacterized protein n=1 Tax=Rhizobium s...  63.5    3e-10
+  UniRef90_A0A2X5TG07 Uncharacterized protein n=9 Tax=Escherichia...  65.0    4e-10
+  UniRef90_UPI0009DFE0A2 hypothetical protein n=1 Tax=Rhizobium T...  63.5    6e-10
+  UniRef90_A0A368IKU6 Uncharacterized protein n=7 Tax=Enterobacte...  63.5    7e-10
+  UniRef90_A0A1H7XAK5 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  64.3    9e-10
+  UniRef90_A0A192C8Q9 Uncharacterized protein n=6 Tax=Escherichia...  62.0    1e-09
+  UniRef90_A0A2X1LXW8 Uncharacterized protein n=4 Tax=Escherichia...  60.8    7e-09
+  UniRef90_A0A2Y0A7J1 Uncharacterized protein n=9 Tax=Enterobacte...  60.4    1e-08
+  UniRef90_A0A357NNQ4 Uncharacterized protein n=2 Tax=Stenotropho...  61.6    1e-08
+  UniRef90_UPI000E2FEFF5 hypothetical protein n=1 Tax=Klebsiella ...  61.2    2e-08
+  UniRef90_A0A1H9UJQ1 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  58.5    7e-08
+  UniRef90_U9XL21 Uncharacterized protein (Fragment) n=2 Tax=Esch...  58.1    7e-08
+  UniRef90_A0A2X1M8L5 Uncharacterized protein n=4 Tax=Escherichia...  57.3    2e-07
+  UniRef90_A0A3L1H3P8 Uncharacterized protein (Fragment) n=10 Tax...  57.7    2e-07
+  UniRef90_A0A0H0P4E5 Uncharacterized protein n=267 Tax=Proteobac...  57.7    2e-07
+  UniRef90_A0A1G6WSM0 Inhibitor of vertebrate lysozyme (Ivy) n=2 ...  56.6    3e-07
+  UniRef90_UPI000488E33A hypothetical protein n=1 Tax=Rhizobium u...  55.0    6e-07
+  UniRef90_J2WSZ4 Uncharacterized protein n=1 Tax=Sphingobium sp....  55.4    9e-07
+  UniRef90_UPI00098A03AF DNA polymerase III subunit gamma/tau n=1...  53.1    1e-06
+  UniRef90_UPI00069E09C6 hypothetical protein n=1 Tax=Serratia sp...  53.1    3e-06
+  UniRef90_A0A0Q4T291 Uncharacterized protein n=2 Tax=Methylobact...  52.7    3e-06
+  UniRef90_A0A196M9V9 Uncharacterized protein n=1 Tax=Sphingobium...  53.5    4e-06
+  UniRef90_UPI0009AA50AF hypothetical protein n=1 Tax=Salmonella ...  54.2    4e-06
+  UniRef90_UPI0003EF4063 hypothetical protein n=3 Tax=Escherichia...  53.9    4e-06
+  UniRef90_UPI000DEA239F hypothetical protein n=1 Tax=Escherichia...  54.6    4e-06
+  UniRef90_W0HUC6 Uncharacterized protein n=2 Tax=Enterobacterale...  54.6    5e-06
+  UniRef90_A0A1Q5V3D2 Uncharacterized protein n=2 Tax=Serratia fo...  54.2    6e-06
+  UniRef90_UPI000B42C731 DNA polymerase III subunit gamma/tau n=1...  50.8    9e-06
+  UniRef90_A0A379RCR4 Prophage protein n=16 Tax=Salmonella enteri...  53.9    1e-05
+  UniRef90_A0A1X1LLB3 DNA polymerase III subunit gamma/tau n=1 Ta...  50.4    1e-05
+  UniRef90_A0A2V8RG17 Uncharacterized protein n=1 Tax=Acidobacter...  51.6    1e-05
+  UniRef90_A0A2W5AF40 Uncharacterized protein n=1 Tax=Sphingomona...  51.6    3e-05
+  UniRef90_UPI000E65F42C hypothetical protein n=1 Tax=Phyllobacte...  51.2    3e-05
+  UniRef90_A0A085GWY9 Uncharacterized protein n=6 Tax=Enterobacte...  52.3    3e-05
+  UniRef90_UPI000D0AE883 DNA polymerase III subunit gamma/tau n=1...  48.9    3e-05
+  UniRef90_A0A1Y2XIM2 Uncharacterized protein n=3 Tax=Escherichia...  51.9    4e-05
+  UniRef90_UPI00071C7873 hypothetical protein n=1 Tax=Vitreoscill...  50.0    5e-05
+  UniRef90_A0A2V6SP50 Uncharacterized protein n=1 Tax=Candidatus ...  51.2    6e-05
+  UniRef90_UPI0004238F0E hypothetical protein n=1 Tax=Sphingomona...  49.6    9e-05
+  UniRef90_A0A2V6S1E4 Uncharacterized protein n=2 Tax=Candidatus ...  50.0    9e-05
+  UniRef90_UPI000BDEC1B8 hypothetical protein n=1 Tax=Escherichia...  50.8    1e-04
+  UniRef90_A0A2U9KLJ4 Uncharacterized protein n=25 Tax=Enterobact...  50.8    1e-04
+  UniRef90_A0A1H6VDV4 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  49.2    1e-04
+  UniRef90_A0A2W5NC71 Uncharacterized protein n=1 Tax=Sphingopyxi...  49.2    2e-04
+  UniRef90_A0A2W5PFQ7 Uncharacterized protein n=1 Tax=Sphingomona...  49.2    2e-04
+  UniRef90_A0A147J7I4 Lipoprotein n=4 Tax=Sphingomonas sanguinis ...  49.2    2e-04
+  UniRef90_A0A2Z6FUI3 Uncharacterized protein n=1 Tax=Sphingosini...  49.2    2e-04
+  UniRef90_A0A118KE82 Uncharacterized protein n=1 Tax=Burkholderi...  49.2    2e-04
+  UniRef90_A0A023Y2E2 Uncharacterized protein n=3 Tax=Stenotropho...  49.2    2e-04
+  UniRef90_A0A258FDK8 Uncharacterized protein n=1 Tax=Hydrogenoph...  50.0    3e-04
+  UniRef90_UPI00082A50D8 hypothetical protein n=1 Tax=Cupriavidus...  48.9    3e-04
+  UniRef90_UPI0009848115 DNA polymerase III subunit gamma/tau n=2...  46.5    3e-04
+  UniRef90_A0A1G7S0R2 Uncharacterized protein n=2 Tax=Sphingomona...  48.5    4e-04
+  UniRef90_UPI000F4FD11C hypothetical protein n=1 Tax=Pantoea vag...  45.8    4e-04
+  UniRef90_A0A2S9Q6M9 Uncharacterized protein n=2 Tax=Labrys TaxI...  47.7    4e-04
+  UniRef90_A0A1V2F149 Uncharacterized protein n=1 Tax=Aeromonas h...  45.8    4e-04
+  UniRef90_UPI000C7B032E hypothetical protein n=1 Tax=Escherichia...  48.9    5e-04
+  UniRef90_A0A160TG11 Uncharacterized protein n=1 Tax=hydrotherma...  47.3    5e-04
+  UniRef90_A0A228I238 Uncharacterized protein n=2 Tax=Burkholderi...  47.7    5e-04
+  UniRef90_M4UIS5 Uncharacterized protein n=6 Tax=Ralstonia solan...  48.5    7e-04
+  UniRef90_UPI000F8320B9 hypothetical protein n=1 Tax=Deinococcus...  46.9    7e-04
+  UniRef90_UPI0009E20270 hypothetical protein n=1 Tax=Erwinia tra...  47.7    0.001
+  UniRef90_A0A345CUE4 Uncharacterized protein n=1 Tax=Erwinia tra...  47.3    0.002
+  UniRef90_UPI00037D9433 hypothetical protein n=1 Tax=Sphingomona...  46.2    0.002
+  UniRef90_UPI0007543993 hypothetical protein n=1 Tax=Burkholderi...  45.0    0.002
+  UniRef90_A0A2V7FKR2 Uncharacterized protein n=1 Tax=Candidatus ...  45.8    0.002
+  UniRef90_UPI00075CC9BC hypothetical protein n=1 Tax=Burkholderi...  45.4    0.003
+  UniRef90_A0A102LJU7 Uncharacterized protein n=7 Tax=Burkholderi...  45.8    0.003
+  UniRef90_UPI00068BCF66 hypothetical protein n=2 Tax=Burkholderi...  46.2    0.003
+  UniRef90_A0A355TAE4 Uncharacterized protein n=1 Tax=Rhodospiril...  45.8    0.003
+  UniRef90_A0A087NY60 Uncharacterized protein n=4 Tax=Burkholderi...  44.6    0.003
+  UniRef90_K5YVE3 Uncharacterized protein n=1 Tax=Acidocella sp. ...  45.4    0.003
+  UniRef90_A0A377PFF9 Uncharacterized protein n=1 Tax=Hafnia alve...  46.2    0.003
+  UniRef90_UPI000DE90D13 DNA polymerase III subunit gamma/tau n=3...  43.5    0.004
+  UniRef90_UPI00055C68A8 hypothetical protein n=1 Tax=Methylocaps...  45.0    0.004
+  UniRef90_A0A0Q4I8F3 Uncharacterized protein n=5 Tax=Sphingomona...  45.0    0.006
+  UniRef90_A0A1E4JBS8 Uncharacterized protein n=1 Tax=Sphingomona...  44.6    0.007
+  UniRef90_A0A239JKJ4 Uncharacterized protein n=1 Tax=Sphingopyxi...  44.6    0.007
+  UniRef90_A0A3E1RJ87 Uncharacterized protein n=1 Tax=Duganella s...  42.7    0.007
+  UniRef90_UPI000E6595FD hypothetical protein n=1 Tax=Phyllobacte...  43.8    0.008
+  UniRef90_A0A1H7MP20 Uncharacterized protein n=1 Tax=Sphingomona...  44.2    0.008
+  UniRef90_A0A0W1GA66 Uncharacterized protein n=1 Tax=Sphingopyxi...  44.6    0.008
+  UniRef90_U2FT90 Uncharacterized protein n=20 Tax=Burkholderia T...  44.6    0.009
+  UniRef90_UPI00082C51D3 DUF3828 domain-containing protein n=1 Ta...  45.4    0.010
+  UniRef90_A0A2V7C7C0 Uncharacterized protein n=1 Tax=Candidatus ...  44.2    0.010
+  UniRef90_A0A2T0L3T9 Uncharacterized protein DUF4236 n=1 Tax=Par...  45.4    0.010
+  UniRef90_A0A1Y5SXM2 Uncharacterized protein n=1 Tax=Roseisalinu...  45.0    0.010
+  UniRef90_UPI000F8152CE hypothetical protein n=1 Tax=Chitinophag...  43.8    0.013
+  UniRef90_A0A147IY61 Lipoprotein n=5 Tax=Sphingomonas TaxID=1368...  43.8    0.013
+  UniRef90_A0A2T5GWW3 Uncharacterized protein n=1 Tax=Sphingomona...  43.8    0.014
+  UniRef90_A0A136MX85 Uncharacterized protein n=1 Tax=Bacteroidet...  43.8    0.016
+  UniRef90_A0A1W9KH82 Uncharacterized protein n=1 Tax=Proteobacte...  44.2    0.017
+  UniRef90_A0A2A4HXK8 Uncharacterized protein n=1 Tax=Sphingomona...  42.7    0.018
+  UniRef90_A0A248VE48 Uncharacterized protein n=2 Tax=Paraburkhol...  44.6    0.018
+  UniRef90_A0A0X8LB97 Uncharacterized protein n=1 Tax=Burkholderi...  44.2    0.020
+  UniRef90_A0A3G6U9W1 Uncharacterized protein n=2 Tax=Chryseobact...  43.5    0.020
+  UniRef90_A0A084ELU7 Putative lipoprotein n=12 Tax=Sphingomonada...  43.5    0.020
+  UniRef90_UPI0009E71EA5 hypothetical protein n=1 Tax=Luteimonas ...  43.8    0.021
+  UniRef90_E8YWU7 Uncharacterized protein n=1 Tax=Burkholderia sp...  44.2    0.024
+  UniRef90_N9ENW4 Uncharacterized protein n=5 Tax=Acinetobacter T...  43.1    0.025
+  UniRef90_UPI0008351FF4 hypothetical protein n=1 Tax=Sphingomona...  43.5    0.026
+  UniRef90_A0A2Z5EHF1 Uncharacterized protein n=1 Tax=Novosphingo...  42.7    0.027
+  UniRef90_A0A1F7PCU3 Uncharacterized protein n=1 Tax=Candidatus ...  43.5    0.027
+  UniRef90_A0A366C8A1 Uncharacterized protein n=3 Tax=Sphingomona...  43.1    0.028
+  UniRef90_UPI00098A2790 zinc-ribbon domain-containing protein n=...  43.1    0.032
+  UniRef90_UPI0007368A00 hypothetical protein n=1 Tax=Sphingomona...  42.7    0.033
+  UniRef90_M9RL79 Uncharacterized protein n=1 Tax=Octadecabacter ...  43.1    0.033
+  UniRef90_A0A0N0MGL2 Uncharacterized protein n=3 Tax=Komagataeib...  42.3    0.036
+  UniRef90_A0A2A4I606 Uncharacterized protein n=1 Tax=Sphingomona...  42.7    0.037
+  UniRef90_A0A3C1SP70 Uncharacterized protein n=1 Tax=Candidatus ...  43.1    0.038
+  UniRef90_K5XQC6 Uncharacterized protein n=2 Tax=Acidocella TaxI...  42.3    0.043
+  UniRef90_A0A3N7K7B5 DUF4236 domain-containing protein n=2 Tax=B...  43.5    0.044
+  UniRef90_A0A2T0JMC2 Uncharacterized protein n=2 Tax=Martelella ...  43.1    0.049
+  UniRef90_A0A0P0DV61 Uncharacterized protein n=1 Tax=Sphingopyxi...  42.3    0.064
+  UniRef90_A0A1I1E8U7 Inhibitor of vertebrate lysozyme (Ivy) n=1 ...  41.9    0.072
+  UniRef90_A0A0Q4QRK7 Uncharacterized protein n=5 Tax=Sphingomona...  41.9    0.072
+  UniRef90_A0A2X0SUY7 Cyclohexadienyl dehydratase n=6 Tax=Achromo...  42.3    0.083
+  UniRef90_A0A2W7IRV8 Uncharacterized protein n=1 Tax=Humitalea r...  41.5    0.085
+  UniRef90_UPI00036482DF sel1 repeat family protein n=1 Tax=Novis...  42.3    0.091
+  UniRef90_A0A0T0PSK1 Uncharacterized protein n=1 Tax=Sphingomona...  41.2    0.11 
+  UniRef90_UPI0008321C7D YbjN domain-containing protein n=1 Tax=S...  41.2    0.12 
+  UniRef90_UPI0004004E4B hypothetical protein n=1 Tax=Sinorhizobi...  41.9    0.12 
+  UniRef90_A0A1H6G339 Uncharacterized protein n=1 Tax=Sphingopyxi...  41.5    0.12 
+  UniRef90_A0A0P9LFS4 Inhibitor of vertebrate lysozyme n=1 Tax=Ps...  38.8    0.13 
+  UniRef90_A0A1I3UT21 Alpha-L-fucosidase n=2 Tax=Caulobacter sp. ...  41.9    0.15 
+  UniRef90_UPI0008A67E4A DUF4236 domain-containing protein n=1 Ta...  41.9    0.16 
+  UniRef90_A0A3D0VUT2 Uncharacterized protein n=2 Tax=Bacteroidet...  40.8    0.17 
+  UniRef90_A0A399SSC9 Tricorn protease homolog n=1 Tax=Prolixibac...  41.9    0.17 
+  UniRef90_UPI000D6ADC2A hypothetical protein n=1 Tax=Chitinophag...  40.8    0.18 
+  UniRef90_A0A175Y1B3 Uncharacterized protein n=5 Tax=cellular or...  40.8    0.18 
+  UniRef90_U2YPN4 Uncharacterized protein n=2 Tax=Novosphingobium...  41.2    0.18 
+  UniRef90_A0A2N7W7F1 DUF4236 domain-containing protein n=2 Tax=P...  41.5    0.20 
+  UniRef90_A0A0Q4J0E3 Uncharacterized protein n=4 Tax=Sphingomona...  40.8    0.20 
+  UniRef90_A0A0N9UZ98 Uncharacterized protein n=1 Tax=Sphingopyxi...  40.8    0.20 
+  UniRef90_A0A2Z3H5L3 Uncharacterized protein n=1 Tax=Gemmata obs...  41.5    0.20 
+  UniRef90_A0A143BQJ8 Uncharacterized protein n=2 Tax=Gemmatimona...  41.2    0.20 
+  UniRef90_A0A3D9C3X0 Uncharacterized protein n=2 Tax=Chryseobact...  40.4    0.22 
+  UniRef90_A0A031I1Q1 Putative lipoprotein n=1 Tax=Sphingomonas s...  40.4    0.22 
+  UniRef90_A0A257SEU4 Uncharacterized protein n=1 Tax=Acidiphiliu...  41.2    0.23 
+  UniRef90_A0A2R7SU68 Uncharacterized protein n=1 Tax=Pelomonas s...  40.4    0.23 
+  UniRef90_A0A2V6Z3N5 Uncharacterized protein n=2 Tax=Candidatus ...  40.4    0.24 
+  UniRef90_K0VHU8 Polyhydroxybutyrate depolymerase n=1 Tax=Rhizob...  41.2    0.25 
+  UniRef90_A0A270BB35 Uncharacterized protein n=1 Tax=Sphingopyxi...  40.4    0.26 
+  UniRef90_F3QKE2 Uncharacterized protein n=5 Tax=Burkholderiales...  39.2    0.26 
+  UniRef90_S2KR27 Uncharacterized protein n=1 Tax=Halomonas antic...  41.2    0.26 
+  UniRef90_C7LX87 Uncharacterized protein n=2 Tax=Desulfomicrobiu...  40.8    0.26 
+  UniRef90_A0A1Q3LU60 Uncharacterized protein n=1 Tax=Bacteroidal...  40.8    0.26 
+  UniRef90_A0A1V9FTP5 Uncharacterized protein n=1 Tax=Niastella v...  40.8    0.27 
+  UniRef90_UPI000DDBB9D4 MBL fold metallo-hydrolase n=1 Tax=Strep...  40.8    0.28 
+  UniRef90_L9PLS0 Uncharacterized protein n=3 Tax=Oxalobacteracea...  40.8    0.29 
+  UniRef90_A0A1Y1J9R1 Ribonuclease Z n=2 Tax=Comamonas testostero...  40.8    0.30 
+  UniRef90_A0A2E0QAN5 Uncharacterized protein n=1 Tax=Micavibrio ...  39.6    0.30 
+  UniRef90_A0A1H8DK41 Uncharacterized protein n=1 Tax=Sphingomona...  40.0    0.30 
+  UniRef90_A0A257LRH5 Uncharacterized protein n=1 Tax=Burkholderi...  39.2    0.31 
+  UniRef90_A0A2W5Z9R3 Uncharacterized protein n=1 Tax=Pseudomonas...  40.8    0.31 
+  UniRef90_A0A1I6S157 Metallophosphoesterase, PPA1498 family n=1 ...  40.8    0.32 
+  UniRef90_A0A0Q4KRW1 Uncharacterized protein n=2 Tax=Sphingomona...  40.0    0.32 
+  UniRef90_A0A061QJX7 Uncharacterized protein n=1 Tax=alpha prote...  40.0    0.39 
+  UniRef90_A0A133XNZ1 Uncharacterized protein n=1 Tax=Dechloromon...  39.2    0.40 
+  UniRef90_A0A1L6I0M9 Uncharacterized protein n=1 Tax=Paraburkhol...  40.4    0.44 
+  UniRef90_A0A3B0ULP8 Alkaline phosphatase (Fragment) n=1 Tax=hyd...  40.4    0.47 
+  UniRef90_A0A142X4L1 Serine/threonine-protein kinase pkn1 n=1 Ta...  40.4    0.49 
+  UniRef90_A0A3N5MCY9 Tetratricopeptide repeat protein n=1 Tax=Ac...  40.0    0.51 
+  UniRef90_UPI0003B6D6C8 hypothetical protein n=1 Tax=Sphingomona...  39.2    0.51 
+  UniRef90_A0A3B0MB82 Uncharacterized protein n=1 Tax=Roseibaca e...  39.2    0.52 
+  UniRef90_A0A2V2SFJ3 Uncharacterized protein n=1 Tax=Candidatus ...  39.6    0.52 
+  UniRef90_A0A158I3Z8 Putative lipoprotein n=1 Tax=Caballeronia p...  40.0    0.54 
+  UniRef90_A0A0Q5IZX0 Trypsin n=4 Tax=Xanthomonas TaxID=338 RepID...  40.0    0.57 
+  UniRef90_A0A3N4V851 Uncharacterized protein n=1 Tax=Vulcaniibac...  39.6    0.57 
+  UniRef90_UPI000C18882E glycosyltransferase family 4 protein n=1...  40.0    0.58 
+  UniRef90_A0A375ECH2 Uncharacterized protein n=1 Tax=Cupriavidus...  38.1    0.59 
+  UniRef90_I4VYH2 Peptidase M28 n=3 Tax=Rhodanobacter TaxID=75309...  40.0    0.62 
+  UniRef90_A0A1Q3GXC4 Uncharacterized protein n=1 Tax=marine bact...  40.0    0.66 
+  UniRef90_A0A3N4MCV3 Uncharacterized protein n=1 Tax=Chitinophag...  39.2    0.67 
+  UniRef90_A0A2D5Z6W3 Uncharacterized protein n=1 Tax=Phycisphaer...  39.6    0.68 
+  UniRef90_UPI0009DDE879 hypothetical protein n=1 Tax=Sphingomona...  40.0    0.69 
+  UniRef90_A0A1Q3SWU7 Uncharacterized protein n=1 Tax=Chloroflexi...  40.0    0.70 
+  UniRef90_A0A2D6NLB6 Uncharacterized protein n=4 Tax=Bacteria Ta...  39.2    0.71 
+  UniRef90_A0A2Z6TFM6 Uncharacterized protein n=2 Tax=Burkholderi...  40.0    0.71 
+  UniRef90_A0A1T5EZ06 Uncharacterized protein n=2 Tax=Sphingopyxi...  39.2    0.71 
+  UniRef90_A0A2T5ZP76 General secretion pathway protein L n=2 Tax...  39.6    0.72 
+  UniRef90_R5ZX40 Uncharacterized protein n=1 Tax=Proteobacteria ...  38.1    0.73 
+  UniRef90_A0A0M5IJS3 Uncharacterized protein n=1 Tax=Sphingopyxi...  38.8    0.74 
+  UniRef90_A0A330HAW1 Uncharacterized protein n=1 Tax=Mesorhizobi...  39.6    0.79 
+  UniRef90_G8M717 Uncharacterized protein n=4 Tax=Burkholderiacea...  38.8    0.82 
+  UniRef90_UPI00082B337A hypothetical protein n=1 Tax=Sphingomona...  39.6    0.83 
+  UniRef90_UPI0006F3A9AC hypothetical protein n=1 Tax=Agreia sp. ...  39.2    0.86 
+  UniRef90_A0A120LUW0 Uncharacterized protein n=4 Tax=Sphingopyxi...  38.8    0.89 
+  UniRef90_A0A0P7W315 Putative bacterial sensory transduction reg...  38.5    0.89 
+  UniRef90_G4CHH6 Uncharacterized protein n=1 Tax=Neisseria shaye...  39.6    0.91 
+  UniRef90_A0A1Q4ELN5 Uncharacterized protein n=4 Tax=Proteobacte...  38.5    0.95 
+  UniRef90_B2RGT3 Conserved protein found in conjugate transposon...  39.2    0.96 
+  UniRef90_UPI0004BBED4E transporter substrate-binding domain-con...  39.2    0.97 
+  UniRef90_A0A2E2RRH2 Uncharacterized protein n=2 Tax=Ahrensia sp...  39.2    0.98 
+  UniRef90_A0A270BCP2 Uncharacterized protein n=1 Tax=Sphingopyxi...  39.2    0.98 
+  UniRef90_A0A3N9K8D9 DUF4236 domain-containing protein n=1 Tax=B...  39.2    1.0  
+  UniRef90_UPI000F857D6B UPI000F857D6B related cluster n=1 Tax=un...  39.6    1.1  
+  UniRef90_A0A3D1KVZ5 Creatininase n=1 Tax=Prolixibacteraceae bac...  38.8    1.1  
+  UniRef90_UPI000E0DC180 TonB-dependent receptor n=1 Tax=Sphingom...  39.2    1.2  
+  UniRef90_A0A0W1CIJ7 Uncharacterized protein n=1 Tax=Sphingopyxi...  38.5    1.2  
+  UniRef90_A0A1I7JIR3 Aminopeptidase N n=1 Tax=Pontibacter akesue...  39.2    1.2  
+  UniRef90_UPI000E6B6227 S9 family peptidase n=1 Tax=Sphingomonas...  39.2    1.3  
+  UniRef90_UPI000B436546 protease complex subunit PrcB family pro...  38.5    1.3  
+  UniRef90_A0A3N4PNI8 Uncharacterized protein n=1 Tax=Chitinophag...  38.5    1.4  
+  UniRef90_A0A259R0Z6 Uncharacterized protein n=1 Tax=Xanthomonad...  38.5    1.4  
+  UniRef90_A0A1P8MZS0 Nitrate ABC transporter substrate-binding p...  38.8    1.4  
+  UniRef90_A0A2X2WRL1 Uncharacterized protein n=1 Tax=Chryseobact...  38.1    1.4  
+  UniRef90_A0A2R5LH41 Putative muscle m-line assembly protein unc...  39.2    1.4  
+  UniRef90_A0A158CIL0 Lipoprotein n=1 Tax=Caballeronia hypogeia T...  38.8    1.4  
+  UniRef90_UPI000F7F7C52 hypothetical protein n=1 Tax=Sphingomona...  38.1    1.4  
+  UniRef90_UPI0006E3674B hypothetical protein n=1 Tax=Streptomyce...  38.1    1.4  
+  UniRef90_A0A0P8D2L2 Membrane-bound lytic murein transglycosylas...  38.8    1.4  
+  UniRef90_A0A1H6G7R1 Serine aminopeptidase, S33 n=2 Tax=Sphingop...  38.8    1.4  
+  UniRef90_A0A0S9CKU0 Uncharacterized protein n=1 Tax=Sphingomona...  37.7    1.5  
+  UniRef90_A0A1J4Z2Z2 Sterol-binding protein n=2 Tax=Hydrogenophi...  38.1    1.5  
+  UniRef90_A0A2W4QT55 Uncharacterized protein n=1 Tax=Proteobacte...  38.5    1.6  
+  UniRef90_A0A257GPI2 Nitrate ABC transporter substrate-binding p...  38.5    1.6  
+  UniRef90_A0A377Z8F0 C-lysozyme inhibitor n=2 Tax=Klebsiella pne...  35.8    1.6  
+  UniRef90_A0A0J8A920 Uncharacterized protein n=1 Tax=Novosphingo...  38.1    1.7  
+  UniRef90_A0A3A9C2N2 Uncharacterized protein n=2 Tax=unclassifie...  38.1    1.7  
+  UniRef90_A0A0F0DRW2 Uncharacterized protein n=1 Tax=Burkholderi...  38.5    1.8  
+  UniRef90_A0A367HV95 Glucanase n=1 Tax=Streptomyces sp. SDr-06 T...  38.5    1.9  
+  UniRef90_A0A1W0A6M5 5-formyltetrahydrofolate cyclo-ligase n=1 T...  38.5    2.1  
+  UniRef90_A0A1A8ZS44 Uncharacterized protein n=4 Tax=Micromonosp...  37.3    2.3  
+  UniRef90_A0A1H9DWH6 Hint domain-containing protein n=1 Tax=Lito...  38.1    2.4  
+  UniRef90_B3PH26 Putative lipoprotein n=1 Tax=Cellvibrio japonic...  37.7    2.6  
+  UniRef90_A0A0M3AY23 Uncharacterized protein n=1 Tax=Sphingobium...  36.9    2.7  
+  UniRef90_A0A2S8B8F0 Uncharacterized protein n=1 Tax=Sphingopyxi...  37.7    2.8  
+  UniRef90_A0A1C6T6H7 PPIC-type PPIASE domain-containing protein ...  37.7    2.9  
+  UniRef90_A0A327QCW9 Uncharacterized protein n=1 Tax=Chitinophag...  37.3    2.9  
+  UniRef90_A0A1B3ZCB3 Uncharacterized protein n=1 Tax=Sphingomona...  36.5    3.0  
+  UniRef90_A0A2D8RD82 Uncharacterized protein n=1 Tax=Hahellaceae...  37.3    3.0  
+  UniRef90_A0A2W5YET1 Uncharacterized protein n=1 Tax=candidate d...  37.3    3.4  
+  UniRef90_A0A077KEN0 Uncharacterized protein n=1 Tax=Chryseobact...  37.3    3.5  
+  UniRef90_A0A3N5GP17 Uncharacterized protein (Fragment) n=1 Tax=...  36.5    3.6  
+  UniRef90_A0A1X4N900 Uncharacterized protein n=1 Tax=Thalassospi...  37.3    4.1  
+  UniRef90_V4Q2T8 Uncharacterized protein n=1 Tax=Asticcacaulis b...  36.9    4.3  
+  UniRef90_A0A1V1PSA0 Uncharacterized protein n=1 Tax=alpha prote...  36.9    4.5  
+  UniRef90_A0A2N3DXI6 Uncharacterized protein n=1 Tax=Alphaproteo...  36.9    4.6  
+  UniRef90_A0A1I1EKP8 Uncharacterized protein n=1 Tax=Streptomyce...  36.9    5.5  
+  UniRef90_UPI000DE5A74C hypothetical protein n=1 Tax=Arthrobacte...  36.9    5.6  
+  UniRef90_A0A1Y2L0C0 Uncharacterized protein n=1 Tax=Thalassospi...  36.5    6.7  
+  UniRef90_A0A1Q5RFQ1 Uncharacterized protein n=2 Tax=Bradyrhizob...  36.9    7.5  
+  UniRef90_A0A2A3I9S2 Uncharacterized protein n=1 Tax=Streptomyce...  34.6    7.6  
+  UniRef90_A0A2T7JN16 Uncharacterized protein n=1 Tax=Streptomyce...  36.9    7.6  
+  UniRef90_A0A177UMR0 Uncharacterized protein n=2 Tax=Tilletia Ta...  36.5    9.2  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.141    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0432    0.140     1.90     42.6     43.6 
+
+Effective search space used: 737862417330
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

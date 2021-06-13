@@ -1,0 +1,257 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415507.2
+
+Length=101
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P75885 Threonine-rich inner membrane protein GfcA n=30...  177     3e-56
+  UniRef90_A0A3L8TDW8 Uncharacterized protein n=13 Tax=Escherichi...  171     7e-54
+  UniRef90_UPI000CF68484 hypothetical protein n=1 Tax=Escherichia...  132     2e-38
+  UniRef90_D7YAF2 Putative Threonine-rich inner membrane protein ...  112     8e-31
+  UniRef90_UPI000CF7819A hypothetical protein n=1 Tax=Escherichia...  107     2e-28
+  UniRef90_A0A376UDX3 Inner membrane protein n=1 Tax=Escherichia ...  95.1    6e-24
+  UniRef90_A0A3K3GYC6 Uncharacterized protein n=1 Tax=Escherichia...  91.3    1e-22
+  UniRef90_UPI000D0A4AD6 hypothetical protein n=1 Tax=Escherichia...  90.5    3e-22
+  UniRef90_UPI000DDA7E66 hypothetical protein n=1 Tax=Escherichia...  89.7    4e-22
+  UniRef90_A0A0K9TA36 GFCA Threonine-rich inner membrane protein ...  89.0    4e-21
+  UniRef90_UPI0005706C73 hypothetical protein n=1 Tax=Escherichia...  85.9    5e-20
+  UniRef90_A0A2T3RLH9 Uncharacterized protein n=5 Tax=Escherichia...  59.7    8e-10
+  UniRef90_A0A0K4KUR3 Inner membrane protein n=9 Tax=Escherichia ...  58.9    3e-09
+  UniRef90_A0A285JUV1 Uncharacterized protein n=1 Tax=Enterobacte...  55.1    4e-08
+  UniRef90_A0A330DK12 Uncharacterized protein n=1 Tax=Enterobacte...  49.7    1e-05
+  UniRef90_UPI0002A3ED3B hypothetical protein n=2 Tax=Escherichia...  43.5    0.001
+  UniRef90_UPI000BDE611E hypothetical protein n=1 Tax=Escherichia...  38.9    0.052
+  UniRef90_A0A0T5XN45 Uncharacterized protein n=30 Tax=Bacteria T...  38.9    0.099
+  UniRef90_I6FRQ0 Uncharacterized protein n=8 Tax=Enterobacteriac...  37.7    0.12 
+  UniRef90_A0A2W6ARH0 Uncharacterized protein n=1 Tax=Chloroflexi...  36.2    2.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.115    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 738735888481
+Warning: [psiblast] lcl|Query_1 NP_415507.2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415507.2
+
+Length=101
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI000CF7819A hypothetical protein n=1 Tax=Escherichia...  63.4    4e-11
+  UniRef90_A0A0K4KUR3 Inner membrane protein n=9 Tax=Escherichia ...  53.4    5e-07
+  UniRef90_A0A3L8TDW8 Uncharacterized protein n=13 Tax=Escherichi...  52.6    6e-07
+  UniRef90_UPI0005706C73 hypothetical protein n=1 Tax=Escherichia...  51.8    1e-06
+  UniRef90_A0A0K9TA36 GFCA Threonine-rich inner membrane protein ...  50.7    5e-06
+  UniRef90_P75885 Threonine-rich inner membrane protein GfcA n=30...  48.0    4e-05
+  UniRef90_A0A2T3RLH9 Uncharacterized protein n=5 Tax=Escherichia...  41.0    0.018
+  UniRef90_A0A330DK12 Uncharacterized protein n=1 Tax=Enterobacte...  40.7    0.032
+  UniRef90_A0A376UDX3 Inner membrane protein n=1 Tax=Escherichia ...  38.7    0.092
+  UniRef90_UPI000DDA7E66 hypothetical protein n=1 Tax=Escherichia...  37.6    0.18 
+  UniRef90_A0A285JUV1 Uncharacterized protein n=1 Tax=Enterobacte...  36.8    0.51 
+  UniRef90_UPI000CF68484 hypothetical protein n=1 Tax=Escherichia...  36.4    0.80 
+  UniRef90_A0A3K3GYC6 Uncharacterized protein n=1 Tax=Escherichia...  33.0    9.3  
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A388KGY7 DIS3-like exonuclease 2 n=1 Tax=Chara braun...  46.4    0.001
+  UniRef90_UPI000C7717BA uncharacterized protein LOC111715367 n=2...  43.7    0.008
+  UniRef90_A0A1B0FDV2 Uncharacterized protein n=1 Tax=Glossina mo...  41.4    0.048
+  UniRef90_UPI0002A3ED3B hypothetical protein n=2 Tax=Escherichia...  38.3    0.11 
+  UniRef90_UPI000BBE1E66 adhesion G protein-coupled receptor F5-l...  40.3    0.13 
+  UniRef90_A0A377ATJ3 Inner membrane protein n=1 Tax=Escherichia ...  38.7    0.16 
+  UniRef90_C3YE51 Uncharacterized protein n=1 Tax=Branchiostoma f...  38.3    0.60 
+  UniRef90_A0A267EBE6 Uncharacterized protein n=1 Tax=Macrostomum...  37.6    1.3  
+  UniRef90_A0A0T5XN45 Uncharacterized protein n=30 Tax=Bacteria T...  35.3    2.6  
+  UniRef90_UPI000BDE611E hypothetical protein n=1 Tax=Escherichia...  34.1    3.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.109    0.260    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0335    0.140     1.90     42.6     43.6 
+
+Effective search space used: 738735888481
+Results from round 3
+
+
+Query= NP_415507.2
+
+Length=101
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A388KGY7 DIS3-like exonuclease 2 n=1 Tax=Chara braun...  111     1e-26
+  UniRef90_UPI000CF7819A hypothetical protein n=1 Tax=Escherichia...  58.8    2e-09
+  UniRef90_A0A0K4KUR3 Inner membrane protein n=9 Tax=Escherichia ...  50.3    6e-06
+  UniRef90_A0A3L8TDW8 Uncharacterized protein n=13 Tax=Escherichi...  49.2    2e-05
+  UniRef90_UPI0005706C73 hypothetical protein n=1 Tax=Escherichia...  48.0    4e-05
+  UniRef90_A0A0K9TA36 GFCA Threonine-rich inner membrane protein ...  46.1    3e-04
+  UniRef90_P75885 Threonine-rich inner membrane protein GfcA n=30...  44.9    5e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1A8W3A8 Uncharacterized protein n=3 Tax=Plasmodium ...  57.6    9e-08
+  UniRef90_W7A4X4 Uncharacterized protein n=1 Tax=Plasmodium inui...  57.2    1e-07
+  UniRef90_UPI000EA3043F hypothetical protein n=1 Tax=Acinetobact...  51.5    1e-05
+  UniRef90_UPI0009EBD95C collagen-like protein n=1 Tax=Bacillus s...  49.5    6e-05
+  UniRef90_A0A1H8NX96 Collagen triple helix repeat-containing pro...  46.1    0.001
+  UniRef90_E9HK78 Uncharacterized protein n=1 Tax=Daphnia pulex T...  45.3    0.002
+  UniRef90_A0A267EBE6 Uncharacterized protein n=1 Tax=Macrostomum...  45.3    0.002
+  UniRef90_A0A229YYM8 Uncharacterized protein n=1 Tax=Aspergillus...  44.5    0.004
+  UniRef90_A0A316P683 Uncharacterized protein n=1 Tax=Clostridia ...  43.0    0.015
+  UniRef90_UPI000BBE1E66 adhesion G protein-coupled receptor F5-l...  43.0    0.016
+  UniRef90_UPI000DDA7E66 hypothetical protein n=1 Tax=Escherichia...  39.1    0.043
+  UniRef90_A0A267E829 Uncharacterized protein n=2 Tax=Macrostomum...  41.5    0.045
+  UniRef90_UPI000A05E00A HAMP domain-containing protein n=1 Tax=H...  41.5    0.051
+  UniRef90_A0A1Q3L6J3 Uncharacterized protein n=1 Tax=Microbacter...  40.7    0.081
+  UniRef90_UPI000B4D185F serine/threonine-protein phosphatase 6 r...  40.7    0.086
+  UniRef90_A0A3D9M1W8 CHAD domain-containing protein n=1 Tax=Stre...  40.7    0.099
+  UniRef90_UPI000B45C492 cysteine-rich, acidic integral membrane ...  40.3    0.13 
+  UniRef90_UPI000CF68484 hypothetical protein n=1 Tax=Escherichia...  38.4    0.16 
+  UniRef90_A0A376UDX3 Inner membrane protein n=1 Tax=Escherichia ...  38.0    0.17 
+  UniRef90_A0A1J9XJT7 Uncharacterized protein (Fragment) n=46 Tax...  39.5    0.18 
+  UniRef90_A0RH86 Uncharacterized protein n=2 Tax=Bacillus cereus...  39.9    0.18 
+  UniRef90_UPI00027AAEDC collagen-like protein n=1 Tax=Bacillus c...  39.5    0.21 
+  UniRef90_UPI0009D72AB7 autotransporter outer membrane beta-barr...  39.5    0.22 
+  UniRef90_A0A090ZIQ3 Collagen triple helix repeat family protein...  39.1    0.25 
+  UniRef90_A0A377ATJ3 Inner membrane protein n=1 Tax=Escherichia ...  38.0    0.28 
+  UniRef90_UPI000E0DAC42 hypothetical protein n=1 Tax=Ornithinimi...  39.1    0.31 
+  UniRef90_A0A3E2UIT9 Collagen-like protein n=3 Tax=Clostridiales...  38.8    0.43 
+  UniRef90_A0A2A5FXM5 Uncharacterized protein n=1 Tax=Flavobacter...  38.8    0.46 
+  UniRef90_C2S154 Uncharacterized protein n=2 Tax=Bacillus cereus...  38.8    0.47 
+  UniRef90_A0A0F9P011 Uncharacterized protein n=1 Tax=marine sedi...  38.8    0.48 
+  UniRef90_A0A2C1ERW5 Collagen-like protein (Fragment) n=8 Tax=Ba...  38.0    0.63 
+  UniRef90_A0A2T3RLH9 Uncharacterized protein n=5 Tax=Escherichia...  36.4    0.80 
+  UniRef90_UPI000F8632AE autotransporter outer membrane beta-barr...  38.0    0.86 
+  UniRef90_A0A0P5PTG7 Uncharacterized protein n=12 Tax=Daphnia ma...  38.0    0.95 
+  UniRef90_UPI000936BC2D collagen-like protein n=1 Tax=Bacillus c...  37.6    0.99 
+  UniRef90_A0A0P5I4T9 Uncharacterized protein n=1 Tax=Daphnia mag...  37.6    0.99 
+  UniRef90_A0A0C1U1X2 TGF-beta propeptide family protein n=2 Tax=...  37.6    1.1  
+  UniRef90_A0A0P5DUB0 Uncharacterized protein n=2 Tax=Daphnia mag...  37.6    1.2  
+  UniRef90_A0A0P6CPP6 Uncharacterized protein n=5 Tax=Daphnia mag...  37.6    1.2  
+  UniRef90_A0A3B4TZB3 Uncharacterized protein n=1 Tax=Seriola dum...  36.8    1.9  
+  UniRef90_A0A243C023 Uncharacterized protein n=6 Tax=Bacillus Ta...  36.8    2.1  
+  UniRef90_A0A218UE05 Serine/threonine-protein phosphatase 6 regu...  36.8    2.1  
+  UniRef90_A0A1F3Q0T9 Uncharacterized protein n=1 Tax=Bacteroidet...  36.8    2.1  
+  UniRef90_UPI000A02CDC7 phospholipid carrier-dependent glycosylt...  36.8    2.2  
+  UniRef90_A0A239MHN2 Collagen triple helix repeat-containing pro...  36.8    2.3  
+  UniRef90_UPI0009DCA558 hypothetical protein n=1 Tax=Paenibacill...  36.4    2.4  
+  UniRef90_A0A2B6NQB0 Uncharacterized protein n=1 Tax=Bacillus to...  36.4    2.5  
+  UniRef90_UPI000D38FBE2 S-layer family protein n=4 Tax=Bacillus ...  36.4    2.5  
+  UniRef90_UPI000BFC45DD collagen-like protein n=2 Tax=Bacillus c...  36.4    2.8  
+  UniRef90_A0A3G5AFN7 Uncharacterized protein n=1 Tax=Solivirus s...  36.4    3.0  
+  UniRef90_A0A0K9N6D8 BclA protein n=1 Tax=Dorea sp. D27 TaxID=65...  36.1    3.0  
+  UniRef90_UPI000B449833 NTTRR-F1 domain n=1 Tax=Bacillus velezen...  36.4    3.3  
+  UniRef90_UPI00099C368A S-layer family protein n=1 Tax=Bacillus ...  36.4    3.3  
+  UniRef90_UPI000D6DF5F4 collagen-like protein n=1 Tax=Aquimarina...  36.1    3.4  
+  UniRef90_V5M9C4 Uncharacterized protein n=1 Tax=Bacillus thurin...  36.1    3.4  
+  UniRef90_UPI000E2390EE S-layer family protein n=1 Tax=Bacillus ...  36.1    3.6  
+  UniRef90_UPI0009DDC080 non-ribosomal peptide synthetase n=1 Tax...  36.1    4.0  
+  UniRef90_UPI000EFAB455 NTTRR-F1 domain n=1 Tax=Bacillus velezen...  36.1    4.2  
+  UniRef90_A0A0G1FKD8 Uncharacterized protein n=1 Tax=Candidatus ...  36.1    4.3  
+  UniRef90_C0BXY0 Collagen triple helix repeat protein n=1 Tax=[C...  35.7    4.5  
+  UniRef90_G5E5A7 Uncharacterized protein n=1 Tax=Bos taurus TaxI...  36.1    4.7  
+  UniRef90_A0A347VBA6 Uncharacterized protein n=2 Tax=Bacillus ce...  35.7    4.8  
+  UniRef90_E9FXR7 Uncharacterized protein n=1 Tax=Daphnia pulex T...  35.7    5.2  
+  UniRef90_A0A0G3ETI2 Uncharacterized protein n=1 Tax=Pandoraea t...  34.1    5.3  
+  UniRef90_A0A1W2GFR8 Collagen triple helix repeat-containing pro...  35.7    5.3  
+  UniRef90_A0A0P5NW89 Uncharacterized protein n=2 Tax=Daphnia mag...  35.7    5.3  
+  UniRef90_A0A1W6XI69 Uncharacterized protein n=1 Tax=Mesorhizobi...  35.7    5.3  
+  UniRef90_UPI0009798884 NTTRR-F1 domain n=1 Tax=Bacillus velezen...  35.7    5.4  
+  UniRef90_UPI000624A315 S-layer family protein n=2 Tax=Bacillus ...  35.7    5.4  
+  UniRef90_UPI000BF7A51E collagen-like protein n=1 Tax=Bacillus c...  35.7    5.7  
+  UniRef90_A0A3A5JZ93 Uncharacterized protein (Fragment) n=1 Tax=...  34.9    5.9  
+  UniRef90_A0A3G5AIR2 Uncharacterized protein n=1 Tax=Solumvirus ...  35.7    6.1  
+  UniRef90_A0A2N7SFF8 Uncharacterized protein (Fragment) n=1 Tax=...  35.3    6.5  
+  UniRef90_UPI00061D0924 NTTRR-F1 domain n=1 Tax=Bacillus velezen...  35.3    6.7  
+  UniRef90_UPI0009F2BED5 hypothetical protein n=1 Tax=Bacillus ve...  35.3    7.1  
+  UniRef90_A0A2B9ER27 Uncharacterized protein (Fragment) n=6 Tax=...  35.3    7.2  
+  UniRef90_B7JSZ0 Collagen triple helix repeat domain protein n=2...  35.3    7.2  
+  UniRef90_UPI00096C43F1 collagen-like protein n=1 Tax=Paenibacil...  35.3    7.2  
+  UniRef90_UPI000698F29B collagen-like protein n=1 Tax=Methylocuc...  34.9    7.3  
+  UniRef90_UPI0009ADDB60 NTTRR-F1 domain n=1 Tax=Bacillus velezen...  35.3    7.3  
+  UniRef90_J7XC64 Triple helix repeat-containing collagen n=1 Tax...  35.3    7.4  
+  UniRef90_UPI00080F5B90 collagen-like protein n=6 Tax=Bacillus c...  35.3    7.5  
+  UniRef90_UPI00083B7E61 hypothetical protein n=1 Tax=Alcaligenes...  35.3    7.7  
+  UniRef90_J8MUM1 Uncharacterized protein (Fragment) n=21 Tax=Bac...  34.9    7.8  
+  UniRef90_UPI000311B751 collagen-like protein n=1 Tax=Bacillus p...  35.3    8.3  
+  UniRef90_A0A3G5A3L9 Uncharacterized protein n=1 Tax=Harvfovirus...  34.9    8.6  
+  UniRef90_UPI000BA39857 DUF4347 domain-containing protein n=1 Ta...  34.9    9.0  
+  UniRef90_Q98MG8 Hypothetical glycine-rich protein n=1 Tax=Mesor...  34.9    9.1  
+  UniRef90_A0A081L7T7 Uncharacterized protein n=1 Tax=Bacillus zh...  34.9    9.2  
+  UniRef90_UPI0009B6F1C8 NTTRR-F1 domain n=1 Tax=Bacillus subtili...  34.9    9.3  
+  UniRef90_UPI0007C71670 hypothetical protein n=1 Tax=Paenibacill...  34.9    9.3  
+  UniRef90_A0A2C3H6R6 Collagen-like protein n=1 Tax=Bacillus anth...  34.9    9.4  
+  UniRef90_UPI0004719985 hypothetical protein n=1 Tax=Aquimarina ...  34.9    9.5  
+  UniRef90_A0A101URN7 Uncharacterized protein n=1 Tax=Streptomyce...  34.9    9.5  
+  UniRef90_UPI0009FFB3FE S-layer family protein n=1 Tax=Bacillus ...  34.9    9.8  
+  UniRef90_A0A2V4V505 Collagen triple helix repeat protein n=1 Ta...  34.9    9.9  
+  UniRef90_UPI0009B92F1B collagen-like protein n=2 Tax=Bacillus T...  34.9    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.108    0.245    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0331    0.140     1.90     42.6     43.6 
+
+Effective search space used: 738735888481
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

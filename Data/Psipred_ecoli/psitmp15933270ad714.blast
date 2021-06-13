@@ -1,0 +1,1993 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414999.1
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P45807 Uncharacterized protein YbaM n=248 Tax=Bacteria...  102     4e-28
+  UniRef90_A0A368ILW5 DUF2496 domain-containing protein n=5 Tax=E...  99.0    1e-26
+  UniRef90_A0A3Q0MV71 DUF2496 domain-containing protein n=7 Tax=E...  91.3    2e-23
+  UniRef90_A0A376L0S0 Preotein n=2 Tax=Escherichia coli TaxID=562...  83.2    2e-20
+  UniRef90_A0A078LGX7 Protein of uncharacterized function (DUF249...  83.2    3e-20
+  UniRef90_A0A3P1ILV5 DUF2496 domain-containing protein n=1 Tax=E...  78.6    1e-18
+  UniRef90_D4BCY4 Uncharacterized protein n=10 Tax=Enterobacteria...  78.6    2e-18
+  UniRef90_A0A3N2ENI0 Uncharacterized protein DUF2496 n=1 Tax=Rao...  77.8    3e-18
+  UniRef90_D2TLU3 Uncharacterized protein n=2 Tax=Enterobacteriac...  77.8    4e-18
+  UniRef90_A0A263W2Q7 DUF2496 domain-containing protein n=6 Tax=E...  77.0    9e-18
+  UniRef90_A0A333FR86 Inner membrane protein n=13 Tax=Bacteria Ta...  76.6    1e-17
+  UniRef90_A0A2T4I1X4 DUF2496 domain-containing protein n=1 Tax=M...  76.3    2e-17
+  UniRef90_UPI000EFBB110 DUF2496 domain-containing protein n=1 Ta...  76.6    2e-17
+  UniRef90_A0A0K0H830 Uncharacterized protein n=39 Tax=Salmonella...  76.3    2e-17
+  UniRef90_A0A381HU82 Protein of uncharacterized function (DUF249...  75.9    2e-17
+  UniRef90_A0A168F5F5 DUF2496 domain-containing protein n=10 Tax=...  75.1    4e-17
+  UniRef90_H3N7Y4 DUF2496 domain-containing protein n=10 Tax=Kleb...  74.7    5e-17
+  UniRef90_A0A1S2RSW4 DUF2496 domain-containing protein n=17 Tax=...  74.7    7e-17
+  UniRef90_A0A085AEV5 Putative inner membrane protein n=2 Tax=Tra...  73.9    1e-16
+  UniRef90_A0A376QYK0 Preotein n=11 Tax=Enterobacteriaceae TaxID=...  73.6    2e-16
+  UniRef90_UPI00069B287F DUF2496 domain-containing protein n=1 Ta...  73.6    2e-16
+  UniRef90_A0A0J1LL06 Uncharacterized protein n=1 Tax=Citrobacter...  73.2    2e-16
+  UniRef90_A0A223JNE4 DUF2496 domain-containing protein n=7 Tax=G...  73.2    2e-16
+  UniRef90_A0A267RZK9 DUF2496 domain-containing protein n=1 Tax=E...  73.2    3e-16
+  UniRef90_UPI000345CBE5 DUF2496 domain-containing protein n=1 Ta...  72.8    4e-16
+  UniRef90_A0A0H3FPM5 Uncharacterized protein n=5 Tax=Enterobacte...  72.4    6e-16
+  UniRef90_A0A376I2L6 Small protein involved in the cell envelope...  72.0    6e-16
+  UniRef90_A0A1N6TRC0 Uncharacterized protein n=2 Tax=Enterobacte...  72.0    8e-16
+  UniRef90_A0A0U1FD06 Transposase n=80 Tax=Salmonella enterica Ta...  77.8    8e-16
+  UniRef90_A0A0J4TMH4 DUF2496 domain-containing protein n=62 Tax=...  71.6    1e-15
+  UniRef90_U3U0E9 Uncharacterized protein n=3 Tax=Enterobacterale...  71.6    1e-15
+  UniRef90_A0A3D3HTA7 DUF2496 domain-containing protein n=1 Tax=M...  71.2    1e-15
+  UniRef90_A0A2S5KBR4 DUF2496 domain-containing protein n=3 Tax=P...  70.9    2e-15
+  UniRef90_A0A154WSA4 Protein YbaM n=11 Tax=Enterobacteriaceae Ta...  71.2    2e-15
+  UniRef90_A0A155ZMJ0 Protein YbaM n=10 Tax=Enterobacteriaceae Ta...  70.9    2e-15
+  UniRef90_A0A0D9H797 DUF2496 domain-containing protein n=36 Tax=...  70.9    2e-15
+  UniRef90_A0A0L0H246 Uncharacterized protein n=1 Tax=Trabulsiell...  70.9    2e-15
+  UniRef90_A0A0U5L389 Uncharacterized protein n=2 Tax=Erwinia ger...  70.9    3e-15
+  UniRef90_UPI000370D489 DUF2496 domain-containing protein n=1 Ta...  70.5    3e-15
+  UniRef90_A0A3G4T6Z8 DUF2496 domain-containing protein n=8 Tax=E...  70.5    3e-15
+  UniRef90_UPI000948E3AC DUF2496 domain-containing protein n=1 Ta...  70.1    4e-15
+  UniRef90_A0A0H3CJQ1 Uncharacterized protein n=30 Tax=Enterobact...  70.5    4e-15
+  UniRef90_A0A3N1I5Q1 Uncharacterized protein DUF2496 n=2 Tax=Ent...  69.7    5e-15
+  UniRef90_A0A380SPE1 Protein of uncharacterized function (DUF249...  70.1    5e-15
+  UniRef90_A0A1X1DC99 DUF2496 domain-containing protein n=1 Tax=P...  69.7    5e-15
+  UniRef90_A0A0F1AFI3 Uncharacterized protein n=15 Tax=Bacteria T...  70.1    5e-15
+  UniRef90_A0A1S8YF71 DUF2496 domain-containing protein n=1 Tax=I...  69.7    5e-15
+  UniRef90_A0A2T4XZ93 DUF2496 domain-containing protein n=11 Tax=...  69.7    6e-15
+  UniRef90_A0A0F4BWB1 Uncharacterized protein n=9 Tax=Enterobacte...  69.7    6e-15
+  UniRef90_A0A0M3F8E0 Uncharacterized protein n=1 Tax=Enterobacte...  69.3    7e-15
+  UniRef90_A0A1I6DDT3 Uncharacterized protein n=1 Tax=Enterobacte...  69.3    9e-15
+  UniRef90_A0A3E1ZZ93 DUF2496 domain-containing protein n=2 Tax=L...  69.3    9e-15
+  UniRef90_A0A2J9E6C8 DUF2496 domain-containing protein n=7 Tax=E...  68.9    1e-14
+  UniRef90_A0A379WZK5 ISNCY transposase n=2 Tax=Salmonella enteri...  75.1    1e-14
+  UniRef90_G9Z4N8 Uncharacterized protein n=3 Tax=Yokenella regen...  68.9    1e-14
+  UniRef90_W1DNU2 Putative inner membrane protein n=1 Tax=Klebsie...  69.7    1e-14
+  UniRef90_A0A1W1KJC3 Inner membrane protein n=3 Tax=Enterobacter...  68.9    1e-14
+  UniRef90_A0A1V9DIB5 DUF2496 domain-containing protein n=1 Tax=P...  68.6    1e-14
+  UniRef90_I2BBM4 Uncharacterized protein n=1 Tax=Shimwellia blat...  68.6    1e-14
+  UniRef90_A0A0H0CTQ1 DUF2496 domain-containing protein n=28 Tax=...  68.6    2e-14
+  UniRef90_A0A1B8H140 DUF2496 domain-containing protein n=2 Tax=M...  68.2    2e-14
+  UniRef90_A0A345CNC3 DUF2496 domain-containing protein n=1 Tax=E...  68.2    2e-14
+  UniRef90_A0A1B8HT82 DUF2496 domain-containing protein n=1 Tax=M...  68.2    3e-14
+  UniRef90_E6W9E2 Uncharacterized protein n=3 Tax=Enterobacterale...  67.8    3e-14
+  UniRef90_A0A1I1WRV0 Uncharacterized protein n=1 Tax=Kosakonia s...  67.8    3e-14
+  UniRef90_A0A090V5S3 Uncharacterized protein n=4 Tax=Enterobacte...  67.8    3e-14
+  UniRef90_E3G6B0 Uncharacterized protein n=1 Tax=Enterobacter li...  67.8    3e-14
+  UniRef90_A0A1M2TFU5 DUF2496 domain-containing protein (Fragment...  67.4    4e-14
+  UniRef90_A0A2P5IR93 DUF2496 domain-containing protein n=1 Tax=P...  67.4    4e-14
+  UniRef90_A0A356RW93 Protein of uncharacterized function (DUF249...  67.4    5e-14
+  UniRef90_H5V6N9 Uncharacterized protein n=3 Tax=Enterobacteriac...  67.4    5e-14
+  UniRef90_A0A2G8EDS9 DUF2496 domain-containing protein n=1 Tax=E...  67.4    5e-14
+  UniRef90_E1SGD8 Uncharacterized protein ybaM n=14 Tax=Erwiniace...  67.0    6e-14
+  UniRef90_W0BS11 Uncharacterized protein n=10 Tax=Enterobacter T...  67.4    6e-14
+  UniRef90_A0A2S9IHG8 DUF2496 domain-containing protein n=2 Tax=E...  67.0    7e-14
+  UniRef90_UPI0004AD4D75 DUF2496 domain-containing protein n=1 Ta...  67.0    7e-14
+  UniRef90_UPI000907A201 DUF2496 domain-containing protein n=1 Ta...  66.6    8e-14
+  UniRef90_B2VHV2 Uncharacterized protein n=2 Tax=Erwinia TaxID=5...  66.6    8e-14
+  UniRef90_D8MP13 Conserved uncharacterized protein n=3 Tax=Erwin...  66.6    8e-14
+  UniRef90_G2SAA2 Uncharacterized protein n=2 Tax=Enterobacter Ta...  66.6    9e-14
+  UniRef90_A0A285JP19 Uncharacterized protein n=1 Tax=Enterobacte...  66.6    9e-14
+  UniRef90_L0M5T9 Uncharacterized protein n=1 Tax=Enterobacteriac...  67.0    9e-14
+  UniRef90_A0A318VZM0 Uncharacterized protein DUF2496 n=2 Tax=Ent...  66.2    1e-13
+  UniRef90_UPI000F674B5C DUF2496 domain-containing protein n=1 Ta...  66.2    1e-13
+  UniRef90_UPI00092F9658 DUF2496 domain-containing protein n=1 Ta...  66.2    1e-13
+  UniRef90_A0A1X1ES80 DUF2496 domain-containing protein n=1 Tax=P...  66.2    1e-13
+  UniRef90_J3HNJ2 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  66.2    1e-13
+  UniRef90_A0A2P8VP62 DUF2496 domain-containing protein n=2 Tax=E...  65.9    2e-13
+  UniRef90_A0A127L6P4 Uncharacterized protein n=2 Tax=Enterobacte...  65.9    2e-13
+  UniRef90_UPI0002F549A5 DUF2496 domain-containing protein n=1 Ta...  66.2    2e-13
+  UniRef90_A0A2U3TIR6 DUF2496 domain-containing protein n=3 Tax=E...  66.2    2e-13
+  UniRef90_A0A285JP70 Uncharacterized protein n=3 Tax=Erwiniaceae...  65.9    2e-13
+  UniRef90_UPI0004AE2573 DUF2496 domain-containing protein n=1 Ta...  65.9    2e-13
+  UniRef90_A0A1V0LHS8 DUF2496 domain-containing protein n=5 Tax=E...  65.9    2e-13
+  UniRef90_A0A1W6B181 DUF2496 domain-containing protein n=1 Tax=P...  65.5    2e-13
+  UniRef90_A0A330LMI1 Uncharacterized protein n=4 Tax=Moritella T...  65.5    2e-13
+  UniRef90_D2T436 Uncharacterized protein ybaM n=1 Tax=Erwinia py...  65.5    3e-13
+  UniRef90_A0A1M5LD67 Uncharacterized protein n=1 Tax=Pectobacter...  65.5    3e-13
+  UniRef90_A0A0F5BVG1 Uncharacterized protein n=2 Tax=Tatumella m...  65.9    4e-13
+  UniRef90_A0A0B2TC44 Uncharacterized protein n=1 Tax=Pectobacter...  65.1    4e-13
+  UniRef90_A0A2P5GSL1 DUF2496 domain-containing protein n=1 Tax=S...  64.7    5e-13
+  UniRef90_A0A0J5MAR0 DUF2496 domain-containing protein n=6 Tax=P...  65.1    5e-13
+  UniRef90_A0A1Y0L5N4 Uncharacterized protein n=2 Tax=Tatumella c...  65.5    5e-13
+  UniRef90_A0A3N6S1D1 DUF2496 domain-containing protein n=1 Tax=E...  64.7    6e-13
+  UniRef90_UPI00040674B8 DUF2496 domain-containing protein n=1 Ta...  64.7    6e-13
+  UniRef90_A0A357U916 DUF2496 domain-containing protein n=1 Tax=E...  64.3    6e-13
+  UniRef90_A0A090IF83 Uncharacterized protein n=2 Tax=Moritella T...  64.7    6e-13
+  UniRef90_A0A2U1DJF0 Uncharacterized protein DUF2496 n=7 Tax=Erw...  64.3    7e-13
+  UniRef90_A0A2M9WAM6 DUF2496 domain-containing protein n=1 Tax=P...  64.3    8e-13
+  UniRef90_A0A1V2R7F7 DUF2496 domain-containing protein n=18 Tax=...  64.3    9e-13
+  UniRef90_A0A2I0FSW1 DUF2496 domain-containing protein n=1 Tax=E...  63.9    1e-12
+  UniRef90_A0A2T3XJA4 DUF2496 domain-containing protein n=6 Tax=E...  63.9    1e-12
+  UniRef90_A0A1B7JIG6 Putative inner membrane protein n=3 Tax=Klu...  63.9    1e-12
+  UniRef90_UPI0008FEFDE8 DUF2496 domain-containing protein n=2 Ta...  63.5    1e-12
+  UniRef90_A0A2T3W0I5 DUF2496 domain-containing protein n=2 Tax=P...  63.9    1e-12
+  UniRef90_J3DFV6 Uncharacterized protein n=3 Tax=Enterobacterale...  63.5    1e-12
+  UniRef90_S3IS78 Uncharacterized protein n=1 Tax=Cedecea davisae...  63.5    2e-12
+  UniRef90_A0A1A9F825 DUF2496 domain-containing protein n=1 Tax=L...  63.5    2e-12
+  UniRef90_A4W7F0 Uncharacterized protein n=2 Tax=Enterobacteriac...  63.5    2e-12
+  UniRef90_J1GAU6 Uncharacterized protein n=2 Tax=Enterobacteriac...  63.5    2e-12
+  UniRef90_UPI000307F202 DUF2496 domain-containing protein n=1 Ta...  63.2    2e-12
+  UniRef90_UPI000378184D DUF2496 domain-containing protein n=1 Ta...  63.2    2e-12
+  UniRef90_C5BCZ3 Uncharacterized protein n=4 Tax=Edwardsiella Ta...  63.2    2e-12
+  UniRef90_UPI00093C00B4 DUF2496 domain-containing protein n=1 Ta...  63.2    2e-12
+  UniRef90_A0A366F593 Uncharacterized protein DUF2496 n=1 Tax=Pse...  63.2    2e-12
+  UniRef90_C6DB79 Uncharacterized protein n=1 Tax=Pectobacterium ...  63.2    3e-12
+  UniRef90_H3R981 Uncharacterized DUF2496 family protein n=3 Tax=...  62.8    3e-12
+  UniRef90_UPI0008FCC67D DUF2496 domain-containing protein n=1 Ta...  62.8    3e-12
+  UniRef90_A0A1G7WPU4 Uncharacterized protein n=1 Tax=Vibrio xiam...  63.2    3e-12
+  UniRef90_A0A1B7I7B7 Uncharacterized protein n=5 Tax=Buttiauxell...  62.8    3e-12
+  UniRef90_A0A376E4H7 Protein of uncharacterized function (DUF249...  62.8    3e-12
+  UniRef90_D4HY50 Uncharacterized protein ybaM n=3 Tax=Erwinia Ta...  62.8    3e-12
+  UniRef90_A0A2K1QC15 DUF2496 domain-containing protein n=1 Tax=M...  62.8    3e-12
+  UniRef90_A0A0S2SM27 Uncharacterized protein n=4 Tax=Aeromonas T...  62.4    4e-12
+  UniRef90_UPI0002F3C12A DUF2496 domain-containing protein n=1 Ta...  62.4    5e-12
+  UniRef90_UPI000907B396 DUF2496 domain-containing protein n=1 Ta...  62.0    6e-12
+  UniRef90_UPI000907845D DUF2496 domain-containing protein n=1 Ta...  62.0    7e-12
+  UniRef90_A0A291DUT5 DUF2496 domain-containing protein n=4 Tax=C...  61.6    7e-12
+  UniRef90_A0A1I4YEM0 Uncharacterized protein n=1 Tax=Izhakiella ...  61.6    8e-12
+  UniRef90_A0A0J6AS80 Uncharacterized protein n=2 Tax=Pectobacter...  62.0    8e-12
+  UniRef90_UPI0009DD9803 DUF2496 domain-containing protein n=1 Ta...  61.6    9e-12
+  UniRef90_A0A1X0X7L8 DUF2496 domain-containing protein n=3 Tax=E...  61.6    9e-12
+  UniRef90_UPI000907D1C2 DUF2496 domain-containing protein n=1 Ta...  61.6    9e-12
+  UniRef90_A0A135I7H9 Primosomal protein n=2 Tax=Enterovibrio cor...  61.6    1e-11
+  UniRef90_V9ZTE2 Uncharacterized protein n=4 Tax=Aeromonas TaxID...  61.6    1e-11
+  UniRef90_Q6D803 Uncharacterized protein n=2 Tax=Pectobacterium ...  61.6    1e-11
+  UniRef90_F2JUT8 Uncharacterized protein n=1 Tax=Marinomonas med...  61.2    1e-11
+  UniRef90_UPI000907303B DUF2496 domain-containing protein n=1 Ta...  61.2    1e-11
+  UniRef90_A0A1D7Z3G0 Uncharacterized protein n=3 Tax=Pectobacter...  61.2    2e-11
+  UniRef90_UPI00092CE93E DUF2496 domain-containing protein n=1 Ta...  60.8    2e-11
+  UniRef90_A0A2X3ECC1 Protein of uncharacterized function (DUF249...  60.8    2e-11
+  UniRef90_UPI000EB3B328 DUF2496 domain-containing protein n=1 Ta...  60.8    2e-11
+  UniRef90_A0A2T7AZ27 DUF2496 domain-containing protein n=1 Tax=C...  60.8    2e-11
+  UniRef90_U1LL63 Uncharacterized protein n=4 Tax=Pseudoalteromon...  60.8    2e-11
+  UniRef90_U1JJY9 Uncharacterized protein n=2 Tax=Pseudoalteromon...  60.8    2e-11
+  UniRef90_A0A1X1DIZ2 DUF2496 domain-containing protein n=2 Tax=E...  60.8    2e-11
+  UniRef90_UPI000E77CEA3 DUF2496 domain-containing protein n=1 Ta...  60.8    2e-11
+  UniRef90_A0A2A7U4U1 DUF2496 domain-containing protein n=3 Tax=E...  60.8    2e-11
+  UniRef90_A0A1Y6KSF5 Uncharacterized protein n=5 Tax=Photobacter...  60.8    2e-11
+  UniRef90_R9VRY2 Uncharacterized protein n=6 Tax=Enterobacteriac...  60.5    2e-11
+  UniRef90_A0A3N5D8V1 DUF2496 domain-containing protein n=1 Tax=B...  60.5    2e-11
+  UniRef90_A0A1E5BZX6 DUF2496 domain-containing protein n=1 Tax=E...  60.5    3e-11
+  UniRef90_A0A0S2JZW3 Uncharacterized protein n=2 Tax=Pseudoalter...  60.5    3e-11
+  UniRef90_UPI0005B222F5 DUF2496 domain-containing protein n=1 Ta...  60.5    3e-11
+  UniRef90_A0A0U1P7L0 Uncharacterized protein n=4 Tax=Photobacter...  60.5    3e-11
+  UniRef90_A0A2N4UXR4 DUF2496 domain-containing protein n=2 Tax=P...  60.1    4e-11
+  UniRef90_A8GAU5 Uncharacterized protein n=7 Tax=Serratia TaxID=...  60.1    4e-11
+  UniRef90_A0A1B7JL13 Uncharacterized protein n=2 Tax=Proteus Tax...  59.7    4e-11
+  UniRef90_A0A1E7YV08 DUF2496 domain-containing protein n=2 Tax=E...  59.7    4e-11
+  UniRef90_UPI0009B2AB91 DUF2496 domain-containing protein n=1 Ta...  60.1    5e-11
+  UniRef90_A0A1G8M7S3 Uncharacterized protein n=1 Tax=Ferrimonas ...  59.7    6e-11
+  UniRef90_A0A317PYN0 Uncharacterized protein DUF2496 n=1 Tax=Man...  59.3    6e-11
+  UniRef90_A0A2U1U080 DUF2496 domain-containing protein n=2 Tax=B...  59.7    6e-11
+  UniRef90_UPI0004B17FD9 DUF2496 domain-containing protein n=1 Ta...  59.3    7e-11
+  UniRef90_W1ITM6 Uncharacterized protein n=3 Tax=Xenorhabdus Tax...  59.3    7e-11
+  UniRef90_UPI0009FA471C DUF2496 domain-containing protein n=1 Ta...  59.3    8e-11
+  UniRef90_A0A2D6D8L6 DUF2496 domain-containing protein n=1 Tax=M...  59.3    8e-11
+  UniRef90_UPI0009E07E89 DUF2496 domain-containing protein n=1 Ta...  59.3    8e-11
+  UniRef90_UPI0009EA5AD8 DUF2496 domain-containing protein n=1 Ta...  59.3    9e-11
+  UniRef90_A0A366IBP9 Uncharacterized protein DUF2496 n=1 Tax=Bre...  59.3    9e-11
+  UniRef90_A0A076LS59 Uncharacterized protein n=2 Tax=Edwardsiell...  59.7    9e-11
+  UniRef90_A0A3D5BJ86 DUF2496 domain-containing protein n=1 Tax=R...  58.9    9e-11
+  UniRef90_A0A085GI80 Uncharacterized protein n=3 Tax=Buttiauxell...  58.9    1e-10
+  UniRef90_A0A167IHN5 Uncharacterized protein n=2 Tax=Pseudoalter...  58.9    1e-10
+  UniRef90_D0IBW1 Uncharacterized protein n=2 Tax=Grimontia holli...  58.9    1e-10
+  UniRef90_V4HX56 Uncharacterized protein n=1 Tax=Pseudoalteromon...  58.9    1e-10
+  UniRef90_D4DW67 Uncharacterized protein n=1 Tax=Serratia odorif...  58.9    1e-10
+  UniRef90_A0A2T3MQ85 Uncharacterized protein n=3 Tax=Photobacter...  58.9    1e-10
+  UniRef90_D2TWE2 Uncharacterized protein n=1 Tax=Arsenophonus na...  58.9    1e-10
+  UniRef90_A0A1A8T8U2 Uncharacterized protein n=2 Tax=Marinomonas...  58.9    1e-10
+  UniRef90_UPI0003F98DE4 DUF2496 domain-containing protein n=2 Ta...  58.2    2e-10
+  UniRef90_A0A2I5TAT5 DUF2496 domain-containing protein n=1 Tax=S...  58.2    2e-10
+  UniRef90_A0A099KG33 Uncharacterized protein n=1 Tax=Thalassotal...  58.2    2e-10
+  UniRef90_A0A0Q0GGV6 Uncharacterized protein n=9 Tax=Pseudoalter...  58.2    2e-10
+  UniRef90_A0A1B1KM70 Uncharacterized protein n=3 Tax=Yersiniacea...  58.2    2e-10
+  UniRef90_UPI000E74AFDA DUF2496 domain-containing protein n=1 Ta...  58.2    2e-10
+  UniRef90_A0A2T3PUZ6 Uncharacterized protein n=2 Tax=Photobacter...  58.2    3e-10
+  UniRef90_UPI000BAEFEC7 DUF2496 domain-containing protein n=2 Ta...  57.8    3e-10
+  UniRef90_A0A087L0C9 Uncharacterized protein n=1 Tax=Serratia sp...  58.2    3e-10
+  UniRef90_UPI000F66E3D9 DUF2496 domain-containing protein n=1 Ta...  57.8    3e-10
+  UniRef90_A0A0T9L848 Protein of uncharacterized function (DUF249...  58.9    3e-10
+  UniRef90_A7MJW0 Uncharacterized protein n=5 Tax=Cronobacter Tax...  57.8    3e-10
+  UniRef90_A0A1Y5GEA5 DUF2496 domain-containing protein n=1 Tax=T...  57.8    3e-10
+  UniRef90_UPI0009BC52B9 DUF2496 domain-containing protein n=2 Ta...  57.8    3e-10
+  UniRef90_K8C9B2 Uncharacterized protein n=12 Tax=Cronobacter Ta...  57.4    4e-10
+  UniRef90_A0A380QNC0 Protein of uncharacterized function (DUF249...  57.4    4e-10
+  UniRef90_A0A0K6IMT0 Uncharacterized protein n=2 Tax=Marinomonas...  57.8    4e-10
+  UniRef90_A0A0G4JPM4 Uncharacterized protein n=1 Tax=Brenneria g...  57.4    5e-10
+  UniRef90_A0A1S8CPI1 DUF2496 domain-containing protein n=1 Tax=S...  57.4    5e-10
+  UniRef90_A0A370QSC2 Uncharacterized protein DUF2496 n=1 Tax=Ent...  57.4    5e-10
+  UniRef90_A0A378GLX3 Protein of uncharacterized function (DUF249...  57.4    5e-10
+  UniRef90_A0A1I7CLF4 Uncharacterized protein n=2 Tax=Pseudoalter...  57.0    5e-10
+  UniRef90_UPI000FDE0D5D UPI000FDE0D5D related cluster n=1 Tax=un...  57.4    6e-10
+  UniRef90_A0A0Q4P0C2 Uncharacterized protein n=4 Tax=Enterobacte...  57.0    7e-10
+  UniRef90_UPI0009E3C3BB DUF2496 domain-containing protein n=2 Ta...  57.0    7e-10
+  UniRef90_UPI000EF1B489 DUF2496 domain-containing protein n=1 Ta...  57.0    8e-10
+  UniRef90_A0A2A2HN28 DUF2496 domain-containing protein n=3 Tax=A...  56.6    8e-10
+  UniRef90_U2ZXH2 Uncharacterized protein n=1 Tax=Vibrio proteoly...  56.6    8e-10
+  UniRef90_A0A068RCX7 Uncharacterized protein YbaM n=2 Tax=Serrat...  57.0    9e-10
+  UniRef90_C6CQS3 Uncharacterized protein n=3 Tax=Dickeya chrysan...  56.6    9e-10
+  UniRef90_A0A1C3JSR0 Uncharacterized protein n=2 Tax=Marinomonas...  56.6    9e-10
+  UniRef90_UPI000F64A20B DUF2496 domain-containing protein n=1 Ta...  56.6    9e-10
+  UniRef90_A0A0D8PPS8 Uncharacterized protein n=2 Tax=Photobacter...  57.0    9e-10
+  UniRef90_A0A329E5G6 Uncharacterized protein DUF2496 n=4 Tax=Vib...  56.6    9e-10
+  UniRef90_A0A2G0Q8T4 Uncharacterized protein n=1 Tax=Xenorhabdus...  56.6    1e-09
+  UniRef90_W0LHM3 Uncharacterized protein n=3 Tax=Yersiniaceae Ta...  56.6    1e-09
+  UniRef90_A0A0B7J9P5 Uncharacterized protein n=4 Tax=Photobacter...  56.6    1e-09
+  UniRef90_A0A0F7D268 DUF2496 domain-containing protein n=26 Tax=...  56.2    1e-09
+  UniRef90_E0SD95 Uncharacterized protein n=8 Tax=Dickeya TaxID=2...  56.2    1e-09
+  UniRef90_UPI0008DDE774 DUF2496 domain-containing protein n=3 Ta...  56.2    1e-09
+  UniRef90_Q7N0N7 Uncharacterized protein n=16 Tax=Photorhabdus T...  56.2    1e-09
+  UniRef90_A0A0G4Q747 Uncharacterized protein n=6 Tax=Enterobacte...  56.2    1e-09
+  UniRef90_A0A2X4UF45 Protein of uncharacterized function (DUF249...  56.2    1e-09
+  UniRef90_A0A1T4K4Q7 Uncharacterized protein n=1 Tax=Vibrio cinc...  56.2    2e-09
+  UniRef90_A0A1E5CJQ4 DUF2496 domain-containing protein n=5 Tax=E...  55.8    2e-09
+  UniRef90_A0A2Y9TVT9 DUF2496 domain-containing protein n=1 Tax=L...  55.8    2e-09
+  UniRef90_A0A1N6QH11 Uncharacterized protein n=1 Tax=Aeromonas s...  55.8    2e-09
+  UniRef90_A0A1I4YH41 Uncharacterized protein n=1 Tax=Xenorhabdus...  55.8    2e-09
+  UniRef90_A0A3A3EH72 DUF2496 domain-containing protein n=1 Tax=P...  55.8    2e-09
+  UniRef90_A0A1H3W8X9 Uncharacterized protein n=4 Tax=Pectobacter...  55.8    2e-09
+  UniRef90_A0A2E2LZ77 Uncharacterized protein n=2 Tax=Pseudoalter...  55.5    2e-09
+  UniRef90_UPI000372575E DUF2496 domain-containing protein n=1 Ta...  55.5    3e-09
+  UniRef90_K1IGJ4 Uncharacterized protein n=27 Tax=Aeromonadaceae...  55.1    3e-09
+  UniRef90_A0A2A5JNA5 Uncharacterized protein n=1 Tax=Pseudoalter...  55.5    3e-09
+  UniRef90_A0A085JB54 Uncharacterized protein n=2 Tax=Tatumella p...  55.5    3e-09
+  UniRef90_K8AHS3 Uncharacterized protein n=1 Tax=Cronobacter dub...  55.1    3e-09
+  UniRef90_A0A380NR34 Primosomal protein n=3 Tax=Vibrio TaxID=662...  55.1    4e-09
+  UniRef90_A0A0M9UIG5 Uncharacterized protein n=2 Tax=Pseudoalter...  55.1    4e-09
+  UniRef90_A0A2G8BS61 DUF2496 domain-containing protein n=1 Tax=T...  55.1    4e-09
+  UniRef90_A0A220VDM3 DUF2496 domain-containing protein n=1 Tax=P...  54.7    5e-09
+  UniRef90_A0A369A8V1 Uncharacterized protein DUF2496 n=1 Tax=Mar...  55.1    5e-09
+  UniRef90_UPI00058E6EFD DUF2496 domain-containing protein n=1 Ta...  55.1    5e-09
+  UniRef90_A0A2K8QJE3 DUF2496 domain-containing protein n=2 Tax=P...  55.1    5e-09
+  UniRef90_W1IXL1 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  54.7    5e-09
+  UniRef90_UPI00097C71A5 DUF2496 domain-containing protein n=1 Ta...  54.7    5e-09
+  UniRef90_A0A1E7Q8Q1 DUF2496 domain-containing protein n=1 Tax=R...  54.7    5e-09
+  UniRef90_A0A167G7A2 Uncharacterized protein n=1 Tax=Pseudoalter...  54.7    5e-09
+  UniRef90_UPI000907AEF0 DUF2496 domain-containing protein n=1 Ta...  54.7    5e-09
+  UniRef90_B6VNT2 Uncharacterized protein n=5 Tax=Photorhabdus Ta...  54.7    5e-09
+  UniRef90_A0A3N0HVD7 DUF2496 domain-containing protein n=2 Tax=D...  54.7    6e-09
+  UniRef90_UPI00082FB49B DUF2496 domain-containing protein n=1 Ta...  54.3    6e-09
+  UniRef90_A0A1H9IGH1 Uncharacterized protein n=1 Tax=Rosenbergie...  54.7    6e-09
+  UniRef90_A0A1I7BKQ4 Uncharacterized protein n=2 Tax=Pseudoalter...  54.3    6e-09
+  UniRef90_A0A1N6MTQ8 Uncharacterized protein n=5 Tax=Xenorhabdus...  54.7    6e-09
+  UniRef90_A0A0A8FEV3 Uncharacterized protein n=5 Tax=Enterobacte...  54.3    6e-09
+  UniRef90_UPI000DEFFD5E DUF2496 domain-containing protein n=1 Ta...  54.7    6e-09
+  UniRef90_A0A2D0JNE7 Uncharacterized protein n=2 Tax=Xenorhabdus...  54.3    7e-09
+  UniRef90_A0A2A2M796 DUF2496 domain-containing protein n=5 Tax=E...  54.7    7e-09
+  UniRef90_A0A2S7UYH0 Uncharacterized protein n=1 Tax=Psychrospha...  54.3    7e-09
+  UniRef90_A0A128ETA0 Uncharacterized protein n=4 Tax=Grimontia T...  54.3    8e-09
+  UniRef90_A0A166WMT4 Uncharacterized protein n=1 Tax=Pseudoalter...  54.3    9e-09
+  UniRef90_UPI000F0BCE5F DUF2496 domain-containing protein n=1 Ta...  54.3    9e-09
+  UniRef90_A0A318V3Y3 Uncharacterized protein DUF2496 n=1 Tax=Mar...  54.3    9e-09
+  UniRef90_A0A087JRD0 Primosomal protein n=9 Tax=Vibrio TaxID=662...  53.9    1e-08
+  UniRef90_A0A0N8Q4X0 Uncharacterized protein n=3 Tax=Pseudoalter...  53.9    1e-08
+  UniRef90_A0A2N8ZAY2 Uncharacterized protein n=1 Tax=Vibrio tape...  53.9    1e-08
+  UniRef90_A0A2K9JZK7 Uncharacterized protein n=4 Tax=Pseudoalter...  53.9    1e-08
+  UniRef90_UPI0007F8C992 DUF2496 domain-containing protein n=1 Ta...  54.7    1e-08
+  UniRef90_A0A0M0M325 Uncharacterized protein n=1 Tax=Rheinheimer...  53.9    1e-08
+  UniRef90_T0P5V8 DUF2496 family protein YbaM n=19 Tax=Gammaprote...  53.9    1e-08
+  UniRef90_A0A1E5BEC8 Uncharacterized protein n=1 Tax=Vibrio geno...  53.9    1e-08
+  UniRef90_A0A0K0HQ73 DUF2496 domain-containing protein n=5 Tax=H...  53.9    1e-08
+  UniRef90_U4JZG4 Uncharacterized protein n=5 Tax=Vibrio nigripul...  53.5    1e-08
+  UniRef90_A0A0Q0QMV7 Primosomal protein n=6 Tax=Vibrio metoecus ...  53.9    1e-08
+  UniRef90_A0A0M2T1V1 Uncharacterized protein n=1 Tax=Pararheinhe...  53.9    1e-08
+  UniRef90_A0A2L1URW2 DUF2496 domain-containing protein n=10 Tax=...  53.5    1e-08
+  UniRef90_UPI000951FE83 DUF2496 domain-containing protein n=1 Ta...  53.5    1e-08
+  UniRef90_A0A2X4REM6 Protein of uncharacterized function (DUF249...  53.5    2e-08
+  UniRef90_A0A0B9GYI4 Primosomal protein n=2 Tax=Photobacterium g...  53.5    2e-08
+  UniRef90_A0A2G1B746 Uncharacterized protein n=1 Tax=Pseudoalter...  53.5    2e-08
+  UniRef90_UPI000B3649D9 DUF2496 domain-containing protein n=1 Ta...  53.5    2e-08
+  UniRef90_A0A2K4XAM4 Uncharacterized protein n=6 Tax=Pseudoalter...  53.1    2e-08
+  UniRef90_UPI00035E3B6D DUF2496 domain-containing protein n=1 Ta...  53.1    2e-08
+  UniRef90_A0A2D0IQF2 Uncharacterized protein n=2 Tax=Morganellac...  53.1    2e-08
+  UniRef90_A0A1Y2SSG1 Uncharacterized protein n=1 Tax=Xenorhabdus...  53.1    2e-08
+  UniRef90_A0A2T3IVT4 Primosomal protein n=1 Tax=Photobacterium l...  53.1    2e-08
+  UniRef90_UPI0006EC029D DUF2496 domain-containing protein n=1 Ta...  53.5    2e-08
+  UniRef90_A0A1Y2SLG7 Uncharacterized protein n=1 Tax=Xenorhabdus...  53.1    2e-08
+  UniRef90_A0A0N1KIE0 Uncharacterized protein n=2 Tax=Moellerella...  53.1    2e-08
+  UniRef90_A0A2U3BAU6 Primosomal protein n=1 Tax=Vibrio sp. E4404...  53.1    2e-08
+  UniRef90_A0A367D4H9 Protein of uncharacterized function (DUF249...  53.1    2e-08
+  UniRef90_A0A1Y0CW39 DUF2496 domain-containing protein n=1 Tax=O...  52.8    2e-08
+  UniRef90_A0A235CGV7 DUF2496 domain-containing protein n=1 Tax=O...  53.1    2e-08
+  UniRef90_A0Y3M3 Uncharacterized protein n=13 Tax=Alteromonadale...  52.8    2e-08
+  UniRef90_A0A0G4Q9U8 Uncharacterized protein n=8 Tax=Morganellac...  53.1    3e-08
+  UniRef90_A0A2T3N690 Primosomal protein n=1 Tax=Photobacterium r...  52.8    3e-08
+  UniRef90_A0A1C3ERC9 Primosomal protein n=1 Tax=Enterovibrio pac...  52.8    3e-08
+  UniRef90_A0A233RHD0 DUF2496 domain-containing protein n=1 Tax=O...  52.8    3e-08
+  UniRef90_A0A2C6EAX0 Uncharacterized protein n=1 Tax=Pseudoalter...  52.8    3e-08
+  UniRef90_A0A0F6AFL4 Uncharacterized protein n=1 Tax=Pseudoalter...  52.8    3e-08
+  UniRef90_A0A3P4FP06 Primosomal replication protein N n=1 Tax=Es...  53.5    3e-08
+  UniRef90_A0A1R4B1Y7 Uncharacterized protein n=1 Tax=Vibrio palu...  52.8    3e-08
+  UniRef90_A0A350QDB5 Uncharacterized protein n=1 Tax=Candidatus ...  52.8    4e-08
+  UniRef90_A0A2G2IIC7 Uncharacterized protein n=1 Tax=Moritella s...  52.8    4e-08
+  UniRef90_A8H6S0 Uncharacterized protein n=1 Tax=Shewanella peal...  52.4    4e-08
+  UniRef90_Q2C5D2 Uncharacterized protein n=6 Tax=Photobacterium ...  52.4    4e-08
+  UniRef90_A0A0X3Y804 Uncharacterized protein n=1 Tax=Rheinheimer...  52.8    4e-08
+  UniRef90_A0A2S7XJF0 Uncharacterized protein n=2 Tax=Aliivibrio ...  52.8    4e-08
+  UniRef90_A0A0J1GKM7 Primosomal protein n=2 Tax=Photobacterium a...  52.8    4e-08
+  UniRef90_A0A2V1HJU4 DUF2496 domain-containing protein n=1 Tax=S...  52.4    5e-08
+  UniRef90_A0A1I3Q777 Uncharacterized protein n=2 Tax=Xenorhabdus...  52.4    5e-08
+  UniRef90_A0A068QYL6 Uncharacterized protein n=1 Tax=Xenorhabdus...  52.4    5e-08
+  UniRef90_A0A0M0HU08 Primosomal protein n=1 Tax=Vibrio nereis Ta...  52.0    6e-08
+  UniRef90_A0A1A9AZ21 Primosomal protein n=4 Tax=Plesiomonas shig...  52.0    7e-08
+  UniRef90_A0A0B8QNA9 Uncharacterized protein n=4 Tax=Vibrio TaxI...  52.0    7e-08
+  UniRef90_C6CBN4 Uncharacterized protein n=1 Tax=Dickeya paradis...  51.6    8e-08
+  UniRef90_UPI0009E30DC4 DUF2496 domain-containing protein n=1 Ta...  51.6    8e-08
+  UniRef90_R9PJ74 Uncharacterized protein n=1 Tax=Agarivorans alb...  51.6    8e-08
+  UniRef90_A0A3A2I6J3 Primosomal protein n=1 Tax=Vibrio sp. PID23...  51.6    8e-08
+  UniRef90_UPI000FDA934F UPI000FDA934F related cluster n=1 Tax=un...  51.6    8e-08
+  UniRef90_UPI000DB9500B DUF2496 domain-containing protein n=2 Ta...  52.0    8e-08
+  UniRef90_UPI000F65710C DUF2496 domain-containing protein n=1 Ta...  52.0    9e-08
+  UniRef90_A0A1Q2H0E6 Uncharacterized protein n=1 Tax=Pseudoalter...  51.6    9e-08
+  UniRef90_A0A3G9I3C0 DUF2496 domain-containing protein n=3 Tax=A...  51.6    9e-08
+  UniRef90_X6QD57 PF10689 family protein n=3 Tax=Providencia alca...  51.6    9e-08
+  UniRef90_A0A0M0HVS9 Primosomal protein n=1 Tax=Vibrio hepatariu...  51.6    1e-07
+  UniRef90_A0A084A5F1 Uncharacterized protein n=2 Tax=Serratia sp...  51.6    1e-07
+  UniRef90_A0A366IV45 Uncharacterized protein DUF2496 n=1 Tax=Mar...  51.2    1e-07
+  UniRef90_A0A0J1HC31 Primosomal protein n=1 Tax=Photobacterium a...  51.2    1e-07
+  UniRef90_A0A375ACZ7 Uncharacterized protein n=1 Tax=Dickeya aqu...  51.6    1e-07
+  UniRef90_UPI0009E6D9CC DUF2496 domain-containing protein n=1 Ta...  51.2    1e-07
+  UniRef90_A3Y637 Uncharacterized protein n=2 Tax=Marinomonas sp....  51.6    1e-07
+  UniRef90_A0A3N9THC1 DUF2496 domain-containing protein n=1 Tax=V...  51.2    1e-07
+  UniRef90_UPI000CF6C7D0 DUF2496 domain-containing protein n=1 Ta...  51.2    1e-07
+  UniRef90_A0A0C3HTM6 Primosomal protein n=1 Tax=Vibrio mytili Ta...  51.2    1e-07
+  UniRef90_A0A1B9PPW9 Uncharacterized protein n=1 Tax=Aliivibrio ...  51.6    1e-07
+  UniRef90_A0A167I488 Uncharacterized protein n=3 Tax=Pseudoalter...  51.2    1e-07
+  UniRef90_Q8D150 Uncharacterized protein n=29 Tax=Yersiniaceae T...  51.2    1e-07
+  UniRef90_UPI000300310A DUF2496 domain-containing protein n=1 Ta...  51.2    1e-07
+  UniRef90_A0A2P7QHU6 DUF2496 domain-containing protein n=1 Tax=Z...  50.8    1e-07
+  UniRef90_F9R809 Uncharacterized protein n=4 Tax=Vibrio TaxID=66...  50.8    2e-07
+  UniRef90_UPI000A000D06 DUF2496 domain-containing protein n=1 Ta...  52.0    2e-07
+  UniRef90_A0A2H9U5E1 DUF2496 domain-containing protein n=1 Tax=A...  50.8    2e-07
+  UniRef90_I0QM45 Uncharacterized protein n=4 Tax=Yersiniaceae Ta...  50.8    2e-07
+  UniRef90_N6W5B3 Uncharacterized protein n=7 Tax=Pseudoalteromon...  50.8    2e-07
+  UniRef90_A0A345M208 DUF2496 domain-containing protein n=2 Tax=P...  50.8    2e-07
+  UniRef90_UPI000A0774FA DUF2496 domain-containing protein n=1 Ta...  50.8    2e-07
+  UniRef90_F3BF47 Uncharacterized protein n=5 Tax=root TaxID=1 Re...  50.4    2e-07
+  UniRef90_UPI000D65E75C DUF2496 domain-containing protein n=1 Ta...  50.8    2e-07
+  UniRef90_A0A2M8HAN8 DUF2496 domain-containing protein n=2 Tax=A...  50.8    2e-07
+  UniRef90_A0A0J8XZ06 Primosomal protein n=1 Tax=Photobacterium s...  50.8    2e-07
+  UniRef90_G7EHC3 Uncharacterized protein n=1 Tax=Pseudoalteromon...  50.4    2e-07
+  UniRef90_A0A0J1JQ06 Primosomal protein n=1 Tax=Photobacterium g...  50.8    2e-07
+  UniRef90_A0A2P7RCY1 DUF2496 domain-containing protein n=1 Tax=Z...  50.4    2e-07
+  UniRef90_UPI000EFC437A DUF2496 domain-containing protein n=1 Ta...  50.8    2e-07
+  UniRef90_R1F681 Uncharacterized protein n=2 Tax=Aeromonas TaxID...  50.4    2e-07
+  UniRef90_A0A2N7GBD3 Primosomal protein n=1 Tax=Vibrio sp. 10N.2...  50.4    2e-07
+  UniRef90_A0A3A6QJH6 DUF2496 domain-containing protein n=1 Tax=V...  50.4    2e-07
+  UniRef90_UPI000E3E3B3B DUF2496 domain-containing protein n=1 Ta...  50.4    2e-07
+  UniRef90_F9S6V1 Uncharacterized protein n=1 Tax=Vibrio ichthyoe...  50.4    2e-07
+  UniRef90_A0A2M8H1Z7 Primosomal protein n=1 Tax=Vibrio sp. HA201...  50.4    2e-07
+  UniRef90_A0A1V3HXD8 Primosomal protein n=4 Tax=Vibrionaceae Tax...  50.4    2e-07
+  UniRef90_A0A1Q9HAR4 Primosomal protein n=1 Tax=Vibrio ponticus ...  50.4    2e-07
+  UniRef90_A0A269PP50 Uncharacterized protein n=1 Tax=Pseudoalter...  50.4    3e-07
+  UniRef90_UPI0004AEDBCC DUF2496 domain-containing protein n=1 Ta...  50.4    3e-07
+  UniRef90_UPI000F8F2EFB UPI000F8F2EFB related cluster n=1 Tax=un...  50.4    3e-07
+  UniRef90_A0A1S1MZ30 DUF2496 domain-containing protein n=1 Tax=P...  50.4    3e-07
+  UniRef90_A0A2S7XC79 Uncharacterized protein n=1 Tax=Aliivibrio ...  50.4    3e-07
+  UniRef90_A0A085HMJ5 Uncharacterized protein n=1 Tax=Leminorella...  50.4    3e-07
+  UniRef90_UPI000B363D2C DUF2496 domain-containing protein n=1 Ta...  50.4    3e-07
+  UniRef90_A0A1M4SH62 Uncharacterized protein n=1 Tax=Marinomonas...  50.4    3e-07
+  UniRef90_D1P4G5 Uncharacterized protein n=2 Tax=Providencia rus...  50.4    3e-07
+  UniRef90_A0A1N6FIK1 Uncharacterized protein n=1 Tax=Salinivibri...  50.1    3e-07
+  UniRef90_A0A2A4GFS9 Primosomal protein n=2 Tax=Salinivibrio Tax...  50.4    3e-07
+  UniRef90_UPI0009EBF51B DUF2496 domain-containing protein n=1 Ta...  50.4    3e-07
+  UniRef90_A0A2N0XUD9 Primosomal protein n=3 Tax=Vibrio TaxID=662...  50.1    3e-07
+  UniRef90_A0A1E5D5W9 Primosomal protein n=2 Tax=Vibrionales TaxI...  50.1    3e-07
+  UniRef90_UPI0004707AB4 DUF2496 domain-containing protein n=2 Ta...  50.4    3e-07
+  UniRef90_A0A0U1HR90 Protein of uncharacterized function (DUF249...  50.1    3e-07
+  UniRef90_A0A0A8NQ38 Uncharacterized protein n=4 Tax=Xenorhabdus...  50.1    4e-07
+  UniRef90_A0A090IKA5 Uncharacterized protein n=1 Tax=Aliivibrio ...  50.4    4e-07
+  UniRef90_A0A198FLV9 Uncharacterized protein n=1 Tax=Cosenzaea m...  50.1    4e-07
+  UniRef90_UPI000A03B9FF DUF2496 domain-containing protein n=1 Ta...  50.1    4e-07
+  UniRef90_G7LLT8 Uncharacterized protein n=3 Tax=Brenneria TaxID...  50.1    4e-07
+  UniRef90_A0A090P6U7 Uncharacterized protein n=1 Tax=Vibrio pont...  49.7    4e-07
+  UniRef90_A0A068QP80 Uncharacterized protein n=1 Tax=Xenorhabdus...  49.7    4e-07
+  UniRef90_A0A2M8K161 Uncharacterized protein n=1 Tax=Marinomonas...  50.4    4e-07
+  UniRef90_UPI000C1640BF DUF2496 domain-containing protein n=1 Ta...  49.7    5e-07
+  UniRef90_B0TPD1 Uncharacterized protein n=1 Tax=Shewanella hali...  49.7    5e-07
+  UniRef90_UPI00041E892E DUF2496 domain-containing protein n=1 Ta...  49.7    5e-07
+  UniRef90_A0A0A5JNQ6 Primosomal protein n=3 Tax=Vibrio TaxID=662...  49.7    5e-07
+  UniRef90_A0A221I6M2 Uncharacterized protein n=1 Tax=Pseudoalter...  49.7    5e-07
+  UniRef90_U3ANL2 Uncharacterized protein n=2 Tax=Vibrio TaxID=66...  49.7    5e-07
+  UniRef90_E8LZ98 Uncharacterized protein n=1 Tax=Vibrio brasilie...  49.7    6e-07
+  UniRef90_A0A1I1I1C9 Uncharacterized protein n=1 Tax=Pseudoalter...  49.7    6e-07
+  UniRef90_A0A1Q9HEB6 Primosomal protein n=1 Tax=Vibrio panuliri ...  49.3    6e-07
+  UniRef90_W7QJ87 Uncharacterized protein n=1 Tax=Catenovulum aga...  49.3    6e-07
+  UniRef90_A0A2W0GK04 DUF2496 domain-containing protein n=3 Tax=P...  49.7    6e-07
+  UniRef90_A0A0F2ISM1 Primosomal protein n=6 Tax=Vibrio TaxID=662...  49.3    6e-07
+  UniRef90_A0A3E0DHZ1 Uncharacterized protein DUF2496 n=1 Tax=Mar...  49.3    6e-07
+  UniRef90_UPI0008D9B65A DUF2496 domain-containing protein n=1 Ta...  49.3    6e-07
+  UniRef90_A0A1Q5TVZ8 Uncharacterized protein n=1 Tax=Xenorhabdus...  49.3    6e-07
+  UniRef90_UPI000B3E4DBE DUF2496 domain-containing protein n=1 Ta...  49.3    7e-07
+  UniRef90_UPI000F67F85F DUF2496 domain-containing protein n=1 Ta...  49.3    7e-07
+  UniRef90_A0A1X9TZ02 Primosomal protein n=8 Tax=Photobacterium d...  49.3    7e-07
+  UniRef90_V5FHN5 Uncharacterized protein n=1 Tax=Vibrio haliotic...  49.3    7e-07
+  UniRef90_A0A0U2IST7 Uncharacterized protein n=5 Tax=Pseudoalter...  49.3    8e-07
+  UniRef90_A0A2T3N510 Uncharacterized protein n=1 Tax=Photobacter...  49.3    8e-07
+  UniRef90_A0A1V3H971 Uncharacterized protein n=4 Tax=Vibrionacea...  49.3    8e-07
+  UniRef90_A0A0F5AUL3 Uncharacterized protein n=9 Tax=Vibrionacea...  49.3    8e-07
+  UniRef90_A0A193KBC1 Primosomal protein n=4 Tax=Vibrio TaxID=662...  49.3    8e-07
+  UniRef90_Q6LTF6 Uncharacterized protein n=2 Tax=Photobacterium ...  49.3    8e-07
+  UniRef90_A0A1T4US69 Uncharacterized protein n=1 Tax=Enterovibri...  49.3    9e-07
+  UniRef90_UPI000970B6C0 DUF2496 domain-containing protein n=1 Ta...  48.9    9e-07
+  UniRef90_UPI000CF5DA5C DUF2496 domain-containing protein n=2 Ta...  48.9    9e-07
+  UniRef90_A0A0D0IBZ3 Primosomal protein n=7 Tax=Vibrio TaxID=662...  48.9    9e-07
+  UniRef90_A0A2N5E9Z9 DUF2496 domain-containing protein n=3 Tax=u...  48.9    1e-06
+  UniRef90_F6CXI7 Uncharacterized protein n=1 Tax=Marinomonas pos...  48.5    1e-06
+  UniRef90_H2FWH1 Uncharacterized protein n=1 Tax=Oceanimonas sp....  48.9    1e-06
+  UniRef90_A0A0F4NK06 Primosomal protein n=1 Tax=Vibrio galatheae...  48.9    1e-06
+  UniRef90_A0A2D0KI12 Uncharacterized protein n=2 Tax=Xenorhabdus...  48.5    1e-06
+  UniRef90_A0A1X1MRE4 Primosomal protein n=2 Tax=Vibrio sp. qd031...  48.5    1e-06
+  UniRef90_UPI000A050EED DUF2496 domain-containing protein n=1 Ta...  48.9    1e-06
+  UniRef90_UPI000B34EDE6 DUF2496 domain-containing protein n=1 Ta...  48.5    1e-06
+  UniRef90_UPI000419251E DUF2496 domain-containing protein n=1 Ta...  48.9    1e-06
+  UniRef90_A0A2T3JRR7 Uncharacterized protein n=1 Tax=Photobacter...  48.5    1e-06
+  UniRef90_UPI000BE46F8C DUF2496 domain-containing protein n=1 Ta...  48.9    1e-06
+  UniRef90_D3V0A7 Uncharacterized protein n=9 Tax=Xenorhabdus bov...  48.5    1e-06
+  UniRef90_UPI0004290AFA DUF2496 domain-containing protein n=1 Ta...  48.5    2e-06
+  UniRef90_G7G6V9 Uncharacterized protein n=1 Tax=Pseudoalteromon...  48.1    2e-06
+  UniRef90_A0A1H5YYI3 Uncharacterized protein n=2 Tax=Vibrio hang...  48.1    2e-06
+  UniRef90_A0A2U9LAS3 DUF2496 domain-containing protein n=2 Tax=P...  48.5    2e-06
+  UniRef90_A0A1M7Z1I9 Uncharacterized protein n=1 Tax=Vibrio quin...  48.5    2e-06
+  UniRef90_Q5E645 Uncharacterized protein n=10 Tax=Aliivibrio fis...  48.5    2e-06
+  UniRef90_A0A1D8SA76 DUF2496 domain-containing protein n=5 Tax=V...  48.1    2e-06
+  UniRef90_D4ZHY3 Uncharacterized protein n=1 Tax=Shewanella viol...  48.5    2e-06
+  UniRef90_X7E594 Uncharacterized protein n=1 Tax=Marinomonas ush...  48.1    2e-06
+  UniRef90_UPI000F83C204 DUF2496 domain-containing protein n=1 Ta...  48.1    2e-06
+  UniRef90_F9TA52 Primosomal protein n=5 Tax=Vibrio TaxID=662 Rep...  48.1    2e-06
+  UniRef90_UPI0004E2B42C DUF2496 domain-containing protein n=2 Ta...  48.5    2e-06
+  UniRef90_UPI0002F1506B DUF2496 domain-containing protein n=1 Ta...  47.8    2e-06
+  UniRef90_A0A1Q1PBE3 Uncharacterized protein n=6 Tax=Vibrio camp...  47.8    3e-06
+  UniRef90_A0A2A2CU65 Primosomal protein n=8 Tax=Vibrio TaxID=662...  47.8    3e-06
+  UniRef90_UPI000408EE56 DUF2496 domain-containing protein n=1 Ta...  47.8    3e-06
+  UniRef90_A0A1E5ANR4 Uncharacterized protein n=1 Tax=Aliivibrio ...  48.1    3e-06
+  UniRef90_A8T5X7 Uncharacterized protein n=1 Tax=Vibrio sp. AND4...  47.8    3e-06
+  UniRef90_A0A135ZN69 Primosomal protein n=2 Tax=Photobacterium s...  47.8    3e-06
+  UniRef90_A0A366ATU3 DUF2496 domain-containing protein n=10 Tax=...  47.8    3e-06
+  UniRef90_A0A090RB16 Uncharacterized protein n=1 Tax=Vibrio sp. ...  47.8    3e-06
+  UniRef90_UPI000D314297 DUF2496 domain-containing protein n=1 Ta...  47.8    3e-06
+  UniRef90_A0A366CTB6 Uncharacterized protein DUF2496 n=1 Tax=Mar...  47.8    3e-06
+  UniRef90_A0A231N2V8 DUF2496 domain-containing protein n=2 Tax=Z...  47.8    3e-06
+  UniRef90_A0A240EMC0 Uncharacterized protein n=2 Tax=Vibrio thal...  47.4    3e-06
+  UniRef90_UPI0009DD25C0 DUF2496 domain-containing protein n=2 Ta...  47.4    3e-06
+  UniRef90_UPI0008DD250A DUF2496 domain-containing protein n=1 Ta...  47.4    3e-06
+  UniRef90_UPI000DD398CD DUF2496 domain-containing protein n=1 Ta...  47.4    4e-06
+  UniRef90_A0A1B7K9N9 Uncharacterized protein n=1 Tax=Obesumbacte...  47.4    4e-06
+  UniRef90_UPI000CF65A2B DUF2496 domain-containing protein n=1 Ta...  47.4    4e-06
+  UniRef90_A0A2C9P724 Primosomal protein n=8 Tax=Vibrionaceae Tax...  47.4    4e-06
+  UniRef90_A0A1B1EB52 Primosomal protein n=3 Tax=Vibrio TaxID=662...  47.4    4e-06
+  UniRef90_M4U7W3 Uncharacterized protein n=1 Tax=Psychromonas sp...  47.4    4e-06
+  UniRef90_A0A220PUE5 Primosomal protein n=2 Tax=Shewanella TaxID...  47.8    4e-06
+  UniRef90_UPI00063CAD53 DUF2496 domain-containing protein n=2 Ta...  47.4    4e-06
+  UniRef90_UPI000A36F436 DUF2496 domain-containing protein n=1 Ta...  47.0    6e-06
+  UniRef90_UPI0005710C5C DUF2496 domain-containing protein n=1 Ta...  47.0    6e-06
+  UniRef90_A0A1Y6ITX7 Uncharacterized protein n=1 Tax=Vibrio mang...  47.0    6e-06
+  UniRef90_UPI000CF68150 DUF2496 domain-containing protein n=1 Ta...  47.0    6e-06
+  UniRef90_A0A2N7DGJ2 Primosomal protein n=1 Tax=Vibrio sp. 10N.2...  47.0    6e-06
+  UniRef90_A0A1Y0D292 DUF2496 domain-containing protein n=1 Tax=O...  46.6    7e-06
+  UniRef90_A0A0C3MU18 Uncharacterized protein n=1 Tax=Shewanella ...  47.0    7e-06
+  UniRef90_C9QJU0 Uncharacterized protein n=2 Tax=Vibrio TaxID=66...  46.6    8e-06
+  UniRef90_A0A1A8TA91 Uncharacterized protein n=2 Tax=Marinomonas...  46.6    8e-06
+  UniRef90_A0A0A3EVW9 Primosomal protein n=12 Tax=Vibrio TaxID=66...  46.6    8e-06
+  UniRef90_A0A1E5IQZ8 Primosomal protein n=1 Tax=Shewanella colwe...  47.0    8e-06
+  UniRef90_A0A2U8IAG8 DUF2496 domain-containing protein n=1 Tax=C...  47.0    8e-06
+  UniRef90_A0A2N7D1Q1 Primosomal protein n=1 Tax=Vibrio sp. 10N.2...  46.6    8e-06
+  UniRef90_A0A1Y5D805 Uncharacterized protein n=1 Tax=Marinomonas...  47.0    9e-06
+  UniRef90_A0A0C2NNC3 Primosomal protein n=1 Tax=Vibrio renipisca...  46.6    9e-06
+  UniRef90_E8M6X0 Uncharacterized protein n=1 Tax=Vibrio sinaloen...  46.6    9e-06
+  UniRef90_Q1Z5T4 Uncharacterized protein n=3 Tax=Photobacterium ...  46.6    9e-06
+  UniRef90_A0A2I0DXI6 Primosomal protein n=1 Tax=Shewanella sp. G...  46.6    9e-06
+  UniRef90_A0A1S6HUD4 Uncharacterized protein n=1 Tax=Shewanella ...  47.0    9e-06
+  UniRef90_A0A356D4I5 Uncharacterized protein n=1 Tax=Providencia...  46.6    1e-05
+  UniRef90_UPI0003701576 DUF2496 domain-containing protein n=1 Ta...  46.2    1e-05
+  UniRef90_A0A1J0EAP0 DUF2496 domain-containing protein n=1 Tax=P...  46.6    1e-05
+  UniRef90_E9CK66 Uncharacterized protein n=1 Tax=Serratia symbio...  47.0    1e-05
+  UniRef90_A0A1B7JNC4 Uncharacterized protein n=1 Tax=Providencia...  46.2    1e-05
+  UniRef90_U3CMG9 Uncharacterized protein n=1 Tax=Vibrio ezurae N...  46.2    1e-05
+  UniRef90_A0A090RXV6 Uncharacterized protein n=5 Tax=Vibrio TaxI...  46.2    1e-05
+  UniRef90_W0HMC8 YbaM n=3 Tax=Sodalis TaxID=84565 RepID=W0HMC8_9...  46.2    1e-05
+  UniRef90_A0A0M2V962 Uncharacterized protein n=1 Tax=Arsukibacte...  46.6    1e-05
+  UniRef90_UPI0002FCE073 DUF2496 domain-containing protein n=1 Ta...  46.2    1e-05
+  UniRef90_UPI0004127F7C DUF2496 domain-containing protein n=1 Ta...  46.2    1e-05
+  UniRef90_A6VV16 Uncharacterized protein n=1 Tax=Marinomonas sp....  46.2    1e-05
+  UniRef90_A0A2K2UT98 Leucyl/phenylalanyl-tRNA--protein transfera...  46.6    1e-05
+  UniRef90_UPI00056E78F9 DUF2496 domain-containing protein n=2 Ta...  46.2    1e-05
+  UniRef90_A0A349FFC9 Primosomal protein n=1 Tax=Vibrio sp. TaxID...  45.8    2e-05
+  UniRef90_A0A1M5X8X6 Uncharacterized protein n=2 Tax=Vibrio aero...  45.8    2e-05
+  UniRef90_A3QGI7 Uncharacterized protein n=1 Tax=Shewanella loih...  45.8    2e-05
+  UniRef90_A0A249D0P9 DUF2496 domain-containing protein n=14 Tax=...  45.8    2e-05
+  UniRef90_A0A099LRM2 Primosomal protein n=1 Tax=Vibrio navarrens...  45.8    2e-05
+  UniRef90_A8FSZ9 Uncharacterized protein n=2 Tax=Shewanella TaxI...  45.8    2e-05
+  UniRef90_UPI000E0B4276 DUF2496 domain-containing protein n=1 Ta...  45.8    2e-05
+  UniRef90_UPI000FD742E1 DUF2496 domain-containing protein n=1 Ta...  46.6    2e-05
+  UniRef90_UPI0008383652 DUF2496 domain-containing protein n=1 Ta...  45.8    2e-05
+  UniRef90_A0A0F5VHE7 Primosomal protein n=1 Tax=Photobacterium h...  45.4    2e-05
+  UniRef90_A0A0Q0HYF3 Uncharacterized protein n=1 Tax=Shewanella ...  45.4    2e-05
+  UniRef90_A0A3D1Z8Q4 Primosomal protein n=2 Tax=Vibrio TaxID=662...  45.4    2e-05
+  UniRef90_A0A1Y5JXP9 Uncharacterized protein n=1 Tax=Pseudoalter...  45.4    2e-05
+  UniRef90_K8WYN6 Uncharacterized protein n=1 Tax=Providencia bur...  45.4    3e-05
+  UniRef90_A0A2N1DJ97 DUF2496 domain-containing protein n=1 Tax=P...  45.4    3e-05
+  UniRef90_A0A2C6DI97 Primosomal protein n=1 Tax=Budvicia aquatic...  45.4    3e-05
+  UniRef90_UPI0009E46142 DUF2496 domain-containing protein n=2 Ta...  45.4    3e-05
+  UniRef90_A0A1T4R727 DUF2496 domain-containing protein n=1 Tax=O...  45.4    3e-05
+  UniRef90_F0LPC2 Uncharacterized protein n=2 Tax=Vibrio furnissi...  45.1    3e-05
+  UniRef90_B2Q4G5 Uncharacterized protein n=6 Tax=Gammaproteobact...  45.1    3e-05
+  UniRef90_A4C5S5 Uncharacterized protein n=1 Tax=Pseudoalteromon...  45.4    3e-05
+  UniRef90_UPI000B5CEF6A DUF2496 domain-containing protein n=1 Ta...  45.1    3e-05
+  UniRef90_A0A0G9M3M3 Primosomal protein n=35 Tax=Vibrio TaxID=66...  45.1    3e-05
+  UniRef90_UPI000DCF7C8F DUF2496 domain-containing protein n=1 Ta...  45.1    3e-05
+  UniRef90_W3YFF0 PF10689 family protein n=1 Tax=Providencia alca...  45.1    4e-05
+  UniRef90_A0A178KQC7 Primosomal protein n=1 Tax=Photobacterium j...  45.1    4e-05
+  UniRef90_UPI00063D8E2F DUF2496 domain-containing protein n=5 Ta...  45.1    4e-05
+  UniRef90_E3BEF3 Uncharacterized protein n=1 Tax=Vibrio caribbea...  44.7    4e-05
+  UniRef90_L8JEQ2 Uncharacterized protein n=2 Tax=Photobacterium ...  44.7    4e-05
+  UniRef90_A0A0F4P8H4 Primosomal protein n=1 Tax=Vibrio neptunius...  44.7    4e-05
+  UniRef90_UPI00097038F7 DUF2496 domain-containing protein n=1 Ta...  45.1    5e-05
+  UniRef90_A0A349LU89 Uncharacterized protein n=1 Tax=Rheinheimer...  45.4    5e-05
+  UniRef90_A0A1B7UME5 Uncharacterized protein n=2 Tax=Rheinheimer...  45.1    5e-05
+  UniRef90_A0A066UTI9 Primosomal protein n=1 Tax=Vibrio fortis Ta...  44.7    6e-05
+  UniRef90_A0A2T3NRD6 Primosomal protein n=1 Tax=Photobacterium s...  44.3    6e-05
+  UniRef90_A0A191W4Q1 DUF2496 domain-containing protein n=9 Tax=V...  44.3    7e-05
+  UniRef90_A5L1F0 Uncharacterized protein n=58 Tax=Vibrionales Ta...  44.3    8e-05
+  UniRef90_UPI000C824302 DUF2496 domain-containing protein n=2 Ta...  44.3    8e-05
+  UniRef90_W1S2G1 Uncharacterized protein n=1 Tax=Marinomonas pro...  44.3    8e-05
+  UniRef90_S6GGL8 Uncharacterized protein n=1 Tax=Osedax symbiont...  43.9    8e-05
+  UniRef90_UPI0003768BBD DUF2496 domain-containing protein n=1 Ta...  43.9    9e-05
+  UniRef90_A0A3A1PRC4 DUF2496 domain-containing protein n=6 Tax=V...  43.9    9e-05
+  UniRef90_A9DF74 Uncharacterized protein n=2 Tax=Shewanella bent...  44.3    1e-04
+  UniRef90_A0A370U6L2 DUF2496 domain-containing protein n=1 Tax=M...  43.9    1e-04
+  UniRef90_A0A2N0WX13 DUF2496 domain-containing protein n=1 Tax=P...  43.5    1e-04
+  UniRef90_UPI00040D063D DUF2496 domain-containing protein n=1 Ta...  44.3    1e-04
+  UniRef90_UPI000D0211B9 DUF2496 domain-containing protein n=1 Ta...  43.9    1e-04
+  UniRef90_A0A0G3CLY8 Primosomal protein n=1 Tax=Pragia fontium T...  43.5    1e-04
+  UniRef90_A0A3M8PZ76 DUF2496 domain-containing protein n=1 Tax=M...  43.9    1e-04
+  UniRef90_A0A244CS09 Uncharacterized protein n=1 Tax=Pseudoalter...  43.5    1e-04
+  UniRef90_L8D844 Uncharacterized protein n=1 Tax=Pseudoalteromon...  43.5    1e-04
+  UniRef90_UPI000248300B DUF2496 domain-containing protein n=1 Ta...  43.5    1e-04
+  UniRef90_A0A2N1A3L7 DUF2496 domain-containing protein n=1 Tax=P...  43.1    2e-04
+  UniRef90_D0IKK7 Uncharacterized protein n=1 Tax=Vibrio sp. RC58...  43.5    2e-04
+  UniRef90_A0A2A9F5Y4 Uncharacterized protein DUF2496 n=1 Tax=Vib...  43.1    2e-04
+  UniRef90_A0A1R4JLQ2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  43.1    2e-04
+  UniRef90_UPI0009C01973 DUF2496 domain-containing protein n=1 Ta...  43.1    2e-04
+  UniRef90_UPI0003FA9ABF DUF2496 domain-containing protein n=1 Ta...  43.5    2e-04
+  UniRef90_UPI000C84D46E DUF2496 domain-containing protein n=1 Ta...  43.1    2e-04
+  UniRef90_B8CQE2 Uncharacterized protein n=2 Tax=Shewanella TaxI...  43.1    2e-04
+  UniRef90_UPI000407534D DUF2496 domain-containing protein n=1 Ta...  43.1    2e-04
+  UniRef90_UPI000B5C3BFA DUF2496 domain-containing protein n=1 Ta...  42.7    3e-04
+  UniRef90_UPI000F83AB16 DUF2496 domain-containing protein n=1 Ta...  42.7    3e-04
+  UniRef90_A0A1B9P1E5 Uncharacterized protein n=2 Tax=Aliivibrio ...  43.1    3e-04
+  UniRef90_C9P3U7 Uncharacterized protein n=1 Tax=Vibrio metschni...  42.4    3e-04
+  UniRef90_A0A0L7YXY7 Primosomal protein n=1 Tax=Vibrio alginolyt...  42.4    3e-04
+  UniRef90_A0A0M2VLZ8 Uncharacterized protein n=1 Tax=Arsukibacte...  42.7    4e-04
+  UniRef90_UPI0004AF3A8C DUF2496 domain-containing protein n=1 Ta...  42.4    4e-04
+  UniRef90_UPI000970C7BB DUF2496 domain-containing protein n=2 Ta...  42.4    4e-04
+  UniRef90_A0A2D0L7M4 Uncharacterized protein n=1 Tax=Xenorhabdus...  42.0    5e-04
+  UniRef90_K8W9M9 Uncharacterized protein n=1 Tax=Providencia sne...  42.0    7e-04
+  UniRef90_A0A066RSA5 Uncharacterized protein n=1 Tax=Photobacter...  42.0    7e-04
+  UniRef90_A0A109X5I4 DUF2496 domain-containing protein n=3 Tax=V...  41.2    0.001
+  UniRef90_B1KJS1 Uncharacterized protein n=2 Tax=Shewanella TaxI...  41.2    0.001
+  UniRef90_A0A1X7ALQ5 Uncharacterized protein n=1 Tax=Parendozoic...  41.6    0.001
+  UniRef90_A0A2N0WQ10 Uncharacterized protein n=1 Tax=Alteromonad...  40.8    0.001
+  UniRef90_A0A0W8JI55 Uncharacterized protein n=5 Tax=Vibrio TaxI...  40.8    0.001
+  UniRef90_UPI0004BBA498 DUF2496 domain-containing protein n=1 Ta...  40.8    0.002
+  UniRef90_UPI00056ED2CF DUF2496 domain-containing protein n=1 Ta...  40.4    0.002
+  UniRef90_A0A1H5XJZ5 Uncharacterized protein n=2 Tax=Oceanospiri...  40.4    0.002
+  UniRef90_UPI000E30431E DUF2496 domain-containing protein n=1 Ta...  39.7    0.004
+  UniRef90_K8BNN5 Uncharacterized protein n=1 Tax=Cronobacter dub...  39.3    0.006
+  UniRef90_A0A366W7C7 Uncharacterized protein n=1 Tax=Psychromona...  39.3    0.007
+  UniRef90_A0A2S0VSL1 Uncharacterized protein n=1 Tax=Catenovulum...  38.5    0.014
+  UniRef90_A0A1J4QFR3 DUF2496 domain-containing protein n=1 Tax=O...  38.1    0.018
+  UniRef90_A0A2P5TQX3 DUF2496 domain-containing protein n=1 Tax=O...  37.4    0.036
+  UniRef90_UPI000D785737 DUF2496 domain-containing protein n=2 Ta...  37.0    0.052
+  UniRef90_A1SWQ7 Uncharacterized protein n=1 Tax=Psychromonas in...  36.6    0.088
+  UniRef90_UPI000B9ACDB0 DUF2496 domain-containing protein n=1 Ta...  34.7    0.50 
+  UniRef90_A0A081KG62 Uncharacterized protein n=1 Tax=Endozoicomo...  33.9    1.6  
+  UniRef90_A0A142B8Y4 Uncharacterized protein n=2 Tax=Endozoicomo...  33.5    1.7  
+  UniRef90_UPI000414FCF9 DUF2496 domain-containing protein n=1 Ta...  32.7    2.4  
+  UniRef90_UPI00082950AB hypothetical protein n=2 Tax=Endozoicomo...  32.7    3.5  
+  UniRef90_I1DZ99 Uncharacterized protein n=2 Tax=Rheinheimera Ta...  32.0    3.7  
+  UniRef90_A0A2U0SY74 Response regulator receiver domain-containi...  33.9    3.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.132    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 750401994069
+Warning: [psiblast] lcl|Query_1 NP_414999.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414999.1
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0F1AFI3 Uncharacterized protein n=15 Tax=Bacteria T...  87.4    8e-22
+  UniRef90_A0A0T9L848 Protein of uncharacterized function (DUF249...  87.4    2e-21
+  UniRef90_A0A0J5MAR0 DUF2496 domain-containing protein n=6 Tax=P...  83.2    3e-20
+  UniRef90_A0A2T4I1X4 DUF2496 domain-containing protein n=1 Tax=M...  82.0    8e-20
+  UniRef90_L0M5T9 Uncharacterized protein n=1 Tax=Enterobacteriac...  82.0    9e-20
+  UniRef90_W1DNU2 Putative inner membrane protein n=1 Tax=Klebsie...  82.4    9e-20
+  UniRef90_A0A0H3CJQ1 Uncharacterized protein n=30 Tax=Enterobact...  81.6    1e-19
+  UniRef90_A0A0F4BWB1 Uncharacterized protein n=9 Tax=Enterobacte...  80.5    3e-19
+  UniRef90_A4W7F0 Uncharacterized protein n=2 Tax=Enterobacteriac...  80.1    5e-19
+  UniRef90_A0A3G4T6Z8 DUF2496 domain-containing protein n=8 Tax=E...  79.3    8e-19
+  UniRef90_A0A379WZK5 ISNCY transposase n=2 Tax=Salmonella enteri...  86.2    8e-19
+  UniRef90_D4DW67 Uncharacterized protein n=1 Tax=Serratia odorif...  79.3    1e-18
+  UniRef90_A0A154WSA4 Protein YbaM n=11 Tax=Enterobacteriaceae Ta...  78.9    1e-18
+  UniRef90_A0A1B8HT82 DUF2496 domain-containing protein n=1 Tax=M...  78.9    1e-18
+  UniRef90_A0A1B1KM70 Uncharacterized protein n=3 Tax=Yersiniacea...  78.5    2e-18
+  UniRef90_A0A155ZMJ0 Protein YbaM n=10 Tax=Enterobacteriaceae Ta...  78.5    2e-18
+  UniRef90_D2TLU3 Uncharacterized protein n=2 Tax=Enterobacteriac...  78.5    2e-18
+  UniRef90_A0A0M3F8E0 Uncharacterized protein n=1 Tax=Enterobacte...  78.2    2e-18
+  UniRef90_A0A0D9H797 DUF2496 domain-containing protein n=36 Tax=...  78.2    2e-18
+  UniRef90_A0A1M5LD67 Uncharacterized protein n=1 Tax=Pectobacter...  78.2    3e-18
+  UniRef90_A0A076LS59 Uncharacterized protein n=2 Tax=Edwardsiell...  78.2    3e-18
+  UniRef90_A0A0H0CTQ1 DUF2496 domain-containing protein n=28 Tax=...  77.8    3e-18
+  UniRef90_A0A368ILW5 DUF2496 domain-containing protein n=5 Tax=E...  77.8    3e-18
+  UniRef90_A0A1B8H140 DUF2496 domain-containing protein n=2 Tax=M...  77.4    5e-18
+  UniRef90_W0LHM3 Uncharacterized protein n=3 Tax=Yersiniaceae Ta...  77.4    5e-18
+  UniRef90_A0A263W2Q7 DUF2496 domain-containing protein n=6 Tax=E...  77.4    5e-18
+  UniRef90_A0A3D3HTA7 DUF2496 domain-containing protein n=1 Tax=M...  77.0    6e-18
+  UniRef90_A8GAU5 Uncharacterized protein n=7 Tax=Serratia TaxID=...  77.0    7e-18
+  UniRef90_W0BS11 Uncharacterized protein n=10 Tax=Enterobacter T...  77.0    8e-18
+  UniRef90_C6DB79 Uncharacterized protein n=1 Tax=Pectobacterium ...  77.0    9e-18
+  UniRef90_A0A085AEV5 Putative inner membrane protein n=2 Tax=Tra...  76.6    1e-17
+  UniRef90_UPI000A000D06 DUF2496 domain-containing protein n=1 Ta...  77.4    1e-17
+  UniRef90_A0A0L0H246 Uncharacterized protein n=1 Tax=Trabulsiell...  76.6    1e-17
+  UniRef90_P45807 Uncharacterized protein YbaM n=248 Tax=Bacteria...  76.2    1e-17
+  UniRef90_UPI000EFBB110 DUF2496 domain-containing protein n=1 Ta...  76.2    2e-17
+  UniRef90_A0A2U3TIR6 DUF2496 domain-containing protein n=3 Tax=E...  76.2    2e-17
+  UniRef90_UPI000345CBE5 DUF2496 domain-containing protein n=1 Ta...  76.2    2e-17
+  UniRef90_A0A0F5BVG1 Uncharacterized protein n=2 Tax=Tatumella m...  76.6    2e-17
+  UniRef90_A0A3N1I5Q1 Uncharacterized protein DUF2496 n=2 Tax=Ent...  75.8    2e-17
+  UniRef90_G9Z4N8 Uncharacterized protein n=3 Tax=Yokenella regen...  75.8    2e-17
+  UniRef90_A0A0U1FD06 Transposase n=80 Tax=Salmonella enterica Ta...  82.4    2e-17
+  UniRef90_Q7N0N7 Uncharacterized protein n=16 Tax=Photorhabdus T...  75.5    3e-17
+  UniRef90_UPI000DEFFD5E DUF2496 domain-containing protein n=1 Ta...  75.5    3e-17
+  UniRef90_A0A0J4TMH4 DUF2496 domain-containing protein n=62 Tax=...  75.5    3e-17
+  UniRef90_B6VNT2 Uncharacterized protein n=5 Tax=Photorhabdus Ta...  75.5    4e-17
+  UniRef90_UPI000FDE0D5D UPI000FDE0D5D related cluster n=1 Tax=un...  75.5    4e-17
+  UniRef90_A0A084A5F1 Uncharacterized protein n=2 Tax=Serratia sp...  75.5    4e-17
+  UniRef90_A0A0F7D268 DUF2496 domain-containing protein n=26 Tax=...  75.1    4e-17
+  UniRef90_A0A285JP19 Uncharacterized protein n=1 Tax=Enterobacte...  75.1    4e-17
+  UniRef90_A0A3N2ENI0 Uncharacterized protein DUF2496 n=1 Tax=Rao...  75.1    4e-17
+  UniRef90_UPI000307F202 DUF2496 domain-containing protein n=1 Ta...  74.7    5e-17
+  UniRef90_A0A1S8CPI1 DUF2496 domain-containing protein n=1 Tax=S...  75.1    5e-17
+  UniRef90_A0A2T4XZ93 DUF2496 domain-containing protein n=11 Tax=...  74.7    5e-17
+  UniRef90_A0A333FR86 Inner membrane protein n=13 Tax=Bacteria Ta...  74.7    5e-17
+  UniRef90_A0A1N6MTQ8 Uncharacterized protein n=5 Tax=Xenorhabdus...  75.1    5e-17
+  UniRef90_A0A1I6DDT3 Uncharacterized protein n=1 Tax=Enterobacte...  74.7    6e-17
+  UniRef90_A0A380SPE1 Protein of uncharacterized function (DUF249...  74.7    6e-17
+  UniRef90_A0A0Q4P0C2 Uncharacterized protein n=4 Tax=Enterobacte...  74.7    6e-17
+  UniRef90_UPI0004AD4D75 DUF2496 domain-containing protein n=1 Ta...  74.3    7e-17
+  UniRef90_A0A3E1ZZ93 DUF2496 domain-containing protein n=2 Tax=L...  74.3    8e-17
+  UniRef90_UPI0004707AB4 DUF2496 domain-containing protein n=2 Ta...  74.7    8e-17
+  UniRef90_A0A2T3XJA4 DUF2496 domain-containing protein n=6 Tax=E...  74.3    8e-17
+  UniRef90_UPI000907A201 DUF2496 domain-containing protein n=1 Ta...  73.9    1e-16
+  UniRef90_C5BCZ3 Uncharacterized protein n=4 Tax=Edwardsiella Ta...  73.9    1e-16
+  UniRef90_UPI000EF1B489 DUF2496 domain-containing protein n=1 Ta...  74.3    1e-16
+  UniRef90_A0A0B2TC44 Uncharacterized protein n=1 Tax=Pectobacter...  73.9    1e-16
+  UniRef90_A0A087L0C9 Uncharacterized protein n=1 Tax=Serratia sp...  73.9    1e-16
+  UniRef90_A0A2T3MQ85 Uncharacterized protein n=3 Tax=Photobacter...  73.9    1e-16
+  UniRef90_UPI000907AEF0 DUF2496 domain-containing protein n=1 Ta...  73.5    1e-16
+  UniRef90_S3IS78 Uncharacterized protein n=1 Tax=Cedecea davisae...  73.5    2e-16
+  UniRef90_UPI000F674B5C DUF2496 domain-containing protein n=1 Ta...  73.5    2e-16
+  UniRef90_A0A1I3Q777 Uncharacterized protein n=2 Tax=Xenorhabdus...  73.5    2e-16
+  UniRef90_A0A1W1KJC3 Inner membrane protein n=3 Tax=Enterobacter...  73.5    2e-16
+  UniRef90_A0A1W6B181 DUF2496 domain-containing protein n=1 Tax=P...  73.2    2e-16
+  UniRef90_UPI000EB3B328 DUF2496 domain-containing protein n=1 Ta...  73.2    2e-16
+  UniRef90_UPI0008FEFDE8 DUF2496 domain-containing protein n=2 Ta...  73.2    2e-16
+  UniRef90_A0A1N6TRC0 Uncharacterized protein n=2 Tax=Enterobacte...  73.2    2e-16
+  UniRef90_A0A0J6AS80 Uncharacterized protein n=2 Tax=Pectobacter...  73.5    2e-16
+  UniRef90_A0A2V1HJU4 DUF2496 domain-containing protein n=1 Tax=S...  73.5    2e-16
+  UniRef90_A0A380QNC0 Protein of uncharacterized function (DUF249...  73.2    2e-16
+  UniRef90_A0A267RZK9 DUF2496 domain-containing protein n=1 Tax=E...  73.2    2e-16
+  UniRef90_A0A168F5F5 DUF2496 domain-containing protein n=10 Tax=...  73.2    2e-16
+  UniRef90_A0A1V2R7F7 DUF2496 domain-containing protein n=18 Tax=...  73.2    2e-16
+  UniRef90_A0A366F593 Uncharacterized protein DUF2496 n=1 Tax=Pse...  73.2    2e-16
+  UniRef90_A0A376E4H7 Protein of uncharacterized function (DUF249...  73.2    2e-16
+  UniRef90_A0A0N1KIE0 Uncharacterized protein n=2 Tax=Moellerella...  73.5    2e-16
+  UniRef90_W1IXL1 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  73.2    3e-16
+  UniRef90_A0A0F4NK06 Primosomal protein n=1 Tax=Vibrio galatheae...  73.2    3e-16
+  UniRef90_UPI000907B396 DUF2496 domain-containing protein n=1 Ta...  73.2    3e-16
+  UniRef90_UPI000BAEFEC7 DUF2496 domain-containing protein n=2 Ta...  73.2    3e-16
+  UniRef90_A0A1I1WRV0 Uncharacterized protein n=1 Tax=Kosakonia s...  72.8    3e-16
+  UniRef90_A0A318VZM0 Uncharacterized protein DUF2496 n=2 Tax=Ent...  72.8    3e-16
+  UniRef90_A0A0G4Q9U8 Uncharacterized protein n=8 Tax=Morganellac...  72.8    3e-16
+  UniRef90_H5V6N9 Uncharacterized protein n=3 Tax=Enterobacteriac...  72.8    3e-16
+  UniRef90_J1GAU6 Uncharacterized protein n=2 Tax=Enterobacteriac...  72.8    3e-16
+  UniRef90_A0A2G0Q8T4 Uncharacterized protein n=1 Tax=Xenorhabdus...  72.8    3e-16
+  UniRef90_D4BCY4 Uncharacterized protein n=10 Tax=Enterobacteria...  72.8    3e-16
+  UniRef90_A7MJW0 Uncharacterized protein n=5 Tax=Cronobacter Tax...  72.8    3e-16
+  UniRef90_W1ITM6 Uncharacterized protein n=3 Tax=Xenorhabdus Tax...  72.8    4e-16
+  UniRef90_UPI0009BC52B9 DUF2496 domain-containing protein n=2 Ta...  72.8    4e-16
+  UniRef90_A0A085GI80 Uncharacterized protein n=3 Tax=Buttiauxell...  72.4    4e-16
+  UniRef90_A0A1Y0L5N4 Uncharacterized protein n=2 Tax=Tatumella c...  73.2    4e-16
+  UniRef90_A0A2N4UXR4 DUF2496 domain-containing protein n=2 Tax=P...  72.4    4e-16
+  UniRef90_A0A0G4Q747 Uncharacterized protein n=6 Tax=Enterobacte...  72.4    5e-16
+  UniRef90_E8LZ98 Uncharacterized protein n=1 Tax=Vibrio brasilie...  72.4    5e-16
+  UniRef90_V9ZTE2 Uncharacterized protein n=4 Tax=Aeromonas TaxID...  72.4    5e-16
+  UniRef90_A0A1A9F825 DUF2496 domain-containing protein n=1 Tax=L...  72.4    5e-16
+  UniRef90_A0A2T3PUZ6 Uncharacterized protein n=2 Tax=Photobacter...  72.4    5e-16
+  UniRef90_A0A2D6D8L6 DUF2496 domain-containing protein n=1 Tax=M...  72.0    6e-16
+  UniRef90_H3N7Y4 DUF2496 domain-containing protein n=10 Tax=Kleb...  72.4    6e-16
+  UniRef90_A0A1D7Z3G0 Uncharacterized protein n=3 Tax=Pectobacter...  72.4    6e-16
+  UniRef90_UPI000378184D DUF2496 domain-containing protein n=1 Ta...  72.0    6e-16
+  UniRef90_A0A1X0X7L8 DUF2496 domain-containing protein n=3 Tax=E...  72.0    6e-16
+  UniRef90_A0A2T3W0I5 DUF2496 domain-containing protein n=2 Tax=P...  72.0    6e-16
+  UniRef90_A0A1E5CJQ4 DUF2496 domain-containing protein n=5 Tax=E...  72.0    7e-16
+  UniRef90_A0A128ETA0 Uncharacterized protein n=4 Tax=Grimontia T...  72.0    7e-16
+  UniRef90_UPI000370D489 DUF2496 domain-containing protein n=1 Ta...  72.0    7e-16
+  UniRef90_A0A068QYL6 Uncharacterized protein n=1 Tax=Xenorhabdus...  72.0    7e-16
+  UniRef90_A0A2T7AZ27 DUF2496 domain-containing protein n=1 Tax=C...  72.0    7e-16
+  UniRef90_A0A0J1LL06 Uncharacterized protein n=1 Tax=Citrobacter...  72.0    7e-16
+  UniRef90_A0A0K0HQ73 DUF2496 domain-containing protein n=5 Tax=H...  72.0    8e-16
+  UniRef90_A0A0K0H830 Uncharacterized protein n=39 Tax=Salmonella...  72.0    8e-16
+  UniRef90_A0A2D0JNE7 Uncharacterized protein n=2 Tax=Xenorhabdus...  71.6    8e-16
+  UniRef90_A0A0D8PPS8 Uncharacterized protein n=2 Tax=Photobacter...  72.0    9e-16
+  UniRef90_A0A090V5S3 Uncharacterized protein n=4 Tax=Enterobacte...  71.6    9e-16
+  UniRef90_UPI0008FCC67D DUF2496 domain-containing protein n=1 Ta...  71.6    9e-16
+  UniRef90_B2VHV2 Uncharacterized protein n=2 Tax=Erwinia TaxID=5...  71.6    1e-15
+  UniRef90_I0QM45 Uncharacterized protein n=4 Tax=Yersiniaceae Ta...  71.6    1e-15
+  UniRef90_UPI00092F9658 DUF2496 domain-containing protein n=1 Ta...  71.6    1e-15
+  UniRef90_A0A0J1GKM7 Primosomal protein n=2 Tax=Photobacterium a...  72.0    1e-15
+  UniRef90_Q8D150 Uncharacterized protein n=29 Tax=Yersiniaceae T...  71.6    1e-15
+  UniRef90_G2SAA2 Uncharacterized protein n=2 Tax=Enterobacter Ta...  71.2    1e-15
+  UniRef90_A0A318V3Y3 Uncharacterized protein DUF2496 n=1 Tax=Mar...  71.6    1e-15
+  UniRef90_A0A1B7I7B7 Uncharacterized protein n=5 Tax=Buttiauxell...  71.2    1e-15
+  UniRef90_A0A3Q0MV71 DUF2496 domain-containing protein n=7 Tax=E...  71.2    1e-15
+  UniRef90_A0A2D0IQF2 Uncharacterized protein n=2 Tax=Morganellac...  71.2    1e-15
+  UniRef90_A0A1S8YF71 DUF2496 domain-containing protein n=1 Tax=I...  71.2    2e-15
+  UniRef90_A0A3N6S1D1 DUF2496 domain-containing protein n=1 Tax=E...  70.8    2e-15
+  UniRef90_A0A068RCX7 Uncharacterized protein YbaM n=2 Tax=Serrat...  71.2    2e-15
+  UniRef90_C9QJU0 Uncharacterized protein n=2 Tax=Vibrio TaxID=66...  70.8    2e-15
+  UniRef90_A0A078LGX7 Protein of uncharacterized function (DUF249...  70.8    2e-15
+  UniRef90_A0A329E5G6 Uncharacterized protein DUF2496 n=4 Tax=Vib...  70.8    2e-15
+  UniRef90_A0A1E5BZX6 DUF2496 domain-containing protein n=1 Tax=E...  70.8    2e-15
+  UniRef90_A0A1S2RSW4 DUF2496 domain-containing protein n=17 Tax=...  70.8    2e-15
+  UniRef90_A0A1G7WPU4 Uncharacterized protein n=1 Tax=Vibrio xiam...  70.8    2e-15
+  UniRef90_A0A366IBP9 Uncharacterized protein DUF2496 n=1 Tax=Bre...  70.8    2e-15
+  UniRef90_E3G6B0 Uncharacterized protein n=1 Tax=Enterobacter li...  70.5    2e-15
+  UniRef90_A0A2L1URW2 DUF2496 domain-containing protein n=10 Tax=...  70.8    2e-15
+  UniRef90_D0IBW1 Uncharacterized protein n=2 Tax=Grimontia holli...  70.5    2e-15
+  UniRef90_A0A1I4YEM0 Uncharacterized protein n=1 Tax=Izhakiella ...  70.5    2e-15
+  UniRef90_A0A2N5E9Z9 DUF2496 domain-containing protein n=3 Tax=u...  70.5    3e-15
+  UniRef90_A0A0U1P7L0 Uncharacterized protein n=4 Tax=Photobacter...  70.5    3e-15
+  UniRef90_Q6D803 Uncharacterized protein n=2 Tax=Pectobacterium ...  70.5    3e-15
+  UniRef90_D8MP13 Conserved uncharacterized protein n=3 Tax=Erwin...  70.5    3e-15
+  UniRef90_A0A291DUT5 DUF2496 domain-containing protein n=4 Tax=C...  70.5    3e-15
+  UniRef90_A0A3N5D8V1 DUF2496 domain-containing protein n=1 Tax=B...  70.5    3e-15
+  UniRef90_A0A127L6P4 Uncharacterized protein n=2 Tax=Enterobacte...  70.1    3e-15
+  UniRef90_UPI0005B222F5 DUF2496 domain-containing protein n=1 Ta...  70.5    3e-15
+  UniRef90_A0A1A8T8U2 Uncharacterized protein n=2 Tax=Marinomonas...  70.5    3e-15
+  UniRef90_A0A2I5TAT5 DUF2496 domain-containing protein n=1 Tax=S...  70.1    4e-15
+  UniRef90_A0A369A8V1 Uncharacterized protein DUF2496 n=1 Tax=Mar...  70.5    4e-15
+  UniRef90_A0A2K8QJE3 DUF2496 domain-containing protein n=2 Tax=P...  70.5    4e-15
+  UniRef90_A0A1H3W8X9 Uncharacterized protein n=4 Tax=Pectobacter...  70.1    4e-15
+  UniRef90_UPI000F66E3D9 DUF2496 domain-containing protein n=1 Ta...  70.1    4e-15
+  UniRef90_A0A357U916 DUF2496 domain-containing protein n=1 Tax=E...  70.1    4e-15
+  UniRef90_K8C9B2 Uncharacterized protein n=12 Tax=Cronobacter Ta...  69.7    4e-15
+  UniRef90_UPI000F0BCE5F DUF2496 domain-containing protein n=1 Ta...  70.1    4e-15
+  UniRef90_UPI00069B287F DUF2496 domain-containing protein n=1 Ta...  69.7    5e-15
+  UniRef90_A0A2A2M796 DUF2496 domain-containing protein n=5 Tax=E...  70.1    5e-15
+  UniRef90_A0A1Y6KSF5 Uncharacterized protein n=5 Tax=Photobacter...  70.1    5e-15
+  UniRef90_A0A0Q0QMV7 Primosomal protein n=6 Tax=Vibrio metoecus ...  70.1    5e-15
+  UniRef90_A0A2S5KBR4 DUF2496 domain-containing protein n=3 Tax=P...  69.7    5e-15
+  UniRef90_UPI000372575E DUF2496 domain-containing protein n=1 Ta...  70.1    5e-15
+  UniRef90_U1JJY9 Uncharacterized protein n=2 Tax=Pseudoalteromon...  69.7    5e-15
+  UniRef90_UPI00041E892E DUF2496 domain-containing protein n=1 Ta...  69.7    5e-15
+  UniRef90_K8AHS3 Uncharacterized protein n=1 Tax=Cronobacter dub...  69.7    5e-15
+  UniRef90_UPI000907D1C2 DUF2496 domain-containing protein n=1 Ta...  69.7    5e-15
+  UniRef90_UPI0009E3C3BB DUF2496 domain-containing protein n=2 Ta...  69.7    6e-15
+  UniRef90_A0A1M2TFU5 DUF2496 domain-containing protein (Fragment...  69.3    6e-15
+  UniRef90_A0A235CGV7 DUF2496 domain-containing protein n=1 Tax=O...  69.7    6e-15
+  UniRef90_A0A2P5GSL1 DUF2496 domain-containing protein n=1 Tax=S...  69.3    6e-15
+  UniRef90_UPI000907303B DUF2496 domain-containing protein n=1 Ta...  69.3    6e-15
+  UniRef90_UPI0007F8C992 DUF2496 domain-containing protein n=1 Ta...  70.5    6e-15
+  UniRef90_A0A090IF83 Uncharacterized protein n=2 Tax=Moritella T...  69.3    7e-15
+  UniRef90_A0A135I7H9 Primosomal protein n=2 Tax=Enterovibrio cor...  69.3    7e-15
+  UniRef90_A0A0B7J9P5 Uncharacterized protein n=4 Tax=Photobacter...  69.3    7e-15
+  UniRef90_UPI000907845D DUF2496 domain-containing protein n=1 Ta...  69.3    8e-15
+  UniRef90_A0A0C3MU18 Uncharacterized protein n=1 Tax=Shewanella ...  69.7    8e-15
+  UniRef90_A0A0H3FPM5 Uncharacterized protein n=5 Tax=Enterobacte...  69.3    1e-14
+  UniRef90_A0A1V9DIB5 DUF2496 domain-containing protein n=1 Tax=P...  68.9    1e-14
+  UniRef90_A0A0U1HR90 Protein of uncharacterized function (DUF249...  68.9    1e-14
+  UniRef90_E0SD95 Uncharacterized protein n=8 Tax=Dickeya TaxID=2...  69.3    1e-14
+  UniRef90_A0A1Y2SLG7 Uncharacterized protein n=1 Tax=Xenorhabdus...  68.9    1e-14
+  UniRef90_A0A223JNE4 DUF2496 domain-containing protein n=7 Tax=G...  68.9    1e-14
+  UniRef90_UPI0002F549A5 DUF2496 domain-containing protein n=1 Ta...  68.9    1e-14
+  UniRef90_E6W9E2 Uncharacterized protein n=3 Tax=Enterobacterale...  68.9    1e-14
+  UniRef90_A0A0C3HTM6 Primosomal protein n=1 Tax=Vibrio mytili Ta...  68.9    1e-14
+  UniRef90_UPI0004AEDBCC DUF2496 domain-containing protein n=1 Ta...  68.9    1e-14
+  UniRef90_A0A068QP80 Uncharacterized protein n=1 Tax=Xenorhabdus...  68.9    1e-14
+  UniRef90_A0A1M4SH62 Uncharacterized protein n=1 Tax=Marinomonas...  69.3    1e-14
+  UniRef90_A0A2N8ZAY2 Uncharacterized protein n=1 Tax=Vibrio tape...  68.9    1e-14
+  UniRef90_A0A381HU82 Protein of uncharacterized function (DUF249...  68.5    1e-14
+  UniRef90_A0A2U3BAU6 Primosomal protein n=1 Tax=Vibrio sp. E4404...  68.9    1e-14
+  UniRef90_A0A2P8VP62 DUF2496 domain-containing protein n=2 Tax=E...  68.5    1e-14
+  UniRef90_F9TA52 Primosomal protein n=5 Tax=Vibrio TaxID=662 Rep...  68.9    1e-14
+  UniRef90_A0A2G8EDS9 DUF2496 domain-containing protein n=1 Tax=E...  68.5    1e-14
+  UniRef90_T0P5V8 DUF2496 family protein YbaM n=19 Tax=Gammaprote...  68.5    1e-14
+  UniRef90_A0A376I2L6 Small protein involved in the cell envelope...  68.5    1e-14
+  UniRef90_UPI00092CE93E DUF2496 domain-containing protein n=1 Ta...  68.5    2e-14
+  UniRef90_A0A1R4B1Y7 Uncharacterized protein n=1 Tax=Vibrio palu...  68.5    2e-14
+  UniRef90_A0A0B9GYI4 Primosomal protein n=2 Tax=Photobacterium g...  68.5    2e-14
+  UniRef90_A0A0A8NQ38 Uncharacterized protein n=4 Tax=Xenorhabdus...  68.5    2e-14
+  UniRef90_A0A2S9IHG8 DUF2496 domain-containing protein n=2 Tax=E...  68.1    2e-14
+  UniRef90_A0A1Y2SSG1 Uncharacterized protein n=1 Tax=Xenorhabdus...  68.1    2e-14
+  UniRef90_UPI000B363D2C DUF2496 domain-containing protein n=1 Ta...  68.1    2e-14
+  UniRef90_A0A1Y5GEA5 DUF2496 domain-containing protein n=1 Tax=T...  68.1    2e-14
+  UniRef90_A0A0S2SM27 Uncharacterized protein n=4 Tax=Aeromonas T...  68.1    2e-14
+  UniRef90_A0A1Y5D805 Uncharacterized protein n=1 Tax=Marinomonas...  68.5    2e-14
+  UniRef90_F9R809 Uncharacterized protein n=4 Tax=Vibrio TaxID=66...  68.1    2e-14
+  UniRef90_A0A2P5IR93 DUF2496 domain-containing protein n=1 Tax=P...  68.1    2e-14
+  UniRef90_A0A2T3N690 Primosomal protein n=1 Tax=Photobacterium r...  68.1    2e-14
+  UniRef90_A0A2U1U080 DUF2496 domain-containing protein n=2 Tax=B...  68.1    2e-14
+  UniRef90_UPI00035E3B6D DUF2496 domain-containing protein n=1 Ta...  68.1    2e-14
+  UniRef90_Q2C5D2 Uncharacterized protein n=6 Tax=Photobacterium ...  68.1    2e-14
+  UniRef90_A0A356RW93 Protein of uncharacterized function (DUF249...  67.8    2e-14
+  UniRef90_UPI000F65710C DUF2496 domain-containing protein n=1 Ta...  68.1    2e-14
+  UniRef90_A0A345CNC3 DUF2496 domain-containing protein n=1 Tax=E...  67.8    2e-14
+  UniRef90_K1IGJ4 Uncharacterized protein n=27 Tax=Aeromonadaceae...  67.8    3e-14
+  UniRef90_W7QJ87 Uncharacterized protein n=1 Tax=Catenovulum aga...  67.8    3e-14
+  UniRef90_R9VRY2 Uncharacterized protein n=6 Tax=Enterobacteriac...  67.8    3e-14
+  UniRef90_A0A2M9WAM6 DUF2496 domain-containing protein n=1 Tax=P...  67.8    3e-14
+  UniRef90_A0A1A9AZ21 Primosomal protein n=4 Tax=Plesiomonas shig...  67.8    3e-14
+  UniRef90_A0A2N7DGJ2 Primosomal protein n=1 Tax=Vibrio sp. 10N.2...  67.8    3e-14
+  UniRef90_A0A2X3ECC1 Protein of uncharacterized function (DUF249...  67.8    3e-14
+  UniRef90_A0A1N6FIK1 Uncharacterized protein n=1 Tax=Salinivibri...  67.8    3e-14
+  UniRef90_A0A0S2JZW3 Uncharacterized protein n=2 Tax=Pseudoalter...  67.8    3e-14
+  UniRef90_UPI000B34EDE6 DUF2496 domain-containing protein n=1 Ta...  67.8    3e-14
+  UniRef90_A0A166WMT4 Uncharacterized protein n=1 Tax=Pseudoalter...  67.8    3e-14
+  UniRef90_UPI0002F1506B DUF2496 domain-containing protein n=1 Ta...  67.8    3e-14
+  UniRef90_A0A1V0LHS8 DUF2496 domain-containing protein n=5 Tax=E...  67.4    3e-14
+  UniRef90_UPI00056E78F9 DUF2496 domain-containing protein n=2 Ta...  67.8    3e-14
+  UniRef90_A0A220PUE5 Primosomal protein n=2 Tax=Shewanella TaxID...  67.8    3e-14
+  UniRef90_A0A0K6IMT0 Uncharacterized protein n=2 Tax=Marinomonas...  68.1    3e-14
+  UniRef90_E1SGD8 Uncharacterized protein ybaM n=14 Tax=Erwiniace...  67.8    3e-14
+  UniRef90_A0A376L0S0 Preotein n=2 Tax=Escherichia coli TaxID=562...  67.4    3e-14
+  UniRef90_A0A376QYK0 Preotein n=11 Tax=Enterobacteriaceae TaxID=...  67.8    3e-14
+  UniRef90_UPI000D314297 DUF2496 domain-containing protein n=1 Ta...  67.8    4e-14
+  UniRef90_A0A2J9E6C8 DUF2496 domain-containing protein n=7 Tax=E...  67.4    4e-14
+  UniRef90_A0A330LMI1 Uncharacterized protein n=4 Tax=Moritella T...  67.4    4e-14
+  UniRef90_A0A1G8M7S3 Uncharacterized protein n=1 Tax=Ferrimonas ...  67.4    4e-14
+  UniRef90_E8M6X0 Uncharacterized protein n=1 Tax=Vibrio sinaloen...  67.4    4e-14
+  UniRef90_UPI0009E07E89 DUF2496 domain-containing protein n=1 Ta...  67.4    4e-14
+  UniRef90_A0A366ATU3 DUF2496 domain-containing protein n=10 Tax=...  67.8    4e-14
+  UniRef90_U2ZXH2 Uncharacterized protein n=1 Tax=Vibrio proteoly...  67.4    4e-14
+  UniRef90_A0A1I4YH41 Uncharacterized protein n=1 Tax=Xenorhabdus...  67.4    4e-14
+  UniRef90_A0A1B7JL13 Uncharacterized protein n=2 Tax=Proteus Tax...  67.4    4e-14
+  UniRef90_A0A085HMJ5 Uncharacterized protein n=1 Tax=Leminorella...  67.4    5e-14
+  UniRef90_A0A1B7JIG6 Putative inner membrane protein n=3 Tax=Klu...  67.4    5e-14
+  UniRef90_UPI000948E3AC DUF2496 domain-containing protein n=1 Ta...  67.4    5e-14
+  UniRef90_A0A233RHD0 DUF2496 domain-containing protein n=1 Tax=O...  67.4    5e-14
+  UniRef90_UPI00040674B8 DUF2496 domain-containing protein n=1 Ta...  67.0    5e-14
+  UniRef90_A0A3A2I6J3 Primosomal protein n=1 Tax=Vibrio sp. PID23...  67.4    5e-14
+  UniRef90_A0A1X1DIZ2 DUF2496 domain-containing protein n=2 Tax=E...  67.0    5e-14
+  UniRef90_A0A370QSC2 Uncharacterized protein DUF2496 n=1 Tax=Ent...  67.0    5e-14
+  UniRef90_U3U0E9 Uncharacterized protein n=3 Tax=Enterobacterale...  67.0    5e-14
+  UniRef90_UPI0004AE2573 DUF2496 domain-containing protein n=1 Ta...  67.0    6e-14
+  UniRef90_A0A2X4UF45 Protein of uncharacterized function (DUF249...  67.0    6e-14
+  UniRef90_A0A1S1MZ30 DUF2496 domain-containing protein n=1 Tax=P...  67.0    6e-14
+  UniRef90_A0A2K1QC15 DUF2496 domain-containing protein n=1 Tax=M...  67.0    6e-14
+  UniRef90_A0A0U5L389 Uncharacterized protein n=2 Tax=Erwinia ger...  67.4    6e-14
+  UniRef90_I2BBM4 Uncharacterized protein n=1 Tax=Shimwellia blat...  67.0    7e-14
+  UniRef90_A0A349LU89 Uncharacterized protein n=1 Tax=Rheinheimer...  67.8    7e-14
+  UniRef90_UPI0009B2AB91 DUF2496 domain-containing protein n=1 Ta...  67.4    7e-14
+  UniRef90_A0A2P7RCY1 DUF2496 domain-containing protein n=1 Tax=Z...  67.0    7e-14
+  UniRef90_UPI0003F98DE4 DUF2496 domain-containing protein n=2 Ta...  66.6    8e-14
+  UniRef90_A0A099KG33 Uncharacterized protein n=1 Tax=Thalassotal...  66.6    8e-14
+  UniRef90_UPI000951FE83 DUF2496 domain-containing protein n=1 Ta...  67.0    8e-14
+  UniRef90_A0A167IHN5 Uncharacterized protein n=2 Tax=Pseudoalter...  66.6    8e-14
+  UniRef90_E9CK66 Uncharacterized protein n=1 Tax=Serratia symbio...  67.4    8e-14
+  UniRef90_A0A2M8K161 Uncharacterized protein n=1 Tax=Marinomonas...  67.4    8e-14
+  UniRef90_A0A1X9TZ02 Primosomal protein n=8 Tax=Photobacterium d...  66.6    8e-14
+  UniRef90_A0A2A5JNA5 Uncharacterized protein n=1 Tax=Pseudoalter...  66.6    9e-14
+  UniRef90_A0A0F4P8H4 Primosomal protein n=1 Tax=Vibrio neptunius...  66.6    9e-14
+  UniRef90_A0A1N6QH11 Uncharacterized protein n=1 Tax=Aeromonas s...  66.6    9e-14
+  UniRef90_X6QD57 PF10689 family protein n=3 Tax=Providencia alca...  66.6    9e-14
+  UniRef90_A0A0C2NNC3 Primosomal protein n=1 Tax=Vibrio renipisca...  66.6    9e-14
+  UniRef90_A0A2K9JZK7 Uncharacterized protein n=4 Tax=Pseudoalter...  66.6    9e-14
+  UniRef90_A0A085JB54 Uncharacterized protein n=2 Tax=Tatumella p...  66.6    1e-13
+  UniRef90_D2T436 Uncharacterized protein ybaM n=1 Tax=Erwinia py...  66.2    1e-13
+  UniRef90_A0A350QDB5 Uncharacterized protein n=1 Tax=Candidatus ...  67.0    1e-13
+  UniRef90_A0A2E2LZ77 Uncharacterized protein n=2 Tax=Pseudoalter...  66.2    1e-13
+  UniRef90_A0A1E5BEC8 Uncharacterized protein n=1 Tax=Vibrio geno...  66.6    1e-13
+  UniRef90_A0A1Q9HAR4 Primosomal protein n=1 Tax=Vibrio ponticus ...  66.6    1e-13
+  UniRef90_D2TWE2 Uncharacterized protein n=1 Tax=Arsenophonus na...  66.6    1e-13
+  UniRef90_A0A2A7U4U1 DUF2496 domain-containing protein n=3 Tax=E...  66.2    1e-13
+  UniRef90_A0A090RB16 Uncharacterized protein n=1 Tax=Vibrio sp. ...  66.2    1e-13
+  UniRef90_A0A2A2CU65 Primosomal protein n=8 Tax=Vibrio TaxID=662...  66.2    1e-13
+  UniRef90_A0A2K4XAM4 Uncharacterized protein n=6 Tax=Pseudoalter...  66.2    1e-13
+  UniRef90_A0A2U1DJF0 Uncharacterized protein DUF2496 n=7 Tax=Erw...  66.2    1e-13
+  UniRef90_UPI000DB9500B DUF2496 domain-containing protein n=2 Ta...  66.6    1e-13
+  UniRef90_J3HNJ2 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  66.2    1e-13
+  UniRef90_UPI0005710C5C DUF2496 domain-containing protein n=1 Ta...  66.2    1e-13
+  UniRef90_L8JEQ2 Uncharacterized protein n=2 Tax=Photobacterium ...  66.2    1e-13
+  UniRef90_F9S6V1 Uncharacterized protein n=1 Tax=Vibrio ichthyoe...  66.2    1e-13
+  UniRef90_A0A2N0XUD9 Primosomal protein n=3 Tax=Vibrio TaxID=662...  66.2    1e-13
+  UniRef90_A0A0G4JPM4 Uncharacterized protein n=1 Tax=Brenneria g...  66.2    1e-13
+  UniRef90_W1S2G1 Uncharacterized protein n=1 Tax=Marinomonas pro...  66.2    1e-13
+  UniRef90_A0A380NR34 Primosomal protein n=3 Tax=Vibrio TaxID=662...  66.2    1e-13
+  UniRef90_Q6LTF6 Uncharacterized protein n=2 Tax=Photobacterium ...  66.2    1e-13
+  UniRef90_A0A0M0HU08 Primosomal protein n=1 Tax=Vibrio nereis Ta...  65.8    2e-13
+  UniRef90_A3QGI7 Uncharacterized protein n=1 Tax=Shewanella loih...  66.2    2e-13
+  UniRef90_D4HY50 Uncharacterized protein ybaM n=3 Tax=Erwinia Ta...  65.8    2e-13
+  UniRef90_UPI000A0774FA DUF2496 domain-containing protein n=1 Ta...  65.8    2e-13
+  UniRef90_A0A2U8IAG8 DUF2496 domain-containing protein n=1 Tax=C...  66.2    2e-13
+  UniRef90_D3V0A7 Uncharacterized protein n=9 Tax=Xenorhabdus bov...  65.8    2e-13
+  UniRef90_A0A366IV45 Uncharacterized protein DUF2496 n=1 Tax=Mar...  65.8    2e-13
+  UniRef90_A0A090P6U7 Uncharacterized protein n=1 Tax=Vibrio pont...  65.8    2e-13
+  UniRef90_A0A367D4H9 Protein of uncharacterized function (DUF249...  65.4    2e-13
+  UniRef90_A0A375ACZ7 Uncharacterized protein n=1 Tax=Dickeya aqu...  65.8    2e-13
+  UniRef90_A0A221I6M2 Uncharacterized protein n=1 Tax=Pseudoalter...  65.4    2e-13
+  UniRef90_A0A1V3H971 Uncharacterized protein n=4 Tax=Vibrionacea...  65.8    2e-13
+  UniRef90_A0A1Q5TVZ8 Uncharacterized protein n=1 Tax=Xenorhabdus...  65.4    2e-13
+  UniRef90_UPI0008383652 DUF2496 domain-containing protein n=1 Ta...  65.8    2e-13
+  UniRef90_UPI000B3649D9 DUF2496 domain-containing protein n=1 Ta...  65.8    2e-13
+  UniRef90_UPI000F83C204 DUF2496 domain-containing protein n=1 Ta...  65.4    2e-13
+  UniRef90_A0A1X1DC99 DUF2496 domain-containing protein n=1 Tax=P...  65.4    2e-13
+  UniRef90_A0A378GLX3 Protein of uncharacterized function (DUF249...  65.4    2e-13
+  UniRef90_A0A0J1JQ06 Primosomal protein n=1 Tax=Photobacterium g...  65.4    2e-13
+  UniRef90_UPI000407534D DUF2496 domain-containing protein n=1 Ta...  65.4    3e-13
+  UniRef90_A0A1E5IQZ8 Primosomal protein n=1 Tax=Shewanella colwe...  65.4    3e-13
+  UniRef90_A0A1B7K9N9 Uncharacterized protein n=1 Tax=Obesumbacte...  65.4    3e-13
+  UniRef90_A0A2M8H1Z7 Primosomal protein n=1 Tax=Vibrio sp. HA201...  65.4    3e-13
+  UniRef90_A0A1E7YV08 DUF2496 domain-containing protein n=2 Tax=E...  65.1    3e-13
+  UniRef90_A0A0M9UIG5 Uncharacterized protein n=2 Tax=Pseudoalter...  65.4    3e-13
+  UniRef90_A0A2Y9TVT9 DUF2496 domain-containing protein n=1 Tax=L...  65.4    3e-13
+  UniRef90_UPI000DD398CD DUF2496 domain-containing protein n=1 Ta...  65.4    3e-13
+  UniRef90_A0A1Y0D292 DUF2496 domain-containing protein n=1 Tax=O...  65.4    3e-13
+  UniRef90_A0Y3M3 Uncharacterized protein n=13 Tax=Alteromonadale...  65.1    3e-13
+  UniRef90_J3DFV6 Uncharacterized protein n=3 Tax=Enterobacterale...  65.1    3e-13
+  UniRef90_A0A0F6AFL4 Uncharacterized protein n=1 Tax=Pseudoalter...  65.4    3e-13
+  UniRef90_A0A285JP70 Uncharacterized protein n=3 Tax=Erwiniaceae...  65.1    3e-13
+  UniRef90_A0A0A8FEV3 Uncharacterized protein n=5 Tax=Enterobacte...  65.1    3e-13
+  UniRef90_A0A0M2V962 Uncharacterized protein n=1 Tax=Arsukibacte...  65.8    3e-13
+  UniRef90_A0A2C9P724 Primosomal protein n=8 Tax=Vibrionaceae Tax...  65.1    3e-13
+  UniRef90_F2JUT8 Uncharacterized protein n=1 Tax=Marinomonas med...  65.1    3e-13
+  UniRef90_A0A2S7XC79 Uncharacterized protein n=1 Tax=Aliivibrio ...  65.4    3e-13
+  UniRef90_UPI000F64A20B DUF2496 domain-containing protein n=1 Ta...  65.1    3e-13
+  UniRef90_C6CBN4 Uncharacterized protein n=1 Tax=Dickeya paradis...  65.1    3e-13
+  UniRef90_A0A1I7BKQ4 Uncharacterized protein n=2 Tax=Pseudoalter...  65.1    3e-13
+  UniRef90_A0A2D0KI12 Uncharacterized protein n=2 Tax=Xenorhabdus...  65.1    4e-13
+  UniRef90_A8T5X7 Uncharacterized protein n=1 Tax=Vibrio sp. AND4...  65.1    4e-13
+  UniRef90_UPI000419251E DUF2496 domain-containing protein n=1 Ta...  65.4    4e-13
+  UniRef90_F3BF47 Uncharacterized protein n=5 Tax=root TaxID=1 Re...  65.1    4e-13
+  UniRef90_UPI0009E46142 DUF2496 domain-containing protein n=2 Ta...  65.4    4e-13
+  UniRef90_A0A0X3Y804 Uncharacterized protein n=1 Tax=Rheinheimer...  65.1    4e-13
+  UniRef90_A0A0A5JNQ6 Primosomal protein n=3 Tax=Vibrio TaxID=662...  65.1    4e-13
+  UniRef90_UPI00063CAD53 DUF2496 domain-containing protein n=2 Ta...  65.4    4e-13
+  UniRef90_A0A0J1HC31 Primosomal protein n=1 Tax=Photobacterium a...  65.1    4e-13
+  UniRef90_UPI0009E6D9CC DUF2496 domain-containing protein n=1 Ta...  65.1    4e-13
+  UniRef90_A0A2K2UT98 Leucyl/phenylalanyl-tRNA--protein transfera...  65.4    4e-13
+  UniRef90_UPI0002F3C12A DUF2496 domain-containing protein n=1 Ta...  65.1    4e-13
+  UniRef90_N6W5B3 Uncharacterized protein n=7 Tax=Pseudoalteromon...  64.7    4e-13
+  UniRef90_UPI000970B6C0 DUF2496 domain-containing protein n=1 Ta...  65.1    4e-13
+  UniRef90_A3Y637 Uncharacterized protein n=2 Tax=Marinomonas sp....  65.4    4e-13
+  UniRef90_A0A135ZN69 Primosomal protein n=2 Tax=Photobacterium s...  64.7    4e-13
+  UniRef90_A0A0D0IBZ3 Primosomal protein n=7 Tax=Vibrio TaxID=662...  65.1    4e-13
+  UniRef90_G7LLT8 Uncharacterized protein n=3 Tax=Brenneria TaxID...  65.1    4e-13
+  UniRef90_A0A317PYN0 Uncharacterized protein DUF2496 n=1 Tax=Man...  64.7    4e-13
+  UniRef90_UPI0004E2B42C DUF2496 domain-containing protein n=2 Ta...  65.4    4e-13
+  UniRef90_F0LPC2 Uncharacterized protein n=2 Tax=Vibrio furnissi...  64.7    5e-13
+  UniRef90_A0A1X1ES80 DUF2496 domain-containing protein n=1 Tax=P...  64.7    5e-13
+  UniRef90_Q5E645 Uncharacterized protein n=10 Tax=Aliivibrio fis...  65.1    5e-13
+  UniRef90_A0A087JRD0 Primosomal protein n=9 Tax=Vibrio TaxID=662...  64.7    5e-13
+  UniRef90_A8FSZ9 Uncharacterized protein n=2 Tax=Shewanella TaxI...  64.7    5e-13
+  UniRef90_C6CQS3 Uncharacterized protein n=3 Tax=Dickeya chrysan...  64.7    5e-13
+  UniRef90_A0A2A4GFS9 Primosomal protein n=2 Tax=Salinivibrio Tax...  65.1    5e-13
+  UniRef90_A0A1E5ANR4 Uncharacterized protein n=1 Tax=Aliivibrio ...  65.1    5e-13
+  UniRef90_A0A1D8SA76 DUF2496 domain-containing protein n=5 Tax=V...  64.7    5e-13
+  UniRef90_UPI000D0211B9 DUF2496 domain-containing protein n=1 Ta...  64.7    5e-13
+  UniRef90_UPI000B5C3BFA DUF2496 domain-containing protein n=1 Ta...  64.7    5e-13
+  UniRef90_UPI000A050EED DUF2496 domain-containing protein n=1 Ta...  64.7    5e-13
+  UniRef90_A0A2T3IVT4 Primosomal protein n=1 Tax=Photobacterium l...  64.7    5e-13
+  UniRef90_A0A3A3EH72 DUF2496 domain-containing protein n=1 Tax=P...  64.7    6e-13
+  UniRef90_A0A1C3JSR0 Uncharacterized protein n=2 Tax=Marinomonas...  64.7    6e-13
+  UniRef90_A0A2N7GBD3 Primosomal protein n=1 Tax=Vibrio sp. 10N.2...  64.7    6e-13
+  UniRef90_UPI000BE46F8C DUF2496 domain-containing protein n=1 Ta...  65.1    6e-13
+  UniRef90_A0A1Y6ITX7 Uncharacterized protein n=1 Tax=Vibrio mang...  64.7    6e-13
+  UniRef90_A0A2M8HAN8 DUF2496 domain-containing protein n=2 Tax=A...  64.7    6e-13
+  UniRef90_B8CQE2 Uncharacterized protein n=2 Tax=Shewanella TaxI...  64.7    7e-13
+  UniRef90_A0A1T4US69 Uncharacterized protein n=1 Tax=Enterovibri...  64.7    7e-13
+  UniRef90_U4JZG4 Uncharacterized protein n=5 Tax=Vibrio nigripul...  64.3    7e-13
+  UniRef90_A0A2C6EAX0 Uncharacterized protein n=1 Tax=Pseudoalter...  64.3    7e-13
+  UniRef90_A0A0Q0GGV6 Uncharacterized protein n=9 Tax=Pseudoalter...  64.3    7e-13
+  UniRef90_A0A0A3EVW9 Primosomal protein n=12 Tax=Vibrio TaxID=66...  64.3    7e-13
+  UniRef90_A0A1Q1PBE3 Uncharacterized protein n=6 Tax=Vibrio camp...  64.3    7e-13
+  UniRef90_A0A1B1EB52 Primosomal protein n=3 Tax=Vibrio TaxID=662...  64.3    8e-13
+  UniRef90_A0A1R4JLQ2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  64.3    8e-13
+  UniRef90_A0A1E7Q8Q1 DUF2496 domain-containing protein n=1 Tax=R...  64.3    8e-13
+  UniRef90_G7EHC3 Uncharacterized protein n=1 Tax=Pseudoalteromon...  64.3    8e-13
+  UniRef90_UPI0009EBF51B DUF2496 domain-containing protein n=1 Ta...  64.7    8e-13
+  UniRef90_UPI000E74AFDA DUF2496 domain-containing protein n=1 Ta...  64.3    8e-13
+  UniRef90_UPI00082FB49B DUF2496 domain-containing protein n=1 Ta...  64.3    8e-13
+  UniRef90_A0A349FFC9 Primosomal protein n=1 Tax=Vibrio sp. TaxID...  64.3    8e-13
+  UniRef90_A0A0U2IST7 Uncharacterized protein n=5 Tax=Pseudoalter...  64.3    8e-13
+  UniRef90_A0A1T4K4Q7 Uncharacterized protein n=1 Tax=Vibrio cinc...  64.3    9e-13
+  UniRef90_H2FWH1 Uncharacterized protein n=1 Tax=Oceanimonas sp....  63.9    9e-13
+  UniRef90_A0A1Q2H0E6 Uncharacterized protein n=1 Tax=Pseudoalter...  63.9    9e-13
+  UniRef90_A0A1H9IGH1 Uncharacterized protein n=1 Tax=Rosenbergie...  63.9    9e-13
+  UniRef90_A5L1F0 Uncharacterized protein n=58 Tax=Vibrionales Ta...  64.3    9e-13
+  UniRef90_A0A066RSA5 Uncharacterized protein n=1 Tax=Photobacter...  64.3    9e-13
+  UniRef90_A0A2U9LAS3 DUF2496 domain-containing protein n=2 Tax=P...  64.3    9e-13
+  UniRef90_UPI000D65E75C DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_A0A2N7D1Q1 Primosomal protein n=1 Tax=Vibrio sp. 10N.2...  63.9    1e-12
+  UniRef90_UPI0009DD9803 DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_R9PJ74 Uncharacterized protein n=1 Tax=Agarivorans alb...  63.9    1e-12
+  UniRef90_UPI0003FA9ABF DUF2496 domain-containing protein n=1 Ta...  64.3    1e-12
+  UniRef90_G7G6V9 Uncharacterized protein n=1 Tax=Pseudoalteromon...  63.9    1e-12
+  UniRef90_A0A3N0HVD7 DUF2496 domain-containing protein n=2 Tax=D...  63.9    1e-12
+  UniRef90_A0A167I488 Uncharacterized protein n=3 Tax=Pseudoalter...  63.9    1e-12
+  UniRef90_A0A2C6DI97 Primosomal protein n=1 Tax=Budvicia aquatic...  63.9    1e-12
+  UniRef90_UPI000E3E3B3B DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_A0A0M0HVS9 Primosomal protein n=1 Tax=Vibrio hepatariu...  63.9    1e-12
+  UniRef90_UPI000CF68150 DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_UPI00093C00B4 DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_A0A0G9M3M3 Primosomal protein n=35 Tax=Vibrio TaxID=66...  63.9    1e-12
+  UniRef90_A0A0F2ISM1 Primosomal protein n=6 Tax=Vibrio TaxID=662...  63.9    1e-12
+  UniRef90_UPI0009FA471C DUF2496 domain-containing protein n=1 Ta...  63.5    1e-12
+  UniRef90_A0A2I0FSW1 DUF2496 domain-containing protein n=1 Tax=E...  63.5    1e-12
+  UniRef90_A0A2G1B746 Uncharacterized protein n=1 Tax=Pseudoalter...  63.5    1e-12
+  UniRef90_A0A109X5I4 DUF2496 domain-containing protein n=3 Tax=V...  63.5    1e-12
+  UniRef90_UPI0002FCE073 DUF2496 domain-containing protein n=1 Ta...  63.5    1e-12
+  UniRef90_A0A1Q9HEB6 Primosomal protein n=1 Tax=Vibrio panuliri ...  63.5    1e-12
+  UniRef90_UPI000CF65A2B DUF2496 domain-containing protein n=1 Ta...  63.5    1e-12
+  UniRef90_UPI00063D8E2F DUF2496 domain-containing protein n=5 Ta...  63.5    1e-12
+  UniRef90_A6VV16 Uncharacterized protein n=1 Tax=Marinomonas sp....  63.9    2e-12
+  UniRef90_A0A1X1MRE4 Primosomal protein n=2 Tax=Vibrio sp. qd031...  63.5    2e-12
+  UniRef90_A0A1B9PPW9 Uncharacterized protein n=1 Tax=Aliivibrio ...  63.9    2e-12
+  UniRef90_A0A0B8QNA9 Uncharacterized protein n=4 Tax=Vibrio TaxI...  63.5    2e-12
+  UniRef90_U1LL63 Uncharacterized protein n=4 Tax=Pseudoalteromon...  63.1    2e-12
+  UniRef90_A0A099LRM2 Primosomal protein n=1 Tax=Vibrio navarrens...  63.1    2e-12
+  UniRef90_A0A167G7A2 Uncharacterized protein n=1 Tax=Pseudoalter...  63.5    2e-12
+  UniRef90_H3R981 Uncharacterized DUF2496 family protein n=3 Tax=...  63.1    2e-12
+  UniRef90_UPI000EFC437A DUF2496 domain-containing protein n=1 Ta...  63.5    2e-12
+  UniRef90_A0A1V3HXD8 Primosomal protein n=4 Tax=Vibrionaceae Tax...  63.5    2e-12
+  UniRef90_A0A2G8BS61 DUF2496 domain-containing protein n=1 Tax=T...  63.1    2e-12
+  UniRef90_UPI0006EC029D DUF2496 domain-containing protein n=1 Ta...  63.5    2e-12
+  UniRef90_A0A0N8Q4X0 Uncharacterized protein n=3 Tax=Pseudoalter...  63.1    2e-12
+  UniRef90_F6CXI7 Uncharacterized protein n=1 Tax=Marinomonas pos...  63.1    2e-12
+  UniRef90_UPI0008D9B65A DUF2496 domain-containing protein n=1 Ta...  63.1    2e-12
+  UniRef90_A0A2T3JRR7 Uncharacterized protein n=1 Tax=Photobacter...  63.1    2e-12
+  UniRef90_UPI00097038F7 DUF2496 domain-containing protein n=1 Ta...  63.5    2e-12
+  UniRef90_A0A1H5YYI3 Uncharacterized protein n=2 Tax=Vibrio hang...  63.1    2e-12
+  UniRef90_A0A178KQC7 Primosomal protein n=1 Tax=Photobacterium j...  63.1    2e-12
+  UniRef90_A0A1J0EAP0 DUF2496 domain-containing protein n=1 Tax=P...  63.1    3e-12
+  UniRef90_V4HX56 Uncharacterized protein n=1 Tax=Pseudoalteromon...  63.1    3e-12
+  UniRef90_A0A090IKA5 Uncharacterized protein n=1 Tax=Aliivibrio ...  63.1    3e-12
+  UniRef90_A0A3A6QJH6 DUF2496 domain-containing protein n=1 Tax=V...  62.7    3e-12
+  UniRef90_A0A220VDM3 DUF2496 domain-containing protein n=1 Tax=P...  62.7    3e-12
+  UniRef90_A0A066UTI9 Primosomal protein n=1 Tax=Vibrio fortis Ta...  62.7    3e-12
+  UniRef90_D1P4G5 Uncharacterized protein n=2 Tax=Providencia rus...  62.7    3e-12
+  UniRef90_D0IKK7 Uncharacterized protein n=1 Tax=Vibrio sp. RC58...  63.1    3e-12
+  UniRef90_A0A3N9THC1 DUF2496 domain-containing protein n=1 Tax=V...  62.7    3e-12
+  UniRef90_UPI000B3E4DBE DUF2496 domain-containing protein n=1 Ta...  62.4    4e-12
+  UniRef90_B0TPD1 Uncharacterized protein n=1 Tax=Shewanella hali...  62.4    4e-12
+  UniRef90_A0A0J8XZ06 Primosomal protein n=1 Tax=Photobacterium s...  62.4    4e-12
+  UniRef90_A0A3A1PRC4 DUF2496 domain-containing protein n=6 Tax=V...  62.4    4e-12
+  UniRef90_UPI0008DD250A DUF2496 domain-containing protein n=1 Ta...  62.4    4e-12
+  UniRef90_A0A240EMC0 Uncharacterized protein n=2 Tax=Vibrio thal...  62.4    4e-12
+  UniRef90_D4ZHY3 Uncharacterized protein n=1 Tax=Shewanella viol...  62.7    4e-12
+  UniRef90_UPI0009EA5AD8 DUF2496 domain-containing protein n=1 Ta...  62.4    4e-12
+  UniRef90_UPI0004AF3A8C DUF2496 domain-containing protein n=1 Ta...  62.4    4e-12
+  UniRef90_UPI000B5CEF6A DUF2496 domain-containing protein n=1 Ta...  62.4    4e-12
+  UniRef90_A0A0F5VHE7 Primosomal protein n=1 Tax=Photobacterium h...  62.4    5e-12
+  UniRef90_UPI000CF6C7D0 DUF2496 domain-containing protein n=1 Ta...  62.4    5e-12
+  UniRef90_A8H6S0 Uncharacterized protein n=1 Tax=Shewanella peal...  62.0    5e-12
+  UniRef90_A0A193KBC1 Primosomal protein n=4 Tax=Vibrio TaxID=662...  62.4    5e-12
+  UniRef90_A0A090RXV6 Uncharacterized protein n=5 Tax=Vibrio TaxI...  62.0    5e-12
+  UniRef90_A0A2A2HN28 DUF2496 domain-containing protein n=3 Tax=A...  62.4    5e-12
+  UniRef90_U3CMG9 Uncharacterized protein n=1 Tax=Vibrio ezurae N...  62.0    5e-12
+  UniRef90_A0A2S7XJF0 Uncharacterized protein n=2 Tax=Aliivibrio ...  62.4    5e-12
+  UniRef90_V5FHN5 Uncharacterized protein n=1 Tax=Vibrio haliotic...  62.0    6e-12
+  UniRef90_UPI0008DDE774 DUF2496 domain-containing protein n=3 Ta...  62.0    6e-12
+  UniRef90_UPI000408EE56 DUF2496 domain-containing protein n=1 Ta...  62.0    6e-12
+  UniRef90_A0A1Y0CW39 DUF2496 domain-containing protein n=1 Tax=O...  62.0    6e-12
+  UniRef90_B1KJS1 Uncharacterized protein n=2 Tax=Shewanella TaxI...  62.0    6e-12
+  UniRef90_A0A2I0DXI6 Primosomal protein n=1 Tax=Shewanella sp. G...  62.0    6e-12
+  UniRef90_A0A191W4Q1 DUF2496 domain-containing protein n=9 Tax=V...  62.0    7e-12
+  UniRef90_A0A2S7UYH0 Uncharacterized protein n=1 Tax=Psychrospha...  62.0    7e-12
+  UniRef90_Q1Z5T4 Uncharacterized protein n=3 Tax=Photobacterium ...  61.6    9e-12
+  UniRef90_A0A1C3ERC9 Primosomal protein n=1 Tax=Enterovibrio pac...  61.2    1e-11
+  UniRef90_U3ANL2 Uncharacterized protein n=2 Tax=Vibrio TaxID=66...  61.2    1e-11
+  UniRef90_A0A1M7Z1I9 Uncharacterized protein n=1 Tax=Vibrio quin...  61.6    1e-11
+  UniRef90_UPI000248300B DUF2496 domain-containing protein n=1 Ta...  61.6    1e-11
+  UniRef90_A4C5S5 Uncharacterized protein n=1 Tax=Pseudoalteromon...  61.6    1e-11
+  UniRef90_UPI0003701576 DUF2496 domain-containing protein n=1 Ta...  61.2    1e-11
+  UniRef90_UPI000300310A DUF2496 domain-containing protein n=1 Ta...  61.2    1e-11
+  UniRef90_UPI000F67F85F DUF2496 domain-containing protein n=1 Ta...  61.2    1e-11
+  UniRef90_A0A2P7QHU6 DUF2496 domain-containing protein n=1 Tax=Z...  61.2    1e-11
+  UniRef90_A0A2X4REM6 Protein of uncharacterized function (DUF249...  60.8    2e-11
+  UniRef90_A0A0F5AUL3 Uncharacterized protein n=9 Tax=Vibrionacea...  61.2    2e-11
+  UniRef90_A0A2T3N510 Uncharacterized protein n=1 Tax=Photobacter...  60.8    2e-11
+  UniRef90_L8D844 Uncharacterized protein n=1 Tax=Pseudoalteromon...  61.2    2e-11
+  UniRef90_A0A1E5D5W9 Primosomal protein n=2 Tax=Vibrionales TaxI...  60.8    2e-11
+  UniRef90_K8WYN6 Uncharacterized protein n=1 Tax=Providencia bur...  60.8    2e-11
+  UniRef90_A0A366CTB6 Uncharacterized protein DUF2496 n=1 Tax=Mar...  60.8    2e-11
+  UniRef90_A0A3D5BJ86 DUF2496 domain-containing protein n=1 Tax=R...  60.8    2e-11
+  UniRef90_UPI000A03B9FF DUF2496 domain-containing protein n=1 Ta...  60.8    2e-11
+  UniRef90_A0A1A8TA91 Uncharacterized protein n=2 Tax=Marinomonas...  60.4    2e-11
+  UniRef90_A0A249D0P9 DUF2496 domain-containing protein n=14 Tax=...  60.4    2e-11
+  UniRef90_UPI000F83AB16 DUF2496 domain-containing protein n=1 Ta...  60.8    2e-11
+  UniRef90_A0A1B9P1E5 Uncharacterized protein n=2 Tax=Aliivibrio ...  60.8    2e-11
+  UniRef90_X7E594 Uncharacterized protein n=1 Tax=Marinomonas ush...  60.4    2e-11
+  UniRef90_A0A2A9F5Y4 Uncharacterized protein DUF2496 n=1 Tax=Vib...  60.4    2e-11
+  UniRef90_A9DF74 Uncharacterized protein n=2 Tax=Shewanella bent...  60.8    2e-11
+  UniRef90_A0A1Y5JXP9 Uncharacterized protein n=1 Tax=Pseudoalter...  60.1    3e-11
+  UniRef90_A0A0L7YXY7 Primosomal protein n=1 Tax=Vibrio alginolyt...  60.1    3e-11
+  UniRef90_UPI000C1640BF DUF2496 domain-containing protein n=1 Ta...  60.1    3e-11
+  UniRef90_A0A3G9I3C0 DUF2496 domain-containing protein n=3 Tax=A...  60.1    3e-11
+  UniRef90_UPI000A36F436 DUF2496 domain-containing protein n=1 Ta...  60.1    4e-11
+  UniRef90_E3BEF3 Uncharacterized protein n=1 Tax=Vibrio caribbea...  60.1    4e-11
+  UniRef90_A0A345M208 DUF2496 domain-containing protein n=2 Tax=P...  60.1    4e-11
+  UniRef90_UPI000CF5DA5C DUF2496 domain-containing protein n=2 Ta...  59.7    4e-11
+  UniRef90_UPI0009DD25C0 DUF2496 domain-containing protein n=2 Ta...  59.7    4e-11
+  UniRef90_A0A231N2V8 DUF2496 domain-containing protein n=2 Tax=Z...  59.7    5e-11
+  UniRef90_A0A2T3NRD6 Primosomal protein n=1 Tax=Photobacterium s...  59.7    5e-11
+  UniRef90_A0A2W0GK04 DUF2496 domain-containing protein n=3 Tax=P...  59.7    5e-11
+  UniRef90_A0A1I7CLF4 Uncharacterized protein n=2 Tax=Pseudoalter...  59.7    5e-11
+  UniRef90_A0A1S6HUD4 Uncharacterized protein n=1 Tax=Shewanella ...  60.1    5e-11
+  UniRef90_A0A0G3CLY8 Primosomal protein n=1 Tax=Pragia fontium T...  59.7    5e-11
+  UniRef90_A0A2G2IIC7 Uncharacterized protein n=1 Tax=Moritella s...  60.1    5e-11
+  UniRef90_UPI0004B17FD9 DUF2496 domain-containing protein n=1 Ta...  59.7    6e-11
+  UniRef90_UPI000E0B4276 DUF2496 domain-containing protein n=1 Ta...  59.3    6e-11
+  UniRef90_A0A1T4R727 DUF2496 domain-containing protein n=1 Tax=O...  59.3    7e-11
+  UniRef90_W0HMC8 YbaM n=3 Tax=Sodalis TaxID=84565 RepID=W0HMC8_9...  59.3    7e-11
+  UniRef90_A0A356D4I5 Uncharacterized protein n=1 Tax=Providencia...  59.3    8e-11
+  UniRef90_A0A3D1Z8Q4 Primosomal protein n=2 Tax=Vibrio TaxID=662...  59.3    8e-11
+  UniRef90_A0A3M8PZ76 DUF2496 domain-containing protein n=1 Tax=M...  59.3    9e-11
+  UniRef90_A0A1B7JNC4 Uncharacterized protein n=1 Tax=Providencia...  58.9    9e-11
+  UniRef90_UPI00058E6EFD DUF2496 domain-containing protein n=1 Ta...  59.3    9e-11
+  UniRef90_UPI000FD742E1 DUF2496 domain-containing protein n=1 Ta...  59.7    1e-10
+  UniRef90_A0A0M0M325 Uncharacterized protein n=1 Tax=Rheinheimer...  58.9    1e-10
+  UniRef90_A0A1M5X8X6 Uncharacterized protein n=2 Tax=Vibrio aero...  58.9    1e-10
+  UniRef90_UPI000E77CEA3 DUF2496 domain-containing protein n=1 Ta...  58.9    1e-10
+  UniRef90_A0A2D0L7M4 Uncharacterized protein n=1 Tax=Xenorhabdus...  58.5    1e-10
+  UniRef90_A0A198FLV9 Uncharacterized protein n=1 Tax=Cosenzaea m...  58.5    1e-10
+  UniRef90_UPI00097C71A5 DUF2496 domain-containing protein n=1 Ta...  58.5    1e-10
+  UniRef90_A0A3P1ILV5 DUF2496 domain-containing protein n=1 Tax=E...  58.1    1e-10
+  UniRef90_UPI000FDA934F UPI000FDA934F related cluster n=1 Tax=un...  58.5    2e-10
+  UniRef90_W3YFF0 PF10689 family protein n=1 Tax=Providencia alca...  58.1    2e-10
+  UniRef90_A0A269PP50 Uncharacterized protein n=1 Tax=Pseudoalter...  58.1    2e-10
+  UniRef90_UPI0009C01973 DUF2496 domain-containing protein n=1 Ta...  58.1    2e-10
+  UniRef90_A0A244CS09 Uncharacterized protein n=1 Tax=Pseudoalter...  58.1    2e-10
+  UniRef90_A0A0M2T1V1 Uncharacterized protein n=1 Tax=Pararheinhe...  58.1    3e-10
+  UniRef90_B2Q4G5 Uncharacterized protein n=6 Tax=Gammaproteobact...  57.7    3e-10
+  UniRef90_UPI000DCF7C8F DUF2496 domain-containing protein n=1 Ta...  57.7    3e-10
+  UniRef90_UPI0009E30DC4 DUF2496 domain-containing protein n=1 Ta...  57.4    4e-10
+  UniRef90_A0A1I1I1C9 Uncharacterized protein n=1 Tax=Pseudoalter...  57.4    4e-10
+  UniRef90_A0A2N1DJ97 DUF2496 domain-containing protein n=1 Tax=P...  57.4    5e-10
+  UniRef90_UPI000970C7BB DUF2496 domain-containing protein n=2 Ta...  57.4    5e-10
+  UniRef90_S6GGL8 Uncharacterized protein n=1 Tax=Osedax symbiont...  57.0    5e-10
+  UniRef90_UPI000C84D46E DUF2496 domain-containing protein n=1 Ta...  57.0    6e-10
+  UniRef90_UPI0004127F7C DUF2496 domain-containing protein n=1 Ta...  57.0    7e-10
+  UniRef90_UPI000F8F2EFB UPI000F8F2EFB related cluster n=1 Tax=un...  56.6    9e-10
+  UniRef90_UPI00040D063D DUF2496 domain-containing protein n=1 Ta...  57.0    9e-10
+  UniRef90_R1F681 Uncharacterized protein n=2 Tax=Aeromonas TaxID...  56.2    1e-09
+  UniRef90_A0A2N0WX13 DUF2496 domain-containing protein n=1 Tax=P...  55.8    1e-09
+  UniRef90_UPI000C824302 DUF2496 domain-containing protein n=2 Ta...  55.8    2e-09
+  UniRef90_A0A3E0DHZ1 Uncharacterized protein DUF2496 n=1 Tax=Mar...  55.4    3e-09
+  UniRef90_A0A0Q0HYF3 Uncharacterized protein n=1 Tax=Shewanella ...  55.4    3e-09
+  UniRef90_A0A1B7UME5 Uncharacterized protein n=2 Tax=Rheinheimer...  55.8    3e-09
+  UniRef90_K8W9M9 Uncharacterized protein n=1 Tax=Providencia sne...  55.4    3e-09
+  UniRef90_UPI0004290AFA DUF2496 domain-containing protein n=1 Ta...  55.4    3e-09
+  UniRef90_A0A2H9U5E1 DUF2496 domain-containing protein n=1 Tax=A...  53.9    9e-09
+  UniRef90_UPI0003768BBD DUF2496 domain-containing protein n=1 Ta...  53.9    1e-08
+  UniRef90_A0A370U6L2 DUF2496 domain-containing protein n=1 Tax=M...  53.9    1e-08
+  UniRef90_A0A0M2VLZ8 Uncharacterized protein n=1 Tax=Arsukibacte...  53.9    1e-08
+  UniRef90_A0A2N1A3L7 DUF2496 domain-containing protein n=1 Tax=P...  52.3    4e-08
+  UniRef90_M4U7W3 Uncharacterized protein n=1 Tax=Psychromonas sp...  51.2    1e-07
+  UniRef90_C9P3U7 Uncharacterized protein n=1 Tax=Vibrio metschni...  50.4    2e-07
+  UniRef90_A0A3P4FP06 Primosomal replication protein N n=1 Tax=Es...  48.5    4e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00056ED2CF DUF2496 domain-containing protein n=1 Ta...  60.8    2e-11
+  UniRef90_UPI0004BBA498 DUF2496 domain-containing protein n=1 Ta...  59.7    6e-11
+  UniRef90_K8BNN5 Uncharacterized protein n=1 Tax=Cronobacter dub...  57.7    2e-10
+  UniRef90_A0A0W8JI55 Uncharacterized protein n=5 Tax=Vibrio TaxI...  57.7    3e-10
+  UniRef90_UPI000D785737 DUF2496 domain-containing protein n=2 Ta...  57.7    3e-10
+  UniRef90_A0A1H5XJZ5 Uncharacterized protein n=2 Tax=Oceanospiri...  56.2    1e-09
+  UniRef90_A0A366W7C7 Uncharacterized protein n=1 Tax=Psychromona...  54.7    5e-09
+  UniRef90_A0A1X7ALQ5 Uncharacterized protein n=1 Tax=Parendozoic...  53.9    1e-08
+  UniRef90_UPI000E30431E DUF2496 domain-containing protein n=1 Ta...  52.7    2e-08
+  UniRef90_A0A2N0WQ10 Uncharacterized protein n=1 Tax=Alteromonad...  52.7    3e-08
+  UniRef90_A0A1J4QFR3 DUF2496 domain-containing protein n=1 Tax=O...  52.0    6e-08
+  UniRef90_A0A2P5TQX3 DUF2496 domain-containing protein n=1 Tax=O...  52.0    6e-08
+  UniRef90_A0A2S0VSL1 Uncharacterized protein n=1 Tax=Catenovulum...  51.2    1e-07
+  UniRef90_A1SWQ7 Uncharacterized protein n=1 Tax=Psychromonas in...  50.4    3e-07
+  UniRef90_UPI000B9ACDB0 DUF2496 domain-containing protein n=1 Ta...  50.0    4e-07
+  UniRef90_I1DZ99 Uncharacterized protein n=2 Tax=Rheinheimera Ta...  40.4    0.001
+  UniRef90_A0A142B8Y4 Uncharacterized protein n=2 Tax=Endozoicomo...  40.8    0.002
+  UniRef90_UPI000414FCF9 DUF2496 domain-containing protein n=1 Ta...  40.8    0.002
+  UniRef90_A0A1Y1R0V3 Uncharacterized protein n=1 Tax=Oceanospiri...  41.6    0.002
+  UniRef90_UPI00054D8F69 hypothetical protein n=1 Tax=Endozoicomo...  36.6    0.098
+  UniRef90_UPI000825410E hypothetical protein n=1 Tax=Endozoicomo...  36.2    0.13 
+  UniRef90_A0A081KG62 Uncharacterized protein n=1 Tax=Endozoicomo...  35.8    0.23 
+  UniRef90_A0A2R7TN13 Aldo/keto reductase (Fragment) n=1 Tax=Pseu...  36.2    0.42 
+  UniRef90_A0A354J6F8 LacI family transcriptional regulator n=3 T...  36.6    0.44 
+  UniRef90_UPI000BA46258 aldo/keto reductase n=1 Tax=Mesorhizobiu...  36.2    0.48 
+  UniRef90_A0A3B6SN89 Uncharacterized protein n=1 Tax=Triticum ae...  36.2    0.52 
+  UniRef90_A0A0Q6X8D5 Aldehyde oxidase n=2 Tax=Burkholderiales Ta...  35.8    0.73 
+  UniRef90_UPI0007804C41 hypothetical protein n=1 Tax=Endozoicomo...  33.9    1.1  
+  UniRef90_G8Q5E3 Aldo-keto reductase n=41 Tax=Gammaproteobacteri...  35.0    1.4  
+  UniRef90_A0A366JGP2 Aryl-alcohol dehydrogenase-like predicted o...  35.0    1.5  
+  UniRef90_A1B730 Aldo/keto reductase n=2 Tax=Paracoccus TaxID=24...  35.0    1.6  
+  UniRef90_UPI000CF0EBC4 aldo/keto reductase n=1 Tax=Helicobacter...  34.6    1.8  
+  UniRef90_UPI00082950AB hypothetical protein n=2 Tax=Endozoicomo...  33.1    1.9  
+  UniRef90_A0A2G6RVK8 Aryl-alcohol dehydrogenase-like predicted o...  34.6    2.0  
+  UniRef90_A0A1T4XWK3 Predicted oxidoreductase n=1 Tax=Thiothrix ...  34.6    2.0  
+  UniRef90_A0A2L2NW11 Aldo/keto reductase n=4 Tax=Cyanobacteria T...  34.6    2.0  
+  UniRef90_UPI000DEFAF80 aldo/keto reductase n=1 Tax=Chitinophaga...  34.6    2.1  
+  UniRef90_A0A1D2X8W6 Uncharacterized protein n=1 Tax=Endozoicomo...  33.1    2.4  
+  UniRef90_A0A1I5N855 Predicted oxidoreductase n=1 Tax=Cohaesibac...  34.2    2.4  
+  UniRef90_A0A2V8SXJ6 Aldo/keto reductase n=1 Tax=Acidobacteria b...  34.2    2.4  
+  UniRef90_UPI000E57954A peroxiredoxin-6-like n=1 Tax=Frankliniel...  34.2    2.5  
+  UniRef90_A0A330HS53 Aldo/keto reductase n=1 Tax=Mesorhizobium h...  34.2    2.6  
+  UniRef90_UPI00047E9C50 aldo/keto reductase n=1 Tax=Mesorhizobiu...  34.2    2.7  
+  UniRef90_A0A3A8PGR7 Aldo/keto reductase n=1 Tax=Corallococcus s...  34.2    3.0  
+  UniRef90_UPI000C7776C3 hypothetical protein n=1 Tax=Endozoicomo...  32.7    3.6  
+  UniRef90_UPI000A68982A aldo/keto reductase n=3 Tax=Helicobacter...  33.5    3.6  
+  UniRef90_Q2IEH6 Aldo/keto reductase n=1 Tax=Anaeromyxobacter de...  33.9    3.8  
+  UniRef90_A0A2W7D050 Aldo/keto reductase n=1 Tax=Mesorhizobium k...  33.9    3.9  
+  UniRef90_UPI000DDDE6F0 aldo/keto reductase n=2 Tax=Rhizobiales ...  33.9    4.0  
+  UniRef90_E8WN92 Aldo/keto reductase n=1 Tax=Geobacter sp. (stra...  33.9    4.2  
+  UniRef90_A0A1Z9Y414 Aldo/keto reductase n=2 Tax=Hyphomonadaceae...  33.5    4.6  
+  UniRef90_UPI00055DA29E aldo/keto reductase n=2 Tax=Rhizobium Ta...  33.5    4.7  
+  UniRef90_A0A3D5VU66 Aldo/keto reductase n=2 Tax=Comamonadaceae ...  33.5    4.9  
+  UniRef90_A0A1V5W0A5 Tetratricopeptide repeat protein n=1 Tax=Sp...  33.1    5.9  
+  UniRef90_A0A3A8KQK7 Aldo/keto reductase n=5 Tax=Corallococcus T...  33.1    6.3  
+  UniRef90_A0A2A6L8U5 Aldo/keto reductase n=2 Tax=Rhizobium TaxID...  33.1    6.6  
+  UniRef90_UPI0009B6DCBB aldo/keto reductase n=1 Tax=Helicobacter...  32.3    6.6  
+  UniRef90_A0A1G9R7J9 Predicted oxidoreductase n=1 Tax=Halomonas ...  33.1    6.8  
+  UniRef90_A0A2E0RYT3 Uncharacterized protein n=1 Tax=Chloroflexi...  33.1    6.8  
+  UniRef90_A0A1I4DSD6 Predicted oxidoreductase n=2 Tax=Azotobacte...  33.1    7.2  
+  UniRef90_A0A2P9AID8 Twin-arginine translocation pathway signal ...  33.1    7.2  
+  UniRef90_J2B5J0 Putative oxidoreductase, aryl-alcohol dehydroge...  33.1    7.7  
+  UniRef90_D8IDT1 DNA mismatch repair protein MutS n=6 Tax=Brachy...  33.1    7.8  
+  UniRef90_A0A3M3A3T3 Aldo-keto reductase n=4 Tax=Pseudomonas sav...  32.7    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.179    0.570    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0546    0.140     1.90     42.6     43.6 
+
+Effective search space used: 750401994069
+Results from round 3
+
+
+Query= NP_414999.1
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0F1AFI3 Uncharacterized protein n=15 Tax=Bacteria T...  87.8    5e-22
+  UniRef90_A0A0T9L848 Protein of uncharacterized function (DUF249...  87.4    2e-21
+  UniRef90_A0A0J5MAR0 DUF2496 domain-containing protein n=6 Tax=P...  83.6    3e-20
+  UniRef90_A0A0H3CJQ1 Uncharacterized protein n=30 Tax=Enterobact...  82.4    7e-20
+  UniRef90_A0A2T4I1X4 DUF2496 domain-containing protein n=1 Tax=M...  82.0    8e-20
+  UniRef90_W1DNU2 Putative inner membrane protein n=1 Tax=Klebsie...  82.0    1e-19
+  UniRef90_L0M5T9 Uncharacterized protein n=1 Tax=Enterobacteriac...  81.6    1e-19
+  UniRef90_A0A0F4BWB1 Uncharacterized protein n=9 Tax=Enterobacte...  81.2    2e-19
+  UniRef90_A4W7F0 Uncharacterized protein n=2 Tax=Enterobacteriac...  80.9    3e-19
+  UniRef90_A0A1B8HT82 DUF2496 domain-containing protein n=1 Tax=M...  80.5    3e-19
+  UniRef90_D2TLU3 Uncharacterized protein n=2 Tax=Enterobacteriac...  79.7    5e-19
+  UniRef90_A0A379WZK5 ISNCY transposase n=2 Tax=Salmonella enteri...  86.6    6e-19
+  UniRef90_A0A3G4T6Z8 DUF2496 domain-containing protein n=8 Tax=E...  79.7    6e-19
+  UniRef90_A0A0D9H797 DUF2496 domain-containing protein n=36 Tax=...  79.3    7e-19
+  UniRef90_A0A154WSA4 Protein YbaM n=11 Tax=Enterobacteriaceae Ta...  79.7    7e-19
+  UniRef90_A0A0H0CTQ1 DUF2496 domain-containing protein n=28 Tax=...  79.3    8e-19
+  UniRef90_D4DW67 Uncharacterized protein n=1 Tax=Serratia odorif...  79.3    9e-19
+  UniRef90_A0A155ZMJ0 Protein YbaM n=10 Tax=Enterobacteriaceae Ta...  79.3    1e-18
+  UniRef90_A0A1B8H140 DUF2496 domain-containing protein n=2 Tax=M...  78.5    2e-18
+  UniRef90_A0A0M3F8E0 Uncharacterized protein n=1 Tax=Enterobacte...  78.5    2e-18
+  UniRef90_W0BS11 Uncharacterized protein n=10 Tax=Enterobacter T...  78.5    2e-18
+  UniRef90_A0A0U1FD06 Transposase n=80 Tax=Salmonella enterica Ta...  85.1    2e-18
+  UniRef90_A0A0L0H246 Uncharacterized protein n=1 Tax=Trabulsiell...  78.2    3e-18
+  UniRef90_A0A076LS59 Uncharacterized protein n=2 Tax=Edwardsiell...  78.2    3e-18
+  UniRef90_A0A1B1KM70 Uncharacterized protein n=3 Tax=Yersiniacea...  77.8    3e-18
+  UniRef90_A0A085AEV5 Putative inner membrane protein n=2 Tax=Tra...  77.8    4e-18
+  UniRef90_W0LHM3 Uncharacterized protein n=3 Tax=Yersiniaceae Ta...  77.8    4e-18
+  UniRef90_UPI000EFBB110 DUF2496 domain-containing protein n=1 Ta...  77.8    5e-18
+  UniRef90_A0A3D3HTA7 DUF2496 domain-containing protein n=1 Tax=M...  77.4    5e-18
+  UniRef90_A0A263W2Q7 DUF2496 domain-containing protein n=6 Tax=E...  77.4    5e-18
+  UniRef90_A0A1M5LD67 Uncharacterized protein n=1 Tax=Pectobacter...  77.0    6e-18
+  UniRef90_A0A0F5BVG1 Uncharacterized protein n=2 Tax=Tatumella m...  77.8    7e-18
+  UniRef90_A0A2U3TIR6 DUF2496 domain-containing protein n=3 Tax=E...  77.0    7e-18
+  UniRef90_A0A3N1I5Q1 Uncharacterized protein DUF2496 n=2 Tax=Ent...  76.6    8e-18
+  UniRef90_G9Z4N8 Uncharacterized protein n=3 Tax=Yokenella regen...  76.6    9e-18
+  UniRef90_A0A3E1ZZ93 DUF2496 domain-containing protein n=2 Tax=L...  76.2    1e-17
+  UniRef90_A0A2T4XZ93 DUF2496 domain-containing protein n=11 Tax=...  76.2    1e-17
+  UniRef90_C6DB79 Uncharacterized protein n=1 Tax=Pectobacterium ...  76.6    1e-17
+  UniRef90_A8GAU5 Uncharacterized protein n=7 Tax=Serratia TaxID=...  76.2    1e-17
+  UniRef90_UPI000A000D06 DUF2496 domain-containing protein n=1 Ta...  77.0    1e-17
+  UniRef90_S3IS78 Uncharacterized protein n=1 Tax=Cedecea davisae...  75.9    2e-17
+  UniRef90_A0A084A5F1 Uncharacterized protein n=2 Tax=Serratia sp...  76.2    2e-17
+  UniRef90_Q7N0N7 Uncharacterized protein n=16 Tax=Photorhabdus T...  75.9    2e-17
+  UniRef90_UPI000345CBE5 DUF2496 domain-containing protein n=1 Ta...  75.9    2e-17
+  UniRef90_A0A1N6MTQ8 Uncharacterized protein n=5 Tax=Xenorhabdus...  75.9    2e-17
+  UniRef90_A0A0J4TMH4 DUF2496 domain-containing protein n=62 Tax=...  75.5    3e-17
+  UniRef90_B6VNT2 Uncharacterized protein n=5 Tax=Photorhabdus Ta...  75.5    3e-17
+  UniRef90_UPI000DEFFD5E DUF2496 domain-containing protein n=1 Ta...  75.5    3e-17
+  UniRef90_A0A333FR86 Inner membrane protein n=13 Tax=Bacteria Ta...  75.5    3e-17
+  UniRef90_UPI000307F202 DUF2496 domain-containing protein n=1 Ta...  75.5    3e-17
+  UniRef90_A0A0Q4P0C2 Uncharacterized protein n=4 Tax=Enterobacte...  75.5    3e-17
+  UniRef90_UPI0004AD4D75 DUF2496 domain-containing protein n=1 Ta...  75.1    4e-17
+  UniRef90_A0A380SPE1 Protein of uncharacterized function (DUF249...  75.1    4e-17
+  UniRef90_A0A0F7D268 DUF2496 domain-containing protein n=26 Tax=...  75.1    4e-17
+  UniRef90_UPI000FDE0D5D UPI000FDE0D5D related cluster n=1 Tax=un...  75.1    4e-17
+  UniRef90_UPI000EB3B328 DUF2496 domain-containing protein n=1 Ta...  74.7    4e-17
+  UniRef90_UPI0004707AB4 DUF2496 domain-containing protein n=2 Ta...  75.1    5e-17
+  UniRef90_J1GAU6 Uncharacterized protein n=2 Tax=Enterobacteriac...  75.1    5e-17
+  UniRef90_UPI000907A201 DUF2496 domain-containing protein n=1 Ta...  74.7    5e-17
+  UniRef90_A0A368ILW5 DUF2496 domain-containing protein n=5 Tax=E...  74.7    6e-17
+  UniRef90_A0A2T3XJA4 DUF2496 domain-containing protein n=6 Tax=E...  74.7    6e-17
+  UniRef90_UPI000907AEF0 DUF2496 domain-containing protein n=1 Ta...  74.7    6e-17
+  UniRef90_A0A0N1KIE0 Uncharacterized protein n=2 Tax=Moellerella...  74.7    6e-17
+  UniRef90_A0A1W6B181 DUF2496 domain-containing protein n=1 Tax=P...  74.3    6e-17
+  UniRef90_A0A285JP19 Uncharacterized protein n=1 Tax=Enterobacte...  74.7    7e-17
+  UniRef90_A0A1S8CPI1 DUF2496 domain-containing protein n=1 Tax=S...  74.7    8e-17
+  UniRef90_A0A2V1HJU4 DUF2496 domain-containing protein n=1 Tax=S...  74.3    8e-17
+  UniRef90_A0A1I6DDT3 Uncharacterized protein n=1 Tax=Enterobacte...  74.3    8e-17
+  UniRef90_UPI000EF1B489 DUF2496 domain-containing protein n=1 Ta...  74.7    8e-17
+  UniRef90_A0A1Y0L5N4 Uncharacterized protein n=2 Tax=Tatumella c...  75.1    8e-17
+  UniRef90_A0A085GI80 Uncharacterized protein n=3 Tax=Buttiauxell...  74.3    9e-17
+  UniRef90_A0A0B2TC44 Uncharacterized protein n=1 Tax=Pectobacter...  74.3    1e-16
+  UniRef90_A0A3N2ENI0 Uncharacterized protein DUF2496 n=1 Tax=Rao...  73.9    1e-16
+  UniRef90_A0A2D6D8L6 DUF2496 domain-containing protein n=1 Tax=M...  73.9    1e-16
+  UniRef90_A0A2T3MQ85 Uncharacterized protein n=3 Tax=Photobacter...  73.9    1e-16
+  UniRef90_UPI0008FEFDE8 DUF2496 domain-containing protein n=2 Ta...  73.9    1e-16
+  UniRef90_A0A0G4Q9U8 Uncharacterized protein n=8 Tax=Morganellac...  73.9    1e-16
+  UniRef90_C5BCZ3 Uncharacterized protein n=4 Tax=Edwardsiella Ta...  73.9    1e-16
+  UniRef90_H5V6N9 Uncharacterized protein n=3 Tax=Enterobacteriac...  73.9    1e-16
+  UniRef90_A0A1I3Q777 Uncharacterized protein n=2 Tax=Xenorhabdus...  73.9    1e-16
+  UniRef90_A0A318VZM0 Uncharacterized protein DUF2496 n=2 Tax=Ent...  73.9    1e-16
+  UniRef90_D4BCY4 Uncharacterized protein n=10 Tax=Enterobacteria...  73.9    1e-16
+  UniRef90_A0A0G4Q747 Uncharacterized protein n=6 Tax=Enterobacte...  73.9    1e-16
+  UniRef90_A0A0K0H830 Uncharacterized protein n=39 Tax=Salmonella...  73.5    1e-16
+  UniRef90_A0A267RZK9 DUF2496 domain-containing protein n=1 Tax=E...  73.9    1e-16
+  UniRef90_A0A1N6TRC0 Uncharacterized protein n=2 Tax=Enterobacte...  73.5    1e-16
+  UniRef90_UPI000F674B5C DUF2496 domain-containing protein n=1 Ta...  73.5    1e-16
+  UniRef90_A0A1I1WRV0 Uncharacterized protein n=1 Tax=Kosakonia s...  73.5    2e-16
+  UniRef90_A0A376E4H7 Protein of uncharacterized function (DUF249...  73.5    2e-16
+  UniRef90_A0A366F593 Uncharacterized protein DUF2496 n=1 Tax=Pse...  73.5    2e-16
+  UniRef90_W1ITM6 Uncharacterized protein n=3 Tax=Xenorhabdus Tax...  73.5    2e-16
+  UniRef90_A0A1W1KJC3 Inner membrane protein n=3 Tax=Enterobacter...  73.5    2e-16
+  UniRef90_A0A2T3PUZ6 Uncharacterized protein n=2 Tax=Photobacter...  73.5    2e-16
+  UniRef90_A0A2G0Q8T4 Uncharacterized protein n=1 Tax=Xenorhabdus...  73.2    2e-16
+  UniRef90_A0A087L0C9 Uncharacterized protein n=1 Tax=Serratia sp...  73.5    2e-16
+  UniRef90_UPI000378184D DUF2496 domain-containing protein n=1 Ta...  73.2    2e-16
+  UniRef90_A0A068QYL6 Uncharacterized protein n=1 Tax=Xenorhabdus...  73.2    2e-16
+  UniRef90_P45807 Uncharacterized protein YbaM n=248 Tax=Bacteria...  73.2    2e-16
+  UniRef90_A0A1D7Z3G0 Uncharacterized protein n=3 Tax=Pectobacter...  73.2    2e-16
+  UniRef90_A0A2N4UXR4 DUF2496 domain-containing protein n=2 Tax=P...  73.2    2e-16
+  UniRef90_A0A1V2R7F7 DUF2496 domain-containing protein n=18 Tax=...  73.2    3e-16
+  UniRef90_A0A168F5F5 DUF2496 domain-containing protein n=10 Tax=...  73.2    3e-16
+  UniRef90_A0A0J6AS80 Uncharacterized protein n=2 Tax=Pectobacter...  73.2    3e-16
+  UniRef90_A0A1B7I7B7 Uncharacterized protein n=5 Tax=Buttiauxell...  72.8    3e-16
+  UniRef90_A0A1X0X7L8 DUF2496 domain-containing protein n=3 Tax=E...  72.8    3e-16
+  UniRef90_W1IXL1 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  73.2    3e-16
+  UniRef90_A0A380QNC0 Protein of uncharacterized function (DUF249...  72.8    3e-16
+  UniRef90_UPI000BAEFEC7 DUF2496 domain-containing protein n=2 Ta...  72.8    3e-16
+  UniRef90_A0A1A9F825 DUF2496 domain-containing protein n=1 Tax=L...  72.8    3e-16
+  UniRef90_UPI0008FCC67D DUF2496 domain-containing protein n=1 Ta...  72.8    3e-16
+  UniRef90_A7MJW0 Uncharacterized protein n=5 Tax=Cronobacter Tax...  72.8    3e-16
+  UniRef90_A0A0F4NK06 Primosomal protein n=1 Tax=Vibrio galatheae...  72.8    4e-16
+  UniRef90_G2SAA2 Uncharacterized protein n=2 Tax=Enterobacter Ta...  72.4    4e-16
+  UniRef90_UPI0009BC52B9 DUF2496 domain-containing protein n=2 Ta...  72.4    4e-16
+  UniRef90_V9ZTE2 Uncharacterized protein n=4 Tax=Aeromonas TaxID...  72.4    4e-16
+  UniRef90_UPI000370D489 DUF2496 domain-containing protein n=1 Ta...  72.4    5e-16
+  UniRef90_UPI000907B396 DUF2496 domain-containing protein n=1 Ta...  72.4    5e-16
+  UniRef90_A0A2D0IQF2 Uncharacterized protein n=2 Tax=Morganellac...  72.4    5e-16
+  UniRef90_A0A128ETA0 Uncharacterized protein n=4 Tax=Grimontia T...  72.4    5e-16
+  UniRef90_A0A366IBP9 Uncharacterized protein DUF2496 n=1 Tax=Bre...  72.4    5e-16
+  UniRef90_A0A291DUT5 DUF2496 domain-containing protein n=4 Tax=C...  72.0    5e-16
+  UniRef90_H3N7Y4 DUF2496 domain-containing protein n=10 Tax=Kleb...  72.4    5e-16
+  UniRef90_A0A0K0HQ73 DUF2496 domain-containing protein n=5 Tax=H...  72.4    6e-16
+  UniRef90_A0A0D8PPS8 Uncharacterized protein n=2 Tax=Photobacter...  72.4    6e-16
+  UniRef90_A0A0J1GKM7 Primosomal protein n=2 Tax=Photobacterium a...  72.4    6e-16
+  UniRef90_A0A2T7AZ27 DUF2496 domain-containing protein n=1 Tax=C...  72.0    6e-16
+  UniRef90_A0A090V5S3 Uncharacterized protein n=4 Tax=Enterobacte...  72.0    6e-16
+  UniRef90_A0A2D0JNE7 Uncharacterized protein n=2 Tax=Xenorhabdus...  72.0    6e-16
+  UniRef90_A0A1E5CJQ4 DUF2496 domain-containing protein n=5 Tax=E...  72.0    7e-16
+  UniRef90_UPI000907D1C2 DUF2496 domain-containing protein n=1 Ta...  72.0    7e-16
+  UniRef90_I0QM45 Uncharacterized protein n=4 Tax=Yersiniaceae Ta...  72.0    7e-16
+  UniRef90_A0A318V3Y3 Uncharacterized protein DUF2496 n=1 Tax=Mar...  72.0    7e-16
+  UniRef90_B2VHV2 Uncharacterized protein n=2 Tax=Erwinia TaxID=5...  71.6    8e-16
+  UniRef90_E8LZ98 Uncharacterized protein n=1 Tax=Vibrio brasilie...  72.0    8e-16
+  UniRef90_A0A2L1URW2 DUF2496 domain-containing protein n=10 Tax=...  71.6    9e-16
+  UniRef90_A0A078LGX7 Protein of uncharacterized function (DUF249...  71.6    9e-16
+  UniRef90_A0A2T3W0I5 DUF2496 domain-containing protein n=2 Tax=P...  71.6    9e-16
+  UniRef90_A0A1S2RSW4 DUF2496 domain-containing protein n=17 Tax=...  71.6    1e-15
+  UniRef90_UPI000F0BCE5F DUF2496 domain-containing protein n=1 Ta...  71.6    1e-15
+  UniRef90_A0A068RCX7 Uncharacterized protein YbaM n=2 Tax=Serrat...  71.6    1e-15
+  UniRef90_E3G6B0 Uncharacterized protein n=1 Tax=Enterobacter li...  71.2    1e-15
+  UniRef90_UPI00092F9658 DUF2496 domain-containing protein n=1 Ta...  71.2    1e-15
+  UniRef90_A0A0J1LL06 Uncharacterized protein n=1 Tax=Citrobacter...  71.2    1e-15
+  UniRef90_A0A3N5D8V1 DUF2496 domain-containing protein n=1 Tax=B...  71.2    1e-15
+  UniRef90_A0A1S8YF71 DUF2496 domain-containing protein n=1 Tax=I...  71.2    1e-15
+  UniRef90_A0A1A8T8U2 Uncharacterized protein n=2 Tax=Marinomonas...  71.6    1e-15
+  UniRef90_Q8D150 Uncharacterized protein n=29 Tax=Yersiniaceae T...  71.2    1e-15
+  UniRef90_UPI000372575E DUF2496 domain-containing protein n=1 Ta...  71.2    2e-15
+  UniRef90_A0A2N5E9Z9 DUF2496 domain-containing protein n=3 Tax=u...  70.8    2e-15
+  UniRef90_A0A1E5BZX6 DUF2496 domain-containing protein n=1 Tax=E...  70.8    2e-15
+  UniRef90_A0A1Y6KSF5 Uncharacterized protein n=5 Tax=Photobacter...  70.8    2e-15
+  UniRef90_UPI0007F8C992 DUF2496 domain-containing protein n=1 Ta...  71.6    2e-15
+  UniRef90_A0A329E5G6 Uncharacterized protein DUF2496 n=4 Tax=Vib...  70.8    2e-15
+  UniRef90_A0A3Q0MV71 DUF2496 domain-containing protein n=7 Tax=E...  70.8    2e-15
+  UniRef90_A0A1H3W8X9 Uncharacterized protein n=4 Tax=Pectobacter...  70.8    2e-15
+  UniRef90_A0A090IF83 Uncharacterized protein n=2 Tax=Moritella T...  70.8    2e-15
+  UniRef90_K8AHS3 Uncharacterized protein n=1 Tax=Cronobacter dub...  70.8    2e-15
+  UniRef90_A0A2I5TAT5 DUF2496 domain-containing protein n=1 Tax=S...  70.5    3e-15
+  UniRef90_Q6D803 Uncharacterized protein n=2 Tax=Pectobacterium ...  70.5    3e-15
+  UniRef90_A0A0U1P7L0 Uncharacterized protein n=4 Tax=Photobacter...  70.5    3e-15
+  UniRef90_A0A3N6S1D1 DUF2496 domain-containing protein n=1 Tax=E...  70.5    3e-15
+  UniRef90_A0A127L6P4 Uncharacterized protein n=2 Tax=Enterobacte...  70.5    3e-15
+  UniRef90_A0A235CGV7 DUF2496 domain-containing protein n=1 Tax=O...  70.5    3e-15
+  UniRef90_A0A1I4YEM0 Uncharacterized protein n=1 Tax=Izhakiella ...  70.5    3e-15
+  UniRef90_A0A1G7WPU4 Uncharacterized protein n=1 Tax=Vibrio xiam...  70.5    3e-15
+  UniRef90_UPI000F66E3D9 DUF2496 domain-containing protein n=1 Ta...  70.5    3e-15
+  UniRef90_A0A0Q0QMV7 Primosomal protein n=6 Tax=Vibrio metoecus ...  70.8    3e-15
+  UniRef90_A0A2A2M796 DUF2496 domain-containing protein n=5 Tax=E...  70.5    3e-15
+  UniRef90_A0A0B7J9P5 Uncharacterized protein n=4 Tax=Photobacter...  70.5    3e-15
+  UniRef90_C9QJU0 Uncharacterized protein n=2 Tax=Vibrio TaxID=66...  70.5    3e-15
+  UniRef90_UPI000907303B DUF2496 domain-containing protein n=1 Ta...  70.1    3e-15
+  UniRef90_K8C9B2 Uncharacterized protein n=12 Tax=Cronobacter Ta...  70.1    3e-15
+  UniRef90_A0A1R4B1Y7 Uncharacterized protein n=1 Tax=Vibrio palu...  70.1    4e-15
+  UniRef90_A0A1V9DIB5 DUF2496 domain-containing protein n=1 Tax=P...  70.1    4e-15
+  UniRef90_A0A357U916 DUF2496 domain-containing protein n=1 Tax=E...  70.1    4e-15
+  UniRef90_A0A0B9GYI4 Primosomal protein n=2 Tax=Photobacterium g...  70.1    4e-15
+  UniRef90_A0A2P5GSL1 DUF2496 domain-containing protein n=1 Tax=S...  70.1    4e-15
+  UniRef90_A0A2K8QJE3 DUF2496 domain-containing protein n=2 Tax=P...  70.1    4e-15
+  UniRef90_D0IBW1 Uncharacterized protein n=2 Tax=Grimontia holli...  70.1    4e-15
+  UniRef90_E6W9E2 Uncharacterized protein n=3 Tax=Enterobacterale...  70.1    4e-15
+  UniRef90_D8MP13 Conserved uncharacterized protein n=3 Tax=Erwin...  69.7    5e-15
+  UniRef90_A0A0K6IMT0 Uncharacterized protein n=2 Tax=Marinomonas...  70.5    5e-15
+  UniRef90_UPI00041E892E DUF2496 domain-containing protein n=1 Ta...  69.7    5e-15
+  UniRef90_A0A2S5KBR4 DUF2496 domain-containing protein n=3 Tax=P...  69.7    5e-15
+  UniRef90_A0A0C3HTM6 Primosomal protein n=1 Tax=Vibrio mytili Ta...  69.7    5e-15
+  UniRef90_A0A349LU89 Uncharacterized protein n=1 Tax=Rheinheimer...  70.8    5e-15
+  UniRef90_A0A068QP80 Uncharacterized protein n=1 Tax=Xenorhabdus...  69.7    5e-15
+  UniRef90_A0A0H3FPM5 Uncharacterized protein n=5 Tax=Enterobacte...  69.7    5e-15
+  UniRef90_A0A2P5IR93 DUF2496 domain-containing protein n=1 Tax=P...  69.7    6e-15
+  UniRef90_UPI0009E3C3BB DUF2496 domain-containing protein n=2 Ta...  69.7    6e-15
+  UniRef90_UPI000907845D DUF2496 domain-containing protein n=1 Ta...  69.7    6e-15
+  UniRef90_A0A1Y5GEA5 DUF2496 domain-containing protein n=1 Tax=T...  69.7    6e-15
+  UniRef90_UPI0002F549A5 DUF2496 domain-containing protein n=1 Ta...  69.7    6e-15
+  UniRef90_UPI00069B287F DUF2496 domain-containing protein n=1 Ta...  69.3    7e-15
+  UniRef90_A0A1M2TFU5 DUF2496 domain-containing protein (Fragment...  69.3    7e-15
+  UniRef90_A0A166WMT4 Uncharacterized protein n=1 Tax=Pseudoalter...  69.7    7e-15
+  UniRef90_A0A2U3BAU6 Primosomal protein n=1 Tax=Vibrio sp. E4404...  69.3    7e-15
+  UniRef90_A0A0A8NQ38 Uncharacterized protein n=4 Tax=Xenorhabdus...  69.3    7e-15
+  UniRef90_E0SD95 Uncharacterized protein n=8 Tax=Dickeya TaxID=2...  69.7    7e-15
+  UniRef90_A0A233RHD0 DUF2496 domain-containing protein n=1 Tax=O...  69.3    8e-15
+  UniRef90_UPI0004AEDBCC DUF2496 domain-containing protein n=1 Ta...  69.3    8e-15
+  UniRef90_A0A376I2L6 Small protein involved in the cell envelope...  69.3    8e-15
+  UniRef90_X6QD57 PF10689 family protein n=3 Tax=Providencia alca...  69.3    8e-15
+  UniRef90_A0A1M4SH62 Uncharacterized protein n=1 Tax=Marinomonas...  69.3    9e-15
+  UniRef90_A0A381HU82 Protein of uncharacterized function (DUF249...  69.3    9e-15
+  UniRef90_UPI0005B222F5 DUF2496 domain-containing protein n=1 Ta...  69.3    9e-15
+  UniRef90_A0A1A9AZ21 Primosomal protein n=4 Tax=Plesiomonas shig...  69.3    9e-15
+  UniRef90_A0A2T3N690 Primosomal protein n=1 Tax=Photobacterium r...  69.3    9e-15
+  UniRef90_A0A2M9WAM6 DUF2496 domain-containing protein n=1 Tax=P...  68.9    9e-15
+  UniRef90_A0A345CNC3 DUF2496 domain-containing protein n=1 Tax=E...  68.9    1e-14
+  UniRef90_A0A2U1U080 DUF2496 domain-containing protein n=2 Tax=B...  68.9    1e-14
+  UniRef90_T0P5V8 DUF2496 family protein YbaM n=19 Tax=Gammaprote...  68.9    1e-14
+  UniRef90_A0A0U1HR90 Protein of uncharacterized function (DUF249...  68.9    1e-14
+  UniRef90_A0A223JNE4 DUF2496 domain-containing protein n=7 Tax=G...  68.9    1e-14
+  UniRef90_A0A1Y2SLG7 Uncharacterized protein n=1 Tax=Xenorhabdus...  68.9    1e-14
+  UniRef90_F9TA52 Primosomal protein n=5 Tax=Vibrio TaxID=662 Rep...  68.9    1e-14
+  UniRef90_A0A0C3MU18 Uncharacterized protein n=1 Tax=Shewanella ...  68.9    1e-14
+  UniRef90_A0A2P8VP62 DUF2496 domain-containing protein n=2 Tax=E...  68.5    1e-14
+  UniRef90_A0A2N8ZAY2 Uncharacterized protein n=1 Tax=Vibrio tape...  68.9    1e-14
+  UniRef90_UPI00092CE93E DUF2496 domain-containing protein n=1 Ta...  68.9    1e-14
+  UniRef90_UPI000D314297 DUF2496 domain-containing protein n=1 Ta...  68.9    1e-14
+  UniRef90_A0A2J9E6C8 DUF2496 domain-containing protein n=7 Tax=E...  68.5    1e-14
+  UniRef90_A0A135I7H9 Primosomal protein n=2 Tax=Enterovibrio cor...  68.5    1e-14
+  UniRef90_A0A1Y5D805 Uncharacterized protein n=1 Tax=Marinomonas...  68.9    1e-14
+  UniRef90_A0A369A8V1 Uncharacterized protein DUF2496 n=1 Tax=Mar...  68.9    2e-14
+  UniRef90_U1JJY9 Uncharacterized protein n=2 Tax=Pseudoalteromon...  68.5    2e-14
+  UniRef90_A0A356RW93 Protein of uncharacterized function (DUF249...  68.5    2e-14
+  UniRef90_A0A0S2JZW3 Uncharacterized protein n=2 Tax=Pseudoalter...  68.5    2e-14
+  UniRef90_R9VRY2 Uncharacterized protein n=6 Tax=Enterobacteriac...  68.5    2e-14
+  UniRef90_A0A085HMJ5 Uncharacterized protein n=1 Tax=Leminorella...  68.5    2e-14
+  UniRef90_I2BBM4 Uncharacterized protein n=1 Tax=Shimwellia blat...  68.5    2e-14
+  UniRef90_A0A2S9IHG8 DUF2496 domain-containing protein n=2 Tax=E...  68.1    2e-14
+  UniRef90_K1IGJ4 Uncharacterized protein n=27 Tax=Aeromonadaceae...  68.1    2e-14
+  UniRef90_UPI000B34EDE6 DUF2496 domain-containing protein n=1 Ta...  68.5    2e-14
+  UniRef90_A0A2G8EDS9 DUF2496 domain-containing protein n=1 Tax=E...  68.5    2e-14
+  UniRef90_A0A2X3ECC1 Protein of uncharacterized function (DUF249...  68.1    2e-14
+  UniRef90_A0A1Y2SSG1 Uncharacterized protein n=1 Tax=Xenorhabdus...  68.1    2e-14
+  UniRef90_F9R809 Uncharacterized protein n=4 Tax=Vibrio TaxID=66...  68.1    2e-14
+  UniRef90_UPI000948E3AC DUF2496 domain-containing protein n=1 Ta...  68.1    2e-14
+  UniRef90_UPI00035E3B6D DUF2496 domain-containing protein n=1 Ta...  68.1    2e-14
+  UniRef90_UPI0009E07E89 DUF2496 domain-containing protein n=1 Ta...  68.1    2e-14
+  UniRef90_UPI0002F1506B DUF2496 domain-containing protein n=1 Ta...  68.1    2e-14
+  UniRef90_A0A2K9JZK7 Uncharacterized protein n=4 Tax=Pseudoalter...  68.1    2e-14
+  UniRef90_Q2C5D2 Uncharacterized protein n=6 Tax=Photobacterium ...  68.1    2e-14
+  UniRef90_A0A1N6FIK1 Uncharacterized protein n=1 Tax=Salinivibri...  68.1    2e-14
+  UniRef90_A0A1V0LHS8 DUF2496 domain-containing protein n=5 Tax=E...  68.1    2e-14
+  UniRef90_A0A1B7JL13 Uncharacterized protein n=2 Tax=Proteus Tax...  68.1    2e-14
+  UniRef90_A0A376QYK0 Preotein n=11 Tax=Enterobacteriaceae TaxID=...  68.1    2e-14
+  UniRef90_A0A3A2I6J3 Primosomal protein n=1 Tax=Vibrio sp. PID23...  68.1    2e-14
+  UniRef90_W7QJ87 Uncharacterized protein n=1 Tax=Catenovulum aga...  68.1    2e-14
+  UniRef90_UPI000B363D2C DUF2496 domain-containing protein n=1 Ta...  68.1    2e-14
+  UniRef90_A0A330LMI1 Uncharacterized protein n=4 Tax=Moritella T...  67.8    2e-14
+  UniRef90_E1SGD8 Uncharacterized protein ybaM n=14 Tax=Erwiniace...  67.8    2e-14
+  UniRef90_A0A366ATU3 DUF2496 domain-containing protein n=10 Tax=...  68.1    2e-14
+  UniRef90_A0A1X1DIZ2 DUF2496 domain-containing protein n=2 Tax=E...  67.8    2e-14
+  UniRef90_A0A1B7JIG6 Putative inner membrane protein n=3 Tax=Klu...  68.1    3e-14
+  UniRef90_A0A1S1MZ30 DUF2496 domain-containing protein n=1 Tax=P...  67.8    3e-14
+  UniRef90_A0A0S2SM27 Uncharacterized protein n=4 Tax=Aeromonas T...  67.8    3e-14
+  UniRef90_A0A367D4H9 Protein of uncharacterized function (DUF249...  67.8    3e-14
+  UniRef90_A0A376L0S0 Preotein n=2 Tax=Escherichia coli TaxID=562...  67.8    3e-14
+  UniRef90_A0A2N0XUD9 Primosomal protein n=3 Tax=Vibrio TaxID=662...  67.8    3e-14
+  UniRef90_A0A2X4UF45 Protein of uncharacterized function (DUF249...  67.8    3e-14
+  UniRef90_A0A1N6QH11 Uncharacterized protein n=1 Tax=Aeromonas s...  67.8    3e-14
+  UniRef90_UPI000F65710C DUF2496 domain-containing protein n=1 Ta...  67.8    3e-14
+  UniRef90_U3U0E9 Uncharacterized protein n=3 Tax=Enterobacterale...  67.4    4e-14
+  UniRef90_A0A099KG33 Uncharacterized protein n=1 Tax=Thalassotal...  67.8    4e-14
+  UniRef90_A0A1X9TZ02 Primosomal protein n=8 Tax=Photobacterium d...  67.4    4e-14
+  UniRef90_A0A220PUE5 Primosomal protein n=2 Tax=Shewanella TaxID...  67.8    4e-14
+  UniRef90_UPI00040674B8 DUF2496 domain-containing protein n=1 Ta...  67.4    4e-14
+  UniRef90_UPI0009B2AB91 DUF2496 domain-containing protein n=1 Ta...  67.8    4e-14
+  UniRef90_A0A2U1DJF0 Uncharacterized protein DUF2496 n=7 Tax=Erw...  67.4    4e-14
+  UniRef90_A0A2N7DGJ2 Primosomal protein n=1 Tax=Vibrio sp. 10N.2...  67.4    5e-14
+  UniRef90_UPI00056E78F9 DUF2496 domain-containing protein n=2 Ta...  67.4    5e-14
+  UniRef90_U2ZXH2 Uncharacterized protein n=1 Tax=Vibrio proteoly...  67.4    5e-14
+  UniRef90_A0A2K1QC15 DUF2496 domain-containing protein n=1 Tax=M...  67.4    5e-14
+  UniRef90_A0A1I4YH41 Uncharacterized protein n=1 Tax=Xenorhabdus...  67.0    6e-14
+  UniRef90_A0A1E5BEC8 Uncharacterized protein n=1 Tax=Vibrio geno...  67.4    6e-14
+  UniRef90_A0A085JB54 Uncharacterized protein n=2 Tax=Tatumella p...  67.0    6e-14
+  UniRef90_A0A2M8K161 Uncharacterized protein n=1 Tax=Marinomonas...  67.4    6e-14
+  UniRef90_A0A2A7U4U1 DUF2496 domain-containing protein n=3 Tax=E...  67.0    7e-14
+  UniRef90_UPI000A0774FA DUF2496 domain-containing protein n=1 Ta...  67.0    7e-14
+  UniRef90_A0A2K4XAM4 Uncharacterized protein n=6 Tax=Pseudoalter...  66.6    7e-14
+  UniRef90_A0A1Q9HAR4 Primosomal protein n=1 Tax=Vibrio ponticus ...  67.0    7e-14
+  UniRef90_F2JUT8 Uncharacterized protein n=1 Tax=Marinomonas med...  67.0    7e-14
+  UniRef90_A0A1G8M7S3 Uncharacterized protein n=1 Tax=Ferrimonas ...  66.6    7e-14
+  UniRef90_J3DFV6 Uncharacterized protein n=3 Tax=Enterobacterale...  66.6    7e-14
+  UniRef90_E9CK66 Uncharacterized protein n=1 Tax=Serratia symbio...  67.4    7e-14
+  UniRef90_UPI00082FB49B DUF2496 domain-containing protein n=1 Ta...  66.6    8e-14
+  UniRef90_A0A0U5L389 Uncharacterized protein n=2 Tax=Erwinia ger...  67.0    8e-14
+  UniRef90_A0A370QSC2 Uncharacterized protein DUF2496 n=1 Tax=Ent...  66.6    8e-14
+  UniRef90_E8M6X0 Uncharacterized protein n=1 Tax=Vibrio sinaloen...  66.6    8e-14
+  UniRef90_A0A2S7XC79 Uncharacterized protein n=1 Tax=Aliivibrio ...  67.0    8e-14
+  UniRef90_D2TWE2 Uncharacterized protein n=1 Tax=Arsenophonus na...  66.6    9e-14
+  UniRef90_W1S2G1 Uncharacterized protein n=1 Tax=Marinomonas pro...  66.6    9e-14
+  UniRef90_A0A2A5JNA5 Uncharacterized protein n=1 Tax=Pseudoalter...  66.6    9e-14
+  UniRef90_D3V0A7 Uncharacterized protein n=9 Tax=Xenorhabdus bov...  66.6    1e-13
+  UniRef90_A0A2E2LZ77 Uncharacterized protein n=2 Tax=Pseudoalter...  66.2    1e-13
+  UniRef90_A0A2P7RCY1 DUF2496 domain-containing protein n=1 Tax=Z...  66.6    1e-13
+  UniRef90_UPI000951FE83 DUF2496 domain-containing protein n=1 Ta...  66.6    1e-13
+  UniRef90_UPI0003F98DE4 DUF2496 domain-containing protein n=2 Ta...  66.2    1e-13
+  UniRef90_L8JEQ2 Uncharacterized protein n=2 Tax=Photobacterium ...  66.6    1e-13
+  UniRef90_A0A2Y9TVT9 DUF2496 domain-containing protein n=1 Tax=L...  66.2    1e-13
+  UniRef90_A0A221I6M2 Uncharacterized protein n=1 Tax=Pseudoalter...  66.2    1e-13
+  UniRef90_UPI000F64A20B DUF2496 domain-containing protein n=1 Ta...  66.2    1e-13
+  UniRef90_A0A135ZN69 Primosomal protein n=2 Tax=Photobacterium s...  66.2    1e-13
+  UniRef90_Q6LTF6 Uncharacterized protein n=2 Tax=Photobacterium ...  66.6    1e-13
+  UniRef90_UPI000419251E DUF2496 domain-containing protein n=1 Ta...  66.6    1e-13
+  UniRef90_A0A2T3IVT4 Primosomal protein n=1 Tax=Photobacterium l...  66.2    1e-13
+  UniRef90_UPI0005710C5C DUF2496 domain-containing protein n=1 Ta...  66.2    1e-13
+  UniRef90_D2T436 Uncharacterized protein ybaM n=1 Tax=Erwinia py...  66.2    1e-13
+  UniRef90_UPI0008383652 DUF2496 domain-containing protein n=1 Ta...  66.6    1e-13
+  UniRef90_A0A1X1ES80 DUF2496 domain-containing protein n=1 Tax=P...  66.2    1e-13
+  UniRef90_A0A1B7K9N9 Uncharacterized protein n=1 Tax=Obesumbacte...  66.2    1e-13
+  UniRef90_A0A1C3JSR0 Uncharacterized protein n=2 Tax=Marinomonas...  66.2    1e-13
+  UniRef90_J3HNJ2 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  66.2    1e-13
+  UniRef90_C6CBN4 Uncharacterized protein n=1 Tax=Dickeya paradis...  66.2    1e-13
+  UniRef90_A0A0F4P8H4 Primosomal protein n=1 Tax=Vibrio neptunius...  66.2    1e-13
+  UniRef90_UPI0004AE2573 DUF2496 domain-containing protein n=1 Ta...  66.2    1e-13
+  UniRef90_A0A2A2CU65 Primosomal protein n=8 Tax=Vibrio TaxID=662...  66.2    1e-13
+  UniRef90_N6W5B3 Uncharacterized protein n=7 Tax=Pseudoalteromon...  65.8    1e-13
+  UniRef90_A0A0A8FEV3 Uncharacterized protein n=5 Tax=Enterobacte...  66.2    1e-13
+  UniRef90_A0A285JP70 Uncharacterized protein n=3 Tax=Erwiniaceae...  65.8    1e-13
+  UniRef90_A0A2N7GBD3 Primosomal protein n=1 Tax=Vibrio sp. 10N.2...  66.2    1e-13
+  UniRef90_C6CQS3 Uncharacterized protein n=3 Tax=Dickeya chrysan...  66.2    1e-13
+  UniRef90_A0A2C6EAX0 Uncharacterized protein n=1 Tax=Pseudoalter...  66.2    1e-13
+  UniRef90_A0A090RB16 Uncharacterized protein n=1 Tax=Vibrio sp. ...  66.2    2e-13
+  UniRef90_A8T5X7 Uncharacterized protein n=1 Tax=Vibrio sp. AND4...  65.8    2e-13
+  UniRef90_UPI000B5C3BFA DUF2496 domain-containing protein n=1 Ta...  66.2    2e-13
+  UniRef90_A0A1X1DC99 DUF2496 domain-containing protein n=1 Tax=P...  65.8    2e-13
+  UniRef90_A0A2U8IAG8 DUF2496 domain-containing protein n=1 Tax=C...  66.2    2e-13
+  UniRef90_A0A1Q5TVZ8 Uncharacterized protein n=1 Tax=Xenorhabdus...  65.8    2e-13
+  UniRef90_A0Y3M3 Uncharacterized protein n=13 Tax=Alteromonadale...  65.8    2e-13
+  UniRef90_A0A1V3H971 Uncharacterized protein n=4 Tax=Vibrionacea...  66.2    2e-13
+  UniRef90_A0A378GLX3 Protein of uncharacterized function (DUF249...  65.8    2e-13
+  UniRef90_A0A2C9P724 Primosomal protein n=8 Tax=Vibrionaceae Tax...  65.8    2e-13
+  UniRef90_A0A167IHN5 Uncharacterized protein n=2 Tax=Pseudoalter...  65.8    2e-13
+  UniRef90_A3Y637 Uncharacterized protein n=2 Tax=Marinomonas sp....  66.2    2e-13
+  UniRef90_F0LPC2 Uncharacterized protein n=2 Tax=Vibrio furnissi...  65.8    2e-13
+  UniRef90_A0A1E5ANR4 Uncharacterized protein n=1 Tax=Aliivibrio ...  66.2    2e-13
+  UniRef90_A0A2D0KI12 Uncharacterized protein n=2 Tax=Xenorhabdus...  65.8    2e-13
+  UniRef90_Q5E645 Uncharacterized protein n=10 Tax=Aliivibrio fis...  66.2    2e-13
+  UniRef90_F9S6V1 Uncharacterized protein n=1 Tax=Vibrio ichthyoe...  65.8    2e-13
+  UniRef90_A0A2A4GFS9 Primosomal protein n=2 Tax=Salinivibrio Tax...  65.8    2e-13
+  UniRef90_A0A090P6U7 Uncharacterized protein n=1 Tax=Vibrio pont...  65.8    2e-13
+  UniRef90_A0A0D0IBZ3 Primosomal protein n=7 Tax=Vibrio TaxID=662...  65.8    2e-13
+  UniRef90_A0A2C6DI97 Primosomal protein n=1 Tax=Budvicia aquatic...  65.8    2e-13
+  UniRef90_F3BF47 Uncharacterized protein n=5 Tax=root TaxID=1 Re...  65.5    2e-13
+  UniRef90_A0A380NR34 Primosomal protein n=3 Tax=Vibrio TaxID=662...  65.8    2e-13
+  UniRef90_UPI0002F3C12A DUF2496 domain-containing protein n=1 Ta...  65.8    2e-13
+  UniRef90_U4JZG4 Uncharacterized protein n=5 Tax=Vibrio nigripul...  65.8    2e-13
+  UniRef90_A0A0C2NNC3 Primosomal protein n=1 Tax=Vibrio renipisca...  65.8    2e-13
+  UniRef90_A0A1E7YV08 DUF2496 domain-containing protein n=2 Tax=E...  65.5    2e-13
+  UniRef90_A0A0M0HU08 Primosomal protein n=1 Tax=Vibrio nereis Ta...  65.5    2e-13
+  UniRef90_A0A1Q1PBE3 Uncharacterized protein n=6 Tax=Vibrio camp...  65.5    2e-13
+  UniRef90_A0A0G4JPM4 Uncharacterized protein n=1 Tax=Brenneria g...  65.8    2e-13
+  UniRef90_A0A0A3EVW9 Primosomal protein n=12 Tax=Vibrio TaxID=66...  65.5    2e-13
+  UniRef90_A0A375ACZ7 Uncharacterized protein n=1 Tax=Dickeya aqu...  65.8    2e-13
+  UniRef90_A0A1X7ALQ5 Uncharacterized protein n=1 Tax=Parendozoic...  66.2    2e-13
+  UniRef90_A0A1I7BKQ4 Uncharacterized protein n=2 Tax=Pseudoalter...  65.5    2e-13
+  UniRef90_A0A1D8SA76 DUF2496 domain-containing protein n=5 Tax=V...  65.8    2e-13
+  UniRef90_A0A1Y6ITX7 Uncharacterized protein n=1 Tax=Vibrio mang...  65.5    2e-13
+  UniRef90_UPI0004E2B42C DUF2496 domain-containing protein n=2 Ta...  65.8    2e-13
+  UniRef90_A0A1B1EB52 Primosomal protein n=3 Tax=Vibrio TaxID=662...  65.5    2e-13
+  UniRef90_A0A350QDB5 Uncharacterized protein n=1 Tax=Candidatus ...  65.8    2e-13
+  UniRef90_G7G6V9 Uncharacterized protein n=1 Tax=Pseudoalteromon...  65.5    2e-13
+  UniRef90_A3QGI7 Uncharacterized protein n=1 Tax=Shewanella loih...  65.8    2e-13
+  UniRef90_UPI0009E6D9CC DUF2496 domain-containing protein n=1 Ta...  65.5    3e-13
+  UniRef90_D1P4G5 Uncharacterized protein n=2 Tax=Providencia rus...  65.5    3e-13
+  UniRef90_D4HY50 Uncharacterized protein ybaM n=3 Tax=Erwinia Ta...  65.5    3e-13
+  UniRef90_A0A0J1HC31 Primosomal protein n=1 Tax=Photobacterium a...  65.5    3e-13
+  UniRef90_A0A109X5I4 DUF2496 domain-containing protein n=3 Tax=V...  65.5    3e-13
+  UniRef90_A0A2K2UT98 Leucyl/phenylalanyl-tRNA--protein transfera...  65.8    3e-13
+  UniRef90_G7LLT8 Uncharacterized protein n=3 Tax=Brenneria TaxID...  65.5    3e-13
+  UniRef90_UPI000DB9500B DUF2496 domain-containing protein n=2 Ta...  65.5    3e-13
+  UniRef90_A0A366IV45 Uncharacterized protein DUF2496 n=1 Tax=Mar...  65.5    3e-13
+  UniRef90_UPI000D0211B9 DUF2496 domain-containing protein n=1 Ta...  65.5    3e-13
+  UniRef90_UPI000B3649D9 DUF2496 domain-containing protein n=1 Ta...  65.5    3e-13
+  UniRef90_A0A3A3EH72 DUF2496 domain-containing protein n=1 Tax=P...  65.1    3e-13
+  UniRef90_A0A1Y0D292 DUF2496 domain-containing protein n=1 Tax=O...  65.5    3e-13
+  UniRef90_UPI00063CAD53 DUF2496 domain-containing protein n=2 Ta...  65.5    3e-13
+  UniRef90_A0A0F6AFL4 Uncharacterized protein n=1 Tax=Pseudoalter...  65.1    3e-13
+  UniRef90_A0A087JRD0 Primosomal protein n=9 Tax=Vibrio TaxID=662...  65.1    3e-13
+  UniRef90_A5L1F0 Uncharacterized protein n=58 Tax=Vibrionales Ta...  65.1    3e-13
+  UniRef90_A0A0U2IST7 Uncharacterized protein n=5 Tax=Pseudoalter...  65.1    3e-13
+  UniRef90_A0A0X3Y804 Uncharacterized protein n=1 Tax=Rheinheimer...  65.5    3e-13
+  UniRef90_H3R981 Uncharacterized DUF2496 family protein n=3 Tax=...  65.1    3e-13
+  UniRef90_UPI0009E46142 DUF2496 domain-containing protein n=2 Ta...  65.5    4e-13
+  UniRef90_UPI000DD398CD DUF2496 domain-containing protein n=1 Ta...  65.1    4e-13
+  UniRef90_A0A0J1JQ06 Primosomal protein n=1 Tax=Photobacterium g...  65.1    4e-13
+  UniRef90_UPI000EFC437A DUF2496 domain-containing protein n=1 Ta...  65.5    4e-13
+  UniRef90_A0A317PYN0 Uncharacterized protein DUF2496 n=1 Tax=Man...  64.7    4e-13
+  UniRef90_A0A167I488 Uncharacterized protein n=3 Tax=Pseudoalter...  65.1    4e-13
+  UniRef90_UPI0009DD9803 DUF2496 domain-containing protein n=1 Ta...  65.1    4e-13
+  UniRef90_A0A0G9M3M3 Primosomal protein n=35 Tax=Vibrio TaxID=66...  65.1    4e-13
+  UniRef90_A0A2M8H1Z7 Primosomal protein n=1 Tax=Vibrio sp. HA201...  65.1    4e-13
+  UniRef90_A0A0B8QNA9 Uncharacterized protein n=4 Tax=Vibrio TaxI...  65.1    4e-13
+  UniRef90_UPI0008D9B65A DUF2496 domain-containing protein n=1 Ta...  65.1    4e-13
+  UniRef90_A0A1B9PPW9 Uncharacterized protein n=1 Tax=Aliivibrio ...  65.1    4e-13
+  UniRef90_UPI000F83C204 DUF2496 domain-containing protein n=1 Ta...  64.7    4e-13
+  UniRef90_UPI000E3E3B3B DUF2496 domain-containing protein n=1 Ta...  65.1    5e-13
+  UniRef90_H2FWH1 Uncharacterized protein n=1 Tax=Oceanimonas sp....  64.7    5e-13
+  UniRef90_UPI000407534D DUF2496 domain-containing protein n=1 Ta...  65.1    5e-13
+  UniRef90_A0A0A5JNQ6 Primosomal protein n=3 Tax=Vibrio TaxID=662...  64.7    5e-13
+  UniRef90_A0A099LRM2 Primosomal protein n=1 Tax=Vibrio navarrens...  64.7    5e-13
+  UniRef90_UPI000CF68150 DUF2496 domain-containing protein n=1 Ta...  64.7    5e-13
+  UniRef90_A0A0F2ISM1 Primosomal protein n=6 Tax=Vibrio TaxID=662...  64.7    5e-13
+  UniRef90_R9PJ74 Uncharacterized protein n=1 Tax=Agarivorans alb...  64.7    5e-13
+  UniRef90_UPI000CF65A2B DUF2496 domain-containing protein n=1 Ta...  64.7    5e-13
+  UniRef90_A0A0Q0GGV6 Uncharacterized protein n=9 Tax=Pseudoalter...  64.7    6e-13
+  UniRef90_A0A0M9UIG5 Uncharacterized protein n=2 Tax=Pseudoalter...  64.7    6e-13
+  UniRef90_UPI0009EBF51B DUF2496 domain-containing protein n=1 Ta...  65.1    6e-13
+  UniRef90_UPI00063D8E2F DUF2496 domain-containing protein n=5 Ta...  64.7    6e-13
+  UniRef90_A0A090IKA5 Uncharacterized protein n=1 Tax=Aliivibrio ...  65.1    6e-13
+  UniRef90_A0A1E5IQZ8 Primosomal protein n=1 Tax=Shewanella colwe...  64.7    6e-13
+  UniRef90_UPI000A050EED DUF2496 domain-containing protein n=1 Ta...  64.7    6e-13
+  UniRef90_G7EHC3 Uncharacterized protein n=1 Tax=Pseudoalteromon...  64.3    6e-13
+  UniRef90_A0A1T4US69 Uncharacterized protein n=1 Tax=Enterovibri...  64.7    6e-13
+  UniRef90_A0A0M2V962 Uncharacterized protein n=1 Tax=Arsukibacte...  65.1    6e-13
+  UniRef90_A0A1R4JLQ2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  64.7    6e-13
+  UniRef90_UPI00097038F7 DUF2496 domain-containing protein n=1 Ta...  64.7    7e-13
+  UniRef90_A0A1X1MRE4 Primosomal protein n=2 Tax=Vibrio sp. qd031...  64.3    7e-13
+  UniRef90_A0A1Q2H0E6 Uncharacterized protein n=1 Tax=Pseudoalter...  64.3    7e-13
+  UniRef90_UPI0003FA9ABF DUF2496 domain-containing protein n=1 Ta...  64.7    7e-13
+  UniRef90_A8FSZ9 Uncharacterized protein n=2 Tax=Shewanella TaxI...  64.3    7e-13
+  UniRef90_A0A2I0FSW1 DUF2496 domain-containing protein n=1 Tax=E...  64.3    7e-13
+  UniRef90_A0A2N7D1Q1 Primosomal protein n=1 Tax=Vibrio sp. 10N.2...  64.3    7e-13
+  UniRef90_A0A1E7Q8Q1 DUF2496 domain-containing protein n=1 Tax=R...  64.3    8e-13
+  UniRef90_UPI000970B6C0 DUF2496 domain-containing protein n=1 Ta...  64.3    8e-13
+  UniRef90_B8CQE2 Uncharacterized protein n=2 Tax=Shewanella TaxI...  64.3    8e-13
+  UniRef90_A0A349FFC9 Primosomal protein n=1 Tax=Vibrio sp. TaxID...  64.3    8e-13
+  UniRef90_A0A1V3HXD8 Primosomal protein n=4 Tax=Vibrionaceae Tax...  64.3    8e-13
+  UniRef90_A0A2U9LAS3 DUF2496 domain-containing protein n=2 Tax=P...  64.3    8e-13
+  UniRef90_UPI000BE46F8C DUF2496 domain-containing protein n=1 Ta...  64.7    9e-13
+  UniRef90_A0A2M8HAN8 DUF2496 domain-containing protein n=2 Tax=A...  64.3    1e-12
+  UniRef90_A0A066RSA5 Uncharacterized protein n=1 Tax=Photobacter...  64.3    1e-12
+  UniRef90_UPI00093C00B4 DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_F6CXI7 Uncharacterized protein n=1 Tax=Marinomonas pos...  63.9    1e-12
+  UniRef90_UPI0002FCE073 DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_A0A1H9IGH1 Uncharacterized protein n=1 Tax=Rosenbergie...  63.9    1e-12
+  UniRef90_UPI0009FA471C DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_A0A3N0HVD7 DUF2496 domain-containing protein n=2 Tax=D...  63.9    1e-12
+  UniRef90_U3CMG9 Uncharacterized protein n=1 Tax=Vibrio ezurae N...  63.9    1e-12
+  UniRef90_UPI000B3E4DBE DUF2496 domain-containing protein n=1 Ta...  63.5    1e-12
+  UniRef90_UPI000B5CEF6A DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_A6VV16 Uncharacterized protein n=1 Tax=Marinomonas sp....  63.9    1e-12
+  UniRef90_A0A1Q9HEB6 Primosomal protein n=1 Tax=Vibrio panuliri ...  63.5    1e-12
+  UniRef90_UPI000D65E75C DUF2496 domain-containing protein n=1 Ta...  63.9    1e-12
+  UniRef90_V4HX56 Uncharacterized protein n=1 Tax=Pseudoalteromon...  63.9    1e-12
+  UniRef90_A0A1H5YYI3 Uncharacterized protein n=2 Tax=Vibrio hang...  63.5    1e-12
+  UniRef90_A0A2T3JRR7 Uncharacterized protein n=1 Tax=Photobacter...  63.5    1e-12
+  UniRef90_UPI000408EE56 DUF2496 domain-containing protein n=1 Ta...  63.5    1e-12
+  UniRef90_A0A066UTI9 Primosomal protein n=1 Tax=Vibrio fortis Ta...  63.5    1e-12
+  UniRef90_A0A178KQC7 Primosomal protein n=1 Tax=Photobacterium j...  63.5    1e-12
+  UniRef90_A0A2G1B746 Uncharacterized protein n=1 Tax=Pseudoalter...  63.5    1e-12
+  UniRef90_A0A0M0HVS9 Primosomal protein n=1 Tax=Vibrio hepatariu...  63.5    2e-12
+  UniRef90_A0A0N8Q4X0 Uncharacterized protein n=3 Tax=Pseudoalter...  63.5    2e-12
+  UniRef90_A0A3A6QJH6 DUF2496 domain-containing protein n=1 Tax=V...  63.5    2e-12
+  UniRef90_UPI0008DD250A DUF2496 domain-containing protein n=1 Ta...  63.5    2e-12
+  UniRef90_A0A0J8XZ06 Primosomal protein n=1 Tax=Photobacterium s...  63.5    2e-12
+  UniRef90_A0A191W4Q1 DUF2496 domain-containing protein n=9 Tax=V...  63.5    2e-12
+  UniRef90_UPI000E74AFDA DUF2496 domain-containing protein n=1 Ta...  63.5    2e-12
+  UniRef90_V5FHN5 Uncharacterized protein n=1 Tax=Vibrio haliotic...  63.5    2e-12
+  UniRef90_A0A240EMC0 Uncharacterized protein n=2 Tax=Vibrio thal...  63.1    2e-12
+  UniRef90_A0A1J0EAP0 DUF2496 domain-containing protein n=1 Tax=P...  63.5    2e-12
+  UniRef90_A0A3A1PRC4 DUF2496 domain-containing protein n=6 Tax=V...  63.1    2e-12
+  UniRef90_A0A3N9THC1 DUF2496 domain-containing protein n=1 Tax=V...  63.1    2e-12
+  UniRef90_A0A167G7A2 Uncharacterized protein n=1 Tax=Pseudoalter...  63.1    2e-12
+  UniRef90_UPI000248300B DUF2496 domain-containing protein n=1 Ta...  63.1    2e-12
+  UniRef90_A0A1T4K4Q7 Uncharacterized protein n=1 Tax=Vibrio cinc...  63.1    2e-12
+  UniRef90_A0A193KBC1 Primosomal protein n=4 Tax=Vibrio TaxID=662...  63.1    2e-12
+  UniRef90_A0A090RXV6 Uncharacterized protein n=5 Tax=Vibrio TaxI...  62.8    2e-12
+  UniRef90_U1LL63 Uncharacterized protein n=4 Tax=Pseudoalteromon...  62.8    3e-12
+  UniRef90_K8WYN6 Uncharacterized protein n=1 Tax=Providencia bur...  62.8    3e-12
+  UniRef90_UPI0008DDE774 DUF2496 domain-containing protein n=3 Ta...  62.8    3e-12
+  UniRef90_UPI0009EA5AD8 DUF2496 domain-containing protein n=1 Ta...  62.8    3e-12
+  UniRef90_UPI0006EC029D DUF2496 domain-containing protein n=1 Ta...  63.1    3e-12
+  UniRef90_A0A220VDM3 DUF2496 domain-containing protein n=1 Tax=P...  62.8    3e-12
+  UniRef90_D0IKK7 Uncharacterized protein n=1 Tax=Vibrio sp. RC58...  63.1    3e-12
+  UniRef90_A0A0F5VHE7 Primosomal protein n=1 Tax=Photobacterium h...  62.8    3e-12
+  UniRef90_A0A2A2HN28 DUF2496 domain-containing protein n=3 Tax=A...  62.8    3e-12
+  UniRef90_A0A1M7Z1I9 Uncharacterized protein n=1 Tax=Vibrio quin...  62.8    3e-12
+  UniRef90_A0A2G8BS61 DUF2496 domain-containing protein n=1 Tax=T...  62.8    3e-12
+  UniRef90_UPI0004AF3A8C DUF2496 domain-containing protein n=1 Ta...  62.8    3e-12
+  UniRef90_UPI00056ED2CF DUF2496 domain-containing protein n=1 Ta...  62.8    4e-12
+  UniRef90_A0A2S7XJF0 Uncharacterized protein n=2 Tax=Aliivibrio ...  62.8    4e-12
+  UniRef90_Q1Z5T4 Uncharacterized protein n=3 Tax=Photobacterium ...  62.8    4e-12
+  UniRef90_A0A1A8TA91 Uncharacterized protein n=2 Tax=Marinomonas...  62.4    4e-12
+  UniRef90_A0A1B9P1E5 Uncharacterized protein n=2 Tax=Aliivibrio ...  62.8    4e-12
+  UniRef90_D4ZHY3 Uncharacterized protein n=1 Tax=Shewanella viol...  62.8    5e-12
+  UniRef90_B0TPD1 Uncharacterized protein n=1 Tax=Shewanella hali...  62.4    5e-12
+  UniRef90_A0A0F5AUL3 Uncharacterized protein n=9 Tax=Vibrionacea...  62.4    5e-12
+  UniRef90_A0A2A9F5Y4 Uncharacterized protein DUF2496 n=1 Tax=Vib...  62.0    6e-12
+  UniRef90_A0A366CTB6 Uncharacterized protein DUF2496 n=1 Tax=Mar...  62.0    6e-12
+  UniRef90_UPI000CF6C7D0 DUF2496 domain-containing protein n=1 Ta...  62.0    6e-12
+  UniRef90_A0A1C3ERC9 Primosomal protein n=1 Tax=Enterovibrio pac...  62.0    6e-12
+  UniRef90_A4C5S5 Uncharacterized protein n=1 Tax=Pseudoalteromon...  62.4    7e-12
+  UniRef90_UPI0003701576 DUF2496 domain-containing protein n=1 Ta...  61.6    7e-12
+  UniRef90_A0A2P7QHU6 DUF2496 domain-containing protein n=1 Tax=Z...  61.6    8e-12
+  UniRef90_A0A2S7UYH0 Uncharacterized protein n=1 Tax=Psychrospha...  61.6    8e-12
+  UniRef90_A0A2I0DXI6 Primosomal protein n=1 Tax=Shewanella sp. G...  61.6    9e-12
+  UniRef90_A8H6S0 Uncharacterized protein n=1 Tax=Shewanella peal...  61.6    9e-12
+  UniRef90_X7E594 Uncharacterized protein n=1 Tax=Marinomonas ush...  61.2    1e-11
+  UniRef90_UPI000C1640BF DUF2496 domain-containing protein n=1 Ta...  61.2    1e-11
+  UniRef90_B1KJS1 Uncharacterized protein n=2 Tax=Shewanella TaxI...  61.2    1e-11
+  UniRef90_UPI000A36F436 DUF2496 domain-containing protein n=1 Ta...  61.2    1e-11
+  UniRef90_A0A1Y5JXP9 Uncharacterized protein n=1 Tax=Pseudoalter...  61.2    1e-11
+  UniRef90_A0A3M8PZ76 DUF2496 domain-containing protein n=1 Tax=M...  61.2    1e-11
+  UniRef90_A0A1Y0CW39 DUF2496 domain-containing protein n=1 Tax=O...  61.2    1e-11
+  UniRef90_UPI000A03B9FF DUF2496 domain-containing protein n=1 Ta...  61.2    1e-11
+  UniRef90_A0A2T3NRD6 Primosomal protein n=1 Tax=Photobacterium s...  61.2    1e-11
+  UniRef90_E3BEF3 Uncharacterized protein n=1 Tax=Vibrio caribbea...  61.2    1e-11
+  UniRef90_A0A2W0GK04 DUF2496 domain-containing protein n=3 Tax=P...  61.2    1e-11
+  UniRef90_A0A1B7JNC4 Uncharacterized protein n=1 Tax=Providencia...  60.8    1e-11
+  UniRef90_UPI000300310A DUF2496 domain-containing protein n=1 Ta...  61.2    2e-11
+  UniRef90_A0A2T3N510 Uncharacterized protein n=1 Tax=Photobacter...  60.8    2e-11
+  UniRef90_A0A345M208 DUF2496 domain-containing protein n=2 Tax=P...  60.8    2e-11
+  UniRef90_UPI0004B17FD9 DUF2496 domain-containing protein n=1 Ta...  60.8    2e-11
+  UniRef90_L8D844 Uncharacterized protein n=1 Tax=Pseudoalteromon...  60.8    2e-11
+  UniRef90_U3ANL2 Uncharacterized protein n=2 Tax=Vibrio TaxID=66...  60.8    2e-11
+  UniRef90_A0A356D4I5 Uncharacterized protein n=1 Tax=Providencia...  60.8    2e-11
+  UniRef90_A0A1E5D5W9 Primosomal protein n=2 Tax=Vibrionales TaxI...  60.4    2e-11
+  UniRef90_A0A0L7YXY7 Primosomal protein n=1 Tax=Vibrio alginolyt...  60.4    2e-11
+  UniRef90_A9DF74 Uncharacterized protein n=2 Tax=Shewanella bent...  60.8    2e-11
+  UniRef90_B2Q4G5 Uncharacterized protein n=6 Tax=Gammaproteobact...  60.4    2e-11
+  UniRef90_A0A2X4REM6 Protein of uncharacterized function (DUF249...  60.4    3e-11
+  UniRef90_UPI0009C01973 DUF2496 domain-containing protein n=1 Ta...  60.4    3e-11
+  UniRef90_UPI00097C71A5 DUF2496 domain-containing protein n=1 Ta...  60.4    3e-11
+  UniRef90_A0A0G3CLY8 Primosomal protein n=1 Tax=Pragia fontium T...  60.4    3e-11
+  UniRef90_A0A1M5X8X6 Uncharacterized protein n=2 Tax=Vibrio aero...  60.4    3e-11
+  UniRef90_UPI000CF5DA5C DUF2496 domain-containing protein n=2 Ta...  60.1    3e-11
+  UniRef90_A0A3D5BJ86 DUF2496 domain-containing protein n=1 Tax=R...  60.1    3e-11
+  UniRef90_UPI000E77CEA3 DUF2496 domain-containing protein n=1 Ta...  60.1    3e-11
+  UniRef90_A0A2G2IIC7 Uncharacterized protein n=1 Tax=Moritella s...  60.4    3e-11
+  UniRef90_UPI000F83AB16 DUF2496 domain-containing protein n=1 Ta...  60.1    4e-11
+  UniRef90_A0A249D0P9 DUF2496 domain-containing protein n=14 Tax=...  59.7    4e-11
+  UniRef90_A0A3G9I3C0 DUF2496 domain-containing protein n=3 Tax=A...  59.7    4e-11
+  UniRef90_UPI0004BBA498 DUF2496 domain-containing protein n=1 Ta...  59.7    5e-11
+  UniRef90_W3YFF0 PF10689 family protein n=1 Tax=Providencia alca...  59.7    5e-11
+  UniRef90_UPI000F67F85F DUF2496 domain-containing protein n=1 Ta...  59.7    5e-11
+  UniRef90_UPI000FD742E1 DUF2496 domain-containing protein n=1 Ta...  60.4    5e-11
+  UniRef90_A0A2N1DJ97 DUF2496 domain-containing protein n=1 Tax=P...  59.7    6e-11
+  UniRef90_W0HMC8 YbaM n=3 Tax=Sodalis TaxID=84565 RepID=W0HMC8_9...  59.3    6e-11
+  UniRef90_A0A244CS09 Uncharacterized protein n=1 Tax=Pseudoalter...  59.7    6e-11
+  UniRef90_A0A1I7CLF4 Uncharacterized protein n=2 Tax=Pseudoalter...  59.3    6e-11
+  UniRef90_UPI000E0B4276 DUF2496 domain-containing protein n=1 Ta...  59.3    6e-11
+  UniRef90_UPI0009DD25C0 DUF2496 domain-containing protein n=2 Ta...  59.3    7e-11
+  UniRef90_A0A1H5XJZ5 Uncharacterized protein n=2 Tax=Oceanospiri...  59.3    7e-11
+  UniRef90_A0A3D1Z8Q4 Primosomal protein n=2 Tax=Vibrio TaxID=662...  59.3    7e-11
+  UniRef90_UPI00058E6EFD DUF2496 domain-containing protein n=1 Ta...  59.3    8e-11
+  UniRef90_A0A1S6HUD4 Uncharacterized protein n=1 Tax=Shewanella ...  59.7    8e-11
+  UniRef90_A0A0M0M325 Uncharacterized protein n=1 Tax=Rheinheimer...  59.3    9e-11
+  UniRef90_UPI000D785737 DUF2496 domain-containing protein n=2 Ta...  59.3    9e-11
+  UniRef90_A0A0W8JI55 Uncharacterized protein n=5 Tax=Vibrio TaxI...  58.9    9e-11
+  UniRef90_A0A198FLV9 Uncharacterized protein n=1 Tax=Cosenzaea m...  58.9    9e-11
+  UniRef90_A0A231N2V8 DUF2496 domain-containing protein n=2 Tax=Z...  58.9    9e-11
+  UniRef90_UPI000C84D46E DUF2496 domain-containing protein n=1 Ta...  58.9    1e-10
+  UniRef90_A0A2D0L7M4 Uncharacterized protein n=1 Tax=Xenorhabdus...  58.9    1e-10
+  UniRef90_UPI0004127F7C DUF2496 domain-containing protein n=1 Ta...  58.9    1e-10
+  UniRef90_A0A1T4R727 DUF2496 domain-containing protein n=1 Tax=O...  58.9    1e-10
+  UniRef90_UPI000970C7BB DUF2496 domain-containing protein n=2 Ta...  58.9    1e-10
+  UniRef90_K8BNN5 Uncharacterized protein n=1 Tax=Cronobacter dub...  58.1    2e-10
+  UniRef90_UPI00040D063D DUF2496 domain-containing protein n=1 Ta...  58.9    2e-10
+  UniRef90_A0A269PP50 Uncharacterized protein n=1 Tax=Pseudoalter...  57.7    3e-10
+  UniRef90_S6GGL8 Uncharacterized protein n=1 Tax=Osedax symbiont...  57.4    4e-10
+  UniRef90_UPI000FDA934F UPI000FDA934F related cluster n=1 Tax=un...  57.7    4e-10
+  UniRef90_K8W9M9 Uncharacterized protein n=1 Tax=Providencia sne...  57.4    4e-10
+  UniRef90_UPI000DCF7C8F DUF2496 domain-containing protein n=1 Ta...  57.4    5e-10
+  UniRef90_A0A0M2T1V1 Uncharacterized protein n=1 Tax=Pararheinhe...  57.4    5e-10
+  UniRef90_UPI0009E30DC4 DUF2496 domain-containing protein n=1 Ta...  57.0    5e-10
+  UniRef90_A0A1I1I1C9 Uncharacterized protein n=1 Tax=Pseudoalter...  57.0    6e-10
+  UniRef90_A0A366W7C7 Uncharacterized protein n=1 Tax=Psychromona...  57.0    7e-10
+  UniRef90_A0A2N0WX13 DUF2496 domain-containing protein n=1 Tax=P...  56.6    8e-10
+  UniRef90_UPI000F8F2EFB UPI000F8F2EFB related cluster n=1 Tax=un...  56.6    8e-10
+  UniRef90_R1F681 Uncharacterized protein n=2 Tax=Aeromonas TaxID...  56.2    1e-09
+  UniRef90_A0A3E0DHZ1 Uncharacterized protein DUF2496 n=1 Tax=Mar...  56.2    1e-09
+  UniRef90_UPI0004290AFA DUF2496 domain-containing protein n=1 Ta...  56.2    1e-09
+  UniRef90_UPI000C824302 DUF2496 domain-containing protein n=2 Ta...  56.2    1e-09
+  UniRef90_A0A0Q0HYF3 Uncharacterized protein n=1 Tax=Shewanella ...  55.8    2e-09
+  UniRef90_A0A1B7UME5 Uncharacterized protein n=2 Tax=Rheinheimer...  55.8    2e-09
+  UniRef90_UPI0003768BBD DUF2496 domain-containing protein n=1 Ta...  55.4    3e-09
+  UniRef90_A0A3P1ILV5 DUF2496 domain-containing protein n=1 Tax=E...  55.1    3e-09
+  UniRef90_A0A370U6L2 DUF2496 domain-containing protein n=1 Tax=M...  55.1    5e-09
+  UniRef90_A0A2N0WQ10 Uncharacterized protein n=1 Tax=Alteromonad...  54.3    8e-09
+  UniRef90_A0A2N1A3L7 DUF2496 domain-containing protein n=1 Tax=P...  53.5    1e-08
+  UniRef90_A0A0M2VLZ8 Uncharacterized protein n=1 Tax=Arsukibacte...  53.9    1e-08
+  UniRef90_A0A2H9U5E1 DUF2496 domain-containing protein n=1 Tax=A...  53.5    1e-08
+  UniRef90_M4U7W3 Uncharacterized protein n=1 Tax=Psychromonas sp...  52.7    2e-08
+  UniRef90_UPI000E30431E DUF2496 domain-containing protein n=1 Ta...  52.7    3e-08
+  UniRef90_A0A2S0VSL1 Uncharacterized protein n=1 Tax=Catenovulum...  52.7    3e-08
+  UniRef90_A0A1J4QFR3 DUF2496 domain-containing protein n=1 Tax=O...  52.4    4e-08
+  UniRef90_A0A2P5TQX3 DUF2496 domain-containing protein n=1 Tax=O...  52.0    5e-08
+  UniRef90_UPI000B9ACDB0 DUF2496 domain-containing protein n=1 Ta...  52.0    7e-08
+  UniRef90_A1SWQ7 Uncharacterized protein n=1 Tax=Psychromonas in...  51.6    8e-08
+  UniRef90_C9P3U7 Uncharacterized protein n=1 Tax=Vibrio metschni...  50.0    2e-07
+  UniRef90_A0A3P4FP06 Primosomal replication protein N n=1 Tax=Es...  48.1    4e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1Y1R0V3 Uncharacterized protein n=1 Tax=Oceanospiri...  47.3    1e-05
+  UniRef90_A0A142B8Y4 Uncharacterized protein n=2 Tax=Endozoicomo...  45.0    3e-05
+  UniRef90_UPI000414FCF9 DUF2496 domain-containing protein n=1 Ta...  42.0    6e-04
+  UniRef90_I1DZ99 Uncharacterized protein n=2 Tax=Rheinheimera Ta...  41.2    7e-04
+  UniRef90_UPI00054D8F69 hypothetical protein n=1 Tax=Endozoicomo...  40.4    0.003
+  UniRef90_UPI000825410E hypothetical protein n=1 Tax=Endozoicomo...  39.6    0.007
+  UniRef90_A0A081KG62 Uncharacterized protein n=1 Tax=Endozoicomo...  38.5    0.019
+  UniRef90_A0A1D2X8W6 Uncharacterized protein n=1 Tax=Endozoicomo...  37.7    0.036
+  UniRef90_UPI0007804C41 hypothetical protein n=1 Tax=Endozoicomo...  36.9    0.064
+  UniRef90_UPI00082950AB hypothetical protein n=2 Tax=Endozoicomo...  36.2    0.16 
+  UniRef90_A0A2V1H543 Uncharacterized protein n=1 Tax=Flavobacter...  35.8    0.19 
+  UniRef90_A0A354J6F8 LacI family transcriptional regulator n=3 T...  37.3    0.22 
+  UniRef90_UPI000C7776C3 hypothetical protein n=1 Tax=Endozoicomo...  35.4    0.28 
+  UniRef90_A0A2R7TN13 Aldo/keto reductase (Fragment) n=1 Tax=Pseu...  36.2    0.47 
+  UniRef90_A0A3B6SN89 Uncharacterized protein n=1 Tax=Triticum ae...  35.8    0.81 
+  UniRef90_UPI000BA46258 aldo/keto reductase n=1 Tax=Mesorhizobiu...  35.4    0.88 
+  UniRef90_A0A0Q6X8D5 Aldehyde oxidase n=2 Tax=Burkholderiales Ta...  35.4    1.0  
+  UniRef90_G8Q5E3 Aldo-keto reductase n=41 Tax=Gammaproteobacteri...  35.0    1.5  
+  UniRef90_A0A366JGP2 Aryl-alcohol dehydrogenase-like predicted o...  34.6    2.2  
+  UniRef90_A1B730 Aldo/keto reductase n=2 Tax=Paracoccus TaxID=24...  34.2    2.4  
+  UniRef90_UPI000DEFAF80 aldo/keto reductase n=1 Tax=Chitinophaga...  34.2    2.6  
+  UniRef90_A0A1T4XWK3 Predicted oxidoreductase n=1 Tax=Thiothrix ...  34.2    2.8  
+  UniRef90_UPI000CF0EBC4 aldo/keto reductase n=1 Tax=Helicobacter...  34.2    2.8  
+  UniRef90_A0A2G6RVK8 Aryl-alcohol dehydrogenase-like predicted o...  34.2    2.9  
+  UniRef90_A0A1I5N855 Predicted oxidoreductase n=1 Tax=Cohaesibac...  34.2    2.9  
+  UniRef90_A0A1X7VBQ5 Uncharacterized protein n=1 Tax=Amphimedon ...  33.9    3.2  
+  UniRef90_UPI00047E9C50 aldo/keto reductase n=1 Tax=Mesorhizobiu...  33.9    3.5  
+  UniRef90_A0A2L2NW11 Aldo/keto reductase n=4 Tax=Cyanobacteria T...  33.9    3.8  
+  UniRef90_A0A330HS53 Aldo/keto reductase n=1 Tax=Mesorhizobium h...  33.9    4.0  
+  UniRef90_A0A3A8PGR7 Aldo/keto reductase n=1 Tax=Corallococcus s...  33.9    4.0  
+  UniRef90_A0A2V8SXJ6 Aldo/keto reductase n=1 Tax=Acidobacteria b...  33.9    4.1  
+  UniRef90_Q2IEH6 Aldo/keto reductase n=1 Tax=Anaeromyxobacter de...  33.5    4.6  
+  UniRef90_A0A1Z9Y414 Aldo/keto reductase n=2 Tax=Hyphomonadaceae...  33.5    5.1  
+  UniRef90_UPI000DDDE6F0 aldo/keto reductase n=2 Tax=Rhizobiales ...  33.5    5.4  
+  UniRef90_A0A2W7D050 Aldo/keto reductase n=1 Tax=Mesorhizobium k...  33.5    5.7  
+  UniRef90_UPI000A68982A aldo/keto reductase n=3 Tax=Helicobacter...  33.1    5.8  
+  UniRef90_A0A327W551 Glucosamine-6-phosphate deaminase n=4 Tax=C...  33.1    6.3  
+  UniRef90_E8WN92 Aldo/keto reductase n=1 Tax=Geobacter sp. (stra...  33.1    6.7  
+  UniRef90_UPI00055DA29E aldo/keto reductase n=2 Tax=Rhizobium Ta...  33.1    7.0  
+  UniRef90_A0A1V5W0A5 Tetratricopeptide repeat protein n=1 Tax=Sp...  33.1    8.0  
+  UniRef90_A0A3D5VU66 Aldo/keto reductase n=2 Tax=Comamonadaceae ...  32.7    8.0  
+  UniRef90_A0A1G9R7J9 Predicted oxidoreductase n=1 Tax=Halomonas ...  32.7    8.4  
+  UniRef90_UPI0009B6DCBB aldo/keto reductase n=1 Tax=Helicobacter...  31.9    9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.177    0.559    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0542    0.140     1.90     42.6     43.6 
+
+Effective search space used: 750401994069
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

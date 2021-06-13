@@ -1,0 +1,615 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414892.1
+
+Length=257
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q47534 Outer membrane protein YaiO n=870 Tax=root TaxI...  524     0.0   
+  UniRef90_A0A3L9BCS1 YaiO family outer membrane beta-barrel prot...  510     0.0   
+  UniRef90_UPI000B942360 YaiO family outer membrane beta-barrel p...  458     1e-160
+  UniRef90_A0A377E1T7 Outer membrane protein n=9 Tax=Escherichia ...  427     1e-150
+  UniRef90_A0A0E3MUE8 Putative acyl transferase n=1 Tax=Escherich...  421     2e-147
+  UniRef90_A0A1V8NT08 Uncharacterized protein n=2 Tax=Enterobacte...  417     2e-146
+  UniRef90_UPI000BE1892C YaiO family outer membrane beta-barrel p...  414     5e-145
+  UniRef90_UPI000DD6A055 YaiO family outer membrane beta-barrel p...  413     5e-145
+  UniRef90_A0A2X7GTF9 Outer membrane protein n=1 Tax=Escherichia ...  401     1e-139
+  UniRef90_A0A1V4NRQ2 Uncharacterized protein n=1 Tax=Citrobacter...  398     1e-138
+  UniRef90_UPI0005ED4B26 YaiO family outer membrane beta-barrel p...  377     2e-130
+  UniRef90_A0A377LKR6 Outer membrane protein n=2 Tax=Escherichia ...  371     6e-129
+  UniRef90_A0A376VYU0 Outer membrane protein n=9 Tax=Escherichia ...  371     7e-129
+  UniRef90_UPI000E1D63F6 YaiO family outer membrane beta-barrel p...  353     6e-121
+  UniRef90_UPI0009884EAC YaiO family outer membrane beta-barrel p...  340     5e-117
+  UniRef90_UPI000D0180D1 YaiO family outer membrane beta-barrel p...  330     7e-113
+  UniRef90_A0A376R101 Outer membrane protein n=9 Tax=Enterobacter...  328     9e-111
+  UniRef90_Q9ALL3 Uncharacterized protein yacA n=10 Tax=Escherich...  314     2e-105
+  UniRef90_UPI0009E814C2 YaiO family outer membrane beta-barrel p...  296     3e-98 
+  UniRef90_A0A3K3XNY8 YaiO family outer membrane beta-barrel prot...  292     1e-96 
+  UniRef90_A0A376L169 Outer membrane protein n=1 Tax=Escherichia ...  287     4e-96 
+  UniRef90_A0A1N6U3Q6 Outer membrane protein, YaiO family n=1 Tax...  273     2e-89 
+  UniRef90_A0A377K4D7 Outer membrane protein n=11 Tax=Escherichia...  269     3e-89 
+  UniRef90_UPI000932E49B YaiO family outer membrane beta-barrel p...  268     2e-87 
+  UniRef90_A0A376U5D5 Outer membrane protein n=1 Tax=Escherichia ...  260     1e-85 
+  UniRef90_UPI0009AF5350 YaiO family outer membrane beta-barrel p...  250     2e-80 
+  UniRef90_UPI0003BADF15 YaiO family outer membrane beta-barrel p...  246     2e-80 
+  UniRef90_A0A2X1KGP8 Outer membrane protein n=1 Tax=Escherichia ...  241     9e-79 
+  UniRef90_UPI000B9FB261 YaiO family outer membrane beta-barrel p...  244     7e-78 
+  UniRef90_A0A3I4HB09 YaiO family outer membrane beta-barrel prot...  237     6e-75 
+  UniRef90_A0A2S4Q5R7 Uncharacterized protein n=1 Tax=Citrobacter...  234     4e-74 
+  UniRef90_A0A3K6R717 YaiO family outer membrane beta-barrel prot...  229     9e-72 
+  UniRef90_A0A377KB14 Outer membrane protein n=1 Tax=Escherichia ...  216     3e-68 
+  UniRef90_E3G6F0 Uncharacterized protein n=1 Tax=Enterobacter li...  219     7e-68 
+  UniRef90_A0A370W6K1 YaiO family outer membrane beta-barrel prot...  205     3e-63 
+  UniRef90_UPI00040BDF12 YaiO family outer membrane beta-barrel p...  193     5e-60 
+  UniRef90_UPI000E3B5C93 YaiO family outer membrane beta-barrel p...  190     9e-59 
+  UniRef90_A0A377K4E6 Outer membrane protein n=1 Tax=Escherichia ...  181     4e-55 
+  UniRef90_A0A3D9NUR7 YaiO family outer membrane protein n=1 Tax=...  182     2e-53 
+  UniRef90_A0A2X1PYH5 Outer membrane protein n=2 Tax=Enterobacter...  171     1e-51 
+  UniRef90_UPI000F685569 YaiO family outer membrane beta-barrel p...  167     1e-47 
+  UniRef90_A0A2I6QJI5 Inositol-1-monophosphatase n=1 Tax=uncultur...  163     1e-46 
+  UniRef90_A0A241VYM6 Uncharacterized protein n=1 Tax=Acinetobact...  162     8e-46 
+  UniRef90_UPI000F03D3BE YaiO family outer membrane beta-barrel p...  153     5e-42 
+  UniRef90_A0A0E3UNE6 Uncharacterized protein n=1 Tax=Pseudoxanth...  151     1e-41 
+  UniRef90_UPI000D54053C YaiO family outer membrane beta-barrel p...  137     6e-36 
+  UniRef90_A0A3M2HF56 YaiO family outer membrane beta-barrel prot...  135     2e-35 
+  UniRef90_M5CIR3 Uncharacterized protein n=39 Tax=Gammaproteobac...  135     4e-35 
+  UniRef90_A0A2X1KD58 Outer membrane protein n=1 Tax=Escherichia ...  122     2e-32 
+  UniRef90_A0A2M8VHU7 YaiO family outer membrane protein n=3 Tax=...  127     4e-32 
+  UniRef90_UPI000DF9FA27 hypothetical protein n=1 Tax=Escherichia...  113     6e-29 
+  UniRef90_B3WZR0 Uncharacterized protein n=3 Tax=Shigella TaxID=...  87.0    3e-19 
+  UniRef90_A0A2X1NRM6 Outer membrane protein n=2 Tax=Escherichia ...  78.2    9e-16 
+  UniRef90_A0A3C0XC35 Uncharacterized protein (Fragment) n=4 Tax=...  65.9    3e-10 
+  UniRef90_A0A3I7Q7N9 Uncharacterized protein (Fragment) n=6 Tax=...  61.2    4e-09 
+  UniRef90_A0A377E2C5 Outer membrane protein n=1 Tax=Escherichia ...  52.4    4e-06 
+  UniRef90_A0A1I8AH17 Uncharacterized protein n=1 Tax=Steinernema...  45.4    0.024 
+  UniRef90_A0A2A3VDE8 Uncharacterized protein n=1 Tax=Escherichia...  39.7    0.21  
+  UniRef90_R5PAB6 NUDIX hydrolase n=1 Tax=Prevotella sp. CAG:1092...  41.6    0.26  
+  UniRef90_A0A1F9RHK7 Uncharacterized protein n=1 Tax=Elusimicrob...  42.4    0.27  
+  UniRef90_UPI000B78F716 D-2-hydroxyacid dehydrogenase family pro...  42.0    0.41  
+  UniRef90_A0A1G0ZG23 Uncharacterized protein n=1 Tax=Lentisphaer...  40.0    1.5   
+  UniRef90_A0A2E9G3B9 Uncharacterized protein n=1 Tax=Thalassobiu...  40.8    1.6   
+  UniRef90_A0A2A5EFA9 Uncharacterized protein n=1 Tax=Bacteroidet...  40.0    2.8   
+  UniRef90_A0A2N6FIF0 Uncharacterized protein n=1 Tax=Desulfuromo...  38.9    4.1   
+  UniRef90_X1ULK1 Uncharacterized protein (Fragment) n=1 Tax=mari...  38.5    4.8   
+  UniRef90_A0A2N2W879 Uncharacterized protein n=1 Tax=Bacteroidet...  39.3    5.0   
+  UniRef90_UPI0004977678 YaiO family outer membrane beta-barrel p...  38.1    7.0   
+  UniRef90_A0A085GJW9 Uncharacterized protein n=4 Tax=Ewingella a...  36.6    7.7   
+  UniRef90_A0A2S8B3H3 Uncharacterized protein n=1 Tax=Sphingopyxi...  36.6    8.6   
+  UniRef90_A0A078B405 Uncharacterized protein n=1 Tax=Stylonychia...  38.5    8.7   
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1831832178091
+Warning: [psiblast] lcl|Query_1 NP_414892.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414892.1
+
+Length=257
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q47534 Outer membrane protein YaiO n=870 Tax=root TaxI...  392     3e-136
+  UniRef90_A0A3L9BCS1 YaiO family outer membrane beta-barrel prot...  379     1e-130
+  UniRef90_A0A0E3MUE8 Putative acyl transferase n=1 Tax=Escherich...  374     4e-129
+  UniRef90_A0A1V8NT08 Uncharacterized protein n=2 Tax=Enterobacte...  373     8e-129
+  UniRef90_UPI000B942360 YaiO family outer membrane beta-barrel p...  374     2e-127
+  UniRef90_UPI000BE1892C YaiO family outer membrane beta-barrel p...  370     2e-127
+  UniRef90_A0A2X7GTF9 Outer membrane protein n=1 Tax=Escherichia ...  368     9e-127
+  UniRef90_A0A1V4NRQ2 Uncharacterized protein n=1 Tax=Citrobacter...  361     5e-124
+  UniRef90_UPI000E1D63F6 YaiO family outer membrane beta-barrel p...  346     7e-118
+  UniRef90_A0A376R101 Outer membrane protein n=9 Tax=Enterobacter...  346     8e-118
+  UniRef90_Q9ALL3 Uncharacterized protein yacA n=10 Tax=Escherich...  343     9e-117
+  UniRef90_UPI0005ED4B26 YaiO family outer membrane beta-barrel p...  336     3e-114
+  UniRef90_A0A3K3XNY8 YaiO family outer membrane beta-barrel prot...  334     2e-113
+  UniRef90_UPI0009AF5350 YaiO family outer membrane beta-barrel p...  332     2e-112
+  UniRef90_UPI000932E49B YaiO family outer membrane beta-barrel p...  332     2e-112
+  UniRef90_A0A1N6U3Q6 Outer membrane protein, YaiO family n=1 Tax...  329     3e-111
+  UniRef90_UPI0009E814C2 YaiO family outer membrane beta-barrel p...  327     1e-110
+  UniRef90_A0A377E1T7 Outer membrane protein n=9 Tax=Escherichia ...  325     2e-110
+  UniRef90_UPI000DD6A055 YaiO family outer membrane beta-barrel p...  325     3e-110
+  UniRef90_A0A2S4Q5R7 Uncharacterized protein n=1 Tax=Citrobacter...  324     1e-109
+  UniRef90_UPI000B9FB261 YaiO family outer membrane beta-barrel p...  322     1e-108
+  UniRef90_A0A3K6R717 YaiO family outer membrane beta-barrel prot...  320     8e-108
+  UniRef90_A0A3I4HB09 YaiO family outer membrane beta-barrel prot...  317     1e-106
+  UniRef90_A0A3D9NUR7 YaiO family outer membrane protein n=1 Tax=...  306     4e-102
+  UniRef90_E3G6F0 Uncharacterized protein n=1 Tax=Enterobacter li...  303     5e-101
+  UniRef90_M5CIR3 Uncharacterized protein n=39 Tax=Gammaproteobac...  293     6e-97 
+  UniRef90_UPI000F685569 YaiO family outer membrane beta-barrel p...  288     4e-95 
+  UniRef90_A0A0E3UNE6 Uncharacterized protein n=1 Tax=Pseudoxanth...  283     2e-93 
+  UniRef90_UPI000F03D3BE YaiO family outer membrane beta-barrel p...  282     1e-92 
+  UniRef90_A0A377LKR6 Outer membrane protein n=2 Tax=Escherichia ...  276     2e-91 
+  UniRef90_UPI000D0180D1 YaiO family outer membrane beta-barrel p...  273     3e-90 
+  UniRef90_A0A2M8VHU7 YaiO family outer membrane protein n=3 Tax=...  274     7e-90 
+  UniRef90_A0A376VYU0 Outer membrane protein n=9 Tax=Escherichia ...  271     2e-89 
+  UniRef90_A0A241VYM6 Uncharacterized protein n=1 Tax=Acinetobact...  272     7e-89 
+  UniRef90_A0A370W6K1 YaiO family outer membrane beta-barrel prot...  262     9e-86 
+  UniRef90_UPI0009884EAC YaiO family outer membrane beta-barrel p...  259     4e-85 
+  UniRef90_A0A3M2HF56 YaiO family outer membrane beta-barrel prot...  247     8e-79 
+  UniRef90_UPI000D54053C YaiO family outer membrane beta-barrel p...  237     7e-75 
+  UniRef90_A0A376U5D5 Outer membrane protein n=1 Tax=Escherichia ...  224     2e-71 
+  UniRef90_A0A377K4D7 Outer membrane protein n=11 Tax=Escherichia...  220     4e-70 
+  UniRef90_A0A376L169 Outer membrane protein n=1 Tax=Escherichia ...  214     2e-67 
+  UniRef90_UPI0003BADF15 YaiO family outer membrane beta-barrel p...  203     2e-63 
+  UniRef90_A0A377KB14 Outer membrane protein n=1 Tax=Escherichia ...  182     9e-55 
+  UniRef90_A0A2X1KGP8 Outer membrane protein n=1 Tax=Escherichia ...  180     1e-54 
+  UniRef90_UPI00040BDF12 YaiO family outer membrane beta-barrel p...  163     4e-48 
+  UniRef90_UPI000E3B5C93 YaiO family outer membrane beta-barrel p...  144     8e-41 
+  UniRef90_A0A2X1PYH5 Outer membrane protein n=2 Tax=Enterobacter...  143     1e-40 
+  UniRef90_A0A377K4E6 Outer membrane protein n=1 Tax=Escherichia ...  141     1e-39 
+  UniRef90_A0A3C0XC35 Uncharacterized protein (Fragment) n=4 Tax=...  142     2e-39 
+  UniRef90_A0A2I6QJI5 Inositol-1-monophosphatase n=1 Tax=uncultur...  121     1e-30 
+  UniRef90_A0A2X1KD58 Outer membrane protein n=1 Tax=Escherichia ...  91.9    7e-21 
+  UniRef90_UPI000DF9FA27 hypothetical protein n=1 Tax=Escherichia...  90.0    7e-20 
+  UniRef90_A0A3I7Q7N9 Uncharacterized protein (Fragment) n=6 Tax=...  87.3    6e-19 
+  UniRef90_B3WZR0 Uncharacterized protein n=3 Tax=Shigella TaxID=...  70.8    6e-13 
+  UniRef90_A0A2X1NRM6 Outer membrane protein n=2 Tax=Escherichia ...  62.3    9e-10 
+  UniRef90_A0A377E2C5 Outer membrane protein n=1 Tax=Escherichia ...  41.9    0.022 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A212JAD2 Uncharacterized protein n=1 Tax=uncultured ...  66.9    2e-09
+  UniRef90_A0A1F9RHK7 Uncharacterized protein n=1 Tax=Elusimicrob...  65.8    3e-09
+  UniRef90_A0A285NQI8 Outer membrane protein, YaiO family n=1 Tax...  62.7    3e-08
+  UniRef90_UPI0004977678 YaiO family outer membrane beta-barrel p...  61.1    1e-07
+  UniRef90_UPI00068D1DE1 YaiO family outer membrane beta-barrel p...  60.4    2e-07
+  UniRef90_A0A1F7RYZ4 Uncharacterized protein n=1 Tax=Candidatus ...  60.4    2e-07
+  UniRef90_A0A1W2DXK7 Outer membrane protein, YaiO family n=1 Tax...  51.1    4e-04
+  UniRef90_D3DFY2 Uncharacterized protein n=1 Tax=Hydrogenobacter...  48.4    0.003
+  UniRef90_UPI00082E76F9 YaiO family outer membrane beta-barrel p...  47.7    0.004
+  UniRef90_A0A2A5EFA9 Uncharacterized protein n=1 Tax=Bacteroidet...  46.9    0.017
+  UniRef90_A0A2V7YE06 Uncharacterized protein n=1 Tax=Acidobacter...  44.2    0.071
+  UniRef90_A0A1M6GWS5 Outer membrane protein, YaiO family n=1 Tax...  43.4    0.14 
+  UniRef90_A0A1F7JFB4 Uncharacterized protein n=1 Tax=Candidatus ...  43.0    0.18 
+  UniRef90_A0A1M7ZXT3 Outer membrane protein, YaiO family n=1 Tax...  43.0    0.19 
+  UniRef90_A0A1M5USD3 Outer membrane protein, YaiO family n=1 Tax...  43.0    0.20 
+  UniRef90_A0A368MYV9 YaiO family outer membrane beta-barrel prot...  42.6    0.32 
+  UniRef90_UPI0005559C1F DUF3808 domain-containing protein n=2 Ta...  42.3    0.39 
+  UniRef90_A0A0G4QA79 Putative outer membrane usher protein ElfC ...  42.6    0.40 
+  UniRef90_A0A2V7Y0H3 Uncharacterized protein n=1 Tax=Acidobacter...  41.5    0.51 
+  UniRef90_A0A376BIS9 Outer membrane usher protein fimD n=8 Tax=A...  41.9    0.57 
+  UniRef90_A0A2N0JFG6 YaiO family outer membrane protein n=1 Tax=...  41.5    0.65 
+  UniRef90_A0A3B7MYY3 Hybrid sensor histidine kinase/response reg...  41.9    0.73 
+  UniRef90_A0A1V6DR42 Uncharacterized protein n=1 Tax=Candidatus ...  41.5    0.77 
+  UniRef90_A0A1I5X468 Outer membrane protein, YaiO family n=1 Tax...  41.5    0.79 
+  UniRef90_A0A0P6XIE8 Uncharacterized protein n=2 Tax=Erythrobact...  41.1    0.87 
+  UniRef90_A0A0Q5YPG2 Uncharacterized protein n=1 Tax=Ramlibacter...  40.7    0.88 
+  UniRef90_A0A0Q7EWF4 Histidine kinase n=7 Tax=Oxalobacteraceae T...  41.5    0.95 
+  UniRef90_A0A3L9ZCZ8 YaiO family outer membrane protein n=2 Tax=...  41.1    1.0  
+  UniRef90_A0A1J5RLM4 Beta-barrel assembly-enhancing protease n=1...  41.1    1.1  
+  UniRef90_UPI0009B51AA0 YaiO family outer membrane beta-barrel p...  40.3    1.4  
+  UniRef90_UPI0009B5145E YaiO family outer membrane beta-barrel p...  40.7    1.4  
+  UniRef90_A0A0T6A9P4 Uncharacterized protein n=1 Tax=Deltaproteo...  40.3    1.5  
+  UniRef90_A0A3M1P008 YaiO family outer membrane beta-barrel prot...  39.9    1.5  
+  UniRef90_A0A072PUH8 Uncharacterized protein n=1 Tax=Exophiala a...  40.7    1.7  
+  UniRef90_UPI000CD47896 hybrid sensor histidine kinase/response ...  40.3    2.0  
+  UniRef90_A0A1W2EZ95 Hemolysin activation/secretion protein n=2 ...  40.3    2.1  
+  UniRef90_A0A1Q3ZAQ2 Uncharacterized protein n=1 Tax=Chryseobact...  39.6    2.4  
+  UniRef90_A0A1G0MGU3 Phosphoribosylformylglycinamidine synthase ...  39.9    2.7  
+  UniRef90_UPI000EB22974 YaiO family outer membrane beta-barrel p...  39.6    3.3  
+  UniRef90_UPI00082DC53C YaiO family outer membrane beta-barrel p...  39.2    3.6  
+  UniRef90_A0A1B8QDS0 Uncharacterized protein n=1 Tax=Moraxella a...  38.4    4.9  
+  UniRef90_A0A2V8U7R1 Uncharacterized protein (Fragment) n=1 Tax=...  38.8    5.2  
+  UniRef90_A0A2D6M2Q7 Glutathione-disulfide reductase n=3 Tax=Rho...  38.8    5.4  
+  UniRef90_W0B9M4 Uncharacterized protein n=3 Tax=Legionella TaxI...  38.8    5.5  
+  UniRef90_G8R6D0 Uncharacterized protein n=1 Tax=Owenweeksia hon...  38.4    5.6  
+  UniRef90_A0A1M7KUB3 Signal transduction histidine kinase n=2 Ta...  39.2    5.7  
+  UniRef90_A0A3D9G0V1 YaiO family outer membrane protein n=1 Tax=...  38.8    5.8  
+  UniRef90_A0A0W0WZU5 TRP containing protein n=2 Tax=Legionella o...  38.4    7.0  
+  UniRef90_A0A2V5JXD7 Uncharacterized protein n=1 Tax=Paenibacill...  38.4    8.8  
+  UniRef90_A0A2C1AJK5 Uncharacterized protein n=1 Tax=Bacillus ce...  38.0    9.5  
+  UniRef90_A0A1I1SKN6 Outer membrane protein, YaiO family n=2 Tax...  38.0    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.143    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0438    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1831832178091
+Results from round 3
+
+
+Query= NP_414892.1
+
+Length=257
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q47534 Outer membrane protein YaiO n=870 Tax=root TaxI...  362     2e-124
+  UniRef90_A0A3L9BCS1 YaiO family outer membrane beta-barrel prot...  350     3e-119
+  UniRef90_UPI000B942360 YaiO family outer membrane beta-barrel p...  351     2e-118
+  UniRef90_A0A0E3MUE8 Putative acyl transferase n=1 Tax=Escherich...  346     3e-118
+  UniRef90_A0A1V8NT08 Uncharacterized protein n=2 Tax=Enterobacte...  345     1e-117
+  UniRef90_UPI000BE1892C YaiO family outer membrane beta-barrel p...  341     2e-116
+  UniRef90_A0A2X7GTF9 Outer membrane protein n=1 Tax=Escherichia ...  341     4e-116
+  UniRef90_A0A1V4NRQ2 Uncharacterized protein n=1 Tax=Citrobacter...  334     2e-113
+  UniRef90_A0A376R101 Outer membrane protein n=9 Tax=Enterobacter...  319     2e-107
+  UniRef90_UPI0009AF5350 YaiO family outer membrane beta-barrel p...  318     4e-107
+  UniRef90_Q9ALL3 Uncharacterized protein yacA n=10 Tax=Escherich...  318     4e-107
+  UniRef90_UPI000E1D63F6 YaiO family outer membrane beta-barrel p...  317     1e-106
+  UniRef90_A0A3K3XNY8 YaiO family outer membrane beta-barrel prot...  311     3e-104
+  UniRef90_UPI0005ED4B26 YaiO family outer membrane beta-barrel p...  308     4e-103
+  UniRef90_UPI000932E49B YaiO family outer membrane beta-barrel p...  308     6e-103
+  UniRef90_UPI0009E814C2 YaiO family outer membrane beta-barrel p...  306     4e-102
+  UniRef90_UPI000B9FB261 YaiO family outer membrane beta-barrel p...  305     7e-102
+  UniRef90_A0A1N6U3Q6 Outer membrane protein, YaiO family n=1 Tax...  304     2e-101
+  UniRef90_A0A377E1T7 Outer membrane protein n=9 Tax=Escherichia ...  301     5e-101
+  UniRef90_UPI000DD6A055 YaiO family outer membrane beta-barrel p...  301     7e-101
+  UniRef90_A0A2S4Q5R7 Uncharacterized protein n=1 Tax=Citrobacter...  301     4e-100
+  UniRef90_A0A3K6R717 YaiO family outer membrane beta-barrel prot...  297     8e-99 
+  UniRef90_A0A3I4HB09 YaiO family outer membrane beta-barrel prot...  296     4e-98 
+  UniRef90_E3G6F0 Uncharacterized protein n=1 Tax=Enterobacter li...  287     1e-94 
+  UniRef90_A0A3D9NUR7 YaiO family outer membrane protein n=1 Tax=...  283     3e-93 
+  UniRef90_M5CIR3 Uncharacterized protein n=39 Tax=Gammaproteobac...  279     9e-92 
+  UniRef90_UPI000F685569 YaiO family outer membrane beta-barrel p...  276     3e-90 
+  UniRef90_A0A0E3UNE6 Uncharacterized protein n=1 Tax=Pseudoxanth...  269     1e-87 
+  UniRef90_A0A377LKR6 Outer membrane protein n=2 Tax=Escherichia ...  257     9e-84 
+  UniRef90_A0A2M8VHU7 YaiO family outer membrane protein n=3 Tax=...  258     2e-83 
+  UniRef90_UPI000F03D3BE YaiO family outer membrane beta-barrel p...  259     2e-83 
+  UniRef90_UPI000D0180D1 YaiO family outer membrane beta-barrel p...  254     9e-83 
+  UniRef90_A0A376VYU0 Outer membrane protein n=9 Tax=Escherichia ...  251     1e-81 
+  UniRef90_A0A241VYM6 Uncharacterized protein n=1 Tax=Acinetobact...  251     2e-80 
+  UniRef90_A0A370W6K1 YaiO family outer membrane beta-barrel prot...  247     4e-80 
+  UniRef90_UPI0009884EAC YaiO family outer membrane beta-barrel p...  242     3e-78 
+  UniRef90_A0A3M2HF56 YaiO family outer membrane beta-barrel prot...  234     1e-73 
+  UniRef90_UPI000D54053C YaiO family outer membrane beta-barrel p...  230     3e-72 
+  UniRef90_A0A376U5D5 Outer membrane protein n=1 Tax=Escherichia ...  209     1e-65 
+  UniRef90_A0A377K4D7 Outer membrane protein n=11 Tax=Escherichia...  202     3e-63 
+  UniRef90_A0A376L169 Outer membrane protein n=1 Tax=Escherichia ...  200     5e-62 
+  UniRef90_A0A1F9RHK7 Uncharacterized protein n=1 Tax=Elusimicrob...  203     2e-61 
+  UniRef90_UPI0003BADF15 YaiO family outer membrane beta-barrel p...  186     6e-57 
+  UniRef90_A0A212JAD2 Uncharacterized protein n=1 Tax=uncultured ...  186     2e-54 
+  UniRef90_UPI0004977678 YaiO family outer membrane beta-barrel p...  180     1e-52 
+  UniRef90_A0A285NQI8 Outer membrane protein, YaiO family n=1 Tax...  176     3e-51 
+  UniRef90_A0A377KB14 Outer membrane protein n=1 Tax=Escherichia ...  171     1e-50 
+  UniRef90_UPI00068D1DE1 YaiO family outer membrane beta-barrel p...  174     1e-50 
+  UniRef90_A0A2X1KGP8 Outer membrane protein n=1 Tax=Escherichia ...  169     5e-50 
+  UniRef90_A0A1W2DXK7 Outer membrane protein, YaiO family n=1 Tax...  166     3e-47 
+  UniRef90_A0A1F7RYZ4 Uncharacterized protein n=1 Tax=Candidatus ...  161     3e-45 
+  UniRef90_UPI00040BDF12 YaiO family outer membrane beta-barrel p...  151     2e-43 
+  UniRef90_A0A3C0XC35 Uncharacterized protein (Fragment) n=4 Tax=...  137     2e-37 
+  UniRef90_UPI000E3B5C93 YaiO family outer membrane beta-barrel p...  133     1e-36 
+  UniRef90_A0A2X1PYH5 Outer membrane protein n=2 Tax=Enterobacter...  132     3e-36 
+  UniRef90_A0A377K4E6 Outer membrane protein n=1 Tax=Escherichia ...  130     2e-35 
+  UniRef90_A0A2I6QJI5 Inositol-1-monophosphatase n=1 Tax=uncultur...  112     4e-27 
+  UniRef90_A0A2X1KD58 Outer membrane protein n=1 Tax=Escherichia ...  85.0    4e-18 
+  UniRef90_UPI000DF9FA27 hypothetical protein n=1 Tax=Escherichia...  84.3    1e-17 
+  UniRef90_A0A3I7Q7N9 Uncharacterized protein (Fragment) n=6 Tax=...  79.7    5e-16 
+  UniRef90_B3WZR0 Uncharacterized protein n=3 Tax=Shigella TaxID=...  65.0    8e-11 
+  UniRef90_A0A2X1NRM6 Outer membrane protein n=2 Tax=Escherichia ...  56.2    2e-07 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_D3DFY2 Uncharacterized protein n=1 Tax=Hydrogenobacter...  158     3e-44
+  UniRef90_A0A1V4RF19 Uncharacterized protein n=1 Tax=Candidatus ...  107     3e-24
+  UniRef90_A0A2V7YE06 Uncharacterized protein n=1 Tax=Acidobacter...  87.7    4e-17
+  UniRef90_A0A2V7Y0H3 Uncharacterized protein n=1 Tax=Acidobacter...  83.5    1e-15
+  UniRef90_A0A1A6C0M6 Uncharacterized protein n=2 Tax=Acidihaloba...  70.4    6e-11
+  UniRef90_A0A2T6F6X4 Uncharacterized protein n=1 Tax=Glaciimonas...  70.8    1e-10
+  UniRef90_H0BXS1 Putative lipoprotein n=6 Tax=Acidovorax TaxID=1...  69.3    2e-10
+  UniRef90_A0A1F4EQ49 Uncharacterized protein n=3 Tax=Burkholderi...  67.3    7e-10
+  UniRef90_A0A258NS25 Uncharacterized protein n=3 Tax=Polaromonas...  66.6    2e-09
+  UniRef90_A0A2V8TJR5 Uncharacterized protein n=1 Tax=Acidobacter...  65.4    4e-09
+  UniRef90_A0A2N2TBR2 Uncharacterized protein n=1 Tax=Betaproteob...  65.8    5e-09
+  UniRef90_A0A1F6TBG9 Uncharacterized protein n=1 Tax=Candidatus ...  62.7    4e-08
+  UniRef90_A0A2V8MFI3 Uncharacterized protein n=1 Tax=Acidobacter...  62.7    4e-08
+  UniRef90_A0A0G3ETR3 Uncharacterized protein n=1 Tax=Pandoraea t...  61.9    8e-08
+  UniRef90_A0A1C2G3W2 Uncharacterized protein n=2 Tax=Acidiferrob...  61.2    9e-08
+  UniRef90_B1Z0G9 Uncharacterized protein n=10 Tax=Burkholderia c...  61.9    1e-07
+  UniRef90_A0A2Z3RB27 Uncharacterized protein n=2 Tax=Acidiferrob...  61.2    2e-07
+  UniRef90_A0A1Y2QBT1 Uncharacterized protein n=1 Tax=Hydrogenoph...  61.2    2e-07
+  UniRef90_A0A1Q7GK71 Uncharacterized protein n=1 Tax=Acidobacter...  60.0    4e-07
+  UniRef90_A0A0H2XMX7 Uncharacterized protein n=55 Tax=Burkholder...  59.6    6e-07
+  UniRef90_A0A370EM00 YaiO family outer membrane protein n=1 Tax=...  59.6    7e-07
+  UniRef90_A0A375HM56 Outer membrane protein, YaiO family n=6 Tax...  58.5    1e-06
+  UniRef90_A0A0F9MN58 Uncharacterized protein n=1 Tax=marine sedi...  58.9    1e-06
+  UniRef90_UPI00082DC53C YaiO family outer membrane beta-barrel p...  58.9    1e-06
+  UniRef90_UPI00024717AF YaiO family outer membrane beta-barrel p...  58.1    2e-06
+  UniRef90_A0A2N0JFG6 YaiO family outer membrane protein n=1 Tax=...  57.7    3e-06
+  UniRef90_UPI00082E76F9 YaiO family outer membrane beta-barrel p...  56.5    5e-06
+  UniRef90_A0A1I5X468 Outer membrane protein, YaiO family n=1 Tax...  56.9    5e-06
+  UniRef90_A0A0Q7XIS5 Uncharacterized protein n=1 Tax=Duganella s...  56.2    5e-06
+  UniRef90_A0A1G9PQ98 Outer membrane protein, YaiO family n=2 Tax...  56.5    6e-06
+  UniRef90_UPI000690E965 YaiO family outer membrane beta-barrel p...  56.2    7e-06
+  UniRef90_A0A1I2JAV4 Outer membrane protein, YaiO family n=1 Tax...  56.2    7e-06
+  UniRef90_A0A1B8QDS0 Uncharacterized protein n=1 Tax=Moraxella a...  55.8    9e-06
+  UniRef90_A0A1M6GWS5 Outer membrane protein, YaiO family n=1 Tax...  56.2    1e-05
+  UniRef90_A0A3M1XNU2 YaiO family outer membrane beta-barrel prot...  55.8    1e-05
+  UniRef90_UPI000427A6D4 YaiO family outer membrane beta-barrel p...  55.0    2e-05
+  UniRef90_A0A2V9IJS8 Uncharacterized protein n=3 Tax=Acidobacter...  55.0    2e-05
+  UniRef90_A0A2W5W356 Uncharacterized protein n=1 Tax=Flavobacter...  55.0    2e-05
+  UniRef90_A0A2N9NCY4 Uncharacterized protein n=1 Tax=Candidatus ...  54.6    3e-05
+  UniRef90_A0A0N7K9A7 Uncharacterized protein n=1 Tax=Flavobacter...  54.6    3e-05
+  UniRef90_A0A0D5IVZ9 Outer membrane, YaiO family domain protein ...  54.2    4e-05
+  UniRef90_UPI0003808396 YaiO family outer membrane beta-barrel p...  53.5    6e-05
+  UniRef90_X0YRB0 Uncharacterized protein (Fragment) n=1 Tax=mari...  53.1    8e-05
+  UniRef90_A0A1Y0EPV4 Uncharacterized protein n=1 Tax=Comamonas s...  53.1    8e-05
+  UniRef90_A0A388RVW5 Uncharacterized protein n=2 Tax=Cupriavidus...  53.1    8e-05
+  UniRef90_UPI0004DF9A36 YaiO family outer membrane beta-barrel p...  53.5    9e-05
+  UniRef90_UPI000DEECCA5 YaiO family outer membrane beta-barrel p...  52.7    9e-05
+  UniRef90_A0A1M5USD3 Outer membrane protein, YaiO family n=1 Tax...  53.1    1e-04
+  UniRef90_A0A238D3L1 Putative lipoprotein n=3 Tax=Thiomonas TaxI...  51.9    2e-04
+  UniRef90_UPI000FCB9281 YaiO family outer membrane beta-barrel p...  52.3    2e-04
+  UniRef90_A0A3D3D0H5 Uncharacterized protein n=1 Tax=Comamonadac...  51.9    2e-04
+  UniRef90_UPI000694435C YaiO family outer membrane beta-barrel p...  52.3    2e-04
+  UniRef90_A0A3G8H2F2 YaiO family outer membrane beta-barrel prot...  51.5    3e-04
+  UniRef90_A0A2U2B4D7 Uncharacterized protein n=1 Tax=Marinilabil...  51.9    3e-04
+  UniRef90_G0EV30 Uncharacterized protein n=9 Tax=Burkholderiacea...  51.2    3e-04
+  UniRef90_A0A1J5RLM4 Beta-barrel assembly-enhancing protease n=1...  51.5    4e-04
+  UniRef90_A0A1I5CKZ6 Outer membrane protein, YaiO family n=1 Tax...  51.5    4e-04
+  UniRef90_A0A2E4PID4 Uncharacterized protein n=1 Tax=Flavobacter...  51.2    4e-04
+  UniRef90_F1VVX8 Lipoprotein n=1 Tax=Oxalobacteraceae bacterium ...  50.8    4e-04
+  UniRef90_UPI0005559C1F DUF3808 domain-containing protein n=2 Ta...  51.2    4e-04
+  UniRef90_X0ZPC5 Uncharacterized protein (Fragment) n=1 Tax=mari...  50.8    5e-04
+  UniRef90_A0A386HUL7 YaiO family outer membrane beta-barrel prot...  51.2    5e-04
+  UniRef90_A0A1M6B1S7 Outer membrane protein, YaiO family n=2 Tax...  50.8    7e-04
+  UniRef90_A0A368MYV9 YaiO family outer membrane beta-barrel prot...  50.8    7e-04
+  UniRef90_A0A2U1R2X0 Uncharacterized protein n=1 Tax=Flavobacter...  50.0    0.001
+  UniRef90_A0A1J7BMR1 Uncharacterized protein n=1 Tax=Flavobacter...  49.6    0.001
+  UniRef90_A0A0Q9A2N1 Uncharacterized protein n=1 Tax=Flavobacter...  49.6    0.002
+  UniRef90_A0A3D0Q880 Uncharacterized protein n=1 Tax=Bacteroidet...  49.6    0.002
+  UniRef90_A0A345ZKH0 YaiO family outer membrane beta-barrel prot...  48.8    0.002
+  UniRef90_UPI0003F9F877 YaiO family outer membrane beta-barrel p...  49.2    0.002
+  UniRef90_A0A2V9MX50 Uncharacterized protein n=2 Tax=unclassifie...  48.8    0.002
+  UniRef90_A0A2T5NH01 Uncharacterized protein n=1 Tax=Chromobacte...  48.8    0.002
+  UniRef90_A0A1I1SKN6 Outer membrane protein, YaiO family n=2 Tax...  49.2    0.002
+  UniRef90_A0A1G0BI77 Uncharacterized protein n=1 Tax=Flavobacter...  48.8    0.003
+  UniRef90_A0A2E4EG95 Uncharacterized protein n=1 Tax=Crocinitomi...  48.8    0.003
+  UniRef90_A0A1F2RNZ9 Uncharacterized protein n=1 Tax=Acidobacter...  48.1    0.003
+  UniRef90_A0A3L9ZCZ8 YaiO family outer membrane protein n=2 Tax=...  48.5    0.004
+  UniRef90_A0A2V9VNG2 Uncharacterized protein n=2 Tax=Acidobacter...  48.1    0.004
+  UniRef90_UPI0009B5145E YaiO family outer membrane beta-barrel p...  48.5    0.004
+  UniRef90_A0A1F4TRP7 Uncharacterized protein n=1 Tax=candidate d...  47.7    0.005
+  UniRef90_A0A1P8R3T3 Uncharacterized protein n=1 Tax=Halomonas s...  47.7    0.005
+  UniRef90_A0A241R0V2 Uncharacterized protein n=2 Tax=Idiomarina ...  47.3    0.005
+  UniRef90_A0A1M5ENL1 Outer membrane protein, YaiO family n=1 Tax...  48.1    0.006
+  UniRef90_A0A0R0BZJ7 Uncharacterized protein n=3 Tax=Stenotropho...  48.1    0.006
+  UniRef90_UPI000F776723 DUF3808 domain-containing protein n=1 Ta...  47.7    0.006
+  UniRef90_UPI0009B51AA0 YaiO family outer membrane beta-barrel p...  47.3    0.006
+  UniRef90_A0A0M3AQE2 Uncharacterized protein n=2 Tax=Sphingobium...  47.3    0.008
+  UniRef90_A0A1I1V511 Outer membrane protein, YaiO family n=1 Tax...  47.3    0.008
+  UniRef90_A0A1V5J5I0 Uncharacterized protein n=1 Tax=Bacteroidet...  46.9    0.010
+  UniRef90_A0A3D9G0V1 YaiO family outer membrane protein n=1 Tax=...  46.9    0.012
+  UniRef90_A0A3N7FLT7 Uncharacterized protein n=1 Tax=Aquitalea s...  46.5    0.014
+  UniRef90_A0A1G5GH56 Outer membrane protein, YaiO family n=8 Tax...  46.5    0.014
+  UniRef90_A0A0R0C3S1 Uncharacterized protein n=2 Tax=Stenotropho...  46.5    0.016
+  UniRef90_A0A0Q5YPG2 Uncharacterized protein n=1 Tax=Ramlibacter...  46.1    0.016
+  UniRef90_G8R6D0 Uncharacterized protein n=1 Tax=Owenweeksia hon...  46.1    0.018
+  UniRef90_A0A3M9NAN1 YaiO family outer membrane beta-barrel prot...  46.1    0.019
+  UniRef90_UPI000985BD86 YaiO family outer membrane beta-barrel p...  46.1    0.022
+  UniRef90_A0A2U1JWK4 Uncharacterized protein n=1 Tax=Flavobacter...  46.1    0.023
+  UniRef90_A3XMU0 Uncharacterized protein n=1 Tax=Leeuwenhoekiell...  46.1    0.023
+  UniRef90_A0A369QJH8 Uncharacterized protein n=1 Tax=Adhaeribact...  45.8    0.027
+  UniRef90_A0A101CWH6 Uncharacterized protein n=1 Tax=Flavobacter...  45.8    0.030
+  UniRef90_A0A1H3MYS6 Outer membrane protein, YaiO family n=1 Tax...  45.8    0.031
+  UniRef90_A0A1P8JTS9 Uncharacterized protein n=2 Tax=Rhodoferax ...  45.0    0.040
+  UniRef90_A5FCY8 Uncharacterized protein n=2 Tax=Flavobacterium ...  45.4    0.042
+  UniRef90_A0A1S1J015 Uncharacterized protein n=3 Tax=Flavobacter...  45.4    0.043
+  UniRef90_J3BWD2 Uncharacterized protein n=1 Tax=Flavobacterium ...  45.4    0.044
+  UniRef90_A0A1M7GAD6 Outer membrane protein, YaiO family n=2 Tax...  45.0    0.045
+  UniRef90_A0A1E4BDZ6 Uncharacterized protein n=1 Tax=Gemmatimona...  44.6    0.046
+  UniRef90_UPI00047DB3ED YaiO family outer membrane beta-barrel p...  45.0    0.047
+  UniRef90_UPI000EB22974 YaiO family outer membrane beta-barrel p...  45.0    0.050
+  UniRef90_UPI000837F087 YaiO family outer membrane beta-barrel p...  44.6    0.053
+  UniRef90_A0A1M4ZKR0 Outer membrane protein, YaiO family n=1 Tax...  45.0    0.055
+  UniRef90_A0A126RT63 Uncharacterized protein n=3 Tax=Sphingomona...  44.6    0.057
+  UniRef90_A0A2U0TMF1 YaiO family outer membrane protein n=1 Tax=...  44.6    0.060
+  UniRef90_A0A192WUU2 Uncharacterized protein n=1 Tax=Acidobacter...  44.6    0.061
+  UniRef90_A0A0S1B414 Tetratricopeptide TPR_1 repeat-containing p...  44.6    0.061
+  UniRef90_A0A1M4YM77 Outer membrane protein, YaiO family n=2 Tax...  44.6    0.062
+  UniRef90_A0A376GMJ4 Predicted methyltransferase (Contains TPR r...  44.6    0.062
+  UniRef90_A0A321LG06 Uncharacterized protein n=1 Tax=Acidobacter...  44.2    0.077
+  UniRef90_A0A1R4L388 TPR domain protein, putative component of T...  44.6    0.078
+  UniRef90_A0A346N346 YaiO family outer membrane beta-barrel prot...  44.2    0.080
+  UniRef90_A0A344LUG6 Uncharacterized protein n=3 Tax=Flavobacter...  44.2    0.089
+  UniRef90_C1A6P3 Uncharacterized protein n=2 Tax=Gemmatimonas au...  43.8    0.091
+  UniRef90_A0A1T4TUI3 Outer membrane protein, YaiO family n=1 Tax...  44.6    0.091
+  UniRef90_A0A1T4MCY9 Outer membrane protein, YaiO family n=1 Tax...  44.2    0.11 
+  UniRef90_A0A1E4H4S4 Uncharacterized protein n=3 Tax=Xanthomonad...  43.8    0.11 
+  UniRef90_A0A2T5ZHS7 YaiO family outer membrane protein n=1 Tax=...  43.8    0.12 
+  UniRef90_A0A3M1P008 YaiO family outer membrane beta-barrel prot...  43.4    0.13 
+  UniRef90_A0A3N0UY95 YaiO family outer membrane beta-barrel prot...  43.8    0.13 
+  UniRef90_A0A2H9SLH4 Uncharacterized protein n=1 Tax=Legionella ...  43.8    0.14 
+  UniRef90_A0A1H2RTI5 Outer membrane protein, YaiO family n=2 Tax...  43.8    0.14 
+  UniRef90_A0A1H6UJ59 Outer membrane protein, YaiO family n=1 Tax...  43.8    0.14 
+  UniRef90_A0A2W7UG82 Uncharacterized protein n=1 Tax=Flavobacter...  43.4    0.15 
+  UniRef90_A0A1N7LKL8 Outer membrane protein, YaiO family n=4 Tax...  43.4    0.16 
+  UniRef90_UPI00058D51B1 YaiO family outer membrane beta-barrel p...  43.4    0.17 
+  UniRef90_A0A2S5TLE2 Uncharacterized protein n=1 Tax=Solimonas f...  42.7    0.19 
+  UniRef90_A0A1W0CC27 Uncharacterized protein n=5 Tax=Chromobacte...  43.1    0.20 
+  UniRef90_A0A1F9U9D8 Uncharacterized protein n=1 Tax=Elusimicrob...  43.1    0.21 
+  UniRef90_A0A1M5IJX8 Outer membrane protein, YaiO family n=1 Tax...  42.7    0.22 
+  UniRef90_A0A2A5EFA9 Uncharacterized protein n=1 Tax=Bacteroidet...  43.4    0.23 
+  UniRef90_A0A1W9PA24 Uncharacterized protein n=1 Tax=Candidatus ...  43.1    0.25 
+  UniRef90_A0A1S1JB50 Uncharacterized protein n=4 Tax=Flavobacter...  42.7    0.25 
+  UniRef90_A0A1V3RBK6 Uncharacterized protein n=2 Tax=Flavobacter...  42.7    0.25 
+  UniRef90_A0A1J4U9I2 Uncharacterized protein n=6 Tax=unclassifie...  42.7    0.26 
+  UniRef90_A0A0R0AJ07 Uncharacterized protein n=3 Tax=Stenotropho...  42.7    0.26 
+  UniRef90_A0A3A4NPI2 YaiO family outer membrane beta-barrel prot...  42.7    0.27 
+  UniRef90_A0A154QG15 Uncharacterized protein n=2 Tax=Rhodanobact...  42.7    0.28 
+  UniRef90_A0A1H8PBR5 Outer membrane protein, YaiO family n=3 Tax...  42.7    0.29 
+  UniRef90_A0A2M8Y016 YaiO family outer membrane protein n=1 Tax=...  42.7    0.31 
+  UniRef90_A0A249SY19 Uncharacterized protein n=1 Tax=Chitinophag...  43.1    0.31 
+  UniRef90_UPI000E6A3F95 YaiO family outer membrane beta-barrel p...  42.3    0.31 
+  UniRef90_UPI000DACE6B2 YaiO family outer membrane beta-barrel p...  42.7    0.32 
+  UniRef90_UPI0003FBA4CD YaiO family outer membrane beta-barrel p...  42.7    0.33 
+  UniRef90_UPI00036C7490 YaiO family outer membrane beta-barrel p...  42.3    0.35 
+  UniRef90_A0A2G8S4J0 Uncharacterized protein n=1 Tax=Ganoderma s...  42.7    0.36 
+  UniRef90_A0A2G1VPS4 Uncharacterized protein n=2 Tax=Leeuwenhoek...  42.3    0.37 
+  UniRef90_UPI000E76C6C9 YaiO family outer membrane beta-barrel p...  42.3    0.37 
+  UniRef90_A0A3E1NW61 YaiO family outer membrane beta-barrel prot...  42.7    0.38 
+  UniRef90_A0A254VKF6 Uncharacterized protein n=1 Tax=Xenophilus ...  42.3    0.39 
+  UniRef90_A0A0Q7PD25 Uncharacterized protein n=1 Tax=Lysobacter ...  42.3    0.40 
+  UniRef90_A0A377E2C5 Outer membrane protein n=1 Tax=Escherichia ...  38.1    0.41 
+  UniRef90_A0A0F7E0L8 DeoR family transcriptional regulator n=2 T...  41.9    0.41 
+  UniRef90_UPI000C0BFC42 YaiO family outer membrane beta-barrel p...  42.3    0.45 
+  UniRef90_A0A161LE11 Outer membrane protein, YaiO family n=1 Tax...  41.9    0.47 
+  UniRef90_A0A246AMU9 Uncharacterized protein n=1 Tax=Flavobacter...  41.9    0.48 
+  UniRef90_UPI000F7BFC02 YaiO family outer membrane beta-barrel p...  41.5    0.52 
+  UniRef90_A0A1H5RKV2 Outer membrane protein, YaiO family n=2 Tax...  41.5    0.54 
+  UniRef90_UPI00040C1FED YaiO family outer membrane beta-barrel p...  41.9    0.55 
+  UniRef90_A0A2W7R9V1 YaiO family outer membrane protein n=2 Tax=...  41.9    0.57 
+  UniRef90_A0A2T5BXY1 YaiO family outer membrane protein n=1 Tax=...  41.9    0.60 
+  UniRef90_A0A368KC53 YaiO family outer membrane beta-barrel prot...  41.5    0.62 
+  UniRef90_UPI000E69D753 YaiO family outer membrane beta-barrel p...  41.5    0.64 
+  UniRef90_UPI000D6C81D4 tetratricopeptide repeat protein n=1 Tax...  41.9    0.65 
+  UniRef90_A0A0F9RXK9 Uncharacterized protein n=1 Tax=marine sedi...  41.5    0.67 
+  UniRef90_A0A3N4M6F4 YaiO family outer membrane beta-barrel prot...  41.9    0.69 
+  UniRef90_X1VGE7 Uncharacterized protein (Fragment) n=1 Tax=mari...  39.6    0.71 
+  UniRef90_UPI00037D97F3 YaiO family outer membrane beta-barrel p...  41.5    0.72 
+  UniRef90_A0A257I0W4 Uncharacterized protein n=3 Tax=Bacteroidet...  41.5    0.73 
+  UniRef90_C6X1A4 Uncharacterized protein n=1 Tax=Flavobacteriace...  41.5    0.74 
+  UniRef90_A0A0M9CJ21 TPR repeat-containing protein n=1 Tax=Polar...  41.5    0.75 
+  UniRef90_A0A1G6Z132 Outer membrane protein, YaiO family n=1 Tax...  41.1    0.81 
+  UniRef90_A0A0G4QA79 Putative outer membrane usher protein ElfC ...  41.5    0.84 
+  UniRef90_L0G0U3 Uncharacterized protein n=1 Tax=Echinicola viet...  41.1    0.86 
+  UniRef90_UPI000D366333 YaiO family outer membrane beta-barrel p...  41.1    0.95 
+  UniRef90_A0A1M7KUB3 Signal transduction histidine kinase n=2 Ta...  41.1    1.1  
+  UniRef90_UPI00034B31E2 YaiO family outer membrane beta-barrel p...  40.8    1.2  
+  UniRef90_A0A2E3F796 Uncharacterized protein n=1 Tax=Leeuwenhoek...  40.8    1.2  
+  UniRef90_W0B9M4 Uncharacterized protein n=3 Tax=Legionella TaxI...  40.8    1.3  
+  UniRef90_A0A2E6F090 Uncharacterized protein n=2 Tax=Flavobacter...  41.1    1.3  
+  UniRef90_A0A0Q7EWF4 Histidine kinase n=7 Tax=Oxalobacteraceae T...  41.1    1.3  
+  UniRef90_A0A2S2DVK4 Uncharacterized protein n=1 Tax=Pseudarcice...  40.8    1.3  
+  UniRef90_A0A1A7KIB5 Anaphase-promoting complex, cyclosome, subu...  40.8    1.3  
+  UniRef90_A0A1G9UYY8 Outer membrane protein, YaiO family n=1 Tax...  40.4    1.5  
+  UniRef90_A0A1M5BTS2 Outer membrane protein, YaiO family n=6 Tax...  40.4    1.5  
+  UniRef90_UPI00068639ED YaiO family outer membrane beta-barrel p...  40.4    1.5  
+  UniRef90_A0A3M1X6V9 YaiO family outer membrane beta-barrel prot...  40.4    1.5  
+  UniRef90_A0A3D0VQN7 Uncharacterized protein n=2 Tax=Bacteroidet...  40.4    1.6  
+  UniRef90_A4ARS1 Uncharacterized protein n=1 Tax=Maribacter sp. ...  40.4    1.6  
+  UniRef90_UPI00082FEDE3 YaiO family outer membrane beta-barrel p...  40.4    1.6  
+  UniRef90_A0A258WSW9 Uncharacterized protein n=1 Tax=Sphingobact...  40.4    1.7  
+  UniRef90_A0A127AYR9 Uncharacterized protein n=1 Tax=Rufibacter ...  40.4    1.7  
+  UniRef90_A0A1S8ZMN9 Uncharacterized protein n=1 Tax=Flavobacter...  40.0    1.9  
+  UniRef90_UPI000CD47896 hybrid sensor histidine kinase/response ...  40.4    1.9  
+  UniRef90_A0A0W0WZU5 TRP containing protein n=2 Tax=Legionella o...  40.0    1.9  
+  UniRef90_A0A1W2H5W1 Outer membrane protein, YaiO family n=1 Tax...  40.0    2.0  
+  UniRef90_A0A2N1RPS7 Uncharacterized protein n=1 Tax=Spirochaeta...  40.0    2.0  
+  UniRef90_A0A1F7JFB4 Uncharacterized protein n=1 Tax=Candidatus ...  39.6    2.0  
+  UniRef90_A0A1W2EZ95 Hemolysin activation/secretion protein n=2 ...  40.4    2.1  
+  UniRef90_A0A1B1Y4R9 Uncharacterized protein n=1 Tax=Wenyingzhua...  40.0    2.1  
+  UniRef90_UPI0009E1FF1C uncharacterized protein LOC110043570 n=1...  39.6    2.4  
+  UniRef90_A0A0F9UVM7 Uncharacterized protein n=1 Tax=marine sedi...  40.0    2.5  
+  UniRef90_A0A1G1K4F2 Uncharacterized protein n=2 Tax=unclassifie...  39.6    2.5  
+  UniRef90_A0A1Z3VZM5 YaiO family outer membrane beta-barrel prot...  39.6    2.6  
+  UniRef90_A0A1T5M7S0 Outer membrane protein, YaiO family n=1 Tax...  39.6    2.6  
+  UniRef90_A0A2V9ZVE3 Uncharacterized protein n=1 Tax=Acidobacter...  39.6    2.6  
+  UniRef90_A0A1V6DR42 Uncharacterized protein n=1 Tax=Candidatus ...  39.6    2.7  
+  UniRef90_A0A0Q4XRD9 Uncharacterized protein n=1 Tax=Pseudorhodo...  39.2    2.7  
+  UniRef90_UPI0009E4B859 YaiO family outer membrane beta-barrel p...  39.2    3.0  
+  UniRef90_A0A2A2GDE7 Uncharacterized protein n=1 Tax=Aliifodinib...  39.6    3.2  
+  UniRef90_M1FKB0 NADH-ubiquinone oxidoreductase chain 5 n=1 Tax=...  39.6    3.3  
+  UniRef90_A0A3B0XF52 Uncharacterized protein n=1 Tax=hydrotherma...  39.2    3.4  
+  UniRef90_A0A0T6A9P4 Uncharacterized protein n=1 Tax=Deltaproteo...  39.2    3.5  
+  UniRef90_UPI000C1CABCA YaiO family outer membrane beta-barrel p...  39.2    3.5  
+  UniRef90_W0RQE9 Putative lipoprotein n=1 Tax=Gemmatirosa kalama...  38.8    3.6  
+  UniRef90_A0A2A4G7J3 Uncharacterized protein n=1 Tax=Sediminicol...  39.2    3.6  
+  UniRef90_A0A0Q5Z3A5 Uncharacterized protein n=1 Tax=Ramlibacter...  38.8    3.9  
+  UniRef90_A0A1G8LE55 Outer membrane protein, YaiO family n=1 Tax...  39.2    3.9  
+  UniRef90_I0AID5 Uncharacterized protein n=1 Tax=Ignavibacterium...  38.8    4.1  
+  UniRef90_A0A1G1PBN1 Uncharacterized protein n=1 Tax=Omnitrophic...  39.2    4.1  
+  UniRef90_A0A267T1B2 Uncharacterized protein n=1 Tax=Flectobacil...  39.2    4.2  
+  UniRef90_A0A2H6EB70 Uncharacterized protein n=1 Tax=bacterium B...  39.2    4.3  
+  UniRef90_A0A2H5XK83 Uncharacterized protein n=1 Tax=bacterium H...  38.8    4.4  
+  UniRef90_A0A2A4LSJ5 Uncharacterized protein n=1 Tax=Flavobacter...  38.8    4.6  
+  UniRef90_A0A376BIS9 Outer membrane usher protein fimD n=8 Tax=A...  39.2    4.9  
+  UniRef90_A0A353Y8B4 Uncharacterized protein n=1 Tax=Curvibacter...  38.4    4.9  
+  UniRef90_A0A1H1N3D1 Outer membrane protein, YaiO family n=1 Tax...  38.8    5.0  
+  UniRef90_UPI000A3B6FBF YaiO family outer membrane beta-barrel p...  38.8    5.0  
+  UniRef90_A0A1H5SDY8 Outer membrane protein, YaiO family n=1 Tax...  38.8    5.2  
+  UniRef90_A0A242NQI3 Uncharacterized protein n=10 Tax=Gilliamell...  38.8    5.3  
+  UniRef90_S7WUZ8 DNA-binding response regulator, AraC family n=1...  39.2    5.4  
+  UniRef90_A0A1H0M3Q8 Outer membrane protein, YaiO family n=1 Tax...  38.4    5.4  
+  UniRef90_A0A1H9P5R1 Outer membrane protein, YaiO family n=1 Tax...  38.4    5.8  
+  UniRef90_A0A2Z4IQW2 Outer membrane insertion C-signal n=1 Tax=E...  38.4    6.4  
+  UniRef90_A0A1G9M605 Outer membrane protein, YaiO family n=1 Tax...  38.1    6.4  
+  UniRef90_A0A2H1YEL3 Uncharacterized protein n=1 Tax=Tenacibacul...  38.1    6.6  
+  UniRef90_A0A1G9L943 Outer membrane receptor proteins, mostly Fe...  38.8    6.6  
+  UniRef90_A0A3B7L3S6 YaiO family outer membrane beta-barrel prot...  38.1    6.7  
+  UniRef90_A0A0S1SAJ3 Uncharacterized protein n=1 Tax=Sediminicol...  38.4    6.7  
+  UniRef90_A0A2D8WIJ8 Rhombosortase n=4 Tax=Marinimicrobium TaxID...  37.7    6.8  
+  UniRef90_A0A1N6DY29 Outer membrane protein, YaiO family n=1 Tax...  38.4    6.9  
+  UniRef90_A0A2S6ZEI2 Peptidase S8 n=1 Tax=Xanthomonas theicola T...  38.4    7.0  
+  UniRef90_UPI0009FCB83F hypothetical protein n=1 Tax=[Clostridiu...  38.8    7.1  
+  UniRef90_A0A366B404 Uncharacterized protein n=2 Tax=Flavobacter...  38.4    7.4  
+  UniRef90_A0A3E0E396 YaiO family outer membrane protein n=2 Tax=...  38.4    7.4  
+  UniRef90_A0A327PRM2 YaiO family outer membrane protein n=1 Tax=...  38.4    7.6  
+  UniRef90_A0A066WZ83 Uncharacterized protein n=1 Tax=Flavobacter...  38.1    8.2  
+  UniRef90_A0A1F2S558 Uncharacterized protein n=1 Tax=Acidobacter...  38.1    8.3  
+  UniRef90_A0A2H3P083 Uncharacterized protein n=1 Tax=Longimonas ...  38.4    8.3  
+  UniRef90_A0A327PZA2 YaiO family outer membrane protein n=1 Tax=...  38.1    8.5  
+  UniRef90_UPI000EAD843A YaiO family outer membrane beta-barrel p...  38.1    8.5  
+  UniRef90_A0A0F7BJN2 Uncharacterized protein n=2 Tax=Myxococcus ...  38.1    8.7  
+  UniRef90_A0A3D5S280 Uncharacterized protein n=3 Tax=Bacteria Ta...  37.7    9.2  
+  UniRef90_UPI000716C590 YaiO family outer membrane beta-barrel p...  38.1    9.4  
+  UniRef90_A0A1F2RYS8 Uncharacterized protein n=1 Tax=Acidobacter...  37.7    9.5  
+  UniRef90_UPI000EAF5D8D YaiO family outer membrane beta-barrel p...  38.1    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.141    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0432    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1831832178091
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

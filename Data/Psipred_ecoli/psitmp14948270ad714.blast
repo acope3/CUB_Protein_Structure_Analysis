@@ -1,0 +1,531 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414994.1
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAR2 Hha toxicity modulator TomB n=224 Tax=Proteobac...  260     3e-88
+  UniRef90_G8LPY3 YbaJ n=458 Tax=Bacteria TaxID=2 RepID=G8LPY3_ENTCL  248     3e-83
+  UniRef90_A0A0J4W8W6 Hha toxicity attenuator n=69 Tax=Enterobact...  242     4e-81
+  UniRef90_A0A318FY69 Hha toxicity modulator TomB n=5 Tax=Klebsie...  239     5e-80
+  UniRef90_A0A3E1ZZ82 Hha toxicity modulator TomB n=11 Tax=Entero...  239     7e-80
+  UniRef90_A0A1C4FDI3 Hha toxicity modulator TomB n=2 Tax=Kosakon...  235     1e-78
+  UniRef90_A0A3N1I5U7 Hha toxicity modulator TomB n=2 Tax=Enterob...  234     3e-78
+  UniRef90_A0A2X3EB08 Toxin overexpression modulator in biofilms ...  234     4e-78
+  UniRef90_R9VRX7 Hha toxicity attenuator n=6 Tax=Enterobacterale...  234     4e-78
+  UniRef90_A0A089PWG4 Hha toxicity attenuator n=3 Tax=Enterobacte...  233     1e-77
+  UniRef90_UPI0002DC2850 Hha toxicity modulator TomB n=1 Tax=Meta...  230     2e-76
+  UniRef90_A0A377A1S1 Putative cytoplasmic protein n=9 Tax=Entero...  228     1e-75
+  UniRef90_I2BBM9 Putative cytoplasmic protein n=1 Tax=Shimwellia...  227     3e-75
+  UniRef90_H5UYE1 Hha toxicity modulator TomB n=4 Tax=Enterobacte...  225     1e-74
+  UniRef90_A0A376E4G6 Toxin overexpression modulator in biofilms ...  225     2e-74
+  UniRef90_A0A089V2H6 Hha toxicity attenuator n=16 Tax=Enterobact...  221     6e-73
+  UniRef90_A0A0L0ALJ4 Hha toxicity attenuator n=2 Tax=Enterobacte...  219     5e-72
+  UniRef90_A0A0T9X9A4 Biofilm formation regulator YbaJ n=21 Tax=S...  218     2e-71
+  UniRef90_A0A071LUC7 Hha toxicity attenuator n=3 Tax=Mangrovibac...  203     8e-66
+  UniRef90_A0A3P4FMF2 Hha toxicity modulator TomB n=3 Tax=Enterob...  202     2e-65
+  UniRef90_UPI00036965E0 Hha toxicity modulator TomB n=1 Tax=Ente...  200     1e-64
+  UniRef90_A0A3P5UZB0 Hha toxicity modulator TomB n=7 Tax=Bacteri...  197     2e-62
+  UniRef90_A0A377DGH9 Putative cytoplasmic protein n=5 Tax=Entero...  189     8e-61
+  UniRef90_A0A0L7T3G0 Hha toxicity attenuator n=3 Tax=Erwiniaceae...  190     2e-60
+  UniRef90_A0A2I0FSV3 Hha toxicity attenuator n=1 Tax=Enterobacte...  186     9e-59
+  UniRef90_UPI000948C60F Hha toxicity modulator TomB n=1 Tax=Pant...  185     1e-58
+  UniRef90_UPI00082F2439 Hha toxicity modulator TomB n=1 Tax=Erwi...  184     5e-58
+  UniRef90_UPI00036133BF Hha toxicity modulator TomB n=1 Tax=Pant...  182     1e-57
+  UniRef90_D8MP02 Putative YmoB (Similar to YbaJ) associated to t...  182     2e-57
+  UniRef90_UPI000558CF0D Hha toxicity modulator TomB n=1 Tax=Erwi...  181     5e-57
+  UniRef90_A0A3N6S3G2 Hha toxicity modulator TomB n=2 Tax=Erwinia...  181     6e-57
+  UniRef90_UPI000469F469 Hha toxicity modulator TomB n=1 Tax=Pant...  181     8e-57
+  UniRef90_A0A345CNB4 Hha toxicity modulator TomB n=2 Tax=Erwinia...  179     2e-56
+  UniRef90_A0A2S9IHG2 Hha toxicity attenuator n=2 Tax=Erwiniaceae...  179     3e-56
+  UniRef90_A0A0Q4MWB3 Hha toxicity attenuator n=1 Tax=Erwinia sp....  178     6e-56
+  UniRef90_B2VHW3 Putative YmoB (Similar to YbaJ) associated to t...  177     2e-55
+  UniRef90_A0A0U5LLM0 Hha toxicity modulator TomB n=2 Tax=Erwinia...  177     2e-55
+  UniRef90_A0A1W6B1A4 Hha toxicity attenuator n=5 Tax=Enterobacte...  177     3e-55
+  UniRef90_A0A3D0EHQ5 Hha toxicity modulator TomB n=13 Tax=Entero...  176     5e-55
+  UniRef90_D4HY41 Uncharacterized protein ybaJ n=9 Tax=Erwiniacea...  175     1e-54
+  UniRef90_E1SGC9 Uncharacterized protein ybaJ n=25 Tax=Pantoea T...  175     1e-54
+  UniRef90_A0A2N5AAJ9 Hha toxicity attenuator (Fragment) n=1 Tax=...  173     2e-54
+  UniRef90_A0A370WIU8 Hha toxicity modulator TomB (Fragment) n=2 ...  173     3e-54
+  UniRef90_A0A354DML0 Hha toxicity modulator TomB n=1 Tax=Erwinia...  173     5e-54
+  UniRef90_A0A1X1E2H3 Hha toxicity attenuator n=1 Tax=Pantoea del...  173     8e-54
+  UniRef90_A0A3D5QXS7 Hha toxicity modulator TomB n=16 Tax=Entero...  170     8e-53
+  UniRef90_A0A2V3Q3T8 Hha toxicity modulator TomB n=2 Tax=Pantoea...  169     2e-52
+  UniRef90_A0A2S5KBQ5 Hha toxicity attenuator n=2 Tax=Pantoea Tax...  169     2e-52
+  UniRef90_A0A1B1KM56 Hha toxicity modulator TomB n=50 Tax=Gammap...  168     7e-52
+  UniRef90_A0A1I4YF71 Hha toxicity modulator TomB n=1 Tax=Izhakie...  167     3e-51
+  UniRef90_A0A085U5C5 Putative cytoplasmic protein n=1 Tax=Yersin...  164     2e-50
+  UniRef90_A0A2G8EN31 Hha toxicity attenuator n=2 Tax=Enterobacte...  164     2e-50
+  UniRef90_H2IYZ2 Biofilm formation regulator YbaJ n=15 Tax=Yersi...  164     4e-50
+  UniRef90_A0A384LD00 Biofilm formation regulator YbaJ n=57 Tax=Y...  162     8e-50
+  UniRef90_UPI00098B8FE3 Hha toxicity modulator TomB n=2 Tax=Esch...  157     3e-48
+  UniRef90_A0A2N5EQL3 Biofilm formation regulator YbaJ n=3 Tax=un...  159     4e-48
+  UniRef90_A0A1V3Z8D4 Protein that modulates Hha toxicity n=1 Tax...  154     5e-47
+  UniRef90_A0A086EI31 Biofilm formation regulator YbaJ n=30 Tax=P...  155     9e-47
+  UniRef90_A0A1X3RQQ3 Biofilm formation regulator YbaJ n=5 Tax=Lo...  154     2e-46
+  UniRef90_W1FWY1 Uncharacterized protein n=7 Tax=Enterobacteriac...  152     2e-46
+  UniRef90_A0A379VVN4 Hha toxicity attenuator n=3 Tax=Enterobacte...  152     4e-46
+  UniRef90_U3U3K7 YbaJ protein n=1 Tax=Candidatus Pantoea carbeki...  152     8e-46
+  UniRef90_E0SD88 Uncharacterized protein n=19 Tax=Enterobacteral...  152     9e-46
+  UniRef90_A0A2X5BLV9 Toxin overexpression modulator in biofilms ...  155     1e-45
+  UniRef90_C6CBM9 Uncharacterized protein n=1 Tax=Dickeya paradis...  151     2e-45
+  UniRef90_UPI00073839E2 hha toxicity modulator TomB-like n=1 Tax...  150     5e-45
+  UniRef90_A0A095UL85 Hha toxicity attenuator n=2 Tax=Tatumella T...  146     2e-43
+  UniRef90_A0A085JB63 Uncharacterized protein n=3 Tax=Tatumella T...  145     9e-43
+  UniRef90_A0A084A5F7 Hha toxicity modulator TomB n=2 Tax=Serrati...  143     5e-42
+  UniRef90_A0A370QSD2 Hha toxicity modulator TomB n=1 Tax=Enterob...  139     1e-40
+  UniRef90_A0A376DJI4 Toxin overexpression modulator in biofilms ...  138     3e-40
+  UniRef90_Q2NV68 Hha toxicity modulator TomB n=5 Tax=Sodalis Tax...  137     8e-40
+  UniRef90_A0A376S883 Modulator of gene expression, with H-NS n=3...  139     1e-39
+  UniRef90_A0A0K0HVM9 Biofilm formation regulator YbaJ n=12 Tax=E...  134     2e-38
+  UniRef90_A0A377M4P3 Protein YbaJ n=3 Tax=Enterobacteriaceae Tax...  131     5e-38
+  UniRef90_UPI000A11D1C1 Hha toxicity modulator TomB n=1 Tax=Cron...  131     6e-38
+  UniRef90_D0ZEC3 Uncharacterized protein n=6 Tax=Edwardsiella Ta...  129     3e-36
+  UniRef90_UPI0004A46339 Hha toxicity modulator TomB n=1 Tax=Tatu...  128     4e-36
+  UniRef90_E9CQ51 Uncharacterized protein tomB (Fragment) n=1 Tax...  127     6e-36
+  UniRef90_UPI0009C1A35A Hha toxicity modulator TomB n=1 Tax=Edwa...  125     7e-35
+  UniRef90_UPI0002E03F62 Hha toxicity modulator TomB n=2 Tax=Yers...  121     1e-33
+  UniRef90_A0A2X4U1T3 Toxin overexpression modulator in biofilms ...  115     1e-31
+  UniRef90_A0A1V3YIQ6 Hha toxicity attenuator (Fragment) n=1 Tax=...  114     2e-31
+  UniRef90_A0A1Y2SKI2 Cytoplasmic protein n=1 Tax=Xenorhabdus vie...  115     7e-31
+  UniRef90_A0A2G0Q8S0 Cytoplasmic protein n=2 Tax=Xenorhabdus Tax...  114     1e-30
+  UniRef90_A0A0A8NV46 Uncharacterized protein n=6 Tax=Xenorhabdus...  114     1e-30
+  UniRef90_A0A2S6VPU9 Hha toxicity attenuator n=1 Tax=Pantoea sp....  114     2e-30
+  UniRef90_A0A068QNR7 Uncharacterized protein n=17 Tax=Xenorhabdu...  112     7e-30
+  UniRef90_A0A0J8YA37 Uncharacterized protein (Fragment) n=3 Tax=...  111     1e-29
+  UniRef90_X6Q6S1 Biofilm formation regulator YbaJ n=11 Tax=Provi...  111     1e-29
+  UniRef90_A0A2A5Q229 Hha toxicity attenuator n=6 Tax=Providencia...  109     1e-28
+  UniRef90_A0A1I7I8F1 Hha toxicity modulator TomB n=1 Tax=Xenorha...  107     4e-28
+  UniRef90_G5QEQ0 Putative cytoplasmic protein n=1 Tax=Salmonella...  105     8e-28
+  UniRef90_A0A068QYV7 Uncharacterized protein n=1 Tax=Xenorhabdus...  106     2e-27
+  UniRef90_W1IXL7 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  106     2e-27
+  UniRef90_W1IUS7 Uncharacterized protein n=8 Tax=Xenorhabdus Tax...  105     3e-27
+  UniRef90_A0A1B8H181 Uncharacterized protein n=3 Tax=Morganella ...  102     5e-26
+  UniRef90_A0A379HGD5 Toxin overexpression modulator in biofilms ...  102     5e-26
+  UniRef90_UPI0004ACCD9B Hha toxicity modulator TomB n=1 Tax=Ente...  102     6e-26
+  UniRef90_U3U625 Biofilm formation regulator YbaJ n=1 Tax=Plauti...  99.8    2e-25
+  UniRef90_UPI000B75DA4A Hha toxicity attenuator n=1 Tax=Klebsiel...  99.0    2e-25
+  UniRef90_A0A376TL15 Putative cytoplasmic protein n=2 Tax=Escher...  98.6    3e-25
+  UniRef90_A0A151UK15 Biofilm formation regulator YbaJ n=1 Tax=So...  98.2    2e-24
+  UniRef90_A0A0N0IBD5 Uncharacterized protein n=2 Tax=Moellerella...  96.3    2e-23
+  UniRef90_A0A2T4I200 Toxin overexpression modulator in biofilms ...  95.5    3e-23
+  UniRef90_D2TWD6 Uncharacterized protein n=4 Tax=Arsenophonus Ta...  88.2    3e-20
+  UniRef90_A0A0G4Q907 Hha toxicity modulator TomB n=5 Tax=Proteus...  87.0    7e-20
+  UniRef90_A0A0G4Q781 Hha toxicity modulator TomB n=15 Tax=Entero...  87.0    7e-20
+  UniRef90_A0A328TTE9 Hha toxicity modulator TomB n=1 Tax=Candida...  84.7    2e-19
+  UniRef90_A0A198FLF4 Uncharacterized protein n=1 Tax=Cosenzaea m...  85.9    2e-19
+  UniRef90_A0A1Z1T006 Toxin overexpression modulator in biofilms ...  80.5    3e-17
+  UniRef90_A0A2X3JPR6 Putative cytoplasmic protein n=1 Tax=Escher...  77.8    4e-17
+  UniRef90_D3V0B2 Uncharacterized protein n=1 Tax=Xenorhabdus bov...  72.0    3e-14
+  UniRef90_A0A0M1VD82 Uncharacterized protein n=1 Tax=Yersinia pe...  62.8    5e-11
+  UniRef90_UPI00076B1C12 hypothetical protein n=1 Tax=Morganella ...  62.8    2e-10
+  UniRef90_A0A2X3M4V9 Modulator of gene expression, with H-NS n=1...  58.5    8e-09
+  UniRef90_A0A328TLI8 Biofilm formation regulator YbaJ family pro...  42.7    0.002
+  UniRef90_E9CPA9 Uncharacterized protein (Fragment) n=1 Tax=Serr...  37.0    0.30 
+  UniRef90_A0A396U326 S9 family peptidase n=1 Tax=Colwellia sp. R...  37.7    1.7  
+  UniRef90_L7RDH7 BTB family protein n=2 Tax=Mimiviridae TaxID=54...  37.4    2.3  
+  UniRef90_A0A377G8J3 Membrane-bound lytic murein transglycosylas...  36.6    4.1  
+  UniRef90_A0A3B7MJH3 Uncharacterized protein n=1 Tax=Pseudoflavi...  36.2    4.7  
+  UniRef90_A0A1H9ZZE0 Uncharacterized protein n=1 Tax=Thorsellia ...  35.4    5.5  
+  UniRef90_C8P4X3 ATP-dependent helicase/deoxyribonuclease subuni...  36.2    5.6  
+  UniRef90_A0A1D9CFA0 Leptin receptor variant 1 n=1 Tax=Castor fi...  36.2    6.2  
+  UniRef90_A0A1S3T7J7 2-oxoglutarate-dependent dioxygenase AOP3-l...  35.8    6.8  
+  UniRef90_M2BU60 Uncharacterized protein n=4 Tax=Treponema denti...  35.8    7.3  
+  UniRef90_A0A1A8DQC5 Prenylcysteine oxidase 1 like n=2 Tax=Notho...  35.8    9.5  
+  UniRef90_A0A1A7ZHT7 Prenylcysteine oxidase 1 like n=28 Tax=Oval...  35.8    9.5  
+  UniRef90_A0A1D8KBL3 Hemerythrin n=1 Tax=Acidihalobacter prosper...  35.4    9.5  
+  UniRef90_B4VTY6 DnaK family protein n=1 Tax=Coleofasciculus cht...  35.4    9.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 748988185214
+Warning: [psiblast] lcl|Query_1 NP_414994.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414994.1
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_G8LPY3 YbaJ n=458 Tax=Bacteria TaxID=2 RepID=G8LPY3_ENTCL  225     3e-74
+  UniRef90_P0AAR2 Hha toxicity modulator TomB n=224 Tax=Proteobac...  221     5e-73
+  UniRef90_A0A318FY69 Hha toxicity modulator TomB n=5 Tax=Klebsie...  221     9e-73
+  UniRef90_A0A0J4W8W6 Hha toxicity attenuator n=69 Tax=Enterobact...  220     1e-72
+  UniRef90_A0A2X3EB08 Toxin overexpression modulator in biofilms ...  218     6e-72
+  UniRef90_A0A089V2H6 Hha toxicity attenuator n=16 Tax=Enterobact...  218     1e-71
+  UniRef90_A0A376E4G6 Toxin overexpression modulator in biofilms ...  218     1e-71
+  UniRef90_H5UYE1 Hha toxicity modulator TomB n=4 Tax=Enterobacte...  217     2e-71
+  UniRef90_UPI0002DC2850 Hha toxicity modulator TomB n=1 Tax=Meta...  216     6e-71
+  UniRef90_A0A1C4FDI3 Hha toxicity modulator TomB n=2 Tax=Kosakon...  215     1e-70
+  UniRef90_I2BBM9 Putative cytoplasmic protein n=1 Tax=Shimwellia...  215     2e-70
+  UniRef90_A0A089PWG4 Hha toxicity attenuator n=3 Tax=Enterobacte...  214     3e-70
+  UniRef90_A0A0L7T3G0 Hha toxicity attenuator n=3 Tax=Erwiniaceae...  213     2e-69
+  UniRef90_R9VRX7 Hha toxicity attenuator n=6 Tax=Enterobacterale...  212     2e-69
+  UniRef90_A0A3N1I5U7 Hha toxicity modulator TomB n=2 Tax=Enterob...  212     2e-69
+  UniRef90_A0A3E1ZZ82 Hha toxicity modulator TomB n=11 Tax=Entero...  211     5e-69
+  UniRef90_A0A0L0ALJ4 Hha toxicity attenuator n=2 Tax=Enterobacte...  209     4e-68
+  UniRef90_D8MP02 Putative YmoB (Similar to YbaJ) associated to t...  208     9e-68
+  UniRef90_UPI000469F469 Hha toxicity modulator TomB n=1 Tax=Pant...  208     1e-67
+  UniRef90_A0A2I0FSV3 Hha toxicity attenuator n=1 Tax=Enterobacte...  207     2e-67
+  UniRef90_UPI00082F2439 Hha toxicity modulator TomB n=1 Tax=Erwi...  206     5e-67
+  UniRef90_UPI000948C60F Hha toxicity modulator TomB n=1 Tax=Pant...  206     6e-67
+  UniRef90_A0A2S9IHG2 Hha toxicity attenuator n=2 Tax=Erwiniaceae...  205     9e-67
+  UniRef90_A0A0Q4MWB3 Hha toxicity attenuator n=1 Tax=Erwinia sp....  203     5e-66
+  UniRef90_A0A345CNB4 Hha toxicity modulator TomB n=2 Tax=Erwinia...  203     6e-66
+  UniRef90_A0A354DML0 Hha toxicity modulator TomB n=1 Tax=Erwinia...  203     7e-66
+  UniRef90_A0A071LUC7 Hha toxicity attenuator n=3 Tax=Mangrovibac...  203     1e-65
+  UniRef90_B2VHW3 Putative YmoB (Similar to YbaJ) associated to t...  203     1e-65
+  UniRef90_A0A3N6S3G2 Hha toxicity modulator TomB n=2 Tax=Erwinia...  202     2e-65
+  UniRef90_A0A377A1S1 Putative cytoplasmic protein n=9 Tax=Entero...  203     2e-65
+  UniRef90_A0A1W6B1A4 Hha toxicity attenuator n=5 Tax=Enterobacte...  202     2e-65
+  UniRef90_UPI000558CF0D Hha toxicity modulator TomB n=1 Tax=Erwi...  202     2e-65
+  UniRef90_A0A1B1KM56 Hha toxicity modulator TomB n=50 Tax=Gammap...  202     3e-65
+  UniRef90_A0A2N5EQL3 Biofilm formation regulator YbaJ n=3 Tax=un...  200     1e-64
+  UniRef90_A0A384LD00 Biofilm formation regulator YbaJ n=57 Tax=Y...  200     2e-64
+  UniRef90_UPI00036133BF Hha toxicity modulator TomB n=1 Tax=Pant...  200     2e-64
+  UniRef90_UPI00036965E0 Hha toxicity modulator TomB n=1 Tax=Ente...  199     2e-64
+  UniRef90_D4HY41 Uncharacterized protein ybaJ n=9 Tax=Erwiniacea...  199     4e-64
+  UniRef90_A0A085U5C5 Putative cytoplasmic protein n=1 Tax=Yersin...  198     5e-64
+  UniRef90_A0A086EI31 Biofilm formation regulator YbaJ n=30 Tax=P...  198     5e-64
+  UniRef90_A0A0U5LLM0 Hha toxicity modulator TomB n=2 Tax=Erwinia...  198     1e-63
+  UniRef90_A0A0T9X9A4 Biofilm formation regulator YbaJ n=21 Tax=S...  197     3e-63
+  UniRef90_A0A3D0EHQ5 Hha toxicity modulator TomB n=13 Tax=Entero...  196     8e-63
+  UniRef90_A0A3P5UZB0 Hha toxicity modulator TomB n=7 Tax=Bacteri...  196     2e-62
+  UniRef90_E1SGC9 Uncharacterized protein ybaJ n=25 Tax=Pantoea T...  194     3e-62
+  UniRef90_E0SD88 Uncharacterized protein n=19 Tax=Enterobacteral...  194     3e-62
+  UniRef90_A0A3D5QXS7 Hha toxicity modulator TomB n=16 Tax=Entero...  193     7e-62
+  UniRef90_H2IYZ2 Biofilm formation regulator YbaJ n=15 Tax=Yersi...  192     1e-61
+  UniRef90_A0A1X3RQQ3 Biofilm formation regulator YbaJ n=5 Tax=Lo...  192     2e-61
+  UniRef90_A0A1X1E2H3 Hha toxicity attenuator n=1 Tax=Pantoea del...  192     2e-61
+  UniRef90_UPI00073839E2 hha toxicity modulator TomB-like n=1 Tax...  191     6e-61
+  UniRef90_C6CBM9 Uncharacterized protein n=1 Tax=Dickeya paradis...  191     7e-61
+  UniRef90_A0A2V3Q3T8 Hha toxicity modulator TomB n=2 Tax=Pantoea...  190     2e-60
+  UniRef90_A0A2G8EN31 Hha toxicity attenuator n=2 Tax=Enterobacte...  187     2e-59
+  UniRef90_A0A2S5KBQ5 Hha toxicity attenuator n=2 Tax=Pantoea Tax...  186     4e-59
+  UniRef90_A0A1I4YF71 Hha toxicity modulator TomB n=1 Tax=Izhakie...  186     7e-59
+  UniRef90_A0A2X5BLV9 Toxin overexpression modulator in biofilms ...  186     6e-58
+  UniRef90_A0A084A5F7 Hha toxicity modulator TomB n=2 Tax=Serrati...  179     3e-56
+  UniRef90_A0A095UL85 Hha toxicity attenuator n=2 Tax=Tatumella T...  174     4e-54
+  UniRef90_A0A3P4FMF2 Hha toxicity modulator TomB n=3 Tax=Enterob...  172     1e-53
+  UniRef90_D0ZEC3 Uncharacterized protein n=6 Tax=Edwardsiella Ta...  171     4e-53
+  UniRef90_A0A085JB63 Uncharacterized protein n=3 Tax=Tatumella T...  171     5e-53
+  UniRef90_U3U3K7 YbaJ protein n=1 Tax=Candidatus Pantoea carbeki...  170     8e-53
+  UniRef90_A0A376DJI4 Toxin overexpression modulator in biofilms ...  168     5e-52
+  UniRef90_A0A0A8NV46 Uncharacterized protein n=6 Tax=Xenorhabdus...  168     8e-52
+  UniRef90_Q2NV68 Hha toxicity modulator TomB n=5 Tax=Sodalis Tax...  167     1e-51
+  UniRef90_UPI0004A46339 Hha toxicity modulator TomB n=1 Tax=Tatu...  167     2e-51
+  UniRef90_A0A2G0Q8S0 Cytoplasmic protein n=2 Tax=Xenorhabdus Tax...  166     3e-51
+  UniRef90_A0A068QNR7 Uncharacterized protein n=17 Tax=Xenorhabdu...  165     6e-51
+  UniRef90_A0A0K0HVM9 Biofilm formation regulator YbaJ n=12 Tax=E...  165     9e-51
+  UniRef90_A0A370QSD2 Hha toxicity modulator TomB n=1 Tax=Enterob...  165     1e-50
+  UniRef90_A0A377DGH9 Putative cytoplasmic protein n=5 Tax=Entero...  163     2e-50
+  UniRef90_A0A1Y2SKI2 Cytoplasmic protein n=1 Tax=Xenorhabdus vie...  164     2e-50
+  UniRef90_W1IXL7 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  163     3e-50
+  UniRef90_A0A2A5Q229 Hha toxicity attenuator n=6 Tax=Providencia...  163     5e-50
+  UniRef90_UPI0009C1A35A Hha toxicity modulator TomB n=1 Tax=Edwa...  163     6e-50
+  UniRef90_A0A1I7I8F1 Hha toxicity modulator TomB n=1 Tax=Xenorha...  163     7e-50
+  UniRef90_A0A379HGD5 Toxin overexpression modulator in biofilms ...  163     7e-50
+  UniRef90_X6Q6S1 Biofilm formation regulator YbaJ n=11 Tax=Provi...  162     1e-49
+  UniRef90_W1IUS7 Uncharacterized protein n=8 Tax=Xenorhabdus Tax...  161     4e-49
+  UniRef90_A0A068QYV7 Uncharacterized protein n=1 Tax=Xenorhabdus...  160     9e-49
+  UniRef90_A0A2N5AAJ9 Hha toxicity attenuator (Fragment) n=1 Tax=...  158     3e-48
+  UniRef90_A0A370WIU8 Hha toxicity modulator TomB (Fragment) n=2 ...  155     2e-47
+  UniRef90_A0A0N0IBD5 Uncharacterized protein n=2 Tax=Moellerella...  156     3e-47
+  UniRef90_A0A1B8H181 Uncharacterized protein n=3 Tax=Morganella ...  154     1e-46
+  UniRef90_UPI0002E03F62 Hha toxicity modulator TomB n=2 Tax=Yers...  153     3e-46
+  UniRef90_A0A2T4I200 Toxin overexpression modulator in biofilms ...  150     5e-45
+  UniRef90_D2TWD6 Uncharacterized protein n=4 Tax=Arsenophonus Ta...  150     9e-45
+  UniRef90_E9CQ51 Uncharacterized protein tomB (Fragment) n=1 Tax...  146     1e-43
+  UniRef90_A0A0G4Q907 Hha toxicity modulator TomB n=5 Tax=Proteus...  145     5e-43
+  UniRef90_UPI0004ACCD9B Hha toxicity modulator TomB n=1 Tax=Ente...  145     7e-43
+  UniRef90_A0A0G4Q781 Hha toxicity modulator TomB n=15 Tax=Entero...  145     7e-43
+  UniRef90_A0A0J8YA37 Uncharacterized protein (Fragment) n=3 Tax=...  141     1e-41
+  UniRef90_A0A1Z1T006 Toxin overexpression modulator in biofilms ...  138     6e-40
+  UniRef90_A0A198FLF4 Uncharacterized protein n=1 Tax=Cosenzaea m...  137     7e-40
+  UniRef90_A0A379VVN4 Hha toxicity attenuator n=3 Tax=Enterobacte...  134     2e-39
+  UniRef90_A0A1V3Z8D4 Protein that modulates Hha toxicity n=1 Tax...  132     2e-38
+  UniRef90_W1FWY1 Uncharacterized protein n=7 Tax=Enterobacteriac...  132     2e-38
+  UniRef90_A0A151UK15 Biofilm formation regulator YbaJ n=1 Tax=So...  132     9e-38
+  UniRef90_A0A2X4U1T3 Toxin overexpression modulator in biofilms ...  131     9e-38
+  UniRef90_UPI00098B8FE3 Hha toxicity modulator TomB n=2 Tax=Esch...  130     2e-37
+  UniRef90_A0A376S883 Modulator of gene expression, with H-NS n=3...  130     5e-36
+  UniRef90_UPI000A11D1C1 Hha toxicity modulator TomB n=1 Tax=Cron...  121     3e-34
+  UniRef90_A0A2S6VPU9 Hha toxicity attenuator n=1 Tax=Pantoea sp....  121     2e-33
+  UniRef90_A0A377M4P3 Protein YbaJ n=3 Tax=Enterobacteriaceae Tax...  119     2e-33
+  UniRef90_D3V0B2 Uncharacterized protein n=1 Tax=Xenorhabdus bov...  116     7e-32
+  UniRef90_U3U625 Biofilm formation regulator YbaJ n=1 Tax=Plauti...  110     1e-29
+  UniRef90_A0A1V3YIQ6 Hha toxicity attenuator (Fragment) n=1 Tax=...  103     7e-27
+  UniRef90_G5QEQ0 Putative cytoplasmic protein n=1 Tax=Salmonella...  96.5    2e-24
+  UniRef90_A0A328TTE9 Hha toxicity modulator TomB n=1 Tax=Candida...  96.1    5e-24
+  UniRef90_UPI000B75DA4A Hha toxicity attenuator n=1 Tax=Klebsiel...  94.1    2e-23
+  UniRef90_UPI00076B1C12 hypothetical protein n=1 Tax=Morganella ...  93.8    1e-22
+  UniRef90_A0A376TL15 Putative cytoplasmic protein n=2 Tax=Escher...  89.1    1e-21
+  UniRef90_A0A0M1VD82 Uncharacterized protein n=1 Tax=Yersinia pe...  87.2    1e-20
+  UniRef90_A0A2X3JPR6 Putative cytoplasmic protein n=1 Tax=Escher...  71.8    8e-15
+  UniRef90_A0A2X3M4V9 Modulator of gene expression, with H-NS n=1...  53.3    1e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A328TLI8 Biofilm formation regulator YbaJ family pro...  52.5    3e-07
+  UniRef90_E9CPA9 Uncharacterized protein (Fragment) n=1 Tax=Serr...  43.3    0.001
+  UniRef90_UPI000F61EBF4 ATP-binding cassette domain-containing p...  39.8    0.37 
+  UniRef90_A0A084QX66 Uncharacterized protein n=3 Tax=Stachybotry...  38.7    0.75 
+  UniRef90_UPI000EB55748 GntR family transcriptional regulator n=...  37.1    0.79 
+  UniRef90_A0A150M595 Cysteine desulfurase n=5 Tax=Bacillaceae Ta...  38.3    1.1  
+  UniRef90_A0A2E5BRJ6 DUF1737 domain-containing protein n=1 Tax=R...  35.6    1.7  
+  UniRef90_D7WA03 Uncharacterized protein n=1 Tax=Corynebacterium...  37.9    1.8  
+  UniRef90_UPI000E224C05 hypothetical protein n=1 Tax=Winogradsky...  37.5    2.0  
+  UniRef90_M9M7Q4 Bacterial surface protein n=2 Tax=Paenibacillus...  37.5    2.1  
+  UniRef90_A0A150WZA9 Uncharacterized protein n=2 Tax=Roseivirga ...  37.1    2.3  
+  UniRef90_A0A0D2LX08 GPN-loop GTPase 3 n=2 Tax=Gossypium TaxID=3...  36.8    2.5  
+  UniRef90_A0A1K1SLJ5 Type IX secretion system membrane protein, ...  37.1    2.7  
+  UniRef90_A0A1B9L9Y2 Glycine radical enzyme activase n=1 Tax=Gil...  36.8    3.1  
+  UniRef90_A0A2L2NY68 Histidine kinase n=1 Tax=Nostoc sp. 'Lobari...  36.8    3.4  
+  UniRef90_A0A2S8RAP9 Nucleotidyltransferase n=3 Tax=Hungateiclos...  36.8    3.5  
+  UniRef90_A0A2E2HA70 Uncharacterized protein n=1 Tax=Gammaproteo...  36.8    3.8  
+  UniRef90_A0A3D0X327 Uncharacterized protein n=1 Tax=Selenomonas...  36.8    4.2  
+  UniRef90_UPI000DF4D1CE GPN-loop GTPase 3 isoform X2 n=1 Tax=Pan...  36.4    4.2  
+  UniRef90_A0A2T9YMJ1 Uncharacterized protein n=1 Tax=Smittium si...  36.0    4.4  
+  UniRef90_A0A1H9ZZE0 Uncharacterized protein n=1 Tax=Thorsellia ...  35.6    4.8  
+  UniRef90_A0A3D1UW58 Uncharacterized protein n=1 Tax=Lentisphaer...  36.4    5.1  
+  UniRef90_UPI000DEF079F hypothetical protein n=1 Tax=Exiguobacte...  36.0    6.0  
+  UniRef90_R7FC34 Conserved repeat domain protein n=2 Tax=Clostri...  36.0    7.2  
+  UniRef90_A0A0D2QN84 GPN-loop GTPase 3 n=7 Tax=Gossypium TaxID=3...  35.6    7.3  
+  UniRef90_A0A3D9DFV9 Uncharacterized protein (Fragment) n=1 Tax=...  36.0    7.5  
+  UniRef90_A0A345J7D5 Diguanylate cyclase n=1 Tax=Arcobacter myti...  35.6    8.4  
+  UniRef90_A0A2T7ITL1 Uncharacterized protein n=1 Tax=Theileria o...  35.6    9.6  
+  UniRef90_A0A176VHV9 GPN-loop GTPase 3 n=2 Tax=Marchantia polymo...  35.6    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.156    0.522    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0478    0.140     1.90     42.6     43.6 
+
+Effective search space used: 748988185214
+Results from round 3
+
+
+Query= NP_414994.1
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_G8LPY3 YbaJ n=458 Tax=Bacteria TaxID=2 RepID=G8LPY3_ENTCL  220     2e-72
+  UniRef90_A0A089V2H6 Hha toxicity attenuator n=16 Tax=Enterobact...  217     4e-71
+  UniRef90_P0AAR2 Hha toxicity modulator TomB n=224 Tax=Proteobac...  216     5e-71
+  UniRef90_A0A318FY69 Hha toxicity modulator TomB n=5 Tax=Klebsie...  216     6e-71
+  UniRef90_A0A0J4W8W6 Hha toxicity attenuator n=69 Tax=Enterobact...  215     9e-71
+  UniRef90_A0A2X3EB08 Toxin overexpression modulator in biofilms ...  215     2e-70
+  UniRef90_A0A0L7T3G0 Hha toxicity attenuator n=3 Tax=Erwiniaceae...  215     3e-70
+  UniRef90_H5UYE1 Hha toxicity modulator TomB n=4 Tax=Enterobacte...  213     8e-70
+  UniRef90_UPI0002DC2850 Hha toxicity modulator TomB n=1 Tax=Meta...  213     8e-70
+  UniRef90_A0A376E4G6 Toxin overexpression modulator in biofilms ...  213     1e-69
+  UniRef90_A0A1C4FDI3 Hha toxicity modulator TomB n=2 Tax=Kosakon...  212     3e-69
+  UniRef90_I2BBM9 Putative cytoplasmic protein n=1 Tax=Shimwellia...  212     4e-69
+  UniRef90_D8MP02 Putative YmoB (Similar to YbaJ) associated to t...  211     9e-69
+  UniRef90_A0A089PWG4 Hha toxicity attenuator n=3 Tax=Enterobacte...  210     9e-69
+  UniRef90_UPI000469F469 Hha toxicity modulator TomB n=1 Tax=Pant...  210     2e-68
+  UniRef90_R9VRX7 Hha toxicity attenuator n=6 Tax=Enterobacterale...  209     3e-68
+  UniRef90_UPI00082F2439 Hha toxicity modulator TomB n=1 Tax=Erwi...  209     3e-68
+  UniRef90_A0A2S9IHG2 Hha toxicity attenuator n=2 Tax=Erwiniaceae...  209     4e-68
+  UniRef90_A0A3N1I5U7 Hha toxicity modulator TomB n=2 Tax=Enterob...  208     6e-68
+  UniRef90_A0A2I0FSV3 Hha toxicity attenuator n=1 Tax=Enterobacte...  208     1e-67
+  UniRef90_A0A3E1ZZ82 Hha toxicity modulator TomB n=11 Tax=Entero...  208     1e-67
+  UniRef90_UPI000948C60F Hha toxicity modulator TomB n=1 Tax=Pant...  208     1e-67
+  UniRef90_A0A354DML0 Hha toxicity modulator TomB n=1 Tax=Erwinia...  207     3e-67
+  UniRef90_A0A0L0ALJ4 Hha toxicity attenuator n=2 Tax=Enterobacte...  206     7e-67
+  UniRef90_A0A1B1KM56 Hha toxicity modulator TomB n=50 Tax=Gammap...  205     8e-67
+  UniRef90_UPI000558CF0D Hha toxicity modulator TomB n=1 Tax=Erwi...  205     1e-66
+  UniRef90_B2VHW3 Putative YmoB (Similar to YbaJ) associated to t...  205     1e-66
+  UniRef90_A0A1W6B1A4 Hha toxicity attenuator n=5 Tax=Enterobacte...  205     1e-66
+  UniRef90_A0A0Q4MWB3 Hha toxicity attenuator n=1 Tax=Erwinia sp....  205     1e-66
+  UniRef90_A0A345CNB4 Hha toxicity modulator TomB n=2 Tax=Erwinia...  205     2e-66
+  UniRef90_A0A2N5EQL3 Biofilm formation regulator YbaJ n=3 Tax=un...  205     2e-66
+  UniRef90_A0A3N6S3G2 Hha toxicity modulator TomB n=2 Tax=Erwinia...  204     3e-66
+  UniRef90_A0A384LD00 Biofilm formation regulator YbaJ n=57 Tax=Y...  203     7e-66
+  UniRef90_A0A086EI31 Biofilm formation regulator YbaJ n=30 Tax=P...  202     1e-65
+  UniRef90_D4HY41 Uncharacterized protein ybaJ n=9 Tax=Erwiniacea...  203     1e-65
+  UniRef90_UPI00036133BF Hha toxicity modulator TomB n=1 Tax=Pant...  202     3e-65
+  UniRef90_A0A085U5C5 Putative cytoplasmic protein n=1 Tax=Yersin...  201     5e-65
+  UniRef90_A0A0U5LLM0 Hha toxicity modulator TomB n=2 Tax=Erwinia...  201     5e-65
+  UniRef90_A0A377A1S1 Putative cytoplasmic protein n=9 Tax=Entero...  201     1e-64
+  UniRef90_A0A071LUC7 Hha toxicity attenuator n=3 Tax=Mangrovibac...  199     3e-64
+  UniRef90_A0A3D0EHQ5 Hha toxicity modulator TomB n=13 Tax=Entero...  198     8e-64
+  UniRef90_E0SD88 Uncharacterized protein n=19 Tax=Enterobacteral...  196     3e-63
+  UniRef90_H2IYZ2 Biofilm formation regulator YbaJ n=15 Tax=Yersi...  196     3e-63
+  UniRef90_E1SGC9 Uncharacterized protein ybaJ n=25 Tax=Pantoea T...  196     3e-63
+  UniRef90_A0A3D5QXS7 Hha toxicity modulator TomB n=16 Tax=Entero...  196     5e-63
+  UniRef90_UPI00036965E0 Hha toxicity modulator TomB n=1 Tax=Ente...  195     1e-62
+  UniRef90_A0A0T9X9A4 Biofilm formation regulator YbaJ n=21 Tax=S...  195     1e-62
+  UniRef90_UPI00073839E2 hha toxicity modulator TomB-like n=1 Tax...  194     3e-62
+  UniRef90_A0A1X1E2H3 Hha toxicity attenuator n=1 Tax=Pantoea del...  194     3e-62
+  UniRef90_A0A3P5UZB0 Hha toxicity modulator TomB n=7 Tax=Bacteri...  196     4e-62
+  UniRef90_C6CBM9 Uncharacterized protein n=1 Tax=Dickeya paradis...  193     9e-62
+  UniRef90_A0A2V3Q3T8 Hha toxicity modulator TomB n=2 Tax=Pantoea...  193     1e-61
+  UniRef90_A0A1X3RQQ3 Biofilm formation regulator YbaJ n=5 Tax=Lo...  191     3e-61
+  UniRef90_A0A2G8EN31 Hha toxicity attenuator n=2 Tax=Enterobacte...  190     1e-60
+  UniRef90_A0A2S5KBQ5 Hha toxicity attenuator n=2 Tax=Pantoea Tax...  189     4e-60
+  UniRef90_A0A1I4YF71 Hha toxicity modulator TomB n=1 Tax=Izhakie...  185     9e-59
+  UniRef90_A0A084A5F7 Hha toxicity modulator TomB n=2 Tax=Serrati...  183     5e-58
+  UniRef90_A0A2X5BLV9 Toxin overexpression modulator in biofilms ...  185     1e-57
+  UniRef90_A0A095UL85 Hha toxicity attenuator n=2 Tax=Tatumella T...  176     4e-55
+  UniRef90_A0A085JB63 Uncharacterized protein n=3 Tax=Tatumella T...  171     5e-53
+  UniRef90_D0ZEC3 Uncharacterized protein n=6 Tax=Edwardsiella Ta...  170     1e-52
+  UniRef90_A0A0A8NV46 Uncharacterized protein n=6 Tax=Xenorhabdus...  170     1e-52
+  UniRef90_U3U3K7 YbaJ protein n=1 Tax=Candidatus Pantoea carbeki...  169     2e-52
+  UniRef90_Q2NV68 Hha toxicity modulator TomB n=5 Tax=Sodalis Tax...  168     6e-52
+  UniRef90_A0A376DJI4 Toxin overexpression modulator in biofilms ...  168     7e-52
+  UniRef90_A0A0K0HVM9 Biofilm formation regulator YbaJ n=12 Tax=E...  167     1e-51
+  UniRef90_A0A068QNR7 Uncharacterized protein n=17 Tax=Xenorhabdu...  167     1e-51
+  UniRef90_A0A3P4FMF2 Hha toxicity modulator TomB n=3 Tax=Enterob...  167     1e-51
+  UniRef90_A0A2G0Q8S0 Cytoplasmic protein n=2 Tax=Xenorhabdus Tax...  167     2e-51
+  UniRef90_A0A1Y2SKI2 Cytoplasmic protein n=1 Tax=Xenorhabdus vie...  166     3e-51
+  UniRef90_A0A2A5Q229 Hha toxicity attenuator n=6 Tax=Providencia...  166     4e-51
+  UniRef90_W1IXL7 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  166     5e-51
+  UniRef90_A0A379HGD5 Toxin overexpression modulator in biofilms ...  165     7e-51
+  UniRef90_A0A1I7I8F1 Hha toxicity modulator TomB n=1 Tax=Xenorha...  165     1e-50
+  UniRef90_UPI0004A46339 Hha toxicity modulator TomB n=1 Tax=Tatu...  165     1e-50
+  UniRef90_X6Q6S1 Biofilm formation regulator YbaJ n=11 Tax=Provi...  165     1e-50
+  UniRef90_A0A370QSD2 Hha toxicity modulator TomB n=1 Tax=Enterob...  165     1e-50
+  UniRef90_W1IUS7 Uncharacterized protein n=8 Tax=Xenorhabdus Tax...  164     2e-50
+  UniRef90_A0A377DGH9 Putative cytoplasmic protein n=5 Tax=Entero...  162     5e-50
+  UniRef90_UPI0009C1A35A Hha toxicity modulator TomB n=1 Tax=Edwa...  161     2e-49
+  UniRef90_A0A068QYV7 Uncharacterized protein n=1 Tax=Xenorhabdus...  161     2e-49
+  UniRef90_A0A0N0IBD5 Uncharacterized protein n=2 Tax=Moellerella...  158     5e-48
+  UniRef90_UPI0002E03F62 Hha toxicity modulator TomB n=2 Tax=Yers...  157     7e-48
+  UniRef90_A0A2N5AAJ9 Hha toxicity attenuator (Fragment) n=1 Tax=...  154     1e-46
+  UniRef90_A0A1B8H181 Uncharacterized protein n=3 Tax=Morganella ...  154     2e-46
+  UniRef90_A0A370WIU8 Hha toxicity modulator TomB (Fragment) n=2 ...  153     3e-46
+  UniRef90_A0A2T4I200 Toxin overexpression modulator in biofilms ...  153     7e-46
+  UniRef90_D2TWD6 Uncharacterized protein n=4 Tax=Arsenophonus Ta...  149     2e-44
+  UniRef90_UPI0004ACCD9B Hha toxicity modulator TomB n=1 Tax=Ente...  148     5e-44
+  UniRef90_E9CQ51 Uncharacterized protein tomB (Fragment) n=1 Tax...  145     3e-43
+  UniRef90_A0A0G4Q907 Hha toxicity modulator TomB n=5 Tax=Proteus...  142     1e-41
+  UniRef90_A0A0G4Q781 Hha toxicity modulator TomB n=15 Tax=Entero...  141     3e-41
+  UniRef90_A0A0J8YA37 Uncharacterized protein (Fragment) n=3 Tax=...  140     5e-41
+  UniRef90_A0A1Z1T006 Toxin overexpression modulator in biofilms ...  137     1e-39
+  UniRef90_A0A379VVN4 Hha toxicity attenuator n=3 Tax=Enterobacte...  134     5e-39
+  UniRef90_A0A198FLF4 Uncharacterized protein n=1 Tax=Cosenzaea m...  135     6e-39
+  UniRef90_A0A2X4U1T3 Toxin overexpression modulator in biofilms ...  130     1e-37
+  UniRef90_W1FWY1 Uncharacterized protein n=7 Tax=Enterobacteriac...  129     3e-37
+  UniRef90_A0A1V3Z8D4 Protein that modulates Hha toxicity n=1 Tax...  128     8e-37
+  UniRef90_A0A151UK15 Biofilm formation regulator YbaJ n=1 Tax=So...  129     1e-36
+  UniRef90_UPI00098B8FE3 Hha toxicity modulator TomB n=2 Tax=Esch...  126     6e-36
+  UniRef90_A0A376S883 Modulator of gene expression, with H-NS n=3...  129     1e-35
+  UniRef90_A0A2S6VPU9 Hha toxicity attenuator n=1 Tax=Pantoea sp....  121     1e-33
+  UniRef90_UPI000A11D1C1 Hha toxicity modulator TomB n=1 Tax=Cron...  118     6e-33
+  UniRef90_A0A377M4P3 Protein YbaJ n=3 Tax=Enterobacteriaceae Tax...  118     7e-33
+  UniRef90_D3V0B2 Uncharacterized protein n=1 Tax=Xenorhabdus bov...  118     2e-32
+  UniRef90_U3U625 Biofilm formation regulator YbaJ n=1 Tax=Plauti...  109     3e-29
+  UniRef90_A0A1V3YIQ6 Hha toxicity attenuator (Fragment) n=1 Tax=...  102     1e-26
+  UniRef90_A0A328TTE9 Hha toxicity modulator TomB n=1 Tax=Candida...  95.7    5e-24
+  UniRef90_G5QEQ0 Putative cytoplasmic protein n=1 Tax=Salmonella...  93.4    4e-23
+  UniRef90_A0A0M1VD82 Uncharacterized protein n=1 Tax=Yersinia pe...  92.2    1e-22
+  UniRef90_UPI00076B1C12 hypothetical protein n=1 Tax=Morganella ...  93.0    3e-22
+  UniRef90_UPI000B75DA4A Hha toxicity attenuator n=1 Tax=Klebsiel...  90.3    6e-22
+  UniRef90_A0A376TL15 Putative cytoplasmic protein n=2 Tax=Escher...  88.0    4e-21
+  UniRef90_A0A2X3JPR6 Putative cytoplasmic protein n=1 Tax=Escher...  70.6    2e-14
+  UniRef90_A0A328TLI8 Biofilm formation regulator YbaJ family pro...  58.3    2e-09
+  UniRef90_A0A2X3M4V9 Modulator of gene expression, with H-NS n=1...  53.3    8e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_E9CPA9 Uncharacterized protein (Fragment) n=1 Tax=Serr...  42.9    0.001
+  UniRef90_UPI000F61EBF4 ATP-binding cassette domain-containing p...  39.8    0.38 
+  UniRef90_A0A084QX66 Uncharacterized protein n=3 Tax=Stachybotry...  39.1    0.60 
+  UniRef90_A0A150M595 Cysteine desulfurase n=5 Tax=Bacillaceae Ta...  38.7    0.82 
+  UniRef90_A0A3B0V219 Phosphoribosylformylglycinamidine synthase,...  37.9    1.6  
+  UniRef90_A0A2E5BRJ6 DUF1737 domain-containing protein n=1 Tax=R...  35.2    1.9  
+  UniRef90_A0A150WZA9 Uncharacterized protein n=2 Tax=Roseivirga ...  37.5    1.9  
+  UniRef90_A0A166X4Z4 GAF domain-like protein n=1 Tax=Fibularhizo...  37.1    2.2  
+  UniRef90_UPI000EB55748 GntR family transcriptional regulator n=...  36.0    2.2  
+  UniRef90_A0A1H7PFL3 L-proline dehydrogenase n=1 Tax=Parapedobac...  37.5    2.2  
+  UniRef90_UPI000E224C05 hypothetical protein n=1 Tax=Winogradsky...  37.1    2.4  
+  UniRef90_A0A3D0X327 Uncharacterized protein n=1 Tax=Selenomonas...  37.1    3.3  
+  UniRef90_A0A0D2LX08 GPN-loop GTPase 3 n=2 Tax=Gossypium TaxID=3...  36.4    3.5  
+  UniRef90_A0A3D1UW58 Uncharacterized protein n=1 Tax=Lentisphaer...  36.7    3.6  
+  UniRef90_A0A1H9ZZE0 Uncharacterized protein n=1 Tax=Thorsellia ...  35.6    4.3  
+  UniRef90_A0A2T9YMJ1 Uncharacterized protein n=1 Tax=Smittium si...  36.0    4.4  
+  UniRef90_A0A1B9L9Y2 Glycine radical enzyme activase n=1 Tax=Gil...  36.4    4.6  
+  UniRef90_A0A2N9I4C9 Uncharacterized protein n=1 Tax=Fagus sylva...  36.7    4.7  
+  UniRef90_M9M7Q4 Bacterial surface protein n=2 Tax=Paenibacillus...  36.4    4.9  
+  UniRef90_A0A1T5E3N7 L-proline dehydrogenase n=1 Tax=Parapedobac...  36.4    4.9  
+  UniRef90_A0A2L2NY68 Histidine kinase n=1 Tax=Nostoc sp. 'Lobari...  36.4    4.9  
+  UniRef90_UPI000DF4D1CE GPN-loop GTPase 3 isoform X2 n=1 Tax=Pan...  36.4    5.1  
+  UniRef90_A0A365NI90 Uncharacterized protein n=3 Tax=Fusarium fu...  36.0    7.5  
+  UniRef90_A0A2K8XU47 Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferas...  36.0    7.9  
+  UniRef90_G8JMS4 Uncharacterized protein n=1 Tax=Eremothecium cy...  35.6    8.1  
+  UniRef90_A0A0D2QN84 GPN-loop GTPase 3 n=7 Tax=Gossypium TaxID=3...  35.6    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.159    0.534    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0487    0.140     1.90     42.6     43.6 
+
+Effective search space used: 748988185214
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

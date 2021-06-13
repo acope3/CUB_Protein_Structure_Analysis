@@ -1,0 +1,935 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414916.1
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q32JD0 Anti-adapter protein IraP n=315 Tax=root TaxID=...  169     2e-53
+  UniRef90_B1EKV6 Uncharacterized protein n=5 Tax=Enterobacterale...  159     2e-49
+  UniRef90_UPI000907E358 anti-adapter protein IraP n=1 Tax=Escher...  147     8e-45
+  UniRef90_UPI0007335BA7 anti-adapter protein IraP n=2 Tax=Citrob...  144     2e-43
+  UniRef90_P28243 Anti-adapter protein IraP n=3 Tax=Escherichia f...  143     3e-43
+  UniRef90_A9MMS6 Anti-adapter protein IraP n=118 Tax=Salmonella ...  143     3e-43
+  UniRef90_D2TKW6 Anti-adapter protein IraP n=9 Tax=Gammaproteoba...  142     2e-42
+  UniRef90_A8AK82 Anti-adapter protein IraP n=27 Tax=Enterobacter...  139     1e-41
+  UniRef90_A0A381H6P4 Anti-adapter protein IraP n=1 Tax=Citrobact...  136     2e-40
+  UniRef90_G5QVH7 Anti-adapter protein IraP n=2 Tax=Salmonella en...  135     1e-39
+  UniRef90_UPI00098B2451 anti-adapter protein IraP n=3 Tax=Escher...  132     5e-39
+  UniRef90_UPI00057BE13B anti-adapter protein IraP n=1 Tax=Entero...  126     2e-36
+  UniRef90_UPI00077B8024 anti-adapter protein IraP n=1 Tax=Entero...  126     2e-36
+  UniRef90_A0A345CE11 Anti-adapter protein IraP n=4 Tax=Enterobac...  125     3e-36
+  UniRef90_A0A336J576 Anti-adapter protein IraP n=34 Tax=Enteroba...  125     6e-36
+  UniRef90_A0A2S4X1N2 Anti-adapter protein IraP n=3 Tax=Enterobac...  124     1e-35
+  UniRef90_A0A1A9F959 Anti-adapter protein IraP n=3 Tax=Enterobac...  124     1e-35
+  UniRef90_A0A127L791 Anti-adapter protein IraP n=2 Tax=Enterobac...  125     2e-35
+  UniRef90_A0A0T5XG12 Anti-adapter protein IraP n=48 Tax=Bacteria...  123     4e-35
+  UniRef90_G2S962 Anti-adapter protein IraP n=2 Tax=Enterobacter ...  122     6e-35
+  UniRef90_A0A2I6E8U4 Anti-adapter protein IraP n=3 Tax=Enterobac...  121     1e-34
+  UniRef90_A0A0J8VTI7 Anti-adapter protein IraP n=5 Tax=Franconib...  121     2e-34
+  UniRef90_A0A2P5GS95 Anti-adapter protein IraP n=1 Tax=Superfici...  121     2e-34
+  UniRef90_A0A0F0XX05 Anti-adapter protein IraP n=18 Tax=Enteroba...  120     3e-34
+  UniRef90_A0A2J0NDK8 Anti-adapter protein IraP n=5 Tax=Enterobac...  120     3e-34
+  UniRef90_A0A1N6U344 Anti-adapter protein IraP n=2 Tax=Enterobac...  120     3e-34
+  UniRef90_A4W757 Anti-adapter protein IraP n=5 Tax=Enterobacteri...  120     5e-34
+  UniRef90_A7MLV0 Anti-adapter protein IraP n=21 Tax=Cronobacter ...  119     1e-33
+  UniRef90_A0A329HVF0 Anti-adapter protein IraP n=1 Tax=Enterobac...  119     2e-33
+  UniRef90_R9VVD8 Anti-RssB factor n=2 Tax=Enterobacteriaceae Tax...  117     5e-33
+  UniRef90_A0A1I6DFJ3 Anti-adapter protein IraP n=1 Tax=Enterobac...  116     1e-32
+  UniRef90_G9Z3U2 Anti-adapter protein IraP n=2 Tax=Yokenella reg...  116     1e-32
+  UniRef90_A0A090V0X2 Anti-adapter protein IraP n=4 Tax=Enterobac...  116     2e-32
+  UniRef90_A0A2T3XBQ0 Anti-adapter protein IraP n=10 Tax=Enteroba...  115     5e-32
+  UniRef90_UPI00073D6635 anti-adapter protein IraP n=1 Tax=[Erwin...  113     3e-31
+  UniRef90_A0A163X9A8 Anti-adapter protein IraP n=17 Tax=Enteroba...  112     7e-31
+  UniRef90_A0A1B7IV27 YaiB family cytoplasmic protein n=2 Tax=But...  112     8e-31
+  UniRef90_A0A094Y7I9 Anti-adapter protein IraP n=6 Tax=Enterobac...  112     1e-30
+  UniRef90_A0A318VYU9 Anti-adapter protein IraP n=4 Tax=Enterobac...  111     1e-30
+  UniRef90_V5AFT5 Anti-adapter protein iraP n=3 Tax=Enterobacteri...  110     2e-30
+  UniRef90_UPI000EACA9C1 anti-adapter protein IraP n=1 Tax=Entero...  109     6e-30
+  UniRef90_A0A291E1L2 Anti-adapter protein IraP n=7 Tax=Enterobac...  109     7e-30
+  UniRef90_A0A376JG37 Anti-RssB factor n=2 Tax=Escherichia coli T...  107     3e-29
+  UniRef90_UPI000789307C anti-adapter protein IraP n=1 Tax=Salmon...  108     3e-29
+  UniRef90_UPI00098D19B2 anti-adapter protein IraP n=1 Tax=Salmon...  107     3e-29
+  UniRef90_A0A1V0LI43 Anti-adapter protein IraP n=8 Tax=Enterobac...  103     1e-27
+  UniRef90_F5NQC5 Protein iraP n=1 Tax=Shigella flexneri K-227 Ta...  100     2e-26
+  UniRef90_UPI000305154D anti-adapter protein IraP n=1 Tax=Metako...  99.8    6e-26
+  UniRef90_A0A085GHX1 YaiB family cytoplasmic protein n=2 Tax=But...  99.8    6e-26
+  UniRef90_A0A0B5ID56 Anti-adapter protein IraP n=10 Tax=Enteroba...  98.6    2e-25
+  UniRef90_UPI0005C81421 anti-adapter protein IraP n=1 Tax=Raoult...  97.4    7e-25
+  UniRef90_UPI000FE2EAA3 anti-adapter protein IraP n=1 Tax=Pantoe...  94.0    1e-23
+  UniRef90_UPI000948D1C5 anti-adapter protein IraP n=1 Tax=Pantoe...  93.6    2e-23
+  UniRef90_A0A379WYU8 Anti-adapter protein iraP n=2 Tax=Salmonell...  92.8    2e-23
+  UniRef90_A0A3A5JU25 Anti-adapter protein IraP n=1 Tax=Buttiauxe...  92.8    3e-23
+  UniRef90_A0A1X1CU19 Anti-adapter protein IraP n=1 Tax=Pantoea r...  92.4    5e-23
+  UniRef90_A0A1X1D903 Uncharacterized protein n=1 Tax=Pantoea wal...  91.7    1e-22
+  UniRef90_A0A0L7T2K4 Uncharacterized protein n=2 Tax=Erwinia ini...  91.7    1e-22
+  UniRef90_A0A3G2IMX1 Anti-adapter protein IraP n=1 Tax=Buttiauxe...  91.7    1e-22
+  UniRef90_A0A1B7HUG9 YaiB family cytoplasmic protein n=3 Tax=But...  90.1    4e-22
+  UniRef90_A0A0F3LWB8 Uncharacterized protein n=12 Tax=Enterobact...  89.7    5e-22
+  UniRef90_A0A3N5D2R8 Anti-adapter protein IraP n=1 Tax=Buttiauxe...  89.7    5e-22
+  UniRef90_UPI000347BE81 anti-adapter protein IraP n=1 Tax=Erwini...  89.7    6e-22
+  UniRef90_D8MNR9 Anti-adapter protein IraP n=1 Tax=Erwinia billi...  89.7    6e-22
+  UniRef90_A0A3N4PFE7 Anti-adapter protein IraP n=1 Tax=Pantoea s...  89.4    9e-22
+  UniRef90_UPI0007E8E870 anti-adapter protein IraP n=1 Tax=Entero...  88.6    2e-21
+  UniRef90_A0A0J8YH29 Uncharacterized protein n=2 Tax=unclassifie...  88.2    3e-21
+  UniRef90_UPI000F66A1FB anti-adapter protein IraP n=1 Tax=Entero...  87.0    5e-21
+  UniRef90_UPI0008309B0C anti-adapter protein IraP n=1 Tax=Erwini...  87.4    5e-21
+  UniRef90_A0A3A9J6Y8 Anti-adapter protein IraP n=7 Tax=Erwiniace...  87.0    7e-21
+  UniRef90_E6WAS2 Sigma-S stabilization anti-adaptor protein n=2 ...  86.7    8e-21
+  UniRef90_A0A2P8VNV4 Anti-adapter protein IraP n=3 Tax=Enterobac...  85.5    3e-20
+  UniRef90_A0A246NJV3 Anti-adapter protein IraP n=2 Tax=Pantoea T...  85.5    3e-20
+  UniRef90_A0A2S4RK23 Anti-adapter protein IraP n=4 Tax=Erwiniace...  85.1    3e-20
+  UniRef90_A0A3N1I5I8 Sigma-S stabilization anti-adaptor protein ...  84.3    7e-20
+  UniRef90_A6T5A7 Anti-adapter protein IraP n=62 Tax=Enterobacter...  84.0    1e-19
+  UniRef90_A0A071M6I5 Uncharacterized protein n=3 Tax=Mangrovibac...  83.6    1e-19
+  UniRef90_A0A0A3YGR8 Uncharacterized protein n=1 Tax=Erwinia typ...  83.6    1e-19
+  UniRef90_G5QED9 Cytoplasmic protein YaiB n=1 Tax=Salmonella ent...  82.8    1e-19
+  UniRef90_A0A0F5Y6H1 Uncharacterized protein n=2 Tax=Pantoea Tax...  82.8    3e-19
+  UniRef90_A0A0D1MM67 Uncharacterized protein n=3 Tax=Enterobacte...  82.4    4e-19
+  UniRef90_A0A1X1ERJ1 Uncharacterized protein n=1 Tax=Pantoea cyp...  82.4    5e-19
+  UniRef90_A0A356YNK5 Anti-adapter protein IraP n=3 Tax=Erwinia p...  82.0    7e-19
+  UniRef90_UPI0008516859 anti-adapter protein IraP n=1 Tax=Pantoe...  81.6    7e-19
+  UniRef90_A0A0L0H3M2 Anti-adapter protein IraP n=2 Tax=Trabulsie...  81.6    9e-19
+  UniRef90_A0A2S5KBJ1 Anti-adapter protein IraP n=4 Tax=Pantoea T...  81.3    1e-18
+  UniRef90_A0A1W6B1F3 Anti-adapter protein IraP n=2 Tax=Erwiniace...  80.5    2e-18
+  UniRef90_A0A0J1LKS7 Anti-adapter protein IraP n=1 Tax=Citrobact...  80.1    4e-18
+  UniRef90_A0A2S9IH81 Anti-adapter protein IraP n=2 Tax=Erwiniace...  79.7    5e-18
+  UniRef90_UPI000F661E8F anti-adapter protein IraP n=1 Tax=Atlant...  79.3    7e-18
+  UniRef90_A0A2V2BHJ1 Sigma-S stabilization anti-adaptor protein ...  79.3    7e-18
+  UniRef90_A0A0Q4N3A5 Uncharacterized protein n=1 Tax=Erwinia sp....  78.6    2e-17
+  UniRef90_E1SF32 Uncharacterized protein yaiB n=3 Tax=Pantoea va...  78.6    2e-17
+  UniRef90_A0A2X3EAJ7 Anti-adapter protein iraP n=1 Tax=Kluyvera ...  78.2    2e-17
+  UniRef90_H3R8A0 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  77.8    3e-17
+  UniRef90_A0A014Q1L8 Anti-RssB factor n=1 Tax=Erwinia mallotivor...  75.1    3e-16
+  UniRef90_A0A0D7M3E2 Anti-RssB factor n=20 Tax=Enterobacteriacea...  74.7    4e-16
+  UniRef90_A0A2I0FSM7 Anti-adapter protein IraP n=1 Tax=Enterobac...  74.3    7e-16
+  UniRef90_A0A376QZU3 Anti-RssB factor n=9 Tax=Enterobacteriaceae...  73.9    8e-16
+  UniRef90_D4GL60 YaiB n=8 Tax=Pantoea ananas TaxID=553 RepID=D4G...  73.6    1e-15
+  UniRef90_A0A1S2RT28 Anti-RssB factor n=3 Tax=Citrobacter freund...  73.6    1e-15
+  UniRef90_A0A0A1RDH5 Cytoplasmic protein YaiB n=7 Tax=Enterobact...  72.8    2e-15
+  UniRef90_UPI00068B166D hypothetical protein n=1 Tax=Kluyvera cr...  72.4    4e-15
+  UniRef90_A0A379SAS5 Anti-adapter protein iraP n=1 Tax=Salmonell...  71.2    5e-15
+  UniRef90_E0LUX0 Sigma-S stabilization anti-adaptor protein n=16...  71.6    8e-15
+  UniRef90_A0A1X1DD48 Uncharacterized protein n=2 Tax=Pantoea Tax...  71.2    1e-14
+  UniRef90_A0A090U2I2 Anti-adapter protein IraP n=5 Tax=Enterobac...  71.2    1e-14
+  UniRef90_D4BD91 Putative Anti-adapter protein IraP n=1 Tax=Citr...  70.9    1e-14
+  UniRef90_A0A376I2Y0 Anti-RssB factor n=2 Tax=Enterobacteriaceae...  70.5    2e-14
+  UniRef90_A0A378GKX9 Anti-adapter protein iraP n=1 Tax=Kluyvera ...  70.1    3e-14
+  UniRef90_A0A1S2BLE1 Anti-adapter protein iraP n=5 Tax=Pluraliba...  70.1    3e-14
+  UniRef90_UPI0007887563 hypothetical protein n=1 Tax=Kluyvera in...  69.7    5e-14
+  UniRef90_A0A2V3SNE9 Sigma-S stabilization anti-adaptor protein ...  69.3    7e-14
+  UniRef90_A0A064EBB3 Uncharacterized protein n=3 Tax=Citrobacter...  68.9    8e-14
+  UniRef90_UPI00051D5A9E anti-adapter protein IraP n=1 Tax=Pantoe...  68.2    2e-13
+  UniRef90_G5LJR9 Cytoplasmic protein YaiB n=2 Tax=Salmonella ent...  66.6    2e-13
+  UniRef90_A0A1B7JIN1 YaiB family cytoplasmic protein n=3 Tax=Klu...  66.2    1e-12
+  UniRef90_UPI000366D5C9 anti-adapter protein IraP n=1 Tax=Pantoe...  65.1    3e-12
+  UniRef90_A0A0U5E7K4 Uncharacterized protein n=1 Tax=Erwinia ger...  64.7    5e-12
+  UniRef90_A0A2T2Y0E6 Anti-adapter protein IraP n=1 Tax=Kluyvera ...  63.2    2e-11
+  UniRef90_A0A3N6SKZ8 Anti-adapter protein IraP n=1 Tax=Erwinia p...  62.8    3e-11
+  UniRef90_A0A378E0Z6 Cytoplasmic protein YaiB n=1 Tax=Klebsiella...  59.7    2e-10
+  UniRef90_A0A2S6VQ57 Anti-adapter protein IraP n=1 Tax=Pantoea s...  60.1    2e-10
+  UniRef90_A0A376SZH0 Anti-RssB factor n=1 Tax=Escherichia coli T...  56.6    2e-09
+  UniRef90_A0A377KB04 Anti-RssB factor n=1 Tax=Escherichia coli T...  56.6    2e-09
+  UniRef90_F5NQC4 Protein iraP n=1 Tax=Shigella flexneri K-227 Ta...  55.1    9e-09
+  UniRef90_A0A379AK04 Anti-adapter protein iraP n=1 Tax=Enterobac...  52.4    2e-07
+  UniRef90_A0A2N5ELS9 Anti-adapter protein IraP n=3 Tax=unclassif...  52.4    3e-07
+  UniRef90_UPI000DF0085D anti-adapter protein IraP n=1 Tax=Rahnel...  50.1    2e-06
+  UniRef90_UPI000379837E hypothetical protein n=1 Tax=Enterobacte...  49.7    3e-06
+  UniRef90_UPI000EF25B91 anti-adapter protein n=1 Tax=Brenneria a...  49.3    4e-06
+  UniRef90_A0A0U5EAY3 Uncharacterized protein n=1 Tax=Erwinia ger...  48.5    1e-05
+  UniRef90_A0A085GB44 Uncharacterized protein n=3 Tax=Ewingella a...  48.5    1e-05
+  UniRef90_A0A0G4K208 Anti-adapter protein n=1 Tax=Brenneria good...  48.1    1e-05
+  UniRef90_I2BBV7 Uncharacterized protein n=1 Tax=Shimwellia blat...  45.8    1e-04
+  UniRef90_UPI000F66D72A anti-adapter protein IraP n=1 Tax=Erwini...  45.8    1e-04
+  UniRef90_A0A0J8YHI4 Uncharacterized protein n=2 Tax=unclassifie...  45.8    2e-04
+  UniRef90_A0A2M9WFE0 Anti-adapter protein IraP n=1 Tax=Pantoea r...  45.8    2e-04
+  UniRef90_B2VHM5 Uncharacterized protein n=1 Tax=Erwinia tasmani...  44.7    4e-04
+  UniRef90_UPI000A0589D6 hypothetical protein n=1 Tax=Candidatus ...  45.1    4e-04
+  UniRef90_W0HUS2 Uncharacterized protein n=1 Tax=Sodalis praecap...  43.5    8e-04
+  UniRef90_UPI000FE2D06B anti-adapter protein IraP n=1 Tax=Pantoe...  43.5    0.001
+  UniRef90_A0A1Y0LGN8 Uncharacterized protein n=1 Tax=Tatumella c...  43.1    0.001
+  UniRef90_UPI0004E2B090 hypothetical protein n=2 Tax=Leclercia a...  42.7    0.002
+  UniRef90_E6WBJ8 Sigma-S stabilization anti-adaptor protein n=3 ...  42.7    0.002
+  UniRef90_A0A1X1E8F7 Uncharacterized protein n=1 Tax=Pantoea del...  42.0    0.004
+  UniRef90_G7LL77 Sigma-S stabilization anti-adaptor protein n=3 ...  41.6    0.005
+  UniRef90_D4GH09 YaiB n=11 Tax=Pantoea TaxID=53335 RepID=D4GH09_...  41.6    0.007
+  UniRef90_J3D4Z7 Sigma-S stabilization anti-adaptor protein n=8 ...  41.2    0.009
+  UniRef90_A0A366HYF4 Sigma-S stabilization anti-adaptor protein ...  40.8    0.011
+  UniRef90_E1SGR4 Uncharacterized protein n=16 Tax=Pantoea TaxID=...  40.8    0.012
+  UniRef90_A0A193QGV1 Anti-adapter protein IraP n=1 Tax=Sodalis g...  40.4    0.013
+  UniRef90_A0A2U1TY58 Anti-adapter protein n=2 Tax=Brenneria rose...  40.0    0.019
+  UniRef90_UPI00082AC93D anti-adapter protein IraP n=1 Tax=Erwini...  40.0    0.023
+  UniRef90_UPI000DD2EC36 anti-adapter protein IraP n=3 Tax=Yersin...  40.4    0.023
+  UniRef90_D8MPC4 Conserved uncharacterized protein n=3 Tax=Erwin...  40.4    0.027
+  UniRef90_D8MV85 Uncharacterized protein n=1 Tax=Erwinia billing...  40.0    0.029
+  UniRef90_Q6D358 Uncharacterized protein n=17 Tax=Pectobacterium...  39.7    0.032
+  UniRef90_A0A2L1UN08 Anti-RssB factor n=2 Tax=Rahnella TaxID=340...  39.3    0.056
+  UniRef90_A0A0Q4NGW6 Anti-RssB factor n=2 Tax=Yersiniaceae TaxID...  39.3    0.056
+  UniRef90_UPI000A022322 hypothetical protein n=1 Tax=Tatumella s...  38.9    0.067
+  UniRef90_UPI000CD0E6EB anti-adapter protein IraP n=1 Tax=Pectob...  38.1    0.10 
+  UniRef90_A0A095TE10 Uncharacterized protein n=2 Tax=Tatumella m...  37.7    0.13 
+  UniRef90_H5UYX5 Anti-adapter protein IraP n=1 Tax=Atlantibacter...  38.1    0.13 
+  UniRef90_H2IXZ4 Sigma-S stabilization anti-adaptor protein n=4 ...  38.5    0.14 
+  UniRef90_A0A0B2T8E3 Anti-adapter protein n=1 Tax=Pectobacterium...  37.7    0.15 
+  UniRef90_A0A093TH20 Anti-adapter protein n=1 Tax=Pectobacterium...  37.7    0.15 
+  UniRef90_UPI000E6C1920 anti-adapter protein IraP n=1 Tax=Entero...  38.1    0.15 
+  UniRef90_W0BQJ9 Anti-RssB factor n=5 Tax=Enterobacter cloacae c...  38.1    0.16 
+  UniRef90_U3U4I1 Uncharacterized protein n=1 Tax=Plautia stali s...  37.0    0.16 
+  UniRef90_A0A1D7YVV4 Anti-adapter protein n=8 Tax=Pectobacterium...  37.7    0.17 
+  UniRef90_A0A0Q4MCT1 Anti-RssB factor n=2 Tax=Yersiniaceae TaxID...  37.7    0.25 
+  UniRef90_UPI000948F880 anti-adapter protein IraP n=1 Tax=Pantoe...  37.4    0.31 
+  UniRef90_S8DZ87 Uncharacterized protein n=1 Tax=Fomitopsis pini...  38.1    0.45 
+  UniRef90_UPI00065FDC14 anti-adapter protein IraP n=1 Tax=Pantoe...  37.0    0.52 
+  UniRef90_A0A1U7DWN1 Anti-RssB factor n=5 Tax=Enterobacterales T...  36.6    0.59 
+  UniRef90_A0A2L0IHI1 Anti-adapter protein IraP n=3 Tax=Erwiniace...  36.6    0.62 
+  UniRef90_A0A2N5ENZ6 Anti-adapter protein IraP n=3 Tax=unclassif...  36.2    0.65 
+  UniRef90_A0A0F5F9U4 Anti-RssB factor n=2 Tax=Pantoea TaxID=5333...  36.6    0.79 
+  UniRef90_A4WB35 Uncharacterized protein n=6 Tax=Enterobacteriac...  36.2    0.79 
+  UniRef90_UPI0006600AFF anti-adapter protein IraP n=1 Tax=Pantoe...  36.6    0.82 
+  UniRef90_UPI00054F9570 anti-adapter protein IraP n=2 Tax=Erwini...  36.2    0.90 
+  UniRef90_A7MGJ0 Uncharacterized protein n=9 Tax=Enterobacteriac...  36.6    0.97 
+  UniRef90_V5U0Z8 Anti-adapter protein IraP n=15 Tax=Cronobacter ...  36.2    1.0  
+  UniRef90_A0A0Q4NF06 Uncharacterized protein n=2 Tax=Erwinia Tax...  35.8    1.1  
+  UniRef90_UPI000CFD035D anti-adapter protein IraP n=1 Tax=Cronob...  35.8    1.2  
+  UniRef90_A0A2E0NSN5 UvrABC system protein A n=2 Tax=Flavobacter...  37.0    1.3  
+  UniRef90_A0A1A9FBE9 Anti-RssB factor n=1 Tax=Lelliottia amnigen...  35.8    1.3  
+  UniRef90_UPI00034B48D0 anti-adapter protein IraP n=1 Tax=Erwini...  35.4    1.5  
+  UniRef90_W0HWB7 Uncharacterized protein n=3 Tax=Sodalis TaxID=8...  35.4    1.6  
+  UniRef90_A0A378D6N6 Anti-RssB factor n=1 Tax=Klebsiella oxytoca...  35.0    1.8  
+  UniRef90_A0A0B1R4L3 Anti-RssB factor n=4 Tax=Enterobacterales T...  35.4    1.8  
+  UniRef90_A0A077MYP8 Putative Anti-adapter protein IraP n=1 Tax=...  35.0    2.0  
+  UniRef90_E5S3A6 Uncharacterized protein n=1 Tax=Trichinella spi...  36.2    2.1  
+  UniRef90_A0A3P8J0R5 Anti-RssB factor n=1 Tax=Raoultella terrige...  33.9    2.3  
+  UniRef90_C9Y2W5 Uncharacterized protein n=4 Tax=Cronobacter Tax...  35.0    2.7  
+  UniRef90_A0A1V9D7C3 Anti-RssB factor n=1 Tax=Pantoea latae TaxI...  35.0    3.0  
+  UniRef90_UPI000DA1878F hypothetical protein n=1 Tax=Franconibac...  34.3    3.3  
+  UniRef90_A0A1V2BV23 Anti-RssB factor n=7 Tax=Enterobacteriaceae...  34.7    3.3  
+  UniRef90_A0A0A3Z298 Anti-RssB factor n=1 Tax=Erwinia typographi...  34.7    3.4  
+  UniRef90_D4HXT4 Uncharacterized protein yaiB n=6 Tax=Erwinia Ta...  34.3    3.4  
+  UniRef90_A0A2S4QKE9 Uncharacterized protein n=3 Tax=Enterobacte...  34.3    3.8  
+  UniRef90_UPI000FE32D18 anti-adapter protein IraP n=1 Tax=Pantoe...  34.7    3.8  
+  UniRef90_N1NM70 Uncharacterized protein n=1 Tax=Xenorhabdus nem...  34.3    3.8  
+  UniRef90_A0A3A9IQJ7 Anti-adapter protein IraP n=3 Tax=Erwiniace...  34.7    4.0  
+  UniRef90_A0A357U2U0 Anti-adapter protein IraP n=2 Tax=Erwinia p...  34.3    4.0  
+  UniRef90_A0A315W0K0 Uncharacterized protein n=1 Tax=Gambusia af...  35.0    4.8  
+  UniRef90_UPI000F665B1F anti-adapter protein IraP n=1 Tax=Erwini...  34.3    5.3  
+  UniRef90_A0A0F8CCM5 Golgin subfamily B member 1 n=1 Tax=Larimic...  35.0    5.3  
+  UniRef90_A0A1W6B894 Uncharacterized protein n=1 Tax=Pantoea alh...  33.9    5.3  
+  UniRef90_A0A0U5L157 Uncharacterized protein n=1 Tax=Erwinia ger...  34.3    5.4  
+  UniRef90_A0A3D4H232 Glucose sorbosone dehydrogenase n=2 Tax=Opi...  34.7    6.2  
+  UniRef90_A0A0B4F1P9 Ankyrin protein (Fragment) n=1 Tax=Metarhiz...  34.7    6.4  
+  UniRef90_A0A0D9NQM2 Uncharacterized protein n=1 Tax=Metarhizium...  34.7    6.7  
+  UniRef90_A0A1D6GKB0 5'-AMP-activated protein kinase-related n=1...  34.7    7.0  
+  UniRef90_A0A0V1AYL8 Golgi to ER traffic protein 4-like protein ...  34.7    7.6  
+  UniRef90_A0A1V5K052 Uncharacterized protein n=1 Tax=Candidatus ...  33.9    8.5  
+  UniRef90_D8MNN5 Conserved uncharacterized protein n=3 Tax=Erwin...  33.5    9.1  
+  UniRef90_UPI000B4245A3 uncharacterized protein LOC8067264 isofo...  34.3    9.3  
+  UniRef90_A0A1Z5S5H1 Uncharacterized protein n=1 Tax=Sorghum bic...  34.3    10.0 
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 752729337810
+Warning: [psiblast] lcl|Query_1 NP_414916.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414916.1
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A127L791 Anti-adapter protein IraP n=2 Tax=Enterobac...  121     6e-34
+  UniRef90_D2TKW6 Anti-adapter protein IraP n=9 Tax=Gammaproteoba...  119     1e-33
+  UniRef90_B1EKV6 Uncharacterized protein n=5 Tax=Enterobacterale...  118     2e-33
+  UniRef90_P28243 Anti-adapter protein IraP n=3 Tax=Escherichia f...  116     2e-32
+  UniRef90_Q32JD0 Anti-adapter protein IraP n=315 Tax=root TaxID=...  115     3e-32
+  UniRef90_A0A2P5GS95 Anti-adapter protein IraP n=1 Tax=Superfici...  113     2e-31
+  UniRef90_A0A0F0XX05 Anti-adapter protein IraP n=18 Tax=Enteroba...  112     4e-31
+  UniRef90_A9MMS6 Anti-adapter protein IraP n=118 Tax=Salmonella ...  112     4e-31
+  UniRef90_A0A381H6P4 Anti-adapter protein IraP n=1 Tax=Citrobact...  112     4e-31
+  UniRef90_UPI00057BE13B anti-adapter protein IraP n=1 Tax=Entero...  112     7e-31
+  UniRef90_A8AK82 Anti-adapter protein IraP n=27 Tax=Enterobacter...  112     7e-31
+  UniRef90_UPI0007335BA7 anti-adapter protein IraP n=2 Tax=Citrob...  111     1e-30
+  UniRef90_A7MLV0 Anti-adapter protein IraP n=21 Tax=Cronobacter ...  111     2e-30
+  UniRef90_A0A2T3XBQ0 Anti-adapter protein IraP n=10 Tax=Enteroba...  109     5e-30
+  UniRef90_A0A2J0NDK8 Anti-adapter protein IraP n=5 Tax=Enterobac...  109     6e-30
+  UniRef90_A0A1B7IV27 YaiB family cytoplasmic protein n=2 Tax=But...  109     1e-29
+  UniRef90_A0A1N6U344 Anti-adapter protein IraP n=2 Tax=Enterobac...  109     1e-29
+  UniRef90_A0A1I6DFJ3 Anti-adapter protein IraP n=1 Tax=Enterobac...  107     4e-29
+  UniRef90_UPI00073D6635 anti-adapter protein IraP n=1 Tax=[Erwin...  107     6e-29
+  UniRef90_A0A090V0X2 Anti-adapter protein IraP n=4 Tax=Enterobac...  107     7e-29
+  UniRef90_A0A0J8VTI7 Anti-adapter protein IraP n=5 Tax=Franconib...  107     8e-29
+  UniRef90_A0A0T5XG12 Anti-adapter protein IraP n=48 Tax=Bacteria...  106     1e-28
+  UniRef90_A0A345CE11 Anti-adapter protein IraP n=4 Tax=Enterobac...  106     2e-28
+  UniRef90_A0A329HVF0 Anti-adapter protein IraP n=1 Tax=Enterobac...  106     2e-28
+  UniRef90_A0A1A9F959 Anti-adapter protein IraP n=3 Tax=Enterobac...  105     3e-28
+  UniRef90_A0A2I6E8U4 Anti-adapter protein IraP n=3 Tax=Enterobac...  105     3e-28
+  UniRef90_R9VVD8 Anti-RssB factor n=2 Tax=Enterobacteriaceae Tax...  105     4e-28
+  UniRef90_A0A163X9A8 Anti-adapter protein IraP n=17 Tax=Enteroba...  105     4e-28
+  UniRef90_UPI000EACA9C1 anti-adapter protein IraP n=1 Tax=Entero...  105     5e-28
+  UniRef90_A4W757 Anti-adapter protein IraP n=5 Tax=Enterobacteri...  104     5e-28
+  UniRef90_A0A291E1L2 Anti-adapter protein IraP n=7 Tax=Enterobac...  104     6e-28
+  UniRef90_UPI00077B8024 anti-adapter protein IraP n=1 Tax=Entero...  104     7e-28
+  UniRef90_A0A318VYU9 Anti-adapter protein IraP n=4 Tax=Enterobac...  104     9e-28
+  UniRef90_A0A336J576 Anti-adapter protein IraP n=34 Tax=Enteroba...  104     1e-27
+  UniRef90_G9Z3U2 Anti-adapter protein IraP n=2 Tax=Yokenella reg...  104     1e-27
+  UniRef90_G2S962 Anti-adapter protein IraP n=2 Tax=Enterobacter ...  104     1e-27
+  UniRef90_UPI000907E358 anti-adapter protein IraP n=1 Tax=Escher...  103     1e-27
+  UniRef90_D8MNR9 Anti-adapter protein IraP n=1 Tax=Erwinia billi...  103     2e-27
+  UniRef90_A0A2S4X1N2 Anti-adapter protein IraP n=3 Tax=Enterobac...  102     4e-27
+  UniRef90_G5QVH7 Anti-adapter protein IraP n=2 Tax=Salmonella en...  102     6e-27
+  UniRef90_A0A1X1CU19 Anti-adapter protein IraP n=1 Tax=Pantoea r...  101     1e-26
+  UniRef90_A0A085GHX1 YaiB family cytoplasmic protein n=2 Tax=But...  101     1e-26
+  UniRef90_A0A094Y7I9 Anti-adapter protein IraP n=6 Tax=Enterobac...  101     2e-26
+  UniRef90_V5AFT5 Anti-adapter protein iraP n=3 Tax=Enterobacteri...  101     2e-26
+  UniRef90_A0A3G2IMX1 Anti-adapter protein IraP n=1 Tax=Buttiauxe...  99.9    5e-26
+  UniRef90_A0A3N5D2R8 Anti-adapter protein IraP n=1 Tax=Buttiauxe...  99.9    6e-26
+  UniRef90_UPI000FE2EAA3 anti-adapter protein IraP n=1 Tax=Pantoe...  99.1    1e-25
+  UniRef90_A0A1X1D903 Uncharacterized protein n=1 Tax=Pantoea wal...  99.1    1e-25
+  UniRef90_A0A0F3LWB8 Uncharacterized protein n=12 Tax=Enterobact...  98.7    1e-25
+  UniRef90_A0A0A3YGR8 Uncharacterized protein n=1 Tax=Erwinia typ...  98.4    2e-25
+  UniRef90_E6WAS2 Sigma-S stabilization anti-adaptor protein n=2 ...  97.6    5e-25
+  UniRef90_UPI0008309B0C anti-adapter protein IraP n=1 Tax=Erwini...  97.6    5e-25
+  UniRef90_A0A0L7T2K4 Uncharacterized protein n=2 Tax=Erwinia ini...  96.8    1e-24
+  UniRef90_A0A0F5Y6H1 Uncharacterized protein n=2 Tax=Pantoea Tax...  96.4    1e-24
+  UniRef90_A0A0B5ID56 Anti-adapter protein IraP n=10 Tax=Enteroba...  96.4    1e-24
+  UniRef90_UPI0008516859 anti-adapter protein IraP n=1 Tax=Pantoe...  96.4    1e-24
+  UniRef90_A0A1B7HUG9 YaiB family cytoplasmic protein n=3 Tax=But...  96.0    2e-24
+  UniRef90_UPI000347BE81 anti-adapter protein IraP n=1 Tax=Erwini...  95.3    3e-24
+  UniRef90_A0A2S4RK23 Anti-adapter protein IraP n=4 Tax=Erwiniace...  94.9    5e-24
+  UniRef90_UPI000948D1C5 anti-adapter protein IraP n=1 Tax=Pantoe...  94.9    5e-24
+  UniRef90_A0A1W6B1F3 Anti-adapter protein IraP n=2 Tax=Erwiniace...  94.9    6e-24
+  UniRef90_A0A3A5JU25 Anti-adapter protein IraP n=1 Tax=Buttiauxe...  93.7    1e-23
+  UniRef90_A0A0J8YH29 Uncharacterized protein n=2 Tax=unclassifie...  93.7    2e-23
+  UniRef90_UPI0007E8E870 anti-adapter protein IraP n=1 Tax=Entero...  93.7    2e-23
+  UniRef90_A0A1X1ERJ1 Uncharacterized protein n=1 Tax=Pantoea cyp...  93.3    2e-23
+  UniRef90_A0A2S9IH81 Anti-adapter protein IraP n=2 Tax=Erwiniace...  93.3    2e-23
+  UniRef90_A0A3A9J6Y8 Anti-adapter protein IraP n=7 Tax=Erwiniace...  93.0    2e-23
+  UniRef90_A0A3N4PFE7 Anti-adapter protein IraP n=1 Tax=Pantoea s...  93.0    3e-23
+  UniRef90_A0A071M6I5 Uncharacterized protein n=3 Tax=Mangrovibac...  93.0    3e-23
+  UniRef90_UPI000789307C anti-adapter protein IraP n=1 Tax=Salmon...  92.6    5e-23
+  UniRef90_A0A014Q1L8 Anti-RssB factor n=1 Tax=Erwinia mallotivor...  92.2    7e-23
+  UniRef90_E1SF32 Uncharacterized protein yaiB n=3 Tax=Pantoea va...  91.4    1e-22
+  UniRef90_UPI0005C81421 anti-adapter protein IraP n=1 Tax=Raoult...  91.8    1e-22
+  UniRef90_A0A356YNK5 Anti-adapter protein IraP n=3 Tax=Erwinia p...  91.0    2e-22
+  UniRef90_UPI00098B2451 anti-adapter protein IraP n=3 Tax=Escher...  89.5    5e-22
+  UniRef90_A0A2X3EAJ7 Anti-adapter protein iraP n=1 Tax=Kluyvera ...  89.9    5e-22
+  UniRef90_A0A2S5KBJ1 Anti-adapter protein IraP n=4 Tax=Pantoea T...  88.7    1e-21
+  UniRef90_A0A0Q4N3A5 Uncharacterized protein n=1 Tax=Erwinia sp....  88.7    1e-21
+  UniRef90_H3R8A0 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  88.7    2e-21
+  UniRef90_A0A246NJV3 Anti-adapter protein IraP n=2 Tax=Pantoea T...  87.9    3e-21
+  UniRef90_A0A1V0LI43 Anti-adapter protein IraP n=8 Tax=Enterobac...  87.6    4e-21
+  UniRef90_A0A2V2BHJ1 Sigma-S stabilization anti-adaptor protein ...  86.8    7e-21
+  UniRef90_A0A2T2Y0E6 Anti-adapter protein IraP n=1 Tax=Kluyvera ...  86.8    7e-21
+  UniRef90_UPI00098D19B2 anti-adapter protein IraP n=1 Tax=Salmon...  86.0    8e-21
+  UniRef90_A0A3N6SKZ8 Anti-adapter protein IraP n=1 Tax=Erwinia p...  86.0    2e-20
+  UniRef90_A0A0L0H3M2 Anti-adapter protein IraP n=2 Tax=Trabulsie...  86.0    2e-20
+  UniRef90_UPI000305154D anti-adapter protein IraP n=1 Tax=Metako...  85.6    2e-20
+  UniRef90_A0A2I0FSM7 Anti-adapter protein IraP n=1 Tax=Enterobac...  84.9    4e-20
+  UniRef90_A0A1B7JIN1 YaiB family cytoplasmic protein n=3 Tax=Klu...  83.7    1e-19
+  UniRef90_UPI00068B166D hypothetical protein n=1 Tax=Kluyvera cr...  83.3    2e-19
+  UniRef90_UPI0007887563 hypothetical protein n=1 Tax=Kluyvera in...  83.3    2e-19
+  UniRef90_A0A378GKX9 Anti-adapter protein iraP n=1 Tax=Kluyvera ...  82.9    2e-19
+  UniRef90_D4GL60 YaiB n=8 Tax=Pantoea ananas TaxID=553 RepID=D4G...  82.9    2e-19
+  UniRef90_A0A1S2BLE1 Anti-adapter protein iraP n=5 Tax=Pluraliba...  82.9    3e-19
+  UniRef90_UPI000F661E8F anti-adapter protein IraP n=1 Tax=Atlant...  82.2    6e-19
+  UniRef90_A6T5A7 Anti-adapter protein IraP n=62 Tax=Enterobacter...  82.2    6e-19
+  UniRef90_E0LUX0 Sigma-S stabilization anti-adaptor protein n=16...  81.8    7e-19
+  UniRef90_A0A0D1MM67 Uncharacterized protein n=3 Tax=Enterobacte...  81.4    1e-18
+  UniRef90_A0A1X1DD48 Uncharacterized protein n=2 Tax=Pantoea Tax...  81.4    1e-18
+  UniRef90_UPI000F66A1FB anti-adapter protein IraP n=1 Tax=Entero...  79.9    3e-18
+  UniRef90_UPI00051D5A9E anti-adapter protein IraP n=1 Tax=Pantoe...  79.9    4e-18
+  UniRef90_A0A2P8VNV4 Anti-adapter protein IraP n=3 Tax=Enterobac...  77.9    3e-17
+  UniRef90_A0A3N1I5I8 Sigma-S stabilization anti-adaptor protein ...  77.5    3e-17
+  UniRef90_UPI000366D5C9 anti-adapter protein IraP n=1 Tax=Pantoe...  77.5    4e-17
+  UniRef90_A0A2V3SNE9 Sigma-S stabilization anti-adaptor protein ...  77.2    5e-17
+  UniRef90_A0A376JG37 Anti-RssB factor n=2 Tax=Escherichia coli T...  75.2    2e-16
+  UniRef90_B2VHM5 Uncharacterized protein n=1 Tax=Erwinia tasmani...  75.2    4e-16
+  UniRef90_UPI000A0589D6 hypothetical protein n=1 Tax=Candidatus ...  75.2    7e-16
+  UniRef90_A0A0U5E7K4 Uncharacterized protein n=1 Tax=Erwinia ger...  74.1    7e-16
+  UniRef90_A0A2N5ELS9 Anti-adapter protein IraP n=3 Tax=unclassif...  74.1    9e-16
+  UniRef90_A0A0J1LKS7 Anti-adapter protein IraP n=1 Tax=Citrobact...  73.7    1e-15
+  UniRef90_A0A0J8YHI4 Uncharacterized protein n=2 Tax=unclassifie...  73.3    2e-15
+  UniRef90_A0A1S2RT28 Anti-RssB factor n=3 Tax=Citrobacter freund...  71.8    6e-15
+  UniRef90_A0A376QZU3 Anti-RssB factor n=9 Tax=Enterobacteriaceae...  71.4    8e-15
+  UniRef90_A0A090U2I2 Anti-adapter protein IraP n=5 Tax=Enterobac...  71.4    9e-15
+  UniRef90_A0A0D7M3E2 Anti-RssB factor n=20 Tax=Enterobacteriacea...  70.6    2e-14
+  UniRef90_A0A378E0Z6 Cytoplasmic protein YaiB n=1 Tax=Klebsiella...  69.5    2e-14
+  UniRef90_G5QED9 Cytoplasmic protein YaiB n=1 Tax=Salmonella ent...  69.5    3e-14
+  UniRef90_I2BBV7 Uncharacterized protein n=1 Tax=Shimwellia blat...  69.5    4e-14
+  UniRef90_A0A085GB44 Uncharacterized protein n=3 Tax=Ewingella a...  69.8    4e-14
+  UniRef90_A0A0U5EAY3 Uncharacterized protein n=1 Tax=Erwinia ger...  69.8    5e-14
+  UniRef90_UPI000DF0085D anti-adapter protein IraP n=1 Tax=Rahnel...  69.8    5e-14
+  UniRef90_A0A064EBB3 Uncharacterized protein n=3 Tax=Citrobacter...  69.5    5e-14
+  UniRef90_UPI000379837E hypothetical protein n=1 Tax=Enterobacte...  68.7    1e-13
+  UniRef90_UPI000F66D72A anti-adapter protein IraP n=1 Tax=Erwini...  69.1    1e-13
+  UniRef90_A0A0A1RDH5 Cytoplasmic protein YaiB n=7 Tax=Enterobact...  68.7    1e-13
+  UniRef90_F5NQC5 Protein iraP n=1 Tax=Shigella flexneri K-227 Ta...  67.5    2e-13
+  UniRef90_A0A379AK04 Anti-adapter protein iraP n=1 Tax=Enterobac...  67.5    2e-13
+  UniRef90_A0A376I2Y0 Anti-RssB factor n=2 Tax=Enterobacteriaceae...  67.9    2e-13
+  UniRef90_A0A2M9WFE0 Anti-adapter protein IraP n=1 Tax=Pantoea r...  66.8    9e-13
+  UniRef90_D4BD91 Putative Anti-adapter protein IraP n=1 Tax=Citr...  66.0    1e-12
+  UniRef90_W0HUS2 Uncharacterized protein n=1 Tax=Sodalis praecap...  64.1    9e-12
+  UniRef90_A0A379WYU8 Anti-adapter protein iraP n=2 Tax=Salmonell...  62.9    1e-11
+  UniRef90_A0A2S6VQ57 Anti-adapter protein IraP n=1 Tax=Pantoea s...  63.3    1e-11
+  UniRef90_UPI000EF25B91 anti-adapter protein n=1 Tax=Brenneria a...  62.9    3e-11
+  UniRef90_A0A376SZH0 Anti-RssB factor n=1 Tax=Escherichia coli T...  60.2    1e-10
+  UniRef90_A0A0G4K208 Anti-adapter protein n=1 Tax=Brenneria good...  61.0    1e-10
+  UniRef90_A0A379SAS5 Anti-adapter protein iraP n=1 Tax=Salmonell...  59.4    2e-10
+  UniRef90_A0A377KB04 Anti-RssB factor n=1 Tax=Escherichia coli T...  55.6    8e-09
+  UniRef90_F5NQC4 Protein iraP n=1 Tax=Shigella flexneri K-227 Ta...  51.4    3e-07
+  UniRef90_G5LJR9 Cytoplasmic protein YaiB n=2 Tax=Salmonella ent...  51.4    3e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000FE2D06B anti-adapter protein IraP n=1 Tax=Pantoe...  68.7    2e-13
+  UniRef90_UPI00082AC93D anti-adapter protein IraP n=1 Tax=Erwini...  68.3    2e-13
+  UniRef90_A0A0Q4NF06 Uncharacterized protein n=2 Tax=Erwinia Tax...  65.2    3e-12
+  UniRef90_E6WBJ8 Sigma-S stabilization anti-adaptor protein n=3 ...  64.8    5e-12
+  UniRef90_A0A2L0IHI1 Anti-adapter protein IraP n=3 Tax=Erwiniace...  64.5    6e-12
+  UniRef90_A0A357U2U0 Anti-adapter protein IraP n=2 Tax=Erwinia p...  63.7    2e-11
+  UniRef90_A0A1W6B894 Uncharacterized protein n=1 Tax=Pantoea alh...  63.3    2e-11
+  UniRef90_D8MNN5 Conserved uncharacterized protein n=3 Tax=Erwin...  63.3    2e-11
+  UniRef90_J3D4Z7 Sigma-S stabilization anti-adaptor protein n=8 ...  63.3    2e-11
+  UniRef90_D4GH09 YaiB n=11 Tax=Pantoea TaxID=53335 RepID=D4GH09_...  62.9    3e-11
+  UniRef90_E1SGR4 Uncharacterized protein n=16 Tax=Pantoea TaxID=...  62.5    4e-11
+  UniRef90_A0A1X1E8F7 Uncharacterized protein n=1 Tax=Pantoea del...  62.5    4e-11
+  UniRef90_D4HXT4 Uncharacterized protein yaiB n=6 Tax=Erwinia Ta...  62.5    4e-11
+  UniRef90_A0A0L7T6L5 Uncharacterized protein n=1 Tax=Erwinia ini...  62.1    5e-11
+  UniRef90_UPI00034B48D0 anti-adapter protein IraP n=1 Tax=Erwini...  61.8    7e-11
+  UniRef90_A0A2K1Q6M1 Anti-adapter protein IraP n=1 Tax=Mixta the...  59.1    8e-10
+  UniRef90_A0A0F3LVK7 Uncharacterized protein n=3 Tax=Enterobacte...  58.7    1e-09
+  UniRef90_U2M407 Uncharacterized protein n=1 Tax=Pantoea sp. AS-...  56.4    9e-09
+  UniRef90_UPI000551C4E3 anti-adapter protein IraP n=2 Tax=Erwini...  56.0    1e-08
+  UniRef90_UPI000CD0E6EB anti-adapter protein IraP n=1 Tax=Pectob...  55.6    2e-08
+  UniRef90_A0A2N5ENZ6 Anti-adapter protein IraP n=3 Tax=unclassif...  55.2    2e-08
+  UniRef90_A0A193QGV1 Anti-adapter protein IraP n=1 Tax=Sodalis g...  54.8    3e-08
+  UniRef90_G7LL77 Sigma-S stabilization anti-adaptor protein n=3 ...  55.2    3e-08
+  UniRef90_Q6D358 Uncharacterized protein n=17 Tax=Pectobacterium...  55.2    3e-08
+  UniRef90_W0HWB7 Uncharacterized protein n=3 Tax=Sodalis TaxID=8...  54.4    5e-08
+  UniRef90_A0A0B2T8E3 Anti-adapter protein n=1 Tax=Pectobacterium...  53.7    9e-08
+  UniRef90_UPI000468F1F1 anti-adapter protein IraP n=1 Tax=Pantoe...  54.1    9e-08
+  UniRef90_A0A093TH20 Anti-adapter protein n=1 Tax=Pectobacterium...  53.3    1e-07
+  UniRef90_A0A1D7YVV4 Anti-adapter protein n=8 Tax=Pectobacterium...  52.1    4e-07
+  UniRef90_A0A2U1TY58 Anti-adapter protein n=2 Tax=Brenneria rose...  51.7    5e-07
+  UniRef90_A0A1Y0LGN8 Uncharacterized protein n=1 Tax=Tatumella c...  51.0    1e-06
+  UniRef90_H5UYX5 Anti-adapter protein IraP n=1 Tax=Atlantibacter...  51.4    1e-06
+  UniRef90_A0A0Q4NGW6 Anti-RssB factor n=2 Tax=Yersiniaceae TaxID...  51.7    1e-06
+  UniRef90_A0A366HYF4 Sigma-S stabilization anti-adaptor protein ...  50.6    2e-06
+  UniRef90_U3U4I1 Uncharacterized protein n=1 Tax=Plautia stali s...  49.0    2e-06
+  UniRef90_UPI0004E2B090 hypothetical protein n=2 Tax=Leclercia a...  49.8    3e-06
+  UniRef90_UPI000DD2EC36 anti-adapter protein IraP n=3 Tax=Yersin...  49.8    5e-06
+  UniRef90_D8MV85 Uncharacterized protein n=1 Tax=Erwinia billing...  49.4    5e-06
+  UniRef90_A0A2L1UN08 Anti-RssB factor n=2 Tax=Rahnella TaxID=340...  49.4    8e-06
+  UniRef90_UPI000E6C1920 anti-adapter protein IraP n=1 Tax=Entero...  49.4    9e-06
+  UniRef90_UPI000FE32D18 anti-adapter protein IraP n=1 Tax=Pantoe...  49.0    1e-05
+  UniRef90_A0A0Q4MCT1 Anti-RssB factor n=2 Tax=Yersiniaceae TaxID...  49.0    1e-05
+  UniRef90_UPI000948F880 anti-adapter protein IraP n=1 Tax=Pantoe...  48.7    2e-05
+  UniRef90_H2IXZ4 Sigma-S stabilization anti-adaptor protein n=4 ...  48.3    2e-05
+  UniRef90_D8MPC4 Conserved uncharacterized protein n=3 Tax=Erwin...  47.9    3e-05
+  UniRef90_A0A1V2BV23 Anti-RssB factor n=7 Tax=Enterobacteriaceae...  47.9    3e-05
+  UniRef90_W0BQJ9 Anti-RssB factor n=5 Tax=Enterobacter cloacae c...  47.9    3e-05
+  UniRef90_UPI000CFD035D anti-adapter protein IraP n=1 Tax=Cronob...  47.1    7e-05
+  UniRef90_V5U0Z8 Anti-adapter protein IraP n=15 Tax=Cronobacter ...  46.7    8e-05
+  UniRef90_UPI0006690D9B hypothetical protein n=1 Tax=Klebsiella ...  46.0    1e-04
+  UniRef90_A0A095TE10 Uncharacterized protein n=2 Tax=Tatumella m...  45.6    1e-04
+  UniRef90_A0A1U7DWN1 Anti-RssB factor n=5 Tax=Enterobacterales T...  46.0    2e-04
+  UniRef90_C9Y2W5 Uncharacterized protein n=4 Tax=Cronobacter Tax...  46.0    2e-04
+  UniRef90_UPI000A022322 hypothetical protein n=1 Tax=Tatumella s...  44.4    4e-04
+  UniRef90_A7MGJ0 Uncharacterized protein n=9 Tax=Enterobacteriac...  45.2    5e-04
+  UniRef90_A0A1A9FBE9 Anti-RssB factor n=1 Tax=Lelliottia amnigen...  44.4    5e-04
+  UniRef90_A4WB35 Uncharacterized protein n=6 Tax=Enterobacteriac...  44.4    6e-04
+  UniRef90_UPI000DA1878F hypothetical protein n=1 Tax=Franconibac...  44.0    6e-04
+  UniRef90_UPI0009DCCE73 hypothetical protein n=1 Tax=Candidatus ...  43.3    7e-04
+  UniRef90_A0A085JAX7 Uncharacterized protein n=2 Tax=Tatumella p...  43.7    7e-04
+  UniRef90_A0A2S4QKE9 Uncharacterized protein n=3 Tax=Enterobacte...  43.7    9e-04
+  UniRef90_A0A0A3Z298 Anti-RssB factor n=1 Tax=Erwinia typographi...  44.0    0.001
+  UniRef90_H3MWL7 Anti-adapter protein IraP n=17 Tax=cellular org...  43.3    0.001
+  UniRef90_A0A168MA40 Anti-RssB factor n=4 Tax=Enterobacteriaceae...  43.7    0.001
+  UniRef90_E6WLN3 Sigma-S stabilization anti-adaptor protein n=1 ...  43.3    0.002
+  UniRef90_A0A1V9D7C3 Anti-RssB factor n=1 Tax=Pantoea latae TaxI...  43.3    0.002
+  UniRef90_UPI0008E68C29 anti-adapter protein IraP n=1 Tax=Pantoe...  43.3    0.002
+  UniRef90_UPI000F665B1F anti-adapter protein IraP n=1 Tax=Erwini...  42.9    0.003
+  UniRef90_UPI00054F9570 anti-adapter protein IraP n=2 Tax=Erwini...  42.9    0.003
+  UniRef90_A0A2V3QEC5 Sigma-S stabilization anti-adaptor protein ...  42.1    0.004
+  UniRef90_A0A3A9IQJ7 Anti-adapter protein IraP n=3 Tax=Erwiniace...  42.1    0.005
+  UniRef90_UPI0002F8D45D anti-adapter protein IraP n=1 Tax=Metako...  42.1    0.006
+  UniRef90_A0A2M9W998 Anti-adapter protein IraP n=1 Tax=Pantoea r...  42.1    0.006
+  UniRef90_UPI000835DFFF anti-adapter protein IraP n=1 Tax=Erwini...  41.3    0.010
+  UniRef90_A0A0U5L157 Uncharacterized protein n=1 Tax=Erwinia ger...  41.3    0.012
+  UniRef90_A0A0J8Y917 Anti-RssB factor n=2 Tax=Franconibacter pul...  41.0    0.012
+  UniRef90_A0A378D6N6 Anti-RssB factor n=1 Tax=Klebsiella oxytoca...  40.6    0.013
+  UniRef90_UPI0005398D62 L-serine ammonia-lyase, iron-sulfur-depe...  42.1    0.013
+  UniRef90_A0A0B1R4L3 Anti-RssB factor n=4 Tax=Enterobacterales T...  41.0    0.013
+  UniRef90_UPI0006600AFF anti-adapter protein IraP n=1 Tax=Pantoe...  41.0    0.015
+  UniRef90_UPI000EACEAC3 anti-adapter protein IraP n=1 Tax=Entero...  40.6    0.016
+  UniRef90_A0A0F5F9U4 Anti-RssB factor n=2 Tax=Pantoea TaxID=5333...  41.0    0.017
+  UniRef90_A0A0G3QAM2 Anti-RssB factor n=10 Tax=Enterobacterales ...  40.6    0.022
+  UniRef90_I0QPY9 Anti-RssB factor n=2 Tax=Serratia sp. M24T3 Tax...  40.2    0.023
+  UniRef90_U3TRN9 Uncharacterized protein n=4 Tax=Enterobacterale...  40.6    0.024
+  UniRef90_UPI000BE37DA6 hypothetical protein n=1 Tax=Edwardsiell...  39.0    0.031
+  UniRef90_UPI00065FDC14 anti-adapter protein IraP n=1 Tax=Pantoe...  40.2    0.031
+  UniRef90_A0A3N6WJX6 Anti-adapter protein IraP n=8 Tax=Erwiniace...  39.8    0.034
+  UniRef90_A0A2V3QAG5 Sigma-S stabilization anti-adaptor protein ...  39.4    0.062
+  UniRef90_A0A0F5F1K4 Anti-RssB factor n=3 Tax=Erwiniaceae TaxID=...  39.0    0.065
+  UniRef90_A0A090J0L3 L-serine ammonia-lyase, iron-sulfur-depende...  40.2    0.073
+  UniRef90_UPI0005091A81 anti-adapter protein IraP n=1 Tax=Pantoe...  39.0    0.074
+  UniRef90_A0A2S5KFK6 Anti-adapter protein IraP n=4 Tax=Erwiniace...  39.0    0.077
+  UniRef90_A0A327YRA0 AAA ATPase-like protein n=1 Tax=Anoxybacill...  39.8    0.12 
+  UniRef90_G7LTF2 Sigma-S stabilization anti-adaptor protein n=3 ...  38.3    0.12 
+  UniRef90_A0A366I1F4 Sigma-S stabilization anti-adaptor protein ...  38.3    0.13 
+  UniRef90_A0A0F5XXP0 Anti-RssB factor n=1 Tax=Pantoea sp. 3.5.1 ...  38.3    0.15 
+  UniRef90_R9VS39 Uncharacterized protein n=5 Tax=Enterobacteriac...  38.3    0.15 
+  UniRef90_A0A1X1DLN5 Anti-RssB factor n=2 Tax=Pantoea TaxID=5333...  38.3    0.16 
+  UniRef90_A0A0L0AP49 Anti-RssB factor n=1 Tax=Klebsiella sp. RIT...  37.9    0.17 
+  UniRef90_D4GNQ3 Uncharacterized protein n=10 Tax=Erwiniaceae Ta...  38.3    0.18 
+  UniRef90_A0A3P8J0R5 Anti-RssB factor n=1 Tax=Raoultella terrige...  36.7    0.23 
+  UniRef90_A0A2A7V1B7 Anti-adapter protein IraP n=1 Tax=Enterobac...  37.5    0.32 
+  UniRef90_UPI00077B7C9F anti-adapter protein IraP n=1 Tax=Entero...  37.5    0.33 
+  UniRef90_UPI0004297467 asparagine--tRNA ligase n=1 Tax=Atopococ...  38.3    0.35 
+  UniRef90_UPI000D696C0A hypothetical protein n=1 Tax=Proteus sp....  36.3    0.42 
+  UniRef90_A0A2S4R4D9 Uncharacterized protein n=3 Tax=Enterobacte...  36.7    0.43 
+  UniRef90_A0A1N5TR22 MinD-like ATPase involved in chromosome par...  38.3    0.44 
+  UniRef90_UPI000DADECFD anti-adapter protein IraP n=1 Tax=Entero...  37.1    0.46 
+  UniRef90_A0A269W3Z6 Histidine kinase n=2 Tax=Bacillales TaxID=1...  37.9    0.47 
+  UniRef90_A0A1Z3Q5G9 Uncharacterized protein n=2 Tax=Salmonella ...  35.9    0.50 
+  UniRef90_A0A0M2T3B1 Serine dehydratase n=2 Tax=Bacillus TaxID=5...  37.9    0.52 
+  UniRef90_UPI000B346EB6 anti-adapter protein IraP n=1 Tax=Entero...  36.7    0.57 
+  UniRef90_UPI0005614735 sensor histidine kinase n=1 Tax=Streptom...  37.5    0.77 
+  UniRef90_A0A372LSE2 L-serine ammonia-lyase, iron-sulfur-depende...  37.1    0.86 
+  UniRef90_A0A2P5GU34 Anti-adapter protein IraP n=1 Tax=Superfici...  36.3    0.87 
+  UniRef90_A0A2Z5JJ60 Sensor histidine kinase n=1 Tax=Streptomyce...  37.1    1.0  
+  UniRef90_A0A3L6VAX7 Uncharacterized protein n=2 Tax=Aphanomyces...  36.7    1.2  
+  UniRef90_A0A024UTP6 tRNA uridine 5-carboxymethylaminomethyl mod...  36.7    1.3  
+  UniRef90_UPI00047A2709 L-serine ammonia-lyase, iron-sulfur-depe...  36.3    1.5  
+  UniRef90_A0A0D2N9X1 Uncharacterized protein n=1 Tax=Gossypium r...  36.3    1.7  
+  UniRef90_V6Q5Z4 Uncharacterized protein n=2 Tax=Vagococcus lutr...  36.3    1.8  
+  UniRef90_A0A1B7JCF6 Uncharacterized protein n=13 Tax=Enterobact...  34.4    1.8  
+  UniRef90_A0A127H2U0 Carboxylate--amine ligase n=5 Tax=Psychroba...  36.3    1.9  
+  UniRef90_A0A2A5HKZ6 Peptide ABC transporter substrate-binding p...  36.3    1.9  
+  UniRef90_A0A1C5D7B2 Signal transduction histidine kinase n=2 Ta...  36.3    1.9  
+  UniRef90_E1PL80 Uncharacterized protein n=6 Tax=Enterobacterale...  35.2    1.9  
+  UniRef90_K4ZNW4 Putative L-serine dehydratase, alpha chain n=7 ...  35.9    2.0  
+  UniRef90_A0A1Q8BPZ7 Uncharacterized protein (Fragment) n=1 Tax=...  35.9    2.0  
+  UniRef90_UPI000411F075 XRE family transcriptional regulator n=1...  35.2    2.1  
+  UniRef90_A0A1M7MGZ1 Uncharacterized protein n=1 Tax=Mucilaginib...  35.9    2.1  
+  UniRef90_A0A2S5D3Q6 L-serine dehydratase, alpha chain n=31 Tax=...  35.9    2.4  
+  UniRef90_UPI000590C9A4 catalase n=1 Tax=Pseudomonas massiliensi...  35.9    2.6  
+  UniRef90_A0A285D300 L-serine dehydratase n=1 Tax=Bacillus oleiv...  35.9    2.6  
+  UniRef90_W4H920 tRNA uridine 5-carboxymethylaminomethyl modific...  35.9    2.8  
+  UniRef90_F0TAN9 Cobalamin B12-binding domain protein n=1 Tax=Me...  35.6    2.8  
+  UniRef90_A0A2P5W0Z5 Uncharacterized protein n=1 Tax=Gossypium b...  35.6    2.9  
+  UniRef90_A0A328W696 ATP-dependent helicase/nuclease subunit A n...  35.6    3.0  
+  UniRef90_A0A085ASF3 Uncharacterized protein n=1 Tax=Trabulsiell...  33.6    3.3  
+  UniRef90_A0A0M9ELH1 Hat family dimerization protein (Fragment) ...  35.6    3.4  
+  UniRef90_A0A3L6MTQ3 Uncharacterized protein n=2 Tax=Fusarium ox...  35.6    3.5  
+  UniRef90_A0A1B8A5P1 Uncharacterized protein n=1 Tax=Fusarium po...  35.6    3.5  
+  UniRef90_A0A166MGD9 HAT family dimerization domain protein n=8 ...  35.6    3.5  
+  UniRef90_A0A2N6IIC2 Uncharacterized protein n=2 Tax=Janthinobac...  35.6    3.7  
+  UniRef90_A0A397CW96 Uncharacterized protein (Fragment) n=1 Tax=...  35.2    3.8  
+  UniRef90_A0A0P9RAJ3 Putative Ribose ABC transporter, ATP-bindin...  35.2    3.8  
+  UniRef90_A0A397B776 Uncharacterized protein n=3 Tax=Aphanomyces...  35.2    3.9  
+  UniRef90_A0A1Y5N8Z1 Uncharacterized protein n=1 Tax=Campylobact...  35.2    4.4  
+  UniRef90_A0A1G6H1L9 L-serine ammonia-lyase n=1 Tax=Pelagirhabdu...  35.2    4.7  
+  UniRef90_UPI0008F8050C L-serine ammonia-lyase, iron-sulfur-depe...  35.2    4.7  
+  UniRef90_UPI0009823F99 L-serine ammonia-lyase, iron-sulfur-depe...  34.8    5.0  
+  UniRef90_A0A150JUM0 L-serine dehydratase, alpha subunit n=10 Ta...  34.8    5.6  
+  UniRef90_UPI0005F8029E catalase n=1 Tax=Cellvibrionaceae bacter...  34.8    5.8  
+  UniRef90_UPI000592DFF7 cytochrome P450 n=1 Tax=Nocardia takeden...  34.8    5.9  
+  UniRef90_A0A225VXE2 Uncharacterized protein n=1 Tax=Phytophthor...  34.8    6.2  
+  UniRef90_A0A2I4E3W2 helicase protein MOM1-like isoform X1 n=3 T...  34.8    6.3  
+  UniRef90_A0A317ZIE6 Uncharacterized protein n=1 Tax=Coraliomarg...  34.0    6.3  
+  UniRef90_UPI000B44127C L-serine ammonia-lyase, iron-sulfur-depe...  34.8    6.4  
+  UniRef90_UPI0007655F22 nucleoside triphosphate hydrolase n=21 T...  34.8    6.4  
+  UniRef90_UPI000287F12C tetratricopeptide repeat protein n=1 Tax...  34.8    6.7  
+  UniRef90_UPI00098DBF64 BAG family molecular chaperone regulator...  34.8    6.7  
+  UniRef90_A0A264W591 Uncharacterized protein n=1 Tax=Tetzosporiu...  34.8    6.8  
+  UniRef90_A0A1G1BJ96 UvrABC system protein B n=2 Tax=Ignavibacte...  34.8    6.9  
+  UniRef90_UPI0002F659A5 DNA primase n=2 Tax=Paenibacillus TaxID=...  34.8    7.1  
+  UniRef90_A0A0G1TYC0 Peptide chain release factor 1 n=2 Tax=uncl...  34.4    7.3  
+  UniRef90_A0A0G4IZQ4 Uncharacterized protein n=2 Tax=Plasmodioph...  34.8    7.4  
+  UniRef90_A0A1Z1SU90 Uncharacterized protein n=7 Tax=Enterobacte...  32.9    7.5  
+  UniRef90_A0A0P9SDH5 Ribose ABC transporter ATP-binding protein ...  34.4    8.4  
+  UniRef90_A0A2B9AVK2 L-serine ammonia-lyase, iron-sulfur-depende...  34.4    8.6  
+  UniRef90_A0A2K0WKP5 Uncharacterized protein n=2 Tax=Gibberella ...  34.4    9.5  
+  UniRef90_A0A352WIP6 Uncharacterized protein n=1 Tax=Lachnospira...  34.0    9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.159    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0487    0.140     1.90     42.6     43.6 
+
+Effective search space used: 752729337810
+Results from round 3
+
+
+Query= NP_414916.1
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A127L791 Anti-adapter protein IraP n=2 Tax=Enterobac...  111     2e-30
+  UniRef90_D2TKW6 Anti-adapter protein IraP n=9 Tax=Gammaproteoba...  110     7e-30
+  UniRef90_B1EKV6 Uncharacterized protein n=5 Tax=Enterobacterale...  107     6e-29
+  UniRef90_P28243 Anti-adapter protein IraP n=3 Tax=Escherichia f...  106     9e-29
+  UniRef90_A0A2P5GS95 Anti-adapter protein IraP n=1 Tax=Superfici...  106     1e-28
+  UniRef90_A0A0F0XX05 Anti-adapter protein IraP n=18 Tax=Enteroba...  105     4e-28
+  UniRef90_A7MLV0 Anti-adapter protein IraP n=21 Tax=Cronobacter ...  104     6e-28
+  UniRef90_Q32JD0 Anti-adapter protein IraP n=315 Tax=root TaxID=...  104     8e-28
+  UniRef90_A0A381H6P4 Anti-adapter protein IraP n=1 Tax=Citrobact...  104     8e-28
+  UniRef90_UPI00057BE13B anti-adapter protein IraP n=1 Tax=Entero...  104     1e-27
+  UniRef90_A9MMS6 Anti-adapter protein IraP n=118 Tax=Salmonella ...  104     1e-27
+  UniRef90_A8AK82 Anti-adapter protein IraP n=27 Tax=Enterobacter...  104     1e-27
+  UniRef90_A0A2T3XBQ0 Anti-adapter protein IraP n=10 Tax=Enteroba...  103     2e-27
+  UniRef90_UPI0007335BA7 anti-adapter protein IraP n=2 Tax=Citrob...  102     4e-27
+  UniRef90_A0A329HVF0 Anti-adapter protein IraP n=1 Tax=Enterobac...  101     9e-27
+  UniRef90_A0A2J0NDK8 Anti-adapter protein IraP n=5 Tax=Enterobac...  101     9e-27
+  UniRef90_A0A090V0X2 Anti-adapter protein IraP n=4 Tax=Enterobac...  101     1e-26
+  UniRef90_A0A1I6DFJ3 Anti-adapter protein IraP n=1 Tax=Enterobac...  101     2e-26
+  UniRef90_A0A1B7IV27 YaiB family cytoplasmic protein n=2 Tax=But...  101     2e-26
+  UniRef90_A0A163X9A8 Anti-adapter protein IraP n=17 Tax=Enteroba...  100     2e-26
+  UniRef90_A0A1N6U344 Anti-adapter protein IraP n=2 Tax=Enterobac...  100     2e-26
+  UniRef90_UPI00073D6635 anti-adapter protein IraP n=1 Tax=[Erwin...  99.8    5e-26
+  UniRef90_A0A0J8VTI7 Anti-adapter protein IraP n=5 Tax=Franconib...  99.8    5e-26
+  UniRef90_A0A2I6E8U4 Anti-adapter protein IraP n=3 Tax=Enterobac...  99.1    1e-25
+  UniRef90_A0A0T5XG12 Anti-adapter protein IraP n=48 Tax=Bacteria...  99.1    1e-25
+  UniRef90_A0A345CE11 Anti-adapter protein IraP n=4 Tax=Enterobac...  99.1    1e-25
+  UniRef90_A0A291E1L2 Anti-adapter protein IraP n=7 Tax=Enterobac...  98.7    1e-25
+  UniRef90_R9VVD8 Anti-RssB factor n=2 Tax=Enterobacteriaceae Tax...  98.7    2e-25
+  UniRef90_A0A318VYU9 Anti-adapter protein IraP n=4 Tax=Enterobac...  98.3    2e-25
+  UniRef90_A0A1A9F959 Anti-adapter protein IraP n=3 Tax=Enterobac...  98.3    2e-25
+  UniRef90_A0A336J576 Anti-adapter protein IraP n=34 Tax=Enteroba...  97.9    3e-25
+  UniRef90_G9Z3U2 Anti-adapter protein IraP n=2 Tax=Yokenella reg...  97.9    3e-25
+  UniRef90_A4W757 Anti-adapter protein IraP n=5 Tax=Enterobacteri...  97.5    4e-25
+  UniRef90_UPI000EACA9C1 anti-adapter protein IraP n=1 Tax=Entero...  97.1    6e-25
+  UniRef90_UPI00077B8024 anti-adapter protein IraP n=1 Tax=Entero...  96.8    9e-25
+  UniRef90_G2S962 Anti-adapter protein IraP n=2 Tax=Enterobacter ...  96.8    1e-24
+  UniRef90_A0A094Y7I9 Anti-adapter protein IraP n=6 Tax=Enterobac...  96.0    2e-24
+  UniRef90_D8MNR9 Anti-adapter protein IraP n=1 Tax=Erwinia billi...  96.0    2e-24
+  UniRef90_A0A085GHX1 YaiB family cytoplasmic protein n=2 Tax=But...  96.0    2e-24
+  UniRef90_A0A1X1CU19 Anti-adapter protein IraP n=1 Tax=Pantoea r...  95.6    2e-24
+  UniRef90_A0A2S4X1N2 Anti-adapter protein IraP n=3 Tax=Enterobac...  94.8    5e-24
+  UniRef90_V5AFT5 Anti-adapter protein iraP n=3 Tax=Enterobacteri...  94.8    6e-24
+  UniRef90_A0A1X1D903 Uncharacterized protein n=1 Tax=Pantoea wal...  94.1    1e-23
+  UniRef90_A0A3N5D2R8 Anti-adapter protein IraP n=1 Tax=Buttiauxe...  93.7    1e-23
+  UniRef90_A0A3G2IMX1 Anti-adapter protein IraP n=1 Tax=Buttiauxe...  93.3    2e-23
+  UniRef90_A0A0B5ID56 Anti-adapter protein IraP n=10 Tax=Enteroba...  93.3    2e-23
+  UniRef90_UPI000FE2EAA3 anti-adapter protein IraP n=1 Tax=Pantoe...  93.3    2e-23
+  UniRef90_A0A0F3LWB8 Uncharacterized protein n=12 Tax=Enterobact...  92.9    3e-23
+  UniRef90_G5QVH7 Anti-adapter protein IraP n=2 Tax=Salmonella en...  93.7    3e-23
+  UniRef90_UPI000907E358 anti-adapter protein IraP n=1 Tax=Escher...  92.1    7e-23
+  UniRef90_E6WAS2 Sigma-S stabilization anti-adaptor protein n=2 ...  91.4    1e-22
+  UniRef90_UPI0008309B0C anti-adapter protein IraP n=1 Tax=Erwini...  91.4    1e-22
+  UniRef90_UPI000948D1C5 anti-adapter protein IraP n=1 Tax=Pantoe...  91.0    2e-22
+  UniRef90_A0A0A3YGR8 Uncharacterized protein n=1 Tax=Erwinia typ...  91.0    2e-22
+  UniRef90_A0A0L7T2K4 Uncharacterized protein n=2 Tax=Erwinia ini...  91.0    2e-22
+  UniRef90_UPI000347BE81 anti-adapter protein IraP n=1 Tax=Erwini...  90.2    3e-22
+  UniRef90_A0A2S9IH81 Anti-adapter protein IraP n=2 Tax=Erwiniace...  90.2    4e-22
+  UniRef90_UPI0008516859 anti-adapter protein IraP n=1 Tax=Pantoe...  90.2    4e-22
+  UniRef90_A0A2S4RK23 Anti-adapter protein IraP n=4 Tax=Erwiniace...  89.8    4e-22
+  UniRef90_A0A1W6B1F3 Anti-adapter protein IraP n=2 Tax=Erwiniace...  89.8    6e-22
+  UniRef90_A0A0F5Y6H1 Uncharacterized protein n=2 Tax=Pantoea Tax...  89.4    6e-22
+  UniRef90_A0A1B7HUG9 YaiB family cytoplasmic protein n=3 Tax=But...  89.4    7e-22
+  UniRef90_A0A071M6I5 Uncharacterized protein n=3 Tax=Mangrovibac...  88.7    1e-21
+  UniRef90_UPI0007E8E870 anti-adapter protein IraP n=1 Tax=Entero...  88.7    2e-21
+  UniRef90_A0A014Q1L8 Anti-RssB factor n=1 Tax=Erwinia mallotivor...  88.3    2e-21
+  UniRef90_A0A1X1ERJ1 Uncharacterized protein n=1 Tax=Pantoea cyp...  87.9    3e-21
+  UniRef90_A0A0J8YH29 Uncharacterized protein n=2 Tax=unclassifie...  87.9    4e-21
+  UniRef90_UPI0005C81421 anti-adapter protein IraP n=1 Tax=Raoult...  87.5    5e-21
+  UniRef90_A0A3A5JU25 Anti-adapter protein IraP n=1 Tax=Buttiauxe...  87.1    5e-21
+  UniRef90_A0A356YNK5 Anti-adapter protein IraP n=3 Tax=Erwinia p...  87.1    6e-21
+  UniRef90_B2VHM5 Uncharacterized protein n=1 Tax=Erwinia tasmani...  87.1    7e-21
+  UniRef90_E1SF32 Uncharacterized protein yaiB n=3 Tax=Pantoea va...  86.7    9e-21
+  UniRef90_A0A0Q4N3A5 Uncharacterized protein n=1 Tax=Erwinia sp....  86.4    1e-20
+  UniRef90_A0A3A9J6Y8 Anti-adapter protein IraP n=7 Tax=Erwiniace...  86.0    2e-20
+  UniRef90_A0A3N4PFE7 Anti-adapter protein IraP n=1 Tax=Pantoea s...  86.0    2e-20
+  UniRef90_A0A246NJV3 Anti-adapter protein IraP n=2 Tax=Pantoea T...  84.8    4e-20
+  UniRef90_A0A2X3EAJ7 Anti-adapter protein iraP n=1 Tax=Kluyvera ...  84.0    9e-20
+  UniRef90_A0A0J8YHI4 Uncharacterized protein n=2 Tax=unclassifie...  84.4    9e-20
+  UniRef90_H3R8A0 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  83.7    1e-19
+  UniRef90_A0A2S5KBJ1 Anti-adapter protein IraP n=4 Tax=Pantoea T...  83.3    2e-19
+  UniRef90_A0A2T2Y0E6 Anti-adapter protein IraP n=1 Tax=Kluyvera ...  83.3    2e-19
+  UniRef90_UPI000789307C anti-adapter protein IraP n=1 Tax=Salmon...  82.9    3e-19
+  UniRef90_A0A3N6SKZ8 Anti-adapter protein IraP n=1 Tax=Erwinia p...  82.5    3e-19
+  UniRef90_A0A2I0FSM7 Anti-adapter protein IraP n=1 Tax=Enterobac...  82.5    5e-19
+  UniRef90_A0A1V0LI43 Anti-adapter protein IraP n=8 Tax=Enterobac...  82.1    5e-19
+  UniRef90_A6T5A7 Anti-adapter protein IraP n=62 Tax=Enterobacter...  81.7    8e-19
+  UniRef90_UPI000305154D anti-adapter protein IraP n=1 Tax=Metako...  81.0    1e-18
+  UniRef90_A0A2V2BHJ1 Sigma-S stabilization anti-adaptor protein ...  81.0    2e-18
+  UniRef90_A0A0L0H3M2 Anti-adapter protein IraP n=2 Tax=Trabulsie...  81.0    2e-18
+  UniRef90_A0A1B7JIN1 YaiB family cytoplasmic protein n=3 Tax=Klu...  80.6    3e-18
+  UniRef90_UPI00098B2451 anti-adapter protein IraP n=3 Tax=Escher...  79.4    4e-18
+  UniRef90_D4GL60 YaiB n=8 Tax=Pantoea ananas TaxID=553 RepID=D4G...  79.4    5e-18
+  UniRef90_A0A1X1DD48 Uncharacterized protein n=2 Tax=Pantoea Tax...  79.4    7e-18
+  UniRef90_UPI0007887563 hypothetical protein n=1 Tax=Kluyvera in...  79.4    7e-18
+  UniRef90_UPI000FE2D06B anti-adapter protein IraP n=1 Tax=Pantoe...  79.4    1e-17
+  UniRef90_UPI00098D19B2 anti-adapter protein IraP n=1 Tax=Salmon...  77.9    1e-17
+  UniRef90_A0A378GKX9 Anti-adapter protein iraP n=1 Tax=Kluyvera ...  78.3    2e-17
+  UniRef90_UPI00068B166D hypothetical protein n=1 Tax=Kluyvera cr...  77.9    2e-17
+  UniRef90_E0LUX0 Sigma-S stabilization anti-adaptor protein n=16...  77.9    3e-17
+  UniRef90_UPI00082AC93D anti-adapter protein IraP n=1 Tax=Erwini...  77.9    3e-17
+  UniRef90_A0A1S2BLE1 Anti-adapter protein iraP n=5 Tax=Pluraliba...  77.5    4e-17
+  UniRef90_UPI000F66D72A anti-adapter protein IraP n=1 Tax=Erwini...  77.5    6e-17
+  UniRef90_UPI000A0589D6 hypothetical protein n=1 Tax=Candidatus ...  77.1    1e-16
+  UniRef90_A0A0U5EAY3 Uncharacterized protein n=1 Tax=Erwinia ger...  76.3    1e-16
+  UniRef90_UPI00051D5A9E anti-adapter protein IraP n=1 Tax=Pantoe...  75.9    1e-16
+  UniRef90_A0A085GB44 Uncharacterized protein n=3 Tax=Ewingella a...  75.9    2e-16
+  UniRef90_UPI000F661E8F anti-adapter protein IraP n=1 Tax=Atlant...  75.6    2e-16
+  UniRef90_A0A0Q4NF06 Uncharacterized protein n=2 Tax=Erwinia Tax...  75.6    3e-16
+  UniRef90_UPI000F66A1FB anti-adapter protein IraP n=1 Tax=Entero...  74.8    3e-16
+  UniRef90_UPI000DF0085D anti-adapter protein IraP n=1 Tax=Rahnel...  74.8    6e-16
+  UniRef90_A0A2L0IHI1 Anti-adapter protein IraP n=3 Tax=Erwiniace...  74.8    6e-16
+  UniRef90_A0A2V3SNE9 Sigma-S stabilization anti-adaptor protein ...  74.4    6e-16
+  UniRef90_A0A0D1MM67 Uncharacterized protein n=3 Tax=Enterobacte...  74.4    7e-16
+  UniRef90_A0A357U2U0 Anti-adapter protein IraP n=2 Tax=Erwinia p...  74.4    8e-16
+  UniRef90_D8MNN5 Conserved uncharacterized protein n=3 Tax=Erwin...  74.4    8e-16
+  UniRef90_A0A2P8VNV4 Anti-adapter protein IraP n=3 Tax=Enterobac...  74.0    8e-16
+  UniRef90_A0A2M9WFE0 Anti-adapter protein IraP n=1 Tax=Pantoea r...  74.4    1e-15
+  UniRef90_A0A1W6B894 Uncharacterized protein n=1 Tax=Pantoea alh...  74.0    1e-15
+  UniRef90_D4HXT4 Uncharacterized protein yaiB n=6 Tax=Erwinia Ta...  74.0    1e-15
+  UniRef90_A0A3N1I5I8 Sigma-S stabilization anti-adaptor protein ...  73.6    1e-15
+  UniRef90_A0A0L7T6L5 Uncharacterized protein n=1 Tax=Erwinia ini...  73.6    2e-15
+  UniRef90_E6WBJ8 Sigma-S stabilization anti-adaptor protein n=3 ...  73.3    2e-15
+  UniRef90_J3D4Z7 Sigma-S stabilization anti-adaptor protein n=8 ...  71.7    9e-15
+  UniRef90_UPI00034B48D0 anti-adapter protein IraP n=1 Tax=Erwini...  71.7    9e-15
+  UniRef90_E1SGR4 Uncharacterized protein n=16 Tax=Pantoea TaxID=...  71.3    1e-14
+  UniRef90_D4GH09 YaiB n=11 Tax=Pantoea TaxID=53335 RepID=D4GH09_...  71.7    1e-14
+  UniRef90_A0A2N5ELS9 Anti-adapter protein IraP n=3 Tax=unclassif...  70.9    1e-14
+  UniRef90_A0A0Q4NGW6 Anti-RssB factor n=2 Tax=Yersiniaceae TaxID...  71.7    1e-14
+  UniRef90_A0A0J1LKS7 Anti-adapter protein IraP n=1 Tax=Citrobact...  70.6    2e-14
+  UniRef90_UPI000366D5C9 anti-adapter protein IraP n=1 Tax=Pantoe...  70.9    2e-14
+  UniRef90_A0A1X1E8F7 Uncharacterized protein n=1 Tax=Pantoea del...  71.3    2e-14
+  UniRef90_A0A2K1Q6M1 Anti-adapter protein IraP n=1 Tax=Mixta the...  70.9    2e-14
+  UniRef90_A0A376JG37 Anti-RssB factor n=2 Tax=Escherichia coli T...  69.8    3e-14
+  UniRef90_UPI000DD2EC36 anti-adapter protein IraP n=3 Tax=Yersin...  70.9    3e-14
+  UniRef90_UPI000E6C1920 anti-adapter protein IraP n=1 Tax=Entero...  70.6    4e-14
+  UniRef90_A0A0U5E7K4 Uncharacterized protein n=1 Tax=Erwinia ger...  69.4    5e-14
+  UniRef90_D8MPC4 Conserved uncharacterized protein n=3 Tax=Erwin...  70.2    6e-14
+  UniRef90_A0A1S2RT28 Anti-RssB factor n=3 Tax=Citrobacter freund...  69.0    8e-14
+  UniRef90_A0A2L1UN08 Anti-RssB factor n=2 Tax=Rahnella TaxID=340...  69.8    8e-14
+  UniRef90_Q6D358 Uncharacterized protein n=17 Tax=Pectobacterium...  69.0    8e-14
+  UniRef90_D8MV85 Uncharacterized protein n=1 Tax=Erwinia billing...  69.4    9e-14
+  UniRef90_A0A0D7M3E2 Anti-RssB factor n=20 Tax=Enterobacteriacea...  68.2    1e-13
+  UniRef90_UPI000948F880 anti-adapter protein IraP n=1 Tax=Pantoe...  69.4    1e-13
+  UniRef90_A0A376QZU3 Anti-RssB factor n=9 Tax=Enterobacteriaceae...  67.9    2e-13
+  UniRef90_A0A378E0Z6 Cytoplasmic protein YaiB n=1 Tax=Klebsiella...  67.1    2e-13
+  UniRef90_A0A090U2I2 Anti-adapter protein IraP n=5 Tax=Enterobac...  67.9    2e-13
+  UniRef90_UPI000CD0E6EB anti-adapter protein IraP n=1 Tax=Pectob...  67.9    2e-13
+  UniRef90_A0A0F3LVK7 Uncharacterized protein n=3 Tax=Enterobacte...  68.2    3e-13
+  UniRef90_H2IXZ4 Sigma-S stabilization anti-adaptor protein n=4 ...  68.2    4e-13
+  UniRef90_UPI000FE32D18 anti-adapter protein IraP n=1 Tax=Pantoe...  67.9    5e-13
+  UniRef90_A0A0Q4MCT1 Anti-RssB factor n=2 Tax=Yersiniaceae TaxID...  67.9    6e-13
+  UniRef90_C9Y2W5 Uncharacterized protein n=4 Tax=Cronobacter Tax...  67.5    6e-13
+  UniRef90_A0A379AK04 Anti-adapter protein iraP n=1 Tax=Enterobac...  65.9    7e-13
+  UniRef90_A0A0B2T8E3 Anti-adapter protein n=1 Tax=Pectobacterium...  66.7    7e-13
+  UniRef90_UPI000EF25B91 anti-adapter protein n=1 Tax=Brenneria a...  66.7    8e-13
+  UniRef90_A0A064EBB3 Uncharacterized protein n=3 Tax=Citrobacter...  66.3    8e-13
+  UniRef90_UPI000379837E hypothetical protein n=1 Tax=Enterobacte...  66.3    9e-13
+  UniRef90_A0A193QGV1 Anti-adapter protein IraP n=1 Tax=Sodalis g...  65.9    1e-12
+  UniRef90_A0A093TH20 Anti-adapter protein n=1 Tax=Pectobacterium...  65.9    1e-12
+  UniRef90_UPI000551C4E3 anti-adapter protein IraP n=2 Tax=Erwini...  65.9    2e-12
+  UniRef90_UPI000CFD035D anti-adapter protein IraP n=1 Tax=Cronob...  66.3    2e-12
+  UniRef90_A0A1A9FBE9 Anti-RssB factor n=1 Tax=Lelliottia amnigen...  66.3    2e-12
+  UniRef90_UPI0006690D9B hypothetical protein n=1 Tax=Klebsiella ...  65.5    2e-12
+  UniRef90_A0A376I2Y0 Anti-RssB factor n=2 Tax=Enterobacteriaceae...  65.2    2e-12
+  UniRef90_W0HUS2 Uncharacterized protein n=1 Tax=Sodalis praecap...  65.2    3e-12
+  UniRef90_A0A1D7YVV4 Anti-adapter protein n=8 Tax=Pectobacterium...  65.2    3e-12
+  UniRef90_A0A0A1RDH5 Cytoplasmic protein YaiB n=7 Tax=Enterobact...  64.8    3e-12
+  UniRef90_U2M407 Uncharacterized protein n=1 Tax=Pantoea sp. AS-...  65.2    3e-12
+  UniRef90_V5U0Z8 Anti-adapter protein IraP n=15 Tax=Cronobacter ...  65.5    4e-12
+  UniRef90_W0HWB7 Uncharacterized protein n=3 Tax=Sodalis TaxID=8...  64.8    6e-12
+  UniRef90_I2BBV7 Uncharacterized protein n=1 Tax=Shimwellia blat...  64.0    7e-12
+  UniRef90_D4BD91 Putative Anti-adapter protein IraP n=1 Tax=Citr...  63.6    1e-11
+  UniRef90_W0BQJ9 Anti-RssB factor n=5 Tax=Enterobacter cloacae c...  64.4    1e-11
+  UniRef90_G5QED9 Cytoplasmic protein YaiB n=1 Tax=Salmonella ent...  62.5    2e-11
+  UniRef90_A0A0G4K208 Anti-adapter protein n=1 Tax=Brenneria good...  63.2    2e-11
+  UniRef90_A0A1V2BV23 Anti-RssB factor n=7 Tax=Enterobacteriaceae...  63.6    3e-11
+  UniRef90_UPI000468F1F1 anti-adapter protein IraP n=1 Tax=Pantoe...  62.5    4e-11
+  UniRef90_A0A1U7DWN1 Anti-RssB factor n=5 Tax=Enterobacterales T...  62.9    4e-11
+  UniRef90_A0A1Y0LGN8 Uncharacterized protein n=1 Tax=Tatumella c...  62.1    5e-11
+  UniRef90_A7MGJ0 Uncharacterized protein n=9 Tax=Enterobacteriac...  62.9    8e-11
+  UniRef90_A4WB35 Uncharacterized protein n=6 Tax=Enterobacteriac...  61.7    1e-10
+  UniRef90_H5UYX5 Anti-adapter protein IraP n=1 Tax=Atlantibacter...  61.7    1e-10
+  UniRef90_A0A2N5ENZ6 Anti-adapter protein IraP n=3 Tax=unclassif...  61.3    1e-10
+  UniRef90_G7LL77 Sigma-S stabilization anti-adaptor protein n=3 ...  60.2    3e-10
+  UniRef90_A0A2S6VQ57 Anti-adapter protein IraP n=1 Tax=Pantoea s...  59.8    3e-10
+  UniRef90_UPI0004E2B090 hypothetical protein n=2 Tax=Leclercia a...  59.8    4e-10
+  UniRef90_A0A0A3Z298 Anti-RssB factor n=1 Tax=Erwinia typographi...  60.2    5e-10
+  UniRef90_F5NQC5 Protein iraP n=1 Tax=Shigella flexneri K-227 Ta...  58.2    7e-10
+  UniRef90_A0A2U1TY58 Anti-adapter protein n=2 Tax=Brenneria rose...  58.2    1e-09
+  UniRef90_A0A379WYU8 Anti-adapter protein iraP n=2 Tax=Salmonell...  57.5    2e-09
+  UniRef90_A0A095TE10 Uncharacterized protein n=2 Tax=Tatumella m...  57.8    2e-09
+  UniRef90_A0A366HYF4 Sigma-S stabilization anti-adaptor protein ...  57.5    3e-09
+  UniRef90_A0A379SAS5 Anti-adapter protein iraP n=1 Tax=Salmonell...  56.3    4e-09
+  UniRef90_A0A2S4QKE9 Uncharacterized protein n=3 Tax=Enterobacte...  57.1    5e-09
+  UniRef90_UPI000DA1878F hypothetical protein n=1 Tax=Franconibac...  57.1    6e-09
+  UniRef90_A0A376SZH0 Anti-RssB factor n=1 Tax=Escherichia coli T...  55.5    8e-09
+  UniRef90_UPI000A022322 hypothetical protein n=1 Tax=Tatumella s...  55.5    2e-08
+  UniRef90_A0A377KB04 Anti-RssB factor n=1 Tax=Escherichia coli T...  54.0    3e-08
+  UniRef90_A0A085JAX7 Uncharacterized protein n=2 Tax=Tatumella p...  54.4    5e-08
+  UniRef90_F5NQC4 Protein iraP n=1 Tax=Shigella flexneri K-227 Ta...  50.1    8e-07
+  UniRef90_G5LJR9 Cytoplasmic protein YaiB n=2 Tax=Salmonella ent...  48.6    4e-06
+  UniRef90_U3U4I1 Uncharacterized protein n=1 Tax=Plautia stali s...  47.8    9e-06
+  UniRef90_UPI0009DCCE73 hypothetical protein n=1 Tax=Candidatus ...  45.1    2e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00054F9570 anti-adapter protein IraP n=2 Tax=Erwini...  62.1    9e-11
+  UniRef90_A0A0J8Y917 Anti-RssB factor n=2 Tax=Franconibacter pul...  60.9    2e-10
+  UniRef90_E6WLN3 Sigma-S stabilization anti-adaptor protein n=1 ...  60.2    4e-10
+  UniRef90_A0A1V9D7C3 Anti-RssB factor n=1 Tax=Pantoea latae TaxI...  60.2    7e-10
+  UniRef90_UPI0002F8D45D anti-adapter protein IraP n=1 Tax=Metako...  59.8    7e-10
+  UniRef90_A0A2M9W998 Anti-adapter protein IraP n=1 Tax=Pantoea r...  59.0    2e-09
+  UniRef90_A0A3A9IQJ7 Anti-adapter protein IraP n=3 Tax=Erwiniace...  59.0    2e-09
+  UniRef90_G7LTF2 Sigma-S stabilization anti-adaptor protein n=3 ...  58.2    2e-09
+  UniRef90_A0A2V3QEC5 Sigma-S stabilization anti-adaptor protein ...  58.2    2e-09
+  UniRef90_A0A366I1F4 Sigma-S stabilization anti-adaptor protein ...  57.8    3e-09
+  UniRef90_A0A168MA40 Anti-RssB factor n=4 Tax=Enterobacteriaceae...  57.8    3e-09
+  UniRef90_A0A0U5L157 Uncharacterized protein n=1 Tax=Erwinia ger...  57.8    4e-09
+  UniRef90_UPI0008E68C29 anti-adapter protein IraP n=1 Tax=Pantoe...  57.8    5e-09
+  UniRef90_A0A0G3QAM2 Anti-RssB factor n=10 Tax=Enterobacterales ...  57.5    5e-09
+  UniRef90_UPI000EACEAC3 anti-adapter protein IraP n=1 Tax=Entero...  57.5    5e-09
+  UniRef90_UPI00077B7C9F anti-adapter protein IraP n=1 Tax=Entero...  57.1    7e-09
+  UniRef90_UPI000835DFFF anti-adapter protein IraP n=1 Tax=Erwini...  57.5    7e-09
+  UniRef90_H3MWL7 Anti-adapter protein IraP n=17 Tax=cellular org...  57.1    7e-09
+  UniRef90_A0A3N6WJX6 Anti-adapter protein IraP n=8 Tax=Erwiniace...  57.1    9e-09
+  UniRef90_I0QPY9 Anti-RssB factor n=2 Tax=Serratia sp. M24T3 Tax...  56.7    1e-08
+  UniRef90_U3TRN9 Uncharacterized protein n=4 Tax=Enterobacterale...  55.9    2e-08
+  UniRef90_UPI0005091A81 anti-adapter protein IraP n=1 Tax=Pantoe...  55.1    4e-08
+  UniRef90_A0A2V3QAG5 Sigma-S stabilization anti-adaptor protein ...  55.1    5e-08
+  UniRef90_A0A0F5F1K4 Anti-RssB factor n=3 Tax=Erwiniaceae TaxID=...  54.8    6e-08
+  UniRef90_A0A378D6N6 Anti-RssB factor n=1 Tax=Klebsiella oxytoca...  53.2    1e-07
+  UniRef90_A0A2P5GU34 Anti-adapter protein IraP n=1 Tax=Superfici...  53.2    2e-07
+  UniRef90_A0A0L0AP49 Anti-RssB factor n=1 Tax=Klebsiella sp. RIT...  53.2    2e-07
+  UniRef90_R9VS39 Uncharacterized protein n=5 Tax=Enterobacteriac...  53.2    2e-07
+  UniRef90_UPI000F665B1F anti-adapter protein IraP n=1 Tax=Erwini...  52.5    5e-07
+  UniRef90_A0A2S5KFK6 Anti-adapter protein IraP n=4 Tax=Erwiniace...  52.8    5e-07
+  UniRef90_UPI000DADECFD anti-adapter protein IraP n=1 Tax=Entero...  52.5    5e-07
+  UniRef90_A0A1X1DLN5 Anti-RssB factor n=2 Tax=Pantoea TaxID=5333...  52.5    5e-07
+  UniRef90_D4GNQ3 Uncharacterized protein n=10 Tax=Erwiniaceae Ta...  52.1    7e-07
+  UniRef90_A0A2A7V1B7 Anti-adapter protein IraP n=1 Tax=Enterobac...  52.1    7e-07
+  UniRef90_A0A0B1R4L3 Anti-RssB factor n=4 Tax=Enterobacterales T...  51.7    1e-06
+  UniRef90_UPI0006600AFF anti-adapter protein IraP n=1 Tax=Pantoe...  51.7    1e-06
+  UniRef90_A0A0F5XXP0 Anti-RssB factor n=1 Tax=Pantoea sp. 3.5.1 ...  51.3    2e-06
+  UniRef90_E1PL80 Uncharacterized protein n=6 Tax=Enterobacterale...  49.0    1e-05
+  UniRef90_UPI00065FDC14 anti-adapter protein IraP n=1 Tax=Pantoe...  49.0    1e-05
+  UniRef90_A0A0F5F9U4 Anti-RssB factor n=2 Tax=Pantoea TaxID=5333...  48.6    2e-05
+  UniRef90_UPI000B346EB6 anti-adapter protein IraP n=1 Tax=Entero...  47.1    6e-05
+  UniRef90_A0A3P8J0R5 Anti-RssB factor n=1 Tax=Raoultella terrige...  43.2    6e-04
+  UniRef90_A0A2S6VRS4 Uncharacterized protein n=1 Tax=Pantoea sp....  39.4    0.072
+  UniRef90_UPI000BE37DA6 hypothetical protein n=1 Tax=Edwardsiell...  37.4    0.15 
+  UniRef90_UPI0005398D62 L-serine ammonia-lyase, iron-sulfur-depe...  39.0    0.20 
+  UniRef90_A0A3L7LU99 Uncharacterized protein n=1 Tax=Sodalis-lik...  36.7    0.23 
+  UniRef90_A0A1B7JCF6 Uncharacterized protein n=13 Tax=Enterobact...  35.5    0.66 
+  UniRef90_A0A0F7K1S0 Uncharacterized protein n=1 Tax=Sedimentico...  37.0    0.82 
+  UniRef90_A0A090J0L3 L-serine ammonia-lyase, iron-sulfur-depende...  36.7    1.1  
+  UniRef90_UPI000D696C0A hypothetical protein n=1 Tax=Proteus sp....  35.1    1.1  
+  UniRef90_UPI0002F659A5 DNA primase n=2 Tax=Paenibacillus TaxID=...  36.7    1.2  
+  UniRef90_UPI0009DE8708 hypothetical protein n=2 Tax=Pseudoxanth...  36.7    1.2  
+  UniRef90_A0A2N6IIC2 Uncharacterized protein n=2 Tax=Janthinobac...  36.7    1.4  
+  UniRef90_A0A0B7FQ70 Rho guanine nucleotide exchange factor gef2...  36.3    1.8  
+  UniRef90_UPI0000121D7E C. briggsae CBR-LIN-41 protein n=1 Tax=C...  36.3    1.8  
+  UniRef90_A8Y1D1 Protein CBR-LIN-41 n=1 Tax=Caenorhabditis brigg...  36.3    1.8  
+  UniRef90_A0A2G5VTH8 Uncharacterized protein n=2 Tax=Caenorhabdi...  36.3    1.8  
+  UniRef90_A0A1Y4M8A4 Hydrolase n=2 Tax=Drancourtella TaxID=19035...  36.3    2.0  
+  UniRef90_UPI000C20CBBE protein CREBRF homolog n=1 Tax=Onthophag...  35.9    2.4  
+  UniRef90_UPI000287F12C tetratricopeptide repeat protein n=1 Tax...  35.9    2.6  
+  UniRef90_UPI000C6C43AE fibrinogen-like protein 1 n=1 Tax=Drosop...  35.5    2.9  
+  UniRef90_Q2S6R5 ATPase involved in DNA repair n=1 Tax=Hahella c...  35.5    3.3  
+  UniRef90_A0A3N4LLY9 Cysteine proteinase n=1 Tax=Terfezia boudie...  35.5    3.4  
+  UniRef90_A0A0M2T3B1 Serine dehydratase n=2 Tax=Bacillus TaxID=5...  35.5    3.5  
+  UniRef90_A0A372LSE2 L-serine ammonia-lyase, iron-sulfur-depende...  35.5    3.6  
+  UniRef90_A0A327YRA0 AAA ATPase-like protein n=1 Tax=Anoxybacill...  35.5    3.7  
+  UniRef90_A0A1I4FHY5 SH3 domain-containing protein n=2 Tax=Nitro...  35.1    3.9  
+  UniRef90_A0A3A4Q8V9 Uncharacterized protein (Fragment) n=1 Tax=...  35.5    4.0  
+  UniRef90_A0A1N5TR22 MinD-like ATPase involved in chromosome par...  35.5    4.0  
+  UniRef90_UPI0004297467 asparagine--tRNA ligase n=1 Tax=Atopococ...  35.1    4.1  
+  UniRef90_UPI000650B670 molecular chaperone n=1 Tax=Klebsiella q...  35.1    4.4  
+  UniRef90_A0A1E3ZRZ7 Acetylglucosamine transferase n=1 Tax=Acido...  35.1    4.6  
+  UniRef90_W7YKS5 Ribose and galactose chemoreceptor protein n=1 ...  35.1    5.1  
+  UniRef90_A0A2N2X5C4 Pyrophosphate--fructose 6-phosphate 1-phosp...  35.1    5.1  
+  UniRef90_A0A1V5XRV8 Putative phospholipid ABC transporter-bindi...  35.1    5.2  
+  UniRef90_A0A3B4WDZ2 Uncharacterized protein n=3 Tax=Seriola Tax...  35.1    5.3  
+  UniRef90_A0A2I4E3W2 helicase protein MOM1-like isoform X1 n=3 T...  35.1    5.4  
+  UniRef90_A0A1G1BJ96 UvrABC system protein B n=2 Tax=Ignavibacte...  35.1    5.5  
+  UniRef90_A0A225VXE2 Uncharacterized protein n=1 Tax=Phytophthor...  34.7    5.7  
+  UniRef90_A0A198GDN0 Uncharacterized protein n=1 Tax=Cosenzaea m...  33.2    5.9  
+  UniRef90_A0A2P5W0Z5 Uncharacterized protein n=1 Tax=Gossypium b...  34.7    6.4  
+  UniRef90_A0A0D2N9X1 Uncharacterized protein n=1 Tax=Gossypium r...  34.7    6.5  
+  UniRef90_A0A1Z1SU90 Uncharacterized protein n=7 Tax=Enterobacte...  33.2    7.1  
+  UniRef90_UPI0008F8050C L-serine ammonia-lyase, iron-sulfur-depe...  34.3    7.6  
+  UniRef90_A0A0G4IZQ4 Uncharacterized protein n=2 Tax=Plasmodioph...  34.7    7.9  
+  UniRef90_A0A2B2BXY1 L-serine ammonia-lyase, iron-sulfur-depende...  34.3    8.1  
+  UniRef90_A0A246TWS3 FMN reductase n=2 Tax=Rhizobium/Agrobacteri...  34.3    8.2  
+  UniRef90_UPI00047A2709 L-serine ammonia-lyase, iron-sulfur-depe...  34.3    8.6  
+  UniRef90_W8AXS7 Serine/threonine-protein kinase Smg1 n=2 Tax=Ce...  34.3    8.8  
+  UniRef90_A0A0G1TYC0 Peptide chain release factor 1 n=2 Tax=uncl...  34.3    9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.166    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0509    0.140     1.90     42.6     43.6 
+
+Effective search space used: 752729337810
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,324 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415364.1
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAY4 Uncharacterized protein YbjH n=378 Tax=Bacteria...  187     2e-60
+  UniRef90_A0A2S6PEI2 Uncharacterized protein n=7 Tax=Escherichia...  153     8e-47
+  UniRef90_A0A2G8ZYW9 Uncharacterized protein n=11 Tax=Bacteria T...  137     2e-40
+  UniRef90_A0A370VCM0 Uncharacterized protein n=3 Tax=Escherichia...  132     2e-38
+  UniRef90_A0A2S7SM87 Uncharacterized protein n=4 Tax=Escherichia...  129     2e-37
+  UniRef90_A0A377K9D0 Protein n=1 Tax=Escherichia coli TaxID=562 ...  127     8e-37
+  UniRef90_A0A243UB68 Uncharacterized protein n=3 Tax=Citrobacter...  125     5e-36
+  UniRef90_A0A090TX69 Uncharacterized protein n=53 Tax=Bacteria T...  124     3e-35
+  UniRef90_UPI000B7F89D4 hypothetical protein n=1 Tax=Escherichia...  123     3e-35
+  UniRef90_A0A0J6MIA9 Uncharacterized protein n=35 Tax=Enterobact...  108     3e-29
+  UniRef90_A0A376I4Y3 Protein n=4 Tax=Enterobacteriaceae TaxID=54...  108     4e-29
+  UniRef90_UPI000C32FB9E hypothetical protein n=1 Tax=Escherichia...  103     2e-27
+  UniRef90_V3Q1A2 Uncharacterized protein n=5 Tax=Enterobacter cl...  102     8e-27
+  UniRef90_UPI000EB51593 hypothetical protein n=1 Tax=Enterobacte...  101     2e-26
+  UniRef90_G9Z5M9 Uncharacterized protein n=3 Tax=Yokenella regen...  99.4    1e-25
+  UniRef90_A0A2Y4Y3C5 Uncharacterized protein n=1 Tax=Shigella fl...  96.3    1e-24
+  UniRef90_G2SBK7 Uncharacterized protein n=2 Tax=Enterobacter Ta...  94.4    2e-23
+  UniRef90_A0A2S5CEB2 Uncharacterized protein n=3 Tax=Lelliottia ...  92.4    7e-23
+  UniRef90_A0A329HSS2 Uncharacterized protein n=1 Tax=Enterobacte...  88.2    4e-21
+  UniRef90_A0A2S4RZA7 Uncharacterized protein n=1 Tax=Citrobacter...  87.4    8e-21
+  UniRef90_A0A1L5L2V6 Uncharacterized protein n=1 Tax=uncultured ...  85.9    1e-20
+  UniRef90_F5MZM9 Uncharacterized protein n=1 Tax=Shigella flexne...  85.1    2e-20
+  UniRef90_UPI0007C78BFE hypothetical protein n=1 Tax=Enterobacte...  79.7    6e-18
+  UniRef90_UPI000BEA2145 hypothetical protein n=1 Tax=Escherichia...  76.6    1e-16
+  UniRef90_A0A1B7HTU1 Uncharacterized protein n=3 Tax=Buttiauxell...  75.9    2e-16
+  UniRef90_A0A376RLX9 Protein n=1 Tax=Escherichia coli TaxID=562 ...  73.9    4e-16
+  UniRef90_A0A0G3QDW9 Uncharacterized protein n=10 Tax=Enterobact...  72.8    4e-15
+  UniRef90_A0A1B7I6E7 Uncharacterized protein n=2 Tax=Buttiauxell...  71.2    2e-14
+  UniRef90_A0A376YAQ5 Protein n=1 Tax=Escherichia coli TaxID=562 ...  68.6    7e-14
+  UniRef90_A0A0A6ZPI4 Uncharacterized protein n=1 Tax=Shigella dy...  58.2    6e-10
+  UniRef90_W2RLC4 Uncharacterized protein n=1 Tax=Cyphellophora e...  38.9    0.29 
+  UniRef90_Q2SCW9 ABC-type amino acid transport/signal transducti...  38.5    0.31 
+  UniRef90_UPI0003F4CCFE cysteine synthase family protein n=1 Tax...  38.5    0.41 
+  UniRef90_A0A0M1JV58 Serine/threonine protein kinase n=1 Tax=Pla...  37.0    1.4  
+  UniRef90_A0A2H9SUT1 Imidazolonepropionase n=1 Tax=Parachlamydia...  37.0    1.5  
+  UniRef90_A0A2T6DS79 Uncharacterized protein n=1 Tax=Opitutaceae...  35.8    1.6  
+  UniRef90_E3KKT0 Uncharacterized protein n=3 Tax=Puccinia gramin...  36.6    2.1  
+  UniRef90_A0A1E4SR42 Uncharacterized protein n=1 Tax=Suhomyces t...  35.8    3.3  
+  UniRef90_A0A2W4SBS9 Uncharacterized protein n=1 Tax=bacterium T...  35.8    4.2  
+  UniRef90_A0A1W1XNH4 SGNH hydrolase-like domain-containing prote...  35.4    4.3  
+  UniRef90_A0A1V8S9W7 Uncharacterized protein n=2 Tax=Rachiclados...  35.4    4.4  
+  UniRef90_A0A1C7I7C6 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--...  35.4    4.4  
+  UniRef90_A0A2E7F9X9 Uncharacterized protein (Fragment) n=1 Tax=...  35.4    4.8  
+  UniRef90_UPI000B90FBDA dystrophin-like n=1 Tax=Acanthaster plan...  35.4    5.4  
+  UniRef90_A0A1F6CPT6 Ribonucleoside-diphosphate reductase n=1 Ta...  35.4    5.8  
+  UniRef90_A0A1V8SHG3 Uncharacterized protein n=1 Tax=Rachiclados...  35.4    5.8  
+  UniRef90_A0A0Y0DFX2 Alpha-glucosidase n=8 Tax=Pseudoalteromonas...  35.0    6.0  
+  UniRef90_UPI0007678BA4 dihydrolipoyllysine-residue acetyltransf...  35.0    6.5  
+  UniRef90_A0A2I0PUB3 Molybdate ABC transporter substrate-binding...  35.0    6.9  
+  UniRef90_UPI000CF3D12A sorbosone dehydrogenase family protein n...  35.0    7.0  
+  UniRef90_A0A1E1EXX6 Uncharacterized protein n=2 Tax=Sphingomona...  34.7    7.9  
+  UniRef90_UPI00064465F0 RNA-binding protein 6-like isoform X1 n=...  34.7    8.4  
+  UniRef90_A0A1F8Q485 DNA helicase n=1 Tax=Chloroflexi bacterium ...  34.7    9.0  
+  UniRef90_M2MCG4 Uncharacterized protein n=1 Tax=Baudoinia panam...  34.7    9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 758278102109
+Warning: [psiblast] lcl|Query_1 NP_415364.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415364.1
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P0AAY4 Uncharacterized protein YbjH n=378 Tax=Bacteria...  131     3e-38
+  UniRef90_A0A2S6PEI2 Uncharacterized protein n=7 Tax=Escherichia...  123     4e-35
+  UniRef90_A0A2S7SM87 Uncharacterized protein n=4 Tax=Escherichia...  116     2e-32
+  UniRef90_A0A2G8ZYW9 Uncharacterized protein n=11 Tax=Bacteria T...  109     1e-29
+  UniRef90_A0A370VCM0 Uncharacterized protein n=3 Tax=Escherichia...  108     3e-29
+  UniRef90_A0A090TX69 Uncharacterized protein n=53 Tax=Bacteria T...  106     3e-28
+  UniRef90_A0A243UB68 Uncharacterized protein n=3 Tax=Citrobacter...  103     5e-27
+  UniRef90_UPI000EB51593 hypothetical protein n=1 Tax=Enterobacte...  99.2    1e-25
+  UniRef90_A0A376I4Y3 Protein n=4 Tax=Enterobacteriaceae TaxID=54...  94.5    1e-23
+  UniRef90_A0A2S5CEB2 Uncharacterized protein n=3 Tax=Lelliottia ...  93.8    3e-23
+  UniRef90_A0A0J6MIA9 Uncharacterized protein n=35 Tax=Enterobact...  91.9    2e-22
+  UniRef90_UPI000B7F89D4 hypothetical protein n=1 Tax=Escherichia...  90.7    3e-22
+  UniRef90_A0A329HSS2 Uncharacterized protein n=1 Tax=Enterobacte...  86.5    2e-20
+  UniRef90_V3Q1A2 Uncharacterized protein n=5 Tax=Enterobacter cl...  85.7    3e-20
+  UniRef90_UPI000C32FB9E hypothetical protein n=1 Tax=Escherichia...  84.5    5e-20
+  UniRef90_G2SBK7 Uncharacterized protein n=2 Tax=Enterobacter Ta...  83.0    4e-19
+  UniRef90_A0A2S4RZA7 Uncharacterized protein n=1 Tax=Citrobacter...  83.0    5e-19
+  UniRef90_UPI0007C78BFE hypothetical protein n=1 Tax=Enterobacte...  81.1    2e-18
+  UniRef90_G9Z5M9 Uncharacterized protein n=3 Tax=Yokenella regen...  79.9    4e-18
+  UniRef90_A0A0G3QDW9 Uncharacterized protein n=10 Tax=Enterobact...  78.4    2e-17
+  UniRef90_A0A1B7HTU1 Uncharacterized protein n=3 Tax=Buttiauxell...  77.2    5e-17
+  UniRef90_A0A2Y4Y3C5 Uncharacterized protein n=1 Tax=Shigella fl...  74.5    5e-16
+  UniRef90_A0A1B7I6E7 Uncharacterized protein n=2 Tax=Buttiauxell...  74.5    9e-16
+  UniRef90_UPI000BEA2145 hypothetical protein n=1 Tax=Escherichia...  73.7    2e-15
+  UniRef90_A0A377K9D0 Protein n=1 Tax=Escherichia coli TaxID=562 ...  72.2    6e-15
+  UniRef90_A0A1L5L2V6 Uncharacterized protein n=1 Tax=uncultured ...  64.9    2e-12
+  UniRef90_A0A376YAQ5 Protein n=1 Tax=Escherichia coli TaxID=562 ...  64.5    3e-12
+  UniRef90_F5MZM9 Uncharacterized protein n=1 Tax=Shigella flexne...  64.1    4e-12
+  UniRef90_A0A376RLX9 Protein n=1 Tax=Escherichia coli TaxID=562 ...  60.3    1e-10
+  UniRef90_A0A0A6ZPI4 Uncharacterized protein n=1 Tax=Shigella dy...  52.2    2e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_E3KKT0 Uncharacterized protein n=3 Tax=Puccinia gramin...  42.2    0.022
+  UniRef90_A0A2I0PUB3 Molybdate ABC transporter substrate-binding...  41.8    0.025
+  UniRef90_Q2SCW9 ABC-type amino acid transport/signal transducti...  41.0    0.050
+  UniRef90_UPI00098D64FC TolC family protein n=1 Tax=Spirosoma sp...  41.0    0.058
+  UniRef90_A0A1Q7C0W4 Uncharacterized protein n=1 Tax=Actinobacte...  40.2    0.079
+  UniRef90_A0A2G7EYC4 Lysophospholipase L1-like esterase n=4 Tax=...  40.2    0.11 
+  UniRef90_E3L5S2 Uncharacterized protein n=1 Tax=Puccinia gramin...  39.9    0.12 
+  UniRef90_UPI000CF3D12A sorbosone dehydrogenase family protein n...  39.5    0.19 
+  UniRef90_A0A1E7MLA2 SGNH hydrolase n=2 Tax=Streptomyces TaxID=1...  39.5    0.19 
+  UniRef90_UPI00036D68CE DUF5117 domain-containing protein n=3 Ta...  39.5    0.22 
+  UniRef90_A0A1V4UXF2 Uncharacterized protein n=1 Tax=Methanosaet...  39.1    0.24 
+  UniRef90_A0A1W2W1W1 uncharacterized protein LOC100180824 n=2 Ta...  38.7    0.36 
+  UniRef90_UPI000E30D91E hypothetical protein n=1 Tax=Flavobacter...  37.2    0.38 
+  UniRef90_UPI00055E7C59 SGNH hydrolase n=2 Tax=Streptomyces TaxI...  38.7    0.40 
+  UniRef90_UPI00040EF2BD DNA helicase II n=1 Tax=Thermithiobacill...  38.3    0.45 
+  UniRef90_A0A2S8ART7 SGNH/GDSL hydrolase family protein n=5 Tax=...  38.3    0.48 
+  UniRef90_A0A1F3NN79 Uncharacterized protein n=1 Tax=Bacteroidet...  38.3    0.51 
+  UniRef90_A0A1I2KBR6 Uncharacterized protein n=1 Tax=Actinoplane...  37.9    0.56 
+  UniRef90_A0A1C6MNB9 Lysophospholipase L1 n=5 Tax=Streptomyces T...  37.9    0.57 
+  UniRef90_K4QYR8 Uncharacterized protein n=1 Tax=Streptomyces da...  37.9    0.57 
+  UniRef90_K9EQW4 Endoglucanase n=1 Tax=Leptolyngbya sp. PCC 7375...  38.3    0.57 
+  UniRef90_H6QU68 Uncharacterized protein n=1 Tax=Puccinia gramin...  37.5    0.58 
+  UniRef90_A0A0R2T3D5 Glutamate carboxypeptidase n=6 Tax=Flavobac...  37.9    0.61 
+  UniRef90_UPI000753FA0F IS66 family insertion sequence hypotheti...  37.5    0.62 
+  UniRef90_UPI000B8E9C55 mediator of RNA polymerase II transcript...  37.9    0.66 
+  UniRef90_A0A0R3NTI4 Uncharacterized protein, isoform C n=2 Tax=...  37.9    0.67 
+  UniRef90_UPI000946630C c-type cytochrome n=1 Tax=Mariniblastus ...  37.9    0.70 
+  UniRef90_UPI000C26D708 uncharacterized protein LOC6641585 n=1 T...  37.9    0.72 
+  UniRef90_A0A2K1QLV4 Uncharacterized protein n=1 Tax=Sphaceloma ...  37.9    0.75 
+  UniRef90_UPI000F8EDD81 UPI000F8EDD81 related cluster n=1 Tax=un...  37.5    0.77 
+  UniRef90_A0A3D9U276 X-Pro dipeptidyl-peptidase-like protein n=2...  37.5    0.77 
+  UniRef90_A0A107FSR9 Uncharacterized protein n=2 Tax=Burkholderi...  37.5    0.82 
+  UniRef90_UPI0008971796 sel1 repeat family protein n=1 Tax=Vario...  37.5    0.86 
+  UniRef90_A0A3D0QSK3 SGNH hydrolase n=1 Tax=Streptomyces sp. Tax...  37.5    0.86 
+  UniRef90_A0A2M7B156 Uncharacterized protein n=1 Tax=Elusimicrob...  37.5    0.88 
+  UniRef90_A0A2M9IJT3 SGNH hydrolase n=1 Tax=Streptomyces sp. CB0...  37.5    0.89 
+  UniRef90_A0A2V9U1C3 Uncharacterized protein (Fragment) n=1 Tax=...  37.5    0.89 
+  UniRef90_A0A2N9LN45 Uncharacterized protein n=1 Tax=Candidatus ...  37.2    0.98 
+  UniRef90_UPI000EB2EC48 SGNH/GDSL hydrolase family protein n=1 T...  37.5    0.98 
+  UniRef90_E3K061 Uncharacterized protein n=1 Tax=Puccinia gramin...  37.5    1.00 
+  UniRef90_UPI000A04D307 DUF349 domain-containing protein n=1 Tax...  37.2    1.1  
+  UniRef90_A0A375DWH6 Putative signal peptide protein n=1 Tax=Cup...  36.4    1.1  
+  UniRef90_A0A366DSF4 Uncharacterized protein n=3 Tax=Rhizobiales...  37.2    1.2  
+  UniRef90_G1Y0D7 TonB-dependent receptor n=2 Tax=Nitrospirillum ...  37.2    1.2  
+  UniRef90_G8NSB8 TonB-dependent receptor plug n=1 Tax=Granulicel...  37.2    1.4  
+  UniRef90_UPI0004759307 extracellular solute-binding protein n=1...  36.8    1.4  
+  UniRef90_A0A1H0IQN2 Lysophospholipase L1 n=3 Tax=Streptomyces T...  36.8    1.5  
+  UniRef90_A0A0K1PL58 Uncharacterized protein n=1 Tax=Labilithrix...  36.8    1.5  
+  UniRef90_U4L6K1 Similar to Far upstream element-binding protein...  36.8    1.6  
+  UniRef90_A0A2W0AUT4 Uncharacterized protein n=1 Tax=Acidobacter...  36.8    1.6  
+  UniRef90_E3KMG2 Uncharacterized protein n=1 Tax=Puccinia gramin...  36.8    1.6  
+  UniRef90_A0A1G2BAN7 Uncharacterized protein n=1 Tax=Candidatus ...  36.8    1.6  
+  UniRef90_A0A233SV87 Uncharacterized protein n=4 Tax=Streptomyce...  36.8    1.7  
+  UniRef90_A0A3M1BTW4 Uncharacterized protein n=1 Tax=Aquificae b...  35.2    1.7  
+  UniRef90_UPI000381AC39 transporter substrate-binding domain-con...  36.4    1.8  
+  UniRef90_A0A1M6JQC7 Uncharacterized protein (Fragment) n=1 Tax=...  36.8    1.9  
+  UniRef90_A0A2T1NKS5 Uncharacterized protein n=1 Tax=Mesoflaviba...  36.4    1.9  
+  UniRef90_UPI0004006177 T9SS type A sorting domain-containing pr...  36.4    1.9  
+  UniRef90_UPI0004C18E00 SGNH/GDSL hydrolase family protein n=1 T...  36.8    1.9  
+  UniRef90_W4CLF6 Putative lipoprotein n=3 Tax=Paenibacillus TaxI...  36.4    1.9  
+  UniRef90_A0A2T3HIT0 Uncharacterized protein n=1 Tax=Pedobacter ...  36.4    1.9  
+  UniRef90_A0A067RH60 Mediator of RNA polymerase II transcription...  36.8    1.9  
+  UniRef90_A0A101QED5 SGNH hydrolase n=5 Tax=Streptomyces TaxID=1...  36.8    1.9  
+  UniRef90_A0A0F4GDN7 ABC transporter like protein n=6 Tax=Zymose...  36.8    1.9  
+  UniRef90_A0A0S4PDW2 PEP-CTERM protein-sorting domain-containing...  36.4    1.9  
+  UniRef90_A0A2P6WEJ0 Uncharacterized protein n=1 Tax=Acidobacter...  36.4    2.0  
+  UniRef90_A0A291Q9D3 Putative secreted protein n=3 Tax=Streptomy...  36.4    2.1  
+  UniRef90_A0A1L9KY10 Chitinase A n=42 Tax=Gammaproteobacteria Ta...  36.4    2.3  
+  UniRef90_A0A1V9FKL8 Uncharacterized protein n=1 Tax=Niastella p...  36.4    2.3  
+  UniRef90_UPI000E34B47D hypothetical protein n=1 Tax=Ilumatobact...  36.4    2.3  
+  UniRef90_A0A1M6Y8Z6 Iron complex transport system substrate-bin...  36.4    2.3  
+  UniRef90_A0A316FBJ9 Uncharacterized protein n=1 Tax=Actinoplane...  36.0    2.4  
+  UniRef90_A0A0N8GMS3 Uncharacterized protein n=1 Tax=Ornatilinea...  36.4    2.5  
+  UniRef90_A0A101UN05 SGNH hydrolase n=1 Tax=Streptomyces sp. DSM...  36.4    2.5  
+  UniRef90_A0A0X3XXH3 SGNH hydrolase n=5 Tax=Streptomyces TaxID=1...  36.4    2.6  
+  UniRef90_A0A0C3L3Y9 Uncharacterized protein n=1 Tax=Tulasnella ...  36.4    2.7  
+  UniRef90_E3K474 Uncharacterized protein n=1 Tax=Puccinia gramin...  36.0    2.8  
+  UniRef90_A0A2Z3HSZ8 Iron-sulfur cluster carrier protein n=1 Tax...  36.0    2.8  
+  UniRef90_UPI0007678BA4 dihydrolipoyllysine-residue acetyltransf...  36.0    2.9  
+  UniRef90_A0A1N6KIY0 Uncharacterized protein n=1 Tax=Rhodovulum ...  36.0    2.9  
+  UniRef90_UPI0003A55715 SGNH/GDSL hydrolase family protein n=1 T...  36.0    3.0  
+  UniRef90_A0A210Q5K2 Proteoglycan 4 n=1 Tax=Mizuhopecten yessoen...  36.0    3.0  
+  UniRef90_A0A2N5T1C2 Uncharacterized protein n=1 Tax=Puccinia co...  36.0    3.0  
+  UniRef90_A0A2E7EV11 Uncharacterized protein n=1 Tax=Ponticaulis...  36.0    3.1  
+  UniRef90_UPI000596A1F3 pollen-specific leucine-rich repeat exte...  36.0    3.1  
+  UniRef90_A0A2A9MHQ7 Uncharacterized protein n=1 Tax=Besnoitia b...  36.0    3.3  
+  UniRef90_UPI00048B002F SGNH/GDSL hydrolase family protein n=1 T...  36.0    3.3  
+  UniRef90_A0A2I0SBY1 SGNH hydrolase n=1 Tax=Streptomyces populi ...  36.0    3.5  
+  UniRef90_UPI000426B55B hypothetical protein n=1 Tax=Azohydromon...  35.2    3.5  
+  UniRef90_A0A1E1XTL2 Putative nucleolar pre-rrna processing prot...  36.0    3.5  
+  UniRef90_A0A177CL11 Uncharacterized protein n=1 Tax=Paraphaeosp...  36.0    3.5  
+  UniRef90_UPI00067A97D2 SGNH/GDSL hydrolase family protein n=1 T...  35.6    3.6  
+  UniRef90_A0A2N5VMA8 Uncharacterized protein n=3 Tax=Puccinia co...  36.0    3.6  
+  UniRef90_G2GCX8 Secreted protein n=1 Tax=Streptomyces zinciresi...  35.6    3.7  
+  UniRef90_A0A1C6QGG6 Lysophospholipase L1 n=2 Tax=Streptomyces s...  35.6    3.8  
+  UniRef90_A0A1Y2IN02 Uncharacterized protein n=1 Tax=Trametes co...  35.6    3.8  
+  UniRef90_A0A0T6YHA2 Uncharacterized protein n=10 Tax=Rhizobiale...  34.5    3.9  
+  UniRef90_A0A146VMA6 Fibronectin type III domain-containing prot...  35.6    4.0  
+  UniRef90_A0A146ZTW2 Fibronectin type III domain-containing prot...  35.6    4.0  
+  UniRef90_UPI00099CD01E DUF2797 domain-containing protein n=1 Ta...  35.6    4.0  
+  UniRef90_A0A1C6VNZ5 DNA-binding transcriptional activator of th...  35.6    4.0  
+  UniRef90_A0A2M8NUX5 Uncharacterized protein n=1 Tax=Chloroflexi...  35.6    4.1  
+  UniRef90_UPI0008734E74 zona pellucida sperm-binding protein 4-l...  35.6    4.1  
+  UniRef90_A0A0U3SAI3 SGNH hydrolase n=11 Tax=Actinobacteria TaxI...  35.6    4.2  
+  UniRef90_A0A1H4TI57 Lysophospholipase L1 n=4 Tax=Streptomyces T...  35.6    4.3  
+  UniRef90_UPI000361E29E SGNH/GDSL hydrolase family protein n=2 T...  35.6    4.5  
+  UniRef90_A0A1E4FKF3 Nitrate ABC transporter substrate-binding p...  35.6    4.6  
+  UniRef90_A0A395I9W5 Uncharacterized protein n=1 Tax=Aspergillus...  35.6    4.6  
+  UniRef90_A0A327W3S4 Lysophospholipase L1-like esterase n=1 Tax=...  35.6    4.7  
+  UniRef90_UPI00055A3940 SGNH/GDSL hydrolase family protein n=1 T...  35.6    4.7  
+  UniRef90_UPI00063F2105 transmembrane and immunoglobulin domain-...  35.2    4.7  
+  UniRef90_UPI000981136C melanoma-associated antigen B5-like n=1 ...  35.6    4.9  
+  UniRef90_UPI0004C014A9 SGNH/GDSL hydrolase family protein n=1 T...  35.2    4.9  
+  UniRef90_A0A2P6LH28 Uncharacterized protein n=1 Tax=Nephila cla...  35.2    5.0  
+  UniRef90_A0A0U5LMI9 GDSL-like Lipase/Acylhydrolase n=3 Tax=Stre...  35.2    5.1  
+  UniRef90_A0A2I4C5K9 fibronectin type III domain-containing prot...  35.2    5.3  
+  UniRef90_W4PK20 Uncharacterized protein n=2 Tax=Bacteroides pyo...  34.5    5.4  
+  UniRef90_A0A250VNP4 SGNH hydrolase n=11 Tax=Actinobacteria TaxI...  35.2    5.5  
+  UniRef90_A0A1I1LBD1 Transcriptional regulator, LysR family n=1 ...  35.2    5.7  
+  UniRef90_A0A1B6AK19 Putative esterase n=1 Tax=Streptomyces sp. ...  35.2    5.7  
+  UniRef90_A0A1R3TMW1 Cyclic di-GMP-binding protein n=4 Tax=Agrob...  35.2    5.7  
+  UniRef90_A0A1H9UIR8 Lysophospholipase L1 n=5 Tax=Streptomyces T...  35.2    5.7  
+  UniRef90_A0A1B1B966 SGNH hydrolase n=4 Tax=Streptomyces TaxID=1...  35.2    6.0  
+  UniRef90_A0A2A2YQB3 SGNH hydrolase n=2 Tax=Streptomyces TaxID=1...  35.2    6.1  
+  UniRef90_A0A3N4U8E9 Lysophospholipase L1-like esterase n=1 Tax=...  35.2    6.1  
+  UniRef90_U5WB40 Modular polyketide synthase n=2 Tax=Actinoplane...  35.2    6.5  
+  UniRef90_UPI000F618905 SGNH/GDSL hydrolase family protein n=3 T...  35.2    6.6  
+  UniRef90_A0A192B1D0 Uncharacterized protein n=2 Tax=Pandoraea T...  34.5    6.7  
+  UniRef90_H6QRM3 Uncharacterized protein n=1 Tax=Puccinia gramin...  34.8    6.8  
+  UniRef90_A0A3L6P8S1 Uncharacterized protein n=1 Tax=Fusarium ox...  35.2    6.9  
+  UniRef90_A0A101SY03 SGNH hydrolase n=1 Tax=Streptomyces griseor...  34.8    7.2  
+  UniRef90_A0A1C0VKS5 Polyketide synthase n=1 Tax=Nostoc sp. MBR ...  35.2    7.2  
+  UniRef90_UPI0008333BAD copper resistance protein CopB n=1 Tax=S...  34.8    7.3  
+  UniRef90_UPI0007181C5A SGNH/GDSL hydrolase family protein n=1 T...  34.8    7.5  
+  UniRef90_A0A3B8WWT0 Bifunctional phosphopantothenoylcysteine de...  34.8    7.7  
+  UniRef90_UPI000DD03E32 hypothetical protein n=1 Tax=Cellvibrion...  34.8    7.8  
+  UniRef90_F0XZP4 Uncharacterized protein n=1 Tax=Aureococcus ano...  34.8    7.9  
+  UniRef90_A0A2P8DF48 Uncharacterized protein n=1 Tax=Haloactinop...  34.1    7.9  
+  UniRef90_A0A0M8W469 SGNH hydrolase n=10 Tax=Streptomyces TaxID=...  34.8    7.9  
+  UniRef90_A0A1Q4W335 SGNH hydrolase n=1 Tax=Streptomyces sp. CB0...  34.8    8.0  
+  UniRef90_A0A2L1HQ28 Uncharacterized protein n=1 Tax=Pseudomonas...  34.5    8.0  
+  UniRef90_A0A1Z2L6U2 SGNH hydrolase n=3 Tax=Streptomyces TaxID=1...  34.8    8.3  
+  UniRef90_A0A0U0IBG7 Glycosyl transferase n=8 Tax=Lactobacillale...  34.8    8.3  
+  UniRef90_UPI0004C5547D hypothetical protein n=1 Tax=Streptomyce...  34.8    8.4  
+  UniRef90_A0A328BJI1 Uncharacterized protein n=1 Tax=Phenylobact...  34.5    8.4  
+  UniRef90_A0A369UM48 Uncharacterized protein n=1 Tax=Dyella sp. ...  34.1    8.5  
+  UniRef90_A0A1V0TRA4 SGNH hydrolase n=1 Tax=Streptomyces gilvosp...  34.8    8.7  
+  UniRef90_A0A1B8CTR6 Uncharacterized protein n=1 Tax=Pseudogymno...  34.8    9.0  
+  UniRef90_A0A165GZ19 TPR-like protein n=1 Tax=Laetiporus sulphur...  34.8    9.1  
+  UniRef90_A0A2V8Q3C9 Uncharacterized protein n=1 Tax=Acidobacter...  34.5    9.6  
+  UniRef90_A0A2S6H4Q8 Excisionase family DNA binding protein n=1 ...  34.5    9.6  
+  UniRef90_A0A233SG70 SGNH hydrolase n=5 Tax=Streptomyces TaxID=1...  34.5    9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.115    0.320    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0353    0.140     1.90     42.6     43.6 
+
+Effective search space used: 758278102109
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

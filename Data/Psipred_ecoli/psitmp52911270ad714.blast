@@ -1,0 +1,147 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414860.1
+
+Length=271
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P77393 Uncharacterized protein YahL n=515 Tax=root Tax...  560     0.0   
+  UniRef90_A0A0L7AFP4 Uncharacterized protein n=7 Tax=Escherichia...  454     3e-160
+  UniRef90_A0A0K4B960 Protein n=16 Tax=Enterobacteriaceae TaxID=5...  440     2e-155
+  UniRef90_UPI00025143AE hypothetical protein n=8 Tax=Enterobacte...  399     1e-139
+  UniRef90_A0A3L3ZD46 Uncharacterized protein n=6 Tax=Escherichia...  389     2e-128
+  UniRef90_A0A2X1KED7 Protein n=3 Tax=Escherichia coli TaxID=562 ...  362     7e-125
+  UniRef90_A0A3P5AZ05 Uncharacterized protein n=1 Tax=Escherichia...  349     4e-120
+  UniRef90_A0A3P1SHU5 Uncharacterized protein (Fragment) n=2 Tax=...  347     2e-119
+  UniRef90_A0A376LIM7 Protein n=23 Tax=Enterobacteriaceae TaxID=5...  313     1e-105
+  UniRef90_UPI000C1C5BCF hypothetical protein n=1 Tax=Escherichia...  289     4e-96 
+  UniRef90_A0A2X3A1F1 Protein n=1 Tax=Escherichia coli TaxID=562 ...  216     3e-68 
+  UniRef90_UPI000D6E41F1 hypothetical protein n=1 Tax=Escherichia...  210     6e-66 
+  UniRef90_UPI000907D79B hypothetical protein n=3 Tax=Escherichia...  146     9e-42 
+  UniRef90_A0A376LJ41 Protein n=2 Tax=Gammaproteobacteria TaxID=1...  145     2e-41 
+  UniRef90_UPI00092FAD55 hypothetical protein n=1 Tax=Escherichia...  122     3e-32 
+  UniRef90_UPI0004D61362 hypothetical protein n=2 Tax=Escherichia...  115     1e-29 
+  UniRef90_UPI000D10E36F hypothetical protein n=2 Tax=Escherichia...  111     4e-28 
+  UniRef90_UPI000B7D0FA2 hypothetical protein n=3 Tax=Escherichia...  102     2e-24 
+  UniRef90_UPI000CF77DDC hypothetical protein n=1 Tax=Escherichia...  86.7    3e-18 
+  UniRef90_UPI00070F82D5 hypothetical protein n=1 Tax=Escherichia...  85.9    3e-18 
+  UniRef90_UPI000DE3B528 hypothetical protein n=1 Tax=Escherichia...  79.0    9e-16 
+  UniRef90_UPI000943FDDE hypothetical protein n=2 Tax=Escherichia...  75.1    3e-14 
+  UniRef90_UPI000D09EBD8 hypothetical protein n=1 Tax=Escherichia...  55.1    8e-07 
+  UniRef90_A0A0K4TP82 Uncharacterized protein n=3 Tax=Escherichia...  46.2    0.007 
+  UniRef90_A0A2S6PFW2 Uncharacterized protein n=22 Tax=Enterobact...  45.8    0.018 
+  UniRef90_A0A1W9Z2C3 FAD-binding monooxygenase n=1 Tax=Mycolicib...  46.2    0.022 
+  UniRef90_A0A1V5P4G0 Sensor protein VraS n=1 Tax=Bacteroidetes b...  39.7    3.3   
+  UniRef90_UPI000E6C9929 hypothetical protein n=1 Tax=Oleomonas s...  39.3    4.6   
+  UniRef90_V7BCS6 Uncharacterized protein n=2 Tax=Phaseolus vulga...  38.9    5.9   
+  UniRef90_A0A1V0SG41 Uncharacterized protein n=1 Tax=Hokovirus H...  38.9    6.2   
+  UniRef90_A0A1Y1UZA8 Uncharacterized protein (Fragment) n=1 Tax=...  38.5    6.9   
+  UniRef90_A0A0F7TJ10 Uncharacterized protein n=3 Tax=Penicillium...  38.1    9.6   
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2067113375277
+Warning: [psiblast] lcl|Query_1 NP_414860.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414860.1
+
+Length=271
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P77393 Uncharacterized protein YahL n=515 Tax=root Tax...  477     2e-169
+  UniRef90_A0A0L7AFP4 Uncharacterized protein n=7 Tax=Escherichia...  409     1e-142
+  UniRef90_UPI00025143AE hypothetical protein n=8 Tax=Enterobacte...  339     8e-116
+  UniRef90_A0A0K4B960 Protein n=16 Tax=Enterobacteriaceae TaxID=5...  336     3e-114
+  UniRef90_A0A2X1KED7 Protein n=3 Tax=Escherichia coli TaxID=562 ...  332     8e-113
+  UniRef90_A0A3L3ZD46 Uncharacterized protein n=6 Tax=Escherichia...  347     7e-112
+  UniRef90_A0A3P1SHU5 Uncharacterized protein (Fragment) n=2 Tax=...  293     4e-98 
+  UniRef90_UPI000C1C5BCF hypothetical protein n=1 Tax=Escherichia...  281     6e-93 
+  UniRef90_A0A376LIM7 Protein n=23 Tax=Enterobacteriaceae TaxID=5...  260     6e-85 
+  UniRef90_A0A3P5AZ05 Uncharacterized protein n=1 Tax=Escherichia...  252     8e-82 
+  UniRef90_A0A2X3A1F1 Protein n=1 Tax=Escherichia coli TaxID=562 ...  214     2e-67 
+  UniRef90_UPI000D6E41F1 hypothetical protein n=1 Tax=Escherichia...  204     1e-63 
+  UniRef90_UPI000907D79B hypothetical protein n=3 Tax=Escherichia...  137     6e-38 
+  UniRef90_A0A376LJ41 Protein n=2 Tax=Gammaproteobacteria TaxID=1...  133     1e-36 
+  UniRef90_UPI00092FAD55 hypothetical protein n=1 Tax=Escherichia...  113     5e-29 
+  UniRef90_UPI0004D61362 hypothetical protein n=2 Tax=Escherichia...  113     5e-29 
+  UniRef90_UPI000B7D0FA2 hypothetical protein n=3 Tax=Escherichia...  108     7e-27 
+  UniRef90_UPI000D10E36F hypothetical protein n=2 Tax=Escherichia...  107     1e-26 
+  UniRef90_UPI000CF77DDC hypothetical protein n=1 Tax=Escherichia...  90.9    6e-20 
+  UniRef90_UPI00070F82D5 hypothetical protein n=1 Tax=Escherichia...  83.2    3e-17 
+  UniRef90_UPI000DE3B528 hypothetical protein n=1 Tax=Escherichia...  75.1    3e-14 
+  UniRef90_UPI000943FDDE hypothetical protein n=2 Tax=Escherichia...  73.6    9e-14 
+  UniRef90_UPI000D09EBD8 hypothetical protein n=1 Tax=Escherichia...  53.6    3e-06 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0K4TP82 Uncharacterized protein n=3 Tax=Escherichia...  41.6    0.25 
+  UniRef90_A0A1W9Z2C3 FAD-binding monooxygenase n=1 Tax=Mycolicib...  42.4    0.42 
+  UniRef90_A0A2S6PFW2 Uncharacterized protein n=22 Tax=Enterobact...  40.8    1.0  
+  UniRef90_A0A158GAV7 Type VI secretion protein n=2 Tax=Burkholde...  38.9    6.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.131    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0402    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2067113375277
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

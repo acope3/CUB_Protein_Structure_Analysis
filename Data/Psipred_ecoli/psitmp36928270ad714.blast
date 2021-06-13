@@ -1,0 +1,1202 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415561.1
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P52107 Curli assembly protein CsgC n=378 Tax=Proteobac...  218     4e-72
+  UniRef90_A0A377LGN6 Autoagglutination protein n=5 Tax=Escherich...  211     2e-69
+  UniRef90_UPI0004E0AF2A CSGC n=3 Tax=Escherichia coli TaxID=562 ...  198     3e-64
+  UniRef90_A0A381G5Z0 Curli assembly protein n=7 Tax=Gammaproteob...  174     1e-54
+  UniRef90_A0A0J1LPH0 Curli assembly protein n=2 Tax=Citrobacter ...  173     2e-54
+  UniRef90_A0A377VNR3 Curli assembly protein n=5 Tax=Enterobacter...  172     6e-54
+  UniRef90_D2TT50 Curli assembly protein n=1 Tax=Citrobacter rode...  171     1e-53
+  UniRef90_UPI0007618FCA curli assembly protein CsgC n=2 Tax=Citr...  169     6e-53
+  UniRef90_A0A0A1R7B3 Curli assembly protein n=6 Tax=Enterobacter...  169     1e-52
+  UniRef90_E7SDT9 Putative curli production protein CsgC n=7 Tax=...  168     1e-52
+  UniRef90_A0A2S4RYD3 Curli assembly protein n=1 Tax=Citrobacter ...  168     2e-52
+  UniRef90_P0A1Z9 Curli assembly protein CsgC n=69 Tax=Enterobact...  168     2e-52
+  UniRef90_A0A2X1JAS4 Putative curli production protein n=5 Tax=E...  166     6e-52
+  UniRef90_UPI0003EB4266 curli assembly protein CsgC n=2 Tax=Salm...  166     2e-51
+  UniRef90_A0A376I7K7 Curli assembly protein n=2 Tax=Enterobacter...  164     1e-50
+  UniRef90_Q57QL2 Curli assembly protein n=57 Tax=Salmonella TaxI...  159     4e-49
+  UniRef90_A9MH19 Curli assembly protein CsgC n=16 Tax=Salmonella...  157     3e-48
+  UniRef90_A0A376KY33 Putative curli production protein n=1 Tax=E...  157     3e-48
+  UniRef90_A0A0D7LQH7 Curli assembly protein n=38 Tax=Enterobacte...  152     7e-46
+  UniRef90_A0A336QML0 Curli assembly protein n=4 Tax=Citrobacter ...  152     8e-46
+  UniRef90_A4W958 Curli assembly protein n=2 Tax=Enterobacteriace...  150     3e-45
+  UniRef90_UPI000E722AA8 curli assembly protein CsgC n=1 Tax=Ente...  149     8e-45
+  UniRef90_W7P942 Curli assembly protein CsgC n=56 Tax=Enterobact...  148     2e-44
+  UniRef90_A0A1X0M874 Curli assembly protein CsgC n=2 Tax=Enterob...  146     8e-44
+  UniRef90_A0A0V9E2V1 Curli assembly protein CsgC n=10 Tax=Entero...  146     8e-44
+  UniRef90_UPI00077B73E4 curli assembly protein CsgC n=1 Tax=Ente...  145     2e-43
+  UniRef90_A0A2J0ND37 Curli assembly protein CsgC n=5 Tax=Enterob...  145     2e-43
+  UniRef90_A0A0M7F773 Curli assembly protein CsgC n=16 Tax=Entero...  145     4e-43
+  UniRef90_W0BQI9 Curli assembly protein CsgC n=11 Tax=Enterobact...  143     1e-42
+  UniRef90_A0A3A3ZH64 Curli assembly protein CsgC n=2 Tax=Enterob...  142     6e-42
+  UniRef90_A0A0F1B7I5 Curli assembly protein CsgC n=5 Tax=Enterob...  142     6e-42
+  UniRef90_G9Z6X1 Curli assembly protein CsgC family protein n=3 ...  141     8e-42
+  UniRef90_A0A156Q804 Thin aggregative fimbriae synthesis protein...  141     1e-41
+  UniRef90_A0A318W2I9 Curli production protein n=2 Tax=Enterobact...  135     2e-39
+  UniRef90_A0A285JIZ3 Curli production protein n=1 Tax=Enterobact...  135     3e-39
+  UniRef90_A0A2S5CBW1 Curli assembly protein CsgC n=6 Tax=Enterob...  134     5e-39
+  UniRef90_A0A2I6E6Z2 Curli assembly protein CsgC n=4 Tax=Enterob...  134     1e-38
+  UniRef90_A0A329HS97 Curli assembly protein CsgC n=1 Tax=Enterob...  133     1e-38
+  UniRef90_A0A1A9FB38 Curli assembly protein CsgC n=1 Tax=Lelliot...  133     2e-38
+  UniRef90_F5RT59 Putative autoagglutination protein n=2 Tax=Ente...  132     3e-38
+  UniRef90_A0A2S7SG78 Curli assembly protein n=5 Tax=Escherichia ...  132     6e-38
+  UniRef90_B3WZ61 Curli production protein CsgC n=3 Tax=Enterobac...  130     8e-38
+  UniRef90_A0A1N6S8E1 Curli production protein n=1 Tax=Enterobact...  131     1e-37
+  UniRef90_R9VUZ1 Uncharacterized protein n=5 Tax=Enterobacteriac...  130     2e-37
+  UniRef90_A0A0M3F4S5 Uncharacterized protein n=2 Tax=Enterobacte...  130     2e-37
+  UniRef90_I6E1C1 Curli assembly CsgC domain protein n=6 Tax=Ente...  128     3e-37
+  UniRef90_A0A358ZXV7 Curli assembly protein CsgC n=9 Tax=Enterob...  130     4e-37
+  UniRef90_G2S883 Curli production protein CsgC n=2 Tax=Enterobac...  126     1e-35
+  UniRef90_A0A3G2IBH5 Curli assembly protein CsgC n=2 Tax=Buttiau...  123     2e-34
+  UniRef90_A0A2R9W4M1 Curli assembly protein CsgC (Fragment) n=3 ...  120     4e-34
+  UniRef90_A0A348DC07 Curli assembly protein CsgC n=11 Tax=Entero...  122     4e-34
+  UniRef90_A0A0F0XS58 Curli assembly protein CsgC n=6 Tax=Enterob...  120     1e-33
+  UniRef90_A0A1I6CVL3 Curli production protein n=1 Tax=Enterobact...  120     1e-33
+  UniRef90_UPI000EB14F3F curli assembly protein CsgC n=1 Tax=Ente...  120     3e-33
+  UniRef90_UPI00020CAA6E curli production assembly protein CsgC n...  118     4e-33
+  UniRef90_UPI00057C0D01 curli assembly protein CsgC n=1 Tax=Ente...  119     7e-33
+  UniRef90_A0A200L4X9 Curli production assembly protein CsgC n=3 ...  117     1e-32
+  UniRef90_UPI000D15A7D5 curli assembly protein CsgC n=1 Tax=Esch...  118     1e-32
+  UniRef90_A0A1C4EI83 Curli production protein n=1 Tax=Kosakonia ...  117     2e-32
+  UniRef90_A0A351LWJ8 Curli assembly protein CsgC n=1 Tax=Francon...  117     3e-32
+  UniRef90_A0A1X0X8P4 Curli assembly protein CsgC n=1 Tax=Kluyver...  117     3e-32
+  UniRef90_A0A090V4T2 Curli assembly protein CsgC n=1 Tax=Pseudes...  116     8e-32
+  UniRef90_A0A0L0GY42 Curli assembly protein CsgC n=2 Tax=Trabuls...  116     1e-31
+  UniRef90_A0A085GH25 Putative curli production protein n=3 Tax=B...  116     1e-31
+  UniRef90_UPI000F670F5C curli assembly protein CsgC n=1 Tax=Atla...  115     1e-31
+  UniRef90_S3IZZ9 Curli assembly protein CsgC family protein n=1 ...  114     6e-31
+  UniRef90_A0A089RBI1 Curli assembly protein CsgC n=1 Tax=Cedecea...  112     2e-30
+  UniRef90_A0A1B7HXZ2 Putative curli production protein n=1 Tax=B...  112     3e-30
+  UniRef90_H5V127 Curli assembly protein CsgC n=3 Tax=Enterobacte...  112     4e-30
+  UniRef90_A0A351NNF1 Curli assembly protein CsgC n=1 Tax=Enterob...  113     4e-30
+  UniRef90_UPI0004957501 curli assembly protein CsgC n=3 Tax=Fran...  111     7e-30
+  UniRef90_UPI0004F5EE91 curli assembly protein CsgC n=1 Tax=Cede...  110     1e-29
+  UniRef90_A0A1B7HRD3 Putative curli production protein n=2 Tax=B...  110     1e-29
+  UniRef90_A0A085AGQ5 Putative curli production protein n=2 Tax=T...  110     3e-29
+  UniRef90_J1GK86 Curli assembly protein CsgC n=4 Tax=Enterobacte...  99.4    4e-25
+  UniRef90_A0A3N5E4N9 Curli assembly protein CsgC n=1 Tax=Buttiau...  97.4    3e-24
+  UniRef90_E7TB66 Putative curli production protein CsgC n=1 Tax=...  93.6    2e-23
+  UniRef90_UPI000466C903 hypothetical protein n=1 Tax=Enterobacte...  94.7    3e-23
+  UniRef90_A0A2P8VRS0 Curli assembly protein CsgC n=1 Tax=Sicciba...  93.2    2e-22
+  UniRef90_UPI00098AA733 hypothetical protein n=1 Tax=Escherichia...  90.5    3e-22
+  UniRef90_A0A376MV37 Putative curli production protein n=1 Tax=E...  89.4    1e-21
+  UniRef90_A0A090NBD6 Putative curli production protein csgC (Fra...  88.2    2e-21
+  UniRef90_A0A0K2P0R4 Curli assembly protein CsgC n=5 Tax=Cronoba...  87.4    2e-20
+  UniRef90_C9Y0V6 Putative curli production protein csgC n=8 Tax=...  86.7    4e-20
+  UniRef90_A0A2Y9TX41 Aggregative fimbriae synthesis protein n=1 ...  86.3    6e-20
+  UniRef90_W1FX48 Putative curli production protein CsgC n=1 Tax=...  84.7    8e-20
+  UniRef90_A0A379SWD2 Putative autoagglutination protein n=1 Tax=...  82.8    4e-19
+  UniRef90_K7ZZ02 Putative curli production protein CsgC n=1 Tax=...  84.0    5e-19
+  UniRef90_A0A2Y2N5A2 Autoagglutination protein n=1 Tax=Shigella ...  80.5    5e-18
+  UniRef90_A0A085HGT1 Putative curli production protein n=1 Tax=L...  80.5    1e-17
+  UniRef90_A0A2J9H4N9 Aggregative fimbriae synthesis protein n=9 ...  80.1    2e-17
+  UniRef90_A0A0Q4NCE6 Aggregative fimbriae synthesis protein n=2 ...  80.1    2e-17
+  UniRef90_A0A2A3KSQ8 Aggregative fimbriae synthesis protein n=2 ...  79.3    3e-17
+  UniRef90_UPI000DD3727C aggregative fimbriae synthesis protein n...  79.3    3e-17
+  UniRef90_L0M5T1 Thin aggregative fimbriae synthesis protein n=1...  79.3    3e-17
+  UniRef90_A0A2N0W5U7 Aggregative fimbriae synthesis protein n=1 ...  79.3    4e-17
+  UniRef90_H8NTE7 Curli assembly protein CsgC n=4 Tax=Rahnella Ta...  78.6    6e-17
+  UniRef90_A0A2N0MYE1 Aggregative fimbriae synthesis protein n=2 ...  78.2    9e-17
+  UniRef90_A0A143HWH6 Uncharacterized protein n=1 Tax=Enterobacte...  77.0    1e-16
+  UniRef90_A0A0C5VXV3 Putative curli production protein CsgC n=3 ...  76.3    6e-16
+  UniRef90_E5YGD1 Uncharacterized protein n=5 Tax=Enterobacterale...  75.9    8e-16
+  UniRef90_UPI00098C330A hypothetical protein n=1 Tax=Shigella fl...  73.2    3e-15
+  UniRef90_A0A2L1UL72 Aggregative fimbriae synthesis protein n=1 ...  73.9    5e-15
+  UniRef90_A0A366F494 Curli production protein n=3 Tax=Pseudocitr...  73.6    7e-15
+  UniRef90_A0A366NA14 Aggregative fimbriae synthesis protein n=4 ...  71.6    4e-14
+  UniRef90_I0QV38 Curli assembly protein CsgC n=2 Tax=Serratia sp...  71.2    4e-14
+  UniRef90_I2BCF5 Curli production protein CsgC n=1 Tax=Shimwelli...  69.7    2e-13
+  UniRef90_UPI00068BEB45 hypothetical protein n=1 Tax=Serratia Ta...  67.8    4e-12
+  UniRef90_A0A2X3E8J7 Curli assembly protein CsgC n=2 Tax=Kluyver...  65.9    6e-12
+  UniRef90_UPI000DD42C05 aggregative fimbriae synthesis protein n...  65.9    9e-12
+  UniRef90_UPI0005D313B8 hypothetical protein n=1 Tax=Rouxiella c...  64.3    2e-11
+  UniRef90_A0A378GLT0 Curli assembly protein CsgC n=1 Tax=Kluyver...  63.9    3e-11
+  UniRef90_A0A2X5BDG1 Curli production assembly protein CsgC n=1 ...  62.8    4e-11
+  UniRef90_A0A379CMX9 Curli assembly protein CsgC n=7 Tax=Plesiom...  57.4    1e-08
+  UniRef90_A0A377CY44 Putative curli production protein n=1 Tax=E...  57.4    2e-08
+  UniRef90_UPI000789148B hypothetical protein n=1 Tax=Kluyvera in...  56.6    3e-08
+  UniRef90_A0A143HWJ4 Uncharacterized protein n=1 Tax=Enterobacte...  53.9    6e-08
+  UniRef90_A0A2T2Y327 Uncharacterized protein n=1 Tax=Kluyvera as...  53.5    4e-07
+  UniRef90_A0A376X1S3 Putative curli production protein n=1 Tax=E...  52.4    4e-07
+  UniRef90_A0A074TN92 Curli assembly protein CsgC (Fragment) n=1 ...  50.4    1e-06
+  UniRef90_A0A3N2RS27 Curli assembly protein CsgC n=1 Tax=Kluyver...  50.4    7e-06
+  UniRef90_UPI000F87E892 UPI000F87E892 related cluster n=1 Tax=un...  49.7    9e-06
+  UniRef90_A0A1M6AK21 Curli production protein n=1 Tax=Candidimon...  48.9    2e-05
+  UniRef90_A0A248KJB0 Uncharacterized protein n=1 Tax=Kluyvera ge...  47.4    6e-05
+  UniRef90_UPI00036C9EDC hypothetical protein n=1 Tax=Azoarcus to...  45.4    7e-04
+  UniRef90_A0A2T5R9C1 Thin aggregative fimbriae synthesis protein...  43.9    0.002
+  UniRef90_W8XA41 Uncharacterized protein n=1 Tax=Castellaniella ...  43.1    0.004
+  UniRef90_A0A142HFQ5 Uncharacterized protein n=1 Tax=Hymenobacte...  43.1    0.005
+  UniRef90_A0A366HHB6 Thin aggregative fimbriae synthesis protein...  42.7    0.005
+  UniRef90_A0A368WEA8 Thin aggregative fimbriae synthesis protein...  42.0    0.009
+  UniRef90_A0A225MWJ0 Uncharacterized protein n=1 Tax=Candidimona...  41.2    0.020
+  UniRef90_A0A1H8CLP6 Thin aggregative fimbriae synthesis protein...  41.6    0.021
+  UniRef90_A0A2X2XNC6 Curli production protein csgc n=1 Tax=Citro...  39.7    0.022
+  UniRef90_UPI000C9EEE90 hypothetical protein n=1 Tax=Castellanie...  40.8    0.028
+  UniRef90_UPI000EB09D9C hypothetical protein n=1 Tax=Azoarcus sp...  41.2    0.029
+  UniRef90_F4GTJ7 Uncharacterized protein n=1 Tax=Pusillimonas sp...  40.8    0.032
+  UniRef90_V5U0J8 CsgC protein n=1 Tax=Cronobacter malonaticus Ta...  38.9    0.050
+  UniRef90_A0A3G9AES1 Uncharacterized protein n=1 Tax=Chryseobact...  40.4    0.10 
+  UniRef90_A0A1I0BEA8 Thin aggregative fimbriae synthesis protein...  39.3    0.16 
+  UniRef90_A0A3P6M824 Curli assembly protein CsgC n=1 Tax=Shigell...  37.0    0.19 
+  UniRef90_UPI000DCF946B hypothetical protein n=2 Tax=Aeromonadac...  38.5    0.36 
+  UniRef90_A0A2N4U3D0 Uncharacterized protein n=1 Tax=Pusillimona...  37.7    0.42 
+  UniRef90_A0A2D9ELK5 Uncharacterized protein n=1 Tax=Pusillimona...  37.4    0.64 
+  UniRef90_A0A126PE94 Uncharacterized protein n=1 Tax=Hymenobacte...  37.4    0.69 
+  UniRef90_UPI00055CF1C1 hypothetical protein n=1 Tax=Maribacter ...  37.4    0.70 
+  UniRef90_UPI0004891010 hypothetical protein n=1 Tax=Pseudoocean...  37.0    0.93 
+  UniRef90_A0A223D599 Uncharacterized protein n=1 Tax=Tumebacillu...  37.4    1.7  
+  UniRef90_UPI0009A1602C hypothetical protein n=1 Tax=Endozoicomo...  37.0    1.7  
+  UniRef90_A0A0A7LLP7 Uncharacterized protein n=3 Tax=Hymenobacte...  35.8    1.8  
+  UniRef90_A0A2N4UC99 Uncharacterized protein n=1 Tax=Pusillimona...  35.8    2.1  
+  UniRef90_A0A1S9AZD2 Uncharacterized protein n=1 Tax=Hymenobacte...  35.4    3.6  
+  UniRef90_A0A160PBG5 Uncharacterized protein n=2 Tax=Methylorubr...  35.0    4.4  
+  UniRef90_A2EM54 Uncharacterized protein n=1 Tax=Trichomonas vag...  36.2    4.8  
+  UniRef90_A0A1Y0ILK2 Uncharacterized protein n=1 Tax=Tumebacillu...  35.8    5.1  
+  UniRef90_A0A1L8MPD0 DUF4649 domain-containing protein n=2 Tax=S...  33.5    7.5  
+  UniRef90_A0A1N6DD46 Cyclic pyranopterin monophosphate synthase ...  35.0    7.5  
+  UniRef90_A0A286CHW5 Multicopper oxidase with three cupredoxin d...  35.0    9.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.125    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 739511669728
+Warning: [psiblast] lcl|Query_1 NP_415561.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415561.1
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A377VNR3 Curli assembly protein n=5 Tax=Enterobacter...  156     1e-47
+  UniRef90_UPI0003EB4266 curli assembly protein CsgC n=2 Tax=Salm...  155     2e-47
+  UniRef90_A0A0A1R7B3 Curli assembly protein n=6 Tax=Enterobacter...  155     3e-47
+  UniRef90_A0A376I7K7 Curli assembly protein n=2 Tax=Enterobacter...  153     1e-46
+  UniRef90_UPI00077B73E4 curli assembly protein CsgC n=1 Tax=Ente...  153     3e-46
+  UniRef90_A0A3G2IBH5 Curli assembly protein CsgC n=2 Tax=Buttiau...  151     8e-46
+  UniRef90_P0A1Z9 Curli assembly protein CsgC n=69 Tax=Enterobact...  151     1e-45
+  UniRef90_A0A381G5Z0 Curli assembly protein n=7 Tax=Gammaproteob...  150     4e-45
+  UniRef90_A0A377LGN6 Autoagglutination protein n=5 Tax=Escherich...  149     1e-44
+  UniRef90_A0A0M7F773 Curli assembly protein CsgC n=16 Tax=Entero...  148     2e-44
+  UniRef90_A0A085GH25 Putative curli production protein n=3 Tax=B...  148     3e-44
+  UniRef90_A0A3A3ZH64 Curli assembly protein CsgC n=2 Tax=Enterob...  148     3e-44
+  UniRef90_A0A0J1LPH0 Curli assembly protein n=2 Tax=Citrobacter ...  148     3e-44
+  UniRef90_UPI000EB14F3F curli assembly protein CsgC n=1 Tax=Ente...  147     5e-44
+  UniRef90_UPI000E722AA8 curli assembly protein CsgC n=1 Tax=Ente...  146     7e-44
+  UniRef90_W0BQI9 Curli assembly protein CsgC n=11 Tax=Enterobact...  146     8e-44
+  UniRef90_A0A2J0ND37 Curli assembly protein CsgC n=5 Tax=Enterob...  146     8e-44
+  UniRef90_UPI0004E0AF2A CSGC n=3 Tax=Escherichia coli TaxID=562 ...  146     1e-43
+  UniRef90_A0A2I6E6Z2 Curli assembly protein CsgC n=4 Tax=Enterob...  146     1e-43
+  UniRef90_D2TT50 Curli assembly protein n=1 Tax=Citrobacter rode...  146     1e-43
+  UniRef90_A9MH19 Curli assembly protein CsgC n=16 Tax=Salmonella...  145     2e-43
+  UniRef90_A0A0V9E2V1 Curli assembly protein CsgC n=10 Tax=Entero...  144     6e-43
+  UniRef90_A0A336QML0 Curli assembly protein n=4 Tax=Citrobacter ...  144     6e-43
+  UniRef90_A0A0F1B7I5 Curli assembly protein CsgC n=5 Tax=Enterob...  144     9e-43
+  UniRef90_A0A0D7LQH7 Curli assembly protein n=38 Tax=Enterobacte...  143     1e-42
+  UniRef90_A0A1B7HXZ2 Putative curli production protein n=1 Tax=B...  143     2e-42
+  UniRef90_W7P942 Curli assembly protein CsgC n=56 Tax=Enterobact...  143     2e-42
+  UniRef90_A0A1X0M874 Curli assembly protein CsgC n=2 Tax=Enterob...  143     2e-42
+  UniRef90_A4W958 Curli assembly protein n=2 Tax=Enterobacteriace...  143     2e-42
+  UniRef90_P52107 Curli assembly protein CsgC n=378 Tax=Proteobac...  143     2e-42
+  UniRef90_F5RT59 Putative autoagglutination protein n=2 Tax=Ente...  142     5e-42
+  UniRef90_A0A329HS97 Curli assembly protein CsgC n=1 Tax=Enterob...  141     1e-41
+  UniRef90_UPI0007618FCA curli assembly protein CsgC n=2 Tax=Citr...  141     1e-41
+  UniRef90_Q57QL2 Curli assembly protein n=57 Tax=Salmonella TaxI...  140     1e-41
+  UniRef90_UPI000F670F5C curli assembly protein CsgC n=1 Tax=Atla...  140     2e-41
+  UniRef90_A0A156Q804 Thin aggregative fimbriae synthesis protein...  139     6e-41
+  UniRef90_A0A2S4RYD3 Curli assembly protein n=1 Tax=Citrobacter ...  139     7e-41
+  UniRef90_A0A351LWJ8 Curli assembly protein CsgC n=1 Tax=Francon...  138     1e-40
+  UniRef90_A0A1B7HRD3 Putative curli production protein n=2 Tax=B...  138     2e-40
+  UniRef90_A0A089RBI1 Curli assembly protein CsgC n=1 Tax=Cedecea...  138     2e-40
+  UniRef90_UPI0004F5EE91 curli assembly protein CsgC n=1 Tax=Cede...  137     3e-40
+  UniRef90_S3IZZ9 Curli assembly protein CsgC family protein n=1 ...  137     3e-40
+  UniRef90_A0A2N0W5U7 Aggregative fimbriae synthesis protein n=1 ...  137     4e-40
+  UniRef90_A0A285JIZ3 Curli production protein n=1 Tax=Enterobact...  135     2e-39
+  UniRef90_A0A318W2I9 Curli production protein n=2 Tax=Enterobact...  135     3e-39
+  UniRef90_H5V127 Curli assembly protein CsgC n=3 Tax=Enterobacte...  135     3e-39
+  UniRef90_A0A0C5VXV3 Putative curli production protein CsgC n=3 ...  135     4e-39
+  UniRef90_A0A1A9FB38 Curli assembly protein CsgC n=1 Tax=Lelliot...  134     6e-39
+  UniRef90_A0A2J9H4N9 Aggregative fimbriae synthesis protein n=9 ...  134     8e-39
+  UniRef90_A0A2A3KSQ8 Aggregative fimbriae synthesis protein n=2 ...  133     9e-39
+  UniRef90_E5YGD1 Uncharacterized protein n=5 Tax=Enterobacterale...  133     2e-38
+  UniRef90_H8NTE7 Curli assembly protein CsgC n=4 Tax=Rahnella Ta...  131     9e-38
+  UniRef90_A0A0Q4NCE6 Aggregative fimbriae synthesis protein n=2 ...  131     1e-37
+  UniRef90_G9Z6X1 Curli assembly protein CsgC family protein n=3 ...  130     2e-37
+  UniRef90_UPI000DD3727C aggregative fimbriae synthesis protein n...  130     3e-37
+  UniRef90_A0A2S5CBW1 Curli assembly protein CsgC n=6 Tax=Enterob...  129     5e-37
+  UniRef90_G2S883 Curli production protein CsgC n=2 Tax=Enterobac...  128     1e-36
+  UniRef90_UPI0004957501 curli assembly protein CsgC n=3 Tax=Fran...  128     1e-36
+  UniRef90_A0A1N6S8E1 Curli production protein n=1 Tax=Enterobact...  128     2e-36
+  UniRef90_UPI000466C903 hypothetical protein n=1 Tax=Enterobacte...  127     4e-36
+  UniRef90_E7SDT9 Putative curli production protein CsgC n=7 Tax=...  126     5e-36
+  UniRef90_UPI000DD42C05 aggregative fimbriae synthesis protein n...  126     9e-36
+  UniRef90_R9VUZ1 Uncharacterized protein n=5 Tax=Enterobacteriac...  126     1e-35
+  UniRef90_A0A358ZXV7 Curli assembly protein CsgC n=9 Tax=Enterob...  126     1e-35
+  UniRef90_A0A1I6CVL3 Curli production protein n=1 Tax=Enterobact...  125     2e-35
+  UniRef90_A0A3N5E4N9 Curli assembly protein CsgC n=1 Tax=Buttiau...  125     2e-35
+  UniRef90_UPI00057C0D01 curli assembly protein CsgC n=1 Tax=Ente...  125     2e-35
+  UniRef90_J1GK86 Curli assembly protein CsgC n=4 Tax=Enterobacte...  124     4e-35
+  UniRef90_A0A2P8VRS0 Curli assembly protein CsgC n=1 Tax=Sicciba...  124     4e-35
+  UniRef90_A0A2L1UL72 Aggregative fimbriae synthesis protein n=1 ...  124     7e-35
+  UniRef90_I2BCF5 Curli production protein CsgC n=1 Tax=Shimwelli...  123     8e-35
+  UniRef90_A0A0M3F4S5 Uncharacterized protein n=2 Tax=Enterobacte...  122     3e-34
+  UniRef90_A0A2Y9TX41 Aggregative fimbriae synthesis protein n=1 ...  122     3e-34
+  UniRef90_A0A2X3E8J7 Curli assembly protein CsgC n=2 Tax=Kluyver...  121     5e-34
+  UniRef90_A0A085HGT1 Putative curli production protein n=1 Tax=L...  121     5e-34
+  UniRef90_A0A2N0MYE1 Aggregative fimbriae synthesis protein n=2 ...  121     9e-34
+  UniRef90_A0A366NA14 Aggregative fimbriae synthesis protein n=4 ...  121     1e-33
+  UniRef90_A0A1C4EI83 Curli production protein n=1 Tax=Kosakonia ...  119     3e-33
+  UniRef90_A0A0K2P0R4 Curli assembly protein CsgC n=5 Tax=Cronoba...  119     7e-33
+  UniRef90_A0A2S7SG78 Curli assembly protein n=5 Tax=Escherichia ...  118     8e-33
+  UniRef90_A0A0F0XS58 Curli assembly protein CsgC n=6 Tax=Enterob...  118     1e-32
+  UniRef90_L0M5T1 Thin aggregative fimbriae synthesis protein n=1...  116     6e-32
+  UniRef90_A0A1X0X8P4 Curli assembly protein CsgC n=1 Tax=Kluyver...  115     2e-31
+  UniRef90_A0A378GLT0 Curli assembly protein CsgC n=1 Tax=Kluyver...  115     2e-31
+  UniRef90_K7ZZ02 Putative curli production protein CsgC n=1 Tax=...  115     2e-31
+  UniRef90_C9Y0V6 Putative curli production protein csgC n=8 Tax=...  113     9e-31
+  UniRef90_I0QV38 Curli assembly protein CsgC n=2 Tax=Serratia sp...  113     9e-31
+  UniRef90_A0A348DC07 Curli assembly protein CsgC n=11 Tax=Entero...  113     9e-31
+  UniRef90_A0A366F494 Curli production protein n=3 Tax=Pseudocitr...  113     1e-30
+  UniRef90_A0A2T2Y327 Uncharacterized protein n=1 Tax=Kluyvera as...  113     2e-30
+  UniRef90_A0A3N2RS27 Curli assembly protein CsgC n=1 Tax=Kluyver...  112     4e-30
+  UniRef90_A0A351NNF1 Curli assembly protein CsgC n=1 Tax=Enterob...  112     7e-30
+  UniRef90_UPI000789148B hypothetical protein n=1 Tax=Kluyvera in...  110     2e-29
+  UniRef90_A0A090V4T2 Curli assembly protein CsgC n=1 Tax=Pseudes...  109     3e-29
+  UniRef90_UPI0005D313B8 hypothetical protein n=1 Tax=Rouxiella c...  107     3e-28
+  UniRef90_A0A2X1JAS4 Putative curli production protein n=5 Tax=E...  106     3e-28
+  UniRef90_A0A0L0GY42 Curli assembly protein CsgC n=2 Tax=Trabuls...  105     1e-27
+  UniRef90_A0A376KY33 Putative curli production protein n=1 Tax=E...  105     1e-27
+  UniRef90_UPI00068BEB45 hypothetical protein n=1 Tax=Serratia Ta...  107     1e-27
+  UniRef90_A0A085AGQ5 Putative curli production protein n=2 Tax=T...  101     8e-26
+  UniRef90_I6E1C1 Curli assembly CsgC domain protein n=6 Tax=Ente...  95.7    4e-24
+  UniRef90_W1FX48 Putative curli production protein CsgC n=1 Tax=...  95.7    4e-24
+  UniRef90_B3WZ61 Curli production protein CsgC n=3 Tax=Enterobac...  94.6    9e-24
+  UniRef90_A0A248KJB0 Uncharacterized protein n=1 Tax=Kluyvera ge...  95.0    1e-23
+  UniRef90_A0A200L4X9 Curli production assembly protein CsgC n=3 ...  93.0    5e-23
+  UniRef90_A0A379CMX9 Curli assembly protein CsgC n=7 Tax=Plesiom...  92.6    2e-22
+  UniRef90_UPI00020CAA6E curli production assembly protein CsgC n...  90.7    3e-22
+  UniRef90_A0A1M6AK21 Curli production protein n=1 Tax=Candidimon...  88.8    6e-21
+  UniRef90_UPI000F87E892 UPI000F87E892 related cluster n=1 Tax=un...  88.0    1e-20
+  UniRef90_A0A379SWD2 Putative autoagglutination protein n=1 Tax=...  86.1    2e-20
+  UniRef90_UPI000D15A7D5 curli assembly protein CsgC n=1 Tax=Esch...  84.9    2e-19
+  UniRef90_UPI00036C9EDC hypothetical protein n=1 Tax=Azoarcus to...  82.6    3e-18
+  UniRef90_A0A143HWH6 Uncharacterized protein n=1 Tax=Enterobacte...  80.7    3e-18
+  UniRef90_A0A2X5BDG1 Curli production assembly protein CsgC n=1 ...  79.9    8e-18
+  UniRef90_UPI00098AA733 hypothetical protein n=1 Tax=Escherichia...  77.6    4e-17
+  UniRef90_E7TB66 Putative curli production protein CsgC n=1 Tax=...  76.8    6e-17
+  UniRef90_A0A376MV37 Putative curli production protein n=1 Tax=E...  76.5    1e-16
+  UniRef90_A0A090NBD6 Putative curli production protein csgC (Fra...  72.2    4e-15
+  UniRef90_A0A377CY44 Putative curli production protein n=1 Tax=E...  73.8    5e-15
+  UniRef90_A0A2R9W4M1 Curli assembly protein CsgC (Fragment) n=3 ...  72.2    6e-15
+  UniRef90_A0A2Y2N5A2 Autoagglutination protein n=1 Tax=Shigella ...  66.8    1e-12
+  UniRef90_A0A376X1S3 Putative curli production protein n=1 Tax=E...  61.4    1e-10
+  UniRef90_UPI00098C330A hypothetical protein n=1 Tax=Shigella fl...  61.1    2e-10
+  UniRef90_A0A143HWJ4 Uncharacterized protein n=1 Tax=Enterobacte...  57.6    2e-09
+  UniRef90_A0A074TN92 Curli assembly protein CsgC (Fragment) n=1 ...  56.8    5e-09
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000EB09D9C hypothetical protein n=1 Tax=Azoarcus sp...  79.9    3e-17
+  UniRef90_A0A2N4U3D0 Uncharacterized protein n=1 Tax=Pusillimona...  73.0    7e-15
+  UniRef90_A0A2T5R9C1 Thin aggregative fimbriae synthesis protein...  73.4    1e-14
+  UniRef90_A0A2N4UC99 Uncharacterized protein n=1 Tax=Pusillimona...  69.9    2e-13
+  UniRef90_UPI000C9EEE90 hypothetical protein n=1 Tax=Castellanie...  66.1    4e-12
+  UniRef90_A0A366HFS6 Curli production protein n=1 Tax=Eoetvoesia...  66.1    4e-12
+  UniRef90_A0A1H8CLP6 Thin aggregative fimbriae synthesis protein...  66.4    6e-12
+  UniRef90_W8XA41 Uncharacterized protein n=1 Tax=Castellaniella ...  65.7    7e-12
+  UniRef90_A0A225MWJ0 Uncharacterized protein n=1 Tax=Candidimona...  65.7    8e-12
+  UniRef90_A0A231HI19 Uncharacterized protein n=2 Tax=Pusillimona...  63.4    5e-11
+  UniRef90_F4GTJ7 Uncharacterized protein n=1 Tax=Pusillimonas sp...  63.8    5e-11
+  UniRef90_A0A368WEA8 Thin aggregative fimbriae synthesis protein...  63.0    6e-11
+  UniRef90_UPI000832DBFC hypothetical protein n=1 Tax=Castellanie...  62.6    1e-10
+  UniRef90_A0A2D9ELK5 Uncharacterized protein n=1 Tax=Pusillimona...  62.2    2e-10
+  UniRef90_A0A366HHB6 Thin aggregative fimbriae synthesis protein...  60.3    7e-10
+  UniRef90_UPI000579710D hypothetical protein n=1 Tax=Cupriavidus...  60.7    7e-10
+  UniRef90_A0A0Q8R0X5 Uncharacterized protein n=1 Tax=Noviherbasp...  58.4    5e-09
+  UniRef90_UPI00082F3C99 hypothetical protein n=1 Tax=Cupriavidus...  58.0    5e-09
+  UniRef90_A0A1I0BEA8 Thin aggregative fimbriae synthesis protein...  57.6    2e-08
+  UniRef90_A0A3A3FZ15 Uncharacterized protein n=1 Tax=Herbaspiril...  54.5    3e-07
+  UniRef90_A0A1S9AZD2 Uncharacterized protein n=1 Tax=Hymenobacte...  53.7    5e-07
+  UniRef90_UPI000377EA1C hypothetical protein n=1 Tax=beta proteo...  53.4    8e-07
+  UniRef90_UPI0002EA95DC hypothetical protein n=1 Tax=Cupriavidus...  52.2    1e-06
+  UniRef90_A0A1D7ZLU2 Uncharacterized protein n=1 Tax=Burkholderi...  51.8    2e-06
+  UniRef90_UPI0009E5EB31 hypothetical protein n=1 Tax=Desulfocarb...  51.8    3e-06
+  UniRef90_UPI0009A1602C hypothetical protein n=1 Tax=Endozoicomo...  52.6    3e-06
+  UniRef90_Q392B4 Uncharacterized protein n=36 Tax=Bacteria TaxID...  51.0    4e-06
+  UniRef90_UPI0006851F20 hypothetical protein n=1 Tax=Chryseobact...  52.2    8e-06
+  UniRef90_U3QWX3 Uncharacterized protein n=2 Tax=Burkholderiacea...  48.7    2e-05
+  UniRef90_V5U0J8 CsgC protein n=1 Tax=Cronobacter malonaticus Ta...  47.6    2e-05
+  UniRef90_UPI000E59FD44 hypothetical protein n=1 Tax=Pusillimona...  48.7    3e-05
+  UniRef90_A0A0J5XE39 Uncharacterized protein n=1 Tax=Burkholderi...  48.3    4e-05
+  UniRef90_A0A2E3QTG1 Uncharacterized protein n=2 Tax=Bacteroidet...  48.7    4e-05
+  UniRef90_A0A348FY17 Uncharacterized protein n=1 Tax=Blastochlor...  48.0    4e-05
+  UniRef90_UPI000907840E hypothetical protein n=1 Tax=Buttiauxell...  48.3    5e-05
+  UniRef90_Q46PU7 Uncharacterized protein n=1 Tax=Cupriavidus nec...  47.6    6e-05
+  UniRef90_A0A2N6EC65 Uncharacterized protein n=1 Tax=Desulfuromo...  48.3    6e-05
+  UniRef90_A0A1C8ZFK2 Uncharacterized protein n=1 Tax=Burkholderi...  47.6    6e-05
+  UniRef90_A0A2T2S4G1 Uncharacterized protein n=1 Tax=Bacteroidet...  47.6    2e-04
+  UniRef90_A0A142HFQ5 Uncharacterized protein n=1 Tax=Hymenobacte...  46.4    2e-04
+  UniRef90_A0A239KIW7 Uncharacterized protein n=2 Tax=Pontibacter...  46.4    3e-04
+  UniRef90_A0A081NL16 Uncharacterized protein n=1 Tax=Endozoicomo...  46.4    3e-04
+  UniRef90_UPI000DCF946B hypothetical protein n=2 Tax=Aeromonadac...  46.0    5e-04
+  UniRef90_A0A2Z3GS72 Uncharacterized protein n=1 Tax=Hymenobacte...  45.6    5e-04
+  UniRef90_A0A2T7FSQ2 Uncharacterized protein n=1 Tax=Rhodobacter...  46.0    6e-04
+  UniRef90_A0A387FX09 Uncharacterized protein n=1 Tax=Rhizobium j...  45.6    6e-04
+  UniRef90_A0A1M6F1Q6 Uncharacterized protein n=1 Tax=Hymenobacte...  45.6    7e-04
+  UniRef90_A0A126PE94 Uncharacterized protein n=1 Tax=Hymenobacte...  44.9    8e-04
+  UniRef90_UPI000F88674E hypothetical protein n=1 Tax=Hymenobacte...  45.3    8e-04
+  UniRef90_UPI00069463B1 hypothetical protein n=1 Tax=Aeromonas r...  45.3    9e-04
+  UniRef90_A0A1E4GK75 Uncharacterized protein n=1 Tax=Pelagibacte...  45.3    0.001
+  UniRef90_A0A328B9W8 Uncharacterized protein n=1 Tax=Hymenobacte...  44.9    0.001
+  UniRef90_UPI000F4EB128 hypothetical protein n=1 Tax=Hymenobacte...  44.5    0.001
+  UniRef90_A0A2U1CHQ4 Uncharacterized protein n=3 Tax=Proteobacte...  44.5    0.001
+  UniRef90_A0A0A7LLP7 Uncharacterized protein n=3 Tax=Hymenobacte...  44.1    0.001
+  UniRef90_A0A3M1XS16 Uncharacterized protein n=1 Tax=Bacteroidet...  44.5    0.001
+  UniRef90_A0A259M7P0 Uncharacterized protein n=1 Tax=Rhodobacter...  44.5    0.002
+  UniRef90_A0A1Y6F215 Uncharacterized protein n=1 Tax=Devosia luc...  44.1    0.002
+  UniRef90_UPI000E3CC13C hypothetical protein n=1 Tax=Rhizobium s...  44.1    0.002
+  UniRef90_UPI00055CF1C1 hypothetical protein n=1 Tax=Maribacter ...  44.1    0.002
+  UniRef90_UPI000E6932B9 hypothetical protein n=1 Tax=Hymenobacte...  43.7    0.003
+  UniRef90_A0A246BAW1 Uncharacterized protein n=4 Tax=Chryseobact...  44.9    0.003
+  UniRef90_U7G1F7 Uncharacterized protein n=1 Tax=Alcanivorax sp....  43.7    0.004
+  UniRef90_A0A1W2D850 Uncharacterized protein n=2 Tax=Fulvimarina...  43.3    0.004
+  UniRef90_A0A0D2JTN0 Uncharacterized protein n=1 Tax=Dethiosulfa...  43.3    0.004
+  UniRef90_A0A3G8XK90 Uncharacterized protein n=1 Tax=Chryseobact...  44.5    0.005
+  UniRef90_UPI0006D04F63 hypothetical protein n=1 Tax=Marinifilum...  43.3    0.005
+  UniRef90_A0A0E9LXX4 Uncharacterized protein n=2 Tax=Geofilum Ta...  43.0    0.005
+  UniRef90_A0A258GTY8 Uncharacterized protein n=1 Tax=Alphaproteo...  43.7    0.006
+  UniRef90_UPI0003B48FCA hypothetical protein n=1 Tax=Rhodopseudo...  42.6    0.006
+  UniRef90_A0A222EW22 Uncharacterized protein n=6 Tax=Sphingomona...  42.2    0.007
+  UniRef90_A0A2V3ZU28 Uncharacterized protein n=1 Tax=Marinifilum...  42.6    0.008
+  UniRef90_UPI000E65CE76 hypothetical protein n=1 Tax=Cohaesibact...  42.6    0.009
+  UniRef90_A0A1J5J6F2 Uncharacterized protein n=1 Tax=Zetaproteob...  42.2    0.011
+  UniRef90_A0A2U2B3Z9 Uncharacterized protein n=2 Tax=Marinilabil...  42.6    0.012
+  UniRef90_A0A0Y0IEQ4 Uncharacterized protein n=1 Tax=Methylobact...  41.8    0.014
+  UniRef90_W8EWD2 Uncharacterized protein n=2 Tax=Hymenobacter Ta...  40.3    0.018
+  UniRef90_A0A0Q4X835 Uncharacterized protein n=2 Tax=Methylobact...  41.8    0.021
+  UniRef90_E3I1Z7 Uncharacterized protein n=2 Tax=Rhodomicrobium ...  41.8    0.023
+  UniRef90_UPI000D373454 hypothetical protein n=1 Tax=Devosia sp....  41.4    0.024
+  UniRef90_A0A3G2GAP2 Uncharacterized protein n=1 Tax=Chryseobact...  42.2    0.025
+  UniRef90_A0A2N6GCR8 Uncharacterized protein n=1 Tax=Sedimentico...  41.4    0.026
+  UniRef90_UPI00047CFB38 hypothetical protein n=1 Tax=Maribacter ...  41.0    0.034
+  UniRef90_A0A246FK41 Uncharacterized protein n=1 Tax=Hymenobacte...  40.6    0.038
+  UniRef90_UPI000C9F7E1D hypothetical protein n=2 Tax=Salinibacte...  41.0    0.042
+  UniRef90_A0A1H3GNA6 Curli assembly protein CsgE n=2 Tax=Lutibac...  41.8    0.043
+  UniRef90_A0A085B957 Uncharacterized protein n=2 Tax=Chryseobact...  41.8    0.043
+  UniRef90_UPI000DEB2021 hypothetical protein n=1 Tax=Cohaesibact...  40.6    0.046
+  UniRef90_A0A2N5XSR8 Uncharacterized protein n=1 Tax=Cohaesibact...  40.6    0.047
+  UniRef90_A0A0F5FWP0 Uncharacterized protein n=1 Tax=Devosia geo...  40.6    0.049
+  UniRef90_A0A1M4YTC0 Uncharacterized protein n=1 Tax=Devosia lim...  40.6    0.052
+  UniRef90_UPI000645A71D hypothetical protein n=1 Tax=Aeromonas T...  40.6    0.053
+  UniRef90_A0A1B7IAE9 Uncharacterized protein n=2 Tax=Buttiauxell...  40.3    0.054
+  UniRef90_A0A162I8V5 Uncharacterized protein n=2 Tax=Alcanivorax...  39.9    0.058
+  UniRef90_A0A1E4QND3 Uncharacterized protein n=1 Tax=Cupriavidus...  39.9    0.060
+  UniRef90_A0A1T4SEV8 Uncharacterized protein n=1 Tax=Consotaella...  40.3    0.061
+  UniRef90_UPI0004891010 hypothetical protein n=1 Tax=Pseudoocean...  39.9    0.077
+  UniRef90_A0A0S2ETR5 Uncharacterized protein n=2 Tax=Aurantimona...  39.9    0.080
+  UniRef90_UPI000C1877B6 hypothetical protein n=1 Tax=Pararhizobi...  39.9    0.083
+  UniRef90_C6X5S3 Uncharacterized protein n=2 Tax=Flavobacteriace...  40.6    0.084
+  UniRef90_A0A381ZUF3 Uncharacterized protein (Fragment) n=1 Tax=...  41.0    0.091
+  UniRef90_R1HC76 Uncharacterized protein n=2 Tax=Gammaproteobact...  39.9    0.093
+  UniRef90_A0A0Q4Z606 Uncharacterized protein n=1 Tax=Methylobact...  39.9    0.095
+  UniRef90_A0A160ESI6 Uncharacterized protein n=2 Tax=Aeromonas T...  39.9    0.12 
+  UniRef90_UPI000469A02D hypothetical protein n=1 Tax=Sulfitobact...  39.5    0.12 
+  UniRef90_UPI000BA9D8CA polysaccharide biosynthesis tyrosine aut...  40.3    0.13 
+  UniRef90_UPI00069910C9 hypothetical protein n=1 Tax=Devosia epi...  39.5    0.15 
+  UniRef90_UPI000F65B9A6 hypothetical protein n=1 Tax=Hymenobacte...  39.1    0.17 
+  UniRef90_A0A1M5GMQ5 Uncharacterized protein n=1 Tax=Flavobacter...  39.1    0.18 
+  UniRef90_UPI000C75E7E4 hypothetical protein n=1 Tax=Aeromonas v...  39.1    0.18 
+  UniRef90_UPI000CDE4E11 hypothetical protein n=1 Tax=Roseovarius...  38.3    0.21 
+  UniRef90_A0A2A9GK32 Uncharacterized protein n=1 Tax=Thioclava s...  38.7    0.23 
+  UniRef90_A0A160PBG5 Uncharacterized protein n=2 Tax=Methylorubr...  38.3    0.23 
+  UniRef90_A0A1I1TN58 Uncharacterized protein n=2 Tax=Roseovarius...  38.7    0.23 
+  UniRef90_UPI00058EC8A5 hypothetical protein n=1 Tax=Pseudomonas...  38.3    0.24 
+  UniRef90_A0A2U8WMS2 Uncharacterized protein n=1 Tax=Methylobact...  38.3    0.24 
+  UniRef90_A0A175RA01 Uncharacterized protein n=2 Tax=Aureimonas ...  38.3    0.26 
+  UniRef90_UPI000F74EA81 hypothetical protein n=2 Tax=Mesorhizobi...  38.3    0.30 
+  UniRef90_A0A2X2WPS6 Curli assembly protein CsgE n=5 Tax=Chryseo...  39.1    0.32 
+  UniRef90_A0A1G7R7Z5 Uncharacterized protein n=2 Tax=Pseudomonas...  37.9    0.35 
+  UniRef90_A0A1I0BBU8 Uncharacterized protein n=2 Tax=Hymenobacte...  38.3    0.36 
+  UniRef90_UPI000E30F3BA hypothetical protein n=1 Tax=Maribacter ...  37.9    0.39 
+  UniRef90_A0A3B1KHZ1 Neural precursor cell expressed, developmen...  39.1    0.40 
+  UniRef90_A0A219AFW3 Uncharacterized protein n=1 Tax=Chryseobact...  38.7    0.40 
+  UniRef90_A0A3B1JUD2 Neural precursor cell expressed, developmen...  39.1    0.41 
+  UniRef90_A0A2E2DKA7 Uncharacterized protein n=2 Tax=Alcanivorac...  37.6    0.43 
+  UniRef90_UPI000B3D7E1A hypothetical protein n=1 Tax=Rhodobacter...  37.9    0.47 
+  UniRef90_Q1YMP8 Uncharacterized protein n=2 Tax=Aurantimonadace...  37.9    0.49 
+  UniRef90_UPI000FD99A61 hypothetical protein n=1 Tax=Rhodobacter...  37.6    0.50 
+  UniRef90_A0A1H3AWQ9 Uncharacterized protein n=1 Tax=Hymenobacte...  37.6    0.58 
+  UniRef90_A0A0F5LE64 Uncharacterized protein n=1 Tax=Devosia sol...  37.6    0.59 
+  UniRef90_UPI000E743EDA hypothetical protein n=1 Tax=Marinifilum...  37.2    0.63 
+  UniRef90_A0A0U9HNP3 Uncharacterized protein n=1 Tax=Thermodesul...  37.6    0.65 
+  UniRef90_Q2YCJ9 Aminomethyltransferase n=15 Tax=Nitrosomonadale...  38.3    0.67 
+  UniRef90_J0LEJ9 Uncharacterized protein n=1 Tax=Pontibacter sp....  37.6    0.68 
+  UniRef90_A0A0D2MER8 Uncharacterized protein n=1 Tax=Monoraphidi...  38.3    0.71 
+  UniRef90_UPI0005A9FC12 hypothetical protein n=2 Tax=Aeromonas v...  37.6    0.75 
+  UniRef90_A0A2A4TCF1 Uncharacterized protein n=1 Tax=Flavobacter...  37.9    0.81 
+  UniRef90_A0A1M5SYY2 Uncharacterized protein n=1 Tax=Pseudomonas...  37.6    0.83 
+  UniRef90_A0A372E2L0 Uncharacterized protein n=1 Tax=Hymenobacte...  37.2    0.88 
+  UniRef90_A0A2A4QT58 Uncharacterized protein n=1 Tax=Flavobacter...  37.9    0.97 
+  UniRef90_A0A0Q8IH18 Uncharacterized protein n=2 Tax=Devosia Tax...  37.2    0.97 
+  UniRef90_A0A178I3L4 Uncharacterized protein n=1 Tax=Devosia ela...  37.2    1.0  
+  UniRef90_A0A1B8Z8S2 Uncharacterized protein n=5 Tax=Chryseobact...  37.6    1.1  
+  UniRef90_A0A1H6HT26 Curli assembly protein CsgE n=9 Tax=Chryseo...  37.6    1.1  
+  UniRef90_A0A1H9CC88 Uncharacterized protein n=1 Tax=Devosia sp....  36.8    1.1  
+  UniRef90_A0A095TU87 Uncharacterized protein n=1 Tax=Alcanivorax...  36.4    1.2  
+  UniRef90_A0A2E9T3Z7 Uncharacterized protein n=1 Tax=Candidatus ...  37.6    1.3  
+  UniRef90_A0A085UL34 Uncharacterized protein n=2 Tax=Pseudomonas...  36.0    1.5  
+  UniRef90_A0A2N3E5L8 Uncharacterized protein n=1 Tax=Alphaproteo...  36.4    1.6  
+  UniRef90_UPI000E6BFCBB hypothetical protein n=1 Tax=Salinibacte...  36.4    1.7  
+  UniRef90_A0A2Z6EZJ5 Uncharacterized protein n=1 Tax=Halorhodosp...  36.4    2.0  
+  UniRef90_UPI000C9FA051 hypothetical protein n=1 Tax=Salinivenus...  36.4    2.1  
+  UniRef90_A0A1E4FC93 Uncharacterized protein n=1 Tax=Pelagibacte...  36.0    2.2  
+  UniRef90_Q11JV3 Uncharacterized protein n=1 Tax=Chelativorans s...  36.0    2.3  
+  UniRef90_A0A085VNM2 Uncharacterized protein n=1 Tax=Pseudomonas...  35.6    2.3  
+  UniRef90_A0A0Q7I7K5 Uncharacterized protein n=1 Tax=Devosia sp....  36.0    2.4  
+  UniRef90_A0A1N6Y0K2 Putative phage tail protein n=1 Tax=Paracoc...  36.8    2.5  
+  UniRef90_A0A3D4BKH7 Uncharacterized protein n=2 Tax=Flavobacter...  36.8    2.5  
+  UniRef90_A0A2X2XNC6 Curli production protein csgc n=1 Tax=Citro...  34.5    2.5  
+  UniRef90_UPI000FCB5E96 hypothetical protein n=1 Tax=Mesorhizobi...  36.0    2.5  
+  UniRef90_A0A383V9T4 Uncharacterized protein n=1 Tax=Tetradesmus...  36.8    2.7  
+  UniRef90_UPI000E5704FF hypothetical protein n=1 Tax=Salinibacte...  36.0    2.8  
+  UniRef90_A0A172WPD1 Uncharacterized protein n=3 Tax=Pseudomonas...  36.0    2.9  
+  UniRef90_UPI0005A7A6E2 hypothetical protein n=1 Tax=Aeromonas f...  35.6    2.9  
+  UniRef90_UPI000D36D51B hypothetical protein n=1 Tax=Devosia sub...  35.6    3.0  
+  UniRef90_A0A1C2DYC5 Uncharacterized protein n=8 Tax=Pseudomonad...  35.2    3.0  
+  UniRef90_A0A0T6TY57 Uncharacterized protein n=1 Tax=Aeromonas a...  36.0    3.0  
+  UniRef90_A0A2U1B2P1 Uncharacterized protein n=1 Tax=Pontibacter...  35.6    3.2  
+  UniRef90_A0A371XAL0 Uncharacterized protein n=1 Tax=Fulvimarina...  35.6    3.2  
+  UniRef90_UPI000C9FCE9A hypothetical protein n=1 Tax=Salinivenus...  35.6    3.3  
+  UniRef90_UPI000369EFC4 hypothetical protein n=1 Tax=Hymenobacte...  35.6    3.6  
+  UniRef90_UPI000FD196C0 UPI000FD196C0 related cluster n=2 Tax=Me...  35.6    3.7  
+  UniRef90_A0A2N3IPH2 Uncharacterized protein n=1 Tax=Aeromonas s...  35.6    3.7  
+  UniRef90_A0A1C2DZ58 Uncharacterized protein n=2 Tax=Phyllobacte...  35.6    3.9  
+  UniRef90_A0A383VGM0 Uncharacterized protein n=1 Tax=Tetradesmus...  36.0    4.5  
+  UniRef90_A0A0K6GUQ6 Uncharacterized protein n=2 Tax=Chromobacte...  34.5    5.0  
+  UniRef90_A0A151GZU1 Uncharacterized protein (Fragment) n=1 Tax=...  36.0    5.0  
+  UniRef90_Q2CEK7 Uncharacterized protein n=1 Tax=Oceanicola gran...  34.9    5.2  
+  UniRef90_A0A1F9LVP9 Uncharacterized protein n=1 Tax=Deltaproteo...  35.2    5.2  
+  UniRef90_A0A254R3P4 Uncharacterized protein n=1 Tax=Oceanicola ...  34.9    5.7  
+  UniRef90_UPI000F048449 hypothetical protein n=1 Tax=Pseudomonas...  34.5    6.1  
+  UniRef90_J4WM26 RhoGEF domain-containing protein n=4 Tax=Beauve...  35.6    7.8  
+  UniRef90_A0A1V9U997 Uncharacterized protein n=1 Tax=Pseudomonas...  34.1    9.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.152    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0466    0.140     1.90     42.6     43.6 
+
+Effective search space used: 739511669728
+Results from round 3
+
+
+Query= NP_415561.1
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A377VNR3 Curli assembly protein n=5 Tax=Enterobacter...  145     3e-43
+  UniRef90_A0A3G2IBH5 Curli assembly protein CsgC n=2 Tax=Buttiau...  142     5e-42
+  UniRef90_A0A0A1R7B3 Curli assembly protein n=6 Tax=Enterobacter...  140     5e-41
+  UniRef90_UPI0003EB4266 curli assembly protein CsgC n=2 Tax=Salm...  139     6e-41
+  UniRef90_UPI00077B73E4 curli assembly protein CsgC n=1 Tax=Ente...  137     3e-40
+  UniRef90_A0A376I7K7 Curli assembly protein n=2 Tax=Enterobacter...  137     3e-40
+  UniRef90_A0A0M7F773 Curli assembly protein CsgC n=16 Tax=Entero...  137     3e-40
+  UniRef90_A0A085GH25 Putative curli production protein n=3 Tax=B...  137     4e-40
+  UniRef90_UPI000EB14F3F curli assembly protein CsgC n=1 Tax=Ente...  136     8e-40
+  UniRef90_P0A1Z9 Curli assembly protein CsgC n=69 Tax=Enterobact...  136     1e-39
+  UniRef90_A0A3A3ZH64 Curli assembly protein CsgC n=2 Tax=Enterob...  135     2e-39
+  UniRef90_A0A381G5Z0 Curli assembly protein n=7 Tax=Gammaproteob...  134     5e-39
+  UniRef90_A0A351LWJ8 Curli assembly protein CsgC n=1 Tax=Francon...  134     8e-39
+  UniRef90_UPI000E722AA8 curli assembly protein CsgC n=1 Tax=Ente...  134     9e-39
+  UniRef90_A0A2J0ND37 Curli assembly protein CsgC n=5 Tax=Enterob...  133     9e-39
+  UniRef90_W0BQI9 Curli assembly protein CsgC n=11 Tax=Enterobact...  133     1e-38
+  UniRef90_A9MH19 Curli assembly protein CsgC n=16 Tax=Salmonella...  133     1e-38
+  UniRef90_D2TT50 Curli assembly protein n=1 Tax=Citrobacter rode...  133     1e-38
+  UniRef90_UPI0004F5EE91 curli assembly protein CsgC n=1 Tax=Cede...  133     2e-38
+  UniRef90_A0A1B7HXZ2 Putative curli production protein n=1 Tax=B...  133     2e-38
+  UniRef90_A0A1X0M874 Curli assembly protein CsgC n=2 Tax=Enterob...  133     2e-38
+  UniRef90_A0A0F1B7I5 Curli assembly protein CsgC n=5 Tax=Enterob...  133     2e-38
+  UniRef90_A0A0V9E2V1 Curli assembly protein CsgC n=10 Tax=Entero...  132     3e-38
+  UniRef90_A0A0J1LPH0 Curli assembly protein n=2 Tax=Citrobacter ...  132     5e-38
+  UniRef90_W7P942 Curli assembly protein CsgC n=56 Tax=Enterobact...  131     6e-38
+  UniRef90_A0A089RBI1 Curli assembly protein CsgC n=1 Tax=Cedecea...  131     6e-38
+  UniRef90_A0A2I6E6Z2 Curli assembly protein CsgC n=4 Tax=Enterob...  131     1e-37
+  UniRef90_A0A377LGN6 Autoagglutination protein n=5 Tax=Escherich...  131     1e-37
+  UniRef90_UPI000F670F5C curli assembly protein CsgC n=1 Tax=Atla...  130     2e-37
+  UniRef90_A4W958 Curli assembly protein n=2 Tax=Enterobacteriace...  129     4e-37
+  UniRef90_UPI0004E0AF2A CSGC n=3 Tax=Escherichia coli TaxID=562 ...  128     1e-36
+  UniRef90_F5RT59 Putative autoagglutination protein n=2 Tax=Ente...  128     1e-36
+  UniRef90_A0A336QML0 Curli assembly protein n=4 Tax=Citrobacter ...  128     2e-36
+  UniRef90_A0A156Q804 Thin aggregative fimbriae synthesis protein...  128     2e-36
+  UniRef90_S3IZZ9 Curli assembly protein CsgC family protein n=1 ...  127     3e-36
+  UniRef90_A0A0D7LQH7 Curli assembly protein n=38 Tax=Enterobacte...  127     3e-36
+  UniRef90_A0A1B7HRD3 Putative curli production protein n=2 Tax=B...  126     5e-36
+  UniRef90_Q57QL2 Curli assembly protein n=57 Tax=Salmonella TaxI...  126     5e-36
+  UniRef90_A0A329HS97 Curli assembly protein CsgC n=1 Tax=Enterob...  126     8e-36
+  UniRef90_A0A2S4RYD3 Curli assembly protein n=1 Tax=Citrobacter ...  126     1e-35
+  UniRef90_P52107 Curli assembly protein CsgC n=378 Tax=Proteobac...  126     1e-35
+  UniRef90_UPI0007618FCA curli assembly protein CsgC n=2 Tax=Citr...  126     1e-35
+  UniRef90_H5V127 Curli assembly protein CsgC n=3 Tax=Enterobacte...  125     2e-35
+  UniRef90_A0A2N0W5U7 Aggregative fimbriae synthesis protein n=1 ...  125     3e-35
+  UniRef90_A0A318W2I9 Curli production protein n=2 Tax=Enterobact...  125     4e-35
+  UniRef90_A0A285JIZ3 Curli production protein n=1 Tax=Enterobact...  124     7e-35
+  UniRef90_A0A2A3KSQ8 Aggregative fimbriae synthesis protein n=2 ...  122     3e-34
+  UniRef90_G9Z6X1 Curli assembly protein CsgC family protein n=3 ...  121     5e-34
+  UniRef90_UPI0004957501 curli assembly protein CsgC n=3 Tax=Fran...  121     5e-34
+  UniRef90_A0A1A9FB38 Curli assembly protein CsgC n=1 Tax=Lelliot...  121     7e-34
+  UniRef90_A0A0Q4NCE6 Aggregative fimbriae synthesis protein n=2 ...  121     8e-34
+  UniRef90_UPI000DD3727C aggregative fimbriae synthesis protein n...  121     9e-34
+  UniRef90_UPI000DD42C05 aggregative fimbriae synthesis protein n...  121     1e-33
+  UniRef90_H8NTE7 Curli assembly protein CsgC n=4 Tax=Rahnella Ta...  121     1e-33
+  UniRef90_A0A2J9H4N9 Aggregative fimbriae synthesis protein n=9 ...  119     4e-33
+  UniRef90_E5YGD1 Uncharacterized protein n=5 Tax=Enterobacterale...  118     8e-33
+  UniRef90_A0A0C5VXV3 Putative curli production protein CsgC n=3 ...  118     9e-33
+  UniRef90_G2S883 Curli production protein CsgC n=2 Tax=Enterobac...  117     3e-32
+  UniRef90_A0A2X3E8J7 Curli assembly protein CsgC n=2 Tax=Kluyver...  117     3e-32
+  UniRef90_J1GK86 Curli assembly protein CsgC n=4 Tax=Enterobacte...  117     4e-32
+  UniRef90_A0A2S5CBW1 Curli assembly protein CsgC n=6 Tax=Enterob...  116     5e-32
+  UniRef90_A0A3N5E4N9 Curli assembly protein CsgC n=1 Tax=Buttiau...  116     6e-32
+  UniRef90_A0A1I6CVL3 Curli production protein n=1 Tax=Enterobact...  116     1e-31
+  UniRef90_UPI000466C903 hypothetical protein n=1 Tax=Enterobacte...  115     2e-31
+  UniRef90_UPI00057C0D01 curli assembly protein CsgC n=1 Tax=Ente...  115     2e-31
+  UniRef90_A0A1N6S8E1 Curli production protein n=1 Tax=Enterobact...  115     2e-31
+  UniRef90_R9VUZ1 Uncharacterized protein n=5 Tax=Enterobacteriac...  114     3e-31
+  UniRef90_A0A358ZXV7 Curli assembly protein CsgC n=9 Tax=Enterob...  114     4e-31
+  UniRef90_A0A2L1UL72 Aggregative fimbriae synthesis protein n=1 ...  113     8e-31
+  UniRef90_A0A0K2P0R4 Curli assembly protein CsgC n=5 Tax=Cronoba...  113     2e-30
+  UniRef90_I2BCF5 Curli production protein CsgC n=1 Tax=Shimwelli...  113     2e-30
+  UniRef90_A0A085HGT1 Putative curli production protein n=1 Tax=L...  112     3e-30
+  UniRef90_A0A0M3F4S5 Uncharacterized protein n=2 Tax=Enterobacte...  111     4e-30
+  UniRef90_E7SDT9 Putative curli production protein CsgC n=7 Tax=...  111     7e-30
+  UniRef90_A0A2P8VRS0 Curli assembly protein CsgC n=1 Tax=Sicciba...  111     7e-30
+  UniRef90_A0A2Y9TX41 Aggregative fimbriae synthesis protein n=1 ...  111     7e-30
+  UniRef90_L0M5T1 Thin aggregative fimbriae synthesis protein n=1...  111     1e-29
+  UniRef90_A0A378GLT0 Curli assembly protein CsgC n=1 Tax=Kluyver...  110     1e-29
+  UniRef90_A0A2N0MYE1 Aggregative fimbriae synthesis protein n=2 ...  110     1e-29
+  UniRef90_A0A1C4EI83 Curli production protein n=1 Tax=Kosakonia ...  110     2e-29
+  UniRef90_K7ZZ02 Putative curli production protein CsgC n=1 Tax=...  110     2e-29
+  UniRef90_A0A366NA14 Aggregative fimbriae synthesis protein n=4 ...  109     3e-29
+  UniRef90_A0A1X0X8P4 Curli assembly protein CsgC n=1 Tax=Kluyver...  108     9e-29
+  UniRef90_C9Y0V6 Putative curli production protein csgC n=8 Tax=...  106     5e-28
+  UniRef90_A0A0F0XS58 Curli assembly protein CsgC n=6 Tax=Enterob...  106     5e-28
+  UniRef90_A0A2T2Y327 Uncharacterized protein n=1 Tax=Kluyvera as...  106     8e-28
+  UniRef90_A0A2S7SG78 Curli assembly protein n=5 Tax=Escherichia ...  106     9e-28
+  UniRef90_A0A3N2RS27 Curli assembly protein CsgC n=1 Tax=Kluyver...  106     1e-27
+  UniRef90_A0A366F494 Curli production protein n=3 Tax=Pseudocitr...  106     1e-27
+  UniRef90_I0QV38 Curli assembly protein CsgC n=2 Tax=Serratia sp...  106     1e-27
+  UniRef90_A0A1M6AK21 Curli production protein n=1 Tax=Candidimon...  105     1e-27
+  UniRef90_A0A348DC07 Curli assembly protein CsgC n=11 Tax=Entero...  104     3e-27
+  UniRef90_UPI000F87E892 UPI000F87E892 related cluster n=1 Tax=un...  102     2e-26
+  UniRef90_A0A351NNF1 Curli assembly protein CsgC n=1 Tax=Enterob...  103     4e-26
+  UniRef90_UPI00068BEB45 hypothetical protein n=1 Tax=Serratia Ta...  102     9e-26
+  UniRef90_UPI000789148B hypothetical protein n=1 Tax=Kluyvera in...  100     1e-25
+  UniRef90_A0A0L0GY42 Curli assembly protein CsgC n=2 Tax=Trabuls...  100     2e-25
+  UniRef90_A0A090V4T2 Curli assembly protein CsgC n=1 Tax=Pseudes...  99.2    5e-25
+  UniRef90_UPI0005D313B8 hypothetical protein n=1 Tax=Rouxiella c...  98.4    1e-24
+  UniRef90_UPI000C9EEE90 hypothetical protein n=1 Tax=Castellanie...  97.7    2e-24
+  UniRef90_A0A2N4UC99 Uncharacterized protein n=1 Tax=Pusillimona...  96.5    5e-24
+  UniRef90_F4GTJ7 Uncharacterized protein n=1 Tax=Pusillimonas sp...  96.1    9e-24
+  UniRef90_A0A2N4U3D0 Uncharacterized protein n=1 Tax=Pusillimona...  95.7    9e-24
+  UniRef90_A0A2X1JAS4 Putative curli production protein n=5 Tax=E...  95.0    2e-23
+  UniRef90_W8XA41 Uncharacterized protein n=1 Tax=Castellaniella ...  95.0    2e-23
+  UniRef90_A0A085AGQ5 Putative curli production protein n=2 Tax=T...  95.0    2e-23
+  UniRef90_A0A376KY33 Putative curli production protein n=1 Tax=E...  93.0    9e-23
+  UniRef90_UPI000832DBFC hypothetical protein n=1 Tax=Castellanie...  93.4    9e-23
+  UniRef90_A0A225MWJ0 Uncharacterized protein n=1 Tax=Candidimona...  93.0    1e-22
+  UniRef90_A0A366HFS6 Curli production protein n=1 Tax=Eoetvoesia...  93.0    1e-22
+  UniRef90_A0A2T5R9C1 Thin aggregative fimbriae synthesis protein...  92.6    3e-22
+  UniRef90_UPI000579710D hypothetical protein n=1 Tax=Cupriavidus...  91.1    6e-22
+  UniRef90_A0A2D9ELK5 Uncharacterized protein n=1 Tax=Pusillimona...  90.7    1e-21
+  UniRef90_A0A368WEA8 Thin aggregative fimbriae synthesis protein...  89.6    3e-21
+  UniRef90_A0A379CMX9 Curli assembly protein CsgC n=7 Tax=Plesiom...  89.6    4e-21
+  UniRef90_UPI00036C9EDC hypothetical protein n=1 Tax=Azoarcus to...  88.0    2e-20
+  UniRef90_UPI0002EA95DC hypothetical protein n=1 Tax=Cupriavidus...  86.9    3e-20
+  UniRef90_W1FX48 Putative curli production protein CsgC n=1 Tax=...  85.7    4e-20
+  UniRef90_UPI000EB09D9C hypothetical protein n=1 Tax=Azoarcus sp...  86.9    7e-20
+  UniRef90_A0A0Q8R0X5 Uncharacterized protein n=1 Tax=Noviherbasp...  85.3    1e-19
+  UniRef90_A0A248KJB0 Uncharacterized protein n=1 Tax=Kluyvera ge...  84.9    1e-19
+  UniRef90_I6E1C1 Curli assembly CsgC domain protein n=6 Tax=Ente...  83.8    2e-19
+  UniRef90_A0A1H8CLP6 Thin aggregative fimbriae synthesis protein...  85.3    2e-19
+  UniRef90_B3WZ61 Curli production protein CsgC n=3 Tax=Enterobac...  83.0    4e-19
+  UniRef90_A0A200L4X9 Curli production assembly protein CsgC n=3 ...  83.0    5e-19
+  UniRef90_A0A231HI19 Uncharacterized protein n=2 Tax=Pusillimona...  83.8    6e-19
+  UniRef90_A0A366HHB6 Thin aggregative fimbriae synthesis protein...  83.4    7e-19
+  UniRef90_UPI00082F3C99 hypothetical protein n=1 Tax=Cupriavidus...  83.0    9e-19
+  UniRef90_Q46PU7 Uncharacterized protein n=1 Tax=Cupriavidus nec...  82.2    2e-18
+  UniRef90_UPI00020CAA6E curli production assembly protein CsgC n...  81.1    3e-18
+  UniRef90_UPI000E59FD44 hypothetical protein n=1 Tax=Pusillimona...  80.3    1e-17
+  UniRef90_U3QWX3 Uncharacterized protein n=2 Tax=Burkholderiacea...  79.9    1e-17
+  UniRef90_A0A1I0BEA8 Thin aggregative fimbriae synthesis protein...  80.7    2e-17
+  UniRef90_A0A379SWD2 Putative autoagglutination protein n=1 Tax=...  78.4    3e-17
+  UniRef90_A0A3A3FZ15 Uncharacterized protein n=1 Tax=Herbaspiril...  79.2    8e-17
+  UniRef90_A0A2X5BDG1 Curli production assembly protein CsgC n=1 ...  75.7    4e-16
+  UniRef90_A0A2N6EC65 Uncharacterized protein n=1 Tax=Desulfuromo...  77.2    4e-16
+  UniRef90_UPI0009E5EB31 hypothetical protein n=1 Tax=Desulfocarb...  77.2    4e-16
+  UniRef90_A0A143HWH6 Uncharacterized protein n=1 Tax=Enterobacte...  74.5    8e-16
+  UniRef90_A0A1D7ZLU2 Uncharacterized protein n=1 Tax=Burkholderi...  73.8    4e-15
+  UniRef90_A0A126PE94 Uncharacterized protein n=1 Tax=Hymenobacte...  73.4    7e-15
+  UniRef90_UPI000D15A7D5 curli assembly protein CsgC n=1 Tax=Esch...  73.0    8e-15
+  UniRef90_UPI000907840E hypothetical protein n=1 Tax=Buttiauxell...  73.0    1e-14
+  UniRef90_A0A1S9AZD2 Uncharacterized protein n=1 Tax=Hymenobacte...  71.8    4e-14
+  UniRef90_Q392B4 Uncharacterized protein n=36 Tax=Bacteria TaxID...  71.1    5e-14
+  UniRef90_UPI00098AA733 hypothetical protein n=1 Tax=Escherichia...  69.5    6e-14
+  UniRef90_A0A0J5XE39 Uncharacterized protein n=1 Tax=Burkholderi...  70.7    8e-14
+  UniRef90_E7TB66 Putative curli production protein CsgC n=1 Tax=...  68.0    2e-13
+  UniRef90_UPI000F88674E hypothetical protein n=1 Tax=Hymenobacte...  69.9    2e-13
+  UniRef90_A0A2Z3GS72 Uncharacterized protein n=1 Tax=Hymenobacte...  69.9    2e-13
+  UniRef90_A0A1C8ZFK2 Uncharacterized protein n=1 Tax=Burkholderi...  69.1    3e-13
+  UniRef90_A0A376MV37 Putative curli production protein n=1 Tax=E...  67.6    5e-13
+  UniRef90_A0A1M6F1Q6 Uncharacterized protein n=1 Tax=Hymenobacte...  68.8    8e-13
+  UniRef90_UPI00069463B1 hypothetical protein n=1 Tax=Aeromonas r...  68.0    1e-12
+  UniRef90_UPI000377EA1C hypothetical protein n=1 Tax=beta proteo...  67.2    3e-12
+  UniRef90_A0A377CY44 Putative curli production protein n=1 Tax=E...  66.8    3e-12
+  UniRef90_UPI000DCF946B hypothetical protein n=2 Tax=Aeromonadac...  67.6    3e-12
+  UniRef90_A0A2R9W4M1 Curli assembly protein CsgC (Fragment) n=3 ...  64.5    5e-12
+  UniRef90_A0A081NL16 Uncharacterized protein n=1 Tax=Endozoicomo...  66.5    6e-12
+  UniRef90_A0A090NBD6 Putative curli production protein csgC (Fra...  64.1    7e-12
+  UniRef90_A0A2Y2N5A2 Autoagglutination protein n=1 Tax=Shigella ...  63.8    2e-11
+  UniRef90_A0A348FY17 Uncharacterized protein n=1 Tax=Blastochlor...  64.5    2e-11
+  UniRef90_UPI0009A1602C hypothetical protein n=1 Tax=Endozoicomo...  66.1    3e-11
+  UniRef90_UPI0006851F20 hypothetical protein n=1 Tax=Chryseobact...  66.1    6e-11
+  UniRef90_A0A239KIW7 Uncharacterized protein n=2 Tax=Pontibacter...  62.2    2e-10
+  UniRef90_A0A142HFQ5 Uncharacterized protein n=1 Tax=Hymenobacte...  61.1    7e-10
+  UniRef90_A0A2T2S4G1 Uncharacterized protein n=1 Tax=Bacteroidet...  61.4    9e-10
+  UniRef90_A0A2E3QTG1 Uncharacterized protein n=2 Tax=Bacteroidet...  60.3    1e-09
+  UniRef90_A0A376X1S3 Putative curli production protein n=1 Tax=E...  58.4    2e-09
+  UniRef90_A0A387FX09 Uncharacterized protein n=1 Tax=Rhizobium j...  59.9    2e-09
+  UniRef90_A0A1E4GK75 Uncharacterized protein n=1 Tax=Pelagibacte...  59.1    4e-09
+  UniRef90_A0A2T7FSQ2 Uncharacterized protein n=1 Tax=Rhodobacter...  56.4    6e-08
+  UniRef90_A0A143HWJ4 Uncharacterized protein n=1 Tax=Enterobacte...  53.4    1e-07
+  UniRef90_UPI00098C330A hypothetical protein n=1 Tax=Shigella fl...  53.7    1e-07
+  UniRef90_A0A074TN92 Curli assembly protein CsgC (Fragment) n=1 ...  51.8    4e-07
+  UniRef90_V5U0J8 CsgC protein n=1 Tax=Cronobacter malonaticus Ta...  44.5    3e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A2U1CHQ4 Uncharacterized protein n=3 Tax=Proteobacte...  78.0    1e-16
+  UniRef90_A0A328B9W8 Uncharacterized protein n=1 Tax=Hymenobacte...  69.5    3e-13
+  UniRef90_UPI000F4EB128 hypothetical protein n=1 Tax=Hymenobacte...  68.0    1e-12
+  UniRef90_A0A0D2JTN0 Uncharacterized protein n=1 Tax=Dethiosulfa...  66.5    5e-12
+  UniRef90_A0A1E4QND3 Uncharacterized protein n=1 Tax=Cupriavidus...  65.3    8e-12
+  UniRef90_UPI000F65B9A6 hypothetical protein n=1 Tax=Hymenobacte...  63.0    1e-10
+  UniRef90_UPI000E6932B9 hypothetical protein n=1 Tax=Hymenobacte...  62.6    2e-10
+  UniRef90_R1HC76 Uncharacterized protein n=2 Tax=Gammaproteobact...  60.3    1e-09
+  UniRef90_A0A160ESI6 Uncharacterized protein n=2 Tax=Aeromonas T...  60.7    2e-09
+  UniRef90_A0A0A7LLP7 Uncharacterized protein n=3 Tax=Hymenobacte...  58.4    4e-09
+  UniRef90_A0A1Y6F215 Uncharacterized protein n=1 Tax=Devosia luc...  57.2    2e-08
+  UniRef90_A0A258GTY8 Uncharacterized protein n=1 Tax=Alphaproteo...  58.0    3e-08
+  UniRef90_A0A372E2L0 Uncharacterized protein n=1 Tax=Hymenobacte...  56.8    3e-08
+  UniRef90_A0A246FK41 Uncharacterized protein n=1 Tax=Hymenobacte...  56.8    3e-08
+  UniRef90_A0A1I0BBU8 Uncharacterized protein n=2 Tax=Hymenobacte...  56.8    3e-08
+  UniRef90_UPI00055CF1C1 hypothetical protein n=1 Tax=Maribacter ...  56.4    5e-08
+  UniRef90_A0A1H3AWQ9 Uncharacterized protein n=1 Tax=Hymenobacte...  55.7    9e-08
+  UniRef90_A0A3G8XK90 Uncharacterized protein n=1 Tax=Chryseobact...  57.2    1e-07
+  UniRef90_A0A0Y0IEQ4 Uncharacterized protein n=1 Tax=Methylobact...  54.9    1e-07
+  UniRef90_UPI000E65CE76 hypothetical protein n=1 Tax=Cohaesibact...  54.5    2e-07
+  UniRef90_UPI000BE40934 hypothetical protein n=1 Tax=Novosphingo...  54.1    2e-07
+  UniRef90_UPI0003B48FCA hypothetical protein n=1 Tax=Rhodopseudo...  53.4    5e-07
+  UniRef90_A0A3G9AES1 Uncharacterized protein n=1 Tax=Chryseobact...  55.3    6e-07
+  UniRef90_A0A178I3L4 Uncharacterized protein n=1 Tax=Devosia ela...  53.4    6e-07
+  UniRef90_UPI0003A6C67B hypothetical protein n=1 Tax=Sphingobium...  53.4    6e-07
+  UniRef90_UPI000F74EA81 hypothetical protein n=2 Tax=Mesorhizobi...  53.4    7e-07
+  UniRef90_UPI000B3D7E1A hypothetical protein n=1 Tax=Rhodobacter...  53.4    7e-07
+  UniRef90_UPI000469A02D hypothetical protein n=1 Tax=Sulfitobact...  53.0    7e-07
+  UniRef90_A0A1B1ADW3 Uncharacterized protein n=1 Tax=Caulobacter...  53.7    8e-07
+  UniRef90_A0A2U8WMS2 Uncharacterized protein n=1 Tax=Methylobact...  52.6    8e-07
+  UniRef90_A0A3M1XS16 Uncharacterized protein n=1 Tax=Bacteroidet...  53.0    8e-07
+  UniRef90_A0A0Q4X835 Uncharacterized protein n=2 Tax=Methylobact...  53.4    1e-06
+  UniRef90_A0A0Q4Z606 Uncharacterized protein n=1 Tax=Methylobact...  53.0    1e-06
+  UniRef90_UPI000D373454 hypothetical protein n=1 Tax=Devosia sp....  53.0    1e-06
+  UniRef90_UPI000FD196C0 UPI000FD196C0 related cluster n=2 Tax=Me...  52.6    1e-06
+  UniRef90_A0A0F5FWP0 Uncharacterized protein n=1 Tax=Devosia geo...  52.6    1e-06
+  UniRef90_A0A2N6GCR8 Uncharacterized protein n=1 Tax=Sedimentico...  52.2    2e-06
+  UniRef90_A0A0E9LXX4 Uncharacterized protein n=2 Tax=Geofilum Ta...  51.8    2e-06
+  UniRef90_A0A254URN3 Uncharacterized protein n=5 Tax=Rhodobacter...  51.8    2e-06
+  UniRef90_UPI00058EC8A5 hypothetical protein n=1 Tax=Pseudomonas...  51.4    2e-06
+  UniRef90_C6X5S3 Uncharacterized protein n=2 Tax=Flavobacteriace...  53.4    2e-06
+  UniRef90_UPI000369EFC4 hypothetical protein n=1 Tax=Hymenobacte...  51.8    3e-06
+  UniRef90_E3I1Z7 Uncharacterized protein n=2 Tax=Rhodomicrobium ...  51.8    3e-06
+  UniRef90_M7XQE2 Uncharacterized protein n=1 Tax=Methylobacteriu...  51.0    3e-06
+  UniRef90_A0A1W2D850 Uncharacterized protein n=2 Tax=Fulvimarina...  51.4    4e-06
+  UniRef90_A0A1M4YTC0 Uncharacterized protein n=1 Tax=Devosia lim...  51.4    4e-06
+  UniRef90_A0A2U2B3Z9 Uncharacterized protein n=2 Tax=Marinilabil...  51.4    5e-06
+  UniRef90_UPI000645A71D hypothetical protein n=1 Tax=Aeromonas T...  51.0    5e-06
+  UniRef90_A0A175RA01 Uncharacterized protein n=2 Tax=Aureimonas ...  51.0    5e-06
+  UniRef90_A0A1W1ZQ83 Uncharacterized protein n=1 Tax=Rhizobium s...  50.7    7e-06
+  UniRef90_Q11JV3 Uncharacterized protein n=1 Tax=Chelativorans s...  50.7    7e-06
+  UniRef90_A0A0Q8IH18 Uncharacterized protein n=2 Tax=Devosia Tax...  50.7    7e-06
+  UniRef90_UPI000404884D hypothetical protein n=1 Tax=Salinarimon...  50.7    9e-06
+  UniRef90_A0A1G7R7Z5 Uncharacterized protein n=2 Tax=Pseudomonas...  49.9    1e-05
+  UniRef90_A0A259M7P0 Uncharacterized protein n=1 Tax=Rhodobacter...  50.3    1e-05
+  UniRef90_UPI000E30F3BA hypothetical protein n=1 Tax=Maribacter ...  50.3    1e-05
+  UniRef90_A0A1C2DZ58 Uncharacterized protein n=2 Tax=Phyllobacte...  50.3    1e-05
+  UniRef90_U7G1F7 Uncharacterized protein n=1 Tax=Alcanivorax sp....  50.3    1e-05
+  UniRef90_A0A085B957 Uncharacterized protein n=2 Tax=Chryseobact...  51.4    1e-05
+  UniRef90_A0A2A9GLX7 Uncharacterized protein n=1 Tax=Thioclava s...  49.9    1e-05
+  UniRef90_A0A1E4FC93 Uncharacterized protein n=1 Tax=Pelagibacte...  49.9    1e-05
+  UniRef90_UPI000FCB5E96 hypothetical protein n=1 Tax=Mesorhizobi...  49.9    1e-05
+  UniRef90_A0A1I5FJ91 Thin aggregative fimbriae synthesis protein...  49.9    2e-05
+  UniRef90_UPI000C75E7E4 hypothetical protein n=1 Tax=Aeromonas v...  49.9    2e-05
+  UniRef90_UPI000EF56CD3 hypothetical protein n=1 Tax=Mesonia aqu...  51.4    2e-05
+  UniRef90_A0A1H3N685 Uncharacterized protein n=1 Tax=Citreimonas...  49.1    2e-05
+  UniRef90_H0HU68 Uncharacterized protein n=1 Tax=Mesorhizobium a...  49.9    2e-05
+  UniRef90_A0A1H9CC88 Uncharacterized protein n=1 Tax=Devosia sp....  49.5    2e-05
+  UniRef90_A0A2W4DNX9 Uncharacterized protein n=1 Tax=Rhizobium t...  49.5    2e-05
+  UniRef90_A0A249PMQ4 Uncharacterized protein n=1 Tax=Ensifer soj...  49.5    2e-05
+  UniRef90_UPI000C9F7E1D hypothetical protein n=2 Tax=Salinibacte...  49.5    2e-05
+  UniRef90_UPI000CDE4E11 hypothetical protein n=1 Tax=Roseovarius...  48.7    2e-05
+  UniRef90_A0A1E4CBQ2 Uncharacterized protein n=1 Tax=Kaistia sp....  49.5    2e-05
+  UniRef90_A0A246BAW1 Uncharacterized protein n=4 Tax=Chryseobact...  50.7    2e-05
+  UniRef90_A0A0T6TY57 Uncharacterized protein n=1 Tax=Aeromonas a...  49.5    3e-05
+  UniRef90_A0A1H3GNA6 Curli assembly protein CsgE n=2 Tax=Lutibac...  50.3    3e-05
+  UniRef90_UPI0006D04F63 hypothetical protein n=1 Tax=Marinifilum...  49.1    3e-05
+  UniRef90_A0A1C2DYC5 Uncharacterized protein n=8 Tax=Pseudomonad...  48.3    3e-05
+  UniRef90_UPI000E6BFCBB hypothetical protein n=1 Tax=Salinibacte...  49.1    3e-05
+  UniRef90_Q136N1 Uncharacterized protein n=2 Tax=Rhodopseudomona...  48.3    3e-05
+  UniRef90_A0A2A5GRX2 Uncharacterized protein n=2 Tax=Rhizobiales...  48.7    4e-05
+  UniRef90_A0A0F5LE64 Uncharacterized protein n=1 Tax=Devosia sol...  48.3    4e-05
+  UniRef90_A0A285XCE6 Uncharacterized protein n=1 Tax=Ensifer adh...  48.7    4e-05
+  UniRef90_UPI0005A7A6E2 hypothetical protein n=1 Tax=Aeromonas f...  48.7    4e-05
+  UniRef90_A0A2V3ZU28 Uncharacterized protein n=1 Tax=Marinifilum...  48.7    4e-05
+  UniRef90_D7VSF3 Uncharacterized protein n=1 Tax=Sphingobacteriu...  49.9    5e-05
+  UniRef90_UPI00069910C9 hypothetical protein n=1 Tax=Devosia epi...  48.7    5e-05
+  UniRef90_UPI00047CFB38 hypothetical protein n=1 Tax=Maribacter ...  48.7    5e-05
+  UniRef90_UPI000C1877B6 hypothetical protein n=1 Tax=Pararhizobi...  48.3    5e-05
+  UniRef90_J0LEJ9 Uncharacterized protein n=1 Tax=Pontibacter sp....  48.3    5e-05
+  UniRef90_A0A2U1B2P1 Uncharacterized protein n=1 Tax=Pontibacter...  48.0    5e-05
+  UniRef90_A0A0N1LSK2 Uncharacterized protein n=1 Tax=Rhodopseudo...  47.6    5e-05
+  UniRef90_H0TJ33 Uncharacterized protein n=1 Tax=Bradyrhizobium ...  47.6    6e-05
+  UniRef90_A0A3D2VYN0 Uncharacterized protein n=1 Tax=Hyphomonada...  48.0    7e-05
+  UniRef90_A0A1F9LVP9 Uncharacterized protein n=1 Tax=Deltaproteo...  48.0    7e-05
+  UniRef90_A0A1V1PKH1 Uncharacterized protein n=1 Tax=alpha prote...  48.7    7e-05
+  UniRef90_A0A0S2ETR5 Uncharacterized protein n=2 Tax=Aurantimona...  48.0    7e-05
+  UniRef90_A0A1V9U997 Uncharacterized protein n=1 Tax=Pseudomonas...  47.6    7e-05
+  UniRef90_A0A369W839 Uncharacterized protein n=1 Tax=Pelagibacte...  48.0    7e-05
+  UniRef90_W8EWD2 Uncharacterized protein n=2 Tax=Hymenobacter Ta...  46.4    8e-05
+  UniRef90_UPI0005A9FC12 hypothetical protein n=2 Tax=Aeromonas v...  48.3    8e-05
+  UniRef90_A0A1E3VKY6 Uncharacterized protein n=1 Tax=Methylocean...  48.0    8e-05
+  UniRef90_A0A1C3VHE0 Uncharacterized protein n=1 Tax=Rhizobium h...  48.0    8e-05
+  UniRef90_A0A160PBG5 Uncharacterized protein n=2 Tax=Methylorubr...  47.6    9e-05
+  UniRef90_A0A1E4E0G6 Uncharacterized protein n=3 Tax=Hyphomicrob...  48.0    9e-05
+  UniRef90_A0A1M6XGY2 Uncharacterized protein n=2 Tax=Hymenobacte...  48.0    9e-05
+  UniRef90_UPI000FD9D01B UPI000FD9D01B related cluster n=1 Tax=un...  48.0    9e-05
+  UniRef90_A0A1L3SM68 Uncharacterized protein n=2 Tax=Mesorhizobi...  48.0    9e-05
+  UniRef90_A0A212PHB6 Uncharacterized protein n=1 Tax=Geobacter s...  47.6    9e-05
+  UniRef90_A0A1T2BE78 Uncharacterized protein n=7 Tax=Thioclava T...  48.0    9e-05
+  UniRef90_A0A085UL34 Uncharacterized protein n=2 Tax=Pseudomonas...  47.2    1e-04
+  UniRef90_A0A3G2TCB5 Uncharacterized protein n=1 Tax=Chryseobact...  48.7    1e-04
+  UniRef90_Q2CEK7 Uncharacterized protein n=1 Tax=Oceanicola gran...  47.2    1e-04
+  UniRef90_A0A0S2EQB5 Uncharacterized protein n=2 Tax=Aureimonas ...  47.6    1e-04
+  UniRef90_UPI000B7D7961 hypothetical protein n=1 Tax=Chryseobact...  47.2    1e-04
+  UniRef90_A0A0Q5C6W0 Uncharacterized protein n=1 Tax=Methylobact...  46.8    1e-04
+  UniRef90_A0A316GXF7 Uncharacterized protein n=2 Tax=Roseicyclus...  47.2    1e-04
+  UniRef90_A0A0P8AJ87 Uncharacterized protein n=1 Tax=Roseibaca c...  47.2    1e-04
+  UniRef90_Q6NAU7 Uncharacterized protein n=5 Tax=Rhodopseudomona...  46.8    1e-04
+  UniRef90_UPI000DEB2021 hypothetical protein n=1 Tax=Cohaesibact...  47.6    2e-04
+  UniRef90_A0A3G2GAP2 Uncharacterized protein n=1 Tax=Chryseobact...  48.3    2e-04
+  UniRef90_A0A1Q9AK25 Uncharacterized protein n=1 Tax=Rhizobium r...  47.2    2e-04
+  UniRef90_UPI000F75B796 hypothetical protein n=2 Tax=Phyllobacte...  47.2    2e-04
+  UniRef90_K0Q1Y5 Uncharacterized protein n=2 Tax=Rhizobium mesoa...  47.2    2e-04
+  UniRef90_A0A2T4YF39 Uncharacterized protein n=2 Tax=Bosea sp. 1...  46.8    2e-04
+  UniRef90_A0A2L1S924 Uncharacterized protein n=2 Tax=Devosia Tax...  46.8    2e-04
+  UniRef90_A0A1B7IAE9 Uncharacterized protein n=2 Tax=Buttiauxell...  46.4    2e-04
+  UniRef90_A0A2A9GK32 Uncharacterized protein n=1 Tax=Thioclava s...  46.8    2e-04
+  UniRef90_A0A2E2DKA7 Uncharacterized protein n=2 Tax=Alcanivorac...  46.4    2e-04
+  UniRef90_UPI000DD9BDF3 hypothetical protein n=1 Tax=Rhizobiales...  46.8    2e-04
+  UniRef90_A0A2N3IPH2 Uncharacterized protein n=1 Tax=Aeromonas s...  46.8    2e-04
+  UniRef90_A0A370H8I1 Uncharacterized protein n=1 Tax=Microvirga ...  46.8    2e-04
+  UniRef90_UPI000E5704FF hypothetical protein n=1 Tax=Salinibacte...  47.2    2e-04
+  UniRef90_A0A2N3E5L8 Uncharacterized protein n=1 Tax=Alphaproteo...  46.4    2e-04
+  UniRef90_A0A0Q7I7K5 Uncharacterized protein n=1 Tax=Devosia sp....  46.4    3e-04
+  UniRef90_A0A0T2MMZ3 Uncharacterized protein n=1 Tax=Devosia sp....  46.4    3e-04
+  UniRef90_E6VF87 Uncharacterized protein n=3 Tax=Rhodopseudomona...  46.0    3e-04
+  UniRef90_A0A219AFW3 Uncharacterized protein n=1 Tax=Chryseobact...  47.6    3e-04
+  UniRef90_A0A1J5J6F2 Uncharacterized protein n=1 Tax=Zetaproteob...  46.0    3e-04
+  UniRef90_A0A1T4SEV8 Uncharacterized protein n=1 Tax=Consotaella...  46.0    3e-04
+  UniRef90_A0A176EYW6 Uncharacterized protein n=1 Tax=Roseovarius...  46.4    4e-04
+  UniRef90_UPI000E743EDA hypothetical protein n=1 Tax=Marinifilum...  45.6    4e-04
+  UniRef90_A0A2U8HMB9 Uncharacterized protein n=1 Tax=Methylobact...  46.0    4e-04
+  UniRef90_UPI000E3CC13C hypothetical protein n=1 Tax=Rhizobium s...  46.0    4e-04
+  UniRef90_A0A246TYA1 Uncharacterized protein n=1 Tax=Rhizobium s...  46.0    4e-04
+  UniRef90_UPI000C9FDAE2 hypothetical protein n=3 Tax=Salinibacte...  46.0    5e-04
+  UniRef90_UPI0004891010 hypothetical protein n=1 Tax=Pseudoocean...  45.6    5e-04
+  UniRef90_A0A2W7Q321 Uncharacterized protein n=1 Tax=Roseinatron...  45.6    5e-04
+  UniRef90_A0A162I8V5 Uncharacterized protein n=2 Tax=Alcanivorax...  45.3    5e-04
+  UniRef90_A0A1I1TN58 Uncharacterized protein n=2 Tax=Roseovarius...  45.6    6e-04
+  UniRef90_A0A085VNM2 Uncharacterized protein n=1 Tax=Pseudomonas...  44.9    6e-04
+  UniRef90_A0A3B8XM25 Uncharacterized protein n=2 Tax=Rhodobiacea...  45.3    6e-04
+  UniRef90_A0A0X7A9T4 Uncharacterized protein n=5 Tax=Agrobacteri...  45.6    6e-04
+  UniRef90_UPI00037558F5 hypothetical protein n=1 Tax=Aureimonas ...  45.6    7e-04
+  UniRef90_UPI000FD97CAF hypothetical protein n=1 Tax=Rhodobacter...  44.9    7e-04
+  UniRef90_A0A1M3PA08 Uncharacterized protein n=1 Tax=Rhizobium s...  45.6    7e-04
+  UniRef90_A0A1B9SRU6 Uncharacterized protein n=17 Tax=Rhizobiale...  45.6    7e-04
+  UniRef90_A0A3M1ABS2 Uncharacterized protein n=1 Tax=Alphaproteo...  45.6    7e-04
+  UniRef90_UPI000FDCA713 hypothetical protein n=1 Tax=Mesorhizobi...  45.3    7e-04
+  UniRef90_A0A2X2WPS6 Curli assembly protein CsgE n=5 Tax=Chryseo...  46.4    8e-04
+  UniRef90_A0A0T5P5U3 Uncharacterized protein n=2 Tax=Roseovarius...  45.3    8e-04
+  UniRef90_A0A0M8ZC22 Uncharacterized protein n=6 Tax=Bacteria Ta...  44.9    8e-04
+  UniRef90_A0A0R3L5C2 Uncharacterized protein n=1 Tax=Bradyrhizob...  45.3    8e-04
+  UniRef90_A0A077LRL8 Uncharacterized protein n=2 Tax=Pseudomonas...  44.5    9e-04
+  UniRef90_UPI000F048449 hypothetical protein n=1 Tax=Pseudomonas...  44.5    9e-04
+  UniRef90_A0A1B8Z8S2 Uncharacterized protein n=5 Tax=Chryseobact...  46.4    9e-04
+  UniRef90_A0A2K8KC92 Uncharacterized protein n=1 Tax=Rhodobaca b...  45.3    0.001
+  UniRef90_A0A1G6AJC7 Uncharacterized protein n=1 Tax=Bauldia lit...  45.3    0.001
+  UniRef90_A0A1E4Y6D7 Uncharacterized protein n=9 Tax=Rhizobiales...  45.3    0.001
+  UniRef90_UPI000D36D51B hypothetical protein n=1 Tax=Devosia sub...  44.9    0.001
+  UniRef90_UPI000DDCF76D hypothetical protein n=4 Tax=Rhizobiales...  45.3    0.001
+  UniRef90_A0A124IIW6 Uncharacterized protein n=1 Tax=Alphaproteo...  44.9    0.001
+  UniRef90_V4RMB0 Uncharacterized protein n=1 Tax=Lutibaculum bar...  44.9    0.001
+  UniRef90_A0A2N5XSR8 Uncharacterized protein n=1 Tax=Cohaesibact...  44.9    0.001
+  UniRef90_A0A1Q3KX49 Uncharacterized protein n=1 Tax=Rhizobiales...  44.9    0.001
+  UniRef90_A0A117KAT6 Uncharacterized protein n=3 Tax=Chryseobact...  46.0    0.001
+  UniRef90_UPI00041ECBB4 hypothetical protein n=1 Tax=Rhizobiales...  44.9    0.001
+  UniRef90_A0A222EW22 Uncharacterized protein n=6 Tax=Sphingomona...  44.1    0.001
+  UniRef90_A0A1C3XEH3 Uncharacterized protein n=6 Tax=Rhizobiales...  44.9    0.001
+  UniRef90_A0A0N1MDZ9 Uncharacterized protein n=3 Tax=Rhizobium T...  44.9    0.001
+  UniRef90_F8JCV8 Uncharacterized protein n=1 Tax=Hyphomicrobium ...  44.5    0.001
+  UniRef90_A0A2E5B076 Uncharacterized protein n=2 Tax=Aequorivita...  45.6    0.001
+  UniRef90_A0A1H6HT26 Curli assembly protein CsgE n=9 Tax=Chryseo...  45.6    0.001
+  UniRef90_A0A172WPD1 Uncharacterized protein n=3 Tax=Pseudomonas...  44.9    0.002
+  UniRef90_A0A1J5QJQ8 Uncharacterized protein n=1 Tax=mine draina...  44.9    0.002
+  UniRef90_A0A2M8ZJ93 Uncharacterized protein n=3 Tax=Bradyrhizob...  44.1    0.002
+  UniRef90_A0A2X4D226 Uncharacterized protein n=1 Tax=Paucimonas ...  43.7    0.002
+  UniRef90_A0A085U0E9 Uncharacterized protein n=1 Tax=Thioclava a...  44.5    0.002
+  UniRef90_A0A2N0TXX3 Uncharacterized protein n=2 Tax=Salegentiba...  44.5    0.002
+  UniRef90_A0A0Q7XUV8 Uncharacterized protein n=1 Tax=Rhizobium s...  44.5    0.002
+  UniRef90_A0A2A4NGF8 Uncharacterized protein n=1 Tax=Bacteroidal...  44.1    0.002
+  UniRef90_UPI000C9FCE9A hypothetical protein n=1 Tax=Salinivenus...  44.5    0.002
+  UniRef90_E6VPB4 Uncharacterized protein n=3 Tax=Rhodopseudomona...  43.3    0.002
+  UniRef90_UPI000558EAD6 hypothetical protein n=1 Tax=Agrobacteri...  44.1    0.002
+  UniRef90_Q1YMP8 Uncharacterized protein n=2 Tax=Aurantimonadace...  44.1    0.002
+  UniRef90_A0A387GPN0 Uncharacterized protein n=2 Tax=Rhizobium T...  44.1    0.002
+  UniRef90_A0A1M7H8N5 Curli assembly protein CsgE n=6 Tax=Chryseo...  45.3    0.002
+  UniRef90_A0A2T8HV72 Uncharacterized protein n=1 Tax=Pararhodoba...  44.1    0.003
+  UniRef90_A0A1Y1CDX7 Uncharacterized protein n=2 Tax=Marinifilac...  43.7    0.003
+  UniRef90_A0A0W7WI75 Uncharacterized protein n=1 Tax=Ponticoccus...  43.7    0.003
+  UniRef90_N6UEH9 Uncharacterized protein n=2 Tax=Rhizobium TaxID...  43.7    0.003
+  UniRef90_UPI000F85BC4E hypothetical protein n=1 Tax=Rhizobium v...  43.7    0.003
+  UniRef90_A0A1M7UID1 Uncharacterized protein n=1 Tax=Bradyrhizob...  43.7    0.003
+  UniRef90_A0A3B0MMX8 Uncharacterized protein n=1 Tax=Roseibaca e...  43.7    0.003
+  UniRef90_UPI000830C698 hypothetical protein n=1 Tax=Rhodobacter...  43.7    0.003
+  UniRef90_A0A1Y5TUV1 Uncharacterized protein n=1 Tax=Roseisalinu...  43.7    0.003
+  UniRef90_A0A0F9SYT2 Uncharacterized protein n=1 Tax=marine sedi...  43.7    0.003
+  UniRef90_J1SLW1 Uncharacterized protein n=1 Tax=Rhizobium sp. C...  43.7    0.003
+  UniRef90_UPI000DDFCAD9 hypothetical protein n=1 Tax=Rhizobiales...  43.3    0.003
+  UniRef90_Q6N4K7 Uncharacterized protein n=2 Tax=Rhodopseudomona...  43.3    0.004
+  UniRef90_A0A2S8EVA3 Uncharacterized protein n=1 Tax=Rhodobacter...  43.7    0.004
+  UniRef90_A0A1G9PFS2 Uncharacterized protein n=5 Tax=Pseudomonas...  43.3    0.004
+  UniRef90_A0A359MIX9 Uncharacterized protein n=1 Tax=Flavobacter...  44.5    0.005
+  UniRef90_A0A3D4BKH7 Uncharacterized protein n=2 Tax=Flavobacter...  44.5    0.005
+  UniRef90_A0A3N4P1D9 Uncharacterized protein n=1 Tax=Flavobacter...  44.1    0.005
+  UniRef90_A0A1G8Y1I4 Uncharacterized protein n=1 Tax=Albidovulum...  43.3    0.005
+  UniRef90_A0A371XAL0 Uncharacterized protein n=1 Tax=Fulvimarina...  43.3    0.005
+  UniRef90_C2G2I8 Uncharacterized protein n=1 Tax=Sphingobacteriu...  44.1    0.005
+  UniRef90_A0A2E0UMG8 Uncharacterized protein n=1 Tax=Ectothiorho...  43.0    0.006
+  UniRef90_UPI0004654741 hypothetical protein n=1 Tax=Afipia TaxI...  42.6    0.006
+  UniRef90_A0A2Z6EZJ5 Uncharacterized protein n=1 Tax=Halorhodosp...  43.3    0.006
+  UniRef90_A0A1M5GMQ5 Uncharacterized protein n=1 Tax=Flavobacter...  43.0    0.006
+  UniRef90_A0A265URU8 Uncharacterized protein n=1 Tax=Winogradsky...  44.1    0.006
+  UniRef90_A0A1J5J3P4 Uncharacterized protein n=1 Tax=Zetaproteob...  43.0    0.006
+  UniRef90_UPI000F86011E hypothetical protein n=1 Tax=Mesorhizobi...  43.0    0.006
+  UniRef90_A0A095TU87 Uncharacterized protein n=1 Tax=Alcanivorax...  42.6    0.007
+  UniRef90_A0A154IC80 Uncharacterized protein n=1 Tax=Rhizobium l...  43.0    0.007
+  UniRef90_A0A1Q8ZVX7 Uncharacterized protein n=1 Tax=Rhizobium o...  43.0    0.007
+  UniRef90_UPI000DD59916 hypothetical protein n=2 Tax=Rhizobiales...  43.0    0.007
+  UniRef90_UPI0008FF355C hypothetical protein n=1 Tax=Natronohydr...  42.6    0.007
+  UniRef90_A0A1I6QEX6 Curli assembly protein CsgE n=1 Tax=Lutibac...  43.7    0.007
+  UniRef90_K0VJ80 Uncharacterized protein n=1 Tax=Rhizobium sp. P...  42.6    0.008
+  UniRef90_A0A1M5SYY2 Uncharacterized protein n=1 Tax=Pseudomonas...  43.0    0.008
+  UniRef90_UPI000F767D64 hypothetical protein n=2 Tax=Rhizobium T...  42.6    0.008
+  UniRef90_Q2K0F6 Hypothetical conserved protein n=2 Tax=Rhizobiu...  42.6    0.008
+  UniRef90_A0A2N3BAF8 Uncharacterized protein n=1 Tax=Alphaproteo...  42.2    0.009
+  UniRef90_A0A1Q4BUT6 Uncharacterized protein n=1 Tax=Rhizobiales...  42.2    0.009
+  UniRef90_A0A2N8SW98 Uncharacterized protein n=3 Tax=Pseudomonas...  43.0    0.009
+  UniRef90_A0A3C0BUD9 Uncharacterized protein n=4 Tax=Rhizobiales...  43.0    0.009
+  UniRef90_A0A2N3YSW4 Curli assembly protein CsgE n=2 Tax=Flavoba...  43.3    0.010
+  UniRef90_A0A3M1IKQ4 Uncharacterized protein n=1 Tax=Bacteroidet...  43.3    0.010
+  UniRef90_A0A0N1KSR5 Uncharacterized protein n=1 Tax=Chryseobact...  43.3    0.010
+  UniRef90_A0A1E4FMC9 Uncharacterized protein n=1 Tax=Pelagibacte...  42.2    0.010
+  UniRef90_L0LVR4 Uncharacterized protein n=4 Tax=Rhizobiales Tax...  42.6    0.010
+  UniRef90_A0A3N2R876 Uncharacterized protein n=1 Tax=Rhodobacter...  42.2    0.011
+  UniRef90_A0A3D2M5G2 Uncharacterized protein n=1 Tax=Pseudomonas...  42.2    0.011
+  UniRef90_UPI000E696E32 hypothetical protein n=1 Tax=Sphingomona...  41.8    0.012
+  UniRef90_A0A329YIP3 Uncharacterized protein n=1 Tax=Rhizobium t...  42.2    0.013
+  UniRef90_A0A387GH28 Uncharacterized protein n=2 Tax=Rhizobium T...  42.2    0.014
+  UniRef90_UPI00065E8EFB hypothetical protein n=1 Tax=Nitratiredu...  41.8    0.015
+  UniRef90_UPI00056C6E16 hypothetical protein n=1 Tax=Rhizobium s...  41.4    0.015
+  UniRef90_A0A1L3ZII9 Uncharacterized protein n=7 Tax=Rhizobium l...  42.2    0.015
+  UniRef90_A0A3D9RT22 Curli assembly protein CsgE n=1 Tax=Lutibac...  43.0    0.015
+  UniRef90_A0A358J8T2 Uncharacterized protein n=1 Tax=Chryseobact...  43.0    0.016
+  UniRef90_H0HC02 Uncharacterized protein n=31 Tax=Rhizobiales Ta...  41.8    0.016
+  UniRef90_A0A397QCI4 Uncharacterized protein n=1 Tax=Dichotomicr...  41.8    0.016
+  UniRef90_A0A1S1TVB9 Uncharacterized protein n=2 Tax=Mesorhizobi...  42.2    0.016
+  UniRef90_A0A086A840 Uncharacterized protein n=2 Tax=Chryseobact...  43.0    0.017
+  UniRef90_A0A0F5FLX9 Uncharacterized protein n=1 Tax=Devosia chi...  41.8    0.017
+  UniRef90_A0A1M7N7X0 Uncharacterized protein n=1 Tax=Labrenzia s...  41.8    0.017
+  UniRef90_A0A238ZN40 Curli assembly protein CsgE n=1 Tax=Lutibac...  43.0    0.017
+  UniRef90_UPI000DD8E33A hypothetical protein n=1 Tax=Rhizobiales...  42.2    0.018
+  UniRef90_UPI000FD99A61 hypothetical protein n=1 Tax=Rhodobacter...  41.4    0.018
+  UniRef90_UPI000FD9F4AB UPI000FD9F4AB related cluster n=1 Tax=un...  41.8    0.018
+  UniRef90_UPI000DD8EEEA hypothetical protein n=1 Tax=Rhizobiales...  41.8    0.019
+  UniRef90_A4WYK6 Uncharacterized protein n=4 Tax=Rhodobacteracea...  41.8    0.019
+  UniRef90_A0A126UZM3 Uncharacterized protein n=1 Tax=Halocynthii...  41.8    0.021
+  UniRef90_K2LQA9 Uncharacterized protein n=2 Tax=Nitratireductor...  41.4    0.022
+  UniRef90_F3Z096 Uncharacterized protein n=3 Tax=Desulfovibrio a...  41.4    0.022
+  UniRef90_A0A1G7TTE2 Uncharacterized protein n=2 Tax=Pelagibacte...  41.4    0.023
+  UniRef90_UPI000B4AD638 hypothetical protein n=1 Tax=Rhodomicrob...  41.0    0.023
+  UniRef90_UPI000410FA39 hypothetical protein n=1 Tax=Rhizobium l...  41.4    0.024
+  UniRef90_UPI000DBE7A0E hypothetical protein n=1 Tax=Lutibacter ...  42.2    0.024
+  UniRef90_UPI0003604485 hypothetical protein n=2 Tax=Rhizobiales...  40.3    0.025
+  UniRef90_A0A1E5UI18 Uncharacterized protein n=1 Tax=Cloacibacte...  41.0    0.029
+  UniRef90_A0A0H4VQ73 Uncharacterized protein n=1 Tax=Rufibacter ...  40.6    0.029
+  UniRef90_U4PXL8 Uncharacterized protein n=18 Tax=Rhizobiales Ta...  41.0    0.029
+  UniRef90_A0A2D5DK78 Uncharacterized protein n=1 Tax=Sphingorhab...  41.0    0.030
+  UniRef90_A0A1B0ZQ40 Uncharacterized protein n=2 Tax=Rhodobacter...  41.0    0.031
+  UniRef90_UPI000C9FA051 hypothetical protein n=1 Tax=Salinivenus...  41.4    0.033
+  UniRef90_A0A1M5IT95 Uncharacterized protein n=1 Tax=Kaistia sol...  41.0    0.034
+  UniRef90_A0A192M7H5 Uncharacterized protein n=7 Tax=Rhizobium/A...  41.0    0.034
+  UniRef90_A0A0D8KR02 Uncharacterized protein n=1 Tax=Agrobacteri...  41.0    0.037
+  UniRef90_A0A0U9HNP3 Uncharacterized protein n=1 Tax=Thermodesul...  41.0    0.037
+  UniRef90_UPI000FCCCB26 hypothetical protein n=1 Tax=Mesorhizobi...  41.0    0.038
+  UniRef90_A0A0D0F0R1 Uncharacterized protein n=4 Tax=Flavobacter...  41.0    0.040
+  UniRef90_UPI000D1BF346 hypothetical protein n=1 Tax=Rhodopseudo...  40.6    0.041
+  UniRef90_A0A0K6GUQ6 Uncharacterized protein n=2 Tax=Chromobacte...  40.3    0.041
+  UniRef90_A0A0P7XLA7 Uncharacterized protein n=1 Tax=Rhodobacter...  40.6    0.044
+  UniRef90_A0A323UK89 Uncharacterized protein n=1 Tax=Rhodopseudo...  40.6    0.045
+  UniRef90_A0A177JDP7 Uncharacterized protein n=3 Tax=Methylorubr...  40.3    0.046
+  UniRef90_A0A1B6YJ51 Uncharacterized protein n=1 Tax=Rhodobacter...  40.6    0.051
+  UniRef90_A0A259LM82 Uncharacterized protein n=1 Tax=Hyphomonas ...  40.6    0.052
+  UniRef90_S3IP03 Uncharacterized protein n=2 Tax=Rhizobium graha...  39.9    0.054
+  UniRef90_A0A2N3I1Y7 Uncharacterized protein n=1 Tax=Labilibacul...  40.3    0.055
+  UniRef90_UPI000F74E33B hypothetical protein n=3 Tax=Phyllobacte...  40.3    0.058
+  UniRef90_X6DCQ4 Uncharacterized protein n=1 Tax=Mesorhizobium s...  41.0    0.059
+  UniRef90_A0A3N5Q7Y3 Uncharacterized protein n=1 Tax=Ignavibacte...  40.3    0.059
+  UniRef90_A0A1Y0MXI0 Uncharacterized protein n=1 Tax=Polaribacte...  41.4    0.059
+  UniRef90_A0A085Z6R9 Uncharacterized protein n=3 Tax=Chryseobact...  41.4    0.060
+  UniRef90_A0A368N3H0 Uncharacterized protein n=1 Tax=Chryseobact...  41.0    0.063
+  UniRef90_A0A1A7BCF5 Uncharacterized protein n=2 Tax=Porphyrobac...  39.5    0.065
+  UniRef90_A0A090G3F6 Uncharacterized protein n=1 Tax=Mesorhizobi...  40.3    0.072
+  UniRef90_A0A117N217 Uncharacterized protein n=1 Tax=Rhizobium l...  40.3    0.073
+  UniRef90_J2PNQ0 Uncharacterized protein n=1 Tax=Pseudomonas sp....  39.5    0.079
+  UniRef90_A0A0K0TR93 Uncharacterized protein n=1 Tax=Devosia sp....  39.5    0.087
+  UniRef90_A0A1W2CA24 Curli assembly protein CsgE n=4 Tax=Chryseo...  40.6    0.088
+  UniRef90_A0A202BRW4 Uncharacterized protein n=6 Tax=Chryseobact...  40.6    0.092
+  UniRef90_A0A2T1NAL6 Uncharacterized protein n=2 Tax=Mesoflaviba...  40.6    0.094
+  UniRef90_A0A329Y148 Uncharacterized protein n=2 Tax=Rhizobiales...  39.9    0.11 
+  UniRef90_A0A1A9LFT9 Uncharacterized protein n=1 Tax=Aequorivita...  40.6    0.11 
+  UniRef90_UPI0005693419 hypothetical protein n=1 Tax=Rhizobium s...  39.1    0.11 
+  UniRef90_UPI0006470FFF hypothetical protein n=1 Tax=Methylobact...  39.1    0.11 
+  UniRef90_A0A285MAF5 Uncharacterized protein n=2 Tax=Cohaesibact...  39.9    0.12 
+  UniRef90_A0A1I4U6A0 Uncharacterized protein n=2 Tax=Flavobacter...  39.5    0.12 
+  UniRef90_UPI0009769C39 hypothetical protein n=1 Tax=Methylobact...  38.7    0.12 
+  UniRef90_A0A059FLA1 Uncharacterized protein n=1 Tax=Hyphomonas ...  39.5    0.12 
+  UniRef90_UPI0004051ED8 hypothetical protein n=1 Tax=Sediminimon...  39.5    0.13 
+  UniRef90_UPI0009EDF48A GMC family oxidoreductase n=1 Tax=Halocy...  40.3    0.14 
+  UniRef90_UPI000EF9AB22 hypothetical protein n=1 Tax=Flavobacter...  39.5    0.15 
+  UniRef90_Q26FL8 Uncharacterized protein n=9 Tax=Flavobacteriia ...  40.3    0.16 
+  UniRef90_A0A1E4Y427 Uncharacterized protein n=8 Tax=Rhizobiales...  39.5    0.16 
+  UniRef90_A0A3N7GMB5 Uncharacterized protein n=1 Tax=Chryseobact...  39.9    0.16 
+  UniRef90_A0A1E4FWM8 Uncharacterized protein n=1 Tax=Pelagibacte...  39.1    0.17 
+  UniRef90_A0A1I3PUE4 Curli assembly protein CsgE n=2 Tax=Olleya ...  40.3    0.17 
+  UniRef90_A0A2D8LGS4 Uncharacterized protein n=1 Tax=Flavobacter...  39.9    0.19 
+  UniRef90_A0A3B0TJR6 Uncharacterized protein n=1 Tax=hydrotherma...  39.5    0.19 
+  UniRef90_A0A1I3Q564 Curli assembly protein CsgE n=2 Tax=Myroide...  39.9    0.19 
+  UniRef90_A0A254R3P4 Uncharacterized protein n=1 Tax=Oceanicola ...  38.7    0.20 
+  UniRef90_A0A178H110 Uncharacterized protein n=2 Tax=Rhizobium/A...  39.1    0.21 
+  UniRef90_A0A2S0HXR6 Uncharacterized protein n=1 Tax=Aureitalea ...  39.9    0.21 
+  UniRef90_W8VXH8 Uncharacterized protein n=1 Tax=Nonlabens marin...  39.5    0.22 
+  UniRef90_A0A199XTF8 Uncharacterized protein n=1 Tax=Flavobacter...  39.1    0.22 
+  UniRef90_UPI000F8F69E8 hypothetical protein n=1 Tax=Pararhodoba...  38.7    0.22 
+  UniRef90_UPI0006F81BD8 hypothetical protein n=1 Tax=Methylobact...  38.3    0.23 
+  UniRef90_UPI000464A7B7 hypothetical protein n=1 Tax=Bradyrhizob...  38.3    0.23 
+  UniRef90_A0A2U0I070 Uncharacterized protein n=1 Tax=Marixanthom...  39.5    0.24 
+  UniRef90_A0A1T5CD00 Uncharacterized protein n=2 Tax=Alkalitalea...  38.7    0.24 
+  UniRef90_A0A2N3TDG2 Curli assembly protein CsgE n=9 Tax=Aquimar...  39.5    0.25 
+  UniRef90_A0A2N3C0N6 Uncharacterized protein n=1 Tax=Alphaproteo...  38.3    0.26 
+  UniRef90_A0A3P3F7N4 Uncharacterized protein n=1 Tax=Mesorhizobi...  38.7    0.26 
+  UniRef90_UPI000C9E90C1 hypothetical protein n=1 Tax=Mangrovicel...  38.7    0.28 
+  UniRef90_A0A3E1QCS9 Uncharacterized protein n=1 Tax=Marixanthom...  39.5    0.29 
+  UniRef90_A0A1N7N9V1 Uncharacterized protein n=1 Tax=Roseivivax ...  38.3    0.29 
+  UniRef90_UPI000FD82E60 hypothetical protein n=1 Tax=Ponticoccus...  38.3    0.30 
+  UniRef90_A0A3D0WLP8 Uncharacterized protein n=4 Tax=Bacteria Ta...  38.3    0.30 
+  UniRef90_A0A087LTQ4 Uncharacterized protein n=2 Tax=Devosia Tax...  37.9    0.31 
+  UniRef90_A0A0X8BYM0 Uncharacterized protein n=1 Tax=Pseudomonas...  37.9    0.31 
+  UniRef90_A0A2E2RQN0 Uncharacterized protein n=2 Tax=Ahrensia sp...  38.3    0.34 
+  UniRef90_A0A3B8QUK1 Uncharacterized protein n=1 Tax=Rhodobacter...  38.3    0.36 
+  UniRef90_F4KUU1 Alpha-2-macroglobulin domain protein n=1 Tax=Ha...  39.5    0.36 
+  UniRef90_A0A0X8G8H2 Uncharacterized protein n=2 Tax=Lutibacter ...  39.1    0.36 
+  UniRef90_A0A1C3VWL4 Uncharacterized protein n=5 Tax=Rhizobium/A...  37.9    0.36 
+  UniRef90_UPI0009FDAC33 hypothetical protein n=1 Tax=Aequorivita...  39.1    0.36 
+  UniRef90_UPI00035D7153 hypothetical protein n=1 Tax=Algicola sa...  39.1    0.40 
+  UniRef90_UPI000C33AA24 hypothetical protein n=1 Tax=Roseovarius...  38.3    0.41 
+  UniRef90_A0A2C9DCW5 Uncharacterized protein n=2 Tax=Hartmanniba...  37.6    0.45 
+  UniRef90_A0A2W4C9Z3 Uncharacterized protein n=1 Tax=Rhizobium t...  37.9    0.49 
+  UniRef90_UPI000F794A3B hypothetical protein n=1 Tax=Flavobacter...  37.9    0.49 
+  UniRef90_L0WG00 Uncharacterized protein n=1 Tax=Alcanivorax hon...  37.6    0.51 
+  UniRef90_UPI0004637031 hypothetical protein n=1 Tax=Aliihoeflea...  37.6    0.54 
+  UniRef90_UPI000E0D4F03 hypothetical protein n=1 Tax=Sphingomona...  37.6    0.55 
+  UniRef90_UPI000C9F3173 hypothetical protein n=1 Tax=Salinivenus...  37.2    0.56 
+  UniRef90_A0A1T5F3B8 Curli assembly protein CsgE n=1 Tax=Soonwoo...  38.3    0.57 
+  UniRef90_UPI0004654723 hypothetical protein n=1 Tax=Oceanicola ...  37.6    0.57 
+  UniRef90_UPI00068CA066 hypothetical protein n=1 Tax=Altibacter ...  38.3    0.58 
+  UniRef90_A0A228I1X6 Uncharacterized protein n=1 Tax=Burkholderi...  36.4    0.64 
+  UniRef90_UPI000DD69B27 hypothetical protein n=2 Tax=Rhizobiales...  37.6    0.65 
+  UniRef90_A0A3M8GB17 Uncharacterized protein n=1 Tax=Winogradsky...  38.3    0.65 
+  UniRef90_A0A1H1Q9N7 Curli assembly protein CsgE n=2 Tax=Gillisi...  38.3    0.68 
+  UniRef90_A0A1M3QDI1 Uncharacterized protein n=1 Tax=Rhizobium s...  37.6    0.71 
+  UniRef90_A0A2E2W6T1 Uncharacterized protein n=1 Tax=Flavobacter...  37.2    0.92 
+  UniRef90_A0A151GZU1 Uncharacterized protein (Fragment) n=1 Tax=...  37.9    0.98 
+  UniRef90_A0A2E2IRA7 Uncharacterized protein n=1 Tax=Erythrobact...  36.8    1.0  
+  UniRef90_A0A2V2S345 Uncharacterized protein n=1 Tax=Verrucomicr...  37.9    1.1  
+  UniRef90_A0A1C3VQY2 Uncharacterized protein n=2 Tax=Rhizobium T...  37.2    1.1  
+  UniRef90_A0A1H2ZLR3 Uncharacterized protein n=3 Tax=Pseudomonas...  36.8    1.1  
+  UniRef90_A0A137RGY6 Uncharacterized protein n=1 Tax=Vitellibact...  37.6    1.1  
+  UniRef90_UPI000BB3BB7A hypothetical protein n=1 Tax=Flavobacter...  37.2    1.1  
+  UniRef90_A0A1B7HZZ8 Uncharacterized protein n=4 Tax=Buttiauxell...  35.6    1.2  
+  UniRef90_UPI0005EB9D5E hypothetical protein n=1 Tax=Pseudomonas...  36.8    1.3  
+  UniRef90_UPI000DE50D68 hypothetical protein n=1 Tax=Rhizobiales...  36.4    1.3  
+  UniRef90_UPI0004E18B1A hypothetical protein n=1 Tax=Parvularcul...  36.8    1.4  
+  UniRef90_A0A1C3FGJ7 Uncharacterized protein n=1 Tax=Thermodesul...  36.8    1.4  
+  UniRef90_A0A0Q0XP53 Curli assembly protein CsgE n=3 Tax=Flavoba...  36.8    1.5  
+  UniRef90_UPI000F8E50F5 hypothetical protein n=1 Tax=Pelagibacte...  36.8    1.5  
+  UniRef90_A0A0L1IR03 Uncharacterized protein n=7 Tax=Aspergillus...  37.6    1.5  
+  UniRef90_A0A0F5PY10 Uncharacterized protein n=1 Tax=Devosia psy...  36.4    1.5  
+  UniRef90_A0A1H8VDW5 Uncharacterized protein n=1 Tax=Salinihabit...  36.4    1.6  
+  UniRef90_UPI000B3E31F3 hypothetical protein n=1 Tax=Rhodobacter...  36.4    1.6  
+  UniRef90_A0A2D9B9J6 Uncharacterized protein n=2 Tax=Bacteria Ta...  37.2    1.6  
+  UniRef90_A0A1I6TL13 Uncharacterized protein n=2 Tax=Methylobact...  36.4    1.7  
+  UniRef90_K5Y6T6 Uncharacterized protein n=5 Tax=Pseudomonas Tax...  36.0    1.7  
+  UniRef90_Q1JTK6 Uncharacterized protein n=1 Tax=Toxoplasma gond...  37.2    1.7  
+  UniRef90_A0A0A2M9F1 Uncharacterized protein n=1 Tax=Flavobacter...  37.2    1.9  
+  UniRef90_A0A376VC10 Putative invasin n=10 Tax=Escherichia coli ...  37.2    2.0  
+  UniRef90_A0A3N1A4K9 Uncharacterized protein DUF4232 n=2 Tax=Mic...  37.2    2.0  
+  UniRef90_S0Y9D4 Uncharacterized protein n=11 Tax=Escherichia co...  37.2    2.1  
+  UniRef90_UPI000CF53C1F cellulosomal scaffolding protein n=1 Tax...  37.2    2.1  
+  UniRef90_UPI000DDA74B1 hypothetical protein n=1 Tax=Rhizobiales...  36.4    2.2  
+  UniRef90_B6KUG4 Uncharacterized protein n=10 Tax=Toxoplasma gon...  37.2    2.2  
+  UniRef90_Q977Y4 Probably cellulosomal scaffolding protein, secr...  37.2    2.2  
+  UniRef90_A0A1I3IT76 Uncharacterized protein n=2 Tax=Jannaschia ...  36.0    2.2  
+  UniRef90_A0A238L7W7 Uncharacterized protein n=2 Tax=Maliponia a...  36.0    2.4  
+  UniRef90_A0A2N3DAK5 Uncharacterized protein n=1 Tax=Alphaproteo...  36.0    2.5  
+  UniRef90_UPI000A38FEF5 hypothetical protein n=1 Tax=Porphyrobac...  35.6    2.7  
+  UniRef90_A0A2E1V3C8 Uncharacterized protein n=1 Tax=Geminicoccu...  36.0    2.7  
+  UniRef90_A0A0M9DXS1 Uncharacterized protein (Fragment) n=1 Tax=...  36.8    3.1  
+  UniRef90_UPI00098C0B46 hypothetical protein n=1 Tax=Escherichia...  36.8    3.2  
+  UniRef90_UPI00036366EF hypothetical protein n=1 Tax=Methylobact...  36.4    3.2  
+  UniRef90_UPI000D72998F hypothetical protein n=1 Tax=Escherichia...  36.4    3.2  
+  UniRef90_Q0G484 Uncharacterized protein n=1 Tax=Fulvimarina pel...  35.6    3.4  
+  UniRef90_UPI000BEA8F72 acylphosphatase n=1 Tax=Escherichia coli...  36.4    3.4  
+  UniRef90_A0A376HGL9 Putative invasin n=2 Tax=Escherichia coli T...  36.4    3.5  
+  UniRef90_A0A2D9I4N6 Uncharacterized protein (Fragment) n=2 Tax=...  36.4    3.5  
+  UniRef90_A0A1I2FQC4 Uncharacterized protein n=1 Tax=Flavobacter...  35.6    3.7  
+  UniRef90_UPI0009E862EF copper chaperone PCu(A)C n=1 Tax=Curtoba...  36.0    3.7  
+  UniRef90_A0A244BI69 Uncharacterized protein n=20 Tax=Escherichi...  36.4    3.7  
+  UniRef90_UPI000B8E8B9C hydrogenase expression protein n=3 Tax=V...  36.4    3.8  
+  UniRef90_A0A1I5SYY9 Uncharacterized protein n=1 Tax=Tranquillim...  35.6    3.9  
+  UniRef90_A0A3A8VX93 Right-handed parallel beta-helix repeat-con...  36.4    4.1  
+  UniRef90_A0A350ZRR5 Uncharacterized protein n=1 Tax=Hyphomonas ...  35.2    4.1  
+  UniRef90_UPI000F8EAAD4 hypothetical protein n=1 Tax=Pelagibacte...  35.6    4.1  
+  UniRef90_A0A2X5FFH8 Putative invasin n=15 Tax=Escherichia coli ...  36.4    4.2  
+  UniRef90_A0A073HF68 Acylphosphatase family protein n=5 Tax=Esch...  36.0    4.3  
+  UniRef90_A0A2J8XP18 MGAT4D isoform 5 (Fragment) n=2 Tax=Hominid...  34.9    4.6  
+  UniRef90_A0A1M0D1R2 Uncharacterized protein n=13 Tax=Escherichi...  36.0    4.6  
+  UniRef90_B9TFQ6 Uncharacterized protein (Fragment) n=1 Tax=Rici...  35.2    4.7  
+  UniRef90_UPI000985B6CE hypothetical protein n=1 Tax=Pseudomonas...  34.9    4.7  
+  UniRef90_A0A0G3BKX9 Uncharacterized protein n=2 Tax=[Polyangium...  36.0    5.2  
+  UniRef90_UPI000A395D15 hypothetical protein n=1 Tax=Porphyrobac...  34.9    5.5  
+  UniRef90_UPI0002A2A400 inverse autotransporter beta-barrel doma...  36.0    5.7  
+  UniRef90_UPI0004D89F16 invasin n=3 Tax=Escherichia coli TaxID=5...  36.0    5.7  
+  UniRef90_UPI000585025D hypothetical protein n=1 Tax=Escherichia...  35.6    6.0  
+  UniRef90_T9T9R6 Uncharacterized protein (Fragment) n=3 Tax=Esch...  35.6    6.1  
+  UniRef90_UPI000F52572B hypothetical protein n=4 Tax=Escherichia...  35.6    6.1  
+  UniRef90_D6CVZ3 Uncharacterized protein n=2 Tax=Salinibacter ru...  35.2    6.2  
+  UniRef90_A0A1W9GW58 Uncharacterized protein n=1 Tax=Proteobacte...  34.5    6.5  
+  UniRef90_A0A2U8WWF8 Uncharacterized protein n=2 Tax=Methylobact...  34.5    6.7  
+  UniRef90_A0A257JKK9 Uncharacterized protein n=1 Tax=Alphaproteo...  34.5    6.9  
+  UniRef90_UPI0006D82467 hypothetical protein n=1 Tax=Helcobacill...  35.2    7.0  
+  UniRef90_F4V807 Uncharacterized protein (Fragment) n=2 Tax=Esch...  35.6    7.5  
+  UniRef90_A0A3D3Z722 Uncharacterized protein n=2 Tax=Alphaproteo...  34.1    7.6  
+  UniRef90_A0A0Q9KD81 Uncharacterized protein n=2 Tax=Janibacter ...  35.6    7.6  
+  UniRef90_E3FUR8 Conserved uncharacterized protein n=2 Tax=Stigm...  35.6    7.7  
+  UniRef90_W9AN71 Uncharacterized protein n=2 Tax=Mycolicibacteri...  34.9    7.7  
+  UniRef90_UPI000F8649F5 hypothetical protein n=1 Tax=Sphingomona...  34.1    8.7  
+  UniRef90_A0A3K0WHP7 Uncharacterized protein (Fragment) n=2 Tax=...  35.2    9.0  
+  UniRef90_A0A0N0D3B1 Uncharacterized protein (Fragment) n=2 Tax=...  35.2    9.2  
+  UniRef90_A0A2A5YGD3 Uncharacterized protein n=2 Tax=Sphingomona...  34.1    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.149    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0457    0.140     1.90     42.6     43.6 
+
+Effective search space used: 739511669728
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,681 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415283.1
+
+Length=49
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAX1 Multidrug efflux pump accessory protein AcrZ n=...  96.7    1e-25
+  UniRef90_B7LJZ7 Multidrug efflux pump accessory protein AcrZ n=...  91.7    2e-23
+  UniRef90_UPI000E1BA05A multidrug efflux pump-associated protein...  90.1    4e-23
+  UniRef90_A0A1C0PEP7 Multidrug efflux pump accessory protein Acr...  87.8    3e-22
+  UniRef90_D2TPG6 Multidrug efflux pump accessory protein AcrZ n=...  89.0    3e-22
+  UniRef90_UPI000D6F97C4 multidrug efflux pump-associated protein...  87.8    3e-22
+  UniRef90_A0A2X2PXR8 Multidrug efflux pump accessory protein Acr...  87.8    3e-22
+  UniRef90_W9BNQ7 Multidrug efflux pump accessory protein AcrZ n=...  87.0    5e-22
+  UniRef90_A0A223UED4 Multidrug efflux pump accessory protein Acr...  87.0    6e-22
+  UniRef90_A0A1B7IN66 Multidrug efflux pump accessory protein Acr...  86.3    1e-21
+  UniRef90_C0PWW8 Multidrug efflux pump accessory protein AcrZ n=...  86.7    2e-21
+  UniRef90_A0A0D1N3H5 Multidrug efflux pump accessory protein Acr...  84.0    1e-20
+  UniRef90_A0A1V0LGX1 Multidrug efflux pump accessory protein Acr...  83.6    2e-20
+  UniRef90_E3G3Q8 Multidrug efflux pump accessory protein AcrZ n=...  83.2    2e-20
+  UniRef90_L0M573 Multidrug efflux pump accessory protein AcrZ n=...  83.2    2e-20
+  UniRef90_A0A1N6SW98 Multidrug efflux pump accessory protein Acr...  83.2    2e-20
+  UniRef90_A0A370YNG4 Multidrug efflux pump accessory protein Acr...  82.4    4e-20
+  UniRef90_A0A084ZX94 Multidrug efflux pump accessory protein Acr...  82.4    5e-20
+  UniRef90_A0A1I6D8Y2 Multidrug efflux pump accessory protein Acr...  82.0    6e-20
+  UniRef90_A0A085GQH6 Multidrug efflux pump accessory protein Acr...  82.0    9e-20
+  UniRef90_A0A127L244 Multidrug efflux pump accessory protein Acr...  81.3    1e-19
+  UniRef90_A7MIY3 Multidrug efflux pump accessory protein AcrZ n=...  81.6    2e-19
+  UniRef90_A0A0F0XKU4 Multidrug efflux pump accessory protein Acr...  80.5    2e-19
+  UniRef90_UPI0002FF4CBD multidrug efflux pump-associated protein...  80.5    2e-19
+  UniRef90_A0A376E7J9 Multidrug efflux pump accessory protein Acr...  80.5    3e-19
+  UniRef90_A0A090V6I4 Multidrug efflux pump accessory protein Acr...  80.1    3e-19
+  UniRef90_W0BR74 Multidrug efflux pump accessory protein AcrZ n=...  80.9    4e-19
+  UniRef90_A0A370WHG2 Multidrug efflux pump accessory protein Acr...  79.0    1e-18
+  UniRef90_A0A0J8VJS8 Multidrug efflux pump accessory protein Acr...  78.6    1e-18
+  UniRef90_A0A089PTH3 Multidrug efflux pump accessory protein Acr...  78.2    2e-18
+  UniRef90_A0A345CD35 Multidrug efflux pump accessory protein Acr...  77.8    3e-18
+  UniRef90_A0A2P8VPP0 Multidrug efflux pump accessory protein Acr...  77.8    3e-18
+  UniRef90_V5B353 Multidrug efflux pump accessory protein AcrZ n=...  76.6    7e-18
+  UniRef90_A0A370ZA99 Multidrug efflux pump accessory protein Acr...  76.6    9e-18
+  UniRef90_UPI00092E2F2E multidrug efflux pump-associated protein...  75.5    2e-17
+  UniRef90_UPI000FE3DF21 multidrug efflux pump-associated protein...  74.3    7e-17
+  UniRef90_G9YCN2 Multidrug efflux pump accessory protein AcrZ n=...  73.9    8e-17
+  UniRef90_A0A376YD31 Multidrug efflux pump accessory protein Acr...  73.2    2e-16
+  UniRef90_A0A071LT29 Multidrug efflux pump accessory protein Acr...  72.8    3e-16
+  UniRef90_A0A1B1KMU7 Multidrug efflux pump accessory protein Acr...  72.8    3e-16
+  UniRef90_A0A0L7TCG2 Multidrug efflux pump accessory protein Acr...  72.8    3e-16
+  UniRef90_A0A3N1W872 Multidrug efflux pump-associated protein Ac...  72.0    5e-16
+  UniRef90_I2BB18 Multidrug efflux pump accessory protein AcrZ n=...  72.0    5e-16
+  UniRef90_UPI00092EC6F8 multidrug efflux pump-associated protein...  70.5    2e-15
+  UniRef90_A0A084YSM0 Multidrug efflux pump accessory protein Acr...  70.1    3e-15
+  UniRef90_D2BVE9 Multidrug efflux pump accessory protein AcrZ n=...  70.5    3e-15
+  UniRef90_A0A1W6B0V3 Multidrug efflux pump accessory protein Acr...  69.7    5e-15
+  UniRef90_A0A2K9QKI1 Multidrug efflux pump accessory protein Acr...  69.3    6e-15
+  UniRef90_A0A2N5DV49 Multidrug efflux pump accessory protein Acr...  69.3    6e-15
+  UniRef90_A0A2I0FSS6 Multidrug efflux pump accessory protein Acr...  69.3    8e-15
+  UniRef90_A0A1V9DQH2 Multidrug efflux pump accessory protein Acr...  68.9    9e-15
+  UniRef90_A0A0F3LVX9 Multidrug efflux pump accessory protein Acr...  68.9    1e-14
+  UniRef90_A0A2R4JCC9 Multidrug efflux pump accessory protein Acr...  68.6    1e-14
+  UniRef90_UPI000DEF9865 multidrug efflux pump-associated protein...  68.2    2e-14
+  UniRef90_E0SFR6 Multidrug efflux pump accessory protein AcrZ n=...  68.2    2e-14
+  UniRef90_D4GMN8 Multidrug efflux pump accessory protein AcrZ n=...  67.8    2e-14
+  UniRef90_A0A2X1NFY5 Outer membrane or exported n=1 Tax=Escheric...  67.4    3e-14
+  UniRef90_C6CPQ2 Multidrug efflux pump accessory protein AcrZ n=...  67.8    3e-14
+  UniRef90_A0A366IDJ2 Multidrug efflux pump accessory protein Acr...  67.8    3e-14
+  UniRef90_A0A2N5EMD9 Multidrug efflux pump accessory protein Acr...  67.8    3e-14
+  UniRef90_B2VBU8 Multidrug efflux pump accessory protein AcrZ n=...  67.4    4e-14
+  UniRef90_A0A1H3VV92 Multidrug efflux pump accessory protein Acr...  67.0    5e-14
+  UniRef90_G7LNM9 Multidrug efflux pump accessory protein AcrZ n=...  67.0    6e-14
+  UniRef90_A8AJ32 Multidrug efflux pump accessory protein AcrZ n=...  67.4    7e-14
+  UniRef90_A0A2U1TWA3 Multidrug efflux pump accessory protein Acr...  66.6    8e-14
+  UniRef90_UPI000948A347 multidrug efflux pump-associated protein...  66.2    9e-14
+  UniRef90_E3DKW3 Multidrug efflux pump accessory protein AcrZ n=...  66.6    1e-13
+  UniRef90_A0A2C6DJ09 Multidrug efflux pump accessory protein Acr...  65.5    2e-13
+  UniRef90_D4HZF3 Multidrug efflux pump accessory protein AcrZ n=...  65.5    2e-13
+  UniRef90_A0A357VXJ2 Multidrug efflux pump accessory protein Acr...  65.5    3e-13
+  UniRef90_C6CCT9 Multidrug efflux pump accessory protein AcrZ n=...  65.1    3e-13
+  UniRef90_A0A0J9B904 Multidrug efflux pump accessory protein Acr...  65.1    4e-13
+  UniRef90_A0A1X1C1T8 Multidrug efflux pump accessory protein Acr...  65.5    4e-13
+  UniRef90_A0A1S8YJ77 Multidrug efflux pump accessory protein Acr...  64.7    4e-13
+  UniRef90_A0A0G4JP23 Multidrug efflux pump accessory protein Acr...  64.7    4e-13
+  UniRef90_A0A014LV92 Multidrug efflux pump accessory protein Acr...  64.7    4e-13
+  UniRef90_A0A379AIZ6 Multidrug efflux pump accessory protein Acr...  64.7    5e-13
+  UniRef90_UPI000382EFA6 multidrug efflux pump-associated protein...  64.3    5e-13
+  UniRef90_A0A2G8E4D0 Multidrug efflux pump accessory protein Acr...  64.3    6e-13
+  UniRef90_A0A370QHH8 Multidrug efflux pump accessory protein Acr...  64.3    7e-13
+  UniRef90_A0A0A3ZVA3 Multidrug efflux pump accessory protein Acr...  63.9    9e-13
+  UniRef90_A0A2I5TMQ1 Multidrug efflux pump accessory protein Acr...  63.5    1e-12
+  UniRef90_G5MFN0 Putative outer membrane or exported (Fragment) ...  63.2    2e-12
+  UniRef90_UPI000F68BDEB multidrug efflux pump-associated protein...  62.8    2e-12
+  UniRef90_A0A2Y9TVH9 Multidrug efflux pump accessory protein Acr...  62.8    3e-12
+  UniRef90_H2IWG9 Multidrug efflux pump accessory protein AcrZ n=...  62.0    5e-12
+  UniRef90_V5U1A7 Uncharacterized protein n=1 Tax=Cronobacter mal...  61.6    5e-12
+  UniRef90_A0A377TNM8 Membrane protein n=1 Tax=Klebsiella pneumon...  61.6    6e-12
+  UniRef90_A0A085GLG8 Multidrug efflux pump accessory protein Acr...  62.8    6e-12
+  UniRef90_D8MPV2 Multidrug efflux pump accessory protein AcrZ n=...  62.0    6e-12
+  UniRef90_A0A389MH00 Multidrug efflux pump accessory protein Acr...  61.6    6e-12
+  UniRef90_A0A0U5GJP8 Multidrug efflux pump accessory protein Acr...  61.6    7e-12
+  UniRef90_A0A0J9BKZ7 Multidrug efflux pump accessory protein Acr...  61.2    9e-12
+  UniRef90_UPI000EF2869D multidrug efflux pump-associated protein...  61.2    1e-11
+  UniRef90_A0A0H3I8D8 Multidrug efflux pump accessory protein Acr...  62.0    1e-11
+  UniRef90_A0A1I4UF62 Multidrug efflux pump accessory protein Acr...  60.8    1e-11
+  UniRef90_UPI00092ED963 multidrug efflux pump-associated protein...  60.8    2e-11
+  UniRef90_A0A0H3FQE5 Multidrug efflux pump accessory protein Acr...  60.8    2e-11
+  UniRef90_A0A1X0W2U5 Multidrug efflux pump accessory protein Acr...  60.1    3e-11
+  UniRef90_I0QMN2 Multidrug efflux pump accessory protein AcrZ n=...  59.7    4e-11
+  UniRef90_A0A2U1TQ87 Multidrug efflux pump accessory protein Acr...  59.7    4e-11
+  UniRef90_A0A376DB21 Multidrug efflux pump accessory protein Acr...  59.7    4e-11
+  UniRef90_A0A2L1UR15 Multidrug efflux pump accessory protein Acr...  59.7    4e-11
+  UniRef90_A0A2X4URS9 Uncharacterized membrane protein ybhT n=1 T...  59.3    6e-11
+  UniRef90_A0A263W538 Multidrug efflux pump accessory protein Acr...  59.3    6e-11
+  UniRef90_A0A318FIK3 Multidrug efflux pump accessory protein Acr...  59.3    7e-11
+  UniRef90_R9VU11 Multidrug efflux pump accessory protein AcrZ n=...  58.9    7e-11
+  UniRef90_U3TPC6 Uncharacterized protein n=1 Tax=Plautia stali s...  58.9    8e-11
+  UniRef90_A0A1X0WL58 Multidrug efflux pump accessory protein Acr...  58.5    1e-10
+  UniRef90_UPI0005D3AA13 multidrug efflux pump-associated protein...  58.5    1e-10
+  UniRef90_A0A0G3CXB6 Multidrug efflux pump accessory protein Acr...  58.5    1e-10
+  UniRef90_D3UZU1 Multidrug efflux pump accessory protein AcrZ n=...  58.2    1e-10
+  UniRef90_W0HZX5 Multidrug efflux pump accessory protein AcrZ n=...  59.7    2e-10
+  UniRef90_W3V2I5 Multidrug efflux pump accessory protein AcrZ n=...  57.8    2e-10
+  UniRef90_A0A2X4UL84 Multidrug efflux pump accessory protein Acr...  57.8    2e-10
+  UniRef90_A0A034TB24 Multidrug efflux pump accessory protein Acr...  58.5    2e-10
+  UniRef90_A0A240C059 Multidrug efflux pump accessory protein Acr...  57.4    3e-10
+  UniRef90_A0A0L0AM65 Multidrug efflux pump accessory protein Acr...  57.4    3e-10
+  UniRef90_W1ITI3 Multidrug efflux pump accessory protein AcrZ n=...  57.4    3e-10
+  UniRef90_UPI00030E174E multidrug efflux pump-associated protein...  57.8    3e-10
+  UniRef90_A0A181XM80 Multidrug efflux pump accessory protein Acr...  57.8    4e-10
+  UniRef90_A0A2K9YV97 Multidrug efflux pump accessory protein Acr...  56.6    6e-10
+  UniRef90_A0A198FH64 Multidrug efflux pump accessory protein Acr...  56.6    6e-10
+  UniRef90_A0A085JC89 Multidrug efflux pump accessory protein Acr...  57.4    6e-10
+  UniRef90_G5Q011 Uncharacterized protein (Fragment) n=1 Tax=Salm...  56.2    7e-10
+  UniRef90_D1NXM3 Multidrug efflux pump accessory protein AcrZ n=...  57.0    9e-10
+  UniRef90_A0A1Y2SQY9 Multidrug efflux pump accessory protein Acr...  55.8    1e-09
+  UniRef90_A0A095VFL0 Multidrug efflux pump accessory protein Acr...  56.2    1e-09
+  UniRef90_V6MLK3 Multidrug efflux pump accessory protein AcrZ n=...  56.2    1e-09
+  UniRef90_A0A2G0QAR1 Multidrug efflux pump accessory protein Acr...  55.8    1e-09
+  UniRef90_A0A068QPT6 Multidrug efflux pump accessory protein Acr...  55.5    2e-09
+  UniRef90_T0P8Q5 Multidrug efflux pump accessory protein AcrZ n=...  55.8    2e-09
+  UniRef90_A0A0N1IZ93 Multidrug efflux pump accessory protein Acr...  55.5    2e-09
+  UniRef90_A0A0N0Z7S9 Multidrug efflux pump accessory protein Acr...  55.1    3e-09
+  UniRef90_A0A2D0K090 Multidrug efflux pump accessory protein Acr...  54.7    3e-09
+  UniRef90_A0A2X5EL33 Multidrug efflux pump accessory protein Acr...  55.1    5e-09
+  UniRef90_A0A1Z1SYM9 Multidrug efflux pump accessory protein Acr...  54.3    6e-09
+  UniRef90_A0A089PVZ1 Multidrug efflux pump accessory protein Acr...  54.3    6e-09
+  UniRef90_A0A0M0T922 Multidrug efflux pump accessory protein Acr...  53.9    7e-09
+  UniRef90_D4E678 Multidrug efflux pump accessory protein AcrZ n=...  55.5    8e-09
+  UniRef90_A0A1I3ICJ2 Multidrug efflux pump accessory protein Acr...  53.9    8e-09
+  UniRef90_A0A1C0U1J2 Multidrug efflux pump accessory protein Acr...  53.5    1e-08
+  UniRef90_A0A3N1IUN5 Multidrug efflux pump-associated protein Ac...  53.9    1e-08
+  UniRef90_A0A1C0BYH6 Multidrug efflux pump accessory protein Acr...  53.5    1e-08
+  UniRef90_A0A068Z4W2 Multidrug efflux pump accessory protein Acr...  52.8    2e-08
+  UniRef90_A0A1I4ZFB7 Multidrug efflux pump accessory protein Acr...  52.4    3e-08
+  UniRef90_G5RCT6 Uncharacterized protein (Fragment) n=1 Tax=Salm...  52.0    3e-08
+  UniRef90_A0A2D0IY22 Multidrug efflux pump accessory protein Acr...  52.0    4e-08
+  UniRef90_W1IX96 Multidrug efflux pump accessory protein AcrZ n=...  51.6    5e-08
+  UniRef90_A0A1B7JJS5 Multidrug efflux pump accessory protein Acr...  51.6    6e-08
+  UniRef90_B6XIS4 Multidrug efflux pump accessory protein AcrZ n=...  52.4    7e-08
+  UniRef90_A0A1J0E4E9 Multidrug efflux pump accessory protein Acr...  51.6    7e-08
+  UniRef90_A0A2T4I2P9 Multidrug efflux pump accessory protein Acr...  51.2    8e-08
+  UniRef90_A0A0F7HE63 Multidrug efflux pump accessory protein Acr...  51.2    8e-08
+  UniRef90_K8WQ53 Multidrug efflux pump accessory protein AcrZ n=...  51.2    9e-08
+  UniRef90_A0A3B0J361 Multidrug efflux pump accessory protein Acr...  50.8    1e-07
+  UniRef90_A0A1W9F0A3 Membrane protein (Fragment) n=1 Tax=Serrati...  50.8    1e-07
+  UniRef90_B2Q392 Multidrug efflux pump accessory protein AcrZ n=...  51.2    1e-07
+  UniRef90_D3VAQ7 Multidrug efflux pump accessory protein AcrZ n=...  50.8    1e-07
+  UniRef90_A0A068R3Y0 Multidrug efflux pump accessory protein Acr...  50.4    2e-07
+  UniRef90_A0A1I7HW05 Multidrug efflux pump accessory protein Acr...  50.4    2e-07
+  UniRef90_A0A379DQ16 Multidrug efflux pump accessory protein Acr...  50.4    2e-07
+  UniRef90_A0A250AY19 Multidrug efflux pump accessory protein Acr...  51.2    2e-07
+  UniRef90_C4K5R8 Multidrug efflux pump accessory protein AcrZ n=...  50.1    3e-07
+  UniRef90_A0A1N6N020 Multidrug efflux pump accessory protein Acr...  49.7    3e-07
+  UniRef90_A0A2X1TQJ3 Multidrug efflux pump accessory protein Acr...  49.7    4e-07
+  UniRef90_UPI0004A4D8FD multidrug efflux pump-associated protein...  48.5    1e-06
+  UniRef90_A0A1S8CML3 Multidrug efflux pump accessory protein Acr...  47.0    4e-06
+  UniRef90_A0A376ZRW2 Outer membrane or exported n=1 Tax=Escheric...  45.4    2e-05
+  UniRef90_A0A083ZWL8 Multidrug efflux pump accessory protein Acr...  45.4    2e-05
+  UniRef90_W0LGZ0 Multidrug efflux pump accessory protein AcrZ n=...  45.4    2e-05
+  UniRef90_A0A0T9NLB3 Multidrug efflux pump accessory protein Acr...  45.1    3e-05
+  UniRef90_A0A0E1ND13 Multidrug efflux pump accessory protein Acr...  44.7    4e-05
+  UniRef90_A0A087KV73 Multidrug efflux pump accessory protein Acr...  44.3    5e-05
+  UniRef90_A0A140EZV5 Multidrug efflux pump accessory protein Acr...  43.5    1e-04
+  UniRef90_A0A0T9TFS3 Multidrug efflux pump accessory protein Acr...  42.7    2e-04
+  UniRef90_A0A1S6LRG1 Multidrug efflux pump accessory protein Acr...  42.0    4e-04
+  UniRef90_A0A094QKL0 Multidrug efflux pump accessory protein Acr...  42.0    4e-04
+  UniRef90_UPI0004B0F485 multidrug efflux pump-associated protein...  41.6    5e-04
+  UniRef90_A0A2D0J5U1 Multidrug efflux pump accessory protein Acr...  41.6    6e-04
+  UniRef90_A0A0T9PUC3 Multidrug efflux pump accessory protein Acr...  41.2    0.001
+  UniRef90_A0A085HKL5 Uncharacterized protein n=1 Tax=Leminorella...  39.3    0.005
+  UniRef90_G5LL76 Putative outer membrane or exported n=4 Tax=Sal...  38.9    0.008
+  UniRef90_A0A2D0JPB3 Multidrug efflux pump accessory protein Acr...  37.7    0.019
+  UniRef90_A0A0U1HTP4 Multidrug efflux pump accessory protein Acr...  37.0    0.042
+  UniRef90_A0A0M1V6H8 Uncharacterized protein n=1 Tax=Yersinia pe...  35.8    0.10 
+  UniRef90_A7IEF4 Acriflavin resistance protein n=1 Tax=Xanthobac...  35.8    0.56 
+  UniRef90_A0A2W0ARQ0 Uncharacterized protein n=2 Tax=Acidobacter...  35.4    0.80 
+  UniRef90_A0A1M7QL00 PAS domain S-box-containing protein n=1 Tax...  35.0    1.2  
+  UniRef90_UPI000F8D0FD4 efflux RND transporter permease subunit ...  34.3    2.1  
+  UniRef90_A0A3A0CBG9 Uncharacterized protein n=1 Tax=Planctomyce...  33.9    3.3  
+  UniRef90_A0A371J4J7 Transport permease protein n=1 Tax=Rombouts...  33.1    5.1  
+  UniRef90_A0A1H7JJ20 PAS domain S-box-containing protein n=1 Tax...  32.7    7.7  
+  UniRef90_A0A231RC41 Uncharacterized protein n=1 Tax=Cohnella sp...  32.7    8.4  
+  UniRef90_A0A2V9S835 Uncharacterized protein n=1 Tax=Acidobacter...  32.3    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.149    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 760128072741
+Warning: [psiblast] lcl|Query_1 NP_415283.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415283.1
+
+Length=49
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_D2TPG6 Multidrug efflux pump accessory protein AcrZ n=...  77.5    7e-18
+  UniRef90_A7MIY3 Multidrug efflux pump accessory protein AcrZ n=...  77.5    8e-18
+  UniRef90_B7LJZ7 Multidrug efflux pump accessory protein AcrZ n=...  76.7    1e-17
+  UniRef90_W0BR74 Multidrug efflux pump accessory protein AcrZ n=...  75.2    6e-17
+  UniRef90_C0PWW8 Multidrug efflux pump accessory protein AcrZ n=...  75.2    7e-17
+  UniRef90_W0HZX5 Multidrug efflux pump accessory protein AcrZ n=...  73.7    5e-16
+  UniRef90_A0A376E7J9 Multidrug efflux pump accessory protein Acr...  70.6    2e-15
+  UniRef90_A0A1B7IN66 Multidrug efflux pump accessory protein Acr...  70.2    3e-15
+  UniRef90_A0A370YNG4 Multidrug efflux pump accessory protein Acr...  69.4    4e-15
+  UniRef90_A0A1I6D8Y2 Multidrug efflux pump accessory protein Acr...  69.0    7e-15
+  UniRef90_P0AAX1 Multidrug efflux pump accessory protein AcrZ n=...  68.6    1e-14
+  UniRef90_W9BNQ7 Multidrug efflux pump accessory protein AcrZ n=...  68.6    1e-14
+  UniRef90_A0A2X2PXR8 Multidrug efflux pump accessory protein Acr...  68.3    1e-14
+  UniRef90_A0A0L7TCG2 Multidrug efflux pump accessory protein Acr...  68.3    2e-14
+  UniRef90_A0A1N6SW98 Multidrug efflux pump accessory protein Acr...  68.3    2e-14
+  UniRef90_A0A0D1N3H5 Multidrug efflux pump accessory protein Acr...  68.3    2e-14
+  UniRef90_A0A084ZX94 Multidrug efflux pump accessory protein Acr...  68.3    2e-14
+  UniRef90_A0A085GQH6 Multidrug efflux pump accessory protein Acr...  68.3    2e-14
+  UniRef90_A0A1C0PEP7 Multidrug efflux pump accessory protein Acr...  67.9    2e-14
+  UniRef90_V5B353 Multidrug efflux pump accessory protein AcrZ n=...  67.9    2e-14
+  UniRef90_A0A0J8VJS8 Multidrug efflux pump accessory protein Acr...  67.9    3e-14
+  UniRef90_D2BVE9 Multidrug efflux pump accessory protein AcrZ n=...  67.5    4e-14
+  UniRef90_A0A089PTH3 Multidrug efflux pump accessory protein Acr...  67.1    5e-14
+  UniRef90_A0A1V0LGX1 Multidrug efflux pump accessory protein Acr...  67.1    5e-14
+  UniRef90_A0A0F0XKU4 Multidrug efflux pump accessory protein Acr...  67.1    5e-14
+  UniRef90_A0A223UED4 Multidrug efflux pump accessory protein Acr...  66.7    5e-14
+  UniRef90_L0M573 Multidrug efflux pump accessory protein AcrZ n=...  66.7    5e-14
+  UniRef90_A0A127L244 Multidrug efflux pump accessory protein Acr...  67.1    6e-14
+  UniRef90_E3G3Q8 Multidrug efflux pump accessory protein AcrZ n=...  66.7    6e-14
+  UniRef90_A0A345CD35 Multidrug efflux pump accessory protein Acr...  66.3    8e-14
+  UniRef90_A0A090V6I4 Multidrug efflux pump accessory protein Acr...  66.3    8e-14
+  UniRef90_B2VBU8 Multidrug efflux pump accessory protein AcrZ n=...  66.3    1e-13
+  UniRef90_UPI000D6F97C4 multidrug efflux pump-associated protein...  65.9    1e-13
+  UniRef90_G9YCN2 Multidrug efflux pump accessory protein AcrZ n=...  65.9    1e-13
+  UniRef90_A0A034TB24 Multidrug efflux pump accessory protein Acr...  66.7    1e-13
+  UniRef90_UPI000948A347 multidrug efflux pump-associated protein...  65.9    2e-13
+  UniRef90_A0A370ZA99 Multidrug efflux pump accessory protein Acr...  65.6    2e-13
+  UniRef90_A0A1W6B0V3 Multidrug efflux pump accessory protein Acr...  65.6    2e-13
+  UniRef90_A0A2N5EMD9 Multidrug efflux pump accessory protein Acr...  65.6    2e-13
+  UniRef90_A0A370WHG2 Multidrug efflux pump accessory protein Acr...  65.2    3e-13
+  UniRef90_A0A2P8VPP0 Multidrug efflux pump accessory protein Acr...  64.8    3e-13
+  UniRef90_UPI000E1BA05A multidrug efflux pump-associated protein...  65.2    3e-13
+  UniRef90_A0A3N1W872 Multidrug efflux pump-associated protein Ac...  64.8    4e-13
+  UniRef90_UPI0002FF4CBD multidrug efflux pump-associated protein...  64.4    5e-13
+  UniRef90_A0A2N5DV49 Multidrug efflux pump accessory protein Acr...  64.4    6e-13
+  UniRef90_A0A357VXJ2 Multidrug efflux pump accessory protein Acr...  64.4    7e-13
+  UniRef90_A0A0F3LVX9 Multidrug efflux pump accessory protein Acr...  64.0    8e-13
+  UniRef90_A0A1X1C1T8 Multidrug efflux pump accessory protein Acr...  64.8    9e-13
+  UniRef90_E3DKW3 Multidrug efflux pump accessory protein AcrZ n=...  63.6    1e-12
+  UniRef90_C6CPQ2 Multidrug efflux pump accessory protein AcrZ n=...  63.6    1e-12
+  UniRef90_A0A2I0FSS6 Multidrug efflux pump accessory protein Acr...  63.6    1e-12
+  UniRef90_UPI000FE3DF21 multidrug efflux pump-associated protein...  63.3    1e-12
+  UniRef90_A0A1I4UF62 Multidrug efflux pump accessory protein Acr...  63.3    2e-12
+  UniRef90_A0A0J9B904 Multidrug efflux pump accessory protein Acr...  62.9    2e-12
+  UniRef90_A0A085GLG8 Multidrug efflux pump accessory protein Acr...  64.0    2e-12
+  UniRef90_A0A366IDJ2 Multidrug efflux pump accessory protein Acr...  62.9    2e-12
+  UniRef90_A0A2U1TWA3 Multidrug efflux pump accessory protein Acr...  62.5    3e-12
+  UniRef90_UPI00092EC6F8 multidrug efflux pump-associated protein...  62.1    4e-12
+  UniRef90_D4HZF3 Multidrug efflux pump accessory protein AcrZ n=...  62.1    4e-12
+  UniRef90_G7LNM9 Multidrug efflux pump accessory protein AcrZ n=...  62.1    4e-12
+  UniRef90_A0A1H3VV92 Multidrug efflux pump accessory protein Acr...  62.1    5e-12
+  UniRef90_A0A1S8YJ77 Multidrug efflux pump accessory protein Acr...  62.1    5e-12
+  UniRef90_UPI000DEF9865 multidrug efflux pump-associated protein...  61.7    5e-12
+  UniRef90_I2BB18 Multidrug efflux pump accessory protein AcrZ n=...  61.7    7e-12
+  UniRef90_A0A1B1KMU7 Multidrug efflux pump accessory protein Acr...  61.7    7e-12
+  UniRef90_UPI000382EFA6 multidrug efflux pump-associated protein...  61.7    7e-12
+  UniRef90_H2IWG9 Multidrug efflux pump accessory protein AcrZ n=...  61.7    7e-12
+  UniRef90_A0A2Y9TVH9 Multidrug efflux pump accessory protein Acr...  61.3    8e-12
+  UniRef90_A0A2C6DJ09 Multidrug efflux pump accessory protein Acr...  60.9    1e-11
+  UniRef90_A0A389MH00 Multidrug efflux pump accessory protein Acr...  61.3    1e-11
+  UniRef90_A0A1X0W2U5 Multidrug efflux pump accessory protein Acr...  60.9    1e-11
+  UniRef90_A0A014LV92 Multidrug efflux pump accessory protein Acr...  60.6    2e-11
+  UniRef90_A0A2K9QKI1 Multidrug efflux pump accessory protein Acr...  60.6    2e-11
+  UniRef90_D4GMN8 Multidrug efflux pump accessory protein AcrZ n=...  60.9    2e-11
+  UniRef90_A0A370QHH8 Multidrug efflux pump accessory protein Acr...  60.6    2e-11
+  UniRef90_UPI00030E174E multidrug efflux pump-associated protein...  60.6    2e-11
+  UniRef90_E0SFR6 Multidrug efflux pump accessory protein AcrZ n=...  60.6    2e-11
+  UniRef90_UPI0005D3AA13 multidrug efflux pump-associated protein...  60.6    2e-11
+  UniRef90_UPI000F68BDEB multidrug efflux pump-associated protein...  60.2    2e-11
+  UniRef90_A0A1V9DQH2 Multidrug efflux pump accessory protein Acr...  60.2    2e-11
+  UniRef90_A0A0H3I8D8 Multidrug efflux pump accessory protein Acr...  60.9    3e-11
+  UniRef90_A0A2L1UR15 Multidrug efflux pump accessory protein Acr...  60.2    3e-11
+  UniRef90_A0A084YSM0 Multidrug efflux pump accessory protein Acr...  60.2    3e-11
+  UniRef90_A0A1X0WL58 Multidrug efflux pump accessory protein Acr...  60.2    3e-11
+  UniRef90_UPI00092ED963 multidrug efflux pump-associated protein...  59.8    3e-11
+  UniRef90_A0A0N1IZ93 Multidrug efflux pump accessory protein Acr...  60.2    3e-11
+  UniRef90_A0A376DB21 Multidrug efflux pump accessory protein Acr...  59.4    4e-11
+  UniRef90_A0A0A3ZVA3 Multidrug efflux pump accessory protein Acr...  59.4    5e-11
+  UniRef90_A0A2R4JCC9 Multidrug efflux pump accessory protein Acr...  59.4    6e-11
+  UniRef90_T0P8Q5 Multidrug efflux pump accessory protein AcrZ n=...  59.4    6e-11
+  UniRef90_A0A0G4JP23 Multidrug efflux pump accessory protein Acr...  59.0    7e-11
+  UniRef90_A0A085JC89 Multidrug efflux pump accessory protein Acr...  59.8    9e-11
+  UniRef90_D8MPV2 Multidrug efflux pump accessory protein AcrZ n=...  58.6    9e-11
+  UniRef90_A0A2U1TQ87 Multidrug efflux pump accessory protein Acr...  58.6    1e-10
+  UniRef90_A0A0U5GJP8 Multidrug efflux pump accessory protein Acr...  58.6    1e-10
+  UniRef90_A0A0G3CXB6 Multidrug efflux pump accessory protein Acr...  58.6    1e-10
+  UniRef90_C6CCT9 Multidrug efflux pump accessory protein AcrZ n=...  58.6    1e-10
+  UniRef90_A0A379AIZ6 Multidrug efflux pump accessory protein Acr...  58.6    1e-10
+  UniRef90_A0A2X4URS9 Uncharacterized membrane protein ybhT n=1 T...  58.2    1e-10
+  UniRef90_A0A2G8E4D0 Multidrug efflux pump accessory protein Acr...  58.2    1e-10
+  UniRef90_I0QMN2 Multidrug efflux pump accessory protein AcrZ n=...  57.9    2e-10
+  UniRef90_A0A071LT29 Multidrug efflux pump accessory protein Acr...  57.5    3e-10
+  UniRef90_UPI000EF2869D multidrug efflux pump-associated protein...  56.7    5e-10
+  UniRef90_A0A2I5TMQ1 Multidrug efflux pump accessory protein Acr...  56.7    6e-10
+  UniRef90_U3TPC6 Uncharacterized protein n=1 Tax=Plautia stali s...  56.3    8e-10
+  UniRef90_D3UZU1 Multidrug efflux pump accessory protein AcrZ n=...  56.3    9e-10
+  UniRef90_V6MLK3 Multidrug efflux pump accessory protein AcrZ n=...  56.3    9e-10
+  UniRef90_UPI00092E2F2E multidrug efflux pump-associated protein...  56.3    1e-09
+  UniRef90_A0A379DQ16 Multidrug efflux pump accessory protein Acr...  56.3    1e-09
+  UniRef90_D4E678 Multidrug efflux pump accessory protein AcrZ n=...  57.5    1e-09
+  UniRef90_A8AJ32 Multidrug efflux pump accessory protein AcrZ n=...  57.1    1e-09
+  UniRef90_D1NXM3 Multidrug efflux pump accessory protein AcrZ n=...  56.3    2e-09
+  UniRef90_A0A068QPT6 Multidrug efflux pump accessory protein Acr...  55.2    2e-09
+  UniRef90_A0A376YD31 Multidrug efflux pump accessory protein Acr...  55.2    2e-09
+  UniRef90_A0A1C0U1J2 Multidrug efflux pump accessory protein Acr...  55.2    2e-09
+  UniRef90_D3VAQ7 Multidrug efflux pump accessory protein AcrZ n=...  55.2    3e-09
+  UniRef90_W3V2I5 Multidrug efflux pump accessory protein AcrZ n=...  54.8    3e-09
+  UniRef90_V5U1A7 Uncharacterized protein n=1 Tax=Cronobacter mal...  54.8    3e-09
+  UniRef90_A0A2T4I2P9 Multidrug efflux pump accessory protein Acr...  54.8    3e-09
+  UniRef90_A0A0M0T922 Multidrug efflux pump accessory protein Acr...  54.8    3e-09
+  UniRef90_A0A2X1TQJ3 Multidrug efflux pump accessory protein Acr...  54.4    5e-09
+  UniRef90_A0A198FH64 Multidrug efflux pump accessory protein Acr...  54.0    6e-09
+  UniRef90_G5Q011 Uncharacterized protein (Fragment) n=1 Tax=Salm...  54.0    6e-09
+  UniRef90_A0A1I3ICJ2 Multidrug efflux pump accessory protein Acr...  54.0    6e-09
+  UniRef90_A0A250AY19 Multidrug efflux pump accessory protein Acr...  54.8    8e-09
+  UniRef90_A0A181XM80 Multidrug efflux pump accessory protein Acr...  54.0    1e-08
+  UniRef90_A0A1Z1SYM9 Multidrug efflux pump accessory protein Acr...  53.2    1e-08
+  UniRef90_W1ITI3 Multidrug efflux pump accessory protein AcrZ n=...  53.2    1e-08
+  UniRef90_A0A2D0K090 Multidrug efflux pump accessory protein Acr...  53.2    1e-08
+  UniRef90_R9VU11 Multidrug efflux pump accessory protein AcrZ n=...  53.2    2e-08
+  UniRef90_G5MFN0 Putative outer membrane or exported (Fragment) ...  52.9    2e-08
+  UniRef90_A0A089PVZ1 Multidrug efflux pump accessory protein Acr...  52.9    2e-08
+  UniRef90_W1IX96 Multidrug efflux pump accessory protein AcrZ n=...  52.9    2e-08
+  UniRef90_A0A2D0IY22 Multidrug efflux pump accessory protein Acr...  52.5    2e-08
+  UniRef90_A0A0H3FQE5 Multidrug efflux pump accessory protein Acr...  53.2    2e-08
+  UniRef90_A0A318FIK3 Multidrug efflux pump accessory protein Acr...  52.5    3e-08
+  UniRef90_A0A0J9BKZ7 Multidrug efflux pump accessory protein Acr...  52.5    3e-08
+  UniRef90_A0A2X1NFY5 Outer membrane or exported n=1 Tax=Escheric...  52.1    3e-08
+  UniRef90_B2Q392 Multidrug efflux pump accessory protein AcrZ n=...  52.5    4e-08
+  UniRef90_A0A3B0J361 Multidrug efflux pump accessory protein Acr...  52.1    4e-08
+  UniRef90_K8WQ53 Multidrug efflux pump accessory protein AcrZ n=...  52.1    5e-08
+  UniRef90_A0A068R3Y0 Multidrug efflux pump accessory protein Acr...  51.7    6e-08
+  UniRef90_A0A1J0E4E9 Multidrug efflux pump accessory protein Acr...  51.3    8e-08
+  UniRef90_A0A0L0AM65 Multidrug efflux pump accessory protein Acr...  51.3    9e-08
+  UniRef90_A0A1B7JJS5 Multidrug efflux pump accessory protein Acr...  50.9    9e-08
+  UniRef90_A0A1I4ZFB7 Multidrug efflux pump accessory protein Acr...  50.9    1e-07
+  UniRef90_A0A1C0BYH6 Multidrug efflux pump accessory protein Acr...  50.9    1e-07
+  UniRef90_A0A1I7HW05 Multidrug efflux pump accessory protein Acr...  50.9    1e-07
+  UniRef90_A0A3N1IUN5 Multidrug efflux pump-associated protein Ac...  51.3    1e-07
+  UniRef90_A0A1W9F0A3 Membrane protein (Fragment) n=1 Tax=Serrati...  50.9    1e-07
+  UniRef90_A0A2X5EL33 Multidrug efflux pump accessory protein Acr...  51.3    1e-07
+  UniRef90_A0A095VFL0 Multidrug efflux pump accessory protein Acr...  50.2    2e-07
+  UniRef90_A0A0N0Z7S9 Multidrug efflux pump accessory protein Acr...  50.2    3e-07
+  UniRef90_G5RCT6 Uncharacterized protein (Fragment) n=1 Tax=Salm...  49.8    3e-07
+  UniRef90_A0A2X4UL84 Multidrug efflux pump accessory protein Acr...  49.8    3e-07
+  UniRef90_A0A1Y2SQY9 Multidrug efflux pump accessory protein Acr...  49.8    3e-07
+  UniRef90_A0A263W538 Multidrug efflux pump accessory protein Acr...  49.8    3e-07
+  UniRef90_B6XIS4 Multidrug efflux pump accessory protein AcrZ n=...  50.5    3e-07
+  UniRef90_A0A240C059 Multidrug efflux pump accessory protein Acr...  49.4    4e-07
+  UniRef90_A0A1N6N020 Multidrug efflux pump accessory protein Acr...  49.4    4e-07
+  UniRef90_A0A2G0QAR1 Multidrug efflux pump accessory protein Acr...  49.0    6e-07
+  UniRef90_A0A0F7HE63 Multidrug efflux pump accessory protein Acr...  48.6    9e-07
+  UniRef90_A0A0T9PUC3 Multidrug efflux pump accessory protein Acr...  48.2    1e-06
+  UniRef90_A0A2K9YV97 Multidrug efflux pump accessory protein Acr...  47.5    2e-06
+  UniRef90_W0LGZ0 Multidrug efflux pump accessory protein AcrZ n=...  46.3    7e-06
+  UniRef90_A0A377TNM8 Membrane protein n=1 Tax=Klebsiella pneumon...  45.9    8e-06
+  UniRef90_A0A068Z4W2 Multidrug efflux pump accessory protein Acr...  46.3    8e-06
+  UniRef90_A0A0E1ND13 Multidrug efflux pump accessory protein Acr...  45.5    2e-05
+  UniRef90_UPI0004A4D8FD multidrug efflux pump-associated protein...  45.5    2e-05
+  UniRef90_A0A1S8CML3 Multidrug efflux pump accessory protein Acr...  45.1    2e-05
+  UniRef90_A0A0T9TFS3 Multidrug efflux pump accessory protein Acr...  44.8    3e-05
+  UniRef90_A0A087KV73 Multidrug efflux pump accessory protein Acr...  44.4    5e-05
+  UniRef90_C4K5R8 Multidrug efflux pump accessory protein AcrZ n=...  44.4    5e-05
+  UniRef90_A0A0T9NLB3 Multidrug efflux pump accessory protein Acr...  44.0    6e-05
+  UniRef90_A0A083ZWL8 Multidrug efflux pump accessory protein Acr...  44.0    6e-05
+  UniRef90_A0A094QKL0 Multidrug efflux pump accessory protein Acr...  44.0    8e-05
+  UniRef90_A0A2D0J5U1 Multidrug efflux pump accessory protein Acr...  42.8    2e-04
+  UniRef90_A0A140EZV5 Multidrug efflux pump accessory protein Acr...  42.5    2e-04
+  UniRef90_A0A1S6LRG1 Multidrug efflux pump accessory protein Acr...  39.4    0.003
+  UniRef90_UPI0004B0F485 multidrug efflux pump-associated protein...  38.2    0.011
+  UniRef90_A0A376ZRW2 Outer membrane or exported n=1 Tax=Escheric...  36.7    0.056
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A085HKL5 Uncharacterized protein n=1 Tax=Leminorella...  42.1    4e-04
+  UniRef90_A0A0U1HTP4 Multidrug efflux pump accessory protein Acr...  40.9    0.001
+  UniRef90_A0A2D0JPB3 Multidrug efflux pump accessory protein Acr...  38.6    0.009
+  UniRef90_G5LL76 Putative outer membrane or exported n=4 Tax=Sal...  37.4    0.032
+  UniRef90_A0A0M1V6H8 Uncharacterized protein n=1 Tax=Yersinia pe...  35.1    0.18 
+  UniRef90_A0A2W0ARQ0 Uncharacterized protein n=2 Tax=Acidobacter...  32.4    8.7  
+  UniRef90_A0A3A0CBG9 Uncharacterized protein n=1 Tax=Planctomyce...  32.4    9.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.162    0.510    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0495    0.140     1.90     42.6     43.6 
+
+Effective search space used: 760128072741
+Results from round 3
+
+
+Query= NP_415283.1
+
+Length=49
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A7MIY3 Multidrug efflux pump accessory protein AcrZ n=...  74.4    1e-16
+  UniRef90_D2TPG6 Multidrug efflux pump accessory protein AcrZ n=...  74.4    1e-16
+  UniRef90_B7LJZ7 Multidrug efflux pump accessory protein AcrZ n=...  73.6    2e-16
+  UniRef90_C0PWW8 Multidrug efflux pump accessory protein AcrZ n=...  72.1    9e-16
+  UniRef90_W0BR74 Multidrug efflux pump accessory protein AcrZ n=...  72.1    1e-15
+  UniRef90_W0HZX5 Multidrug efflux pump accessory protein AcrZ n=...  72.5    2e-15
+  UniRef90_A0A0L7TCG2 Multidrug efflux pump accessory protein Acr...  69.0    9e-15
+  UniRef90_A0A376E7J9 Multidrug efflux pump accessory protein Acr...  67.9    2e-14
+  UniRef90_A0A1I6D8Y2 Multidrug efflux pump accessory protein Acr...  67.1    4e-14
+  UniRef90_A0A085GQH6 Multidrug efflux pump accessory protein Acr...  67.5    5e-14
+  UniRef90_V5B353 Multidrug efflux pump accessory protein AcrZ n=...  66.7    6e-14
+  UniRef90_A0A1B7IN66 Multidrug efflux pump accessory protein Acr...  66.7    6e-14
+  UniRef90_A0A370YNG4 Multidrug efflux pump accessory protein Acr...  66.3    8e-14
+  UniRef90_A0A1N6SW98 Multidrug efflux pump accessory protein Acr...  66.3    9e-14
+  UniRef90_UPI000948A347 multidrug efflux pump-associated protein...  66.3    9e-14
+  UniRef90_A0A1W6B0V3 Multidrug efflux pump accessory protein Acr...  66.3    1e-13
+  UniRef90_W9BNQ7 Multidrug efflux pump accessory protein AcrZ n=...  65.9    1e-13
+  UniRef90_D2BVE9 Multidrug efflux pump accessory protein AcrZ n=...  66.3    1e-13
+  UniRef90_A0A2X2PXR8 Multidrug efflux pump accessory protein Acr...  65.9    1e-13
+  UniRef90_A0A370ZA99 Multidrug efflux pump accessory protein Acr...  65.9    1e-13
+  UniRef90_A0A084ZX94 Multidrug efflux pump accessory protein Acr...  65.9    2e-13
+  UniRef90_A0A0J8VJS8 Multidrug efflux pump accessory protein Acr...  65.6    2e-13
+  UniRef90_A0A0D1N3H5 Multidrug efflux pump accessory protein Acr...  65.6    2e-13
+  UniRef90_G9YCN2 Multidrug efflux pump accessory protein AcrZ n=...  65.6    2e-13
+  UniRef90_L0M573 Multidrug efflux pump accessory protein AcrZ n=...  65.6    2e-13
+  UniRef90_A0A089PTH3 Multidrug efflux pump accessory protein Acr...  65.2    2e-13
+  UniRef90_A0A1C0PEP7 Multidrug efflux pump accessory protein Acr...  65.2    2e-13
+  UniRef90_A0A034TB24 Multidrug efflux pump accessory protein Acr...  65.9    3e-13
+  UniRef90_B2VBU8 Multidrug efflux pump accessory protein AcrZ n=...  65.2    3e-13
+  UniRef90_A0A357VXJ2 Multidrug efflux pump accessory protein Acr...  65.2    3e-13
+  UniRef90_A0A2N5EMD9 Multidrug efflux pump accessory protein Acr...  64.8    4e-13
+  UniRef90_A0A090V6I4 Multidrug efflux pump accessory protein Acr...  64.4    5e-13
+  UniRef90_A0A1V0LGX1 Multidrug efflux pump accessory protein Acr...  64.4    5e-13
+  UniRef90_P0AAX1 Multidrug efflux pump accessory protein AcrZ n=...  64.4    5e-13
+  UniRef90_A0A0F0XKU4 Multidrug efflux pump accessory protein Acr...  64.4    6e-13
+  UniRef90_A0A2I0FSS6 Multidrug efflux pump accessory protein Acr...  64.4    6e-13
+  UniRef90_A0A127L244 Multidrug efflux pump accessory protein Acr...  64.4    6e-13
+  UniRef90_A0A0J9B904 Multidrug efflux pump accessory protein Acr...  64.4    6e-13
+  UniRef90_UPI0002FF4CBD multidrug efflux pump-associated protein...  64.4    6e-13
+  UniRef90_UPI000FE3DF21 multidrug efflux pump-associated protein...  64.0    7e-13
+  UniRef90_E3G3Q8 Multidrug efflux pump accessory protein AcrZ n=...  64.0    7e-13
+  UniRef90_A0A223UED4 Multidrug efflux pump accessory protein Acr...  64.0    8e-13
+  UniRef90_A0A345CD35 Multidrug efflux pump accessory protein Acr...  64.0    8e-13
+  UniRef90_A0A0F3LVX9 Multidrug efflux pump accessory protein Acr...  63.6    1e-12
+  UniRef90_A0A2N5DV49 Multidrug efflux pump accessory protein Acr...  63.6    1e-12
+  UniRef90_A0A370WHG2 Multidrug efflux pump accessory protein Acr...  63.2    1e-12
+  UniRef90_A0A2P8VPP0 Multidrug efflux pump accessory protein Acr...  63.2    1e-12
+  UniRef90_A0A1I4UF62 Multidrug efflux pump accessory protein Acr...  63.2    1e-12
+  UniRef90_E3DKW3 Multidrug efflux pump accessory protein AcrZ n=...  63.2    2e-12
+  UniRef90_C6CPQ2 Multidrug efflux pump accessory protein AcrZ n=...  62.5    3e-12
+  UniRef90_UPI00092EC6F8 multidrug efflux pump-associated protein...  62.5    3e-12
+  UniRef90_A0A1S8YJ77 Multidrug efflux pump accessory protein Acr...  62.5    3e-12
+  UniRef90_A0A366IDJ2 Multidrug efflux pump accessory protein Acr...  62.5    3e-12
+  UniRef90_A0A1X1C1T8 Multidrug efflux pump accessory protein Acr...  63.2    3e-12
+  UniRef90_A0A085GLG8 Multidrug efflux pump accessory protein Acr...  63.2    4e-12
+  UniRef90_A0A2U1TWA3 Multidrug efflux pump accessory protein Acr...  62.1    4e-12
+  UniRef90_A0A1H3VV92 Multidrug efflux pump accessory protein Acr...  62.1    5e-12
+  UniRef90_D4HZF3 Multidrug efflux pump accessory protein AcrZ n=...  62.1    6e-12
+  UniRef90_A0A3N1W872 Multidrug efflux pump-associated protein Ac...  61.7    6e-12
+  UniRef90_UPI000DEF9865 multidrug efflux pump-associated protein...  61.7    6e-12
+  UniRef90_UPI000D6F97C4 multidrug efflux pump-associated protein...  61.7    6e-12
+  UniRef90_G7LNM9 Multidrug efflux pump accessory protein AcrZ n=...  61.7    7e-12
+  UniRef90_A0A014LV92 Multidrug efflux pump accessory protein Acr...  61.7    7e-12
+  UniRef90_H2IWG9 Multidrug efflux pump accessory protein AcrZ n=...  60.9    1e-11
+  UniRef90_A0A2Y9TVH9 Multidrug efflux pump accessory protein Acr...  60.9    1e-11
+  UniRef90_A0A2C6DJ09 Multidrug efflux pump accessory protein Acr...  60.9    1e-11
+  UniRef90_UPI000E1BA05A multidrug efflux pump-associated protein...  60.9    2e-11
+  UniRef90_A0A389MH00 Multidrug efflux pump accessory protein Acr...  60.5    2e-11
+  UniRef90_A0A1B1KMU7 Multidrug efflux pump accessory protein Acr...  60.5    2e-11
+  UniRef90_A0A1X0W2U5 Multidrug efflux pump accessory protein Acr...  60.5    2e-11
+  UniRef90_UPI000382EFA6 multidrug efflux pump-associated protein...  60.5    2e-11
+  UniRef90_A0A0A3ZVA3 Multidrug efflux pump accessory protein Acr...  60.5    2e-11
+  UniRef90_A0A0H3I8D8 Multidrug efflux pump accessory protein Acr...  60.9    2e-11
+  UniRef90_I2BB18 Multidrug efflux pump accessory protein AcrZ n=...  60.2    2e-11
+  UniRef90_UPI0005D3AA13 multidrug efflux pump-associated protein...  60.2    3e-11
+  UniRef90_A0A2K9QKI1 Multidrug efflux pump accessory protein Acr...  59.8    3e-11
+  UniRef90_A0A1X0WL58 Multidrug efflux pump accessory protein Acr...  59.8    4e-11
+  UniRef90_D4GMN8 Multidrug efflux pump accessory protein AcrZ n=...  59.8    4e-11
+  UniRef90_A0A370QHH8 Multidrug efflux pump accessory protein Acr...  59.8    4e-11
+  UniRef90_A0A084YSM0 Multidrug efflux pump accessory protein Acr...  59.4    4e-11
+  UniRef90_UPI00092ED963 multidrug efflux pump-associated protein...  59.8    4e-11
+  UniRef90_E0SFR6 Multidrug efflux pump accessory protein AcrZ n=...  59.4    4e-11
+  UniRef90_UPI000F68BDEB multidrug efflux pump-associated protein...  59.4    5e-11
+  UniRef90_A0A2L1UR15 Multidrug efflux pump accessory protein Acr...  59.4    5e-11
+  UniRef90_UPI00030E174E multidrug efflux pump-associated protein...  59.4    6e-11
+  UniRef90_A0A0U5GJP8 Multidrug efflux pump accessory protein Acr...  59.0    6e-11
+  UniRef90_A0A376DB21 Multidrug efflux pump accessory protein Acr...  59.0    7e-11
+  UniRef90_A0A0N1IZ93 Multidrug efflux pump accessory protein Acr...  59.0    8e-11
+  UniRef90_D8MPV2 Multidrug efflux pump accessory protein AcrZ n=...  59.0    9e-11
+  UniRef90_A0A2U1TQ87 Multidrug efflux pump accessory protein Acr...  58.6    1e-10
+  UniRef90_A0A085JC89 Multidrug efflux pump accessory protein Acr...  59.0    1e-10
+  UniRef90_T0P8Q5 Multidrug efflux pump accessory protein AcrZ n=...  58.6    1e-10
+  UniRef90_A0A1V9DQH2 Multidrug efflux pump accessory protein Acr...  58.2    2e-10
+  UniRef90_A0A2R4JCC9 Multidrug efflux pump accessory protein Acr...  58.2    2e-10
+  UniRef90_A0A0G3CXB6 Multidrug efflux pump accessory protein Acr...  57.8    2e-10
+  UniRef90_I0QMN2 Multidrug efflux pump accessory protein AcrZ n=...  57.8    2e-10
+  UniRef90_A0A0G4JP23 Multidrug efflux pump accessory protein Acr...  57.5    2e-10
+  UniRef90_A0A2X4URS9 Uncharacterized membrane protein ybhT n=1 T...  57.5    3e-10
+  UniRef90_C6CCT9 Multidrug efflux pump accessory protein AcrZ n=...  57.5    3e-10
+  UniRef90_A0A2G8E4D0 Multidrug efflux pump accessory protein Acr...  57.5    3e-10
+  UniRef90_A0A379AIZ6 Multidrug efflux pump accessory protein Acr...  57.5    3e-10
+  UniRef90_UPI000EF2869D multidrug efflux pump-associated protein...  57.1    4e-10
+  UniRef90_V6MLK3 Multidrug efflux pump accessory protein AcrZ n=...  57.1    6e-10
+  UniRef90_A0A2I5TMQ1 Multidrug efflux pump accessory protein Acr...  56.7    7e-10
+  UniRef90_U3TPC6 Uncharacterized protein n=1 Tax=Plautia stali s...  56.3    8e-10
+  UniRef90_D3UZU1 Multidrug efflux pump accessory protein AcrZ n=...  56.3    9e-10
+  UniRef90_A0A071LT29 Multidrug efflux pump accessory protein Acr...  55.9    1e-09
+  UniRef90_A0A2T4I2P9 Multidrug efflux pump accessory protein Acr...  55.9    1e-09
+  UniRef90_A0A068QPT6 Multidrug efflux pump accessory protein Acr...  55.5    2e-09
+  UniRef90_D1NXM3 Multidrug efflux pump accessory protein AcrZ n=...  56.3    2e-09
+  UniRef90_A0A2X1TQJ3 Multidrug efflux pump accessory protein Acr...  55.1    2e-09
+  UniRef90_D4E678 Multidrug efflux pump accessory protein AcrZ n=...  56.7    2e-09
+  UniRef90_A0A379DQ16 Multidrug efflux pump accessory protein Acr...  55.1    3e-09
+  UniRef90_A0A1C0U1J2 Multidrug efflux pump accessory protein Acr...  54.4    5e-09
+  UniRef90_A0A198FH64 Multidrug efflux pump accessory protein Acr...  54.4    5e-09
+  UniRef90_W3V2I5 Multidrug efflux pump accessory protein AcrZ n=...  54.0    6e-09
+  UniRef90_D3VAQ7 Multidrug efflux pump accessory protein AcrZ n=...  54.0    9e-09
+  UniRef90_A0A1Z1SYM9 Multidrug efflux pump accessory protein Acr...  53.6    9e-09
+  UniRef90_A0A0M0T922 Multidrug efflux pump accessory protein Acr...  53.6    1e-08
+  UniRef90_A0A250AY19 Multidrug efflux pump accessory protein Acr...  54.8    1e-08
+  UniRef90_A0A1I3ICJ2 Multidrug efflux pump accessory protein Acr...  53.6    1e-08
+  UniRef90_W1IX96 Multidrug efflux pump accessory protein AcrZ n=...  52.8    2e-08
+  UniRef90_A8AJ32 Multidrug efflux pump accessory protein AcrZ n=...  54.0    2e-08
+  UniRef90_V5U1A7 Uncharacterized protein n=1 Tax=Cronobacter mal...  52.8    2e-08
+  UniRef90_W1ITI3 Multidrug efflux pump accessory protein AcrZ n=...  52.8    2e-08
+  UniRef90_UPI00092E2F2E multidrug efflux pump-associated protein...  52.8    2e-08
+  UniRef90_A0A376YD31 Multidrug efflux pump accessory protein Acr...  52.5    3e-08
+  UniRef90_A0A181XM80 Multidrug efflux pump accessory protein Acr...  52.8    3e-08
+  UniRef90_A0A089PVZ1 Multidrug efflux pump accessory protein Acr...  52.1    4e-08
+  UniRef90_A0A2D0K090 Multidrug efflux pump accessory protein Acr...  52.1    4e-08
+  UniRef90_B2Q392 Multidrug efflux pump accessory protein AcrZ n=...  52.5    4e-08
+  UniRef90_G5Q011 Uncharacterized protein (Fragment) n=1 Tax=Salm...  51.7    5e-08
+  UniRef90_A0A1B7JJS5 Multidrug efflux pump accessory protein Acr...  51.7    5e-08
+  UniRef90_A0A2D0IY22 Multidrug efflux pump accessory protein Acr...  51.7    5e-08
+  UniRef90_A0A318FIK3 Multidrug efflux pump accessory protein Acr...  51.7    7e-08
+  UniRef90_A0A1J0E4E9 Multidrug efflux pump accessory protein Acr...  51.3    7e-08
+  UniRef90_A0A3B0J361 Multidrug efflux pump accessory protein Acr...  51.3    7e-08
+  UniRef90_K8WQ53 Multidrug efflux pump accessory protein AcrZ n=...  51.3    8e-08
+  UniRef90_A0A2X1NFY5 Outer membrane or exported n=1 Tax=Escheric...  50.9    8e-08
+  UniRef90_R9VU11 Multidrug efflux pump accessory protein AcrZ n=...  51.3    9e-08
+  UniRef90_A0A068R3Y0 Multidrug efflux pump accessory protein Acr...  50.9    1e-07
+  UniRef90_G5MFN0 Putative outer membrane or exported (Fragment) ...  50.5    1e-07
+  UniRef90_A0A0J9BKZ7 Multidrug efflux pump accessory protein Acr...  50.5    1e-07
+  UniRef90_A0A1C0BYH6 Multidrug efflux pump accessory protein Acr...  50.5    2e-07
+  UniRef90_A0A0H3FQE5 Multidrug efflux pump accessory protein Acr...  50.9    2e-07
+  UniRef90_A0A1I7HW05 Multidrug efflux pump accessory protein Acr...  50.5    2e-07
+  UniRef90_A0A3N1IUN5 Multidrug efflux pump-associated protein Ac...  50.5    2e-07
+  UniRef90_A0A1I4ZFB7 Multidrug efflux pump accessory protein Acr...  50.1    2e-07
+  UniRef90_A0A0N0Z7S9 Multidrug efflux pump accessory protein Acr...  50.1    2e-07
+  UniRef90_A0A1W9F0A3 Membrane protein (Fragment) n=1 Tax=Serrati...  49.4    5e-07
+  UniRef90_B6XIS4 Multidrug efflux pump accessory protein AcrZ n=...  50.1    5e-07
+  UniRef90_A0A1Y2SQY9 Multidrug efflux pump accessory protein Acr...  49.4    5e-07
+  UniRef90_A0A2X4UL84 Multidrug efflux pump accessory protein Acr...  49.0    6e-07
+  UniRef90_A0A2X5EL33 Multidrug efflux pump accessory protein Acr...  49.4    7e-07
+  UniRef90_A0A095VFL0 Multidrug efflux pump accessory protein Acr...  49.0    7e-07
+  UniRef90_A0A0F7HE63 Multidrug efflux pump accessory protein Acr...  48.6    8e-07
+  UniRef90_A0A0L0AM65 Multidrug efflux pump accessory protein Acr...  48.6    8e-07
+  UniRef90_A0A1N6N020 Multidrug efflux pump accessory protein Acr...  48.6    8e-07
+  UniRef90_A0A2G0QAR1 Multidrug efflux pump accessory protein Acr...  48.2    1e-06
+  UniRef90_A0A0T9PUC3 Multidrug efflux pump accessory protein Acr...  48.2    1e-06
+  UniRef90_A0A240C059 Multidrug efflux pump accessory protein Acr...  48.2    1e-06
+  UniRef90_A0A263W538 Multidrug efflux pump accessory protein Acr...  47.8    2e-06
+  UniRef90_G5RCT6 Uncharacterized protein (Fragment) n=1 Tax=Salm...  47.4    2e-06
+  UniRef90_W0LGZ0 Multidrug efflux pump accessory protein AcrZ n=...  46.3    6e-06
+  UniRef90_A0A2K9YV97 Multidrug efflux pump accessory protein Acr...  46.3    7e-06
+  UniRef90_A0A068Z4W2 Multidrug efflux pump accessory protein Acr...  45.9    1e-05
+  UniRef90_A0A377TNM8 Membrane protein n=1 Tax=Klebsiella pneumon...  45.1    2e-05
+  UniRef90_A0A1S8CML3 Multidrug efflux pump accessory protein Acr...  45.1    2e-05
+  UniRef90_A0A094QKL0 Multidrug efflux pump accessory protein Acr...  45.1    2e-05
+  UniRef90_A0A0E1ND13 Multidrug efflux pump accessory protein Acr...  44.7    3e-05
+  UniRef90_A0A087KV73 Multidrug efflux pump accessory protein Acr...  44.4    4e-05
+  UniRef90_UPI0004A4D8FD multidrug efflux pump-associated protein...  44.4    4e-05
+  UniRef90_A0A083ZWL8 Multidrug efflux pump accessory protein Acr...  44.0    6e-05
+  UniRef90_A0A0T9TFS3 Multidrug efflux pump accessory protein Acr...  44.0    6e-05
+  UniRef90_C4K5R8 Multidrug efflux pump accessory protein AcrZ n=...  43.2    1e-04
+  UniRef90_A0A140EZV5 Multidrug efflux pump accessory protein Acr...  43.2    1e-04
+  UniRef90_A0A0T9NLB3 Multidrug efflux pump accessory protein Acr...  43.2    1e-04
+  UniRef90_A0A2D0J5U1 Multidrug efflux pump accessory protein Acr...  42.8    2e-04
+  UniRef90_A0A085HKL5 Uncharacterized protein n=1 Tax=Leminorella...  41.7    5e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0U1HTP4 Multidrug efflux pump accessory protein Acr...  40.1    0.002
+  UniRef90_A0A1S6LRG1 Multidrug efflux pump accessory protein Acr...  38.2    0.010
+  UniRef90_A0A2D0JPB3 Multidrug efflux pump accessory protein Acr...  38.2    0.013
+  UniRef90_UPI0004B0F485 multidrug efflux pump-associated protein...  37.0    0.042
+  UniRef90_G5LL76 Putative outer membrane or exported n=4 Tax=Sal...  36.3    0.078
+  UniRef90_A0A376ZRW2 Outer membrane or exported n=1 Tax=Escheric...  35.5    0.15 
+  UniRef90_A0A0M1V6H8 Uncharacterized protein n=1 Tax=Yersinia pe...  34.3    0.33 
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.162    0.506    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0497    0.140     1.90     42.6     43.6 
+
+Effective search space used: 760128072741
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

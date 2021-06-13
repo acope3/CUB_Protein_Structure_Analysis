@@ -1,0 +1,1557 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415442.1
+
+Length=440
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q8XDG2 Chromosome partition protein MukF n=358 Tax=Ent...  894     0.0   
+  UniRef90_A8AIF7 Chromosome partition protein MukF n=899 Tax=cel...  882     0.0   
+  UniRef90_W1BA41 Chromosome partition protein MukF n=17 Tax=Ente...  828     0.0   
+  UniRef90_UPI0004659AC6 chromosome partition protein MukF n=2 Ta...  825     0.0   
+  UniRef90_A0A1B7I8Y1 Chromosome partition protein MukF n=12 Tax=...  822     0.0   
+  UniRef90_A0A071M7C2 Chromosome partition protein MukF n=3 Tax=M...  821     0.0   
+  UniRef90_C9Y083 Chromosome partition protein MukF n=5 Tax=Crono...  819     0.0   
+  UniRef90_UPI00073D77FE chromosome partition protein MukF n=1 Ta...  813     0.0   
+  UniRef90_A0A0A2VZ14 Chromosome partition protein mukF n=1 Tax=B...  810     0.0   
+  UniRef90_UPI00037734B9 chromosome partition protein MukF n=1 Ta...  806     0.0   
+  UniRef90_A0A379D3X7 Chromosome partition protein MukF n=1 Tax=P...  801     0.0   
+  UniRef90_I2BAN0 Chromosome partition protein MukF n=1 Tax=Shimw...  798     0.0   
+  UniRef90_A0A2N5ETN0 Chromosome partition protein MukF n=3 Tax=u...  790     0.0   
+  UniRef90_H2IS76 Chromosome partition protein MukF n=20 Tax=Ente...  790     0.0   
+  UniRef90_G9YBL2 Chromosome partition protein MukF n=9 Tax=Enter...  783     0.0   
+  UniRef90_D4GNI0 Chromosome partition protein MukF n=63 Tax=Ente...  781     0.0   
+  UniRef90_Q8ZGA1 Chromosome partition protein MukF n=121 Tax=Ent...  780     0.0   
+  UniRef90_UPI000948E9E5 chromosome partition protein MukF n=1 Ta...  780     0.0   
+  UniRef90_A0A2C6DSQ6 Chromosome partition protein MukF n=5 Tax=E...  778     0.0   
+  UniRef90_A0A1Y0LI79 Chromosome partition protein MukF n=5 Tax=T...  776     0.0   
+  UniRef90_Q2NU99 Chromosome partition protein MukF n=5 Tax=Sodal...  773     0.0   
+  UniRef90_E9CPP4 Chromosome partition protein MukF n=3 Tax=Serra...  773     0.0   
+  UniRef90_E0SAS3 Chromosome partition protein MukF n=22 Tax=Ente...  773     0.0   
+  UniRef90_V5Z7B1 Chromosome partition protein MukF n=35 Tax=Ente...  771     0.0   
+  UniRef90_A0A2X4UVR6 Chromosome partition protein MukF n=1 Tax=L...  761     0.0   
+  UniRef90_UPI0004B854F9 chromosome partition protein MukF n=1 Ta...  758     0.0   
+  UniRef90_A0A370QMJ6 Chromosome partition protein MukF n=1 Tax=E...  756     0.0   
+  UniRef90_UPI000FDF52D0 UPI000FDF52D0 related cluster n=1 Tax=un...  755     0.0   
+  UniRef90_C5BAC9 Chromosome partition protein MukF n=11 Tax=Edwa...  750     0.0   
+  UniRef90_A0A2G8EI63 Chromosome partition protein MukF n=3 Tax=E...  750     0.0   
+  UniRef90_Q6D445 Chromosome partition protein MukF n=41 Tax=Pect...  750     0.0   
+  UniRef90_A0A377WIC0 Chromosome partition protein MukF n=3 Tax=E...  749     0.0   
+  UniRef90_A0A2I5T975 Chromosome partition protein MukF n=1 Tax=S...  749     0.0   
+  UniRef90_A0A1H4BGJ2 Chromosome partition protein MukF n=7 Tax=L...  748     0.0   
+  UniRef90_A0A0J5FWE8 Chromosome partition protein MukF n=32 Tax=...  748     0.0   
+  UniRef90_A0A2C5SIK4 Chromosome partition protein MukF n=22 Tax=...  738     0.0   
+  UniRef90_Q7N6B9 Chromosome partition protein MukF n=33 Tax=Morg...  737     0.0   
+  UniRef90_A0A1D3DHN6 Chromosome partition protein MukF n=26 Tax=...  728     0.0   
+  UniRef90_A0A2A2GXH7 Chromosome partition protein MukF n=5 Tax=A...  724     0.0   
+  UniRef90_UPI000490DCEA chromosome partition protein MukF n=1 Ta...  718     0.0   
+  UniRef90_A0A0N1KHQ2 Chromosome partition protein MukF n=2 Tax=M...  715     0.0   
+  UniRef90_A0A2P1VN71 Chromosome partition protein MukF n=5 Tax=P...  704     0.0   
+  UniRef90_B6XBY9 Chromosome partition protein MukF n=30 Tax=Bact...  702     0.0   
+  UniRef90_UPI00098AA7DE chromosome partition protein MukF n=7 Ta...  697     0.0   
+  UniRef90_A0A2U8I6J4 Chromosome partition protein MukF n=1 Tax=C...  684     0.0   
+  UniRef90_A0A1B9JIM0 Chromosome partition protein MukF n=38 Tax=...  674     0.0   
+  UniRef90_A0A1H9ZA98 Chromosome partition protein MukF n=1 Tax=T...  673     0.0   
+  UniRef90_UPI000EABB645 chromosome partition protein MukF n=1 Ta...  671     0.0   
+  UniRef90_A0A0J8YV72 Chromosome partition protein MukF n=3 Tax=E...  662     0.0   
+  UniRef90_A0A379TCV9 Killing factor KicB n=6 Tax=Enterobacteriac...  654     0.0   
+  UniRef90_A0A0A7S3S5 Chromosome partition protein MukF n=2 Tax=F...  640     0.0   
+  UniRef90_UPI000466E11A chromosome partition protein MukF n=1 Ta...  636     0.0   
+  UniRef90_A0A0M9F8V1 Chromosome partition protein MukF n=33 Tax=...  625     0.0   
+  UniRef90_A0A263HBJ1 Chromosome partition protein MukF n=3 Tax=P...  625     0.0   
+  UniRef90_Q9CN38 Chromosome partition protein MukF n=25 Tax=Past...  624     0.0   
+  UniRef90_Q65TL7 Chromosome partition protein MukF n=3 Tax=Basfi...  623     0.0   
+  UniRef90_A0A2M8RYX6 Chromosome partition protein MukF n=4 Tax=P...  622     0.0   
+  UniRef90_A0A2M8S5J4 Chromosome partition protein MukF n=1 Tax=C...  622     0.0   
+  UniRef90_A0A0K1N3K2 Chromosome partition protein MukF n=34 Tax=...  622     0.0   
+  UniRef90_A0A2T3J208 Chromosome partition protein MukF n=5 Tax=P...  619     0.0   
+  UniRef90_A0A0F5ERB5 Chromosome partition protein MukF n=10 Tax=...  617     0.0   
+  UniRef90_A0A0F5VFW2 Chromosome partition protein MukF n=4 Tax=P...  615     0.0   
+  UniRef90_A0A369Y3T8 Chromosome partition protein MukF n=1 Tax=A...  615     0.0   
+  UniRef90_A6VP67 Chromosome partition protein MukF n=3 Tax=Paste...  613     0.0   
+  UniRef90_A0A1V3K8F3 Chromosome partition protein MukF n=1 Tax=R...  612     0.0   
+  UniRef90_A0A356E8P4 Chromosome partition protein MukF n=1 Tax=P...  612     0.0   
+  UniRef90_Q6LPL3 Chromosome partition protein MukF n=4 Tax=Photo...  611     0.0   
+  UniRef90_L8JFC6 Chromosome partition protein MukF n=2 Tax=Photo...  608     0.0   
+  UniRef90_P45185 Chromosome partition protein MukF n=172 Tax=Bac...  608     0.0   
+  UniRef90_L7NK64 Chromosome partition protein MukF n=8 Tax=Photo...  605     0.0   
+  UniRef90_A0A1T0ASA5 Chromosome partition protein MukF n=1 Tax=H...  605     0.0   
+  UniRef90_UPI0002E9E37A chromosome partition protein MukF n=1 Ta...  602     0.0   
+  UniRef90_C4K784 Chromosome partition protein MukF n=5 Tax=Candi...  600     0.0   
+  UniRef90_I3DI29 Chromosome partition protein MukF n=1 Tax=Paste...  600     0.0   
+  UniRef90_B0UU62 Chromosome partition protein MukF n=7 Tax=Bacte...  599     0.0   
+  UniRef90_A0A376P3L5 Chromosome partition protein n=3 Tax=Entero...  599     0.0   
+  UniRef90_A0A178KLM2 Chromosome partition protein MukF n=4 Tax=P...  597     0.0   
+  UniRef90_UPI0006CFBACD chromosome partition protein MukF n=1 Ta...  595     0.0   
+  UniRef90_UPI000F71860C chromosome partition protein MukF n=1 Ta...  595     0.0   
+  UniRef90_A0A0A3AVY2 Chromosome partition protein MukF n=2 Tax=P...  594     0.0   
+  UniRef90_J5HJL6 Chromosome partition protein MukF n=3 Tax=Haemo...  593     0.0   
+  UniRef90_UPI000B35C1F9 chromosome partition protein MukF n=1 Ta...  592     0.0   
+  UniRef90_C5S3C1 Chromosome partition protein MukF n=3 Tax=Actin...  591     0.0   
+  UniRef90_A0A1C3EDX2 Chromosome partition protein MukF n=1 Tax=E...  590     0.0   
+  UniRef90_UPI000B34D412 chromosome partition protein MukF n=1 Ta...  589     0.0   
+  UniRef90_A0A128F5U8 Chromosome partition protein MukF n=14 Tax=...  589     0.0   
+  UniRef90_B0BUD7 Chromosome partition protein MukF n=26 Tax=Past...  588     0.0   
+  UniRef90_A0A1H7Y8A5 Chromosome partition protein MukF n=1 Tax=P...  587     0.0   
+  UniRef90_A0A1V3TM71 Chromosome partition protein MukF n=1 Tax=P...  586     0.0   
+  UniRef90_B8F3P6 Chromosome partition protein MukF n=19 Tax=Glae...  586     0.0   
+  UniRef90_M4R7Y8 Chromosome partition protein MukF n=5 Tax=Biber...  585     0.0   
+  UniRef90_I3DP24 Chromosome partition protein MukF n=8 Tax=Haemo...  584     0.0   
+  UniRef90_A3MZU5 Chromosome partition protein MukF n=2 Tax=Actin...  582     0.0   
+  UniRef90_F4H9L3 Chromosome partition protein MukF n=22 Tax=Gall...  581     0.0   
+  UniRef90_U4JZ01 Chromosome partition protein MukF n=5 Tax=Vibri...  580     0.0   
+  UniRef90_A0A087IQ79 Chromosome partition protein MukF n=17 Tax=...  580     0.0   
+  UniRef90_A0A1G7Z9Q4 Chromosome partition protein MukF n=1 Tax=V...  578     0.0   
+  UniRef90_A0A0J5P9D2 Chromosome partition protein MukF n=1 Tax=M...  578     0.0   
+  UniRef90_Q7VL94 Chromosome partition protein MukF n=4 Tax=Haemo...  575     0.0   
+  UniRef90_A0A090RDV2 Chromosome partition protein MukF n=1 Tax=V...  573     0.0   
+  UniRef90_A0A379CA48 Chromosome partition protein MukF n=2 Tax=P...  572     0.0   
+  UniRef90_B6ERZ9 Chromosome partition protein MukF n=14 Tax=Vibr...  571     0.0   
+  UniRef90_A0A3N4WTY9 Condensin subunit MukF n=1 Tax=Frederikseni...  570     0.0   
+  UniRef90_A0A3N4W0Q5 Condensin subunit MukF n=1 Tax=Vespertiliib...  567     0.0   
+  UniRef90_A6D7K3 Chromosome partition protein MukF n=11 Tax=Vibr...  567     0.0   
+  UniRef90_A0A1N6M662 Chromosome partition protein MukF n=13 Tax=...  565     0.0   
+  UniRef90_B7VMH0 Chromosome partition protein MukF n=78 Tax=Vibr...  565     0.0   
+  UniRef90_UPI000EB11D82 chromosome partition protein MukF n=1 Ta...  564     0.0   
+  UniRef90_A0A2M8H3A7 Chromosome partition protein MukF n=1 Tax=V...  564     0.0   
+  UniRef90_UPI000929A41D chromosome partition protein MukF n=1 Ta...  564     0.0   
+  UniRef90_UPI00063C77A1 chromosome partition protein MukF n=1 Ta...  563     0.0   
+  UniRef90_Q9KRC6 Chromosome partition protein MukF n=84 Tax=Vibr...  563     0.0   
+  UniRef90_A0A1V3I2E4 Chromosome partition protein MukF n=7 Tax=V...  561     0.0   
+  UniRef90_A0A2N8ZCH6 Chromosome partition protein MukF n=1 Tax=V...  561     0.0   
+  UniRef90_A0A2U3BDN5 Chromosome partition protein MukF n=1 Tax=V...  560     0.0   
+  UniRef90_U3BHA5 Chromosome partition protein MukF n=1 Tax=Vibri...  560     0.0   
+  UniRef90_A0A1M5XW56 Chromosome partition protein MukF n=4 Tax=V...  558     0.0   
+  UniRef90_A0A2J8HVR3 Chromosome partition protein MukF n=2 Tax=V...  558     0.0   
+  UniRef90_A7N1J9 Chromosome partition protein MukF n=87 Tax=Vibr...  558     0.0   
+  UniRef90_UPI000E0C8D5F chromosome partition protein MukF n=2 Ta...  556     0.0   
+  UniRef90_A0A0F5AU19 Chromosome partition protein MukF n=17 Tax=...  556     0.0   
+  UniRef90_A0A3N9TCM8 Chromosome partition protein MukF n=1 Tax=V...  556     0.0   
+  UniRef90_UPI0009710ABD chromosome partition protein MukF n=1 Ta...  555     0.0   
+  UniRef90_C9P492 Chromosome partition protein MukF n=4 Tax=Vibri...  555     0.0   
+  UniRef90_UPI0008380EFA chromosome partition protein MukF n=1 Ta...  553     0.0   
+  UniRef90_Q87QW4 Chromosome partition protein MukF n=124 Tax=Vib...  553     0.0   
+  UniRef90_F0LSH6 Chromosome partition protein MukF n=10 Tax=Vibr...  548     0.0   
+  UniRef90_A0A1R4B2Z0 Chromosome partition protein MukF n=2 Tax=V...  548     0.0   
+  UniRef90_E3BF67 Chromosome partition protein MukF n=1 Tax=Vibri...  548     0.0   
+  UniRef90_A0A3D1Z9S1 Chromosome partition protein MukF n=6 Tax=V...  545     0.0   
+  UniRef90_A0A1R4IC93 Chromosome partition protein MukF n=3 Tax=B...  543     0.0   
+  UniRef90_A0A1E5BHP4 Chromosome partition protein MukF n=6 Tax=V...  536     0.0   
+  UniRef90_A0A1X1MQE4 Chromosome partition protein MukF n=1 Tax=V...  527     0.0   
+  UniRef90_A0A1E5E1Y4 Chromosome partition protein MukF n=1 Tax=V...  525     0.0   
+  UniRef90_A0A376ZR91 Chromosome partition protein n=10 Tax=Enter...  508     4e-179
+  UniRef90_A0A377LJE1 Chromosome partition protein n=1 Tax=Escher...  494     2e-172
+  UniRef90_A0A0B8QEF8 Chromosome partition protein MukF n=4 Tax=V...  494     1e-170
+  UniRef90_A0A379AJ37 Condesin subunit F n=1 Tax=Enterobacter agg...  484     1e-169
+  UniRef90_U3B0J3 Chromosome partition protein MukF n=12 Tax=Vibr...  480     6e-165
+  UniRef90_V5FJZ7 Chromosome partition protein MukF n=1 Tax=Vibri...  479     8e-165
+  UniRef90_UPI000E770E39 chromosome partition protein MukF n=1 Ta...  475     4e-163
+  UniRef90_A0A379WXF2 Killing factor KicB n=1 Tax=Salmonella ente...  464     3e-161
+  UniRef90_A0A379U109 Killing factor KicB n=5 Tax=Enterobacteriac...  461     1e-160
+  UniRef90_A0A1A6KLE5 Chromosome partition protein MukF n=1 Tax=V...  464     1e-158
+  UniRef90_A0A379BAL1 Chromosome partition protein MukF n=1 Tax=P...  452     6e-156
+  UniRef90_F9GU66 Condesin subunit F n=3 Tax=Haemophilus TaxID=72...  450     3e-155
+  UniRef90_C4LEQ9 Chromosome partition protein MukF n=2 Tax=Tolum...  441     7e-150
+  UniRef90_A0A0S2SG43 Chromosome partition protein MukF n=1 Tax=A...  434     7e-147
+  UniRef90_N9TXV0 Chromosome partition protein MukF n=4 Tax=Aerom...  433     2e-146
+  UniRef90_H2FW86 Chromosome partition protein MukF n=7 Tax=Aerom...  432     4e-146
+  UniRef90_A0A2X4NMU7 Chromosome partition protein MukF n=106 Tax...  431     5e-146
+  UniRef90_A0A0H6F2P1 Condesin subunit F n=2 Tax=Vibrio cholerae ...  424     8e-145
+  UniRef90_A0A2P5TIF1 Chromosome partition protein MukF n=3 Tax=A...  422     2e-142
+  UniRef90_A0A291HPK1 Chromosome partition protein MukF n=3 Tax=Z...  421     1e-141
+  UniRef90_UPI00067FE93B chromosome partition protein MukF n=1 Ta...  410     2e-139
+  UniRef90_A0A090S0F7 Chromosome partition protein MukF n=3 Tax=V...  408     7e-139
+  UniRef90_UPI0009B1227E hypothetical protein n=1 Tax=Salmonella ...  402     3e-138
+  UniRef90_A0A3A1YBG5 Chromosome partition protein MukF n=1 Tax=B...  412     1e-137
+  UniRef90_A0A3A1Y3L0 Chromosome partition protein MukF n=1 Tax=B...  403     5e-134
+  UniRef90_A0A3A1YNJ6 Chromosome partition protein MukF n=1 Tax=B...  400     7e-133
+  UniRef90_A0A3A1YBJ3 Chromosome partition protein MukF n=1 Tax=B...  397     1e-131
+  UniRef90_A0A1Y0D1J3 Chromosome partition protein MukF n=1 Tax=O...  388     7e-129
+  UniRef90_A0A1Y0CUZ9 Chromosome partition protein MukF n=1 Tax=O...  384     2e-127
+  UniRef90_A0A379VSY2 Chromosome partition protein mukF n=1 Tax=S...  355     9e-120
+  UniRef90_J4SLR0 Condesin subunit F (Fragment) n=1 Tax=Pasteurel...  343     6e-114
+  UniRef90_A0A0H6KNW3 Condesin subunit F n=2 Tax=Vibrio cholerae ...  339     2e-111
+  UniRef90_Q8GF09 Chromosome partition protein MukF (Fragment) n=...  326     2e-108
+  UniRef90_T1I454 Uncharacterized protein n=1 Tax=Rhodnius prolix...  332     7e-107
+  UniRef90_G7YYF6 3-demethylubiquinone-9 3-methyltransferase (Fra...  322     2e-104
+  UniRef90_A0A0I1ZRU6 Condesin subunit F n=1 Tax=Shigella sonnei ...  314     2e-103
+  UniRef90_A0A378DAP2 Chromosome partition protein MukF n=5 Tax=K...  306     5e-101
+  UniRef90_A0A379GYN8 Condesin subunit F n=1 Tax=Providencia stua...  304     6e-100
+  UniRef90_A0A376ZTH5 Chromosome partition protein n=1 Tax=Escher...  288     6e-94 
+  UniRef90_J4SQT8 Condesin subunit F (Fragment) n=1 Tax=Pasteurel...  288     8e-94 
+  UniRef90_UPI00098C975F kicB killing factor family protein n=2 T...  274     1e-88 
+  UniRef90_A0A0H6UBD8 Condesin subunit F n=1 Tax=Vibrio cholerae ...  273     5e-87 
+  UniRef90_A0A379WW32 Chromosome partition protein mukF n=1 Tax=S...  269     1e-86 
+  UniRef90_A0A376KX30 Chromosome partition protein n=1 Tax=Escher...  266     2e-85 
+  UniRef90_UPI000B4394EF hypothetical protein n=1 Tax=Candidatus ...  268     2e-85 
+  UniRef90_A0A336N6M1 Chromosome partition protein mukF n=1 Tax=A...  253     1e-79 
+  UniRef90_A0A090P8A9 Chromosome partition protein MukF n=1 Tax=V...  251     3e-78 
+  UniRef90_A0A0H6U873 Condesin subunit F n=1 Tax=Vibrio cholerae ...  233     7e-72 
+  UniRef90_A0A0B8P1R4 Chromosome partition protein mukF n=1 Tax=V...  224     6e-68 
+  UniRef90_A0A379WB43 Chromosome partition protein mukF n=2 Tax=S...  214     3e-65 
+  UniRef90_A0A379WB80 Killing factor KicB n=1 Tax=Salmonella ente...  211     1e-64 
+  UniRef90_A0A377AUV9 Chromosome partition protein n=1 Tax=Escher...  197     5e-59 
+  UniRef90_A0A377SGI0 Chromosome partition protein MukF n=2 Tax=K...  182     2e-53 
+  UniRef90_A0A3P4HCB1 Chromosome partition protein MukF n=1 Tax=K...  171     4e-49 
+  UniRef90_A4NYG1 Condesin subunit F n=2 Tax=Haemophilus influenz...  172     9e-49 
+  UniRef90_A0A379BAA5 Chromosome partition protein MukF n=1 Tax=P...  171     2e-48 
+  UniRef90_A0A379S926 Chromosome partition protein mukF n=1 Tax=S...  167     8e-48 
+  UniRef90_A0A090P585 Chromosome partition protein MukF n=1 Tax=V...  166     9e-47 
+  UniRef90_UPI0005CA98DF hypothetical protein n=1 Tax=Escherichia...  150     2e-41 
+  UniRef90_A0A0D8L0T0 Uncharacterized protein (Fragment) n=1 Tax=...  152     6e-41 
+  UniRef90_A0A376KX28 Chromosome partition protein n=1 Tax=Escher...  146     7e-40 
+  UniRef90_A0A379AIB1 Condesin subunit F n=1 Tax=Enterobacter agg...  144     1e-38 
+  UniRef90_A0A1B4V7S6 Condesin subunit F n=1 Tax=Sulfurifustis va...  152     7e-38 
+  UniRef90_A0A081K5S7 Chromosome partition protein MukF n=1 Tax=E...  149     4e-37 
+  UniRef90_D1NED5 Killing factor kicB n=1 Tax=Haemophilus influen...  138     9e-37 
+  UniRef90_UPI000C75F97E hypothetical protein n=1 Tax=Endozoicomo...  148     2e-36 
+  UniRef90_A0A379WCL6 Chromosome partition protein mukF n=1 Tax=S...  135     6e-36 
+  UniRef90_A0A376F4L1 Condesin subunit F n=1 Tax=Enterobacter asb...  134     2e-35 
+  UniRef90_UPI000371FDAD hypothetical protein n=1 Tax=Lamprocysti...  142     2e-34 
+  UniRef90_A0A378BN64 Chromosome partition protein MukF n=1 Tax=K...  130     9e-34 
+  UniRef90_A0A0G9I8S0 Condesin subunit F n=2 Tax=Xanthomonas hyac...  138     4e-33 
+  UniRef90_A0A377AXU5 Chromosome partition protein n=2 Tax=Escher...  126     2e-32 
+  UniRef90_A0A0H6PX77 Condesin subunit F n=1 Tax=Vibrio cholerae ...  128     2e-32 
+  UniRef90_A0A150SGL8 Chromosome partition protein MukF (Fragment...  132     7e-32 
+  UniRef90_UPI000CD1BAEE condensin subunit MukF n=1 Tax=Pseudomon...  134     2e-31 
+  UniRef90_A0A1M3N934 Condensin subunit MukF n=1 Tax=Myxococcales...  130     4e-30 
+  UniRef90_A0A2N5QNY6 Condensin subunit MukF n=2 Tax=Chromobacter...  130     7e-30 
+  UniRef90_A0A1D2X592 Uncharacterized protein n=1 Tax=Endozoicomo...  129     2e-29 
+  UniRef90_A0A376KXL7 Chromosome partition protein n=1 Tax=Escher...  117     2e-29 
+  UniRef90_A0A2W4LLF0 Condensin subunit MukF n=1 Tax=Proteobacter...  127     3e-29 
+  UniRef90_A0A182KLQ4 Uncharacterized protein n=1 Tax=Anopheles c...  119     4e-29 
+  UniRef90_D1NFH7 Killing factor kicB n=1 Tax=Haemophilus influen...  118     5e-29 
+  UniRef90_A0A2Z4FKR5 Condensin subunit MukF n=1 Tax=Bradymonas s...  126     1e-28 
+  UniRef90_A9G7H5 MukF protein n=3 Tax=Sorangium cellulosum TaxID...  126     1e-28 
+  UniRef90_A0A0D6T086 Chromosome partition protein MukF n=18 Tax=...  125     2e-28 
+  UniRef90_L0H189 Uncharacterized protein involved in chromosome ...  124     8e-28 
+  UniRef90_A0A150TJN6 Chromosome partition protein MukF n=4 Tax=S...  122     4e-27 
+  UniRef90_A0A090SLL2 Chromosome partition protein MukF n=1 Tax=V...  114     4e-27 
+  UniRef90_A0A162AYE1 Chromosome partition protein MukF n=3 Tax=M...  120     1e-26 
+  UniRef90_A0A090SGC4 Chromosome partition protein MukF n=2 Tax=V...  114     1e-26 
+  UniRef90_UPI0007826E70 hypothetical protein n=1 Tax=Endozoicomo...  117     2e-25 
+  UniRef90_G5L787 Chromosome partition protein MukF (Fragment) n=...  106     4e-25 
+  UniRef90_A0A142BDH4 Chromosome partition protein MukF n=2 Tax=E...  115     9e-25 
+  UniRef90_UPI0004ACBB03 condensin subunit MukF n=1 Tax=Thioalkal...  114     2e-24 
+  UniRef90_A0A379TDB8 Chromosome partition protein mukF n=1 Tax=S...  100     9e-23 
+  UniRef90_UPI00098AF51E hypothetical protein n=1 Tax=Escherichia...  97.8    6e-22 
+  UniRef90_F9GU67 Putative chromosome partition protein MukF n=1 ...  98.2    2e-21 
+  UniRef90_A0A1J5DWA4 Condensin subunit MukF n=1 Tax=Deltaproteob...  105     2e-21 
+  UniRef90_A0A378N5F3 Chromosome partition protein mukF n=1 Tax=M...  97.1    3e-21 
+  UniRef90_A0A1M3NHQ7 Uncharacterized protein n=1 Tax=Myxococcale...  105     3e-21 
+  UniRef90_A0A0K1QDC1 Chromosome partition protein MukF n=1 Tax=L...  101     8e-20 
+  UniRef90_A0A376F6X1 Condesin subunit F n=1 Tax=Enterobacter asb...  91.3    1e-19 
+  UniRef90_UPI000481225A hypothetical protein n=1 Tax=Paraburkhol...  99.8    3e-19 
+  UniRef90_A0A379FU63 Condesin subunit F n=1 Tax=Providencia rett...  90.1    4e-19 
+  UniRef90_UPI000F8766C9 hypothetical protein n=1 Tax=Corallococc...  91.3    2e-16 
+  UniRef90_UPI0003701C7E hypothetical protein n=1 Tax=Thiobacillu...  85.5    1e-14 
+  UniRef90_A0A0T9XPK4 Killing factor KicB n=1 Tax=Salmonella ente...  72.0    8e-13 
+  UniRef90_F9GU68 Putative chromosome partition protein MukF n=1 ...  61.2    5e-09 
+  UniRef90_J6CZ15 Condesin subunit F n=1 Tax=Pasteurella multocid...  53.9    2e-06 
+  UniRef90_A0A1B1E8R2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  53.1    5e-04 
+  UniRef90_A0A3F2UZU4 Glutamine-dependent NAD(+) synthetase n=1 T...  45.1    0.16  
+  UniRef90_UPI00044A9886 hypothetical protein n=2 Tax=Vibrio para...  42.7    0.83  
+  UniRef90_UPI000996879D hypothetical protein n=1 Tax=Vibrio para...  42.4    1.2   
+  UniRef90_UPI000E1B9A5C hypothetical protein n=1 Tax=Hafnia alve...  41.2    2.7   
+  UniRef90_A0A2S6S2Y6 L-malyl-CoA/beta-methylmalyl-CoA lyase n=6 ...  40.4    3.9   
+  UniRef90_UPI0003A5312D translocation/assembly module TamB n=1 T...  40.8    3.9   
+  UniRef90_A0A1B8TUD4 Cytochrome n=1 Tax=Polaribacter reichenbach...  40.4    4.0   
+  UniRef90_A0A2T2VIU4 Uncharacterized protein n=1 Tax=Bacteroidet...  40.4    4.1   
+  UniRef90_A0A1D3RLQ7 tRNA(Ile)-lysidine synthase n=1 Tax=methano...  40.4    4.2   
+  UniRef90_A0A017SVP3 Uncharacterized protein n=1 Tax=Chondromyce...  40.4    5.0   
+  UniRef90_A0A2D1TII0 Uncharacterized protein n=3 Tax=Pseudomonas...  40.4    5.6   
+  UniRef90_A0A1Z4FX62 Multi-sensor hybrid histidine kinase n=1 Ta...  40.0    6.9   
+  UniRef90_H6C6P7 Uncharacterized protein n=1 Tax=Exophiala derma...  40.0    7.0   
+  UniRef90_UPI000995255E citron Rho-interacting kinase-like n=1 T...  40.0    7.7   
+  UniRef90_A0A1H1TCA2 DNA-binding transcriptional regulator, ArsR...  38.5    8.7   
+  UniRef90_A0A0B8Q1R9 Chromosome partition protein mukF n=1 Tax=V...  35.0    8.8   
+  UniRef90_A0A318TYZ1 Cache domain-containing protein n=1 Tax=Lys...  38.9    9.7   
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4651922159170
+Warning: [psiblast] lcl|Query_1 NP_415442.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415442.1
+
+Length=440
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A8AIF7 Chromosome partition protein MukF n=899 Tax=cel...  690     0.0   
+  UniRef90_Q8XDG2 Chromosome partition protein MukF n=358 Tax=Ent...  688     0.0   
+  UniRef90_I2BAN0 Chromosome partition protein MukF n=1 Tax=Shimw...  685     0.0   
+  UniRef90_A0A1B7I8Y1 Chromosome partition protein MukF n=12 Tax=...  684     0.0   
+  UniRef90_UPI0004659AC6 chromosome partition protein MukF n=2 Ta...  684     0.0   
+  UniRef90_UPI00073D77FE chromosome partition protein MukF n=1 Ta...  681     0.0   
+  UniRef90_UPI00037734B9 chromosome partition protein MukF n=1 Ta...  681     0.0   
+  UniRef90_E9CPP4 Chromosome partition protein MukF n=3 Tax=Serra...  679     0.0   
+  UniRef90_E0SAS3 Chromosome partition protein MukF n=22 Tax=Ente...  678     0.0   
+  UniRef90_Q8ZGA1 Chromosome partition protein MukF n=121 Tax=Ent...  677     0.0   
+  UniRef90_UPI0004B854F9 chromosome partition protein MukF n=1 Ta...  676     0.0   
+  UniRef90_G9YBL2 Chromosome partition protein MukF n=9 Tax=Enter...  676     0.0   
+  UniRef90_A0A2N5ETN0 Chromosome partition protein MukF n=3 Tax=u...  676     0.0   
+  UniRef90_A0A2C6DSQ6 Chromosome partition protein MukF n=5 Tax=E...  673     0.0   
+  UniRef90_W1BA41 Chromosome partition protein MukF n=17 Tax=Ente...  673     0.0   
+  UniRef90_C9Y083 Chromosome partition protein MukF n=5 Tax=Crono...  673     0.0   
+  UniRef90_D4GNI0 Chromosome partition protein MukF n=63 Tax=Ente...  673     0.0   
+  UniRef90_UPI000948E9E5 chromosome partition protein MukF n=1 Ta...  671     0.0   
+  UniRef90_A0A071M7C2 Chromosome partition protein MukF n=3 Tax=M...  671     0.0   
+  UniRef90_H2IS76 Chromosome partition protein MukF n=20 Tax=Ente...  671     0.0   
+  UniRef90_A0A0A2VZ14 Chromosome partition protein mukF n=1 Tax=B...  671     0.0   
+  UniRef90_A0A1Y0LI79 Chromosome partition protein MukF n=5 Tax=T...  668     0.0   
+  UniRef90_A0A379D3X7 Chromosome partition protein MukF n=1 Tax=P...  667     0.0   
+  UniRef90_A0A2X4UVR6 Chromosome partition protein MukF n=1 Tax=L...  666     0.0   
+  UniRef90_A0A2C5SIK4 Chromosome partition protein MukF n=22 Tax=...  664     0.0   
+  UniRef90_A0A2I5T975 Chromosome partition protein MukF n=1 Tax=S...  663     0.0   
+  UniRef90_V5Z7B1 Chromosome partition protein MukF n=35 Tax=Ente...  661     0.0   
+  UniRef90_A0A0J5FWE8 Chromosome partition protein MukF n=32 Tax=...  661     0.0   
+  UniRef90_Q7N6B9 Chromosome partition protein MukF n=33 Tax=Morg...  660     0.0   
+  UniRef90_A0A2A2GXH7 Chromosome partition protein MukF n=5 Tax=A...  660     0.0   
+  UniRef90_Q2NU99 Chromosome partition protein MukF n=5 Tax=Sodal...  658     0.0   
+  UniRef90_A0A2G8EI63 Chromosome partition protein MukF n=3 Tax=E...  653     0.0   
+  UniRef90_C5BAC9 Chromosome partition protein MukF n=11 Tax=Edwa...  652     0.0   
+  UniRef90_A0A1G7Z9Q4 Chromosome partition protein MukF n=1 Tax=V...  652     0.0   
+  UniRef90_A0A1H4BGJ2 Chromosome partition protein MukF n=7 Tax=L...  651     0.0   
+  UniRef90_A0A370QMJ6 Chromosome partition protein MukF n=1 Tax=E...  651     0.0   
+  UniRef90_B7VMH0 Chromosome partition protein MukF n=78 Tax=Vibr...  650     0.0   
+  UniRef90_U4JZ01 Chromosome partition protein MukF n=5 Tax=Vibri...  649     0.0   
+  UniRef90_U3BHA5 Chromosome partition protein MukF n=1 Tax=Vibri...  648     0.0   
+  UniRef90_Q87QW4 Chromosome partition protein MukF n=124 Tax=Vib...  648     0.0   
+  UniRef90_A7N1J9 Chromosome partition protein MukF n=87 Tax=Vibr...  648     0.0   
+  UniRef90_Q6D445 Chromosome partition protein MukF n=41 Tax=Pect...  648     0.0   
+  UniRef90_UPI00063C77A1 chromosome partition protein MukF n=1 Ta...  647     0.0   
+  UniRef90_A0A087IQ79 Chromosome partition protein MukF n=17 Tax=...  647     0.0   
+  UniRef90_A0A0N1KHQ2 Chromosome partition protein MukF n=2 Tax=M...  646     0.0   
+  UniRef90_B6ERZ9 Chromosome partition protein MukF n=14 Tax=Vibr...  646     0.0   
+  UniRef90_A0A0M9F8V1 Chromosome partition protein MukF n=33 Tax=...  646     0.0   
+  UniRef90_A0A090RDV2 Chromosome partition protein MukF n=1 Tax=V...  646     0.0   
+  UniRef90_A6D7K3 Chromosome partition protein MukF n=11 Tax=Vibr...  645     0.0   
+  UniRef90_Q6LPL3 Chromosome partition protein MukF n=4 Tax=Photo...  644     0.0   
+  UniRef90_UPI000FDF52D0 UPI000FDF52D0 related cluster n=1 Tax=un...  644     0.0   
+  UniRef90_A0A2J8HVR3 Chromosome partition protein MukF n=2 Tax=V...  643     0.0   
+  UniRef90_UPI0009710ABD chromosome partition protein MukF n=1 Ta...  643     0.0   
+  UniRef90_UPI0006CFBACD chromosome partition protein MukF n=1 Ta...  643     0.0   
+  UniRef90_A0A2U3BDN5 Chromosome partition protein MukF n=1 Tax=V...  643     0.0   
+  UniRef90_A0A2T3J208 Chromosome partition protein MukF n=5 Tax=P...  641     0.0   
+  UniRef90_A0A2M8H3A7 Chromosome partition protein MukF n=1 Tax=V...  640     0.0   
+  UniRef90_A0A1D3DHN6 Chromosome partition protein MukF n=26 Tax=...  640     0.0   
+  UniRef90_F0LSH6 Chromosome partition protein MukF n=10 Tax=Vibr...  640     0.0   
+  UniRef90_Q9KRC6 Chromosome partition protein MukF n=84 Tax=Vibr...  639     0.0   
+  UniRef90_L7NK64 Chromosome partition protein MukF n=8 Tax=Photo...  637     0.0   
+  UniRef90_L8JFC6 Chromosome partition protein MukF n=2 Tax=Photo...  636     0.0   
+  UniRef90_UPI000E0C8D5F chromosome partition protein MukF n=2 Ta...  635     0.0   
+  UniRef90_A0A2N8ZCH6 Chromosome partition protein MukF n=1 Tax=V...  635     0.0   
+  UniRef90_UPI000490DCEA chromosome partition protein MukF n=1 Ta...  635     0.0   
+  UniRef90_A0A2P1VN71 Chromosome partition protein MukF n=5 Tax=P...  635     0.0   
+  UniRef90_A0A128F5U8 Chromosome partition protein MukF n=14 Tax=...  634     0.0   
+  UniRef90_UPI0008380EFA chromosome partition protein MukF n=1 Ta...  633     0.0   
+  UniRef90_A0A0K1N3K2 Chromosome partition protein MukF n=34 Tax=...  633     0.0   
+  UniRef90_C9P492 Chromosome partition protein MukF n=4 Tax=Vibri...  632     0.0   
+  UniRef90_A0A2M8RYX6 Chromosome partition protein MukF n=4 Tax=P...  631     0.0   
+  UniRef90_A0A2M8S5J4 Chromosome partition protein MukF n=1 Tax=C...  631     0.0   
+  UniRef90_A0A1N6M662 Chromosome partition protein MukF n=13 Tax=...  631     0.0   
+  UniRef90_Q9CN38 Chromosome partition protein MukF n=25 Tax=Past...  631     0.0   
+  UniRef90_A0A369Y3T8 Chromosome partition protein MukF n=1 Tax=A...  631     0.0   
+  UniRef90_A0A1B9JIM0 Chromosome partition protein MukF n=38 Tax=...  631     0.0   
+  UniRef90_A0A2U8I6J4 Chromosome partition protein MukF n=1 Tax=C...  630     0.0   
+  UniRef90_UPI000929A41D chromosome partition protein MukF n=1 Ta...  630     0.0   
+  UniRef90_A0A1V3K8F3 Chromosome partition protein MukF n=1 Tax=R...  629     0.0   
+  UniRef90_A0A356E8P4 Chromosome partition protein MukF n=1 Tax=P...  628     0.0   
+  UniRef90_E3BF67 Chromosome partition protein MukF n=1 Tax=Vibri...  628     0.0   
+  UniRef90_B6XBY9 Chromosome partition protein MukF n=30 Tax=Bact...  628     0.0   
+  UniRef90_A0A178KLM2 Chromosome partition protein MukF n=4 Tax=P...  628     0.0   
+  UniRef90_A0A263HBJ1 Chromosome partition protein MukF n=3 Tax=P...  627     0.0   
+  UniRef90_A0A0F5VFW2 Chromosome partition protein MukF n=4 Tax=P...  625     0.0   
+  UniRef90_A0A1M5XW56 Chromosome partition protein MukF n=4 Tax=V...  624     0.0   
+  UniRef90_P45185 Chromosome partition protein MukF n=172 Tax=Bac...  624     0.0   
+  UniRef90_Q65TL7 Chromosome partition protein MukF n=3 Tax=Basfi...  623     0.0   
+  UniRef90_A0A1R4B2Z0 Chromosome partition protein MukF n=2 Tax=V...  621     0.0   
+  UniRef90_A0A1C3EDX2 Chromosome partition protein MukF n=1 Tax=E...  620     0.0   
+  UniRef90_C5S3C1 Chromosome partition protein MukF n=3 Tax=Actin...  620     0.0   
+  UniRef90_A0A3D1Z9S1 Chromosome partition protein MukF n=6 Tax=V...  619     0.0   
+  UniRef90_I3DI29 Chromosome partition protein MukF n=1 Tax=Paste...  619     0.0   
+  UniRef90_UPI000B35C1F9 chromosome partition protein MukF n=1 Ta...  619     0.0   
+  UniRef90_A0A1T0ASA5 Chromosome partition protein MukF n=1 Tax=H...  619     0.0   
+  UniRef90_B0BUD7 Chromosome partition protein MukF n=26 Tax=Past...  618     0.0   
+  UniRef90_UPI000EABB645 chromosome partition protein MukF n=1 Ta...  618     0.0   
+  UniRef90_A0A1E5BHP4 Chromosome partition protein MukF n=6 Tax=V...  616     0.0   
+  UniRef90_A6VP67 Chromosome partition protein MukF n=3 Tax=Paste...  615     0.0   
+  UniRef90_I3DP24 Chromosome partition protein MukF n=8 Tax=Haemo...  615     0.0   
+  UniRef90_B8F3P6 Chromosome partition protein MukF n=19 Tax=Glae...  615     0.0   
+  UniRef90_A0A0F5ERB5 Chromosome partition protein MukF n=10 Tax=...  614     0.0   
+  UniRef90_A0A0A3AVY2 Chromosome partition protein MukF n=2 Tax=P...  614     0.0   
+  UniRef90_J5HJL6 Chromosome partition protein MukF n=3 Tax=Haemo...  612     0.0   
+  UniRef90_B0UU62 Chromosome partition protein MukF n=7 Tax=Bacte...  611     0.0   
+  UniRef90_A0A1H9ZA98 Chromosome partition protein MukF n=1 Tax=T...  611     0.0   
+  UniRef90_UPI000F71860C chromosome partition protein MukF n=1 Ta...  611     0.0   
+  UniRef90_A0A1V3I2E4 Chromosome partition protein MukF n=7 Tax=V...  610     0.0   
+  UniRef90_A3MZU5 Chromosome partition protein MukF n=2 Tax=Actin...  609     0.0   
+  UniRef90_UPI000B34D412 chromosome partition protein MukF n=1 Ta...  609     0.0   
+  UniRef90_A0A1E5E1Y4 Chromosome partition protein MukF n=1 Tax=V...  609     0.0   
+  UniRef90_F4H9L3 Chromosome partition protein MukF n=22 Tax=Gall...  608     0.0   
+  UniRef90_A0A1V3TM71 Chromosome partition protein MukF n=1 Tax=P...  607     0.0   
+  UniRef90_A0A1R4IC93 Chromosome partition protein MukF n=3 Tax=B...  606     0.0   
+  UniRef90_M4R7Y8 Chromosome partition protein MukF n=5 Tax=Biber...  606     0.0   
+  UniRef90_A0A3N4W0Q5 Condensin subunit MukF n=1 Tax=Vespertiliib...  606     0.0   
+  UniRef90_A0A3N9TCM8 Chromosome partition protein MukF n=1 Tax=V...  604     0.0   
+  UniRef90_A0A0J5P9D2 Chromosome partition protein MukF n=1 Tax=M...  604     0.0   
+  UniRef90_A0A0F5AU19 Chromosome partition protein MukF n=17 Tax=...  601     0.0   
+  UniRef90_A0A379CA48 Chromosome partition protein MukF n=2 Tax=P...  601     0.0   
+  UniRef90_A0A3N4WTY9 Condensin subunit MukF n=1 Tax=Frederikseni...  601     0.0   
+  UniRef90_A0A1H7Y8A5 Chromosome partition protein MukF n=1 Tax=P...  600     0.0   
+  UniRef90_UPI000EB11D82 chromosome partition protein MukF n=1 Ta...  599     0.0   
+  UniRef90_A0A377WIC0 Chromosome partition protein MukF n=3 Tax=E...  598     0.0   
+  UniRef90_UPI000466E11A chromosome partition protein MukF n=1 Ta...  597     0.0   
+  UniRef90_A0A0A7S3S5 Chromosome partition protein MukF n=2 Tax=F...  596     0.0   
+  UniRef90_Q7VL94 Chromosome partition protein MukF n=4 Tax=Haemo...  596     0.0   
+  UniRef90_A0A0J8YV72 Chromosome partition protein MukF n=3 Tax=E...  592     0.0   
+  UniRef90_UPI0002E9E37A chromosome partition protein MukF n=1 Ta...  577     0.0   
+  UniRef90_A0A1X1MQE4 Chromosome partition protein MukF n=1 Tax=V...  569     0.0   
+  UniRef90_C4K784 Chromosome partition protein MukF n=5 Tax=Candi...  563     0.0   
+  UniRef90_U3B0J3 Chromosome partition protein MukF n=12 Tax=Vibr...  557     0.0   
+  UniRef90_A0A0B8QEF8 Chromosome partition protein MukF n=4 Tax=V...  556     0.0   
+  UniRef90_V5FJZ7 Chromosome partition protein MukF n=1 Tax=Vibri...  554     0.0   
+  UniRef90_H2FW86 Chromosome partition protein MukF n=7 Tax=Aerom...  549     0.0   
+  UniRef90_A0A1A6KLE5 Chromosome partition protein MukF n=1 Tax=V...  535     0.0   
+  UniRef90_UPI00098AA7DE chromosome partition protein MukF n=7 Ta...  534     0.0   
+  UniRef90_A0A291HPK1 Chromosome partition protein MukF n=3 Tax=Z...  533     0.0   
+  UniRef90_A0A2P5TIF1 Chromosome partition protein MukF n=3 Tax=A...  532     0.0   
+  UniRef90_A0A379TCV9 Killing factor KicB n=6 Tax=Enterobacteriac...  514     4e-180
+  UniRef90_UPI000E770E39 chromosome partition protein MukF n=1 Ta...  517     2e-179
+  UniRef90_A0A0S2SG43 Chromosome partition protein MukF n=1 Tax=A...  512     8e-178
+  UniRef90_N9TXV0 Chromosome partition protein MukF n=4 Tax=Aerom...  512     1e-177
+  UniRef90_C4LEQ9 Chromosome partition protein MukF n=2 Tax=Tolum...  511     3e-177
+  UniRef90_A0A2X4NMU7 Chromosome partition protein MukF n=106 Tax...  510     5e-177
+  UniRef90_A0A1Y0D1J3 Chromosome partition protein MukF n=1 Tax=O...  506     2e-175
+  UniRef90_A0A0H6F2P1 Condesin subunit F n=2 Tax=Vibrio cholerae ...  473     4e-164
+  UniRef90_UPI00067FE93B chromosome partition protein MukF n=1 Ta...  469     9e-163
+  UniRef90_A0A376P3L5 Chromosome partition protein n=3 Tax=Entero...  469     1e-162
+  UniRef90_A0A1Y0CUZ9 Chromosome partition protein MukF n=1 Tax=O...  471     8e-162
+  UniRef90_A0A3A1Y3L0 Chromosome partition protein MukF n=1 Tax=B...  473     2e-161
+  UniRef90_A0A3A1YBG5 Chromosome partition protein MukF n=1 Tax=B...  471     9e-161
+  UniRef90_A0A090S0F7 Chromosome partition protein MukF n=3 Tax=V...  460     2e-159
+  UniRef90_A0A3A1YBJ3 Chromosome partition protein MukF n=1 Tax=B...  460     2e-156
+  UniRef90_A0A3A1YNJ6 Chromosome partition protein MukF n=1 Tax=B...  455     3e-154
+  UniRef90_A0A379BAL1 Chromosome partition protein MukF n=1 Tax=P...  443     1e-152
+  UniRef90_F9GU66 Condesin subunit F n=3 Tax=Haemophilus TaxID=72...  429     5e-147
+  UniRef90_A0A379AJ37 Condesin subunit F n=1 Tax=Enterobacter agg...  416     1e-142
+  UniRef90_A0A377LJE1 Chromosome partition protein n=1 Tax=Escher...  407     3e-138
+  UniRef90_A0A0H6KNW3 Condesin subunit F n=2 Tax=Vibrio cholerae ...  396     4e-134
+  UniRef90_A0A376ZR91 Chromosome partition protein n=10 Tax=Enter...  383     6e-130
+  UniRef90_A0A379U109 Killing factor KicB n=5 Tax=Enterobacteriac...  370     5e-125
+  UniRef90_UPI000CD1BAEE condensin subunit MukF n=1 Tax=Pseudomon...  369     2e-121
+  UniRef90_A0A1M3N934 Condensin subunit MukF n=1 Tax=Myxococcales...  366     2e-120
+  UniRef90_A9G7H5 MukF protein n=3 Tax=Sorangium cellulosum TaxID...  361     3e-118
+  UniRef90_A0A1B4V7S6 Condesin subunit F n=1 Tax=Sulfurifustis va...  359     8e-118
+  UniRef90_A0A379WXF2 Killing factor KicB n=1 Tax=Salmonella ente...  353     1e-117
+  UniRef90_A0A162AYE1 Chromosome partition protein MukF n=3 Tax=M...  358     3e-117
+  UniRef90_A0A0G9I8S0 Condesin subunit F n=2 Tax=Xanthomonas hyac...  358     4e-117
+  UniRef90_J4SLR0 Condesin subunit F (Fragment) n=1 Tax=Pasteurel...  347     2e-115
+  UniRef90_L0H189 Uncharacterized protein involved in chromosome ...  353     2e-115
+  UniRef90_A0A0D6T086 Chromosome partition protein MukF n=18 Tax=...  346     1e-112
+  UniRef90_UPI0004ACBB03 condensin subunit MukF n=1 Tax=Thioalkal...  343     5e-111
+  UniRef90_A0A081K5S7 Chromosome partition protein MukF n=1 Tax=E...  341     1e-110
+  UniRef90_A0A142BDH4 Chromosome partition protein MukF n=2 Tax=E...  335     5e-108
+  UniRef90_A0A150SGL8 Chromosome partition protein MukF (Fragment...  327     1e-106
+  UniRef90_A0A090P8A9 Chromosome partition protein MukF n=1 Tax=V...  323     2e-106
+  UniRef90_UPI000C75F97E hypothetical protein n=1 Tax=Endozoicomo...  330     4e-106
+  UniRef90_UPI0009B1227E hypothetical protein n=1 Tax=Salmonella ...  310     6e-102
+  UniRef90_A0A1J5DWA4 Condensin subunit MukF n=1 Tax=Deltaproteob...  318     1e-101
+  UniRef90_UPI000371FDAD hypothetical protein n=1 Tax=Lamprocysti...  316     1e-100
+  UniRef90_A0A150TJN6 Chromosome partition protein MukF n=4 Tax=S...  316     3e-100
+  UniRef90_A0A0H6UBD8 Condesin subunit F n=1 Tax=Vibrio cholerae ...  306     6e-100
+  UniRef90_A0A2N5QNY6 Condensin subunit MukF n=2 Tax=Chromobacter...  307     5e-97 
+  UniRef90_A0A1M3NHQ7 Uncharacterized protein n=1 Tax=Myxococcale...  305     2e-96 
+  UniRef90_UPI0007826E70 hypothetical protein n=1 Tax=Endozoicomo...  301     8e-95 
+  UniRef90_A0A0K1QDC1 Chromosome partition protein MukF n=1 Tax=L...  299     3e-94 
+  UniRef90_Q8GF09 Chromosome partition protein MukF (Fragment) n=...  289     5e-94 
+  UniRef90_A0A2Z4FKR5 Condensin subunit MukF n=1 Tax=Bradymonas s...  298     7e-94 
+  UniRef90_A0A2W4LLF0 Condensin subunit MukF n=1 Tax=Proteobacter...  297     1e-93 
+  UniRef90_A0A1D2X592 Uncharacterized protein n=1 Tax=Endozoicomo...  297     2e-93 
+  UniRef90_T1I454 Uncharacterized protein n=1 Tax=Rhodnius prolix...  294     5e-92 
+  UniRef90_A0A379GYN8 Condesin subunit F n=1 Tax=Providencia stua...  283     1e-91 
+  UniRef90_UPI000481225A hypothetical protein n=1 Tax=Paraburkhol...  287     7e-89 
+  UniRef90_UPI000F8766C9 hypothetical protein n=1 Tax=Corallococc...  282     3e-87 
+  UniRef90_J4SQT8 Condesin subunit F (Fragment) n=1 Tax=Pasteurel...  270     1e-86 
+  UniRef90_A0A379VSY2 Chromosome partition protein mukF n=1 Tax=S...  269     3e-86 
+  UniRef90_A0A0H6U873 Condesin subunit F n=1 Tax=Vibrio cholerae ...  267     2e-85 
+  UniRef90_A0A0I1ZRU6 Condesin subunit F n=1 Tax=Shigella sonnei ...  264     1e-83 
+  UniRef90_A0A336N6M1 Chromosome partition protein mukF n=1 Tax=A...  262     3e-83 
+  UniRef90_A0A0B8P1R4 Chromosome partition protein mukF n=1 Tax=V...  261     2e-82 
+  UniRef90_G7YYF6 3-demethylubiquinone-9 3-methyltransferase (Fra...  265     4e-82 
+  UniRef90_UPI000B4394EF hypothetical protein n=1 Tax=Candidatus ...  259     4e-82 
+  UniRef90_A0A378DAP2 Chromosome partition protein MukF n=5 Tax=K...  249     1e-78 
+  UniRef90_UPI0003701C7E hypothetical protein n=1 Tax=Thiobacillu...  256     1e-77 
+  UniRef90_A0A376ZTH5 Chromosome partition protein n=1 Tax=Escher...  235     3e-73 
+  UniRef90_A0A376KX30 Chromosome partition protein n=1 Tax=Escher...  225     2e-69 
+  UniRef90_A0A379WW32 Chromosome partition protein mukF n=1 Tax=S...  216     3e-66 
+  UniRef90_UPI00098C975F kicB killing factor family protein n=2 T...  212     1e-64 
+  UniRef90_A4NYG1 Condesin subunit F n=2 Tax=Haemophilus influenz...  209     3e-63 
+  UniRef90_A0A1B1E8R2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  208     2e-58 
+  UniRef90_A0A379BAA5 Chromosome partition protein MukF n=1 Tax=P...  196     3e-58 
+  UniRef90_A0A379WB43 Chromosome partition protein mukF n=2 Tax=S...  179     8e-52 
+  UniRef90_A0A090P585 Chromosome partition protein MukF n=1 Tax=V...  171     6e-49 
+  UniRef90_A0A0H6PX77 Condesin subunit F n=1 Tax=Vibrio cholerae ...  161     4e-45 
+  UniRef90_A0A379WB80 Killing factor KicB n=1 Tax=Salmonella ente...  156     4e-43 
+  UniRef90_A0A377SGI0 Chromosome partition protein MukF n=2 Tax=K...  154     1e-42 
+  UniRef90_D1NFH7 Killing factor kicB n=1 Tax=Haemophilus influen...  153     6e-42 
+  UniRef90_A0A090SGC4 Chromosome partition protein MukF n=2 Tax=V...  151     2e-40 
+  UniRef90_A0A090SLL2 Chromosome partition protein MukF n=1 Tax=V...  149     2e-40 
+  UniRef90_A0A377AUV9 Chromosome partition protein n=1 Tax=Escher...  147     9e-40 
+  UniRef90_A0A379S926 Chromosome partition protein mukF n=1 Tax=S...  144     7e-39 
+  UniRef90_UPI0005CA98DF hypothetical protein n=1 Tax=Escherichia...  138     1e-36 
+  UniRef90_A0A378N5F3 Chromosome partition protein mukF n=1 Tax=M...  133     1e-34 
+  UniRef90_A0A376F4L1 Condesin subunit F n=1 Tax=Enterobacter asb...  131     2e-34 
+  UniRef90_D1NED5 Killing factor kicB n=1 Tax=Haemophilus influen...  129     2e-33 
+  UniRef90_A0A0D8L0T0 Uncharacterized protein (Fragment) n=1 Tax=...  128     9e-32 
+  UniRef90_A0A379AIB1 Condesin subunit F n=1 Tax=Enterobacter agg...  124     3e-31 
+  UniRef90_F9GU67 Putative chromosome partition protein MukF n=1 ...  122     2e-30 
+  UniRef90_A0A3P4HCB1 Chromosome partition protein MukF n=1 Tax=K...  121     3e-30 
+  UniRef90_A0A377AXU5 Chromosome partition protein n=2 Tax=Escher...  115     2e-28 
+  UniRef90_A0A379WCL6 Chromosome partition protein mukF n=1 Tax=S...  114     4e-28 
+  UniRef90_A0A376KX28 Chromosome partition protein n=1 Tax=Escher...  112     4e-27 
+  UniRef90_A0A378BN64 Chromosome partition protein MukF n=1 Tax=K...  107     4e-25 
+  UniRef90_G5L787 Chromosome partition protein MukF (Fragment) n=...  99.6    1e-22 
+  UniRef90_A0A182KLQ4 Uncharacterized protein n=1 Tax=Anopheles c...  100     3e-22 
+  UniRef90_A0A376KXL7 Chromosome partition protein n=1 Tax=Escher...  89.9    5e-19 
+  UniRef90_UPI00098AF51E hypothetical protein n=1 Tax=Escherichia...  83.8    8e-17 
+  UniRef90_A0A379FU63 Condesin subunit F n=1 Tax=Providencia rett...  83.4    1e-16 
+  UniRef90_F9GU68 Putative chromosome partition protein MukF n=1 ...  79.1    2e-15 
+  UniRef90_A0A379TDB8 Chromosome partition protein mukF n=1 Tax=S...  79.5    3e-15 
+  UniRef90_J6CZ15 Condesin subunit F n=1 Tax=Pasteurella multocid...  69.9    5e-12 
+  UniRef90_A0A376F6X1 Condesin subunit F n=1 Tax=Enterobacter asb...  68.4    1e-11 
+  UniRef90_A0A0T9XPK4 Killing factor KicB n=1 Tax=Salmonella ente...  65.7    1e-10 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000996879D hypothetical protein n=1 Tax=Vibrio para...  103     3e-20
+  UniRef90_UPI00044A9886 hypothetical protein n=2 Tax=Vibrio para...  100     2e-19
+  UniRef90_A0A1Q9HR95 Uncharacterized protein n=3 Tax=Vibrio TaxI...  98.8    6e-19
+  UniRef90_UPI00077FFF7E hypothetical protein n=2 Tax=Vibrio TaxI...  96.9    3e-18
+  UniRef90_A0A1B7K1W6 Uncharacterized protein n=25 Tax=Enterobact...  95.3    8e-18
+  UniRef90_UPI000E1B9A5C hypothetical protein n=1 Tax=Hafnia alve...  91.5    2e-16
+  UniRef90_A0A022PJ04 Chromosome partition protein MukF n=1 Tax=P...  89.5    7e-16
+  UniRef90_A0KX06 Uncharacterized protein n=2 Tax=Shewanella sp. ...  82.6    7e-14
+  UniRef90_G5RE06 Uncharacterized protein n=1 Tax=Salmonella ente...  60.7    4e-07
+  UniRef90_V1H5D1 Uncharacterized protein n=1 Tax=Salmonella ente...  51.4    2e-04
+  UniRef90_A0A2M9DTM4 Uncharacterized protein n=1 Tax=Desulfofaba...  49.5    0.006
+  UniRef90_V1H932 Uncharacterized protein n=1 Tax=Salmonella ente...  48.7    0.007
+  UniRef90_A7RVR2 Predicted protein n=1 Tax=Nematostella vectensi...  48.7    0.014
+  UniRef90_U3KDV6 Uncharacterized protein n=1 Tax=Ficedula albico...  48.7    0.014
+  UniRef90_A0A0B8Q1R9 Chromosome partition protein mukF n=1 Tax=V...  42.9    0.016
+  UniRef90_A0A022PWH7 Uncharacterized protein n=1 Tax=Erythranthe...  48.3    0.019
+  UniRef90_A0A2L0ES66 Uncharacterized protein n=2 Tax=Sorangium c...  47.2    0.022
+  UniRef90_D5MTP2 Bm8 interacting protein 2-11 n=1 Tax=Bombyx mor...  47.9    0.026
+  UniRef90_H9JM22 Uncharacterized protein n=1 Tax=Bombyx mori Tax...  47.6    0.028
+  UniRef90_A0A0G4GQ31 Uncharacterized protein n=1 Tax=Chromera ve...  47.6    0.032
+  UniRef90_A0A2G9HRU7 Myosin class V heavy chain n=3 Tax=Lamiales...  47.2    0.043
+  UniRef90_Q64FG1 S2 protein (Fragment) n=1 Tax=SARS coronavirus ...  46.4    0.056
+  UniRef90_A0A0U1WJY8 Spike glycoprotein n=2 Tax=Coronavirinae Ta...  46.8    0.060
+  UniRef90_A0A0U1WHI2 Spike glycoprotein n=2 Tax=Human SARS coron...  46.8    0.060
+  UniRef90_A0A0S3S529 Uncharacterized protein n=3 Tax=Phaseoleae ...  46.8    0.060
+  UniRef90_A0A353GRB5 Phosphoribosylformylglycinamidine synthase ...  46.8    0.061
+  UniRef90_A0A2M3YYS7 Putative transport and golgi organization p...  46.8    0.062
+  UniRef90_A0A2M4A1G0 Putative transport and golgi organization p...  46.4    0.079
+  UniRef90_UPI000995255E citron Rho-interacting kinase-like n=1 T...  46.0    0.091
+  UniRef90_A0A2T7A516 Uncharacterized protein n=1 Tax=Tuber borch...  46.0    0.096
+  UniRef90_A0A182F4M2 Uncharacterized protein n=1 Tax=Anopheles a...  46.0    0.100
+  UniRef90_A0A1C3KA23 Dynein heavy chain, putative n=1 Tax=Plasmo...  46.0    0.10 
+  UniRef90_A0A2M4B9F7 Putative transport and golgi organization p...  46.0    0.11 
+  UniRef90_UPI0003F09460 laminin subunit alpha-5 n=1 Tax=Elephant...  46.0    0.12 
+  UniRef90_R7YPQ1 Uncharacterized protein n=1 Tax=Coniosporium ap...  46.0    0.12 
+  UniRef90_A0A314XLT2 Uncharacterized protein n=1 Tax=Prunus yedo...  45.6    0.12 
+  UniRef90_A0A1H7AGG0 Ligand-binding sensor domain-containing pro...  45.6    0.13 
+  UniRef90_A0A1W4WWA5 liprin-alpha-1 isoform X1 n=4 Tax=Polyphaga...  45.6    0.14 
+  UniRef90_A0A1W4X5Q2 liprin-alpha-1 isoform X4 n=2 Tax=Agrilus p...  45.2    0.16 
+  UniRef90_Q5GDJ5 Spike glycoprotein n=1 Tax=SARS coronavirus GZ0...  45.2    0.16 
+  UniRef90_Q6TPE8 Spike glycoprotein n=7 Tax=Betacoronavirus TaxI...  45.2    0.16 
+  UniRef90_P59594 Spike glycoprotein n=162 Tax=Coronavirinae TaxI...  45.2    0.16 
+  UniRef90_A0A0F8B2V0 Protein fantom n=3 Tax=Larimichthys crocea ...  45.2    0.16 
+  UniRef90_Q3I5J5 Spike glycoprotein n=33 Tax=Coronavirinae TaxID...  45.2    0.18 
+  UniRef90_A0A167PCL0 Kinesin-like protein n=1 Tax=Sporothrix ins...  44.9    0.19 
+  UniRef90_UPI0004057BB4 sigma-70 family RNA polymerase sigma fac...  44.5    0.20 
+  UniRef90_F7HQI4 Laminin subunit alpha 5 n=2 Tax=Platyrrhini Tax...  45.2    0.20 
+  UniRef90_UPI0008403F96 LOW QUALITY PROTEIN: laminin subunit alp...  45.2    0.20 
+  UniRef90_M3X9B8 Tripartite motif containing 17 n=4 Tax=Felidae ...  44.5    0.21 
+  UniRef90_A0A2P5Y4Z8 Uncharacterized protein n=1 Tax=Gossypium b...  44.9    0.23 
+  UniRef90_A0A2I4FM80 myosin-11-like isoform X1 n=2 Tax=Juglans r...  44.9    0.24 
+  UniRef90_A0A3B8JP16 Uncharacterized protein n=2 Tax=unclassifie...  44.5    0.25 
+  UniRef90_A0A2I4ELS4 myosin-11 isoform X1 n=4 Tax=fabids TaxID=9...  44.9    0.25 
+  UniRef90_A0A1S4FFL7 Uncharacterized protein n=5 Tax=Aedes aegyp...  44.5    0.29 
+  UniRef90_A0A2I4ELS5 myosin-11 isoform X2 n=1 Tax=Juglans regia ...  44.5    0.31 
+  UniRef90_UPI0005D27E67 protein fantom-like n=1 Tax=Takifugu rub...  44.5    0.31 
+  UniRef90_UPI0003FA1218 nucleoside/nucleotide kinase family prot...  43.3    0.33 
+  UniRef90_A0A257EPP9 Uncharacterized protein n=1 Tax=Alphaproteo...  42.2    0.33 
+  UniRef90_A0A1D3JKX2 Dynein heavy chain, putative n=2 Tax=Plasmo...  44.5    0.34 
+  UniRef90_A0A2H1V187 SFRICE_005246 n=1 Tax=Spodoptera frugiperda...  44.1    0.36 
+  UniRef90_A0A212FAC4 Bm8 interacting protein n=1 Tax=Danaus plex...  44.1    0.37 
+  UniRef90_A0A0K1Z074 Spike glycoprotein n=9 Tax=Coronavirinae Ta...  44.1    0.39 
+  UniRef90_UPI000496D726 hypothetical protein n=1 Tax=Deinococcus...  42.9    0.39 
+  UniRef90_UPI00067CE46C melanoma inhibitory activity protein 3 n...  44.1    0.40 
+  UniRef90_A0A0A0KLR3 Uncharacterized protein n=17 Tax=Cucurbitac...  43.7    0.42 
+  UniRef90_UPI000CD817DE myosin-11-like isoform X1 n=4 Tax=Astera...  43.7    0.47 
+  UniRef90_UPI000C1402AA transport and Golgi organization protein...  43.7    0.47 
+  UniRef90_UPI000580F3CA liprin-alpha-1 isoform X20 n=1 Tax=Acrom...  43.7    0.47 
+  UniRef90_UPI0006761DB7 probable basic-leucine zipper transcript...  43.7    0.48 
+  UniRef90_UPI000EF8A3C7 transport and Golgi organization protein...  43.7    0.49 
+  UniRef90_UPI000EFE8000 serine/threonine-protein kinase MRCK alp...  43.7    0.56 
+  UniRef90_A0A1W0WWP2 Dynactin subunit 1 n=1 Tax=Hypsibius dujard...  43.7    0.58 
+  UniRef90_A0A194PJ86 Transport and Golgi organization protein 1 ...  43.3    0.58 
+  UniRef90_A0A3N0YVA4 Laminin subunit beta-1 n=1 Tax=Anabarilius ...  43.7    0.58 
+  UniRef90_A0A2I0B070 Uncharacterized protein n=1 Tax=Apostasia s...  43.3    0.59 
+  UniRef90_UPI0005D07F9A LOW QUALITY PROTEIN: transport and Golgi...  43.3    0.60 
+  UniRef90_A0A2M8L6V9 Uncharacterized protein (Fragment) n=1 Tax=...  42.9    0.62 
+  UniRef90_UPI000D18B6F6 Spike glycoprotein,Fibritin n=3 Tax=Viru...  43.3    0.62 
+  UniRef90_A0A0F7ZBB4 Dystonin isoform X3 n=3 Tax=Colubroidea Tax...  43.3    0.65 
+  UniRef90_UPI0008295EDF HAMP domain-containing protein n=1 Tax=R...  42.9    0.69 
+  UniRef90_A0A086BSJ0 ABC transporter (Fragment) n=4 Tax=Pseudomo...  43.3    0.69 
+  UniRef90_A0A1U8IWK0 myosin-11-like n=16 Tax=malvids TaxID=91836...  43.3    0.73 
+  UniRef90_UPI00042BB6CD E3 ubiquitin-protein ligase TRIM11-like ...  42.9    0.73 
+  UniRef90_A0A1V6DZR2 V-type ATP synthase subunit I n=1 Tax=Spiro...  42.9    0.75 
+  UniRef90_UPI0005D1DEF0 nucleoside/nucleotide kinase family prot...  42.2    0.76 
+  UniRef90_A0A194R5N6 Transport and Golgi organization protein 1 ...  42.9    0.78 
+  UniRef90_A0A392M3L5 LINE-type retrotransposon lib insertion at ...  42.9    0.78 
+  UniRef90_L7RBJ1 Spike protein n=20 Tax=Infectious bronchitis vi...  42.9    0.81 
+  UniRef90_UPI000C1431BE transport and Golgi organization protein...  42.9    0.83 
+  UniRef90_UPI0003331988 centrosomal protein of 85 kDa isoform X1...  42.9    0.84 
+  UniRef90_UPI000CE5AE19 uncharacterized protein LOC112045007 n=1...  42.9    0.86 
+  UniRef90_A0A1E1WKU3 Uncharacterized protein (Fragment) n=1 Tax=...  42.9    0.91 
+  UniRef90_A0A2H4I7G0 Spike protein n=2 Tax=Infectious bronchitis...  42.9    0.94 
+  UniRef90_UPI0004941732 nucleoside/nucleotide kinase family prot...  41.8    0.94 
+  UniRef90_S8D8I0 Uncharacterized protein (Fragment) n=1 Tax=Genl...  42.5    0.96 
+  UniRef90_W5JBM8 Uncharacterized protein n=1 Tax=Anopheles darli...  42.9    0.97 
+  UniRef90_A0A0Q8Y765 Uncharacterized protein n=1 Tax=Terrabacter...  41.0    0.98 
+  UniRef90_A0A0U0Y5D9 Uncharacterized protein n=1 Tax=Mycobactero...  41.8    0.99 
+  UniRef90_M4B8Z7 Uncharacterized protein n=1 Tax=Hyaloperonospor...  42.5    1.0  
+  UniRef90_UPI000CD9F577 myosin-11-like n=1 Tax=Lactuca sativa Ta...  42.5    1.0  
+  UniRef90_A0A2H3WZI1 myosin-17-like n=3 Tax=Arecaceae TaxID=4710...  42.5    1.0  
+  UniRef90_A0A0D2PI35 Uncharacterized protein n=1 Tax=Gossypium r...  42.5    1.1  
+  UniRef90_UPI00032B07D5 sushi, nidogen and EGF-like domain-conta...  42.5    1.1  
+  UniRef90_A0A2R6QAR6 Myosin-9 like (Fragment) n=1 Tax=Actinidia ...  42.5    1.1  
+  UniRef90_UPI000711CF12 citron Rho-interacting kinase-like n=1 T...  42.5    1.1  
+  UniRef90_A0A2M4CJG9 Putative transport and golgi organization p...  42.5    1.1  
+  UniRef90_UPI000E777822 transport and Golgi organization protein...  42.5    1.2  
+  UniRef90_UPI0003FCFF14 nucleoside/nucleotide kinase family prot...  41.4    1.2  
+  UniRef90_UPI0007A6FC98 laminin subunit alpha-5 n=1 Tax=Miniopte...  42.5    1.2  
+  UniRef90_B9I5L5 Uncharacterized protein n=4 Tax=Populus TaxID=3...  42.5    1.3  
+  UniRef90_A0A1S8T9B3 Uncharacterized protein n=1 Tax=Clostridium...  40.6    1.3  
+  UniRef90_A0A1I1DGQ8 Uncharacterized protein n=1 Tax=Butyrivibri...  41.4    1.3  
+  UniRef90_UPI00039F587A FtsX-like permease family protein n=1 Ta...  42.5    1.3  
+  UniRef90_UPI000E461241 protein fantom-like n=1 Tax=Anabas testu...  42.5    1.3  
+  UniRef90_A0A1Q3NW60 Glutamine cyclotransferase n=1 Tax=Bosea sp...  41.0    1.3  
+  UniRef90_UPI000F03036F response regulator n=1 Tax=Pseudomonas s...  42.2    1.4  
+  UniRef90_UPI0004198892 hypothetical protein n=1 Tax=Paenibacill...  42.2    1.4  
+  UniRef90_F2U4E5 Non-specific serine/threonine protein kinase n=...  42.2    1.4  
+  UniRef90_A0A2W4P6F3 Ribonuclease Y n=1 Tax=Chloroflexi bacteriu...  41.8    1.4  
+  UniRef90_A0A1M6SE96 ATP-dependent exoDNAse (Exonuclease V) beta...  42.2    1.5  
+  UniRef90_A0A2E0X7K6 Alpha-L-fucosidase n=1 Tax=Planctomycetacea...  41.8    1.6  
+  UniRef90_A0A1D5P4M9 Uncharacterized protein n=13 Tax=Galliforme...  42.2    1.6  
+  UniRef90_A0A1H1H4R4 DNA-binding transcriptional regulator, HxlR...  39.1    1.6  
+  UniRef90_A0A1I8NDS9 Uncharacterized protein n=2 Tax=Musca domes...  42.2    1.7  
+  UniRef90_B4P0A7 Uncharacterized protein n=1 Tax=Drosophila yaku...  42.2    1.7  
+  UniRef90_UPI000C20D268 uncharacterized protein LOC111459552 iso...  41.8    1.7  
+  UniRef90_UPI000C75EFEA serine/threonine-protein kinase MRCK alp...  42.2    1.7  
+  UniRef90_UPI0007E7841B tetratricopeptide repeat protein 7B isof...  41.8    1.7  
+  UniRef90_A0A1E3HA72 Uncharacterized protein n=2 Tax=Cryptococcu...  41.8    1.8  
+  UniRef90_UPI000D52FB06 uncharacterized protein LOC108250258 n=1...  41.8    1.8  
+  UniRef90_UPI00077D9FB4 keratin, type II cytoskeletal 78 isoform...  41.8    1.8  
+  UniRef90_UPI0007DC89B3 protein fantom-like n=1 Tax=Cynoglossus ...  41.8    1.8  
+  UniRef90_UPI0005EDC2CF citron Rho-interacting kinase-like n=1 T...  41.8    1.8  
+  UniRef90_W4K7C4 Uncharacterized protein n=1 Tax=Heterobasidion ...  41.8    1.8  
+  UniRef90_A0A3N5UK44 Uncharacterized protein n=1 Tax=Chloroflexi...  41.8    1.8  
+  UniRef90_A0A2U4AUD5 liprin-alpha-1 n=1 Tax=Tursiops truncatus T...  41.8    1.9  
+  UniRef90_A0A1I8NDT6 Uncharacterized protein n=7 Tax=Musca domes...  41.8    1.9  
+  UniRef90_A0A1M6AJX4 Methyl-accepting chemotaxis protein n=1 Tax...  41.8    1.9  
+  UniRef90_X0X6M4 Uncharacterized protein n=1 Tax=marine sediment...  38.3    2.0  
+  UniRef90_A0A3B3BAR6 Tripartite motif containing 25, like n=1 Ta...  41.8    2.0  
+  UniRef90_A0A1I8NDS7 Uncharacterized protein n=1 Tax=Musca domes...  41.8    2.0  
+  UniRef90_UPI0007E7276A transport and Golgi organization protein...  41.8    2.1  
+  UniRef90_UPI000936004A cytospin-A isoform X1 n=8 Tax=Aedes albo...  41.8    2.1  
+  UniRef90_UPI00064324C6 ankyrin-2 isoform X18 n=1 Tax=Condylura ...  41.8    2.2  
+  UniRef90_UPI000710ACF1 ABC transporter n=2 Tax=Pseudomonas aeru...  41.4    2.3  
+  UniRef90_A0A2T2VIU4 Uncharacterized protein n=1 Tax=Bacteroidet...  41.0    2.4  
+  UniRef90_A0A2E6P720 Uncharacterized protein n=2 Tax=Euryarchaeo...  41.0    2.4  
+  UniRef90_UPI000642DC18 ankyrin-2 isoform X1 n=14 Tax=Condylura ...  41.8    2.4  
+  UniRef90_UPI0004897AC1 hypothetical protein n=1 Tax=Lachnospira...  40.6    2.4  
+  UniRef90_A0A1I8NDT4 Uncharacterized protein n=1 Tax=Musca domes...  41.8    2.4  
+  UniRef90_Q0W465 Uncharacterized protein n=1 Tax=Methanocella ar...  39.1    2.4  
+  UniRef90_UPI000643078D ankyrin-2 isoform X10 n=5 Tax=Condylura ...  41.8    2.5  
+  UniRef90_B6FUQ4 Uncharacterized protein n=4 Tax=Clostridiales T...  41.0    2.7  
+  UniRef90_UPI00054DC0AF myosin-7-like isoform X1 n=2 Tax=Notothe...  41.4    2.7  
+  UniRef90_A0A1L5NT98 Multi-sensor signal transduction multi-kina...  41.4    2.8  
+  UniRef90_A0A2A4KA53 Uncharacterized protein n=2 Tax=Heliothis v...  41.4    2.8  
+  UniRef90_A0A388JUC9 Uncharacterized protein n=1 Tax=Chara braun...  41.0    2.8  
+  UniRef90_A0A0K1RBV9 Type I restriction enzyme R Protein n=5 Tax...  41.4    2.8  
+  UniRef90_A0A146LBH9 Liprin-alpha-2 n=3 Tax=Lygus hesperus TaxID...  41.4    2.8  
+  UniRef90_UPI000CEFB020 microtubule-actin cross-linking factor 1...  41.4    2.9  
+  UniRef90_A0A2M4CP88 Putative transport and golgi organization p...  41.0    2.9  
+  UniRef90_A0A151ATT4 Chromosome partition protein Smc n=2 Tax=Mo...  41.4    2.9  
+  UniRef90_UPI000B38676E transport and Golgi organization protein...  41.4    3.0  
+  UniRef90_B9L2G6 GAF domain protein n=1 Tax=Thermomicrobium rose...  41.0    3.0  
+  UniRef90_L7MG26 Putative kinesin-like protein (Fragment) n=4 Ta...  41.0    3.0  
+  UniRef90_A0A1I5J8U2 Septal ring factor EnvC, activator of murei...  40.6    3.1  
+  UniRef90_A0A177WCQ3 Uncharacterized protein n=2 Tax=Batrachochy...  41.0    3.1  
+  UniRef90_UPI0004573BD9 nuclear factor 7, brain-like n=1 Tax=Cal...  41.0    3.1  
+  UniRef90_UPI0006743CFC protein fantom isoform X1 n=15 Tax=Pseud...  41.0    3.1  
+  UniRef90_UPI000F79ECF4 MarR family transcriptional regulator n=...  39.5    3.2  
+  UniRef90_A0A2W2CB29 MarR family transcriptional regulator n=1 T...  39.5    3.4  
+  UniRef90_A0A3L7UST4 Uncharacterized protein (Fragment) n=1 Tax=...  40.6    3.4  
+  UniRef90_A0A1J4L5X2 Uncharacterized protein n=1 Tax=Tritrichomo...  40.6    3.4  
+  UniRef90_A0A2J0L6V4 Uncharacterized protein n=1 Tax=Candidatus ...  40.6    3.5  
+  UniRef90_I3KVF0 RPGR interacting protein 1 n=2 Tax=Oreochromis ...  41.0    3.5  
+  UniRef90_UPI0002F5E283 PAS domain S-box protein n=1 Tax=Calothr...  41.0    3.5  
+  UniRef90_UPI000DF2D2BD protein fantom isoform X6 n=1 Tax=Oreoch...  41.0    3.5  
+  UniRef90_UPI0009E491FA major antigen-like isoform X1 n=3 Tax=Or...  41.0    3.6  
+  UniRef90_UPI00077DA7E8 keratin, type II cytoskeletal 78 isoform...  41.0    3.6  
+  UniRef90_UPI000943E3A5 keratin, type II cytoskeletal 3 n=1 Tax=...  40.6    3.6  
+  UniRef90_UPI000D58EFB0 hypothetical protein n=1 Tax=Streptomyce...  40.6    3.7  
+  UniRef90_A0A371QLW4 Uncharacterized protein n=1 Tax=Rhodohaloba...  41.0    3.7  
+  UniRef90_A0A1C0VT93 Uncharacterized protein n=1 Tax=Oscillatori...  41.0    3.7  
+  UniRef90_F6HVL1 Uncharacterized protein n=5 Tax=rosids TaxID=71...  41.0    3.8  
+  UniRef90_UPI000640A35F LOW QUALITY PROTEIN: protein scabrous n=...  40.6    3.9  
+  UniRef90_E2ADN9 Citron Rho-interacting kinase n=3 Tax=Camponotu...  41.0    3.9  
+  UniRef90_A0A3N4JK69 Uncharacterized protein n=1 Tax=Choiromyces...  41.0    3.9  
+  UniRef90_UPI0009E44175 myosin-11-like isoform X1 n=3 Tax=Epiden...  41.0    3.9  
+  UniRef90_A0A1D9QL26 Uncharacterized protein n=2 Tax=Sclerotinia...  40.6    4.0  
+  UniRef90_K5Y6I5 Uncharacterized protein n=1 Tax=Agaricus bispor...  40.6    4.0  
+  UniRef90_A0A371DV97 Uncharacterized protein n=1 Tax=Polyporus b...  40.6    4.0  
+  UniRef90_A0A2W6DTR1 MarR family transcriptional regulator n=1 T...  39.5    4.0  
+  UniRef90_W6YRA0 Uncharacterized protein n=1 Tax=Bipolaris zeico...  41.0    4.0  
+  UniRef90_A0A1A3T360 Uncharacterized protein n=1 Tax=Mycobacteri...  39.9    4.1  
+  UniRef90_A0A1Q3FKY2 Putative actin-binding protein n=3 Tax=Cule...  40.6    4.1  
+  UniRef90_A0A2M7UPT3 Uncharacterized protein n=1 Tax=Candidatus ...  40.2    4.4  
+  UniRef90_A0A084VP44 AGAP007919-PA-like protein n=1 Tax=Anophele...  40.6    4.4  
+  UniRef90_UPI0006D918AE liprin-alpha-1 n=1 Tax=Bos mutus TaxID=7...  40.6    4.5  
+  UniRef90_UPI0007F8B723 protein fantom-like isoform X1 n=4 Tax=K...  40.6    4.6  
+  UniRef90_A0A3M6UHC4 Uncharacterized protein (Fragment) n=1 Tax=...  40.6    4.6  
+  UniRef90_A0A2I4CBH1 myosin heavy chain, fast skeletal muscle-li...  40.6    4.6  
+  UniRef90_A0A1X2I8M4 Kinesin-like protein n=1 Tax=Absidia repens...  40.6    4.6  
+  UniRef90_B2RFJ0 Myosin n=3 Tax=Oikopleura dioica TaxID=34765 Re...  40.6    4.8  
+  UniRef90_A0A2E0IFZ8 Membrane fusion protein (MFP) family protei...  40.2    4.8  
+  UniRef90_B3MKU5 Uncharacterized protein n=1 Tax=Drosophila anan...  40.6    4.8  
+  UniRef90_T1JE08 Uncharacterized protein n=1 Tax=Strigamia marit...  40.6    4.8  
+  UniRef90_A0A2P5E8R9 Uncharacterized protein n=1 Tax=Trema orien...  40.2    4.9  
+  UniRef90_G3W3B2 Sperm antigen with calponin homology and coiled...  40.6    5.0  
+  UniRef90_A0A340XXF1 liprin-alpha-1 n=1 Tax=Lipotes vexillifer T...  40.6    5.0  
+  UniRef90_UPI00097E05D8 protein fantom-like n=1 Tax=Paralichthys...  40.6    5.1  
+  UniRef90_A0A1W4URU4 uncharacterized protein LOC108091960 isofor...  40.6    5.5  
+  UniRef90_A0A3B4D4H8 Uncharacterized protein n=4 Tax=Pygocentrus...  40.2    5.5  
+  UniRef90_UPI000CE59905 filaggrin-2-like n=1 Tax=Bicyclus anynan...  40.2    5.6  
+  UniRef90_A0A3B4CKA1 Sperm antigen with calponin homology and co...  40.2    5.7  
+  UniRef90_A0A091JT59 Ankycorbin (Fragment) n=2 Tax=Colius striat...  40.2    5.7  
+  UniRef90_A0A1S3XM29 uncharacterized protein LOC107766452 n=1 Ta...  39.9    5.9  
+  UniRef90_A0A1Y1M5U6 Uncharacterized protein n=8 Tax=Polyphaga T...  40.2    6.1  
+  UniRef90_A0A1S3EZG1 unconventional myosin-X n=1 Tax=Dipodomys o...  40.2    6.1  
+  UniRef90_UPI000571A65F ATP-dependent DNA helicase n=1 Tax=Brack...  40.2    6.1  
+  UniRef90_A0A179TXC0 Uncharacterized protein n=1 Tax=Ajellomyces...  40.2    6.1  
+  UniRef90_UPI00042BB0A9 serine/threonine-protein kinase MRCK gam...  40.2    6.1  
+  UniRef90_A0A2I0LBZ2 FRIGIDA-like protein n=2 Tax=Punica granatu...  40.2    6.1  
+  UniRef90_A0A182FF61 Uncharacterized protein n=1 Tax=Anopheles a...  40.2    6.2  
+  UniRef90_H0TNA1 Uncharacterized protein n=1 Tax=Bradyrhizobium ...  40.2    6.2  
+  UniRef90_D5GHI8 Uncharacterized protein n=1 Tax=Tuber melanospo...  40.2    6.4  
+  UniRef90_A0A1S4CFT6 uncharacterized protein LOC107818491 n=3 Ta...  39.9    6.4  
+  UniRef90_T5C0T8 Uncharacterized protein n=5 Tax=Blastomyces Tax...  40.2    6.4  
+  UniRef90_UPI000529CFE4 ankycorbin isoform X2 n=1 Tax=Colius str...  40.2    6.5  
+  UniRef90_A0A1I8NLG7 Uncharacterized protein n=1 Tax=Stomoxys ca...  40.2    6.6  
+  UniRef90_UPI000918069B type I DNA topoisomerase n=1 Tax=Azotoba...  39.9    6.6  
+  UniRef90_A0A354FQE1 Uncharacterized protein (Fragment) n=1 Tax=...  39.9    6.6  
+  UniRef90_A0A372SSQ7 PRD domain-containing protein n=1 Tax=Absie...  39.9    6.7  
+  UniRef90_Q6ZQA1 MKIAA0533 protein (Fragment) n=1 Tax=Mus muscul...  40.2    6.7  
+  UniRef90_A0A2D0QA11 cytospin-B isoform X1 n=8 Tax=Siluroidei Ta...  39.9    6.8  
+  UniRef90_UPI000B98FA2D uncharacterized protein LOC111059440 n=1...  40.2    6.9  
+  UniRef90_UPI000FD87CBC ABC transporter n=1 Tax=Bordetella avium...  39.9    6.9  
+  UniRef90_A0A0H4Q0J8 PAS/PAC sensor signal transduction histidin...  39.9    6.9  
+  UniRef90_A0A1Q2MAP0 Uncharacterized protein n=1 Tax=Phycisphaer...  39.9    6.9  
+  UniRef90_A0A0N0ARQ6 Uncharacterized protein n=1 Tax=Saccharothr...  39.9    7.1  
+  UniRef90_UPI000F54F920 centriolin-like n=1 Tax=Pocillopora dami...  40.2    7.1  
+  UniRef90_UPI000FE1C734 Sec34-domain-containing protein n=1 Tax=...  39.9    7.2  
+  UniRef90_A0A068TUI3 Uncharacterized protein n=1 Tax=Coffea cane...  39.9    7.2  
+  UniRef90_UPI000EA9330F dystonin isoform X2 n=1 Tax=Pseudonaja t...  40.2    7.3  
+  UniRef90_H0XTB6 Synemin n=2 Tax=Otolemur garnettii TaxID=30611 ...  39.9    7.3  
+  UniRef90_A0A352EWV1 Methionyl-tRNA formyltransferase n=1 Tax=Bl...  39.5    7.3  
+  UniRef90_A0A2S4XRX3 ATP-binding protein n=5 Tax=Streptomyces Ta...  39.9    7.4  
+  UniRef90_A0A1H7JEJ5 Uncharacterized protein n=6 Tax=Pseudobutyr...  39.1    7.4  
+  UniRef90_UPI0004CD4F7D unconventional myosin-XVIIIa isoform X2 ...  39.9    7.5  
+  UniRef90_A0A3N5A0J5 Uncharacterized protein n=1 Tax=Streptomyce...  40.2    7.5  
+  UniRef90_A0A2P5E4T6 Uncharacterized protein n=1 Tax=Parasponia ...  39.9    7.6  
+  UniRef90_UPI00057A933E myosin-17-like isoform X1 n=5 Tax=Elaeis...  39.9    7.6  
+  UniRef90_A0A1I8NLG3 Uncharacterized protein n=4 Tax=Stomoxys ca...  39.9    7.7  
+  UniRef90_UPI0009FFD57E DUF2326 domain-containing protein n=1 Ta...  39.5    7.8  
+  UniRef90_A0A0M3QY08 CG34383 n=1 Tax=Drosophila busckii TaxID=30...  39.9    7.8  
+  UniRef90_A0A1Q3FLM3 Putative actin-binding protein n=1 Tax=Cule...  39.9    8.0  
+  UniRef90_UPI00029F54A8 hypothetical protein n=1 Tax=Agaricus bi...  39.9    8.0  
+  UniRef90_A0A396Z1H6 Chemotaxis protein n=2 Tax=Leptospira TaxID...  39.5    8.1  
+  UniRef90_A0A1S3C311 myosin-11 isoform X1 n=17 Tax=Cucurbitaceae...  39.9    8.1  
+  UniRef90_A0A2W7G4M1 CHASE3 domain-containing protein n=1 Tax=Pa...  39.5    8.2  
+  UniRef90_UPI000614FBB7 liprin-alpha-1 isoform X1 n=1 Tax=Megach...  39.9    8.2  
+  UniRef90_A0A1X0NQ88 Plectin-like protein n=1 Tax=Trypanosoma th...  39.9    8.3  
+  UniRef90_UPI000A28BBCC cytospin-B isoform X3 n=3 Tax=Phascolarc...  39.9    8.3  
+  UniRef90_UPI000619D4BC liprin-alpha-1 isoform X8 n=3 Tax=Hymeno...  39.9    8.3  
+  UniRef90_UPI00084A80F8 uncharacterized protein LOC108664728 iso...  39.9    8.3  
+  UniRef90_A0A120D6D3 Histidine kinase n=1 Tax=Nitrospirae bacter...  39.5    8.3  
+  UniRef90_UPI0009DA0B8E glycosyltransferase n=1 Tax=Pseudomonas ...  39.9    8.4  
+  UniRef90_A0A1Q9F308 Kinesin-like protein KIF19 n=1 Tax=Symbiodi...  39.9    8.5  
+  UniRef90_A0A0J7L3K6 Citron rho-interacting kinase-like protein ...  39.9    8.5  
+  UniRef90_A0A0B2JZV7 DNA repair protein RecN n=5 Tax=Anaerovibri...  39.5    8.5  
+  UniRef90_G7YEB4 Phospholipid-translocating ATPase (Fragment) n=...  39.5    8.6  
+  UniRef90_A5EY67 Chaperone SurA n=1 Tax=Dichelobacter nodosus (s...  39.5    8.6  
+  UniRef90_A0A2A2TJF9 Uncharacterized protein n=1 Tax=Calothrix e...  39.5    8.6  
+  UniRef90_A0A154PIS0 Liprin-alpha-2 n=2 Tax=Apoidea TaxID=34735 ...  39.9    8.8  
+  UniRef90_UPI000462F226 DUF349 domain-containing protein n=1 Tax...  39.5    8.9  
+  UniRef90_A0A0J5P5V2 Alanine--tRNA ligase n=1 Tax=Muribacter mur...  39.5    9.0  
+  UniRef90_UPI000C82A232 serine/threonine-protein kinase MRCK gam...  39.9    9.0  
+  UniRef90_A0A2K6EFB9 Huntingtin associated protein 1 n=1 Tax=Pro...  39.5    9.0  
+  UniRef90_A0A0M9VPU1 Nonmuscle myosin heavy chain b n=1 Tax=Mala...  39.9    9.1  
+  UniRef90_UPI000DA14593 urea carboxylase n=1 Tax=Salinicola peri...  39.5    9.2  
+  UniRef90_A0A371PF06 DNA translocase FtsK n=1 Tax=Paenibacillus ...  39.5    9.4  
+  UniRef90_UPI0009EC88E0 HAMP domain-containing protein n=1 Tax=P...  39.5    9.5  
+  UniRef90_A0A068SAZ9 Kinesin-domain-containing protein n=2 Tax=L...  39.5    9.6  
+  UniRef90_UPI000626DE5F liprin-alpha-1 isoform X1 n=10 Tax=Hymen...  39.5    9.6  
+  UniRef90_UPI000BB331C5 MarR family transcriptional regulator n=...  38.7    9.7  
+  UniRef90_UPI00083EAA9D uncharacterized protein LOC108602749 iso...  39.5    9.9  
+  UniRef90_I8VMM6 Uncharacterized protein n=51 Tax=root TaxID=1 R...  39.1    9.9  
+  UniRef90_A0A2J2H6N8 Uncharacterized protein n=1 Tax=Thermoprote...  39.1    10.0 
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.154    0.450    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0472    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4651922159170
+Results from round 3
+
+
+Query= NP_415442.1
+
+Length=440
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A8AIF7 Chromosome partition protein MukF n=899 Tax=cel...  640     0.0   
+  UniRef90_I2BAN0 Chromosome partition protein MukF n=1 Tax=Shimw...  639     0.0   
+  UniRef90_Q8XDG2 Chromosome partition protein MukF n=358 Tax=Ent...  638     0.0   
+  UniRef90_E0SAS3 Chromosome partition protein MukF n=22 Tax=Ente...  635     0.0   
+  UniRef90_E9CPP4 Chromosome partition protein MukF n=3 Tax=Serra...  633     0.0   
+  UniRef90_UPI0004659AC6 chromosome partition protein MukF n=2 Ta...  633     0.0   
+  UniRef90_UPI00073D77FE chromosome partition protein MukF n=1 Ta...  631     0.0   
+  UniRef90_UPI00037734B9 chromosome partition protein MukF n=1 Ta...  631     0.0   
+  UniRef90_A0A1B7I8Y1 Chromosome partition protein MukF n=12 Tax=...  631     0.0   
+  UniRef90_Q8ZGA1 Chromosome partition protein MukF n=121 Tax=Ent...  630     0.0   
+  UniRef90_UPI0004B854F9 chromosome partition protein MukF n=1 Ta...  629     0.0   
+  UniRef90_G9YBL2 Chromosome partition protein MukF n=9 Tax=Enter...  628     0.0   
+  UniRef90_A0A2C6DSQ6 Chromosome partition protein MukF n=5 Tax=E...  626     0.0   
+  UniRef90_UPI000948E9E5 chromosome partition protein MukF n=1 Ta...  626     0.0   
+  UniRef90_D4GNI0 Chromosome partition protein MukF n=63 Tax=Ente...  625     0.0   
+  UniRef90_A0A2N5ETN0 Chromosome partition protein MukF n=3 Tax=u...  625     0.0   
+  UniRef90_H2IS76 Chromosome partition protein MukF n=20 Tax=Ente...  623     0.0   
+  UniRef90_W1BA41 Chromosome partition protein MukF n=17 Tax=Ente...  622     0.0   
+  UniRef90_C9Y083 Chromosome partition protein MukF n=5 Tax=Crono...  621     0.0   
+  UniRef90_A0A071M7C2 Chromosome partition protein MukF n=3 Tax=M...  621     0.0   
+  UniRef90_A0A1Y0LI79 Chromosome partition protein MukF n=5 Tax=T...  621     0.0   
+  UniRef90_A0A2X4UVR6 Chromosome partition protein MukF n=1 Tax=L...  621     0.0   
+  UniRef90_A0A2I5T975 Chromosome partition protein MukF n=1 Tax=S...  621     0.0   
+  UniRef90_A0A379D3X7 Chromosome partition protein MukF n=1 Tax=P...  620     0.0   
+  UniRef90_A0A0A2VZ14 Chromosome partition protein mukF n=1 Tax=B...  620     0.0   
+  UniRef90_A0A2C5SIK4 Chromosome partition protein MukF n=22 Tax=...  619     0.0   
+  UniRef90_A0A2A2GXH7 Chromosome partition protein MukF n=5 Tax=A...  619     0.0   
+  UniRef90_A0A0J5FWE8 Chromosome partition protein MukF n=32 Tax=...  616     0.0   
+  UniRef90_V5Z7B1 Chromosome partition protein MukF n=35 Tax=Ente...  616     0.0   
+  UniRef90_Q7N6B9 Chromosome partition protein MukF n=33 Tax=Morg...  614     0.0   
+  UniRef90_Q2NU99 Chromosome partition protein MukF n=5 Tax=Sodal...  611     0.0   
+  UniRef90_A0A1G7Z9Q4 Chromosome partition protein MukF n=1 Tax=V...  611     0.0   
+  UniRef90_A0A1H4BGJ2 Chromosome partition protein MukF n=7 Tax=L...  611     0.0   
+  UniRef90_A0A087IQ79 Chromosome partition protein MukF n=17 Tax=...  609     0.0   
+  UniRef90_U3BHA5 Chromosome partition protein MukF n=1 Tax=Vibri...  609     0.0   
+  UniRef90_B7VMH0 Chromosome partition protein MukF n=78 Tax=Vibr...  609     0.0   
+  UniRef90_Q87QW4 Chromosome partition protein MukF n=124 Tax=Vib...  609     0.0   
+  UniRef90_UPI00063C77A1 chromosome partition protein MukF n=1 Ta...  608     0.0   
+  UniRef90_A7N1J9 Chromosome partition protein MukF n=87 Tax=Vibr...  608     0.0   
+  UniRef90_C5BAC9 Chromosome partition protein MukF n=11 Tax=Edwa...  608     0.0   
+  UniRef90_U4JZ01 Chromosome partition protein MukF n=5 Tax=Vibri...  607     0.0   
+  UniRef90_A0A0N1KHQ2 Chromosome partition protein MukF n=2 Tax=M...  606     0.0   
+  UniRef90_A0A2G8EI63 Chromosome partition protein MukF n=3 Tax=E...  606     0.0   
+  UniRef90_B6ERZ9 Chromosome partition protein MukF n=14 Tax=Vibr...  606     0.0   
+  UniRef90_A0A090RDV2 Chromosome partition protein MukF n=1 Tax=V...  606     0.0   
+  UniRef90_A6D7K3 Chromosome partition protein MukF n=11 Tax=Vibr...  606     0.0   
+  UniRef90_A0A370QMJ6 Chromosome partition protein MukF n=1 Tax=E...  605     0.0   
+  UniRef90_A0A2U3BDN5 Chromosome partition protein MukF n=1 Tax=V...  605     0.0   
+  UniRef90_Q6D445 Chromosome partition protein MukF n=41 Tax=Pect...  605     0.0   
+  UniRef90_A0A2J8HVR3 Chromosome partition protein MukF n=2 Tax=V...  604     0.0   
+  UniRef90_UPI0009710ABD chromosome partition protein MukF n=1 Ta...  604     0.0   
+  UniRef90_A0A0M9F8V1 Chromosome partition protein MukF n=33 Tax=...  603     0.0   
+  UniRef90_A0A2M8H3A7 Chromosome partition protein MukF n=1 Tax=V...  603     0.0   
+  UniRef90_F0LSH6 Chromosome partition protein MukF n=10 Tax=Vibr...  602     0.0   
+  UniRef90_A0A1D3DHN6 Chromosome partition protein MukF n=26 Tax=...  601     0.0   
+  UniRef90_UPI0006CFBACD chromosome partition protein MukF n=1 Ta...  601     0.0   
+  UniRef90_Q6LPL3 Chromosome partition protein MukF n=4 Tax=Photo...  601     0.0   
+  UniRef90_UPI000FDF52D0 UPI000FDF52D0 related cluster n=1 Tax=un...  599     0.0   
+  UniRef90_Q9KRC6 Chromosome partition protein MukF n=84 Tax=Vibr...  599     0.0   
+  UniRef90_A0A2N8ZCH6 Chromosome partition protein MukF n=1 Tax=V...  598     0.0   
+  UniRef90_A0A2T3J208 Chromosome partition protein MukF n=5 Tax=P...  598     0.0   
+  UniRef90_UPI000E0C8D5F chromosome partition protein MukF n=2 Ta...  596     0.0   
+  UniRef90_UPI0008380EFA chromosome partition protein MukF n=1 Ta...  594     0.0   
+  UniRef90_L7NK64 Chromosome partition protein MukF n=8 Tax=Photo...  594     0.0   
+  UniRef90_A0A0K1N3K2 Chromosome partition protein MukF n=34 Tax=...  594     0.0   
+  UniRef90_A0A2U8I6J4 Chromosome partition protein MukF n=1 Tax=C...  593     0.0   
+  UniRef90_L8JFC6 Chromosome partition protein MukF n=2 Tax=Photo...  593     0.0   
+  UniRef90_A0A1N6M662 Chromosome partition protein MukF n=13 Tax=...  593     0.0   
+  UniRef90_A0A1B9JIM0 Chromosome partition protein MukF n=38 Tax=...  593     0.0   
+  UniRef90_A0A2M8S5J4 Chromosome partition protein MukF n=1 Tax=C...  592     0.0   
+  UniRef90_C9P492 Chromosome partition protein MukF n=4 Tax=Vibri...  592     0.0   
+  UniRef90_UPI000929A41D chromosome partition protein MukF n=1 Ta...  592     0.0   
+  UniRef90_A0A2P1VN71 Chromosome partition protein MukF n=5 Tax=P...  592     0.0   
+  UniRef90_Q9CN38 Chromosome partition protein MukF n=25 Tax=Past...  591     0.0   
+  UniRef90_A0A369Y3T8 Chromosome partition protein MukF n=1 Tax=A...  591     0.0   
+  UniRef90_A0A128F5U8 Chromosome partition protein MukF n=14 Tax=...  591     0.0   
+  UniRef90_UPI000490DCEA chromosome partition protein MukF n=1 Ta...  590     0.0   
+  UniRef90_B6XBY9 Chromosome partition protein MukF n=30 Tax=Bact...  589     0.0   
+  UniRef90_A0A1V3K8F3 Chromosome partition protein MukF n=1 Tax=R...  589     0.0   
+  UniRef90_A0A2M8RYX6 Chromosome partition protein MukF n=4 Tax=P...  589     0.0   
+  UniRef90_E3BF67 Chromosome partition protein MukF n=1 Tax=Vibri...  588     0.0   
+  UniRef90_A0A356E8P4 Chromosome partition protein MukF n=1 Tax=P...  588     0.0   
+  UniRef90_A0A178KLM2 Chromosome partition protein MukF n=4 Tax=P...  586     0.0   
+  UniRef90_A0A1M5XW56 Chromosome partition protein MukF n=4 Tax=V...  584     0.0   
+  UniRef90_A0A263HBJ1 Chromosome partition protein MukF n=3 Tax=P...  584     0.0   
+  UniRef90_A0A0F5VFW2 Chromosome partition protein MukF n=4 Tax=P...  584     0.0   
+  UniRef90_A0A1R4B2Z0 Chromosome partition protein MukF n=2 Tax=V...  584     0.0   
+  UniRef90_Q65TL7 Chromosome partition protein MukF n=3 Tax=Basfi...  583     0.0   
+  UniRef90_A0A3D1Z9S1 Chromosome partition protein MukF n=6 Tax=V...  583     0.0   
+  UniRef90_UPI000B35C1F9 chromosome partition protein MukF n=1 Ta...  582     0.0   
+  UniRef90_P45185 Chromosome partition protein MukF n=172 Tax=Bac...  582     0.0   
+  UniRef90_A0A1C3EDX2 Chromosome partition protein MukF n=1 Tax=E...  582     0.0   
+  UniRef90_I3DI29 Chromosome partition protein MukF n=1 Tax=Paste...  581     0.0   
+  UniRef90_C5S3C1 Chromosome partition protein MukF n=3 Tax=Actin...  580     0.0   
+  UniRef90_A0A1E5BHP4 Chromosome partition protein MukF n=6 Tax=V...  579     0.0   
+  UniRef90_A0A1T0ASA5 Chromosome partition protein MukF n=1 Tax=H...  578     0.0   
+  UniRef90_I3DP24 Chromosome partition protein MukF n=8 Tax=Haemo...  578     0.0   
+  UniRef90_B0BUD7 Chromosome partition protein MukF n=26 Tax=Past...  578     0.0   
+  UniRef90_UPI000EABB645 chromosome partition protein MukF n=1 Ta...  577     0.0   
+  UniRef90_UPI000B34D412 chromosome partition protein MukF n=1 Ta...  577     0.0   
+  UniRef90_A0A0A3AVY2 Chromosome partition protein MukF n=2 Tax=P...  577     0.0   
+  UniRef90_A6VP67 Chromosome partition protein MukF n=3 Tax=Paste...  577     0.0   
+  UniRef90_A0A1E5E1Y4 Chromosome partition protein MukF n=1 Tax=V...  576     0.0   
+  UniRef90_B8F3P6 Chromosome partition protein MukF n=19 Tax=Glae...  574     0.0   
+  UniRef90_A0A0F5ERB5 Chromosome partition protein MukF n=10 Tax=...  574     0.0   
+  UniRef90_B0UU62 Chromosome partition protein MukF n=7 Tax=Bacte...  574     0.0   
+  UniRef90_J5HJL6 Chromosome partition protein MukF n=3 Tax=Haemo...  573     0.0   
+  UniRef90_UPI000F71860C chromosome partition protein MukF n=1 Ta...  572     0.0   
+  UniRef90_A0A1V3I2E4 Chromosome partition protein MukF n=7 Tax=V...  571     0.0   
+  UniRef90_A0A3N4W0Q5 Condensin subunit MukF n=1 Tax=Vespertiliib...  571     0.0   
+  UniRef90_A0A1R4IC93 Chromosome partition protein MukF n=3 Tax=B...  570     0.0   
+  UniRef90_A0A1H9ZA98 Chromosome partition protein MukF n=1 Tax=T...  570     0.0   
+  UniRef90_F4H9L3 Chromosome partition protein MukF n=22 Tax=Gall...  570     0.0   
+  UniRef90_A3MZU5 Chromosome partition protein MukF n=2 Tax=Actin...  568     0.0   
+  UniRef90_A0A3N9TCM8 Chromosome partition protein MukF n=1 Tax=V...  567     0.0   
+  UniRef90_A0A1V3TM71 Chromosome partition protein MukF n=1 Tax=P...  566     0.0   
+  UniRef90_M4R7Y8 Chromosome partition protein MukF n=5 Tax=Biber...  566     0.0   
+  UniRef90_A0A0F5AU19 Chromosome partition protein MukF n=17 Tax=...  566     0.0   
+  UniRef90_A0A1H7Y8A5 Chromosome partition protein MukF n=1 Tax=P...  565     0.0   
+  UniRef90_A0A379CA48 Chromosome partition protein MukF n=2 Tax=P...  565     0.0   
+  UniRef90_A0A3N4WTY9 Condensin subunit MukF n=1 Tax=Frederikseni...  564     0.0   
+  UniRef90_A0A0J5P9D2 Chromosome partition protein MukF n=1 Tax=M...  563     0.0   
+  UniRef90_A0A0A7S3S5 Chromosome partition protein MukF n=2 Tax=F...  561     0.0   
+  UniRef90_UPI000466E11A chromosome partition protein MukF n=1 Ta...  560     0.0   
+  UniRef90_UPI000EB11D82 chromosome partition protein MukF n=1 Ta...  559     0.0   
+  UniRef90_A0A377WIC0 Chromosome partition protein MukF n=3 Tax=E...  557     0.0   
+  UniRef90_Q7VL94 Chromosome partition protein MukF n=4 Tax=Haemo...  557     0.0   
+  UniRef90_A0A0J8YV72 Chromosome partition protein MukF n=3 Tax=E...  554     0.0   
+  UniRef90_UPI0002E9E37A chromosome partition protein MukF n=1 Ta...  539     0.0   
+  UniRef90_A0A1X1MQE4 Chromosome partition protein MukF n=1 Tax=V...  536     0.0   
+  UniRef90_C4K784 Chromosome partition protein MukF n=5 Tax=Candi...  524     0.0   
+  UniRef90_U3B0J3 Chromosome partition protein MukF n=12 Tax=Vibr...  521     0.0   
+  UniRef90_A0A0B8QEF8 Chromosome partition protein MukF n=4 Tax=V...  519     1e-180
+  UniRef90_V5FJZ7 Chromosome partition protein MukF n=1 Tax=Vibri...  516     3e-179
+  UniRef90_H2FW86 Chromosome partition protein MukF n=7 Tax=Aerom...  515     1e-178
+  UniRef90_A0A291HPK1 Chromosome partition protein MukF n=3 Tax=Z...  503     4e-174
+  UniRef90_A0A2P5TIF1 Chromosome partition protein MukF n=3 Tax=A...  500     3e-173
+  UniRef90_A0A1A6KLE5 Chromosome partition protein MukF n=1 Tax=V...  500     7e-173
+  UniRef90_UPI00098AA7DE chromosome partition protein MukF n=7 Ta...  489     2e-170
+  UniRef90_A0A379TCV9 Killing factor KicB n=6 Tax=Enterobacteriac...  488     1e-169
+  UniRef90_UPI000E770E39 chromosome partition protein MukF n=1 Ta...  488     5e-168
+  UniRef90_A0A0S2SG43 Chromosome partition protein MukF n=1 Tax=A...  485     5e-167
+  UniRef90_N9TXV0 Chromosome partition protein MukF n=4 Tax=Aerom...  483     4e-166
+  UniRef90_A0A2X4NMU7 Chromosome partition protein MukF n=106 Tax...  482     4e-166
+  UniRef90_C4LEQ9 Chromosome partition protein MukF n=2 Tax=Tolum...  482     1e-165
+  UniRef90_A0A1Y0D1J3 Chromosome partition protein MukF n=1 Tax=O...  480     5e-165
+  UniRef90_A0A376P3L5 Chromosome partition protein n=3 Tax=Entero...  441     9e-152
+  UniRef90_A0A1Y0CUZ9 Chromosome partition protein MukF n=1 Tax=O...  445     1e-151
+  UniRef90_A0A0H6F2P1 Condesin subunit F n=2 Tax=Vibrio cholerae ...  439     7e-151
+  UniRef90_UPI00067FE93B chromosome partition protein MukF n=1 Ta...  438     2e-150
+  UniRef90_A0A3A1Y3L0 Chromosome partition protein MukF n=1 Tax=B...  443     2e-149
+  UniRef90_A0A3A1YBG5 Chromosome partition protein MukF n=1 Tax=B...  437     2e-147
+  UniRef90_A0A090S0F7 Chromosome partition protein MukF n=3 Tax=V...  429     5e-147
+  UniRef90_A0A3A1YBJ3 Chromosome partition protein MukF n=1 Tax=B...  429     3e-144
+  UniRef90_A0A379BAL1 Chromosome partition protein MukF n=1 Tax=P...  421     9e-144
+  UniRef90_A0A3A1YNJ6 Chromosome partition protein MukF n=1 Tax=B...  420     2e-140
+  UniRef90_F9GU66 Condesin subunit F n=3 Tax=Haemophilus TaxID=72...  406     5e-138
+  UniRef90_A0A379AJ37 Condesin subunit F n=1 Tax=Enterobacter agg...  388     1e-131
+  UniRef90_A0A377LJE1 Chromosome partition protein n=1 Tax=Escher...  382     2e-128
+  UniRef90_A0A0G9I8S0 Condesin subunit F n=2 Tax=Xanthomonas hyac...  384     2e-127
+  UniRef90_UPI000CD1BAEE condensin subunit MukF n=1 Tax=Pseudomon...  383     6e-127
+  UniRef90_A0A162AYE1 Chromosome partition protein MukF n=3 Tax=M...  381     1e-126
+  UniRef90_A9G7H5 MukF protein n=3 Tax=Sorangium cellulosum TaxID...  382     2e-126
+  UniRef90_L0H189 Uncharacterized protein involved in chromosome ...  377     7e-125
+  UniRef90_A0A0H6KNW3 Condesin subunit F n=2 Tax=Vibrio cholerae ...  373     1e-124
+  UniRef90_A0A1M3N934 Condensin subunit MukF n=1 Tax=Myxococcales...  372     9e-123
+  UniRef90_UPI0004ACBB03 condensin subunit MukF n=1 Tax=Thioalkal...  365     9e-120
+  UniRef90_A0A0D6T086 Chromosome partition protein MukF n=18 Tax=...  360     4e-118
+  UniRef90_A0A376ZR91 Chromosome partition protein n=10 Tax=Enter...  348     5e-116
+  UniRef90_A0A379U109 Killing factor KicB n=5 Tax=Enterobacteriac...  347     7e-116
+  UniRef90_A0A081K5S7 Chromosome partition protein MukF n=1 Tax=E...  354     2e-115
+  UniRef90_A0A1B4V7S6 Condesin subunit F n=1 Tax=Sulfurifustis va...  341     2e-110
+  UniRef90_UPI000C75F97E hypothetical protein n=1 Tax=Endozoicomo...  341     2e-110
+  UniRef90_A0A150TJN6 Chromosome partition protein MukF n=4 Tax=S...  339     3e-109
+  UniRef90_A0A1J5DWA4 Condensin subunit MukF n=1 Tax=Deltaproteob...  337     4e-109
+  UniRef90_A0A379WXF2 Killing factor KicB n=1 Tax=Salmonella ente...  329     3e-108
+  UniRef90_J4SLR0 Condesin subunit F (Fragment) n=1 Tax=Pasteurel...  327     1e-107
+  UniRef90_A0A150SGL8 Chromosome partition protein MukF (Fragment...  321     1e-104
+  UniRef90_A0A142BDH4 Chromosome partition protein MukF n=2 Tax=E...  324     1e-103
+  UniRef90_A0A2W4LLF0 Condensin subunit MukF n=1 Tax=Proteobacter...  320     1e-102
+  UniRef90_UPI0007826E70 hypothetical protein n=1 Tax=Endozoicomo...  316     1e-100
+  UniRef90_A0A090P8A9 Chromosome partition protein MukF n=1 Tax=V...  306     9e-100
+  UniRef90_A0A2Z4FKR5 Condensin subunit MukF n=1 Tax=Bradymonas s...  313     1e-99 
+  UniRef90_A0A1D2X592 Uncharacterized protein n=1 Tax=Endozoicomo...  310     2e-98 
+  UniRef90_A0A2N5QNY6 Condensin subunit MukF n=2 Tax=Chromobacter...  311     2e-98 
+  UniRef90_UPI000371FDAD hypothetical protein n=1 Tax=Lamprocysti...  307     2e-97 
+  UniRef90_A0A1M3NHQ7 Uncharacterized protein n=1 Tax=Myxococcale...  304     3e-96 
+  UniRef90_A0A0K1QDC1 Chromosome partition protein MukF n=1 Tax=L...  303     9e-96 
+  UniRef90_A0A0H6UBD8 Condesin subunit F n=1 Tax=Vibrio cholerae ...  288     7e-93 
+  UniRef90_UPI000481225A hypothetical protein n=1 Tax=Paraburkhol...  297     9e-93 
+  UniRef90_UPI0009B1227E hypothetical protein n=1 Tax=Salmonella ...  286     3e-92 
+  UniRef90_T1I454 Uncharacterized protein n=1 Tax=Rhodnius prolix...  292     2e-91 
+  UniRef90_Q8GF09 Chromosome partition protein MukF (Fragment) n=...  276     7e-89 
+  UniRef90_A0A1B7K1W6 Uncharacterized protein n=25 Tax=Enterobact...  285     2e-88 
+  UniRef90_UPI000F8766C9 hypothetical protein n=1 Tax=Corallococc...  283     1e-87 
+  UniRef90_A0A379GYN8 Condesin subunit F n=1 Tax=Providencia stua...  269     4e-86 
+  UniRef90_A0A022PJ04 Chromosome partition protein MukF n=1 Tax=P...  276     4e-85 
+  UniRef90_A0A1Q9HR95 Uncharacterized protein n=3 Tax=Vibrio TaxI...  273     1e-83 
+  UniRef90_UPI000E1B9A5C hypothetical protein n=1 Tax=Hafnia alve...  271     4e-83 
+  UniRef90_UPI000996879D hypothetical protein n=1 Tax=Vibrio para...  274     4e-82 
+  UniRef90_A0A379VSY2 Chromosome partition protein mukF n=1 Tax=S...  258     8e-82 
+  UniRef90_UPI00044A9886 hypothetical protein n=2 Tax=Vibrio para...  269     8e-82 
+  UniRef90_G7YYF6 3-demethylubiquinone-9 3-methyltransferase (Fra...  262     6e-81 
+  UniRef90_A0A0H6U873 Condesin subunit F n=1 Tax=Vibrio cholerae ...  252     2e-79 
+  UniRef90_UPI0003701C7E hypothetical protein n=1 Tax=Thiobacillu...  261     2e-79 
+  UniRef90_UPI00077FFF7E hypothetical protein n=2 Tax=Vibrio TaxI...  261     6e-79 
+  UniRef90_A0A336N6M1 Chromosome partition protein mukF n=1 Tax=A...  250     8e-79 
+  UniRef90_A0A0I1ZRU6 Condesin subunit F n=1 Tax=Shigella sonnei ...  250     3e-78 
+  UniRef90_J4SQT8 Condesin subunit F (Fragment) n=1 Tax=Pasteurel...  249     3e-78 
+  UniRef90_A0A0B8P1R4 Chromosome partition protein mukF n=1 Tax=V...  250     3e-78 
+  UniRef90_UPI000B4394EF hypothetical protein n=1 Tax=Candidatus ...  244     4e-76 
+  UniRef90_A0A378DAP2 Chromosome partition protein MukF n=5 Tax=K...  237     6e-74 
+  UniRef90_A0A376ZTH5 Chromosome partition protein n=1 Tax=Escher...  227     5e-70 
+  UniRef90_A0A376KX30 Chromosome partition protein n=1 Tax=Escher...  210     2e-63 
+  UniRef90_UPI00098C975F kicB killing factor family protein n=2 T...  203     9e-61 
+  UniRef90_A0A1B1E8R2 Uncharacterized protein n=2 Tax=Vibrio TaxI...  211     2e-59 
+  UniRef90_A0A379WW32 Chromosome partition protein mukF n=1 Tax=S...  196     3e-58 
+  UniRef90_A4NYG1 Condesin subunit F n=2 Tax=Haemophilus influenz...  194     2e-57 
+  UniRef90_A0A379BAA5 Chromosome partition protein MukF n=1 Tax=P...  181     2e-52 
+  UniRef90_A0KX06 Uncharacterized protein n=2 Tax=Shewanella sp. ...  183     1e-50 
+  UniRef90_A0A379WB43 Chromosome partition protein mukF n=2 Tax=S...  174     5e-50 
+  UniRef90_A0A090P585 Chromosome partition protein MukF n=1 Tax=V...  165     2e-46 
+  UniRef90_A0A377SGI0 Chromosome partition protein MukF n=2 Tax=K...  148     2e-40 
+  UniRef90_A0A0H6PX77 Condesin subunit F n=1 Tax=Vibrio cholerae ...  145     3e-39 
+  UniRef90_A0A379WB80 Killing factor KicB n=1 Tax=Salmonella ente...  145     6e-39 
+  UniRef90_A0A090SGC4 Chromosome partition protein MukF n=2 Tax=V...  146     6e-39 
+  UniRef90_A0A090SLL2 Chromosome partition protein MukF n=1 Tax=V...  144     1e-38 
+  UniRef90_A0A377AUV9 Chromosome partition protein n=1 Tax=Escher...  142     6e-38 
+  UniRef90_G5RE06 Uncharacterized protein n=1 Tax=Salmonella ente...  142     1e-36 
+  UniRef90_D1NFH7 Killing factor kicB n=1 Tax=Haemophilus influen...  138     3e-36 
+  UniRef90_UPI0005CA98DF hypothetical protein n=1 Tax=Escherichia...  133     7e-35 
+  UniRef90_A0A379S926 Chromosome partition protein mukF n=1 Tax=S...  126     3e-32 
+  UniRef90_D1NED5 Killing factor kicB n=1 Tax=Haemophilus influen...  124     2e-31 
+  UniRef90_A0A379AIB1 Condesin subunit F n=1 Tax=Enterobacter agg...  122     1e-30 
+  UniRef90_A0A376F4L1 Condesin subunit F n=1 Tax=Enterobacter asb...  116     6e-29 
+  UniRef90_A0A3P4HCB1 Chromosome partition protein MukF n=1 Tax=K...  116     1e-28 
+  UniRef90_A0A378N5F3 Chromosome partition protein mukF n=1 Tax=M...  116     2e-28 
+  UniRef90_F9GU67 Putative chromosome partition protein MukF n=1 ...  115     4e-28 
+  UniRef90_A0A0D8L0T0 Uncharacterized protein (Fragment) n=1 Tax=...  116     1e-27 
+  UniRef90_A0A376KX28 Chromosome partition protein n=1 Tax=Escher...  108     2e-25 
+  UniRef90_V1H5D1 Uncharacterized protein n=1 Tax=Salmonella ente...  108     2e-24 
+  UniRef90_A0A377AXU5 Chromosome partition protein n=2 Tax=Escher...  103     4e-24 
+  UniRef90_A0A378BN64 Chromosome partition protein MukF n=1 Tax=K...  101     5e-23 
+  UniRef90_A0A182KLQ4 Uncharacterized protein n=1 Tax=Anopheles c...  96.9    5e-21 
+  UniRef90_G5L787 Chromosome partition protein MukF (Fragment) n=...  89.6    6e-19 
+  UniRef90_A0A379WCL6 Chromosome partition protein mukF n=1 Tax=S...  89.6    8e-19 
+  UniRef90_A0A376KXL7 Chromosome partition protein n=1 Tax=Escher...  88.8    1e-18 
+  UniRef90_UPI00098AF51E hypothetical protein n=1 Tax=Escherichia...  78.4    5e-15 
+  UniRef90_A0A379FU63 Condesin subunit F n=1 Tax=Providencia rett...  78.0    6e-15 
+  UniRef90_F9GU68 Putative chromosome partition protein MukF n=1 ...  71.9    8e-13 
+  UniRef90_A0A376F6X1 Condesin subunit F n=1 Tax=Enterobacter asb...  68.8    1e-11 
+  UniRef90_A0A379TDB8 Chromosome partition protein mukF n=1 Tax=S...  68.4    2e-11 
+  UniRef90_J6CZ15 Condesin subunit F n=1 Tax=Pasteurella multocid...  65.7    2e-10 
+  UniRef90_A0A0T9XPK4 Killing factor KicB n=1 Tax=Salmonella ente...  61.1    5e-09 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_V1H932 Uncharacterized protein n=1 Tax=Salmonella ente...  170     4e-46
+  UniRef90_A0A1F9F186 Uncharacterized protein n=1 Tax=Deltaproteo...  52.2    3e-05
+  UniRef90_A0A2M9DTM4 Uncharacterized protein n=1 Tax=Desulfofaba...  52.2    7e-04
+  UniRef90_C8X2Y0 Uncharacterized protein n=2 Tax=Desulfohalobium...  49.5    0.006
+  UniRef90_A0A139AAY6 Uncharacterized protein n=1 Tax=Gonapodya p...  49.5    0.008
+  UniRef90_A0A2P5Y4Z8 Uncharacterized protein n=1 Tax=Gossypium b...  49.1    0.011
+  UniRef90_UPI000FC99AF2 hypothetical protein n=1 Tax=unknown Tax...  48.4    0.015
+  UniRef90_UPI0005D27E67 protein fantom-like n=1 Tax=Takifugu rub...  48.4    0.021
+  UniRef90_A2ER99 Uncharacterized protein n=1 Tax=Trichomonas vag...  48.0    0.023
+  UniRef90_A0A022PWH7 Uncharacterized protein n=1 Tax=Erythranthe...  48.0    0.024
+  UniRef90_A0A2M3YYS7 Putative transport and golgi organization p...  48.0    0.026
+  UniRef90_A0A2N3QP01 Uncharacterized protein n=1 Tax=Bifidobacte...  46.8    0.043
+  UniRef90_A0A182F4M2 Uncharacterized protein n=1 Tax=Anopheles a...  47.2    0.047
+  UniRef90_A7RVR2 Predicted protein n=1 Tax=Nematostella vectensi...  47.2    0.047
+  UniRef90_A0A2L0ES66 Uncharacterized protein n=2 Tax=Sorangium c...  46.1    0.047
+  UniRef90_A0A2M4A1G0 Putative transport and golgi organization p...  46.8    0.048
+  UniRef90_A0A3N5A0J5 Uncharacterized protein n=1 Tax=Streptomyce...  47.2    0.049
+  UniRef90_A0A2R6PYH8 Myosin-11 like (Fragment) n=1 Tax=Actinidia...  46.8    0.052
+  UniRef90_A0A1H7AGG0 Ligand-binding sensor domain-containing pro...  46.8    0.053
+  UniRef90_A0A0B8Q1R9 Chromosome partition protein mukF n=1 Tax=V...  41.0    0.060
+  UniRef90_A0A2H1WS58 SFRICE_034400 n=1 Tax=Spodoptera frugiperda...  46.1    0.082
+  UniRef90_A0A2K6EFB9 Huntingtin associated protein 1 n=1 Tax=Pro...  45.7    0.090
+  UniRef90_R5KPE0 Uncharacterized protein n=1 Tax=Clostridium sp....  46.1    0.093
+  UniRef90_A0A1Q3HKH2 Uncharacterized protein n=1 Tax=Archangium ...  42.6    0.095
+  UniRef90_A0A0D2PI35 Uncharacterized protein n=1 Tax=Gossypium r...  46.1    0.11 
+  UniRef90_A0A2M4B9F7 Putative transport and golgi organization p...  46.1    0.11 
+  UniRef90_UPI000C9EF34D microtubule-actin cross-linking factor 1...  46.1    0.12 
+  UniRef90_A0A1Q3FLM3 Putative actin-binding protein n=1 Tax=Cule...  45.7    0.14 
+  UniRef90_UPI0006785C04 LOW QUALITY PROTEIN: unconventional myos...  45.3    0.16 
+  UniRef90_A0A1U8IWK0 myosin-11-like n=16 Tax=malvids TaxID=91836...  45.3    0.17 
+  UniRef90_A0A2K5PW93 Laminin subunit alpha 5 n=1 Tax=Cebus capuc...  45.3    0.19 
+  UniRef90_UPI000809C298 laminin subunit alpha-5 isoform X4 n=1 T...  45.3    0.19 
+  UniRef90_A0A137Q5X8 Laccase-1 n=1 Tax=Leucoagaricus sp. SymC.co...  44.9    0.19 
+  UniRef90_A0A2E4CFX1 Two-component sensor histidine kinase n=6 T...  44.9    0.20 
+  UniRef90_UPI0003F09460 laminin subunit alpha-5 n=1 Tax=Elephant...  45.3    0.20 
+  UniRef90_A0A0F7ZBB4 Dystonin isoform X3 n=3 Tax=Colubroidea Tax...  44.9    0.21 
+  UniRef90_A0A392M3L5 LINE-type retrotransposon lib insertion at ...  44.5    0.23 
+  UniRef90_A0A1U8LF63 myosin-9-like n=4 Tax=Gossypium TaxID=3633 ...  44.9    0.23 
+  UniRef90_A0A1Q3NW60 Glutamine cyclotransferase n=1 Tax=Bosea sp...  43.4    0.24 
+  UniRef90_F7HQI4 Laminin subunit alpha 5 n=2 Tax=Platyrrhini Tax...  44.9    0.25 
+  UniRef90_UPI0008403F96 LOW QUALITY PROTEIN: laminin subunit alp...  44.9    0.25 
+  UniRef90_UPI0004198892 hypothetical protein n=1 Tax=Paenibacill...  44.5    0.26 
+  UniRef90_A0A151M390 RBR-type E3 ubiquitin transferase n=1 Tax=A...  44.5    0.27 
+  UniRef90_A0A2P5BBC4 Myosin n=1 Tax=Parasponia andersonii TaxID=...  44.5    0.27 
+  UniRef90_A0A314XLT2 Uncharacterized protein n=1 Tax=Prunus yedo...  44.5    0.27 
+  UniRef90_S8D8I0 Uncharacterized protein (Fragment) n=1 Tax=Genl...  44.5    0.28 
+  UniRef90_A0A3B8JP16 Uncharacterized protein n=2 Tax=unclassifie...  44.1    0.35 
+  UniRef90_UPI0008295EDF HAMP domain-containing protein n=1 Tax=R...  43.7    0.42 
+  UniRef90_A0A1I5GEM0 Immunoglobulin domain-containing protein n=...  44.1    0.42 
+  UniRef90_UPI0003C03ABB mitotic spindle assembly checkpoint prot...  44.1    0.43 
+  UniRef90_Q6SE70 Putative putative minor tail protein n=2 Tax=ro...  44.1    0.44 
+  UniRef90_A0A1J4L5X2 Uncharacterized protein n=1 Tax=Tritrichomo...  43.4    0.44 
+  UniRef90_A0A3M6UHC4 Uncharacterized protein (Fragment) n=1 Tax=...  44.1    0.44 
+  UniRef90_A0A0F8B2V0 Protein fantom n=3 Tax=Larimichthys crocea ...  43.7    0.47 
+  UniRef90_UPI0006B87BFF unconventional myosin-XVIIIb n=2 Tax=Par...  43.7    0.47 
+  UniRef90_E4TFQ6 Uncharacterized protein n=1 Tax=Calditerrivibri...  43.4    0.49 
+  UniRef90_G5AMJ9 Microtubule-actin cross-linking factor 1, isofo...  43.7    0.54 
+  UniRef90_A0A212FAC4 Bm8 interacting protein n=1 Tax=Danaus plex...  43.7    0.54 
+  UniRef90_A0A2G9HRU7 Myosin class V heavy chain n=3 Tax=Lamiales...  43.7    0.57 
+  UniRef90_UPI0004897AC1 hypothetical protein n=1 Tax=Lachnospira...  42.6    0.58 
+  UniRef90_A0A1Q3FKY2 Putative actin-binding protein n=3 Tax=Cule...  43.4    0.59 
+  UniRef90_D2R6S3 Histidine kinase n=2 Tax=Pirellula staleyi TaxI...  43.4    0.59 
+  UniRef90_A0A396JLS2 Putative RNA-directed DNA polymerase n=1 Ta...  42.6    0.63 
+  UniRef90_UPI000F54F920 centriolin-like n=1 Tax=Pocillopora dami...  43.4    0.64 
+  UniRef90_A0A2U9BVQ3 Putative complement C5 n=1 Tax=Scophthalmus...  43.4    0.67 
+  UniRef90_A0A2Y9F562 centromere-associated protein E isoform X4 ...  43.4    0.69 
+  UniRef90_A0A1D1YYC8 Myosin-J heavy chain (Fragment) n=1 Tax=Ant...  43.4    0.70 
+  UniRef90_A0A1S4FFL7 Uncharacterized protein n=5 Tax=Aedes aegyp...  43.4    0.71 
+  UniRef90_A0A3N6MZ34 PAS domain S-box protein n=1 Tax=Natrialbac...  43.4    0.71 
+  UniRef90_A0A0Q8Y765 Uncharacterized protein n=1 Tax=Terrabacter...  41.4    0.72 
+  UniRef90_A0A1W2DGL4 TcdA/TcdB catalytic glycosyltransferase dom...  43.4    0.75 
+  UniRef90_A0A1A9I1W1 Histidine kinase n=1 Tax=Niabella ginsenosi...  43.0    0.78 
+  UniRef90_A0A2Z7BPS2 Myosin-9 n=1 Tax=Dorcoceras hygrometricum T...  43.0    0.78 
+  UniRef90_A0A3D1TIG4 Uncharacterized protein n=1 Tax=Verrucomicr...  43.0    0.79 
+  UniRef90_UPI000D7344B4 E3 ubiquitin-protein ligase TRIM9-like i...  42.6    0.82 
+  UniRef90_A0A132GWG8 Uncharacterized protein (Fragment) n=1 Tax=...  43.0    0.85 
+  UniRef90_A0A3A4SVH2 Uncharacterized protein n=1 Tax=Desulfobact...  42.6    0.88 
+  UniRef90_UPI000B4F1643 apolipoprotein B-100 n=1 Tax=Meriones un...  43.0    0.88 
+  UniRef90_A0A167PCL0 Kinesin-like protein n=1 Tax=Sporothrix ins...  43.0    0.88 
+  UniRef90_A0A353GRB5 Phosphoribosylformylglycinamidine synthase ...  43.0    0.89 
+  UniRef90_W5JBM8 Uncharacterized protein n=1 Tax=Anopheles darli...  43.0    0.91 
+  UniRef90_UPI000A336C59 microtubule-actin cross-linking factor 1...  43.0    0.91 
+  UniRef90_UPI000CD9F577 myosin-11-like n=1 Tax=Lactuca sativa Ta...  43.0    0.93 
+  UniRef90_UPI000A337474 microtubule-actin cross-linking factor 1...  43.0    0.95 
+  UniRef90_UPI000A32BAE2 microtubule-actin cross-linking factor 1...  43.0    0.95 
+  UniRef90_A0A2M4CJG9 Putative transport and golgi organization p...  43.0    0.97 
+  UniRef90_UPI000D72DF6F uncharacterized protein LOC112563700 iso...  42.6    0.97 
+  UniRef90_UPI000A342581 microtubule-actin cross-linking factor 1...  43.0    1.00 
+  UniRef90_UPI00073D3FEE uncharacterized protein LOC107074580 iso...  42.6    1.0  
+  UniRef90_UPI00042BB6CD E3 ubiquitin-protein ligase TRIM11-like ...  42.2    1.0  
+  UniRef90_D5MTP2 Bm8 interacting protein 2-11 n=1 Tax=Bombyx mor...  42.6    1.0  
+  UniRef90_A0A2Y9G3R3 laminin subunit alpha-5 n=4 Tax=Caniformia ...  43.0    1.1  
+  UniRef90_UPI000D733E8B uncharacterized protein LOC112563700 iso...  42.2    1.1  
+  UniRef90_UPI000C87AAC5 microtubule-actin cross-linking factor 1...  43.0    1.1  
+  UniRef90_H9JM22 Uncharacterized protein n=1 Tax=Bombyx mori Tax...  42.6    1.1  
+  UniRef90_UPI00073D96EE uncharacterized protein LOC107074580 iso...  42.6    1.1  
+  UniRef90_K4D4N5 Uncharacterized protein n=20 Tax=Solanaceae Tax...  42.6    1.1  
+  UniRef90_H0VH85 Microtubule-actin crosslinking factor 1 n=1 Tax...  42.6    1.1  
+  UniRef90_UPI0006619233 microtubule-actin cross-linking factor 1...  42.6    1.1  
+  UniRef90_A0A235J6P7 Uncharacterized protein n=1 Tax=Nostoc sp. ...  42.6    1.2  
+  UniRef90_UPI0009E44175 myosin-11-like isoform X1 n=3 Tax=Epiden...  42.6    1.2  
+  UniRef90_A0A2I0B070 Uncharacterized protein n=1 Tax=Apostasia s...  42.6    1.2  
+  UniRef90_UPI0003331988 centrosomal protein of 85 kDa isoform X1...  42.2    1.2  
+  UniRef90_A0A286XLL3 Microtubule-actin crosslinking factor 1 n=1...  42.6    1.2  
+  UniRef90_A0A2E8F4F1 Uncharacterized protein (Fragment) n=1 Tax=...  42.2    1.2  
+  UniRef90_A0A2I0WPY0 Uncharacterized protein n=4 Tax=Epidendroid...  42.6    1.2  
+  UniRef90_A0A093HUL3 Unconventional myosin-XVIIIb (Fragment) n=1...  42.6    1.2  
+  UniRef90_A0A2H1V187 SFRICE_005246 n=1 Tax=Spodoptera frugiperda...  42.6    1.3  
+  UniRef90_M7SF62 Putative phosphoglycerate mutase family protein...  41.8    1.3  
+  UniRef90_UPI0002B4352D mitochondrial fission protein ELM1 n=5 T...  41.8    1.4  
+  UniRef90_UPI000E1C99C4 unconventional myosin-XVIIIb n=1 Tax=Apt...  42.2    1.4  
+  UniRef90_H2MAV3 Uncharacterized protein n=7 Tax=Oryzias latipes...  42.2    1.4  
+  UniRef90_UPI000463D7AD hypothetical protein n=2 Tax=Firmicutes ...  40.3    1.4  
+  UniRef90_A0A2I4FM80 myosin-11-like isoform X1 n=2 Tax=Juglans r...  42.2    1.4  
+  UniRef90_UPI000EF8A3C7 transport and Golgi organization protein...  42.2    1.4  
+  UniRef90_A0A368KMG9 Uncharacterized protein n=1 Tax=Blastopirel...  42.2    1.5  
+  UniRef90_F9ZWV0 Multi-sensor hybrid histidine kinase n=1 Tax=Me...  42.2    1.5  
+  UniRef90_A0A2P5DJI6 Myosin n=1 Tax=Trema orientale TaxID=63057 ...  42.2    1.5  
+  UniRef90_A0A2H3WZI1 myosin-17-like n=3 Tax=Arecaceae TaxID=4710...  42.2    1.5  
+  UniRef90_UPI0007710D40 fas-binding factor 1-like isoform X1 n=9...  42.2    1.6  
+  UniRef90_B9I5L5 Uncharacterized protein n=4 Tax=Populus TaxID=3...  42.2    1.6  
+  UniRef90_UPI000E403EB7 disks large homolog 5-like isoform X2 n=...  42.2    1.6  
+  UniRef90_UPI000B4E859F protein PRRC2C-like isoform X1 n=3 Tax=O...  42.2    1.6  
+  UniRef90_V5FYU3 Outer membrane protein, OMP85 family n=1 Tax=By...  41.8    1.6  
+  UniRef90_A0A091EB58 Microtubule-actin cross-linking factor 1, i...  42.2    1.7  
+  UniRef90_UPI000C1402AA transport and Golgi organization protein...  42.2    1.7  
+  UniRef90_A0A395NHH6 Kinesin family member 11 n=1 Tax=Trichoderm...  42.2    1.7  
+  UniRef90_A0A261FUQ1 Efflux ABC transporter, permease protein n=...  42.2    1.7  
+  UniRef90_B9S7I4 Myosin XI, putative n=9 Tax=Euphorbiaceae TaxID...  42.2    1.7  
+  UniRef90_UPI000C15612C chemotaxis protein n=1 Tax=Lachnospirace...  41.8    1.7  
+  UniRef90_UPI000996225B DUF1002 domain-containing protein n=1 Ta...  41.4    1.7  
+  UniRef90_UPI000237A01B hypothetical protein n=1 Tax=Ruegeria co...  41.8    1.7  
+  UniRef90_UPI000EA9330F dystonin isoform X2 n=1 Tax=Pseudonaja t...  42.2    1.7  
+  UniRef90_A0A372DDJ1 Uncharacterized protein n=1 Tax=Limnothrix ...  41.4    1.8  
+  UniRef90_A0A2N2V857 Uncharacterized protein n=1 Tax=Betaproteob...  41.8    1.8  
+  UniRef90_F7HRI4 Myosin XVIIIB n=2 Tax=Callithrix jacchus TaxID=...  42.2    1.8  
+  UniRef90_A0A3B3SD66 Myosin XVIIIB n=2 Tax=Paramormyrops kingsle...  41.8    1.8  
+  UniRef90_UPI0008A0BA8A myosin-11-like isoform X1 n=6 Tax=Musa a...  41.8    1.9  
+  UniRef90_UPI000483C58B hypothetical protein n=1 Tax=Desulfoverm...  41.4    1.9  
+  UniRef90_UPI000F7888DC hypothetical protein n=1 Tax=Candidatus ...  41.8    1.9  
+  UniRef90_A0A1N6GVH5 Potassium efflux system protein n=2 Tax=Nit...  41.8    1.9  
+  UniRef90_A0A2P5EG15 Myosin n=2 Tax=Cannabaceae TaxID=3481 RepID...  41.8    2.0  
+  UniRef90_A0A3L6SMZ0 Myosin-17 isoform X1 n=1 Tax=Panicum miliac...  41.8    2.0  
+  UniRef90_F5LSN4 Methyl-accepting chemotaxis protein signaling d...  41.8    2.0  
+  UniRef90_UPI000EAAE5D6 microtubule-actin cross-linking factor 1...  41.8    2.0  
+  UniRef90_A0A3B6V8Y1 Uncharacterized protein n=18 Tax=Brachyspir...  41.8    2.1  
+  UniRef90_V4NU03 Uncharacterized protein n=1 Tax=Asticcacaulis b...  41.8    2.1  
+  UniRef90_UPI000936004A cytospin-A isoform X1 n=8 Tax=Aedes albo...  41.8    2.1  
+  UniRef90_UPI000A3B1D88 LOW QUALITY PROTEIN: unconventional myos...  41.8    2.1  
+  UniRef90_A0A1Q9DM27 Uncharacterized protein n=1 Tax=Symbiodiniu...  41.8    2.1  
+  UniRef90_A0A194W6I6 Uncharacterized protein n=1 Tax=Valsa mali ...  41.4    2.1  
+  UniRef90_UPI000643C676 unconventional myosin-XVIIIb n=1 Tax=Mic...  41.8    2.1  
+  UniRef90_A0A347ZSX5 Chromosome partition protein Smc n=1 Tax=Pe...  41.8    2.2  
+  UniRef90_A0A2N2HP83 Phosphoglycerate mutase n=1 Tax=Deltaproteo...  41.0    2.2  
+  UniRef90_UPI000496D726 hypothetical protein n=1 Tax=Deinococcus...  40.7    2.2  
+  UniRef90_UPI00092EC64D regulation of nuclear pre-mRNA domain-co...  41.4    2.2  
+  UniRef90_UPI0009ACED90 centromere-associated protein E n=1 Tax=...  41.8    2.2  
+  UniRef90_UPI000947D098 spectrin beta chain, non-erythrocytic 5-...  41.8    2.2  
+  UniRef90_UPI0005F40C7B dynein heavy chain 7, axonemal-like n=1 ...  41.8    2.2  
+  UniRef90_A0A1F9TUV6 Uncharacterized protein n=1 Tax=Elusimicrob...  41.0    2.3  
+  UniRef90_UPI00036A2CC3 two-component sensor histidine kinase n=...  41.0    2.3  
+  UniRef90_UPI000C046F25 golgin subfamily B member 1-like n=1 Tax...  41.8    2.3  
+  UniRef90_A0A2I4C3W9 protein fantom-like isoform X1 n=3 Tax=Aust...  41.4    2.3  
+  UniRef90_UPI0007E83DB2 titin isoform X2 n=2 Tax=Drosophila kikk...  41.8    2.3  
+  UniRef90_UPI000B4C4B66 unconventional myosin-XVIIIb n=1 Tax=Lon...  41.8    2.3  
+  UniRef90_UPI0007E67CEF fibrinogen-like protein 1 n=1 Tax=Drosop...  41.0    2.3  
+  UniRef90_A0A0G1PDP4 Uncharacterized protein n=1 Tax=Candidatus ...  41.4    2.3  
+  UniRef90_UPI0007B9DEDB stonustoxin subunit alpha-like n=1 Tax=S...  41.4    2.3  
+  UniRef90_T1JE08 Uncharacterized protein n=1 Tax=Strigamia marit...  41.4    2.4  
+  UniRef90_A0A2M4CP88 Putative transport and golgi organization p...  41.4    2.4  
+  UniRef90_UPI000E461241 protein fantom-like n=1 Tax=Anabas testu...  41.4    2.4  
+  UniRef90_A0A315AP34 Uncharacterized protein n=1 Tax=Limnohabita...  40.3    2.4  
+  UniRef90_A0A1E1WKU3 Uncharacterized protein (Fragment) n=1 Tax=...  41.4    2.4  
+  UniRef90_UPI00051241A5 microtubule-actin cross-linking factor 1...  41.8    2.4  
+  UniRef90_UPI0006743CFC protein fantom isoform X1 n=15 Tax=Pseud...  41.4    2.4  
+  UniRef90_W5MT46 Uncharacterized protein n=1 Tax=Lepisosteus ocu...  41.4    2.4  
+  UniRef90_J2GCS9 Uncharacterized protein n=3 Tax=Caulobacter Tax...  38.7    2.5  
+  UniRef90_UPI0004941732 nucleoside/nucleotide kinase family prot...  40.7    2.5  
+  UniRef90_UPI0007DBC15A microtubule-actin cross-linking factor 1...  41.4    2.5  
+  UniRef90_A0A371QLW4 Uncharacterized protein n=1 Tax=Rhodohaloba...  41.4    2.5  
+  UniRef90_A0A1X0NQ88 Plectin-like protein n=1 Tax=Trypanosoma th...  41.4    2.5  
+  UniRef90_UPI0009482AE8 LOW QUALITY PROTEIN: laminin subunit alp...  41.4    2.6  
+  UniRef90_UPI000F82B53E chromosome segregation protein SMC n=1 T...  41.4    2.6  
+  UniRef90_UPI0003FCFF14 nucleoside/nucleotide kinase family prot...  40.3    2.7  
+  UniRef90_UPI00045E33A7 unconventional myosin-XVIIIb n=1 Tax=Ory...  41.4    2.7  
+  UniRef90_A0A2I4ELS4 myosin-11 isoform X1 n=4 Tax=fabids TaxID=9...  41.4    2.7  
+  UniRef90_M5S0A8 Sensory transduction histidine kinase n=1 Tax=R...  41.0    2.7  
+  UniRef90_A0A2S4XMR1 Uncharacterized protein n=1 Tax=Streptomyce...  41.0    2.7  
+  UniRef90_UPI00094E4385 switch-associated protein 70-like n=1 Ta...  41.0    2.8  
+  UniRef90_UPI000C1431BE transport and Golgi organization protein...  41.4    2.8  
+  UniRef90_A0A2B4RQ89 Centriolin n=1 Tax=Stylophora pistillata Ta...  41.4    2.8  
+  UniRef90_UPI000DF2D2BD protein fantom isoform X6 n=1 Tax=Oreoch...  41.4    2.8  
+  UniRef90_UPI00067CE46C melanoma inhibitory activity protein 3 n...  41.4    2.8  
+  UniRef90_UPI0004D0871C huntingtin-associated protein 1 n=1 Tax=...  41.4    2.8  
+  UniRef90_UPI0005D07F9A LOW QUALITY PROTEIN: transport and Golgi...  41.4    2.8  
+  UniRef90_UPI0006761DB7 probable basic-leucine zipper transcript...  41.4    2.8  
+  UniRef90_UPI000DBE1E47 LuxR family transcriptional regulator n=...  41.0    2.8  
+  UniRef90_UPI0008164295 centromere-associated protein E n=1 Tax=...  41.4    2.9  
+  UniRef90_A0A3C1ZUH0 Uncharacterized protein n=4 Tax=Cytophagale...  41.4    2.9  
+  UniRef90_UPI0009E491FA major antigen-like isoform X1 n=3 Tax=Or...  41.4    2.9  
+  UniRef90_A0A2I4ELS5 myosin-11 isoform X2 n=1 Tax=Juglans regia ...  41.4    2.9  
+  UniRef90_A0A2V8Z1C4 Uncharacterized protein n=1 Tax=Acidobacter...  40.7    2.9  
+  UniRef90_I3KVF0 RPGR interacting protein 1 n=2 Tax=Oreochromis ...  41.4    2.9  
+  UniRef90_UPI0007E7841B tetratricopeptide repeat protein 7B isof...  41.0    3.0  
+  UniRef90_UPI0009B9EAB8 hypothetical protein n=1 Tax=Arabia mass...  41.0    3.0  
+  UniRef90_A0A3L6L7U7 Uncharacterized protein n=1 Tax=Trypanosoma...  41.4    3.0  
+  UniRef90_K9WY47 ABC exporter membrane fusion protein, DevB fami...  40.7    3.0  
+  UniRef90_G3W3B2 Sperm antigen with calponin homology and coiled...  41.0    3.1  
+  UniRef90_UPI000C1CCFAB myosin-11-like isoform X1 n=2 Tax=Olea e...  41.0    3.1  
+  UniRef90_A0A3B6W214 Uncharacterized protein n=1 Tax=Brachyspira...  41.4    3.1  
+  UniRef90_UPI00063D8E32 lipoprotein n=2 Tax=Brachyspira hyodysen...  41.4    3.1  
+  UniRef90_A0A1Q7TM61 Uncharacterized protein n=1 Tax=Euryarchaeo...  41.4    3.2  
+  UniRef90_A0A087HKZ8 Uncharacterized protein n=2 Tax=Arabis alpi...  41.0    3.2  
+  UniRef90_UPI000A196A13 hypothetical protein n=3 Tax=Bradyrhizob...  40.7    3.2  
+  UniRef90_A0A0M4T0Z4 ABC transporter permease n=2 Tax=Nostoc Tax...  40.7    3.2  
+  UniRef90_A0A2T5CVT3 Sensor histidine kinase n=1 Tax=Alcaligenes...  41.0    3.2  
+  UniRef90_A0A3E0PUD8 FHA domain-containing protein n=1 Tax=Planc...  41.0    3.2  
+  UniRef90_A0A2J8LYT8 MACF1 isoform 8 n=1 Tax=Pan troglodytes Tax...  41.4    3.2  
+  UniRef90_UPI00097E05D8 protein fantom-like n=1 Tax=Paralichthys...  41.0    3.2  
+  UniRef90_A0A1C0VT93 Uncharacterized protein n=1 Tax=Oscillatori...  41.0    3.3  
+  UniRef90_W5JSS1 Centrosomal protein n=2 Tax=Nyssorhynchus TaxID...  41.0    3.3  
+  UniRef90_UPI0009A2D093 traB domain-containing protein-like n=1 ...  40.7    3.3  
+  UniRef90_UPI0007625213 huntingtin-associated protein 1 isoform ...  41.0    3.3  
+  UniRef90_UPI000C2F8EBB LOW QUALITY PROTEIN: laminin subunit alp...  41.0    3.3  
+  UniRef90_A0A3L6FM97 Myosin-17 n=1 Tax=Zea mays TaxID=4577 RepID...  41.0    3.5  
+  UniRef90_S8F9B7 Uncharacterized protein n=4 Tax=Toxoplasma gond...  41.0    3.5  
+  UniRef90_UPI000DF0DE4F LOW QUALITY PROTEIN: unconventional myos...  41.0    3.5  
+  UniRef90_A0A2U3KPS8 Histidine kinase n=1 Tax=Candidatus Sulfopa...  40.7    3.5  
+  UniRef90_Q9XEI4 Unconventional myosin heavy chain n=41 Tax=Poac...  41.0    3.6  
+  UniRef90_G9MI41 Kinesin-like protein n=6 Tax=Trichoderma TaxID=...  41.0    3.6  
+  UniRef90_A0A1Q2MAP0 Uncharacterized protein n=1 Tax=Phycisphaer...  40.7    3.6  
+  UniRef90_H3BT57 Protein PML n=13 Tax=Simiiformes TaxID=314293 R...  40.7    3.7  
+  UniRef90_R6Y4N9 Peptidase M23 family n=1 Tax=Firmicutes bacteri...  40.7    3.7  
+  UniRef90_A0A146LBH9 Liprin-alpha-2 n=3 Tax=Lygus hesperus TaxID...  41.0    3.8  
+  UniRef90_UPI00037D7B4A hybrid sensor histidine kinase/response ...  40.7    3.8  
+  UniRef90_UPI0009009066 myosin-11-like n=1 Tax=Ipomoea nil TaxID...  41.0    3.8  
+  UniRef90_A0A194PJ86 Transport and Golgi organization protein 1 ...  41.0    3.8  
+  UniRef90_UPI000C75EFEA serine/threonine-protein kinase MRCK alp...  41.0    3.9  
+  UniRef90_A0A2E5IEJ3 Chromosome partition protein Smc n=4 Tax=ce...  40.7    3.9  
+  UniRef90_A0A1D6NKP6 Myosin1 n=1 Tax=Zea mays TaxID=4577 RepID=A...  40.7    4.0  
+  UniRef90_Q6AVV2 Myosin heavy chain class XI E3 protein, putativ...  40.7    4.0  
+  UniRef90_R6TP89 Type I restriction enzyme R Protein n=1 Tax=Fir...  40.7    4.0  
+  UniRef90_A0A0E0NZR0 Uncharacterized protein n=6 Tax=Oryza TaxID...  40.7    4.1  
+  UniRef90_A0A132NIG2 NAD-glutamate dehydrogenase (Fragment) n=1 ...  40.7    4.1  
+  UniRef90_B3PN22 Massive surface protein MspH n=1 Tax=Mycoplasma...  40.7    4.1  
+  UniRef90_UPI000BA81D2B protein CIP2A-like n=1 Tax=Limulus polyp...  40.7    4.1  
+  UniRef90_UPI000C78C580 titin-like n=1 Tax=Eurytemora affinis Ta...  41.0    4.2  
+  UniRef90_E1BC04 Consortin, connexin sorting protein n=11 Tax=Pe...  40.7    4.2  
+  UniRef90_UPI000F692460 myosin heavy chain, muscle-like n=1 Tax=...  40.7    4.2  
+  UniRef90_UPI000F550219 huntingtin-associated protein 1 isoform ...  40.3    4.2  
+  UniRef90_A0A0V0QP64 p-loop containing nucleoside triphosphate h...  40.7    4.2  
+  UniRef90_A0A348BB76 Hyperosmolarity resistance protein Ebh n=41...  41.0    4.3  
+  UniRef90_A0A2R6QAR6 Myosin-9 like (Fragment) n=1 Tax=Actinidia ...  40.7    4.3  
+  UniRef90_UPI0008DB6972 centromere-associated protein E isoform ...  40.7    4.3  
+  UniRef90_A0A1V4JRV5 Unconventional myosin-XVIIIb isoform B n=1 ...  40.7    4.3  
+  UniRef90_UPI000B4F831C myomegalin-like isoform X1 n=6 Tax=Merio...  40.7    4.4  
+  UniRef90_J9NYK2 Tripartite motif containing 17 n=6 Tax=Canidae ...  40.3    4.4  
+  UniRef90_UPI000640A35F LOW QUALITY PROTEIN: protein scabrous n=...  40.7    4.4  
+  UniRef90_UPI000B89F78D methionine synthase n=1 Tax=Geodermatoph...  40.7    4.4  
+  UniRef90_A0A2E3RSQ2 Uncharacterized protein n=1 Tax=Phycisphaer...  40.7    4.5  
+  UniRef90_A0A1D1Z7C6 Myosin-H heavy chain (Fragment) n=1 Tax=Ant...  40.7    4.5  
+  UniRef90_A0A086BSJ0 ABC transporter (Fragment) n=4 Tax=Pseudomo...  40.7    4.5  
+  UniRef90_P54257-4 Isoform 4 of Huntingtin-associated protein 1 ...  40.3    4.6  
+  UniRef90_A0A084VP44 AGAP007919-PA-like protein n=1 Tax=Anophele...  40.7    4.6  
+  UniRef90_Q15156 PML-RAR protein n=2 Tax=Homo sapiens TaxID=9606...  40.7    4.6  
+  UniRef90_UPI000B777FF6 glutamine cyclotransferase n=1 Tax=Bosea...  39.5    4.6  
+  UniRef90_W5QFK2 Microtubule-actin crosslinking factor 1 n=1 Tax...  40.7    4.7  
+  UniRef90_Q10F06 Unconventional myosin heavy chain, putative, ex...  40.7    4.8  
+  UniRef90_A0A3B3BFL8 Uncharacterized protein n=3 Tax=Oryzias mel...  40.7    4.8  
+  UniRef90_A0A1L5NT98 Multi-sensor signal transduction multi-kina...  40.7    4.8  
+  UniRef90_UPI000A285206 centromere-associated protein E-like n=1...  40.7    4.8  
+  UniRef90_UPI00072F6E1E LOW QUALITY PROTEIN: microtubule-actin c...  40.7    4.8  
+  UniRef90_A0A0G4HKX2 Uncharacterized protein n=1 Tax=Chromera ve...  40.7    4.9  
+  UniRef90_Q6C1R1 Kinesin-like protein n=3 Tax=Yarrowia lipolytic...  40.3    4.9  
+  UniRef90_A0A2H6KK46 Uncharacterized protein n=1 Tax=Babesia ova...  40.7    4.9  
+  UniRef90_UPI00081028A6 myomegalin isoform X5 n=2 Tax=Murinae Ta...  40.7    4.9  
+  UniRef90_UPI000B4F5F11 myomegalin-like isoform X4 n=3 Tax=Merio...  40.7    4.9  
+  UniRef90_UPI000980F20A microtubule-actin cross-linking factor 1...  40.7    5.0  
+  UniRef90_A0A367KYC8 Kinesin-like protein n=1 Tax=Rhizopus stolo...  40.3    5.1  
+  UniRef90_A0A1K1MHS9 Uncharacterized protein n=1 Tax=Desulfovibr...  40.7    5.1  
+  UniRef90_UPI0003DF67CE titin-like n=1 Tax=Apis dorsata TaxID=74...  40.7    5.1  
+  UniRef90_S7UKG3 Uncharacterized protein (Fragment) n=2 Tax=Toxo...  40.7    5.2  
+  UniRef90_A0A194R5N6 Transport and Golgi organization protein 1 ...  40.3    5.2  
+  UniRef90_A0A1I1DGQ8 Uncharacterized protein n=1 Tax=Butyrivibri...  39.5    5.2  
+  UniRef90_B2J2F4 Secretion protein HlyD family protein, DevB n=1...  39.9    5.2  
+  UniRef90_UPI000F03036F response regulator n=1 Tax=Pseudomonas s...  40.3    5.2  
+  UniRef90_A0A1F3C7G5 Transcriptional regulator n=1 Tax=Anaeromyx...  39.1    5.3  
+  UniRef90_R5A8M9 Peptidase M23 family n=1 Tax=Clostridium sp. CA...  39.9    5.3  
+  UniRef90_A0A315E5B2 Uncharacterized protein n=1 Tax=Limnohabita...  39.1    5.4  
+  UniRef90_R7YPQ1 Uncharacterized protein n=1 Tax=Coniosporium ap...  40.7    5.4  
+  UniRef90_A0A2Z3IHT9 Uncharacterized protein n=1 Tax=Microvirga ...  40.3    5.5  
+  UniRef90_UPI00083857AA methyl-accepting chemotaxis protein n=1 ...  40.3    5.6  
+  UniRef90_UPI0006B85825 fas-binding factor 1 homolog n=1 Tax=Pse...  40.3    5.6  
+  UniRef90_UPI000B4F25E2 myomegalin-like isoform X9 n=1 Tax=Merio...  40.3    5.6  
+  UniRef90_UPI000762547A microtubule-actin cross-linking factor 1...  40.3    5.6  
+  UniRef90_A0A2E5YTQ8 Phosphoenolpyruvate carboxylase n=1 Tax=Del...  40.3    5.7  
+  UniRef90_A0A2J8UD00 PML isoform 7 n=3 Tax=Simiiformes TaxID=314...  40.3    5.7  
+  UniRef90_UPI0007F8B723 protein fantom-like isoform X1 n=4 Tax=K...  40.3    5.7  
+  UniRef90_A0A075ADA0 Uncharacterized protein n=3 Tax=Opisthorchi...  40.3    5.7  
+  UniRef90_UPI000E777822 transport and Golgi organization protein...  40.3    5.8  
+  UniRef90_A3XPD4 Uncharacterized protein n=2 Tax=Leeuwenhoekiell...  40.3    5.8  
+  UniRef90_A0A024S8K5 Kinesin related protein 2 n=5 Tax=Trichoder...  40.3    5.8  
+  UniRef90_UPI000711F2A4 hypothetical protein n=1 Tax=Blastocysti...  38.7    5.8  
+  UniRef90_A0A1L8QS03 YhgE/Pip domain-containing protein n=1 Tax=...  40.3    5.8  
+  UniRef90_A0A3P8VL58 Myosin, heavy chain 7B, cardiac muscle, bet...  40.3    5.9  
+  UniRef90_UPI000905B436 laminin subunit alpha-5 n=1 Tax=Panthera...  40.3    5.9  
+  UniRef90_UPI000C7AB798 laminin subunit alpha-5 n=2 Tax=Metather...  40.3    5.9  
+  UniRef90_W6LVR8 DNA-directed RNA polymerase subunit beta n=1 Ta...  40.3    5.9  
+  UniRef90_A0A340XXF1 liprin-alpha-1 n=1 Tax=Lipotes vexillifer T...  40.3    6.0  
+  UniRef90_UPI000CE1654C hsp70/Hsp90 co-chaperone cns1-like n=1 T...  39.9    6.0  
+  UniRef90_A0A2D0QA11 cytospin-B isoform X1 n=8 Tax=Siluroidei Ta...  40.3    6.0  
+  UniRef90_UPI0008DB5219 unconventional myosin-XVIIIb n=1 Tax=Ser...  40.3    6.1  
+  UniRef90_UPI000B45846D uncharacterized protein LOC110467398 n=1...  39.9    6.1  
+  UniRef90_A0A3B4D4H8 Uncharacterized protein n=4 Tax=Pygocentrus...  40.3    6.1  
+  UniRef90_F2U2A8 Uncharacterized protein n=1 Tax=Salpingoeca ros...  40.3    6.2  
+  UniRef90_UPI00042C2C23 E3 ubiquitin-protein ligase TRIM39-like ...  39.9    6.3  
+  UniRef90_A0A1U8CTV0 myomegalin isoform X8 n=7 Tax=Cricetinae Ta...  40.3    6.3  
+  UniRef90_A0A2V8N288 Uncharacterized protein n=2 Tax=Acidobacter...  40.3    6.4  
+  UniRef90_UPI0004573BD9 nuclear factor 7, brain-like n=1 Tax=Cal...  39.9    6.5  
+  UniRef90_A0A0S7XD57 Uncharacterized protein n=1 Tax=Latescibact...  39.9    6.6  
+  UniRef90_A0A2A9MQ53 Uncharacterized protein n=1 Tax=Besnoitia b...  39.9    6.7  
+  UniRef90_A0A218V554 Unconventional myosin-XVIIIb n=1 Tax=Lonchu...  40.3    6.7  
+  UniRef90_A0A0M9VPU1 Nonmuscle myosin heavy chain b n=1 Tax=Mala...  39.9    6.8  
+  UniRef90_UPI000E34A785 hypothetical protein n=1 Tax=Fastidiosib...  39.1    6.8  
+  UniRef90_M1V6E2 Similar to spindle pole body associated protein...  39.9    6.9  
+  UniRef90_A0A074Z2G3 Uncharacterized protein n=2 Tax=Opisthorchi...  39.9    6.9  
+  UniRef90_W2QTV4 Uncharacterized protein n=3 Tax=Phytophthora pa...  39.5    7.0  
+  UniRef90_UPI0007661DD5 laminin subunit alpha-5 n=1 Tax=Panthera...  39.9    7.0  
+  UniRef90_A0A250Y8P6 Microtubule-actin cross-linking factor 1 n=...  40.3    7.0  
+  UniRef90_A0A3L7I7Y9 MACF1 n=1 Tax=Cricetulus griseus TaxID=1002...  40.3    7.1  
+  UniRef90_A0A3F2S204 Uncharacterized protein n=1 Tax=Phytophthor...  39.9    7.1  
+  UniRef90_B8GU75 Endopeptidase La n=3 Tax=Thioalkalivibrio TaxID...  39.9    7.1  
+  UniRef90_UPI000A2B1B80 myosin-11-like n=2 Tax=Arachis TaxID=381...  39.9    7.1  
+  UniRef90_A0A0E0D4P9 Uncharacterized protein n=3 Tax=Oryza TaxID...  39.9    7.2  
+  UniRef90_A0A2A4KA53 Uncharacterized protein n=2 Tax=Heliothis v...  39.9    7.2  
+  UniRef90_P29590-8 Isoform PML-2 of Protein PML n=8 Tax=Hominina...  39.9    7.2  
+  UniRef90_UPI000CD817DE myosin-11-like isoform X1 n=4 Tax=Astera...  39.9    7.2  
+  UniRef90_A0A2K6N9G3 Huntingtin associated protein 1 n=3 Tax=Rhi...  39.9    7.2  
+  UniRef90_A0A1S8T9B3 Uncharacterized protein n=1 Tax=Clostridium...  38.4    7.2  
+  UniRef90_D3ZHV2 Microtubule-actin cross-linking factor 1 n=33 T...  40.3    7.3  
+  UniRef90_A0A1H1H4R4 DNA-binding transcriptional regulator, HxlR...  37.2    7.3  
+  UniRef90_A0A177ZVS1 Uncharacterized protein n=3 Tax=Bacillales ...  39.9    7.5  
+  UniRef90_A0A2G9NUB2 Uncharacterized protein n=1 Tax=Lithobates ...  39.5    7.5  
+  UniRef90_P29590-5 Isoform PML-4 of Protein PML n=43 Tax=Simiifo...  39.9    7.5  
+  UniRef90_UPI000CE5AE19 uncharacterized protein LOC112045007 n=1...  39.9    7.6  
+  UniRef90_A0A2H0A439 Chromosome partition protein Smc n=1 Tax=De...  39.9    7.6  
+  UniRef90_A0A315D8E0 Uncharacterized protein n=1 Tax=Limnohabita...  38.7    7.7  
+  UniRef90_UPI000710ACF1 ABC transporter n=2 Tax=Pseudomonas aeru...  39.9    7.7  
+  UniRef90_C5P4B0 Viral A-type inclusion protein repeat containin...  39.9    7.7  
+  UniRef90_A0A3P8TPD6 RPGR interacting protein 1 n=3 Tax=Pomacent...  39.9    7.8  
+  UniRef90_P29590-13 Isoform PML-13 of Protein PML n=17 Tax=Catar...  39.9    7.9  
+  UniRef90_A0A3Q0DDN8 microtubule-actin cross-linking factor 1 is...  39.9    8.0  
+  UniRef90_A0A3Q0DFF7 microtubule-actin cross-linking factor 1 is...  39.9    8.0  
+  UniRef90_A0A058ZBW7 Structural maintenance of chromosomes prote...  39.9    8.1  
+  UniRef90_A0A1V4JRY8 Unconventional myosin-XVIIIb isoform A n=1 ...  39.9    8.1  
+  UniRef90_R5J0W6 Uncharacterized protein n=3 Tax=Clostridiaceae ...  39.9    8.1  
+  UniRef90_P29590-9 Isoform PML-3 of Protein PML n=21 Tax=Catarrh...  39.5    8.1  
+  UniRef90_UPI000B38676E transport and Golgi organization protein...  39.9    8.2  
+  UniRef90_H0WFP2 Microtubule-actin crosslinking factor 1 n=1 Tax...  39.9    8.2  
+  UniRef90_A0A146F415 Involucrin repeat protein n=4 Tax=Aspergill...  39.9    8.2  
+  UniRef90_A0A177U1N3 Uncharacterized protein (Fragment) n=1 Tax=...  39.9    8.3  
+  UniRef90_A0A167X8I6 Spindle-pole body protein n=1 Tax=Sporothri...  39.9    8.3  
+  UniRef90_A0A1G7JG53 Uncharacterized protein n=1 Tax=Thalassobac...  39.9    8.3  
+  UniRef90_A0A2E8D4Y9 Two-component sensor histidine kinase n=1 T...  39.5    8.3  
+  UniRef90_UPI000C7F254A microtubule-actin cross-linking factor 1...  39.9    8.4  
+  UniRef90_UPI00064F7838 unconventional myosin-XVIIIb n=1 Tax=Ech...  39.9    8.4  
+  UniRef90_B8KFK8 Transcriptional regulator family n=3 Tax=Gammap...  38.4    8.4  
+  UniRef90_A0A3Q0DEF3 microtubule-actin cross-linking factor 1 is...  39.9    8.5  
+  UniRef90_A0A2U2DUA9 Chemotaxis protein n=2 Tax=Rhizobium TaxID=...  39.5    8.5  
+  UniRef90_UPI000995255E citron Rho-interacting kinase-like n=1 T...  39.9    8.5  
+  UniRef90_UPI000C7F18C7 microtubule-actin cross-linking factor 1...  39.9    8.5  
+  UniRef90_A0A1C5F9N0 Uncharacterized protein YydD, contains DUF2...  39.5    8.5  
+  UniRef90_A0A1G0DYP3 DNA-directed RNA polymerase subunit beta n=...  39.9    8.6  
+  UniRef90_UPI000D1869E4 unconventional myosin-XVIIIb n=1 Tax=Des...  39.9    8.6  
+  UniRef90_UPI000C7F3E10 microtubule-actin cross-linking factor 1...  39.9    8.7  
+  UniRef90_UPI0003EAEAB2 microtubule-actin cross-linking factor 1...  39.9    8.8  
+  UniRef90_A0A2H9TC11 Chromosome partition protein Smc n=1 Tax=in...  39.5    8.9  
+  UniRef90_A0A1X2GS76 Uncharacterized protein n=1 Tax=Hesseltinel...  39.5    8.9  
+  UniRef90_A0A0H3FJT2 Diguanylate cyclase/phosphodiesterase n=52 ...  39.5    8.9  
+  UniRef90_A0A2K3QA08 Spindle pole body protein pcp1 n=1 Tax=Toly...  39.5    8.9  
+  UniRef90_A0A0E0D4P8 Uncharacterized protein n=1 Tax=Oryza merid...  39.9    9.0  
+  UniRef90_UPI000CE1CD9C pleckstrin homology-like domain family B...  39.9    9.0  
+  UniRef90_A0A2K5EEC2 Microtubule-actin crosslinking factor 1 n=3...  39.9    9.1  
+  UniRef90_A0A1Y1ZP12 Structural maintenance of chromosomes prote...  39.5    9.2  
+  UniRef90_A0A0U2IDP2 Myosin heavy chain striated muscle-like 115...  39.5    9.3  
+  UniRef90_UPI000CDA391E unconventional myosin-XVIIIb n=1 Tax=Cya...  39.5    9.3  
+  UniRef90_A0A3M7SQ79 Uncharacterized protein n=1 Tax=Brachionus ...  39.5    9.3  
+  UniRef90_UPI000B4AA097 HAMP domain-containing protein n=1 Tax=L...  39.5    9.3  
+  UniRef90_A0A2K5EE22 Microtubule-actin crosslinking factor 1 n=1...  39.9    9.4  
+  UniRef90_UPI0003B30344 mechanosensitive ion channel n=1 Tax=Leu...  39.5    9.5  
+  UniRef90_A0A0D2FDM7 Uncharacterized protein n=1 Tax=Exophiala x...  39.5    9.5  
+  UniRef90_G3IKI7 Keratin, type II cytoskeletal 2 oral n=3 Tax=Cr...  39.5    9.5  
+  UniRef90_UPI00084A80F8 uncharacterized protein LOC108664728 iso...  39.5    9.5  
+  UniRef90_UPI0009B35C9B switch-associated protein 70-like n=1 Ta...  39.5    9.7  
+  UniRef90_A0A328D711 Uncharacterized protein n=1 Tax=Cuscuta aus...  39.1    9.8  
+  UniRef90_UPI00075F81AF microtubule-actin cross-linking factor 1...  39.5    9.8  
+  UniRef90_A0A0V0IYN6 Putative ovule protein n=1 Tax=Solanum chac...  39.5    9.8  
+  UniRef90_A0A068Y983 SUN domain containing protein 1 n=2 Tax=Ech...  39.5    9.9  
+  UniRef90_H2MKB9 Pleckstrin homology-like domain, family B, memb...  39.5    9.9  
+  UniRef90_P29590-12 Isoform PML-12 of Protein PML n=17 Tax=Catar...  39.5    9.9  
+  UniRef90_A0A2A9M2X1 Uncharacterized protein n=1 Tax=Besnoitia b...  39.5    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.149    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0455    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4651922159170
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,140 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414617.1
+
+Length=28
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AD81 leu operon leader peptide n=55 Tax=Enterobacter...  55.8    4e-10
+  UniRef90_A0A0M4HUT5 Leu operon leader peptide n=17 Tax=Enteroba...  53.5    4e-09
+  UniRef90_A0A3L3MFN8 Leu operon leader peptide n=5 Tax=Enterobac...  49.7    9e-08
+  UniRef90_B7N2U3 Leu operon leader peptide n=3 Tax=Escherichia T...  48.5    2e-07
+  UniRef90_A0A344STE2 Leu operon leader peptide n=3 Tax=Salmonell...  46.2    3e-06
+  UniRef90_A0A3I8GLK6 Leu operon leader peptide n=1 Tax=Salmonell...  44.3    2e-05
+  UniRef90_A0A2T1LPZ0 Leu operon leader peptide n=11 Tax=Enteroba...  44.3    2e-05
+  UniRef90_A0A1S1A484 Leu operon leader peptide n=7 Tax=Salmonell...  43.5    3e-05
+  UniRef90_A0A2U4E4Y3 Leu operon leader peptide n=4 Tax=Enterobac...  43.5    3e-05
+  UniRef90_P03062 leu operon leader peptide n=52 Tax=Salmonella e...  42.7    7e-05
+  UniRef90_A0A0K0H778 Leu operon leader peptide n=2 Tax=Salmonell...  40.4    5e-04
+  UniRef90_D2TGD3 Leu operon leader peptide n=1 Tax=Citrobacter r...  38.5    0.003
+  UniRef90_A0A2S4RX12 Leu operon leader peptide n=1 Tax=Citrobact...  38.5    0.003
+  UniRef90_A0A356XNR6 Leu operon leader peptide n=3 Tax=Leclercia...  37.7    0.005
+  UniRef90_A0A2S9UE52 Leu operon leader peptide n=4 Tax=Cronobact...  37.4    0.007
+  UniRef90_A0A2U2NNS6 Leu operon leader peptide n=1 Tax=Enterobac...  37.0    0.010
+  UniRef90_A0A329HNF5 Leu operon leader peptide n=1 Tax=Enterobac...  36.2    0.021
+  UniRef90_A0A2T3CBG5 Leu operon leader peptide n=1 Tax=Enterobac...  35.4    0.039
+  UniRef90_A0A2I1ZRE0 Leucine operon leader peptide n=2 Tax=Enter...  35.4    0.049
+  UniRef90_A0A370ZCY5 Uncharacterized protein (Fragment) n=1 Tax=...  34.7    0.11 
+  UniRef90_A0A330D6N8 Leucine operon leader peptide n=2 Tax=Enter...  33.5    0.23 
+  UniRef90_A0A3G5FRT5 Leucine operon leader peptide n=2 Tax=Raoul...  32.7    0.53 
+  UniRef90_A0A2I8QGJ2 Leucine operon leader peptide n=5 Tax=Enter...  32.3    0.66 
+  UniRef90_A0A3N6S236 Leu operon leader peptide n=1 Tax=Erwinia p...  32.3    0.73 
+  UniRef90_A0A0T5XE41 Leucine operon leader peptide n=23 Tax=Ente...  32.3    0.88 
+  UniRef90_A0A2S0PG35 Leucine operon leader peptide n=3 Tax=Enter...  32.0    1.0  
+  UniRef90_A0A3L5FW41 Leu operon leader peptide n=1 Tax=Escherich...  32.0    1.4  
+  UniRef90_A0A3G9BYE4 Leu operon leader peptide n=1 Tax=Kosakonia...  31.2    1.9  
+  UniRef90_A0A2T2Y4Y7 Leu operon leader peptide n=2 Tax=Kluyvera ...  31.2    2.1  
+  UniRef90_A0A2K9YVS4 Leu operon leader peptide n=2 Tax=Serratia ...  30.8    2.6  
+  UniRef90_A0A3D0EIQ5 Leu operon leader peptide n=1 Tax=Pantoea s...  30.4    3.9  
+  UniRef90_A0A2P5GM61 Leucine operon leader peptide n=1 Tax=Super...  30.4    4.8  
+  UniRef90_A0A140IF28 Uncharacterized protein n=2 Tax=Enterobacte...  30.0    5.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.145    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 746599024475
+Warning: [psiblast] lcl|Query_1 NP_414617.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414617.1
+
+Length=28
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A344STE2 Leu operon leader peptide n=3 Tax=Salmonell...  38.7    0.002
+  UniRef90_A0A3I8GLK6 Leu operon leader peptide n=1 Tax=Salmonell...  38.3    0.003
+  UniRef90_A0A0K0H778 Leu operon leader peptide n=2 Tax=Salmonell...  37.6    0.006
+  UniRef90_A0A2T1LPZ0 Leu operon leader peptide n=11 Tax=Enteroba...  37.6    0.006
+  UniRef90_P03062 leu operon leader peptide n=52 Tax=Salmonella e...  37.6    0.007
+  UniRef90_A0A1S1A484 Leu operon leader peptide n=7 Tax=Salmonell...  36.0    0.023
+  UniRef90_B7N2U3 Leu operon leader peptide n=3 Tax=Escherichia T...  35.6    0.035
+  UniRef90_P0AD81 leu operon leader peptide n=55 Tax=Enterobacter...  35.3    0.053
+  UniRef90_A0A0M4HUT5 Leu operon leader peptide n=17 Tax=Enteroba...  34.5    0.089
+  UniRef90_A0A2U4E4Y3 Leu operon leader peptide n=4 Tax=Enterobac...  32.6    0.60 
+  UniRef90_A0A3L3MFN8 Leu operon leader peptide n=5 Tax=Enterobac...  30.3    5.2  
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_D2TGD3 Leu operon leader peptide n=1 Tax=Citrobacter r...  32.6    0.70 
+  UniRef90_A0A356XNR6 Leu operon leader peptide n=3 Tax=Leclercia...  31.8    1.1  
+  UniRef90_A0A2U2NNS6 Leu operon leader peptide n=1 Tax=Enterobac...  30.6    3.4  
+  UniRef90_A0A3G9BYE4 Leu operon leader peptide n=1 Tax=Kosakonia...  30.6    3.5  
+  UniRef90_A0A2T3CBG5 Leu operon leader peptide n=1 Tax=Enterobac...  30.3    4.5  
+  UniRef90_A0A329HNF5 Leu operon leader peptide n=1 Tax=Enterobac...  30.3    4.7  
+  UniRef90_A0A2T2Y4Y7 Leu operon leader peptide n=2 Tax=Kluyvera ...  30.3    5.6  
+  UniRef90_A0A2S4RX12 Leu operon leader peptide n=1 Tax=Citrobact...  29.9    8.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.154    0.461    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0471    0.140     1.90     42.6     43.6 
+
+Effective search space used: 746599024475
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

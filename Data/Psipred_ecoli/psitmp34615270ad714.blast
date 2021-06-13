@@ -1,0 +1,1984 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415540.1
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P69433 Biofilm PGA synthesis protein PgaD n=233 Tax=Ba...  280     1e-95
+  UniRef90_A0A2X5E7W5 PGA biosynthesis protein n=13 Tax=Enterobac...  253     5e-85
+  UniRef90_UPI0007D90395 poly-beta-1,6-N-acetyl-D-glucosamine bio...  236     2e-78
+  UniRef90_A0A2X1IWY9 PGA biosynthesis protein n=3 Tax=Enterobact...  227     1e-74
+  UniRef90_A0A3K2NSM1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  206     6e-67
+  UniRef90_A0A2S7SG62 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  184     4e-58
+  UniRef90_UPI000BE43359 poly-beta-1,6-N-acetyl-D-glucosamine bio...  166     2e-51
+  UniRef90_A0A376MUZ9 PGA biosynthesis protein n=2 Tax=Escherichi...  162     6e-50
+  UniRef90_UPI000F637F42 poly-beta-1,6-N-acetyl-D-glucosamine bio...  147     1e-43
+  UniRef90_UPI0007353885 poly-beta-1,6-N-acetyl-D-glucosamine bio...  79.7    1e-16
+  UniRef90_A0A1N7CWR5 Biofilm PGA synthesis protein PgaD n=1 Tax=...  76.3    3e-15
+  UniRef90_UPI000933B9A0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  75.1    8e-15
+  UniRef90_A0A0D1MM64 Uncharacterized protein n=1 Tax=Klebsiella ...  69.3    1e-12
+  UniRef90_UPI000DF45D5E hypothetical protein n=1 Tax=Escherichia...  62.4    1e-10
+  UniRef90_UPI0004286EA3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  61.6    2e-09
+  UniRef90_H5V4U3 Uncharacterized protein n=1 Tax=Atlantibacter h...  59.3    5e-09
+  UniRef90_A0A1V4LIT7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.5    6e-09
+  UniRef90_A0A208XSD8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.1    9e-09
+  UniRef90_A0A375GP40 Hemin storage system protein n=2 Tax=Cupria...  59.3    1e-08
+  UniRef90_A0A191YLN0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  59.3    2e-08
+  UniRef90_UPI000F6716BA poly-beta-1,6-N-acetyl-D-glucosamine bio...  58.9    3e-08
+  UniRef90_A0A0U1HSX3 Hemin storage system protein n=2 Tax=Yersin...  58.2    3e-08
+  UniRef90_A0A0J5FXZ9 Hemin storage system protein HmsS n=1 Tax=X...  57.4    5e-08
+  UniRef90_A0A2K4J816 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.6    2e-07
+  UniRef90_A0A2G2QJ53 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.2    2e-07
+  UniRef90_A0A0C5DQA1 Uncharacterized protein n=2 Tax=Pseudomonas...  56.2    2e-07
+  UniRef90_A0A1R1JX31 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.8    2e-07
+  UniRef90_A0A2N8BCW0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.2    3e-07
+  UniRef90_H5V1E2 Biofilm adhesin PGA synthesis protein PgaD n=4 ...  55.5    4e-07
+  UniRef90_A0A0T9U3V4 Hemin storage system protein n=8 Tax=Yersin...  54.7    8e-07
+  UniRef90_A0A0T9SA60 Hemin storage system protein n=23 Tax=Yersi...  54.3    9e-07
+  UniRef90_A0A1I6DPC4 Biofilm PGA synthesis protein PgaD n=1 Tax=...  54.3    1e-06
+  UniRef90_A0A1H1VM57 Biofilm PGA synthesis protein PgaD n=4 Tax=...  54.3    1e-06
+  UniRef90_A0A3D4NT61 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  53.9    2e-06
+  UniRef90_A0A2R4PQ04 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  53.9    2e-06
+  UniRef90_A0A1K2CSA4 Biofilm PGA synthesis protein PgaD n=9 Tax=...  53.5    3e-06
+  UniRef90_A0A139SVV4 Uncharacterized protein n=1 Tax=Ventosimona...  53.5    3e-06
+  UniRef90_A0A1H1LYH3 Biofilm PGA synthesis protein PgaD n=2 Tax=...  53.5    3e-06
+  UniRef90_A0A1Y2SQW6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.8    3e-06
+  UniRef90_W1J4Z3 Haemin storage system (HmsS protein of hmsHFRS ...  52.4    5e-06
+  UniRef90_A0A1V2KA04 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.8    5e-06
+  UniRef90_A0A0H5LST7 Hemin storage system protein n=4 Tax=Yersin...  52.4    5e-06
+  UniRef90_A0A0T9LR18 Hemin storage system protein n=5 Tax=Yersin...  52.4    6e-06
+  UniRef90_A0A0C2I0Y3 Biofilm PGA synthesis auxiliary protein Pga...  52.4    6e-06
+  UniRef90_A0A0B7D4L9 Biofilm PGA synthesis protein PgaD n=2 Tax=...  52.4    7e-06
+  UniRef90_A0A341F3J9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.4    7e-06
+  UniRef90_A0A2N0DQB9 Biofilm PGA synthesis protein PgaD n=3 Tax=...  52.4    7e-06
+  UniRef90_A0A0S9EV45 Uncharacterized protein n=2 Tax=Acidovorax ...  52.4    7e-06
+  UniRef90_N1NM31 HmsS, Haemin storage system protein S n=6 Tax=X...  51.6    8e-06
+  UniRef90_A0A0T9PPU6 Hemin storage system protein n=1 Tax=Yersin...  52.0    8e-06
+  UniRef90_A0A246G0C3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.0    1e-05
+  UniRef90_A0A1I3IZY5 Biofilm PGA synthesis protein PgaD n=1 Tax=...  50.8    1e-05
+  UniRef90_A0A0Q4MNS0 Uncharacterized protein n=1 Tax=Erwinia sp....  50.8    1e-05
+  UniRef90_UPI000A1D9A27 poly-beta-1,6-N-acetyl-D-glucosamine bio...  51.6    2e-05
+  UniRef90_A0A365WY49 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.6    2e-05
+  UniRef90_A0A2K1FDA3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.8    2e-05
+  UniRef90_A0A209ABV5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.8    2e-05
+  UniRef90_A0A2N7YGA8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.8    2e-05
+  UniRef90_A0A068QU52 Haemin storage system (HmsS protein of hmsH...  50.1    2e-05
+  UniRef90_R8YQ69 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  50.8    2e-05
+  UniRef90_UPI00069EBA31 poly-beta-1,6-N-acetyl-D-glucosamine bio...  51.2    2e-05
+  UniRef90_A0A243U4T0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.8    2e-05
+  UniRef90_UPI0007DDB1D1 poly-beta-1,6-N-acetyl-D-glucosamine bio...  50.4    3e-05
+  UniRef90_A0A2S8XGD3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.4    3e-05
+  UniRef90_Q3KJY2 Putative hemin storage system n=15 Tax=Pseudomo...  50.8    3e-05
+  UniRef90_A0A1R0GC32 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.4    3e-05
+  UniRef90_A0A376I169 PGA biosynthesis protein n=4 Tax=Enterobact...  50.4    4e-05
+  UniRef90_A0A143J144 Biofilm PGA synthesis protein PgaD n=57 Tax...  50.1    4e-05
+  UniRef90_A0A0T9TDC5 Hemin storage system protein n=4 Tax=Yersin...  49.7    5e-05
+  UniRef90_A0A0L0H272 Hemin storage protein n=1 Tax=Trabulsiella ...  49.7    5e-05
+  UniRef90_A0A2N7ZNX7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.1    5e-05
+  UniRef90_A0A0E8XIC8 Hemin storage system protein n=25 Tax=Yersi...  49.7    6e-05
+  UniRef90_A0A386Y3R7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.3    7e-05
+  UniRef90_A0A263NPV9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.3    7e-05
+  UniRef90_A0A2D0J1F6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.3    8e-05
+  UniRef90_A0A2P1VVD0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.7    8e-05
+  UniRef90_E3HKX9 Uncharacterized protein n=4 Tax=Alcaligenes xyl...  49.3    8e-05
+  UniRef90_A0A0M7M325 Biofilm PGA synthesis protein PgaD n=4 Tax=...  49.3    8e-05
+  UniRef90_A0A261W673 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.9    9e-05
+  UniRef90_A0A1S2V894 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.9    1e-04
+  UniRef90_A0A2N7RHP8 Biofilm PGA synthesis protein PgaD n=3 Tax=...  49.3    1e-04
+  UniRef90_A0A1B5CUA7 Biofilm PGA synthesis protein PgaD n=17 Tax...  48.9    1e-04
+  UniRef90_A0A2W0FLP0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.3    1e-04
+  UniRef90_D4BGN5 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  48.9    1e-04
+  UniRef90_A0A3D4SJI4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.9    1e-04
+  UniRef90_A0A0M9GIL7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.9    1e-04
+  UniRef90_A0A1Y2SH11 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.5    1e-04
+  UniRef90_A0A0T9KY07 Hemin storage system protein n=2 Tax=Yersin...  48.1    2e-04
+  UniRef90_A0A031J4H5 Biofilm PGA synthesis protein PgaD n=17 Tax...  48.5    2e-04
+  UniRef90_A0A2Z5AJI2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.1    2e-04
+  UniRef90_A0A2A5R4Z1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.5    2e-04
+  UniRef90_A0A0D6H6A3 Biofilm PGA synthesis protein PgaD n=19 Tax...  48.1    2e-04
+  UniRef90_A0A2A2DRB9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.5    2e-04
+  UniRef90_UPI000BA37983 poly-beta-1,6-N-acetyl-D-glucosamine bio...  47.8    2e-04
+  UniRef90_A0A2K9E5J2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.1    3e-04
+  UniRef90_A0A3N7BVT5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.1    3e-04
+  UniRef90_A0A375EZ94 Hemin storage system protein n=2 Tax=Cupria...  48.1    3e-04
+  UniRef90_W8PCX6 Biofilm PGA synthesis protein PgaD n=3 Tax=Pseu...  48.1    3e-04
+  UniRef90_A0A109LDM6 Biofilm PGA synthesis protein PgaD n=22 Tax...  47.8    3e-04
+  UniRef90_A0A0J1PJJ8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  47.8    4e-04
+  UniRef90_A0A375J6J8 Hemin storage system protein n=1 Tax=Cupria...  47.4    4e-04
+  UniRef90_A0A1Y1TKR5 Biofilm PGA synthesis auxiliary protein Pga...  47.4    4e-04
+  UniRef90_A0A2D0KJM4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  47.0    5e-04
+  UniRef90_A0A0G4JXU8 Biofilm PGA synthesis auxiliary protein Pga...  47.0    5e-04
+  UniRef90_A0A1B5E231 Biofilm PGA synthesis protein PgaD n=25 Tax...  47.0    6e-04
+  UniRef90_A0A1T2YSN1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  47.0    7e-04
+  UniRef90_A0A142JT39 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.6    8e-04
+  UniRef90_A0A263SB25 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.2    0.001
+  UniRef90_A0A2S9EGL5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.2    0.001
+  UniRef90_A0A366HE16 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.8    0.001
+  UniRef90_A0A2G0VUQ9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.8    0.001
+  UniRef90_UPI000F478B21 poly-beta-1,6-N-acetyl-D-glucosamine bio...  46.2    0.001
+  UniRef90_A0A2D0LH81 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.8    0.001
+  UniRef90_A0A1N7FWF7 Biofilm PGA synthesis protein PgaD n=4 Tax=...  45.8    0.002
+  UniRef90_UPI0004B8EA26 poly-beta-1,6-N-acetyl-D-glucosamine bio...  45.8    0.002
+  UniRef90_UPI000F03482F poly-beta-1,6-N-acetyl-D-glucosamine bio...  45.8    0.002
+  UniRef90_A0A3G7Z248 Biofilm PGA synthesis auxiliary protein Pga...  45.4    0.002
+  UniRef90_A0A1H3UMY9 Biofilm PGA synthesis protein PgaD n=1 Tax=...  45.4    0.002
+  UniRef90_G8PYA1 PgaD n=44 Tax=Pseudomonas TaxID=286 RepID=G8PYA...  45.8    0.002
+  UniRef90_A0A1Y0D3X8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.4    0.002
+  UniRef90_A0A2U1U338 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.1    0.002
+  UniRef90_A0A0N0BUF7 Biofilm PGA synthesis protein PgaD n=5 Tax=...  45.4    0.002
+  UniRef90_A0A1B3CDU3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.4    0.003
+  UniRef90_A0A1G9SG20 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.1    0.003
+  UniRef90_N9K2U5 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  45.1    0.003
+  UniRef90_A0A268JC91 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  44.3    0.003
+  UniRef90_A0A365SNX1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  44.7    0.004
+  UniRef90_A0A370XDR8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  44.7    0.004
+  UniRef90_A0A1H2NSA3 Biofilm PGA synthesis protein PgaD n=1 Tax=...  44.3    0.006
+  UniRef90_A0A291AQ34 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  44.3    0.006
+  UniRef90_L7HLG7 Biofilm PGA synthesis protein PgaD, putative n=...  43.9    0.008
+  UniRef90_A0A2T2Y0T9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.5    0.008
+  UniRef90_UPI00069E6F04 poly-beta-1,6-N-acetyl-D-glucosamine bio...  43.9    0.009
+  UniRef90_UPI000BA48F34 poly-beta-1,6-N-acetyl-D-glucosamine bio...  43.9    0.010
+  UniRef90_A0A1T1IBD9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.9    0.010
+  UniRef90_J2VDN2 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  43.9    0.010
+  UniRef90_A0A078MDH9 Biofilm PNAG synthesis protein n=1 Tax=Pseu...  43.5    0.011
+  UniRef90_A0A378GKH4 Hemin storage system protein n=2 Tax=Kluyve...  43.1    0.011
+  UniRef90_A0A2S9IE64 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.1    0.011
+  UniRef90_A0A261TRR2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.1    0.012
+  UniRef90_UPI000F88D6E4 poly-beta-1,6-N-acetyl-D-glucosamine bio...  43.1    0.013
+  UniRef90_N9P4I0 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  43.1    0.015
+  UniRef90_A0A0J8VH34 Hemin storage protein n=3 Tax=Franconibacte...  43.1    0.015
+  UniRef90_A0A379J140 Biofilm PGA synthesis protein PgaD n=7 Tax=...  43.1    0.015
+  UniRef90_A0A3B7PPY6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.1    0.016
+  UniRef90_A0A2S9AQI3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.1    0.017
+  UniRef90_A0A1E7R5F1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  42.7    0.020
+  UniRef90_UPI0009DF5C66 poly-beta-1,6 N-acetyl-D-glucosamine syn...  43.9    0.020
+  UniRef90_A0A2L1JDD3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  42.7    0.023
+  UniRef90_A0A0M0TAI2 Hemin storage system protein HmsS n=2 Tax=X...  42.0    0.029
+  UniRef90_UPI000BA36E7E poly-beta-1,6-N-acetyl-D-glucosamine bio...  42.4    0.030
+  UniRef90_J1GD16 Hemin storage system protein n=5 Tax=Enterobact...  42.0    0.036
+  UniRef90_UPI000F897817 poly-beta-1,6-N-acetyl-D-glucosamine bio...  42.0    0.041
+  UniRef90_UPI000F6BDA34 poly-beta-1,6-N-acetyl-D-glucosamine bio...  42.0    0.041
+  UniRef90_B8GTH7 Uncharacterized protein n=2 Tax=Thioalkalivibri...  42.0    0.046
+  UniRef90_A0A2D0KWD2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.6    0.047
+  UniRef90_A0A010SD71 Biofilm PGA synthesis protein PgaD n=5 Tax=...  42.0    0.051
+  UniRef90_A0A0H3FMQ6 Hemin storage system protein n=17 Tax=Enter...  41.6    0.053
+  UniRef90_A0A1Q8EX67 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.6    0.057
+  UniRef90_A0A2R7QJJ7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.2    0.075
+  UniRef90_A0A090UZS3 Biofilm adhesin PGA synthesis protein PgaD ...  40.8    0.090
+  UniRef90_A0A2P5MY90 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.2    0.094
+  UniRef90_A0A1J0EKK2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.2    0.10 
+  UniRef90_D4BB24 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  40.8    0.11 
+  UniRef90_A0A0M3SW47 Uncharacterized protein n=2 Tax=Cupriavidus...  40.8    0.11 
+  UniRef90_A0A351R9Q6 Uncharacterized protein n=2 Tax=Methylotene...  41.6    0.11 
+  UniRef90_G0A375 Uncharacterized protein n=1 Tax=Methylomonas me...  40.8    0.12 
+  UniRef90_A0A2I8DK81 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.4    0.12 
+  UniRef90_A0A068R0T2 Haemin storage system (HmsS protein of hmsH...  40.4    0.14 
+  UniRef90_A0A1N6MW04 HmsS, Haemin storage system protein S n=1 T...  40.0    0.15 
+  UniRef90_A0A023C9H9 Biofilm PGA synthesis protein PgaD n=1 Tax=...  40.0    0.18 
+  UniRef90_A0A1I4TW37 Biofilm PGA synthesis protein PgaD n=1 Tax=...  40.0    0.18 
+  UniRef90_A0A149V8V8 Uncharacterized protein n=1 Tax=Acetobacter...  40.0    0.21 
+  UniRef90_UPI000DD06FF3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  40.0    0.22 
+  UniRef90_UPI000BA56F8F poly-beta-1,6-N-acetyl-D-glucosamine bio...  39.7    0.23 
+  UniRef90_A0A1G6GXR3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.0    0.27 
+  UniRef90_A0A1S1USD0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.7    0.28 
+  UniRef90_A0A351LUC8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.7    0.32 
+  UniRef90_A0A2K4GBC3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.7    0.33 
+  UniRef90_A0A0D6B9Q4 Biofilm PGA synthesis protein PgaD n=4 Tax=...  39.3    0.39 
+  UniRef90_A0A2D9ELL0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.9    0.44 
+  UniRef90_A0A2G8BYZ7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.9    0.45 
+  UniRef90_UPI000A000906 poly-beta-1,6-N-acetyl-D-glucosamine bio...  39.3    0.47 
+  UniRef90_A0A177NKK2 Uncharacterized protein n=1 Tax=Methylomona...  39.3    0.49 
+  UniRef90_A0A368X1A4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.5    0.60 
+  UniRef90_A0A1T5CMG4 Biofilm PGA synthesis protein PgaD n=6 Tax=...  38.5    0.64 
+  UniRef90_A0A2N4U3H0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.5    0.64 
+  UniRef90_A0A1E7RDZ5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.5    0.69 
+  UniRef90_UPI00055A581C DUF4118 domain-containing protein n=1 Ta...  39.3    0.74 
+  UniRef90_V2VNT6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  38.5    0.75 
+  UniRef90_A0A0F3KQA8 Uncharacterized protein n=1 Tax=Aquitalea m...  38.1    0.80 
+  UniRef90_A0A2V1JWI0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.1    0.91 
+  UniRef90_A0A2A7UYP2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.5    0.91 
+  UniRef90_A0A2T7FQI0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.1    1.0  
+  UniRef90_A0A1D7YZV4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  37.7    1.1  
+  UniRef90_UPI000B8881EC poly-beta-1,6-N-acetyl-D-glucosamine bio...  37.7    1.3  
+  UniRef90_A0A1E7RIB1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  37.7    1.4  
+  UniRef90_F4GTJ2 Uncharacterized protein n=1 Tax=Pusillimonas sp...  37.7    1.6  
+  UniRef90_A0A168RJ37 Hemin storage system protein n=28 Tax=Gamma...  37.4    1.6  
+  UniRef90_UPI000EB21921 poly-beta-1,6-N-acetyl-D-glucosamine bio...  37.4    2.0  
+  UniRef90_A0A3A1YSW8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  37.0    2.0  
+  UniRef90_A0A0C3PH64 Uncharacterized protein n=1 Tax=Pisolithus ...  37.7    2.2  
+  UniRef90_A0A0E1FKR5 Biofilm PGA synthesis protein pgaD n=67 Tax...  37.0    2.3  
+  UniRef90_A0A2V9ZQ07 Uncharacterized protein (Fragment) n=1 Tax=...  36.6    2.5  
+  UniRef90_A0A1Q5U8G7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  37.0    2.6  
+  UniRef90_A0A231HHG4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.6    3.0  
+  UniRef90_UPI000364CA6E poly-beta-1,6-N-acetyl-D-glucosamine bio...  37.0    3.0  
+  UniRef90_A0A225N0S5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  37.0    3.1  
+  UniRef90_A0A1P8JT43 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.6    3.5  
+  UniRef90_A0A1F4XUJ2 Uncharacterized protein n=1 Tax=Candidatus ...  35.4    3.7  
+  UniRef90_A0A0W0QW53 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  35.8    4.0  
+  UniRef90_W8X1U6 Uncharacterized protein n=1 Tax=Castellaniella ...  36.6    4.0  
+  UniRef90_UPI0009977625 poly-beta-1,6-N-acetyl-D-glucosamine bio...  35.8    4.2  
+  UniRef90_A0A0W8BZA8 Uncharacterized protein n=1 Tax=Phytophthor...  37.0    4.3  
+  UniRef90_A0A1G4A9L8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.2    4.4  
+  UniRef90_UPI000DA15BF0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  36.2    4.8  
+  UniRef90_A0A177Q9C7 Uncharacterized protein n=1 Tax=Rhizomicrob...  37.0    4.9  
+  UniRef90_A0A191ZH78 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.2    5.0  
+  UniRef90_A0A157ZKS0 Uncharacterized protein n=2 Tax=Caballeroni...  36.2    5.4  
+  UniRef90_A0A1F7A2M8 Uncharacterized protein n=1 Tax=Candidatus ...  36.6    5.5  
+  UniRef90_A0A1B7K105 PgaD family PGA biofilm synthesis auxiliary...  35.8    5.5  
+  UniRef90_A0A0C9ZZ20 Unplaced genomic scaffold scaffold_1, whole...  36.6    5.7  
+  UniRef90_A0A354ICY0 Uncharacterized protein (Fragment) n=1 Tax=...  36.6    5.7  
+  UniRef90_A0A014P6D8 Secretion protein HlyD n=3 Tax=Comamonas aq...  36.6    5.9  
+  UniRef90_N8QXR6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  35.8    6.0  
+  UniRef90_UPI000B42B4ED poly-beta-1,6-N-acetyl-D-glucosamine bio...  35.8    6.0  
+  UniRef90_A0A1Q8SN98 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  35.8    6.4  
+  UniRef90_A0A089PZ95 ABC transporter substrate-binding protein n...  35.8    6.4  
+  UniRef90_A0A0B7H3Z2 Uncharacterized protein n=3 Tax=Capnocytoph...  36.2    6.5  
+  UniRef90_A0A1B2N5W8 Hemin storage protein n=4 Tax=Stenotrophomo...  35.8    6.8  
+  UniRef90_UPI00034AB3C2 poly-beta-1,6-N-acetyl-D-glucosamine bio...  36.2    6.8  
+  UniRef90_W2Q5N4 Uncharacterized protein n=6 Tax=Phytophthora pa...  36.2    7.6  
+  UniRef90_M4C2T7 Uncharacterized protein n=1 Tax=Hyaloperonospor...  36.2    7.6  
+  UniRef90_A0A3B1A6U5 Uncharacterized protein n=1 Tax=hydrotherma...  35.4    7.6  
+  UniRef90_M4C2T6 Uncharacterized protein n=1 Tax=Hyaloperonospor...  36.2    7.7  
+  UniRef90_UPI00057F9E3D poly-beta-1,6-N-acetyl-D-glucosamine bio...  35.8    7.8  
+  UniRef90_A0A2U1CHT2 Biofilm PGA synthesis protein PgaD n=2 Tax=...  35.4    8.1  
+  UniRef90_A0A2S3QHG3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  35.4    8.3  
+  UniRef90_UPI000B7D257C poly-beta-1,6-N-acetyl-D-glucosamine bio...  35.4    9.0  
+  UniRef90_A0A2E4R6T6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  35.0    9.4  
+  UniRef90_A0A2V1HHJ0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  35.4    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.135    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 757384025292
+Warning: [psiblast] lcl|Query_1 NP_415540.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415540.1
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P69433 Biofilm PGA synthesis protein PgaD n=233 Tax=Ba...  173     3e-53
+  UniRef90_A0A191YLN0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  169     2e-51
+  UniRef90_A0A1V4LIT7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  168     3e-51
+  UniRef90_A0A2X5E7W5 PGA biosynthesis protein n=13 Tax=Enterobac...  167     5e-51
+  UniRef90_UPI00069EBA31 poly-beta-1,6-N-acetyl-D-glucosamine bio...  168     7e-51
+  UniRef90_UPI000A1D9A27 poly-beta-1,6-N-acetyl-D-glucosamine bio...  166     2e-50
+  UniRef90_Q3KJY2 Putative hemin storage system n=15 Tax=Pseudomo...  166     5e-50
+  UniRef90_A0A2A2DRB9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  165     7e-50
+  UniRef90_A0A1K2CSA4 Biofilm PGA synthesis protein PgaD n=9 Tax=...  165     1e-49
+  UniRef90_A0A2R4PQ04 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  165     1e-49
+  UniRef90_A0A365WY49 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  164     2e-49
+  UniRef90_A0A2N7RHP8 Biofilm PGA synthesis protein PgaD n=3 Tax=...  163     4e-49
+  UniRef90_A0A2A5R4Z1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  163     5e-49
+  UniRef90_A0A341F3J9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  163     7e-49
+  UniRef90_A0A3D4NT61 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  162     1e-48
+  UniRef90_A0A0C5DQA1 Uncharacterized protein n=2 Tax=Pseudomonas...  160     5e-48
+  UniRef90_A0A1H1LYH3 Biofilm PGA synthesis protein PgaD n=2 Tax=...  159     1e-47
+  UniRef90_W8PCX6 Biofilm PGA synthesis protein PgaD n=3 Tax=Pseu...  158     5e-47
+  UniRef90_A0A0B7D4L9 Biofilm PGA synthesis protein PgaD n=2 Tax=...  158     6e-47
+  UniRef90_A0A2N8BCW0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  157     7e-47
+  UniRef90_A0A2N7ZNX7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  157     8e-47
+  UniRef90_A0A2N0DQB9 Biofilm PGA synthesis protein PgaD n=3 Tax=...  157     9e-47
+  UniRef90_A0A0T9U3V4 Hemin storage system protein n=8 Tax=Yersin...  156     2e-46
+  UniRef90_A0A2K4J816 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  156     2e-46
+  UniRef90_W1J4Z3 Haemin storage system (HmsS protein of hmsHFRS ...  155     3e-46
+  UniRef90_A0A1Y1TKR5 Biofilm PGA synthesis auxiliary protein Pga...  155     3e-46
+  UniRef90_A0A246G0C3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  155     3e-46
+  UniRef90_A0A0C2I0Y3 Biofilm PGA synthesis auxiliary protein Pga...  155     4e-46
+  UniRef90_A0A2S8XGD3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  155     5e-46
+  UniRef90_A0A1R0GC32 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  154     6e-46
+  UniRef90_A0A3N7BVT5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  154     8e-46
+  UniRef90_A0A0M9GIL7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  154     8e-46
+  UniRef90_A0A2N7YGA8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  154     1e-45
+  UniRef90_A0A2S7SG62 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  153     1e-45
+  UniRef90_A0A1S2V894 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  154     1e-45
+  UniRef90_A0A2K1FDA3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  153     1e-45
+  UniRef90_UPI000BA37983 poly-beta-1,6-N-acetyl-D-glucosamine bio...  153     2e-45
+  UniRef90_A0A0U1HSX3 Hemin storage system protein n=2 Tax=Yersin...  153     2e-45
+  UniRef90_A0A0H5LST7 Hemin storage system protein n=4 Tax=Yersin...  153     3e-45
+  UniRef90_A0A0T9SA60 Hemin storage system protein n=23 Tax=Yersi...  153     3e-45
+  UniRef90_A0A1B5E231 Biofilm PGA synthesis protein PgaD n=25 Tax...  153     4e-45
+  UniRef90_A0A209ABV5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  152     4e-45
+  UniRef90_A0A1T2YSN1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  153     4e-45
+  UniRef90_A0A386Y3R7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  153     4e-45
+  UniRef90_A0A0T9LR18 Hemin storage system protein n=5 Tax=Yersin...  152     5e-45
+  UniRef90_A0A263NPV9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  152     6e-45
+  UniRef90_A0A1B5CUA7 Biofilm PGA synthesis protein PgaD n=17 Tax...  152     6e-45
+  UniRef90_A0A0T9TDC5 Hemin storage system protein n=4 Tax=Yersin...  152     6e-45
+  UniRef90_A0A2K9E5J2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  151     9e-45
+  UniRef90_A0A0E8XIC8 Hemin storage system protein n=25 Tax=Yersi...  151     1e-44
+  UniRef90_A0A1V2KA04 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  151     1e-44
+  UniRef90_A0A031J4H5 Biofilm PGA synthesis protein PgaD n=17 Tax...  151     1e-44
+  UniRef90_A0A376I169 PGA biosynthesis protein n=4 Tax=Enterobact...  151     2e-44
+  UniRef90_A0A2P1VVD0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  151     2e-44
+  UniRef90_A0A1I6DPC4 Biofilm PGA synthesis protein PgaD n=1 Tax=...  150     2e-44
+  UniRef90_A0A3D4SJI4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  150     3e-44
+  UniRef90_A0A2D0KJM4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  149     3e-44
+  UniRef90_A0A1I3IZY5 Biofilm PGA synthesis protein PgaD n=1 Tax=...  149     3e-44
+  UniRef90_N1NM31 HmsS, Haemin storage system protein S n=6 Tax=X...  149     4e-44
+  UniRef90_A0A109LDM6 Biofilm PGA synthesis protein PgaD n=22 Tax...  150     4e-44
+  UniRef90_A0A0T9PPU6 Hemin storage system protein n=1 Tax=Yersin...  149     7e-44
+  UniRef90_A0A0J5FXZ9 Hemin storage system protein HmsS n=1 Tax=X...  148     8e-44
+  UniRef90_A0A1Y2SQW6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  148     8e-44
+  UniRef90_A0A1H1VM57 Biofilm PGA synthesis protein PgaD n=4 Tax=...  149     1e-43
+  UniRef90_A0A2X1IWY9 PGA biosynthesis protein n=3 Tax=Enterobact...  148     1e-43
+  UniRef90_A0A2G2QJ53 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  149     1e-43
+  UniRef90_D4BGN5 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  148     3e-43
+  UniRef90_A0A1Y2SH11 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  146     5e-43
+  UniRef90_H5V1E2 Biofilm adhesin PGA synthesis protein PgaD n=4 ...  147     8e-43
+  UniRef90_UPI000F6716BA poly-beta-1,6-N-acetyl-D-glucosamine bio...  146     1e-42
+  UniRef90_UPI0007D90395 poly-beta-1,6-N-acetyl-D-glucosamine bio...  145     1e-42
+  UniRef90_A0A1N7CWR5 Biofilm PGA synthesis protein PgaD n=1 Tax=...  144     2e-42
+  UniRef90_A0A243U4T0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  145     4e-42
+  UniRef90_A0A0J1PJJ8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  145     4e-42
+  UniRef90_A0A0S9EV45 Uncharacterized protein n=2 Tax=Acidovorax ...  145     6e-42
+  UniRef90_A0A0G4JXU8 Biofilm PGA synthesis auxiliary protein Pga...  143     2e-41
+  UniRef90_A0A068QU52 Haemin storage system (HmsS protein of hmsH...  142     2e-41
+  UniRef90_A0A2W0FLP0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  143     3e-41
+  UniRef90_A0A0T9KY07 Hemin storage system protein n=2 Tax=Yersin...  141     7e-41
+  UniRef90_A0A375GP40 Hemin storage system protein n=2 Tax=Cupria...  141     1e-40
+  UniRef90_UPI000933B9A0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  140     1e-40
+  UniRef90_UPI0007DDB1D1 poly-beta-1,6-N-acetyl-D-glucosamine bio...  140     2e-40
+  UniRef90_A0A0L0H272 Hemin storage protein n=1 Tax=Trabulsiella ...  140     3e-40
+  UniRef90_A0A0D1MM64 Uncharacterized protein n=1 Tax=Klebsiella ...  139     3e-40
+  UniRef90_UPI0004286EA3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  140     4e-40
+  UniRef90_A0A2D0J1F6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  136     1e-38
+  UniRef90_A0A208XSD8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  133     4e-37
+  UniRef90_A0A2Z5AJI2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  131     1e-36
+  UniRef90_A0A1R1JX31 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  130     2e-36
+  UniRef90_A0A0Q4MNS0 Uncharacterized protein n=1 Tax=Erwinia sp....  129     3e-36
+  UniRef90_A0A0M7M325 Biofilm PGA synthesis protein PgaD n=4 Tax=...  129     4e-36
+  UniRef90_A0A375EZ94 Hemin storage system protein n=2 Tax=Cupria...  129     7e-36
+  UniRef90_A0A142JT39 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  128     1e-35
+  UniRef90_A0A139SVV4 Uncharacterized protein n=1 Tax=Ventosimona...  128     3e-35
+  UniRef90_A0A3K2NSM1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  125     5e-35
+  UniRef90_UPI0007353885 poly-beta-1,6-N-acetyl-D-glucosamine bio...  126     5e-35
+  UniRef90_A0A0D6H6A3 Biofilm PGA synthesis protein PgaD n=19 Tax...  126     6e-35
+  UniRef90_E3HKX9 Uncharacterized protein n=4 Tax=Alcaligenes xyl...  126     9e-35
+  UniRef90_A0A375J6J8 Hemin storage system protein n=1 Tax=Cupria...  126     1e-34
+  UniRef90_A0A261W673 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  121     6e-33
+  UniRef90_H5V4U3 Uncharacterized protein n=1 Tax=Atlantibacter h...  114     1e-30
+  UniRef90_A0A376MUZ9 PGA biosynthesis protein n=2 Tax=Escherichi...  111     1e-29
+  UniRef90_UPI000BE43359 poly-beta-1,6-N-acetyl-D-glucosamine bio...  107     2e-28
+  UniRef90_UPI000F637F42 poly-beta-1,6-N-acetyl-D-glucosamine bio...  95.3    4e-23
+  UniRef90_R8YQ69 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  82.6    2e-17
+  UniRef90_A0A143J144 Biofilm PGA synthesis protein PgaD n=57 Tax...  80.6    7e-17
+  UniRef90_UPI000DF45D5E hypothetical protein n=1 Tax=Escherichia...  40.6    0.023
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_J2VDN2 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  166     5e-50
+  UniRef90_A0A291AQ34 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  165     5e-50
+  UniRef90_UPI0004B8EA26 poly-beta-1,6-N-acetyl-D-glucosamine bio...  165     8e-50
+  UniRef90_A0A0N0BUF7 Biofilm PGA synthesis protein PgaD n=5 Tax=...  161     2e-48
+  UniRef90_UPI000BA48F34 poly-beta-1,6-N-acetyl-D-glucosamine bio...  159     1e-47
+  UniRef90_A0A1N7FWF7 Biofilm PGA synthesis protein PgaD n=4 Tax=...  158     3e-47
+  UniRef90_A0A365SNX1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  157     1e-46
+  UniRef90_A0A1B3CDU3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  154     7e-46
+  UniRef90_A0A2K4GBC3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  154     1e-45
+  UniRef90_A0A010SD71 Biofilm PGA synthesis protein PgaD n=5 Tax=...  154     2e-45
+  UniRef90_A0A1J0EKK2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  153     2e-45
+  UniRef90_A0A1H3UMY9 Biofilm PGA synthesis protein PgaD n=1 Tax=...  153     2e-45
+  UniRef90_G8PYA1 PgaD n=44 Tax=Pseudomonas TaxID=286 RepID=G8PYA...  153     6e-45
+  UniRef90_UPI00069E6F04 poly-beta-1,6-N-acetyl-D-glucosamine bio...  153     6e-45
+  UniRef90_A0A1Q8EX67 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  150     3e-44
+  UniRef90_A0A2S9EGL5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  149     5e-44
+  UniRef90_UPI000F03482F poly-beta-1,6-N-acetyl-D-glucosamine bio...  149     1e-43
+  UniRef90_A0A2D0LH81 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  148     1e-43
+  UniRef90_A0A2L1JDD3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  148     2e-43
+  UniRef90_A0A263SB25 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  148     4e-43
+  UniRef90_A0A3G7Z248 Biofilm PGA synthesis auxiliary protein Pga...  147     6e-43
+  UniRef90_A0A2S9AQI3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  146     1e-42
+  UniRef90_A0A1T1IBD9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  146     1e-42
+  UniRef90_L7HLG7 Biofilm PGA synthesis protein PgaD, putative n=...  144     9e-42
+  UniRef90_A0A1I4TW37 Biofilm PGA synthesis protein PgaD n=1 Tax=...  143     3e-41
+  UniRef90_UPI000BA36E7E poly-beta-1,6-N-acetyl-D-glucosamine bio...  143     4e-41
+  UniRef90_A0A1H2NSA3 Biofilm PGA synthesis protein PgaD n=1 Tax=...  141     7e-41
+  UniRef90_UPI000F478B21 poly-beta-1,6-N-acetyl-D-glucosamine bio...  141     9e-41
+  UniRef90_A0A379J140 Biofilm PGA synthesis protein PgaD n=7 Tax=...  141     2e-40
+  UniRef90_UPI000F6BDA34 poly-beta-1,6-N-acetyl-D-glucosamine bio...  141     2e-40
+  UniRef90_A0A2G0VUQ9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  139     5e-40
+  UniRef90_A0A0J8VH34 Hemin storage protein n=3 Tax=Franconibacte...  139     1e-39
+  UniRef90_A0A1N6MW04 HmsS, Haemin storage system protein S n=1 T...  138     2e-39
+  UniRef90_A0A1S1USD0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  134     5e-38
+  UniRef90_A0A2D0KWD2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  133     1e-37
+  UniRef90_A0A0M3SW47 Uncharacterized protein n=2 Tax=Cupriavidus...  133     2e-37
+  UniRef90_A0A2U1U338 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  132     3e-37
+  UniRef90_A0A0M0TAI2 Hemin storage system protein HmsS n=2 Tax=X...  131     6e-37
+  UniRef90_A0A023C9H9 Biofilm PGA synthesis protein PgaD n=1 Tax=...  132     6e-37
+  UniRef90_A0A351LUC8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  131     1e-36
+  UniRef90_A0A0D6B9Q4 Biofilm PGA synthesis protein PgaD n=4 Tax=...  130     3e-36
+  UniRef90_A0A1Q5TZB8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  129     5e-36
+  UniRef90_A0A1Q5U8G7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  128     1e-35
+  UniRef90_A0A068R0T2 Haemin storage system (HmsS protein of hmsH...  128     2e-35
+  UniRef90_A0A090UZS3 Biofilm adhesin PGA synthesis protein PgaD ...  126     1e-34
+  UniRef90_A0A1N6W8H5 Biofilm PGA synthesis protein PgaD n=2 Tax=...  125     2e-34
+  UniRef90_UPI000EB21921 poly-beta-1,6-N-acetyl-D-glucosamine bio...  124     8e-34
+  UniRef90_A0A2I8QSJ0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  121     1e-32
+  UniRef90_A0A2S4WU20 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  119     3e-32
+  UniRef90_A0A0L8EPW1 Hemin storage system protein n=1 Tax=Achrom...  116     4e-31
+  UniRef90_A0A2S9IE64 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  116     5e-31
+  UniRef90_UPI00057A7293 poly-beta-1,6-N-acetyl-D-glucosamine bio...  116     7e-31
+  UniRef90_A0A0W0QW53 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  113     3e-30
+  UniRef90_J4J6D3 Uncharacterized protein n=2 Tax=Achromobacter T...  114     5e-30
+  UniRef90_A0A2I8NRR5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  113     7e-30
+  UniRef90_A0A1Y0D3X8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  113     9e-30
+  UniRef90_A0A365XLT2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  113     9e-30
+  UniRef90_F4GTJ2 Uncharacterized protein n=1 Tax=Pusillimonas sp...  110     2e-28
+  UniRef90_A0A2S8V764 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  109     2e-28
+  UniRef90_A0A2I8DK81 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  108     6e-28
+  UniRef90_A0A2V2T291 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  107     3e-27
+  UniRef90_A0A239I5N8 Biofilm PGA synthesis protein PgaD n=2 Tax=...  107     4e-27
+  UniRef90_A0A1M6AJE2 Biofilm PGA synthesis protein PgaD n=1 Tax=...  106     5e-27
+  UniRef90_A0A2N8KQH4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  103     9e-26
+  UniRef90_A0A2G8BYZ7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  102     9e-26
+  UniRef90_A0A378GKH4 Hemin storage system protein n=2 Tax=Kluyve...  102     1e-25
+  UniRef90_A0A0T6UMD5 Uncharacterized protein n=1 Tax=Pseudomonas...  103     2e-25
+  UniRef90_A0A2T2Y0T9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  101     4e-25
+  UniRef90_A0A2A7UYP2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  102     6e-25
+  UniRef90_A0A368X1A4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  100     7e-25
+  UniRef90_A0A095W0X8 Hemin storage system protein n=1 Tax=Achrom...  100     1e-24
+  UniRef90_H0F5P7 Uncharacterized protein n=1 Tax=Achromobacter a...  100     1e-24
+  UniRef90_A0A3A1YSW8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  99.5    2e-24
+  UniRef90_D4BB24 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  99.1    4e-24
+  UniRef90_A0A1Z3HDV6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  98.4    7e-24
+  UniRef90_A0A2S0I6H8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  98.4    9e-24
+  UniRef90_A0A1I4PF64 Biofilm PGA synthesis protein PgaD n=1 Tax=...  98.7    9e-24
+  UniRef90_U2BAH7 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  98.7    1e-23
+  UniRef90_A0A0H3FMQ6 Hemin storage system protein n=17 Tax=Enter...  98.0    1e-23
+  UniRef90_A0A1D7YZV4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  96.4    3e-23
+  UniRef90_C6DK93 Putative hemin storage protein n=2 Tax=Pectobac...  96.4    4e-23
+  UniRef90_A0A078MDH9 Biofilm PNAG synthesis protein n=1 Tax=Pseu...  96.8    4e-23
+  UniRef90_Q6CYQ4 Putative hemin storage protein n=3 Tax=Pectobac...  96.1    6e-23
+  UniRef90_A0A1B7K105 PgaD family PGA biofilm synthesis auxiliary...  95.7    7e-23
+  UniRef90_A0A2N4U3H0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  95.7    1e-22
+  UniRef90_A0A261TRR2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  95.3    1e-22
+  UniRef90_A0A377WFL3 Hemin storage system protein n=9 Tax=Klebsi...  95.7    2e-22
+  UniRef90_UPI000BA56F8F poly-beta-1,6-N-acetyl-D-glucosamine bio...  94.1    3e-22
+  UniRef90_A0A2L1C4K8 Hemin storage system protein n=81 Tax=Enter...  94.1    4e-22
+  UniRef90_UPI0004F65F39 poly-beta-1,6-N-acetyl-D-glucosamine bio...  93.4    9e-22
+  UniRef90_A0A168RJ37 Hemin storage system protein n=28 Tax=Gamma...  92.6    1e-21
+  UniRef90_A0A2U1CHT2 Biofilm PGA synthesis protein PgaD n=2 Tax=...  92.6    1e-21
+  UniRef90_A0A0M9I633 Biofilm PGA synthesis protein PgaD n=10 Tax...  92.2    2e-21
+  UniRef90_A0A329HMF5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  91.8    3e-21
+  UniRef90_A0A1Y0KMJ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  91.8    5e-21
+  UniRef90_UPI000A000906 poly-beta-1,6-N-acetyl-D-glucosamine bio...  92.6    5e-21
+  UniRef90_D0KF97 Putative hemin storage protein n=3 Tax=Pectobac...  91.0    5e-21
+  UniRef90_A0A176X1Z5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  91.0    6e-21
+  UniRef90_A0A3A3Z930 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  90.7    9e-21
+  UniRef90_A0A089PZ95 ABC transporter substrate-binding protein n...  90.3    1e-20
+  UniRef90_UPI000651D23D poly-beta-1,6-N-acetyl-D-glucosamine bio...  90.3    1e-20
+  UniRef90_J1GD16 Hemin storage system protein n=5 Tax=Enterobact...  89.9    1e-20
+  UniRef90_UPI000B42B4ED poly-beta-1,6-N-acetyl-D-glucosamine bio...  89.9    2e-20
+  UniRef90_A0A144CHA1 Hemin storage system protein n=68 Tax=Bacte...  89.5    2e-20
+  UniRef90_A0A2N4UC81 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  89.9    2e-20
+  UniRef90_UPI0009FC3112 poly-beta-1,6-N-acetyl-D-glucosamine bio...  89.5    5e-20
+  UniRef90_A0A261QZ19 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  88.7    6e-20
+  UniRef90_A0A240C9A6 Hemin storage system protein n=1 Tax=Serrat...  88.3    6e-20
+  UniRef90_A0A149V8V8 Uncharacterized protein n=1 Tax=Acetobacter...  88.3    7e-20
+  UniRef90_A0A2A4AST4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  88.7    7e-20
+  UniRef90_UPI00039EB034 poly-beta-1,6-N-acetyl-D-glucosamine bio...  88.3    1e-19
+  UniRef90_W0BSF0 ABC transporter substrate-binding protein n=8 T...  87.2    2e-19
+  UniRef90_A0A0F0YEP0 ABC transporter substrate-binding protein n...  85.6    6e-19
+  UniRef90_A0A2V1JWI0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  86.0    7e-19
+  UniRef90_A0A2D7XHQ1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  85.6    8e-19
+  UniRef90_A0A1X7JK70 Biofilm PGA synthesis protein PgaD n=2 Tax=...  84.5    2e-18
+  UniRef90_A0A225N0S5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  84.5    4e-18
+  UniRef90_A0A1C3Q7X1 Hemin storage system protein n=41 Tax=Enter...  83.0    8e-18
+  UniRef90_A0A2D9ELL0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  82.6    1e-17
+  UniRef90_A0A366HE16 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  82.2    1e-17
+  UniRef90_A0A2E4R6T6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  81.8    2e-17
+  UniRef90_UPI000990FC5F poly-beta-1,6-N-acetyl-D-glucosamine bio...  81.0    5e-17
+  UniRef90_A0A261SGG4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  80.6    6e-17
+  UniRef90_A0A251ZZK6 Uncharacterized protein n=1 Tax=Acetobacter...  80.6    1e-16
+  UniRef90_A0A0W1RUE7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  78.3    7e-16
+  UniRef90_A0A2M7FXS6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  77.2    1e-15
+  UniRef90_S3JBR1 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  76.8    2e-15
+  UniRef90_UPI000F6FE93C poly-beta-1,6-N-acetyl-D-glucosamine bio...  75.6    6e-15
+  UniRef90_UPI000D7071C9 poly-beta-1,6-N-acetyl-D-glucosamine bio...  76.0    8e-15
+  UniRef90_UPI000E59F395 poly-beta-1,6-N-acetyl-D-glucosamine bio...  74.5    1e-14
+  UniRef90_W8X1U6 Uncharacterized protein n=1 Tax=Castellaniella ...  74.5    2e-14
+  UniRef90_A0A1T1H159 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  74.1    3e-14
+  UniRef90_UPI000DA25971 poly-beta-1,6-N-acetyl-D-glucosamine bio...  73.7    4e-14
+  UniRef90_UPI000DA15BF0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  73.3    6e-14
+  UniRef90_N8QXR6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  72.6    9e-14
+  UniRef90_A0A3M1DIB9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  72.9    9e-14
+  UniRef90_A0A3E1K6R9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  72.9    1e-13
+  UniRef90_UPI0004795081 poly-beta-1,6-N-acetyl-D-glucosamine bio...  72.6    1e-13
+  UniRef90_A0A3B7PPY6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  72.6    1e-13
+  UniRef90_A0A1V3BQ16 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  70.6    7e-13
+  UniRef90_UPI00057F9E3D poly-beta-1,6-N-acetyl-D-glucosamine bio...  70.6    8e-13
+  UniRef90_UPI000B7D257C poly-beta-1,6-N-acetyl-D-glucosamine bio...  70.2    8e-13
+  UniRef90_A0A0U1Q2C5 Uncharacterized protein n=1 Tax=Lampropedia...  71.8    8e-13
+  UniRef90_A0A151XXI4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  70.2    9e-13
+  UniRef90_UPI000DA26048 poly-beta-1,6-N-acetyl-D-glucosamine bio...  70.2    9e-13
+  UniRef90_V2VNT6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  69.9    1e-12
+  UniRef90_N9DSG2 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  71.0    1e-12
+  UniRef90_A0A3M6R026 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.0    2e-12
+  UniRef90_UPI000364CA6E poly-beta-1,6-N-acetyl-D-glucosamine bio...  69.9    2e-12
+  UniRef90_A0A380UFS5 Biofilm PGA synthesis protein pgaD n=10 Tax...  69.5    2e-12
+  UniRef90_A0A177NKK2 Uncharacterized protein n=1 Tax=Methylomona...  69.5    2e-12
+  UniRef90_A0A1D2TKI8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  69.9    2e-12
+  UniRef90_A0A1Q8SN98 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  69.1    3e-12
+  UniRef90_A0A2W5M6T4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  68.7    3e-12
+  UniRef90_A0A241W8G0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  68.7    5e-12
+  UniRef90_S9ZHR6 Uncharacterized protein n=2 Tax=Thauera terpeni...  66.8    6e-12
+  UniRef90_A0A368Y5G3 Biofilm PGA synthesis protein PgaD n=1 Tax=...  67.9    6e-12
+  UniRef90_B8GTH7 Uncharacterized protein n=2 Tax=Thioalkalivibri...  67.9    9e-12
+  UniRef90_A0A0B5FT76 Uncharacterized protein n=1 Tax=Geoalkaliba...  67.2    1e-11
+  UniRef90_UPI000B8881EC poly-beta-1,6-N-acetyl-D-glucosamine bio...  66.8    1e-11
+  UniRef90_A0A1G6GXR3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  67.5    2e-11
+  UniRef90_N8QC54 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  66.8    2e-11
+  UniRef90_UPI000F897817 poly-beta-1,6-N-acetyl-D-glucosamine bio...  66.4    2e-11
+  UniRef90_A0A348HH79 Inorganic pyrophosphatase/exopolyphosphatas...  66.4    3e-11
+  UniRef90_A0A1X0ZSQ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.0    3e-11
+  UniRef90_A0A370XDR8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.0    3e-11
+  UniRef90_A0A1D2SJT2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.4    3e-11
+  UniRef90_A0A0F3KQA8 Uncharacterized protein n=1 Tax=Aquitalea m...  66.0    3e-11
+  UniRef90_N9K2U5 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  66.0    3e-11
+  UniRef90_A0A241V3N5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.4    4e-11
+  UniRef90_A0A0A8XDQ4 Uncharacterized protein n=1 Tax=Bacillus se...  64.8    5e-11
+  UniRef90_A0A2P5MY90 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.0    5e-11
+  UniRef90_A0A178GJI4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.0    5e-11
+  UniRef90_A0A1P8JT43 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  65.6    6e-11
+  UniRef90_A0A2P5ZMQ1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.4    7e-11
+  UniRef90_A0A3B9PL39 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.0    7e-11
+  UniRef90_A0A3D3Q044 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  62.9    8e-11
+  UniRef90_A0A178GAK0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  65.2    8e-11
+  UniRef90_A0A268JC91 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.1    9e-11
+  UniRef90_UPI000DA1B23E poly-beta-1,6-N-acetyl-D-glucosamine bio...  64.8    1e-10
+  UniRef90_UPI0009DF5C66 poly-beta-1,6 N-acetyl-D-glucosamine syn...  67.5    1e-10
+  UniRef90_UPI0003AA2C86 poly-beta-1,6-N-acetyl-D-glucosamine bio...  67.5    1e-10
+  UniRef90_A0A345Y8E9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.5    1e-10
+  UniRef90_N9P4I0 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  64.5    1e-10
+  UniRef90_B5JTY1 Uncharacterized protein n=1 Tax=gamma proteobac...  64.5    1e-10
+  UniRef90_J0B934 Uncharacterized protein n=2 Tax=Alcaligenes fae...  64.5    2e-10
+  UniRef90_A0A3A8EPX8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.1    2e-10
+  UniRef90_A0A2C9WU90 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.5    2e-10
+  UniRef90_A0A1G4A9L8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.1    2e-10
+  UniRef90_A0A2T5P0R2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.1    2e-10
+  UniRef90_UPI00069CE319 poly-beta-1,6-N-acetyl-D-glucosamine bio...  63.7    3e-10
+  UniRef90_UPI000B4096F7 poly-beta-1,6-N-acetyl-D-glucosamine bio...  62.5    3e-10
+  UniRef90_A0A378B576 Hemin storage system protein n=1 Tax=Klebsi...  61.8    4e-10
+  UniRef90_A0A2K8USH8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  63.7    4e-10
+  UniRef90_UPI000F6480D3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  62.9    5e-10
+  UniRef90_A0A376FGV9 Hemin storage system protein n=1 Tax=Entero...  61.0    6e-10
+  UniRef90_A0A2P5NVA5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  62.5    7e-10
+  UniRef90_N8Z4S1 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  63.3    7e-10
+  UniRef90_A0A222ZXQ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  62.5    1e-09
+  UniRef90_A0A3D5C7C6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  59.5    1e-09
+  UniRef90_A0A0A3X2Z4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  62.5    1e-09
+  UniRef90_UPI000F68F316 poly-beta-1,6-N-acetyl-D-glucosamine bio...  61.8    2e-09
+  UniRef90_A0A2N1ZS44 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  61.8    2e-09
+  UniRef90_A0A2S2FGF4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  61.8    2e-09
+  UniRef90_UPI000F608778 poly-beta-1,6-N-acetyl-D-glucosamine bio...  62.2    2e-09
+  UniRef90_A0A2U3N330 Uncharacterized protein n=1 Tax=Acinetobact...  61.4    2e-09
+  UniRef90_A0A1L3GG94 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  61.8    3e-09
+  UniRef90_A0A1G9SG20 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  61.0    3e-09
+  UniRef90_A0A1E7R5F1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  61.0    3e-09
+  UniRef90_UPI000DD06FF3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  61.0    4e-09
+  UniRef90_A0A3G9GES3 Uncharacterized protein n=1 Tax=Aquitalea m...  60.6    4e-09
+  UniRef90_UPI0009D6A6CA poly-beta-1,6-N-acetyl-D-glucosamine bio...  61.4    4e-09
+  UniRef90_A0A1Y3C557 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.6    4e-09
+  UniRef90_A0A2T7FQI0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.2    5e-09
+  UniRef90_A0A2R7QJJ7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.2    6e-09
+  UniRef90_A0A241V879 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.2    6e-09
+  UniRef90_A0A290ZRA9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.6    7e-09
+  UniRef90_UPI00034AB3C2 poly-beta-1,6-N-acetyl-D-glucosamine bio...  62.2    8e-09
+  UniRef90_A0A2A2AXF9 Uncharacterized protein n=7 Tax=unclassifie...  60.6    9e-09
+  UniRef90_A0A369PRC6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.2    9e-09
+  UniRef90_A0A290XE78 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  59.5    1e-08
+  UniRef90_A0A1E7RIB1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  59.5    1e-08
+  UniRef90_D7DK49 Uncharacterized protein n=1 Tax=Methylotenera v...  59.5    1e-08
+  UniRef90_UPI000F88D6E4 poly-beta-1,6-N-acetyl-D-glucosamine bio...  59.1    1e-08
+  UniRef90_G0A375 Uncharacterized protein n=1 Tax=Methylomonas me...  59.5    1e-08
+  UniRef90_A0A0E1FKR5 Biofilm PGA synthesis protein pgaD n=67 Tax...  59.1    1e-08
+  UniRef90_A0A318VQ13 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  61.0    2e-08
+  UniRef90_UPI000C7A9771 poly-beta-1,6-N-acetyl-D-glucosamine bio...  58.7    2e-08
+  UniRef90_A0A231HHG4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  58.3    2e-08
+  UniRef90_UPI0009DBD79C poly-beta-1,6-N-acetyl-D-glucosamine bio...  60.6    3e-08
+  UniRef90_UPI000DCFF96D poly-beta-1,6-N-acetyl-D-glucosamine bio...  58.7    3e-08
+  UniRef90_V2TQ50 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  58.3    3e-08
+  UniRef90_A0A1B2N5W8 Hemin storage protein n=4 Tax=Stenotrophomo...  58.3    4e-08
+  UniRef90_A0A2S3QHG3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  57.5    4e-08
+  UniRef90_A0A2R7IGX1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  58.3    4e-08
+  UniRef90_UPI000CE567B3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  58.3    4e-08
+  UniRef90_UPI0004076A88 poly-beta-1,6-N-acetyl-D-glucosamine bio...  57.9    4e-08
+  UniRef90_A0A2S9GSB5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  57.5    5e-08
+  UniRef90_A0A257QCP0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  58.7    5e-08
+  UniRef90_A0A2N6VHM6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  57.9    5e-08
+  UniRef90_A0A369UND5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  57.5    6e-08
+  UniRef90_A0A286CW92 Biofilm PGA synthesis protein PgaD n=1 Tax=...  57.1    9e-08
+  UniRef90_UPI0008240509 poly-beta-1,6-N-acetyl-D-glucosamine bio...  56.0    1e-07
+  UniRef90_A0A165G584 Uncharacterized protein n=1 Tax=Crenobacter...  56.8    1e-07
+  UniRef90_A0A2V1HHJ0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.4    2e-07
+  UniRef90_UPI000F8CF70A UPI000F8CF70A related cluster n=1 Tax=un...  55.6    3e-07
+  UniRef90_A0A1M4Y8F4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.6    4e-07
+  UniRef90_UPI000DF79F01 poly-beta-1,6-N-acetyl-D-glucosamine bio...  55.2    4e-07
+  UniRef90_A0A191ZH78 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.6    4e-07
+  UniRef90_A0A2S6H6Z2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.2    4e-07
+  UniRef90_UPI000737D2D5 poly-beta-1,6-N-acetyl-D-glucosamine bio...  55.2    5e-07
+  UniRef90_A0A371YSP8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.8    6e-07
+  UniRef90_A0A2N0V6Y1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.4    7e-07
+  UniRef90_UPI000D53C858 poly-beta-1,6-N-acetyl-D-glucosamine bio...  54.8    8e-07
+  UniRef90_UPI000416F06A poly-beta-1,6-N-acetyl-D-glucosamine bio...  55.2    9e-07
+  UniRef90_A0A2M9EB71 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.1    1e-06
+  UniRef90_A0A0F3IN01 Uncharacterized protein n=1 Tax=Methylocucu...  54.4    1e-06
+  UniRef90_A0A2N1GD84 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.1    1e-06
+  UniRef90_A0A1I4BTL5 Biofilm PGA synthesis protein PgaD n=1 Tax=...  54.1    2e-06
+  UniRef90_A0A1H4H0P9 PgaD-like protein n=2 Tax=Variovorax sp. YR...  54.1    2e-06
+  UniRef90_C3X3E9 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  54.1    2e-06
+  UniRef90_A0A1Q8SYK1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  53.7    2e-06
+  UniRef90_A0A345Y3X9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.9    3e-06
+  UniRef90_A0A3N7DHV1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  53.7    3e-06
+  UniRef90_A0A0Q9EB34 Uncharacterized protein n=2 Tax=Lysobacter ...  53.3    3e-06
+  UniRef90_A0A345ZKG9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.9    3e-06
+  UniRef90_A0A1W9K6T1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.9    3e-06
+  UniRef90_A0A335GCM1 Biofilm PGA synthesis protein pgaD n=1 Tax=...  52.1    3e-06
+  UniRef90_A0A0Q8EM04 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.9    3e-06
+  UniRef90_A0A363RVX2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.9    3e-06
+  UniRef90_A0A239RAU3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  53.3    3e-06
+  UniRef90_A0A357N0H1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.5    4e-06
+  UniRef90_Q3A0T3 PgaD n=1 Tax=Pelobacter carbinolicus (strain DS...  53.3    4e-06
+  UniRef90_A0A1E7RDZ5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.9    4e-06
+  UniRef90_A0A318IY68 Biofilm PGA synthesis protein PgaD n=2 Tax=...  52.9    4e-06
+  UniRef90_UPI00047A2475 poly-beta-1,6-N-acetyl-D-glucosamine bio...  52.5    4e-06
+  UniRef90_A0A2A4PM66 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.1    5e-06
+  UniRef90_A0A2N2FUX1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.1    6e-06
+  UniRef90_A0A268HBA5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.1    6e-06
+  UniRef90_G3IWF6 Uncharacterized protein n=6 Tax=Methylobacter t...  52.1    7e-06
+  UniRef90_A0A1T4PT29 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.8    9e-06
+  UniRef90_UPI000D53EB67 poly-beta-1,6-N-acetyl-D-glucosamine bio...  51.8    9e-06
+  UniRef90_A0A1R4HIK5 Uncharacterized protein n=1 Tax=Crenothrix ...  51.8    9e-06
+  UniRef90_UPI0005EF9AB6 poly-beta-1,6-N-acetyl-D-glucosamine bio...  51.4    1e-05
+  UniRef90_A0A1Y5FWP1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.8    1e-05
+  UniRef90_UPI000690ABB9 poly-beta-1,6-N-acetyl-D-glucosamine bio...  53.3    1e-05
+  UniRef90_A0A350X1A9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.4    1e-05
+  UniRef90_A0A0K2IM64 Hemin storage protein n=64 Tax=Gammaproteob...  51.0    2e-05
+  UniRef90_C7RBF2 Uncharacterized protein n=1 Tax=Kangiella koree...  51.0    2e-05
+  UniRef90_A0A0S2FD23 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.1    2e-05
+  UniRef90_UPI0009977625 poly-beta-1,6-N-acetyl-D-glucosamine bio...  50.2    2e-05
+  UniRef90_A0A3A2IYR2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.6    2e-05
+  UniRef90_Y0KGD4 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  50.2    3e-05
+  UniRef90_A0A1M6PM33 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.8    3e-05
+  UniRef90_A0A0S2G4X3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.8    3e-05
+  UniRef90_A0A0J9B5S9 Uncharacterized protein (Fragment) n=1 Tax=...  48.3    3e-05
+  UniRef90_A1HM86 Uncharacterized protein n=1 Tax=Thermosinus car...  51.8    4e-05
+  UniRef90_A0A212LTQ0 Uncharacterized protein n=3 Tax=Sporomusa T...  51.0    4e-05
+  UniRef90_A0A395G7Z9 Uncharacterized protein n=1 Tax=Macrococcus...  49.8    4e-05
+  UniRef90_A0A0R0CRM1 Hemin storage protein n=2 Tax=Stenotrophomo...  49.8    5e-05
+  UniRef90_A0A1T5CMG4 Biofilm PGA synthesis protein PgaD n=6 Tax=...  49.4    6e-05
+  UniRef90_A0A0S2FSG4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.6    7e-05
+  UniRef90_A0A1E4L188 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.8    7e-05
+  UniRef90_A0A3D0DPQ1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.4    8e-05
+  UniRef90_UPI0004793E51 poly-beta-1,6-N-acetyl-D-glucosamine bio...  49.4    8e-05
+  UniRef90_UPI000D54188B poly-beta-1,6-N-acetyl-D-glucosamine bio...  49.1    8e-05
+  UniRef90_A0A2E6LPH3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.8    8e-05
+  UniRef90_A0A0Q8DF75 Uncharacterized protein n=2 Tax=Xanthomonad...  49.4    9e-05
+  UniRef90_A0A2S7BMH6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.7    1e-04
+  UniRef90_A0A3B1ASH2 Uncharacterized protein n=1 Tax=hydrotherma...  49.1    1e-04
+  UniRef90_A0A1G6Y1M4 Biofilm PGA synthesis protein PgaD n=1 Tax=...  49.1    1e-04
+  UniRef90_UPI000987C393 poly-beta-1,6-N-acetyl-D-glucosamine bio...  48.3    1e-04
+  UniRef90_A0A399IJT2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.3    1e-04
+  UniRef90_A0A1I0N2C4 Biofilm PGA synthesis protein PgaD n=3 Tax=...  48.3    2e-04
+  UniRef90_A0A2E7WUM4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.3    2e-04
+  UniRef90_A0A0H1ARX3 Uncharacterized protein n=2 Tax=Luteimonas ...  48.3    2e-04
+  UniRef90_A0A1B4V4T8 Poly-beta-1,6-N-acetyl-D-glucosamine syntha...  49.4    2e-04
+  UniRef90_A0A246HJN5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  47.9    2e-04
+  UniRef90_UPI00084A091A poly-beta-1,6-N-acetyl-D-glucosamine bio...  47.5    3e-04
+  UniRef90_A0A1G9JIG0 Biofilm PGA synthesis protein PgaD n=1 Tax=...  47.5    3e-04
+  UniRef90_A0A165G5A8 Uncharacterized protein n=1 Tax=Crenobacter...  47.5    3e-04
+  UniRef90_UPI000F8C3FAB hypothetical protein n=1 Tax=Sporomusace...  47.5    3e-04
+  UniRef90_A0A0F3KPM6 Uncharacterized protein n=1 Tax=Luteibacter...  47.5    3e-04
+  UniRef90_A0A285NXN0 Biofilm PGA synthesis protein PgaD n=1 Tax=...  47.5    3e-04
+  UniRef90_A0A1H8V2Q8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.3    3e-04
+  UniRef90_A0A099DJE7 Uncharacterized protein n=3 Tax=Exiguobacte...  47.5    4e-04
+  UniRef90_UPI000FDA7467 poly-beta-1,6-N-acetyl-D-glucosamine bio...  47.5    4e-04
+  UniRef90_UPI0009F8E850 poly-beta-1,6-N-acetyl-D-glucosamine bio...  47.5    5e-04
+  UniRef90_A0A3A0ELI9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  47.1    6e-04
+  UniRef90_A0YHD9 Uncharacterized protein n=1 Tax=marine gamma pr...  47.1    6e-04
+  UniRef90_A0A1H7U1L9 Biofilm PGA synthesis protein PgaD n=1 Tax=...  46.4    8e-04
+  UniRef90_A0A1E4K403 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.7    8e-04
+  UniRef90_G8LDR3 Putative HTH-type transcriptional regulator ykg...  47.5    8e-04
+  UniRef90_A0A2P5LML8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.4    0.001
+  UniRef90_A0A1D9EJJ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.4    0.001
+  UniRef90_A0A3N4VQ49 Biofilm PGA synthesis protein PgaD n=1 Tax=...  46.4    0.001
+  UniRef90_UPI0009FD9E94 poly-beta-1,6-N-acetyl-D-glucosamine bio...  46.7    0.001
+  UniRef90_UPI0003A544F0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  46.7    0.001
+  UniRef90_A0A2D0I630 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.0    0.001
+  UniRef90_A0A1R4H545 Uncharacterized protein n=1 Tax=Crenothrix ...  46.4    0.001
+  UniRef90_A0A354A3Q6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.0    0.001
+  UniRef90_A0A2A5C1D1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.4    0.001
+  UniRef90_A0A259CMY4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.0    0.001
+  UniRef90_UPI000E71CCFF poly-beta-1,6-N-acetyl-D-glucosamine bio...  46.0    0.001
+  UniRef90_A0A1J1EBZ8 Uncharacterized protein n=2 Tax=Lysobacter ...  47.1    0.001
+  UniRef90_A0A254P4Q2 Uncharacterized protein n=1 Tax=Saccharibac...  46.0    0.001
+  UniRef90_A0A1H9LG20 Biofilm PGA synthesis protein PgaD n=1 Tax=...  44.0    0.002
+  UniRef90_A0A291IIC1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.6    0.002
+  UniRef90_A0A1G0ZGL6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.0    0.002
+  UniRef90_UPI00036EC36E poly-beta-1,6-N-acetyl-D-glucosamine bio...  45.6    0.002
+  UniRef90_A0A3D1KDG4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.6    0.002
+  UniRef90_A0A2K9A7R6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.2    0.002
+  UniRef90_A0A3N7A599 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.2    0.003
+  UniRef90_UPI00036E1E42 poly-beta-1,6-N-acetyl-D-glucosamine bio...  45.2    0.003
+  UniRef90_V7ZEF0 Uncharacterized protein n=2 Tax=Xanthomonas hor...  45.2    0.004
+  UniRef90_A0A1Y6D0H2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  44.4    0.005
+  UniRef90_K6T4C8 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  44.0    0.005
+  UniRef90_UPI000F7E40B0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  44.8    0.005
+  UniRef90_A0A2S7DJV6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  44.0    0.005
+  UniRef90_UPI000B7D6CAB poly-beta-1,6-N-acetyl-D-glucosamine bio...  44.0    0.005
+  UniRef90_A0A2A3LL93 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  44.0    0.006
+  UniRef90_A0A2T5L5X5 Biofilm PGA synthesis protein PgaD n=4 Tax=...  44.0    0.006
+  UniRef90_A0A3B1CCF0 Uncharacterized protein n=1 Tax=hydrotherma...  44.0    0.007
+  UniRef90_UPI0009EE0430 poly-beta-1,6-N-acetyl-D-glucosamine bio...  44.0    0.007
+  UniRef90_A0A179SVP6 Uncharacterized protein n=1 Tax=Bacillus li...  44.0    0.007
+  UniRef90_W4QB07 Uncharacterized protein n=1 Tax=Bacillus wakoen...  43.3    0.009
+  UniRef90_A0A2P1VAU6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  44.0    0.009
+  UniRef90_UPI000DD06F3B poly-beta-1,6-N-acetyl-D-glucosamine bio...  43.3    0.010
+  UniRef90_UPI000466C275 poly-beta-1,6-N-acetyl-D-glucosamine bio...  43.7    0.010
+  UniRef90_C3X9I8 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  43.7    0.010
+  UniRef90_UPI0009D70134 poly-beta-1,6-N-acetyl-D-glucosamine bio...  43.3    0.011
+  UniRef90_A0A0S2DF66 TonB family C-terminal domain n=3 Tax=Lysob...  44.4    0.011
+  UniRef90_A0A1H6UP61 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.7    0.013
+  UniRef90_A0A1G0YRT2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.7    0.014
+  UniRef90_A0A248KIY7 Uncharacterized protein n=1 Tax=Kluyvera ge...  41.7    0.014
+  UniRef90_A0A177NH39 Uncharacterized protein n=2 Tax=Methylomona...  42.9    0.015
+  UniRef90_A0A073KEF9 Uncharacterized protein n=1 Tax=Bacillus ma...  43.3    0.015
+  UniRef90_A0A1G6H5E2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  42.9    0.015
+  UniRef90_A0A371J634 Uncharacterized protein n=1 Tax=Romboutsia ...  43.3    0.015
+  UniRef90_K7SZ68 Uncharacterized protein n=1 Tax=Candidatus Sulf...  42.9    0.016
+  UniRef90_D7DJ79 Uncharacterized protein n=1 Tax=Methylotenera v...  42.9    0.017
+  UniRef90_A0A1P8EMT8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  42.5    0.020
+  UniRef90_V8G9L8 Uncharacterized protein n=1 Tax=Pelistega indic...  42.9    0.020
+  UniRef90_A0A1G5A4J6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.3    0.020
+  UniRef90_V2UMY6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  42.5    0.020
+  UniRef90_A0A2E7WQJ9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.4    0.021
+  UniRef90_A0A0M3RL45 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  42.5    0.022
+  UniRef90_UPI000730DFA2 poly-beta-1,6-N-acetyl-D-glucosamine bio...  42.1    0.022
+  UniRef90_UPI0009AA4EA2 poly-beta-1,6-N-acetyl-D-glucosamine bio...  42.9    0.023
+  UniRef90_UPI0004B2B02A hypothetical protein n=1 Tax=Saccharibac...  42.5    0.024
+  UniRef90_J2JIW7 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  42.9    0.025
+  UniRef90_E4U029 Uncharacterized protein n=1 Tax=Sulfuricurvum k...  42.1    0.026
+  UniRef90_A0A1G6PJF4 Biofilm PGA synthesis protein PgaD n=2 Tax=...  42.5    0.026
+  UniRef90_A0A1B2LYX1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  42.5    0.029
+  UniRef90_A6T1D9 Uncharacterized conserved protein n=1 Tax=Janth...  42.5    0.033
+  UniRef90_A0A3M1ZLA7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  42.5    0.038
+  UniRef90_B7DUG5 Uncharacterized protein n=1 Tax=Alicyclobacillu...  42.5    0.044
+  UniRef90_UPI00054CE79C poly-beta-1,6-N-acetyl-D-glucosamine bio...  41.4    0.054
+  UniRef90_A0A254Q108 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.7    0.054
+  UniRef90_A0A0B4RF69 Uncharacterized protein n=1 Tax=Planococcus...  41.4    0.063
+  UniRef90_A0A2A3VPQ8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.4    0.064
+  UniRef90_A0A3A8EY91 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.0    0.065
+  UniRef90_UPI0008318ED4 poly-beta-1,6-N-acetyl-D-glucosamine bio...  40.6    0.068
+  UniRef90_A0A3A4RZP0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.4    0.072
+  UniRef90_F8IJL4 Uncharacterized protein n=2 Tax=Alicyclobacillu...  41.0    0.076
+  UniRef90_A0A2P5N0I9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.0    0.078
+  UniRef90_A0A3A8FG16 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.0    0.078
+  UniRef90_A0A1F6T856 Poly-beta-1,6-N-acetyl-D-glucosamine syntha...  42.1    0.080
+  UniRef90_A0A0S7XQF1 Uncharacterized protein n=1 Tax=Syntrophoba...  41.0    0.082
+  UniRef90_G2J3U4 Uncharacterized protein n=3 Tax=Pseudogulbenkia...  41.0    0.085
+  UniRef90_A0A0D0MBD4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.4    0.087
+  UniRef90_A0A103EK60 Uncharacterized protein n=6 Tax=Burkholderi...  41.0    0.089
+  UniRef90_A0A3M2HR55 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.0    0.090
+  UniRef90_A0A371YSA0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.6    0.090
+  UniRef90_UPI0004AF2BDF poly-beta-1,6-N-acetyl-D-glucosamine bio...  41.0    0.092
+  UniRef90_A0A3A8FUI9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.6    0.092
+  UniRef90_A0A2A7IE21 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  41.0    0.097
+  UniRef90_A0A2R4TIS6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.6    0.11 
+  UniRef90_S4DDD5 Uncharacterized protein n=1 Tax=Enterococcus fa...  41.0    0.12 
+  UniRef90_V6IZ98 Uncharacterized protein n=1 Tax=Sporolactobacil...  40.6    0.13 
+  UniRef90_N8TFQ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  40.2    0.13 
+  UniRef90_A0A2H9TX83 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.2    0.14 
+  UniRef90_A0A3B8NBI9 Uncharacterized protein (Fragment) n=1 Tax=...  41.4    0.14 
+  UniRef90_A0A075KH26 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.2    0.15 
+  UniRef90_A0A3D5AWF3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.2    0.15 
+  UniRef90_UPI000A06C69E poly-beta-1,6-N-acetyl-D-glucosamine bio...  40.6    0.16 
+  UniRef90_A0A1S8CRB5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.2    0.17 
+  UniRef90_A0A241WGH6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.8    0.17 
+  UniRef90_Q7NTW3 Uncharacterized protein n=6 Tax=Chromobacterium...  40.2    0.17 
+  UniRef90_A0A2G9Y0H5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.2    0.18 
+  UniRef90_UPI00053009D4 hypothetical protein n=1 Tax=Planococcus...  39.8    0.20 
+  UniRef90_A0A0U2ZR91 Uncharacterized protein n=2 Tax=Planococcus...  39.8    0.21 
+  UniRef90_A0A1H8FUQ3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.8    0.22 
+  UniRef90_N8ZSW6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  39.4    0.23 
+  UniRef90_A0A1E7QX58 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.4    0.23 
+  UniRef90_A0A376FF52 Hemin storage system protein n=1 Tax=Entero...  37.9    0.23 
+  UniRef90_A0A2U0Z750 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.2    0.23 
+  UniRef90_A0A1W2AKH0 Poly-beta-1,6-N-acetyl-D-glucosamine syntha...  40.6    0.24 
+  UniRef90_A0A3B1A6U5 Uncharacterized protein n=1 Tax=hydrotherma...  39.8    0.24 
+  UniRef90_A0A1I5X332 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  40.2    0.25 
+  UniRef90_UPI000EB0C548 poly-beta-1,6-N-acetyl-D-glucosamine bio...  39.8    0.26 
+  UniRef90_D0SM41 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  39.4    0.30 
+  UniRef90_UPI000E6BBB29 poly-beta-1,6-N-acetyl-D-glucosamine bio...  39.4    0.30 
+  UniRef90_A0A2M9ABM9 Putative RDD family membrane protein YckC n...  40.2    0.31 
+  UniRef90_A0A0S8EKY3 Uncharacterized protein n=1 Tax=Thiotrichal...  39.4    0.31 
+  UniRef90_A0A3A1W331 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.8    0.31 
+  UniRef90_A0A1I0QV54 Poly-beta-1,6-N-acetyl-D-glucosamine syntha...  40.2    0.31 
+  UniRef90_A0A0S8L209 Uncharacterized protein n=3 Tax=Proteobacte...  39.4    0.35 
+  UniRef90_A0A241VAE2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.0    0.36 
+  UniRef90_A0A1M6VWE6 Uncharacterized protein n=2 Tax=Selenomonas...  39.0    0.38 
+  UniRef90_T1X4S0 PgdA-like protein n=4 Tax=Variovorax TaxID=3407...  39.4    0.38 
+  UniRef90_A0A352NAN4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.4    0.40 
+  UniRef90_A0A1B2LWV7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.0    0.40 
+  UniRef90_A0A1E2W0D3 Uncharacterized protein n=3 Tax=Bacillus Ta...  39.0    0.41 
+  UniRef90_UPI0009F91F3C poly-beta-1,6-N-acetyl-D-glucosamine bio...  39.4    0.42 
+  UniRef90_A0A2S8WIX4 Uncharacterized protein n=2 Tax=Arthrobacte...  39.8    0.42 
+  UniRef90_A0A151XYD6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.7    0.43 
+  UniRef90_Q6FDD7 Uncharacterized protein n=2 Tax=Acinetobacter T...  38.7    0.45 
+  UniRef90_J2W5K5 Uncharacterized protein n=1 Tax=Herbaspirillum ...  39.0    0.45 
+  UniRef90_A0A1E7RD83 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.7    0.47 
+  UniRef90_A0A072NHQ3 PgaD-like protein n=2 Tax=Bacillus azotofor...  38.7    0.49 
+  UniRef90_A0A2N4SP39 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.0    0.50 
+  UniRef90_A0A0N0DJ28 Histidine kinase n=8 Tax=Photobacterium lei...  39.8    0.51 
+  UniRef90_UPI0002F846BF hypothetical protein n=1 Tax=Sedimentiba...  39.0    0.54 
+  UniRef90_A0A1N7JPY6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.7    0.56 
+  UniRef90_A0A090CV13 Uncharacterized protein n=1 Tax=Podospora a...  39.4    0.59 
+  UniRef90_UPI0006CF41ED poly-beta-1,6-N-acetyl-D-glucosamine bio...  38.7    0.61 
+  UniRef90_UPI00047C1134 poly-beta-1,6-N-acetyl-D-glucosamine bio...  38.3    0.64 
+  UniRef90_S3N954 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  38.3    0.68 
+  UniRef90_A0A217EF52 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.3    0.72 
+  UniRef90_A0A2K1Q0I1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  38.3    0.75 
+  UniRef90_A0A3D2ZZV0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  37.9    0.75 
+  UniRef90_A0A1B1S556 Uncharacterized protein n=1 Tax=Planococcus...  38.3    0.83 
+  UniRef90_A0A1Q1G2M6 Uncharacterized protein n=1 Tax=Auricoccus ...  37.9    0.92 
+  UniRef90_UPI000646CA58 hypothetical protein n=1 Tax=Firmicutes ...  38.3    0.94 
+  UniRef90_UPI000E5A822D poly-beta-1,6-N-acetyl-D-glucosamine bio...  37.1    0.95 
+  UniRef90_A0A372NW58 Sensor histidine kinase n=1 Tax=Mucilaginib...  39.0    0.96 
+  UniRef90_Q2IDN4 Uncharacterized protein n=4 Tax=Anaeromyxobacte...  38.3    1.0  
+  UniRef90_G9ZLS0 Uncharacterized protein n=2 Tax=Lactobacillus p...  38.7    1.2  
+  UniRef90_UPI000F8E01EB DUF202 domain-containing protein n=1 Tax...  37.1    1.3  
+  UniRef90_A0A365L2N2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  37.5    1.3  
+  UniRef90_A0A385C8R0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  37.5    1.4  
+  UniRef90_A0A3D2XGV1 ATP-binding protein n=1 Tax=Chitinophagacea...  38.3    1.5  
+  UniRef90_UPI000427BA73 poly-beta-1,6-N-acetyl-D-glucosamine bio...  37.9    1.6  
+  UniRef90_A0A1F9BIK0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.7    1.6  
+  UniRef90_A0A2U9T515 Hemin storage protein n=2 Tax=Lysobacter ma...  37.5    1.7  
+  UniRef90_A0A0B6AKG3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  37.5    1.7  
+  UniRef90_A0A386KXX9 Proline/glycine betaine ABC transporter per...  37.9    1.8  
+  UniRef90_A0A0K9I3U8 Uncharacterized protein n=1 Tax=Desulfocarb...  37.9    2.0  
+  UniRef90_A0A2T6KN58 Biofilm PGA synthesis protein PgaD n=1 Tax=...  37.1    2.0  
+  UniRef90_A0A2V9ZHH0 Uncharacterized protein (Fragment) n=1 Tax=...  36.0    2.1  
+  UniRef90_UPI000C0BE3D1 poly-beta-1,6-N-acetyl-D-glucosamine bio...  37.1    2.1  
+  UniRef90_A0A2U3N2B2 Uncharacterized protein n=1 Tax=Acinetobact...  36.7    2.1  
+  UniRef90_C6BLR4 Uncharacterized protein n=2 Tax=Ralstonia picke...  37.9    2.2  
+  UniRef90_A0A0D2J339 Endoglucanase 18 n=2 Tax=Monoraphidium negl...  37.9    2.2  
+  UniRef90_Q6LIV4 Hypothetical sensor histidine kinase n=6 Tax=Ph...  37.9    2.3  
+  UniRef90_UPI00041C3973 hypothetical protein n=1 Tax=Carboxydoth...  36.7    2.3  
+  UniRef90_A0A2V0NZU7 Six-hairpin glycosidase n=1 Tax=Raphidoceli...  37.9    2.4  
+  UniRef90_A0A0V0PM79 Uncharacterized protein n=2 Tax=Alicyclobac...  36.7    2.5  
+  UniRef90_A0A1F9WS50 Uncharacterized protein n=1 Tax=Elusimicrob...  37.5    2.5  
+  UniRef90_J3CNS9 Putative acyltransferase n=3 Tax=Variovorax Tax...  37.9    2.5  
+  UniRef90_R1E8R4 Chloride channel protein n=1 Tax=Emiliania huxl...  37.5    2.6  
+  UniRef90_A0A264YT58 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.7    2.6  
+  UniRef90_A0A175VHH4 Uncharacterized protein n=2 Tax=Aeromonas e...  36.0    2.7  
+  UniRef90_A0A2G6NJ87 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.7    2.9  
+  UniRef90_A0A1G6CDZ6 Uncharacterized protein n=1 Tax=Bauldia lit...  35.6    3.0  
+  UniRef90_A0A098TJ72 Uncharacterized protein n=1 Tax=Neosynechoc...  37.1    3.0  
+  UniRef90_A0A354YBS0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.0    3.2  
+  UniRef90_A0A0R1YRE6 Integral membrane protein n=1 Tax=Lactobaci...  37.5    3.3  
+  UniRef90_UPI00045EA5BB poly-beta-1,6-N-acetyl-D-glucosamine bio...  36.3    3.4  
+  UniRef90_A0A0Q7L675 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.7    3.5  
+  UniRef90_A0A1V5UH01 Uncharacterized protein n=1 Tax=Tenericutes...  36.7    3.5  
+  UniRef90_A0A2S2FFD8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.3    3.6  
+  UniRef90_A0A371SC08 Uncharacterized protein n=1 Tax=Bacillus sp...  36.3    3.7  
+  UniRef90_A0A2L0HWJ0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.3    3.8  
+  UniRef90_A7RFU3 Predicted protein n=1 Tax=Nematostella vectensi...  37.1    3.8  
+  UniRef90_A0A0D7F4A2 ABC transporter permease n=2 Tax=Rhodopseud...  37.1    3.9  
+  UniRef90_L9LQM1 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  36.3    4.1  
+  UniRef90_UPI0009A11786 hypothetical protein n=2 Tax=Streptomyce...  37.1    4.1  
+  UniRef90_A0A1I2J5A0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.3    4.1  
+  UniRef90_A0A1I6EK69 Uncharacterized protein n=1 Tax=Poseidonoce...  36.7    4.1  
+  UniRef90_A0A2V0PJ39 Six-hairpin glycosidase n=1 Tax=Raphidoceli...  37.1    4.2  
+  UniRef90_UPI0005EBDF6B poly-beta-1,6-N-acetyl-D-glucosamine bio...  36.3    4.3  
+  UniRef90_UPI000DCDB91A poly-beta-1,6-N-acetyl-D-glucosamine bio...  36.3    4.4  
+  UniRef90_A0A1C7E0F9 Uncharacterized protein n=1 Tax=Planococcus...  36.3    4.5  
+  UniRef90_A0A345PBU6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.3    4.6  
+  UniRef90_UPI000F68B9F5 palmitoyltransferase ZDHHC2-like n=1 Tax...  36.7    4.8  
+  UniRef90_A0A2A9EFG1 Glycine betaine/proline transport system pe...  36.7    4.8  
+  UniRef90_G7GEI4 Uncharacterized protein n=8 Tax=Acinetobacter T...  36.0    4.9  
+  UniRef90_UPI000533DF42 spermatogenesis-associated protein 31A3 ...  36.7    5.2  
+  UniRef90_A0A0G0RQR7 Uncharacterized protein n=3 Tax=Parcubacter...  36.3    5.2  
+  UniRef90_A0A241WC65 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.0    5.3  
+  UniRef90_UPI000B97FA78 uncharacterized protein LOC111059199 n=1...  36.7    5.3  
+  UniRef90_A0A1D8ARV9 Uncharacterized protein n=1 Tax=Lacunisphae...  36.0    5.4  
+  UniRef90_B8KR89 Nucleotide-binding protein NOR51B_1278 n=1 Tax=...  36.3    5.5  
+  UniRef90_E1VTX1 RDD domain-containing protein n=3 Tax=Glutamici...  36.3    6.2  
+  UniRef90_A0A1G1G0I6 Uncharacterized protein n=1 Tax=Nitrospirae...  36.3    6.3  
+  UniRef90_A0A1Y3XBM9 DNA internalization-related competence prot...  36.3    6.5  
+  UniRef90_UPI000497DEEF DMT family transporter n=1 Tax=Kurthia h...  36.3    6.5  
+  UniRef90_A0A1V5LJ35 Nucleotide-binding protein BWY76_03208 n=1 ...  36.3    6.5  
+  UniRef90_A0A1H3YH99 GHKL domain-containing protein n=2 Tax=Orib...  36.3    7.0  
+  UniRef90_V2VMF1 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  35.6    7.1  
+  UniRef90_A0A143G5L4 Uncharacterized protein n=2 Tax=Acinetobact...  35.6    7.2  
+  UniRef90_A0A0L0DLX6 Uncharacterized protein n=1 Tax=Thecamonas ...  36.3    7.4  
+  UniRef90_A0A177CK17 Uncharacterized protein n=1 Tax=Paraphaeosp...  36.3    7.6  
+  UniRef90_A0A3D8VFH5 Uncharacterized protein n=1 Tax=Lysobacter ...  35.6    7.7  
+  UniRef90_A0A2U1FPB3 Uncharacterized protein n=1 Tax=Porphyromon...  34.4    7.8  
+  UniRef90_A0A2T3MZZ8 Uncharacterized protein n=1 Tax=Photobacter...  36.3    7.9  
+  UniRef90_UPI000E0DB77B cation:dicarboxylase symporter family tr...  36.3    7.9  
+  UniRef90_A0A3D8VJB4 Sulfurtransferase n=1 Tax=Lysobacter soli T...  36.0    8.0  
+  UniRef90_A0A2T3MZJ0 Histidine kinase n=1 Tax=Photobacterium lip...  36.3    8.0  
+  UniRef90_A0A1C3CVK8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  35.2    8.1  
+  UniRef90_A0A1W9JVA7 Sodium:dicarboxylate symporter n=1 Tax=Prot...  36.0    8.2  
+  UniRef90_UPI000626CA80 ATP-binding protein n=2 Tax=Streptomyces...  36.3    8.3  
+  UniRef90_UPI0006257D02 uncharacterized protein LOC105702924 iso...  36.3    8.5  
+  UniRef90_A0A1E3IDH7 Uncharacterized protein n=2 Tax=Cryptococcu...  36.0    8.7  
+  UniRef90_B7FXJ7 Predicted protein n=1 Tax=Phaeodactylum tricorn...  36.3    8.9  
+  UniRef90_A0A109UW44 HCL510Wp n=1 Tax=Eremothecium sinecaudum Ta...  36.0    9.0  
+  UniRef90_A0A162VUU5 Sensor protein n=1 Tax=Hydrogenophaga crass...  36.0    9.0  
+  UniRef90_UPI000D68C1E5 HAMP domain-containing histidine kinase ...  36.0    9.3  
+  UniRef90_A0A2M8MG87 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  35.2    9.4  
+  UniRef90_A0A1H0QFR4 Peptide/bleomycin uptake transporter n=1 Ta...  36.0    9.6  
+  UniRef90_A0A1D9GXL5 PAS domain-containing sensor histidine kina...  36.0    9.6  
+  UniRef90_A0A1C2AGW0 Membrane protein n=3 Tax=unclassified Pelag...  34.4    9.7  
+  UniRef90_A0A0U3QVL8 Uncharacterized protein n=3 Tax=Arthrobacte...  36.0    9.7  
+  UniRef90_UPI0009DD3CC4 cell division protein FtsW n=1 Tax=Therm...  36.0    9.8  
+  UniRef90_UPI0003FC6B70 membrane protein n=1 Tax=Stappia stellul...  34.4    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.157    0.486    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0480    0.140     1.90     42.6     43.6 
+
+Effective search space used: 757384025292
+Results from round 3
+
+
+Query= NP_415540.1
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_W1J4Z3 Haemin storage system (HmsS protein of hmsHFRS ...  143     2e-41
+  UniRef90_A0A2D0LH81 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  139     4e-40
+  UniRef90_A0A1I6DPC4 Biofilm PGA synthesis protein PgaD n=1 Tax=...  139     7e-40
+  UniRef90_A0A1V4LIT7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  139     8e-40
+  UniRef90_A0A0S9EV45 Uncharacterized protein n=2 Tax=Acidovorax ...  139     1e-39
+  UniRef90_A0A0T9U3V4 Hemin storage system protein n=8 Tax=Yersin...  138     2e-39
+  UniRef90_A0A2D0KJM4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  137     3e-39
+  UniRef90_A0A1K2CSA4 Biofilm PGA synthesis protein PgaD n=9 Tax=...  138     3e-39
+  UniRef90_A0A2G2QJ53 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  138     3e-39
+  UniRef90_A0A1I3IZY5 Biofilm PGA synthesis protein PgaD n=1 Tax=...  137     3e-39
+  UniRef90_UPI000A1D9A27 poly-beta-1,6-N-acetyl-D-glucosamine bio...  138     4e-39
+  UniRef90_A0A0U1HSX3 Hemin storage system protein n=2 Tax=Yersin...  137     4e-39
+  UniRef90_A0A376I169 PGA biosynthesis protein n=4 Tax=Enterobact...  138     4e-39
+  UniRef90_A0A2P1VVD0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  138     4e-39
+  UniRef90_A0A191YLN0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  138     4e-39
+  UniRef90_A0A291AQ34 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  137     6e-39
+  UniRef90_A0A2K4J816 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  137     8e-39
+  UniRef90_A0A0J5FXZ9 Hemin storage system protein HmsS n=1 Tax=X...  136     8e-39
+  UniRef90_A0A2A2DRB9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  137     8e-39
+  UniRef90_A0A1Y2SH11 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  136     9e-39
+  UniRef90_UPI0004B8EA26 poly-beta-1,6-N-acetyl-D-glucosamine bio...  136     1e-38
+  UniRef90_A0A1Y2SQW6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  135     1e-38
+  UniRef90_A0A0G4JXU8 Biofilm PGA synthesis auxiliary protein Pga...  136     1e-38
+  UniRef90_J2VDN2 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  136     1e-38
+  UniRef90_A0A365WY49 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  136     2e-38
+  UniRef90_A0A365SNX1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  136     2e-38
+  UniRef90_A0A0T9TDC5 Hemin storage system protein n=4 Tax=Yersin...  135     2e-38
+  UniRef90_A0A0T9SA60 Hemin storage system protein n=23 Tax=Yersi...  135     2e-38
+  UniRef90_A0A0C5DQA1 Uncharacterized protein n=2 Tax=Pseudomonas...  136     2e-38
+  UniRef90_UPI00069EBA31 poly-beta-1,6-N-acetyl-D-glucosamine bio...  136     3e-38
+  UniRef90_Q3KJY2 Putative hemin storage system n=15 Tax=Pseudomo...  136     3e-38
+  UniRef90_A0A2N7ZNX7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  135     3e-38
+  UniRef90_N1NM31 HmsS, Haemin storage system protein S n=6 Tax=X...  134     4e-38
+  UniRef90_A0A0M9GIL7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  135     4e-38
+  UniRef90_UPI000BA48F34 poly-beta-1,6-N-acetyl-D-glucosamine bio...  135     4e-38
+  UniRef90_UPI000F6716BA poly-beta-1,6-N-acetyl-D-glucosamine bio...  135     4e-38
+  UniRef90_H5V1E2 Biofilm adhesin PGA synthesis protein PgaD n=4 ...  134     6e-38
+  UniRef90_A0A0J8VH34 Hemin storage protein n=3 Tax=Franconibacte...  135     6e-38
+  UniRef90_D4BGN5 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  134     6e-38
+  UniRef90_A0A0N0BUF7 Biofilm PGA synthesis protein PgaD n=5 Tax=...  135     6e-38
+  UniRef90_A0A0T9LR18 Hemin storage system protein n=5 Tax=Yersin...  134     7e-38
+  UniRef90_A0A0H5LST7 Hemin storage system protein n=4 Tax=Yersin...  134     7e-38
+  UniRef90_A0A2N7RHP8 Biofilm PGA synthesis protein PgaD n=3 Tax=...  134     8e-38
+  UniRef90_P69433 Biofilm PGA synthesis protein PgaD n=233 Tax=Ba...  133     1e-37
+  UniRef90_A0A2A5R4Z1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  134     1e-37
+  UniRef90_A0A2R4PQ04 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  134     1e-37
+  UniRef90_A0A0T9PPU6 Hemin storage system protein n=1 Tax=Yersin...  133     1e-37
+  UniRef90_A0A0E8XIC8 Hemin storage system protein n=25 Tax=Yersi...  133     2e-37
+  UniRef90_A0A0T9KY07 Hemin storage system protein n=2 Tax=Yersin...  132     2e-37
+  UniRef90_A0A246G0C3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  133     2e-37
+  UniRef90_A0A3N7BVT5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  133     2e-37
+  UniRef90_A0A2S8XGD3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  133     2e-37
+  UniRef90_A0A209ABV5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  133     3e-37
+  UniRef90_A0A386Y3R7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  133     3e-37
+  UniRef90_A0A0J1PJJ8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  133     3e-37
+  UniRef90_A0A341F3J9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  133     3e-37
+  UniRef90_A0A0C2I0Y3 Biofilm PGA synthesis auxiliary protein Pga...  133     4e-37
+  UniRef90_A0A068QU52 Haemin storage system (HmsS protein of hmsH...  131     4e-37
+  UniRef90_A0A375GP40 Hemin storage system protein n=2 Tax=Cupria...  132     5e-37
+  UniRef90_A0A0L0H272 Hemin storage protein n=1 Tax=Trabulsiella ...  131     6e-37
+  UniRef90_A0A3D4SJI4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  131     7e-37
+  UniRef90_A0A2U1U338 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  131     8e-37
+  UniRef90_W8PCX6 Biofilm PGA synthesis protein PgaD n=3 Tax=Pseu...  131     9e-37
+  UniRef90_A0A3D4NT61 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  132     9e-37
+  UniRef90_A0A1H1LYH3 Biofilm PGA synthesis protein PgaD n=2 Tax=...  131     1e-36
+  UniRef90_A0A351LUC8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  131     1e-36
+  UniRef90_A0A0D6H6A3 Biofilm PGA synthesis protein PgaD n=19 Tax...  130     1e-36
+  UniRef90_A0A2N8BCW0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  131     2e-36
+  UniRef90_G8PYA1 PgaD n=44 Tax=Pseudomonas TaxID=286 RepID=G8PYA...  131     2e-36
+  UniRef90_A0A1N7FWF7 Biofilm PGA synthesis protein PgaD n=4 Tax=...  131     2e-36
+  UniRef90_A0A2Z5AJI2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  130     2e-36
+  UniRef90_A0A1S2V894 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  131     2e-36
+  UniRef90_A0A1R0GC32 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  131     2e-36
+  UniRef90_A0A2S9EGL5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  131     2e-36
+  UniRef90_A0A2S7SG62 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  129     3e-36
+  UniRef90_UPI000BA37983 poly-beta-1,6-N-acetyl-D-glucosamine bio...  129     3e-36
+  UniRef90_UPI0004286EA3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  130     3e-36
+  UniRef90_UPI00069E6F04 poly-beta-1,6-N-acetyl-D-glucosamine bio...  131     3e-36
+  UniRef90_A0A1V2KA04 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  130     3e-36
+  UniRef90_A0A031J4H5 Biofilm PGA synthesis protein PgaD n=17 Tax...  129     4e-36
+  UniRef90_A0A2N0DQB9 Biofilm PGA synthesis protein PgaD n=3 Tax=...  130     4e-36
+  UniRef90_A0A2N7YGA8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  129     4e-36
+  UniRef90_A0A1R1JX31 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  129     5e-36
+  UniRef90_A0A243U4T0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  130     5e-36
+  UniRef90_A0A1Y1TKR5 Biofilm PGA synthesis auxiliary protein Pga...  129     5e-36
+  UniRef90_A0A0M3SW47 Uncharacterized protein n=2 Tax=Cupriavidus...  129     6e-36
+  UniRef90_A0A1H3UMY9 Biofilm PGA synthesis protein PgaD n=1 Tax=...  129     6e-36
+  UniRef90_A0A2K4GBC3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  129     7e-36
+  UniRef90_A0A1B5E231 Biofilm PGA synthesis protein PgaD n=25 Tax...  129     7e-36
+  UniRef90_A0A263NPV9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  129     8e-36
+  UniRef90_A0A1B5CUA7 Biofilm PGA synthesis protein PgaD n=17 Tax...  129     1e-35
+  UniRef90_A0A2X5E7W5 PGA biosynthesis protein n=13 Tax=Enterobac...  128     1e-35
+  UniRef90_A0A1T2YSN1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  128     1e-35
+  UniRef90_UPI000F03482F poly-beta-1,6-N-acetyl-D-glucosamine bio...  128     1e-35
+  UniRef90_A0A2K1FDA3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  128     1e-35
+  UniRef90_A0A010SD71 Biofilm PGA synthesis protein PgaD n=5 Tax=...  128     2e-35
+  UniRef90_A0A2S9AQI3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  128     2e-35
+  UniRef90_A0A109LDM6 Biofilm PGA synthesis protein PgaD n=22 Tax...  128     2e-35
+  UniRef90_A0A2K9E5J2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  128     2e-35
+  UniRef90_A0A1Q8EX67 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  128     2e-35
+  UniRef90_A0A1J0EKK2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  128     2e-35
+  UniRef90_UPI0007DDB1D1 poly-beta-1,6-N-acetyl-D-glucosamine bio...  127     3e-35
+  UniRef90_A0A0M7M325 Biofilm PGA synthesis protein PgaD n=4 Tax=...  127     3e-35
+  UniRef90_A0A3G7Z248 Biofilm PGA synthesis auxiliary protein Pga...  128     3e-35
+  UniRef90_A0A2W0FLP0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  128     4e-35
+  UniRef90_A0A2L1JDD3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  127     4e-35
+  UniRef90_A0A1B3CDU3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  126     8e-35
+  UniRef90_A0A1H1VM57 Biofilm PGA synthesis protein PgaD n=4 Tax=...  126     1e-34
+  UniRef90_A0A208XSD8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  126     1e-34
+  UniRef90_A0A263SB25 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  126     1e-34
+  UniRef90_A0A068R0T2 Haemin storage system (HmsS protein of hmsH...  125     1e-34
+  UniRef90_A0A1N7CWR5 Biofilm PGA synthesis protein PgaD n=1 Tax=...  124     2e-34
+  UniRef90_J4J6D3 Uncharacterized protein n=2 Tax=Achromobacter T...  124     3e-34
+  UniRef90_A0A0B7D4L9 Biofilm PGA synthesis protein PgaD n=2 Tax=...  124     7e-34
+  UniRef90_A0A379J140 Biofilm PGA synthesis protein PgaD n=7 Tax=...  123     9e-34
+  UniRef90_A0A1H2NSA3 Biofilm PGA synthesis protein PgaD n=1 Tax=...  123     1e-33
+  UniRef90_E3HKX9 Uncharacterized protein n=4 Tax=Alcaligenes xyl...  123     1e-33
+  UniRef90_L7HLG7 Biofilm PGA synthesis protein PgaD, putative n=...  123     1e-33
+  UniRef90_A0A261W673 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  123     2e-33
+  UniRef90_A0A0H3FMQ6 Hemin storage system protein n=17 Tax=Enter...  123     2e-33
+  UniRef90_UPI000BA36E7E poly-beta-1,6-N-acetyl-D-glucosamine bio...  123     2e-33
+  UniRef90_A0A378GKH4 Hemin storage system protein n=2 Tax=Kluyve...  122     2e-33
+  UniRef90_A0A365XLT2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  122     2e-33
+  UniRef90_UPI000F478B21 poly-beta-1,6-N-acetyl-D-glucosamine bio...  123     3e-33
+  UniRef90_UPI000933B9A0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  121     5e-33
+  UniRef90_A0A1I4TW37 Biofilm PGA synthesis protein PgaD n=1 Tax=...  122     5e-33
+  UniRef90_UPI0004F65F39 poly-beta-1,6-N-acetyl-D-glucosamine bio...  121     6e-33
+  UniRef90_A0A375EZ94 Hemin storage system protein n=2 Tax=Cupria...  121     8e-33
+  UniRef90_A0A375J6J8 Hemin storage system protein n=1 Tax=Cupria...  121     8e-33
+  UniRef90_A0A1N6MW04 HmsS, Haemin storage system protein S n=1 T...  121     9e-33
+  UniRef90_A0A2D0J1F6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  121     9e-33
+  UniRef90_F4GTJ2 Uncharacterized protein n=1 Tax=Pusillimonas sp...  121     1e-32
+  UniRef90_D4BB24 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  121     1e-32
+  UniRef90_A0A142JT39 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  120     1e-32
+  UniRef90_A0A1N6W8H5 Biofilm PGA synthesis protein PgaD n=2 Tax=...  120     1e-32
+  UniRef90_A0A2D0KWD2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  120     2e-32
+  UniRef90_A0A2S8V764 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  119     2e-32
+  UniRef90_A0A1M6AJE2 Biofilm PGA synthesis protein PgaD n=1 Tax=...  120     3e-32
+  UniRef90_A0A1T1IBD9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  120     3e-32
+  UniRef90_A0A0M0TAI2 Hemin storage system protein HmsS n=2 Tax=X...  119     4e-32
+  UniRef90_A0A2I8DK81 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  119     5e-32
+  UniRef90_A0A2G0VUQ9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  119     5e-32
+  UniRef90_A0A090UZS3 Biofilm adhesin PGA synthesis protein PgaD ...  119     6e-32
+  UniRef90_A0A2V2T291 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  117     2e-31
+  UniRef90_A0A139SVV4 Uncharacterized protein n=1 Tax=Ventosimona...  117     2e-31
+  UniRef90_A0A2N8KQH4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  117     2e-31
+  UniRef90_A0A1Q5TZB8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  117     2e-31
+  UniRef90_J1GD16 Hemin storage system protein n=5 Tax=Enterobact...  117     3e-31
+  UniRef90_A0A0Q4MNS0 Uncharacterized protein n=1 Tax=Erwinia sp....  116     4e-31
+  UniRef90_A0A2I8QSJ0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  116     4e-31
+  UniRef90_A0A0L8EPW1 Hemin storage system protein n=1 Tax=Achrom...  116     4e-31
+  UniRef90_A0A089PZ95 ABC transporter substrate-binding protein n...  116     6e-31
+  UniRef90_A0A2T2Y0T9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  116     1e-30
+  UniRef90_UPI000BA56F8F poly-beta-1,6-N-acetyl-D-glucosamine bio...  116     1e-30
+  UniRef90_UPI000EB21921 poly-beta-1,6-N-acetyl-D-glucosamine bio...  116     1e-30
+  UniRef90_A0A0D1MM64 Uncharacterized protein n=1 Tax=Klebsiella ...  115     1e-30
+  UniRef90_A0A1Q5U8G7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  115     1e-30
+  UniRef90_A0A095W0X8 Hemin storage system protein n=1 Tax=Achrom...  115     1e-30
+  UniRef90_A0A2S9IE64 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  115     2e-30
+  UniRef90_A0A2S4WU20 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  114     3e-30
+  UniRef90_A0A0D6B9Q4 Biofilm PGA synthesis protein PgaD n=4 Tax=...  115     3e-30
+  UniRef90_A0A2X1IWY9 PGA biosynthesis protein n=3 Tax=Enterobact...  114     4e-30
+  UniRef90_A0A023C9H9 Biofilm PGA synthesis protein PgaD n=1 Tax=...  114     5e-30
+  UniRef90_A0A1X7JK70 Biofilm PGA synthesis protein PgaD n=2 Tax=...  114     5e-30
+  UniRef90_UPI000F6BDA34 poly-beta-1,6-N-acetyl-D-glucosamine bio...  114     9e-30
+  UniRef90_A0A239I5N8 Biofilm PGA synthesis protein PgaD n=2 Tax=...  113     1e-29
+  UniRef90_UPI00057A7293 poly-beta-1,6-N-acetyl-D-glucosamine bio...  112     1e-29
+  UniRef90_A0A1S1USD0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  112     1e-29
+  UniRef90_A0A0M9I633 Biofilm PGA synthesis protein PgaD n=10 Tax...  112     3e-29
+  UniRef90_A0A329HMF5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  111     5e-29
+  UniRef90_A0A2I8NRR5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  111     8e-29
+  UniRef90_UPI0007D90395 poly-beta-1,6-N-acetyl-D-glucosamine bio...  110     9e-29
+  UniRef90_A0A1I4PF64 Biofilm PGA synthesis protein PgaD n=1 Tax=...  111     9e-29
+  UniRef90_A0A1Y0D3X8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  110     1e-28
+  UniRef90_A0A1Z3HDV6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  110     1e-28
+  UniRef90_UPI0007353885 poly-beta-1,6-N-acetyl-D-glucosamine bio...  109     2e-28
+  UniRef90_A0A2A7UYP2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  111     2e-28
+  UniRef90_H0F5P7 Uncharacterized protein n=1 Tax=Achromobacter a...  110     2e-28
+  UniRef90_A0A377WFL3 Hemin storage system protein n=9 Tax=Klebsi...  111     2e-28
+  UniRef90_A0A2N4UC81 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  110     2e-28
+  UniRef90_A0A1B7K105 PgaD family PGA biofilm synthesis auxiliary...  109     3e-28
+  UniRef90_A0A2G8BYZ7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  108     6e-28
+  UniRef90_A0A2N4U3H0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  108     8e-28
+  UniRef90_A0A1D7YZV4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  107     1e-27
+  UniRef90_U2BAH7 Uncharacterized protein n=2 Tax=Pseudomonas Tax...  108     1e-27
+  UniRef90_A0A2L1C4K8 Hemin storage system protein n=81 Tax=Enter...  107     1e-27
+  UniRef90_UPI000B42B4ED poly-beta-1,6-N-acetyl-D-glucosamine bio...  107     2e-27
+  UniRef90_A0A078MDH9 Biofilm PNAG synthesis protein n=1 Tax=Pseu...  107     2e-27
+  UniRef90_D0KF97 Putative hemin storage protein n=3 Tax=Pectobac...  107     2e-27
+  UniRef90_A0A176X1Z5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  107     3e-27
+  UniRef90_W0BSF0 ABC transporter substrate-binding protein n=8 T...  107     3e-27
+  UniRef90_A0A2S0I6H8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  107     3e-27
+  UniRef90_UPI000F6FE93C poly-beta-1,6-N-acetyl-D-glucosamine bio...  106     4e-27
+  UniRef90_A0A144CHA1 Hemin storage system protein n=68 Tax=Bacte...  105     1e-26
+  UniRef90_A0A0T6UMD5 Uncharacterized protein n=1 Tax=Pseudomonas...  106     1e-26
+  UniRef90_A0A0F0YEP0 ABC transporter substrate-binding protein n...  104     2e-26
+  UniRef90_UPI000651D23D poly-beta-1,6-N-acetyl-D-glucosamine bio...  105     2e-26
+  UniRef90_A0A261TRR2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  104     2e-26
+  UniRef90_A0A3A3Z930 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  104     2e-26
+  UniRef90_C6DK93 Putative hemin storage protein n=2 Tax=Pectobac...  104     2e-26
+  UniRef90_Q6CYQ4 Putative hemin storage protein n=3 Tax=Pectobac...  104     2e-26
+  UniRef90_A0A3A1YSW8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  104     3e-26
+  UniRef90_A0A368X1A4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  104     4e-26
+  UniRef90_S3JBR1 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  104     5e-26
+  UniRef90_A0A1Y0KMJ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  103     8e-26
+  UniRef90_A0A168RJ37 Hemin storage system protein n=28 Tax=Gamma...  102     1e-25
+  UniRef90_UPI000A000906 poly-beta-1,6-N-acetyl-D-glucosamine bio...  102     4e-25
+  UniRef90_A0A2D9ELL0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  100     7e-25
+  UniRef90_A0A261QZ19 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  101     8e-25
+  UniRef90_A0A2A4AST4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  101     1e-24
+  UniRef90_UPI0009FC3112 poly-beta-1,6-N-acetyl-D-glucosamine bio...  101     1e-24
+  UniRef90_A0A2E4R6T6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  99.9    1e-24
+  UniRef90_A0A1D2TKI8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  101     2e-24
+  UniRef90_A0A2N1ZS44 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  100     2e-24
+  UniRef90_UPI00039EB034 poly-beta-1,6-N-acetyl-D-glucosamine bio...  99.9    3e-24
+  UniRef90_A0A0W1RUE7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  99.5    3e-24
+  UniRef90_A0A1C3Q7X1 Hemin storage system protein n=41 Tax=Enter...  98.7    6e-24
+  UniRef90_A0A1T1H159 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  98.7    9e-24
+  UniRef90_UPI000F608778 poly-beta-1,6-N-acetyl-D-glucosamine bio...  99.5    9e-24
+  UniRef90_A0A3K2NSM1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  96.8    1e-23
+  UniRef90_N9DSG2 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  99.5    1e-23
+  UniRef90_UPI00057F9E3D poly-beta-1,6-N-acetyl-D-glucosamine bio...  98.0    2e-23
+  UniRef90_A0A2P5NVA5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  97.2    2e-23
+  UniRef90_A0A241W8G0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  98.0    3e-23
+  UniRef90_A0A3B7PPY6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  97.6    3e-23
+  UniRef90_A0A1V3BQ16 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  97.6    3e-23
+  UniRef90_A0A151XXI4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  97.2    4e-23
+  UniRef90_A0A2U1CHT2 Biofilm PGA synthesis protein PgaD n=2 Tax=...  96.4    4e-23
+  UniRef90_N8QC54 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  97.2    4e-23
+  UniRef90_A0A240C9A6 Hemin storage system protein n=1 Tax=Serrat...  96.4    4e-23
+  UniRef90_A0A2T5P0R2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  96.4    6e-23
+  UniRef90_UPI000D7071C9 poly-beta-1,6-N-acetyl-D-glucosamine bio...  96.8    6e-23
+  UniRef90_UPI000F6480D3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  96.4    7e-23
+  UniRef90_UPI000B8881EC poly-beta-1,6-N-acetyl-D-glucosamine bio...  96.0    8e-23
+  UniRef90_B5JTY1 Uncharacterized protein n=1 Tax=gamma proteobac...  96.0    9e-23
+  UniRef90_A0A3B9PL39 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  96.4    1e-22
+  UniRef90_UPI000DA25971 poly-beta-1,6-N-acetyl-D-glucosamine bio...  95.7    1e-22
+  UniRef90_A0A225N0S5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  96.0    2e-22
+  UniRef90_A0A2M7FXS6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  94.9    2e-22
+  UniRef90_A0A345Y8E9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  94.5    3e-22
+  UniRef90_A0A3M1DIB9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  94.9    3e-22
+  UniRef90_A0A1L3GG94 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  94.9    5e-22
+  UniRef90_A0A178GAK0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  94.1    5e-22
+  UniRef90_A0A0W0QW53 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  92.6    6e-22
+  UniRef90_A0A2P5MY90 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  94.1    7e-22
+  UniRef90_A0A2W5M6T4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  93.7    7e-22
+  UniRef90_A0A177NKK2 Uncharacterized protein n=1 Tax=Methylomona...  93.7    8e-22
+  UniRef90_A0A149V8V8 Uncharacterized protein n=1 Tax=Acetobacter...  93.3    9e-22
+  UniRef90_A0A368Y5G3 Biofilm PGA synthesis protein PgaD n=1 Tax=...  93.3    1e-21
+  UniRef90_H5V4U3 Uncharacterized protein n=1 Tax=Atlantibacter h...  91.8    1e-21
+  UniRef90_UPI000990FC5F poly-beta-1,6-N-acetyl-D-glucosamine bio...  92.6    1e-21
+  UniRef90_A0A0B5FT76 Uncharacterized protein n=1 Tax=Geoalkaliba...  92.6    2e-21
+  UniRef90_A0A178GJI4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  93.0    2e-21
+  UniRef90_UPI000DA26048 poly-beta-1,6-N-acetyl-D-glucosamine bio...  92.6    2e-21
+  UniRef90_A0A0F3KQA8 Uncharacterized protein n=1 Tax=Aquitalea m...  92.2    2e-21
+  UniRef90_G0A375 Uncharacterized protein n=1 Tax=Methylomonas me...  92.6    2e-21
+  UniRef90_A0A1D2SJT2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  92.6    2e-21
+  UniRef90_A0A1E7RIB1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  91.8    3e-21
+  UniRef90_A0A241V879 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  92.2    4e-21
+  UniRef90_A0A261SGG4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  91.4    4e-21
+  UniRef90_A0A2S6H6Z2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  91.4    4e-21
+  UniRef90_UPI000364CA6E poly-beta-1,6-N-acetyl-D-glucosamine bio...  91.8    6e-21
+  UniRef90_A0A3A8EPX8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  91.0    9e-21
+  UniRef90_UPI0004795081 poly-beta-1,6-N-acetyl-D-glucosamine bio...  91.0    1e-20
+  UniRef90_UPI00069CE319 poly-beta-1,6-N-acetyl-D-glucosamine bio...  90.6    1e-20
+  UniRef90_A0A2N0V6Y1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  90.3    1e-20
+  UniRef90_A0A1Y3C557 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  90.6    1e-20
+  UniRef90_A0A1P8JT43 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  90.6    1e-20
+  UniRef90_G3IWF6 Uncharacterized protein n=6 Tax=Methylobacter t...  90.3    1e-20
+  UniRef90_V2VNT6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  90.6    1e-20
+  UniRef90_A0A2C9WU90 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  90.3    2e-20
+  UniRef90_A0A366HE16 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  89.5    2e-20
+  UniRef90_R8YQ69 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  89.5    2e-20
+  UniRef90_A0A2R7QJJ7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  89.5    3e-20
+  UniRef90_A0A3A2IYR2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  89.1    4e-20
+  UniRef90_A0A241V3N5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  89.9    4e-20
+  UniRef90_B8GTH7 Uncharacterized protein n=2 Tax=Thioalkalivibri...  89.5    4e-20
+  UniRef90_UPI00034AB3C2 poly-beta-1,6-N-acetyl-D-glucosamine bio...  93.3    5e-20
+  UniRef90_UPI000CE567B3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  89.1    5e-20
+  UniRef90_UPI000BE43359 poly-beta-1,6-N-acetyl-D-glucosamine bio...  86.4    7e-20
+  UniRef90_UPI000F8CF70A UPI000F8CF70A related cluster n=1 Tax=un...  88.3    7e-20
+  UniRef90_A0A251ZZK6 Uncharacterized protein n=1 Tax=Acetobacter...  88.7    7e-20
+  UniRef90_A0A143J144 Biofilm PGA synthesis protein PgaD n=57 Tax...  88.3    9e-20
+  UniRef90_A0A3G9GES3 Uncharacterized protein n=1 Tax=Aquitalea m...  88.0    9e-20
+  UniRef90_A0A2P5ZMQ1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  89.1    1e-19
+  UniRef90_W8X1U6 Uncharacterized protein n=1 Tax=Castellaniella ...  88.0    1e-19
+  UniRef90_A0A380UFS5 Biofilm PGA synthesis protein pgaD n=10 Tax...  87.2    2e-19
+  UniRef90_A0A1B2N5W8 Hemin storage protein n=4 Tax=Stenotrophomo...  87.2    3e-19
+  UniRef90_A0A2V1JWI0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  86.8    3e-19
+  UniRef90_A0A290ZRA9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  87.6    3e-19
+  UniRef90_A0A0F3IN01 Uncharacterized protein n=1 Tax=Methylocucu...  86.8    3e-19
+  UniRef90_A0A1G6GXR3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  88.0    4e-19
+  UniRef90_A0A2R7IGX1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  86.8    4e-19
+  UniRef90_A0A1W9K6T1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  86.0    5e-19
+  UniRef90_A0A2U3N330 Uncharacterized protein n=1 Tax=Acinetobact...  86.4    6e-19
+  UniRef90_A0A1G9SG20 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  86.0    6e-19
+  UniRef90_A0A363RVX2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  86.0    7e-19
+  UniRef90_A0A2D7XHQ1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  86.0    7e-19
+  UniRef90_UPI000D53C858 poly-beta-1,6-N-acetyl-D-glucosamine bio...  86.0    8e-19
+  UniRef90_S9ZHR6 Uncharacterized protein n=2 Tax=Thauera terpeni...  84.5    8e-19
+  UniRef90_A0A231HHG4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  85.6    9e-19
+  UniRef90_A0A2P5LML8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  85.6    9e-19
+  UniRef90_UPI000DD06FF3 poly-beta-1,6-N-acetyl-D-glucosamine bio...  85.6    1e-18
+  UniRef90_J0B934 Uncharacterized protein n=2 Tax=Alcaligenes fae...  86.0    1e-18
+  UniRef90_A0A376MUZ9 PGA biosynthesis protein n=2 Tax=Escherichi...  83.3    1e-18
+  UniRef90_A0A1Q8SN98 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  85.3    2e-18
+  UniRef90_N8QXR6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  84.9    2e-18
+  UniRef90_A0A3E1K6R9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  84.9    2e-18
+  UniRef90_A0A369PRC6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  85.6    2e-18
+  UniRef90_A0A370XDR8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  84.5    2e-18
+  UniRef90_A0A286CW92 Biofilm PGA synthesis protein PgaD n=1 Tax=...  84.5    3e-18
+  UniRef90_A0A2N6VHM6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  84.1    4e-18
+  UniRef90_UPI000F68F316 poly-beta-1,6-N-acetyl-D-glucosamine bio...  84.5    4e-18
+  UniRef90_A0A2N1GD84 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  84.1    4e-18
+  UniRef90_UPI000DA15BF0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  83.3    6e-18
+  UniRef90_A0A348HH79 Inorganic pyrophosphatase/exopolyphosphatas...  83.7    7e-18
+  UniRef90_UPI000DA1B23E poly-beta-1,6-N-acetyl-D-glucosamine bio...  83.7    7e-18
+  UniRef90_A0A165G584 Uncharacterized protein n=1 Tax=Crenobacter...  82.9    7e-18
+  UniRef90_UPI0003AA2C86 poly-beta-1,6-N-acetyl-D-glucosamine bio...  88.0    7e-18
+  UniRef90_A0A2S2FGF4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  83.3    8e-18
+  UniRef90_A0A0U1Q2C5 Uncharacterized protein n=1 Tax=Lampropedia...  84.5    1e-17
+  UniRef90_A0A3M6R026 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  84.5    1e-17
+  UniRef90_A0A0A3X2Z4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  83.3    2e-17
+  UniRef90_UPI000B7D257C poly-beta-1,6-N-acetyl-D-glucosamine bio...  82.2    2e-17
+  UniRef90_UPI000E59F395 poly-beta-1,6-N-acetyl-D-glucosamine bio...  81.4    3e-17
+  UniRef90_A0A318IY68 Biofilm PGA synthesis protein PgaD n=2 Tax=...  82.2    4e-17
+  UniRef90_A0A2S9GSB5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  81.4    4e-17
+  UniRef90_A0A290XE78 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  81.4    4e-17
+  UniRef90_A0A0K2IM64 Hemin storage protein n=64 Tax=Gammaproteob...  81.4    4e-17
+  UniRef90_A0A1R4HIK5 Uncharacterized protein n=1 Tax=Crenothrix ...  81.4    5e-17
+  UniRef90_UPI000F897817 poly-beta-1,6-N-acetyl-D-glucosamine bio...  81.0    6e-17
+  UniRef90_N8Z4S1 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  81.8    6e-17
+  UniRef90_A0A246HJN5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  81.0    6e-17
+  UniRef90_A0A2T7FQI0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  80.6    8e-17
+  UniRef90_UPI000690ABB9 poly-beta-1,6-N-acetyl-D-glucosamine bio...  84.5    9e-17
+  UniRef90_A0A0S2FD23 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  84.1    1e-16
+  UniRef90_UPI000F637F42 poly-beta-1,6-N-acetyl-D-glucosamine bio...  78.3    2e-16
+  UniRef90_C3X3E9 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  80.2    2e-16
+  UniRef90_A0A239RAU3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  80.2    2e-16
+  UniRef90_A0A222ZXQ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  80.2    2e-16
+  UniRef90_Q3A0T3 PgaD n=1 Tax=Pelobacter carbinolicus (strain DS...  80.2    2e-16
+  UniRef90_A0A1G4A9L8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  79.9    2e-16
+  UniRef90_UPI000C7A9771 poly-beta-1,6-N-acetyl-D-glucosamine bio...  78.7    3e-16
+  UniRef90_A0A1I4BTL5 Biofilm PGA synthesis protein PgaD n=1 Tax=...  79.1    4e-16
+  UniRef90_A0A3N7DHV1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  79.1    5e-16
+  UniRef90_A0A0Q8DF75 Uncharacterized protein n=2 Tax=Xanthomonad...  78.3    8e-16
+  UniRef90_A0A3D0DPQ1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  78.3    9e-16
+  UniRef90_A0A2N2FUX1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  77.6    1e-15
+  UniRef90_A0A0S2G4X3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  81.4    1e-15
+  UniRef90_A0A0E1FKR5 Biofilm PGA synthesis protein pgaD n=67 Tax...  77.6    1e-15
+  UniRef90_A0A2S3QHG3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  77.2    1e-15
+  UniRef90_A0A257QCP0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  78.3    1e-15
+  UniRef90_Y0KGD4 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  77.2    2e-15
+  UniRef90_A0A0S2FSG4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  80.6    2e-15
+  UniRef90_A0A0A8XDQ4 Uncharacterized protein n=1 Tax=Bacillus se...  76.0    2e-15
+  UniRef90_A0A345Y3X9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  76.8    2e-15
+  UniRef90_UPI0008240509 poly-beta-1,6-N-acetyl-D-glucosamine bio...  76.0    2e-15
+  UniRef90_A0A268JC91 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  76.0    2e-15
+  UniRef90_D7DK49 Uncharacterized protein n=1 Tax=Methylotenera v...  76.4    3e-15
+  UniRef90_A0A0Q9EB34 Uncharacterized protein n=2 Tax=Lysobacter ...  77.2    3e-15
+  UniRef90_A0A2A4PM66 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  76.4    3e-15
+  UniRef90_A0A0Q8EM04 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  76.4    5e-15
+  UniRef90_A0A1E7RDZ5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  76.0    5e-15
+  UniRef90_N9P4I0 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  76.0    6e-15
+  UniRef90_UPI000416F06A poly-beta-1,6-N-acetyl-D-glucosamine bio...  76.8    6e-15
+  UniRef90_V2TQ50 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  75.6    6e-15
+  UniRef90_UPI0004076A88 poly-beta-1,6-N-acetyl-D-glucosamine bio...  75.6    7e-15
+  UniRef90_UPI0009F8E850 poly-beta-1,6-N-acetyl-D-glucosamine bio...  76.4    8e-15
+  UniRef90_N9K2U5 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  75.2    1e-14
+  UniRef90_A0A1E4L188 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  75.6    1e-14
+  UniRef90_A0A1Y5FWP1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  75.2    1e-14
+  UniRef90_A0A1H4H0P9 PgaD-like protein n=2 Tax=Variovorax sp. YR...  75.2    1e-14
+  UniRef90_UPI0009DF5C66 poly-beta-1,6 N-acetyl-D-glucosamine syn...  77.9    2e-14
+  UniRef90_UPI000F88D6E4 poly-beta-1,6-N-acetyl-D-glucosamine bio...  73.7    3e-14
+  UniRef90_UPI00084A091A poly-beta-1,6-N-acetyl-D-glucosamine bio...  73.7    3e-14
+  UniRef90_A0YHD9 Uncharacterized protein n=1 Tax=marine gamma pr...  74.1    3e-14
+  UniRef90_UPI0009FD9E94 poly-beta-1,6-N-acetyl-D-glucosamine bio...  74.9    4e-14
+  UniRef90_A0A371YSP8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  73.7    4e-14
+  UniRef90_A0A1X0ZSQ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  73.3    5e-14
+  UniRef90_A0A2A2AXF9 Uncharacterized protein n=7 Tax=unclassifie...  74.9    5e-14
+  UniRef90_A0A268HBA5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  72.2    1e-13
+  UniRef90_A0A0R0CRM1 Hemin storage protein n=2 Tax=Stenotrophomo...  72.2    2e-13
+  UniRef90_UPI000DF79F01 poly-beta-1,6-N-acetyl-D-glucosamine bio...  72.2    2e-13
+  UniRef90_UPI000B4096F7 poly-beta-1,6-N-acetyl-D-glucosamine bio...  71.0    2e-13
+  UniRef90_A0A1G6Y1M4 Biofilm PGA synthesis protein PgaD n=1 Tax=...  72.5    2e-13
+  UniRef90_A0A399IJT2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.4    2e-13
+  UniRef90_C7RBF2 Uncharacterized protein n=1 Tax=Kangiella koree...  71.8    2e-13
+  UniRef90_A0A2S7BMH6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.8    2e-13
+  UniRef90_A0A2K8USH8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  72.5    2e-13
+  UniRef90_A0A191ZH78 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  72.2    2e-13
+  UniRef90_A0A345ZKG9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.8    2e-13
+  UniRef90_A0A1E7R5F1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.8    2e-13
+  UniRef90_A1HM86 Uncharacterized protein n=1 Tax=Thermosinus car...  74.9    3e-13
+  UniRef90_A0A369UND5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.8    3e-13
+  UniRef90_UPI000DCFF96D poly-beta-1,6-N-acetyl-D-glucosamine bio...  71.4    3e-13
+  UniRef90_A0A3A0ELI9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  72.2    3e-13
+  UniRef90_A0A1E4K403 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.8    3e-13
+  UniRef90_A0A1T4PT29 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.4    4e-13
+  UniRef90_A0A2V1HHJ0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.0    4e-13
+  UniRef90_UPI0009977625 poly-beta-1,6-N-acetyl-D-glucosamine bio...  69.8    6e-13
+  UniRef90_A0A285NXN0 Biofilm PGA synthesis protein PgaD n=1 Tax=...  70.2    7e-13
+  UniRef90_A0A2E7WUM4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  70.6    8e-13
+  UniRef90_A0A1D9EJJ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  70.2    8e-13
+  UniRef90_UPI000987C393 poly-beta-1,6-N-acetyl-D-glucosamine bio...  69.8    1e-12
+  UniRef90_UPI0005EF9AB6 poly-beta-1,6-N-acetyl-D-glucosamine bio...  69.1    1e-12
+  UniRef90_A0A2M9EB71 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  69.1    2e-12
+  UniRef90_A0A3B1ASH2 Uncharacterized protein n=1 Tax=hydrotherma...  69.8    2e-12
+  UniRef90_A0A1T5CMG4 Biofilm PGA synthesis protein PgaD n=6 Tax=...  69.1    2e-12
+  UniRef90_UPI000FDA7467 poly-beta-1,6-N-acetyl-D-glucosamine bio...  69.5    2e-12
+  UniRef90_A0A1I0N2C4 Biofilm PGA synthesis protein PgaD n=3 Tax=...  69.1    2e-12
+  UniRef90_UPI0004793E51 poly-beta-1,6-N-acetyl-D-glucosamine bio...  69.5    2e-12
+  UniRef90_A0A212LTQ0 Uncharacterized protein n=3 Tax=Sporomusa T...  70.6    3e-12
+  UniRef90_UPI0009D6A6CA poly-beta-1,6-N-acetyl-D-glucosamine bio...  69.5    3e-12
+  UniRef90_UPI000737D2D5 poly-beta-1,6-N-acetyl-D-glucosamine bio...  68.7    3e-12
+  UniRef90_A0A2E6LPH3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  69.5    3e-12
+  UniRef90_A0A3N4VQ49 Biofilm PGA synthesis protein PgaD n=1 Tax=...  68.7    4e-12
+  UniRef90_A0A335GCM1 Biofilm PGA synthesis protein pgaD n=1 Tax=...  67.2    4e-12
+  UniRef90_A0A376FGV9 Hemin storage system protein n=1 Tax=Entero...  66.4    5e-12
+  UniRef90_A0A1H7U1L9 Biofilm PGA synthesis protein PgaD n=1 Tax=...  67.9    5e-12
+  UniRef90_A0A1M4Y8F4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  68.3    5e-12
+  UniRef90_UPI000D53EB67 poly-beta-1,6-N-acetyl-D-glucosamine bio...  67.9    6e-12
+  UniRef90_A0A378B576 Hemin storage system protein n=1 Tax=Klebsi...  66.4    7e-12
+  UniRef90_A0A357N0H1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  67.5    1e-11
+  UniRef90_A0A0F3KPM6 Uncharacterized protein n=1 Tax=Luteibacter...  67.2    1e-11
+  UniRef90_A0A1Q8SYK1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  67.5    1e-11
+  UniRef90_A0A3D3Q044 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.5    2e-11
+  UniRef90_A0A3D5C7C6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.1    2e-11
+  UniRef90_UPI00047A2475 poly-beta-1,6-N-acetyl-D-glucosamine bio...  66.0    3e-11
+  UniRef90_A0A1G9JIG0 Biofilm PGA synthesis protein PgaD n=1 Tax=...  65.2    6e-11
+  UniRef90_UPI000D54188B poly-beta-1,6-N-acetyl-D-glucosamine bio...  65.2    7e-11
+  UniRef90_A0A099DJE7 Uncharacterized protein n=3 Tax=Exiguobacte...  65.2    8e-11
+  UniRef90_A0A1H8V2Q8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.4    8e-11
+  UniRef90_A0A350X1A9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  65.2    9e-11
+  UniRef90_A0A318VQ13 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  67.5    1e-10
+  UniRef90_A0A395G7Z9 Uncharacterized protein n=1 Tax=Macrococcus...  64.1    2e-10
+  UniRef90_A0A1B4V4T8 Poly-beta-1,6-N-acetyl-D-glucosamine syntha...  66.8    2e-10
+  UniRef90_UPI0009DBD79C poly-beta-1,6-N-acetyl-D-glucosamine bio...  66.4    3e-10
+  UniRef90_A0A165G5A8 Uncharacterized protein n=1 Tax=Crenobacter...  63.3    4e-10
+  UniRef90_A0A0H1ARX3 Uncharacterized protein n=2 Tax=Luteimonas ...  61.4    2e-09
+  UniRef90_A0A1M6PM33 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.6    3e-09
+  UniRef90_A0A0J9B5S9 Uncharacterized protein (Fragment) n=1 Tax=...  51.4    2e-06
+  UniRef90_UPI000F8C3FAB hypothetical protein n=1 Tax=Sporomusace...  52.9    3e-06
+  UniRef90_G8LDR3 Putative HTH-type transcriptional regulator ykg...  47.1    0.001
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A291IIC1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  77.6    9e-16
+  UniRef90_A0A1R4H545 Uncharacterized protein n=1 Tax=Crenothrix ...  77.9    1e-15
+  UniRef90_A0A0S2DF66 TonB family C-terminal domain n=3 Tax=Lysob...  81.0    2e-15
+  UniRef90_A0A2K9A7R6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  75.2    1e-14
+  UniRef90_UPI0006CF41ED poly-beta-1,6-N-acetyl-D-glucosamine bio...  74.5    2e-14
+  UniRef90_UPI000E6BBB29 poly-beta-1,6-N-acetyl-D-glucosamine bio...  72.9    7e-14
+  UniRef90_A0A2P5N0I9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.8    2e-13
+  UniRef90_A0A2S7DJV6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.0    3e-13
+  UniRef90_A0A3N7A599 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  71.8    5e-13
+  UniRef90_D7DJ79 Uncharacterized protein n=1 Tax=Methylotenera v...  70.2    7e-13
+  UniRef90_A0A1J1EBZ8 Uncharacterized protein n=2 Tax=Lysobacter ...  73.3    1e-12
+  UniRef90_UPI000F7E40B0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  70.2    2e-12
+  UniRef90_K6T4C8 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  68.7    3e-12
+  UniRef90_UPI0003A544F0 poly-beta-1,6-N-acetyl-D-glucosamine bio...  69.5    3e-12
+  UniRef90_A0A3D1KDG4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  68.7    5e-12
+  UniRef90_A0A2D0I630 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  67.9    5e-12
+  UniRef90_A0A177NH39 Uncharacterized protein n=2 Tax=Methylomona...  67.9    6e-12
+  UniRef90_V7ZEF0 Uncharacterized protein n=2 Tax=Xanthomonas hor...  69.1    7e-12
+  UniRef90_A0A3D5AWF3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  67.9    7e-12
+  UniRef90_A0A1Y6D0H2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  67.2    1e-11
+  UniRef90_A0A2U9T515 Hemin storage protein n=2 Tax=Lysobacter ma...  67.5    1e-11
+  UniRef90_A0A2A5C1D1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  67.5    1e-11
+  UniRef90_C3X9I8 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  67.5    2e-11
+  UniRef90_UPI000466C275 poly-beta-1,6-N-acetyl-D-glucosamine bio...  66.4    2e-11
+  UniRef90_A0A2G9Y0H5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.0    4e-11
+  UniRef90_A0A177MXB8 Uncharacterized protein n=1 Tax=Methylomona...  65.6    4e-11
+  UniRef90_A0A371K2I1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  66.4    4e-11
+  UniRef90_V8G9L8 Uncharacterized protein n=1 Tax=Pelistega indic...  65.6    5e-11
+  UniRef90_Q7NTW3 Uncharacterized protein n=6 Tax=Chromobacterium...  66.0    5e-11
+  UniRef90_UPI0005EBDF6B poly-beta-1,6-N-acetyl-D-glucosamine bio...  65.2    6e-11
+  UniRef90_A6T1D9 Uncharacterized conserved protein n=1 Tax=Janth...  65.6    8e-11
+  UniRef90_UPI000730DFA2 poly-beta-1,6-N-acetyl-D-glucosamine bio...  64.5    9e-11
+  UniRef90_UPI00036E1E42 poly-beta-1,6-N-acetyl-D-glucosamine bio...  65.2    1e-10
+  UniRef90_A0A354A3Q6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.5    1e-10
+  UniRef90_A0A1H6UP61 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  65.6    1e-10
+  UniRef90_A0A103EK60 Uncharacterized protein n=6 Tax=Burkholderi...  64.8    1e-10
+  UniRef90_A0A2T5L5X5 Biofilm PGA synthesis protein PgaD n=4 Tax=...  64.5    1e-10
+  UniRef90_A0A1G6PJF4 Biofilm PGA synthesis protein PgaD n=2 Tax=...  64.5    1e-10
+  UniRef90_A0A2P5MXV1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  64.5    1e-10
+  UniRef90_Q2IDN4 Uncharacterized protein n=4 Tax=Anaeromyxobacte...  64.8    2e-10
+  UniRef90_UPI0009EE0430 poly-beta-1,6-N-acetyl-D-glucosamine bio...  64.1    2e-10
+  UniRef90_A0A2A3LL93 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  63.7    2e-10
+  UniRef90_UPI0009D70134 poly-beta-1,6-N-acetyl-D-glucosamine bio...  63.3    3e-10
+  UniRef90_A0A259CMY4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  63.3    3e-10
+  UniRef90_A0A0S8L209 Uncharacterized protein n=3 Tax=Proteobacte...  64.1    3e-10
+  UniRef90_A0A0S8EKY3 Uncharacterized protein n=1 Tax=Thiotrichal...  63.3    4e-10
+  UniRef90_A0A1G5A4J6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  63.7    5e-10
+  UniRef90_UPI00054CE79C poly-beta-1,6-N-acetyl-D-glucosamine bio...  62.5    7e-10
+  UniRef90_K7SZ68 Uncharacterized protein n=1 Tax=Candidatus Sulf...  62.5    7e-10
+  UniRef90_N8TFQ2 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  61.8    1e-09
+  UniRef90_UPI000E71CCFF poly-beta-1,6-N-acetyl-D-glucosamine bio...  62.1    1e-09
+  UniRef90_G2J3U4 Uncharacterized protein n=3 Tax=Pseudogulbenkia...  61.4    2e-09
+  UniRef90_A0A3A1W331 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  62.1    2e-09
+  UniRef90_UPI000EB0C548 poly-beta-1,6-N-acetyl-D-glucosamine bio...  62.1    2e-09
+  UniRef90_UPI000427BA73 poly-beta-1,6-N-acetyl-D-glucosamine bio...  62.1    2e-09
+  UniRef90_A0A385C8R0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  61.0    2e-09
+  UniRef90_UPI00045EA5BB poly-beta-1,6-N-acetyl-D-glucosamine bio...  61.0    3e-09
+  UniRef90_A0A0M3RL45 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.6    3e-09
+  UniRef90_M1MLN8 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  60.6    3e-09
+  UniRef90_T1X4S0 PgdA-like protein n=4 Tax=Variovorax TaxID=3407...  61.4    3e-09
+  UniRef90_A0A2P1VAU6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  61.4    3e-09
+  UniRef90_A0A371J634 Uncharacterized protein n=1 Tax=Romboutsia ...  60.6    4e-09
+  UniRef90_A0A1G6H5E2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.2    4e-09
+  UniRef90_UPI00047C1134 poly-beta-1,6-N-acetyl-D-glucosamine bio...  59.8    5e-09
+  UniRef90_A0A1F6T856 Poly-beta-1,6-N-acetyl-D-glucosamine syntha...  62.5    5e-09
+  UniRef90_J2W5K5 Uncharacterized protein n=1 Tax=Herbaspirillum ...  60.6    5e-09
+  UniRef90_A0A1G0ZGL6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  61.0    5e-09
+  UniRef90_A0A1F6UP26 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.6    5e-09
+  UniRef90_E4U029 Uncharacterized protein n=1 Tax=Sulfuricurvum k...  59.8    6e-09
+  UniRef90_V2UMY6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  59.4    7e-09
+  UniRef90_UPI000DD06F3B poly-beta-1,6-N-acetyl-D-glucosamine bio...  59.4    9e-09
+  UniRef90_A0A1S8CRB5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  59.8    1e-08
+  UniRef90_A0A1I5X332 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.2    1e-08
+  UniRef90_A0A2U0Z750 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  60.2    1e-08
+  UniRef90_A0A073KEF9 Uncharacterized protein n=1 Tax=Bacillus ma...  59.4    1e-08
+  UniRef90_A0A345PBU6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  58.7    2e-08
+  UniRef90_A0A0Q7L675 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  59.4    2e-08
+  UniRef90_A0A1P8EMT8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  58.3    2e-08
+  UniRef90_UPI000B7D6CAB poly-beta-1,6-N-acetyl-D-glucosamine bio...  58.3    3e-08
+  UniRef90_UPI0004AF2BDF poly-beta-1,6-N-acetyl-D-glucosamine bio...  58.7    3e-08
+  UniRef90_A0A2R4TIS6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  57.9    3e-08
+  UniRef90_A0A254P4Q2 Uncharacterized protein n=1 Tax=Saccharibac...  58.3    3e-08
+  UniRef90_A0A2N4SP39 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  59.1    3e-08
+  UniRef90_UPI00036EC36E poly-beta-1,6-N-acetyl-D-glucosamine bio...  58.7    3e-08
+  UniRef90_A0A1H7X1A2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  58.7    4e-08
+  UniRef90_A0A241WGH6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  57.5    5e-08
+  UniRef90_A0A3A8FUI9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  57.1    6e-08
+  UniRef90_UPI0004B2B02A hypothetical protein n=1 Tax=Saccharibac...  57.1    7e-08
+  UniRef90_A0A151XYD6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.8    8e-08
+  UniRef90_A0A1E7QX58 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.8    8e-08
+  UniRef90_UPI0009F91F3C poly-beta-1,6-N-acetyl-D-glucosamine bio...  57.9    1e-07
+  UniRef90_A0A3A4RZP0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  57.1    1e-07
+  UniRef90_A0A2K1Q0I1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.8    1e-07
+  UniRef90_A0A0K6GW33 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.8    1e-07
+  UniRef90_J2JIW7 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  57.5    1e-07
+  UniRef90_Q30SJ9 Uncharacterized protein n=1 Tax=Sulfurimonas de...  56.8    1e-07
+  UniRef90_A0A241VAE2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.4    1e-07
+  UniRef90_A0A3D2ZZV0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.6    1e-07
+  UniRef90_A0A2A7IE21 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.4    2e-07
+  UniRef90_A0A2U3N2B2 Uncharacterized protein n=1 Tax=Acinetobact...  56.0    2e-07
+  UniRef90_A0A2E7WQJ9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.4    2e-07
+  UniRef90_A0A3B1CCF0 Uncharacterized protein n=1 Tax=hydrotherma...  56.4    2e-07
+  UniRef90_V2VMF1 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  56.0    2e-07
+  UniRef90_A0A376FF52 Hemin storage system protein n=1 Tax=Entero...  53.7    3e-07
+  UniRef90_A0A1H8FUQ3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.6    3e-07
+  UniRef90_A0A0D0MBD4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.4    3e-07
+  UniRef90_A0A0S7XQF1 Uncharacterized protein n=1 Tax=Syntrophoba...  55.6    3e-07
+  UniRef90_A0A3A8EY91 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.2    3e-07
+  UniRef90_L9LQM1 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  55.2    3e-07
+  UniRef90_A0A3A8FG16 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.2    3e-07
+  UniRef90_UPI000646CA58 hypothetical protein n=1 Tax=Firmicutes ...  55.6    3e-07
+  UniRef90_A0A241WC65 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.2    3e-07
+  UniRef90_A0A352NAN4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.0    3e-07
+  UniRef90_A0A371SC08 Uncharacterized protein n=1 Tax=Bacillus sp...  55.2    4e-07
+  UniRef90_D0SM41 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  54.8    4e-07
+  UniRef90_A0A1F9BIK0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.1    5e-07
+  UniRef90_A0A3M2HR55 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  55.2    5e-07
+  UniRef90_V6IZ98 Uncharacterized protein n=1 Tax=Sporolactobacil...  54.8    6e-07
+  UniRef90_A0A3M1ZLA7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  56.0    6e-07
+  UniRef90_UPI0009AA4EA2 poly-beta-1,6-N-acetyl-D-glucosamine bio...  55.2    6e-07
+  UniRef90_A0A217EF52 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.4    7e-07
+  UniRef90_A0A1W2AKH0 Poly-beta-1,6-N-acetyl-D-glucosamine syntha...  56.8    7e-07
+  UniRef90_UPI000A06C69E poly-beta-1,6-N-acetyl-D-glucosamine bio...  55.2    7e-07
+  UniRef90_A0A371YSA0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.4    7e-07
+  UniRef90_A0A365L2N2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.4    8e-07
+  UniRef90_A0A1C3CVK8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.1    9e-07
+  UniRef90_A0A2M8MG87 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.1    9e-07
+  UniRef90_G7GEI4 Uncharacterized protein n=8 Tax=Acinetobacter T...  54.1    1e-06
+  UniRef90_A0A2T6KN58 Biofilm PGA synthesis protein PgaD n=1 Tax=...  54.1    1e-06
+  UniRef90_A0A254Q108 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.1    2e-06
+  UniRef90_A0A2E9BNV9 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  54.4    2e-06
+  UniRef90_A0A3B1A6U5 Uncharacterized protein n=1 Tax=hydrotherma...  53.7    2e-06
+  UniRef90_Q6FDD7 Uncharacterized protein n=2 Tax=Acinetobacter T...  53.3    2e-06
+  UniRef90_A0A345Y8E6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  53.3    2e-06
+  UniRef90_A0A075KH26 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  53.3    2e-06
+  UniRef90_UPI000DCDB91A poly-beta-1,6-N-acetyl-D-glucosamine bio...  53.3    3e-06
+  UniRef90_A0A0B6AKG3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.9    3e-06
+  UniRef90_UPI0004BAA72A hypothetical protein n=1 Tax=Herbaspiril...  52.9    3e-06
+  UniRef90_N8VP67 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  52.5    4e-06
+  UniRef90_A0A2A3VPQ8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.5    4e-06
+  UniRef90_S4DDD5 Uncharacterized protein n=1 Tax=Enterococcus fa...  52.9    4e-06
+  UniRef90_N8ZSW6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  52.1    4e-06
+  UniRef90_UPI0008318ED4 poly-beta-1,6-N-acetyl-D-glucosamine bio...  51.7    5e-06
+  UniRef90_A0A3B7LX54 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.7    6e-06
+  UniRef90_A0A2H9TX83 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.1    6e-06
+  UniRef90_A0A241VH39 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.7    6e-06
+  UniRef90_A0A072NHQ3 PgaD-like protein n=2 Tax=Bacillus azotofor...  52.1    7e-06
+  UniRef90_F7SRR8 Uncharacterized protein n=1 Tax=Halomonas sp. T...  52.1    7e-06
+  UniRef90_F8IJL4 Uncharacterized protein n=2 Tax=Alicyclobacillu...  51.7    7e-06
+  UniRef90_A0A1E2W0D3 Uncharacterized protein n=3 Tax=Bacillus Ta...  52.1    7e-06
+  UniRef90_W4QB07 Uncharacterized protein n=1 Tax=Bacillus wakoen...  51.0    9e-06
+  UniRef90_UPI00053009D4 hypothetical protein n=1 Tax=Planococcus...  51.7    1e-05
+  UniRef90_V2TKA3 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  51.4    1e-05
+  UniRef90_A0A2S2FFD8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.4    1e-05
+  UniRef90_A0A179SVP6 Uncharacterized protein n=1 Tax=Bacillus li...  51.4    1e-05
+  UniRef90_A0A0Q2BPG7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.0    1e-05
+  UniRef90_C6BLR4 Uncharacterized protein n=2 Tax=Ralstonia picke...  52.9    1e-05
+  UniRef90_A0A261T4J8 Uncharacterized protein n=2 Tax=Bordetella ...  51.4    1e-05
+  UniRef90_A0A0J9DW57 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.5    1e-05
+  UniRef90_A0A0B4RF69 Uncharacterized protein n=1 Tax=Planococcus...  51.4    1e-05
+  UniRef90_A0A1B2LWV7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.4    1e-05
+  UniRef90_UPI0002F846BF hypothetical protein n=1 Tax=Sedimentiba...  51.4    2e-05
+  UniRef90_UPI00068DD752 poly-beta-1,6-N-acetyl-D-glucosamine bio...  51.4    2e-05
+  UniRef90_A0A1B2LYX1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.0    2e-05
+  UniRef90_A0A0B1YLY1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  52.1    2e-05
+  UniRef90_A0A2G6NJ87 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.6    2e-05
+  UniRef90_A0A1C7E0F9 Uncharacterized protein n=1 Tax=Planococcus...  50.6    2e-05
+  UniRef90_A0A0V0PM79 Uncharacterized protein n=2 Tax=Alicyclobac...  50.6    3e-05
+  UniRef90_N9DP57 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  50.2    3e-05
+  UniRef90_A0A1D8ARV9 Uncharacterized protein n=1 Tax=Lacunisphae...  50.6    3e-05
+  UniRef90_A0A1G0YRT2 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  51.0    3e-05
+  UniRef90_A0A264YT58 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  50.2    3e-05
+  UniRef90_UPI000C0BE3D1 poly-beta-1,6-N-acetyl-D-glucosamine bio...  50.2    3e-05
+  UniRef90_A3RPC6 Uncharacterized protein n=12 Tax=Ralstonia sola...  51.7    3e-05
+  UniRef90_B7DUG5 Uncharacterized protein n=1 Tax=Alicyclobacillu...  51.7    3e-05
+  UniRef90_A0A1H9LG20 Biofilm PGA synthesis protein PgaD n=1 Tax=...  48.7    3e-05
+  UniRef90_A0A0U2ZR91 Uncharacterized protein n=2 Tax=Planococcus...  50.2    4e-05
+  UniRef90_A0A1Q1G2M6 Uncharacterized protein n=1 Tax=Auricoccus ...  49.8    4e-05
+  UniRef90_A0A1M6VWE6 Uncharacterized protein n=2 Tax=Selenomonas...  49.8    4e-05
+  UniRef90_A0A1E7RD83 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  49.4    4e-05
+  UniRef90_U3GGM6 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  51.0    6e-05
+  UniRef90_UPI000E5A822D poly-beta-1,6-N-acetyl-D-glucosamine bio...  48.3    7e-05
+  UniRef90_A0A098TJ72 Uncharacterized protein n=1 Tax=Neosynechoc...  49.8    8e-05
+  UniRef90_A0A2L0HWJ0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.7    1e-04
+  UniRef90_A0A1I6LZN7 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.7    1e-04
+  UniRef90_A0A143G5L4 Uncharacterized protein n=2 Tax=Acinetobact...  48.3    1e-04
+  UniRef90_A0A1I0QV54 Poly-beta-1,6-N-acetyl-D-glucosamine syntha...  50.2    1e-04
+  UniRef90_A0A178GFP0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.3    1e-04
+  UniRef90_A0A1I2J5A0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.3    2e-04
+  UniRef90_A0A1Y3CI16 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  47.5    2e-04
+  UniRef90_A0A1G6H632 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  47.5    3e-04
+  UniRef90_A0A1B1S556 Uncharacterized protein n=1 Tax=Planococcus...  47.5    3e-04
+  UniRef90_A0A1H7E6I4 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.3    3e-04
+  UniRef90_R8T2R1 Uncharacterized protein n=1 Tax=Bacillus cereus...  47.5    3e-04
+  UniRef90_A0A0R0A6U8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  47.1    4e-04
+  UniRef90_A0A2N5L6V8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  48.3    5e-04
+  UniRef90_UPI0005B8D2B7 poly-beta-1,6-N-acetyl-D-glucosamine bio...  47.1    5e-04
+  UniRef90_UPI000EF1F12D poly-beta-1,6-N-acetyl-D-glucosamine bio...  47.9    6e-04
+  UniRef90_UPI0004895C08 hypothetical protein n=1 Tax=Selenomonas...  46.7    6e-04
+  UniRef90_A0A3P4SSN4 Uncharacterized protein n=1 Tax=Acinetobact...  46.0    6e-04
+  UniRef90_A0A2W7GMI3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  47.1    6e-04
+  UniRef90_A0A178G1M6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  46.0    0.001
+  UniRef90_A0A1V4XAN7 Uncharacterized protein n=1 Tax=Syntrophace...  46.4    0.001
+  UniRef90_A0A1H7QQN1 Biofilm PGA synthesis protein PgaD n=2 Tax=...  46.0    0.001
+  UniRef90_G3A8J7 Putative transmembrane protein n=5 Tax=Ralstoni...  46.7    0.001
+  UniRef90_A0A1Z9YVT1 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.2    0.002
+  UniRef90_A0A1V4QKF5 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.6    0.002
+  UniRef90_S3N954 Poly-beta-1,6-N-acetyl-D-glucosamine biosynthes...  45.2    0.002
+  UniRef90_B6BJF3 Uncharacterized protein n=1 Tax=Sulfurimonas go...  43.7    0.002
+  UniRef90_A0A1N7JPY6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  45.2    0.002
+  UniRef90_A0A069PWL8 Uncharacterized protein n=1 Tax=Caballeroni...  45.2    0.002
+  UniRef90_UPI000DCF9E52 poly-beta-1,6-N-acetyl-D-glucosamine bio...  44.8    0.002
+  UniRef90_A0A1G3UG59 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.3    0.002
+  UniRef90_UPI00078490CA poly-beta-1,6-N-acetyl-D-glucosamine bio...  44.8    0.003
+  UniRef90_A0A257JDX6 Uncharacterized protein (Fragment) n=1 Tax=...  44.4    0.003
+  UniRef90_UPI00082C33F6 poly-beta-1,6-N-acetyl-D-glucosamine bio...  44.8    0.003
+  UniRef90_A0A1I9YU10 Uncharacterized protein n=1 Tax=Paraburkhol...  44.8    0.003
+  UniRef90_A0A248KIY7 Uncharacterized protein n=1 Tax=Kluyvera ge...  43.7    0.003
+  UniRef90_A0A0B3BQ53 Uncharacterized protein n=2 Tax=Thermoanaer...  45.2    0.004
+  UniRef90_A0A354YBS0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.7    0.004
+  UniRef90_A0A356GQI4 Uncharacterized protein n=2 Tax=unclassifie...  44.0    0.004
+  UniRef90_A0A261SG20 Uncharacterized protein n=2 Tax=Bordetella ...  44.4    0.006
+  UniRef90_M4UJ22 Putative transmembrane protein n=20 Tax=Ralston...  44.4    0.010
+  UniRef90_A0A357VLQ2 Uncharacterized protein n=4 Tax=Clostridia ...  44.0    0.011
+  UniRef90_A0A1E7J6T8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  43.3    0.011
+  UniRef90_UPI000362795E hypothetical protein n=1 Tax=Paraburkhol...  43.3    0.012
+  UniRef90_UPI0004901348 hypothetical protein n=1 Tax=Thermoanaer...  43.7    0.013
+  UniRef90_A0A1I7F7F3 Poly-beta-1,6-N-acetyl-D-glucosamine syntha...  44.0    0.014
+  UniRef90_A0A157L611 Uncharacterized protein n=1 Tax=Bordetella ...  43.3    0.016
+  UniRef90_A0A175VHH4 Uncharacterized protein n=2 Tax=Aeromonas e...  42.1    0.017
+  UniRef90_A0A097AR15 Uncharacterized protein n=1 Tax=Thermoanaer...  43.3    0.023
+  UniRef90_R0E6J7 Uncharacterized protein n=6 Tax=Burkholderiacea...  43.3    0.026
+  UniRef90_A0A3D8VFH5 Uncharacterized protein n=1 Tax=Lysobacter ...  42.1    0.030
+  UniRef90_UPI00035E9F45 hypothetical protein n=1 Tax=Cupriavidus...  42.1    0.032
+  UniRef90_A0A0M2S0R2 UPF0182 protein LQ51_17955 n=33 Tax=Micromo...  43.3    0.035
+  UniRef90_A0A2N7VWH9 Uncharacterized protein n=1 Tax=Paraburkhol...  42.1    0.036
+  UniRef90_A0A1N7SSH0 Uncharacterized protein n=2 Tax=Paraburkhol...  42.1    0.037
+  UniRef90_A0A1F9WSX0 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  42.1    0.038
+  UniRef90_A0A0N0AEV4 UPF0182 protein ADK66_27420 n=28 Tax=Microm...  42.9    0.041
+  UniRef90_K1ISH4 Uncharacterized protein n=7 Tax=Aeromonas TaxID...  41.0    0.043
+  UniRef90_A0A068U5R2 Uncharacterized protein n=3 Tax=Coffea TaxI...  42.9    0.045
+  UniRef90_A0A1A9A478 UPF0182 protein GA0070621_3874 n=4 Tax=Micr...  42.9    0.048
+  UniRef90_A0A2S3XLJ6 Uncharacterized protein n=16 Tax=Aeromonada...  41.0    0.049
+  UniRef90_A0A1V5R6A1 Uncharacterized protein n=1 Tax=Acidobacter...  41.3    0.058
+  UniRef90_A0A0C4YF53 Uncharacterized protein n=1 Tax=Cupriavidus...  41.3    0.059
+  UniRef90_A0A1L6I0F8 Uncharacterized protein n=1 Tax=Paraburkhol...  41.0    0.084
+  UniRef90_A0A3A9YVA1 UPF0182 protein D7223_27605 n=1 Tax=Micromo...  42.1    0.087
+  UniRef90_A0A0P0RAS6 Uncharacterized protein n=8 Tax=Burkholderi...  40.6    0.10 
+  UniRef90_A0A0Q4FXE4 Uncharacterized protein n=1 Tax=Xylophilus ...  41.3    0.11 
+  UniRef90_A0A1V5CAK6 Uncharacterized protein n=1 Tax=Syntrophorh...  41.0    0.12 
+  UniRef90_A0A3N1A209 Uncharacterized protein n=2 Tax=Micromonosp...  41.7    0.12 
+  UniRef90_UPI000480D5AB hypothetical protein n=1 Tax=Chelativora...  41.7    0.12 
+  UniRef90_A0A081GP14 Uncharacterized protein n=1 Tax=Cyanobium s...  40.2    0.15 
+  UniRef90_UPI00047D0254 proline/glycine betaine ABC transporter ...  41.0    0.17 
+  UniRef90_A0A104YQD2 Biofilm PGA synthesis auxiliary protein Pga...  40.2    0.18 
+  UniRef90_A0A1Q5BC50 UPF0182 protein A6A27_03170 n=1 Tax=Micromo...  41.0    0.18 
+  UniRef90_A0A2M7YRT4 Uncharacterized protein n=1 Tax=bacterium C...  39.8    0.18 
+  UniRef90_U6R8M2 Uncharacterized protein n=2 Tax=Bacteroides Tax...  39.8    0.19 
+  UniRef90_UPI000DF45D5E hypothetical protein n=1 Tax=Escherichia...  38.3    0.19 
+  UniRef90_A0A1D9H7N7 Uncharacterized protein n=3 Tax=Cupriavidus...  39.8    0.19 
+  UniRef90_A0A195CEF7 Mediator of RNA polymerase II transcription...  41.0    0.20 
+  UniRef90_G9YCF5 Uncharacterized protein n=6 Tax=Enterobacterale...  39.8    0.20 
+  UniRef90_A0A2N3Z4G7 UPF0182 protein CLT72_3389 n=6 Tax=Micromon...  41.0    0.21 
+  UniRef90_UPI000488BD9A hypothetical protein n=1 Tax=Rheinheimer...  41.0    0.21 
+  UniRef90_A0A317K7D7 UPF0182 protein DLJ46_15790 n=2 Tax=Micromo...  40.6    0.23 
+  UniRef90_A0A2Z6TU80 Probable potassium transport system protein...  40.6    0.24 
+  UniRef90_A0A351KVS6 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  39.0    0.25 
+  UniRef90_A0A175VIF9 Uncharacterized protein n=1 Tax=Aeromonas e...  38.6    0.28 
+  UniRef90_UPI00083952A4 type VI secretion system membrane subuni...  40.6    0.28 
+  UniRef90_N9MM52 Uncharacterized protein n=1 Tax=Acinetobacter v...  40.2    0.30 
+  UniRef90_A0A0D0VQV5 UPF0182 protein TK50_19980 n=10 Tax=Micromo...  40.2    0.32 
+  UniRef90_A0A1C5I749 UPF0182 protein GA0070614_2283 n=6 Tax=Micr...  40.2    0.32 
+  UniRef90_A0A1C6RPM3 UPF0182 protein GA0070616_1667 n=2 Tax=Micr...  40.2    0.33 
+  UniRef90_A0A1Q8EBI7 ATP-binding protein n=1 Tax=Streptococcus a...  40.2    0.33 
+  UniRef90_A0A1V5UH01 Uncharacterized protein n=1 Tax=Tenericutes...  39.4    0.36 
+  UniRef90_A0A1C7PPD0 Uncharacterized protein n=3 Tax=Aeromonas T...  38.3    0.46 
+  UniRef90_A0A2G7F6F3 Uncharacterized protein n=1 Tax=Streptomyce...  39.8    0.47 
+  UniRef90_A0A248YSG2 UPF0182 protein CIK06_24340 n=1 Tax=Plantac...  39.8    0.50 
+  UniRef90_W4ZFK0 Uncharacterized protein n=2 Tax=Strongylocentro...  39.8    0.52 
+  UniRef90_A0A1I6EK69 Uncharacterized protein n=1 Tax=Poseidonoce...  39.4    0.53 
+  UniRef90_A0A0X8K6J0 Inner membrane protein yjcH n=3 Tax=Moraxel...  37.9    0.55 
+  UniRef90_C8Q172 Uncharacterized protein n=7 Tax=Proteobacteria ...  37.9    0.58 
+  UniRef90_A0A259RPL6 Uncharacterized protein (Fragment) n=1 Tax=...  37.1    0.60 
+  UniRef90_A4XB61 UPF0182 protein Strop_3729 n=44 Tax=Salinispora...  39.4    0.61 
+  UniRef90_UPI00082CE145 proline/glycine betaine ABC transporter ...  39.0    0.63 
+  UniRef90_UPI000F043684 hypothetical protein n=1 Tax=Pseudomonas...  38.6    0.64 
+  UniRef90_UPI000BAAC905 TIGR01620 family protein n=1 Tax=Actibac...  39.4    0.65 
+  UniRef90_A0A1F9WS50 Uncharacterized protein n=1 Tax=Elusimicrob...  39.4    0.67 
+  UniRef90_W8GNG1 Bifunctional preprotein translocase subunit Sec...  39.4    0.67 
+  UniRef90_A0A132Z349 Glycosyl hydrolase n=66 Tax=Firmicutes TaxI...  39.4    0.70 
+  UniRef90_A0A1C5GT74 UPF0182 protein GA0070609_0241 n=4 Tax=Micr...  39.4    0.72 
+  UniRef90_A0A0S4P5K8 Uncharacterized protein n=1 Tax=Janthinobac...  37.1    0.73 
+  UniRef90_A0A119RWW9 Biofilm PGA synthesis auxiliary protein Pga...  38.6    0.77 
+  UniRef90_UPI00058C3BDD hypothetical protein n=1 Tax=Bacillus Ta...  38.3    0.80 
+  UniRef90_C8XCT8 Glycosyltransferase probably involved in cell w...  39.0    0.80 
+  UniRef90_D3Q3V7 Uncharacterized protein n=1 Tax=Stackebrandtia ...  39.0    0.82 
+  UniRef90_U3QS67 Uncharacterized protein n=2 Tax=Burkholderiacea...  39.0    0.90 
+  UniRef90_A4J4W9 Uncharacterized protein n=1 Tax=Desulfotomaculu...  37.9    0.90 
+  UniRef90_UPI000D69319C hypothetical protein n=1 Tax=Paraburkhol...  38.3    0.90 
+  UniRef90_A0A059ZXJ6 Phosphate regulon sensor protein PhoR (SphS...  39.0    0.92 
+  UniRef90_A0A3D8USS3 TIGR01620 family protein n=1 Tax=Kangiella ...  38.6    0.98 
+  UniRef90_A0A097R0F2 Uncharacterized protein n=8 Tax=Hafniaceae ...  37.9    0.99 
+  UniRef90_A0A1C4XI30 UPF0182 protein GA0070618_3071 n=5 Tax=Micr...  39.0    0.99 
+  UniRef90_A0A3E1RCH7 Phosphate regulon sensor histidine kinase P...  38.6    1.0  
+  UniRef90_UPI000A2A5B98 stAR-related lipid transfer protein 3-li...  38.6    1.1  
+  UniRef90_UPI00037BE287 type VI secretion system membrane subuni...  38.6    1.2  
+  UniRef90_A0A1V9FQ15 Uncharacterized protein n=1 Tax=Niastella v...  38.6    1.2  
+  UniRef90_A0A068U742 Uncharacterized protein n=1 Tax=Coffea cane...  38.6    1.2  
+  UniRef90_UPI00048B4136 hypothetical protein n=1 Tax=Burkholderi...  37.9    1.3  
+  UniRef90_A0A0Q5AX36 Uncharacterized protein n=4 Tax=Rathayibact...  38.3    1.3  
+  UniRef90_UPI000533DF42 spermatogenesis-associated protein 31A3 ...  38.6    1.3  
+  UniRef90_A0A3A0ARM1 Cardiolipin synthase n=1 Tax=Chloroflexi ba...  38.3    1.3  
+  UniRef90_A0A2T4VKW2 Uncharacterized protein n=1 Tax=Vitiosangiu...  38.3    1.4  
+  UniRef90_A0A0R2I0L8 Uncharacterized protein n=1 Tax=Lactobacill...  38.3    1.4  
+  UniRef90_UPI000A0248D9 restriction endonuclease n=1 Tax=Bacillu...  38.3    1.5  
+  UniRef90_UPI000F84C5E5 SHOCT domain-containing protein n=1 Tax=...  37.1    1.5  
+  UniRef90_A0A2D3VEL1 Uncharacterized protein n=1 Tax=Ramularia c...  38.3    1.5  
+  UniRef90_UPI0004E10C62 hypothetical protein n=1 Tax=Desulfohalo...  37.9    1.5  
+  UniRef90_A0A1Q8V2A4 Sec-independent protein translocase protein...  37.9    1.5  
+  UniRef90_A0A1M4TZL2 UDP-N-acetylenolpyruvoylglucosamine reducta...  38.3    1.6  
+  UniRef90_A8QI34 Sodium/potassium-transporting ATPase subunit al...  38.3    1.6  
+  UniRef90_UPI00048655AB bifunctional lysylphosphatidylglycerol s...  38.3    1.6  
+  UniRef90_UPI0008FD80C6 potassium transporter 5-like n=1 Tax=Tar...  38.3    1.6  
+  UniRef90_A0A024G3J2 Uncharacterized protein n=1 Tax=Albugo cand...  38.3    1.6  
+  UniRef90_A0A398AVF7 EAL domain-containing protein n=2 Tax=Bacil...  38.3    1.6  
+  UniRef90_A0A1Y2BTT7 Uncharacterized protein n=1 Tax=Rhizoclosma...  38.3    1.6  
+  UniRef90_A0A2E8M7B0 Uncharacterized protein n=2 Tax=Verrucomicr...  37.5    1.7  
+  UniRef90_A0A063TZW1 Putative N-acetyltransferase YedL n=37 Tax=...  37.9    1.7  
+  UniRef90_A0A2A3ZT72 Uncharacterized protein n=4 Tax=Brevibacter...  37.9    1.8  
+  UniRef90_A0A0F2JK42 Uncharacterized protein n=1 Tax=Desulfospor...  35.2    1.8  
+  UniRef90_UPI000F5CD90B endoglucanase 24-like isoform X1 n=3 Tax...  37.9    1.8  
+  UniRef90_A0A078B321 Wd-40 repeat protein n=1 Tax=Stylonychia le...  38.3    1.9  
+  UniRef90_A0A2H0RKQ4 Uncharacterized protein n=2 Tax=unclassifie...  37.5    1.9  
+  UniRef90_A0A157SCK4 Membrane protein n=5 Tax=Bacteria TaxID=2 R...  37.5    2.0  
+  UniRef90_UPI000D1E4C80 hypothetical protein n=1 Tax=Staphylococ...  37.1    2.0  
+  UniRef90_UPI000D68C1E5 HAMP domain-containing histidine kinase ...  37.9    2.2  
+  UniRef90_A0A3B8ZNK2 Uncharacterized protein (Fragment) n=1 Tax=...  37.9    2.2  
+  UniRef90_A0A1F7W5C0 Uncharacterized protein n=1 Tax=Candidatus ...  37.9    2.3  
+  UniRef90_A0A2I0F016 Uncharacterized protein n=3 Tax=Planococcus...  37.1    2.3  
+  UniRef90_A0A1I5FYU4 Uncharacterized protein n=2 Tax=Pseudonocar...  37.5    2.3  
+  UniRef90_UPI0003605E60 hypothetical protein n=1 Tax=Nocardioide...  36.7    2.4  
+  UniRef90_A0A1E3IDH7 Uncharacterized protein n=2 Tax=Cryptococcu...  37.9    2.4  
+  UniRef90_A0A2A9EFG1 Glycine betaine/proline transport system pe...  37.5    2.4  
+  UniRef90_UPI00068665DE hypothetical protein n=1 Tax=Shewanella ...  37.9    2.4  
+  UniRef90_A0A0M2LSP7 Sodium:dicarboxylate symporter n=2 Tax=Sphi...  37.5    2.5  
+  UniRef90_F5RGU7 Capsular polysaccharide biosynthesis protein ca...  37.5    2.5  
+  UniRef90_A0A3B8MQD6 Aminodeoxychorismate/anthranilate synthase ...  37.1    2.5  
+  UniRef90_A0A1Y2FAQ1 tRNA synthetases class I, catalytic domain-...  37.9    2.6  
+  UniRef90_A0A1B3SJN4 Uncharacterized protein n=1 Tax=Spiroplasma...  37.5    2.6  
+  UniRef90_UPI0006854472 hypothetical protein n=1 Tax=Sporosarcin...  36.3    2.6  
+  UniRef90_A0A1H6BY89 Nucleobase:cation symporter-1, NCS1 family ...  37.5    2.7  
+  UniRef90_A0A285BIY6 Uncharacterized protein n=1 Tax=Thermoanaer...  37.1    2.7  
+  UniRef90_A0A1Y3TEE3 Uncharacterized protein n=1 Tax=Lachnoclost...  37.5    2.8  
+  UniRef90_UPI00047E1298 hypothetical protein n=1 Tax=Lysobacter ...  36.7    2.9  
+  UniRef90_A0A1D7Y970 Uncharacterized protein n=1 Tax=Streptomyce...  37.5    3.0  
+  UniRef90_A0A072VNV1 DUF594 family protein n=2 Tax=Medicago trun...  37.5    3.0  
+  UniRef90_UPI0005555379 YihY/virulence factor BrkB family protei...  37.1    3.0  
+  UniRef90_A0A1L9WHG7 Uncharacterized protein n=7 Tax=Aspergillus...  37.5    3.1  
+  UniRef90_UPI00068EBCB9 NAD(P)/FAD-dependent oxidoreductase n=1 ...  37.5    3.1  
+  UniRef90_A0A162YSN1 Uncharacterized protein n=1 Tax=Didymella r...  37.5    3.1  
+  UniRef90_UPI000838DB58 ATP-binding protein n=1 Tax=Paeniglutami...  37.5    3.2  
+  UniRef90_A0A1Y1U6S0 Triose-phosphate transporter family-domain-...  37.1    3.3  
+  UniRef90_UPI00053F8679 legumin A n=1 Tax=Beta vulgaris subsp. v...  37.1    3.4  
+  UniRef90_A0A1S2RCY6 Glycine/betaine ABC transporter n=2 Tax=Bac...  37.1    3.4  
+  UniRef90_A0A0N0ASH4 Membrane protein n=6 Tax=Streptomyces TaxID...  36.3    3.4  
+  UniRef90_A0A2T0YFT3 Uncharacterized protein DUF4229 n=2 Tax=Nes...  36.0    3.5  
+  UniRef90_Q7VVB0 3-deoxy-manno-octulosonate cytidylyltransferase...  37.1    3.5  
+  UniRef90_A0A0J7Y2R0 Uncharacterized protein n=2 Tax=Sphingobium...  37.5    3.5  
+  UniRef90_A0A2T7C482 Potassium transporter n=1 Tax=Panicum halli...  37.1    3.5  
+  UniRef90_A0A011N2R3 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  36.3    3.5  
+  UniRef90_M3CCN0 Phenylacetic acid degradation NADH oxidoreducta...  37.1    3.5  
+  UniRef90_A0A1F8SNJ1 Uncharacterized protein n=1 Tax=Chloroflexi...  37.5    3.5  
+  UniRef90_A0A0C3S403 Uncharacterized protein n=1 Tax=Phlebiopsis...  37.1    3.6  
+  UniRef90_A0A0D7F4A2 ABC transporter permease n=2 Tax=Rhodopseud...  37.1    3.6  
+  UniRef90_UPI000E0DB77B cation:dicarboxylase symporter family tr...  37.1    3.8  
+  UniRef90_A0A3M1EWB0 Sensor histidine kinase n=1 Tax=Chloroflexi...  37.1    3.8  
+  UniRef90_G2XGQ5 Uncharacterized protein n=3 Tax=Verticillium Ta...  37.1    3.9  
+  UniRef90_A0A2E1MQI6 Uncharacterized protein n=1 Tax=Candidatus ...  35.2    3.9  
+  UniRef90_A0A222W8K2 Uncharacterized protein n=1 Tax=Xanthomonas...  37.1    3.9  
+  UniRef90_A0A1B8UA17 DKNYY family protein n=2 Tax=Acinetobacter ...  37.1    4.0  
+  UniRef90_A0A2N3GHH9 Cellulose synthase n=1 Tax=Actinobacteria b...  37.1    4.1  
+  UniRef90_A0A1H1L8K8 Phospholipase_D-nuclease N-terminal n=1 Tax...  36.0    4.1  
+  UniRef90_UPI0004C55A64 ATP-binding protein n=1 Tax=Streptomyces...  37.1    4.1  
+  UniRef90_UPI0004C61547 DUF485 domain-containing protein n=1 Tax...  36.7    4.1  
+  UniRef90_A0A2U0HDE3 Uncharacterized protein n=2 Tax=Microbacter...  36.7    4.2  
+  UniRef90_A0A136JUQ9 Uncharacterized protein n=1 Tax=Acidobacter...  36.7    4.4  
+  UniRef90_A0A248KTD7 Uncharacterized protein n=5 Tax=Gammaproteo...  35.6    4.4  
+  UniRef90_UPI000FD966B2 UPI000FD966B2 related cluster n=1 Tax=un...  36.7    4.4  
+  UniRef90_UPI00045E7CD6 polysaccharide biosynthesis protein n=1 ...  37.1    4.4  
+  UniRef90_A0A3L6TMR7 Potassium transporter 21-like n=1 Tax=Panic...  36.7    4.4  
+  UniRef90_A0A2N0FL42 Putative oligomerization/nucleic acid bindi...  36.0    4.5  
+  UniRef90_UPI00067C8C80 hypothetical protein n=1 Tax=Herbaspiril...  36.3    4.5  
+  UniRef90_UPI000F6050AE FT-interacting protein 7-like n=1 Tax=Co...  36.7    4.5  
+  UniRef90_A0A3B5MLU8 Mitochondrial E3 ubiquitin protein ligase 1...  36.7    4.5  
+  UniRef90_A0A268KBS2 Glycine/betaine ABC transporter n=1 Tax=Bac...  36.7    4.5  
+  UniRef90_A0A245ZDP3 Proton glutamate symport protein n=5 Tax=Sp...  36.7    4.5  
+  UniRef90_A0A2C0ZWN2 Uncharacterized protein n=1 Tax=Bacillus sp...  35.2    4.6  
+  UniRef90_A0A1M4ZRX1 Uncharacterized protein n=2 Tax=Caloramator...  36.3    4.7  
+  UniRef90_M4AD98 Mitochondrial E3 ubiquitin protein ligase 1b n=...  36.7    4.7  
+  UniRef90_A0A1W9JVA7 Sodium:dicarboxylate symporter n=1 Tax=Prot...  36.7    4.7  
+  UniRef90_A0A136L7B7 Phage shock protein C, PspC n=1 Tax=Bactero...  36.7    4.7  
+  UniRef90_A0A271JAG0 Uncharacterized protein n=2 Tax=Rubrivirga ...  36.7    4.8  
+  UniRef90_A0A3B8NBI9 Uncharacterized protein (Fragment) n=1 Tax=...  36.7    4.8  
+  UniRef90_T0MEK3 Uncharacterized protein n=1 Tax=Ferroplasma sp....  36.7    4.8  
+  UniRef90_A0A2P5HQD9 Uncharacterized protein n=1 Tax=Diaporthe h...  36.7    4.9  
+  UniRef90_UPI0009E40418 hypothetical protein n=2 Tax=Lysinimicro...  36.0    4.9  
+  UniRef90_A0A1Y5SCE1 Uncharacterized protein n=1 Tax=Pelagicola ...  36.3    4.9  
+  UniRef90_R6T6T2 Uncharacterized protein n=1 Tax=Oscillibacter s...  35.2    4.9  
+  UniRef90_A0A136ITM7 Uncharacterized protein n=1 Tax=Microdochiu...  36.7    4.9  
+  UniRef90_A0A1H5D1P2 Signal transduction histidine kinase n=2 Ta...  36.7    4.9  
+  UniRef90_A0E6C0 Phospholipid-transporting ATPase n=1 Tax=Parame...  36.7    5.0  
+  UniRef90_A0A2D6EL12 Ribonuclease BN n=1 Tax=Magnetococcales bac...  36.7    5.1  
+  UniRef90_A0A0Q4ISE7 Uncharacterized protein n=1 Tax=Sphingobium...  36.7    5.1  
+  UniRef90_A0A1D9GXL5 PAS domain-containing sensor histidine kina...  36.7    5.1  
+  UniRef90_UPI00053C261E potassium transporter 5-like isoform X1 ...  36.7    5.2  
+  UniRef90_A0A1W9P316 Uncharacterized protein n=1 Tax=Candidatus ...  36.7    5.2  
+  UniRef90_UPI0004BF2C07 membrane protein n=1 Tax=Streptomyces sp...  36.0    5.2  
+  UniRef90_A0A2T7A1J5 Uncharacterized protein n=1 Tax=Tuber borch...  36.7    5.2  
+  UniRef90_A0A1I0M6L7 Uncharacterized protein n=2 Tax=Thermococcu...  35.6    5.3  
+  UniRef90_A0A1S2GPI8 Uncharacterized protein n=1 Tax=Arthrobacte...  36.7    5.3  
+  UniRef90_UPI0008382F75 hypothetical protein n=1 Tax=Acinetobact...  36.7    5.3  
+  UniRef90_A0A1Y5DW57 Cytochrome C biogenesis protein n=1 Tax=Arc...  36.7    5.3  
+  UniRef90_UPI00084CA2BB hypothetical protein n=1 Tax=Acinetobact...  36.3    5.3  
+  UniRef90_UPI00068ECA2F hypothetical protein n=1 Tax=Erysipelotr...  36.7    5.4  
+  UniRef90_A0A2D9YX43 TIGR01620 family protein n=1 Tax=Maritimiba...  36.7    5.4  
+  UniRef90_A0A2A6C5M9 Uncharacterized protein n=1 Tax=Pristionchu...  36.7    5.4  
+  UniRef90_A0A1W9HKJ3 Uncharacterized protein n=1 Tax=Proteobacte...  36.7    5.6  
+  UniRef90_UPI000FDBFEA5 hypothetical protein n=1 Tax=Microbacter...  36.7    5.6  
+  UniRef90_A0A1C5KA82 UPF0182 protein GA0070623_4712 n=5 Tax=Micr...  36.7    5.6  
+  UniRef90_UPI000F09AFF3 UPF0182 family protein n=1 Tax=Actinopla...  36.7    5.7  
+  UniRef90_UPI000901DACF FT-interacting protein 1 n=1 Tax=Ipomoea...  36.7    5.7  
+  UniRef90_A0A1L4AAZ4 Glycoprotein n=1 Tax=Wuhan Millipede Virus ...  36.7    5.7  
+  UniRef90_A0A0F4KBL6 Membrane protein n=1 Tax=Streptomyces sp. N...  35.6    5.8  
+  UniRef90_A0A251S5F8 Putative C2 calcium/lipid-binding plant pho...  36.7    5.8  
+  UniRef90_A0A2G6LIA3 Cell division protein FtsK n=1 Tax=Gammapro...  36.7    5.9  
+  UniRef90_UPI000372BCE0 hypothetical protein n=1 Tax=Dyadobacter...  36.0    6.0  
+  UniRef90_UPI0005A7493F proline/glycine betaine ABC transporter ...  36.3    6.0  
+  UniRef90_A0A1S8BLV9 Calcium-channel protein cch1 n=1 Tax=Diplod...  36.7    6.0  
+  UniRef90_A0A1U9YY77 Uncharacterized protein n=2 Tax=Martelella ...  36.3    6.1  
+  UniRef90_UPI000626CA80 ATP-binding protein n=2 Tax=Streptomyces...  36.7    6.1  
+  UniRef90_UPI000559F828 polysaccharide biosynthesis protein n=1 ...  36.7    6.1  
+  UniRef90_A0A0M8SN19 Membrane protein n=3 Tax=Streptomyces TaxID...  35.6    6.2  
+  UniRef90_UPI0004216A91 hypothetical protein n=1 Tax=Acetobacter...  34.4    6.5  
+  UniRef90_A0A109UV34 Uncharacterized protein n=1 Tax=Methanobrev...  36.3    6.5  
+  UniRef90_A0A3M1RF76 Glycosyltransferase n=1 Tax=Nitrospinae bac...  36.3    6.5  
+  UniRef90_A0A3M9JU41 Uncharacterized protein n=1 Tax=Halarchaeum...  36.0    6.5  
+  UniRef90_A0A1F7G9B4 Uncharacterized protein n=1 Tax=Candidatus ...  36.3    6.6  
+  UniRef90_A0A292PWS9 Uncharacterized protein n=1 Tax=Tuber aesti...  36.3    6.6  
+  UniRef90_A0A0G3X6C6 Proton glutamate symport protein n=1 Tax=Al...  36.3    6.6  
+  UniRef90_A0A1V6FDU1 KAP family P-loop domain protein n=1 Tax=Le...  36.3    6.6  
+  UniRef90_E8QZ66 Uncharacterized protein n=1 Tax=Isosphaera pall...  36.3    6.6  
+  UniRef90_UPI0004942E89 proline/glycine betaine ABC transporter ...  36.3    6.6  
+  UniRef90_A0A2T3GNH0 Uncharacterized protein n=2 Tax=Rhizobium T...  36.3    6.7  
+  UniRef90_UPI0004260A86 hypothetical protein n=1 Tax=Paraburkhol...  35.6    6.8  
+  UniRef90_A0A1E3H1M6 Uncharacterized protein n=1 Tax=Methylobrev...  34.8    6.8  
+  UniRef90_UPI000684E9D6 transcriptional regulator n=1 Tax=Strept...  36.3    6.8  
+  UniRef90_A0A243W7X1 Uncharacterized protein n=1 Tax=Hymenobacte...  36.0    6.9  
+  UniRef90_A0A3N2JUA9 Putative membrane protein n=1 Tax=Cellulomo...  36.0    6.9  
+  UniRef90_A0A3C0X5Y8 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  34.0    7.0  
+  UniRef90_A0A3A3A7D4 Mfs transporter n=1 Tax=Aspergillus sclerot...  36.3    7.0  
+  UniRef90_UPI000F68B9F5 palmitoyltransferase ZDHHC2-like n=1 Tax...  36.3    7.0  
+  UniRef90_UPI0008521228 ATP-binding protein n=1 Tax=Streptomyces...  36.3    7.1  
+  UniRef90_A0A0W8IFV4 Glycosyltransferase n=1 Tax=Nesterenkonia j...  36.3    7.2  
+  UniRef90_A0A1N7GW56 Uncharacterized protein n=1 Tax=Roseovarius...  36.0    7.3  
+  UniRef90_UPI000D54EB40 DUF1295 domain-containing protein n=1 Ta...  36.3    7.3  
+  UniRef90_A0A0N8GK49 Sodium:dicarboxylate symporter n=2 Tax=Eryt...  36.3    7.3  
+  UniRef90_A0A317ND58 Uncharacterized protein n=5 Tax=Actinobacte...  36.3    7.5  
+  UniRef90_A0A1V0JZP9 p11 n=1 Tax=Helicoverpa armigera stunt viru...  34.8    7.5  
+  UniRef90_B3P9W4 Sodium/potassium-transporting ATPase subunit al...  36.3    7.5  
+  UniRef90_A0A0A2DKM9 Recombinase RmuC n=2 Tax=Porphyromonas sp. ...  36.3    7.6  
+  UniRef90_UPI000F8E89E0 phage holin family protein n=1 Tax=Pelag...  35.6    7.6  
+  UniRef90_A0A352CGT4 Gliding motility-associated protein GldE n=...  36.3    7.8  
+  UniRef90_UPI000A38F9F5 hypothetical protein n=1 Tax=Streptomyce...  34.8    7.8  
+  UniRef90_F4BLC1 Uncharacterized protein n=1 Tax=Carnobacterium ...  35.6    7.9  
+  UniRef90_A0A0T7RDR2 3-deoxy-manno-octulosonate cytidylyltransfe...  34.8    7.9  
+  UniRef90_A0A0G2FU38 Putative calcium channel subunit cch1 n=1 T...  36.3    8.0  
+  UniRef90_A0A1V5Q865 Cellulose synthase subunit BcsC n=1 Tax=Ver...  36.3    8.1  
+  UniRef90_A0A1M6E5H6 Phage shock protein C (PspC) family protein...  36.3    8.1  
+  UniRef90_A0A317EK38 Uncharacterized protein n=1 Tax=Zavarzinia ...  36.3    8.2  
+  UniRef90_A0A1N7S6J8 MscS Mechanosensitive ion channel n=1 Tax=P...  36.3    8.2  
+  UniRef90_A0A370IT76 Uncharacterized protein n=1 Tax=Venturia in...  36.3    8.3  
+  UniRef90_A0A1L9U061 Uncharacterized protein n=2 Tax=Aspergillus...  36.0    8.3  
+  UniRef90_D5G573 Uncharacterized protein n=1 Tax=Tuber melanospo...  36.3    8.3  
+  UniRef90_A0A2G7D8P3 Uncharacterized protein n=1 Tax=Verrucosisp...  36.0    8.5  
+  UniRef90_U6G7T2 Thrombospondin type 1 domain-containing protein...  36.3    8.5  
+  UniRef90_U6GHJ1 Thrombospondin type 1 domain-containing protein...  36.3    8.5  
+  UniRef90_A0A0C3NIL3 Uncharacterized protein n=1 Tax=Phlebiopsis...  36.0    8.7  
+  UniRef90_R4W469 Putative membrane protein, required for N-linke...  36.3    8.7  
+  UniRef90_A0A396JUQ7 Uncharacterized protein n=1 Tax=Medicago tr...  36.0    8.8  
+  UniRef90_UPI000C32BB88 hypothetical protein n=1 Tax=Roseovarius...  36.0    8.8  
+  UniRef90_A0A1Y2THC4 Uncharacterized protein n=2 Tax=Hypoxylon T...  36.0    8.9  
+  UniRef90_UPI0007544C8C hypothetical protein n=1 Tax=Burkholderi...  35.2    8.9  
+  UniRef90_A0A2S1JYM3 Acyltransferase n=1 Tax=Microbulbifer sp. A...  36.0    8.9  
+  UniRef90_UPI000BA82AA3 Golgi pH regulator-like n=1 Tax=Limulus ...  36.0    8.9  
+  UniRef90_U5DKS2 UPF0182 protein KR51_00022820 n=2 Tax=Rubidibac...  36.0    8.9  
+  UniRef90_A0A2S8WVM3 Histidine kinase n=1 Tax=Arthrobacter sp. M...  36.0    9.0  
+  UniRef90_A0A397LV92 Signal transduction histidine kinase n=1 Ta...  36.0    9.0  
+  UniRef90_A0A1Q3VN52 Uncharacterized protein n=1 Tax=Candidatus ...  36.0    9.0  
+  UniRef90_B8MCY1 Uncharacterized protein n=1 Tax=Talaromyces sti...  36.0    9.0  
+  UniRef90_UPI000DEF3C8E recombinase family protein n=1 Tax=Parab...  36.0    9.0  
+  UniRef90_A0A2T0PIM3 Amino acid/amide ABC transporter membrane p...  36.0    9.1  
+  UniRef90_A0A2N1SEY4 Uncharacterized protein n=1 Tax=Spirochaeta...  36.0    9.1  
+  UniRef90_A0A1B3M890 YihY family inner membrane domain protein n...  36.0    9.1  
+  UniRef90_A0A386KXX9 Proline/glycine betaine ABC transporter per...  36.0    9.2  
+  UniRef90_A0A174PEH6 AcrB/AcrD/AcrF family cation efflux protein...  36.0    9.2  
+  UniRef90_A0A0G9HE64 Poly-beta-1,6-N-acetyl-D-glucosamine biosyn...  35.2    9.2  
+  UniRef90_UPI0004271F6B cytochrome c biogenesis protein n=1 Tax=...  36.0    9.4  
+  UniRef90_A0A1T5KD86 ABC-type transport system involved in cytoc...  36.0    9.4  
+  UniRef90_UPI00051B3FC1 membrane protein n=1 Tax=Streptomyces sp...  35.2    9.5  
+  UniRef90_K4A5Z6 Potassium transporter n=2 Tax=Setaria italica T...  36.0    9.6  
+  UniRef90_UPI0004804171 YihY/virulence factor BrkB family protei...  36.0    9.7  
+  UniRef90_A0A1M4T228 UPF0182 protein SAMN02745133_00323 n=1 Tax=...  36.0    9.7  
+  UniRef90_A0A3E0P1Z6 Class A beta-lactamase-related serine hydro...  36.0    9.8  
+  UniRef90_A0A2T0YKV0 Glycosyl transferase family 2 n=1 Tax=Neste...  36.0    9.9  
+  UniRef90_A0A3A1TXK6 Uncharacterized protein n=1 Tax=Amnibacteri...  36.0    10.0 
+  UniRef90_UPI0004CCB525 membrane protein n=1 Tax=Streptomyces xa...  34.8    10.0 
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.160    0.481    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0489    0.140     1.90     42.6     43.6 
+
+Effective search space used: 757384025292
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

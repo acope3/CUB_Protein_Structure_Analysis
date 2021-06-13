@@ -1,0 +1,1816 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415466.4
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P75862 Cell division protein ZapC n=103 Tax=Bacteria T...  375     3e-132
+  UniRef90_Q32HW0 Cell division protein ZapC n=306 Tax=Enterobact...  369     1e-129
+  UniRef90_Q8ZQ75 Cell division protein ZapC n=130 Tax=Salmonella...  338     2e-117
+  UniRef90_A0A376QXK2 Cell division protein ZapC n=51 Tax=Gammapr...  330     5e-114
+  UniRef90_A0A3N1IY32 Cell division protein ZapC n=2 Tax=Enteroba...  318     2e-109
+  UniRef90_L0M7X1 Cell division protein ZapC n=9 Tax=Enterobacter...  316     8e-109
+  UniRef90_R9VX23 Cell division protein ZapC n=14 Tax=Enterobacte...  315     2e-108
+  UniRef90_UPI00077B7BEB cell division protein ZapC n=1 Tax=Enter...  315     3e-108
+  UniRef90_A0A1N6SCN4 Cell division protein ZapC n=2 Tax=Enteroba...  315     3e-108
+  UniRef90_A0A1D3KD80 Cell division protein ZapC n=149 Tax=Gammap...  313     1e-107
+  UniRef90_A0A0J8VKU6 Cell division protein ZapC n=2 Tax=Franconi...  313     2e-107
+  UniRef90_A0A127L2S9 Cell division protein ZapC n=6 Tax=Enteroba...  313     2e-107
+  UniRef90_A0A1Y6GNV1 Cell division protein ZapC n=16 Tax=Enterob...  312     3e-107
+  UniRef90_UPI00057C2372 cell division protein ZapC n=1 Tax=Enter...  311     7e-107
+  UniRef90_G8LHS6 Cell division protein ZapC n=135 Tax=Bacteria T...  311     9e-107
+  UniRef90_A0A0L0GY41 Cell division protein ZapC n=4 Tax=Enteroba...  310     3e-106
+  UniRef90_A0A1I6CUI1 Cell division protein ZapC n=1 Tax=Enteroba...  310     3e-106
+  UniRef90_A0A0J5MFW7 Cell division protein ZapC n=7 Tax=Pluralib...  308     1e-105
+  UniRef90_E3G196 Cell division protein ZapC n=1 Tax=Enterobacter...  308     1e-105
+  UniRef90_UPI0002F07D5D cell division protein ZapC n=1 Tax=Metak...  307     3e-105
+  UniRef90_A0A090VV19 Cell division protein ZapC n=4 Tax=Enteroba...  307     4e-105
+  UniRef90_A0A085AFW2 Cell division protein ZapC n=2 Tax=Trabulsi...  307     4e-105
+  UniRef90_A0A1B7I8Q9 Cell division protein ZapC n=13 Tax=Enterob...  305     2e-104
+  UniRef90_A0A370YKK4 Cell division protein ZapC n=10 Tax=Enterob...  305     4e-104
+  UniRef90_A0A0D5WSN8 Cell division protein ZapC n=7 Tax=Enteroba...  304     8e-104
+  UniRef90_A0A2T3CJQ4 Cell division protein ZapC n=7 Tax=Enteroba...  303     1e-103
+  UniRef90_A0A376MUU3 Cell division protein ZapC n=1 Tax=Escheric...  302     2e-103
+  UniRef90_A0A0L0AMG4 Cell division protein ZapC n=1 Tax=Klebsiel...  303     2e-103
+  UniRef90_A0A0D1MY77 Cell division protein ZapC n=6 Tax=Enteroba...  303     2e-103
+  UniRef90_A0A285KJA2 Cell division protein ZapC n=3 Tax=Enteroba...  301     1e-102
+  UniRef90_C9Y0N6 Cell division protein ZapC n=54 Tax=Cronobacter...  300     1e-102
+  UniRef90_A0A2P5GRK3 Cell division protein ZapC n=1 Tax=Superfic...  299     5e-102
+  UniRef90_A0A2P8VQ69 Cell division protein ZapC n=2 Tax=Siccibac...  295     2e-100
+  UniRef90_I2BAL9 Cell division protein ZapC n=1 Tax=Shimwellia b...  295     2e-100
+  UniRef90_UPI00073DAE72 cell division protein ZapC n=1 Tax=[Erwi...  287     4e-97 
+  UniRef90_UPI00036169F7 cell division protein ZapC n=1 Tax=Enter...  285     2e-96 
+  UniRef90_A0A376W344 Protein n=2 Tax=Escherichia coli TaxID=562 ...  279     2e-94 
+  UniRef90_A0A071LVA6 Cell division protein ZapC n=3 Tax=Mangrovi...  279     4e-94 
+  UniRef90_E6WCC0 Cell division protein ZapC n=25 Tax=Enterobacte...  263     1e-87 
+  UniRef90_A0A2S5KDL2 Cell division protein ZapC n=2 Tax=Pantoea ...  263     1e-87 
+  UniRef90_A0A379S907 Z-ring-associated protein C n=1 Tax=Salmone...  256     2e-85 
+  UniRef90_D4GNJ8 Cell division protein ZapC n=11 Tax=Erwiniaceae...  256     4e-85 
+  UniRef90_A0A0J8YJA7 Cell division protein ZapC n=2 Tax=unclassi...  255     1e-84 
+  UniRef90_A0A0L7TBH6 Cell division protein ZapC n=1 Tax=Erwinia ...  251     4e-83 
+  UniRef90_D8MQF5 Cell division protein ZapC n=3 Tax=Erwinia TaxI...  250     1e-82 
+  UniRef90_UPI00034C360E cell division protein ZapC n=1 Tax=Erwin...  250     1e-82 
+  UniRef90_A0A1I4UNS9 Cell division protein ZapC n=1 Tax=Izhakiel...  249     3e-82 
+  UniRef90_A0A085U9Y2 Cell division protein ZapC n=5 Tax=Yersinia...  249     3e-82 
+  UniRef90_A0A357SSV0 Cell division protein ZapC n=2 Tax=Erwinia ...  249     5e-82 
+  UniRef90_A0A377WG59 Cell division protein ZapC n=1 Tax=Klebsiel...  248     6e-82 
+  UniRef90_A0A381GPD2 Z-ring-associated protein C n=2 Tax=Enterob...  246     2e-81 
+  UniRef90_A0A1S8YP50 Cell division protein ZapC n=1 Tax=Izhakiel...  246     3e-81 
+  UniRef90_A0A0F5Y562 Cell division protein ZapC n=2 Tax=Pantoea ...  246     4e-81 
+  UniRef90_A0A2S9IAE8 Cell division protein ZapC n=2 Tax=Erwiniac...  246     5e-81 
+  UniRef90_A0A014PS48 Cell division protein ZapC n=1 Tax=Erwinia ...  246     5e-81 
+  UniRef90_E1SIG5 Cell division protein ZapC n=28 Tax=Erwiniaceae...  246     5e-81 
+  UniRef90_UPI00094912DB cell division protein ZapC n=1 Tax=Panto...  245     9e-81 
+  UniRef90_A0A0U1HND2 Cell division protein ZapC n=2 Tax=Yersinia...  245     1e-80 
+  UniRef90_A0A2G8EHX7 Cell division protein ZapC n=1 Tax=Erwinia ...  245     2e-80 
+  UniRef90_A0A0Q4MJQ9 Cell division protein ZapC n=1 Tax=Erwinia ...  245     2e-80 
+  UniRef90_I0QU05 Cell division protein ZapC n=4 Tax=Yersiniaceae...  244     5e-80 
+  UniRef90_A0A0T9QFE4 Cell division protein ZapC n=1 Tax=Yersinia...  243     1e-79 
+  UniRef90_A0A3N6RYE5 Cell division protein ZapC n=1 Tax=Erwinia ...  242     2e-79 
+  UniRef90_UPI000469E8EB cell division protein ZapC n=1 Tax=Panto...  241     3e-79 
+  UniRef90_W0LE46 Cell division protein ZapC n=1 Tax=Chania multi...  241     6e-79 
+  UniRef90_A0A0T9SEK4 Cell division protein ZapC n=30 Tax=Yersini...  240     1e-78 
+  UniRef90_A1JMQ1 Cell division protein ZapC n=9 Tax=Yersinia Tax...  240     1e-78 
+  UniRef90_A0A0T9XA51 Z-ring-associated protein C n=1 Tax=Salmone...  238     2e-78 
+  UniRef90_D2TDN5 Cell division protein ZapC n=1 Tax=Erwinia pyri...  238     1e-77 
+  UniRef90_UPI00055219BD cell division protein ZapC n=2 Tax=Erwin...  237     2e-77 
+  UniRef90_A0A2J9E7C0 Cell division protein ZapC n=7 Tax=Erwiniac...  237     2e-77 
+  UniRef90_UPI0005D33EE3 cell division protein ZapC n=1 Tax=Rouxi...  236     3e-77 
+  UniRef90_E5YD66 Cell division protein ZapC n=14 Tax=Enterobacte...  236     4e-77 
+  UniRef90_A0A085GJI6 Cell division protein ZapC n=3 Tax=Ewingell...  236     4e-77 
+  UniRef90_D4I0B8 Cell division protein ZapC n=4 Tax=Erwinia TaxI...  236     7e-77 
+  UniRef90_A0A0M2KD92 Cell division protein ZapC n=2 Tax=Erwinia ...  235     1e-76 
+  UniRef90_A0A250B5Q5 Cell division protein ZapC n=1 Tax=Gibbsiel...  235     1e-76 
+  UniRef90_A0A2N5ETK8 Cell division protein ZapC n=4 Tax=Yersinia...  235     1e-76 
+  UniRef90_Q7CHK5 Cell division protein ZapC n=23 Tax=Yersinia Ta...  235     2e-76 
+  UniRef90_UPI000DEEB8D5 cell division protein ZapC n=1 Tax=Rahne...  234     2e-76 
+  UniRef90_H2IS94 Cell division protein ZapC n=13 Tax=Yersiniacea...  234     2e-76 
+  UniRef90_UPI0003823772 cell division protein ZapC n=1 Tax=Panto...  233     1e-75 
+  UniRef90_A0A370QML7 Cell division protein ZapC n=1 Tax=Enteroba...  232     2e-75 
+  UniRef90_UPI000735A281 cell division protein ZapC n=2 Tax=Salmo...  230     2e-75 
+  UniRef90_A0A087L4T9 Cell division protein ZapC n=2 Tax=Serratia...  231     3e-75 
+  UniRef90_UPI00082D5E97 cell division protein ZapC n=1 Tax=Erwin...  231     7e-75 
+  UniRef90_B2VDF8 Cell division protein ZapC n=1 Tax=Erwinia tasm...  228     9e-74 
+  UniRef90_A0A2X5BYW8 Cell division protein ZapC n=2 Tax=Serratia...  228     9e-74 
+  UniRef90_W0HUV0 Cell division protein ZapC n=4 Tax=Sodalis TaxI...  226     4e-73 
+  UniRef90_V5Z7D1 Cell division protein ZapC n=1 Tax=Erwinia piri...  226     5e-73 
+  UniRef90_A0A2C6CXD7 Cell division protein ZapC n=1 Tax=Budvicia...  225     1e-72 
+  UniRef90_UPI000FE3ED04 cell division protein ZapC n=1 Tax=Panto...  224     3e-72 
+  UniRef90_UPI0004B4940C cell division protein ZapC n=1 Tax=Enter...  223     6e-72 
+  UniRef90_A0A2Y9TU18 Cell division protein ZapC n=1 Tax=Limnobac...  223     1e-71 
+  UniRef90_A0A095T9N8 Cell division protein ZapC n=2 Tax=Tatumell...  222     2e-71 
+  UniRef90_E9CPN2 Cell division protein ZapC n=50 Tax=Gammaproteo...  222     2e-71 
+  UniRef90_A0A358L7C4 Cell division protein ZapC n=2 Tax=Erwinia ...  221     2e-71 
+  UniRef90_A0A0G3CRK4 Cell division protein ZapC n=1 Tax=Pragia f...  221     4e-71 
+  UniRef90_A0A085JCB1 Cell division protein ZapC n=3 Tax=Tatumell...  221     5e-71 
+  UniRef90_A0A2I5TJQ1 Cell division protein ZapC n=1 Tax=Serratia...  220     9e-71 
+  UniRef90_A0A2I0FX03 Cell division protein ZapC n=1 Tax=Enteroba...  219     3e-70 
+  UniRef90_A0A0U5L2Y4 Cell division protein ZapC n=1 Tax=Erwinia ...  218     5e-70 
+  UniRef90_A0A1W6B0D0 Cell division protein ZapC n=2 Tax=Erwiniac...  218     6e-70 
+  UniRef90_Q6D457 Cell division protein ZapC n=31 Tax=Pectobacter...  218     1e-69 
+  UniRef90_A0A085HKZ5 Cell division protein ZapC n=1 Tax=Leminore...  216     2e-69 
+  UniRef90_A0A0G4K205 Cell division protein ZapC n=1 Tax=Brenneri...  217     3e-69 
+  UniRef90_A0A2S4RND9 Cell division protein ZapC n=2 Tax=Erwiniac...  216     4e-69 
+  UniRef90_D2BXQ2 Cell division protein ZapC n=8 Tax=Enterobacter...  216     4e-69 
+  UniRef90_UPI000EF27FE5 cell division protein ZapC n=1 Tax=Brenn...  216     6e-69 
+  UniRef90_A0A378BP79 Cell division protein ZapC n=1 Tax=Klebsiel...  214     1e-68 
+  UniRef90_E0SGV6 Cell division protein ZapC n=16 Tax=Pectobacter...  214     2e-68 
+  UniRef90_A0A084A164 Cell division protein ZapC n=2 Tax=Serratia...  214     2e-68 
+  UniRef90_A0A1H3YK82 Cell division protein ZapC n=6 Tax=Lonsdale...  214     2e-68 
+  UniRef90_A0A2X4ULM7 Cell division protein ZapC n=1 Tax=Leminore...  214     3e-68 
+  UniRef90_C6CFK3 Cell division protein ZapC n=4 Tax=Dickeya chry...  213     6e-68 
+  UniRef90_A0A2U1TPQ3 Cell division protein ZapC n=2 Tax=Brenneri...  213     7e-68 
+  UniRef90_UPI000A1FC778 cell division protein ZapC n=2 Tax=Pecto...  213     1e-67 
+  UniRef90_UPI00047A39B6 cell division protein ZapC n=1 Tax=Lonsd...  213     1e-67 
+  UniRef90_G7LN28 Cell division protein ZapC n=3 Tax=Brenneria Ta...  212     1e-67 
+  UniRef90_UPI0004A4C813 cell division protein ZapC n=1 Tax=Tatum...  211     2e-67 
+  UniRef90_A0A366I5I0 Cell division protein ZapC n=1 Tax=Brenneri...  211     5e-67 
+  UniRef90_A0A376I1H9 Protein n=1 Tax=Escherichia coli TaxID=562 ...  208     6e-67 
+  UniRef90_A0A376DHR5 Cell division protein ZapC n=3 Tax=Edwardsi...  209     2e-66 
+  UniRef90_D0ZFR0 Cell division protein ZapC n=4 Tax=Edwardsiella...  209     3e-66 
+  UniRef90_C6C3U9 Cell division protein ZapC n=1 Tax=Dickeya para...  203     8e-64 
+  UniRef90_D4F3T7 Cell division protein ZapC n=6 Tax=Edwardsiella...  202     1e-63 
+  UniRef90_A0A3P4FQ16 Cell division protein ZapC n=1 Tax=Escheric...  197     8e-63 
+  UniRef90_UPI000FDD28A9 UPI000FDD28A9 related cluster n=1 Tax=un...  199     2e-62 
+  UniRef90_C5BD72 Cell division protein ZapC n=3 Tax=Edwardsiella...  198     4e-62 
+  UniRef90_A0A375AC50 Cell division protein ZapC n=1 Tax=Dickeya ...  197     7e-62 
+  UniRef90_UPI000F657BEE cell division protein ZapC n=1 Tax=Dicke...  197     2e-61 
+  UniRef90_Q7N616 Cell division protein ZapC n=24 Tax=Photorhabdu...  192     1e-59 
+  UniRef90_UPI000EAD68C9 cell division protein ZapC n=1 Tax=Orbus...  190     1e-58 
+  UniRef90_UPI0009E2D569 cell division protein ZapC n=1 Tax=Vibri...  185     5e-58 
+  UniRef90_K8WD25 Cell division protein ZapC n=1 Tax=Providencia ...  186     2e-57 
+  UniRef90_D3UWU5 Cell division protein ZapC n=9 Tax=Xenorhabdus ...  185     5e-57 
+  UniRef90_B6XC07 Cell division protein ZapC n=6 Tax=cellular org...  184     1e-56 
+  UniRef90_A0A0N0I9J7 Cell division protein ZapC n=2 Tax=Moellere...  184     2e-56 
+  UniRef90_A0A0A7S1F4 Cell division protein ZapC n=2 Tax=Frischel...  182     1e-55 
+  UniRef90_A0A1N6MZP2 Cell division protein ZapC n=4 Tax=Xenorhab...  181     2e-55 
+  UniRef90_A0A0D8L5T9 Cell division protein ZapC n=8 Tax=Bacteria...  181     3e-55 
+  UniRef90_A0A1J0E4X2 Cell division protein ZapC n=8 Tax=Providen...  180     6e-55 
+  UniRef90_A0A0J5FUN7 Cell division protein ZapC n=2 Tax=Xenorhab...  180     7e-55 
+  UniRef90_A0A2X1MZ54 Protein n=1 Tax=Escherichia coli TaxID=562 ...  178     9e-55 
+  UniRef90_A0A2G0QAY5 Cell division protein ZapC n=1 Tax=Xenorhab...  179     1e-54 
+  UniRef90_A0A1B8H514 Cell division protein ZapC n=3 Tax=Morganel...  179     2e-54 
+  UniRef90_A0A140NRI9 Cell division protein ZapC n=7 Tax=Gammapro...  179     2e-54 
+  UniRef90_A0A1A9AYU7 Cell division protein ZapC n=5 Tax=Plesiomo...  178     2e-54 
+  UniRef90_A0A1Y2STI7 Cell division protein ZapC n=1 Tax=Xenorhab...  178     4e-54 
+  UniRef90_K8WQ39 Cell division protein ZapC n=1 Tax=Providencia ...  177     5e-54 
+  UniRef90_A0A1S1HU93 Cell division protein ZapC n=1 Tax=Providen...  177     5e-54 
+  UniRef90_B4EVC4 Cell division protein ZapC n=12 Tax=Bacteria Ta...  177     6e-54 
+  UniRef90_W1J9P5 Cell division protein ZapC n=4 Tax=Xenorhabdus ...  177     8e-54 
+  UniRef90_A0A068QRR4 Cell division protein ZapC n=1 Tax=Xenorhab...  177     9e-54 
+  UniRef90_A0A1C4AKK8 Cell division protein ZapC n=2 Tax=Gilliame...  177     9e-54 
+  UniRef90_A0A2A2GX74 Cell division protein ZapC n=3 Tax=Arsenoph...  177     1e-53 
+  UniRef90_A0A242NSH7 Cell division protein ZapC n=5 Tax=Gilliame...  177     1e-53 
+  UniRef90_A0A2G8C761 Cell division protein ZapC n=3 Tax=Enteroba...  177     1e-53 
+  UniRef90_A0A0R4FLK8 Cell division protein ZapC n=4 Tax=Xenorhab...  177     1e-53 
+  UniRef90_A0A356D7S2 Cell division protein ZapC n=1 Tax=Providen...  176     4e-53 
+  UniRef90_W1IXU8 Cell division protein ZapC n=1 Tax=Xenorhabdus ...  175     7e-53 
+  UniRef90_A0A1B7K0L4 Cell division protein ZapC n=1 Tax=Providen...  175     7e-53 
+  UniRef90_D1NZY7 Cell division protein ZapC n=2 Tax=Providencia ...  174     2e-52 
+  UniRef90_A0A242P313 Cell division protein ZapC n=1 Tax=Gilliame...  174     2e-52 
+  UniRef90_UPI0004678A08 cell division protein ZapC n=1 Tax=Candi...  174     2e-52 
+  UniRef90_UPI000490327A cell division protein ZapC n=1 Tax=Phase...  174     2e-52 
+  UniRef90_A0A1B7JHS4 Cell division protein ZapC n=2 Tax=Proteus ...  173     4e-52 
+  UniRef90_A0A389M828 Uncharacterized protein n=1 Tax=Enterobacte...  171     5e-52 
+  UniRef90_A0A379F561 Cell division protein ZapC n=18 Tax=Enterob...  172     6e-52 
+  UniRef90_A0A1B9LKB1 Cell division protein ZapC n=2 Tax=Gilliame...  172     8e-52 
+  UniRef90_A0A1C0A3X7 Cell division protein ZapC n=2 Tax=Gilliame...  172     9e-52 
+  UniRef90_A0A1B9M1K3 Cell division protein ZapC n=4 Tax=Gilliame...  172     1e-51 
+  UniRef90_UPI000A15A3BB cell division protein ZapC n=1 Tax=Gilli...  172     1e-51 
+  UniRef90_A0A1Q5TYQ4 Cell division protein ZapC n=1 Tax=Xenorhab...  171     2e-51 
+  UniRef90_A0A1B9LA46 Cell division protein ZapC n=2 Tax=Gilliame...  171     2e-51 
+  UniRef90_A0A376UC55 Protein n=1 Tax=Escherichia coli TaxID=562 ...  168     3e-51 
+  UniRef90_A0A0M0T6B6 Cell division protein ZapC n=4 Tax=Xenorhab...  171     3e-51 
+  UniRef90_A0A1B9KCZ5 Cell division protein ZapC n=4 Tax=Gilliame...  170     5e-51 
+  UniRef90_A0A1B9JUY6 Cell division protein ZapC n=1 Tax=Gilliame...  169     1e-50 
+  UniRef90_A0A1I3HZX5 Cell division protein ZapC n=1 Tax=Xenorhab...  168     3e-50 
+  UniRef90_A0A1B9NR25 Cell division protein ZapC n=4 Tax=Gilliame...  168     4e-50 
+  UniRef90_A0A1B9N5D1 Cell division protein ZapC n=2 Tax=Gilliame...  167     6e-50 
+  UniRef90_A0A198FF56 Cell division protein ZapC n=1 Tax=Cosenzae...  167     8e-50 
+  UniRef90_A0A080KIU2 Cell division protein ZapC n=2 Tax=Gilliame...  167     1e-49 
+  UniRef90_A0A2V4DY88 Cell division protein ZapC n=1 Tax=Gilliame...  167     1e-49 
+  UniRef90_A0A2D0L3B9 Cell division protein ZapC n=1 Tax=Xenorhab...  166     2e-49 
+  UniRef90_A0A1B9MUS1 Cell division protein ZapC n=3 Tax=Gilliame...  166     2e-49 
+  UniRef90_A0A1I5DLA3 Cell division protein ZapC n=2 Tax=Xenorhab...  166     2e-49 
+  UniRef90_A0A066TF75 Cell division protein ZapC n=9 Tax=Gilliame...  166     4e-49 
+  UniRef90_UPI000D0BE53D cell division protein ZapC n=1 Tax=Esche...  164     6e-49 
+  UniRef90_A0A1B9JN04 Cell division protein ZapC n=9 Tax=Gilliame...  164     2e-48 
+  UniRef90_A0A068R475 Cell division protein ZapC n=1 Tax=Xenorhab...  163     4e-48 
+  UniRef90_A0A1B9KIW7 Cell division protein ZapC n=2 Tax=Gilliame...  162     7e-48 
+  UniRef90_A0A377ATY3 Protein n=1 Tax=Escherichia coli TaxID=562 ...  159     2e-47 
+  UniRef90_A0A379WW12 Z-ring-associated protein C n=1 Tax=Salmone...  150     3e-44 
+  UniRef90_A0A3D8Z5V9 Uncharacterized protein (Fragment) n=1 Tax=...  149     7e-44 
+  UniRef90_A0A378EWM7 Cell division protein ZapC n=1 Tax=Klebsiel...  148     3e-43 
+  UniRef90_A0A376TIV6 Protein n=3 Tax=Escherichia coli TaxID=562 ...  144     4e-42 
+  UniRef90_F4MXC3 Uncharacterized protein n=1 Tax=Yersinia entero...  143     2e-41 
+  UniRef90_A0A0D0QSU4 Cell division protein ZapC n=6 Tax=Aeromona...  142     3e-40 
+  UniRef90_A0A175VES0 Cell division protein ZapC n=3 Tax=Aeromona...  141     1e-39 
+  UniRef90_A0A0T6T4I8 Cell division protein ZapC n=37 Tax=Aeromon...  139     5e-39 
+  UniRef90_UPI00067FF185 cell division protein ZapC n=1 Tax=Aerom...  137     5e-38 
+  UniRef90_W1DIQ9 Uncharacterized protein n=1 Tax=Klebsiella pneu...  134     5e-38 
+  UniRef90_A0A376I5N4 Protein n=1 Tax=Escherichia coli TaxID=562 ...  132     3e-37 
+  UniRef90_A0A1X9U0K2 Cell division protein ZapC n=8 Tax=Photobac...  135     3e-37 
+  UniRef90_UPI000E1B9B92 hypothetical protein n=1 Tax=Escherichia...  132     6e-37 
+  UniRef90_A0A0J1JX59 Cell division protein ZapC n=1 Tax=Photobac...  134     1e-36 
+  UniRef90_A0KKK8 Cell division protein ZapC n=29 Tax=Aeromonadac...  133     2e-36 
+  UniRef90_A0A2P1PH80 Cell division protein ZapC n=3 Tax=Aeromona...  133     2e-36 
+  UniRef90_A0A2T3NIK7 Cell division protein ZapC n=1 Tax=Photobac...  133     2e-36 
+  UniRef90_A0A1Z1NN36 Cell division protein ZapC n=19 Tax=Gammapr...  132     2e-36 
+  UniRef90_A0A0J1GL94 Cell division protein ZapC n=2 Tax=Photobac...  132     7e-36 
+  UniRef90_A0A0C5WAK6 Cell division protein ZapC n=2 Tax=Photobac...  131     1e-35 
+  UniRef90_A0A2X2BM20 Z-ring-associated protein C n=1 Tax=Proteus...  128     1e-35 
+  UniRef90_A0A0B9GYF2 Cell division protein ZapC n=2 Tax=Photobac...  130     2e-35 
+  UniRef90_A0A178KMZ5 Cell division protein ZapC n=1 Tax=Photobac...  130     3e-35 
+  UniRef90_N9V6S1 Cell division protein ZapC n=1 Tax=Aeromonas di...  129     4e-35 
+  UniRef90_A0A0S2SDE2 Cell division protein ZapC n=1 Tax=Aeromona...  129     5e-35 
+  UniRef90_UPI0005A6B087 cell division protein ZapC n=1 Tax=Aerom...  129     6e-35 
+  UniRef90_A0A1N6RC65 Cell division protein ZapC n=1 Tax=Aeromona...  129     6e-35 
+  UniRef90_UPI0009B0AB6E cell division protein ZapC n=1 Tax=Salmo...  125     7e-35 
+  UniRef90_A0A0J1GVN9 Cell division protein ZapC n=1 Tax=Photobac...  128     2e-34 
+  UniRef90_A0A2T3N1T1 Cell division protein ZapC n=1 Tax=Photobac...  128     2e-34 
+  UniRef90_A0A1Q9G6Q1 Cell division protein ZapC n=1 Tax=Photobac...  128     2e-34 
+  UniRef90_R1GY04 Cell division protein ZapC n=2 Tax=Aeromonas Ta...  128     2e-34 
+  UniRef90_UPI0005A5D186 cell division protein ZapC n=1 Tax=Aerom...  127     3e-34 
+  UniRef90_A0A2H9U3U0 Cell division protein ZapC n=1 Tax=Aeromona...  127     3e-34 
+  UniRef90_UPI000E3D1DEB cell division protein ZapC n=1 Tax=Vibri...  127     5e-34 
+  UniRef90_UPI0005B20971 cell division protein ZapC n=1 Tax=Aerom...  126     6e-34 
+  UniRef90_A0A0F5V8X9 Cell division protein ZapC n=3 Tax=Photobac...  126     9e-34 
+  UniRef90_A0A0H0YEB0 Cell division protein ZapC n=16 Tax=Vibrio ...  125     2e-33 
+  UniRef90_A0A135ZPC3 Cell division protein ZapC n=4 Tax=Photobac...  125     3e-33 
+  UniRef90_UPI000944B9D1 cell division protein ZapC n=1 Tax=Salmo...  121     4e-33 
+  UniRef90_A0A2M8HDQ7 Cell division protein ZapC n=3 Tax=Aeromona...  124     4e-33 
+  UniRef90_A0A1E5D715 Cell division protein ZapC n=2 Tax=Vibriona...  124     5e-33 
+  UniRef90_A0A1M7YUW1 Cell division protein ZapC n=1 Tax=Vibrio q...  124     6e-33 
+  UniRef90_A0A379TE56 Z-ring-associated protein C n=1 Tax=Salmone...  120     7e-33 
+  UniRef90_A0A2A9FXN4 Cell division protein ZapC n=1 Tax=Vibrio s...  123     1e-32 
+  UniRef90_UPI000B35F4E1 cell division protein ZapC n=1 Tax=Vibri...  122     3e-32 
+  UniRef90_A0A066RLE0 Cell division protein ZapC n=1 Tax=Photobac...  122     3e-32 
+  UniRef90_A0A1E5BSI5 Cell division protein ZapC n=7 Tax=Enterovi...  122     5e-32 
+  UniRef90_UPI000B352F18 cell division protein ZapC n=1 Tax=Thaum...  121     6e-32 
+  UniRef90_D0IAI2 Cell division protein ZapC n=2 Tax=Grimontia ho...  121     7e-32 
+  UniRef90_R1GX55 Cell division protein ZapC n=4 Tax=Grimontia Ta...  121     7e-32 
+  UniRef90_A0A0M9F6T6 Cell division protein ZapC n=8 Tax=Photobac...  120     1e-31 
+  UniRef90_UPI0006D25C16 cell division protein ZapC n=1 Tax=Photo...  120     1e-31 
+  UniRef90_A0A1C3EBR7 Cell division protein ZapC n=1 Tax=Enterovi...  120     1e-31 
+  UniRef90_L8JAH9 Cell division protein ZapC n=3 Tax=Photobacteri...  120     1e-31 
+  UniRef90_A0A135I5A0 Cell division protein ZapC n=3 Tax=Enterovi...  120     2e-31 
+  UniRef90_UPI0008482F96 cell division protein ZapC n=1 Tax=Salin...  120     3e-31 
+  UniRef90_A0A1T4LTY7 Cell division protein ZapC n=2 Tax=Vibrio T...  120     3e-31 
+  UniRef90_A0A0F5ASK3 Cell division protein ZapC n=9 Tax=Salinivi...  119     5e-31 
+  UniRef90_A0A1E5C9Q4 Cell division protein ZapC n=2 Tax=Enterovi...  119     5e-31 
+  UniRef90_A0A0L8U1J1 Cell division protein ZapC n=39 Tax=Vibrio ...  119     6e-31 
+  UniRef90_U3ASH4 Cell division protein ZapC n=2 Tax=Vibrio TaxID...  119     7e-31 
+  UniRef90_F9SQU5 Cell division protein ZapC n=2 Tax=Vibrio TaxID...  119     7e-31 
+  UniRef90_A0A0F4NHY7 Cell division protein ZapC n=1 Tax=Vibrio g...  119     8e-31 
+  UniRef90_A0A1E5E771 Cell division protein ZapC n=8 Tax=Vibrio T...  119     8e-31 
+  UniRef90_F0LTZ7 Cell division protein ZapC n=6 Tax=Vibrio TaxID...  119     9e-31 
+  UniRef90_A0A193KBZ2 Cell division protein ZapC n=5 Tax=Vibrio T...  118     9e-31 
+  UniRef90_UPI000F68C00A cell division protein ZapC n=1 Tax=Vibri...  118     1e-30 
+  UniRef90_UPI000B350EA5 cell division protein ZapC n=1 Tax=Thaum...  118     1e-30 
+  UniRef90_A0A177XUL9 Cell division protein ZapC n=2 Tax=Vibrio T...  118     1e-30 
+  UniRef90_A0A1R4B2H5 Cell division protein ZapC n=1 Tax=Vibrio p...  118     2e-30 
+  UniRef90_Q1ZQY2 Cell division protein ZapC n=11 Tax=Vibrionacea...  118     2e-30 
+  UniRef90_UPI000F84E138 cell division protein ZapC n=1 Tax=Vibri...  117     2e-30 
+  UniRef90_A0A1C3JJJ3 Cell division protein ZapC n=58 Tax=Vibrion...  117     2e-30 
+  UniRef90_A0A0L7YSV1 Cell division protein ZapC n=1 Tax=Vibrio a...  117     2e-30 
+  UniRef90_A0A2C9PE67 Cell division protein ZapC n=13 Tax=Vibrio ...  117     3e-30 
+  UniRef90_A0A2A4GE72 Cell division protein ZapC n=5 Tax=Salinivi...  117     3e-30 
+  UniRef90_A0A0W8JH84 Cell division protein ZapC n=12 Tax=Vibrio ...  117     4e-30 
+  UniRef90_A8T0Z0 Cell division protein ZapC n=1 Tax=Vibrio sp. A...  116     6e-30 
+  UniRef90_UPI0005704142 cell division protein ZapC n=2 Tax=Vibri...  116     7e-30 
+  UniRef90_Q8D9G6 Cell division protein ZapC n=21 Tax=Vibrio TaxI...  116     8e-30 
+  UniRef90_A0A2N7D514 Cell division protein ZapC n=1 Tax=Vibrio s...  116     8e-30 
+  UniRef90_A0A066URP4 Cell division protein ZapC n=1 Tax=Vibrio f...  115     1e-29 
+  UniRef90_UPI0008393F37 cell division protein ZapC n=1 Tax=Vibri...  115     2e-29 
+  UniRef90_A0A2A2CJV8 Cell division protein ZapC n=8 Tax=Vibrio T...  115     3e-29 
+  UniRef90_A0A347UQB0 Cell division protein ZapC n=1 Tax=Vibrio a...  114     3e-29 
+  UniRef90_UPI000E0C1C07 cell division protein ZapC n=1 Tax=Vibri...  114     4e-29 
+  UniRef90_A0A3A2HZE3 Cell division protein ZapC n=1 Tax=Vibrio s...  114     4e-29 
+  UniRef90_UPI000F0BB068 cell division protein ZapC n=1 Tax=Vibri...  114     4e-29 
+  UniRef90_UPI000970632D cell division protein ZapC n=1 Tax=Vibri...  114     5e-29 
+  UniRef90_A0A1Q9HFA9 Cell division protein ZapC n=2 Tax=Vibrio T...  114     6e-29 
+  UniRef90_E8LST6 Cell division protein ZapC n=1 Tax=Vibrio brasi...  113     1e-28 
+  UniRef90_A0A376RL34 Protein n=1 Tax=Escherichia coli TaxID=562 ...  110     1e-28 
+  UniRef90_UPI00063CCEC8 cell division protein ZapC n=1 Tax=Vibri...  113     1e-28 
+  UniRef90_A0A1E3E7S0 Cell division protein ZapC n=26 Tax=Vibrion...  113     2e-28 
+  UniRef90_A0A0M0I218 Cell division protein ZapC n=1 Tax=Vibrio h...  112     2e-28 
+  UniRef90_A0A0M0HNJ9 Cell division protein ZapC n=1 Tax=Vibrio n...  112     2e-28 
+  UniRef90_A0A1B1NP02 Cell division protein ZapC n=5 Tax=Vibrio T...  112     3e-28 
+  UniRef90_A0A2N7DIE2 Cell division protein ZapC n=1 Tax=Vibrio s...  112     3e-28 
+  UniRef90_E3BFG5 Cell division protein ZapC n=1 Tax=Vibrio carib...  112     3e-28 
+  UniRef90_A0A1A6L0R7 Cell division protein ZapC n=3 Tax=Vibrio T...  112     4e-28 
+  UniRef90_A0A2J8G0C1 Cell division protein ZapC n=3 Tax=Vibrio d...  112     4e-28 
+  UniRef90_A0A3N9TGZ1 Cell division protein ZapC n=1 Tax=Vibrio s...  111     5e-28 
+  UniRef90_E8M8R2 Cell division protein ZapC n=1 Tax=Vibrio sinal...  111     6e-28 
+  UniRef90_Q6LRA1 Cell division protein ZapC n=5 Tax=Photobacteri...  110     1e-27 
+  UniRef90_A0A0C2KIE5 Cell division protein ZapC n=1 Tax=Vibrio r...  110     2e-27 
+  UniRef90_A0A2J9V3L4 Cell division protein ZapC n=8 Tax=Vibrio T...  110     2e-27 
+  UniRef90_A0A2A5T7B6 Cell division protein ZapC n=2 Tax=Candidat...  110     2e-27 
+  UniRef90_A0A023RK40 Cell division protein ZapC n=19 Tax=Aeromon...  109     2e-27 
+  UniRef90_U2ZVY7 Cell division protein ZapC n=1 Tax=Vibrio prote...  109     3e-27 
+  UniRef90_A0A0Q0T804 Cell division protein ZapC n=3 Tax=Vibrio m...  109     3e-27 
+  UniRef90_UPI000EFD38CE cell division protein ZapC n=1 Tax=Aliiv...  109     4e-27 
+  UniRef90_A0A1X1MRB8 Cell division protein ZapC n=1 Tax=Vibrio s...  109     5e-27 
+  UniRef90_A0A1Q9HBQ4 Cell division protein ZapC n=4 Tax=Vibrio T...  109     5e-27 
+  UniRef90_A0A178JDP7 Cell division protein ZapC n=4 Tax=Vibrio o...  108     5e-27 
+  UniRef90_A0A2U3BBJ6 Cell division protein ZapC n=1 Tax=Vibrio s...  108     8e-27 
+  UniRef90_A0A2M8H2X7 Cell division protein ZapC n=1 Tax=Vibrio s...  108     1e-26 
+  UniRef90_A0A191W3R2 Cell division protein ZapC n=10 Tax=Vibrio ...  107     2e-26 
+  UniRef90_B6ELD2 Cell division protein ZapC n=4 Tax=Vibrionaceae...  107     2e-26 
+  UniRef90_A0A090IL45 Cell division protein ZapC n=1 Tax=Aliivibr...  107     3e-26 
+  UniRef90_A0A0A5I2D0 Cell division protein ZapC n=4 Tax=Vibrio T...  107     3e-26 
+  UniRef90_A0A0F2I1P3 Cell division protein ZapC n=6 Tax=Vibrio T...  107     4e-26 
+  UniRef90_A0A379WY43 Z-ring-associated protein C n=1 Tax=Salmone...  102     4e-26 
+  UniRef90_A0A1G7YE97 Cell division protein ZapC n=1 Tax=Vibrio x...  106     5e-26 
+  UniRef90_A0A3A6QJY0 Cell division protein ZapC n=1 Tax=Vibrio s...  106     6e-26 
+  UniRef90_Q5E5B5 Cell division protein ZapC n=11 Tax=Aliivibrio ...  106     7e-26 
+  UniRef90_UPI0008D9B930 cell division protein ZapC n=1 Tax=Vibri...  105     2e-25 
+  UniRef90_UPI000E302AA4 cell division protein ZapC n=1 Tax=Zobel...  105     2e-25 
+  UniRef90_A0A378BMA2 Cell division protein ZapC n=1 Tax=Klebsiel...  100     3e-25 
+  UniRef90_Q9KRZ3 Cell division protein ZapC n=51 Tax=Vibrionacea...  104     3e-25 
+  UniRef90_UPI000BA8F9D8 cell division protein ZapC n=1 Tax=Paraf...  103     5e-25 
+  UniRef90_A0A1M5Z5L3 Cell division protein ZapC n=2 Tax=Vibrio a...  103     6e-25 
+  UniRef90_A0A2N8Z9J7 Cell division protein ZapC n=2 Tax=Vibrio t...  103     1e-24 
+  UniRef90_A0A231N1L6 Cell division protein ZapC n=1 Tax=Zobellel...  102     3e-24 
+  UniRef90_U4KBY2 Cell division protein ZapC n=9 Tax=Vibrio TaxID...  101     6e-24 
+  UniRef90_A0A376W4S6 Protein n=2 Tax=Escherichia coli TaxID=562 ...  97.4    6e-24 
+  UniRef90_A0A2T3ILD2 Cell division protein ZapC n=3 Tax=Photobac...  100     9e-24 
+  UniRef90_A0A1Y0D8F0 Cell division protein ZapC n=1 Tax=Oceanisp...  100     2e-23 
+  UniRef90_A0A2T3HZE8 Cell division protein ZapC n=2 Tax=Photobac...  99.8    2e-23 
+  UniRef90_UPI0009FE4852 cell division protein ZapC n=1 Tax=Ferri...  99.8    3e-23 
+  UniRef90_UPI000BA8EFB6 cell division protein ZapC n=1 Tax=Paraf...  99.0    5e-23 
+  UniRef90_A3QDX9 Cell division protein ZapC n=4 Tax=Shewanella T...  98.6    6e-23 
+  UniRef90_A0A368NS63 Cell division protein ZapC n=1 Tax=Corallin...  98.2    1e-22 
+  UniRef90_A0A381GPC6 Z-ring-associated protein C n=1 Tax=Citroba...  94.0    1e-22 
+  UniRef90_A0A1T5I083 Cell division protein ZapC n=2 Tax=Photobac...  97.8    1e-22 
+  UniRef90_UPI000D3EBB0C cell division protein ZapC n=1 Tax=Gamma...  97.4    2e-22 
+  UniRef90_A0A0D8PPZ0 Cell division protein ZapC n=2 Tax=Photobac...  97.4    2e-22 
+  UniRef90_UPI000463F310 cell division protein ZapC n=1 Tax=Tolum...  97.1    3e-22 
+  UniRef90_A0A1M5NFN8 Cell division protein ZapC n=1 Tax=Ferrimon...  97.1    3e-22 
+  UniRef90_A0A2N0WND7 Cell division protein ZapC n=1 Tax=Alteromo...  97.1    3e-22 
+  UniRef90_C4LEY8 Cell division protein ZapC n=1 Tax=Tolumonas au...  96.7    3e-22 
+  UniRef90_C9P4T6 Cell division protein ZapC n=3 Tax=Vibrio TaxID...  96.3    4e-22 
+  UniRef90_A0A2I0F879 Cell division protein ZapC n=2 Tax=Moritell...  96.7    5e-22 
+  UniRef90_UPI000E707D6C cell division protein ZapC n=1 Tax=Motil...  95.9    6e-22 
+  UniRef90_UPI00048F225A cell division protein ZapC n=1 Tax=Shewa...  95.9    8e-22 
+  UniRef90_A0A0B8NYQ2 Uncharacterized protein n=1 Tax=Vibrio ishi...  95.1    1e-21 
+  UniRef90_A0A3A6UC49 Cell division protein ZapC n=1 Tax=Shewanel...  94.7    2e-21 
+  UniRef90_A0A094JKK8 Cell division protein ZapC n=1 Tax=Shewanel...  93.6    5e-21 
+  UniRef90_A0A2P7RC65 Cell division protein ZapC n=1 Tax=Zobellel...  93.6    6e-21 
+  UniRef90_A0A2T3R1C1 Cell division protein ZapC n=4 Tax=Photobac...  93.2    7e-21 
+  UniRef90_UPI000D7851A0 cell division protein ZapC n=1 Tax=Shewa...  93.2    7e-21 
+  UniRef90_A0A1E5IZ57 Cell division protein ZapC n=1 Tax=Shewanel...  92.4    2e-20 
+  UniRef90_A0A1Y0CWR7 Cell division protein ZapC n=1 Tax=Oceanisp...  91.7    3e-20 
+  UniRef90_R9PLF7 Cell division protein ZapC n=1 Tax=Agarivorans ...  91.7    3e-20 
+  UniRef90_UPI00048EB774 cell division protein ZapC n=1 Tax=Shewa...  90.9    6e-20 
+  UniRef90_UPI0006EC2DA3 hypothetical protein n=1 Tax=Agarivorans...  90.1    8e-20 
+  UniRef90_Q12NG1 Cell division protein ZapC n=1 Tax=Shewanella d...  90.5    8e-20 
+  UniRef90_B0TIX9 Cell division protein ZapC n=2 Tax=Shewanella T...  90.1    1e-19 
+  UniRef90_UPI000E204238 cell division protein ZapC n=1 Tax=Galla...  90.1    1e-19 
+  UniRef90_A0A2T3GYW8 Cell division protein ZapC n=6 Tax=Shewanel...  89.4    2e-19 
+  UniRef90_UPI000D307000 cell division protein ZapC n=1 Tax=Ocean...  89.4    2e-19 
+  UniRef90_A0A2P7RAB7 Cell division protein ZapC n=1 Tax=Zobellel...  89.4    2e-19 
+  UniRef90_UPI00047162EE cell division protein ZapC n=1 Tax=Shewa...  89.0    3e-19 
+  UniRef90_UPI000E0E355A cell division protein ZapC n=1 Tax=Shewa...  88.6    4e-19 
+  UniRef90_A0A1G8VW85 Cell division protein ZapC n=3 Tax=Ferrimon...  88.6    5e-19 
+  UniRef90_J2VGC8 Uncharacterized protein n=1 Tax=Pantoea sp. YR3...  85.1    5e-19 
+  UniRef90_A0A090IDM1 Cell division protein ZapC n=4 Tax=Moritell...  88.6    5e-19 
+  UniRef90_UPI0002E2E878 cell division protein ZapC n=1 Tax=Morit...  88.6    5e-19 
+  UniRef90_A0A2N7CQC8 Cell division protein ZapC n=1 Tax=Shewanel...  87.8    8e-19 
+  UniRef90_UPI0009BFDE19 cell division protein ZapC n=1 Tax=Vibri...  87.0    8e-19 
+  UniRef90_A0A2N7DRH6 Cell division protein ZapC n=2 Tax=Shewanel...  87.8    8e-19 
+  UniRef90_A0A379GYX8 Z-ring-associated protein C n=1 Tax=Provide...  84.3    1e-18 
+  UniRef90_A0A090QMW3 Uncharacterized protein n=1 Tax=Photobacter...  85.1    1e-18 
+  UniRef90_A0A3N1PSN6 Cell division protein ZapC n=1 Tax=Gallaeci...  87.0    2e-18 
+  UniRef90_A0A034TRN1 Uncharacterized protein n=1 Tax=Vibrio sp. ...  85.1    3e-18 
+  UniRef90_A6FJ69 Cell division protein ZapC n=4 Tax=Moritella Ta...  86.3    4e-18 
+  UniRef90_A0A090S871 Uncharacterized protein n=1 Tax=Vibrio sp. ...  85.5    5e-18 
+  UniRef90_H2FW49 Cell division protein ZapC n=1 Tax=Oceanimonas ...  85.5    8e-18 
+  UniRef90_A0A1J4QBG4 Cell division protein ZapC n=2 Tax=Oceanisp...  85.1    9e-18 
+  UniRef90_A0A1N6Y516 Cell division protein ZapC n=3 Tax=Shewanel...  84.7    2e-17 
+  UniRef90_A0A0Q0P6S0 Cell division protein ZapC n=2 Tax=Shewanel...  84.3    2e-17 
+  UniRef90_D4ZJI1 Cell division protein ZapC n=1 Tax=Shewanella v...  84.3    2e-17 
+  UniRef90_A0A235C9Z1 Cell division protein ZapC n=1 Tax=Oceanimo...  84.3    2e-17 
+  UniRef90_A0A1E5BGM8 Cell division protein ZapC n=4 Tax=Vibrio g...  84.0    2e-17 
+  UniRef90_A0A0P8B6G2 Cell division protein ZapC n=2 Tax=Idiomari...  84.0    3e-17 
+  UniRef90_A0A3L8PXI7 Cell division protein ZapC n=1 Tax=Shewanel...  84.0    3e-17 
+  UniRef90_A0A2I0DZA4 Cell division protein ZapC n=3 Tax=Shewanel...  83.2    5e-17 
+  UniRef90_A1S5Z5 Cell division protein ZapC n=2 Tax=Shewanella T...  82.4    1e-16 
+  UniRef90_UPI000480443C hypothetical protein n=1 Tax=Ferrimonas ...  82.4    1e-16 
+  UniRef90_Q8EDZ9 Cell division protein ZapC n=25 Tax=Shewanella ...  82.0    1e-16 
+  UniRef90_A8FW60 Cell division protein ZapC n=3 Tax=Shewanella T...  82.0    1e-16 
+  UniRef90_A0A233RGI6 Cell division protein ZapC n=2 Tax=Oceanimo...  82.0    2e-16 
+  UniRef90_A0A2N7GAL4 Cell division protein ZapC n=3 Tax=Vibrio T...  81.3    2e-16 
+  UniRef90_K2JAQ6 Cell division protein ZapC n=1 Tax=Gallaecimona...  81.6    2e-16 
+  UniRef90_E1ST41 Cell division protein ZapC n=1 Tax=Ferrimonas b...  80.9    5e-16 
+  UniRef90_A0A2I3C3C1 Uncharacterized protein n=1 Tax=Vibrio algi...  77.0    1e-15 
+  UniRef90_UPI000970E608 cell division protein ZapC n=1 Tax=Shewa...  79.7    1e-15 
+  UniRef90_B1KDM9 Cell division protein ZapC n=2 Tax=Shewanellace...  79.7    1e-15 
+  UniRef90_A0A0B8QMF5 Uncharacterized protein n=1 Tax=Vibrio ishi...  77.8    2e-15 
+  UniRef90_UPI000B4BDBDA hypothetical protein n=1 Tax=Lacimicrobi...  79.0    2e-15 
+  UniRef90_UPI0004077E34 hypothetical protein n=2 Tax=Aliagarivor...  79.0    2e-15 
+  UniRef90_A0A377CZ47 Protein n=1 Tax=Escherichia coli TaxID=562 ...  74.7    3e-15 
+  UniRef90_A0A0U2PGC4 Uncharacterized protein n=1 Tax=Lacimicrobi...  77.4    7e-15 
+  UniRef90_Q081K0 Cell division protein ZapC n=11 Tax=Shewanella ...  77.4    1e-14 
+  UniRef90_UPI000C9C8880 hypothetical protein n=1 Tax=Bowmanella ...  77.8    1e-14 
+  UniRef90_UPI000BA8DF55 cell division protein ZapC n=1 Tax=Vibri...  76.3    1e-14 
+  UniRef90_A0A1S1NAZ0 Cell division protein ZapC n=3 Tax=Pseudoal...  77.0    1e-14 
+  UniRef90_UPI000F64E7B7 cell division protein ZapC n=1 Tax=Pseud...  76.6    2e-14 
+  UniRef90_A0A0B8PZD3 Uncharacterized protein n=1 Tax=Vibrio sp. ...  73.9    2e-14 
+  UniRef90_UPI000BFEE400 hypothetical protein n=1 Tax=Lacimicrobi...  76.3    2e-14 
+  UniRef90_UPI00037794BF hypothetical protein n=1 Tax=Rheinheimer...  75.5    4e-14 
+  UniRef90_A9EJ94 Cell division protein ZapC n=4 Tax=Shewanella T...  74.7    9e-14 
+  UniRef90_A4CC92 Cell division protein ZapC n=1 Tax=Pseudoaltero...  73.6    2e-13 
+  UniRef90_A0A0F4PY20 Cell division protein ZapC n=2 Tax=Pseudoal...  73.2    3e-13 
+  UniRef90_A0A1H3ZBD1 Cell-division protein ZapC n=1 Tax=Alkalimo...  72.8    4e-13 
+  UniRef90_A0A244CM44 Cell division protein ZapC n=1 Tax=Pseudoal...  72.8    5e-13 
+  UniRef90_UPI000CF5EE21 cell division protein ZapC n=4 Tax=Pseud...  72.4    6e-13 
+  UniRef90_A0A2S2E2T4 Uncharacterized protein n=1 Tax=Salinimonas...  71.6    1e-12 
+  UniRef90_A0A350QG62 Uncharacterized protein n=2 Tax=Bacteria Ta...  71.2    2e-12 
+  UniRef90_A0A0N0M1A1 Cell division protein ZapC n=1 Tax=Pseudoal...  70.9    3e-12 
+  UniRef90_A0A2S7UZG6 Uncharacterized protein n=1 Tax=Psychrospha...  71.2    3e-12 
+  UniRef90_A0A094IV89 Uncharacterized protein n=1 Tax=Idiomarina ...  70.9    3e-12 
+  UniRef90_A0A327WZQ9 Cell division protein ZapC n=1 Tax=Aliidiom...  70.5    3e-12 
+  UniRef90_A0A2D5RTC2 Uncharacterized protein n=1 Tax=Rheinheimer...  70.5    3e-12 
+  UniRef90_UPI000DCFA547 hypothetical protein n=1 Tax=Catenovulum...  70.1    5e-12 
+  UniRef90_A0A2A5JS64 Cell division protein ZapC n=1 Tax=Pseudoal...  69.7    8e-12 
+  UniRef90_A0A1Q2H192 Cell division protein ZapC n=1 Tax=Pseudoal...  69.3    9e-12 
+  UniRef90_UPI0002EDD607 cell division protein ZapC n=2 Tax=Pseud...  69.3    1e-11 
+  UniRef90_A0A1I1GF70 Cell division protein ZapC n=1 Tax=Pseudoal...  68.9    1e-11 
+  UniRef90_A0A290TFZ5 Cell division protein ZapC n=13 Tax=Gammapr...  68.9    1e-11 
+  UniRef90_UPI000F883E19 hypothetical protein n=2 Tax=Aliidiomari...  68.9    1e-11 
+  UniRef90_UPI000F8641DD hypothetical protein n=1 Tax=Aliidiomari...  68.9    2e-11 
+  UniRef90_UPI00082D23A4 hypothetical protein n=1 Tax=Alteromonad...  68.6    2e-11 
+  UniRef90_A0A1J5MS08 Uncharacterized protein n=1 Tax=Gammaproteo...  68.2    2e-11 
+  UniRef90_L8DC89 Cell division protein ZapC n=1 Tax=Pseudoaltero...  68.6    2e-11 
+  UniRef90_UPI0005AA293A cell division protein ZapC n=1 Tax=Pseud...  68.6    2e-11 
+  UniRef90_A0A0S2K2C6 Cell division protein ZapC n=2 Tax=Pseudoal...  68.2    2e-11 
+  UniRef90_A0A1Y5K8S8 Cell division protein ZapC n=1 Tax=Pseudoal...  67.8    3e-11 
+  UniRef90_A0A0U3GFC2 Cell division protein ZapC n=8 Tax=Pseudoal...  67.8    4e-11 
+  UniRef90_UPI000B3C953A hypothetical protein n=1 Tax=Neiella mar...  67.8    4e-11 
+  UniRef90_UPI000F89C947 hypothetical protein n=1 Tax=Idiomarina ...  67.8    4e-11 
+  UniRef90_UPI000F86C2DD hypothetical protein n=1 Tax=Aliidiomari...  67.8    5e-11 
+  UniRef90_UPI000DD09EC9 hypothetical protein n=1 Tax=Aliidiomari...  67.4    5e-11 
+  UniRef90_A0A285I2I3 Cell-division protein ZapC n=1 Tax=Rheinhei...  67.4    5e-11 
+  UniRef90_UPI000F881489 hypothetical protein n=1 Tax=Aliidiomari...  67.4    5e-11 
+  UniRef90_A0A364UIG5 Cell division protein ZapC (Fragment) n=1 T...  63.9    7e-11 
+  UniRef90_UPI000F87B5FC cell division protein n=1 Tax=Idiomarina...  67.0    7e-11 
+  UniRef90_UPI000F86C50A hypothetical protein n=1 Tax=Aliidiomari...  67.0    8e-11 
+  UniRef90_UPI000E778A96 hypothetical protein n=1 Tax=Alteromonad...  67.0    8e-11 
+  UniRef90_A0A0Q0J699 Cell division protein ZapC n=13 Tax=Pseudoa...  66.6    1e-10 
+  UniRef90_A0A2S0VU03 Uncharacterized protein n=1 Tax=Catenovulum...  66.2    1e-10 
+  UniRef90_F3BN08 Cell division protein ZapC n=13 Tax=root TaxID=...  66.2    1e-10 
+  UniRef90_UPI000A075541 hypothetical protein n=1 Tax=Idiomarina ...  66.6    1e-10 
+  UniRef90_Q3IGZ2 Cell division protein ZapC n=4 Tax=Pseudoaltero...  65.9    2e-10 
+  UniRef90_A0A3A3D7A8 Cell division protein ZapC n=3 Tax=Pseudoal...  65.5    2e-10 
+  UniRef90_A0A0W1LFM9 Cell division protein ZapC n=2 Tax=Pseudoal...  65.5    3e-10 
+  UniRef90_UPI00098A55A3 hypothetical protein n=1 Tax=Salinivibri...  63.9    3e-10 
+  UniRef90_F4ARZ3 Cell division protein ZapC n=4 Tax=Alteromonada...  65.1    4e-10 
+  UniRef90_N6VC94 Cell division protein ZapC n=10 Tax=Pseudoalter...  64.7    5e-10 
+  UniRef90_A0A2E9GZE4 Cell division protein n=2 Tax=Idiomarinacea...  63.9    1e-09 
+  UniRef90_A0A269PSJ7 Cell division protein ZapC n=1 Tax=Pseudoal...  63.9    1e-09 
+  UniRef90_A0A0H7FUH4 Z-ring-associated protein C n=1 Tax=Vibrio ...  62.0    2e-09 
+  UniRef90_UPI0004087F22 hypothetical protein n=1 Tax=Psychromona...  63.2    2e-09 
+  UniRef90_A0A290T398 Cell division protein ZapC n=5 Tax=Pseudoal...  63.2    2e-09 
+  UniRef90_F7RWW7 Uncharacterized protein n=2 Tax=Idiomarina sp. ...  62.8    3e-09 
+  UniRef90_UPI000361D95D hypothetical protein n=1 Tax=Gayadomonas...  62.4    4e-09 
+  UniRef90_A0A2N1A5P8 Cell division protein ZapC n=1 Tax=Psychrom...  62.4    4e-09 
+  UniRef90_A0A0M2VLU3 Uncharacterized protein n=1 Tax=Arsukibacte...  62.0    5e-09 
+  UniRef90_A0A2G2GZX2 Cell division protein n=2 Tax=Idiomarina Ta...  62.4    5e-09 
+  UniRef90_K6ZR44 Cell division protein ZapC n=1 Tax=Paraglacieco...  62.0    6e-09 
+  UniRef90_UPI000DEB445C hypothetical protein n=1 Tax=Aliidiomari...  62.0    6e-09 
+  UniRef90_A0A0A2X2D8 Z-ring-associated protein C n=11 Tax=Gallib...  62.0    7e-09 
+  UniRef90_A0Y1E3 Cell division protein ZapC n=7 Tax=Alteromonada...  61.6    8e-09 
+  UniRef90_Q15UB6 Cell division protein ZapC n=3 Tax=Alteromonada...  61.6    9e-09 
+  UniRef90_A0A0A7EG62 Cell division protein ZapC n=1 Tax=Pseudoal...  61.2    1e-08 
+  UniRef90_A0A1E7Q6S0 Uncharacterized protein n=1 Tax=Rheinheimer...  61.2    1e-08 
+  UniRef90_A0A2E4Z989 Cell division protein n=2 Tax=Idiomarinacea...  61.2    1e-08 
+  UniRef90_UPI000F89BCAB cell division protein n=1 Tax=Idiomarina...  61.2    1e-08 
+  UniRef90_A0A0W1KRH7 Cell division protein ZapC n=2 Tax=Pseudoal...  60.5    2e-08 
+  UniRef90_UPI0002F93D9E hypothetical protein n=1 Tax=Catenovulum...  60.5    2e-08 
+  UniRef90_A0A2E6EFQ0 Uncharacterized protein n=2 Tax=Gammaproteo...  60.1    3e-08 
+  UniRef90_A0A0J8GU07 Uncharacterized protein n=1 Tax=Catenovulum...  60.1    3e-08 
+  UniRef90_A0A2S0IP85 Cell division protein n=1 Tax=Idiomarina sp...  60.1    3e-08 
+  UniRef90_UPI000F88CADA hypothetical protein n=1 Tax=Aliidiomari...  60.1    3e-08 
+  UniRef90_W7QTK4 Uncharacterized protein n=1 Tax=Catenovulum aga...  59.7    4e-08 
+  UniRef90_A0A2N0X3W6 Uncharacterized protein n=1 Tax=Psychromona...  59.7    5e-08 
+  UniRef90_A0A2K9JWP6 Cell division protein ZapC n=13 Tax=Pseudoa...  58.9    5e-08 
+  UniRef90_UPI000413BB91 hypothetical protein n=1 Tax=Psychromona...  59.7    5e-08 
+  UniRef90_UPI0003660815 hypothetical protein n=1 Tax=Psychromona...  58.9    9e-08 
+  UniRef90_A1SX24 Cell division protein ZapC n=2 Tax=Psychromonas...  58.9    9e-08 
+  UniRef90_V4JE73 Cell division protein ZapC n=11 Tax=Pseudoalter...  57.4    3e-07 
+  UniRef90_A0A220VEP6 Uncharacterized protein n=1 Tax=Paraphotoba...  57.4    3e-07 
+  UniRef90_I1DYV2 Cell division protein ZapC n=2 Tax=Rheinheimera...  57.0    3e-07 
+  UniRef90_A0A318RXL2 Cell division protein ZapC n=4 Tax=Idiomari...  57.4    3e-07 
+  UniRef90_UPI000B9B88FD hypothetical protein n=1 Tax=Psychromona...  57.0    4e-07 
+  UniRef90_A0A166VQ50 Cell division protein ZapC n=3 Tax=Pseudoal...  57.0    4e-07 
+  UniRef90_UPI000FCAF0B7 hypothetical protein n=1 Tax=Idiomarina ...  57.4    4e-07 
+  UniRef90_A0A1A7Q0J8 Uncharacterized protein n=1 Tax=Gallibacter...  57.0    4e-07 
+  UniRef90_A0A1C0TUJ2 Cell division protein ZapC n=3 Tax=Pseudoal...  56.6    5e-07 
+  UniRef90_A0A0M2V7H8 Uncharacterized protein n=1 Tax=Arsukibacte...  56.6    5e-07 
+  UniRef90_UPI000F86EF30 hypothetical protein n=1 Tax=Aliidiomari...  56.6    5e-07 
+  UniRef90_A0A1I7MJP2 Cell division protein ZapC n=4 Tax=Idiomari...  56.6    6e-07 
+  UniRef90_A0A2X2BE32 Z-ring-associated protein C n=1 Tax=Proteus...  54.3    7e-07 
+  UniRef90_A0A0F4R2Y7 Cell division protein ZapC n=2 Tax=Pseudoal...  55.5    1e-06 
+  UniRef90_UPI000415693A hypothetical protein n=1 Tax=Rheinheimer...  55.8    1e-06 
+  UniRef90_A0A094IXP5 Uncharacterized protein n=2 Tax=Idiomarina ...  55.8    1e-06 
+  UniRef90_A0A1I6GDT8 Cell division protein ZapC n=2 Tax=Idiomari...  55.8    1e-06 
+  UniRef90_UPI000F87321D hypothetical protein n=1 Tax=Idiomarina ...  55.8    1e-06 
+  UniRef90_UPI000F87E889 cell division protein n=1 Tax=Idiomarina...  55.1    2e-06 
+  UniRef90_J1Q2R2 Cell division protein ZapC n=3 Tax=Alishewanell...  54.7    2e-06 
+  UniRef90_A0A166YKB4 Uncharacterized protein n=2 Tax=Pseudoalter...  54.3    4e-06 
+  UniRef90_K6YU76 Cell division protein ZapC n=1 Tax=Aliiglacieco...  54.3    4e-06 
+  UniRef90_A0A1Y6EXH0 Cell division protein ZapC n=1 Tax=Idiomari...  54.3    4e-06 
+  UniRef90_UPI0003B40EE9 cell division protein n=1 Tax=Psychromon...  54.3    5e-06 
+  UniRef90_A0A1G6A6S3 Cell division protein ZapC n=1 Tax=Idiomari...  53.9    6e-06 
+  UniRef90_UPI000417404B hypothetical protein n=1 Tax=Psychromona...  53.5    7e-06 
+  UniRef90_UPI000FDC4A2D UPI000FDC4A2D related cluster n=1 Tax=un...  52.8    1e-05 
+  UniRef90_A0A139C115 Uncharacterized protein n=5 Tax=Idiomarinac...  52.8    1e-05 
+  UniRef90_A0A2N1DIY3 Cell division protein ZapC n=1 Tax=Psychrom...  52.8    1e-05 
+  UniRef90_A0A2T4D4J7 Cell division protein n=2 Tax=Idiomarina ae...  52.4    2e-05 
+  UniRef90_A0A366WAT9 Uncharacterized protein n=1 Tax=Psychromona...  52.4    2e-05 
+  UniRef90_A0A136A2M0 Uncharacterized protein n=2 Tax=Paraglaciec...  50.8    6e-05 
+  UniRef90_M4U756 Cell division protein ZapC n=1 Tax=Psychromonas...  50.8    6e-05 
+  UniRef90_I9DUT5 Cell division protein ZapC n=3 Tax=Alishewanell...  50.8    6e-05 
+  UniRef90_A0A2D9G0E9 Cell division protein ZapC n=1 Tax=Idiomari...  51.2    6e-05 
+  UniRef90_UPI0004E2881D hypothetical protein n=2 Tax=Ruminobacte...  50.4    1e-04 
+  UniRef90_Q5QX64 Cell division protein ZapC n=5 Tax=Idiomarina T...  50.1    1e-04 
+  UniRef90_A0A1A7PKG2 Uncharacterized protein n=2 Tax=Gallibacter...  49.7    2e-04 
+  UniRef90_A0A1A7PUQ3 Uncharacterized protein n=2 Tax=Gallibacter...  49.7    2e-04 
+  UniRef90_UPI0006A991E6 hypothetical protein n=1 Tax=Rheinheimer...  49.3    2e-04 
+  UniRef90_A0A0A3BCF9 Uncharacterized protein n=2 Tax=Chelonobact...  48.9    3e-04 
+  UniRef90_A0A348YJK2 Uncharacterized protein n=1 Tax=Succinivibr...  48.9    3e-04 
+  UniRef90_A0A0X3YAJ5 Uncharacterized protein n=3 Tax=Gammaproteo...  48.9    4e-04 
+  UniRef90_A0A1B7UKI9 Uncharacterized protein n=1 Tax=Rheinheimer...  46.2    0.003 
+  UniRef90_A0A241R3C8 Cell division protein ZapC n=6 Tax=Idiomari...  45.8    0.005 
+  UniRef90_A0A1W1UHD2 Cell-division protein ZapC n=3 Tax=Pasteure...  45.4    0.006 
+  UniRef90_A0A1F8U6S9 Uncharacterized protein n=1 Tax=Chromatiale...  43.9    0.020 
+  UniRef90_E8LJ68 Uncharacterized protein n=2 Tax=Succinatimonas ...  43.9    0.026 
+  UniRef90_A0A1T4V834 Cell-division protein ZapC n=4 Tax=Succiniv...  43.5    0.036 
+  UniRef90_UPI000FDAEE60 hypothetical protein n=1 Tax=Rheinheimer...  41.6    0.15  
+  UniRef90_A0A2N1DDH0 Cell division protein ZapC n=1 Tax=Paraglac...  41.6    0.15  
+  UniRef90_UPI0005CF35B9 notchless protein homolog 1 n=1 Tax=Cera...  42.0    0.21  
+  UniRef90_UPI000F8C56AD UPI000F8C56AD related cluster n=1 Tax=un...  40.8    0.27  
+  UniRef90_F7NRV8 Cell division protein ZapC n=1 Tax=Rheinheimera...  40.0    0.44  
+  UniRef90_A0A368V428 Cell division protein ZapC n=3 Tax=Idiomari...  40.0    0.63  
+  UniRef90_UPI0002556618 hypothetical protein n=1 Tax=Succinivibr...  38.9    0.73  
+  UniRef90_A0A2P5P6P9 tRNA N6-adenosine threonylcarbamoyltransfer...  38.5    2.9   
+  UniRef90_V9DNM9 Uncharacterized protein n=1 Tax=Cladophialophor...  37.7    5.1   
+  UniRef90_K2JUB0 Cell division protein ZapC n=1 Tax=Idiomarina x...  37.0    5.5   
+  UniRef90_A0A2X0V222 Protein of uncharacterized function (DUF137...  37.0    6.3   
+  UniRef90_A0A2A2JVD9 Uncharacterized protein n=2 Tax=Diploscapte...  37.4    6.6   
+  UniRef90_B4JEL8 Aminopeptidase n=1 Tax=Drosophila grimshawi Tax...  37.4    6.9   
+  UniRef90_A0A0D2AAX7 Uncharacterized protein n=1 Tax=Cladophialo...  37.4    7.2   
+  UniRef90_K7A1Y2 Cell division protein ZapC n=1 Tax=Paraglacieco...  36.6    8.2   
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.136    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 743667230838
+Warning: [psiblast] lcl|Query_1 NP_415466.4: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415466.4
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P75862 Cell division protein ZapC n=103 Tax=Bacteria T...  276     6e-93
+  UniRef90_Q32HW0 Cell division protein ZapC n=306 Tax=Enterobact...  275     1e-92
+  UniRef90_Q8ZQ75 Cell division protein ZapC n=130 Tax=Salmonella...  272     2e-91
+  UniRef90_UPI00077B7BEB cell division protein ZapC n=1 Tax=Enter...  270     2e-90
+  UniRef90_L0M7X1 Cell division protein ZapC n=9 Tax=Enterobacter...  269     3e-90
+  UniRef90_A0A376QXK2 Cell division protein ZapC n=51 Tax=Gammapr...  268     6e-90
+  UniRef90_A0A1D3KD80 Cell division protein ZapC n=149 Tax=Gammap...  268     8e-90
+  UniRef90_E3G196 Cell division protein ZapC n=1 Tax=Enterobacter...  268     9e-90
+  UniRef90_A0A085AFW2 Cell division protein ZapC n=2 Tax=Trabulsi...  268     1e-89
+  UniRef90_A0A0D5WSN8 Cell division protein ZapC n=7 Tax=Enteroba...  267     2e-89
+  UniRef90_A0A0L0GY41 Cell division protein ZapC n=4 Tax=Enteroba...  267     2e-89
+  UniRef90_A0A285KJA2 Cell division protein ZapC n=3 Tax=Enteroba...  267     2e-89
+  UniRef90_G8LHS6 Cell division protein ZapC n=135 Tax=Bacteria T...  267     3e-89
+  UniRef90_A0A1B7I8Q9 Cell division protein ZapC n=13 Tax=Enterob...  267     3e-89
+  UniRef90_R9VX23 Cell division protein ZapC n=14 Tax=Enterobacte...  267     4e-89
+  UniRef90_A0A3N1IY32 Cell division protein ZapC n=2 Tax=Enteroba...  266     6e-89
+  UniRef90_A0A127L2S9 Cell division protein ZapC n=6 Tax=Enteroba...  266     8e-89
+  UniRef90_A0A0J5MFW7 Cell division protein ZapC n=7 Tax=Pluralib...  265     1e-88
+  UniRef90_A0A1N6SCN4 Cell division protein ZapC n=2 Tax=Enteroba...  265     1e-88
+  UniRef90_A0A1Y6GNV1 Cell division protein ZapC n=16 Tax=Enterob...  265     2e-88
+  UniRef90_A0A370YKK4 Cell division protein ZapC n=10 Tax=Enterob...  265     2e-88
+  UniRef90_UPI00057C2372 cell division protein ZapC n=1 Tax=Enter...  263     6e-88
+  UniRef90_A0A1I6CUI1 Cell division protein ZapC n=1 Tax=Enteroba...  263     1e-87
+  UniRef90_A0A090VV19 Cell division protein ZapC n=4 Tax=Enteroba...  262     3e-87
+  UniRef90_A0A0D1MY77 Cell division protein ZapC n=6 Tax=Enteroba...  260     2e-86
+  UniRef90_A0A2T3CJQ4 Cell division protein ZapC n=7 Tax=Enteroba...  260     2e-86
+  UniRef90_UPI0002F07D5D cell division protein ZapC n=1 Tax=Metak...  259     4e-86
+  UniRef90_UPI00073DAE72 cell division protein ZapC n=1 Tax=[Erwi...  258     5e-86
+  UniRef90_A0A1S8YP50 Cell division protein ZapC n=1 Tax=Izhakiel...  257     2e-85
+  UniRef90_D4GNJ8 Cell division protein ZapC n=11 Tax=Erwiniaceae...  257     2e-85
+  UniRef90_A0A0J8VKU6 Cell division protein ZapC n=2 Tax=Franconi...  257     3e-85
+  UniRef90_A0A0J8YJA7 Cell division protein ZapC n=2 Tax=unclassi...  256     6e-85
+  UniRef90_W0LE46 Cell division protein ZapC n=1 Tax=Chania multi...  255     1e-84
+  UniRef90_I2BAL9 Cell division protein ZapC n=1 Tax=Shimwellia b...  255     2e-84
+  UniRef90_A0A014PS48 Cell division protein ZapC n=1 Tax=Erwinia ...  255     2e-84
+  UniRef90_C9Y0N6 Cell division protein ZapC n=54 Tax=Cronobacter...  254     3e-84
+  UniRef90_A0A1I4UNS9 Cell division protein ZapC n=1 Tax=Izhakiel...  254     4e-84
+  UniRef90_D8MQF5 Cell division protein ZapC n=3 Tax=Erwinia TaxI...  253     1e-83
+  UniRef90_A0A0L0AMG4 Cell division protein ZapC n=1 Tax=Klebsiel...  253     1e-83
+  UniRef90_UPI00034C360E cell division protein ZapC n=1 Tax=Erwin...  252     2e-83
+  UniRef90_A0A2G8EHX7 Cell division protein ZapC n=1 Tax=Erwinia ...  252     2e-83
+  UniRef90_A0A0L7TBH6 Cell division protein ZapC n=1 Tax=Erwinia ...  252     2e-83
+  UniRef90_E6WCC0 Cell division protein ZapC n=25 Tax=Enterobacte...  252     2e-83
+  UniRef90_A0A2X5BYW8 Cell division protein ZapC n=2 Tax=Serratia...  251     5e-83
+  UniRef90_A0A2P8VQ69 Cell division protein ZapC n=2 Tax=Siccibac...  250     8e-83
+  UniRef90_A0A2P5GRK3 Cell division protein ZapC n=1 Tax=Superfic...  250     8e-83
+  UniRef90_A0A0F5Y562 Cell division protein ZapC n=2 Tax=Pantoea ...  250     1e-82
+  UniRef90_E1SIG5 Cell division protein ZapC n=28 Tax=Erwiniaceae...  250     1e-82
+  UniRef90_UPI00036169F7 cell division protein ZapC n=1 Tax=Enter...  250     2e-82
+  UniRef90_A0A357SSV0 Cell division protein ZapC n=2 Tax=Erwinia ...  250     2e-82
+  UniRef90_I0QU05 Cell division protein ZapC n=4 Tax=Yersiniaceae...  249     4e-82
+  UniRef90_UPI000469E8EB cell division protein ZapC n=1 Tax=Panto...  248     5e-82
+  UniRef90_A0A3N6RYE5 Cell division protein ZapC n=1 Tax=Erwinia ...  248     6e-82
+  UniRef90_A0A085U9Y2 Cell division protein ZapC n=5 Tax=Yersinia...  248     1e-81
+  UniRef90_A0A250B5Q5 Cell division protein ZapC n=1 Tax=Gibbsiel...  247     2e-81
+  UniRef90_A0A2J9E7C0 Cell division protein ZapC n=7 Tax=Erwiniac...  246     4e-81
+  UniRef90_A0A071LVA6 Cell division protein ZapC n=3 Tax=Mangrovi...  246     7e-81
+  UniRef90_UPI00094912DB cell division protein ZapC n=1 Tax=Panto...  245     7e-81
+  UniRef90_UPI0005D33EE3 cell division protein ZapC n=1 Tax=Rouxi...  245     1e-80
+  UniRef90_A0A0T9SEK4 Cell division protein ZapC n=30 Tax=Yersini...  245     1e-80
+  UniRef90_A1JMQ1 Cell division protein ZapC n=9 Tax=Yersinia Tax...  245     2e-80
+  UniRef90_A0A085GJI6 Cell division protein ZapC n=3 Tax=Ewingell...  245     2e-80
+  UniRef90_A0A0U1HND2 Cell division protein ZapC n=2 Tax=Yersinia...  244     2e-80
+  UniRef90_H2IS94 Cell division protein ZapC n=13 Tax=Yersiniacea...  244     3e-80
+  UniRef90_A0A2N5ETK8 Cell division protein ZapC n=4 Tax=Yersinia...  244     3e-80
+  UniRef90_A0A0Q4MJQ9 Cell division protein ZapC n=1 Tax=Erwinia ...  243     6e-80
+  UniRef90_E9CPN2 Cell division protein ZapC n=50 Tax=Gammaproteo...  243     7e-80
+  UniRef90_A0A0T9QFE4 Cell division protein ZapC n=1 Tax=Yersinia...  243     7e-80
+  UniRef90_D0ZFR0 Cell division protein ZapC n=4 Tax=Edwardsiella...  243     9e-80
+  UniRef90_Q7CHK5 Cell division protein ZapC n=23 Tax=Yersinia Ta...  243     1e-79
+  UniRef90_A0A370QML7 Cell division protein ZapC n=1 Tax=Enteroba...  243     1e-79
+  UniRef90_A0A2S9IAE8 Cell division protein ZapC n=2 Tax=Erwiniac...  242     2e-79
+  UniRef90_E5YD66 Cell division protein ZapC n=14 Tax=Enterobacte...  242     2e-79
+  UniRef90_D2TDN5 Cell division protein ZapC n=1 Tax=Erwinia pyri...  242     3e-79
+  UniRef90_W0HUV0 Cell division protein ZapC n=4 Tax=Sodalis TaxI...  242     3e-79
+  UniRef90_UPI000DEEB8D5 cell division protein ZapC n=1 Tax=Rahne...  242     4e-79
+  UniRef90_A0A2S5KDL2 Cell division protein ZapC n=2 Tax=Pantoea ...  241     4e-79
+  UniRef90_UPI0003823772 cell division protein ZapC n=1 Tax=Panto...  241     4e-79
+  UniRef90_UPI00055219BD cell division protein ZapC n=2 Tax=Erwin...  241     4e-79
+  UniRef90_A0A0M2KD92 Cell division protein ZapC n=2 Tax=Erwinia ...  241     7e-79
+  UniRef90_A0A087L4T9 Cell division protein ZapC n=2 Tax=Serratia...  240     8e-79
+  UniRef90_A0A085JCB1 Cell division protein ZapC n=3 Tax=Tatumell...  240     1e-78
+  UniRef90_A0A0G3CRK4 Cell division protein ZapC n=1 Tax=Pragia f...  239     2e-78
+  UniRef90_A0A2C6CXD7 Cell division protein ZapC n=1 Tax=Budvicia...  239     4e-78
+  UniRef90_D4I0B8 Cell division protein ZapC n=4 Tax=Erwinia TaxI...  238     5e-78
+  UniRef90_V5Z7D1 Cell division protein ZapC n=1 Tax=Erwinia piri...  238     1e-77
+  UniRef90_UPI00082D5E97 cell division protein ZapC n=1 Tax=Erwin...  238     1e-77
+  UniRef90_A0A358L7C4 Cell division protein ZapC n=2 Tax=Erwinia ...  237     1e-77
+  UniRef90_A0A095T9N8 Cell division protein ZapC n=2 Tax=Tatumell...  237     1e-77
+  UniRef90_A0A376DHR5 Cell division protein ZapC n=3 Tax=Edwardsi...  236     6e-77
+  UniRef90_B2VDF8 Cell division protein ZapC n=1 Tax=Erwinia tasm...  235     9e-77
+  UniRef90_C5BD72 Cell division protein ZapC n=3 Tax=Edwardsiella...  235     2e-76
+  UniRef90_A0A0U5L2Y4 Cell division protein ZapC n=1 Tax=Erwinia ...  234     2e-76
+  UniRef90_A0A2S4RND9 Cell division protein ZapC n=2 Tax=Erwiniac...  233     4e-76
+  UniRef90_A0A2Y9TU18 Cell division protein ZapC n=1 Tax=Limnobac...  233     1e-75
+  UniRef90_E0SGV6 Cell division protein ZapC n=16 Tax=Pectobacter...  233     1e-75
+  UniRef90_A0A1H3YK82 Cell division protein ZapC n=6 Tax=Lonsdale...  233     1e-75
+  UniRef90_A0A2I5TJQ1 Cell division protein ZapC n=1 Tax=Serratia...  233     1e-75
+  UniRef90_D2BXQ2 Cell division protein ZapC n=8 Tax=Enterobacter...  232     2e-75
+  UniRef90_A0A084A164 Cell division protein ZapC n=2 Tax=Serratia...  232     2e-75
+  UniRef90_UPI00047A39B6 cell division protein ZapC n=1 Tax=Lonsd...  231     4e-75
+  UniRef90_A0A085HKZ5 Cell division protein ZapC n=1 Tax=Leminore...  231     5e-75
+  UniRef90_D4F3T7 Cell division protein ZapC n=6 Tax=Edwardsiella...  231     6e-75
+  UniRef90_A0A2X4ULM7 Cell division protein ZapC n=1 Tax=Leminore...  230     7e-75
+  UniRef90_UPI000FE3ED04 cell division protein ZapC n=1 Tax=Panto...  230     1e-74
+  UniRef90_G7LN28 Cell division protein ZapC n=3 Tax=Brenneria Ta...  230     1e-74
+  UniRef90_C6CFK3 Cell division protein ZapC n=4 Tax=Dickeya chry...  230     1e-74
+  UniRef90_Q7N616 Cell division protein ZapC n=24 Tax=Photorhabdu...  230     1e-74
+  UniRef90_A0A2I0FX03 Cell division protein ZapC n=1 Tax=Enteroba...  230     2e-74
+  UniRef90_UPI000A1FC778 cell division protein ZapC n=2 Tax=Pecto...  229     3e-74
+  UniRef90_Q6D457 Cell division protein ZapC n=31 Tax=Pectobacter...  229     4e-74
+  UniRef90_UPI0004B4940C cell division protein ZapC n=1 Tax=Enter...  228     5e-74
+  UniRef90_A0A2U1TPQ3 Cell division protein ZapC n=2 Tax=Brenneri...  227     2e-73
+  UniRef90_A0A0G4K205 Cell division protein ZapC n=1 Tax=Brenneri...  227     2e-73
+  UniRef90_UPI000EF27FE5 cell division protein ZapC n=1 Tax=Brenn...  226     4e-73
+  UniRef90_UPI0004A4C813 cell division protein ZapC n=1 Tax=Tatum...  226     4e-73
+  UniRef90_A0A366I5I0 Cell division protein ZapC n=1 Tax=Brenneri...  226     6e-73
+  UniRef90_UPI000FDD28A9 UPI000FDD28A9 related cluster n=1 Tax=un...  225     8e-73
+  UniRef90_K8WD25 Cell division protein ZapC n=1 Tax=Providencia ...  225     1e-72
+  UniRef90_A0A376MUU3 Cell division protein ZapC n=1 Tax=Escheric...  224     2e-72
+  UniRef90_A0A1Y2STI7 Cell division protein ZapC n=1 Tax=Xenorhab...  224     3e-72
+  UniRef90_A0A0R4FLK8 Cell division protein ZapC n=4 Tax=Xenorhab...  224     3e-72
+  UniRef90_A0A1B7JHS4 Cell division protein ZapC n=2 Tax=Proteus ...  223     4e-72
+  UniRef90_A0A375AC50 Cell division protein ZapC n=1 Tax=Dickeya ...  223     4e-72
+  UniRef90_K8WQ39 Cell division protein ZapC n=1 Tax=Providencia ...  223     6e-72
+  UniRef90_D3UWU5 Cell division protein ZapC n=9 Tax=Xenorhabdus ...  223     7e-72
+  UniRef90_A0A0J5FUN7 Cell division protein ZapC n=2 Tax=Xenorhab...  223     1e-71
+  UniRef90_W1IXU8 Cell division protein ZapC n=1 Tax=Xenorhabdus ...  223     1e-71
+  UniRef90_A0A068QRR4 Cell division protein ZapC n=1 Tax=Xenorhab...  222     1e-71
+  UniRef90_UPI000F657BEE cell division protein ZapC n=1 Tax=Dicke...  222     2e-71
+  UniRef90_A0A1I5DLA3 Cell division protein ZapC n=2 Tax=Xenorhab...  222     2e-71
+  UniRef90_A0A1S1HU93 Cell division protein ZapC n=1 Tax=Providen...  222     2e-71
+  UniRef90_A0A1N6MZP2 Cell division protein ZapC n=4 Tax=Xenorhab...  222     2e-71
+  UniRef90_C6C3U9 Cell division protein ZapC n=1 Tax=Dickeya para...  221     3e-71
+  UniRef90_A0A2D0L3B9 Cell division protein ZapC n=1 Tax=Xenorhab...  221     4e-71
+  UniRef90_A0A1W6B0D0 Cell division protein ZapC n=2 Tax=Erwiniac...  221     5e-71
+  UniRef90_A0A356D7S2 Cell division protein ZapC n=1 Tax=Providen...  221     6e-71
+  UniRef90_W1J9P5 Cell division protein ZapC n=4 Tax=Xenorhabdus ...  220     9e-71
+  UniRef90_A0A1B9M1K3 Cell division protein ZapC n=4 Tax=Gilliame...  220     1e-70
+  UniRef90_A0A1A9AYU7 Cell division protein ZapC n=5 Tax=Plesiomo...  220     2e-70
+  UniRef90_A0A140NRI9 Cell division protein ZapC n=7 Tax=Gammapro...  219     2e-70
+  UniRef90_F0LTZ7 Cell division protein ZapC n=6 Tax=Vibrio TaxID...  219     2e-70
+  UniRef90_A0A1Q5TYQ4 Cell division protein ZapC n=1 Tax=Xenorhab...  219     3e-70
+  UniRef90_A0A1B9LKB1 Cell division protein ZapC n=2 Tax=Gilliame...  219     3e-70
+  UniRef90_A0A0M0T6B6 Cell division protein ZapC n=4 Tax=Xenorhab...  219     3e-70
+  UniRef90_A0A379F561 Cell division protein ZapC n=18 Tax=Enterob...  218     4e-70
+  UniRef90_A0A0D8L5T9 Cell division protein ZapC n=8 Tax=Bacteria...  218     4e-70
+  UniRef90_A0A0F5V8X9 Cell division protein ZapC n=3 Tax=Photobac...  218     4e-70
+  UniRef90_A0A1B9LA46 Cell division protein ZapC n=2 Tax=Gilliame...  218     4e-70
+  UniRef90_A0A1J0E4X2 Cell division protein ZapC n=8 Tax=Providen...  218     5e-70
+  UniRef90_A0A2A2GX74 Cell division protein ZapC n=3 Tax=Arsenoph...  218     5e-70
+  UniRef90_A0A1C4AKK8 Cell division protein ZapC n=2 Tax=Gilliame...  218     1e-69
+  UniRef90_A0A135ZPC3 Cell division protein ZapC n=4 Tax=Photobac...  217     2e-69
+  UniRef90_A0A0D0QSU4 Cell division protein ZapC n=6 Tax=Aeromona...  216     2e-69
+  UniRef90_A0A1B9N5D1 Cell division protein ZapC n=2 Tax=Gilliame...  216     3e-69
+  UniRef90_A0A0N0I9J7 Cell division protein ZapC n=2 Tax=Moellere...  216     3e-69
+  UniRef90_A0A1B8H514 Cell division protein ZapC n=3 Tax=Morganel...  216     3e-69
+  UniRef90_A0A1B7K0L4 Cell division protein ZapC n=1 Tax=Providen...  216     4e-69
+  UniRef90_A0A178KMZ5 Cell division protein ZapC n=1 Tax=Photobac...  216     4e-69
+  UniRef90_UPI000EAD68C9 cell division protein ZapC n=1 Tax=Orbus...  216     4e-69
+  UniRef90_D1NZY7 Cell division protein ZapC n=2 Tax=Providencia ...  216     4e-69
+  UniRef90_A0A2G0QAY5 Cell division protein ZapC n=1 Tax=Xenorhab...  216     5e-69
+  UniRef90_UPI000F84E138 cell division protein ZapC n=1 Tax=Vibri...  215     6e-69
+  UniRef90_A0A198FF56 Cell division protein ZapC n=1 Tax=Cosenzae...  215     6e-69
+  UniRef90_B6XC07 Cell division protein ZapC n=6 Tax=cellular org...  215     7e-69
+  UniRef90_A0A2T3N1T1 Cell division protein ZapC n=1 Tax=Photobac...  215     7e-69
+  UniRef90_A0A1M7YUW1 Cell division protein ZapC n=1 Tax=Vibrio q...  215     8e-69
+  UniRef90_A0A1Q9G6Q1 Cell division protein ZapC n=1 Tax=Photobac...  215     1e-68
+  UniRef90_A0A242NSH7 Cell division protein ZapC n=5 Tax=Gilliame...  215     1e-68
+  UniRef90_A0A066TF75 Cell division protein ZapC n=9 Tax=Gilliame...  215     2e-68
+  UniRef90_B4EVC4 Cell division protein ZapC n=12 Tax=Bacteria Ta...  214     2e-68
+  UniRef90_A0A1B9KCZ5 Cell division protein ZapC n=4 Tax=Gilliame...  215     2e-68
+  UniRef90_A0A0J1GVN9 Cell division protein ZapC n=1 Tax=Photobac...  214     2e-68
+  UniRef90_UPI0008393F37 cell division protein ZapC n=1 Tax=Vibri...  214     2e-68
+  UniRef90_A0A2J8G0C1 Cell division protein ZapC n=3 Tax=Vibrio d...  214     2e-68
+  UniRef90_UPI000E3D1DEB cell division protein ZapC n=1 Tax=Vibri...  214     2e-68
+  UniRef90_A0A0F4NHY7 Cell division protein ZapC n=1 Tax=Vibrio g...  214     2e-68
+  UniRef90_A0KKK8 Cell division protein ZapC n=29 Tax=Aeromonadac...  213     4e-68
+  UniRef90_A0A1C0A3X7 Cell division protein ZapC n=2 Tax=Gilliame...  214     4e-68
+  UniRef90_A0A0C5WAK6 Cell division protein ZapC n=2 Tax=Photobac...  213     5e-68
+  UniRef90_A0A0B9GYF2 Cell division protein ZapC n=2 Tax=Photobac...  213     6e-68
+  UniRef90_A0A2T3NIK7 Cell division protein ZapC n=1 Tax=Photobac...  212     1e-67
+  UniRef90_A0A1T4LTY7 Cell division protein ZapC n=2 Tax=Vibrio T...  212     1e-67
+  UniRef90_A0A0T6T4I8 Cell division protein ZapC n=37 Tax=Aeromon...  212     1e-67
+  UniRef90_A0A1B9MUS1 Cell division protein ZapC n=3 Tax=Gilliame...  213     1e-67
+  UniRef90_A0A2V4DY88 Cell division protein ZapC n=1 Tax=Gilliame...  213     1e-67
+  UniRef90_A0A066RLE0 Cell division protein ZapC n=1 Tax=Photobac...  212     1e-67
+  UniRef90_A0A1C3JJJ3 Cell division protein ZapC n=58 Tax=Vibrion...  211     2e-67
+  UniRef90_A0A0J1GL94 Cell division protein ZapC n=2 Tax=Photobac...  211     2e-67
+  UniRef90_A0A1B9KIW7 Cell division protein ZapC n=2 Tax=Gilliame...  211     3e-67
+  UniRef90_F9SQU5 Cell division protein ZapC n=2 Tax=Vibrio TaxID...  211     3e-67
+  UniRef90_A0A242P313 Cell division protein ZapC n=1 Tax=Gilliame...  211     3e-67
+  UniRef90_A0A1B9JUY6 Cell division protein ZapC n=1 Tax=Gilliame...  211     3e-67
+  UniRef90_A0A1R4B2H5 Cell division protein ZapC n=1 Tax=Vibrio p...  211     4e-67
+  UniRef90_A0A0F5ASK3 Cell division protein ZapC n=9 Tax=Salinivi...  211     5e-67
+  UniRef90_E8M8R2 Cell division protein ZapC n=1 Tax=Vibrio sinal...  210     6e-67
+  UniRef90_A0A0L8U1J1 Cell division protein ZapC n=39 Tax=Vibrio ...  210     6e-67
+  UniRef90_A8T0Z0 Cell division protein ZapC n=1 Tax=Vibrio sp. A...  210     7e-67
+  UniRef90_A0A0L7YSV1 Cell division protein ZapC n=1 Tax=Vibrio a...  210     7e-67
+  UniRef90_UPI0004678A08 cell division protein ZapC n=1 Tax=Candi...  211     8e-67
+  UniRef90_A0A080KIU2 Cell division protein ZapC n=2 Tax=Gilliame...  210     8e-67
+  UniRef90_A0A0M0I218 Cell division protein ZapC n=1 Tax=Vibrio h...  210     9e-67
+  UniRef90_UPI00067FF185 cell division protein ZapC n=1 Tax=Aerom...  210     1e-66
+  UniRef90_A0A3A2HZE3 Cell division protein ZapC n=1 Tax=Vibrio s...  210     1e-66
+  UniRef90_UPI000A15A3BB cell division protein ZapC n=1 Tax=Gilli...  210     2e-66
+  UniRef90_A0A191W3R2 Cell division protein ZapC n=10 Tax=Vibrio ...  209     2e-66
+  UniRef90_A0A175VES0 Cell division protein ZapC n=3 Tax=Aeromona...  209     2e-66
+  UniRef90_A0A066URP4 Cell division protein ZapC n=1 Tax=Vibrio f...  209     2e-66
+  UniRef90_A0A0J1JX59 Cell division protein ZapC n=1 Tax=Photobac...  209     2e-66
+  UniRef90_A0A377WG59 Cell division protein ZapC n=1 Tax=Klebsiel...  208     2e-66
+  UniRef90_A0A1X9U0K2 Cell division protein ZapC n=8 Tax=Photobac...  208     3e-66
+  UniRef90_A0A1E3E7S0 Cell division protein ZapC n=26 Tax=Vibrion...  208     4e-66
+  UniRef90_A0A1E5E771 Cell division protein ZapC n=8 Tax=Vibrio T...  208     5e-66
+  UniRef90_A0A2M8H2X7 Cell division protein ZapC n=1 Tax=Vibrio s...  208     5e-66
+  UniRef90_A0A1B9NR25 Cell division protein ZapC n=4 Tax=Gilliame...  208     6e-66
+  UniRef90_A0A178JDP7 Cell division protein ZapC n=4 Tax=Vibrio o...  208     6e-66
+  UniRef90_A0A0W8JH84 Cell division protein ZapC n=12 Tax=Vibrio ...  208     7e-66
+  UniRef90_UPI0008482F96 cell division protein ZapC n=1 Tax=Salin...  208     8e-66
+  UniRef90_A0A2A9FXN4 Cell division protein ZapC n=1 Tax=Vibrio s...  208     8e-66
+  UniRef90_A0A347UQB0 Cell division protein ZapC n=1 Tax=Vibrio a...  207     9e-66
+  UniRef90_A0A1E5D715 Cell division protein ZapC n=2 Tax=Vibriona...  207     1e-65
+  UniRef90_A0A1Q9HBQ4 Cell division protein ZapC n=4 Tax=Vibrio T...  207     1e-65
+  UniRef90_A0A2P1PH80 Cell division protein ZapC n=3 Tax=Aeromona...  207     1e-65
+  UniRef90_U2ZVY7 Cell division protein ZapC n=1 Tax=Vibrio prote...  207     1e-65
+  UniRef90_UPI000B35F4E1 cell division protein ZapC n=1 Tax=Vibri...  207     1e-65
+  UniRef90_UPI00063CCEC8 cell division protein ZapC n=1 Tax=Vibri...  207     2e-65
+  UniRef90_A0A0H0YEB0 Cell division protein ZapC n=16 Tax=Vibrio ...  206     2e-65
+  UniRef90_A0A1C3EBR7 Cell division protein ZapC n=1 Tax=Enterovi...  206     2e-65
+  UniRef90_D0IAI2 Cell division protein ZapC n=2 Tax=Grimontia ho...  206     2e-65
+  UniRef90_A0A1Q9HFA9 Cell division protein ZapC n=2 Tax=Vibrio T...  206     2e-65
+  UniRef90_A0A1I3HZX5 Cell division protein ZapC n=1 Tax=Xenorhab...  206     3e-65
+  UniRef90_UPI000F0BB068 cell division protein ZapC n=1 Tax=Vibri...  206     3e-65
+  UniRef90_B6ELD2 Cell division protein ZapC n=4 Tax=Vibrionaceae...  206     3e-65
+  UniRef90_A0A3A6QJY0 Cell division protein ZapC n=1 Tax=Vibrio s...  206     3e-65
+  UniRef90_UPI000E0C1C07 cell division protein ZapC n=1 Tax=Vibri...  206     3e-65
+  UniRef90_A0A0C2KIE5 Cell division protein ZapC n=1 Tax=Vibrio r...  206     3e-65
+  UniRef90_A0A2A2CJV8 Cell division protein ZapC n=8 Tax=Vibrio T...  206     4e-65
+  UniRef90_E8LST6 Cell division protein ZapC n=1 Tax=Vibrio brasi...  206     4e-65
+  UniRef90_A0A177XUL9 Cell division protein ZapC n=2 Tax=Vibrio T...  206     4e-65
+  UniRef90_A0A0A7S1F4 Cell division protein ZapC n=2 Tax=Frischel...  206     4e-65
+  UniRef90_UPI000EFD38CE cell division protein ZapC n=1 Tax=Aliiv...  205     5e-65
+  UniRef90_A0A2A4GE72 Cell division protein ZapC n=5 Tax=Salinivi...  206     5e-65
+  UniRef90_A0A2M8HDQ7 Cell division protein ZapC n=3 Tax=Aeromona...  205     5e-65
+  UniRef90_A0A135I5A0 Cell division protein ZapC n=3 Tax=Enterovi...  205     6e-65
+  UniRef90_A0A2J9V3L4 Cell division protein ZapC n=8 Tax=Vibrio T...  205     6e-65
+  UniRef90_A0A379S907 Z-ring-associated protein C n=1 Tax=Salmone...  204     7e-65
+  UniRef90_UPI000970632D cell division protein ZapC n=1 Tax=Vibri...  205     7e-65
+  UniRef90_A0A2U3BBJ6 Cell division protein ZapC n=1 Tax=Vibrio s...  205     8e-65
+  UniRef90_A0A0Q0T804 Cell division protein ZapC n=3 Tax=Vibrio m...  205     8e-65
+  UniRef90_A0A1Z1NN36 Cell division protein ZapC n=19 Tax=Gammapr...  205     1e-64
+  UniRef90_A0A2C9PE67 Cell division protein ZapC n=13 Tax=Vibrio ...  205     1e-64
+  UniRef90_A0A1B9JN04 Cell division protein ZapC n=9 Tax=Gilliame...  205     2e-64
+  UniRef90_UPI0005B20971 cell division protein ZapC n=1 Tax=Aerom...  204     2e-64
+  UniRef90_UPI000F68C00A cell division protein ZapC n=1 Tax=Vibri...  204     2e-64
+  UniRef90_A0A1B1NP02 Cell division protein ZapC n=5 Tax=Vibrio T...  204     2e-64
+  UniRef90_Q9KRZ3 Cell division protein ZapC n=51 Tax=Vibrionacea...  203     3e-64
+  UniRef90_A0A2N7D514 Cell division protein ZapC n=1 Tax=Vibrio s...  203     4e-64
+  UniRef90_A0A0M0HNJ9 Cell division protein ZapC n=1 Tax=Vibrio n...  203     5e-64
+  UniRef90_UPI0008D9B930 cell division protein ZapC n=1 Tax=Vibri...  203     5e-64
+  UniRef90_A0A1E5BSI5 Cell division protein ZapC n=7 Tax=Enterovi...  203     7e-64
+  UniRef90_R1GX55 Cell division protein ZapC n=4 Tax=Grimontia Ta...  203     7e-64
+  UniRef90_UPI000B352F18 cell division protein ZapC n=1 Tax=Thaum...  203     7e-64
+  UniRef90_Q5E5B5 Cell division protein ZapC n=11 Tax=Aliivibrio ...  202     9e-64
+  UniRef90_A0A3N9TGZ1 Cell division protein ZapC n=1 Tax=Vibrio s...  202     1e-63
+  UniRef90_A0A2G8C761 Cell division protein ZapC n=3 Tax=Enteroba...  202     1e-63
+  UniRef90_Q6LRA1 Cell division protein ZapC n=5 Tax=Photobacteri...  202     1e-63
+  UniRef90_U3ASH4 Cell division protein ZapC n=2 Tax=Vibrio TaxID...  202     1e-63
+  UniRef90_UPI000B350EA5 cell division protein ZapC n=1 Tax=Thaum...  202     1e-63
+  UniRef90_Q8D9G6 Cell division protein ZapC n=21 Tax=Vibrio TaxI...  201     2e-63
+  UniRef90_A0A2H9U3U0 Cell division protein ZapC n=1 Tax=Aeromona...  201     3e-63
+  UniRef90_UPI0005704142 cell division protein ZapC n=2 Tax=Vibri...  201     5e-63
+  UniRef90_UPI000490327A cell division protein ZapC n=1 Tax=Phase...  200     6e-63
+  UniRef90_A0A1E5C9Q4 Cell division protein ZapC n=2 Tax=Enterovi...  200     6e-63
+  UniRef90_A0A1N6RC65 Cell division protein ZapC n=1 Tax=Aeromona...  199     1e-62
+  UniRef90_UPI0005A6B087 cell division protein ZapC n=1 Tax=Aerom...  199     2e-62
+  UniRef90_A0A0A5I2D0 Cell division protein ZapC n=4 Tax=Vibrio T...  199     2e-62
+  UniRef90_A0A376W344 Protein n=2 Tax=Escherichia coli TaxID=562 ...  197     2e-62
+  UniRef90_A0A381GPD2 Z-ring-associated protein C n=2 Tax=Enterob...  198     2e-62
+  UniRef90_A0A0F2I1P3 Cell division protein ZapC n=6 Tax=Vibrio T...  198     3e-62
+  UniRef90_L8JAH9 Cell division protein ZapC n=3 Tax=Photobacteri...  198     4e-62
+  UniRef90_A0A0M9F6T6 Cell division protein ZapC n=8 Tax=Photobac...  198     6e-62
+  UniRef90_A0A090IL45 Cell division protein ZapC n=1 Tax=Aliivibr...  198     6e-62
+  UniRef90_A0A068R475 Cell division protein ZapC n=1 Tax=Xenorhab...  197     9e-62
+  UniRef90_UPI0006D25C16 cell division protein ZapC n=1 Tax=Photo...  197     1e-61
+  UniRef90_A0A2N7DIE2 Cell division protein ZapC n=1 Tax=Vibrio s...  196     2e-61
+  UniRef90_A0A0S2SDE2 Cell division protein ZapC n=1 Tax=Aeromona...  196     2e-61
+  UniRef90_UPI0005A5D186 cell division protein ZapC n=1 Tax=Aerom...  196     3e-61
+  UniRef90_E3BFG5 Cell division protein ZapC n=1 Tax=Vibrio carib...  196     4e-61
+  UniRef90_Q1ZQY2 Cell division protein ZapC n=11 Tax=Vibrionacea...  195     1e-60
+  UniRef90_A0A1G7YE97 Cell division protein ZapC n=1 Tax=Vibrio x...  195     1e-60
+  UniRef90_A3QDX9 Cell division protein ZapC n=4 Tax=Shewanella T...  194     2e-60
+  UniRef90_A0A193KBZ2 Cell division protein ZapC n=5 Tax=Vibrio T...  194     2e-60
+  UniRef90_R1GY04 Cell division protein ZapC n=2 Tax=Aeromonas Ta...  193     3e-60
+  UniRef90_UPI000BA8F9D8 cell division protein ZapC n=1 Tax=Paraf...  193     5e-60
+  UniRef90_A0A2T3GYW8 Cell division protein ZapC n=6 Tax=Shewanel...  192     7e-60
+  UniRef90_A0A1A6L0R7 Cell division protein ZapC n=3 Tax=Vibrio T...  191     2e-59
+  UniRef90_U4KBY2 Cell division protein ZapC n=9 Tax=Vibrio TaxID...  191     3e-59
+  UniRef90_A0A3A6UC49 Cell division protein ZapC n=1 Tax=Shewanel...  191     3e-59
+  UniRef90_A0A1X1MRB8 Cell division protein ZapC n=1 Tax=Vibrio s...  190     4e-59
+  UniRef90_A0A0T9XA51 Z-ring-associated protein C n=1 Tax=Salmone...  189     5e-59
+  UniRef90_UPI000BA8EFB6 cell division protein ZapC n=1 Tax=Paraf...  190     1e-58
+  UniRef90_A0A378BP79 Cell division protein ZapC n=1 Tax=Klebsiel...  187     3e-58
+  UniRef90_UPI00048EB774 cell division protein ZapC n=1 Tax=Shewa...  188     3e-58
+  UniRef90_UPI000735A281 cell division protein ZapC n=2 Tax=Salmo...  185     9e-58
+  UniRef90_A0A094JKK8 Cell division protein ZapC n=1 Tax=Shewanel...  186     2e-57
+  UniRef90_B1KDM9 Cell division protein ZapC n=2 Tax=Shewanellace...  186     2e-57
+  UniRef90_A0A1E5IZ57 Cell division protein ZapC n=1 Tax=Shewanel...  186     3e-57
+  UniRef90_A0A2N7CQC8 Cell division protein ZapC n=1 Tax=Shewanel...  186     3e-57
+  UniRef90_A0A2N8Z9J7 Cell division protein ZapC n=2 Tax=Vibrio t...  185     7e-57
+  UniRef90_A0A231N1L6 Cell division protein ZapC n=1 Tax=Zobellel...  185     8e-57
+  UniRef90_UPI00048F225A cell division protein ZapC n=1 Tax=Shewa...  184     1e-56
+  UniRef90_UPI000970E608 cell division protein ZapC n=1 Tax=Shewa...  184     1e-56
+  UniRef90_B0TIX9 Cell division protein ZapC n=2 Tax=Shewanella T...  184     1e-56
+  UniRef90_A0A2I0DZA4 Cell division protein ZapC n=3 Tax=Shewanel...  184     1e-56
+  UniRef90_C9P4T6 Cell division protein ZapC n=3 Tax=Vibrio TaxID...  183     1e-56
+  UniRef90_A0A2N7DRH6 Cell division protein ZapC n=2 Tax=Shewanel...  184     2e-56
+  UniRef90_UPI000D7851A0 cell division protein ZapC n=1 Tax=Shewa...  183     3e-56
+  UniRef90_UPI000D0BE53D cell division protein ZapC n=1 Tax=Esche...  181     4e-56
+  UniRef90_D4ZJI1 Cell division protein ZapC n=1 Tax=Shewanella v...  182     6e-56
+  UniRef90_A1S5Z5 Cell division protein ZapC n=2 Tax=Shewanella T...  182     7e-56
+  UniRef90_UPI000D3EBB0C cell division protein ZapC n=1 Tax=Gamma...  182     7e-56
+  UniRef90_A0A2P7RC65 Cell division protein ZapC n=1 Tax=Zobellel...  182     9e-56
+  UniRef90_UPI000E302AA4 cell division protein ZapC n=1 Tax=Zobel...  182     1e-55
+  UniRef90_A9EJ94 Cell division protein ZapC n=4 Tax=Shewanella T...  182     1e-55
+  UniRef90_A8FW60 Cell division protein ZapC n=3 Tax=Shewanella T...  181     2e-55
+  UniRef90_A0A389M828 Uncharacterized protein n=1 Tax=Enterobacte...  180     2e-55
+  UniRef90_N9V6S1 Cell division protein ZapC n=1 Tax=Aeromonas di...  181     2e-55
+  UniRef90_A0A2P7RAB7 Cell division protein ZapC n=1 Tax=Zobellel...  181     2e-55
+  UniRef90_A0A0Q0P6S0 Cell division protein ZapC n=2 Tax=Shewanel...  181     3e-55
+  UniRef90_A0A1T5I083 Cell division protein ZapC n=2 Tax=Photobac...  181     3e-55
+  UniRef90_UPI0009FE4852 cell division protein ZapC n=1 Tax=Ferri...  180     4e-55
+  UniRef90_UPI0004077E34 hypothetical protein n=2 Tax=Aliagarivor...  180     5e-55
+  UniRef90_N6VC94 Cell division protein ZapC n=10 Tax=Pseudoalter...  180     5e-55
+  UniRef90_UPI00047162EE cell division protein ZapC n=1 Tax=Shewa...  180     6e-55
+  UniRef90_A0A1M5Z5L3 Cell division protein ZapC n=2 Tax=Vibrio a...  179     6e-55
+  UniRef90_A0A2A5T7B6 Cell division protein ZapC n=2 Tax=Candidat...  180     7e-55
+  UniRef90_A0A290TFZ5 Cell division protein ZapC n=13 Tax=Gammapr...  179     1e-54
+  UniRef90_UPI000F64E7B7 cell division protein ZapC n=1 Tax=Pseud...  178     2e-54
+  UniRef90_A0A2T3ILD2 Cell division protein ZapC n=3 Tax=Photobac...  178     3e-54
+  UniRef90_A0A2T3R1C1 Cell division protein ZapC n=4 Tax=Photobac...  178     3e-54
+  UniRef90_Q12NG1 Cell division protein ZapC n=1 Tax=Shewanella d...  178     3e-54
+  UniRef90_A0A1G8VW85 Cell division protein ZapC n=3 Tax=Ferrimon...  178     4e-54
+  UniRef90_UPI000D307000 cell division protein ZapC n=1 Tax=Ocean...  178     5e-54
+  UniRef90_A0A2N7GAL4 Cell division protein ZapC n=3 Tax=Vibrio T...  177     5e-54
+  UniRef90_F3BN08 Cell division protein ZapC n=13 Tax=root TaxID=...  177     7e-54
+  UniRef90_A0A1Y0D8F0 Cell division protein ZapC n=1 Tax=Oceanisp...  177     7e-54
+  UniRef90_A0A2N0WND7 Cell division protein ZapC n=1 Tax=Alteromo...  177     8e-54
+  UniRef90_Q081K0 Cell division protein ZapC n=11 Tax=Shewanella ...  176     1e-53
+  UniRef90_H2FW49 Cell division protein ZapC n=1 Tax=Oceanimonas ...  176     1e-53
+  UniRef90_A0A2A5JS64 Cell division protein ZapC n=1 Tax=Pseudoal...  176     1e-53
+  UniRef90_A0A1Y5K8S8 Cell division protein ZapC n=1 Tax=Pseudoal...  176     2e-53
+  UniRef90_A0A1Y0CWR7 Cell division protein ZapC n=1 Tax=Oceanisp...  176     2e-53
+  UniRef90_A0A0D8PPZ0 Cell division protein ZapC n=2 Tax=Photobac...  176     2e-53
+  UniRef90_A0Y1E3 Cell division protein ZapC n=7 Tax=Alteromonada...  176     2e-53
+  UniRef90_UPI000E707D6C cell division protein ZapC n=1 Tax=Motil...  176     2e-53
+  UniRef90_A0A1Q2H192 Cell division protein ZapC n=1 Tax=Pseudoal...  176     2e-53
+  UniRef90_UPI000E0E355A cell division protein ZapC n=1 Tax=Shewa...  175     4e-53
+  UniRef90_UPI0002EDD607 cell division protein ZapC n=2 Tax=Pseud...  175     4e-53
+  UniRef90_A0A235C9Z1 Cell division protein ZapC n=1 Tax=Oceanimo...  175     5e-53
+  UniRef90_A0A244CM44 Cell division protein ZapC n=1 Tax=Pseudoal...  174     8e-53
+  UniRef90_A0A1I1GF70 Cell division protein ZapC n=1 Tax=Pseudoal...  174     8e-53
+  UniRef90_A0A0S2K2C6 Cell division protein ZapC n=2 Tax=Pseudoal...  173     2e-52
+  UniRef90_A0A1E5BGM8 Cell division protein ZapC n=4 Tax=Vibrio g...  173     2e-52
+  UniRef90_Q3IGZ2 Cell division protein ZapC n=4 Tax=Pseudoaltero...  173     2e-52
+  UniRef90_A0A1S1NAZ0 Cell division protein ZapC n=3 Tax=Pseudoal...  173     2e-52
+  UniRef90_R9PLF7 Cell division protein ZapC n=1 Tax=Agarivorans ...  173     2e-52
+  UniRef90_A0A3L8PXI7 Cell division protein ZapC n=1 Tax=Shewanel...  173     2e-52
+  UniRef90_A0A0B8NYQ2 Uncharacterized protein n=1 Tax=Vibrio ishi...  173     3e-52
+  UniRef90_Q8EDZ9 Cell division protein ZapC n=25 Tax=Shewanella ...  173     3e-52
+  UniRef90_UPI000E204238 cell division protein ZapC n=1 Tax=Galla...  173     3e-52
+  UniRef90_A4CC92 Cell division protein ZapC n=1 Tax=Pseudoaltero...  173     3e-52
+  UniRef90_A0A2T3HZE8 Cell division protein ZapC n=2 Tax=Photobac...  173     4e-52
+  UniRef90_A0A233RGI6 Cell division protein ZapC n=2 Tax=Oceanimo...  173     4e-52
+  UniRef90_A0A1N6Y516 Cell division protein ZapC n=3 Tax=Shewanel...  173     4e-52
+  UniRef90_E1ST41 Cell division protein ZapC n=1 Tax=Ferrimonas b...  172     6e-52
+  UniRef90_A0A090S871 Uncharacterized protein n=1 Tax=Vibrio sp. ...  171     7e-52
+  UniRef90_A0A0W1LFM9 Cell division protein ZapC n=2 Tax=Pseudoal...  171     1e-51
+  UniRef90_A0A023RK40 Cell division protein ZapC n=19 Tax=Aeromon...  171     1e-51
+  UniRef90_A0A1M5NFN8 Cell division protein ZapC n=1 Tax=Ferrimon...  171     1e-51
+  UniRef90_A0A368NS63 Cell division protein ZapC n=1 Tax=Corallin...  171     2e-51
+  UniRef90_A0A0Q0J699 Cell division protein ZapC n=13 Tax=Pseudoa...  171     3e-51
+  UniRef90_UPI0006EC2DA3 hypothetical protein n=1 Tax=Agarivorans...  170     3e-51
+  UniRef90_A0A3N1PSN6 Cell division protein ZapC n=1 Tax=Gallaeci...  170     5e-51
+  UniRef90_A0A0N0M1A1 Cell division protein ZapC n=1 Tax=Pseudoal...  170     5e-51
+  UniRef90_A0A1J4QBG4 Cell division protein ZapC n=2 Tax=Oceanisp...  169     6e-51
+  UniRef90_A0A0F4PY20 Cell division protein ZapC n=2 Tax=Pseudoal...  169     7e-51
+  UniRef90_A0A0U3GFC2 Cell division protein ZapC n=8 Tax=Pseudoal...  169     8e-51
+  UniRef90_V4JE73 Cell division protein ZapC n=11 Tax=Pseudoalter...  168     3e-50
+  UniRef90_UPI000CF5EE21 cell division protein ZapC n=4 Tax=Pseud...  168     3e-50
+  UniRef90_A0A376I1H9 Protein n=1 Tax=Escherichia coli TaxID=562 ...  165     4e-50
+  UniRef90_UPI000F89C947 hypothetical protein n=1 Tax=Idiomarina ...  166     3e-49
+  UniRef90_A0A166VQ50 Cell division protein ZapC n=3 Tax=Pseudoal...  165     3e-49
+  UniRef90_UPI0005AA293A cell division protein ZapC n=1 Tax=Pseud...  165     3e-49
+  UniRef90_A0A1C0TUJ2 Cell division protein ZapC n=3 Tax=Pseudoal...  165     4e-49
+  UniRef90_A0A0W1KRH7 Cell division protein ZapC n=2 Tax=Pseudoal...  165     5e-49
+  UniRef90_A0A269PSJ7 Cell division protein ZapC n=1 Tax=Pseudoal...  164     6e-49
+  UniRef90_A0A094IV89 Uncharacterized protein n=1 Tax=Idiomarina ...  164     2e-48
+  UniRef90_A0A090IDM1 Cell division protein ZapC n=4 Tax=Moritell...  163     2e-48
+  UniRef90_A0A2I0F879 Cell division protein ZapC n=2 Tax=Moritell...  163     5e-48
+  UniRef90_A0A166YKB4 Uncharacterized protein n=2 Tax=Pseudoalter...  160     2e-47
+  UniRef90_A0A3A3D7A8 Cell division protein ZapC n=3 Tax=Pseudoal...  160     3e-47
+  UniRef90_K2JAQ6 Cell division protein ZapC n=1 Tax=Gallaecimona...  160     3e-47
+  UniRef90_A6FJ69 Cell division protein ZapC n=4 Tax=Moritella Ta...  159     8e-47
+  UniRef90_UPI0002E2E878 cell division protein ZapC n=1 Tax=Morit...  159     1e-46
+  UniRef90_A0A094IXP5 Uncharacterized protein n=2 Tax=Idiomarina ...  159     1e-46
+  UniRef90_L8DC89 Cell division protein ZapC n=1 Tax=Pseudoaltero...  158     2e-46
+  UniRef90_A0A2E4Z989 Cell division protein n=2 Tax=Idiomarinacea...  158     2e-46
+  UniRef90_UPI000A075541 hypothetical protein n=1 Tax=Idiomarina ...  159     3e-46
+  UniRef90_UPI000F87B5FC cell division protein n=1 Tax=Idiomarina...  158     4e-46
+  UniRef90_UPI000BA8DF55 cell division protein ZapC n=1 Tax=Vibri...  156     6e-46
+  UniRef90_UPI0009E2D569 cell division protein ZapC n=1 Tax=Vibri...  154     9e-46
+  UniRef90_UPI000480443C hypothetical protein n=1 Tax=Ferrimonas ...  156     2e-45
+  UniRef90_UPI0009BFDE19 cell division protein ZapC n=1 Tax=Vibri...  154     5e-45
+  UniRef90_A0A3P4FQ16 Cell division protein ZapC n=1 Tax=Escheric...  153     5e-45
+  UniRef90_UPI000B4BDBDA hypothetical protein n=1 Tax=Lacimicrobi...  154     5e-45
+  UniRef90_UPI000BFEE400 hypothetical protein n=1 Tax=Lacimicrobi...  152     4e-44
+  UniRef90_UPI000463F310 cell division protein ZapC n=1 Tax=Tolum...  151     1e-43
+  UniRef90_A0A2K9JWP6 Cell division protein ZapC n=13 Tax=Pseudoa...  150     2e-43
+  UniRef90_A0A290T398 Cell division protein ZapC n=5 Tax=Pseudoal...  151     2e-43
+  UniRef90_A0A0F4R2Y7 Cell division protein ZapC n=2 Tax=Pseudoal...  150     2e-43
+  UniRef90_A0A1Y6EXH0 Cell division protein ZapC n=1 Tax=Idiomari...  150     3e-43
+  UniRef90_C4LEY8 Cell division protein ZapC n=1 Tax=Tolumonas au...  150     4e-43
+  UniRef90_A0A0A7EG62 Cell division protein ZapC n=1 Tax=Pseudoal...  149     5e-43
+  UniRef90_K6ZR44 Cell division protein ZapC n=1 Tax=Paraglacieco...  149     5e-43
+  UniRef90_Q15UB6 Cell division protein ZapC n=3 Tax=Alteromonada...  149     5e-43
+  UniRef90_A0A0U2PGC4 Uncharacterized protein n=1 Tax=Lacimicrobi...  148     2e-42
+  UniRef90_A0A2T4D4J7 Cell division protein n=2 Tax=Idiomarina ae...  148     3e-42
+  UniRef90_A0A2D9G0E9 Cell division protein ZapC n=1 Tax=Idiomari...  148     3e-42
+  UniRef90_F4ARZ3 Cell division protein ZapC n=4 Tax=Alteromonada...  147     4e-42
+  UniRef90_UPI0003660815 hypothetical protein n=1 Tax=Psychromona...  148     4e-42
+  UniRef90_UPI0004087F22 hypothetical protein n=1 Tax=Psychromona...  147     7e-42
+  UniRef90_Q5QX64 Cell division protein ZapC n=5 Tax=Idiomarina T...  146     1e-41
+  UniRef90_A0A1G6A6S3 Cell division protein ZapC n=1 Tax=Idiomari...  146     1e-41
+  UniRef90_A0A034TRN1 Uncharacterized protein n=1 Tax=Vibrio sp. ...  144     1e-41
+  UniRef90_A0A2G2GZX2 Cell division protein n=2 Tax=Idiomarina Ta...  146     3e-41
+  UniRef90_A0A2S2E2T4 Uncharacterized protein n=1 Tax=Salinimonas...  145     3e-41
+  UniRef90_A0A2N1A5P8 Cell division protein ZapC n=1 Tax=Psychrom...  144     8e-41
+  UniRef90_UPI000DCFA547 hypothetical protein n=1 Tax=Catenovulum...  144     9e-41
+  UniRef90_A0A2X2BM20 Z-ring-associated protein C n=1 Tax=Proteus...  141     1e-40
+  UniRef90_W7QTK4 Uncharacterized protein n=1 Tax=Catenovulum aga...  143     2e-40
+  UniRef90_UPI00037794BF hypothetical protein n=1 Tax=Rheinheimer...  143     2e-40
+  UniRef90_UPI000C9C8880 hypothetical protein n=1 Tax=Bowmanella ...  143     2e-40
+  UniRef90_A0A2S0IP85 Cell division protein n=1 Tax=Idiomarina sp...  143     3e-40
+  UniRef90_UPI000F89BCAB cell division protein n=1 Tax=Idiomarina...  143     3e-40
+  UniRef90_A0A378EWM7 Cell division protein ZapC n=1 Tax=Klebsiel...  139     5e-40
+  UniRef90_A0A0P8B6G2 Cell division protein ZapC n=2 Tax=Idiomari...  142     5e-40
+  UniRef90_A0A2E9GZE4 Cell division protein n=2 Tax=Idiomarinacea...  142     5e-40
+  UniRef90_A0A2S0VU03 Uncharacterized protein n=1 Tax=Catenovulum...  141     8e-40
+  UniRef90_UPI000E778A96 hypothetical protein n=1 Tax=Alteromonad...  141     1e-39
+  UniRef90_UPI000413BB91 hypothetical protein n=1 Tax=Psychromona...  141     2e-39
+  UniRef90_A0A2X1MZ54 Protein n=1 Tax=Escherichia coli TaxID=562 ...  139     2e-39
+  UniRef90_UPI000FCAF0B7 hypothetical protein n=1 Tax=Idiomarina ...  140     3e-39
+  UniRef90_A0A1J5MS08 Uncharacterized protein n=1 Tax=Gammaproteo...  139     3e-39
+  UniRef90_UPI000F87E889 cell division protein n=1 Tax=Idiomarina...  140     3e-39
+  UniRef90_A0A0J8GU07 Uncharacterized protein n=1 Tax=Catenovulum...  139     6e-39
+  UniRef90_UPI000F8641DD hypothetical protein n=1 Tax=Aliidiomari...  139     6e-39
+  UniRef90_UPI0002F93D9E hypothetical protein n=1 Tax=Catenovulum...  138     2e-38
+  UniRef90_UPI000F86C50A hypothetical protein n=1 Tax=Aliidiomari...  138     2e-38
+  UniRef90_F7RWW7 Uncharacterized protein n=2 Tax=Idiomarina sp. ...  138     2e-38
+  UniRef90_UPI0003B40EE9 cell division protein n=1 Tax=Psychromon...  137     4e-38
+  UniRef90_A0A366WAT9 Uncharacterized protein n=1 Tax=Psychromona...  137     4e-38
+  UniRef90_UPI00082D23A4 hypothetical protein n=1 Tax=Alteromonad...  137     5e-38
+  UniRef90_A0A318RXL2 Cell division protein ZapC n=4 Tax=Idiomari...  137     5e-38
+  UniRef90_A0A2N0X3W6 Uncharacterized protein n=1 Tax=Psychromona...  136     1e-37
+  UniRef90_UPI000415693A hypothetical protein n=1 Tax=Rheinheimer...  135     2e-37
+  UniRef90_UPI000F87321D hypothetical protein n=1 Tax=Idiomarina ...  136     2e-37
+  UniRef90_A0A2E6EFQ0 Uncharacterized protein n=2 Tax=Gammaproteo...  135     2e-37
+  UniRef90_F4MXC3 Uncharacterized protein n=1 Tax=Yersinia entero...  132     3e-37
+  UniRef90_UPI000417404B hypothetical protein n=1 Tax=Psychromona...  135     3e-37
+  UniRef90_J1Q2R2 Cell division protein ZapC n=3 Tax=Alishewanell...  134     4e-37
+  UniRef90_UPI000361D95D hypothetical protein n=1 Tax=Gayadomonas...  134     5e-37
+  UniRef90_UPI000F881489 hypothetical protein n=1 Tax=Aliidiomari...  134     5e-37
+  UniRef90_A0A1E7Q6S0 Uncharacterized protein n=1 Tax=Rheinheimer...  134     7e-37
+  UniRef90_A0A220VEP6 Uncharacterized protein n=1 Tax=Paraphotoba...  134     8e-37
+  UniRef90_A0A327WZQ9 Cell division protein ZapC n=1 Tax=Aliidiom...  134     8e-37
+  UniRef90_UPI000B3C953A hypothetical protein n=1 Tax=Neiella mar...  133     2e-36
+  UniRef90_UPI000F88CADA hypothetical protein n=1 Tax=Aliidiomari...  133     2e-36
+  UniRef90_UPI000DD09EC9 hypothetical protein n=1 Tax=Aliidiomari...  133     3e-36
+  UniRef90_A0A1I6GDT8 Cell division protein ZapC n=2 Tax=Idiomari...  132     6e-36
+  UniRef90_A0A1I7MJP2 Cell division protein ZapC n=4 Tax=Idiomari...  132     6e-36
+  UniRef90_UPI000F883E19 hypothetical protein n=2 Tax=Aliidiomari...  131     7e-36
+  UniRef90_A0A139C115 Uncharacterized protein n=5 Tax=Idiomarinac...  131     8e-36
+  UniRef90_I9DUT5 Cell division protein ZapC n=3 Tax=Alishewanell...  130     1e-35
+  UniRef90_UPI000F86C2DD hypothetical protein n=1 Tax=Aliidiomari...  131     1e-35
+  UniRef90_A0A0M2VLU3 Uncharacterized protein n=1 Tax=Arsukibacte...  130     1e-35
+  UniRef90_A0A2S7UZG6 Uncharacterized protein n=1 Tax=Psychrospha...  131     2e-35
+  UniRef90_A0A1H3ZBD1 Cell-division protein ZapC n=1 Tax=Alkalimo...  129     6e-35
+  UniRef90_A0A0M2V7H8 Uncharacterized protein n=1 Tax=Arsukibacte...  129     6e-35
+  UniRef90_A1SX24 Cell division protein ZapC n=2 Tax=Psychromonas...  129     7e-35
+  UniRef90_A0A376UC55 Protein n=1 Tax=Escherichia coli TaxID=562 ...  126     7e-35
+  UniRef90_A0A2N1DIY3 Cell division protein ZapC n=1 Tax=Psychrom...  129     9e-35
+  UniRef90_A0A350QG62 Uncharacterized protein n=2 Tax=Bacteria Ta...  128     9e-35
+  UniRef90_A0A2D5RTC2 Uncharacterized protein n=1 Tax=Rheinheimer...  127     3e-34
+  UniRef90_UPI00098A55A3 hypothetical protein n=1 Tax=Salinivibri...  125     3e-34
+  UniRef90_A0A090QMW3 Uncharacterized protein n=1 Tax=Photobacter...  124     7e-34
+  UniRef90_A0A285I2I3 Cell-division protein ZapC n=1 Tax=Rheinhei...  125     2e-33
+  UniRef90_A0A136A2M0 Uncharacterized protein n=2 Tax=Paraglaciec...  124     3e-33
+  UniRef90_A0A0B8QMF5 Uncharacterized protein n=1 Tax=Vibrio ishi...  122     6e-33
+  UniRef90_A0A0H7FUH4 Z-ring-associated protein C n=1 Tax=Vibrio ...  122     7e-33
+  UniRef90_A0A0X3YAJ5 Uncharacterized protein n=3 Tax=Gammaproteo...  123     8e-33
+  UniRef90_UPI000DEB445C hypothetical protein n=1 Tax=Aliidiomari...  122     4e-32
+  UniRef90_A0A379WW12 Z-ring-associated protein C n=1 Tax=Salmone...  119     4e-32
+  UniRef90_UPI000F86EF30 hypothetical protein n=1 Tax=Aliidiomari...  120     2e-31
+  UniRef90_K6YU76 Cell division protein ZapC n=1 Tax=Aliiglacieco...  119     4e-31
+  UniRef90_A0A2I3C3C1 Uncharacterized protein n=1 Tax=Vibrio algi...  115     1e-30
+  UniRef90_UPI000E1B9B92 hypothetical protein n=1 Tax=Escherichia...  116     3e-30
+  UniRef90_I1DYV2 Cell division protein ZapC n=2 Tax=Rheinheimera...  117     3e-30
+  UniRef90_A0A377ATY3 Protein n=1 Tax=Escherichia coli TaxID=562 ...  114     4e-30
+  UniRef90_A0A376TIV6 Protein n=3 Tax=Escherichia coli TaxID=562 ...  112     1e-29
+  UniRef90_A0A0A2X2D8 Z-ring-associated protein C n=11 Tax=Gallib...  115     2e-29
+  UniRef90_M4U756 Cell division protein ZapC n=1 Tax=Psychromonas...  114     2e-29
+  UniRef90_A0A376I5N4 Protein n=1 Tax=Escherichia coli TaxID=562 ...  111     3e-29
+  UniRef90_UPI0009B0AB6E cell division protein ZapC n=1 Tax=Salmo...  109     1e-28
+  UniRef90_W1DIQ9 Uncharacterized protein n=1 Tax=Klebsiella pneu...  109     2e-28
+  UniRef90_UPI000B9B88FD hypothetical protein n=1 Tax=Psychromona...  112     2e-28
+  UniRef90_A0A1A7PKG2 Uncharacterized protein n=2 Tax=Gallibacter...  112     2e-28
+  UniRef90_A0A3D8Z5V9 Uncharacterized protein (Fragment) n=1 Tax=...  107     3e-27
+  UniRef90_UPI000FDC4A2D UPI000FDC4A2D related cluster n=1 Tax=un...  108     8e-27
+  UniRef90_A0A0B8PZD3 Uncharacterized protein n=1 Tax=Vibrio sp. ...  104     3e-26
+  UniRef90_UPI000944B9D1 cell division protein ZapC n=1 Tax=Salmo...  102     8e-26
+  UniRef90_UPI0004E2881D hypothetical protein n=2 Tax=Ruminobacte...  101     9e-24
+  UniRef90_A0A1A7Q0J8 Uncharacterized protein n=1 Tax=Gallibacter...  100     1e-23
+  UniRef90_UPI0006A991E6 hypothetical protein n=1 Tax=Rheinheimer...  99.5    2e-23
+  UniRef90_A0A0A3BCF9 Uncharacterized protein n=2 Tax=Chelonobact...  99.1    4e-23
+  UniRef90_A0A379GYX8 Z-ring-associated protein C n=1 Tax=Provide...  94.9    1e-22
+  UniRef90_A0A348YJK2 Uncharacterized protein n=1 Tax=Succinivibr...  97.6    1e-22
+  UniRef90_A0A379TE56 Z-ring-associated protein C n=1 Tax=Salmone...  91.4    2e-21
+  UniRef90_A0A1A7PUQ3 Uncharacterized protein n=2 Tax=Gallibacter...  94.1    3e-21
+  UniRef90_A0A376RL34 Protein n=1 Tax=Escherichia coli TaxID=562 ...  89.1    2e-20
+  UniRef90_A0A379WY43 Z-ring-associated protein C n=1 Tax=Salmone...  87.2    5e-20
+  UniRef90_J2VGC8 Uncharacterized protein n=1 Tax=Pantoea sp. YR3...  86.0    3e-19
+  UniRef90_A0A378BMA2 Cell division protein ZapC n=1 Tax=Klebsiel...  84.5    6e-19
+  UniRef90_A0A376W4S6 Protein n=2 Tax=Escherichia coli TaxID=562 ...  82.9    2e-18
+  UniRef90_A0A381GPC6 Z-ring-associated protein C n=1 Tax=Citroba...  78.7    1e-16
+  UniRef90_A0A2X2BE32 Z-ring-associated protein C n=1 Tax=Proteus...  73.7    2e-14
+  UniRef90_A0A364UIG5 Cell division protein ZapC (Fragment) n=1 T...  67.5    2e-12
+  UniRef90_A0A377CZ47 Protein n=1 Tax=Escherichia coli TaxID=562 ...  66.8    4e-12
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A241R3C8 Cell division protein ZapC n=6 Tax=Idiomari...  136     1e-37
+  UniRef90_A0A368V428 Cell division protein ZapC n=3 Tax=Idiomari...  119     1e-30
+  UniRef90_K2JUB0 Cell division protein ZapC n=1 Tax=Idiomarina x...  116     7e-30
+  UniRef90_A0A2N1DDH0 Cell division protein ZapC n=1 Tax=Paraglac...  112     2e-28
+  UniRef90_K7A1Y2 Cell division protein ZapC n=1 Tax=Paraglacieco...  109     2e-27
+  UniRef90_K6X9R2 Uncharacterized protein n=2 Tax=Paraglaciecola ...  107     7e-27
+  UniRef90_A0A1B7UKI9 Uncharacterized protein n=1 Tax=Rheinheimer...  101     4e-24
+  UniRef90_A0A1F8U6S9 Uncharacterized protein n=1 Tax=Chromatiale...  97.2    2e-22
+  UniRef90_UPI000FDAEE60 hypothetical protein n=1 Tax=Rheinheimer...  94.1    3e-21
+  UniRef90_A0A1W1UHD2 Cell-division protein ZapC n=3 Tax=Pasteure...  94.1    3e-21
+  UniRef90_F7NRV8 Cell division protein ZapC n=1 Tax=Rheinheimera...  92.2    2e-20
+  UniRef90_A0A1T4V834 Cell-division protein ZapC n=4 Tax=Succiniv...  84.9    2e-17
+  UniRef90_UPI000F8C56AD UPI000F8C56AD related cluster n=1 Tax=un...  83.3    4e-17
+  UniRef90_A0A2X0V222 Protein of uncharacterized function (DUF137...  80.2    1e-15
+  UniRef90_A0A0M2T223 Uncharacterized protein n=1 Tax=Pararheinhe...  78.3    4e-15
+  UniRef90_A0A3D5BI98 Uncharacterized protein n=1 Tax=Rheinheimer...  75.2    5e-14
+  UniRef90_E8LJ68 Uncharacterized protein n=2 Tax=Succinatimonas ...  75.2    6e-14
+  UniRef90_A0A258CAU2 Uncharacterized protein (Fragment) n=1 Tax=...  73.3    6e-14
+  UniRef90_A0A0U4X9F7 Uncharacterized protein n=1 Tax=Rheinheimer...  67.1    6e-11
+  UniRef90_UPI0004E1A718 hypothetical protein n=1 Tax=Pararheinhe...  66.0    2e-10
+  UniRef90_A0A0B8Q422 Uncharacterized protein n=1 Tax=Vibrio sp. ...  62.9    2e-10
+  UniRef90_UPI000479D1DD hypothetical protein n=1 Tax=Aestuariiba...  64.1    7e-10
+  UniRef90_UPI0003793692 hypothetical protein n=1 Tax=Succinimona...  60.6    3e-08
+  UniRef90_R5EQN4 Conserved domain protein n=2 Tax=Succinivibrion...  58.7    1e-07
+  UniRef90_A0A349LTY7 Uncharacterized protein n=1 Tax=Rheinheimer...  54.0    4e-06
+  UniRef90_A0A0B8Q7H8 Uncharacterized protein n=1 Tax=Vibrio ishi...  49.4    1e-05
+  UniRef90_UPI0002556618 hypothetical protein n=1 Tax=Succinivibr...  46.7    0.001
+  UniRef90_UPI00048468E6 hypothetical protein n=1 Tax=Anaerobiosp...  43.3    0.036
+  UniRef90_A0A0Q9L0S0 Alpha-L-rhamnosidase n=2 Tax=Paenibacillus ...  40.6    0.56 
+  UniRef90_A0A3B5QHD5 Uncharacterized protein n=1 Tax=Xiphophorus...  40.2    0.74 
+  UniRef90_UPI000F77EFB9 transcriptional regulator CadC n=1 Tax=P...  39.0    1.9  
+  UniRef90_A0A3N0XVQ3 Olfactory receptor 5B12 (Fragment) n=1 Tax=...  38.6    2.1  
+  UniRef90_A0A1Y5L6Z8 Uncharacterized protein n=1 Tax=Rhodococcus...  38.6    2.3  
+  UniRef90_A0A2S7DF14 Bifunctional DNA primase/helicase n=2 Tax=X...  37.9    4.6  
+  UniRef90_A0A2M8G0T2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Del...  37.5    6.2  
+  UniRef90_A0A1G0GEM0 Pyridine nucleotide-disulfide oxidoreductas...  37.5    6.3  
+  UniRef90_UPI000E427408 olfactory receptor 1N1-like n=4 Tax=Cypr...  37.5    6.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.160    0.530    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0490    0.140     1.90     42.6     43.6 
+
+Effective search space used: 743667230838
+Results from round 3
+
+
+Query= NP_415466.4
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI00077B7BEB cell division protein ZapC n=1 Tax=Enter...  253     9e-84
+  UniRef90_A0A1D3KD80 Cell division protein ZapC n=149 Tax=Gammap...  251     4e-83
+  UniRef90_A0A285KJA2 Cell division protein ZapC n=3 Tax=Enteroba...  251     4e-83
+  UniRef90_P75862 Cell division protein ZapC n=103 Tax=Bacteria T...  251     5e-83
+  UniRef90_L0M7X1 Cell division protein ZapC n=9 Tax=Enterobacter...  251     6e-83
+  UniRef90_Q8ZQ75 Cell division protein ZapC n=130 Tax=Salmonella...  251     7e-83
+  UniRef90_E3G196 Cell division protein ZapC n=1 Tax=Enterobacter...  250     1e-82
+  UniRef90_A0A085AFW2 Cell division protein ZapC n=2 Tax=Trabulsi...  250     1e-82
+  UniRef90_Q32HW0 Cell division protein ZapC n=306 Tax=Enterobact...  250     2e-82
+  UniRef90_A0A127L2S9 Cell division protein ZapC n=6 Tax=Enteroba...  249     2e-82
+  UniRef90_A0A0L0GY41 Cell division protein ZapC n=4 Tax=Enteroba...  249     3e-82
+  UniRef90_A0A1Y6GNV1 Cell division protein ZapC n=16 Tax=Enterob...  249     3e-82
+  UniRef90_A0A0D5WSN8 Cell division protein ZapC n=7 Tax=Enteroba...  249     4e-82
+  UniRef90_A0A0J5MFW7 Cell division protein ZapC n=7 Tax=Pluralib...  248     5e-82
+  UniRef90_G8LHS6 Cell division protein ZapC n=135 Tax=Bacteria T...  248     5e-82
+  UniRef90_R9VX23 Cell division protein ZapC n=14 Tax=Enterobacte...  248     5e-82
+  UniRef90_A0A376QXK2 Cell division protein ZapC n=51 Tax=Gammapr...  248     1e-81
+  UniRef90_A0A3N1IY32 Cell division protein ZapC n=2 Tax=Enteroba...  248     1e-81
+  UniRef90_A0A1I6CUI1 Cell division protein ZapC n=1 Tax=Enteroba...  247     3e-81
+  UniRef90_UPI00057C2372 cell division protein ZapC n=1 Tax=Enter...  247     3e-81
+  UniRef90_A0A1N6SCN4 Cell division protein ZapC n=2 Tax=Enteroba...  246     4e-81
+  UniRef90_A0A1S8YP50 Cell division protein ZapC n=1 Tax=Izhakiel...  246     6e-81
+  UniRef90_D4GNJ8 Cell division protein ZapC n=11 Tax=Erwiniaceae...  246     6e-81
+  UniRef90_A0A370YKK4 Cell division protein ZapC n=10 Tax=Enterob...  246     6e-81
+  UniRef90_A0A090VV19 Cell division protein ZapC n=4 Tax=Enteroba...  245     1e-80
+  UniRef90_A0A1B7I8Q9 Cell division protein ZapC n=13 Tax=Enterob...  245     2e-80
+  UniRef90_W0LE46 Cell division protein ZapC n=1 Tax=Chania multi...  244     3e-80
+  UniRef90_A0A0D1MY77 Cell division protein ZapC n=6 Tax=Enteroba...  243     6e-80
+  UniRef90_A0A014PS48 Cell division protein ZapC n=1 Tax=Erwinia ...  242     1e-79
+  UniRef90_UPI0002F07D5D cell division protein ZapC n=1 Tax=Metak...  241     4e-79
+  UniRef90_UPI00073DAE72 cell division protein ZapC n=1 Tax=[Erwi...  240     7e-79
+  UniRef90_A0A0F5Y562 Cell division protein ZapC n=2 Tax=Pantoea ...  240     9e-79
+  UniRef90_A0A2T3CJQ4 Cell division protein ZapC n=7 Tax=Enteroba...  240     1e-78
+  UniRef90_A0A2X5BYW8 Cell division protein ZapC n=2 Tax=Serratia...  239     2e-78
+  UniRef90_E6WCC0 Cell division protein ZapC n=25 Tax=Enterobacte...  239     3e-78
+  UniRef90_D8MQF5 Cell division protein ZapC n=3 Tax=Erwinia TaxI...  239     3e-78
+  UniRef90_A0A2G8EHX7 Cell division protein ZapC n=1 Tax=Erwinia ...  239     3e-78
+  UniRef90_A0A0J8YJA7 Cell division protein ZapC n=2 Tax=unclassi...  239     4e-78
+  UniRef90_A0A1I4UNS9 Cell division protein ZapC n=1 Tax=Izhakiel...  239     4e-78
+  UniRef90_A0A0J8VKU6 Cell division protein ZapC n=2 Tax=Franconi...  238     6e-78
+  UniRef90_I2BAL9 Cell division protein ZapC n=1 Tax=Shimwellia b...  238     6e-78
+  UniRef90_E1SIG5 Cell division protein ZapC n=28 Tax=Erwiniaceae...  237     1e-77
+  UniRef90_C9Y0N6 Cell division protein ZapC n=54 Tax=Cronobacter...  237     2e-77
+  UniRef90_UPI00034C360E cell division protein ZapC n=1 Tax=Erwin...  237     2e-77
+  UniRef90_UPI000469E8EB cell division protein ZapC n=1 Tax=Panto...  237     2e-77
+  UniRef90_A0A3N6RYE5 Cell division protein ZapC n=1 Tax=Erwinia ...  236     2e-77
+  UniRef90_I0QU05 Cell division protein ZapC n=4 Tax=Yersiniaceae...  236     4e-77
+  UniRef90_A0A2J9E7C0 Cell division protein ZapC n=7 Tax=Erwiniac...  236     5e-77
+  UniRef90_A0A0L7TBH6 Cell division protein ZapC n=1 Tax=Erwinia ...  235     8e-77
+  UniRef90_A0A357SSV0 Cell division protein ZapC n=2 Tax=Erwinia ...  235     1e-76
+  UniRef90_A0A085U9Y2 Cell division protein ZapC n=5 Tax=Yersinia...  235     1e-76
+  UniRef90_UPI0005D33EE3 cell division protein ZapC n=1 Tax=Rouxi...  234     2e-76
+  UniRef90_A0A250B5Q5 Cell division protein ZapC n=1 Tax=Gibbsiel...  234     3e-76
+  UniRef90_UPI00036169F7 cell division protein ZapC n=1 Tax=Enter...  234     3e-76
+  UniRef90_A0A2P8VQ69 Cell division protein ZapC n=2 Tax=Siccibac...  234     3e-76
+  UniRef90_A0A0L0AMG4 Cell division protein ZapC n=1 Tax=Klebsiel...  233     4e-76
+  UniRef90_A0A2P5GRK3 Cell division protein ZapC n=1 Tax=Superfic...  233     4e-76
+  UniRef90_E9CPN2 Cell division protein ZapC n=50 Tax=Gammaproteo...  233     5e-76
+  UniRef90_A0A0U1HND2 Cell division protein ZapC n=2 Tax=Yersinia...  233     8e-76
+  UniRef90_A0A2N5ETK8 Cell division protein ZapC n=4 Tax=Yersinia...  233     1e-75
+  UniRef90_A0A071LVA6 Cell division protein ZapC n=3 Tax=Mangrovi...  232     1e-75
+  UniRef90_A0A085GJI6 Cell division protein ZapC n=3 Tax=Ewingell...  233     1e-75
+  UniRef90_UPI00094912DB cell division protein ZapC n=1 Tax=Panto...  232     1e-75
+  UniRef90_W0HUV0 Cell division protein ZapC n=4 Tax=Sodalis TaxI...  232     2e-75
+  UniRef90_Q7CHK5 Cell division protein ZapC n=23 Tax=Yersinia Ta...  231     4e-75
+  UniRef90_A0A370QML7 Cell division protein ZapC n=1 Tax=Enteroba...  231     4e-75
+  UniRef90_H2IS94 Cell division protein ZapC n=13 Tax=Yersiniacea...  231     5e-75
+  UniRef90_UPI000DEEB8D5 cell division protein ZapC n=1 Tax=Rahne...  230     9e-75
+  UniRef90_A0A0Q4MJQ9 Cell division protein ZapC n=1 Tax=Erwinia ...  230     9e-75
+  UniRef90_UPI00055219BD cell division protein ZapC n=2 Tax=Erwin...  230     1e-74
+  UniRef90_A0A2S9IAE8 Cell division protein ZapC n=2 Tax=Erwiniac...  230     1e-74
+  UniRef90_A0A0T9QFE4 Cell division protein ZapC n=1 Tax=Yersinia...  230     1e-74
+  UniRef90_A0A0T9SEK4 Cell division protein ZapC n=30 Tax=Yersini...  230     1e-74
+  UniRef90_A1JMQ1 Cell division protein ZapC n=9 Tax=Yersinia Tax...  230     2e-74
+  UniRef90_D2TDN5 Cell division protein ZapC n=1 Tax=Erwinia pyri...  229     3e-74
+  UniRef90_E5YD66 Cell division protein ZapC n=14 Tax=Enterobacte...  229     3e-74
+  UniRef90_A0A087L4T9 Cell division protein ZapC n=2 Tax=Serratia...  229     3e-74
+  UniRef90_UPI0003823772 cell division protein ZapC n=1 Tax=Panto...  229     4e-74
+  UniRef90_A0A0M2KD92 Cell division protein ZapC n=2 Tax=Erwinia ...  228     4e-74
+  UniRef90_UPI00082D5E97 cell division protein ZapC n=1 Tax=Erwin...  228     5e-74
+  UniRef90_V5Z7D1 Cell division protein ZapC n=1 Tax=Erwinia piri...  228     8e-74
+  UniRef90_A0A358L7C4 Cell division protein ZapC n=2 Tax=Erwinia ...  227     1e-73
+  UniRef90_D0ZFR0 Cell division protein ZapC n=4 Tax=Edwardsiella...  227     2e-73
+  UniRef90_B2VDF8 Cell division protein ZapC n=1 Tax=Erwinia tasm...  226     5e-73
+  UniRef90_A0A0G3CRK4 Cell division protein ZapC n=1 Tax=Pragia f...  226     5e-73
+  UniRef90_A0A2S5KDL2 Cell division protein ZapC n=2 Tax=Pantoea ...  226     5e-73
+  UniRef90_D4I0B8 Cell division protein ZapC n=4 Tax=Erwinia TaxI...  226     5e-73
+  UniRef90_A0A2I5TJQ1 Cell division protein ZapC n=1 Tax=Serratia...  225     2e-72
+  UniRef90_A0A2C6CXD7 Cell division protein ZapC n=1 Tax=Budvicia...  224     2e-72
+  UniRef90_A0A2S4RND9 Cell division protein ZapC n=2 Tax=Erwiniac...  224     3e-72
+  UniRef90_A0A085JCB1 Cell division protein ZapC n=3 Tax=Tatumell...  223     4e-72
+  UniRef90_A0A376DHR5 Cell division protein ZapC n=3 Tax=Edwardsi...  223     8e-72
+  UniRef90_C5BD72 Cell division protein ZapC n=3 Tax=Edwardsiella...  222     2e-71
+  UniRef90_A0A0U5L2Y4 Cell division protein ZapC n=1 Tax=Erwinia ...  222     2e-71
+  UniRef90_A0A1H3YK82 Cell division protein ZapC n=6 Tax=Lonsdale...  222     2e-71
+  UniRef90_A0A0R4FLK8 Cell division protein ZapC n=4 Tax=Xenorhab...  221     2e-71
+  UniRef90_UPI0004B4940C cell division protein ZapC n=1 Tax=Enter...  221     4e-71
+  UniRef90_D4F3T7 Cell division protein ZapC n=6 Tax=Edwardsiella...  221     4e-71
+  UniRef90_D2BXQ2 Cell division protein ZapC n=8 Tax=Enterobacter...  221     5e-71
+  UniRef90_A0A084A164 Cell division protein ZapC n=2 Tax=Serratia...  221     5e-71
+  UniRef90_A0A095T9N8 Cell division protein ZapC n=2 Tax=Tatumell...  220     6e-71
+  UniRef90_A0A1Y2STI7 Cell division protein ZapC n=1 Tax=Xenorhab...  221     6e-71
+  UniRef90_Q7N616 Cell division protein ZapC n=24 Tax=Photorhabdu...  220     8e-71
+  UniRef90_E0SGV6 Cell division protein ZapC n=16 Tax=Pectobacter...  220     9e-71
+  UniRef90_UPI00047A39B6 cell division protein ZapC n=1 Tax=Lonsd...  220     9e-71
+  UniRef90_A0A135ZPC3 Cell division protein ZapC n=4 Tax=Photobac...  219     2e-70
+  UniRef90_A0A0G4K205 Cell division protein ZapC n=1 Tax=Brenneri...  219     3e-70
+  UniRef90_A0A068QRR4 Cell division protein ZapC n=1 Tax=Xenorhab...  219     3e-70
+  UniRef90_A0A0F5V8X9 Cell division protein ZapC n=3 Tax=Photobac...  218     4e-70
+  UniRef90_A0A2I0FX03 Cell division protein ZapC n=1 Tax=Enteroba...  218     4e-70
+  UniRef90_A0A2Y9TU18 Cell division protein ZapC n=1 Tax=Limnobac...  218     4e-70
+  UniRef90_UPI000FE3ED04 cell division protein ZapC n=1 Tax=Panto...  218     5e-70
+  UniRef90_UPI000A1FC778 cell division protein ZapC n=2 Tax=Pecto...  218     6e-70
+  UniRef90_C6CFK3 Cell division protein ZapC n=4 Tax=Dickeya chry...  218     9e-70
+  UniRef90_A0A1I5DLA3 Cell division protein ZapC n=2 Tax=Xenorhab...  218     9e-70
+  UniRef90_G7LN28 Cell division protein ZapC n=3 Tax=Brenneria Ta...  217     1e-69
+  UniRef90_A0A0J5FUN7 Cell division protein ZapC n=2 Tax=Xenorhab...  217     1e-69
+  UniRef90_Q6D457 Cell division protein ZapC n=31 Tax=Pectobacter...  217     2e-69
+  UniRef90_A0A375AC50 Cell division protein ZapC n=1 Tax=Dickeya ...  217     2e-69
+  UniRef90_A0A2D0L3B9 Cell division protein ZapC n=1 Tax=Xenorhab...  217     2e-69
+  UniRef90_K8WD25 Cell division protein ZapC n=1 Tax=Providencia ...  216     2e-69
+  UniRef90_A0A1N6MZP2 Cell division protein ZapC n=4 Tax=Xenorhab...  217     2e-69
+  UniRef90_C6C3U9 Cell division protein ZapC n=1 Tax=Dickeya para...  217     2e-69
+  UniRef90_A0A0M0T6B6 Cell division protein ZapC n=4 Tax=Xenorhab...  216     3e-69
+  UniRef90_UPI0004A4C813 cell division protein ZapC n=1 Tax=Tatum...  216     4e-69
+  UniRef90_A0A2U1TPQ3 Cell division protein ZapC n=2 Tax=Brenneri...  216     4e-69
+  UniRef90_F0LTZ7 Cell division protein ZapC n=6 Tax=Vibrio TaxID...  216     4e-69
+  UniRef90_A0A2X4ULM7 Cell division protein ZapC n=1 Tax=Leminore...  216     4e-69
+  UniRef90_A0A178KMZ5 Cell division protein ZapC n=1 Tax=Photobac...  216     5e-69
+  UniRef90_A0A2T3N1T1 Cell division protein ZapC n=1 Tax=Photobac...  216     5e-69
+  UniRef90_A0A1A9AYU7 Cell division protein ZapC n=5 Tax=Plesiomo...  216     5e-69
+  UniRef90_A0A085HKZ5 Cell division protein ZapC n=1 Tax=Leminore...  215     6e-69
+  UniRef90_A0A1Q5TYQ4 Cell division protein ZapC n=1 Tax=Xenorhab...  215     7e-69
+  UniRef90_W1IXU8 Cell division protein ZapC n=1 Tax=Xenorhabdus ...  215     7e-69
+  UniRef90_W1J9P5 Cell division protein ZapC n=4 Tax=Xenorhabdus ...  215     7e-69
+  UniRef90_A0A366I5I0 Cell division protein ZapC n=1 Tax=Brenneri...  215     8e-69
+  UniRef90_D3UWU5 Cell division protein ZapC n=9 Tax=Xenorhabdus ...  215     9e-69
+  UniRef90_UPI000FDD28A9 UPI000FDD28A9 related cluster n=1 Tax=un...  215     1e-68
+  UniRef90_A0A1Q9G6Q1 Cell division protein ZapC n=1 Tax=Photobac...  215     1e-68
+  UniRef90_UPI000F657BEE cell division protein ZapC n=1 Tax=Dicke...  215     1e-68
+  UniRef90_A0A1B7JHS4 Cell division protein ZapC n=2 Tax=Proteus ...  215     1e-68
+  UniRef90_UPI000EF27FE5 cell division protein ZapC n=1 Tax=Brenn...  215     2e-68
+  UniRef90_K8WQ39 Cell division protein ZapC n=1 Tax=Providencia ...  214     2e-68
+  UniRef90_A0A1B9M1K3 Cell division protein ZapC n=4 Tax=Gilliame...  214     2e-68
+  UniRef90_A0A2J8G0C1 Cell division protein ZapC n=3 Tax=Vibrio d...  214     3e-68
+  UniRef90_A0A1M7YUW1 Cell division protein ZapC n=1 Tax=Vibrio q...  213     4e-68
+  UniRef90_UPI000F84E138 cell division protein ZapC n=1 Tax=Vibri...  213     6e-68
+  UniRef90_UPI0008393F37 cell division protein ZapC n=1 Tax=Vibri...  213     7e-68
+  UniRef90_A0A0F4NHY7 Cell division protein ZapC n=1 Tax=Vibrio g...  213     9e-68
+  UniRef90_A0A0J1GL94 Cell division protein ZapC n=2 Tax=Photobac...  212     1e-67
+  UniRef90_A0A066RLE0 Cell division protein ZapC n=1 Tax=Photobac...  212     1e-67
+  UniRef90_UPI000E3D1DEB cell division protein ZapC n=1 Tax=Vibri...  212     1e-67
+  UniRef90_A0A2T3NIK7 Cell division protein ZapC n=1 Tax=Photobac...  212     1e-67
+  UniRef90_A0A1B9LA46 Cell division protein ZapC n=2 Tax=Gilliame...  212     1e-67
+  UniRef90_A0A1W6B0D0 Cell division protein ZapC n=2 Tax=Erwiniac...  212     2e-67
+  UniRef90_F9SQU5 Cell division protein ZapC n=2 Tax=Vibrio TaxID...  211     3e-67
+  UniRef90_A0A0J1GVN9 Cell division protein ZapC n=1 Tax=Photobac...  211     3e-67
+  UniRef90_E8M8R2 Cell division protein ZapC n=1 Tax=Vibrio sinal...  211     3e-67
+  UniRef90_A0A356D7S2 Cell division protein ZapC n=1 Tax=Providen...  211     3e-67
+  UniRef90_A0A1B9N5D1 Cell division protein ZapC n=2 Tax=Gilliame...  211     3e-67
+  UniRef90_A0A1C4AKK8 Cell division protein ZapC n=2 Tax=Gilliame...  211     3e-67
+  UniRef90_A0A1J0E4X2 Cell division protein ZapC n=8 Tax=Providen...  211     4e-67
+  UniRef90_A0A1T4LTY7 Cell division protein ZapC n=2 Tax=Vibrio T...  211     4e-67
+  UniRef90_A0A0C5WAK6 Cell division protein ZapC n=2 Tax=Photobac...  211     4e-67
+  UniRef90_A0A2G0QAY5 Cell division protein ZapC n=1 Tax=Xenorhab...  211     5e-67
+  UniRef90_A0A0B9GYF2 Cell division protein ZapC n=2 Tax=Photobac...  211     5e-67
+  UniRef90_A0KKK8 Cell division protein ZapC n=29 Tax=Aeromonadac...  210     6e-67
+  UniRef90_A0A379F561 Cell division protein ZapC n=18 Tax=Enterob...  210     6e-67
+  UniRef90_A0A1B9LKB1 Cell division protein ZapC n=2 Tax=Gilliame...  210     7e-67
+  UniRef90_A0A1S1HU93 Cell division protein ZapC n=1 Tax=Providen...  210     8e-67
+  UniRef90_UPI000E0C1C07 cell division protein ZapC n=1 Tax=Vibri...  210     2e-66
+  UniRef90_A0A0D0QSU4 Cell division protein ZapC n=6 Tax=Aeromona...  209     2e-66
+  UniRef90_A0A140NRI9 Cell division protein ZapC n=7 Tax=Gammapro...  209     2e-66
+  UniRef90_A0A2A2GX74 Cell division protein ZapC n=3 Tax=Arsenoph...  209     2e-66
+  UniRef90_A0A0M0I218 Cell division protein ZapC n=1 Tax=Vibrio h...  209     2e-66
+  UniRef90_UPI000EFD38CE cell division protein ZapC n=1 Tax=Aliiv...  209     2e-66
+  UniRef90_A0A1X9U0K2 Cell division protein ZapC n=8 Tax=Photobac...  209     3e-66
+  UniRef90_A0A1C3JJJ3 Cell division protein ZapC n=58 Tax=Vibrion...  209     3e-66
+  UniRef90_A0A0D8L5T9 Cell division protein ZapC n=8 Tax=Bacteria...  208     4e-66
+  UniRef90_B6XC07 Cell division protein ZapC n=6 Tax=cellular org...  208     4e-66
+  UniRef90_A0A0F5ASK3 Cell division protein ZapC n=9 Tax=Salinivi...  208     6e-66
+  UniRef90_A0A242NSH7 Cell division protein ZapC n=5 Tax=Gilliame...  208     6e-66
+  UniRef90_A0A1B9KCZ5 Cell division protein ZapC n=4 Tax=Gilliame...  208     6e-66
+  UniRef90_A0A0J1JX59 Cell division protein ZapC n=1 Tax=Photobac...  208     6e-66
+  UniRef90_UPI000EAD68C9 cell division protein ZapC n=1 Tax=Orbus...  208     7e-66
+  UniRef90_D1NZY7 Cell division protein ZapC n=2 Tax=Providencia ...  208     7e-66
+  UniRef90_A0A178JDP7 Cell division protein ZapC n=4 Tax=Vibrio o...  208     8e-66
+  UniRef90_A0A1Q9HBQ4 Cell division protein ZapC n=4 Tax=Vibrio T...  208     8e-66
+  UniRef90_A0A0T6T4I8 Cell division protein ZapC n=37 Tax=Aeromon...  207     1e-65
+  UniRef90_B6ELD2 Cell division protein ZapC n=4 Tax=Vibrionaceae...  207     1e-65
+  UniRef90_A0A1R4B2H5 Cell division protein ZapC n=1 Tax=Vibrio p...  207     1e-65
+  UniRef90_A0A1B7K0L4 Cell division protein ZapC n=1 Tax=Providen...  207     1e-65
+  UniRef90_A0A1C0A3X7 Cell division protein ZapC n=2 Tax=Gilliame...  207     2e-65
+  UniRef90_A0A191W3R2 Cell division protein ZapC n=10 Tax=Vibrio ...  207     2e-65
+  UniRef90_D0IAI2 Cell division protein ZapC n=2 Tax=Grimontia ho...  206     2e-65
+  UniRef90_A0A1B9KIW7 Cell division protein ZapC n=2 Tax=Gilliame...  207     2e-65
+  UniRef90_A0A066TF75 Cell division protein ZapC n=9 Tax=Gilliame...  207     2e-65
+  UniRef90_A0A066URP4 Cell division protein ZapC n=1 Tax=Vibrio f...  206     2e-65
+  UniRef90_A0A2M8H2X7 Cell division protein ZapC n=1 Tax=Vibrio s...  206     2e-65
+  UniRef90_A0A1E5E771 Cell division protein ZapC n=8 Tax=Vibrio T...  206     2e-65
+  UniRef90_A0A1Q9HFA9 Cell division protein ZapC n=2 Tax=Vibrio T...  206     3e-65
+  UniRef90_A0A2A2CJV8 Cell division protein ZapC n=8 Tax=Vibrio T...  206     3e-65
+  UniRef90_A0A198FF56 Cell division protein ZapC n=1 Tax=Cosenzae...  206     3e-65
+  UniRef90_A0A0N0I9J7 Cell division protein ZapC n=2 Tax=Moellere...  206     3e-65
+  UniRef90_B4EVC4 Cell division protein ZapC n=12 Tax=Bacteria Ta...  206     3e-65
+  UniRef90_A0A376MUU3 Cell division protein ZapC n=1 Tax=Escheric...  206     3e-65
+  UniRef90_A0A3A6QJY0 Cell division protein ZapC n=1 Tax=Vibrio s...  206     3e-65
+  UniRef90_A0A0L7YSV1 Cell division protein ZapC n=1 Tax=Vibrio a...  206     3e-65
+  UniRef90_A0A2V4DY88 Cell division protein ZapC n=1 Tax=Gilliame...  207     4e-65
+  UniRef90_E8LST6 Cell division protein ZapC n=1 Tax=Vibrio brasi...  206     4e-65
+  UniRef90_A0A1B8H514 Cell division protein ZapC n=3 Tax=Morganel...  206     4e-65
+  UniRef90_A0A1B9MUS1 Cell division protein ZapC n=3 Tax=Gilliame...  206     4e-65
+  UniRef90_UPI000F68C00A cell division protein ZapC n=1 Tax=Vibri...  206     4e-65
+  UniRef90_A0A135I5A0 Cell division protein ZapC n=3 Tax=Enterovi...  206     4e-65
+  UniRef90_A0A177XUL9 Cell division protein ZapC n=2 Tax=Vibrio T...  205     5e-65
+  UniRef90_A0A0W8JH84 Cell division protein ZapC n=12 Tax=Vibrio ...  205     7e-65
+  UniRef90_A0A175VES0 Cell division protein ZapC n=3 Tax=Aeromona...  205     9e-65
+  UniRef90_A0A1C3EBR7 Cell division protein ZapC n=1 Tax=Enterovi...  205     1e-64
+  UniRef90_A0A2U3BBJ6 Cell division protein ZapC n=1 Tax=Vibrio s...  205     1e-64
+  UniRef90_A0A0L8U1J1 Cell division protein ZapC n=39 Tax=Vibrio ...  205     1e-64
+  UniRef90_A0A242P313 Cell division protein ZapC n=1 Tax=Gilliame...  205     1e-64
+  UniRef90_U2ZVY7 Cell division protein ZapC n=1 Tax=Vibrio prote...  205     1e-64
+  UniRef90_A0A1I3HZX5 Cell division protein ZapC n=1 Tax=Xenorhab...  205     1e-64
+  UniRef90_Q5E5B5 Cell division protein ZapC n=11 Tax=Aliivibrio ...  204     1e-64
+  UniRef90_UPI0008482F96 cell division protein ZapC n=1 Tax=Salin...  204     2e-64
+  UniRef90_A0A1B1NP02 Cell division protein ZapC n=5 Tax=Vibrio T...  204     2e-64
+  UniRef90_A0A0C2KIE5 Cell division protein ZapC n=1 Tax=Vibrio r...  204     2e-64
+  UniRef90_UPI00067FF185 cell division protein ZapC n=1 Tax=Aerom...  204     2e-64
+  UniRef90_A0A1B9JUY6 Cell division protein ZapC n=1 Tax=Gilliame...  204     2e-64
+  UniRef90_A0A3A2HZE3 Cell division protein ZapC n=1 Tax=Vibrio s...  204     2e-64
+  UniRef90_A0A0Q0T804 Cell division protein ZapC n=3 Tax=Vibrio m...  204     2e-64
+  UniRef90_UPI000B35F4E1 cell division protein ZapC n=1 Tax=Vibri...  204     3e-64
+  UniRef90_Q6LRA1 Cell division protein ZapC n=5 Tax=Photobacteri...  203     3e-64
+  UniRef90_UPI000F0BB068 cell division protein ZapC n=1 Tax=Vibri...  203     3e-64
+  UniRef90_A0A2A4GE72 Cell division protein ZapC n=5 Tax=Salinivi...  203     4e-64
+  UniRef90_A8T0Z0 Cell division protein ZapC n=1 Tax=Vibrio sp. A...  203     4e-64
+  UniRef90_R1GX55 Cell division protein ZapC n=4 Tax=Grimontia Ta...  203     4e-64
+  UniRef90_UPI00063CCEC8 cell division protein ZapC n=1 Tax=Vibri...  203     5e-64
+  UniRef90_A0A080KIU2 Cell division protein ZapC n=2 Tax=Gilliame...  203     5e-64
+  UniRef90_UPI0004678A08 cell division protein ZapC n=1 Tax=Candi...  203     6e-64
+  UniRef90_A0A1E5D715 Cell division protein ZapC n=2 Tax=Vibriona...  203     6e-64
+  UniRef90_A0A1E5BSI5 Cell division protein ZapC n=7 Tax=Enterovi...  203     8e-64
+  UniRef90_A0A2P1PH80 Cell division protein ZapC n=3 Tax=Aeromona...  202     8e-64
+  UniRef90_A0A1E3E7S0 Cell division protein ZapC n=26 Tax=Vibrion...  202     1e-63
+  UniRef90_A0A2J9V3L4 Cell division protein ZapC n=8 Tax=Vibrio T...  202     1e-63
+  UniRef90_A0A2C9PE67 Cell division protein ZapC n=13 Tax=Vibrio ...  202     1e-63
+  UniRef90_Q9KRZ3 Cell division protein ZapC n=51 Tax=Vibrionacea...  202     1e-63
+  UniRef90_A0A2A9FXN4 Cell division protein ZapC n=1 Tax=Vibrio s...  201     2e-63
+  UniRef90_UPI0005704142 cell division protein ZapC n=2 Tax=Vibri...  201     2e-63
+  UniRef90_A0A1E5C9Q4 Cell division protein ZapC n=2 Tax=Enterovi...  201     2e-63
+  UniRef90_A0A1B9NR25 Cell division protein ZapC n=4 Tax=Gilliame...  201     3e-63
+  UniRef90_UPI000970632D cell division protein ZapC n=1 Tax=Vibri...  201     3e-63
+  UniRef90_UPI000B352F18 cell division protein ZapC n=1 Tax=Thaum...  201     3e-63
+  UniRef90_A0A347UQB0 Cell division protein ZapC n=1 Tax=Vibrio a...  201     4e-63
+  UniRef90_A0A090IL45 Cell division protein ZapC n=1 Tax=Aliivibr...  200     5e-63
+  UniRef90_A0A0M0HNJ9 Cell division protein ZapC n=1 Tax=Vibrio n...  200     5e-63
+  UniRef90_A0A0A5I2D0 Cell division protein ZapC n=4 Tax=Vibrio T...  200     6e-63
+  UniRef90_Q8D9G6 Cell division protein ZapC n=21 Tax=Vibrio TaxI...  200     6e-63
+  UniRef90_A0A1Z1NN36 Cell division protein ZapC n=19 Tax=Gammapr...  200     7e-63
+  UniRef90_UPI000A15A3BB cell division protein ZapC n=1 Tax=Gilli...  200     7e-63
+  UniRef90_A0A0H0YEB0 Cell division protein ZapC n=16 Tax=Vibrio ...  200     7e-63
+  UniRef90_UPI0005B20971 cell division protein ZapC n=1 Tax=Aerom...  200     8e-63
+  UniRef90_A0A0A7S1F4 Cell division protein ZapC n=2 Tax=Frischel...  200     9e-63
+  UniRef90_U3ASH4 Cell division protein ZapC n=2 Tax=Vibrio TaxID...  200     9e-63
+  UniRef90_A0A2M8HDQ7 Cell division protein ZapC n=3 Tax=Aeromona...  200     1e-62
+  UniRef90_A0A1N6RC65 Cell division protein ZapC n=1 Tax=Aeromona...  200     1e-62
+  UniRef90_UPI0008D9B930 cell division protein ZapC n=1 Tax=Vibri...  199     2e-62
+  UniRef90_A0A1B9JN04 Cell division protein ZapC n=9 Tax=Gilliame...  200     2e-62
+  UniRef90_A0A3N9TGZ1 Cell division protein ZapC n=1 Tax=Vibrio s...  199     2e-62
+  UniRef90_A0A2N7D514 Cell division protein ZapC n=1 Tax=Vibrio s...  199     2e-62
+  UniRef90_UPI000B350EA5 cell division protein ZapC n=1 Tax=Thaum...  198     3e-62
+  UniRef90_UPI0006D25C16 cell division protein ZapC n=1 Tax=Photo...  198     5e-62
+  UniRef90_A0A1G7YE97 Cell division protein ZapC n=1 Tax=Vibrio x...  197     9e-62
+  UniRef90_UPI0005A5D186 cell division protein ZapC n=1 Tax=Aerom...  197     9e-62
+  UniRef90_A0A0M9F6T6 Cell division protein ZapC n=8 Tax=Photobac...  197     1e-61
+  UniRef90_A0A0F2I1P3 Cell division protein ZapC n=6 Tax=Vibrio T...  196     2e-61
+  UniRef90_L8JAH9 Cell division protein ZapC n=3 Tax=Photobacteri...  196     2e-61
+  UniRef90_UPI0005A6B087 cell division protein ZapC n=1 Tax=Aerom...  196     4e-61
+  UniRef90_A0A2N7DIE2 Cell division protein ZapC n=1 Tax=Vibrio s...  195     5e-61
+  UniRef90_A0A2G8C761 Cell division protein ZapC n=3 Tax=Enteroba...  195     7e-61
+  UniRef90_A0A377WG59 Cell division protein ZapC n=1 Tax=Klebsiel...  193     2e-60
+  UniRef90_A0A2H9U3U0 Cell division protein ZapC n=1 Tax=Aeromona...  194     2e-60
+  UniRef90_A0A068R475 Cell division protein ZapC n=1 Tax=Xenorhab...  194     3e-60
+  UniRef90_E3BFG5 Cell division protein ZapC n=1 Tax=Vibrio carib...  193     3e-60
+  UniRef90_A0A0S2SDE2 Cell division protein ZapC n=1 Tax=Aeromona...  193     4e-60
+  UniRef90_A0A1A6L0R7 Cell division protein ZapC n=3 Tax=Vibrio T...  193     5e-60
+  UniRef90_A0A1X1MRB8 Cell division protein ZapC n=1 Tax=Vibrio s...  192     7e-60
+  UniRef90_R1GY04 Cell division protein ZapC n=2 Tax=Aeromonas Ta...  192     1e-59
+  UniRef90_UPI000490327A cell division protein ZapC n=1 Tax=Phase...  192     1e-59
+  UniRef90_A3QDX9 Cell division protein ZapC n=4 Tax=Shewanella T...  191     1e-59
+  UniRef90_U4KBY2 Cell division protein ZapC n=9 Tax=Vibrio TaxID...  191     2e-59
+  UniRef90_A0A2T3GYW8 Cell division protein ZapC n=6 Tax=Shewanel...  191     2e-59
+  UniRef90_A0A379S907 Z-ring-associated protein C n=1 Tax=Salmone...  190     3e-59
+  UniRef90_A0A193KBZ2 Cell division protein ZapC n=5 Tax=Vibrio T...  190     4e-59
+  UniRef90_Q1ZQY2 Cell division protein ZapC n=11 Tax=Vibrionacea...  190     7e-59
+  UniRef90_UPI000BA8F9D8 cell division protein ZapC n=1 Tax=Paraf...  188     3e-58
+  UniRef90_UPI00048EB774 cell division protein ZapC n=1 Tax=Shewa...  188     5e-58
+  UniRef90_B1KDM9 Cell division protein ZapC n=2 Tax=Shewanellace...  188     6e-58
+  UniRef90_A0A3A6UC49 Cell division protein ZapC n=1 Tax=Shewanel...  186     2e-57
+  UniRef90_A0A2N8Z9J7 Cell division protein ZapC n=2 Tax=Vibrio t...  186     3e-57
+  UniRef90_UPI000BA8EFB6 cell division protein ZapC n=1 Tax=Paraf...  186     3e-57
+  UniRef90_A0A2N7CQC8 Cell division protein ZapC n=1 Tax=Shewanel...  185     4e-57
+  UniRef90_A0A2T3ILD2 Cell division protein ZapC n=3 Tax=Photobac...  185     7e-57
+  UniRef90_UPI00048F225A cell division protein ZapC n=1 Tax=Shewa...  183     2e-56
+  UniRef90_B0TIX9 Cell division protein ZapC n=2 Tax=Shewanella T...  183     3e-56
+  UniRef90_A0A2I0DZA4 Cell division protein ZapC n=3 Tax=Shewanel...  183     4e-56
+  UniRef90_A0A2T3R1C1 Cell division protein ZapC n=4 Tax=Photobac...  183     4e-56
+  UniRef90_A0A094JKK8 Cell division protein ZapC n=1 Tax=Shewanel...  183     4e-56
+  UniRef90_A0A1T5I083 Cell division protein ZapC n=2 Tax=Photobac...  183     5e-56
+  UniRef90_UPI000970E608 cell division protein ZapC n=1 Tax=Shewa...  183     5e-56
+  UniRef90_A0A2N7DRH6 Cell division protein ZapC n=2 Tax=Shewanel...  183     6e-56
+  UniRef90_A0A381GPD2 Z-ring-associated protein C n=2 Tax=Enterob...  181     6e-56
+  UniRef90_A0A231N1L6 Cell division protein ZapC n=1 Tax=Zobellel...  182     7e-56
+  UniRef90_A0A1E5IZ57 Cell division protein ZapC n=1 Tax=Shewanel...  182     8e-56
+  UniRef90_D4ZJI1 Cell division protein ZapC n=1 Tax=Shewanella v...  181     1e-55
+  UniRef90_A0A376W344 Protein n=2 Tax=Escherichia coli TaxID=562 ...  180     1e-55
+  UniRef90_UPI000D7851A0 cell division protein ZapC n=1 Tax=Shewa...  181     3e-55
+  UniRef90_N9V6S1 Cell division protein ZapC n=1 Tax=Aeromonas di...  180     3e-55
+  UniRef90_A0A2P7RAB7 Cell division protein ZapC n=1 Tax=Zobellel...  180     3e-55
+  UniRef90_UPI000D3EBB0C cell division protein ZapC n=1 Tax=Gamma...  181     4e-55
+  UniRef90_N6VC94 Cell division protein ZapC n=10 Tax=Pseudoalter...  180     6e-55
+  UniRef90_A0A2A5T7B6 Cell division protein ZapC n=2 Tax=Candidat...  180     8e-55
+  UniRef90_C9P4T6 Cell division protein ZapC n=3 Tax=Vibrio TaxID...  179     8e-55
+  UniRef90_UPI0009FE4852 cell division protein ZapC n=1 Tax=Ferri...  179     8e-55
+  UniRef90_A0A290TFZ5 Cell division protein ZapC n=13 Tax=Gammapr...  179     9e-55
+  UniRef90_UPI0004077E34 hypothetical protein n=2 Tax=Aliagarivor...  179     9e-55
+  UniRef90_A1S5Z5 Cell division protein ZapC n=2 Tax=Shewanella T...  179     1e-54
+  UniRef90_A8FW60 Cell division protein ZapC n=3 Tax=Shewanella T...  179     1e-54
+  UniRef90_A0A1Q2H192 Cell division protein ZapC n=1 Tax=Pseudoal...  179     1e-54
+  UniRef90_A9EJ94 Cell division protein ZapC n=4 Tax=Shewanella T...  179     2e-54
+  UniRef90_A0A1G8VW85 Cell division protein ZapC n=3 Tax=Ferrimon...  179     2e-54
+  UniRef90_A0A1Y5K8S8 Cell division protein ZapC n=1 Tax=Pseudoal...  179     2e-54
+  UniRef90_Q12NG1 Cell division protein ZapC n=1 Tax=Shewanella d...  179     2e-54
+  UniRef90_UPI000D307000 cell division protein ZapC n=1 Tax=Ocean...  178     2e-54
+  UniRef90_A0A1M5Z5L3 Cell division protein ZapC n=2 Tax=Vibrio a...  178     2e-54
+  UniRef90_A0A0Q0P6S0 Cell division protein ZapC n=2 Tax=Shewanel...  178     3e-54
+  UniRef90_A0Y1E3 Cell division protein ZapC n=7 Tax=Alteromonada...  178     3e-54
+  UniRef90_UPI000E302AA4 cell division protein ZapC n=1 Tax=Zobel...  178     3e-54
+  UniRef90_A0A2P7RC65 Cell division protein ZapC n=1 Tax=Zobellel...  178     3e-54
+  UniRef90_F3BN08 Cell division protein ZapC n=13 Tax=root TaxID=...  178     3e-54
+  UniRef90_A0A2T3HZE8 Cell division protein ZapC n=2 Tax=Photobac...  178     4e-54
+  UniRef90_H2FW49 Cell division protein ZapC n=1 Tax=Oceanimonas ...  178     4e-54
+  UniRef90_A0A378BP79 Cell division protein ZapC n=1 Tax=Klebsiel...  176     8e-54
+  UniRef90_UPI000F64E7B7 cell division protein ZapC n=1 Tax=Pseud...  177     8e-54
+  UniRef90_A0A1I1GF70 Cell division protein ZapC n=1 Tax=Pseudoal...  177     8e-54
+  UniRef90_A0A0T9XA51 Z-ring-associated protein C n=1 Tax=Salmone...  176     9e-54
+  UniRef90_A0A0D8PPZ0 Cell division protein ZapC n=2 Tax=Photobac...  177     1e-53
+  UniRef90_A0A2N0WND7 Cell division protein ZapC n=1 Tax=Alteromo...  176     1e-53
+  UniRef90_UPI00047162EE cell division protein ZapC n=1 Tax=Shewa...  176     2e-53
+  UniRef90_UPI000E707D6C cell division protein ZapC n=1 Tax=Motil...  176     3e-53
+  UniRef90_A0A2A5JS64 Cell division protein ZapC n=1 Tax=Pseudoal...  175     3e-53
+  UniRef90_A0A0W1LFM9 Cell division protein ZapC n=2 Tax=Pseudoal...  175     3e-53
+  UniRef90_Q081K0 Cell division protein ZapC n=11 Tax=Shewanella ...  176     3e-53
+  UniRef90_UPI000E0E355A cell division protein ZapC n=1 Tax=Shewa...  175     5e-53
+  UniRef90_UPI000D0BE53D cell division protein ZapC n=1 Tax=Esche...  174     5e-53
+  UniRef90_A0A233RGI6 Cell division protein ZapC n=2 Tax=Oceanimo...  175     6e-53
+  UniRef90_A4CC92 Cell division protein ZapC n=1 Tax=Pseudoaltero...  174     8e-53
+  UniRef90_A0A2N7GAL4 Cell division protein ZapC n=3 Tax=Vibrio T...  174     8e-53
+  UniRef90_A0A244CM44 Cell division protein ZapC n=1 Tax=Pseudoal...  174     8e-53
+  UniRef90_A0A235C9Z1 Cell division protein ZapC n=1 Tax=Oceanimo...  174     2e-52
+  UniRef90_UPI0002EDD607 cell division protein ZapC n=2 Tax=Pseud...  174     2e-52
+  UniRef90_Q3IGZ2 Cell division protein ZapC n=4 Tax=Pseudoaltero...  173     2e-52
+  UniRef90_A0A1E5BGM8 Cell division protein ZapC n=4 Tax=Vibrio g...  173     3e-52
+  UniRef90_A0A1N6Y516 Cell division protein ZapC n=3 Tax=Shewanel...  173     3e-52
+  UniRef90_A0A0S2K2C6 Cell division protein ZapC n=2 Tax=Pseudoal...  172     5e-52
+  UniRef90_Q8EDZ9 Cell division protein ZapC n=25 Tax=Shewanella ...  172     5e-52
+  UniRef90_A0A0Q0J699 Cell division protein ZapC n=13 Tax=Pseudoa...  172     6e-52
+  UniRef90_A0A0F4PY20 Cell division protein ZapC n=2 Tax=Pseudoal...  172     8e-52
+  UniRef90_A0A1Y0D8F0 Cell division protein ZapC n=1 Tax=Oceanisp...  172     9e-52
+  UniRef90_A0A389M828 Uncharacterized protein n=1 Tax=Enterobacte...  170     2e-51
+  UniRef90_A0A3L8PXI7 Cell division protein ZapC n=1 Tax=Shewanel...  171     2e-51
+  UniRef90_A0A0B8NYQ2 Uncharacterized protein n=1 Tax=Vibrio ishi...  170     2e-51
+  UniRef90_UPI000E204238 cell division protein ZapC n=1 Tax=Galla...  170     4e-51
+  UniRef90_A0A1S1NAZ0 Cell division protein ZapC n=3 Tax=Pseudoal...  170     4e-51
+  UniRef90_E1ST41 Cell division protein ZapC n=1 Tax=Ferrimonas b...  170     4e-51
+  UniRef90_A0A1M5NFN8 Cell division protein ZapC n=1 Tax=Ferrimon...  170     5e-51
+  UniRef90_A0A090S871 Uncharacterized protein n=1 Tax=Vibrio sp. ...  169     6e-51
+  UniRef90_UPI000CF5EE21 cell division protein ZapC n=4 Tax=Pseud...  169     6e-51
+  UniRef90_V4JE73 Cell division protein ZapC n=11 Tax=Pseudoalter...  169     6e-51
+  UniRef90_A0A1Y0CWR7 Cell division protein ZapC n=1 Tax=Oceanisp...  169     7e-51
+  UniRef90_R9PLF7 Cell division protein ZapC n=1 Tax=Agarivorans ...  169     8e-51
+  UniRef90_UPI000735A281 cell division protein ZapC n=2 Tax=Salmo...  167     1e-50
+  UniRef90_A0A0N0M1A1 Cell division protein ZapC n=1 Tax=Pseudoal...  169     2e-50
+  UniRef90_A0A1C0TUJ2 Cell division protein ZapC n=3 Tax=Pseudoal...  168     2e-50
+  UniRef90_A0A368NS63 Cell division protein ZapC n=1 Tax=Corallin...  168     2e-50
+  UniRef90_UPI0006EC2DA3 hypothetical protein n=1 Tax=Agarivorans...  168     3e-50
+  UniRef90_A0A023RK40 Cell division protein ZapC n=19 Tax=Aeromon...  167     3e-50
+  UniRef90_A0A0W1KRH7 Cell division protein ZapC n=2 Tax=Pseudoal...  168     3e-50
+  UniRef90_A0A3N1PSN6 Cell division protein ZapC n=1 Tax=Gallaeci...  168     5e-50
+  UniRef90_A0A1J4QBG4 Cell division protein ZapC n=2 Tax=Oceanisp...  167     6e-50
+  UniRef90_A0A0U3GFC2 Cell division protein ZapC n=8 Tax=Pseudoal...  167     6e-50
+  UniRef90_A0A269PSJ7 Cell division protein ZapC n=1 Tax=Pseudoal...  166     2e-49
+  UniRef90_UPI0005AA293A cell division protein ZapC n=1 Tax=Pseud...  166     2e-49
+  UniRef90_A0A166VQ50 Cell division protein ZapC n=3 Tax=Pseudoal...  165     3e-49
+  UniRef90_UPI000F89C947 hypothetical protein n=1 Tax=Idiomarina ...  165     7e-49
+  UniRef90_K2JAQ6 Cell division protein ZapC n=1 Tax=Gallaecimona...  164     2e-48
+  UniRef90_A0A3A3D7A8 Cell division protein ZapC n=3 Tax=Pseudoal...  162     6e-48
+  UniRef90_A0A166YKB4 Uncharacterized protein n=2 Tax=Pseudoalter...  161     1e-47
+  UniRef90_A0A094IV89 Uncharacterized protein n=1 Tax=Idiomarina ...  160     6e-47
+  UniRef90_A0A090IDM1 Cell division protein ZapC n=4 Tax=Moritell...  159     7e-47
+  UniRef90_L8DC89 Cell division protein ZapC n=1 Tax=Pseudoaltero...  159     7e-47
+  UniRef90_A0A094IXP5 Uncharacterized protein n=2 Tax=Idiomarina ...  159     1e-46
+  UniRef90_UPI000F87B5FC cell division protein n=1 Tax=Idiomarina...  159     2e-46
+  UniRef90_A0A2E4Z989 Cell division protein n=2 Tax=Idiomarinacea...  158     4e-46
+  UniRef90_A0A2I0F879 Cell division protein ZapC n=2 Tax=Moritell...  156     1e-45
+  UniRef90_A0A376I1H9 Protein n=1 Tax=Escherichia coli TaxID=562 ...  154     2e-45
+  UniRef90_A0A0A7EG62 Cell division protein ZapC n=1 Tax=Pseudoal...  156     2e-45
+  UniRef90_UPI000A075541 hypothetical protein n=1 Tax=Idiomarina ...  156     3e-45
+  UniRef90_UPI000463F310 cell division protein ZapC n=1 Tax=Tolum...  155     3e-45
+  UniRef90_A0A290T398 Cell division protein ZapC n=5 Tax=Pseudoal...  155     3e-45
+  UniRef90_UPI000480443C hypothetical protein n=1 Tax=Ferrimonas ...  154     5e-45
+  UniRef90_A6FJ69 Cell division protein ZapC n=4 Tax=Moritella Ta...  154     6e-45
+  UniRef90_UPI000B4BDBDA hypothetical protein n=1 Tax=Lacimicrobi...  154     1e-44
+  UniRef90_UPI000BA8DF55 cell division protein ZapC n=1 Tax=Vibri...  151     4e-44
+  UniRef90_C4LEY8 Cell division protein ZapC n=1 Tax=Tolumonas au...  152     5e-44
+  UniRef90_UPI0002E2E878 cell division protein ZapC n=1 Tax=Morit...  152     6e-44
+  UniRef90_UPI000BFEE400 hypothetical protein n=1 Tax=Lacimicrobi...  151     8e-44
+  UniRef90_K6ZR44 Cell division protein ZapC n=1 Tax=Paraglacieco...  151     1e-43
+  UniRef90_A0A2K9JWP6 Cell division protein ZapC n=13 Tax=Pseudoa...  150     1e-43
+  UniRef90_Q15UB6 Cell division protein ZapC n=3 Tax=Alteromonada...  151     1e-43
+  UniRef90_A0A0U2PGC4 Uncharacterized protein n=1 Tax=Lacimicrobi...  150     2e-43
+  UniRef90_UPI0009BFDE19 cell division protein ZapC n=1 Tax=Vibri...  148     5e-43
+  UniRef90_F4ARZ3 Cell division protein ZapC n=4 Tax=Alteromonada...  149     7e-43
+  UniRef90_A0A2T4D4J7 Cell division protein n=2 Tax=Idiomarina ae...  149     1e-42
+  UniRef90_A0A1Y6EXH0 Cell division protein ZapC n=1 Tax=Idiomari...  149     1e-42
+  UniRef90_A0A1G6A6S3 Cell division protein ZapC n=1 Tax=Idiomari...  148     2e-42
+  UniRef90_A0A2D9G0E9 Cell division protein ZapC n=1 Tax=Idiomari...  148     3e-42
+  UniRef90_A0A0F4R2Y7 Cell division protein ZapC n=2 Tax=Pseudoal...  146     5e-42
+  UniRef90_A0A2G2GZX2 Cell division protein n=2 Tax=Idiomarina Ta...  148     5e-42
+  UniRef90_UPI00037794BF hypothetical protein n=1 Tax=Rheinheimer...  146     7e-42
+  UniRef90_UPI000C9C8880 hypothetical protein n=1 Tax=Bowmanella ...  146     1e-41
+  UniRef90_Q5QX64 Cell division protein ZapC n=5 Tax=Idiomarina T...  146     2e-41
+  UniRef90_UPI000DCFA547 hypothetical protein n=1 Tax=Catenovulum...  145     2e-41
+  UniRef90_A0A3P4FQ16 Cell division protein ZapC n=1 Tax=Escheric...  143     3e-41
+  UniRef90_A0A2S0VU03 Uncharacterized protein n=1 Tax=Catenovulum...  144     8e-41
+  UniRef90_A0A2S2E2T4 Uncharacterized protein n=1 Tax=Salinimonas...  144     1e-40
+  UniRef90_UPI000413BB91 hypothetical protein n=1 Tax=Psychromona...  144     1e-40
+  UniRef90_A0A2S0IP85 Cell division protein n=1 Tax=Idiomarina sp...  144     1e-40
+  UniRef90_A0A034TRN1 Uncharacterized protein n=1 Tax=Vibrio sp. ...  141     2e-40
+  UniRef90_UPI0003660815 hypothetical protein n=1 Tax=Psychromona...  143     3e-40
+  UniRef90_W7QTK4 Uncharacterized protein n=1 Tax=Catenovulum aga...  143     3e-40
+  UniRef90_UPI000F89BCAB cell division protein n=1 Tax=Idiomarina...  142     5e-40
+  UniRef90_UPI0009E2D569 cell division protein ZapC n=1 Tax=Vibri...  139     6e-40
+  UniRef90_A0A0P8B6G2 Cell division protein ZapC n=2 Tax=Idiomari...  141     7e-40
+  UniRef90_UPI0004087F22 hypothetical protein n=1 Tax=Psychromona...  142     8e-40
+  UniRef90_A0A2E9GZE4 Cell division protein n=2 Tax=Idiomarinacea...  141     9e-40
+  UniRef90_A0A2N1A5P8 Cell division protein ZapC n=1 Tax=Psychrom...  141     1e-39
+  UniRef90_A0A0J8GU07 Uncharacterized protein n=1 Tax=Catenovulum...  141     1e-39
+  UniRef90_A0A366WAT9 Uncharacterized protein n=1 Tax=Psychromona...  141     1e-39
+  UniRef90_UPI000F86C50A hypothetical protein n=1 Tax=Aliidiomari...  141     1e-39
+  UniRef90_UPI000FCAF0B7 hypothetical protein n=1 Tax=Idiomarina ...  141     2e-39
+  UniRef90_A0A241R3C8 Cell division protein ZapC n=6 Tax=Idiomari...  140     3e-39
+  UniRef90_A0A2E6EFQ0 Uncharacterized protein n=2 Tax=Gammaproteo...  139     3e-39
+  UniRef90_UPI0002F93D9E hypothetical protein n=1 Tax=Catenovulum...  139     4e-39
+  UniRef90_UPI000E778A96 hypothetical protein n=1 Tax=Alteromonad...  140     4e-39
+  UniRef90_F7RWW7 Uncharacterized protein n=2 Tax=Idiomarina sp. ...  139     4e-39
+  UniRef90_UPI000F88CADA hypothetical protein n=1 Tax=Aliidiomari...  139     7e-39
+  UniRef90_UPI0003B40EE9 cell division protein n=1 Tax=Psychromon...  139     8e-39
+  UniRef90_UPI000F8641DD hypothetical protein n=1 Tax=Aliidiomari...  139     1e-38
+  UniRef90_UPI000F87E889 cell division protein n=1 Tax=Idiomarina...  138     1e-38
+  UniRef90_UPI000417404B hypothetical protein n=1 Tax=Psychromona...  138     1e-38
+  UniRef90_A0A318RXL2 Cell division protein ZapC n=4 Tax=Idiomari...  138     1e-38
+  UniRef90_UPI00082D23A4 hypothetical protein n=1 Tax=Alteromonad...  138     2e-38
+  UniRef90_UPI000415693A hypothetical protein n=1 Tax=Rheinheimer...  138     2e-38
+  UniRef90_A0A2X2BM20 Z-ring-associated protein C n=1 Tax=Proteus...  134     4e-38
+  UniRef90_A0A1E7Q6S0 Uncharacterized protein n=1 Tax=Rheinheimer...  136     5e-38
+  UniRef90_UPI000F881489 hypothetical protein n=1 Tax=Aliidiomari...  137     6e-38
+  UniRef90_A0A1I6GDT8 Cell division protein ZapC n=2 Tax=Idiomari...  137     7e-38
+  UniRef90_UPI000DD09EC9 hypothetical protein n=1 Tax=Aliidiomari...  136     8e-38
+  UniRef90_A0A1J5MS08 Uncharacterized protein n=1 Tax=Gammaproteo...  136     9e-38
+  UniRef90_A0A1I7MJP2 Cell division protein ZapC n=4 Tax=Idiomari...  136     1e-37
+  UniRef90_UPI000361D95D hypothetical protein n=1 Tax=Gayadomonas...  135     2e-37
+  UniRef90_A0A0M2VLU3 Uncharacterized protein n=1 Tax=Arsukibacte...  134     3e-37
+  UniRef90_J1Q2R2 Cell division protein ZapC n=3 Tax=Alishewanell...  134     4e-37
+  UniRef90_UPI000F87321D hypothetical protein n=1 Tax=Idiomarina ...  135     5e-37
+  UniRef90_A0A2N0X3W6 Uncharacterized protein n=1 Tax=Psychromona...  134     5e-37
+  UniRef90_UPI000F883E19 hypothetical protein n=2 Tax=Aliidiomari...  134     6e-37
+  UniRef90_A0A327WZQ9 Cell division protein ZapC n=1 Tax=Aliidiom...  134     9e-37
+  UniRef90_A0A378EWM7 Cell division protein ZapC n=1 Tax=Klebsiel...  131     1e-36
+  UniRef90_A0A350QG62 Uncharacterized protein n=2 Tax=Bacteria Ta...  133     1e-36
+  UniRef90_A0A0M2V7H8 Uncharacterized protein n=1 Tax=Arsukibacte...  132     2e-36
+  UniRef90_A0A2X1MZ54 Protein n=1 Tax=Escherichia coli TaxID=562 ...  131     3e-36
+  UniRef90_A0A139C115 Uncharacterized protein n=5 Tax=Idiomarinac...  132     3e-36
+  UniRef90_I9DUT5 Cell division protein ZapC n=3 Tax=Alishewanell...  131     5e-36
+  UniRef90_UPI000F86C2DD hypothetical protein n=1 Tax=Aliidiomari...  131     1e-35
+  UniRef90_A0A2D5RTC2 Uncharacterized protein n=1 Tax=Rheinheimer...  131     1e-35
+  UniRef90_A0A1H3ZBD1 Cell-division protein ZapC n=1 Tax=Alkalimo...  130     2e-35
+  UniRef90_A0A220VEP6 Uncharacterized protein n=1 Tax=Paraphotoba...  130     2e-35
+  UniRef90_A0A2S7UZG6 Uncharacterized protein n=1 Tax=Psychrospha...  129     6e-35
+  UniRef90_A0A285I2I3 Cell-division protein ZapC n=1 Tax=Rheinhei...  128     1e-34
+  UniRef90_UPI000B3C953A hypothetical protein n=1 Tax=Neiella mar...  128     2e-34
+  UniRef90_A0A090QMW3 Uncharacterized protein n=1 Tax=Photobacter...  125     2e-34
+  UniRef90_UPI000DEB445C hypothetical protein n=1 Tax=Aliidiomari...  127     2e-34
+  UniRef90_A1SX24 Cell division protein ZapC n=2 Tax=Psychromonas...  127     3e-34
+  UniRef90_A0A2N1DIY3 Cell division protein ZapC n=1 Tax=Psychrom...  127     6e-34
+  UniRef90_F4MXC3 Uncharacterized protein n=1 Tax=Yersinia entero...  122     1e-33
+  UniRef90_A0A136A2M0 Uncharacterized protein n=2 Tax=Paraglaciec...  124     2e-33
+  UniRef90_A0A0X3YAJ5 Uncharacterized protein n=3 Tax=Gammaproteo...  125     2e-33
+  UniRef90_UPI00098A55A3 hypothetical protein n=1 Tax=Salinivibri...  123     2e-33
+  UniRef90_A0A0H7FUH4 Z-ring-associated protein C n=1 Tax=Vibrio ...  123     2e-33
+  UniRef90_UPI000F86EF30 hypothetical protein n=1 Tax=Aliidiomari...  124     5e-33
+  UniRef90_K2JUB0 Cell division protein ZapC n=1 Tax=Idiomarina x...  123     1e-32
+  UniRef90_A0A376UC55 Protein n=1 Tax=Escherichia coli TaxID=562 ...  120     1e-32
+  UniRef90_A0A0B8QMF5 Uncharacterized protein n=1 Tax=Vibrio ishi...  120     4e-32
+  UniRef90_A0A368V428 Cell division protein ZapC n=3 Tax=Idiomari...  121     1e-31
+  UniRef90_K6YU76 Cell division protein ZapC n=1 Tax=Aliiglacieco...  119     3e-31
+  UniRef90_UPI000FDC4A2D UPI000FDC4A2D related cluster n=1 Tax=un...  119     5e-31
+  UniRef90_A0A2N1DDH0 Cell division protein ZapC n=1 Tax=Paraglac...  118     7e-31
+  UniRef90_K7A1Y2 Cell division protein ZapC n=1 Tax=Paraglacieco...  118     7e-31
+  UniRef90_I1DYV2 Cell division protein ZapC n=2 Tax=Rheinheimera...  118     1e-30
+  UniRef90_A0A2I3C3C1 Uncharacterized protein n=1 Tax=Vibrio algi...  115     1e-30
+  UniRef90_A0A0A2X2D8 Z-ring-associated protein C n=11 Tax=Gallib...  117     2e-30
+  UniRef90_K6X9R2 Uncharacterized protein n=2 Tax=Paraglaciecola ...  116     6e-30
+  UniRef90_A0A1A7PKG2 Uncharacterized protein n=2 Tax=Gallibacter...  116     7e-30
+  UniRef90_M4U756 Cell division protein ZapC n=1 Tax=Psychromonas...  115     1e-29
+  UniRef90_A0A1B7UKI9 Uncharacterized protein n=1 Tax=Rheinheimer...  115     2e-29
+  UniRef90_UPI000B9B88FD hypothetical protein n=1 Tax=Psychromona...  114     3e-29
+  UniRef90_UPI0006A991E6 hypothetical protein n=1 Tax=Rheinheimer...  112     2e-28
+  UniRef90_A0A376TIV6 Protein n=3 Tax=Escherichia coli TaxID=562 ...  108     4e-28
+  UniRef90_A0A1F8U6S9 Uncharacterized protein n=1 Tax=Chromatiale...  111     6e-28
+  UniRef90_UPI000FDAEE60 hypothetical protein n=1 Tax=Rheinheimer...  110     2e-27
+  UniRef90_A0A379WW12 Z-ring-associated protein C n=1 Tax=Salmone...  107     2e-27
+  UniRef90_W1DIQ9 Uncharacterized protein n=1 Tax=Klebsiella pneu...  106     5e-27
+  UniRef90_A0A377ATY3 Protein n=1 Tax=Escherichia coli TaxID=562 ...  106     1e-26
+  UniRef90_UPI000E1B9B92 hypothetical protein n=1 Tax=Escherichia...  106     2e-26
+  UniRef90_F7NRV8 Cell division protein ZapC n=1 Tax=Rheinheimera...  106     6e-26
+  UniRef90_A0A1A7Q0J8 Uncharacterized protein n=1 Tax=Gallibacter...  106     8e-26
+  UniRef90_A0A0B8PZD3 Uncharacterized protein n=1 Tax=Vibrio sp. ...  102     2e-25
+  UniRef90_A0A376I5N4 Protein n=1 Tax=Escherichia coli TaxID=562 ...  101     3e-25
+  UniRef90_A0A348YJK2 Uncharacterized protein n=1 Tax=Succinivibr...  104     3e-25
+  UniRef90_UPI0009B0AB6E cell division protein ZapC n=1 Tax=Salmo...  101     4e-25
+  UniRef90_UPI0004E2881D hypothetical protein n=2 Tax=Ruminobacte...  102     3e-24
+  UniRef90_E8LJ68 Uncharacterized protein n=2 Tax=Succinatimonas ...  101     5e-24
+  UniRef90_A0A1A7PUQ3 Uncharacterized protein n=2 Tax=Gallibacter...  100     9e-24
+  UniRef90_A0A1T4V834 Cell-division protein ZapC n=4 Tax=Succiniv...  100     1e-23
+  UniRef90_A0A0A3BCF9 Uncharacterized protein n=2 Tax=Chelonobact...  99.5    3e-23
+  UniRef90_A0A1W1UHD2 Cell-division protein ZapC n=3 Tax=Pasteure...  98.3    7e-23
+  UniRef90_UPI000944B9D1 cell division protein ZapC n=1 Tax=Salmo...  95.2    7e-23
+  UniRef90_UPI000F8C56AD UPI000F8C56AD related cluster n=1 Tax=un...  97.2    2e-22
+  UniRef90_A0A3D8Z5V9 Uncharacterized protein (Fragment) n=1 Tax=...  94.5    3e-22
+  UniRef90_A0A379GYX8 Z-ring-associated protein C n=1 Tax=Provide...  91.8    1e-21
+  UniRef90_A0A2X0V222 Protein of uncharacterized function (DUF137...  94.1    5e-21
+  UniRef90_A0A0M2T223 Uncharacterized protein n=1 Tax=Pararheinhe...  92.5    1e-20
+  UniRef90_A0A0U4X9F7 Uncharacterized protein n=1 Tax=Rheinheimer...  91.4    3e-20
+  UniRef90_A0A3D5BI98 Uncharacterized protein n=1 Tax=Rheinheimer...  90.6    7e-20
+  UniRef90_UPI0004E1A718 hypothetical protein n=1 Tax=Pararheinhe...  89.1    2e-19
+  UniRef90_J2VGC8 Uncharacterized protein n=1 Tax=Pantoea sp. YR3...  84.8    7e-19
+  UniRef90_A0A376RL34 Protein n=1 Tax=Escherichia coli TaxID=562 ...  85.2    7e-19
+  UniRef90_A0A379WY43 Z-ring-associated protein C n=1 Tax=Salmone...  82.1    5e-18
+  UniRef90_A0A349LTY7 Uncharacterized protein n=1 Tax=Rheinheimer...  84.5    1e-17
+  UniRef90_A0A379TE56 Z-ring-associated protein C n=1 Tax=Salmone...  81.4    2e-17
+  UniRef90_A0A378BMA2 Cell division protein ZapC n=1 Tax=Klebsiel...  79.1    8e-17
+  UniRef90_UPI0003793692 hypothetical protein n=1 Tax=Succinimona...  82.9    1e-16
+  UniRef90_A0A376W4S6 Protein n=2 Tax=Escherichia coli TaxID=562 ...  77.9    2e-16
+  UniRef90_A0A381GPC6 Z-ring-associated protein C n=1 Tax=Citroba...  73.7    1e-14
+  UniRef90_R5EQN4 Conserved domain protein n=2 Tax=Succinivibrion...  76.0    3e-14
+  UniRef90_A0A2X2BE32 Z-ring-associated protein C n=1 Tax=Proteus...  72.1    9e-14
+  UniRef90_A0A258CAU2 Uncharacterized protein (Fragment) n=1 Tax=...  72.1    2e-13
+  UniRef90_UPI000479D1DD hypothetical protein n=1 Tax=Aestuariiba...  72.5    4e-13
+  UniRef90_A0A364UIG5 Cell division protein ZapC (Fragment) n=1 T...  66.7    4e-12
+  UniRef90_A0A377CZ47 Protein n=1 Tax=Escherichia coli TaxID=562 ...  61.7    3e-10
+  UniRef90_A0A0B8Q422 Uncharacterized protein n=1 Tax=Vibrio sp. ...  60.6    1e-09
+  UniRef90_UPI0002556618 hypothetical protein n=1 Tax=Succinivibr...  56.0    3e-07
+  UniRef90_A0A0B8Q7H8 Uncharacterized protein n=1 Tax=Vibrio ishi...  47.1    1e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00048468E6 hypothetical protein n=1 Tax=Anaerobiosp...  52.9    1e-05
+  UniRef90_A0A0Q9L0S0 Alpha-L-rhamnosidase n=2 Tax=Paenibacillus ...  40.5    0.64 
+  UniRef90_A0A3B5QHD5 Uncharacterized protein n=1 Tax=Xiphophorus...  39.8    0.87 
+  UniRef90_A0A179D5Z3 RNase R-related protein n=1 Tax=Thermosulfu...  39.4    1.3  
+  UniRef90_A0A2T2PB88 Uncharacterized protein n=1 Tax=Corynespora...  38.2    3.7  
+  UniRef90_A0A1E7KK44 Uncharacterized protein n=1 Tax=Streptomyce...  35.9    3.7  
+  UniRef90_UPI0006418607 E3 ubiquitin-protein ligase MIB1 isoform...  37.8    5.4  
+  UniRef90_UPI00026C5B41 DUF5060 domain-containing protein n=1 Ta...  37.5    5.9  
+  UniRef90_A0A0C5V8Y9 Uncharacterized protein n=1 Tax=Gynuella su...  37.1    6.0  
+  UniRef90_Q1MZH9 Uncharacterized protein n=1 Tax=Bermanella mari...  36.7    8.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.161    0.531    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0494    0.140     1.90     42.6     43.6 
+
+Effective search space used: 743667230838
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

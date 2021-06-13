@@ -1,0 +1,2056 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414559.1
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_A0A3K2RHV3 Type I toxin-antitoxin system Hok family to...  133     1e-39
+  UniRef90_A0A1S9JFF8 Uncharacterized protein n=1 Tax=Shigella bo...  127     3e-37
+  UniRef90_UPI0005A7DF06 type I toxin-antitoxin system Hok family...  125     1e-36
+  UniRef90_UPI00092D7821 type I toxin-antitoxin system Hok family...  119     5e-34
+  UniRef90_A0A366FIX4 Protein HokC/D n=1 Tax=Pseudocitrobacter fa...  118     9e-34
+  UniRef90_UPI0009078676 type I toxin-antitoxin system Hok family...  118     1e-33
+  UniRef90_A0A066QNW3 Hok/Gef family protein n=76 Tax=Enterobacte...  115     2e-32
+  UniRef90_UPI0005307ADC type I toxin-antitoxin system Hok family...  113     7e-32
+  UniRef90_A0A1Q4PZ58 Uncharacterized protein n=7 Tax=Escherichia...  112     1e-31
+  UniRef90_L0M630 Hok/gef family n=1 Tax=Enterobacteriaceae bacte...  109     2e-30
+  UniRef90_UPI0008FC1A0D type I toxin-antitoxin system Hok family...  109     3e-30
+  UniRef90_UPI000E354BCA type I toxin-antitoxin system Hok family...  106     3e-29
+  UniRef90_A0A2T6WXV3 Hok/Gef family protein n=12 Tax=Enterobacte...  104     2e-28
+  UniRef90_UPI000BF83335 type I toxin-antitoxin system Hok family...  103     5e-28
+  UniRef90_UPI00093A1612 type I toxin-antitoxin system Hok family...  100     7e-27
+  UniRef90_UPI000BB81673 Hok/Gef family protein n=10 Tax=Escheric...  101     9e-27
+  UniRef90_P0ACG4 Toxic protein HokC n=321 Tax=root TaxID=1 RepID...  100     1e-26
+  UniRef90_A0A1X3I748 Uncharacterized protein n=1 Tax=Escherichia...  100     1e-26
+  UniRef90_A0A3K2XV63 Type I toxin-antitoxin system Hok family to...  100     1e-26
+  UniRef90_D3QSC5 Putative cell killing protein encoded within cr...  99.0    4e-26
+  UniRef90_A0A0B1NFM8 Regulatory protein n=1 Tax=Escherichia coli...  98.6    7e-26
+  UniRef90_UPI000D6A4D55 type I toxin-antitoxin system Hok family...  97.8    1e-25
+  UniRef90_A0A3L3ZEB7 Type I toxin-antitoxin system Hok family to...  97.4    2e-25
+  UniRef90_UPI000E0C774D type I toxin-antitoxin system Hok family...  95.9    4e-25
+  UniRef90_Q8Z606 Hok/Gef family protein n=276 Tax=Bacteria TaxID...  95.9    6e-25
+  UniRef90_UPI000446D56F type I toxin-antitoxin system Hok family...  95.1    8e-25
+  UniRef90_UPI000B7EE05B type I toxin-antitoxin system Hok family...  95.1    1e-24
+  UniRef90_UPI000BB72CE1 type I toxin-antitoxin system Hok family...  95.1    2e-24
+  UniRef90_D7XM04 Hok/gef family protein n=1 Tax=Escherichia coli...  94.7    2e-24
+  UniRef90_E9YNA0 Hok/gef family protein n=1 Tax=Escherichia coli...  95.5    2e-24
+  UniRef90_A0A368IPE3 Hok/Gef family protein n=2 Tax=Enterobacter...  94.7    2e-24
+  UniRef90_UPI00097F9A96 type I toxin-antitoxin system Hok family...  94.7    2e-24
+  UniRef90_UPI000DD3005F type I toxin-antitoxin system Hok family...  94.0    4e-24
+  UniRef90_UPI000B450B8C type I toxin-antitoxin system Hok family...  94.0    4e-24
+  UniRef90_A0A161Z608 Type I toxin-antitoxin system hok family to...  94.0    5e-24
+  UniRef90_UPI00050AFB25 type I toxin-antitoxin system Hok family...  93.6    6e-24
+  UniRef90_A0A0B1N1W0 Hok/Gef family protein n=227 Tax=root TaxID...  93.2    8e-24
+  UniRef90_UPI0005CDC800 type I toxin-antitoxin system Hok family...  92.0    2e-23
+  UniRef90_UPI0003EDDAB4 type I toxin-antitoxin system Hok family...  92.0    2e-23
+  UniRef90_B6IAZ1 Hypothetical phage protein n=153 Tax=root TaxID...  92.0    2e-23
+  UniRef90_A0A3J0L074 Type I toxin-antitoxin system Hok family to...  92.0    3e-23
+  UniRef90_UPI0003EF1970 type I toxin-antitoxin system Hok family...  91.7    3e-23
+  UniRef90_UPI000682E84D type I toxin-antitoxin system Hok family...  91.7    3e-23
+  UniRef90_L0M865 Hok/gef family n=5 Tax=Enterobacteriaceae TaxID...  90.5    6e-23
+  UniRef90_A0A1E5MDF7 Uncharacterized protein n=1 Tax=Escherichia...  90.9    7e-23
+  UniRef90_UPI000BDEA7E5 type I toxin-antitoxin system Hok family...  90.5    1e-22
+  UniRef90_UPI0003EE6C60 type I toxin-antitoxin system Hok family...  90.1    1e-22
+  UniRef90_UPI000BB8FE10 type I toxin-antitoxin system Hok family...  89.7    2e-22
+  UniRef90_UPI00053AFCB2 type I toxin-antitoxin system Hok family...  89.7    2e-22
+  UniRef90_A0A3F3P7M4 Type I toxin-antitoxin system hok family to...  88.2    7e-22
+  UniRef90_P0ACG7 Protein HokD n=60 Tax=Bacteria TaxID=2 RepID=HO...  86.3    3e-21
+  UniRef90_A0A3I7CD35 Type I toxin-antitoxin system Hok family to...  86.3    3e-21
+  UniRef90_UPI000DEC44CE type I toxin-antitoxin system Hok family...  86.3    3e-21
+  UniRef90_A0A193LRA6 Uncharacterized protein n=60 Tax=Enterobact...  85.9    5e-21
+  UniRef90_UPI000CF761B4 type I toxin-antitoxin system Hok family...  86.3    5e-21
+  UniRef90_UPI000A19C0F3 type I toxin-antitoxin system Hok family...  86.3    6e-21
+  UniRef90_A0A2S7GE46 Type I toxin-antitoxin system hok family to...  85.5    6e-21
+  UniRef90_A0A248KHQ2 Protein hokC n=1 Tax=Kluyvera georgiana Tax...  85.1    9e-21
+  UniRef90_UPI000CF0614E type I toxin-antitoxin system Hok family...  85.1    1e-20
+  UniRef90_A0A0V9S7L8 Uncharacterized protein (Fragment) n=1 Tax=...  84.7    2e-20
+  UniRef90_A0A1Q4PF16 Protein hokC n=37 Tax=root TaxID=1 RepID=A0...  84.3    2e-20
+  UniRef90_A0A2S5CBE0 Protein hokC n=3 Tax=Enterobacteriaceae Tax...  84.0    3e-20
+  UniRef90_L0M469 Hok/gef family n=1 Tax=Enterobacteriaceae bacte...  82.8    7e-20
+  UniRef90_A0A0M2KEB4 Protein hokC n=15 Tax=Enterobacterales TaxI...  82.4    1e-19
+  UniRef90_A0A2J7P2J0 Protein hokC n=1 Tax=Enterobacter canceroge...  80.5    6e-19
+  UniRef90_UPI000859E3A7 type I toxin-antitoxin system Hok family...  80.5    7e-19
+  UniRef90_UPI000CF02B3B type I toxin-antitoxin system Hok family...  80.1    7e-19
+  UniRef90_E1JBU1 Hok/gef family protein n=10 Tax=Escherichia col...  79.7    1e-18
+  UniRef90_UPI0002A3A56D type I toxin-antitoxin system Hok family...  79.7    1e-18
+  UniRef90_A0A1C7CK33 Protein hokC n=3 Tax=Enterobacteriaceae Tax...  79.3    1e-18
+  UniRef90_E3G7Z2 Hok/gef cell toxic protein n=1 Tax=Enterobacter...  79.0    2e-18
+  UniRef90_D4B814 Hok/gef family protein n=1 Tax=Citrobacter youn...  79.3    2e-18
+  UniRef90_UPI000BE58CAB type I toxin-antitoxin system Hok family...  79.0    2e-18
+  UniRef90_UPI000786936C type I toxin-antitoxin system Hok family...  78.6    3e-18
+  UniRef90_S1CF06 Regulatory protein mokC n=2 Tax=Enterobacteriac...  78.2    4e-18
+  UniRef90_UPI000C1F13AC protein hokD n=1 Tax=Escherichia coli Ta...  77.8    6e-18
+  UniRef90_UPI000BDEF3C9 type I toxin-antitoxin system Hok family...  77.8    6e-18
+  UniRef90_UPI0007747F56 type I toxin-antitoxin system Hok family...  77.8    8e-18
+  UniRef90_UPI000B3F402A type I toxin-antitoxin system Hok family...  77.4    1e-17
+  UniRef90_UPI000C040DD9 type I toxin-antitoxin system Hok family...  77.8    1e-17
+  UniRef90_A0A329VS32 Uncharacterized protein n=25 Tax=Photorhabd...  77.4    1e-17
+  UniRef90_A0A366FJ53 Protein HokC/D n=3 Tax=Pseudocitrobacter Ta...  76.6    2e-17
+  UniRef90_A0A3N2RZM1 Type I toxin-antitoxin system Hok family to...  76.6    2e-17
+  UniRef90_UPI0005A22522 type I toxin-antitoxin system Hok family...  76.3    3e-17
+  UniRef90_UPI00098C0362 Hok/Gef family protein n=2 Tax=Escherich...  77.0    3e-17
+  UniRef90_UPI00097F817F type I toxin-antitoxin system Hok family...  75.9    3e-17
+  UniRef90_UPI00050B08AB type I toxin-antitoxin system Hok family...  75.9    4e-17
+  UniRef90_UPI000BE4B8B2 type I toxin-antitoxin system Hok family...  75.9    4e-17
+  UniRef90_UPI000D76F34F type I toxin-antitoxin system Hok family...  75.1    8e-17
+  UniRef90_UPI00065A7981 hypothetical protein n=1 Tax=Escherichia...  75.5    8e-17
+  UniRef90_A0A1B7JIB0 MokW family protein n=4 Tax=Kluyvera TaxID=...  74.7    1e-16
+  UniRef90_UPI0007A5DFD4 type I toxin-antitoxin system Hok family...  73.6    3e-16
+  UniRef90_UPI000C7C9BFB hypothetical protein n=2 Tax=Escherichia...  73.9    5e-16
+  UniRef90_UPI0008FBCF4E type I toxin-antitoxin system Hok family...  72.8    7e-16
+  UniRef90_A0A3J1CPY5 Type I toxin-antitoxin system Hok family to...  72.8    9e-16
+  UniRef90_L0M365 Hok/gef family n=2 Tax=Enterobacteriaceae bacte...  71.6    2e-15
+  UniRef90_E6WKM5 Hok/gef cell toxic protein n=1 Tax=Pantoea sp. ...  71.6    2e-15
+  UniRef90_UPI000BAAA06B type I toxin-antitoxin system Hok family...  71.6    2e-15
+  UniRef90_UPI000BDE805E Hok/Gef family protein n=2 Tax=Escherich...  71.2    3e-15
+  UniRef90_A0A370QS17 Protein HokC/D n=2 Tax=Enterobacillus tribo...  71.2    4e-15
+  UniRef90_UPI000BEA942D type I toxin-antitoxin system Hok family...  71.2    4e-15
+  UniRef90_A0A3L1B7C7 Type I toxin-antitoxin system Hok family to...  70.5    5e-15
+  UniRef90_UPI000DCB57FA type I toxin-antitoxin system Hok family...  70.9    6e-15
+  UniRef90_UPI000751716E Hok/Gef family protein n=1 Tax=Escherich...  70.1    8e-15
+  UniRef90_UPI00050B603E type I toxin-antitoxin system Hok family...  69.3    2e-14
+  UniRef90_A0A1X1EFY0 Protein hokC n=1 Tax=Pantoea cypripedii Tax...  68.9    2e-14
+  UniRef90_A0A2U9KP94 Type I toxin-antitoxin system hok family to...  68.6    2e-14
+  UniRef90_A0A1B8YFR7 Small toxic polypeptide n=3 Tax=Photorhabdu...  68.6    4e-14
+  UniRef90_A0A140RT40 Protein hokC n=5 Tax=Proteobacteria TaxID=1...  67.8    6e-14
+  UniRef90_A0A1G5Q6B6 Protein HokB n=6 Tax=Photorhabdus luminesce...  68.2    6e-14
+  UniRef90_UPI00092D5DB5 type I toxin-antitoxin system Hok family...  67.8    7e-14
+  UniRef90_UPI000B4295AF type I toxin-antitoxin system Hok family...  67.8    7e-14
+  UniRef90_A0A3I9Q4J0 Type I toxin-antitoxin system Hok family to...  67.0    8e-14
+  UniRef90_UPI000BB73463 type I toxin-antitoxin system Hok family...  67.4    1e-13
+  UniRef90_UPI00038FC0BD type I toxin-antitoxin system Hok family...  67.4    1e-13
+  UniRef90_A0A0J8YNX8 Protein hokC n=2 Tax=unclassified Erwiniace...  66.6    2e-13
+  UniRef90_A0A3J7HFN3 DUF977 family protein n=23 Tax=Escherichia ...  69.7    2e-13
+  UniRef90_UPI000E679A66 type I toxin-antitoxin system Hok family...  67.0    2e-13
+  UniRef90_L0M665 Hok/gef family n=1 Tax=Enterobacteriaceae bacte...  65.9    3e-13
+  UniRef90_S1PG80 Protein hokD n=3 Tax=Escherichia coli TaxID=562...  65.9    4e-13
+  UniRef90_A0A3E1WCA4 Protein hokC n=2 Tax=Escherichia coli TaxID...  65.1    5e-13
+  UniRef90_UPI0009403FF8 type I toxin-antitoxin system Hok family...  65.1    8e-13
+  UniRef90_A0A292AJC9 Uncharacterized protein n=9 Tax=Yersiniacea...  65.1    1e-12
+  UniRef90_A0A266HSH4 Hok/Gef family protein n=5 Tax=Escherichia ...  62.8    4e-12
+  UniRef90_UPI000E0EF299 Hok/Gef family protein n=1 Tax=Serratia ...  63.5    5e-12
+  UniRef90_UPI000CF1169D type I toxin-antitoxin system Hok family...  62.4    9e-12
+  UniRef90_UPI0006B40D28 type I toxin-antitoxin system Hok family...  62.4    1e-11
+  UniRef90_UPI000F8CC77B hypothetical protein n=1 Tax=Escherichia...  62.0    2e-11
+  UniRef90_UPI00090802E7 type I toxin-antitoxin system Hok family...  61.6    2e-11
+  UniRef90_W0HLD2 Regulatory peptide whose translation enables ho...  61.6    2e-11
+  UniRef90_UPI00098BFA9B type I toxin-antitoxin system Hok family...  61.6    3e-11
+  UniRef90_A0A254MBU2 Uncharacterized protein n=1 Tax=Photorhabdu...  60.1    1e-10
+  UniRef90_UPI000B3F5FDE Hok/Gef family protein n=1 Tax=Escherich...  59.7    1e-10
+  UniRef90_UPI000B7D2F42 type I toxin-antitoxin system Hok family...  59.3    1e-10
+  UniRef90_A0A0A0CV74 Protein HokA n=9 Tax=Photorhabdus TaxID=294...  59.7    1e-10
+  UniRef90_UPI00098CD271 type I toxin-antitoxin system Hok family...  58.9    2e-10
+  UniRef90_W0HPQ5 Small toxic membrane protein HokA n=2 Tax=Sodal...  58.5    2e-10
+  UniRef90_W0HL31 Regulatory peptide whose translation enables ho...  59.3    2e-10
+  UniRef90_R9VJS9 Regulatory protein n=3 Tax=Enterobacteriaceae T...  58.5    4e-10
+  UniRef90_L0M2Z5 Hok/gef family n=5 Tax=Enterobacteriaceae TaxID...  57.8    5e-10
+  UniRef90_UPI0009455729 type I toxin-antitoxin system Hok family...  58.5    6e-10
+  UniRef90_UPI0003DDB0B3 Hok/Gef family protein n=1 Tax=Escherich...  57.4    8e-10
+  UniRef90_A0A3E2KKM7 Type I toxin-antitoxin system hok family to...  57.4    1e-09
+  UniRef90_A0A3G2IKV2 Type I toxin-antitoxin system Hok family to...  57.0    2e-09
+  UniRef90_A0A0J8YNZ1 Protein hokC n=2 Tax=unclassified Erwiniace...  56.2    2e-09
+  UniRef90_A0A0B1R8Y6 Protein hokC n=3 Tax=Enterobacterales TaxID...  56.2    2e-09
+  UniRef90_A0A236M629 Uncharacterized protein n=1 Tax=Shigella bo...  55.8    2e-09
+  UniRef90_A0A1Q5VAI5 Uncharacterized protein n=3 Tax=Serratia fo...  57.0    3e-09
+  UniRef90_D4E7G6 Hok/gef family protein n=3 Tax=Yersiniaceae Tax...  56.2    3e-09
+  UniRef90_A0A1C0U3X4 Small toxic polypeptide n=8 Tax=Photorhabdu...  55.8    3e-09
+  UniRef90_A0A1X1EH77 Protein hokC n=2 Tax=Pantoea cypripedii Tax...  55.8    3e-09
+  UniRef90_A0A330E0C0 Uncharacterized protein n=3 Tax=Enterobacte...  55.8    5e-09
+  UniRef90_A0A2N0MZA9 Uncharacterized protein n=2 Tax=Ewingella a...  55.5    6e-09
+  UniRef90_A0A1S9JLI0 Uncharacterized protein n=1 Tax=Shigella bo...  54.7    8e-09
+  UniRef90_R9VTX7 Regulatory protein n=3 Tax=Enterobacteriaceae T...  55.5    8e-09
+  UniRef90_A0A0U4HHT7 Endonuclease n=3 Tax=Serratia TaxID=613 Rep...  54.7    1e-08
+  UniRef90_A0A3K2PAD2 Type I toxin-antitoxin system Hok family to...  53.9    1e-08
+  UniRef90_A0A3L8W533 Hok/Gef family protein n=6 Tax=Enterobacter...  53.5    2e-08
+  UniRef90_A0A2N5E3B9 Uncharacterized protein n=1 Tax=Yersiniacea...  53.9    2e-08
+  UniRef90_A0A1J4R8F3 Uncharacterized protein n=1 Tax=Salmonella ...  53.9    2e-08
+  UniRef90_UPI00020E976C Hok/Gef family protein n=1 Tax=Serratia ...  53.5    3e-08
+  UniRef90_A0A3K3TD21 Hok/Gef family protein n=1 Tax=Escherichia ...  53.5    3e-08
+  UniRef90_A0A0H2VU80 Host cell-killing modulation protein n=1 Ta...  53.1    3e-08
+  UniRef90_A0A1B8YEC3 Small toxic polypeptide n=3 Tax=Photorhabdu...  53.5    3e-08
+  UniRef90_A0A0Q4M980 Uncharacterized protein n=3 Tax=Yersiniacea...  53.9    4e-08
+  UniRef90_A0A2N5E8A3 Uncharacterized protein n=4 Tax=Yersiniacea...  53.1    5e-08
+  UniRef90_T0PCV9 Uncharacterized protein n=1 Tax=Photorhabdus te...  53.5    5e-08
+  UniRef90_UPI000B42B52E type I toxin-antitoxin system Hok family...  52.8    5e-08
+  UniRef90_A0A1Q5VEZ8 Endonuclease n=13 Tax=Serratia TaxID=613 Re...  52.8    6e-08
+  UniRef90_D9Z4W9 Hok n=5 Tax=Enterobacterales TaxID=91347 RepID=...  53.5    6e-08
+  UniRef90_UPI0009DEC989 type I toxin-antitoxin system Hok family...  53.1    7e-08
+  UniRef90_UPI00069221D5 Hok/Gef family protein n=1 Tax=Siccibact...  52.4    8e-08
+  UniRef90_A0A0F7HES0 Endonuclease n=1 Tax=Serratia fonticola Tax...  52.4    8e-08
+  UniRef90_UPI000312D518 Hok/Gef family protein n=1 Tax=Serratia ...  52.4    8e-08
+  UniRef90_UPI0008FAE3EB Hok/Gef family protein n=3 Tax=Hafniacea...  52.0    1e-07
+  UniRef90_A0A0N7JQG8 Endonuclease n=52 Tax=Bacteria TaxID=2 RepI...  52.0    1e-07
+  UniRef90_A0A1G5Q5M3 Protein HokA n=6 Tax=Photorhabdus TaxID=294...  52.0    1e-07
+  UniRef90_A0A077W6L2 Uncharacterized protein n=37 Tax=Enterobact...  51.6    2e-07
+  UniRef90_S4YEN8 Endonuclease n=8 Tax=Serratia TaxID=613 RepID=S...  50.4    4e-07
+  UniRef90_A0A2G4UHZ5 Small toxic polypeptide n=6 Tax=Yersiniacea...  50.4    4e-07
+  UniRef90_UPI0009B5900D Hok/Gef family protein n=1 Tax=Serratia ...  50.4    5e-07
+  UniRef90_A0A330EWP1 Small toxic polypeptide n=5 Tax=Enterobacte...  50.1    7e-07
+  UniRef90_UPI0009DC179C type I toxin-antitoxin system Hok family...  50.4    8e-07
+  UniRef90_UPI00020E976A Hok/Gef family protein n=1 Tax=Serratia ...  49.7    9e-07
+  UniRef90_A0A2T2XYS5 Type I toxin-antitoxin system hok family to...  49.3    1e-06
+  UniRef90_S4YN47 Endonuclease n=8 Tax=Serratia TaxID=613 RepID=S...  49.3    1e-06
+  UniRef90_A0A1B1IL30 Stm n=22 Tax=Enterobacterales TaxID=91347 R...  49.7    1e-06
+  UniRef90_A0A162D4T8 Small toxic polypeptide n=7 Tax=Enterobacte...  49.3    1e-06
+  UniRef90_UPI0008FCA7CB Hok/Gef family protein n=1 Tax=Photorhab...  49.3    1e-06
+  UniRef90_U7QQ31 Protein hokC n=1 Tax=Photorhabdus temperata J3 ...  48.5    1e-06
+  UniRef90_A0A2Z2J655 Small toxic polypeptide n=7 Tax=Enterobacte...  48.9    2e-06
+  UniRef90_UPI00074397A0 type I toxin-antitoxin system Hok family...  49.3    2e-06
+  UniRef90_UPI00066FF413 Hok/Gef family protein n=2 Tax=Yersinia ...  48.9    2e-06
+  UniRef90_A0A1B3F7Z3 Endonuclease n=29 Tax=Yersiniaceae TaxID=19...  48.9    2e-06
+  UniRef90_A0A087KK29 Endonuclease n=1 Tax=Serratia sp. Ag1 TaxID...  48.9    2e-06
+  UniRef90_UPI000DA1383D type I toxin-antitoxin system Hok family...  49.3    2e-06
+  UniRef90_A0A3Q0NQE2 Small toxic polypeptide n=1 Tax=Serratia ma...  48.5    2e-06
+  UniRef90_UPI000C7AB7F0 Hok/Gef family protein n=1 Tax=Yersiniac...  48.9    2e-06
+  UniRef90_UPI0002D9F090 Hok/Gef family protein n=1 Tax=Candidatu...  48.9    2e-06
+  UniRef90_UPI000A0EE77A type I toxin-antitoxin system Hok family...  48.9    3e-06
+  UniRef90_A0A1Q5V3J3 Protein HokA n=1 Tax=Serratia fonticola Tax...  48.9    3e-06
+  UniRef90_A0A2J1D5R1 Endonuclease n=1 Tax=Escherichia coli TaxID...  48.1    4e-06
+  UniRef90_UPI00055E7EEC Hok/Gef family protein n=1 Tax=Pantoea s...  47.8    4e-06
+  UniRef90_A0A370S891 Protein HokB n=1 Tax=Serratia fonticola Tax...  48.1    5e-06
+  UniRef90_UPI0009333E0F Hok/Gef family protein n=2 Tax=Yersiniac...  48.1    6e-06
+  UniRef90_A0A221ZQI7 Uncharacterized protein n=13 Tax=Gammaprote...  48.5    6e-06
+  UniRef90_A0A351LTC9 Uncharacterized protein n=1 Tax=Franconibac...  47.8    7e-06
+  UniRef90_A0A1G4DF88 Small toxic protein n=1 Tax=Klebsiella pneu...  48.1    8e-06
+  UniRef90_A0A2P8VMY4 Hok/Gef family protein n=1 Tax=Siccibacter ...  47.4    8e-06
+  UniRef90_A0A3M9UW94 Hok/Gef family protein n=1 Tax=Escherichia ...  46.6    9e-06
+  UniRef90_A0A1J4R0K7 Uncharacterized protein n=1 Tax=Salmonella ...  47.4    9e-06
+  UniRef90_A0A090V7D9 Regulatory protein MokC n=2 Tax=Enterobacte...  47.4    1e-05
+  UniRef90_A0A1N6VS74 Protein HokA n=1 Tax=Enterobacter kobei Tax...  47.4    1e-05
+  UniRef90_UPI000D0BE643 type I toxin-antitoxin system Hok family...  47.4    1e-05
+  UniRef90_P62671 Stable plasmid inheritance protein n=50 Tax=Bac...  47.0    1e-05
+  UniRef90_UPI00094488A2 type I toxin-antitoxin system toxin HokA...  47.4    1e-05
+  UniRef90_UPI000BE3E9F1 type I toxin-antitoxin system Hok family...  47.0    1e-05
+  UniRef90_A0A318P2P5 Hok/Gef family protein n=1 Tax=Serratia ply...  46.6    1e-05
+  UniRef90_UPI000DEC16D0 Hok/Gef family protein n=1 Tax=Salmonell...  46.6    1e-05
+  UniRef90_A0A2T7B0L7 Type I toxin-antitoxin system hok family to...  46.6    1e-05
+  UniRef90_A0A1E5M2Y1 Hok/Gef family protein n=8 Tax=Enterobacter...  46.6    1e-05
+  UniRef90_A0A1W5DFI3 Small toxic polypeptide Qin prophage n=8 Ta...  46.6    1e-05
+  UniRef90_A0A379QTZ9 Protein pndA n=3 Tax=Salmonella enterica Ta...  47.8    2e-05
+  UniRef90_A0A2U8IAX7 Small toxic polypeptide n=1 Tax=Candidatus ...  46.6    2e-05
+  UniRef90_UPI0002C08C6A type I toxin-antitoxin system Hok family...  46.6    2e-05
+  UniRef90_D2TJU7 Small toxic membrane protein HokA n=4 Tax=Citro...  46.6    2e-05
+  UniRef90_F9RJN1 Small toxic membrane protein HokA n=2 Tax=Vibri...  46.6    2e-05
+  UniRef90_A0A336QZL8 Small toxic membrane protein HokA n=4 Tax=E...  46.6    2e-05
+  UniRef90_A0A2N5EPN5 Hok/Gef family protein n=4 Tax=Yersiniaceae...  46.2    2e-05
+  UniRef90_A4WGQ7 Hok/gef cell toxic protein n=2 Tax=Enterobacter...  46.6    2e-05
+  UniRef90_I2XJC6 Protein HokC n=3 Tax=Escherichia coli TaxID=562...  46.2    2e-05
+  UniRef90_UPI000DEF6D52 Hok/Gef family protein n=1 Tax=Rahnella ...  46.2    2e-05
+  UniRef90_A0A1C6YY26 Hok/Gef family protein n=4 Tax=Hafniaceae T...  46.2    2e-05
+  UniRef90_A0A1V3CBA2 Uncharacterized protein (Fragment) n=2 Tax=...  45.8    2e-05
+  UniRef90_UPI0009F9946C Hok/Gef family protein n=1 Tax=Enterobac...  45.8    2e-05
+  UniRef90_UPI000563242E Hok/Gef family protein n=1 Tax=Pantoea s...  45.8    2e-05
+  UniRef90_A0A209A139 Small toxic polypeptide n=4 Tax=Yersinia Ta...  45.8    3e-05
+  UniRef90_A0A2X4QV78 Protein pndA n=11 Tax=Salmonella enterica T...  46.2    3e-05
+  UniRef90_A0A167R0S4 Small toxic polypeptide n=42 Tax=Enterobact...  45.8    3e-05
+  UniRef90_A0A2G4U2N1 Small toxic polypeptide n=4 Tax=Yersinia Ta...  45.4    3e-05
+  UniRef90_UPI0007508144 hypothetical protein n=1 Tax=Escherichia...  47.4    4e-05
+  UniRef90_UPI0009BACBE0 type I toxin-antitoxin system Hok family...  45.4    4e-05
+  UniRef90_F9RQQ7 Post-segregation killing protein n=3 Tax=Vibrio...  45.4    4e-05
+  UniRef90_UPI000DD2F180 Hok/Gef family protein n=2 Tax=Serratia ...  45.4    4e-05
+  UniRef90_D4I1C1 Protein hok n=5 Tax=Enterobacterales TaxID=9134...  45.4    4e-05
+  UniRef90_A0A3N1W8F0 Protein HokB n=2 Tax=Erwinia sp. JUb26 TaxI...  45.4    5e-05
+  UniRef90_A0A2S9UC91 Hok/gef family protein n=15 Tax=Enterobacte...  45.1    7e-05
+  UniRef90_L0M0H8 Hok/gef family n=9 Tax=Enterobacteriaceae TaxID...  45.4    7e-05
+  UniRef90_UPI00055A5758 type I toxin-antitoxin system Hok family...  44.7    8e-05
+  UniRef90_UPI00037D3DC8 Hok/Gef family protein n=1 Tax=Erwinia t...  44.7    8e-05
+  UniRef90_V1WPS7 Uncharacterized protein n=8 Tax=Enterobacteriac...  44.7    9e-05
+  UniRef90_A0A3I9X3B0 Hok/Gef family protein n=3 Tax=Salmonella e...  44.3    1e-04
+  UniRef90_A0A1B7JY27 Hok/gef family toxic protein n=2 Tax=Kluyve...  44.3    1e-04
+  UniRef90_A0A2C5WHB7 Small toxic polypeptide n=4 Tax=Pluralibact...  44.3    1e-04
+  UniRef90_UPI00093C2923 type I toxin-antitoxin system toxin HokA...  44.7    1e-04
+  UniRef90_A0A248KHP7 Uncharacterized protein n=1 Tax=Kluyvera ge...  44.7    1e-04
+  UniRef90_A0A0J8YNG0 Protein hokC n=2 Tax=unclassified Erwiniace...  44.3    1e-04
+  UniRef90_W7NR22 F leading maintenance protein n=76 Tax=Enteroba...  43.9    2e-04
+  UniRef90_A0A0G3S6F7 Small toxic polypeptide n=7 Tax=Enterobacte...  43.9    2e-04
+  UniRef90_G9G195 F factor n=9 Tax=Bacteria TaxID=2 RepID=G9G195_...  43.5    2e-04
+  UniRef90_G2GZX5 Hok/gef family protein n=2 Tax=Candidatus Regie...  44.3    2e-04
+  UniRef90_UPI00031E6347 Hok/Gef family protein n=1 Tax=Metakosak...  43.9    2e-04
+  UniRef90_A0A127KWZ4 F factor n=1 Tax=Enterobacter sp. FY-07 Tax...  43.9    2e-04
+  UniRef90_A0A2S9IF77 Small toxic polypeptide n=1 Tax=Pantoea cof...  43.5    2e-04
+  UniRef90_A0A2A3KP04 Small toxic polypeptide n=4 Tax=Enterobacte...  43.5    2e-04
+  UniRef90_D2Z9L6 Hok/gef family protein n=28 Tax=Bacteria TaxID=...  44.7    2e-04
+  UniRef90_A0A2S5C625 Hok/Gef family protein n=4 Tax=Enterobacter...  43.5    2e-04
+  UniRef90_A0A1A9F732 Small toxic polypeptide n=1 Tax=Lelliottia ...  43.5    2e-04
+  UniRef90_A0A344QMW9 Type I toxin-antitoxin system hok family to...  43.5    2e-04
+  UniRef90_A0A378GEF9 Small toxic polypeptide n=2 Tax=Kluyvera as...  43.5    2e-04
+  UniRef90_A0A351LXC3 Hok/Gef family protein n=1 Tax=Franconibact...  43.5    3e-04
+  UniRef90_UPI000949661D Hok/Gef family protein n=1 Tax=Serratia ...  43.5    3e-04
+  UniRef90_A8GIY0 Hok/gef cell toxic protein n=3 Tax=Serratia Tax...  43.1    3e-04
+  UniRef90_UPI000F67FEF3 Hok/Gef family protein n=2 Tax=Atlantiba...  43.1    4e-04
+  UniRef90_M1EXW0 Hok/gef family protein n=22 Tax=Enterobacterale...  43.1    4e-04
+  UniRef90_UPI0006676FDC type I toxin-antitoxin system Hok family...  43.1    4e-04
+  UniRef90_W0AVD7 Small toxic polypeptide n=2 Tax=Escherichia alb...  42.7    4e-04
+  UniRef90_A0A2J4VQQ7 Type I toxin-antitoxin system hok family to...  43.5    4e-04
+  UniRef90_A0A2S0PSN1 Small toxic polypeptide n=13 Tax=Enterobact...  42.7    4e-04
+  UniRef90_A0A3A5JTN4 Hok/Gef family protein n=2 Tax=Buttiauxella...  42.7    4e-04
+  UniRef90_A0A1V8NRU1 Small toxic polypeptide n=1 Tax=Citrobacter...  42.7    5e-04
+  UniRef90_A0A2S8DU71 Protein HokA n=11 Tax=Enterobacteriaceae Ta...  43.1    5e-04
+  UniRef90_UPI000BE961AC hypothetical protein n=1 Tax=Escherichia...  43.1    5e-04
+  UniRef90_B1EI90 Protein hokA n=26 Tax=Enterobacteriaceae TaxID=...  42.7    5e-04
+  UniRef90_A0A0Q4MFE7 Protein hokC n=1 Tax=Erwinia sp. Leaf53 Tax...  42.7    5e-04
+  UniRef90_UPI0009395C09 type I toxin-antitoxin system toxin HokA...  42.7    5e-04
+  UniRef90_A0A1B1LQQ7 Small toxic polypeptide n=19 Tax=Enterobact...  42.7    6e-04
+  UniRef90_A0A0J8VLS4 Small toxic polypeptide n=2 Tax=Franconibac...  42.7    6e-04
+  UniRef90_UPI000743F62A type I toxin-antitoxin system toxin HokA...  42.4    6e-04
+  UniRef90_UPI000F671275 Hok/Gef family protein n=1 Tax=Enterobac...  42.4    6e-04
+  UniRef90_UPI000CFBD239 type I toxin-antitoxin system Hok family...  42.4    6e-04
+  UniRef90_UPI000E2172C4 Hok/Gef family protein n=1 Tax=Escherich...  43.1    7e-04
+  UniRef90_A0A2H9EGF6 Hok/Gef family protein n=16 Tax=Enterobacte...  42.4    7e-04
+  UniRef90_A0A142EBB2 Hok n=13 Tax=Enterobacterales TaxID=91347 R...  42.4    7e-04
+  UniRef90_V5CL80 Hok/gef family protein n=3 Tax=Enterobacteriace...  42.4    7e-04
+  UniRef90_A0A2M4ERJ2 Type I toxin-antitoxin system hok family to...  42.7    7e-04
+  UniRef90_A0A344QEY5 Uncharacterized protein n=1 Tax=Salmonella ...  42.7    7e-04
+  UniRef90_UPI000CF05179 type I toxin-antitoxin system Hok family...  42.4    8e-04
+  UniRef90_UPI000B40A3EA type I toxin-antitoxin system Hok family...  42.4    8e-04
+  UniRef90_A0A2I0FQC0 Small toxic polypeptide n=1 Tax=Enterobacte...  42.0    8e-04
+  UniRef90_A0A1X0YMP6 Endonuclease n=59 Tax=Enterobacteriaceae Ta...  42.7    8e-04
+  UniRef90_UPI000464642B type I toxin-antitoxin system Hok family...  42.0    0.001
+  UniRef90_UPI00064B3FE0 type I toxin-antitoxin system Hok family...  42.0    0.001
+  UniRef90_A0A1P8MPM4 Protein hokC n=8 Tax=Vibrionaceae TaxID=641...  42.0    0.001
+  UniRef90_A0A0U4IF84 Hok/Gef family protein n=4 Tax=Serratia Tax...  42.0    0.001
+  UniRef90_A0A1Z3MNQ6 HokG n=3 Tax=Aeromonas TaxID=642 RepID=A0A1...  42.0    0.001
+  UniRef90_A0A1S0Z7S0 Small toxic polypeptide n=6 Tax=Salmonella ...  42.0    0.001
+  UniRef90_UPI00092E9695 Hok/Gef family protein n=1 Tax=Trabulsie...  41.6    0.001
+  UniRef90_A0A2S4N2X7 Hok/Gef family protein n=120 Tax=root TaxID...  42.0    0.001
+  UniRef90_A0A0M2MYT9 Hok/Gef family protein n=5 Tax=Hafniaceae T...  41.6    0.001
+  UniRef90_V1WPA4 Post-segregation killing protein n=22 Tax=Enter...  41.6    0.001
+  UniRef90_UPI000F0AA04E type I toxin-antitoxin system toxin HokA...  42.0    0.001
+  UniRef90_A4SUJ6 SrnB protein n=4 Tax=Aeromonas salmonicida TaxI...  43.1    0.001
+  UniRef90_A0A1Q4MCY0 HokG n=7 Tax=Aeromonas TaxID=642 RepID=A0A1...  41.2    0.002
+  UniRef90_UPI0008FF8667 type I toxin-antitoxin system Hok family...  41.2    0.002
+  UniRef90_A0A176X3W9 Small toxic polypeptide n=21 Tax=Enterobact...  41.2    0.002
+  UniRef90_UPI000B4BC74E Hok/Gef family protein n=1 Tax=Salmonell...  41.2    0.002
+  UniRef90_J8SSC8 Hok/gef family protein n=3 Tax=Enterobacteriace...  41.2    0.002
+  UniRef90_A0A024HVW6 Hok/Gef family protein n=10 Tax=Enterobacte...  41.2    0.002
+  UniRef90_A0A0M2KCA8 Uncharacterized protein n=2 Tax=Erwinia tra...  41.6    0.002
+  UniRef90_A0A0M3EXU4 Small toxic polypeptide n=3 Tax=Enterobacte...  41.2    0.002
+  UniRef90_A0A090NE27 Hok/gef family protein n=7 Tax=Enterobacter...  41.2    0.002
+  UniRef90_G2H2C1 Hok/gef family protein n=3 Tax=Candidatus Regie...  41.6    0.002
+  UniRef90_A0A1T4V8V1 Hok/gef family protein n=1 Tax=Enterovibrio...  40.8    0.002
+  UniRef90_A0A2A2C783 Small toxic polypeptide n=4 Tax=Escherichia...  40.8    0.002
+  UniRef90_UPI0009ADD527 type I toxin-antitoxin system Hok family...  40.8    0.003
+  UniRef90_A0A1P8MBY8 Protein hokC n=4 Tax=Vibrio harveyi group T...  40.8    0.003
+  UniRef90_A0A318FEH6 Protein HokA n=1 Tax=Klebsiella oxytoca Tax...  40.8    0.003
+  UniRef90_UPI00093A15DF type I toxin-antitoxin system Hok family...  41.2    0.003
+  UniRef90_A0A3L4K4B6 Type I toxin-antitoxin system toxin HokA n=...  40.8    0.003
+  UniRef90_Q2VNZ0 Hok/Gef family protein n=44 Tax=Enterobacterale...  40.8    0.003
+  UniRef90_U2MJE2 Uncharacterized protein n=3 Tax=Serratia fontic...  40.8    0.003
+  UniRef90_F9S3Q0 Post-segregation killing protein n=2 Tax=Vibrio...  40.4    0.003
+  UniRef90_A0A0L7TAL7 Small toxic polypeptide n=2 Tax=Erwinia ini...  40.4    0.003
+  UniRef90_UPI000A19E3A4 type I toxin-antitoxin system Hok family...  40.4    0.004
+  UniRef90_UPI00098913DC type I toxin-antitoxin system Hok family...  41.2    0.004
+  UniRef90_C9Y322 Stable plasmid inheritance protein n=13 Tax=Cro...  40.4    0.004
+  UniRef90_A0A3N1WBJ7 Protein HokB n=1 Tax=Erwinia sp. JUb26 TaxI...  40.4    0.004
+  UniRef90_UPI000F51C5D4 Hok/Gef family protein n=1 Tax=Klebsiell...  40.4    0.005
+  UniRef90_P77494 Toxic protein HokB n=77 Tax=Enterobacteriaceae ...  40.0    0.005
+  UniRef90_UPI0003637613 Hok/Gef family protein n=1 Tax=Vibrio ta...  40.0    0.005
+  UniRef90_A0A2L1UPU8 Small toxic polypeptide n=1 Tax=Rahnella sp...  40.0    0.006
+  UniRef90_UPI000E205228 type I toxin-antitoxin system Hok family...  40.0    0.006
+  UniRef90_Q47655 F factor (stm) n=1 Tax=Escherichia coli TaxID=5...  40.0    0.006
+  UniRef90_UPI000B42C3DB Hok/Gef family protein n=1 Tax=Escherich...  40.0    0.006
+  UniRef90_UPI0009FD13AE Hok/Gef family protein n=1 Tax=Vibrio ic...  39.7    0.007
+  UniRef90_A0A090R771 Uncharacterized protein n=1 Tax=Vibrio sp. ...  39.7    0.007
+  UniRef90_UPI0009825351 type I toxin-antitoxin system Hok family...  39.7    0.007
+  UniRef90_A0A2A7T669 Hok/Gef family protein n=1 Tax=Yersinia kri...  39.7    0.008
+  UniRef90_UPI000699F874 Hok/Gef family protein n=1 Tax=Salmonell...  39.7    0.008
+  UniRef90_UPI00050B21EE type I toxin-antitoxin system Hok family...  39.7    0.008
+  UniRef90_A0A068Q847 Putative phage encoded cell killing protein...  39.3    0.008
+  UniRef90_UPI0007A09FC5 type I toxin-antitoxin system Hok family...  39.7    0.008
+  UniRef90_A0A0Q4MK54 Small toxic polypeptide n=2 Tax=Erwiniaceae...  39.7    0.008
+  UniRef90_A0A2N5E6U8 Uncharacterized protein n=1 Tax=Yersiniacea...  40.0    0.008
+  UniRef90_D3H5D3 Post-segregation killing protein n=38 Tax=Enter...  39.7    0.009
+  UniRef90_A0A2I8XNR9 Protein pndA n=4 Tax=Vibrio harveyi group T...  39.7    0.009
+  UniRef90_I0QXL4 Putative cell killing protein n=1 Tax=Serratia ...  40.0    0.009
+  UniRef90_V0A5D7 Hok/gef family protein (Fragment) n=6 Tax=Esche...  40.0    0.009
+  UniRef90_H5UZ31 HokB protein n=3 Tax=Enterobacteriaceae TaxID=5...  39.3    0.010
+  UniRef90_UPI000C9BDBD1 Hok/Gef family protein n=1 Tax=Vibrio pa...  39.3    0.010
+  UniRef90_A0A3P1LTV0 Type I toxin-antitoxin system Hok family to...  39.3    0.010
+  UniRef90_UPI0002F4F2F1 Hok/Gef family protein n=1 Tax=Shewanell...  39.3    0.011
+  UniRef90_A0A3N1W9W0 Protein HokB n=1 Tax=Erwinia sp. JUb26 TaxI...  39.3    0.011
+  UniRef90_UPI000B4A2546 type I toxin-antitoxin system Hok family...  39.3    0.011
+  UniRef90_A0A162M6E0 Small toxic polypeptide n=3 Tax=Escherichia...  39.3    0.011
+  UniRef90_A0A2S4WXD0 Small toxic polypeptide n=2 Tax=Leclercia T...  39.3    0.011
+  UniRef90_A0A2P5GM96 Small toxic polypeptide n=2 Tax=Superficiei...  39.3    0.011
+  UniRef90_UPI0009071603 type I toxin-antitoxin system Hok family...  39.3    0.011
+  UniRef90_A0A061YDD9 Hok/Gef family protein n=10 Tax=Enterobacte...  39.3    0.011
+  UniRef90_UPI000D6A350A type I toxin-antitoxin system Hok family...  39.3    0.012
+  UniRef90_A7MPJ9 Uncharacterized protein n=14 Tax=Cronobacter Ta...  39.3    0.013
+  UniRef90_A0A2N7KP25 Protein hokC n=4 Tax=Vibrio TaxID=662 RepID...  39.3    0.013
+  UniRef90_UPI0002FE33AE type I toxin-antitoxin system Hok family...  38.9    0.014
+  UniRef90_UPI000BE6C67E Hok/Gef family protein n=1 Tax=Escherich...  38.9    0.014
+  UniRef90_UPI0007F8AAEC type I toxin-antitoxin system Hok family...  38.9    0.015
+  UniRef90_A0A317PZS7 Protein HokB n=1 Tax=Mangrovibacter plantis...  39.3    0.015
+  UniRef90_A0A3K3KU69 Type I toxin-antitoxin system toxin HokA n=...  38.9    0.015
+  UniRef90_P37305 Protein HokA n=43 Tax=Enterobacteriaceae TaxID=...  38.9    0.015
+  UniRef90_UPI0009E613CD Hok/Gef family protein n=1 Tax=Vibrio ja...  38.9    0.016
+  UniRef90_A0A085GUW5 Hok/Gef family protein n=3 Tax=Hafnia alvei...  38.9    0.016
+  UniRef90_A0A2S7UFL2 Protein hokC n=11 Tax=Vibrionaceae TaxID=64...  38.9    0.017
+  UniRef90_B5XMY8 Protein HokA n=25 Tax=Enterobacteriaceae TaxID=...  38.9    0.017
+  UniRef90_A0A176XAS8 Small toxic polypeptide n=2 Tax=Enterobacte...  38.9    0.018
+  UniRef90_A0A1C7WAD8 Endonuclease n=1 Tax=Serratia sp. 14-2641 T...  38.5    0.018
+  UniRef90_A0A0J8VH13 Small toxic polypeptide n=6 Tax=Franconibac...  38.9    0.019
+  UniRef90_A0A2H9EQ84 Small toxic polypeptide n=2 Tax=Escherichia...  38.9    0.020
+  UniRef90_A0A0F1BE80 Endonuclease n=23 Tax=Enterobacterales TaxI...  38.5    0.021
+  UniRef90_L0M729 Hok/gef family n=2 Tax=Enterobacteriaceae TaxID...  38.5    0.021
+  UniRef90_UPI00092F266F Hok/Gef family protein n=1 Tax=Escherich...  38.5    0.022
+  UniRef90_UPI0009AA4F3C Hok/Gef family protein n=1 Tax=Salmonell...  38.5    0.023
+  UniRef90_A0A345WYD9 Uncharacterized protein n=2 Tax=Klebsiella ...  38.1    0.023
+  UniRef90_UPI000D01EF51 single-stranded DNA-binding protein n=1 ...  39.7    0.023
+  UniRef90_A0A1X9U7Q4 Hok/Gef family protein n=4 Tax=Photobacteri...  38.5    0.024
+  UniRef90_E3DDV1 Simialr to stable plasmid inheritance protein F...  38.5    0.024
+  UniRef90_W3VCQ4 Hok/gef family n=1 Tax=Photorhabdus khanii NC19...  38.5    0.024
+  UniRef90_A0A383Q958 Small toxic polypeptide n=62 Tax=Enterobact...  38.9    0.026
+  UniRef90_A0A0L7YMW7 Protein hokC n=14 Tax=Vibrionaceae TaxID=64...  38.5    0.026
+  UniRef90_H3N4B5 Uncharacterized protein n=2 Tax=Klebsiella TaxI...  38.1    0.028
+  UniRef90_UPI0005F08018 type I toxin-antitoxin system Hok family...  38.1    0.031
+  UniRef90_A0A345CNZ7 Hok/Gef family protein n=2 Tax=Enterobacter...  38.1    0.031
+  UniRef90_V5EMM0 Hok/gef family protein n=3 Tax=Photobacterium T...  38.1    0.031
+  UniRef90_A0A3E1SS98 Small toxic polypeptide n=1 Tax=Klebsiella ...  38.1    0.032
+  UniRef90_A0A1Y2XH56 Hok/gef family protein n=1 Tax=Escherichia ...  38.5    0.033
+  UniRef90_UPI000D786858 type I toxin-antitoxin system Hok family...  38.1    0.035
+  UniRef90_A0A2N4W240 Protein HokA n=12 Tax=Enterobacteriaceae Ta...  38.5    0.038
+  UniRef90_J2X1L1 Small toxic polypeptide n=5 Tax=Enterobacteriac...  37.7    0.039
+  UniRef90_UPI0006A6BFD5 Hok/Gef family protein n=1 Tax=Shigella ...  37.7    0.039
+  UniRef90_A0A1E3N6H2 Small toxic polypeptide n=3 Tax=Enterobacte...  37.7    0.047
+  UniRef90_A0A348DI01 Protein HokE n=6 Tax=Enterobacterales TaxID...  37.7    0.047
+  UniRef90_B8EG05 Hok/gef cell toxic protein n=3 Tax=Shewanella b...  38.1    0.050
+  UniRef90_UPI00055E39BF Hok/Gef family protein n=1 Tax=Franconib...  37.7    0.051
+  UniRef90_A0A0C1VD31 Protein hokC n=1 Tax=Vibrio owensii CAIM 18...  37.4    0.054
+  UniRef90_A0A2G8CP02 Small toxic polypeptide n=1 Tax=Erwinia sp....  37.4    0.055
+  UniRef90_UPI0009F63929 type I toxin-antitoxin system Hok family...  37.4    0.060
+  UniRef90_A0A2S9ZFJ8 Protein hokC n=1 Tax=Vibrio mediterranei Ta...  37.4    0.062
+  UniRef90_A0A0Q4MK41 Small toxic polypeptide n=2 Tax=Erwinia sp....  37.4    0.063
+  UniRef90_A0A2T7AYD2 Type I toxin-antitoxin system hok family to...  37.4    0.066
+  UniRef90_A0A358HM06 Hok/Gef family protein n=2 Tax=Leclercia Ta...  37.4    0.067
+  UniRef90_A0A1V1VI63 Small toxic polypeptide n=1 Tax=Photobacter...  37.4    0.068
+  UniRef90_UPI00098C9C36 type I toxin-antitoxin system Hok family...  37.7    0.071
+  UniRef90_A0A2P9EDC4 Toxin antitoxin system protein SrnB n=48 Ta...  37.7    0.073
+  UniRef90_A0A2T3M7N9 Hok/Gef family protein n=3 Tax=Photobacteri...  37.0    0.074
+  UniRef90_S3JJQ0 Hok/gef family protein n=2 Tax=Cedecea davisae ...  38.1    0.074
+  UniRef90_A0A3A5K8G6 Hok/Gef family protein n=1 Tax=Buttiauxella...  37.0    0.084
+  UniRef90_A0A1B1NWV1 Uncharacterized protein n=3 Tax=Vibrio TaxI...  37.0    0.084
+  UniRef90_A0A3L1KR21 Hok/Gef family protein n=1 Tax=Escherichia ...  37.0    0.086
+  UniRef90_A0A2T3U4Z1 Type I toxin-antitoxin system hok family to...  37.0    0.086
+  UniRef90_UPI0009E4E76A Hok/Gef family protein n=1 Tax=Vibrio di...  37.0    0.088
+  UniRef90_P13970 Protein SrnB n=67 Tax=Enterobacteriaceae TaxID=...  37.4    0.088
+  UniRef90_UPI00077C8AE3 Hok/Gef family protein n=2 Tax=Serratia ...  37.0    0.088
+  UniRef90_UPI000E1C2B14 type I toxin-antitoxin system Hok family...  37.4    0.090
+  UniRef90_A0A0M3F5P4 Hok/gef cell toxic protein n=2 Tax=Enteroba...  37.0    0.091
+  UniRef90_A0A2I1ZS34 Hok/Gef family protein n=3 Tax=Enterobacter...  37.0    0.092
+  UniRef90_A0A0K0MG06 Hok/Gef family protein n=9 Tax=Vibrio harve...  37.0    0.096
+  UniRef90_A0A090IE84 Protein srnB n=1 Tax=Aliivibrio wodanis Tax...  37.0    0.098
+  UniRef90_A0A285B0K6 Toxic polypeptide, small n=29 Tax=Enterobac...  37.0    0.099
+  UniRef90_I2UL78 Uncharacterized protein n=1 Tax=Escherichia col...  36.6    0.099
+  UniRef90_UPI0006BAAE5F hypothetical protein n=1 Tax=Escherichia...  37.4    0.10 
+  UniRef90_A0A2Z3F2W7 Hok/gef cell toxic protein n=9 Tax=Enteroba...  36.6    0.11 
+  UniRef90_A0A1X3HXD3 Uncharacterized protein n=1 Tax=Escherichia...  36.6    0.11 
+  UniRef90_A0A2U3F0L9 Type I toxin-antitoxin system hok family to...  36.6    0.11 
+  UniRef90_A0A0K2P6C5 Hok/gef cell toxic protein n=12 Tax=Cronoba...  36.6    0.11 
+  UniRef90_E9Z0A4 Hok/gef family protein n=3 Tax=Enterobacteriace...  37.0    0.12 
+  UniRef90_E3G5T2 Hok/gef cell toxic protein n=2 Tax=Enterobacter...  36.6    0.13 
+  UniRef90_UPI000C83B60A Hok/Gef family protein n=1 Tax=Vibrio sp...  36.6    0.14 
+  UniRef90_A0A2T3JAA2 Endonuclease n=1 Tax=Photobacterium frigidi...  36.6    0.15 
+  UniRef90_A0A1V0IEB8 Hok/Gef family protein n=4 Tax=Vibrio TaxID...  36.6    0.15 
+  UniRef90_A0A345CFB6 Hok/Gef family protein n=2 Tax=unclassified...  36.2    0.16 
+  UniRef90_UPI0006F419FF type I toxin-antitoxin system Hok family...  36.2    0.17 
+  UniRef90_A0A2T3XIU4 Hok/Gef family protein n=3 Tax=Enterobacter...  36.2    0.19 
+  UniRef90_A0A2T3J713 Protein pndA n=1 Tax=Photobacterium frigidi...  36.2    0.19 
+  UniRef90_A0A2S7VA92 Protein hokC n=1 Tax=Vibrio jasicida TaxID=...  36.2    0.19 
+  UniRef90_UPI0008FECAF9 Hok/Gef family protein n=1 Tax=Yokenella...  36.2    0.20 
+  UniRef90_A0A2M9RFJ3 Hok/Gef family protein n=1 Tax=Raoultella s...  36.2    0.21 
+  UniRef90_UPI000CFDE616 type I toxin-antitoxin system Hok family...  36.2    0.22 
+  UniRef90_UPI000C85612F type I toxin-antitoxin system Hok family...  35.8    0.24 
+  UniRef90_A0A089PNF2 Small toxic polypeptide n=3 Tax=Pluralibact...  35.8    0.26 
+  UniRef90_A0A2T7AKG8 Type I toxin-antitoxin system hok family to...  35.8    0.26 
+  UniRef90_A0A2S9ZHZ4 Protein hokC n=1 Tax=Vibrio mediterranei Ta...  35.8    0.26 
+  UniRef90_UPI000907E076 Hok/Gef family protein n=1 Tax=Rouxiella...  36.2    0.27 
+  UniRef90_A0A397WZB4 Type I toxin-antitoxin system Hok family to...  35.8    0.27 
+  UniRef90_A0A0Q4MQN9 Small toxic polypeptide n=2 Tax=Erwiniaceae...  35.8    0.27 
+  UniRef90_UPI0004DF7D0A Hok/Gef family protein n=1 Tax=Vibrio pa...  35.8    0.28 
+  UniRef90_A0A328TGP1 Hok/gef family protein n=2 Tax=Erwinia TaxI...  35.8    0.28 
+  UniRef90_UPI000C1F4595 type I toxin-antitoxin system Hok family...  35.8    0.29 
+  UniRef90_A0A3L9MMZ2 Hok/Gef family protein n=2 Tax=Enterobacter...  35.4    0.30 
+  UniRef90_A0A1S0ZEK5 Hok/gef family protein n=9 Tax=Salmonella e...  35.4    0.34 
+  UniRef90_UPI0009AA5515 Hok/Gef family protein n=2 Tax=Salmonell...  35.4    0.35 
+  UniRef90_A0A090VSD6 HokE protein n=3 Tax=Enterobacteriaceae Tax...  35.4    0.37 
+  UniRef90_A0A3C2BI59 Hok/Gef family protein n=1 Tax=Enterobacter...  35.4    0.37 
+  UniRef90_A0A0L6Y638 Hok/Gef family protein n=2 Tax=Escherichia ...  35.0    0.38 
+  UniRef90_A0A1J4QNB5 Hok/gef family protein n=4 Tax=Salmonella e...  35.0    0.40 
+  UniRef90_A0A3Q0P2W3 Type I toxin-antitoxin system hok family to...  36.2    0.41 
+  UniRef90_UPI000BB8F5EE type I toxin-antitoxin system Hok family...  35.0    0.44 
+  UniRef90_UPI0009496F16 Hok/Gef family protein n=1 Tax=Franconib...  35.4    0.50 
+  UniRef90_UPI0009D71A0A Hok/Gef family protein n=1 Tax=Vibrio Ta...  35.0    0.54 
+  UniRef90_UPI000E2BB2D9 type I toxin-antitoxin system Hok family...  35.4    0.54 
+  UniRef90_A0A3C2BI24 Type I toxin-antitoxin system hok family to...  35.0    0.54 
+  UniRef90_J2E3G5 HokE n=26 Tax=Enterobacterales TaxID=91347 RepI...  35.4    0.57 
+  UniRef90_A0A1I1WL84 Protein HokE n=2 Tax=Kosakonia sp. S29 TaxI...  35.0    0.58 
+  UniRef90_A0A2S8I8A5 Type I toxin-antitoxin system hok family to...  34.7    0.63 
+  UniRef90_UPI000F664AEC Hok/Gef family protein n=1 Tax=Atlantiba...  34.7    0.65 
+  UniRef90_UPI0009E62AC6 Hok/Gef family protein n=1 Tax=Photobact...  35.4    0.66 
+  UniRef90_A0A3J6DF59 Type I toxin-antitoxin system Hok family to...  34.7    0.70 
+  UniRef90_A0A2I8QV75 Type I toxin-antitoxin system hok family to...  34.7    0.77 
+  UniRef90_A0A1J4R8L9 Uncharacterized protein n=1 Tax=Salmonella ...  35.0    0.78 
+  UniRef90_A0A2N4VYD1 Hok/Gef family protein n=10 Tax=Enterobacte...  34.7    0.79 
+  UniRef90_A0A090UWP6 Uncharacterized protein n=1 Tax=Pseudescher...  34.7    0.79 
+  UniRef90_UPI0007EC2EC5 type I toxin-antitoxin system Hok family...  34.7    0.97 
+  UniRef90_A0A379D336 Small toxic polypeptide n=1 Tax=Pluralibact...  34.3    0.98 
+  UniRef90_B1VJ68 Post-segregation killing protein n=3 Tax=Morgan...  34.3    1.0  
+  UniRef90_D6I787 Predicted protein n=1 Tax=Escherichia coli B185...  33.9    1.0  
+  UniRef90_A0A2I6FNC2 Type I toxin-antitoxin system hok family to...  34.3    1.1  
+  UniRef90_A0A3G4VKS7 Hok/Gef family protein n=1 Tax=Vibrio medit...  34.7    1.1  
+  UniRef90_A0A2T3CBJ0 Small toxic polypeptide n=3 Tax=Enterobacte...  34.3    1.1  
+  UniRef90_UPI0003453706 Hok/Gef family protein n=1 Tax=Erwinia t...  34.3    1.2  
+  UniRef90_A0A344QF53 Small toxic polypeptide n=4 Tax=Salmonella ...  34.3    1.2  
+  UniRef90_A0A2J9EBD6 Hok/Gef family protein n=7 Tax=Erwiniaceae ...  33.9    1.3  
+  UniRef90_A0A378FS32 Protein hokG n=17 Tax=Enterobacteriaceae Ta...  34.7    1.3  
+  UniRef90_UPI0009081E9B Hok/Gef family protein n=1 Tax=Erwinia t...  33.9    1.4  
+  UniRef90_I0QR34 Uncharacterized protein n=1 Tax=Serratia sp. M2...  33.9    1.5  
+  UniRef90_A0A3P1RGI9 Type I toxin-antitoxin system toxin HokA n=...  33.5    1.6  
+  UniRef90_A0A2I8NPN0 Hok/gef cell toxic protein n=2 Tax=Leclerci...  33.5    1.7  
+  UniRef90_A0A0F6TT69 Membrane protein n=5 Tax=Citrobacter TaxID=...  33.5    1.8  
+  UniRef90_A0A0Q3KEC9 Hok/Gef family protein n=13 Tax=Enterobacte...  35.0    1.9  
+  UniRef90_A0A1E9YFW6 Small toxic polypeptide n=5 Tax=Enterobacte...  33.5    2.1  
+  UniRef90_UPI000A00A113 Hok/Gef family protein n=3 Tax=Serratia ...  33.5    2.2  
+  UniRef90_A0A3J0VQN6 Type I toxin-antitoxin system Hok family to...  33.1    2.2  
+  UniRef90_UPI000E5D9378 type I toxin-antitoxin system Hok family...  33.5    2.4  
+  UniRef90_UPI0004E26F4B Hok/Gef family protein n=1 Tax=Siccibact...  33.1    2.4  
+  UniRef90_G9Z7D9 Hok/gef family protein n=1 Tax=Yokenella regens...  33.1    2.5  
+  UniRef90_A0A179Q045 Hok/gef cell toxic protein n=93 Tax=Bacteri...  33.1    2.5  
+  UniRef90_A0A3K3JYE7 Hok/Gef family protein n=1 Tax=Escherichia ...  33.1    2.6  
+  UniRef90_A0A0S3K680 Protein hokC n=1 Tax=Vibrio alginolyticus T...  33.1    2.6  
+  UniRef90_A0A133LGI3 Hok/gef family protein n=4 Tax=Enterobacter...  33.5    2.7  
+  UniRef90_A0A367TK38 Type I toxin-antitoxin system hok family to...  33.1    2.8  
+  UniRef90_A0A2S1MJQ6 Protein pndA n=1 Tax=Vibrio parahaemolyticu...  33.1    3.0  
+  UniRef90_A0A3I9X783 Hok/Gef family protein n=1 Tax=Salmonella e...  33.1    3.0  
+  UniRef90_A0A1X0WIA7 Uncharacterized protein n=1 Tax=Rouxiella b...  32.7    3.1  
+  UniRef90_A0A1X2RR47 Hok/gef family protein n=6 Tax=Salmonella e...  32.7    3.1  
+  UniRef90_D7X327 Hok/gef family protein (Fragment) n=1 Tax=Esche...  33.5    3.2  
+  UniRef90_A0A318WLD0 Protein HokE n=3 Tax=Enterobacteriaceae Tax...  33.1    3.3  
+  UniRef90_F9S208 Uncharacterized protein n=1 Tax=Vibrio ichthyoe...  33.1    3.3  
+  UniRef90_A0A1I6EDH2 Hok/gef family protein n=1 Tax=Enterobacter...  33.1    3.3  
+  UniRef90_UPI0009B95D63 Hok/Gef family protein n=1 Tax=Klebsiell...  33.1    3.5  
+  UniRef90_A0A1B2JPF2 Hok/gef family protein n=17 Tax=Enterobacte...  32.7    3.6  
+  UniRef90_A0A2N5E8L5 Small toxic polypeptide n=3 Tax=unclassifie...  32.7    4.1  
+  UniRef90_Q8X7U9 Putative protein HokG n=99 Tax=Enterobacteriace...  32.7    4.2  
+  UniRef90_UPI000F66BBDE Hok/Gef family protein n=1 Tax=Atlantiba...  32.7    4.2  
+  UniRef90_UPI0005B622A3 type I toxin-antitoxin system Hok family...  33.5    4.6  
+  UniRef90_A0A0A1AEA2 Post-segregation killing protein SrnB n=13 ...  32.7    5.3  
+  UniRef90_A0A0G3K7S9 Small toxic membrane polypeptide n=80 Tax=E...  32.3    5.4  
+  UniRef90_A0A1X3HXA8 Uncharacterized protein n=1 Tax=Escherichia...  32.3    5.8  
+  UniRef90_A0A2T3BJR7 Hok/Gef family protein n=3 Tax=Escherichia ...  33.1    5.9  
+  UniRef90_A7ZGU5 Protein SrnB n=7 Tax=Escherichia coli TaxID=562...  32.7    6.3  
+  UniRef90_UPI00092CFDEF type I toxin-antitoxin system Hok family...  32.3    6.4  
+  UniRef90_A0A3P4G031 Uncharacterized protein n=1 Tax=Escherichia...  32.7    6.8  
+  UniRef90_A0A2S5C2M8 Hok/Gef family protein n=1 Tax=Lelliottia s...  32.0    7.0  
+  UniRef90_P16477 Protein PndA n=100 Tax=root TaxID=1 RepID=PNDA2...  32.0    7.2  
+  UniRef90_UPI0009E82D88 Hok/Gef family protein n=1 Tax=Salmonell...  32.0    7.3  
+  UniRef90_A0A0G4Q4F4 Hok/gef family protein n=1 Tax=Proteus vulg...  32.0    7.3  
+  UniRef90_C9XX12 Uncharacterized protein n=12 Tax=Cronobacter Ta...  32.0    7.9  
+  UniRef90_A0A3I5EER0 Type I toxin-antitoxin system Hok family to...  32.0    8.6  
+  UniRef90_UPI000D158983 Hok/Gef family protein n=1 Tax=Photobact...  32.0    8.7  
+  UniRef90_UPI0009889A31 Hok/Gef family protein n=1 Tax=Escherich...  32.0    9.3  
+  UniRef90_A0A2J7LLW5 Hok/Gef family protein n=5 Tax=Enterobacter...  32.0    9.3  
+  UniRef90_A0A2J7P8T8 Hok/Gef family protein n=3 Tax=Enterobacter...  31.6    9.6  
+  UniRef90_UPI00092D2174 Hok/Gef family protein n=1 Tax=Trabulsie...  31.6    9.8  
+  UniRef90_UPI000BDED6B8 type I toxin-antitoxin system Hok family...  32.0    9.8  
+  UniRef90_A0A0Q4MFW9 Small toxic polypeptide n=2 Tax=Erwiniaceae...  31.6    10.0 
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.132    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 740371021236
+Warning: [psiblast] lcl|Query_1 NP_414559.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414559.1
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A2T6WXV3 Hok/Gef family protein n=12 Tax=Enterobacte...  111     3e-31
+  UniRef90_A0A1E5MDF7 Uncharacterized protein n=1 Tax=Escherichia...  110     8e-31
+  UniRef90_B6IAZ1 Hypothetical phage protein n=153 Tax=root TaxID...  109     3e-30
+  UniRef90_A0A1X3I748 Uncharacterized protein n=1 Tax=Escherichia...  109     4e-30
+  UniRef90_A0A3K2XV63 Type I toxin-antitoxin system Hok family to...  109     4e-30
+  UniRef90_UPI000D6A4D55 type I toxin-antitoxin system Hok family...  108     1e-29
+  UniRef90_D3QSC5 Putative cell killing protein encoded within cr...  107     1e-29
+  UniRef90_D7XM04 Hok/gef family protein n=1 Tax=Escherichia coli...  107     1e-29
+  UniRef90_UPI000B7EE05B type I toxin-antitoxin system Hok family...  106     3e-29
+  UniRef90_Q8Z606 Hok/Gef family protein n=276 Tax=Bacteria TaxID...  106     5e-29
+  UniRef90_E9YNA0 Hok/gef family protein n=1 Tax=Escherichia coli...  107     5e-29
+  UniRef90_A0A3L3ZEB7 Type I toxin-antitoxin system Hok family to...  106     5e-29
+  UniRef90_A0A3J0L074 Type I toxin-antitoxin system Hok family to...  105     8e-29
+  UniRef90_UPI000BF83335 type I toxin-antitoxin system Hok family...  105     8e-29
+  UniRef90_A0A1S9JFF8 Uncharacterized protein n=1 Tax=Shigella bo...  105     1e-28
+  UniRef90_A0A0B1NFM8 Regulatory protein n=1 Tax=Escherichia coli...  104     2e-28
+  UniRef90_UPI00050AFB25 type I toxin-antitoxin system Hok family...  104     2e-28
+  UniRef90_A0A3K2RHV3 Type I toxin-antitoxin system Hok family to...  104     2e-28
+  UniRef90_UPI000CF761B4 type I toxin-antitoxin system Hok family...  104     3e-28
+  UniRef90_UPI000B450B8C type I toxin-antitoxin system Hok family...  104     3e-28
+  UniRef90_UPI0003EF1970 type I toxin-antitoxin system Hok family...  104     4e-28
+  UniRef90_A0A161Z608 Type I toxin-antitoxin system hok family to...  104     4e-28
+  UniRef90_UPI0005A7DF06 type I toxin-antitoxin system Hok family...  103     5e-28
+  UniRef90_UPI000BDEA7E5 type I toxin-antitoxin system Hok family...  103     5e-28
+  UniRef90_A0A0B1N1W0 Hok/Gef family protein n=227 Tax=root TaxID...  103     5e-28
+  UniRef90_UPI00053AFCB2 type I toxin-antitoxin system Hok family...  103     6e-28
+  UniRef90_UPI000682E84D type I toxin-antitoxin system Hok family...  103     7e-28
+  UniRef90_A0A368IPE3 Hok/Gef family protein n=2 Tax=Enterobacter...  103     7e-28
+  UniRef90_A0A066QNW3 Hok/Gef family protein n=76 Tax=Enterobacte...  103     1e-27
+  UniRef90_UPI00097F9A96 type I toxin-antitoxin system Hok family...  102     2e-27
+  UniRef90_R9VJS9 Regulatory protein n=3 Tax=Enterobacteriaceae T...  101     7e-27
+  UniRef90_A0A366FIX4 Protein HokC/D n=1 Tax=Pseudocitrobacter fa...  100     8e-27
+  UniRef90_D4B814 Hok/gef family protein n=1 Tax=Citrobacter youn...  100     9e-27
+  UniRef90_A0A1Q4PZ58 Uncharacterized protein n=7 Tax=Escherichia...  100     1e-26
+  UniRef90_UPI0005307ADC type I toxin-antitoxin system Hok family...  100     1e-26
+  UniRef90_UPI0005CDC800 type I toxin-antitoxin system Hok family...   99     2e-26
+  UniRef90_UPI0003EE6C60 type I toxin-antitoxin system Hok family...  98.8    4e-26
+  UniRef90_UPI0009455729 type I toxin-antitoxin system Hok family...  99.2    5e-26
+  UniRef90_A0A329VS32 Uncharacterized protein n=25 Tax=Photorhabd...  98.4    6e-26
+  UniRef90_R9VTX7 Regulatory protein n=3 Tax=Enterobacteriaceae T...  98.0    9e-26
+  UniRef90_A0A1G5Q6B6 Protein HokB n=6 Tax=Photorhabdus luminesce...  97.2    2e-25
+  UniRef90_A0A1J4R8F3 Uncharacterized protein n=1 Tax=Salmonella ...  96.8    3e-25
+  UniRef90_A0A1B8YFR7 Small toxic polypeptide n=3 Tax=Photorhabdu...  96.5    3e-25
+  UniRef90_A0A2N0MZA9 Uncharacterized protein n=2 Tax=Ewingella a...  96.5    4e-25
+  UniRef90_UPI0009DC179C type I toxin-antitoxin system Hok family...  96.1    6e-25
+  UniRef90_A0A090V7D9 Regulatory protein MokC n=2 Tax=Enterobacte...  95.7    8e-25
+  UniRef90_UPI00092D7821 type I toxin-antitoxin system Hok family...  93.8    4e-24
+  UniRef90_A0A3F3P7M4 Type I toxin-antitoxin system hok family to...  93.8    5e-24
+  UniRef90_UPI000DCB57FA type I toxin-antitoxin system Hok family...  93.8    5e-24
+  UniRef90_L0M630 Hok/gef family n=1 Tax=Enterobacteriaceae bacte...  93.0    1e-23
+  UniRef90_D4E7G6 Hok/gef family protein n=3 Tax=Yersiniaceae Tax...  91.8    2e-23
+  UniRef90_A0A292AJC9 Uncharacterized protein n=9 Tax=Yersiniacea...  91.5    3e-23
+  UniRef90_UPI0009DEC989 type I toxin-antitoxin system Hok family...  91.1    5e-23
+  UniRef90_A0A330E0C0 Uncharacterized protein n=3 Tax=Enterobacte...  90.7    8e-23
+  UniRef90_A0A0Q4M980 Uncharacterized protein n=3 Tax=Yersiniacea...  90.3    2e-22
+  UniRef90_A0A3E2KKM7 Type I toxin-antitoxin system hok family to...  89.9    2e-22
+  UniRef90_A0A2N5E8A3 Uncharacterized protein n=4 Tax=Yersiniacea...  89.5    2e-22
+  UniRef90_UPI000C7AB7F0 Hok/Gef family protein n=1 Tax=Yersiniac...  89.5    2e-22
+  UniRef90_A0A3J1CPY5 Type I toxin-antitoxin system Hok family to...  89.5    2e-22
+  UniRef90_UPI000BB81673 Hok/Gef family protein n=10 Tax=Escheric...  89.9    4e-22
+  UniRef90_UPI0009078676 type I toxin-antitoxin system Hok family...  89.1    4e-22
+  UniRef90_UPI000BEA942D type I toxin-antitoxin system Hok family...  88.8    4e-22
+  UniRef90_A0A351LTC9 Uncharacterized protein n=1 Tax=Franconibac...  88.8    4e-22
+  UniRef90_UPI0009333E0F Hok/Gef family protein n=2 Tax=Yersiniac...  88.4    6e-22
+  UniRef90_UPI000DA1383D type I toxin-antitoxin system Hok family...  88.8    7e-22
+  UniRef90_D9Z4W9 Hok n=5 Tax=Enterobacterales TaxID=91347 RepID=...  88.4    1e-21
+  UniRef90_A0A1B1IL30 Stm n=22 Tax=Enterobacterales TaxID=91347 R...  88.0    1e-21
+  UniRef90_A0A2N5E3B9 Uncharacterized protein n=1 Tax=Yersiniacea...  87.6    1e-21
+  UniRef90_A0A1J4R0K7 Uncharacterized protein n=1 Tax=Salmonella ...  87.6    1e-21
+  UniRef90_UPI000C040DD9 type I toxin-antitoxin system Hok family...  87.6    1e-21
+  UniRef90_UPI000BB72CE1 type I toxin-antitoxin system Hok family...  87.2    2e-21
+  UniRef90_A0A254MBU2 Uncharacterized protein n=1 Tax=Photorhabdu...  86.1    5e-21
+  UniRef90_UPI0003EDDAB4 type I toxin-antitoxin system Hok family...  85.3    1e-20
+  UniRef90_A0A370QS17 Protein HokC/D n=2 Tax=Enterobacillus tribo...  84.5    2e-20
+  UniRef90_UPI000A0EE77A type I toxin-antitoxin system Hok family...  84.1    3e-20
+  UniRef90_UPI000E0EF299 Hok/Gef family protein n=1 Tax=Serratia ...  84.1    3e-20
+  UniRef90_UPI000E354BCA type I toxin-antitoxin system Hok family...  83.8    3e-20
+  UniRef90_UPI000A19C0F3 type I toxin-antitoxin system Hok family...  84.1    4e-20
+  UniRef90_UPI000DD3005F type I toxin-antitoxin system Hok family...  82.6    1e-19
+  UniRef90_A0A077W6L2 Uncharacterized protein n=37 Tax=Enterobact...  82.6    1e-19
+  UniRef90_A0A3G2IKV2 Type I toxin-antitoxin system Hok family to...  82.2    1e-19
+  UniRef90_UPI000BDE805E Hok/Gef family protein n=2 Tax=Escherich...  81.1    3e-19
+  UniRef90_P0ACG4 Toxic protein HokC n=321 Tax=root TaxID=1 RepID...  80.7    5e-19
+  UniRef90_UPI000446D56F type I toxin-antitoxin system Hok family...  80.3    6e-19
+  UniRef90_UPI000E0C774D type I toxin-antitoxin system Hok family...  80.3    6e-19
+  UniRef90_UPI000CF0614E type I toxin-antitoxin system Hok family...  81.1    6e-19
+  UniRef90_UPI0008FC1A0D type I toxin-antitoxin system Hok family...  80.3    9e-19
+  UniRef90_UPI000BAAA06B type I toxin-antitoxin system Hok family...  79.9    1e-18
+  UniRef90_P0ACG7 Protein HokD n=60 Tax=Bacteria TaxID=2 RepID=HO...  79.5    1e-18
+  UniRef90_A0A193LRA6 Uncharacterized protein n=60 Tax=Enterobact...  79.1    2e-18
+  UniRef90_A0A0A0CV74 Protein HokA n=9 Tax=Photorhabdus TaxID=294...  79.9    2e-18
+  UniRef90_A0A221ZQI7 Uncharacterized protein n=13 Tax=Gammaprote...  80.3    2e-18
+  UniRef90_UPI000751716E Hok/Gef family protein n=1 Tax=Escherich...  79.1    2e-18
+  UniRef90_A0A1Q4PF16 Protein hokC n=37 Tax=root TaxID=1 RepID=A0...  78.4    4e-18
+  UniRef90_UPI000BB8FE10 type I toxin-antitoxin system Hok family...  78.4    5e-18
+  UniRef90_A0A0M2KEB4 Protein hokC n=15 Tax=Enterobacterales TaxI...  77.6    6e-18
+  UniRef90_UPI0002A3A56D type I toxin-antitoxin system Hok family...  77.6    7e-18
+  UniRef90_A0A2S7GE46 Type I toxin-antitoxin system hok family to...  77.6    9e-18
+  UniRef90_A0A3I7CD35 Type I toxin-antitoxin system Hok family to...  77.2    1e-17
+  UniRef90_UPI000CF02B3B type I toxin-antitoxin system Hok family...  76.8    1e-17
+  UniRef90_A0A344QEY5 Uncharacterized protein n=1 Tax=Salmonella ...  77.6    1e-17
+  UniRef90_UPI0006B40D28 type I toxin-antitoxin system Hok family...  77.2    2e-17
+  UniRef90_L0M865 Hok/gef family n=5 Tax=Enterobacteriaceae TaxID...  76.4    2e-17
+  UniRef90_UPI000DEC44CE type I toxin-antitoxin system Hok family...  76.4    2e-17
+  UniRef90_A0A2S5CBE0 Protein hokC n=3 Tax=Enterobacteriaceae Tax...  76.4    3e-17
+  UniRef90_A0A1Q5VAI5 Uncharacterized protein n=3 Tax=Serratia fo...  76.8    5e-17
+  UniRef90_UPI00050B08AB type I toxin-antitoxin system Hok family...  75.3    6e-17
+  UniRef90_UPI000B3F402A type I toxin-antitoxin system Hok family...  75.3    7e-17
+  UniRef90_UPI00093A1612 type I toxin-antitoxin system Hok family...  74.9    1e-16
+  UniRef90_A0A1C7CK33 Protein hokC n=3 Tax=Enterobacteriaceae Tax...  74.5    1e-16
+  UniRef90_UPI0007747F56 type I toxin-antitoxin system Hok family...  74.5    1e-16
+  UniRef90_UPI000B3F5FDE Hok/Gef family protein n=1 Tax=Escherich...  74.1    2e-16
+  UniRef90_UPI00097F817F type I toxin-antitoxin system Hok family...  74.1    2e-16
+  UniRef90_S1PG80 Protein hokD n=3 Tax=Escherichia coli TaxID=562...  74.1    3e-16
+  UniRef90_UPI000859E3A7 type I toxin-antitoxin system Hok family...  73.7    3e-16
+  UniRef90_L0M469 Hok/gef family n=1 Tax=Enterobacteriaceae bacte...  73.4    3e-16
+  UniRef90_UPI000B42B52E type I toxin-antitoxin system Hok family...  73.4    3e-16
+  UniRef90_UPI000BE4B8B2 type I toxin-antitoxin system Hok family...  73.7    4e-16
+  UniRef90_A0A1C0U3X4 Small toxic polypeptide n=8 Tax=Photorhabdu...  73.4    4e-16
+  UniRef90_A0A0V9S7L8 Uncharacterized protein (Fragment) n=1 Tax=...  73.4    6e-16
+  UniRef90_UPI000D76F34F type I toxin-antitoxin system Hok family...  73.0    6e-16
+  UniRef90_A0A3Q0NQE2 Small toxic polypeptide n=1 Tax=Serratia ma...  72.6    7e-16
+  UniRef90_A0A2J7P2J0 Protein hokC n=1 Tax=Enterobacter canceroge...  72.6    7e-16
+  UniRef90_UPI000BE58CAB type I toxin-antitoxin system Hok family...  72.6    8e-16
+  UniRef90_W0HLD2 Regulatory peptide whose translation enables ho...  73.0    8e-16
+  UniRef90_UPI0005A22522 type I toxin-antitoxin system Hok family...  72.2    9e-16
+  UniRef90_UPI000D0BE643 type I toxin-antitoxin system Hok family...  72.6    1e-15
+  UniRef90_W0HL31 Regulatory peptide whose translation enables ho...  72.6    1e-15
+  UniRef90_UPI000786936C type I toxin-antitoxin system Hok family...  71.8    1e-15
+  UniRef90_A0A1G4DF88 Small toxic protein n=1 Tax=Klebsiella pneu...  72.6    1e-15
+  UniRef90_UPI000BDEF3C9 type I toxin-antitoxin system Hok family...  71.4    2e-15
+  UniRef90_A0A330EWP1 Small toxic polypeptide n=5 Tax=Enterobacte...  71.4    2e-15
+  UniRef90_E1JBU1 Hok/gef family protein n=10 Tax=Escherichia col...  71.0    3e-15
+  UniRef90_A0A379QTZ9 Protein pndA n=3 Tax=Salmonella enterica Ta...  72.2    3e-15
+  UniRef90_A0A162D4T8 Small toxic polypeptide n=7 Tax=Enterobacte...  71.0    3e-15
+  UniRef90_UPI00098C0362 Hok/Gef family protein n=2 Tax=Escherich...  71.8    3e-15
+  UniRef90_UPI0003DDB0B3 Hok/Gef family protein n=1 Tax=Escherich...  71.0    4e-15
+  UniRef90_UPI0008FBCF4E type I toxin-antitoxin system Hok family...  71.0    4e-15
+  UniRef90_UPI000BE3E9F1 type I toxin-antitoxin system Hok family...  70.7    5e-15
+  UniRef90_A0A209A139 Small toxic polypeptide n=4 Tax=Yersinia Ta...  70.3    5e-15
+  UniRef90_A0A1B8YEC3 Small toxic polypeptide n=3 Tax=Photorhabdu...  70.3    6e-15
+  UniRef90_A0A248KHQ2 Protein hokC n=1 Tax=Kluyvera georgiana Tax...  70.3    7e-15
+  UniRef90_A0A370S891 Protein HokB n=1 Tax=Serratia fonticola Tax...  70.7    7e-15
+  UniRef90_A0A366FJ53 Protein HokC/D n=3 Tax=Pseudocitrobacter Ta...  70.3    7e-15
+  UniRef90_A0A2G4U2N1 Small toxic polypeptide n=4 Tax=Yersinia Ta...  69.9    8e-15
+  UniRef90_A0A1B7JIB0 MokW family protein n=4 Tax=Kluyvera TaxID=...  69.9    8e-15
+  UniRef90_UPI0007A5DFD4 type I toxin-antitoxin system Hok family...  69.9    9e-15
+  UniRef90_A4WGQ7 Hok/gef cell toxic protein n=2 Tax=Enterobacter...  69.5    1e-14
+  UniRef90_W0HPQ5 Small toxic membrane protein HokA n=2 Tax=Sodal...  69.1    1e-14
+  UniRef90_UPI0008FCA7CB Hok/Gef family protein n=1 Tax=Photorhab...  69.1    2e-14
+  UniRef90_A0A248KHP7 Uncharacterized protein n=1 Tax=Kluyvera ge...  69.9    2e-14
+  UniRef90_UPI00038FC0BD type I toxin-antitoxin system Hok family...  69.1    2e-14
+  UniRef90_A0A1E5M2Y1 Hok/Gef family protein n=8 Tax=Enterobacter...  69.1    2e-14
+  UniRef90_A0A3N2RZM1 Type I toxin-antitoxin system Hok family to...  69.1    2e-14
+  UniRef90_A0A127KWZ4 F factor n=1 Tax=Enterobacter sp. FY-07 Tax...  69.1    2e-14
+  UniRef90_L0M665 Hok/gef family n=1 Tax=Enterobacteriaceae bacte...  68.7    2e-14
+  UniRef90_UPI000DEF6D52 Hok/Gef family protein n=1 Tax=Rahnella ...  68.7    2e-14
+  UniRef90_UPI00050B603E type I toxin-antitoxin system Hok family...  68.7    3e-14
+  UniRef90_UPI000E679A66 type I toxin-antitoxin system Hok family...  69.1    3e-14
+  UniRef90_A0A2T7B0L7 Type I toxin-antitoxin system hok family to...  68.3    4e-14
+  UniRef90_P62671 Stable plasmid inheritance protein n=50 Tax=Bac...  68.3    4e-14
+  UniRef90_A0A336QZL8 Small toxic membrane protein HokA n=4 Tax=E...  68.3    4e-14
+  UniRef90_UPI00055A5758 type I toxin-antitoxin system Hok family...  68.3    4e-14
+  UniRef90_A0A1X1EFY0 Protein hokC n=1 Tax=Pantoea cypripedii Tax...  68.0    4e-14
+  UniRef90_UPI000B4295AF type I toxin-antitoxin system Hok family...  68.3    5e-14
+  UniRef90_A0A0J8YNX8 Protein hokC n=2 Tax=unclassified Erwiniace...  68.0    5e-14
+  UniRef90_E6WKM5 Hok/gef cell toxic protein n=1 Tax=Pantoea sp. ...  68.0    6e-14
+  UniRef90_E3G7Z2 Hok/gef cell toxic protein n=1 Tax=Enterobacter...  67.6    6e-14
+  UniRef90_A0A2X4QV78 Protein pndA n=11 Tax=Salmonella enterica T...  68.0    7e-14
+  UniRef90_D2Z9L6 Hok/gef family protein n=28 Tax=Bacteria TaxID=...  68.7    8e-14
+  UniRef90_UPI0006676FDC type I toxin-antitoxin system Hok family...  67.2    9e-14
+  UniRef90_UPI000312D518 Hok/Gef family protein n=1 Tax=Serratia ...  67.2    9e-14
+  UniRef90_A0A140RT40 Protein hokC n=5 Tax=Proteobacteria TaxID=1...  67.2    9e-14
+  UniRef90_W7NR22 F leading maintenance protein n=76 Tax=Enteroba...  67.2    1e-13
+  UniRef90_L0M0H8 Hok/gef family n=9 Tax=Enterobacteriaceae TaxID...  67.6    1e-13
+  UniRef90_A0A167R0S4 Small toxic polypeptide n=42 Tax=Enterobact...  67.2    1e-13
+  UniRef90_L0M365 Hok/gef family n=2 Tax=Enterobacteriaceae bacte...  66.8    1e-13
+  UniRef90_UPI00092D5DB5 type I toxin-antitoxin system Hok family...  66.8    1e-13
+  UniRef90_V1WPS7 Uncharacterized protein n=8 Tax=Enterobacteriac...  66.8    1e-13
+  UniRef90_A0A1Q5VEZ8 Endonuclease n=13 Tax=Serratia TaxID=613 Re...  66.8    2e-13
+  UniRef90_UPI00093C2923 type I toxin-antitoxin system toxin HokA...  67.2    2e-13
+  UniRef90_A0A3J7HFN3 DUF977 family protein n=23 Tax=Escherichia ...  69.9    2e-13
+  UniRef90_A0A0N7JQG8 Endonuclease n=52 Tax=Bacteria TaxID=2 RepI...  66.4    2e-13
+  UniRef90_A0A0J8VLS4 Small toxic polypeptide n=2 Tax=Franconibac...  66.4    2e-13
+  UniRef90_A0A2S0PSN1 Small toxic polypeptide n=13 Tax=Enterobact...  66.4    2e-13
+  UniRef90_A0A2H9EGF6 Hok/Gef family protein n=16 Tax=Enterobacte...  66.4    2e-13
+  UniRef90_M1EXW0 Hok/gef family protein n=22 Tax=Enterobacterale...  66.0    3e-13
+  UniRef90_UPI00064B3FE0 type I toxin-antitoxin system Hok family...  66.0    3e-13
+  UniRef90_UPI0009BACBE0 type I toxin-antitoxin system Hok family...  66.0    3e-13
+  UniRef90_A0A2U9KP94 Type I toxin-antitoxin system hok family to...  65.6    3e-13
+  UniRef90_UPI0008FAE3EB Hok/Gef family protein n=3 Tax=Hafniacea...  65.6    3e-13
+  UniRef90_D4I1C1 Protein hok n=5 Tax=Enterobacterales TaxID=9134...  66.0    3e-13
+  UniRef90_A0A1B1LQQ7 Small toxic polypeptide n=19 Tax=Enterobact...  66.0    3e-13
+  UniRef90_A0A2T2XYS5 Type I toxin-antitoxin system hok family to...  65.6    3e-13
+  UniRef90_A0A344QMW9 Type I toxin-antitoxin system hok family to...  65.6    4e-13
+  UniRef90_UPI0002C08C6A type I toxin-antitoxin system Hok family...  65.6    4e-13
+  UniRef90_UPI000F67FEF3 Hok/Gef family protein n=2 Tax=Atlantiba...  65.3    5e-13
+  UniRef90_A0A3L1B7C7 Type I toxin-antitoxin system Hok family to...  65.3    5e-13
+  UniRef90_UPI00090802E7 type I toxin-antitoxin system Hok family...  65.3    6e-13
+  UniRef90_A0A2I0FQC0 Small toxic polypeptide n=1 Tax=Enterobacte...  65.3    6e-13
+  UniRef90_UPI000CF05179 type I toxin-antitoxin system Hok family...  65.3    7e-13
+  UniRef90_A0A1Q5V3J3 Protein HokA n=1 Tax=Serratia fonticola Tax...  65.3    9e-13
+  UniRef90_A0A1B3F7Z3 Endonuclease n=29 Tax=Yersiniaceae TaxID=19...  64.9    9e-13
+  UniRef90_A0A0G3S6F7 Small toxic polypeptide n=7 Tax=Enterobacte...  64.9    9e-13
+  UniRef90_A0A142EBB2 Hok n=13 Tax=Enterobacterales TaxID=91347 R...  64.9    1e-12
+  UniRef90_A0A3I9X3B0 Hok/Gef family protein n=3 Tax=Salmonella e...  64.5    1e-12
+  UniRef90_S4YN47 Endonuclease n=8 Tax=Serratia TaxID=613 RepID=S...  64.5    1e-12
+  UniRef90_A0A1B7JY27 Hok/gef family toxic protein n=2 Tax=Kluyve...  64.5    1e-12
+  UniRef90_A0A3N1W8F0 Protein HokB n=2 Tax=Erwinia sp. JUb26 TaxI...  64.9    1e-12
+  UniRef90_A0A2G4UHZ5 Small toxic polypeptide n=6 Tax=Yersiniacea...  64.1    1e-12
+  UniRef90_UPI000BB73463 type I toxin-antitoxin system Hok family...  64.1    1e-12
+  UniRef90_UPI0009B5900D Hok/Gef family protein n=1 Tax=Serratia ...  64.1    1e-12
+  UniRef90_UPI000DEC16D0 Hok/Gef family protein n=1 Tax=Salmonell...  64.1    2e-12
+  UniRef90_UPI00094488A2 type I toxin-antitoxin system toxin HokA...  64.5    2e-12
+  UniRef90_A0A3I9Q4J0 Type I toxin-antitoxin system Hok family to...  63.7    2e-12
+  UniRef90_A0A0U4HHT7 Endonuclease n=3 Tax=Serratia TaxID=613 Rep...  63.7    2e-12
+  UniRef90_UPI0002D9F090 Hok/Gef family protein n=1 Tax=Candidatu...  64.5    2e-12
+  UniRef90_UPI00066FF413 Hok/Gef family protein n=2 Tax=Yersinia ...  63.7    2e-12
+  UniRef90_UPI000CF1169D type I toxin-antitoxin system Hok family...  63.7    2e-12
+  UniRef90_A0A2S9UC91 Hok/gef family protein n=15 Tax=Enterobacte...  63.7    2e-12
+  UniRef90_UPI000CFBD239 type I toxin-antitoxin system Hok family...  63.7    3e-12
+  UniRef90_A0A0F7HES0 Endonuclease n=1 Tax=Serratia fonticola Tax...  63.7    3e-12
+  UniRef90_D2TJU7 Small toxic membrane protein HokA n=4 Tax=Citro...  63.3    3e-12
+  UniRef90_UPI0009403FF8 type I toxin-antitoxin system Hok family...  63.7    3e-12
+  UniRef90_A0A0B1R8Y6 Protein hokC n=3 Tax=Enterobacterales TaxID...  63.3    3e-12
+  UniRef90_A0A2N5EPN5 Hok/Gef family protein n=4 Tax=Yersiniaceae...  63.3    3e-12
+  UniRef90_A0A2J1D5R1 Endonuclease n=1 Tax=Escherichia coli TaxID...  63.3    4e-12
+  UniRef90_A0A1X1EH77 Protein hokC n=2 Tax=Pantoea cypripedii Tax...  62.9    4e-12
+  UniRef90_UPI00065A7981 hypothetical protein n=1 Tax=Escherichia...  63.3    5e-12
+  UniRef90_UPI000464642B type I toxin-antitoxin system Hok family...  62.9    6e-12
+  UniRef90_A0A2J4VQQ7 Type I toxin-antitoxin system hok family to...  62.9    6e-12
+  UniRef90_A0A1C6YY26 Hok/Gef family protein n=4 Tax=Hafniaceae T...  62.6    7e-12
+  UniRef90_A0A2S8DU71 Protein HokA n=11 Tax=Enterobacteriaceae Ta...  62.9    7e-12
+  UniRef90_L0M2Z5 Hok/gef family n=5 Tax=Enterobacteriaceae TaxID...  62.6    7e-12
+  UniRef90_UPI00074397A0 type I toxin-antitoxin system Hok family...  62.9    7e-12
+  UniRef90_UPI000B7D2F42 type I toxin-antitoxin system Hok family...  62.6    7e-12
+  UniRef90_UPI00098BFA9B type I toxin-antitoxin system Hok family...  62.9    7e-12
+  UniRef90_A0A3E1WCA4 Protein hokC n=2 Tax=Escherichia coli TaxID...  62.2    8e-12
+  UniRef90_V5CL80 Hok/gef family protein n=3 Tax=Enterobacteriace...  62.2    8e-12
+  UniRef90_A0A2M4ERJ2 Type I toxin-antitoxin system hok family to...  62.9    8e-12
+  UniRef90_A0A1W5DFI3 Small toxic polypeptide Qin prophage n=8 Ta...  62.2    8e-12
+  UniRef90_S4YEN8 Endonuclease n=8 Tax=Serratia TaxID=613 RepID=S...  62.2    9e-12
+  UniRef90_A0A2U8IAX7 Small toxic polypeptide n=1 Tax=Candidatus ...  62.2    1e-11
+  UniRef90_UPI00020E976A Hok/Gef family protein n=1 Tax=Serratia ...  61.8    1e-11
+  UniRef90_A0A318P2P5 Hok/Gef family protein n=1 Tax=Serratia ply...  61.8    1e-11
+  UniRef90_A0A1X0YMP6 Endonuclease n=59 Tax=Enterobacteriaceae Ta...  62.2    2e-11
+  UniRef90_A0A1S9JLI0 Uncharacterized protein n=1 Tax=Shigella bo...  61.4    2e-11
+  UniRef90_UPI000B40A3EA type I toxin-antitoxin system Hok family...  61.4    2e-11
+  UniRef90_A0A1G5Q5M3 Protein HokA n=6 Tax=Photorhabdus TaxID=294...  61.8    2e-11
+  UniRef90_I2XJC6 Protein HokC n=3 Tax=Escherichia coli TaxID=562...  61.4    2e-11
+  UniRef90_F9RQQ7 Post-segregation killing protein n=3 Tax=Vibrio...  61.0    3e-11
+  UniRef90_UPI000F671275 Hok/Gef family protein n=1 Tax=Enterobac...  61.0    3e-11
+  UniRef90_UPI000DD2F180 Hok/Gef family protein n=2 Tax=Serratia ...  61.0    3e-11
+  UniRef90_A0A087KK29 Endonuclease n=1 Tax=Serratia sp. Ag1 TaxID...  60.6    4e-11
+  UniRef90_F9RJN1 Small toxic membrane protein HokA n=2 Tax=Vibri...  60.6    4e-11
+  UniRef90_UPI00020E976C Hok/Gef family protein n=1 Tax=Serratia ...  60.3    6e-11
+  UniRef90_UPI000C7C9BFB hypothetical protein n=2 Tax=Escherichia...  61.0    6e-11
+  UniRef90_UPI000949661D Hok/Gef family protein n=1 Tax=Serratia ...  59.9    7e-11
+  UniRef90_A0A2Z2J655 Small toxic polypeptide n=7 Tax=Enterobacte...  59.9    7e-11
+  UniRef90_UPI000743F62A type I toxin-antitoxin system toxin HokA...  59.9    8e-11
+  UniRef90_UPI00098CD271 type I toxin-antitoxin system Hok family...  59.9    8e-11
+  UniRef90_A0A2P8VMY4 Hok/Gef family protein n=1 Tax=Siccibacter ...  59.9    9e-11
+  UniRef90_A0A0J8YNZ1 Protein hokC n=2 Tax=unclassified Erwiniace...  59.5    1e-10
+  UniRef90_A0A378GEF9 Small toxic polypeptide n=2 Tax=Kluyvera as...  59.5    1e-10
+  UniRef90_G9G195 F factor n=9 Tax=Bacteria TaxID=2 RepID=G9G195_...  59.1    1e-10
+  UniRef90_UPI0009395C09 type I toxin-antitoxin system toxin HokA...  59.5    1e-10
+  UniRef90_A0A351LXC3 Hok/Gef family protein n=1 Tax=Franconibact...  59.5    1e-10
+  UniRef90_A0A2S9IF77 Small toxic polypeptide n=1 Tax=Pantoea cof...  59.5    1e-10
+  UniRef90_A0A2C5WHB7 Small toxic polypeptide n=4 Tax=Pluralibact...  59.1    1e-10
+  UniRef90_A0A1A9F732 Small toxic polypeptide n=1 Tax=Lelliottia ...  58.7    2e-10
+  UniRef90_UPI00037D3DC8 Hok/Gef family protein n=1 Tax=Erwinia t...  58.7    2e-10
+  UniRef90_W0AVD7 Small toxic polypeptide n=2 Tax=Escherichia alb...  58.7    2e-10
+  UniRef90_B1EI90 Protein hokA n=26 Tax=Enterobacteriaceae TaxID=...  57.6    6e-10
+  UniRef90_G2GZX5 Hok/gef family protein n=2 Tax=Candidatus Regie...  57.9    6e-10
+  UniRef90_A0A236M629 Uncharacterized protein n=1 Tax=Shigella bo...  57.2    7e-10
+  UniRef90_UPI00031E6347 Hok/Gef family protein n=1 Tax=Metakosak...  57.2    8e-10
+  UniRef90_A0A1V3CBA2 Uncharacterized protein (Fragment) n=2 Tax=...  56.4    1e-09
+  UniRef90_A0A2A3KP04 Small toxic polypeptide n=4 Tax=Enterobacte...  56.4    2e-09
+  UniRef90_T0PCV9 Uncharacterized protein n=1 Tax=Photorhabdus te...  56.8    2e-09
+  UniRef90_A0A1N6VS74 Protein HokA n=1 Tax=Enterobacter kobei Tax...  56.4    3e-09
+  UniRef90_A0A1V8NRU1 Small toxic polypeptide n=1 Tax=Citrobacter...  55.6    4e-09
+  UniRef90_A0A2S5C625 Hok/Gef family protein n=4 Tax=Enterobacter...  55.2    5e-09
+  UniRef90_A8GIY0 Hok/gef cell toxic protein n=3 Tax=Serratia Tax...  54.9    7e-09
+  UniRef90_UPI00069221D5 Hok/Gef family protein n=1 Tax=Siccibact...  54.9    8e-09
+  UniRef90_A0A266HSH4 Hok/Gef family protein n=5 Tax=Escherichia ...  54.5    8e-09
+  UniRef90_S1CF06 Regulatory protein mokC n=2 Tax=Enterobacteriac...  54.5    8e-09
+  UniRef90_UPI000BE961AC hypothetical protein n=1 Tax=Escherichia...  54.9    1e-08
+  UniRef90_A0A3A5JTN4 Hok/Gef family protein n=2 Tax=Buttiauxella...  54.5    1e-08
+  UniRef90_A0A3K3TD21 Hok/Gef family protein n=1 Tax=Escherichia ...  54.1    1e-08
+  UniRef90_UPI000C1F13AC protein hokD n=1 Tax=Escherichia coli Ta...  54.1    1e-08
+  UniRef90_U7QQ31 Protein hokC n=1 Tax=Photorhabdus temperata J3 ...  53.3    2e-08
+  UniRef90_UPI0009F9946C Hok/Gef family protein n=1 Tax=Enterobac...  53.7    2e-08
+  UniRef90_A0A0H2VU80 Host cell-killing modulation protein n=1 Ta...  53.3    2e-08
+  UniRef90_A0A3K2PAD2 Type I toxin-antitoxin system Hok family to...  52.9    3e-08
+  UniRef90_UPI000F8CC77B hypothetical protein n=1 Tax=Escherichia...  52.2    1e-07
+  UniRef90_UPI00055E7EEC Hok/Gef family protein n=1 Tax=Pantoea s...  51.0    2e-07
+  UniRef90_A0A0J8YNG0 Protein hokC n=2 Tax=unclassified Erwiniace...  49.5    1e-06
+  UniRef90_A0A3M9UW94 Hok/Gef family protein n=1 Tax=Escherichia ...  48.7    1e-06
+  UniRef90_UPI000563242E Hok/Gef family protein n=1 Tax=Pantoea s...  47.9    4e-06
+  UniRef90_A0A1P8MPM4 Protein hokC n=8 Tax=Vibrionaceae TaxID=641...  47.9    5e-06
+  UniRef90_A0A0Q4MFE7 Protein hokC n=1 Tax=Erwinia sp. Leaf53 Tax...  46.0    2e-05
+  UniRef90_A0A3L8W533 Hok/Gef family protein n=6 Tax=Enterobacter...  44.8    5e-05
+  UniRef90_UPI000E2172C4 Hok/Gef family protein n=1 Tax=Escherich...  37.9    0.066
+  UniRef90_UPI0007508144 hypothetical protein n=1 Tax=Escherichia...  36.8    0.32 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00093A15DF type I toxin-antitoxin system Hok family...  87.2    2e-21
+  UniRef90_UPI0009496F16 Hok/Gef family protein n=1 Tax=Franconib...  79.5    2e-18
+  UniRef90_A0A2N5E6U8 Uncharacterized protein n=1 Tax=Yersiniacea...  79.5    2e-18
+  UniRef90_A0A1S0Z7S0 Small toxic polypeptide n=6 Tax=Salmonella ...  67.6    7e-14
+  UniRef90_I0QXL4 Putative cell killing protein n=1 Tax=Serratia ...  67.6    1e-13
+  UniRef90_UPI000E205228 type I toxin-antitoxin system Hok family...  66.0    3e-13
+  UniRef90_UPI0009F63929 type I toxin-antitoxin system Hok family...  65.6    4e-13
+  UniRef90_V1WPA4 Post-segregation killing protein n=22 Tax=Enter...  65.6    5e-13
+  UniRef90_A0A0M3EXU4 Small toxic polypeptide n=3 Tax=Enterobacte...  65.3    5e-13
+  UniRef90_E3DDV1 Simialr to stable plasmid inheritance protein F...  65.3    6e-13
+  UniRef90_A0A2A2C783 Small toxic polypeptide n=4 Tax=Escherichia...  64.1    2e-12
+  UniRef90_UPI000CFDE616 type I toxin-antitoxin system Hok family...  64.1    3e-12
+  UniRef90_A0A024HVW6 Hok/Gef family protein n=10 Tax=Enterobacte...  63.3    3e-12
+  UniRef90_UPI0009ADD527 type I toxin-antitoxin system Hok family...  62.6    6e-12
+  UniRef90_UPI000B4A2546 type I toxin-antitoxin system Hok family...  62.6    8e-12
+  UniRef90_A0A089PNF2 Small toxic polypeptide n=3 Tax=Pluralibact...  62.6    8e-12
+  UniRef90_A0A0M2MYT9 Hok/Gef family protein n=5 Tax=Hafniaceae T...  62.2    9e-12
+  UniRef90_UPI0009825351 type I toxin-antitoxin system Hok family...  62.2    9e-12
+  UniRef90_UPI000A19E3A4 type I toxin-antitoxin system Hok family...  61.8    1e-11
+  UniRef90_Q47655 F factor (stm) n=1 Tax=Escherichia coli TaxID=5...  61.8    1e-11
+  UniRef90_UPI00050B21EE type I toxin-antitoxin system Hok family...  61.8    2e-11
+  UniRef90_Q2VNZ0 Hok/Gef family protein n=44 Tax=Enterobacterale...  61.8    2e-11
+  UniRef90_A0A3P1LTV0 Type I toxin-antitoxin system Hok family to...  61.4    2e-11
+  UniRef90_A0A176XAS8 Small toxic polypeptide n=2 Tax=Enterobacte...  61.4    2e-11
+  UniRef90_D3H5D3 Post-segregation killing protein n=38 Tax=Enter...  61.4    2e-11
+  UniRef90_C9Y322 Stable plasmid inheritance protein n=13 Tax=Cro...  61.0    3e-11
+  UniRef90_A0A318FEH6 Protein HokA n=1 Tax=Klebsiella oxytoca Tax...  61.0    3e-11
+  UniRef90_A0A2G8CP02 Small toxic polypeptide n=1 Tax=Erwinia sp....  61.0    3e-11
+  UniRef90_A0A0M2KCA8 Uncharacterized protein n=2 Tax=Erwinia tra...  61.4    3e-11
+  UniRef90_A0A2S4N2X7 Hok/Gef family protein n=120 Tax=root TaxID...  61.0    5e-11
+  UniRef90_A0A0U4IF84 Hok/Gef family protein n=4 Tax=Serratia Tax...  59.9    7e-11
+  UniRef90_A0A162M6E0 Small toxic polypeptide n=3 Tax=Escherichia...  60.3    8e-11
+  UniRef90_UPI0009071603 type I toxin-antitoxin system Hok family...  59.9    8e-11
+  UniRef90_A0A317PZS7 Protein HokB n=1 Tax=Mangrovibacter plantis...  60.3    9e-11
+  UniRef90_UPI00092F266F Hok/Gef family protein n=1 Tax=Escherich...  59.9    1e-10
+  UniRef90_V0A5D7 Hok/gef family protein (Fragment) n=6 Tax=Esche...  59.9    1e-10
+  UniRef90_A0A379D336 Small toxic polypeptide n=1 Tax=Pluralibact...  59.1    2e-10
+  UniRef90_UPI0007F8AAEC type I toxin-antitoxin system Hok family...  59.1    2e-10
+  UniRef90_UPI0009AA4F3C Hok/Gef family protein n=1 Tax=Salmonell...  59.1    2e-10
+  UniRef90_F9S3Q0 Post-segregation killing protein n=2 Tax=Vibrio...  59.1    2e-10
+  UniRef90_A0A0Q4MQN9 Small toxic polypeptide n=2 Tax=Erwiniaceae...  59.1    2e-10
+  UniRef90_A0A0Q4MK41 Small toxic polypeptide n=2 Tax=Erwinia sp....  59.1    2e-10
+  UniRef90_UPI000B42C3DB Hok/Gef family protein n=1 Tax=Escherich...  59.1    2e-10
+  UniRef90_A0A0J8VH13 Small toxic polypeptide n=6 Tax=Franconibac...  59.1    2e-10
+  UniRef90_A0A0Q4MK54 Small toxic polypeptide n=2 Tax=Erwiniaceae...  58.7    2e-10
+  UniRef90_UPI0008FF8667 type I toxin-antitoxin system Hok family...  58.3    3e-10
+  UniRef90_A0A090NE27 Hok/gef family protein n=7 Tax=Enterobacter...  58.3    3e-10
+  UniRef90_UPI000F51C5D4 Hok/Gef family protein n=1 Tax=Klebsiell...  58.3    4e-10
+  UniRef90_UPI0006A6BFD5 Hok/Gef family protein n=1 Tax=Shigella ...  57.9    4e-10
+  UniRef90_UPI0006F419FF type I toxin-antitoxin system Hok family...  57.9    5e-10
+  UniRef90_A0A085GUW5 Hok/Gef family protein n=3 Tax=Hafnia alvei...  57.6    5e-10
+  UniRef90_A0A383Q958 Small toxic polypeptide n=62 Tax=Enterobact...  58.3    5e-10
+  UniRef90_A0A176X3W9 Small toxic polypeptide n=21 Tax=Enterobact...  57.2    9e-10
+  UniRef90_UPI000907E076 Hok/Gef family protein n=1 Tax=Rouxiella...  57.6    1e-09
+  UniRef90_H5UZ31 HokB protein n=3 Tax=Enterobacteriaceae TaxID=5...  56.8    1e-09
+  UniRef90_UPI00098913DC type I toxin-antitoxin system Hok family...  57.9    1e-09
+  UniRef90_A0A2S8I8A5 Type I toxin-antitoxin system hok family to...  56.8    1e-09
+  UniRef90_J8SSC8 Hok/gef family protein n=3 Tax=Enterobacteriace...  56.8    1e-09
+  UniRef90_B5XMY8 Protein HokA n=25 Tax=Enterobacteriaceae TaxID=...  56.8    1e-09
+  UniRef90_A0A2T3J713 Protein pndA n=1 Tax=Photobacterium frigidi...  56.4    2e-09
+  UniRef90_UPI0009081E9B Hok/Gef family protein n=1 Tax=Erwinia t...  56.4    2e-09
+  UniRef90_A0A061YDD9 Hok/Gef family protein n=10 Tax=Enterobacte...  56.4    2e-09
+  UniRef90_W3VCQ4 Hok/gef family n=1 Tax=Photorhabdus khanii NC19...  56.0    2e-09
+  UniRef90_U2MJE2 Uncharacterized protein n=3 Tax=Serratia fontic...  56.0    2e-09
+  UniRef90_UPI000B4BC74E Hok/Gef family protein n=1 Tax=Salmonell...  56.0    2e-09
+  UniRef90_A0A0K2P6C5 Hok/gef cell toxic protein n=12 Tax=Cronoba...  56.0    3e-09
+  UniRef90_A0A2P5GM96 Small toxic polypeptide n=2 Tax=Superficiei...  56.0    3e-09
+  UniRef90_G2H2C1 Hok/gef family protein n=3 Tax=Candidatus Regie...  56.4    3e-09
+  UniRef90_A0A2I8XNR9 Protein pndA n=4 Tax=Vibrio harveyi group T...  55.6    3e-09
+  UniRef90_V5EMM0 Hok/gef family protein n=3 Tax=Photobacterium T...  55.6    4e-09
+  UniRef90_UPI000D6A350A type I toxin-antitoxin system Hok family...  55.6    4e-09
+  UniRef90_A0A1E9YFW6 Small toxic polypeptide n=5 Tax=Enterobacte...  55.2    5e-09
+  UniRef90_A0A081RTV3 Uncharacterized protein n=1 Tax=Photorhabdu...  55.2    5e-09
+  UniRef90_A0A3E1SS98 Small toxic polypeptide n=1 Tax=Klebsiella ...  55.2    5e-09
+  UniRef90_A0A2L1UPU8 Small toxic polypeptide n=1 Tax=Rahnella sp...  55.2    5e-09
+  UniRef90_A0A328TGP1 Hok/gef family protein n=2 Tax=Erwinia TaxI...  55.2    6e-09
+  UniRef90_UPI0009E613CD Hok/Gef family protein n=1 Tax=Vibrio ja...  55.2    6e-09
+  UniRef90_H3N4B5 Uncharacterized protein n=2 Tax=Klebsiella TaxI...  55.2    6e-09
+  UniRef90_A0A2T3M7N9 Hok/Gef family protein n=3 Tax=Photobacteri...  54.9    6e-09
+  UniRef90_A0A3L4K4B6 Type I toxin-antitoxin system toxin HokA n=...  54.9    7e-09
+  UniRef90_A0A2S4WXD0 Small toxic polypeptide n=2 Tax=Leclercia T...  54.9    7e-09
+  UniRef90_A0A0Q4MFW9 Small toxic polypeptide n=2 Tax=Erwiniaceae...  54.9    7e-09
+  UniRef90_UPI000D01EF51 single-stranded DNA-binding protein n=1 ...  56.0    7e-09
+  UniRef90_UPI0009B95D63 Hok/Gef family protein n=1 Tax=Klebsiell...  55.2    7e-09
+  UniRef90_P37305 Protein HokA n=43 Tax=Enterobacteriaceae TaxID=...  54.9    8e-09
+  UniRef90_P77494 Toxic protein HokB n=77 Tax=Enterobacteriaceae ...  54.5    9e-09
+  UniRef90_A0A3K3KU69 Type I toxin-antitoxin system toxin HokA n=...  54.5    9e-09
+  UniRef90_A0A2N4W240 Protein HokA n=12 Tax=Enterobacteriaceae Ta...  54.9    1e-08
+  UniRef90_A0A3N1W9W0 Protein HokB n=1 Tax=Erwinia sp. JUb26 TaxI...  54.5    1e-08
+  UniRef90_A0A1Q4MCY0 HokG n=7 Tax=Aeromonas TaxID=642 RepID=A0A1...  54.1    1e-08
+  UniRef90_A0A2J9EBD6 Hok/Gef family protein n=7 Tax=Erwiniaceae ...  54.1    1e-08
+  UniRef90_S3JJQ0 Hok/gef family protein n=2 Tax=Cedecea davisae ...  55.2    1e-08
+  UniRef90_A0A2T3CBJ0 Small toxic polypeptide n=3 Tax=Enterobacte...  54.1    1e-08
+  UniRef90_I2B5H8 Hok/Gef-like protein n=1 Tax=Shimwellia blattae...  54.5    2e-08
+  UniRef90_A0A2T3U4Z1 Type I toxin-antitoxin system hok family to...  53.7    2e-08
+  UniRef90_A0A2H9EQ84 Small toxic polypeptide n=2 Tax=Escherichia...  54.1    2e-08
+  UniRef90_A0A0L7TAL7 Small toxic polypeptide n=2 Tax=Erwinia ini...  53.7    2e-08
+  UniRef90_UPI000F0AA04E type I toxin-antitoxin system toxin HokA...  53.7    2e-08
+  UniRef90_A0A2Z3F2W7 Hok/gef cell toxic protein n=9 Tax=Enteroba...  53.7    2e-08
+  UniRef90_UPI0008FECAF9 Hok/Gef family protein n=1 Tax=Yokenella...  53.3    3e-08
+  UniRef90_UPI00092E9695 Hok/Gef family protein n=1 Tax=Trabulsie...  53.3    3e-08
+  UniRef90_A0A1E3N6H2 Small toxic polypeptide n=3 Tax=Enterobacte...  52.9    4e-08
+  UniRef90_I2UL78 Uncharacterized protein n=1 Tax=Escherichia col...  52.9    4e-08
+  UniRef90_UPI0007A09FC5 type I toxin-antitoxin system Hok family...  53.3    4e-08
+  UniRef90_UPI000BE6C67E Hok/Gef family protein n=1 Tax=Escherich...  52.9    4e-08
+  UniRef90_UPI000E2BB2D9 type I toxin-antitoxin system Hok family...  53.3    4e-08
+  UniRef90_J2E3G5 HokE n=26 Tax=Enterobacterales TaxID=91347 RepI...  53.3    5e-08
+  UniRef90_A0A345WYD9 Uncharacterized protein n=2 Tax=Klebsiella ...  52.2    6e-08
+  UniRef90_A0A3N1WBJ7 Protein HokB n=1 Tax=Erwinia sp. JUb26 TaxI...  52.2    8e-08
+  UniRef90_A7MPJ9 Uncharacterized protein n=14 Tax=Cronobacter Ta...  52.5    8e-08
+  UniRef90_A0A2V3SMI2 Hok/gef family protein n=2 Tax=Enterobacter...  53.3    1e-07
+  UniRef90_A0A1X0WLD5 Uncharacterized protein n=2 Tax=Rouxiella b...  52.2    1e-07
+  UniRef90_P11902 Protein PndA n=56 Tax=Bacteria TaxID=2 RepID=PN...  51.8    1e-07
+  UniRef90_A0A1X3HXD3 Uncharacterized protein n=1 Tax=Escherichia...  51.8    1e-07
+  UniRef90_A0A1V1VI63 Small toxic polypeptide n=1 Tax=Photobacter...  51.4    1e-07
+  UniRef90_A0A0M3F5P4 Hok/gef cell toxic protein n=2 Tax=Enteroba...  51.4    1e-07
+  UniRef90_P16477 Protein PndA n=100 Tax=root TaxID=1 RepID=PNDA2...  51.4    2e-07
+  UniRef90_A0A378FS32 Protein hokG n=17 Tax=Enterobacteriaceae Ta...  52.2    2e-07
+  UniRef90_A0A1J4R8L9 Uncharacterized protein n=1 Tax=Salmonella ...  51.8    2e-07
+  UniRef90_UPI0002FE33AE type I toxin-antitoxin system Hok family...  51.0    2e-07
+  UniRef90_A0A1P8MBY8 Protein hokC n=4 Tax=Vibrio harveyi group T...  51.0    2e-07
+  UniRef90_UPI00055E39BF Hok/Gef family protein n=1 Tax=Franconib...  51.0    3e-07
+  UniRef90_A0A090IE84 Protein srnB n=1 Tax=Aliivibrio wodanis Tax...  50.6    3e-07
+  UniRef90_A0A1X9U7Q4 Hok/Gef family protein n=4 Tax=Photobacteri...  50.6    4e-07
+  UniRef90_UPI00077C8AE3 Hok/Gef family protein n=2 Tax=Serratia ...  50.6    4e-07
+  UniRef90_A0A0Q4N397 Uncharacterized protein n=1 Tax=Erwinia sp....  51.0    4e-07
+  UniRef90_A0A0F1BE80 Endonuclease n=23 Tax=Enterobacterales TaxI...  50.2    4e-07
+  UniRef90_A0A3L1KR21 Hok/Gef family protein n=1 Tax=Escherichia ...  50.2    5e-07
+  UniRef90_A0A179Q045 Hok/gef cell toxic protein n=93 Tax=Bacteri...  50.2    5e-07
+  UniRef90_A0A2S7UFL2 Protein hokC n=11 Tax=Vibrionaceae TaxID=64...  49.9    6e-07
+  UniRef90_A0A2T7AYD2 Type I toxin-antitoxin system hok family to...  49.9    7e-07
+  UniRef90_UPI000699F874 Hok/Gef family protein n=1 Tax=Salmonell...  49.9    8e-07
+  UniRef90_A0A2S1MJQ6 Protein pndA n=1 Tax=Vibrio parahaemolyticu...  49.5    8e-07
+  UniRef90_A0A2U3F0L9 Type I toxin-antitoxin system hok family to...  49.5    8e-07
+  UniRef90_A0A090R771 Uncharacterized protein n=1 Tax=Vibrio sp. ...  49.9    9e-07
+  UniRef90_J2X1L1 Small toxic polypeptide n=5 Tax=Enterobacteriac...  49.5    1e-06
+  UniRef90_A0A1T4V8V1 Hok/gef family protein n=1 Tax=Enterovibrio...  49.5    1e-06
+  UniRef90_UPI0009FD13AE Hok/Gef family protein n=1 Tax=Vibrio ic...  49.5    1e-06
+  UniRef90_A0A0L7YMW7 Protein hokC n=14 Tax=Vibrionaceae TaxID=64...  49.5    1e-06
+  UniRef90_L0M729 Hok/gef family n=2 Tax=Enterobacteriaceae TaxID...  49.1    1e-06
+  UniRef90_A0A2S9ZFJ8 Protein hokC n=1 Tax=Vibrio mediterranei Ta...  49.1    1e-06
+  UniRef90_UPI0009E4E76A Hok/Gef family protein n=1 Tax=Vibrio di...  49.1    1e-06
+  UniRef90_A0A2I1ZS34 Hok/Gef family protein n=3 Tax=Enterobacter...  49.1    1e-06
+  UniRef90_A0A3C2BI59 Hok/Gef family protein n=1 Tax=Enterobacter...  49.1    2e-06
+  UniRef90_A0A1B1NWV1 Uncharacterized protein n=3 Tax=Vibrio TaxI...  48.7    2e-06
+  UniRef90_UPI000F664AEC Hok/Gef family protein n=1 Tax=Atlantiba...  48.7    2e-06
+  UniRef90_A0A1I1WL84 Protein HokE n=2 Tax=Kosakonia sp. S29 TaxI...  49.1    2e-06
+  UniRef90_A0A2J7LLW5 Hok/Gef family protein n=5 Tax=Enterobacter...  48.7    2e-06
+  UniRef90_UPI0009AA5515 Hok/Gef family protein n=2 Tax=Salmonell...  48.7    2e-06
+  UniRef90_D7X327 Hok/gef family protein (Fragment) n=1 Tax=Esche...  49.1    2e-06
+  UniRef90_A0A3C2BI24 Type I toxin-antitoxin system hok family to...  48.3    3e-06
+  UniRef90_A0A090VSD6 HokE protein n=3 Tax=Enterobacteriaceae Tax...  48.3    3e-06
+  UniRef90_A0A0Q4M9B9 Uncharacterized protein n=1 Tax=Serratia sp...  49.1    3e-06
+  UniRef90_A0A1C7WAD8 Endonuclease n=1 Tax=Serratia sp. 14-2641 T...  47.9    3e-06
+  UniRef90_A0A1Y2XH56 Hok/gef family protein n=1 Tax=Escherichia ...  48.7    3e-06
+  UniRef90_UPI0003637613 Hok/Gef family protein n=1 Tax=Vibrio ta...  47.9    4e-06
+  UniRef90_UPI000C1F4595 type I toxin-antitoxin system Hok family...  47.9    4e-06
+  UniRef90_L3Q4Y6 Protein hokD n=1 Tax=Escherichia coli KTE75 Tax...  48.3    4e-06
+  UniRef90_A0A3K3JYE7 Hok/Gef family protein n=1 Tax=Escherichia ...  47.9    4e-06
+  UniRef90_A0A2S5C2M8 Hok/Gef family protein n=1 Tax=Lelliottia s...  47.9    5e-06
+  UniRef90_A0A367TK38 Type I toxin-antitoxin system hok family to...  47.9    5e-06
+  UniRef90_A0A348DI01 Protein HokE n=6 Tax=Enterobacterales TaxID...  47.9    5e-06
+  UniRef90_UPI0009D71A0A Hok/Gef family protein n=1 Tax=Vibrio Ta...  47.5    5e-06
+  UniRef90_UPI000CFB2BEB type I toxin-antitoxin system Hok family...  48.3    5e-06
+  UniRef90_A0A0K0MG06 Hok/Gef family protein n=9 Tax=Vibrio harve...  47.5    6e-06
+  UniRef90_A0A2T7AKG8 Type I toxin-antitoxin system hok family to...  47.5    7e-06
+  UniRef90_UPI0004E26F4B Hok/Gef family protein n=1 Tax=Siccibact...  47.5    7e-06
+  UniRef90_UPI000E1C2B14 type I toxin-antitoxin system Hok family...  47.5    7e-06
+  UniRef90_A0A3Q0P2W3 Type I toxin-antitoxin system hok family to...  48.3    7e-06
+  UniRef90_A0A2T3BJR7 Hok/Gef family protein n=3 Tax=Escherichia ...  48.3    7e-06
+  UniRef90_UPI000BE4B4F7 hypothetical protein n=1 Tax=Escherichia...  47.5    8e-06
+  UniRef90_A0A0L6Y638 Hok/Gef family protein n=2 Tax=Escherichia ...  47.2    8e-06
+  UniRef90_UPI000A00A113 Hok/Gef family protein n=3 Tax=Serratia ...  47.2    9e-06
+  UniRef90_UPI000C85612F type I toxin-antitoxin system Hok family...  47.2    9e-06
+  UniRef90_A0A0J8VS87 Small toxic polypeptide n=2 Tax=Franconibac...  47.2    9e-06
+  UniRef90_A0A0K2NZA4 Protein hokB n=8 Tax=Enterobacteriaceae Tax...  47.2    9e-06
+  UniRef90_A0A0F0TIA3 Hok/Gef family protein n=8 Tax=Enterobacter...  46.8    1e-05
+  UniRef90_A0A344QF53 Small toxic polypeptide n=4 Tax=Salmonella ...  46.8    1e-05
+  UniRef90_A0A2N7KP25 Protein hokC n=4 Tax=Vibrio TaxID=662 RepID...  46.8    1e-05
+  UniRef90_A0A2B7LJ33 Uncharacterized protein n=4 Tax=Enterobacte...  47.5    1e-05
+  UniRef90_A0A133LGI3 Hok/gef family protein n=4 Tax=Enterobacter...  47.2    1e-05
+  UniRef90_C9XX12 Uncharacterized protein n=12 Tax=Cronobacter Ta...  46.8    1e-05
+  UniRef90_A0A1A9F7K5 Hok/gef cell toxic protein n=3 Tax=Enteroba...  46.8    1e-05
+  UniRef90_UPI000E5D9378 type I toxin-antitoxin system Hok family...  47.2    1e-05
+  UniRef90_A0A2T3XIU4 Hok/Gef family protein n=3 Tax=Enterobacter...  46.8    1e-05
+  UniRef90_UPI0008FEB901 type I toxin-antitoxin system Hok family...  46.4    1e-05
+  UniRef90_E3G5T2 Hok/gef cell toxic protein n=2 Tax=Enterobacter...  46.4    1e-05
+  UniRef90_A0A1B2JPF2 Hok/gef family protein n=17 Tax=Enterobacte...  46.4    1e-05
+  UniRef90_UPI00097DD135 Hok/Gef family protein n=1 Tax=Shigella ...  46.8    2e-05
+  UniRef90_UPI0005F08018 type I toxin-antitoxin system Hok family...  46.4    2e-05
+  UniRef90_A4SUJ6 SrnB protein n=4 Tax=Aeromonas salmonicida TaxI...  47.9    2e-05
+  UniRef90_A0A0F6TT69 Membrane protein n=5 Tax=Citrobacter TaxID=...  46.4    2e-05
+  UniRef90_A0A3A5K8G6 Hok/Gef family protein n=1 Tax=Buttiauxella...  46.4    2e-05
+  UniRef90_A0A2I8QV75 Type I toxin-antitoxin system hok family to...  46.4    2e-05
+  UniRef90_UPI000D786858 type I toxin-antitoxin system Hok family...  46.4    2e-05
+  UniRef90_F5RWX6 Uncharacterized protein n=1 Tax=Enterobacter ho...  46.0    2e-05
+  UniRef90_UPI000C9BDBD1 Hok/Gef family protein n=1 Tax=Vibrio pa...  46.0    2e-05
+  UniRef90_UPI00092CFDEF type I toxin-antitoxin system Hok family...  46.0    2e-05
+  UniRef90_A0A329XWI3 Type I toxin-antitoxin system hok family to...  46.8    2e-05
+  UniRef90_A0A3P4G031 Uncharacterized protein n=1 Tax=Escherichia...  46.4    3e-05
+  UniRef90_A0A2M9RFJ3 Hok/Gef family protein n=1 Tax=Raoultella s...  46.0    3e-05
+  UniRef90_A0A2S9ZHZ4 Protein hokC n=1 Tax=Vibrio mediterranei Ta...  46.0    3e-05
+  UniRef90_A0A090UWP6 Uncharacterized protein n=1 Tax=Pseudescher...  45.6    3e-05
+  UniRef90_A0A2N4VYD1 Hok/Gef family protein n=10 Tax=Enterobacte...  45.6    3e-05
+  UniRef90_A0A1I6EDH2 Hok/gef family protein n=1 Tax=Enterobacter...  45.6    3e-05
+  UniRef90_A0A0Q3KEC9 Hok/Gef family protein n=13 Tax=Enterobacte...  47.5    3e-05
+  UniRef90_UPI00098C9C36 type I toxin-antitoxin system Hok family...  46.0    3e-05
+  UniRef90_A0A2J7P8T8 Hok/Gef family protein n=3 Tax=Enterobacter...  45.6    3e-05
+  UniRef90_UPI0009006C50 type I toxin-antitoxin system Hok family...  45.6    4e-05
+  UniRef90_A0A3P2MNY1 Hok/Gef family protein n=1 Tax=Klebsiella p...  45.2    4e-05
+  UniRef90_UPI0009E82D88 Hok/Gef family protein n=1 Tax=Salmonell...  45.2    4e-05
+  UniRef90_UPI0009305038 Hok/Gef family protein n=1 Tax=Escherich...  45.6    4e-05
+  UniRef90_Q8X7U9 Putative protein HokG n=99 Tax=Enterobacteriace...  45.2    4e-05
+  UniRef90_A0A0Q4MHX1 Small toxic polypeptide n=1 Tax=Erwinia sp....  45.2    5e-05
+  UniRef90_A0A2S7VA92 Protein hokC n=1 Tax=Vibrio jasicida TaxID=...  45.2    5e-05
+  UniRef90_A0A3P1RGI9 Type I toxin-antitoxin system toxin HokA n=...  44.8    5e-05
+  UniRef90_G2S0L6 Hok/gef cell toxic protein n=2 Tax=Enterobacter...  45.2    5e-05
+  UniRef90_A0A1Z3MNQ6 HokG n=3 Tax=Aeromonas TaxID=642 RepID=A0A1...  45.2    5e-05
+  UniRef90_A0A0G3K7S9 Small toxic membrane polypeptide n=80 Tax=E...  45.2    5e-05
+  UniRef90_A0A0Q4MGP8 Uncharacterized protein n=2 Tax=Yersiniacea...  46.0    5e-05
+  UniRef90_E9Z0A4 Hok/gef family protein n=3 Tax=Enterobacteriace...  45.6    5e-05
+  UniRef90_A0A2T4Y5U7 Hok/gef cell toxic protein n=6 Tax=Enteroba...  44.8    6e-05
+  UniRef90_A0A0C1VD31 Protein hokC n=1 Tax=Vibrio owensii CAIM 18...  44.8    6e-05
+  UniRef90_A0A2N7NYA9 Protein hokC n=1 Tax=Vibrio cyclitrophicus ...  44.8    6e-05
+  UniRef90_P13970 Protein SrnB n=67 Tax=Enterobacteriaceae TaxID=...  45.2    7e-05
+  UniRef90_A0A3J6DF59 Type I toxin-antitoxin system Hok family to...  44.5    8e-05
+  UniRef90_A0A0Q4MJR9 Small toxic polypeptide n=4 Tax=Erwiniaceae...  44.8    8e-05
+  UniRef90_UPI0005B622A3 type I toxin-antitoxin system Hok family...  45.6    8e-05
+  UniRef90_A0A2N5E8L5 Small toxic polypeptide n=3 Tax=unclassifie...  44.5    1e-04
+  UniRef90_A0A2P9EDC4 Toxin antitoxin system protein SrnB n=48 Ta...  44.8    1e-04
+  UniRef90_Q8XBW9 Protein HokE n=83 Tax=Enterobacteriaceae TaxID=...  44.5    1e-04
+  UniRef90_UPI0009889A31 Hok/Gef family protein n=1 Tax=Escherich...  44.5    1e-04
+  UniRef90_UPI000F66BBDE Hok/Gef family protein n=1 Tax=Atlantiba...  44.5    1e-04
+  UniRef90_UPI0002F4F2F1 Hok/Gef family protein n=1 Tax=Shewanell...  44.5    1e-04
+  UniRef90_A0A358HM06 Hok/Gef family protein n=2 Tax=Leclercia Ta...  44.1    1e-04
+  UniRef90_A0A2I8NPN0 Hok/gef cell toxic protein n=2 Tax=Leclerci...  44.1    1e-04
+  UniRef90_A0A285B0K6 Toxic polypeptide, small n=29 Tax=Enterobac...  44.1    1e-04
+  UniRef90_A0A345CFB6 Hok/Gef family protein n=2 Tax=unclassified...  44.1    1e-04
+  UniRef90_A0A1V0IEB8 Hok/Gef family protein n=4 Tax=Vibrio TaxID...  44.5    1e-04
+  UniRef90_P77091 Toxic protein HokE n=206 Tax=root TaxID=1 RepID...  44.1    2e-04
+  UniRef90_A0A3G4VKS7 Hok/Gef family protein n=1 Tax=Vibrio medit...  44.1    2e-04
+  UniRef90_UPI000579CEDF type I toxin-antitoxin system Hok family...  43.7    2e-04
+  UniRef90_I6DMW1 Protein HokA n=1 Tax=Shigella boydii 4444-74 Ta...  43.3    2e-04
+  UniRef90_G9Z7D9 Hok/gef family protein n=1 Tax=Yokenella regens...  43.7    2e-04
+  UniRef90_B5RJZ0 Hok/Gef family protein n=1 Tax=Klebsiella pneum...  43.7    2e-04
+  UniRef90_D6I787 Predicted protein n=1 Tax=Escherichia coli B185...  43.3    2e-04
+  UniRef90_UPI00098C1891 type I toxin-antitoxin system Hok family...  44.8    2e-04
+  UniRef90_A0A345CNZ7 Hok/Gef family protein n=2 Tax=Enterobacter...  43.7    2e-04
+  UniRef90_A0A2I8NSN9 Hok/Gef family protein n=1 Tax=Leclercia sp...  43.3    2e-04
+  UniRef90_A0A2S5KER7 Endonuclease n=1 Tax=Pantoea sp. ICBG 1758 ...  43.3    2e-04
+  UniRef90_A0A1X2RR47 Hok/gef family protein n=6 Tax=Salmonella e...  43.3    2e-04
+  UniRef90_S1LAZ3 Protein hokE n=5 Tax=Escherichia TaxID=561 RepI...  43.3    3e-04
+  UniRef90_A0A0S3K680 Protein hokC n=1 Tax=Vibrio alginolyticus T...  43.3    3e-04
+  UniRef90_B8EG05 Hok/gef cell toxic protein n=3 Tax=Shewanella b...  43.7    3e-04
+  UniRef90_A0A2T3CIM6 Hok/Gef family protein n=4 Tax=Enterobacter...  42.9    3e-04
+  UniRef90_B1VJ68 Post-segregation killing protein n=3 Tax=Morgan...  42.9    4e-04
+  UniRef90_UPI0009E62AC6 Hok/Gef family protein n=1 Tax=Photobact...  43.7    4e-04
+  UniRef90_A0A3I5EER0 Type I toxin-antitoxin system Hok family to...  42.9    4e-04
+  UniRef90_UPI000BE3A490 Hok/Gef family protein n=1 Tax=Escherich...  42.9    4e-04
+  UniRef90_UPI0007EC2EC5 type I toxin-antitoxin system Hok family...  42.9    4e-04
+  UniRef90_A0A358HLX0 Type I toxin-antitoxin system hok family to...  42.5    5e-04
+  UniRef90_UPI0003453706 Hok/Gef family protein n=1 Tax=Erwinia t...  42.9    5e-04
+  UniRef90_D2TML4 Putative host cell-killing modulation protein n...  42.5    5e-04
+  UniRef90_A0A0L7AH24 Membrane protein n=85 Tax=root TaxID=1 RepI...  42.5    5e-04
+  UniRef90_W0AL62 HokE protein n=5 Tax=Escherichia albertii TaxID...  42.5    6e-04
+  UniRef90_Q8XBX0 Putative protein HokF n=57 Tax=Enterobacteriace...  42.5    6e-04
+  UniRef90_A0A2S3SQT4 Hok/Gef family protein n=6 Tax=Vibrio TaxID...  42.5    6e-04
+  UniRef90_UPI00092D1B8E type I toxin-antitoxin system Hok family...  42.1    7e-04
+  UniRef90_UPI00094965B2 type I toxin-antitoxin system Hok family...  42.1    7e-04
+  UniRef90_UPI000C83B60A Hok/Gef family protein n=1 Tax=Vibrio sp...  42.1    8e-04
+  UniRef90_UPI000CDE6211 Hok/Gef family protein n=1 Tax=Lelliotti...  42.1    8e-04
+  UniRef90_A0A318WLD0 Protein HokE n=3 Tax=Enterobacteriaceae Tax...  42.1    9e-04
+  UniRef90_A0A2A7T669 Hok/Gef family protein n=1 Tax=Yersinia kri...  42.1    9e-04
+  UniRef90_E2X956 Hok/gef family protein n=2 Tax=Shigella dysente...  41.8    0.001
+  UniRef90_UPI000BB8F5EE type I toxin-antitoxin system Hok family...  41.8    0.001
+  UniRef90_UPI0004DF7D0A Hok/Gef family protein n=1 Tax=Vibrio pa...  41.8    0.001
+  UniRef90_A0A2I7CBZ0 Hok/gef cell toxic protein n=1 Tax=Enteroba...  41.8    0.001
+  UniRef90_UPI0009DA40DC Hok/Gef family protein n=1 Tax=gamma pro...  41.8    0.001
+  UniRef90_A0A0A6ZNH1 Hok/gef family protein n=5 Tax=Enterobacter...  41.4    0.001
+  UniRef90_UPI000D1277C4 Hok/Gef family protein n=1 Tax=Plesiomon...  41.8    0.001
+  UniRef90_UPI000F66FC87 Hok/Gef family protein n=1 Tax=Atlantiba...  41.4    0.002
+  UniRef90_A7ZGU5 Protein SrnB n=7 Tax=Escherichia coli TaxID=562...  41.8    0.002
+  UniRef90_A0A1J4QNB5 Hok/gef family protein n=4 Tax=Salmonella e...  41.0    0.002
+  UniRef90_UPI0005D4250B Hok/Gef family protein n=1 Tax=Rouxiella...  41.8    0.002
+  UniRef90_A0A397WZB4 Type I toxin-antitoxin system Hok family to...  41.0    0.002
+  UniRef90_A0A1S0ZEK5 Hok/gef family protein n=9 Tax=Salmonella e...  41.0    0.002
+  UniRef90_UPI000CDDCBD0 type I toxin-antitoxin system Hok family...  41.4    0.002
+  UniRef90_UPI000543C2AF type I toxin-antitoxin system Hok family...  41.0    0.002
+  UniRef90_A0A2I6FNC2 Type I toxin-antitoxin system hok family to...  40.6    0.003
+  UniRef90_UPI00098961B1 type I toxin-antitoxin system Hok family...  41.0    0.003
+  UniRef90_UPI00098ACB25 type I toxin-antitoxin system Hok family...  40.6    0.003
+  UniRef90_A0A2T3JAA2 Endonuclease n=1 Tax=Photobacterium frigidi...  40.6    0.003
+  UniRef90_A0A0H0R2K3 Hok/gef family protein n=19 Tax=root TaxID=...  40.2    0.004
+  UniRef90_G5S7E7 Uncharacterized protein n=2 Tax=Salmonella ente...  40.2    0.004
+  UniRef90_J2LWL7 Hok/gef family n=1 Tax=Pantoea sp. GM01 TaxID=1...  40.2    0.004
+  UniRef90_A0A3K3GPG4 Hok/Gef family protein n=1 Tax=Escherichia ...  39.8    0.005
+  UniRef90_UPI00092E8C94 type I toxin-antitoxin system Hok family...  39.8    0.006
+  UniRef90_UPI000CD86924 hypothetical protein n=1 Tax=Escherichia...  40.2    0.006
+  UniRef90_A0A0J8VV64 Small toxic polypeptide n=2 Tax=Franconibac...  39.8    0.006
+  UniRef90_UPI000BDED6B8 type I toxin-antitoxin system Hok family...  39.8    0.008
+  UniRef90_A0A3I9X783 Hok/Gef family protein n=1 Tax=Salmonella e...  39.5    0.008
+  UniRef90_G2GWT3 Hok/gef family protein (Fragment) n=1 Tax=Candi...  39.5    0.008
+  UniRef90_A0A0T5XET9 Endonuclease n=23 Tax=Bacteria TaxID=2 RepI...  39.5    0.010
+  UniRef90_B1EGN6 Conserved domain protein n=3 Tax=Enterobacteria...  39.1    0.010
+  UniRef90_A0A377TIB3 Hok/gef cell toxic protein n=1 Tax=Klebsiel...  39.1    0.010
+  UniRef90_A0A3F3IWL6 Hok/gef family protein n=1 Tax=Salmonella e...  39.1    0.011
+  UniRef90_A0A0A1AEA2 Post-segregation killing protein SrnB n=13 ...  39.5    0.011
+  UniRef90_UPI00092D2174 Hok/Gef family protein n=1 Tax=Trabulsie...  39.1    0.011
+  UniRef90_A0A376ZP29 Small toxic polypeptide n=3 Tax=Enterobacte...  39.1    0.012
+  UniRef90_A0A3J0VQN6 Type I toxin-antitoxin system Hok family to...  39.1    0.013
+  UniRef90_UPI000907BABC Hok/Gef family protein n=1 Tax=Erwinia t...  39.1    0.013
+  UniRef90_A0A087IF97 Protein hokC n=1 Tax=Vibrio vulnificus TaxI...  39.1    0.014
+  UniRef90_A0A3P1DYN6 Type I toxin-antitoxin system Hok family to...  38.7    0.014
+  UniRef90_UPI000CF137E0 type I toxin-antitoxin system Hok family...  39.5    0.014
+  UniRef90_A0A1X0WIA7 Uncharacterized protein n=1 Tax=Rouxiella b...  38.3    0.015
+  UniRef90_A0A3J1YGU2 Hok/Gef family protein (Fragment) n=4 Tax=E...  38.3    0.016
+  UniRef90_A0A1J0E5W9 Type I toxin-antitoxin system hok family to...  38.7    0.016
+  UniRef90_A0A366F7W6 Protein HokE n=1 Tax=Pseudocitrobacter faec...  38.3    0.024
+  UniRef90_UPI0007D6D0B0 type I toxin-antitoxin system Hok family...  38.7    0.024
+  UniRef90_A0A0M3F026 Endonuclease n=1 Tax=Enterobacter cloacae T...  38.3    0.026
+  UniRef90_A0A3J8P057 Hok/Gef family protein n=1 Tax=Salmonella e...  37.9    0.032
+  UniRef90_A0A0A0CUS5 Uncharacterized protein n=2 Tax=Photorhabdu...  38.3    0.034
+  UniRef90_UPI000D68AE2D type I toxin-antitoxin system Hok family...  38.3    0.035
+  UniRef90_A0A3H9KUG1 Hok/Gef family protein n=1 Tax=Salmonella e...  37.5    0.036
+  UniRef90_A0A2G8ZU32 Hok/Gef family protein n=5 Tax=Escherichia ...  37.9    0.038
+  UniRef90_A0A1Z1SV88 Hok/Gef family protein n=8 Tax=Enterobacter...  37.5    0.046
+  UniRef90_A0A1Z3Q520 Hok/gef family protein n=4 Tax=Salmonella e...  37.5    0.047
+  UniRef90_I0QR34 Uncharacterized protein n=1 Tax=Serratia sp. M2...  37.5    0.050
+  UniRef90_I2B5H7 Hok/Gef-like protein n=2 Tax=Shimwellia blattae...  37.5    0.053
+  UniRef90_A0A1X2RQ41 Hok/gef family protein n=1 Tax=Salmonella e...  37.1    0.063
+  UniRef90_A0A2S5KDN6 Hok/Gef family protein n=1 Tax=Pantoea sp. ...  37.1    0.066
+  UniRef90_UPI00062C8437 hypothetical protein n=1 Tax=Klebsiella ...  37.9    0.068
+  UniRef90_A0A344QFN6 Hok/gef family protein n=1 Tax=Salmonella e...  37.1    0.072
+  UniRef90_A0A1B1KTY2 Uncharacterized protein n=23 Tax=Enterobact...  37.1    0.073
+  UniRef90_F9S208 Uncharacterized protein n=1 Tax=Vibrio ichthyoe...  37.1    0.078
+  UniRef90_A0A285K6S0 Hok/gef family protein n=1 Tax=Pantoea sp. ...  37.1    0.080
+  UniRef90_UPI0009DC469D Hok/Gef family protein n=1 Tax=Pantoea s...  37.1    0.084
+  UniRef90_UPI00053BAD83 Hok/Gef family protein n=1 Tax=Escherich...  36.8    0.087
+  UniRef90_A0A3G2RTE3 Hok/Gef family protein n=2 Tax=Serratia Tax...  36.8    0.10 
+  UniRef90_UPI0006BAAE5F hypothetical protein n=1 Tax=Escherichia...  36.8    0.14 
+  UniRef90_A0A3Q0P5Q9 Hok/Gef family protein n=1 Tax=Escherichia ...  36.4    0.14 
+  UniRef90_K8A379 Uncharacterized protein n=1 Tax=Cronobacter con...  36.4    0.15 
+  UniRef90_A0A0H0JYX9 Hok/Gef family protein n=18 Tax=Proteobacte...  36.0    0.18 
+  UniRef90_A0A1X3HXA8 Uncharacterized protein n=1 Tax=Escherichia...  36.4    0.18 
+  UniRef90_A8GGY2 Hok/gef cell toxic protein n=4 Tax=Serratia Tax...  36.0    0.19 
+  UniRef90_A0A376K3B8 Small toxic polypeptide n=75 Tax=Enterobact...  36.0    0.20 
+  UniRef90_A0A0G4Q4F4 Hok/gef family protein n=1 Tax=Proteus vulg...  36.0    0.22 
+  UniRef90_A0A3C0H4Z8 Hok/Gef family protein n=1 Tax=Enterobacter...  35.6    0.23 
+  UniRef90_A0A0D8PMT1 Endonuclease n=5 Tax=Photobacterium TaxID=6...  35.6    0.24 
+  UniRef90_K8WL28 Post-segregation killing protein n=1 Tax=Provid...  35.6    0.24 
+  UniRef90_A0A2M9W5J1 Endonuclease n=1 Tax=Pantoea rodasii TaxID=...  35.6    0.25 
+  UniRef90_A0A1C6Z309 Uncharacterized protein n=1 Tax=Hafnia alve...  35.6    0.26 
+  UniRef90_A0A1X3I964 Hok/gef family protein n=1 Tax=Escherichia ...  35.6    0.26 
+  UniRef90_A0A379FC73 Post-segregation killing protein n=3 Tax=Pr...  35.6    0.28 
+  UniRef90_A0A2T3J771 Endonuclease n=1 Tax=Photobacterium frigidi...  35.6    0.28 
+  UniRef90_A0A066Q5T1 Hok/gef cell toxic protein n=80 Tax=root Ta...  35.2    0.34 
+  UniRef90_UPI00098C1E5A type I toxin-antitoxin system Hok family...  36.4    0.34 
+  UniRef90_Q1RBZ5 Uncharacterized protein n=2 Tax=Escherichia col...  37.1    0.37 
+  UniRef90_D1P6H8 Hok/gef family protein n=2 Tax=Providencia rust...  35.2    0.37 
+  UniRef90_A0A2T3P2G2 Endonuclease n=1 Tax=Photobacterium phospho...  35.2    0.38 
+  UniRef90_A0A161QZB0 Hok/Gef family protein n=9 Tax=root TaxID=1...  35.2    0.41 
+  UniRef90_UPI000943F815 Hok/Gef family protein n=1 Tax=Escherich...  34.8    0.57 
+  UniRef90_A0A1X3I4E7 Hok/gef family protein n=3 Tax=Escherichia ...  34.8    0.61 
+  UniRef90_A0A0X5FLK9 Hok/Gef family protein n=2 Tax=Escherichia ...  34.8    0.61 
+  UniRef90_UPI0007E3BDD7 hypothetical protein n=1 Tax=Buttiauxell...  35.6    0.64 
+  UniRef90_L0MH98 Hok/gef family n=2 Tax=Serratia TaxID=613 RepID...  35.2    0.68 
+  UniRef90_UPI000D158983 Hok/Gef family protein n=1 Tax=Photobact...  34.4    0.72 
+  UniRef90_D4C1B8 Hok/gef family protein n=5 Tax=Providencia TaxI...  34.4    0.79 
+  UniRef90_UPI000F0A9636 Hok/Gef family protein n=1 Tax=Escherich...  34.8    0.85 
+  UniRef90_A0A126VI17 Uncharacterized protein n=3 Tax=Serratia Ta...  34.4    0.91 
+  UniRef90_UPI00051729F0 Hok/Gef family protein n=1 Tax=Enterobac...  34.4    0.92 
+  UniRef90_A0A066QN52 Hok/Gef family protein n=26 Tax=Escherichia...  34.1    1.1  
+  UniRef90_A0A3L9MMZ2 Hok/Gef family protein n=2 Tax=Enterobacter...  33.7    1.1  
+  UniRef90_A0A066Q8I6 Hok/Gef family protein n=37 Tax=root TaxID=...  34.1    1.1  
+  UniRef90_A0A3J9QAP4 Hok/Gef family protein n=2 Tax=Escherichia ...  33.7    1.1  
+  UniRef90_A0A1H1JRV0 Ubiquinol oxidase subunit 2 n=1 Tax=Parabur...  36.0    1.3  
+  UniRef90_UPI00068A3568 type I toxin-antitoxin system Hok family...  34.1    1.4  
+  UniRef90_UPI000A6BD112 Hok/Gef family protein n=1 Tax=Klebsiell...  33.7    1.6  
+  UniRef90_A0A1S2RP09 Uncharacterized protein n=2 Tax=Enterobacte...  34.4    1.7  
+  UniRef90_W5XPY3 Uncharacterized protein n=3 Tax=Corynebacterium...  34.8    1.9  
+  UniRef90_Q59060 CRISPR system endoribonuclease Csx1 n=1 Tax=Met...  35.2    2.4  
+  UniRef90_A0A1Y0KCB4 Endonuclease n=1 Tax=Lelliottia amnigena Ta...  33.3    2.4  
+  UniRef90_A0A2J4RKS3 Protein hokG n=5 Tax=Enterobacterales TaxID...  33.3    2.6  
+  UniRef90_UPI00057A0C05 Hok/Gef family protein n=1 Tax=Leclercia...  32.9    2.9  
+  UniRef90_UPI000C76DA0B Hok/Gef family protein n=1 Tax=Escherich...  33.3    3.2  
+  UniRef90_A0A0L0H3P2 Membrane protein n=3 Tax=Trabulsiella odont...  32.9    3.3  
+  UniRef90_UPI0008FFA81F type I toxin-antitoxin system Hok family...  33.3    3.8  
+  UniRef90_A0A3A6SZ33 Hok/Gef family protein n=1 Tax=Escherichia ...  32.5    4.0  
+  UniRef90_I0QL40 Uncharacterized protein (Fragment) n=1 Tax=Serr...  33.3    4.0  
+  UniRef90_A0A3I9TWV9 Hok/Gef family protein n=1 Tax=Escherichia ...  32.1    4.1  
+  UniRef90_UPI0009B53FE1 hypothetical protein n=12 Tax=Enterobact...  32.5    6.0  
+  UniRef90_A0A3K0GW95 Hok/Gef family protein n=1 Tax=Escherichia ...  32.1    6.4  
+  UniRef90_UPI000D1821E7 Hok/Gef family protein n=1 Tax=Photobact...  32.1    6.7  
+  UniRef90_J5TD30 Uncharacterized protein n=1 Tax=Trichosporon as...  33.7    7.3  
+  UniRef90_A0A3I1SG44 Hok/Gef family protein n=1 Tax=Escherichia ...  31.4    8.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.155    0.482    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0476    0.140     1.90     42.6     43.6 
+
+Effective search space used: 740371021236
+Results from round 3
+
+
+Query= NP_414559.1
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A1E5MDF7 Uncharacterized protein n=1 Tax=Escherichia...  94.6    2e-24
+  UniRef90_B6IAZ1 Hypothetical phage protein n=153 Tax=root TaxID...  93.5    6e-24
+  UniRef90_A0A2T6WXV3 Hok/Gef family protein n=12 Tax=Enterobacte...  92.7    1e-23
+  UniRef90_A0A3K2XV63 Type I toxin-antitoxin system Hok family to...  92.0    3e-23
+  UniRef90_A0A1G5Q6B6 Protein HokB n=6 Tax=Photorhabdus luminesce...  92.0    3e-23
+  UniRef90_UPI000D6A4D55 type I toxin-antitoxin system Hok family...  91.6    3e-23
+  UniRef90_A0A1X3I748 Uncharacterized protein n=1 Tax=Escherichia...  91.2    4e-23
+  UniRef90_UPI0009DC179C type I toxin-antitoxin system Hok family...  91.2    5e-23
+  UniRef90_R9VJS9 Regulatory protein n=3 Tax=Enterobacteriaceae T...  91.2    5e-23
+  UniRef90_Q8Z606 Hok/Gef family protein n=276 Tax=Bacteria TaxID...  90.8    7e-23
+  UniRef90_D3QSC5 Putative cell killing protein encoded within cr...  90.8    8e-23
+  UniRef90_A0A2N0MZA9 Uncharacterized protein n=2 Tax=Ewingella a...  90.4    9e-23
+  UniRef90_UPI000B7EE05B type I toxin-antitoxin system Hok family...  89.6    2e-22
+  UniRef90_R9VTX7 Regulatory protein n=3 Tax=Enterobacteriaceae T...  89.3    3e-22
+  UniRef90_UPI000CF761B4 type I toxin-antitoxin system Hok family...  88.9    5e-22
+  UniRef90_A0A090V7D9 Regulatory protein MokC n=2 Tax=Enterobacte...  88.5    5e-22
+  UniRef90_D7XM04 Hok/gef family protein n=1 Tax=Escherichia coli...  88.5    6e-22
+  UniRef90_A0A161Z608 Type I toxin-antitoxin system hok family to...  88.5    7e-22
+  UniRef90_UPI0003EF1970 type I toxin-antitoxin system Hok family...  88.5    7e-22
+  UniRef90_UPI000BDEA7E5 type I toxin-antitoxin system Hok family...  88.1    8e-22
+  UniRef90_UPI000B450B8C type I toxin-antitoxin system Hok family...  88.1    9e-22
+  UniRef90_UPI0009455729 type I toxin-antitoxin system Hok family...  88.1    1e-21
+  UniRef90_A0A3L3ZEB7 Type I toxin-antitoxin system Hok family to...  87.7    1e-21
+  UniRef90_UPI00050AFB25 type I toxin-antitoxin system Hok family...  87.3    1e-21
+  UniRef90_A0A0B1NFM8 Regulatory protein n=1 Tax=Escherichia coli...  87.3    2e-21
+  UniRef90_UPI000BF83335 type I toxin-antitoxin system Hok family...  87.3    2e-21
+  UniRef90_A0A1B8YFR7 Small toxic polypeptide n=3 Tax=Photorhabdu...  86.9    2e-21
+  UniRef90_A0A0B1N1W0 Hok/Gef family protein n=227 Tax=root TaxID...  86.9    2e-21
+  UniRef90_UPI000682E84D type I toxin-antitoxin system Hok family...  86.9    2e-21
+  UniRef90_UPI00053AFCB2 type I toxin-antitoxin system Hok family...  86.9    3e-21
+  UniRef90_E9YNA0 Hok/gef family protein n=1 Tax=Escherichia coli...  86.9    4e-21
+  UniRef90_A0A368IPE3 Hok/Gef family protein n=2 Tax=Enterobacter...  86.2    5e-21
+  UniRef90_A0A3J0L074 Type I toxin-antitoxin system Hok family to...  85.8    7e-21
+  UniRef90_A0A1S9JFF8 Uncharacterized protein n=1 Tax=Shigella bo...  85.4    1e-20
+  UniRef90_D4B814 Hok/gef family protein n=1 Tax=Citrobacter youn...  85.0    1e-20
+  UniRef90_UPI00097F9A96 type I toxin-antitoxin system Hok family...  84.2    2e-20
+  UniRef90_A0A329VS32 Uncharacterized protein n=25 Tax=Photorhabd...  84.2    3e-20
+  UniRef90_A0A066QNW3 Hok/Gef family protein n=76 Tax=Enterobacte...  84.2    3e-20
+  UniRef90_A0A330E0C0 Uncharacterized protein n=3 Tax=Enterobacte...  84.2    3e-20
+  UniRef90_UPI0009DEC989 type I toxin-antitoxin system Hok family...  83.5    6e-20
+  UniRef90_A0A292AJC9 Uncharacterized protein n=9 Tax=Yersiniacea...  83.5    6e-20
+  UniRef90_UPI0005A7DF06 type I toxin-antitoxin system Hok family...  83.1    8e-20
+  UniRef90_UPI0005CDC800 type I toxin-antitoxin system Hok family...  82.7    1e-19
+  UniRef90_A0A3K2RHV3 Type I toxin-antitoxin system Hok family to...  83.1    1e-19
+  UniRef90_UPI0003EE6C60 type I toxin-antitoxin system Hok family...  82.7    1e-19
+  UniRef90_A0A1J4R8F3 Uncharacterized protein n=1 Tax=Salmonella ...  82.7    1e-19
+  UniRef90_A0A3E2KKM7 Type I toxin-antitoxin system hok family to...  82.7    1e-19
+  UniRef90_A0A0Q4M980 Uncharacterized protein n=3 Tax=Yersiniacea...  82.7    1e-19
+  UniRef90_A0A1Q4PZ58 Uncharacterized protein n=7 Tax=Escherichia...  82.3    2e-19
+  UniRef90_UPI0005307ADC type I toxin-antitoxin system Hok family...  81.9    2e-19
+  UniRef90_A0A379QTZ9 Protein pndA n=3 Tax=Salmonella enterica Ta...  82.7    3e-19
+  UniRef90_A0A366FIX4 Protein HokC/D n=1 Tax=Pseudocitrobacter fa...  81.9    3e-19
+  UniRef90_UPI00093A15DF type I toxin-antitoxin system Hok family...  81.5    3e-19
+  UniRef90_D4E7G6 Hok/gef family protein n=3 Tax=Yersiniaceae Tax...  81.5    3e-19
+  UniRef90_UPI000C7AB7F0 Hok/Gef family protein n=1 Tax=Yersiniac...  81.5    3e-19
+  UniRef90_D9Z4W9 Hok n=5 Tax=Enterobacterales TaxID=91347 RepID=...  81.5    5e-19
+  UniRef90_A0A0A0CV74 Protein HokA n=9 Tax=Photorhabdus TaxID=294...  80.8    7e-19
+  UniRef90_A0A351LTC9 Uncharacterized protein n=1 Tax=Franconibac...  80.4    1e-18
+  UniRef90_UPI0009333E0F Hok/Gef family protein n=2 Tax=Yersiniac...  80.0    1e-18
+  UniRef90_UPI000DCB57FA type I toxin-antitoxin system Hok family...  80.0    1e-18
+  UniRef90_A0A1B1IL30 Stm n=22 Tax=Enterobacterales TaxID=91347 R...  80.0    2e-18
+  UniRef90_A0A3F3P7M4 Type I toxin-antitoxin system hok family to...  79.6    2e-18
+  UniRef90_UPI000A0EE77A type I toxin-antitoxin system Hok family...  79.2    3e-18
+  UniRef90_UPI000E0EF299 Hok/Gef family protein n=1 Tax=Serratia ...  78.9    3e-18
+  UniRef90_UPI000DA1383D type I toxin-antitoxin system Hok family...  79.2    4e-18
+  UniRef90_L0M0H8 Hok/gef family n=9 Tax=Enterobacteriaceae TaxID...  78.5    6e-18
+  UniRef90_UPI00093C2923 type I toxin-antitoxin system toxin HokA...  78.1    9e-18
+  UniRef90_A0A3J1CPY5 Type I toxin-antitoxin system Hok family to...  77.7    1e-17
+  UniRef90_A0A2X4QV78 Protein pndA n=11 Tax=Salmonella enterica T...  77.3    2e-17
+  UniRef90_A0A2N5E8A3 Uncharacterized protein n=4 Tax=Yersiniacea...  76.9    2e-17
+  UniRef90_A0A1J4R0K7 Uncharacterized protein n=1 Tax=Salmonella ...  76.9    2e-17
+  UniRef90_A0A2N5E3B9 Uncharacterized protein n=1 Tax=Yersiniacea...  76.5    3e-17
+  UniRef90_UPI000BEA942D type I toxin-antitoxin system Hok family...  76.5    3e-17
+  UniRef90_A0A2J4VQQ7 Type I toxin-antitoxin system hok family to...  76.5    3e-17
+  UniRef90_UPI00094488A2 type I toxin-antitoxin system toxin HokA...  76.2    4e-17
+  UniRef90_A0A254MBU2 Uncharacterized protein n=1 Tax=Photorhabdu...  76.2    4e-17
+  UniRef90_A0A2M4ERJ2 Type I toxin-antitoxin system hok family to...  76.2    5e-17
+  UniRef90_A0A2S8DU71 Protein HokA n=11 Tax=Enterobacteriaceae Ta...  75.8    7e-17
+  UniRef90_A0A077W6L2 Uncharacterized protein n=37 Tax=Enterobact...  75.4    9e-17
+  UniRef90_W0HLD2 Regulatory peptide whose translation enables ho...  75.0    1e-16
+  UniRef90_A0A221ZQI7 Uncharacterized protein n=13 Tax=Gammaprote...  75.0    2e-16
+  UniRef90_UPI0009496F16 Hok/Gef family protein n=1 Tax=Franconib...  74.2    3e-16
+  UniRef90_W0HL31 Regulatory peptide whose translation enables ho...  74.2    3e-16
+  UniRef90_L0M630 Hok/gef family n=1 Tax=Enterobacteriaceae bacte...  73.1    6e-16
+  UniRef90_I0QXL4 Putative cell killing protein n=1 Tax=Serratia ...  73.1    8e-16
+  UniRef90_A0A2S4N2X7 Hok/Gef family protein n=120 Tax=root TaxID...  72.7    9e-16
+  UniRef90_UPI00092D7821 type I toxin-antitoxin system Hok family...  72.7    1e-15
+  UniRef90_A0A383Q958 Small toxic polypeptide n=62 Tax=Enterobact...  72.3    1e-15
+  UniRef90_A0A370QS17 Protein HokC/D n=2 Tax=Enterobacillus tribo...  72.3    1e-15
+  UniRef90_A0A3G2IKV2 Type I toxin-antitoxin system Hok family to...  72.3    1e-15
+  UniRef90_A0A2N5E6U8 Uncharacterized protein n=1 Tax=Yersiniacea...  72.3    1e-15
+  UniRef90_UPI000C040DD9 type I toxin-antitoxin system Hok family...  71.5    2e-15
+  UniRef90_UPI000BB81673 Hok/Gef family protein n=10 Tax=Escheric...  71.9    4e-15
+  UniRef90_A0A370S891 Protein HokB n=1 Tax=Serratia fonticola Tax...  71.1    4e-15
+  UniRef90_UPI000DEF6D52 Hok/Gef family protein n=1 Tax=Rahnella ...  70.4    6e-15
+  UniRef90_A0A1Q5V3J3 Protein HokA n=1 Tax=Serratia fonticola Tax...  70.0    1e-14
+  UniRef90_UPI0003EDDAB4 type I toxin-antitoxin system Hok family...  69.2    2e-14
+  UniRef90_A0A344QEY5 Uncharacterized protein n=1 Tax=Salmonella ...  68.8    3e-14
+  UniRef90_UPI000BAAA06B type I toxin-antitoxin system Hok family...  68.5    3e-14
+  UniRef90_A0A1Q5VAI5 Uncharacterized protein n=3 Tax=Serratia fo...  69.2    4e-14
+  UniRef90_UPI0009078676 type I toxin-antitoxin system Hok family...  68.5    5e-14
+  UniRef90_A0A1G4DF88 Small toxic protein n=1 Tax=Klebsiella pneu...  68.8    5e-14
+  UniRef90_A0A1C0U3X4 Small toxic polypeptide n=8 Tax=Photorhabdu...  67.7    6e-14
+  UniRef90_D2Z9L6 Hok/gef family protein n=28 Tax=Bacteria TaxID=...  68.8    6e-14
+  UniRef90_A0A3Q0NQE2 Small toxic polypeptide n=1 Tax=Serratia ma...  67.3    8e-14
+  UniRef90_A0A2N4W240 Protein HokA n=12 Tax=Enterobacteriaceae Ta...  67.7    1e-13
+  UniRef90_UPI0002D9F090 Hok/Gef family protein n=1 Tax=Candidatu...  67.7    1e-13
+  UniRef90_UPI000E354BCA type I toxin-antitoxin system Hok family...  66.9    1e-13
+  UniRef90_UPI000B42B52E type I toxin-antitoxin system Hok family...  66.9    1e-13
+  UniRef90_UPI000CF0614E type I toxin-antitoxin system Hok family...  67.3    2e-13
+  UniRef90_UPI000BB72CE1 type I toxin-antitoxin system Hok family...  66.9    2e-13
+  UniRef90_UPI000A19C0F3 type I toxin-antitoxin system Hok family...  66.5    3e-13
+  UniRef90_A0A2G4U2N1 Small toxic polypeptide n=4 Tax=Yersinia Ta...  65.8    3e-13
+  UniRef90_UPI000751716E Hok/Gef family protein n=1 Tax=Escherich...  65.8    4e-13
+  UniRef90_D2TJU7 Small toxic membrane protein HokA n=4 Tax=Citro...  65.4    5e-13
+  UniRef90_UPI000BDE805E Hok/Gef family protein n=2 Tax=Escherich...  65.4    6e-13
+  UniRef90_A0A3N1W8F0 Protein HokB n=2 Tax=Erwinia sp. JUb26 TaxI...  65.8    6e-13
+  UniRef90_A0A1B8YEC3 Small toxic polypeptide n=3 Tax=Photorhabdu...  65.0    7e-13
+  UniRef90_P0ACG7 Protein HokD n=60 Tax=Bacteria TaxID=2 RepID=HO...  64.6    1e-12
+  UniRef90_UPI000DD3005F type I toxin-antitoxin system Hok family...  65.0    1e-12
+  UniRef90_A0A209A139 Small toxic polypeptide n=4 Tax=Yersinia Ta...  64.2    1e-12
+  UniRef90_A0A193LRA6 Uncharacterized protein n=60 Tax=Enterobact...  64.2    1e-12
+  UniRef90_A0A2S7GE46 Type I toxin-antitoxin system hok family to...  63.8    2e-12
+  UniRef90_UPI000446D56F type I toxin-antitoxin system Hok family...  63.8    2e-12
+  UniRef90_UPI0002A3A56D type I toxin-antitoxin system Hok family...  63.8    2e-12
+  UniRef90_A0A1Q4PF16 Protein hokC n=37 Tax=root TaxID=1 RepID=A0...  63.8    3e-12
+  UniRef90_A0A0M2MYT9 Hok/Gef family protein n=5 Tax=Hafniaceae T...  63.4    3e-12
+  UniRef90_UPI000D0BE643 type I toxin-antitoxin system Hok family...  64.2    3e-12
+  UniRef90_A0A330EWP1 Small toxic polypeptide n=5 Tax=Enterobacte...  63.4    3e-12
+  UniRef90_A0A162D4T8 Small toxic polypeptide n=7 Tax=Enterobacte...  63.4    3e-12
+  UniRef90_UPI0009F63929 type I toxin-antitoxin system Hok family...  63.4    3e-12
+  UniRef90_P0ACG4 Toxic protein HokC n=321 Tax=root TaxID=1 RepID...  63.4    3e-12
+  UniRef90_W0HPQ5 Small toxic membrane protein HokA n=2 Tax=Sodal...  63.1    4e-12
+  UniRef90_UPI000BE3E9F1 type I toxin-antitoxin system Hok family...  63.1    4e-12
+  UniRef90_UPI000B3F402A type I toxin-antitoxin system Hok family...  63.1    4e-12
+  UniRef90_A0A0M2KEB4 Protein hokC n=15 Tax=Enterobacterales TaxI...  63.1    4e-12
+  UniRef90_A0A318FEH6 Protein HokA n=1 Tax=Klebsiella oxytoca Tax...  63.1    5e-12
+  UniRef90_A0A1G5Q5M3 Protein HokA n=6 Tax=Photorhabdus TaxID=294...  63.1    5e-12
+  UniRef90_A4WGQ7 Hok/gef cell toxic protein n=2 Tax=Enterobacter...  62.7    5e-12
+  UniRef90_UPI000E0C774D type I toxin-antitoxin system Hok family...  62.7    6e-12
+  UniRef90_A0A2T7B0L7 Type I toxin-antitoxin system hok family to...  62.7    6e-12
+  UniRef90_A0A1Q5VEZ8 Endonuclease n=13 Tax=Serratia TaxID=613 Re...  62.7    7e-12
+  UniRef90_UPI000CF02B3B type I toxin-antitoxin system Hok family...  62.7    7e-12
+  UniRef90_E3DDV1 Simialr to stable plasmid inheritance protein F...  62.7    7e-12
+  UniRef90_A0A1C7CK33 Protein hokC n=3 Tax=Enterobacteriaceae Tax...  62.3    8e-12
+  UniRef90_A0A336QZL8 Small toxic membrane protein HokA n=4 Tax=E...  62.3    1e-11
+  UniRef90_A0A2S0PSN1 Small toxic polypeptide n=13 Tax=Enterobact...  62.3    1e-11
+  UniRef90_UPI00064B3FE0 type I toxin-antitoxin system Hok family...  61.9    1e-11
+  UniRef90_UPI000DEC44CE type I toxin-antitoxin system Hok family...  61.9    1e-11
+  UniRef90_A0A127KWZ4 F factor n=1 Tax=Enterobacter sp. FY-07 Tax...  61.9    1e-11
+  UniRef90_A0A2U8IAX7 Small toxic polypeptide n=1 Tax=Candidatus ...  61.5    2e-11
+  UniRef90_A0A3I7CD35 Type I toxin-antitoxin system Hok family to...  61.5    2e-11
+  UniRef90_UPI00055A5758 type I toxin-antitoxin system Hok family...  61.5    2e-11
+  UniRef90_A0A2S5CBE0 Protein hokC n=3 Tax=Enterobacteriaceae Tax...  61.5    2e-11
+  UniRef90_UPI000E205228 type I toxin-antitoxin system Hok family...  61.5    2e-11
+  UniRef90_UPI00050B21EE type I toxin-antitoxin system Hok family...  61.5    2e-11
+  UniRef90_A0A1E5M2Y1 Hok/Gef family protein n=8 Tax=Enterobacter...  61.5    2e-11
+  UniRef90_UPI0006B40D28 type I toxin-antitoxin system Hok family...  61.5    2e-11
+  UniRef90_V0A5D7 Hok/gef family protein (Fragment) n=6 Tax=Esche...  61.9    2e-11
+  UniRef90_A0A0M3EXU4 Small toxic polypeptide n=3 Tax=Enterobacte...  61.1    2e-11
+  UniRef90_F9S3Q0 Post-segregation killing protein n=2 Tax=Vibrio...  61.1    2e-11
+  UniRef90_P62671 Stable plasmid inheritance protein n=50 Tax=Bac...  61.1    2e-11
+  UniRef90_W7NR22 F leading maintenance protein n=76 Tax=Enteroba...  61.1    3e-11
+  UniRef90_A0A2H9EGF6 Hok/Gef family protein n=16 Tax=Enterobacte...  61.1    3e-11
+  UniRef90_A0A142EBB2 Hok n=13 Tax=Enterobacterales TaxID=91347 R...  61.1    3e-11
+  UniRef90_UPI000949661D Hok/Gef family protein n=1 Tax=Serratia ...  60.7    3e-11
+  UniRef90_A0A1S0Z7S0 Small toxic polypeptide n=6 Tax=Salmonella ...  61.1    3e-11
+  UniRef90_A0A0N7JQG8 Endonuclease n=52 Tax=Bacteria TaxID=2 RepI...  60.7    3e-11
+  UniRef90_A0A1B1LQQ7 Small toxic polypeptide n=19 Tax=Enterobact...  61.1    3e-11
+  UniRef90_S4YN47 Endonuclease n=8 Tax=Serratia TaxID=613 RepID=S...  60.7    3e-11
+  UniRef90_UPI0006676FDC type I toxin-antitoxin system Hok family...  60.7    3e-11
+  UniRef90_UPI000BE4B8B2 type I toxin-antitoxin system Hok family...  61.1    3e-11
+  UniRef90_A0A1C6YY26 Hok/Gef family protein n=4 Tax=Hafniaceae T...  60.7    3e-11
+  UniRef90_A0A1J4R8L9 Uncharacterized protein n=1 Tax=Salmonella ...  61.1    4e-11
+  UniRef90_UPI000907E076 Hok/Gef family protein n=1 Tax=Rouxiella...  61.1    4e-11
+  UniRef90_UPI000BB8FE10 type I toxin-antitoxin system Hok family...  61.1    4e-11
+  UniRef90_UPI000312D518 Hok/Gef family protein n=1 Tax=Serratia ...  60.4    5e-11
+  UniRef90_G2GZX5 Hok/gef family protein n=2 Tax=Candidatus Regie...  60.7    5e-11
+  UniRef90_G2H2C1 Hok/gef family protein n=3 Tax=Candidatus Regie...  60.7    5e-11
+  UniRef90_A0A1X0YMP6 Endonuclease n=59 Tax=Enterobacteriaceae Ta...  61.1    5e-11
+  UniRef90_V1WPA4 Post-segregation killing protein n=22 Tax=Enter...  60.4    5e-11
+  UniRef90_A0A2I0FQC0 Small toxic polypeptide n=1 Tax=Enterobacte...  60.4    5e-11
+  UniRef90_L0M865 Hok/gef family n=5 Tax=Enterobacteriaceae TaxID...  60.4    5e-11
+  UniRef90_A0A1B3F7Z3 Endonuclease n=29 Tax=Yersiniaceae TaxID=19...  60.4    5e-11
+  UniRef90_A0A167R0S4 Small toxic polypeptide n=42 Tax=Enterobact...  60.4    6e-11
+  UniRef90_A0A1X0WLD5 Uncharacterized protein n=2 Tax=Rouxiella b...  60.7    6e-11
+  UniRef90_UPI00097F817F type I toxin-antitoxin system Hok family...  60.4    6e-11
+  UniRef90_A0A085GUW5 Hok/Gef family protein n=3 Tax=Hafnia alvei...  60.0    7e-11
+  UniRef90_UPI00050B08AB type I toxin-antitoxin system Hok family...  60.0    7e-11
+  UniRef90_UPI000CFDE616 type I toxin-antitoxin system Hok family...  60.4    8e-11
+  UniRef90_A0A0J8VLS4 Small toxic polypeptide n=2 Tax=Franconibac...  60.0    8e-11
+  UniRef90_UPI0009BACBE0 type I toxin-antitoxin system Hok family...  60.0    8e-11
+  UniRef90_UPI0008FC1A0D type I toxin-antitoxin system Hok family...  60.0    9e-11
+  UniRef90_M1EXW0 Hok/gef family protein n=22 Tax=Enterobacterale...  59.6    9e-11
+  UniRef90_A0A2T3M7N9 Hok/Gef family protein n=3 Tax=Photobacteri...  59.6    9e-11
+  UniRef90_V5EMM0 Hok/gef family protein n=3 Tax=Photobacterium T...  59.6    1e-10
+  UniRef90_A0A2J1D5R1 Endonuclease n=1 Tax=Escherichia coli TaxID...  59.6    1e-10
+  UniRef90_UPI000D01EF51 single-stranded DNA-binding protein n=1 ...  60.7    1e-10
+  UniRef90_A0A0G3S6F7 Small toxic polypeptide n=7 Tax=Enterobacte...  59.6    1e-10
+  UniRef90_UPI000B3F5FDE Hok/Gef family protein n=1 Tax=Escherich...  59.6    1e-10
+  UniRef90_L0M469 Hok/gef family n=1 Tax=Enterobacteriaceae bacte...  59.2    1e-10
+  UniRef90_F9RQQ7 Post-segregation killing protein n=3 Tax=Vibrio...  59.2    1e-10
+  UniRef90_UPI00066FF413 Hok/Gef family protein n=2 Tax=Yersinia ...  59.2    1e-10
+  UniRef90_UPI000F67FEF3 Hok/Gef family protein n=2 Tax=Atlantiba...  59.2    1e-10
+  UniRef90_UPI000859E3A7 type I toxin-antitoxin system Hok family...  59.2    1e-10
+  UniRef90_D4I1C1 Protein hok n=5 Tax=Enterobacterales TaxID=9134...  59.2    1e-10
+  UniRef90_UPI000743F62A type I toxin-antitoxin system toxin HokA...  59.2    1e-10
+  UniRef90_E1JBU1 Hok/gef family protein n=10 Tax=Escherichia col...  59.2    2e-10
+  UniRef90_A0A2J7P2J0 Protein hokC n=1 Tax=Enterobacter canceroge...  59.2    2e-10
+  UniRef90_A0A0F7HES0 Endonuclease n=1 Tax=Serratia fonticola Tax...  59.2    2e-10
+  UniRef90_A0A2P5GM96 Small toxic polypeptide n=2 Tax=Superficiei...  59.2    2e-10
+  UniRef90_A0A1A9F732 Small toxic polypeptide n=1 Tax=Lelliottia ...  58.8    2e-10
+  UniRef90_A0A2G4UHZ5 Small toxic polypeptide n=6 Tax=Yersiniacea...  58.8    2e-10
+  UniRef90_UPI0009395C09 type I toxin-antitoxin system toxin HokA...  58.8    2e-10
+  UniRef90_A0A0V9S7L8 Uncharacterized protein (Fragment) n=1 Tax=...  59.2    2e-10
+  UniRef90_W0AVD7 Small toxic polypeptide n=2 Tax=Escherichia alb...  58.4    2e-10
+  UniRef90_A0A089PNF2 Small toxic polypeptide n=3 Tax=Pluralibact...  58.8    2e-10
+  UniRef90_B5XMY8 Protein HokA n=25 Tax=Enterobacteriaceae TaxID=...  58.4    3e-10
+  UniRef90_UPI000CF05179 type I toxin-antitoxin system Hok family...  58.4    3e-10
+  UniRef90_UPI0007747F56 type I toxin-antitoxin system Hok family...  58.8    3e-10
+  UniRef90_UPI00074397A0 type I toxin-antitoxin system Hok family...  58.8    3e-10
+  UniRef90_F9RJN1 Small toxic membrane protein HokA n=2 Tax=Vibri...  58.4    3e-10
+  UniRef90_A0A3E1SS98 Small toxic polypeptide n=1 Tax=Klebsiella ...  58.4    3e-10
+  UniRef90_A0A318P2P5 Hok/Gef family protein n=1 Tax=Serratia ply...  58.4    3e-10
+  UniRef90_UPI0005A22522 type I toxin-antitoxin system Hok family...  58.4    3e-10
+  UniRef90_UPI000BE58CAB type I toxin-antitoxin system Hok family...  58.1    3e-10
+  UniRef90_A0A0U4HHT7 Endonuclease n=3 Tax=Serratia TaxID=613 Rep...  58.1    4e-10
+  UniRef90_S1PG80 Protein hokD n=3 Tax=Escherichia coli TaxID=562...  58.4    4e-10
+  UniRef90_UPI000786936C type I toxin-antitoxin system Hok family...  58.1    4e-10
+  UniRef90_A0A1B7JIB0 MokW family protein n=4 Tax=Kluyvera TaxID=...  58.1    4e-10
+  UniRef90_J8SSC8 Hok/gef family protein n=3 Tax=Enterobacteriace...  58.1    4e-10
+  UniRef90_A0A2C5WHB7 Small toxic polypeptide n=4 Tax=Pluralibact...  58.1    4e-10
+  UniRef90_A0A248KHP7 Uncharacterized protein n=1 Tax=Kluyvera ge...  58.4    5e-10
+  UniRef90_UPI0009ADD527 type I toxin-antitoxin system Hok family...  58.1    5e-10
+  UniRef90_W3VCQ4 Hok/gef family n=1 Tax=Photorhabdus khanii NC19...  58.1    5e-10
+  UniRef90_A0A1N6VS74 Protein HokA n=1 Tax=Enterobacter kobei Tax...  58.4    5e-10
+  UniRef90_A0A2A2C783 Small toxic polypeptide n=4 Tax=Escherichia...  58.1    5e-10
+  UniRef90_UPI0008FBCF4E type I toxin-antitoxin system Hok family...  58.1    5e-10
+  UniRef90_A0A176X3W9 Small toxic polypeptide n=21 Tax=Enterobact...  57.7    5e-10
+  UniRef90_A0A378GEF9 Small toxic polypeptide n=2 Tax=Kluyvera as...  57.7    6e-10
+  UniRef90_A0A3K3KU69 Type I toxin-antitoxin system toxin HokA n=...  57.7    6e-10
+  UniRef90_A0A2T3J713 Protein pndA n=1 Tax=Photobacterium frigidi...  57.7    6e-10
+  UniRef90_UPI0009B5900D Hok/Gef family protein n=1 Tax=Serratia ...  57.7    6e-10
+  UniRef90_A0A090NE27 Hok/gef family protein n=7 Tax=Enterobacter...  57.7    6e-10
+  UniRef90_C9Y322 Stable plasmid inheritance protein n=13 Tax=Cro...  57.7    6e-10
+  UniRef90_A0A024HVW6 Hok/Gef family protein n=10 Tax=Enterobacte...  57.7    7e-10
+  UniRef90_UPI0003DDB0B3 Hok/Gef family protein n=1 Tax=Escherich...  57.7    7e-10
+  UniRef90_A0A0U4IF84 Hok/Gef family protein n=4 Tax=Serratia Tax...  57.3    7e-10
+  UniRef90_A0A2A3KP04 Small toxic polypeptide n=4 Tax=Enterobacte...  57.3    8e-10
+  UniRef90_UPI00038FC0BD type I toxin-antitoxin system Hok family...  57.7    8e-10
+  UniRef90_A0A351LXC3 Hok/Gef family protein n=1 Tax=Franconibact...  57.3    8e-10
+  UniRef90_UPI0007A5DFD4 type I toxin-antitoxin system Hok family...  57.3    9e-10
+  UniRef90_UPI0009071603 type I toxin-antitoxin system Hok family...  57.3    9e-10
+  UniRef90_V5CL80 Hok/gef family protein n=3 Tax=Enterobacteriace...  57.3    9e-10
+  UniRef90_A0A328TGP1 Hok/gef family protein n=2 Tax=Erwinia TaxI...  56.9    1e-09
+  UniRef90_A0A2S9UC91 Hok/gef family protein n=15 Tax=Enterobacte...  56.9    1e-09
+  UniRef90_UPI00050B603E type I toxin-antitoxin system Hok family...  57.3    1e-09
+  UniRef90_V1WPS7 Uncharacterized protein n=8 Tax=Enterobacteriac...  56.9    1e-09
+  UniRef90_A0A2Z2J655 Small toxic polypeptide n=7 Tax=Enterobacte...  56.9    1e-09
+  UniRef90_A0A248KHQ2 Protein hokC n=1 Tax=Kluyvera georgiana Tax...  56.9    1e-09
+  UniRef90_UPI000A19E3A4 type I toxin-antitoxin system Hok family...  56.9    1e-09
+  UniRef90_H3N4B5 Uncharacterized protein n=2 Tax=Klebsiella TaxI...  56.5    1e-09
+  UniRef90_A0A1V1VI63 Small toxic polypeptide n=1 Tax=Photobacter...  56.5    2e-09
+  UniRef90_UPI000CFBD239 type I toxin-antitoxin system Hok family...  56.5    2e-09
+  UniRef90_A0A176XAS8 Small toxic polypeptide n=2 Tax=Enterobacte...  56.5    2e-09
+  UniRef90_B1EI90 Protein hokA n=26 Tax=Enterobacteriaceae TaxID=...  56.5    2e-09
+  UniRef90_UPI00098C0362 Hok/Gef family protein n=2 Tax=Escherich...  57.3    2e-09
+  UniRef90_A0A087KK29 Endonuclease n=1 Tax=Serratia sp. Ag1 TaxID...  56.5    2e-09
+  UniRef90_UPI000B4295AF type I toxin-antitoxin system Hok family...  56.5    2e-09
+  UniRef90_UPI00020E976A Hok/Gef family protein n=1 Tax=Serratia ...  56.5    2e-09
+  UniRef90_UPI00037D3DC8 Hok/Gef family protein n=1 Tax=Erwinia t...  56.5    2e-09
+  UniRef90_J2E3G5 HokE n=26 Tax=Enterobacterales TaxID=91347 RepI...  56.9    2e-09
+  UniRef90_D7X327 Hok/gef family protein (Fragment) n=1 Tax=Esche...  56.9    2e-09
+  UniRef90_A0A317PZS7 Protein HokB n=1 Tax=Mangrovibacter plantis...  56.9    2e-09
+  UniRef90_A0A0K2P6C5 Hok/gef cell toxic protein n=12 Tax=Cronoba...  56.5    2e-09
+  UniRef90_A0A1X1EFY0 Protein hokC n=1 Tax=Pantoea cypripedii Tax...  56.1    2e-09
+  UniRef90_A0A061YDD9 Hok/Gef family protein n=10 Tax=Enterobacte...  56.1    2e-09
+  UniRef90_L0M665 Hok/gef family n=1 Tax=Enterobacteriaceae bacte...  56.1    2e-09
+  UniRef90_A0A3N2RZM1 Type I toxin-antitoxin system Hok family to...  56.1    2e-09
+  UniRef90_UPI0009825351 type I toxin-antitoxin system Hok family...  56.1    2e-09
+  UniRef90_UPI00092D5DB5 type I toxin-antitoxin system Hok family...  56.1    2e-09
+  UniRef90_UPI000A00A113 Hok/Gef family protein n=3 Tax=Serratia ...  56.1    2e-09
+  UniRef90_A0A2N5EPN5 Hok/Gef family protein n=4 Tax=Yersiniaceae...  56.1    2e-09
+  UniRef90_A0A2I8XNR9 Protein pndA n=4 Tax=Vibrio harveyi group T...  56.1    2e-09
+  UniRef90_H5UZ31 HokB protein n=3 Tax=Enterobacteriaceae TaxID=5...  56.1    2e-09
+  UniRef90_A0A2L1UPU8 Small toxic polypeptide n=1 Tax=Rahnella sp...  56.1    2e-09
+  UniRef90_A0A1W5DFI3 Small toxic polypeptide Qin prophage n=8 Ta...  56.1    3e-09
+  UniRef90_UPI0008FCA7CB Hok/Gef family protein n=1 Tax=Photorhab...  56.1    3e-09
+  UniRef90_UPI000BDEF3C9 type I toxin-antitoxin system Hok family...  56.1    3e-09
+  UniRef90_A0A2T3CBJ0 Small toxic polypeptide n=3 Tax=Enterobacte...  55.7    3e-09
+  UniRef90_A0A0Q4MK41 Small toxic polypeptide n=2 Tax=Erwinia sp....  55.7    3e-09
+  UniRef90_UPI000CF1169D type I toxin-antitoxin system Hok family...  55.7    3e-09
+  UniRef90_Q2VNZ0 Hok/Gef family protein n=44 Tax=Enterobacterale...  55.7    3e-09
+  UniRef90_A0A0Q4MGP8 Uncharacterized protein n=2 Tax=Yersiniacea...  56.5    3e-09
+  UniRef90_A0A0B1R8Y6 Protein hokC n=3 Tax=Enterobacterales TaxID...  55.7    3e-09
+  UniRef90_L0M365 Hok/gef family n=2 Tax=Enterobacteriaceae bacte...  55.7    3e-09
+  UniRef90_UPI000B40A3EA type I toxin-antitoxin system Hok family...  55.7    3e-09
+  UniRef90_D3H5D3 Post-segregation killing protein n=38 Tax=Enter...  55.7    3e-09
+  UniRef90_UPI0009E613CD Hok/Gef family protein n=1 Tax=Vibrio ja...  55.7    3e-09
+  UniRef90_UPI00090802E7 type I toxin-antitoxin system Hok family...  55.7    3e-09
+  UniRef90_A0A366FJ53 Protein HokC/D n=3 Tax=Pseudocitrobacter Ta...  55.7    3e-09
+  UniRef90_A0A3P1LTV0 Type I toxin-antitoxin system Hok family to...  55.7    3e-09
+  UniRef90_UPI000DD2F180 Hok/Gef family protein n=2 Tax=Serratia ...  55.7    4e-09
+  UniRef90_A0A090IE84 Protein srnB n=1 Tax=Aliivibrio wodanis Tax...  55.7    4e-09
+  UniRef90_A0A2Z3F2W7 Hok/gef cell toxic protein n=9 Tax=Enteroba...  55.7    4e-09
+  UniRef90_A0A140RT40 Protein hokC n=5 Tax=Proteobacteria TaxID=1...  55.7    4e-09
+  UniRef90_UPI000464642B type I toxin-antitoxin system Hok family...  55.7    4e-09
+  UniRef90_A0A3I9X3B0 Hok/Gef family protein n=3 Tax=Salmonella e...  55.4    4e-09
+  UniRef90_A0A2G8CP02 Small toxic polypeptide n=1 Tax=Erwinia sp....  55.7    4e-09
+  UniRef90_UPI000B42C3DB Hok/Gef family protein n=1 Tax=Escherich...  55.4    4e-09
+  UniRef90_A0A2T2XYS5 Type I toxin-antitoxin system hok family to...  55.4    4e-09
+  UniRef90_A0A1B7JY27 Hok/gef family toxic protein n=2 Tax=Kluyve...  55.4    5e-09
+  UniRef90_UPI000E2BB2D9 type I toxin-antitoxin system Hok family...  55.7    5e-09
+  UniRef90_I2XJC6 Protein HokC n=3 Tax=Escherichia coli TaxID=562...  55.0    5e-09
+  UniRef90_UPI0006F419FF type I toxin-antitoxin system Hok family...  55.4    5e-09
+  UniRef90_UPI000B4A2546 type I toxin-antitoxin system Hok family...  55.4    5e-09
+  UniRef90_UPI000D76F34F type I toxin-antitoxin system Hok family...  55.4    5e-09
+  UniRef90_A0A3J7HFN3 DUF977 family protein n=23 Tax=Escherichia ...  58.1    6e-09
+  UniRef90_UPI00093A1612 type I toxin-antitoxin system Hok family...  55.4    6e-09
+  UniRef90_S4YEN8 Endonuclease n=8 Tax=Serratia TaxID=613 RepID=S...  55.0    6e-09
+  UniRef90_E6WKM5 Hok/gef cell toxic protein n=1 Tax=Pantoea sp. ...  55.0    6e-09
+  UniRef90_UPI00031E6347 Hok/Gef family protein n=1 Tax=Metakosak...  55.0    7e-09
+  UniRef90_A0A2S4WXD0 Small toxic polypeptide n=2 Tax=Leclercia T...  55.0    7e-09
+  UniRef90_A0A0M3F5P4 Hok/gef cell toxic protein n=2 Tax=Enteroba...  55.0    7e-09
+  UniRef90_A0A3I9Q4J0 Type I toxin-antitoxin system Hok family to...  54.6    7e-09
+  UniRef90_A0A0Q4MK54 Small toxic polypeptide n=2 Tax=Erwiniaceae...  55.0    7e-09
+  UniRef90_A0A2U9KP94 Type I toxin-antitoxin system hok family to...  54.6    8e-09
+  UniRef90_P11902 Protein PndA n=56 Tax=Bacteria TaxID=2 RepID=PN...  54.6    8e-09
+  UniRef90_A0A1X9U7Q4 Hok/Gef family protein n=4 Tax=Photobacteri...  54.6    8e-09
+  UniRef90_A0A379D336 Small toxic polypeptide n=1 Tax=Pluralibact...  54.6    8e-09
+  UniRef90_A0A162M6E0 Small toxic polypeptide n=3 Tax=Escherichia...  55.0    8e-09
+  UniRef90_P37305 Protein HokA n=43 Tax=Enterobacteriaceae TaxID=...  54.6    9e-09
+  UniRef90_UPI000BB73463 type I toxin-antitoxin system Hok family...  54.6    9e-09
+  UniRef90_UPI000F671275 Hok/Gef family protein n=1 Tax=Enterobac...  54.6    9e-09
+  UniRef90_A0A0J8YNX8 Protein hokC n=2 Tax=unclassified Erwiniace...  54.6    9e-09
+  UniRef90_A0A3L1B7C7 Type I toxin-antitoxin system Hok family to...  54.6    9e-09
+  UniRef90_UPI0008FF8667 type I toxin-antitoxin system Hok family...  54.6    9e-09
+  UniRef90_Q47655 F factor (stm) n=1 Tax=Escherichia coli TaxID=5...  54.6    1e-08
+  UniRef90_U2MJE2 Uncharacterized protein n=3 Tax=Serratia fontic...  54.6    1e-08
+  UniRef90_P16477 Protein PndA n=100 Tax=root TaxID=1 RepID=PNDA2...  54.6    1e-08
+  UniRef90_UPI0008FAE3EB Hok/Gef family protein n=3 Tax=Hafniacea...  54.6    1e-08
+  UniRef90_A0A378FS32 Protein hokG n=17 Tax=Enterobacteriaceae Ta...  55.4    1e-08
+  UniRef90_A7MPJ9 Uncharacterized protein n=14 Tax=Cronobacter Ta...  54.6    1e-08
+  UniRef90_A0A3L4K4B6 Type I toxin-antitoxin system toxin HokA n=...  54.2    1e-08
+  UniRef90_UPI000F51C5D4 Hok/Gef family protein n=1 Tax=Klebsiell...  54.6    1e-08
+  UniRef90_A0A0Q4MQN9 Small toxic polypeptide n=2 Tax=Erwiniaceae...  54.2    1e-08
+  UniRef90_E3G7Z2 Hok/gef cell toxic protein n=1 Tax=Enterobacter...  54.2    1e-08
+  UniRef90_UPI000CFB2BEB type I toxin-antitoxin system Hok family...  55.0    1e-08
+  UniRef90_UPI0009B95D63 Hok/Gef family protein n=1 Tax=Klebsiell...  54.2    1e-08
+  UniRef90_UPI00092F266F Hok/Gef family protein n=1 Tax=Escherich...  54.2    1e-08
+  UniRef90_A0A1Q4MCY0 HokG n=7 Tax=Aeromonas TaxID=642 RepID=A0A1...  54.2    1e-08
+  UniRef90_S3JJQ0 Hok/gef family protein n=2 Tax=Cedecea davisae ...  55.4    2e-08
+  UniRef90_I2B5H8 Hok/Gef-like protein n=1 Tax=Shimwellia blattae...  54.6    2e-08
+  UniRef90_A0A344QMW9 Type I toxin-antitoxin system hok family to...  53.8    2e-08
+  UniRef90_A0A0L7TAL7 Small toxic polypeptide n=2 Tax=Erwinia ini...  53.8    2e-08
+  UniRef90_A0A2P8VMY4 Hok/Gef family protein n=1 Tax=Siccibacter ...  53.8    2e-08
+  UniRef90_A0A3C2BI59 Hok/Gef family protein n=1 Tax=Enterobacter...  53.8    2e-08
+  UniRef90_UPI0009081E9B Hok/Gef family protein n=1 Tax=Erwinia t...  53.8    2e-08
+  UniRef90_G9G195 F factor n=9 Tax=Bacteria TaxID=2 RepID=G9G195_...  53.4    2e-08
+  UniRef90_A0A3C2BI24 Type I toxin-antitoxin system hok family to...  53.4    2e-08
+  UniRef90_UPI0002C08C6A type I toxin-antitoxin system Hok family...  53.4    3e-08
+  UniRef90_A0A1V8NRU1 Small toxic polypeptide n=1 Tax=Citrobacter...  53.4    3e-08
+  UniRef90_UPI00098BFA9B type I toxin-antitoxin system Hok family...  54.2    3e-08
+  UniRef90_A0A2S9IF77 Small toxic polypeptide n=1 Tax=Pantoea cof...  53.4    3e-08
+  UniRef90_UPI0009403FF8 type I toxin-antitoxin system Hok family...  53.4    3e-08
+  UniRef90_A0A2H9EQ84 Small toxic polypeptide n=2 Tax=Escherichia...  53.8    3e-08
+  UniRef90_UPI0007F8AAEC type I toxin-antitoxin system Hok family...  53.4    3e-08
+  UniRef90_A0A1E3N6H2 Small toxic polypeptide n=3 Tax=Enterobacte...  53.0    4e-08
+  UniRef90_A0A0M2KCA8 Uncharacterized protein n=2 Tax=Erwinia tra...  53.4    4e-08
+  UniRef90_UPI00020E976C Hok/Gef family protein n=1 Tax=Serratia ...  53.0    4e-08
+  UniRef90_A0A0Q4N397 Uncharacterized protein n=1 Tax=Erwinia sp....  53.4    4e-08
+  UniRef90_UPI000DEC16D0 Hok/Gef family protein n=1 Tax=Salmonell...  53.0    5e-08
+  UniRef90_UPI000E5D9378 type I toxin-antitoxin system Hok family...  53.0    5e-08
+  UniRef90_UPI000B7D2F42 type I toxin-antitoxin system Hok family...  52.7    5e-08
+  UniRef90_UPI0008FECAF9 Hok/Gef family protein n=1 Tax=Yokenella...  52.7    6e-08
+  UniRef90_A0A2B7LJ33 Uncharacterized protein n=4 Tax=Enterobacte...  53.4    6e-08
+  UniRef90_UPI000F0AA04E type I toxin-antitoxin system toxin HokA...  53.0    6e-08
+  UniRef90_UPI0006A6BFD5 Hok/Gef family protein n=1 Tax=Shigella ...  52.7    6e-08
+  UniRef90_A0A2S1MJQ6 Protein pndA n=1 Tax=Vibrio parahaemolyticu...  52.7    6e-08
+  UniRef90_UPI0002FE33AE type I toxin-antitoxin system Hok family...  52.7    6e-08
+  UniRef90_A0A3P4G031 Uncharacterized protein n=1 Tax=Escherichia...  53.0    6e-08
+  UniRef90_A0A2V3SMI2 Hok/gef family protein n=2 Tax=Enterobacter...  53.8    7e-08
+  UniRef90_A0A179Q045 Hok/gef cell toxic protein n=93 Tax=Bacteri...  52.3    7e-08
+  UniRef90_A0A329XWI3 Type I toxin-antitoxin system hok family to...  53.0    8e-08
+  UniRef90_A0A3E1WCA4 Protein hokC n=2 Tax=Escherichia coli TaxID...  51.9    8e-08
+  UniRef90_A0A0J8VH13 Small toxic polypeptide n=6 Tax=Franconibac...  52.3    9e-08
+  UniRef90_A0A1I6EDH2 Hok/gef family protein n=1 Tax=Enterobacter...  52.3    9e-08
+  UniRef90_A0A1X1EH77 Protein hokC n=2 Tax=Pantoea cypripedii Tax...  52.3    9e-08
+  UniRef90_A0A2J7LLW5 Hok/Gef family protein n=5 Tax=Enterobacter...  51.9    1e-07
+  UniRef90_A0A1S9JLI0 Uncharacterized protein n=1 Tax=Shigella bo...  51.9    1e-07
+  UniRef90_A8GIY0 Hok/gef cell toxic protein n=3 Tax=Serratia Tax...  51.5    1e-07
+  UniRef90_A0A2S8I8A5 Type I toxin-antitoxin system hok family to...  51.9    1e-07
+  UniRef90_A0A1P8MBY8 Protein hokC n=4 Tax=Vibrio harveyi group T...  51.9    1e-07
+  UniRef90_UPI00092E9695 Hok/Gef family protein n=1 Tax=Trabulsie...  51.9    1e-07
+  UniRef90_UPI0009F9946C Hok/Gef family protein n=1 Tax=Enterobac...  51.5    1e-07
+  UniRef90_UPI000D6A350A type I toxin-antitoxin system Hok family...  51.9    1e-07
+  UniRef90_A0A1X3HXD3 Uncharacterized protein n=1 Tax=Escherichia...  51.5    1e-07
+  UniRef90_UPI000B4BC74E Hok/Gef family protein n=1 Tax=Salmonell...  51.5    2e-07
+  UniRef90_UPI000E679A66 type I toxin-antitoxin system Hok family...  52.3    2e-07
+  UniRef90_A0A090VSD6 HokE protein n=3 Tax=Enterobacteriaceae Tax...  51.5    2e-07
+  UniRef90_A0A2T3U4Z1 Type I toxin-antitoxin system hok family to...  51.5    2e-07
+  UniRef90_Q8XBW9 Protein HokE n=83 Tax=Enterobacteriaceae TaxID=...  51.5    2e-07
+  UniRef90_P77091 Toxic protein HokE n=206 Tax=root TaxID=1 RepID...  51.5    2e-07
+  UniRef90_Q8X7U9 Putative protein HokG n=99 Tax=Enterobacteriace...  51.5    2e-07
+  UniRef90_L0M2Z5 Hok/gef family n=5 Tax=Enterobacteriaceae TaxID...  51.5    2e-07
+  UniRef90_A0A0G3K7S9 Small toxic membrane polypeptide n=80 Tax=E...  51.1    2e-07
+  UniRef90_A0A1E9YFW6 Small toxic polypeptide n=5 Tax=Enterobacte...  51.5    2e-07
+  UniRef90_A0A2T7AYD2 Type I toxin-antitoxin system hok family to...  51.1    2e-07
+  UniRef90_UPI0008FEB901 type I toxin-antitoxin system Hok family...  51.1    2e-07
+  UniRef90_A0A1I1WL84 Protein HokE n=2 Tax=Kosakonia sp. S29 TaxI...  51.5    2e-07
+  UniRef90_P77494 Toxic protein HokB n=77 Tax=Enterobacteriaceae ...  51.1    3e-07
+  UniRef90_A0A133LGI3 Hok/gef family protein n=4 Tax=Enterobacter...  51.1    3e-07
+  UniRef90_A0A0K0MG06 Hok/Gef family protein n=9 Tax=Vibrio harve...  50.7    3e-07
+  UniRef90_A0A0Q4MFW9 Small toxic polypeptide n=2 Tax=Erwiniaceae...  50.7    3e-07
+  UniRef90_UPI00055E39BF Hok/Gef family protein n=1 Tax=Franconib...  50.7    3e-07
+  UniRef90_G2S0L6 Hok/gef cell toxic protein n=2 Tax=Enterobacter...  50.7    3e-07
+  UniRef90_L0M729 Hok/gef family n=2 Tax=Enterobacteriaceae TaxID...  50.7    3e-07
+  UniRef90_UPI000F664AEC Hok/Gef family protein n=1 Tax=Atlantiba...  50.7    3e-07
+  UniRef90_A0A1A9F7K5 Hok/gef cell toxic protein n=3 Tax=Enteroba...  50.7    3e-07
+  UniRef90_A0A0F0TIA3 Hok/Gef family protein n=8 Tax=Enterobacter...  50.7    3e-07
+  UniRef90_A0A2S7UFL2 Protein hokC n=11 Tax=Vibrionaceae TaxID=64...  50.7    3e-07
+  UniRef90_A0A2J9EBD6 Hok/Gef family protein n=7 Tax=Erwiniaceae ...  50.7    3e-07
+  UniRef90_A0A367TK38 Type I toxin-antitoxin system hok family to...  50.7    4e-07
+  UniRef90_UPI00098CD271 type I toxin-antitoxin system Hok family...  50.7    4e-07
+  UniRef90_A0A348DI01 Protein HokE n=6 Tax=Enterobacterales TaxID...  50.3    4e-07
+  UniRef90_UPI00092CFDEF type I toxin-antitoxin system Hok family...  50.3    4e-07
+  UniRef90_A0A0J8YNZ1 Protein hokC n=2 Tax=unclassified Erwiniace...  50.3    4e-07
+  UniRef90_W0AL62 HokE protein n=5 Tax=Escherichia albertii TaxID...  50.0    6e-07
+  UniRef90_UPI0009D71A0A Hok/Gef family protein n=1 Tax=Vibrio Ta...  50.0    7e-07
+  UniRef90_UPI000C1F4595 type I toxin-antitoxin system Hok family...  50.0    7e-07
+  UniRef90_A0A3A5JTN4 Hok/Gef family protein n=2 Tax=Buttiauxella...  50.0    7e-07
+  UniRef90_A0A3N1W9W0 Protein HokB n=1 Tax=Erwinia sp. JUb26 TaxI...  50.0    7e-07
+  UniRef90_A0A2S5C2M8 Hok/Gef family protein n=1 Tax=Lelliottia s...  50.0    7e-07
+  UniRef90_UPI00098C1891 type I toxin-antitoxin system Hok family...  50.7    8e-07
+  UniRef90_A0A0L7AH24 Membrane protein n=85 Tax=root TaxID=1 RepI...  49.6    8e-07
+  UniRef90_A0A2N7NYA9 Protein hokC n=1 Tax=Vibrio cyclitrophicus ...  49.6    8e-07
+  UniRef90_UPI00077C8AE3 Hok/Gef family protein n=2 Tax=Serratia ...  49.6    9e-07
+  UniRef90_UPI00098913DC type I toxin-antitoxin system Hok family...  50.7    9e-07
+  UniRef90_A0A2J7P8T8 Hok/Gef family protein n=3 Tax=Enterobacter...  49.6    9e-07
+  UniRef90_UPI0009AA4F3C Hok/Gef family protein n=1 Tax=Salmonell...  49.6    9e-07
+  UniRef90_A0A1B2JPF2 Hok/gef family protein n=17 Tax=Enterobacte...  49.6    9e-07
+  UniRef90_S1LAZ3 Protein hokE n=5 Tax=Escherichia TaxID=561 RepI...  49.6    9e-07
+  UniRef90_A0A0F6TT69 Membrane protein n=5 Tax=Citrobacter TaxID=...  49.6    9e-07
+  UniRef90_A0A2S9ZFJ8 Protein hokC n=1 Tax=Vibrio mediterranei Ta...  49.6    1e-06
+  UniRef90_A0A081RTV3 Uncharacterized protein n=1 Tax=Photorhabdu...  49.2    1e-06
+  UniRef90_UPI000D786858 type I toxin-antitoxin system Hok family...  49.6    1e-06
+  UniRef90_A0A2S5C625 Hok/Gef family protein n=4 Tax=Enterobacter...  49.6    1e-06
+  UniRef90_A0A2T3XIU4 Hok/Gef family protein n=3 Tax=Enterobacter...  49.6    1e-06
+  UniRef90_UPI0009AA5515 Hok/Gef family protein n=2 Tax=Salmonell...  49.6    1e-06
+  UniRef90_A0A236M629 Uncharacterized protein n=1 Tax=Shigella bo...  49.2    1e-06
+  UniRef90_A0A090UWP6 Uncharacterized protein n=1 Tax=Pseudescher...  49.2    1e-06
+  UniRef90_A0A1T4V8V1 Hok/gef family protein n=1 Tax=Enterovibrio...  49.2    1e-06
+  UniRef90_UPI000BE6C67E Hok/Gef family protein n=1 Tax=Escherich...  49.2    1e-06
+  UniRef90_E2X956 Hok/gef family protein n=2 Tax=Shigella dysente...  49.2    1e-06
+  UniRef90_UPI0009FD13AE Hok/Gef family protein n=1 Tax=Vibrio ic...  49.2    1e-06
+  UniRef90_UPI0009E4E76A Hok/Gef family protein n=1 Tax=Vibrio di...  49.2    1e-06
+  UniRef90_A4SUJ6 SrnB protein n=4 Tax=Aeromonas salmonicida TaxI...  50.7    1e-06
+  UniRef90_A0A2I8QV75 Type I toxin-antitoxin system hok family to...  49.2    1e-06
+  UniRef90_Q8XBX0 Putative protein HokF n=57 Tax=Enterobacteriace...  49.2    1e-06
+  UniRef90_UPI0005F08018 type I toxin-antitoxin system Hok family...  48.8    2e-06
+  UniRef90_UPI000579CEDF type I toxin-antitoxin system Hok family...  48.8    2e-06
+  UniRef90_E3G5T2 Hok/gef cell toxic protein n=2 Tax=Enterobacter...  48.8    2e-06
+  UniRef90_A0A2M9RFJ3 Hok/Gef family protein n=1 Tax=Raoultella s...  48.8    2e-06
+  UniRef90_A0A1B1NWV1 Uncharacterized protein n=3 Tax=Vibrio TaxI...  48.8    2e-06
+  UniRef90_F5RWX6 Uncharacterized protein n=1 Tax=Enterobacter ho...  48.8    2e-06
+  UniRef90_A0A2T4Y5U7 Hok/gef cell toxic protein n=6 Tax=Enteroba...  48.8    2e-06
+  UniRef90_A0A344QF53 Small toxic polypeptide n=4 Tax=Salmonella ...  48.8    2e-06
+  UniRef90_A0A2N4VYD1 Hok/Gef family protein n=10 Tax=Enterobacte...  48.4    2e-06
+  UniRef90_D2TML4 Putative host cell-killing modulation protein n...  48.4    2e-06
+  UniRef90_A0A2I8NPN0 Hok/gef cell toxic protein n=2 Tax=Leclerci...  48.4    3e-06
+  UniRef90_UPI000F66BBDE Hok/Gef family protein n=1 Tax=Atlantiba...  48.4    3e-06
+  UniRef90_UPI000C9BDBD1 Hok/Gef family protein n=1 Tax=Vibrio pa...  48.4    3e-06
+  UniRef90_A0A0L6Y638 Hok/Gef family protein n=2 Tax=Escherichia ...  48.0    3e-06
+  UniRef90_A0A0C1VD31 Protein hokC n=1 Tax=Vibrio owensii CAIM 18...  48.0    3e-06
+  UniRef90_UPI000699F874 Hok/Gef family protein n=1 Tax=Salmonell...  48.0    3e-06
+  UniRef90_UPI0005B622A3 type I toxin-antitoxin system Hok family...  49.2    4e-06
+  UniRef90_A0A345WYD9 Uncharacterized protein n=2 Tax=Klebsiella ...  47.7    4e-06
+  UniRef90_A0A3Q0P2W3 Type I toxin-antitoxin system hok family to...  48.8    4e-06
+  UniRef90_A0A0F1BE80 Endonuclease n=23 Tax=Enterobacterales TaxI...  48.0    4e-06
+  UniRef90_UPI0004E26F4B Hok/Gef family protein n=1 Tax=Siccibact...  48.0    4e-06
+  UniRef90_A0A2T3CIM6 Hok/Gef family protein n=4 Tax=Enterobacter...  48.0    4e-06
+  UniRef90_A0A3N1WBJ7 Protein HokB n=1 Tax=Erwinia sp. JUb26 TaxI...  47.7    4e-06
+  UniRef90_UPI0007A09FC5 type I toxin-antitoxin system Hok family...  48.0    5e-06
+  UniRef90_UPI000E1C2B14 type I toxin-antitoxin system Hok family...  48.0    5e-06
+  UniRef90_A0A1Y2XH56 Hok/gef family protein n=1 Tax=Escherichia ...  48.0    6e-06
+  UniRef90_UPI000C85612F type I toxin-antitoxin system Hok family...  47.7    6e-06
+  UniRef90_UPI00069221D5 Hok/Gef family protein n=1 Tax=Siccibact...  47.7    6e-06
+  UniRef90_A0A3A5K8G6 Hok/Gef family protein n=1 Tax=Buttiauxella...  47.3    6e-06
+  UniRef90_A0A0L7YMW7 Protein hokC n=14 Tax=Vibrionaceae TaxID=64...  47.3    7e-06
+  UniRef90_UPI0009E62AC6 Hok/Gef family protein n=1 Tax=Photobact...  48.0    7e-06
+  UniRef90_A0A1V0IEB8 Hok/Gef family protein n=4 Tax=Vibrio TaxID...  47.7    8e-06
+  UniRef90_J2X1L1 Small toxic polypeptide n=5 Tax=Enterobacteriac...  47.3    8e-06
+  UniRef90_UPI00055E7EEC Hok/Gef family protein n=1 Tax=Pantoea s...  47.3    8e-06
+  UniRef90_UPI0003637613 Hok/Gef family protein n=1 Tax=Vibrio ta...  47.3    9e-06
+  UniRef90_A0A2I1ZS34 Hok/Gef family protein n=3 Tax=Enterobacter...  46.9    9e-06
+  UniRef90_UPI0009E82D88 Hok/Gef family protein n=1 Tax=Salmonell...  46.9    1e-05
+  UniRef90_A0A285B0K6 Toxic polypeptide, small n=29 Tax=Enterobac...  46.9    1e-05
+  UniRef90_A0A358HLX0 Type I toxin-antitoxin system hok family to...  46.9    1e-05
+  UniRef90_A0A2S7VA92 Protein hokC n=1 Tax=Vibrio jasicida TaxID=...  46.9    1e-05
+  UniRef90_UPI00094965B2 type I toxin-antitoxin system Hok family...  46.9    1e-05
+  UniRef90_A0A090R771 Uncharacterized protein n=1 Tax=Vibrio sp. ...  46.5    1e-05
+  UniRef90_A0A3G4VKS7 Hok/Gef family protein n=1 Tax=Vibrio medit...  46.9    1e-05
+  UniRef90_A0A3L1KR21 Hok/Gef family protein n=1 Tax=Escherichia ...  46.5    1e-05
+  UniRef90_A0A1P8MPM4 Protein hokC n=8 Tax=Vibrionaceae TaxID=641...  46.5    2e-05
+  UniRef90_A0A2N5E8L5 Small toxic polypeptide n=3 Tax=unclassifie...  46.5    2e-05
+  UniRef90_UPI0009305038 Hok/Gef family protein n=1 Tax=Escherich...  46.5    2e-05
+  UniRef90_UPI00065A7981 hypothetical protein n=1 Tax=Escherichia...  46.5    2e-05
+  UniRef90_U7QQ31 Protein hokC n=1 Tax=Photorhabdus temperata J3 ...  45.7    2e-05
+  UniRef90_A0A1V3CBA2 Uncharacterized protein (Fragment) n=2 Tax=...  45.7    2e-05
+  UniRef90_UPI00098C9C36 type I toxin-antitoxin system Hok family...  46.9    2e-05
+  UniRef90_A0A0H2VU80 Host cell-killing modulation protein n=1 Ta...  45.7    2e-05
+  UniRef90_UPI0007EC2EC5 type I toxin-antitoxin system Hok family...  46.1    2e-05
+  UniRef90_A0A2T7AKG8 Type I toxin-antitoxin system hok family to...  46.1    3e-05
+  UniRef90_A0A2N7KP25 Protein hokC n=4 Tax=Vibrio TaxID=662 RepID...  46.1    3e-05
+  UniRef90_A0A2I8NSN9 Hok/Gef family protein n=1 Tax=Leclercia sp...  45.7    3e-05
+  UniRef90_A0A1Z3MNQ6 HokG n=3 Tax=Aeromonas TaxID=642 RepID=A0A1...  45.7    3e-05
+  UniRef90_A0A0Q3KEC9 Hok/Gef family protein n=13 Tax=Enterobacte...  47.7    3e-05
+  UniRef90_A0A3K2PAD2 Type I toxin-antitoxin system Hok family to...  45.3    3e-05
+  UniRef90_A0A0J8VS87 Small toxic polypeptide n=2 Tax=Franconibac...  45.7    3e-05
+  UniRef90_UPI0009006C50 type I toxin-antitoxin system Hok family...  45.7    3e-05
+  UniRef90_A0A3J6DF59 Type I toxin-antitoxin system Hok family to...  45.7    3e-05
+  UniRef90_A0A3I5EER0 Type I toxin-antitoxin system Hok family to...  45.7    3e-05
+  UniRef90_E9Z0A4 Hok/gef family protein n=3 Tax=Enterobacteriace...  46.1    3e-05
+  UniRef90_I2UL78 Uncharacterized protein n=1 Tax=Escherichia col...  45.3    4e-05
+  UniRef90_G9Z7D9 Hok/gef family protein n=1 Tax=Yokenella regens...  45.3    4e-05
+  UniRef90_P13970 Protein SrnB n=67 Tax=Enterobacteriaceae TaxID=...  45.7    4e-05
+  UniRef90_A0A3P1RGI9 Type I toxin-antitoxin system toxin HokA n=...  45.0    4e-05
+  UniRef90_UPI000CDE6211 Hok/Gef family protein n=1 Tax=Lelliotti...  45.3    5e-05
+  UniRef90_UPI00092D1B8E type I toxin-antitoxin system Hok family...  45.3    5e-05
+  UniRef90_A0A2P9EDC4 Toxin antitoxin system protein SrnB n=48 Ta...  45.7    5e-05
+  UniRef90_B8EG05 Hok/gef cell toxic protein n=3 Tax=Shewanella b...  45.7    5e-05
+  UniRef90_UPI000C7C9BFB hypothetical protein n=2 Tax=Escherichia...  45.7    5e-05
+  UniRef90_C9XX12 Uncharacterized protein n=12 Tax=Cronobacter Ta...  45.0    6e-05
+  UniRef90_A0A345CFB6 Hok/Gef family protein n=2 Tax=unclassified...  45.0    6e-05
+  UniRef90_UPI00097DD135 Hok/Gef family protein n=1 Tax=Shigella ...  45.0    7e-05
+  UniRef90_A0A358HM06 Hok/Gef family protein n=2 Tax=Leclercia Ta...  45.0    7e-05
+  UniRef90_A0A3K3TD21 Hok/Gef family protein n=1 Tax=Escherichia ...  44.6    7e-05
+  UniRef90_I6DMW1 Protein HokA n=1 Tax=Shigella boydii 4444-74 Ta...  44.2    8e-05
+  UniRef90_UPI000563242E Hok/Gef family protein n=1 Tax=Pantoea s...  44.6    8e-05
+  UniRef90_A0A318WLD0 Protein HokE n=3 Tax=Enterobacteriaceae Tax...  44.6    9e-05
+  UniRef90_A0A0K2NZA4 Protein hokB n=8 Tax=Enterobacteriaceae Tax...  44.6    9e-05
+  UniRef90_UPI0002F4F2F1 Hok/Gef family protein n=1 Tax=Shewanell...  44.6    1e-04
+  UniRef90_A0A2S3SQT4 Hok/Gef family protein n=6 Tax=Vibrio TaxID...  44.6    1e-04
+  UniRef90_A0A2S9ZHZ4 Protein hokC n=1 Tax=Vibrio mediterranei Ta...  44.6    1e-04
+  UniRef90_A0A0Q4M9B9 Uncharacterized protein n=1 Tax=Serratia sp...  45.0    1e-04
+  UniRef90_A0A0J8YNG0 Protein hokC n=2 Tax=unclassified Erwiniace...  43.8    2e-04
+  UniRef90_A0A1X2RR47 Hok/gef family protein n=6 Tax=Salmonella e...  43.4    2e-04
+  UniRef90_UPI0003453706 Hok/Gef family protein n=1 Tax=Erwinia t...  43.8    2e-04
+  UniRef90_D6I787 Predicted protein n=1 Tax=Escherichia coli B185...  43.4    2e-04
+  UniRef90_B1VJ68 Post-segregation killing protein n=3 Tax=Morgan...  43.4    2e-04
+  UniRef90_A0A1C7WAD8 Endonuclease n=1 Tax=Serratia sp. 14-2641 T...  43.0    2e-04
+  UniRef90_S1CF06 Regulatory protein mokC n=2 Tax=Enterobacteriac...  43.0    3e-04
+  UniRef90_A0A2S5KER7 Endonuclease n=1 Tax=Pantoea sp. ICBG 1758 ...  43.0    4e-04
+  UniRef90_L3Q4Y6 Protein hokD n=1 Tax=Escherichia coli KTE75 Tax...  43.4    4e-04
+  UniRef90_A0A266HSH4 Hok/Gef family protein n=5 Tax=Escherichia ...  42.6    4e-04
+  UniRef90_A0A3M9UW94 Hok/Gef family protein n=1 Tax=Escherichia ...  42.3    5e-04
+  UniRef90_UPI000C83B60A Hok/Gef family protein n=1 Tax=Vibrio sp...  42.6    5e-04
+  UniRef90_A0A0S3K680 Protein hokC n=1 Tax=Vibrio alginolyticus T...  42.6    5e-04
+  UniRef90_UPI000BE4B4F7 hypothetical protein n=1 Tax=Escherichia...  42.6    6e-04
+  UniRef90_UPI000BE961AC hypothetical protein n=1 Tax=Escherichia...  42.6    8e-04
+  UniRef90_A0A2T3BJR7 Hok/Gef family protein n=3 Tax=Escherichia ...  42.6    0.001
+  UniRef90_A0A3P2MNY1 Hok/Gef family protein n=1 Tax=Klebsiella p...  41.5    0.001
+  UniRef90_A0A2U3F0L9 Type I toxin-antitoxin system hok family to...  41.1    0.001
+  UniRef90_A0A0Q4MJR9 Small toxic polypeptide n=4 Tax=Erwiniaceae...  41.5    0.002
+  UniRef90_A0A3K3JYE7 Hok/Gef family protein n=1 Tax=Escherichia ...  41.1    0.002
+  UniRef90_UPI000C1F13AC protein hokD n=1 Tax=Escherichia coli Ta...  41.1    0.002
+  UniRef90_A0A0Q4MFE7 Protein hokC n=1 Tax=Erwinia sp. Leaf53 Tax...  40.3    0.004
+  UniRef90_UPI0009889A31 Hok/Gef family protein n=1 Tax=Escherich...  40.3    0.005
+  UniRef90_A0A0Q4MHX1 Small toxic polypeptide n=1 Tax=Erwinia sp....  39.9    0.007
+  UniRef90_T0PCV9 Uncharacterized protein n=1 Tax=Photorhabdus te...  40.3    0.007
+  UniRef90_UPI000F8CC77B hypothetical protein n=1 Tax=Escherichia...  39.9    0.008
+  UniRef90_A0A2A7T669 Hok/Gef family protein n=1 Tax=Yersinia kri...  39.6    0.009
+  UniRef90_A0A345CNZ7 Hok/Gef family protein n=2 Tax=Enterobacter...  37.3    0.063
+  UniRef90_B5RJZ0 Hok/Gef family protein n=1 Tax=Klebsiella pneum...  37.3    0.074
+  UniRef90_UPI000BE3A490 Hok/Gef family protein n=1 Tax=Escherich...  35.7    0.29 
+  UniRef90_A0A3L8W533 Hok/Gef family protein n=6 Tax=Enterobacter...  33.0    2.3  
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000543C2AF type I toxin-antitoxin system Hok family...  49.2    1e-06
+  UniRef90_A0A0A6ZNH1 Hok/gef family protein n=5 Tax=Enterobacter...  48.0    4e-06
+  UniRef90_UPI0005D4250B Hok/Gef family protein n=1 Tax=Rouxiella...  48.0    6e-06
+  UniRef90_UPI00098ACB25 type I toxin-antitoxin system Hok family...  46.9    9e-06
+  UniRef90_UPI000F66FC87 Hok/Gef family protein n=1 Tax=Atlantiba...  46.9    1e-05
+  UniRef90_UPI0009DA40DC Hok/Gef family protein n=1 Tax=gamma pro...  46.1    2e-05
+  UniRef90_A0A3P1DYN6 Type I toxin-antitoxin system Hok family to...  45.7    2e-05
+  UniRef90_A0A2I7CBZ0 Hok/gef cell toxic protein n=1 Tax=Enteroba...  45.7    3e-05
+  UniRef90_UPI00092E8C94 type I toxin-antitoxin system Hok family...  45.7    4e-05
+  UniRef90_UPI000D1277C4 Hok/Gef family protein n=1 Tax=Plesiomon...  45.7    4e-05
+  UniRef90_B1EGN6 Conserved domain protein n=3 Tax=Enterobacteria...  44.6    7e-05
+  UniRef90_A0A1B1KTY2 Uncharacterized protein n=23 Tax=Enterobact...  44.6    8e-05
+  UniRef90_A0A3H9KUG1 Hok/Gef family protein n=1 Tax=Salmonella e...  43.8    1e-04
+  UniRef90_UPI00053BAD83 Hok/Gef family protein n=1 Tax=Escherich...  43.8    2e-04
+  UniRef90_UPI0004DF7D0A Hok/Gef family protein n=1 Tax=Vibrio pa...  43.0    3e-04
+  UniRef90_A8GGY2 Hok/gef cell toxic protein n=4 Tax=Serratia Tax...  43.0    3e-04
+  UniRef90_A0A366F7W6 Protein HokE n=1 Tax=Pseudocitrobacter faec...  43.0    4e-04
+  UniRef90_UPI000BB8F5EE type I toxin-antitoxin system Hok family...  42.6    4e-04
+  UniRef90_A7ZGU5 Protein SrnB n=7 Tax=Escherichia coli TaxID=562...  43.0    5e-04
+  UniRef90_A0A397WZB4 Type I toxin-antitoxin system Hok family to...  42.3    6e-04
+  UniRef90_UPI00098961B1 type I toxin-antitoxin system Hok family...  42.3    8e-04
+  UniRef90_A0A2I6FNC2 Type I toxin-antitoxin system hok family to...  41.9    8e-04
+  UniRef90_A0A3G2RTE3 Hok/Gef family protein n=2 Tax=Serratia Tax...  41.9    0.001
+  UniRef90_A0A0A0CUS5 Uncharacterized protein n=2 Tax=Photorhabdu...  42.3    0.001
+  UniRef90_A0A2T3JAA2 Endonuclease n=1 Tax=Photobacterium frigidi...  41.5    0.001
+  UniRef90_A0A3I9TWV9 Hok/Gef family protein n=1 Tax=Escherichia ...  41.1    0.002
+  UniRef90_A0A0D8PMT1 Endonuclease n=5 Tax=Photobacterium TaxID=6...  41.5    0.002
+  UniRef90_UPI000BDED6B8 type I toxin-antitoxin system Hok family...  41.5    0.002
+  UniRef90_UPI000CDDCBD0 type I toxin-antitoxin system Hok family...  41.1    0.003
+  UniRef90_A0A2T3P2G2 Endonuclease n=1 Tax=Photobacterium phospho...  40.7    0.003
+  UniRef90_A0A1X0WIA7 Uncharacterized protein n=1 Tax=Rouxiella b...  39.9    0.004
+  UniRef90_A0A2T3J771 Endonuclease n=1 Tax=Photobacterium frigidi...  40.3    0.005
+  UniRef90_A0A126VI17 Uncharacterized protein n=3 Tax=Serratia Ta...  39.9    0.005
+  UniRef90_UPI0009DC469D Hok/Gef family protein n=1 Tax=Pantoea s...  39.9    0.007
+  UniRef90_A0A3J0VQN6 Type I toxin-antitoxin system Hok family to...  39.6    0.007
+  UniRef90_A0A0H0R2K3 Hok/gef family protein n=19 Tax=root TaxID=...  39.6    0.007
+  UniRef90_G2GWT3 Hok/gef family protein (Fragment) n=1 Tax=Candi...  39.6    0.008
+  UniRef90_UPI0005D460F8 Hok/Gef family protein n=1 Tax=Rouxiella...  40.3    0.009
+  UniRef90_A0A087IF97 Protein hokC n=1 Tax=Vibrio vulnificus TaxI...  39.6    0.009
+  UniRef90_A0A0L0H3P2 Membrane protein n=3 Tax=Trabulsiella odont...  39.2    0.010
+  UniRef90_A0A377TIB3 Hok/gef cell toxic protein n=1 Tax=Klebsiel...  39.2    0.010
+  UniRef90_UPI00068A3568 type I toxin-antitoxin system Hok family...  39.6    0.010
+  UniRef90_A0A1J4QNB5 Hok/gef family protein n=4 Tax=Salmonella e...  39.2    0.010
+  UniRef90_A0A3J8P057 Hok/Gef family protein n=1 Tax=Salmonella e...  39.2    0.012
+  UniRef90_A0A1Z1SV88 Hok/Gef family protein n=8 Tax=Enterobacter...  38.8    0.014
+  UniRef90_UPI00098C1E5A type I toxin-antitoxin system Hok family...  39.9    0.016
+  UniRef90_A0A3K3GPG4 Hok/Gef family protein n=1 Tax=Escherichia ...  38.8    0.016
+  UniRef90_A0A0A1AEA2 Post-segregation killing protein SrnB n=13 ...  39.2    0.016
+  UniRef90_A0A3J1YGU2 Hok/Gef family protein (Fragment) n=4 Tax=E...  38.0    0.018
+  UniRef90_A0A1J0E5W9 Type I toxin-antitoxin system hok family to...  38.4    0.019
+  UniRef90_A0A1S0ZEK5 Hok/gef family protein n=9 Tax=Salmonella e...  38.4    0.020
+  UniRef90_A0A3F3IWL6 Hok/gef family protein n=1 Tax=Salmonella e...  38.4    0.020
+  UniRef90_UPI00092D2174 Hok/Gef family protein n=1 Tax=Trabulsie...  38.4    0.020
+  UniRef90_L0MH98 Hok/gef family n=2 Tax=Serratia TaxID=613 RepID...  38.8    0.022
+  UniRef90_D4C1B8 Hok/gef family protein n=5 Tax=Providencia TaxI...  38.4    0.024
+  UniRef90_A0A0X5FLK9 Hok/Gef family protein n=2 Tax=Escherichia ...  38.4    0.024
+  UniRef90_A0A3C0H4Z8 Hok/Gef family protein n=1 Tax=Enterobacter...  38.0    0.027
+  UniRef90_UPI00062C8437 hypothetical protein n=1 Tax=Klebsiella ...  39.2    0.029
+  UniRef90_G5S7E7 Uncharacterized protein n=2 Tax=Salmonella ente...  38.0    0.030
+  UniRef90_UPI000D68AE2D type I toxin-antitoxin system Hok family...  38.0    0.035
+  UniRef90_A0A0T5XET9 Endonuclease n=23 Tax=Bacteria TaxID=2 RepI...  37.6    0.041
+  UniRef90_A0A0H0JYX9 Hok/Gef family protein n=18 Tax=Proteobacte...  37.3    0.052
+  UniRef90_A0A376ZP29 Small toxic polypeptide n=3 Tax=Enterobacte...  37.3    0.053
+  UniRef90_A0A2G8ZU32 Hok/Gef family protein n=5 Tax=Escherichia ...  37.3    0.062
+  UniRef90_A0A2J4RKS3 Protein hokG n=5 Tax=Enterobacterales TaxID...  37.3    0.064
+  UniRef90_A0A2S5KDN6 Hok/Gef family protein n=1 Tax=Pantoea sp. ...  36.9    0.079
+  UniRef90_UPI000CD86924 hypothetical protein n=1 Tax=Escherichia...  37.6    0.081
+  UniRef90_A0A3I9X783 Hok/Gef family protein n=1 Tax=Salmonella e...  36.9    0.082
+  UniRef90_UPI00057A0C05 Hok/Gef family protein n=1 Tax=Leclercia...  36.9    0.084
+  UniRef90_A0A0G4Q4F4 Hok/gef family protein n=1 Tax=Proteus vulg...  36.9    0.089
+  UniRef90_K8WL28 Post-segregation killing protein n=1 Tax=Provid...  36.1    0.14 
+  UniRef90_A0A2J9L4I7 Type I toxin-antitoxin system hok family to...  36.5    0.14 
+  UniRef90_A0A0M3F026 Endonuclease n=1 Tax=Enterobacter cloacae T...  36.5    0.14 
+  UniRef90_UPI000A6BD112 Hok/Gef family protein n=1 Tax=Klebsiell...  36.1    0.16 
+  UniRef90_I0QR34 Uncharacterized protein n=1 Tax=Serratia sp. M2...  36.1    0.19 
+  UniRef90_A0A379FC73 Post-segregation killing protein n=3 Tax=Pr...  36.1    0.20 
+  UniRef90_UPI0007E3BDD7 hypothetical protein n=1 Tax=Buttiauxell...  36.9    0.20 
+  UniRef90_A0A161QZB0 Hok/Gef family protein n=9 Tax=root TaxID=1...  35.7    0.21 
+  UniRef90_A0A1S2RP09 Uncharacterized protein n=2 Tax=Enterobacte...  36.9    0.22 
+  UniRef90_A0A066Q5T1 Hok/gef cell toxic protein n=80 Tax=root Ta...  35.7    0.23 
+  UniRef90_A0A0J8VV64 Small toxic polypeptide n=2 Tax=Franconibac...  35.7    0.24 
+  UniRef90_UPI000F0A9636 Hok/Gef family protein n=1 Tax=Escherich...  36.1    0.28 
+  UniRef90_F9S208 Uncharacterized protein n=1 Tax=Vibrio ichthyoe...  35.7    0.29 
+  UniRef90_A0A1X2RQ41 Hok/gef family protein n=1 Tax=Salmonella e...  35.3    0.31 
+  UniRef90_A0A376K3B8 Small toxic polypeptide n=75 Tax=Enterobact...  35.3    0.33 
+  UniRef90_A0A3Q0P5Q9 Hok/Gef family protein n=1 Tax=Escherichia ...  35.3    0.35 
+  UniRef90_Q1RBZ5 Uncharacterized protein n=2 Tax=Escherichia col...  36.9    0.40 
+  UniRef90_UPI0008FFA81F type I toxin-antitoxin system Hok family...  35.7    0.44 
+  UniRef90_UPI000CF137E0 type I toxin-antitoxin system Hok family...  35.7    0.44 
+  UniRef90_J2LWL7 Hok/gef family n=1 Tax=Pantoea sp. GM01 TaxID=1...  34.9    0.46 
+  UniRef90_A0A1X3I964 Hok/gef family protein n=1 Tax=Escherichia ...  34.9    0.46 
+  UniRef90_A0A066Q8I6 Hok/Gef family protein n=37 Tax=root TaxID=...  34.9    0.49 
+  UniRef90_A0A1Z1T0K5 Hok/Gef family protein n=5 Tax=Proteus mira...  34.9    0.49 
+  UniRef90_A0A1Z3Q520 Hok/gef family protein n=4 Tax=Salmonella e...  34.9    0.58 
+  UniRef90_A0A344QFN6 Hok/gef family protein n=1 Tax=Salmonella e...  34.6    0.65 
+  UniRef90_K8A379 Uncharacterized protein n=1 Tax=Cronobacter con...  34.6    0.74 
+  UniRef90_A0A2M9W5J1 Endonuclease n=1 Tax=Pantoea rodasii TaxID=...  34.2    0.89 
+  UniRef90_D1P6H8 Hok/gef family protein n=2 Tax=Providencia rust...  34.2    1.1  
+  UniRef90_I2B5H7 Hok/Gef-like protein n=2 Tax=Shimwellia blattae...  34.2    1.2  
+  UniRef90_A0A1X3I4E7 Hok/gef family protein n=3 Tax=Escherichia ...  34.2    1.2  
+  UniRef90_A0A066QN52 Hok/Gef family protein n=26 Tax=Escherichia...  33.8    1.4  
+  UniRef90_A0A1X3HXA8 Uncharacterized protein n=1 Tax=Escherichia...  34.2    1.4  
+  UniRef90_UPI000943F815 Hok/Gef family protein n=1 Tax=Escherich...  33.8    1.6  
+  UniRef90_A0A285K6S0 Hok/gef family protein n=1 Tax=Pantoea sp. ...  33.8    1.7  
+  UniRef90_A0A1C6Z309 Uncharacterized protein n=1 Tax=Hafnia alve...  33.4    1.8  
+  UniRef90_A0A1Y0KCB4 Endonuclease n=1 Tax=Lelliottia amnigena Ta...  33.4    2.2  
+  UniRef90_UPI000907BABC Hok/Gef family protein n=1 Tax=Erwinia t...  33.4    2.2  
+  UniRef90_UPI000D158983 Hok/Gef family protein n=1 Tax=Photobact...  33.4    2.5  
+  UniRef90_UPI000D1821E7 Hok/Gef family protein n=1 Tax=Photobact...  33.4    2.6  
+  UniRef90_I0QL40 Uncharacterized protein (Fragment) n=1 Tax=Serr...  33.4    3.3  
+  UniRef90_V1XGC7 Prophage host toxic membrane protein n=5 Tax=Sa...  32.6    3.4  
+  UniRef90_A0A3K0GW95 Hok/Gef family protein n=1 Tax=Escherichia ...  32.6    3.7  
+  UniRef90_UPI000C76DA0B Hok/Gef family protein n=1 Tax=Escherich...  33.0    4.1  
+  UniRef90_A0A3E5G286 LPXTG cell wall anchor domain-containing pr...  34.6    4.3  
+  UniRef90_UPI00051729F0 Hok/Gef family protein n=1 Tax=Enterobac...  32.2    5.7  
+  UniRef90_UPI0009B53FE1 hypothetical protein n=12 Tax=Enterobact...  32.6    5.8  
+  UniRef90_A0A3J9QAP4 Hok/Gef family protein n=2 Tax=Escherichia ...  32.2    5.9  
+  UniRef90_A0A3A6SZ33 Hok/Gef family protein n=1 Tax=Escherichia ...  31.9    6.9  
+  UniRef90_R8B3V5 Putative adventurous gliding motility protein S...  33.8    7.3  
+  UniRef90_UPI0006BAAE5F hypothetical protein n=1 Tax=Escherichia...  32.2    8.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.143    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0438    0.140     1.90     42.6     43.6 
+
+Effective search space used: 740371021236
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

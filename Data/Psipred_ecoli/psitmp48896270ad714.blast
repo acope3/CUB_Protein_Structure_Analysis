@@ -1,0 +1,690 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414827.1
+
+Length=195
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q8CWB9 Common pilus major fimbrillin subunit EcpA n=51...  378     1e-132
+  UniRef90_I6DG66 Fimbrillin matB n=10 Tax=Enterobacteriaceae Tax...  352     2e-122
+  UniRef90_A0A378E1H0 Common pilus major fimbrillin subunit EcpA ...  344     2e-119
+  UniRef90_UPI0002A24D65 fimbrillin protein MatB n=2 Tax=Enteroba...  338     4e-117
+  UniRef90_A0A2X2E593 Common pilus major fimbrillin subunit EcpA ...  337     2e-116
+  UniRef90_UPI000948F099 fimbrial protein n=1 Tax=Pantoea sp. 1.1...  337     2e-116
+  UniRef90_UPI00078954E4 fimbrial protein n=1 Tax=Kluyvera interm...  325     5e-112
+  UniRef90_UPI000F627E82 fimbrial protein n=2 Tax=Klebsiella pneu...  320     3e-110
+  UniRef90_A0A318FSB2 Common pilus major fimbrillin subunit EcpA ...  319     3e-109
+  UniRef90_UPI000DDC819F fimbrial protein n=3 Tax=Enterobacteriac...  315     9e-108
+  UniRef90_UPI000CEC6AF6 fimbrial protein n=1 Tax=Enterobacter cl...  311     4e-106
+  UniRef90_UPI0002501C88 Fimbrillin matB homolog, EcpD n=1 Tax=Es...  308     5e-105
+  UniRef90_A0A2T4HU28 Fimbrial protein n=4 Tax=Morganella morgani...  307     9e-105
+  UniRef90_D4E8Y9 Fimbrillin MatB n=2 Tax=Serratia odorifera TaxI...  307     2e-104
+  UniRef90_A0A0A5M5D0 Fimbrial protein n=21 Tax=Gammaproteobacter...  306     4e-104
+  UniRef90_UPI00031A5677 fimbrial protein n=1 Tax=Metakosakonia m...  302     1e-102
+  UniRef90_UPI00031690A6 fimbrial protein n=1 Tax=Metakosakonia m...  301     4e-102
+  UniRef90_A0A0U4IUQ3 Fimbrial protein n=10 Tax=Yersiniaceae TaxI...  291     4e-98 
+  UniRef90_A0A379D9N3 Meningitis associated and temperature regul...  284     2e-95 
+  UniRef90_V5AX04 Fimbrillin matB n=5 Tax=Enterobacteriaceae TaxI...  283     4e-95 
+  UniRef90_W0LAY9 Fimbrial protein n=2 Tax=Yersiniaceae TaxID=190...  277     6e-93 
+  UniRef90_A0A368ZV03 Fimbrillin MatB-like protein n=2 Tax=Kosako...  275     6e-92 
+  UniRef90_A0A2I0FYM7 Fimbrial protein n=1 Tax=Enterobacterales b...  270     8e-90 
+  UniRef90_A0A127L348 Fimbrillin matB-like protein n=4 Tax=Entero...  270     2e-89 
+  UniRef90_A0A0D8NE98 Fimbrial protein n=1 Tax=Raoultella plantic...  266     4e-89 
+  UniRef90_A0A095TUJ4 Fimbrial protein n=1 Tax=Tatumella morbiros...  261     2e-86 
+  UniRef90_A0A2T2XVL8 Fimbrial protein n=1 Tax=Kluyvera ascorbata...  260     4e-86 
+  UniRef90_UPI000EA1CB40 fimbrial protein n=1 Tax=Rahnella bruchi...  245     3e-80 
+  UniRef90_A0A376W2C9 Cryptic Mat fimbrillin n=6 Tax=Enterobacter...  241     2e-79 
+  UniRef90_UPI000948FED4 fimbrial protein n=1 Tax=Pantoea sp. 1.1...  238     5e-77 
+  UniRef90_A0A0U4J8G2 Fimbrial protein n=10 Tax=Serratia TaxID=61...  236     1e-76 
+  UniRef90_A0A376RNW6 Fimbrillin n=4 Tax=Enterobacteriaceae TaxID...  229     9e-75 
+  UniRef90_A0A1V0LFY6 Fimbrial protein n=7 Tax=Enterobacteriaceae...  225     3e-72 
+  UniRef90_UPI00046A8005 fimbrial protein n=1 Tax=Serratia TaxID=...  224     5e-72 
+  UniRef90_A0A2X4YS80 Fimbrillin MatB n=1 Tax=Klebsiella oxytoca ...  214     8e-69 
+  UniRef90_UPI00092F15B0 matB n=2 Tax=Enterobacteriaceae TaxID=54...  206     4e-66 
+  UniRef90_A0A377TL99 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  201     5e-64 
+  UniRef90_G8LIY9 Fimbrillin matB-like protein n=14 Tax=Enterobac...  198     3e-61 
+  UniRef90_A0A0A5QVC7 Fimbrial protein n=31 Tax=Enterobacteriacea...  195     2e-60 
+  UniRef90_A0A157EK60 Fimbrillin matB-like protein n=2 Tax=Entero...  195     2e-59 
+  UniRef90_A0A329HMD9 Fimbrial protein n=1 Tax=Enterobacter sp. R...  191     6e-59 
+  UniRef90_A0A2X4NDV9 Fimbrillin MatB n=6 Tax=Aeromonas TaxID=642...  186     5e-57 
+  UniRef90_A0A1U6XUA1 Fimbrial protein n=9 Tax=Aeromonadaceae Tax...  186     5e-57 
+  UniRef90_UPI000491D866 fimbrial protein n=1 Tax=Phaseolibacter ...  186     7e-57 
+  UniRef90_UPI0005583390 fimbrial protein n=1 Tax=Erwinia TaxID=5...  184     3e-56 
+  UniRef90_UPI000DF8A7EB fimbrial protein n=1 Tax=Klebsiella oxyt...  184     6e-56 
+  UniRef90_A0A2S4S0X0 Fimbrial protein n=1 Tax=Citrobacter amalon...  183     1e-55 
+  UniRef90_A0A0V9JTW6 Fimbrial protein n=1 Tax=Citrobacter sp. 50...  182     3e-55 
+  UniRef90_A0KEE0 Fimbrillin MatB n=11 Tax=Aeromonas TaxID=642 Re...  181     4e-55 
+  UniRef90_A0A377KBK2 Cryptic Mat fimbrillin n=3 Tax=Enterobacter...  178     4e-55 
+  UniRef90_A0A250B6J3 Fimbrial protein n=1 Tax=Gibbsiella quercin...  179     4e-54 
+  UniRef90_A0A2U3N3A0 Uncharacterized protein n=1 Tax=Acinetobact...  177     2e-53 
+  UniRef90_A0A181XA52 Fimbrial protein n=7 Tax=Enterobacteriaceae...  176     9e-53 
+  UniRef90_A0A157K2G9 Fimbrillin matB-like protein n=6 Tax=Entero...  175     2e-52 
+  UniRef90_A0A327QL91 Fimbrillin MatB-like protein n=5 Tax=Aeromo...  174     2e-52 
+  UniRef90_N8Y828 Uncharacterized protein n=1 Tax=Acinetobacter g...  174     4e-52 
+  UniRef90_S3N722 Uncharacterized protein n=1 Tax=Acinetobacter r...  174     6e-52 
+  UniRef90_A0A345C838 Fimbrial protein n=3 Tax=Enterobacteriaceae...  171     4e-51 
+  UniRef90_J4WGL4 Fimbrillin MatB n=59 Tax=Enterobacterales TaxID...  171     7e-51 
+  UniRef90_S3MU43 Uncharacterized protein n=1 Tax=Acinetobacter r...  171     1e-50 
+  UniRef90_A0A1C4HKN5 Meningitis associated and temperature regul...  170     1e-50 
+  UniRef90_D2TJM1 Putative fimbrial protein n=1 Tax=Citrobacter r...  168     7e-50 
+  UniRef90_A0A0N1KIZ8 CFA/I fimbrial major subunit n=2 Tax=Moelle...  169     8e-50 
+  UniRef90_UPI00073F413C fimbrial protein n=1 Tax=Type-C symbiont...  167     1e-49 
+  UniRef90_A0A318FPM3 Fimbrillin MatB-like protein n=1 Tax=Klebsi...  167     2e-49 
+  UniRef90_A0A1C7PLN4 Fimbrial protein n=1 Tax=Aeromonas piscicol...  167     3e-49 
+  UniRef90_A0A377KBB9 Fimbrillin n=2 Tax=Escherichia coli TaxID=5...  164     3e-49 
+  UniRef90_A0A1S1HRI6 Fimbrial protein n=2 Tax=Providencia TaxID=...  167     4e-49 
+  UniRef90_K1IUA4 Uncharacterized protein n=1 Tax=Aeromonas veron...  166     5e-49 
+  UniRef90_UPI000CD3D95C fimbrial protein n=1 Tax=Aeromonas besti...  166     6e-49 
+  UniRef90_B6XHH9 Fimbrillin MatB n=17 Tax=cellular organisms Tax...  166     1e-48 
+  UniRef90_UPI000B7F2567 fimbrillin matB domain protein n=1 Tax=E...  161     2e-48 
+  UniRef90_A0A376P2P8 Fimbrillin n=4 Tax=Enterobacteriaceae TaxID...  160     5e-48 
+  UniRef90_A0A2K1QCN0 Fimbrial protein n=1 Tax=Mixta theicola Tax...  164     5e-48 
+  UniRef90_A0A3G2TH40 Fimbrial protein n=5 Tax=Aeromonas salmonic...  163     7e-48 
+  UniRef90_UPI000BB780DD fimbrillin matB domain protein n=1 Tax=E...  160     8e-48 
+  UniRef90_A0A1B7JB73 CFA/I fimbrial major subunit n=3 Tax=Proteu...  162     1e-47 
+  UniRef90_UPI00073D5070 fimbrial protein n=1 Tax=[Erwinia] teleo...  161     4e-47 
+  UniRef90_A0A379G5D8 Meningitis associated and temperature regul...  161     5e-47 
+  UniRef90_A0A3N6SHK7 Fimbrial protein n=1 Tax=Erwinia psidii Tax...  160     1e-46 
+  UniRef90_UPI000D69E250 fimbrial protein n=1 Tax=Proteus sp. FJ2...  159     4e-46 
+  UniRef90_A0A377DJB0 Fimbrillin n=1 Tax=Escherichia coli TaxID=5...  155     5e-46 
+  UniRef90_A0A1Z1SQ34 Fimbrial protein n=9 Tax=Enterobacterales T...  159     5e-46 
+  UniRef90_UPI0005A731BA fimbrial protein n=1 Tax=Aeromonas simia...  158     5e-46 
+  UniRef90_UPI0005B3BE33 fimbrial protein n=2 Tax=Aeromonas TaxID...  155     5e-45 
+  UniRef90_A0A241VN80 Fimbrial protein n=1 Tax=Acinetobacter sp. ...  155     1e-44 
+  UniRef90_A0A379FAK4 Fimbrial protein n=4 Tax=Proteus TaxID=2104...  154     2e-44 
+  UniRef90_A0A370QEG2 Fimbrillin MatB-like protein n=1 Tax=Entero...  154     2e-44 
+  UniRef90_A0A377S4N8 Fimbrillin MatB n=2 Tax=Klebsiella TaxID=57...  150     3e-44 
+  UniRef90_UPI00073D379C fimbrial protein n=1 Tax=[Erwinia] teleo...  154     3e-44 
+  UniRef90_A0A1B8SNL7 Fimbrial protein n=4 Tax=Providencia TaxID=...  152     2e-43 
+  UniRef90_A0A0H3FI43 Fimbrial protein n=1 Tax=Klebsiella aerogen...  151     5e-43 
+  UniRef90_UPI000F6F1B28 fimbrial protein n=1 Tax=Cedecea lapagei...  149     3e-42 
+  UniRef90_A0A356D9S9 Fimbrial protein n=1 Tax=Providencia sp. Ta...  149     4e-42 
+  UniRef90_UPI00098B028E fimbrillin MatB n=1 Tax=Escherichia coli...  144     1e-41 
+  UniRef90_A0A0C2N2S1 Common pilus major fimbrillin subunit EcpA ...  146     2e-41 
+  UniRef90_A0A0F7HBL9 Fimbrial protein n=8 Tax=Yersiniaceae TaxID...  146     3e-41 
+  UniRef90_W1H6U8 CFA/I fimbrial major subunit n=1 Tax=Klebsiella...  140     5e-40 
+  UniRef90_A0A241VW46 Fimbrial protein n=1 Tax=Acinetobacter sp. ...  141     3e-39 
+  UniRef90_UPI000F7B2BCC fimbrial protein n=1 Tax=Enterobacter hu...  138     5e-38 
+  UniRef90_UPI000F756392 fimbrillin matB domain protein n=1 Tax=K...  134     6e-38 
+  UniRef90_A0A2J9L7P6 Fimbrial protein n=1 Tax=Proteus mirabilis ...  137     7e-38 
+  UniRef90_A0A013RNG4 Fimbrillin matB n=5 Tax=Proteobacteria TaxI...  136     2e-37 
+  UniRef90_S3MQ64 Uncharacterized protein n=1 Tax=Acinetobacter r...  134     2e-36 
+  UniRef90_A0A0H2QG99 Fimbrial protein n=1 Tax=Moellerella wiscon...  130     7e-35 
+  UniRef90_A0A378CUR1 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  122     3e-33 
+  UniRef90_A0A2X4YDY1 Fimbrillin MatB n=1 Tax=Klebsiella oxytoca ...  120     1e-32 
+  UniRef90_M9HCU6 Fimbrillin matB domain protein n=2 Tax=Enteroba...  116     3e-31 
+  UniRef90_UPI000948B6DD fimbrial protein n=1 Tax=Pantoea sp. 1.1...  115     8e-29 
+  UniRef90_A0A378CUK7 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  110     2e-28 
+  UniRef90_A0A1B7JB71 CFA/I fimbrial major subunit n=1 Tax=Proteu...  111     1e-27 
+  UniRef90_A0A376W0J7 Fimbrillin n=1 Tax=Escherichia coli TaxID=5...  103     7e-26 
+  UniRef90_A0A379FAJ6 Fimbrial protein n=1 Tax=Proteus vulgaris T...  106     1e-25 
+  UniRef90_A0A292C812 Fimbrial protein n=4 Tax=Proteus TaxID=2104...  106     1e-25 
+  UniRef90_A0A0Q4NNW5 Uncharacterized protein n=2 Tax=Erwinia Tax...  103     2e-24 
+  UniRef90_A0A0G4Q6H2 Fimbrillin MatB n=3 Tax=Proteus TaxID=21042...  102     3e-24 
+  UniRef90_A0A0U1I6I9 Meningitis associated and temperature regul...  101     2e-23 
+  UniRef90_A0A0M7HGG4 Fimbrial protein n=45 Tax=Bacteria TaxID=2 ...  98.2    2e-22 
+  UniRef90_UPI00077BCE3C hypothetical protein n=1 Tax=Enterobacte...  97.4    5e-22 
+  UniRef90_A0A0H5LZB5 Meningitis associated and temperature regul...  97.1    9e-22 
+  UniRef90_UPI000DA0FA6C fimbrial protein n=2 Tax=Photobacterium ...  95.5    2e-21 
+  UniRef90_A0A378CTG8 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  90.9    8e-21 
+  UniRef90_UPI0005E049DE hypothetical protein n=1 Tax=Yersinia mo...  93.6    1e-20 
+  UniRef90_UPI000493AD14 hypothetical protein n=1 Tax=Aeromonas h...  92.8    2e-20 
+  UniRef90_C4S9J4 Autotransporter adhesin n=2 Tax=Yersinia mollar...  92.4    5e-20 
+  UniRef90_V6MHH8 Uncharacterized protein n=2 Tax=Proteus TaxID=2...  88.6    1e-18 
+  UniRef90_A0A2X1L4A0 Fimbrillin n=2 Tax=Escherichia coli TaxID=5...  75.5    3e-15 
+  UniRef90_A0A377LQR1 CFA/I fimbrial major subunit n=1 Tax=Entero...  70.9    7e-13 
+  UniRef90_A0A0U1I6N0 Meningitis associated and temperature regul...  70.9    5e-12 
+  UniRef90_W1ARY4 CFA/I fimbrial major subunit n=1 Tax=Klebsiella...  66.2    1e-11 
+  UniRef90_A0A377DHP4 Fimbrillin n=1 Tax=Escherichia coli TaxID=5...  63.5    1e-10 
+  UniRef90_A0A0H5LZC6 Meningitis associated and temperature regul...  66.2    3e-10 
+  UniRef90_A0A1X3J5L5 MatB n=1 Tax=Escherichia coli TA447 TaxID=6...  52.0    2e-06 
+  UniRef90_A0A0D8NBI4 MatB domain protein n=1 Tax=Raoultella plan...  51.6    4e-06 
+  UniRef90_A0A379GDR0 Fimbrial protein n=1 Tax=Proteus mirabilis ...  49.7    4e-05 
+  UniRef90_UPI000D3E4BE6 hypothetical protein n=1 Tax=Gammaproteo...  48.1    0.001 
+  UniRef90_A0A1B4C1U1 Uncharacterized protein n=2 Tax=Burkholderi...  46.2    0.006 
+  UniRef90_A0A102ENK4 Uncharacterized protein n=5 Tax=Burkholderi...  45.1    0.013 
+  UniRef90_UPI000756C989 hypothetical protein n=1 Tax=Burkholderi...  42.4    0.14  
+  UniRef90_A0A2S9GUS3 Uncharacterized protein n=2 Tax=Solimicrobi...  40.4    0.49  
+  UniRef90_A0A2T6FBJ1 ABC transporter substrate-binding protein n...  40.8    0.60  
+  UniRef90_A0A2T5NNC8 Uncharacterized protein n=2 Tax=Chromobacte...  40.0    0.77  
+  UniRef90_UPI0006999668 hypothetical protein n=1 Tax=Citrobacter...  38.5    2.0   
+  UniRef90_A0A259TVC7 Uncharacterized protein n=1 Tax=Rubricoccus...  37.7    2.3   
+  UniRef90_A0A0D9QSL6 Uncharacterized protein n=1 Tax=Plasmodium ...  39.3    2.6   
+  UniRef90_UPI0009D96767 hypothetical protein n=1 Tax=Nitratiredu...  38.5    2.7   
+  UniRef90_A0A3P8RWL9 Uncharacterized protein n=1 Tax=Amphiprion ...  38.5    3.5   
+  UniRef90_A0A1C3KZ34 Uncharacterized protein n=1 Tax=Plasmodium ...  38.9    3.6   
+  UniRef90_A0A1D3SMB6 Uncharacterized protein n=2 Tax=Plasmodium ...  38.9    3.6   
+  UniRef90_A0A377LNZ4 Uncharacterized protein n=1 Tax=Enterobacte...  36.6    3.9   
+  UniRef90_K2P0M3 Uncharacterized protein n=1 Tax=Nitratireductor...  38.1    4.4   
+  UniRef90_V9ZPL2 Uncharacterized protein n=1 Tax=Aeromonas hydro...  37.0    4.7   
+  UniRef90_UPI000B34A18D FMN-dependent NADH-azoreductase n=2 Tax=...  37.7    4.7   
+  UniRef90_A0A088UHQ1 Uncharacterized protein n=1 Tax=Burkholderi...  37.7    4.9   
+  UniRef90_A0A2W7MDP2 Uncharacterized protein n=1 Tax=Psychrobaci...  37.7    5.4   
+  UniRef90_A0A3P1Z972 Uncharacterized protein n=1 Tax=Alloprevote...  38.1    6.3   
+  UniRef90_UPI000751DC78 hypothetical protein n=1 Tax=Burkholderi...  37.4    7.0   
+  UniRef90_UPI000688E631 hypothetical protein n=1 Tax=Paraburkhol...  37.0    7.3   
+  UniRef90_A0A1G1ZT84 Uncharacterized protein n=1 Tax=Candidatus ...  37.4    7.7   
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.126    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 897316223388
+Warning: [psiblast] lcl|Query_1 NP_414827.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414827.1
+
+Length=195
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q8CWB9 Common pilus major fimbrillin subunit EcpA n=51...  249     7e-82
+  UniRef90_D4E8Y9 Fimbrillin MatB n=2 Tax=Serratia odorifera TaxI...  249     1e-81
+  UniRef90_A0A378E1H0 Common pilus major fimbrillin subunit EcpA ...  248     3e-81
+  UniRef90_UPI000948F099 fimbrial protein n=1 Tax=Pantoea sp. 1.1...  242     7e-79
+  UniRef90_A0A2X2E593 Common pilus major fimbrillin subunit EcpA ...  241     1e-78
+  UniRef90_A0A2T4HU28 Fimbrial protein n=4 Tax=Morganella morgani...  236     1e-76
+  UniRef90_UPI00031A5677 fimbrial protein n=1 Tax=Metakosakonia m...  236     1e-76
+  UniRef90_A0A368ZV03 Fimbrillin MatB-like protein n=2 Tax=Kosako...  235     4e-76
+  UniRef90_A0A0U4IUQ3 Fimbrial protein n=10 Tax=Yersiniaceae TaxI...  234     8e-76
+  UniRef90_UPI00078954E4 fimbrial protein n=1 Tax=Kluyvera interm...  234     1e-75
+  UniRef90_UPI000CEC6AF6 fimbrial protein n=1 Tax=Enterobacter cl...  233     3e-75
+  UniRef90_W0LAY9 Fimbrial protein n=2 Tax=Yersiniaceae TaxID=190...  232     4e-75
+  UniRef90_A0A318FSB2 Common pilus major fimbrillin subunit EcpA ...  232     5e-75
+  UniRef90_A0A0A5M5D0 Fimbrial protein n=21 Tax=Gammaproteobacter...  231     1e-74
+  UniRef90_A0A095TUJ4 Fimbrial protein n=1 Tax=Tatumella morbiros...  231     2e-74
+  UniRef90_A0A2I0FYM7 Fimbrial protein n=1 Tax=Enterobacterales b...  229     7e-74
+  UniRef90_A0A127L348 Fimbrillin matB-like protein n=4 Tax=Entero...  229     1e-73
+  UniRef90_I6DG66 Fimbrillin matB n=10 Tax=Enterobacteriaceae Tax...  228     1e-73
+  UniRef90_A0A157EK60 Fimbrillin matB-like protein n=2 Tax=Entero...  230     2e-73
+  UniRef90_UPI00031690A6 fimbrial protein n=1 Tax=Metakosakonia m...  227     3e-73
+  UniRef90_UPI000DDC819F fimbrial protein n=3 Tax=Enterobacteriac...  227     5e-73
+  UniRef90_A0A379D9N3 Meningitis associated and temperature regul...  227     9e-73
+  UniRef90_UPI0002A24D65 fimbrillin protein MatB n=2 Tax=Enteroba...  224     3e-72
+  UniRef90_UPI000F627E82 fimbrial protein n=2 Tax=Klebsiella pneu...  222     3e-71
+  UniRef90_V5AX04 Fimbrillin matB n=5 Tax=Enterobacteriaceae TaxI...  220     1e-70
+  UniRef90_G8LIY9 Fimbrillin matB-like protein n=14 Tax=Enterobac...  218     3e-69
+  UniRef90_A0A0U4J8G2 Fimbrial protein n=10 Tax=Serratia TaxID=61...  216     8e-69
+  UniRef90_A0A2T2XVL8 Fimbrial protein n=1 Tax=Kluyvera ascorbata...  215     1e-68
+  UniRef90_UPI000948FED4 fimbrial protein n=1 Tax=Pantoea sp. 1.1...  213     2e-67
+  UniRef90_UPI000DF8A7EB fimbrial protein n=1 Tax=Klebsiella oxyt...  211     7e-67
+  UniRef90_UPI0002501C88 Fimbrillin matB homolog, EcpD n=1 Tax=Es...  209     4e-66
+  UniRef90_A0A1B7JB73 CFA/I fimbrial major subunit n=3 Tax=Proteu...  209     1e-65
+  UniRef90_UPI000D69E250 fimbrial protein n=1 Tax=Proteus sp. FJ2...  209     1e-65
+  UniRef90_UPI000EA1CB40 fimbrial protein n=1 Tax=Rahnella bruchi...  208     2e-65
+  UniRef90_UPI00046A8005 fimbrial protein n=1 Tax=Serratia TaxID=...  205     1e-64
+  UniRef90_A0A0D8NE98 Fimbrial protein n=1 Tax=Raoultella plantic...  202     9e-64
+  UniRef90_A0A2X4NDV9 Fimbrillin MatB n=6 Tax=Aeromonas TaxID=642...  202     4e-63
+  UniRef90_A0A379FAK4 Fimbrial protein n=4 Tax=Proteus TaxID=2104...  202     4e-63
+  UniRef90_UPI0005583390 fimbrial protein n=1 Tax=Erwinia TaxID=5...  202     5e-63
+  UniRef90_A0A318FPM3 Fimbrillin MatB-like protein n=1 Tax=Klebsi...  201     8e-63
+  UniRef90_A0A1U6XUA1 Fimbrial protein n=9 Tax=Aeromonadaceae Tax...  199     4e-62
+  UniRef90_S3MU43 Uncharacterized protein n=1 Tax=Acinetobacter r...  199     6e-62
+  UniRef90_S3N722 Uncharacterized protein n=1 Tax=Acinetobacter r...  199     6e-62
+  UniRef90_A0A1C7PLN4 Fimbrial protein n=1 Tax=Aeromonas piscicol...  198     9e-62
+  UniRef90_A0KEE0 Fimbrillin MatB n=11 Tax=Aeromonas TaxID=642 Re...  197     2e-61
+  UniRef90_A0A2K1QCN0 Fimbrial protein n=1 Tax=Mixta theicola Tax...  197     4e-61
+  UniRef90_A0A1S1HRI6 Fimbrial protein n=2 Tax=Providencia TaxID=...  197     5e-61
+  UniRef90_A0A181XA52 Fimbrial protein n=7 Tax=Enterobacteriaceae...  196     6e-61
+  UniRef90_A0A0V9JTW6 Fimbrial protein n=1 Tax=Citrobacter sp. 50...  195     1e-60
+  UniRef90_A0A2S4S0X0 Fimbrial protein n=1 Tax=Citrobacter amalon...  195     1e-60
+  UniRef90_A0A345C838 Fimbrial protein n=3 Tax=Enterobacteriaceae...  195     2e-60
+  UniRef90_A0A0N1KIZ8 CFA/I fimbrial major subunit n=2 Tax=Moelle...  195     4e-60
+  UniRef90_A0A0A5QVC7 Fimbrial protein n=31 Tax=Enterobacteriacea...  194     4e-60
+  UniRef90_A0A327QL91 Fimbrillin MatB-like protein n=5 Tax=Aeromo...  194     4e-60
+  UniRef90_A0A1V0LFY6 Fimbrial protein n=7 Tax=Enterobacteriaceae...  194     7e-60
+  UniRef90_A0A1C4HKN5 Meningitis associated and temperature regul...  194     7e-60
+  UniRef90_D2TJM1 Putative fimbrial protein n=1 Tax=Citrobacter r...  194     9e-60
+  UniRef90_B6XHH9 Fimbrillin MatB n=17 Tax=cellular organisms Tax...  193     1e-59
+  UniRef90_UPI000CD3D95C fimbrial protein n=1 Tax=Aeromonas besti...  193     1e-59
+  UniRef90_A0A329HMD9 Fimbrial protein n=1 Tax=Enterobacter sp. R...  193     1e-59
+  UniRef90_UPI00073D379C fimbrial protein n=1 Tax=[Erwinia] teleo...  192     4e-59
+  UniRef90_A0A0H3FI43 Fimbrial protein n=1 Tax=Klebsiella aerogen...  192     5e-59
+  UniRef90_A0A1Z1SQ34 Fimbrial protein n=9 Tax=Enterobacterales T...  192     7e-59
+  UniRef90_A0A2J9L7P6 Fimbrial protein n=1 Tax=Proteus mirabilis ...  191     9e-59
+  UniRef90_J4WGL4 Fimbrillin MatB n=59 Tax=Enterobacterales TaxID...  190     1e-58
+  UniRef90_N8Y828 Uncharacterized protein n=1 Tax=Acinetobacter g...  190     1e-58
+  UniRef90_A0A379G5D8 Meningitis associated and temperature regul...  190     2e-58
+  UniRef90_A0A2U3N3A0 Uncharacterized protein n=1 Tax=Acinetobact...  190     2e-58
+  UniRef90_A0A370QEG2 Fimbrillin MatB-like protein n=1 Tax=Entero...  188     9e-58
+  UniRef90_A0A157K2G9 Fimbrillin matB-like protein n=6 Tax=Entero...  186     5e-57
+  UniRef90_K1IUA4 Uncharacterized protein n=1 Tax=Aeromonas veron...  186     9e-57
+  UniRef90_UPI000491D866 fimbrial protein n=1 Tax=Phaseolibacter ...  184     3e-56
+  UniRef90_A0A356D9S9 Fimbrial protein n=1 Tax=Providencia sp. Ta...  183     1e-55
+  UniRef90_S3MQ64 Uncharacterized protein n=1 Tax=Acinetobacter r...  183     1e-55
+  UniRef90_UPI000F6F1B28 fimbrial protein n=1 Tax=Cedecea lapagei...  183     1e-55
+  UniRef90_UPI00073D5070 fimbrial protein n=1 Tax=[Erwinia] teleo...  182     2e-55
+  UniRef90_A0A250B6J3 Fimbrial protein n=1 Tax=Gibbsiella quercin...  182     2e-55
+  UniRef90_A0A1B8SNL7 Fimbrial protein n=4 Tax=Providencia TaxID=...  182     4e-55
+  UniRef90_UPI0005A731BA fimbrial protein n=1 Tax=Aeromonas simia...  181     6e-55
+  UniRef90_A0A0F7HBL9 Fimbrial protein n=8 Tax=Yersiniaceae TaxID...  180     2e-54
+  UniRef90_A0A1B7JB71 CFA/I fimbrial major subunit n=1 Tax=Proteu...  178     1e-53
+  UniRef90_UPI0005B3BE33 fimbrial protein n=2 Tax=Aeromonas TaxID...  178     1e-53
+  UniRef90_A0A3G2TH40 Fimbrial protein n=5 Tax=Aeromonas salmonic...  177     1e-53
+  UniRef90_UPI000F7B2BCC fimbrial protein n=1 Tax=Enterobacter hu...  177     2e-53
+  UniRef90_A0A3N6SHK7 Fimbrial protein n=1 Tax=Erwinia psidii Tax...  177     3e-53
+  UniRef90_A0A241VN80 Fimbrial protein n=1 Tax=Acinetobacter sp. ...  177     4e-53
+  UniRef90_A0A0H2QG99 Fimbrial protein n=1 Tax=Moellerella wiscon...  175     1e-52
+  UniRef90_A0A013RNG4 Fimbrillin matB n=5 Tax=Proteobacteria TaxI...  174     2e-52
+  UniRef90_A0A241VW46 Fimbrial protein n=1 Tax=Acinetobacter sp. ...  170     1e-50
+  UniRef90_A0A292C812 Fimbrial protein n=4 Tax=Proteus TaxID=2104...  169     4e-50
+  UniRef90_A0A379FAJ6 Fimbrial protein n=1 Tax=Proteus vulgaris T...  168     1e-49
+  UniRef90_A0A0G4Q6H2 Fimbrillin MatB n=3 Tax=Proteus TaxID=21042...  166     5e-49
+  UniRef90_UPI00073F413C fimbrial protein n=1 Tax=Type-C symbiont...  164     3e-48
+  UniRef90_A0A0C2N2S1 Common pilus major fimbrillin subunit EcpA ...  162     2e-47
+  UniRef90_A0A376RNW6 Fimbrillin n=4 Tax=Enterobacteriaceae TaxID...  157     4e-46
+  UniRef90_A0A376W2C9 Cryptic Mat fimbrillin n=6 Tax=Enterobacter...  155     2e-45
+  UniRef90_V6MHH8 Uncharacterized protein n=2 Tax=Proteus TaxID=2...  153     5e-44
+  UniRef90_UPI000493AD14 hypothetical protein n=1 Tax=Aeromonas h...  153     7e-44
+  UniRef90_A0A377TL99 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  142     9e-41
+  UniRef90_A0A2X4YS80 Fimbrillin MatB n=1 Tax=Klebsiella oxytoca ...  143     1e-40
+  UniRef90_A0A0U1I6I9 Meningitis associated and temperature regul...  143     8e-40
+  UniRef90_UPI000948B6DD fimbrial protein n=1 Tax=Pantoea sp. 1.1...  141     4e-39
+  UniRef90_A0A0Q4NNW5 Uncharacterized protein n=2 Tax=Erwinia Tax...  141     8e-39
+  UniRef90_A0A0H5LZB5 Meningitis associated and temperature regul...  140     2e-38
+  UniRef90_UPI00092F15B0 matB n=2 Tax=Enterobacteriaceae TaxID=54...  133     2e-37
+  UniRef90_A0A377KBB9 Fimbrillin n=2 Tax=Escherichia coli TaxID=5...  128     3e-35
+  UniRef90_UPI000B7F2567 fimbrillin matB domain protein n=1 Tax=E...  126     2e-34
+  UniRef90_A0A0U1I6N0 Meningitis associated and temperature regul...  125     4e-33
+  UniRef90_A0A377KBK2 Cryptic Mat fimbrillin n=3 Tax=Enterobacter...  121     6e-33
+  UniRef90_C4S9J4 Autotransporter adhesin n=2 Tax=Yersinia mollar...  125     7e-33
+  UniRef90_UPI0005E049DE hypothetical protein n=1 Tax=Yersinia mo...  122     1e-31
+  UniRef90_UPI000DA0FA6C fimbrial protein n=2 Tax=Photobacterium ...  121     2e-31
+  UniRef90_A0A0H5LZC6 Meningitis associated and temperature regul...  120     6e-31
+  UniRef90_A0A377S4N8 Fimbrillin MatB n=2 Tax=Klebsiella TaxID=57...  115     3e-30
+  UniRef90_A0A376P2P8 Fimbrillin n=4 Tax=Enterobacteriaceae TaxID...  115     3e-30
+  UniRef90_UPI00077BCE3C hypothetical protein n=1 Tax=Enterobacte...  118     3e-30
+  UniRef90_A0A0M7HGG4 Fimbrial protein n=45 Tax=Bacteria TaxID=2 ...  118     6e-30
+  UniRef90_UPI000BB780DD fimbrillin matB domain protein n=1 Tax=E...  114     8e-30
+  UniRef90_W1H6U8 CFA/I fimbrial major subunit n=1 Tax=Klebsiella...  113     2e-29
+  UniRef90_UPI00098B028E fimbrillin MatB n=1 Tax=Escherichia coli...  101     4e-25
+  UniRef90_A0A377DJB0 Fimbrillin n=1 Tax=Escherichia coli TaxID=5...  101     9e-25
+  UniRef90_A0A2X4YDY1 Fimbrillin MatB n=1 Tax=Klebsiella oxytoca ...  99.6    3e-24
+  UniRef90_A0A378CTG8 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  99.2    4e-24
+  UniRef90_UPI000F756392 fimbrillin matB domain protein n=1 Tax=K...  97.3    2e-23
+  UniRef90_A0A378CUK7 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  96.9    5e-23
+  UniRef90_A0A378CUR1 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  95.0    3e-22
+  UniRef90_M9HCU6 Fimbrillin matB domain protein n=2 Tax=Enteroba...  83.8    3e-18
+  UniRef90_A0A376W0J7 Fimbrillin n=1 Tax=Escherichia coli TaxID=5...  78.1    4e-16
+  UniRef90_A0A379GDR0 Fimbrial protein n=1 Tax=Proteus mirabilis ...  76.5    3e-15
+  UniRef90_A0A377LQR1 CFA/I fimbrial major subunit n=1 Tax=Entero...  69.2    3e-12
+  UniRef90_A0A377DHP4 Fimbrillin n=1 Tax=Escherichia coli TaxID=5...  55.0    2e-07
+  UniRef90_W1ARY4 CFA/I fimbrial major subunit n=1 Tax=Klebsiella...  55.3    2e-07
+  UniRef90_A0A2X1L4A0 Fimbrillin n=2 Tax=Escherichia coli TaxID=5...  52.3    2e-06
+  UniRef90_A0A0D8NBI4 MatB domain protein n=1 Tax=Raoultella plan...  43.0    0.006
+  UniRef90_A0A1X3J5L5 MatB n=1 Tax=Escherichia coli TA447 TaxID=6...  38.0    0.32 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000756C989 hypothetical protein n=1 Tax=Burkholderi...  75.8    1e-13
+  UniRef90_UPI000D3E4BE6 hypothetical protein n=1 Tax=Gammaproteo...  71.5    3e-12
+  UniRef90_A0A2S9GUR0 Uncharacterized protein n=2 Tax=Solimicrobi...  71.5    4e-12
+  UniRef90_A0A102ENK4 Uncharacterized protein n=5 Tax=Burkholderi...  70.4    1e-11
+  UniRef90_A0A088UHQ1 Uncharacterized protein n=1 Tax=Burkholderi...  70.4    1e-11
+  UniRef90_UPI000751DC78 hypothetical protein n=1 Tax=Burkholderi...  68.4    8e-11
+  UniRef90_A0A1B4C1U1 Uncharacterized protein n=2 Tax=Burkholderi...  67.7    1e-10
+  UniRef90_A0A2S9GUS3 Uncharacterized protein n=2 Tax=Solimicrobi...  65.0    1e-09
+  UniRef90_UPI0007BA8E58 hypothetical protein n=1 Tax=Burkholderi...  60.7    4e-08
+  UniRef90_A0A2T5NNC8 Uncharacterized protein n=2 Tax=Chromobacte...  55.3    3e-06
+  UniRef90_A0A377LNZ4 Uncharacterized protein n=1 Tax=Enterobacte...  52.6    5e-06
+  UniRef90_A0A1B4C417 Uncharacterized protein n=3 Tax=Burkholderi...  52.3    2e-05
+  UniRef90_A0A1W0D8H2 Uncharacterized protein n=1 Tax=Chromobacte...  50.3    2e-04
+  UniRef90_UPI000F74D183 hypothetical protein n=1 Tax=Iodobacter ...  46.1    0.005
+  UniRef90_A0A254VF62 Uncharacterized protein n=1 Tax=Xenophilus ...  45.3    0.011
+  UniRef90_V9ZPL2 Uncharacterized protein n=1 Tax=Aeromonas hydro...  43.4    0.029
+  UniRef90_A0A291QZD0 Iron dicitrate transport regulator FecR n=1...  44.6    0.031
+  UniRef90_A0A1G3PKC7 Uncharacterized protein n=1 Tax=Spirochaete...  44.6    0.040
+  UniRef90_A0A076HFI2 Uncharacterized protein n=2 Tax=Synechococc...  42.2    0.24 
+  UniRef90_A0A1S3SUY4 LOW QUALITY PROTEIN: F-box only protein 38-...  41.5    0.40 
+  UniRef90_A0A1C7PLT2 Uncharacterized protein n=4 Tax=Aeromonas T...  39.9    0.48 
+  UniRef90_G7V965 DNA repair protein RadA n=1 Tax=Thermovirga lie...  41.1    0.50 
+  UniRef90_A0A1B8TYN0 Uncharacterized protein n=1 Tax=Polaribacte...  40.7    0.56 
+  UniRef90_UPI00063CCEC1 alginate lyase n=1 Tax=Vibrio mexicanus ...  40.7    0.70 
+  UniRef90_A0A2K1X5A3 Uncharacterized protein n=4 Tax=Populus Tax...  40.3    0.91 
+  UniRef90_UPI00077E63FB probable LRR receptor-like serine/threon...  40.3    0.94 
+  UniRef90_UPI000FE2DA29 UPI000FE2DA29 related cluster n=1 Tax=un...  39.9    1.2  
+  UniRef90_UPI00077E673E probable LRR receptor-like serine/threon...  39.9    1.4  
+  UniRef90_A0A2D3T137 Uncharacterized protein n=1 Tax=Candidatus ...  38.8    1.4  
+  UniRef90_D4S693 Uncharacterized protein n=2 Tax=Selenomonas nox...  39.5    1.7  
+  UniRef90_A0A2W0EV21 Fimbrial assembly protein n=2 Tax=Pseudomon...  38.4    1.8  
+  UniRef90_A0A378Z8V3 Uncharacterized protein n=1 Tax=Pandoraea p...  37.2    1.8  
+  UniRef90_K9CGR5 Uncharacterized protein n=7 Tax=Selenomonas Tax...  39.5    1.8  
+  UniRef90_A0A2B4S9M7 BTB/POZ domain-containing protein 6 n=1 Tax...  39.5    1.8  
+  UniRef90_UPI000E487615 ABC transporter substrate-binding protei...  39.5    1.9  
+  UniRef90_UPI000F7ECD14 LysM peptidoglycan-binding domain-contai...  39.5    2.0  
+  UniRef90_A0A316DJ89 Putative secreted protein (Por secretion sy...  39.2    2.4  
+  UniRef90_A0A0S2K271 Uncharacterized protein n=1 Tax=Pseudoalter...  39.2    2.4  
+  UniRef90_A0A1H8BN59 Starch-binding associating with outer membr...  38.8    2.7  
+  UniRef90_J5HFB5 SLH domain protein n=1 Tax=Selenomonas sp. FOBR...  38.8    2.7  
+  UniRef90_D4S694 Uncharacterized protein n=2 Tax=Selenomonas nox...  38.8    2.9  
+  UniRef90_A0A0N4XCD0 Uncharacterized protein n=1 Tax=Nippostrong...  38.8    3.0  
+  UniRef90_A0A1V9F8F7 Uncharacterized protein n=1 Tax=Niastella y...  38.8    3.0  
+  UniRef90_K9RP66 Calx-beta domain-containing protein,FG-GAP repe...  38.8    3.2  
+  UniRef90_A0A0K1FHJ8 S-layer protein n=5 Tax=Selenomonas TaxID=9...  38.4    3.5  
+  UniRef90_UPI00016C4ABE DUF759 family protein n=2 Tax=Borreliell...  38.4    3.9  
+  UniRef90_E4LMK4 Uncharacterized protein n=1 Tax=Selenomonas sp....  38.4    4.1  
+  UniRef90_A0A0M8MJM3 TonB-dependent receptor n=1 Tax=Flavobacter...  38.4    4.1  
+  UniRef90_C4V547 Uncharacterized protein n=1 Tax=Selenomonas flu...  38.4    4.1  
+  UniRef90_A0A1N7D1M6 Uncharacterized damage-inducible protein Di...  37.6    4.3  
+  UniRef90_UPI000302063C hypothetical protein n=1 Tax=Photobacter...  38.4    4.4  
+  UniRef90_A0A257IW69 Uncharacterized protein n=1 Tax=Cytophagace...  36.8    4.5  
+  UniRef90_A0A2H5X6P0 Uncharacterized protein n=1 Tax=bacterium H...  37.6    5.0  
+  UniRef90_A0A2H5XGX1 Uncharacterized protein n=1 Tax=bacterium H...  38.0    5.7  
+  UniRef90_E7N3X9 Uncharacterized protein n=2 Tax=Selenomonas Tax...  37.6    6.2  
+  UniRef90_A0A356C862 Uncharacterized protein n=1 Tax=Eubacterium...  37.6    6.5  
+  UniRef90_A0A372NVR9 Damage-inducible protein DinB n=1 Tax=Mucil...  36.8    6.5  
+  UniRef90_UPI00051AF153 BMP family ABC transporter substrate-bin...  37.6    6.9  
+  UniRef90_A0A1F3M376 Uncharacterized protein n=1 Tax=Bacteroidet...  37.6    7.3  
+  UniRef90_K9CW07 Uncharacterized protein n=1 Tax=Selenomonas sp....  37.6    7.7  
+  UniRef90_G5GZT4 Uncharacterized protein n=1 Tax=Selenomonas nox...  37.6    7.9  
+  UniRef90_UPI000C03FE4C BTB/POZ domain-containing protein 1-like...  37.2    8.1  
+  UniRef90_UPI00017F3A65 DUF759 family protein n=2 Tax=Borreliell...  37.2    8.2  
+  UniRef90_A0A1Q5Y152 ABC transporter substrate-binding protein n...  37.2    8.2  
+  UniRef90_UPI000D175F39 head decoration protein n=1 Tax=Escheric...  36.1    8.7  
+  UniRef90_A0A0J6NJU7 Uncharacterized protein n=2 Tax=Chromobacte...  36.5    9.3  
+  UniRef90_A0A1I1IIH4 PEP-CTERM protein-sorting domain-containing...  36.8    9.6  
+  UniRef90_A0A2S0HT07 Uncharacterized protein n=1 Tax=Aureitalea ...  37.2    9.7  
+  UniRef90_UPI0008320705 hypothetical protein n=1 Tax=Neptuniibac...  37.2    9.9  
+  UniRef90_A0A2N3CGS5 Uncharacterized protein n=1 Tax=Alphaproteo...  36.5    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.145    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0442    0.140     1.90     42.6     43.6 
+
+Effective search space used: 897316223388
+Results from round 3
+
+
+Query= NP_414827.1
+
+Length=195
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_D4E8Y9 Fimbrillin MatB n=2 Tax=Serratia odorifera TaxI...  227     6e-73
+  UniRef90_Q8CWB9 Common pilus major fimbrillin subunit EcpA n=51...  226     1e-72
+  UniRef90_A0A378E1H0 Common pilus major fimbrillin subunit EcpA ...  225     3e-72
+  UniRef90_UPI000948F099 fimbrial protein n=1 Tax=Pantoea sp. 1.1...  221     1e-70
+  UniRef90_A0A2X2E593 Common pilus major fimbrillin subunit EcpA ...  219     7e-70
+  UniRef90_A0A368ZV03 Fimbrillin MatB-like protein n=2 Tax=Kosako...  218     2e-69
+  UniRef90_A0A2T4HU28 Fimbrial protein n=4 Tax=Morganella morgani...  216     7e-69
+  UniRef90_UPI00031A5677 fimbrial protein n=1 Tax=Metakosakonia m...  216     2e-68
+  UniRef90_A0A127L348 Fimbrillin matB-like protein n=4 Tax=Entero...  214     1e-67
+  UniRef90_A0A095TUJ4 Fimbrial protein n=1 Tax=Tatumella morbiros...  213     1e-67
+  UniRef90_A0A157EK60 Fimbrillin matB-like protein n=2 Tax=Entero...  215     2e-67
+  UniRef90_UPI000CEC6AF6 fimbrial protein n=1 Tax=Enterobacter cl...  213     2e-67
+  UniRef90_UPI00078954E4 fimbrial protein n=1 Tax=Kluyvera interm...  213     2e-67
+  UniRef90_W0LAY9 Fimbrial protein n=2 Tax=Yersiniaceae TaxID=190...  212     2e-67
+  UniRef90_A0A0U4IUQ3 Fimbrial protein n=10 Tax=Yersiniaceae TaxI...  212     4e-67
+  UniRef90_A0A318FSB2 Common pilus major fimbrillin subunit EcpA ...  212     4e-67
+  UniRef90_A0A2I0FYM7 Fimbrial protein n=1 Tax=Enterobacterales b...  212     5e-67
+  UniRef90_UPI00031690A6 fimbrial protein n=1 Tax=Metakosakonia m...  210     3e-66
+  UniRef90_A0A0A5M5D0 Fimbrial protein n=21 Tax=Gammaproteobacter...  209     5e-66
+  UniRef90_UPI000DDC819F fimbrial protein n=3 Tax=Enterobacteriac...  207     6e-65
+  UniRef90_I6DG66 Fimbrillin matB n=10 Tax=Enterobacteriaceae Tax...  206     7e-65
+  UniRef90_A0A379D9N3 Meningitis associated and temperature regul...  206     2e-64
+  UniRef90_UPI000F627E82 fimbrial protein n=2 Tax=Klebsiella pneu...  202     1e-63
+  UniRef90_A0A0U4J8G2 Fimbrial protein n=10 Tax=Serratia TaxID=61...  203     2e-63
+  UniRef90_V5AX04 Fimbrillin matB n=5 Tax=Enterobacteriaceae TaxI...  202     3e-63
+  UniRef90_G8LIY9 Fimbrillin matB-like protein n=14 Tax=Enterobac...  202     4e-63
+  UniRef90_UPI0002A24D65 fimbrillin protein MatB n=2 Tax=Enteroba...  201     5e-63
+  UniRef90_A0A2T2XVL8 Fimbrial protein n=1 Tax=Kluyvera ascorbata...  200     3e-62
+  UniRef90_UPI000DF8A7EB fimbrial protein n=1 Tax=Klebsiella oxyt...  199     6e-62
+  UniRef90_UPI000948FED4 fimbrial protein n=1 Tax=Pantoea sp. 1.1...  198     2e-61
+  UniRef90_UPI000D69E250 fimbrial protein n=1 Tax=Proteus sp. FJ2...  195     1e-60
+  UniRef90_A0A1B7JB73 CFA/I fimbrial major subunit n=3 Tax=Proteu...  195     3e-60
+  UniRef90_UPI000EA1CB40 fimbrial protein n=1 Tax=Rahnella bruchi...  194     6e-60
+  UniRef90_UPI00046A8005 fimbrial protein n=1 Tax=Serratia TaxID=...  192     2e-59
+  UniRef90_A0A318FPM3 Fimbrillin MatB-like protein n=1 Tax=Klebsi...  190     1e-58
+  UniRef90_A0A379FAK4 Fimbrial protein n=4 Tax=Proteus TaxID=2104...  190     2e-58
+  UniRef90_UPI0002501C88 Fimbrillin matB homolog, EcpD n=1 Tax=Es...  190     2e-58
+  UniRef90_S3MU43 Uncharacterized protein n=1 Tax=Acinetobacter r...  188     1e-57
+  UniRef90_S3N722 Uncharacterized protein n=1 Tax=Acinetobacter r...  187     2e-57
+  UniRef90_UPI0005583390 fimbrial protein n=1 Tax=Erwinia TaxID=5...  186     6e-57
+  UniRef90_A0A181XA52 Fimbrial protein n=7 Tax=Enterobacteriaceae...  186     8e-57
+  UniRef90_A0A2X4NDV9 Fimbrillin MatB n=6 Tax=Aeromonas TaxID=642...  185     1e-56
+  UniRef90_A0A1C7PLN4 Fimbrial protein n=1 Tax=Aeromonas piscicol...  184     4e-56
+  UniRef90_A0A0D8NE98 Fimbrial protein n=1 Tax=Raoultella plantic...  182     7e-56
+  UniRef90_A0A1U6XUA1 Fimbrial protein n=9 Tax=Aeromonadaceae Tax...  183     9e-56
+  UniRef90_A0A2K1QCN0 Fimbrial protein n=1 Tax=Mixta theicola Tax...  183     1e-55
+  UniRef90_A0A2S4S0X0 Fimbrial protein n=1 Tax=Citrobacter amalon...  182     2e-55
+  UniRef90_A0KEE0 Fimbrillin MatB n=11 Tax=Aeromonas TaxID=642 Re...  182     3e-55
+  UniRef90_A0A0V9JTW6 Fimbrial protein n=1 Tax=Citrobacter sp. 50...  182     4e-55
+  UniRef90_A0A1C4HKN5 Meningitis associated and temperature regul...  181     7e-55
+  UniRef90_A0A1S1HRI6 Fimbrial protein n=2 Tax=Providencia TaxID=...  181     1e-54
+  UniRef90_A0A345C838 Fimbrial protein n=3 Tax=Enterobacteriaceae...  180     1e-54
+  UniRef90_D2TJM1 Putative fimbrial protein n=1 Tax=Citrobacter r...  180     1e-54
+  UniRef90_A0A329HMD9 Fimbrial protein n=1 Tax=Enterobacter sp. R...  180     2e-54
+  UniRef90_A0A0A5QVC7 Fimbrial protein n=31 Tax=Enterobacteriacea...  180     2e-54
+  UniRef90_UPI000CD3D95C fimbrial protein n=1 Tax=Aeromonas besti...  179     3e-54
+  UniRef90_A0A0N1KIZ8 CFA/I fimbrial major subunit n=2 Tax=Moelle...  179     4e-54
+  UniRef90_A0A327QL91 Fimbrillin MatB-like protein n=5 Tax=Aeromo...  178     1e-53
+  UniRef90_UPI00073D379C fimbrial protein n=1 Tax=[Erwinia] teleo...  178     1e-53
+  UniRef90_N8Y828 Uncharacterized protein n=1 Tax=Acinetobacter g...  178     1e-53
+  UniRef90_A0A0H3FI43 Fimbrial protein n=1 Tax=Klebsiella aerogen...  177     2e-53
+  UniRef90_A0A2U3N3A0 Uncharacterized protein n=1 Tax=Acinetobact...  177     3e-53
+  UniRef90_A0A1V0LFY6 Fimbrial protein n=7 Tax=Enterobacteriaceae...  177     3e-53
+  UniRef90_A0A2J9L7P6 Fimbrial protein n=1 Tax=Proteus mirabilis ...  177     3e-53
+  UniRef90_B6XHH9 Fimbrillin MatB n=17 Tax=cellular organisms Tax...  177     3e-53
+  UniRef90_A0A1Z1SQ34 Fimbrial protein n=9 Tax=Enterobacterales T...  177     5e-53
+  UniRef90_J4WGL4 Fimbrillin MatB n=59 Tax=Enterobacterales TaxID...  175     1e-52
+  UniRef90_A0A379G5D8 Meningitis associated and temperature regul...  175     2e-52
+  UniRef90_A0A370QEG2 Fimbrillin MatB-like protein n=1 Tax=Entero...  173     6e-52
+  UniRef90_A0A157K2G9 Fimbrillin matB-like protein n=6 Tax=Entero...  172     1e-51
+  UniRef90_K1IUA4 Uncharacterized protein n=1 Tax=Aeromonas veron...  172     3e-51
+  UniRef90_UPI000491D866 fimbrial protein n=1 Tax=Phaseolibacter ...  171     4e-51
+  UniRef90_A0A356D9S9 Fimbrial protein n=1 Tax=Providencia sp. Ta...  170     1e-50
+  UniRef90_UPI000F6F1B28 fimbrial protein n=1 Tax=Cedecea lapagei...  170     2e-50
+  UniRef90_UPI00073D5070 fimbrial protein n=1 Tax=[Erwinia] teleo...  169     5e-50
+  UniRef90_S3MQ64 Uncharacterized protein n=1 Tax=Acinetobacter r...  168     6e-50
+  UniRef90_A0A1B7JB71 CFA/I fimbrial major subunit n=1 Tax=Proteu...  168     8e-50
+  UniRef90_UPI000F7B2BCC fimbrial protein n=1 Tax=Enterobacter hu...  168     9e-50
+  UniRef90_A0A250B6J3 Fimbrial protein n=1 Tax=Gibbsiella quercin...  168     9e-50
+  UniRef90_A0A1B8SNL7 Fimbrial protein n=4 Tax=Providencia TaxID=...  168     1e-49
+  UniRef90_UPI0005A731BA fimbrial protein n=1 Tax=Aeromonas simia...  167     2e-49
+  UniRef90_A0A0F7HBL9 Fimbrial protein n=8 Tax=Yersiniaceae TaxID...  167     2e-49
+  UniRef90_A0A013RNG4 Fimbrillin matB n=5 Tax=Proteobacteria TaxI...  165     8e-49
+  UniRef90_A0A241VN80 Fimbrial protein n=1 Tax=Acinetobacter sp. ...  165     2e-48
+  UniRef90_A0A292C812 Fimbrial protein n=4 Tax=Proteus TaxID=2104...  164     3e-48
+  UniRef90_A0A0H2QG99 Fimbrial protein n=1 Tax=Moellerella wiscon...  164     3e-48
+  UniRef90_A0A3N6SHK7 Fimbrial protein n=1 Tax=Erwinia psidii Tax...  164     4e-48
+  UniRef90_A0A3G2TH40 Fimbrial protein n=5 Tax=Aeromonas salmonic...  163     5e-48
+  UniRef90_UPI0005B3BE33 fimbrial protein n=2 Tax=Aeromonas TaxID...  162     1e-47
+  UniRef90_A0A379FAJ6 Fimbrial protein n=1 Tax=Proteus vulgaris T...  159     3e-46
+  UniRef90_A0A241VW46 Fimbrial protein n=1 Tax=Acinetobacter sp. ...  159     3e-46
+  UniRef90_A0A0G4Q6H2 Fimbrillin MatB n=3 Tax=Proteus TaxID=21042...  156     3e-45
+  UniRef90_A0A0C2N2S1 Common pilus major fimbrillin subunit EcpA ...  151     3e-43
+  UniRef90_UPI00073F413C fimbrial protein n=1 Tax=Type-C symbiont...  151     3e-43
+  UniRef90_V6MHH8 Uncharacterized protein n=2 Tax=Proteus TaxID=2...  148     7e-42
+  UniRef90_UPI000493AD14 hypothetical protein n=1 Tax=Aeromonas h...  146     3e-41
+  UniRef90_A0A376RNW6 Fimbrillin n=4 Tax=Enterobacteriaceae TaxID...  142     3e-40
+  UniRef90_A0A376W2C9 Cryptic Mat fimbrillin n=6 Tax=Enterobacter...  139     2e-39
+  UniRef90_UPI000948B6DD fimbrial protein n=1 Tax=Pantoea sp. 1.1...  138     9e-38
+  UniRef90_A0A0Q4NNW5 Uncharacterized protein n=2 Tax=Erwinia Tax...  137     4e-37
+  UniRef90_A0A0H5LZB5 Meningitis associated and temperature regul...  136     5e-37
+  UniRef90_A0A0U1I6I9 Meningitis associated and temperature regul...  134     2e-36
+  UniRef90_UPI000756C989 hypothetical protein n=1 Tax=Burkholderi...  133     6e-36
+  UniRef90_A0A377TL99 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  130     1e-35
+  UniRef90_A0A2X4YS80 Fimbrillin MatB n=1 Tax=Klebsiella oxytoca ...  128     4e-35
+  UniRef90_A0A102ENK4 Uncharacterized protein n=5 Tax=Burkholderi...  127     2e-33
+  UniRef90_UPI00092F15B0 matB n=2 Tax=Enterobacteriaceae TaxID=54...  120     5e-32
+  UniRef90_A0A377KBB9 Fimbrillin n=2 Tax=Escherichia coli TaxID=5...  119     1e-31
+  UniRef90_UPI000B7F2567 fimbrillin matB domain protein n=1 Tax=E...  117     4e-31
+  UniRef90_A0A088UHQ1 Uncharacterized protein n=1 Tax=Burkholderi...  120     7e-31
+  UniRef90_UPI0007BA8E58 hypothetical protein n=1 Tax=Burkholderi...  120     8e-31
+  UniRef90_C4S9J4 Autotransporter adhesin n=2 Tax=Yersinia mollar...  118     5e-30
+  UniRef90_A0A0U1I6N0 Meningitis associated and temperature regul...  116     2e-29
+  UniRef90_A0A377KBK2 Cryptic Mat fimbrillin n=3 Tax=Enterobacter...  111     7e-29
+  UniRef90_UPI0005E049DE hypothetical protein n=1 Tax=Yersinia mo...  114     1e-28
+  UniRef90_UPI00077BCE3C hypothetical protein n=1 Tax=Enterobacte...  113     2e-28
+  UniRef90_A0A1B4C1U1 Uncharacterized protein n=2 Tax=Burkholderi...  113     3e-28
+  UniRef90_UPI000751DC78 hypothetical protein n=1 Tax=Burkholderi...  113     4e-28
+  UniRef90_A0A0M7HGG4 Fimbrial protein n=45 Tax=Bacteria TaxID=2 ...  112     7e-28
+  UniRef90_UPI000DA0FA6C fimbrial protein n=2 Tax=Photobacterium ...  110     4e-27
+  UniRef90_A0A2T5NNC8 Uncharacterized protein n=2 Tax=Chromobacte...  110     5e-27
+  UniRef90_A0A377S4N8 Fimbrillin MatB n=2 Tax=Klebsiella TaxID=57...  106     8e-27
+  UniRef90_A0A2S9GUS3 Uncharacterized protein n=2 Tax=Solimicrobi...  109     1e-26
+  UniRef90_A0A0H5LZC6 Meningitis associated and temperature regul...  108     2e-26
+  UniRef90_A0A376P2P8 Fimbrillin n=4 Tax=Enterobacteriaceae TaxID...  105     2e-26
+  UniRef90_A0A1W0D8H2 Uncharacterized protein n=1 Tax=Chromobacte...  108     4e-26
+  UniRef90_A0A2S9GUR0 Uncharacterized protein n=2 Tax=Solimicrobi...  108     4e-26
+  UniRef90_UPI000BB780DD fimbrillin matB domain protein n=1 Tax=E...  104     5e-26
+  UniRef90_W1H6U8 CFA/I fimbrial major subunit n=1 Tax=Klebsiella...  103     1e-25
+  UniRef90_A0A1B4C417 Uncharacterized protein n=3 Tax=Burkholderi...  101     5e-24
+  UniRef90_UPI000D3E4BE6 hypothetical protein n=1 Tax=Gammaproteo...  101     2e-23
+  UniRef90_UPI00098B028E fimbrillin MatB n=1 Tax=Escherichia coli...  93.9    5e-22
+  UniRef90_A0A2X4YDY1 Fimbrillin MatB n=1 Tax=Klebsiella oxytoca ...  92.4    2e-21
+  UniRef90_A0A378CTG8 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  91.6    5e-21
+  UniRef90_A0A377DJB0 Fimbrillin n=1 Tax=Escherichia coli TaxID=5...  90.8    8e-21
+  UniRef90_A0A378CUK7 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  90.4    2e-20
+  UniRef90_UPI000F756392 fimbrillin matB domain protein n=1 Tax=K...  89.3    2e-20
+  UniRef90_A0A378CUR1 Fimbrillin MatB n=1 Tax=Klebsiella pneumoni...  86.6    5e-19
+  UniRef90_M9HCU6 Fimbrillin matB domain protein n=2 Tax=Enteroba...  77.3    8e-16
+  UniRef90_A0A376W0J7 Fimbrillin n=1 Tax=Escherichia coli TaxID=5...  72.7    5e-14
+  UniRef90_A0A379GDR0 Fimbrial protein n=1 Tax=Proteus mirabilis ...  71.9    2e-13
+  UniRef90_A0A377LQR1 CFA/I fimbrial major subunit n=1 Tax=Entero...  65.8    6e-11
+  UniRef90_W1ARY4 CFA/I fimbrial major subunit n=1 Tax=Klebsiella...  50.8    9e-06
+  UniRef90_A0A377LNZ4 Uncharacterized protein n=1 Tax=Enterobacte...  51.1    2e-05
+  UniRef90_A0A377DHP4 Fimbrillin n=1 Tax=Escherichia coli TaxID=5...  49.2    2e-05
+  UniRef90_A0A2X1L4A0 Fimbrillin n=2 Tax=Escherichia coli TaxID=5...  48.8    4e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0J6NJU7 Uncharacterized protein n=2 Tax=Chromobacte...  84.3    2e-17
+  UniRef90_UPI000F74D183 hypothetical protein n=1 Tax=Iodobacter ...  53.1    2e-05
+  UniRef90_A0A254VF62 Uncharacterized protein n=1 Tax=Xenophilus ...  46.9    0.003
+  UniRef90_UPI00077E63FB probable LRR receptor-like serine/threon...  45.4    0.017
+  UniRef90_A0A2W0EV21 Fimbrial assembly protein n=2 Tax=Pseudomon...  43.8    0.019
+  UniRef90_V9ZPL2 Uncharacterized protein n=1 Tax=Aeromonas hydro...  43.4    0.025
+  UniRef90_A0A1C7PLT2 Uncharacterized protein n=4 Tax=Aeromonas T...  43.1    0.038
+  UniRef90_A0A0D8NBI4 MatB domain protein n=1 Tax=Raoultella plan...  40.4    0.048
+  UniRef90_A0A1G3PKC7 Uncharacterized protein n=1 Tax=Spirochaete...  43.8    0.066
+  UniRef90_UPI000D624D40 probable LRR receptor-like serine/threon...  42.7    0.16 
+  UniRef90_A0A176WMZ5 Uncharacterized protein n=1 Tax=Marchantia ...  41.9    0.28 
+  UniRef90_A0A291QZD0 Iron dicitrate transport regulator FecR n=1...  41.1    0.46 
+  UniRef90_UPI00077E673E probable LRR receptor-like serine/threon...  41.1    0.49 
+  UniRef90_UPI00076FC3B6 papilin n=1 Tax=Neodiprion lecontei TaxI...  41.1    0.60 
+  UniRef90_A0A0C1FJL4 Uncharacterized protein n=2 Tax=Flavobacter...  40.4    0.66 
+  UniRef90_A0A1A9JJB0 Fimbrial assembly protein n=3 Tax=Pseudomon...  39.6    0.73 
+  UniRef90_UPI00095021D3 FAD:protein FMN transferase n=1 Tax=Labi...  40.4    0.74 
+  UniRef90_A0A1N7D1M6 Uncharacterized damage-inducible protein Di...  39.6    0.77 
+  UniRef90_K9NF45 Uncharacterized protein n=11 Tax=Pseudomonas Ta...  39.2    0.91 
+  UniRef90_A0A2H5XGX1 Uncharacterized protein n=1 Tax=bacterium H...  40.4    1.1  
+  UniRef90_G7DX45 Uncharacterized protein n=2 Tax=Mixia osmundae ...  40.4    1.1  
+  UniRef90_UPI000302063C hypothetical protein n=1 Tax=Photobacter...  40.0    1.2  
+  UniRef90_A0A0F4TMS2 CS1 type fimbrial major subunit n=7 Tax=Pse...  38.8    1.2  
+  UniRef90_C6R5D7 Uncharacterized protein n=1 Tax=Rothia mucilagi...  40.0    1.3  
+  UniRef90_A0A2D3T137 Uncharacterized protein n=1 Tax=Candidatus ...  38.8    1.5  
+  UniRef90_A0A1V6I884 PKD domain protein n=1 Tax=Bacteroidetes ba...  39.6    1.7  
+  UniRef90_UPI000F885F4B amidohydrolase n=1 Tax=Idiomarina seosin...  39.6    1.7  
+  UniRef90_A0A2N2P956 Uncharacterized protein n=1 Tax=Chloroflexi...  39.6    1.7  
+  UniRef90_W4V1J2 Rhs family protein n=1 Tax=Hungateiclostridium ...  39.6    1.7  
+  UniRef90_UPI0004B606B1 serine/threonine-protein kinase n=1 Tax=...  39.6    1.7  
+  UniRef90_A0A1V9F8F7 Uncharacterized protein n=1 Tax=Niastella y...  39.6    1.9  
+  UniRef90_A0A1X3J5L5 MatB n=1 Tax=Escherichia coli TA447 TaxID=6...  35.7    2.0  
+  UniRef90_A0A1L9L1H9 Chitodextrinase n=59 Tax=Vibrio TaxID=662 R...  39.2    2.1  
+  UniRef90_A0A2M8N7E0 Uncharacterized protein n=2 Tax=Chloroflexi...  39.2    2.2  
+  UniRef90_A0A1I0X7B8 Leucine rich repeat-containing protein n=1 ...  39.2    2.3  
+  UniRef90_UPI000EFC8811 DUF4347 domain-containing protein n=1 Ta...  39.2    2.7  
+  UniRef90_A0A076HFI2 Uncharacterized protein n=2 Tax=Synechococc...  38.8    3.0  
+  UniRef90_UPI0008320705 hypothetical protein n=1 Tax=Neptuniibac...  38.4    3.2  
+  UniRef90_A0A3C1RLA3 Uncharacterized protein n=1 Tax=Chryseobact...  38.8    3.2  
+  UniRef90_A0A2T3QM45 Chitinase n=15 Tax=Photobacterium damselae ...  38.8    3.3  
+  UniRef90_UPI000785ABED hypothetical protein n=1 Tax=Methanogeni...  38.8    3.4  
+  UniRef90_A0A1J1IUE8 CLUMA_CG016230, isoform A n=1 Tax=Clunio ma...  38.8    3.7  
+  UniRef90_A0A1J1ISJ6 CLUMA_CG016230, isoform B n=1 Tax=Clunio ma...  38.8    3.8  
+  UniRef90_A0A372NVR9 Damage-inducible protein DinB n=1 Tax=Mucil...  37.7    4.2  
+  UniRef90_A0A2V6AAR0 Uncharacterized protein n=1 Tax=Verrucomicr...  37.3    4.3  
+  UniRef90_E3JT20 Uncharacterized protein n=1 Tax=Puccinia gramin...  38.4    4.3  
+  UniRef90_UPI00084A2486 large extracellular alpha-helical protei...  38.4    4.3  
+  UniRef90_UPI00057C02C6 adhesin n=1 Tax=Enterobacter sp. Bisph1 ...  37.3    4.6  
+  UniRef90_A0A1I5CWN7 Thiol:disulfide interchange protein n=1 Tax...  37.7    4.8  
+  UniRef90_A0A356C862 Uncharacterized protein n=1 Tax=Eubacterium...  38.0    5.5  
+  UniRef90_UPI00063CCEC1 alginate lyase n=1 Tax=Vibrio mexicanus ...  38.0    5.8  
+  UniRef90_D2Q7N9 Phage-infection protein-like hypothetical membr...  38.0    5.9  
+  UniRef90_A0A3C0XU98 Uncharacterized protein n=1 Tax=Coriobacter...  37.7    5.9  
+  UniRef90_UPI00051AF153 BMP family ABC transporter substrate-bin...  38.0    6.0  
+  UniRef90_A0A328WPE5 Putative secreted protein (Por secretion sy...  38.0    6.3  
+  UniRef90_E9RIZ3 Uncharacterized protein n=4 Tax=Bacillus subtil...  36.1    6.3  
+  UniRef90_A0A316DJ89 Putative secreted protein (Por secretion sy...  38.0    6.3  
+  UniRef90_C5LTE5 Cell adhesion molecule, putative n=1 Tax=Perkin...  38.0    6.4  
+  UniRef90_A5ZL24 Peptidase C1-like family n=11 Tax=Bacteroidacea...  37.7    6.6  
+  UniRef90_A0A2N4XJX7 SusC/RagA family TonB-linked outer membrane...  38.0    6.6  
+  UniRef90_UPI000D175F39 head decoration protein n=1 Tax=Escheric...  36.5    7.0  
+  UniRef90_UPI000BA25B9D hypothetical protein n=1 Tax=Candidatus ...  36.9    7.1  
+  UniRef90_A0A3D5L7R4 Uncharacterized protein n=2 Tax=Clostridial...  36.9    7.2  
+  UniRef90_A0A386PSY9 Uncharacterized protein n=1 Tax=Lactobacill...  37.7    7.4  
+  UniRef90_A0A023AY79 Lipase n=1 Tax=Gregarina niphandrodes TaxID...  37.7    7.4  
+  UniRef90_UPI0004836F30 hypothetical protein n=1 Tax=Selenomonas...  36.5    8.0  
+  UniRef90_K9PM55 PEP motif putative anchor domain protein n=1 Ta...  37.3    8.2  
+  UniRef90_A0A381HV34 C4-dicarboxylate transporter protein/chemot...  37.3    8.4  
+  UniRef90_A0A1H0RPL5 Uncharacterized damage-inducible protein Di...  36.5    8.6  
+  UniRef90_B2AZG4 Podospora anserina S mat+ genomic DNA chromosom...  37.3    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.140    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0428    0.140     1.90     42.6     43.6 
+
+Effective search space used: 897316223388
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

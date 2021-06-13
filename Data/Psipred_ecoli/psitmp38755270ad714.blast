@@ -1,0 +1,199 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415576.1
+
+Length=46
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P64443 Uncharacterized protein YceO n=214 Tax=Proteoba...  89.7    3e-23
+  UniRef90_A0A376L8A1 Small protein involved in biofilm formation...  70.1    2e-15
+  UniRef90_A0A376UBU9 Small protein involved in biofilm formation...  69.7    3e-15
+  UniRef90_S1C8P3 Uncharacterized protein n=1 Tax=Escherichia sp....  62.0    3e-12
+  UniRef90_A0A078LIM7 Protein of uncharacterized function (DUF277...  61.6    8e-12
+  UniRef90_A0A2S4Q8I9 DUF2770 domain-containing protein n=1 Tax=C...  60.5    1e-11
+  UniRef90_A0A2T1LM84 DUF2770 domain-containing protein n=27 Tax=...  59.7    2e-11
+  UniRef90_A0A1A9FA15 DUF2770 domain-containing protein n=1 Tax=L...  59.7    3e-11
+  UniRef90_A0A3G5Y906 DUF2770 domain-containing protein n=2 Tax=E...  58.9    6e-11
+  UniRef90_A0A2S4RYJ8 DUF2770 domain-containing protein n=1 Tax=C...  57.8    2e-10
+  UniRef90_A0A399ATC2 DUF2770 domain-containing protein n=1 Tax=S...  57.4    3e-10
+  UniRef90_A0A0M3F3F4 Uncharacterized protein n=1 Tax=Enterobacte...  57.0    3e-10
+  UniRef90_A0A379R3U1 Protein of uncharacterized function (DUF277...  56.6    5e-10
+  UniRef90_A0A376I5F2 Small protein involved in biofilm formation...  56.6    5e-10
+  UniRef90_A0A2I8NYY8 DUF2770 domain-containing protein n=6 Tax=E...  55.5    1e-09
+  UniRef90_A0A157VRS0 DUF2770 domain-containing protein n=22 Tax=...  55.5    1e-09
+  UniRef90_A0A3A3ZKS5 DUF2770 domain-containing protein n=1 Tax=E...  55.5    2e-09
+  UniRef90_A0A3N0QNE1 DUF2770 domain-containing protein n=3 Tax=E...  55.1    2e-09
+  UniRef90_D2TT64 Putative membrane protein n=1 Tax=Citrobacter r...  54.3    3e-09
+  UniRef90_A0A2S5CBI4 DUF2770 domain-containing protein n=4 Tax=E...  54.3    4e-09
+  UniRef90_A4W971 Putative inner membrane protein n=2 Tax=Enterob...  53.5    9e-09
+  UniRef90_D2ZAX0 Uncharacterized protein n=2 Tax=Enterobacter ca...  53.5    1e-08
+  UniRef90_A0A0H3CNJ2 Uncharacterized protein n=4 Tax=Enterobacte...  53.1    1e-08
+  UniRef90_G2S896 Uncharacterized protein n=2 Tax=Enterobacter Ta...  53.1    1e-08
+  UniRef90_R9VWY8 Uncharacterized protein n=2 Tax=Enterobacteriac...  52.8    2e-08
+  UniRef90_A0A2I1ZV86 DUF2770 domain-containing protein n=3 Tax=E...  52.8    2e-08
+  UniRef90_A0A329I4N8 DUF2770 domain-containing protein n=1 Tax=E...  52.4    3e-08
+  UniRef90_A0A2U4E8M9 DUF2770 domain-containing protein n=4 Tax=C...  52.0    3e-08
+  UniRef90_A0A181CZE9 Protein of uncharacterized function (DUF277...  52.4    3e-08
+  UniRef90_A0A2P8VQE2 DUF2770 domain-containing protein n=1 Tax=S...  52.0    3e-08
+  UniRef90_A0A1I6Z2L9 Uncharacterized protein n=1 Tax=Kosakonia a...  51.6    5e-08
+  UniRef90_W0BRG9 Uncharacterized protein n=2 Tax=Enterobacter cl...  50.8    8e-08
+  UniRef90_A0A2T3XHB6 DUF2770 domain-containing protein n=4 Tax=E...  50.4    1e-07
+  UniRef90_A0A0F3X7X4 DUF2770 domain-containing protein n=23 Tax=...  50.4    1e-07
+  UniRef90_A0A0H3FV63 Uncharacterized protein n=3 Tax=Enterobacte...  50.1    2e-07
+  UniRef90_A0A1X0X8M9 DUF2770 domain-containing protein n=4 Tax=E...  50.1    2e-07
+  UniRef90_A0A127L3A9 Uncharacterized protein n=1 Tax=Enterobacte...  50.4    2e-07
+  UniRef90_A0A1V0LFM0 DUF2770 domain-containing protein n=2 Tax=K...  49.7    2e-07
+  UniRef90_A0A2S4QNS6 DUF2770 domain-containing protein n=1 Tax=E...  48.1    1e-06
+  UniRef90_A0A2X3INI0 N-methyl-L-tryptophan oxidase n=2 Tax=Cedec...  50.4    1e-06
+  UniRef90_A0A1Y6GJ51 DUF2770 domain-containing protein n=5 Tax=E...  47.4    2e-06
+  UniRef90_A0A248KAK7 DUF2770 domain-containing protein n=1 Tax=S...  47.0    3e-06
+  UniRef90_A0A1N6S6N3 Uncharacterized protein n=1 Tax=Enterobacte...  45.8    1e-05
+  UniRef90_A0A2T2Y2Y9 DUF2770 domain-containing protein n=1 Tax=K...  45.1    2e-05
+  UniRef90_A0A352MST4 DUF2770 domain-containing protein n=1 Tax=E...  43.1    1e-04
+  UniRef90_W9B771 Uncharacterized protein n=1 Tax=Klebsiella pneu...  40.0    0.001
+  UniRef90_A0A2Y9U1H6 DUF2770 domain-containing protein n=1 Tax=L...  38.1    0.009
+  UniRef90_A0A0T9P7F0 DUF2770 domain-containing protein n=16 Tax=...  37.4    0.017
+  UniRef90_A0A0U1HZI0 DUF2770 domain-containing protein n=2 Tax=Y...  37.0    0.024
+  UniRef90_A0A2J0ND60 DUF2770 domain-containing protein n=2 Tax=E...  36.2    0.049
+  UniRef90_A0A085HJJ9 Uncharacterized protein n=1 Tax=Leminorella...  36.6    0.055
+  UniRef90_A0A2X4V6S2 Protein of uncharacterized function (DUF277...  36.6    0.058
+  UniRef90_A0A2X3E8J0 Protein of uncharacterized function (DUF277...  35.8    0.087
+  UniRef90_A0A0B6FL24 Uncharacterized protein n=5 Tax=Yersinia Ta...  35.4    0.10 
+  UniRef90_A0A2K9YVR5 DUF2770 domain-containing protein n=7 Tax=S...  34.7    0.27 
+  UniRef90_A0A1D3KCN9 Small protein involved in biofilm formation...  34.3    0.31 
+  UniRef90_A0A0J4XRU3 DUF2770 domain-containing protein n=17 Tax=...  34.3    0.32 
+  UniRef90_A0A1I6CW80 Uncharacterized protein n=1 Tax=Enterobacte...  34.3    0.39 
+  UniRef90_A0A267S1V3 DUF2770 domain-containing protein n=1 Tax=E...  33.5    0.62 
+  UniRef90_A0A210TVY2 Uncharacterized protein n=1 Tax=Yersinia en...  33.1    1.0  
+  UniRef90_A0A2C6DQI0 DUF2770 domain-containing protein n=1 Tax=B...  33.1    1.2  
+  UniRef90_L0M7F6 Uncharacterized protein n=2 Tax=Enterobacteriac...  32.7    1.3  
+  UniRef90_A0A3J4MBZ5 DUF2770 domain-containing protein n=3 Tax=S...  31.6    2.8  
+  UniRef90_A0A2X3F9E5 Protein of uncharacterized function (DUF277...  32.0    3.7  
+  UniRef90_Q8D0R1 DUF2770 domain-containing protein n=6 Tax=Yersi...  31.2    4.8  
+  UniRef90_G1KS84 Potassium voltage-gated channel subfamily H mem...  32.3    9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.345    0.158    0.518    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736658107926
+Warning: [psiblast] lcl|Query_1 NP_415576.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415576.1
+
+Length=46
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A2X3INI0 N-methyl-L-tryptophan oxidase n=2 Tax=Cedec...  55.5    1e-08
+  UniRef90_P64443 Uncharacterized protein YceO n=214 Tax=Proteoba...  44.7    3e-05
+  UniRef90_A0A078LIM7 Protein of uncharacterized function (DUF277...  43.2    1e-04
+  UniRef90_A0A181CZE9 Protein of uncharacterized function (DUF277...  41.6    6e-04
+  UniRef90_A0A3G5Y906 DUF2770 domain-containing protein n=2 Tax=E...  39.7    0.002
+  UniRef90_A0A2S4Q8I9 DUF2770 domain-containing protein n=1 Tax=C...  39.3    0.003
+  UniRef90_A0A2T1LM84 DUF2770 domain-containing protein n=27 Tax=...  39.3    0.003
+  UniRef90_A0A127L3A9 Uncharacterized protein n=1 Tax=Enterobacte...  39.3    0.004
+  UniRef90_A4W971 Putative inner membrane protein n=2 Tax=Enterob...  38.9    0.005
+  UniRef90_A0A2S4RYJ8 DUF2770 domain-containing protein n=1 Tax=C...  38.6    0.007
+  UniRef90_A0A379R3U1 Protein of uncharacterized function (DUF277...  38.6    0.007
+  UniRef90_A0A376I5F2 Small protein involved in biofilm formation...  38.2    0.008
+  UniRef90_A0A3N0QNE1 DUF2770 domain-containing protein n=3 Tax=E...  38.2    0.009
+  UniRef90_D2ZAX0 Uncharacterized protein n=2 Tax=Enterobacter ca...  38.6    0.009
+  UniRef90_A0A1A9FA15 DUF2770 domain-containing protein n=1 Tax=L...  38.2    0.009
+  UniRef90_D2TT64 Putative membrane protein n=1 Tax=Citrobacter r...  37.8    0.012
+  UniRef90_A0A2U4E8M9 DUF2770 domain-containing protein n=4 Tax=C...  37.8    0.013
+  UniRef90_A0A157VRS0 DUF2770 domain-containing protein n=22 Tax=...  37.8    0.013
+  UniRef90_A0A2I1ZV86 DUF2770 domain-containing protein n=3 Tax=E...  37.8    0.015
+  UniRef90_A0A2S5CBI4 DUF2770 domain-containing protein n=4 Tax=E...  37.4    0.016
+  UniRef90_A0A376L8A1 Small protein involved in biofilm formation...  37.8    0.017
+  UniRef90_R9VWY8 Uncharacterized protein n=2 Tax=Enterobacteriac...  37.4    0.018
+  UniRef90_A0A2I8NYY8 DUF2770 domain-containing protein n=6 Tax=E...  37.4    0.019
+  UniRef90_A0A0H3CNJ2 Uncharacterized protein n=4 Tax=Enterobacte...  37.4    0.020
+  UniRef90_A0A0M3F3F4 Uncharacterized protein n=1 Tax=Enterobacte...  37.4    0.021
+  UniRef90_A0A3A3ZKS5 DUF2770 domain-containing protein n=1 Tax=E...  37.0    0.024
+  UniRef90_S1C8P3 Uncharacterized protein n=1 Tax=Escherichia sp....  37.0    0.024
+  UniRef90_A0A0F3X7X4 DUF2770 domain-containing protein n=23 Tax=...  37.0    0.026
+  UniRef90_G2S896 Uncharacterized protein n=2 Tax=Enterobacter Ta...  37.0    0.026
+  UniRef90_A0A376UBU9 Small protein involved in biofilm formation...  37.0    0.027
+  UniRef90_A0A0H3FV63 Uncharacterized protein n=3 Tax=Enterobacte...  37.0    0.027
+  UniRef90_A0A1V0LFM0 DUF2770 domain-containing protein n=2 Tax=K...  36.6    0.034
+  UniRef90_A0A1I6Z2L9 Uncharacterized protein n=1 Tax=Kosakonia a...  36.6    0.035
+  UniRef90_A0A329I4N8 DUF2770 domain-containing protein n=1 Tax=E...  35.9    0.067
+  UniRef90_W0BRG9 Uncharacterized protein n=2 Tax=Enterobacter cl...  35.5    0.093
+  UniRef90_A0A1Y6GJ51 DUF2770 domain-containing protein n=5 Tax=E...  35.5    0.093
+  UniRef90_A0A248KAK7 DUF2770 domain-containing protein n=1 Tax=S...  35.5    0.095
+  UniRef90_A0A2T3XHB6 DUF2770 domain-containing protein n=4 Tax=E...  35.5    0.10 
+  UniRef90_A0A1X0X8M9 DUF2770 domain-containing protein n=4 Tax=E...  35.1    0.13 
+  UniRef90_A0A1N6S6N3 Uncharacterized protein n=1 Tax=Enterobacte...  35.1    0.14 
+  UniRef90_A0A2P8VQE2 DUF2770 domain-containing protein n=1 Tax=S...  34.3    0.30 
+  UniRef90_A0A2S4QNS6 DUF2770 domain-containing protein n=1 Tax=E...  33.2    0.80 
+  UniRef90_A0A352MST4 DUF2770 domain-containing protein n=1 Tax=E...  33.2    0.97 
+  UniRef90_A0A2T2Y2Y9 DUF2770 domain-containing protein n=1 Tax=K...  32.4    1.5  
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A2X3F9E5 Protein of uncharacterized function (DUF277...  31.2    7.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.167    0.548    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0511    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736658107926
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

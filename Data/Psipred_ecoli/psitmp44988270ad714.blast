@@ -1,0 +1,248 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415215.1
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P75737 Uncharacterized lipoprotein YbfP n=156 Tax=Bact...  345     9e-121
+  UniRef90_A0A0P7NA43 Lipoprotein n=18 Tax=Escherichia coli TaxID...  319     3e-110
+  UniRef90_A0A3L9DF74 Uncharacterized protein n=2 Tax=Escherichia...  312     1e-107
+  UniRef90_A0A377DWW2 Lipoprotein n=2 Tax=Escherichia coli TaxID=...  310     6e-107
+  UniRef90_UPI00098C8C4F hypothetical protein n=4 Tax=Escherichia...  280     2e-95 
+  UniRef90_A0A246P0E2 Uncharacterized protein n=3 Tax=Escherichia...  274     2e-92 
+  UniRef90_UPI000D0E7F79 hypothetical protein n=1 Tax=Escherichia...  262     2e-88 
+  UniRef90_A0A3A6S7H0 Uncharacterized protein (Fragment) n=1 Tax=...  173     1e-53 
+  UniRef90_A0A2X1N0U3 Lipoprotein n=1 Tax=Escherichia coli TaxID=...  152     3e-45 
+  UniRef90_UPI000D09EEA4 hypothetical protein n=1 Tax=Escherichia...  115     2e-31 
+  UniRef90_W1Y7M3 Uncharacterized protein (Fragment) n=1 Tax=huma...  106     2e-27 
+  UniRef90_A0A2X4XSC0 Uncharacterized protein n=1 Tax=Leminorella...  96.3    2e-22 
+  UniRef90_A0A2Y9TVE3 Uncharacterized protein n=1 Tax=Limnobaculu...  68.9    1e-11 
+  UniRef90_A0A0G3CPW0 Uncharacterized protein n=2 Tax=Pragia font...  58.5    9e-08 
+  UniRef90_A0A2C6C1X1 Uncharacterized protein n=2 Tax=Budvicia aq...  53.5    6e-06 
+  UniRef90_UPI000C7C240D hypothetical protein n=1 Tax=Luteimonas ...  46.6    0.001 
+  UniRef90_A0A1G7UDW9 Uncharacterized protein n=1 Tax=Chryseobact...  45.1    0.006 
+  UniRef90_A0A1I4WKV6 Uncharacterized protein n=5 Tax=Chryseobact...  43.1    0.030 
+  UniRef90_A0A3N1WU25 Uncharacterized protein n=1 Tax=Comamonas s...  43.1    0.050 
+  UniRef90_A0A3G6MEX3 Phosphate ABC transporter permease n=1 Tax=...  42.0    0.062 
+  UniRef90_A0A2G6UN13 Uncharacterized protein n=2 Tax=Chryseobact...  41.6    0.087 
+  UniRef90_A0A172XWP6 Phosphate ABC transporter permease n=1 Tax=...  41.2    0.12  
+  UniRef90_A0A3N7AQV3 Uncharacterized protein n=2 Tax=Variovorax ...  38.1    0.50  
+  UniRef90_A0A3D9DP48 Phosphate ABC transporter permease n=1 Tax=...  39.3    0.67  
+  UniRef90_UPI000DCFBEF8 phosphate ABC transporter permease n=1 T...  38.5    1.1   
+  UniRef90_I3II05 Putative cytochrome c n=1 Tax=Candidatus Jetten...  37.7    1.4   
+  UniRef90_V6JFK7 Uncharacterized protein n=2 Tax=Streptomyces ni...  38.1    1.7   
+  UniRef90_A0A1M7KQG3 Uncharacterized protein n=4 Tax=Chryseobact...  38.1    1.8   
+  UniRef90_A0A1U7M6X7 Uncharacterized protein n=1 Tax=Tissierella...  38.1    1.8   
+  UniRef90_A0A086A995 Phosphate ABC transporter permease n=1 Tax=...  37.4    3.1   
+  UniRef90_UPI0006E43E91 SRPBCC family protein n=1 Tax=Streptomyc...  37.0    4.5   
+  UniRef90_A0A290N1R4 Phosphate ABC transporter permease n=3 Tax=...  36.6    5.0   
+  UniRef90_A0A0N1DV92 Phosphate ABC transporter permease n=1 Tax=...  36.6    5.5   
+  UniRef90_A0A1N7IND6 Uncharacterized protein n=2 Tax=Chryseobact...  36.2    7.2   
+  UniRef90_A0A0A7LQ51 Uncharacterized protein n=1 Tax=Hymenobacte...  36.6    7.3   
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736206678909
+Warning: [psiblast] lcl|Query_1 NP_415215.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415215.1
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P75737 Uncharacterized lipoprotein YbfP n=156 Tax=Bact...  286     3e-97
+  UniRef90_A0A3L9DF74 Uncharacterized protein n=2 Tax=Escherichia...  280     4e-95
+  UniRef90_A0A0P7NA43 Lipoprotein n=18 Tax=Escherichia coli TaxID...  275     7e-93
+  UniRef90_A0A246P0E2 Uncharacterized protein n=3 Tax=Escherichia...  267     7e-90
+  UniRef90_A0A377DWW2 Lipoprotein n=2 Tax=Escherichia coli TaxID=...  257     8e-86
+  UniRef90_UPI00098C8C4F hypothetical protein n=4 Tax=Escherichia...  233     7e-77
+  UniRef90_UPI000D0E7F79 hypothetical protein n=1 Tax=Escherichia...  215     7e-70
+  UniRef90_A0A0G3CPW0 Uncharacterized protein n=2 Tax=Pragia font...  191     2e-59
+  UniRef90_A0A2Y9TVE3 Uncharacterized protein n=1 Tax=Limnobaculu...  179     7e-55
+  UniRef90_A0A2X4XSC0 Uncharacterized protein n=1 Tax=Leminorella...  168     2e-50
+  UniRef90_A0A3A6S7H0 Uncharacterized protein (Fragment) n=1 Tax=...  149     2e-44
+  UniRef90_A0A2C6C1X1 Uncharacterized protein n=2 Tax=Budvicia aq...  138     1e-38
+  UniRef90_A0A2X1N0U3 Lipoprotein n=1 Tax=Escherichia coli TaxID=...  135     2e-38
+  UniRef90_UPI000D09EEA4 hypothetical protein n=1 Tax=Escherichia...  94.8    5e-23
+  UniRef90_W1Y7M3 Uncharacterized protein (Fragment) n=1 Tax=huma...  89.8    8e-21
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A172XWP6 Phosphate ABC transporter permease n=1 Tax=...  56.7    3e-07
+  UniRef90_A0A2G6UN13 Uncharacterized protein n=2 Tax=Chryseobact...  56.3    5e-07
+  UniRef90_A0A1G7UDW9 Uncharacterized protein n=1 Tax=Chryseobact...  55.2    1e-06
+  UniRef90_A0A1I4WKV6 Uncharacterized protein n=5 Tax=Chryseobact...  53.6    4e-06
+  UniRef90_A0A085Z1G3 Phosphate ABC transporter permease n=1 Tax=...  53.2    6e-06
+  UniRef90_A0A1M7KQG3 Uncharacterized protein n=4 Tax=Chryseobact...  52.5    1e-05
+  UniRef90_A0A3D9DP48 Phosphate ABC transporter permease n=1 Tax=...  51.3    3e-05
+  UniRef90_UPI000C7C240D hypothetical protein n=1 Tax=Luteimonas ...  50.5    4e-05
+  UniRef90_A0A3G6MEX3 Phosphate ABC transporter permease n=1 Tax=...  49.4    2e-04
+  UniRef90_A0A1M5L6V8 Uncharacterized protein n=2 Tax=Chryseobact...  47.5    7e-04
+  UniRef90_UPI000DCFBEF8 phosphate ABC transporter permease n=1 T...  46.7    0.001
+  UniRef90_A0A3N1WU25 Uncharacterized protein n=1 Tax=Comamonas s...  47.5    0.002
+  UniRef90_A0A0N1DV92 Phosphate ABC transporter permease n=1 Tax=...  46.3    0.002
+  UniRef90_A0A3N7AQV3 Uncharacterized protein n=2 Tax=Variovorax ...  44.0    0.004
+  UniRef90_A0A222WD75 Uncharacterized protein n=1 Tax=Xanthomonas...  44.8    0.005
+  UniRef90_UPI000E772BE4 phosphate ABC transporter permease n=1 T...  44.8    0.006
+  UniRef90_A0A086A995 Phosphate ABC transporter permease n=1 Tax=...  44.0    0.013
+  UniRef90_A0A363RP60 Uncharacterized protein n=2 Tax=Comamonas T...  43.2    0.021
+  UniRef90_A0A1N7IND6 Uncharacterized protein n=2 Tax=Chryseobact...  42.4    0.046
+  UniRef90_UPI00094BC011 hypothetical protein n=1 Tax=Tenacibacul...  41.7    0.076
+  UniRef90_A0A3P3WAB2 Phosphate ABC transporter permease n=1 Tax=...  41.7    0.085
+  UniRef90_A0A2A3LKD2 Uncharacterized protein n=1 Tax=Xanthomonad...  41.3    0.096
+  UniRef90_A0A0K1PJ48 Uncharacterized protein n=2 Tax=Vulgatibact...  39.0    1.6  
+  UniRef90_A0A1Z9Y6D6 Uncharacterized protein n=2 Tax=Hyphomonada...  37.1    3.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.126    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0386    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736206678909
+Results from round 3
+
+
+Query= NP_415215.1
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P75737 Uncharacterized lipoprotein YbfP n=156 Tax=Bact...  251     2e-83
+  UniRef90_A0A3L9DF74 Uncharacterized protein n=2 Tax=Escherichia...  249     1e-82
+  UniRef90_A0A0P7NA43 Lipoprotein n=18 Tax=Escherichia coli TaxID...  243     3e-80
+  UniRef90_A0A246P0E2 Uncharacterized protein n=3 Tax=Escherichia...  239     1e-78
+  UniRef90_A0A377DWW2 Lipoprotein n=2 Tax=Escherichia coli TaxID=...  222     6e-72
+  UniRef90_UPI00098C8C4F hypothetical protein n=4 Tax=Escherichia...  206     5e-66
+  UniRef90_A0A085Z1G3 Phosphate ABC transporter permease n=1 Tax=...  186     9e-58
+  UniRef90_A0A3D9DP48 Phosphate ABC transporter permease n=1 Tax=...  184     4e-57
+  UniRef90_UPI000D0E7F79 hypothetical protein n=1 Tax=Escherichia...  181     2e-56
+  UniRef90_A0A2G6UN13 Uncharacterized protein n=2 Tax=Chryseobact...  181     9e-56
+  UniRef90_A0A1M7KQG3 Uncharacterized protein n=4 Tax=Chryseobact...  177     3e-54
+  UniRef90_A0A172XWP6 Phosphate ABC transporter permease n=1 Tax=...  177     4e-54
+  UniRef90_A0A1I4WKV6 Uncharacterized protein n=5 Tax=Chryseobact...  173     1e-52
+  UniRef90_A0A1M5L6V8 Uncharacterized protein n=2 Tax=Chryseobact...  172     2e-52
+  UniRef90_A0A3G6MEX3 Phosphate ABC transporter permease n=1 Tax=...  164     3e-49
+  UniRef90_A0A0G3CPW0 Uncharacterized protein n=2 Tax=Pragia font...  163     2e-48
+  UniRef90_A0A1G7UDW9 Uncharacterized protein n=1 Tax=Chryseobact...  154     5e-45
+  UniRef90_A0A2Y9TVE3 Uncharacterized protein n=1 Tax=Limnobaculu...  152     3e-44
+  UniRef90_A0A2C6C1X1 Uncharacterized protein n=2 Tax=Budvicia aq...  150     3e-43
+  UniRef90_A0A2X4XSC0 Uncharacterized protein n=1 Tax=Leminorella...  144     3e-41
+  UniRef90_A0A3A6S7H0 Uncharacterized protein (Fragment) n=1 Tax=...  138     5e-40
+  UniRef90_A0A2X1N0U3 Lipoprotein n=1 Tax=Escherichia coli TaxID=...  112     1e-29
+  UniRef90_UPI000D09EEA4 hypothetical protein n=1 Tax=Escherichia...  79.0    7e-17
+  UniRef90_UPI000C7C240D hypothetical protein n=1 Tax=Luteimonas ...  79.8    3e-16
+  UniRef90_W1Y7M3 Uncharacterized protein (Fragment) n=1 Tax=huma...  73.6    2e-14
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1N7IND6 Uncharacterized protein n=2 Tax=Chryseobact...  166     9e-50
+  UniRef90_UPI000DCFBEF8 phosphate ABC transporter permease n=1 T...  164     2e-49
+  UniRef90_A0A0N1DV92 Phosphate ABC transporter permease n=1 Tax=...  153     8e-45
+  UniRef90_A0A086A995 Phosphate ABC transporter permease n=1 Tax=...  147     1e-42
+  UniRef90_UPI000E772BE4 phosphate ABC transporter permease n=1 T...  141     6e-40
+  UniRef90_A0A376DTW2 Uncharacterized protein n=19 Tax=Elizabethk...  135     1e-37
+  UniRef90_A0A0D5BIV7 Uncharacterized protein n=4 Tax=Flavobacter...  135     1e-37
+  UniRef90_A0A290N1R4 Phosphate ABC transporter permease n=3 Tax=...  132     9e-37
+  UniRef90_A0A1T3FRL1 Phosphate ABC transporter permease n=6 Tax=...  129     3e-35
+  UniRef90_A0A1V3TZE1 Phosphate ABC transporter permease n=3 Tax=...  120     1e-31
+  UniRef90_A0A177LPU4 Phosphate ABC transporter permease n=1 Tax=...  114     2e-29
+  UniRef90_A0A085BAG1 Uncharacterized protein n=1 Tax=Chryseobact...  111     2e-28
+  UniRef90_UPI0003FAB554 hypothetical protein n=1 Tax=Aequorivita...  97.9    7e-23
+  UniRef90_A0A3P3WAB2 Phosphate ABC transporter permease n=1 Tax=...  92.9    5e-21
+  UniRef90_UPI000CDE77AF phosphate ABC transporter permease n=1 T...  89.8    9e-20
+  UniRef90_UPI000E50FF04 phosphate ABC transporter permease n=1 T...  88.6    2e-19
+  UniRef90_A0A3G3HLK3 Phosphate ABC transporter permease n=1 Tax=...  85.9    2e-18
+  UniRef90_UPI00094BC011 hypothetical protein n=1 Tax=Tenacibacul...  75.1    2e-14
+  UniRef90_A0A238UE42 Uncharacterized protein n=1 Tax=Tenacibacul...  72.8    2e-13
+  UniRef90_A0A363RP60 Uncharacterized protein n=2 Tax=Comamonas T...  69.4    4e-12
+  UniRef90_A0A222WD75 Uncharacterized protein n=1 Tax=Xanthomonas...  65.9    6e-11
+  UniRef90_A0A349ZZC8 Uncharacterized protein n=1 Tax=Chryseobact...  64.0    4e-10
+  UniRef90_A0A2A3LKD2 Uncharacterized protein n=1 Tax=Xanthomonad...  59.7    9e-09
+  UniRef90_A0A0H1AQ79 Uncharacterized protein n=1 Tax=Luteimonas ...  59.4    2e-08
+  UniRef90_A0A0P7GXX0 Uncharacterized protein n=1 Tax=Xanthomonas...  58.2    5e-08
+  UniRef90_A0A290XDI5 Uncharacterized protein n=2 Tax=Luteimonas ...  57.8    7e-08
+  UniRef90_UPI00068CC34C DUF1311 domain-containing protein n=1 Ta...  59.4    1e-07
+  UniRef90_A0A3N7AQV3 Uncharacterized protein n=2 Tax=Variovorax ...  54.3    4e-07
+  UniRef90_A0A2A3VK83 Uncharacterized protein n=1 Tax=Xanthomonad...  55.9    4e-07
+  UniRef90_A0A3N1WU25 Uncharacterized protein n=1 Tax=Comamonas s...  51.3    7e-05
+  UniRef90_D2QE65 Uncharacterized protein n=2 Tax=Spirosoma TaxID...  41.6    0.066
+  UniRef90_UPI0009AF4811 hypothetical protein n=1 Tax=Spirosoma r...  40.5    0.15 
+  UniRef90_A0A2N8NEG7 Uncharacterized protein n=1 Tax=Tannerella ...  41.3    0.22 
+  UniRef90_A0A2K8YXW7 Uncharacterized protein n=1 Tax=Spirosoma p...  38.2    1.1  
+  UniRef90_UPI000B906029 uncharacterized protein LOC110866861 n=1...  38.6    1.3  
+  UniRef90_A0A2E5XXS1 Uncharacterized protein n=1 Tax=Candidatus ...  38.9    1.8  
+  UniRef90_A0A3A4Q1T9 Uncharacterized protein n=1 Tax=Phycisphaer...  38.2    3.2  
+  UniRef90_UPI00080614D0 hypothetical protein n=2 Tax=Staphylococ...  36.6    3.5  
+  UniRef90_A0A0E3WFI4 Amino acid ABC transporter extracellular am...  37.4    4.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0401    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736206678909
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

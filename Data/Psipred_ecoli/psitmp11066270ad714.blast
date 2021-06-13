@@ -1,0 +1,581 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415374.1
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q0T8Q9 Putative sensory transduction regulator n=140 T...  325     4e-113
+  UniRef90_P0AAY8 Uncharacterized protein YbjN n=176 Tax=Bacteria...  325     7e-113
+  UniRef90_B7LN17 Uncharacterized protein n=6 Tax=Escherichia Tax...  296     1e-101
+  UniRef90_A0A0V9JQA4 Uncharacterized protein n=1 Tax=Citrobacter...  279     7e-95 
+  UniRef90_B5R862 Uncharacterized protein n=181 Tax=Gammaproteoba...  276     2e-93 
+  UniRef90_A0A090TYW0 Uncharacterized protein n=27 Tax=Enterobact...  273     3e-92 
+  UniRef90_A0A3N1IUR8 Putative sensory transduction regulator n=2...  253     2e-84 
+  UniRef90_UPI00073D58EE YbjN domain-containing protein n=1 Tax=[...  251     7e-84 
+  UniRef90_A0A1V0LGJ1 Uncharacterized protein n=7 Tax=Enterobacte...  251     1e-83 
+  UniRef90_UPI00036C4BA2 YbjN domain-containing protein n=1 Tax=E...  251     1e-83 
+  UniRef90_A0A0G3SFI1 YbjN domain-containing protein n=16 Tax=Ent...  251     2e-83 
+  UniRef90_UPI0003167437 YbjN domain-containing protein n=1 Tax=M...  249     4e-83 
+  UniRef90_A0A1N6SJS7 Putative sensory transduction regulator n=3...  249     4e-83 
+  UniRef90_A0A0M3EXZ8 Uncharacterized protein n=1 Tax=Enterobacte...  249     1e-82 
+  UniRef90_A0A0D1MTW2 Uncharacterized protein n=4 Tax=Enterobacte...  248     1e-82 
+  UniRef90_A0A1C3PQT3 Sensory transduction regulator n=67 Tax=Ent...  248     1e-82 
+  UniRef90_A0A2P8VQT1 YbjN domain-containing protein n=2 Tax=Sicc...  247     4e-82 
+  UniRef90_A0A089PPA6 Bacterial sensory transduction regulator n=...  247     5e-82 
+  UniRef90_A0A0B5IVB2 Uncharacterized protein n=11 Tax=Enterobact...  247     5e-82 
+  UniRef90_A0A0L0ASX9 Uncharacterized protein n=2 Tax=Enterobacte...  246     9e-82 
+  UniRef90_UPI000EB42CE4 YbjN domain-containing protein n=1 Tax=K...  246     2e-81 
+  UniRef90_A0A0F1K953 YbjN domain-containing protein n=12 Tax=Ent...  245     2e-81 
+  UniRef90_G9Z5V0 Uncharacterized protein n=5 Tax=Enterobacteriac...  244     4e-81 
+  UniRef90_A0A318W341 Putative sensory transduction regulator n=3...  244     7e-81 
+  UniRef90_A0A1B7JEA1 Putative sensory transduction regulator n=7...  243     3e-80 
+  UniRef90_S3K065 Uncharacterized protein n=16 Tax=cellular organ...  242     4e-80 
+  UniRef90_A0A089RBX4 Uncharacterized protein n=2 Tax=Cedecea Tax...  241     9e-80 
+  UniRef90_G2S3Z5 Sensory transduction regulator n=105 Tax=Bacter...  241     1e-79 
+  UniRef90_A0A0J8VKK4 Uncharacterized protein n=4 Tax=Franconibac...  240     2e-79 
+  UniRef90_UPI00077B7741 YbjN domain-containing protein n=1 Tax=E...  239     4e-79 
+  UniRef90_A4W8L8 Putative sensory transduction regulator n=5 Tax...  238     2e-78 
+  UniRef90_L0M863 Putative bacterial sensory transduction regulat...  237     3e-78 
+  UniRef90_A0A1A9FH41 YbjN domain-containing protein n=1 Tax=Lell...  237     3e-78 
+  UniRef90_A0A2S5CCN4 YbjN domain-containing protein n=2 Tax=Lell...  237     4e-78 
+  UniRef90_C9Y014 Uncharacterized protein ybjN n=22 Tax=Enterobac...  235     2e-77 
+  UniRef90_A0A3E1ZYA4 YbjN domain-containing protein n=8 Tax=Ente...  234     4e-77 
+  UniRef90_UPI000787DAA5 YbjN domain-containing protein n=1 Tax=K...  233     1e-76 
+  UniRef90_E3G276 Sensory transduction regulator, putative n=1 Ta...  233     3e-76 
+  UniRef90_I2BAT9 Putative sensory transduction regulator n=1 Tax...  232     3e-76 
+  UniRef90_A0A2X3ISB2 Sensory transduction regulator n=6 Tax=Kleb...  232     6e-76 
+  UniRef90_A0A370YHN0 YbjN domain-containing protein n=10 Tax=Ent...  231     7e-76 
+  UniRef90_R9VWS2 Uncharacterized protein n=6 Tax=Enterobacteriac...  229     4e-75 
+  UniRef90_D8MQ88 Conserved uncharacterized protein n=1 Tax=Erwin...  227     3e-74 
+  UniRef90_H2IQ35 Putative bacterial sensory transduction regulat...  227     4e-74 
+  UniRef90_UPI00057BE852 YbjN domain-containing protein n=1 Tax=E...  226     7e-74 
+  UniRef90_A0A083ZXJ3 Putative bacterial sensory transduction reg...  226     1e-73 
+  UniRef90_A0A1U7E3N8 Uncharacterized protein n=4 Tax=Enterobacte...  225     3e-73 
+  UniRef90_A1JM58 Uncharacterized protein n=53 Tax=Yersinia TaxID...  225     3e-73 
+  UniRef90_UPI000DEF5A5A YbjN domain-containing protein n=1 Tax=R...  224     5e-73 
+  UniRef90_A0A2U1TLT5 YbjN domain-containing protein n=1 Tax=Bren...  224     8e-73 
+  UniRef90_A0A085U9R1 Putative sensory transduction regulator n=4...  223     1e-72 
+  UniRef90_A8GCA8 Uncharacterized protein n=51 Tax=Gammaproteobac...  223     1e-72 
+  UniRef90_A0A2S9IAD6 YbjN domain-containing protein n=2 Tax=Erwi...  223     1e-72 
+  UniRef90_UPI0009AA981A YbjN domain-containing protein n=3 Tax=S...  222     2e-72 
+  UniRef90_A0A071LVW0 Uncharacterized protein n=3 Tax=Mangrovibac...  222     3e-72 
+  UniRef90_A0A0Q4MXQ7 Sensory transduction regulator n=1 Tax=Erwi...  222     3e-72 
+  UniRef90_S4YEH6 Uncharacterized protein n=2 Tax=Serratia plymut...  224     4e-72 
+  UniRef90_A0A2N0MUK1 Bacterial sensory transduction regulator n=...  222     4e-72 
+  UniRef90_A0A0A3Z927 Sensory transduction regulator n=3 Tax=Erwi...  222     5e-72 
+  UniRef90_UPI00082B646D YbjN domain-containing protein n=1 Tax=E...  221     5e-72 
+  UniRef90_F4MXZ2 Uncharacterized protein ybjN n=1 Tax=Yersinia e...  224     6e-72 
+  UniRef90_D4I047 Uncharacterized protein ybjN n=8 Tax=Erwinia Ta...  221     8e-72 
+  UniRef90_I0QUX2 Sensory transduction regulator n=5 Tax=Yersinia...  220     2e-71 
+  UniRef90_UPI000FE32F35 YbjN domain-containing protein n=1 Tax=P...  220     2e-71 
+  UniRef90_A0A0L7TBR8 Sensory transduction regulator n=2 Tax=Erwi...  220     2e-71 
+  UniRef90_A0A0J8YIW7 Sensory transduction regulator n=2 Tax=uncl...  220     2e-71 
+  UniRef90_A0A1W5DHC6 Uncharacterized protein n=1 Tax=Serratia pr...  220     3e-71 
+  UniRef90_A0A2N5ELN6 YbjN domain-containing protein n=3 Tax=uncl...  219     3e-71 
+  UniRef90_A0A0U5KYV1 Uncharacterized protein n=1 Tax=Erwinia ger...  219     3e-71 
+  UniRef90_A0A3N1WCQ7 Putative sensory transduction regulator n=1...  219     6e-71 
+  UniRef90_A0A221T8Q9 Bacterial sensory transduction regulator n=...  218     9e-71 
+  UniRef90_A0A389MAS3 Oxidoreductase n=1 Tax=Enterobacterales bac...  218     9e-71 
+  UniRef90_UPI000FDD4493 UPI000FDD4493 related cluster n=1 Tax=un...  218     1e-70 
+  UniRef90_UPI00046A4458 YbjN domain-containing protein n=1 Tax=P...  218     1e-70 
+  UniRef90_UPI000948FC4C YbjN domain-containing protein n=1 Tax=P...  218     2e-70 
+  UniRef90_A0A1S8YPA2 YbjN domain-containing protein n=1 Tax=Izha...  217     3e-70 
+  UniRef90_A0A068RAV9 Uncharacterized protein YbjN n=3 Tax=Serrat...  217     4e-70 
+  UniRef90_UPI00036AB848 YbjN domain-containing protein n=1 Tax=P...  217     5e-70 
+  UniRef90_A0A090VA67 Uncharacterized protein n=4 Tax=Enterobacte...  216     5e-70 
+  UniRef90_A0A1W6B0J3 YbjN domain-containing protein n=5 Tax=Erwi...  214     3e-69 
+  UniRef90_A0A2I0FX72 YbjN domain-containing protein n=1 Tax=Ente...  214     3e-69 
+  UniRef90_A0A2G8EI26 Sensory transduction regulator n=1 Tax=Erwi...  214     4e-69 
+  UniRef90_A0A370QMF1 Putative sensory transduction regulator n=1...  214     6e-69 
+  UniRef90_A0A014LW43 Sensory transduction regulator n=4 Tax=Erwi...  214     7e-69 
+  UniRef90_E6WB43 Sensory transduction regulator, putative n=14 T...  213     8e-69 
+  UniRef90_K8CNF7 Putative sensory transduction regulator n=1 Tax...  212     2e-68 
+  UniRef90_D4GNC9 YbjN n=34 Tax=Enterobacterales TaxID=91347 RepI...  213     3e-68 
+  UniRef90_UPI0005532CBA YbjN domain-containing protein n=2 Tax=E...  211     1e-67 
+  UniRef90_W0HYV3 Sensory transduction regulator n=4 Tax=Sodalis ...  209     5e-67 
+  UniRef90_E0SMU5 Predicted oxidoreductase n=22 Tax=Enterobactera...  209     7e-67 
+  UniRef90_J9KQW5 Uncharacterized protein n=3 Tax=cellular organi...  215     7e-67 
+  UniRef90_R4I1E3 Uncharacterized protein n=1 Tax=Serratia symbio...  207     4e-66 
+  UniRef90_A0A2I5T9C3 YbjN domain-containing protein n=1 Tax=Serr...  207     4e-66 
+  UniRef90_A0A1H4BNF8 Putative sensory transduction regulator n=5...  206     5e-66 
+  UniRef90_A0A0K0HS25 Bacterial sensory transduction regulator n=...  206     1e-65 
+  UniRef90_A0A378DYU2 Sensory transduction regulator n=1 Tax=Kleb...  204     3e-65 
+  UniRef90_C7BQZ5 Uncharacterized protein n=24 Tax=Photorhabdus T...  205     3e-65 
+  UniRef90_UPI0004B6A6AE YbjN domain-containing protein n=1 Tax=E...  204     4e-65 
+  UniRef90_C5BED5 Uncharacterized protein n=11 Tax=Edwardsiella T...  204     4e-65 
+  UniRef90_A0A2C6DQ78 YbjN domain-containing protein n=1 Tax=Budv...  204     4e-65 
+  UniRef90_U3TPT5 Sensory transduction regulator, putative n=6 Ta...  201     6e-64 
+  UniRef90_A0A0G3CT98 Bacterial sensory transduction regulator n=...  200     2e-63 
+  UniRef90_A0A2X4UR89 Bacterial sensory transduction regulator n=...  199     5e-63 
+  UniRef90_A0A2Y9TUW8 YbjN domain-containing protein n=1 Tax=Limn...  197     2e-62 
+  UniRef90_A0A085HJ41 Putative sensory transduction regulator n=1...  195     1e-61 
+  UniRef90_A0A1N6MZM8 Uncharacterized protein n=5 Tax=Xenorhabdus...  195     2e-61 
+  UniRef90_A0A095TAH7 Sensory transduction regulator n=2 Tax=Tatu...  188     7e-59 
+  UniRef90_W1IN47 Uncharacterized protein n=3 Tax=Xenorhabdus Tax...  186     1e-57 
+  UniRef90_D3UZL9 Uncharacterized protein n=9 Tax=Xenorhabdus bov...  185     2e-57 
+  UniRef90_A0A0A8NY13 Uncharacterized protein n=5 Tax=Xenorhabdus...  184     4e-57 
+  UniRef90_W1IZL3 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  182     3e-56 
+  UniRef90_A0A068QQF9 Uncharacterized protein n=15 Tax=Xenorhabdu...  178     9e-55 
+  UniRef90_A0A1S1HVQ4 Histidine kinase n=6 Tax=Gammaproteobacteri...  177     2e-54 
+  UniRef90_A0A1B8HJ08 Uncharacterized protein n=4 Tax=Morganella ...  177     2e-54 
+  UniRef90_A0A0H2QFN1 Histidine kinase n=2 Tax=Moellerella wiscon...  174     4e-53 
+  UniRef90_A0A0A5SKF8 YbjN domain-containing protein n=13 Tax=Bac...  174     4e-53 
+  UniRef90_A0A1B8SVH8 Histidine kinase n=9 Tax=Providencia TaxID=...  174     6e-53 
+  UniRef90_A0A2X5NLX8 Bacterial sensory transduction regulator n=...  173     6e-53 
+  UniRef90_B6XBL3 Uncharacterized protein n=5 Tax=Providencia alc...  173     9e-53 
+  UniRef90_A0A2A2GZU4 YbjN domain-containing protein n=3 Tax=Arse...  171     8e-52 
+  UniRef90_A0A377K9Y1 TPR repeat-containing protein n=1 Tax=Esche...  168     8e-52 
+  UniRef90_A0A1J0E4Y3 YbjN domain-containing protein n=1 Tax=Prov...  171     1e-51 
+  UniRef90_A0A356D112 Histidine kinase n=2 Tax=Providencia TaxID=...  170     1e-51 
+  UniRef90_K8WCP8 Uncharacterized protein n=2 Tax=Providencia Tax...  169     5e-51 
+  UniRef90_A0A1B7JHM9 Putative sensory transduction regulator n=2...  167     4e-50 
+  UniRef90_A0A377KBG9 TPR repeat-containing protein n=1 Tax=Esche...  160     9e-49 
+  UniRef90_V6MV94 Uncharacterized protein n=18 Tax=Enterobacteral...  160     2e-47 
+  UniRef90_A0A198FET1 Putative sensory transduction regulator n=1...  159     4e-47 
+  UniRef90_D1NXB7 Uncharacterized protein n=2 Tax=Providencia rus...  159     5e-47 
+  UniRef90_A0A1Z1SY50 Bacterial sensory transduction regulator n=...  158     1e-46 
+  UniRef90_A0A2U8I3R9 YbjN domain-containing protein n=1 Tax=Cand...  157     2e-46 
+  UniRef90_UPI0009AA8411 hypothetical protein n=2 Tax=Salmonella ...  152     2e-45 
+  UniRef90_A0A1A9AZI5 Bacterial sensory transduction regulator n=...  154     2e-45 
+  UniRef90_UPI0004A43994 YbjN domain-containing protein n=1 Tax=T...  151     3e-44 
+  UniRef90_A0A378DB28 Sensory transduction regulator n=1 Tax=Kleb...  147     2e-43 
+  UniRef90_A0A377AX98 TPR repeat-containing protein n=1 Tax=Esche...  146     4e-43 
+  UniRef90_A0A3P8M265 Bacterial sensory transduction regulator n=...  146     5e-43 
+  UniRef90_A0A381G5Y8 Bacterial sensory transduction regulator n=...  138     4e-40 
+  UniRef90_A0A368NJC8 YbjN domain-containing protein n=1 Tax=Cora...  124     2e-33 
+  UniRef90_UPI000B540335 histidine kinase n=1 Tax=Escherichia col...  119     1e-32 
+  UniRef90_E1STU1 Sensory transduction regulator, putative n=2 Ta...  119     2e-31 
+  UniRef90_K4KTT7 Uncharacterized protein n=1 Tax=Simiduia agariv...  116     2e-30 
+  UniRef90_A0A381G4S4 Bacterial sensory transduction regulator n=...  111     1e-29 
+  UniRef90_L0WAV1 Uncharacterized protein n=1 Tax=Alcanivorax hon...  106     1e-26 
+  UniRef90_UPI000687258C hypothetical protein n=1 Tax=Ferrimonas ...  105     5e-26 
+  UniRef90_A0A2E9JRX5 YbjN domain-containing protein n=1 Tax=Alca...  104     6e-26 
+  UniRef90_A0A1M5N1E7 Putative sensory transduction regulator n=1...  104     7e-26 
+  UniRef90_K0CID3 Uncharacterized protein n=4 Tax=Alcanivorax Tax...  104     8e-26 
+  UniRef90_UPI000DBABB9B YbjN domain-containing protein n=1 Tax=A...  103     1e-25 
+  UniRef90_Q0VNM1 Uncharacterized protein n=7 Tax=Alcanivoracacea...  104     1e-25 
+  UniRef90_A0A2E9RF64 YbjN domain-containing protein n=1 Tax=Alca...  102     4e-25 
+  UniRef90_A0A2N3IW02 Histidine kinase n=5 Tax=Aeromonas TaxID=64...  101     1e-24 
+  UniRef90_A0A3M1KBF7 YbjN domain-containing protein (Fragment) n...  101     2e-24 
+  UniRef90_A0A2N1YKD9 YbjN domain-containing protein n=1 Tax=Gamm...  100     4e-24 
+  UniRef90_A0A0F2NVD2 Uncharacterized protein n=1 Tax=Gammaproteo...  99.8    7e-24 
+  UniRef90_UPI000E2F062E YbjN domain-containing protein n=1 Tax=P...  99.4    9e-24 
+  UniRef90_A0A1U6Y165 Histidine kinase n=80 Tax=Gammaproteobacter...  98.2    2e-23 
+  UniRef90_A0A220SM82 YbjN domain-containing protein n=1 Tax=Alca...  98.2    3e-23 
+  UniRef90_A0A378F825 Sensory transduction regulator n=1 Tax=Kleb...  95.1    3e-23 
+  UniRef90_A0A095SB41 Uncharacterized protein n=6 Tax=Alcanivorax...  97.8    4e-23 
+  UniRef90_A0A0B4XI88 Uncharacterized protein n=1 Tax=Alcanivorax...  97.8    4e-23 
+  UniRef90_A0A1N6QJC8 Putative sensory transduction regulator n=1...  97.1    6e-23 
+  UniRef90_A0A095SI00 Uncharacterized protein n=4 Tax=Alcanivorac...  96.3    1e-22 
+  UniRef90_UPI000E3D9CD8 YbjN domain-containing protein n=1 Tax=C...  95.5    2e-22 
+  UniRef90_A0A1T4QV85 Uncharacterized protein n=1 Tax=Oceanospiri...  95.9    3e-22 
+  UniRef90_A0A2H9U0C6 Histidine kinase n=1 Tax=Aeromonas cavernic...  95.1    5e-22 
+  UniRef90_A0A2D5GEW8 YbjN domain-containing protein n=2 Tax=Ocea...  93.6    1e-21 
+  UniRef90_R1F1F2 Uncharacterized protein n=2 Tax=Aeromonadaceae ...  93.2    1e-21 
+  UniRef90_A0A2E0VE48 Histidine kinase n=1 Tax=Porticoccaceae bac...  93.6    2e-21 
+  UniRef90_A0A1T1HA12 Uncharacterized protein n=4 Tax=Oceanospiri...  92.8    3e-21 
+  UniRef90_A0A2X3KF72 TPR repeat-containing protein n=1 Tax=Esche...  90.5    3e-21 
+  UniRef90_UPI000E303F09 YbjN domain-containing protein n=1 Tax=Z...  92.0    4e-21 
+  UniRef90_A0A1G8NF66 Uncharacterized protein n=2 Tax=Ferrimonas ...  92.4    5e-21 
+  UniRef90_A0A3C7W9E8 Histidine kinase n=2 Tax=Halieaceae TaxID=1...  92.0    7e-21 
+  UniRef90_Q2SIX5 Uncharacterized protein n=2 Tax=Hahella TaxID=1...  91.7    9e-21 
+  UniRef90_A0A0W7U7A8 Histidine kinase n=6 Tax=Aeromonas TaxID=64...  91.3    1e-20 
+  UniRef90_B8KN40 Sensory transduction regulator n=1 Tax=gamma pr...  91.3    1e-20 
+  UniRef90_A0A2P7RCN6 Histidine kinase n=1 Tax=Zobellella endophy...  90.5    2e-20 
+  UniRef90_UPI0002DB3F26 YbjN domain-containing protein n=1 Tax=m...  90.5    2e-20 
+  UniRef90_UPI00068623DB YbjN domain-containing protein n=1 Tax=B...  90.9    2e-20 
+  UniRef90_A0A3L7E054 YbjN domain-containing protein n=1 Tax=Hali...  90.5    2e-20 
+  UniRef90_A4A9V6 Putative bacterial sensory transduction regulat...  90.1    4e-20 
+  UniRef90_A0A2E0YZX6 Histidine kinase n=1 Tax=Halioglobus sp. Ta...  90.1    4e-20 
+  UniRef90_A0A1J4QKD8 Histidine kinase n=3 Tax=Aeromonadaceae Tax...  89.4    5e-20 
+  UniRef90_A0A2N5X379 YbjN domain-containing protein n=1 Tax=Hali...  89.7    5e-20 
+  UniRef90_A0A3P8KP25 Bacterial sensory transduction regulator n=...  86.7    6e-20 
+  UniRef90_A0A378DAS3 Sensory transduction regulator n=1 Tax=Kleb...  86.7    6e-20 
+  UniRef90_A0A377F6F2 TPR repeat-containing protein n=1 Tax=Esche...  86.3    6e-20 
+  UniRef90_A0A233RH36 Histidine kinase n=5 Tax=Aeromonadaceae Tax...  89.0    7e-20 
+  UniRef90_UPI000EB4346F hypothetical protein n=1 Tax=Orbus hercy...  88.6    1e-19 
+  UniRef90_A0A1Y0D8F8 Histidine kinase n=1 Tax=Oceanisphaera prof...  87.4    3e-19 
+  UniRef90_UPI00036E3650 YbjN domain-containing protein n=1 Tax=H...  87.4    4e-19 
+  UniRef90_A0A1Y0D0H3 Histidine kinase n=1 Tax=Oceanisphaera aviu...  87.0    4e-19 
+  UniRef90_UPI000374F5A1 histidine kinase n=1 Tax=Oceanimonas smi...  86.3    7e-19 
+  UniRef90_A0A261GPS5 YbjN domain-containing protein n=1 Tax=Hahe...  86.3    1e-18 
+  UniRef90_A0A142B6T2 Uncharacterized protein n=1 Tax=Endozoicomo...  85.5    2e-18 
+  UniRef90_A0A165SY01 Histidine kinase n=3 Tax=Halioglobus TaxID=...  84.3    6e-18 
+  UniRef90_UPI00055A167E hypothetical protein n=1 Tax=Candidatus ...  83.2    1e-17 
+  UniRef90_A0A1X7AHQ5 Putative bacterial sensory transduction reg...  83.2    2e-17 
+  UniRef90_UPI00068650C9 hypothetical protein n=1 Tax=Ferrimonas ...  81.6    5e-17 
+  UniRef90_A0A376UCJ4 TPR repeat-containing protein n=1 Tax=Esche...  78.6    7e-17 
+  UniRef90_UPI00078436CC hypothetical protein n=1 Tax=Endozoicomo...  80.1    3e-16 
+  UniRef90_UPI000691001F hypothetical protein n=1 Tax=Endozoicomo...  79.7    6e-16 
+  UniRef90_A0A2N5Y2X4 Histidine kinase n=1 Tax=Chromatocurvus sp....  76.3    6e-15 
+  UniRef90_A0A2S5KLJ8 Uncharacterized protein n=3 Tax=Proteobacte...  77.0    7e-15 
+  UniRef90_UPI000BA8ED96 hypothetical protein n=1 Tax=Paraferrimo...  75.1    2e-14 
+  UniRef90_A0A0A7RZR5 Putative bacterial sensory transduction reg...  75.1    3e-14 
+  UniRef90_UPI000D35F12E hypothetical protein n=1 Tax=Saccharospi...  74.3    3e-14 
+  UniRef90_A0A355SNQ0 Histidine kinase n=7 Tax=Halieaceae TaxID=1...  74.3    4e-14 
+  UniRef90_A0A2D5FCI4 Histidine kinase n=1 Tax=Haliea sp. TaxID=1...  74.3    4e-14 
+  UniRef90_UPI000E66E8A4 YbjN domain-containing protein n=1 Tax=O...  74.3    4e-14 
+  UniRef90_UPI000FD6D258 YbjN domain-containing protein n=2 Tax=S...  73.9    6e-14 
+  UniRef90_A0A2T6E6G9 Uncharacterized protein n=1 Tax=Saccharospi...  73.6    9e-14 
+  UniRef90_UPI000BA93DF6 hypothetical protein n=1 Tax=Paraferrimo...  71.2    7e-13 
+  UniRef90_E1VJJ8 Uncharacterized protein n=2 Tax=gamma proteobac...  67.0    3e-11 
+  UniRef90_A4BJU4 Uncharacterized protein n=1 Tax=Reinekea blande...  65.1    2e-10 
+  UniRef90_A0A376UCN9 TPR repeat-containing protein n=1 Tax=Esche...  54.7    2e-07 
+  UniRef90_C0B1N7 Uncharacterized protein n=1 Tax=Proteus penneri...  55.1    2e-07 
+  UniRef90_W1EUA6 Putative sensory transduction regulator n=1 Tax...  53.9    2e-07 
+  UniRef90_A0A2K8KSK8 Putative sensory transduction regulator n=1...  52.0    1e-05 
+  UniRef90_A0A2S6VT44 Uncharacterized protein n=1 Tax=Pantoea sp....  42.7    0.006 
+  UniRef90_A0A346HXT4 DNA-binding response regulator n=1 Tax=Camp...  40.0    0.47  
+  UniRef90_A0A381CWN1 Two-component regulator n=2 Tax=Campylobact...  38.1    0.81  
+  UniRef90_A0A178MEB0 DNA mismatch repair protein MutS n=1 Tax=Ma...  38.9    1.8   
+  UniRef90_A0A0Q8HNE4 Phosphatidylinositol kinase n=3 Tax=Pseudom...  38.5    1.9   
+  UniRef90_UPI0003F49D1F hypothetical protein n=1 Tax=Tremella me...  38.5    2.1   
+  UniRef90_A0A1F4CIH4 Uncharacterized protein n=2 Tax=unclassifie...  37.4    3.2   
+  UniRef90_A0A0G0GF28 Pseudouridine synthase n=2 Tax=Parcubacteri...  37.7    3.5   
+  UniRef90_A0A316UIG8 Casein kinase II subunit beta n=1 Tax=Jamin...  37.4    5.3   
+  UniRef90_A0A2G2DUP4 Uncharacterized protein n=1 Tax=Desulfotale...  37.0    5.7   
+  UniRef90_A7H2F5 DNA-binding response regulator n=65 Tax=Campylo...  36.6    6.0   
+  UniRef90_A0A2E0FR17 Uncharacterized protein n=1 Tax=Nitrospina ...  37.0    6.2   
+  UniRef90_A0A2Z3JCJ4 D-galactose 1-dehydrogenase n=1 Tax=Salinis...  36.6    7.2   
+  UniRef90_A0A146IF68 Uncharacterized protein n=1 Tax=Mycena chlo...  37.0    7.4   
+  UniRef90_D4IXC4 Uncharacterized protein n=2 Tax=Lachnospiraceae...  36.6    7.8   
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 757279849365
+Warning: [psiblast] lcl|Query_1 NP_415374.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415374.1
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_J9KQW5 Uncharacterized protein n=3 Tax=cellular organi...  243     4e-78
+  UniRef90_Q0T8Q9 Putative sensory transduction regulator n=140 T...  236     9e-78
+  UniRef90_P0AAY8 Uncharacterized protein YbjN n=176 Tax=Bacteria...  235     2e-77
+  UniRef90_A0A1C3PQT3 Sensory transduction regulator n=67 Tax=Ent...  231     1e-75
+  UniRef90_S4YEH6 Uncharacterized protein n=2 Tax=Serratia plymut...  232     1e-75
+  UniRef90_B7LN17 Uncharacterized protein n=6 Tax=Escherichia Tax...  229     4e-75
+  UniRef90_F4MXZ2 Uncharacterized protein ybjN n=1 Tax=Yersinia e...  232     4e-75
+  UniRef90_A0A1N6SJS7 Putative sensory transduction regulator n=3...  229     5e-75
+  UniRef90_A0A3N1IUR8 Putative sensory transduction regulator n=2...  228     2e-74
+  UniRef90_D8MQ88 Conserved uncharacterized protein n=1 Tax=Erwin...  227     2e-74
+  UniRef90_UPI00046A4458 YbjN domain-containing protein n=1 Tax=P...  227     2e-74
+  UniRef90_A0A0A3Z927 Sensory transduction regulator n=3 Tax=Erwi...  227     3e-74
+  UniRef90_A0A2G8EI26 Sensory transduction regulator n=1 Tax=Erwi...  227     3e-74
+  UniRef90_A0A2S9IAD6 YbjN domain-containing protein n=2 Tax=Erwi...  226     8e-74
+  UniRef90_UPI000EB42CE4 YbjN domain-containing protein n=1 Tax=K...  226     1e-73
+  UniRef90_A0A1S8YPA2 YbjN domain-containing protein n=1 Tax=Izha...  225     2e-73
+  UniRef90_A0A0V9JQA4 Uncharacterized protein n=1 Tax=Citrobacter...  225     2e-73
+  UniRef90_UPI000948FC4C YbjN domain-containing protein n=1 Tax=P...  225     2e-73
+  UniRef90_E6WB43 Sensory transduction regulator, putative n=14 T...  225     2e-73
+  UniRef90_A1JM58 Uncharacterized protein n=53 Tax=Yersinia TaxID...  225     2e-73
+  UniRef90_A0A083ZXJ3 Putative bacterial sensory transduction reg...  225     3e-73
+  UniRef90_A0A0L0ASX9 Uncharacterized protein n=2 Tax=Enterobacte...  224     4e-73
+  UniRef90_A0A0B5IVB2 Uncharacterized protein n=11 Tax=Enterobact...  224     5e-73
+  UniRef90_A0A3N1WCQ7 Putative sensory transduction regulator n=1...  224     6e-73
+  UniRef90_A0A0G3SFI1 YbjN domain-containing protein n=16 Tax=Ent...  224     6e-73
+  UniRef90_A0A0L7TBR8 Sensory transduction regulator n=2 Tax=Erwi...  223     8e-73
+  UniRef90_A0A0U5KYV1 Uncharacterized protein n=1 Tax=Erwinia ger...  223     9e-73
+  UniRef90_D4GNC9 YbjN n=34 Tax=Enterobacterales TaxID=91347 RepI...  225     9e-73
+  UniRef90_A8GCA8 Uncharacterized protein n=51 Tax=Gammaproteobac...  223     1e-72
+  UniRef90_A0A1H4BNF8 Putative sensory transduction regulator n=5...  223     1e-72
+  UniRef90_A0A1V0LGJ1 Uncharacterized protein n=7 Tax=Enterobacte...  223     1e-72
+  UniRef90_A0A1W5DHC6 Uncharacterized protein n=1 Tax=Serratia pr...  223     2e-72
+  UniRef90_A0A090TYW0 Uncharacterized protein n=27 Tax=Enterobact...  223     2e-72
+  UniRef90_A0A0Q4MXQ7 Sensory transduction regulator n=1 Tax=Erwi...  223     2e-72
+  UniRef90_A0A221T8Q9 Bacterial sensory transduction regulator n=...  223     2e-72
+  UniRef90_UPI000FE32F35 YbjN domain-containing protein n=1 Tax=P...  223     2e-72
+  UniRef90_A0A0M3EXZ8 Uncharacterized protein n=1 Tax=Enterobacte...  222     2e-72
+  UniRef90_A0A089PPA6 Bacterial sensory transduction regulator n=...  222     3e-72
+  UniRef90_UPI00073D58EE YbjN domain-containing protein n=1 Tax=[...  222     3e-72
+  UniRef90_UPI00036AB848 YbjN domain-containing protein n=1 Tax=P...  222     3e-72
+  UniRef90_UPI00082B646D YbjN domain-containing protein n=1 Tax=E...  222     4e-72
+  UniRef90_G2S3Z5 Sensory transduction regulator n=105 Tax=Bacter...  221     5e-72
+  UniRef90_A0A085U9R1 Putative sensory transduction regulator n=4...  221     6e-72
+  UniRef90_A0A1W6B0J3 YbjN domain-containing protein n=5 Tax=Erwi...  221     7e-72
+  UniRef90_H2IQ35 Putative bacterial sensory transduction regulat...  221     8e-72
+  UniRef90_A0A2I5T9C3 YbjN domain-containing protein n=1 Tax=Serr...  221     1e-71
+  UniRef90_UPI000DEF5A5A YbjN domain-containing protein n=1 Tax=R...  221     1e-71
+  UniRef90_UPI00036C4BA2 YbjN domain-containing protein n=1 Tax=E...  220     1e-71
+  UniRef90_A0A0F1K953 YbjN domain-containing protein n=12 Tax=Ent...  220     2e-71
+  UniRef90_A0A2P8VQT1 YbjN domain-containing protein n=2 Tax=Sicc...  220     2e-71
+  UniRef90_I0QUX2 Sensory transduction regulator n=5 Tax=Yersinia...  220     2e-71
+  UniRef90_UPI0005532CBA YbjN domain-containing protein n=2 Tax=E...  220     3e-71
+  UniRef90_A0A068RAV9 Uncharacterized protein YbjN n=3 Tax=Serrat...  220     3e-71
+  UniRef90_A0A2U1TLT5 YbjN domain-containing protein n=1 Tax=Bren...  220     3e-71
+  UniRef90_UPI000FDD4493 UPI000FDD4493 related cluster n=1 Tax=un...  220     3e-71
+  UniRef90_A0A2N5ELN6 YbjN domain-containing protein n=3 Tax=uncl...  219     4e-71
+  UniRef90_C9Y014 Uncharacterized protein ybjN n=22 Tax=Enterobac...  219     6e-71
+  UniRef90_A0A2N0MUK1 Bacterial sensory transduction regulator n=...  219     6e-71
+  UniRef90_A0A0J8YIW7 Sensory transduction regulator n=2 Tax=uncl...  218     7e-71
+  UniRef90_A0A089RBX4 Uncharacterized protein n=2 Tax=Cedecea Tax...  218     8e-71
+  UniRef90_A4W8L8 Putative sensory transduction regulator n=5 Tax...  218     9e-71
+  UniRef90_E0SMU5 Predicted oxidoreductase n=22 Tax=Enterobactera...  218     9e-71
+  UniRef90_A0A389MAS3 Oxidoreductase n=1 Tax=Enterobacterales bac...  218     9e-71
+  UniRef90_B5R862 Uncharacterized protein n=181 Tax=Gammaproteoba...  218     1e-70
+  UniRef90_D4I047 Uncharacterized protein ybjN n=8 Tax=Erwinia Ta...  218     1e-70
+  UniRef90_A0A3E1ZYA4 YbjN domain-containing protein n=8 Tax=Ente...  218     1e-70
+  UniRef90_W0HYV3 Sensory transduction regulator n=4 Tax=Sodalis ...  218     1e-70
+  UniRef90_A0A0J8VKK4 Uncharacterized protein n=4 Tax=Franconibac...  218     1e-70
+  UniRef90_A0A2S5CCN4 YbjN domain-containing protein n=2 Tax=Lell...  217     2e-70
+  UniRef90_A0A1A9FH41 YbjN domain-containing protein n=1 Tax=Lell...  217     2e-70
+  UniRef90_A0A2I0FX72 YbjN domain-containing protein n=1 Tax=Ente...  217     2e-70
+  UniRef90_S3K065 Uncharacterized protein n=16 Tax=cellular organ...  217     2e-70
+  UniRef90_UPI0003167437 YbjN domain-containing protein n=1 Tax=M...  216     4e-70
+  UniRef90_A0A0D1MTW2 Uncharacterized protein n=4 Tax=Enterobacte...  216     7e-70
+  UniRef90_A0A318W341 Putative sensory transduction regulator n=3...  216     7e-70
+  UniRef90_A0A014LW43 Sensory transduction regulator n=4 Tax=Erwi...  216     9e-70
+  UniRef90_A0A2X3ISB2 Sensory transduction regulator n=6 Tax=Kleb...  215     2e-69
+  UniRef90_UPI00077B7741 YbjN domain-containing protein n=1 Tax=E...  215     2e-69
+  UniRef90_I2BAT9 Putative sensory transduction regulator n=1 Tax...  215     2e-69
+  UniRef90_A0A370QMF1 Putative sensory transduction regulator n=1...  213     9e-69
+  UniRef90_A0A071LVW0 Uncharacterized protein n=3 Tax=Mangrovibac...  213     2e-68
+  UniRef90_R4I1E3 Uncharacterized protein n=1 Tax=Serratia symbio...  211     9e-68
+  UniRef90_L0M863 Putative bacterial sensory transduction regulat...  209     4e-67
+  UniRef90_G9Z5V0 Uncharacterized protein n=5 Tax=Enterobacteriac...  209     4e-67
+  UniRef90_U3TPT5 Sensory transduction regulator, putative n=6 Ta...  208     5e-67
+  UniRef90_A0A370YHN0 YbjN domain-containing protein n=10 Tax=Ent...  208     7e-67
+  UniRef90_E3G276 Sensory transduction regulator, putative n=1 Ta...  208     1e-66
+  UniRef90_A0A1B7JEA1 Putative sensory transduction regulator n=7...  208     1e-66
+  UniRef90_R9VWS2 Uncharacterized protein n=6 Tax=Enterobacteriac...  207     3e-66
+  UniRef90_C7BQZ5 Uncharacterized protein n=24 Tax=Photorhabdus T...  207     3e-66
+  UniRef90_UPI00057BE852 YbjN domain-containing protein n=1 Tax=E...  205     1e-65
+  UniRef90_UPI0004B6A6AE YbjN domain-containing protein n=1 Tax=E...  205     2e-65
+  UniRef90_A0A0K0HS25 Bacterial sensory transduction regulator n=...  204     5e-65
+  UniRef90_A0A090VA67 Uncharacterized protein n=4 Tax=Enterobacte...  203     7e-65
+  UniRef90_A0A1U7E3N8 Uncharacterized protein n=4 Tax=Enterobacte...  203     2e-64
+  UniRef90_C5BED5 Uncharacterized protein n=11 Tax=Edwardsiella T...  203     2e-64
+  UniRef90_A0A0G3CT98 Bacterial sensory transduction regulator n=...  202     4e-64
+  UniRef90_A0A0A8NY13 Uncharacterized protein n=5 Tax=Xenorhabdus...  201     7e-64
+  UniRef90_UPI000787DAA5 YbjN domain-containing protein n=1 Tax=K...  201     8e-64
+  UniRef90_A0A2Y9TUW8 YbjN domain-containing protein n=1 Tax=Limn...  199     4e-63
+  UniRef90_A0A1S1HVQ4 Histidine kinase n=6 Tax=Gammaproteobacteri...  198     1e-62
+  UniRef90_A0A2X4UR89 Bacterial sensory transduction regulator n=...  198     1e-62
+  UniRef90_A0A085HJ41 Putative sensory transduction regulator n=1...  198     1e-62
+  UniRef90_D3UZL9 Uncharacterized protein n=9 Tax=Xenorhabdus bov...  198     2e-62
+  UniRef90_L0WAV1 Uncharacterized protein n=1 Tax=Alcanivorax hon...  197     2e-62
+  UniRef90_A0A2C6DQ78 YbjN domain-containing protein n=1 Tax=Budv...  197     2e-62
+  UniRef90_W1IN47 Uncharacterized protein n=3 Tax=Xenorhabdus Tax...  197     4e-62
+  UniRef90_A0A220SM82 YbjN domain-containing protein n=1 Tax=Alca...  196     6e-62
+  UniRef90_W1IZL3 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  196     8e-62
+  UniRef90_A0A068QQF9 Uncharacterized protein n=15 Tax=Xenorhabdu...  196     1e-61
+  UniRef90_A0A2E9RF64 YbjN domain-containing protein n=1 Tax=Alca...  195     1e-61
+  UniRef90_A0A1B8SVH8 Histidine kinase n=9 Tax=Providencia TaxID=...  195     2e-61
+  UniRef90_A0A1N6MZM8 Uncharacterized protein n=5 Tax=Xenorhabdus...  195     2e-61
+  UniRef90_B6XBL3 Uncharacterized protein n=5 Tax=Providencia alc...  195     2e-61
+  UniRef90_K0CID3 Uncharacterized protein n=4 Tax=Alcanivorax Tax...  195     2e-61
+  UniRef90_A0A356D112 Histidine kinase n=2 Tax=Providencia TaxID=...  194     6e-61
+  UniRef90_K8CNF7 Putative sensory transduction regulator n=1 Tax...  192     1e-60
+  UniRef90_A0A2E9JRX5 YbjN domain-containing protein n=1 Tax=Alca...  193     1e-60
+  UniRef90_A0A368NJC8 YbjN domain-containing protein n=1 Tax=Cora...  193     1e-60
+  UniRef90_A0A2X5NLX8 Bacterial sensory transduction regulator n=...  192     3e-60
+  UniRef90_A0A0H2QFN1 Histidine kinase n=2 Tax=Moellerella wiscon...  192     3e-60
+  UniRef90_K8WCP8 Uncharacterized protein n=2 Tax=Providencia Tax...  191     8e-60
+  UniRef90_A0A1J0E4Y3 YbjN domain-containing protein n=1 Tax=Prov...  191     1e-59
+  UniRef90_A0A095TAH7 Sensory transduction regulator n=2 Tax=Tatu...  190     2e-59
+  UniRef90_A0A1B7JHM9 Putative sensory transduction regulator n=2...  190     3e-59
+  UniRef90_A0A1B8HJ08 Uncharacterized protein n=4 Tax=Morganella ...  189     4e-59
+  UniRef90_A0A2A2GZU4 YbjN domain-containing protein n=3 Tax=Arse...  188     6e-59
+  UniRef90_Q0VNM1 Uncharacterized protein n=7 Tax=Alcanivoracacea...  189     9e-59
+  UniRef90_A0A2N1YKD9 YbjN domain-containing protein n=1 Tax=Gamm...  187     2e-58
+  UniRef90_UPI000DBABB9B YbjN domain-containing protein n=1 Tax=A...  186     3e-58
+  UniRef90_A0A198FET1 Putative sensory transduction regulator n=1...  187     3e-58
+  UniRef90_V6MV94 Uncharacterized protein n=18 Tax=Enterobacteral...  186     9e-58
+  UniRef90_A0A0A5SKF8 YbjN domain-containing protein n=13 Tax=Bac...  185     1e-57
+  UniRef90_A0A378DYU2 Sensory transduction regulator n=1 Tax=Kleb...  184     1e-57
+  UniRef90_UPI000E3D9CD8 YbjN domain-containing protein n=1 Tax=C...  185     1e-57
+  UniRef90_A0A095SI00 Uncharacterized protein n=4 Tax=Alcanivorac...  184     4e-57
+  UniRef90_E1STU1 Sensory transduction regulator, putative n=2 Ta...  183     6e-57
+  UniRef90_D1NXB7 Uncharacterized protein n=2 Tax=Providencia rus...  183     7e-57
+  UniRef90_UPI000E2F062E YbjN domain-containing protein n=1 Tax=P...  183     8e-57
+  UniRef90_A0A1Z1SY50 Bacterial sensory transduction regulator n=...  182     3e-56
+  UniRef90_A0A095SB41 Uncharacterized protein n=6 Tax=Alcanivorax...  181     5e-56
+  UniRef90_A0A3C7W9E8 Histidine kinase n=2 Tax=Halieaceae TaxID=1...  179     2e-55
+  UniRef90_A0A3L7E054 YbjN domain-containing protein n=1 Tax=Hali...  179     2e-55
+  UniRef90_UPI0004A43994 YbjN domain-containing protein n=1 Tax=T...  178     6e-55
+  UniRef90_UPI0009AA981A YbjN domain-containing protein n=3 Tax=S...  177     9e-55
+  UniRef90_A0A2N5X379 YbjN domain-containing protein n=1 Tax=Hali...  177     1e-54
+  UniRef90_A0A2N3IW02 Histidine kinase n=5 Tax=Aeromonas TaxID=64...  177     1e-54
+  UniRef90_A0A0B4XI88 Uncharacterized protein n=1 Tax=Alcanivorax...  177     2e-54
+  UniRef90_A0A1U6Y165 Histidine kinase n=80 Tax=Gammaproteobacter...  176     4e-54
+  UniRef90_A0A2D5GEW8 YbjN domain-containing protein n=2 Tax=Ocea...  176     5e-54
+  UniRef90_K4KTT7 Uncharacterized protein n=1 Tax=Simiduia agariv...  176     6e-54
+  UniRef90_A0A1N6QJC8 Putative sensory transduction regulator n=1...  175     9e-54
+  UniRef90_A4A9V6 Putative bacterial sensory transduction regulat...  175     1e-53
+  UniRef90_B8KN40 Sensory transduction regulator n=1 Tax=gamma pr...  174     3e-53
+  UniRef90_A0A2H9U0C6 Histidine kinase n=1 Tax=Aeromonas cavernic...  174     4e-53
+  UniRef90_A0A1T4QV85 Uncharacterized protein n=1 Tax=Oceanospiri...  173     7e-53
+  UniRef90_A0A0W7U7A8 Histidine kinase n=6 Tax=Aeromonas TaxID=64...  173     8e-53
+  UniRef90_A0A2E0YZX6 Histidine kinase n=1 Tax=Halioglobus sp. Ta...  173     1e-52
+  UniRef90_A0A355SNQ0 Histidine kinase n=7 Tax=Halieaceae TaxID=1...  171     3e-52
+  UniRef90_A0A1T1HA12 Uncharacterized protein n=4 Tax=Oceanospiri...  171     3e-52
+  UniRef90_A0A2U8I3R9 YbjN domain-containing protein n=1 Tax=Cand...  172     4e-52
+  UniRef90_A0A1A9AZI5 Bacterial sensory transduction regulator n=...  171     4e-52
+  UniRef90_R1F1F2 Uncharacterized protein n=2 Tax=Aeromonadaceae ...  169     1e-51
+  UniRef90_A0A0F2NVD2 Uncharacterized protein n=1 Tax=Gammaproteo...  169     1e-51
+  UniRef90_A0A3M1KBF7 YbjN domain-containing protein (Fragment) n...  170     2e-51
+  UniRef90_A0A1X7AHQ5 Putative bacterial sensory transduction reg...  169     2e-51
+  UniRef90_A0A1J4QKD8 Histidine kinase n=3 Tax=Aeromonadaceae Tax...  168     2e-51
+  UniRef90_A0A1M5N1E7 Putative sensory transduction regulator n=1...  169     4e-51
+  UniRef90_A0A2P7RCN6 Histidine kinase n=1 Tax=Zobellella endophy...  168     6e-51
+  UniRef90_UPI0002DB3F26 YbjN domain-containing protein n=1 Tax=m...  166     2e-50
+  UniRef90_UPI000E303F09 YbjN domain-containing protein n=1 Tax=Z...  166     2e-50
+  UniRef90_A0A1Y0D0H3 Histidine kinase n=1 Tax=Oceanisphaera aviu...  164     9e-50
+  UniRef90_UPI00078436CC hypothetical protein n=1 Tax=Endozoicomo...  164     2e-49
+  UniRef90_A0A233RH36 Histidine kinase n=5 Tax=Aeromonadaceae Tax...  163     2e-49
+  UniRef90_UPI000691001F hypothetical protein n=1 Tax=Endozoicomo...  164     4e-49
+  UniRef90_A0A1Y0D8F8 Histidine kinase n=1 Tax=Oceanisphaera prof...  162     8e-49
+  UniRef90_A0A2D5FCI4 Histidine kinase n=1 Tax=Haliea sp. TaxID=1...  162     1e-48
+  UniRef90_A0A165SY01 Histidine kinase n=3 Tax=Halioglobus TaxID=...  162     2e-48
+  UniRef90_UPI000374F5A1 histidine kinase n=1 Tax=Oceanimonas smi...  161     3e-48
+  UniRef90_UPI000687258C hypothetical protein n=1 Tax=Ferrimonas ...  161     4e-48
+  UniRef90_A0A142B6T2 Uncharacterized protein n=1 Tax=Endozoicomo...  161     5e-48
+  UniRef90_A0A2E0VE48 Histidine kinase n=1 Tax=Porticoccaceae bac...  159     2e-47
+  UniRef90_A0A261GPS5 YbjN domain-containing protein n=1 Tax=Hahe...  157     1e-46
+  UniRef90_Q2SIX5 Uncharacterized protein n=2 Tax=Hahella TaxID=1...  156     2e-46
+  UniRef90_UPI00068623DB YbjN domain-containing protein n=1 Tax=B...  155     7e-46
+  UniRef90_A0A2S5KLJ8 Uncharacterized protein n=3 Tax=Proteobacte...  155     1e-45
+  UniRef90_UPI00036E3650 YbjN domain-containing protein n=1 Tax=H...  154     2e-45
+  UniRef90_A0A2N5Y2X4 Histidine kinase n=1 Tax=Chromatocurvus sp....  149     1e-43
+  UniRef90_A0A2T6E6G9 Uncharacterized protein n=1 Tax=Saccharospi...  146     2e-42
+  UniRef90_A0A1G8NF66 Uncharacterized protein n=2 Tax=Ferrimonas ...  141     2e-40
+  UniRef90_A0A378DB28 Sensory transduction regulator n=1 Tax=Kleb...  139     2e-40
+  UniRef90_A0A3P8M265 Bacterial sensory transduction regulator n=...  138     7e-40
+  UniRef90_UPI000E66E8A4 YbjN domain-containing protein n=1 Tax=O...  138     4e-39
+  UniRef90_A4BJU4 Uncharacterized protein n=1 Tax=Reinekea blande...  136     1e-38
+  UniRef90_UPI00055A167E hypothetical protein n=1 Tax=Candidatus ...  135     6e-38
+  UniRef90_UPI000FD6D258 YbjN domain-containing protein n=2 Tax=S...  132     8e-37
+  UniRef90_UPI000D35F12E hypothetical protein n=1 Tax=Saccharospi...  132     8e-37
+  UniRef90_UPI000BA8ED96 hypothetical protein n=1 Tax=Paraferrimo...  129     1e-35
+  UniRef90_A0A377K9Y1 TPR repeat-containing protein n=1 Tax=Esche...  126     3e-35
+  UniRef90_UPI000EB4346F hypothetical protein n=1 Tax=Orbus hercy...  128     5e-35
+  UniRef90_E1VJJ8 Uncharacterized protein n=2 Tax=gamma proteobac...  127     7e-35
+  UniRef90_UPI0009AA8411 hypothetical protein n=2 Tax=Salmonella ...  124     1e-34
+  UniRef90_A0A0A7RZR5 Putative bacterial sensory transduction reg...  126     3e-34
+  UniRef90_UPI00068650C9 hypothetical protein n=1 Tax=Ferrimonas ...  124     9e-34
+  UniRef90_UPI000BA93DF6 hypothetical protein n=1 Tax=Paraferrimo...  124     1e-33
+  UniRef90_A0A377AX98 TPR repeat-containing protein n=1 Tax=Esche...  117     9e-32
+  UniRef90_A0A377KBG9 TPR repeat-containing protein n=1 Tax=Esche...  115     4e-31
+  UniRef90_A0A2K8KSK8 Putative sensory transduction regulator n=1...  114     7e-30
+  UniRef90_A0A381G5Y8 Bacterial sensory transduction regulator n=...  110     4e-29
+  UniRef90_UPI000B540335 histidine kinase n=1 Tax=Escherichia col...  91.0    1e-21
+  UniRef90_A0A378F825 Sensory transduction regulator n=1 Tax=Kleb...  89.9    4e-21
+  UniRef90_A0A381G4S4 Bacterial sensory transduction regulator n=...  86.4    6e-20
+  UniRef90_A0A3P8KP25 Bacterial sensory transduction regulator n=...  82.5    3e-18
+  UniRef90_C0B1N7 Uncharacterized protein n=1 Tax=Proteus penneri...  81.8    1e-17
+  UniRef90_A0A378DAS3 Sensory transduction regulator n=1 Tax=Kleb...  80.6    1e-17
+  UniRef90_A0A2X3KF72 TPR repeat-containing protein n=1 Tax=Esche...  69.8    4e-13
+  UniRef90_A0A377F6F2 TPR repeat-containing protein n=1 Tax=Esche...  66.4    3e-12
+  UniRef90_A0A376UCN9 TPR repeat-containing protein n=1 Tax=Esche...  63.3    9e-11
+  UniRef90_A0A376UCJ4 TPR repeat-containing protein n=1 Tax=Esche...  53.7    2e-07
+  UniRef90_W1EUA6 Putative sensory transduction regulator n=1 Tax...  44.0    0.002
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A3D8QPB2 Uncharacterized protein n=2 Tax=Coleophoma ...  41.7    0.14 
+  UniRef90_A0A1X7I7G6 Putative sensory transduction regulator n=1...  40.2    0.57 
+  UniRef90_A0A197SL20 Uncharacterized protein n=2 Tax=Streptomyce...  39.0    0.74 
+  UniRef90_A0A0K6HXW1 Copper chaperone CopZ n=1 Tax=Thiomonas bhu...  37.1    0.85 
+  UniRef90_E4U6F5 Uncharacterized protein n=1 Tax=Oceanithermus p...  38.6    0.94 
+  UniRef90_UPI00082C9418 YbjN domain-containing protein n=2 Tax=M...  38.2    1.2  
+  UniRef90_UPI0004CA68CF YbjN domain-containing protein n=2 Tax=S...  38.6    1.2  
+  UniRef90_UPI00036CB86F heavy-metal-associated domain-containing...  36.3    1.3  
+  UniRef90_A0A0A8ENP9 Uncharacterized protein n=7 Tax=Streptomyce...  38.2    1.4  
+  UniRef90_V6KZM4 Uncharacterized protein n=2 Tax=Streptomycetace...  38.2    1.5  
+  UniRef90_UPI000F7D5E19 YbjN domain-containing protein n=1 Tax=C...  38.6    1.5  
+  UniRef90_A0A1W1UT92 Copper chaperone CopZ n=1 Tax=Deinococcus h...  36.3    1.9  
+  UniRef90_A0A3A4ZV06 Heavy-metal-associated domain-containing pr...  35.9    2.0  
+  UniRef90_UPI0009E7EF69 YbjN domain-containing protein n=1 Tax=M...  37.5    2.3  
+  UniRef90_U2HNM8 Mercuric reductase n=4 Tax=Proteobacteria TaxID...  38.2    2.4  
+  UniRef90_M3BJ42 Uncharacterized protein n=1 Tax=Streptomyces mo...  37.5    2.6  
+  UniRef90_A0A1Y6BSM7 Mercuric reductase n=1 Tax=Pseudogulbenkian...  38.2    2.8  
+  UniRef90_UPI000934B939 formimidoylglutamase n=1 Tax=Rhodococcus...  37.5    3.7  
+  UniRef90_Q82EU8 Uncharacterized protein n=14 Tax=Streptomyces T...  37.1    3.8  
+  UniRef90_UPI000642937C caspase recruitment domain-containing pr...  37.9    4.0  
+  UniRef90_A0A2I9CSL4 Heavy metal transport/detoxification protei...  35.2    4.1  
+  UniRef90_A0A0S9R5F7 Uncharacterized protein n=1 Tax=Aeromicrobi...  37.5    4.6  
+  UniRef90_UPI0003D1D0D4 mercury(II) reductase n=2 Tax=Pandoraea ...  37.1    5.4  
+  UniRef90_A0A0S8IRG7 Uncharacterized protein n=1 Tax=Planctomyce...  35.2    6.1  
+  UniRef90_A0A0B6TWV3 Uncharacterized protein n=1 Tax=Corynebacte...  37.1    6.3  
+  UniRef90_D9W214 Uncharacterized protein n=3 Tax=Streptomyces Ta...  36.3    6.4  
+  UniRef90_A0A1N6YG50 Putative sensory transduction regulator n=5...  35.9    6.5  
+  UniRef90_A0A259KM96 Heavy metal transporter n=1 Tax=Burkholderi...  35.2    6.6  
+  UniRef90_D9WVU8 Uncharacterized protein n=4 Tax=Streptomyces Ta...  36.3    6.8  
+  UniRef90_A0A0D8CFR0 Uncharacterized protein n=2 Tax=Thalassospi...  34.4    7.0  
+  UniRef90_S4AYA9 Uncharacterized protein n=17 Tax=Streptomyces T...  36.3    7.1  
+  UniRef90_A0A0L8QSK7 Uncharacterized protein n=1 Tax=Streptomyce...  36.3    7.2  
+  UniRef90_A0A376C7D5 Putative copper chaperone n=13 Tax=Coryneba...  34.4    7.9  
+  UniRef90_UPI0009FFBE1B hypothetical protein n=1 Tax=Microtetras...  35.9    8.2  
+  UniRef90_UPI000C7EAE52 heavy-metal-associated domain-containing...  34.4    8.5  
+  UniRef90_A0A2M9JND5 Uncharacterized protein n=3 Tax=Streptomyce...  35.9    8.9  
+  UniRef90_A0A1Y3XTR9 Heavy metal transporter n=2 Tax=Coriobacter...  34.4    9.3  
+  UniRef90_D9X2M1 Uncharacterized protein n=117 Tax=Actinobacteri...  35.9    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.159    0.497    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0487    0.140     1.90     42.6     43.6 
+
+Effective search space used: 757279849365
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

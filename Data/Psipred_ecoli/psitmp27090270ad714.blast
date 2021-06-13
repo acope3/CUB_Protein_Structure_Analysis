@@ -1,0 +1,706 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414664.4
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AA96 Uncharacterized protein YacC n=204 Tax=Bacteria...  238     1e-79
+  UniRef90_A0A0D8WGF5 Protein n=157 Tax=Enterobacteriaceae TaxID=...  236     3e-79
+  UniRef90_A0A144ECA9 Protein YacC n=14 Tax=Enterobacteriaceae Ta...  231     9e-77
+  UniRef90_A0A0T5XF05 Uncharacterized protein n=44 Tax=Bacteria T...  229     2e-76
+  UniRef90_Q57T88 Putative periplasmic protein n=170 Tax=Gammapro...  227     2e-75
+  UniRef90_A0A127L7Q7 Bacterial chaperone lipoprotein n=2 Tax=Ent...  223     3e-73
+  UniRef90_L0MAC2 Bacterial chaperone lipoprotein (PulS_OutS) n=2...  219     1e-72
+  UniRef90_A0A3N1IW46 Type II secretion system (T2SS) pilotin Pul...  216     5e-71
+  UniRef90_A0A1D3KJX2 Protein n=101 Tax=Bacteria TaxID=2 RepID=A0...  215     7e-71
+  UniRef90_A0A370YUX8 Uncharacterized protein n=11 Tax=Enterobact...  215     8e-71
+  UniRef90_G9YZK6 Uncharacterized protein n=3 Tax=Yokenella regen...  213     1e-69
+  UniRef90_A0A089PS96 Uncharacterized protein n=8 Tax=Enterobacte...  210     8e-69
+  UniRef90_A0A376U4C5 Protein n=1 Tax=Escherichia coli TaxID=562 ...  209     2e-68
+  UniRef90_A0A0L0AHH2 Uncharacterized protein n=1 Tax=Klebsiella ...  209     3e-68
+  UniRef90_A7MGP0 Uncharacterized protein n=18 Tax=Cronobacter Ta...  204     1e-65
+  UniRef90_H5V4A8 Uncharacterized protein n=8 Tax=Enterobacteriac...  201     2e-65
+  UniRef90_A0A2P8VHE6 Uncharacterized protein n=1 Tax=Siccibacter...  197     7e-64
+  UniRef90_UPI00073DB202 hypothetical protein n=1 Tax=[Erwinia] t...  197     7e-64
+  UniRef90_UPI000381387D hypothetical protein n=1 Tax=Enterobacte...  196     4e-63
+  UniRef90_UPI000DF0D40D hypothetical protein n=2 Tax=Klebsiella ...  194     1e-62
+  UniRef90_S3K6Z9 Uncharacterized protein n=18 Tax=Enterobacteria...  194     2e-62
+  UniRef90_A0A1B7L2S9 Uncharacterized protein n=4 Tax=Enterobacte...  188     4e-60
+  UniRef90_I2BCP0 Uncharacterized protein n=1 Tax=Shimwellia blat...  186     2e-59
+  UniRef90_A0A376X6S2 Protein n=2 Tax=Escherichia coli TaxID=562 ...  181     2e-57
+  UniRef90_UPI00082F377C hypothetical protein n=1 Tax=Erwinia sp....  177     1e-55
+  UniRef90_I6DVF8 Uncharacterized protein n=1 Tax=Shigella boydii...  176     2e-55
+  UniRef90_A0A2G8E8R9 Uncharacterized protein n=2 Tax=Enterobacte...  172     5e-54
+  UniRef90_A0A2I0FVB5 Uncharacterized protein n=1 Tax=Enterobacte...  172     1e-53
+  UniRef90_D8MN97 Conserved uncharacterized protein YacC n=15 Tax...  171     2e-53
+  UniRef90_A0A0L7T8K6 Uncharacterized protein n=7 Tax=Erwiniaceae...  171     3e-53
+  UniRef90_D4GK95 YacC n=48 Tax=Enterobacterales TaxID=91347 RepI...  170     6e-53
+  UniRef90_UPI00094914A6 hypothetical protein n=1 Tax=Pantoea sp....  170     6e-53
+  UniRef90_A0A2S9I4N3 Uncharacterized protein n=2 Tax=Erwiniaceae...  169     1e-52
+  UniRef90_UPI000468538D hypothetical protein n=1 Tax=Pantoea sp....  168     3e-52
+  UniRef90_A0A1I4WVE1 Type II secretion system pilotin lipoprotei...  167     7e-52
+  UniRef90_UPI000553D45F hypothetical protein n=2 Tax=Erwinia Tax...  164     1e-50
+  UniRef90_A0A014PXJ4 Uncharacterized protein n=3 Tax=Erwinia Tax...  164     2e-50
+  UniRef90_L0MJ70 Bacterial chaperone lipoprotein (PulS_OutS) n=4...  164     2e-50
+  UniRef90_A0A1W5DQH6 Uncharacterized protein n=51 Tax=Gammaprote...  163     3e-50
+  UniRef90_A0A2X5PSV2 Lipoprotein, PulS/OutS family n=2 Tax=Tatum...  163     4e-50
+  UniRef90_U3TMQ0 Uncharacterized protein n=1 Tax=Plautia stali s...  160     3e-49
+  UniRef90_B2VD22 Uncharacterized protein n=2 Tax=Erwinia TaxID=5...  160     4e-49
+  UniRef90_H2IQC3 Bacterial chaperone lipoprotein (PulS_OutS) n=1...  159     1e-48
+  UniRef90_A0A250B8S8 Uncharacterized protein n=2 Tax=Gibbsiella ...  159     2e-48
+  UniRef90_A0A095T1P3 Uncharacterized protein n=2 Tax=Tatumella T...  158     3e-48
+  UniRef90_A0A0A5FTS9 Predicted chaperone lipoprotein YacC n=68 T...  157     8e-48
+  UniRef90_UPI0005581181 hypothetical protein n=1 Tax=Enterobacte...  156     2e-47
+  UniRef90_UPI000DEF8EA1 hypothetical protein n=1 Tax=Rahnella sp...  156     2e-47
+  UniRef90_A0A345CYC4 Uncharacterized protein n=1 Tax=Erwinia tra...  156     2e-47
+  UniRef90_UPI00067F1665 hypothetical protein n=2 Tax=Gammaproteo...  154     4e-47
+  UniRef90_Q2NVS0 Bacterial chaperone lipoprotein (PulS_OutS) n=4...  154     2e-46
+  UniRef90_UPI000372A807 hypothetical protein n=1 Tax=Pantoea sp....  154     2e-46
+  UniRef90_I0QYU1 Uncharacterized protein n=2 Tax=Yersiniaceae Ta...  153     2e-46
+  UniRef90_A0A2N5EKF7 Uncharacterized protein n=3 Tax=unclassifie...  153     4e-46
+  UniRef90_UPI000FDF6504 UPI000FDF6504 related cluster n=1 Tax=un...  152     8e-46
+  UniRef90_A0A0Q4MI56 Uncharacterized protein n=3 Tax=Yersiniacea...  151     1e-45
+  UniRef90_A0A1H4EEK8 Type II secretion system pilotin lipoprotei...  151     2e-45
+  UniRef90_A0A0G4JX81 Predicted chaperone lipoprotein YacC, poten...  150     2e-45
+  UniRef90_A0A084A5Z5 Lipoprotein, PulS/OutS family n=3 Tax=Serra...  149     8e-45
+  UniRef90_C6CB84 Uncharacterized protein n=1 Tax=Dickeya paradis...  149     2e-44
+  UniRef90_A0A221T6P3 Predicted chaperone lipoprotein YacC, poten...  148     2e-44
+  UniRef90_A0A379AKD0 Bacterial chaperone lipoprotein (PulS_OutS)...  147     4e-44
+  UniRef90_E0SBM7 Uncharacterized protein n=16 Tax=Enterobacteral...  147     6e-44
+  UniRef90_A0A2I5T5N4 Uncharacterized protein n=1 Tax=Serratia sp...  147     8e-44
+  UniRef90_UPI0004A31988 hypothetical protein n=1 Tax=Tatumella s...  145     3e-43
+  UniRef90_A0A370R1W5 Type II secretion system (T2SS) pilotin Pul...  145     3e-43
+  UniRef90_A0A2X3M4X6 Protein n=1 Tax=Escherichia coli TaxID=562 ...  144     3e-43
+  UniRef90_G7LS85 Uncharacterized protein n=4 Tax=Brenneria TaxID...  145     4e-43
+  UniRef90_A0A0K0HTP6 Pullulanase secretion protein pulS n=10 Tax...  144     9e-43
+  UniRef90_A0A2X1K3X2 Pullulanase secretion protein pulS n=12 Tax...  140     2e-41
+  UniRef90_A0A068R9S3 Uncharacterized protein YacC n=3 Tax=Serrat...  138     2e-40
+  UniRef90_A0A2G8C5F0 Uncharacterized protein n=2 Tax=Enterobacte...  133     3e-38
+  UniRef90_A0A377DX91 Protein n=1 Tax=Escherichia coli TaxID=562 ...  131     5e-38
+  UniRef90_A0A2U8I4C7 Uncharacterized protein n=1 Tax=Candidatus ...  129     9e-37
+  UniRef90_B6VMG8 Uncharacterized protein n=22 Tax=Photorhabdus T...  128     3e-36
+  UniRef90_A0A0G3CLV3 Lipoprotein, PulS/OutS family n=1 Tax=Pragi...  128     3e-36
+  UniRef90_A0A143HY96 YacC protein n=1 Tax=Enterobacter asburiae ...  126     4e-36
+  UniRef90_K8WDB6 Uncharacterized protein n=1 Tax=Providencia sne...  127     4e-36
+  UniRef90_A0A379GK42 Bacterial chaperone lipoprotein (PulS_OutS)...  127     5e-36
+  UniRef90_W1IW96 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  127     7e-36
+  UniRef90_A0A0N0Z8C6 Putative YacC family chaperone lipoprotein ...  126     1e-35
+  UniRef90_A0A068QVZ4 Uncharacterized protein n=2 Tax=Xenorhabdus...  126     2e-35
+  UniRef90_A0A2C6DL19 Uncharacterized protein n=1 Tax=Budvicia aq...  125     2e-35
+  UniRef90_A0A2D0IRN4 Molecular chaperone n=4 Tax=Xenorhabdus Tax...  125     2e-35
+  UniRef90_A0A0A8NRU6 Uncharacterized protein n=5 Tax=Xenorhabdus...  125     3e-35
+  UniRef90_K8WYJ3 Uncharacterized protein n=1 Tax=Providencia bur...  125     3e-35
+  UniRef90_D3V529 Uncharacterized protein n=9 Tax=Xenorhabdus bov...  125     3e-35
+  UniRef90_A0A1N6MUK2 Uncharacterized protein n=4 Tax=Xenorhabdus...  124     6e-35
+  UniRef90_D1P4K5 Uncharacterized protein n=4 Tax=Providencia rus...  124     9e-35
+  UniRef90_A0A0M0T7H4 Bacterial chaperone lipo family protein n=6...  124     9e-35
+  UniRef90_A0A1K3D4R8 Pullulanase secretion protein pulS n=12 Tax...  124     1e-34
+  UniRef90_A0A2G0Q483 Bacterial chaperone lipo family protein n=1...  122     4e-34
+  UniRef90_A0A1I3VHR1 Type II secretion system pilotin lipoprotei...  120     2e-33
+  UniRef90_A0A0J5FVB4 Bacterial chaperone lipo family protein n=3...  120     4e-33
+  UniRef90_A0A068QZQ5 Uncharacterized protein n=1 Tax=Xenorhabdus...  119     5e-33
+  UniRef90_A0A356D561 Uncharacterized protein n=1 Tax=Providencia...  119     6e-33
+  UniRef90_W3YAW6 Chaperone lipoprotein n=1 Tax=Providencia alcal...  119     6e-33
+  UniRef90_X6QF03 Chaperone lipoprotein n=14 Tax=Providencia TaxI...  119     6e-33
+  UniRef90_A0A085HNI7 Putative YacC family chaperone lipoprotein ...  119     1e-32
+  UniRef90_A0A2X4UE33 Bacterial chaperone lipoprotein (PulS_OutS)...  119     1e-32
+  UniRef90_A0A1Y2SE49 Molecular chaperone n=1 Tax=Xenorhabdus vie...  117     3e-32
+  UniRef90_A0A198FKF9 Putative YacC family chaperone lipoprotein ...  117     4e-32
+  UniRef90_A0A1I5EIQ9 Type II secretion system pilotin lipoprotei...  117     4e-32
+  UniRef90_A0A1B8H608 Uncharacterized protein n=3 Tax=Morganella ...  117     7e-32
+  UniRef90_A0A2X4TID4 Uncharacterized protein n=2 Tax=Salmonella ...  115     9e-32
+  UniRef90_A0A1Z1SZC3 Uncharacterized protein n=6 Tax=Enterobacte...  113     2e-30
+  UniRef90_A0A376TKX1 Protein n=1 Tax=Escherichia coli TaxID=562 ...  111     2e-30
+  UniRef90_UPI000D685B11 hypothetical protein n=1 Tax=Proteus Tax...  113     2e-30
+  UniRef90_A0A2Y9U178 Uncharacterized protein n=1 Tax=Limnobaculu...  113     2e-30
+  UniRef90_A0A3D2BK32 Uncharacterized protein n=2 Tax=Proteus Tax...  111     8e-30
+  UniRef90_A0A377ZL46 Chaperone lipoprotein YacC n=1 Tax=Klebsiel...  108     3e-29
+  UniRef90_A0A0G4QK01 Uncharacterized protein n=16 Tax=Enterobact...  110     4e-29
+  UniRef90_D2U3Z3 Uncharacterized protein n=1 Tax=Arsenophonus na...  109     6e-29
+  UniRef90_A0A2A2GWI9 Uncharacterized protein n=3 Tax=Arsenophonu...  108     2e-28
+  UniRef90_A0A379D6K4 Uncharacterized protein n=1 Tax=Pluralibact...  106     4e-28
+  UniRef90_UPI000491C721 hypothetical protein n=1 Tax=Phaseolibac...  107     5e-28
+  UniRef90_A0A379YJZ6 Uncharacterized protein n=1 Tax=Serratia ma...  92.8    8e-23
+  UniRef90_A0A0J8YWD3 Uncharacterized protein (Fragment) n=1 Tax=...  92.8    9e-23
+  UniRef90_X1WM28 Uncharacterized protein n=1 Tax=Acyrthosiphon p...  99.4    2e-22
+  UniRef90_UPI000DED7467 hypothetical protein n=1 Tax=Escherichia...  88.6    7e-21
+  UniRef90_A0A1B7JMN9 Putative YacC family chaperone lipoprotein ...  45.1    2e-04
+  UniRef90_UPI000532AE86 lipoprotein, PulS/OutS family n=1 Tax=Di...  44.3    0.002
+  UniRef90_A0A0G3SSQ4 Pullulanase secretion protein pulS n=61 Tax...  41.2    0.031
+  UniRef90_UPI00036DCEAB hypothetical protein n=1 Tax=Enterobacte...  40.4    0.050
+  UniRef90_A0A1I0A0F4 Uncharacterized protein n=1 Tax=Thorsellia ...  40.4    0.066
+  UniRef90_A0A0T9P8U2 Lipoprotein n=1 Tax=Yersinia pekkanenii Tax...  40.0    0.069
+  UniRef90_A0A370Q895 Type II secretion system protein S n=1 Tax=...  39.3    0.17 
+  UniRef90_W0L523 Uncharacterized protein n=1 Tax=Chania multitud...  38.5    0.39 
+  UniRef90_UPI0009DD79E9 hypothetical protein n=1 Tax=Serratia Ta...  37.4    1.2  
+  UniRef90_A0A0M9BB60 Uncharacterized protein n=7 Tax=Bradyrhizob...  37.0    1.4  
+  UniRef90_A0A2N4WZ31 VOC family protein n=1 Tax=Novosphingobium ...  37.0    2.0  
+  UniRef90_A2FEB7 Uncharacterized protein n=1 Tax=Trichomonas vag...  36.6    3.2  
+  UniRef90_A0A2U1UMR8 Pullulanase n=1 Tax=Brenneria roseae subsp....  35.4    4.8  
+  UniRef90_A0A350WX06 Uncharacterized protein n=1 Tax=Anaerolinea...  35.8    5.0  
+  UniRef90_L0MMM0 Bacterial chaperone lipoprotein (PulS_OutS) n=2...  35.0    5.9  
+  UniRef90_A0A3N2E7T1 Type II secretion system protein S n=2 Tax=...  34.7    6.8  
+  UniRef90_A0A2T5BUL1 Phosphate-selective porin O/P n=2 Tax=Mangr...  35.4    7.5  
+  UniRef90_T0IYL6 Uncharacterized protein n=2 Tax=Sphingomonadace...  35.0    7.8  
+  UniRef90_K8W9W6 Uncharacterized protein n=1 Tax=Providencia bur...  35.4    8.1  
+  UniRef90_A0A327ZHH1 Beta-galactosidase n=2 Tax=Actinoplanes lut...  35.4    8.6  
+  UniRef90_A0A2I5TIM3 Lipoprotein, PulS/OutS family n=1 Tax=Serra...  34.7    9.0  
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 750733979919
+Warning: [psiblast] lcl|Query_1 NP_414664.4: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414664.4
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A7MGP0 Uncharacterized protein n=18 Tax=Cronobacter Ta...  211     9e-69
+  UniRef90_A0A127L7Q7 Bacterial chaperone lipoprotein n=2 Tax=Ent...  211     1e-68
+  UniRef90_G9YZK6 Uncharacterized protein n=3 Tax=Yokenella regen...  209     5e-68
+  UniRef90_P0AA96 Uncharacterized protein YacC n=204 Tax=Bacteria...  207     1e-67
+  UniRef90_A0A144ECA9 Protein YacC n=14 Tax=Enterobacteriaceae Ta...  207     1e-67
+  UniRef90_A0A0D8WGF5 Protein n=157 Tax=Enterobacteriaceae TaxID=...  207     1e-67
+  UniRef90_A0A3N1IW46 Type II secretion system (T2SS) pilotin Pul...  206     3e-67
+  UniRef90_L0MAC2 Bacterial chaperone lipoprotein (PulS_OutS) n=2...  206     4e-67
+  UniRef90_H5V4A8 Uncharacterized protein n=8 Tax=Enterobacteriac...  205     7e-67
+  UniRef90_A0A089PS96 Uncharacterized protein n=8 Tax=Enterobacte...  205     9e-67
+  UniRef90_A0A0T5XF05 Uncharacterized protein n=44 Tax=Bacteria T...  203     3e-66
+  UniRef90_UPI00073DB202 hypothetical protein n=1 Tax=[Erwinia] t...  203     5e-66
+  UniRef90_A0A370YUX8 Uncharacterized protein n=11 Tax=Enterobact...  203     6e-66
+  UniRef90_A0A1B7L2S9 Uncharacterized protein n=4 Tax=Enterobacte...  202     8e-66
+  UniRef90_Q57T88 Putative periplasmic protein n=170 Tax=Gammapro...  202     1e-65
+  UniRef90_A0A1D3KJX2 Protein n=101 Tax=Bacteria TaxID=2 RepID=A0...  201     2e-65
+  UniRef90_UPI000381387D hypothetical protein n=1 Tax=Enterobacte...  201     3e-65
+  UniRef90_A0A0L0AHH2 Uncharacterized protein n=1 Tax=Klebsiella ...  198     4e-64
+  UniRef90_S3K6Z9 Uncharacterized protein n=18 Tax=Enterobacteria...  198     4e-64
+  UniRef90_A0A2P8VHE6 Uncharacterized protein n=1 Tax=Siccibacter...  197     9e-64
+  UniRef90_UPI00082F377C hypothetical protein n=1 Tax=Erwinia sp....  196     3e-63
+  UniRef90_D4GK95 YacC n=48 Tax=Enterobacterales TaxID=91347 RepI...  194     1e-62
+  UniRef90_A0A0L7T8K6 Uncharacterized protein n=7 Tax=Erwiniaceae...  194     1e-62
+  UniRef90_A0A2G8E8R9 Uncharacterized protein n=2 Tax=Enterobacte...  192     7e-62
+  UniRef90_A0A1I4WVE1 Type II secretion system pilotin lipoprotei...  192     9e-62
+  UniRef90_A0A2I0FVB5 Uncharacterized protein n=1 Tax=Enterobacte...  189     2e-60
+  UniRef90_A0A379GK42 Bacterial chaperone lipoprotein (PulS_OutS)...  189     2e-60
+  UniRef90_I2BCP0 Uncharacterized protein n=1 Tax=Shimwellia blat...  189     2e-60
+  UniRef90_D8MN97 Conserved uncharacterized protein YacC n=15 Tax...  188     6e-60
+  UniRef90_UPI00094914A6 hypothetical protein n=1 Tax=Pantoea sp....  187     1e-59
+  UniRef90_K8WYJ3 Uncharacterized protein n=1 Tax=Providencia bur...  186     2e-59
+  UniRef90_A0A2S9I4N3 Uncharacterized protein n=2 Tax=Erwiniaceae...  185     4e-59
+  UniRef90_A0A2X5PSV2 Lipoprotein, PulS/OutS family n=2 Tax=Tatum...  185     6e-59
+  UniRef90_A0A0A5FTS9 Predicted chaperone lipoprotein YacC n=68 T...  185     7e-59
+  UniRef90_UPI0005581181 hypothetical protein n=1 Tax=Enterobacte...  184     9e-59
+  UniRef90_A0A095T1P3 Uncharacterized protein n=2 Tax=Tatumella T...  184     1e-58
+  UniRef90_A0A2D0IRN4 Molecular chaperone n=4 Tax=Xenorhabdus Tax...  184     2e-58
+  UniRef90_UPI000468538D hypothetical protein n=1 Tax=Pantoea sp....  183     2e-58
+  UniRef90_A0A1W5DQH6 Uncharacterized protein n=51 Tax=Gammaprote...  183     2e-58
+  UniRef90_UPI000DEF8EA1 hypothetical protein n=1 Tax=Rahnella sp...  183     3e-58
+  UniRef90_A0A250B8S8 Uncharacterized protein n=2 Tax=Gibbsiella ...  183     3e-58
+  UniRef90_A0A376U4C5 Protein n=1 Tax=Escherichia coli TaxID=562 ...  182     6e-58
+  UniRef90_L0MJ70 Bacterial chaperone lipoprotein (PulS_OutS) n=4...  182     1e-57
+  UniRef90_K8WDB6 Uncharacterized protein n=1 Tax=Providencia sne...  181     1e-57
+  UniRef90_H2IQC3 Bacterial chaperone lipoprotein (PulS_OutS) n=1...  181     2e-57
+  UniRef90_B2VD22 Uncharacterized protein n=2 Tax=Erwinia TaxID=5...  181     2e-57
+  UniRef90_I0QYU1 Uncharacterized protein n=2 Tax=Yersiniaceae Ta...  181     2e-57
+  UniRef90_B6VMG8 Uncharacterized protein n=22 Tax=Photorhabdus T...  181     3e-57
+  UniRef90_U3TMQ0 Uncharacterized protein n=1 Tax=Plautia stali s...  180     5e-57
+  UniRef90_D1P4K5 Uncharacterized protein n=4 Tax=Providencia rus...  180     6e-57
+  UniRef90_A0A0A8NRU6 Uncharacterized protein n=5 Tax=Xenorhabdus...  180     6e-57
+  UniRef90_UPI000DF0D40D hypothetical protein n=2 Tax=Klebsiella ...  179     1e-56
+  UniRef90_Q2NVS0 Bacterial chaperone lipoprotein (PulS_OutS) n=4...  179     2e-56
+  UniRef90_A0A1N6MUK2 Uncharacterized protein n=4 Tax=Xenorhabdus...  179     2e-56
+  UniRef90_A0A014PXJ4 Uncharacterized protein n=3 Tax=Erwinia Tax...  178     2e-56
+  UniRef90_A0A0Q4MI56 Uncharacterized protein n=3 Tax=Yersiniacea...  178     3e-56
+  UniRef90_UPI000553D45F hypothetical protein n=2 Tax=Erwinia Tax...  178     3e-56
+  UniRef90_A0A0J5FVB4 Bacterial chaperone lipo family protein n=3...  178     5e-56
+  UniRef90_W3YAW6 Chaperone lipoprotein n=1 Tax=Providencia alcal...  177     6e-56
+  UniRef90_X6QF03 Chaperone lipoprotein n=14 Tax=Providencia TaxI...  177     7e-56
+  UniRef90_A0A068QVZ4 Uncharacterized protein n=2 Tax=Xenorhabdus...  177     9e-56
+  UniRef90_A0A2I5T5N4 Uncharacterized protein n=1 Tax=Serratia sp...  177     9e-56
+  UniRef90_C6CB84 Uncharacterized protein n=1 Tax=Dickeya paradis...  177     1e-55
+  UniRef90_A0A356D561 Uncharacterized protein n=1 Tax=Providencia...  177     1e-55
+  UniRef90_A0A2N5EKF7 Uncharacterized protein n=3 Tax=unclassifie...  176     2e-55
+  UniRef90_W1IW96 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  176     2e-55
+  UniRef90_A0A0N0Z8C6 Putative YacC family chaperone lipoprotein ...  175     5e-55
+  UniRef90_A0A345CYC4 Uncharacterized protein n=1 Tax=Erwinia tra...  174     7e-55
+  UniRef90_D3V529 Uncharacterized protein n=9 Tax=Xenorhabdus bov...  174     2e-54
+  UniRef90_UPI000FDF6504 UPI000FDF6504 related cluster n=1 Tax=un...  173     2e-54
+  UniRef90_A0A2G0Q483 Bacterial chaperone lipo family protein n=1...  173     3e-54
+  UniRef90_A0A1I3VHR1 Type II secretion system pilotin lipoprotei...  173     3e-54
+  UniRef90_A0A084A5Z5 Lipoprotein, PulS/OutS family n=3 Tax=Serra...  171     1e-53
+  UniRef90_A0A379AKD0 Bacterial chaperone lipoprotein (PulS_OutS)...  171     1e-53
+  UniRef90_A0A0G4JX81 Predicted chaperone lipoprotein YacC, poten...  171     2e-53
+  UniRef90_A0A1H4EEK8 Type II secretion system pilotin lipoprotei...  171     2e-53
+  UniRef90_A0A370R1W5 Type II secretion system (T2SS) pilotin Pul...  171     3e-53
+  UniRef90_A0A0M0T7H4 Bacterial chaperone lipo family protein n=6...  170     4e-53
+  UniRef90_UPI0004A31988 hypothetical protein n=1 Tax=Tatumella s...  169     8e-53
+  UniRef90_A0A068QZQ5 Uncharacterized protein n=1 Tax=Xenorhabdus...  169     1e-52
+  UniRef90_A0A1I5EIQ9 Type II secretion system pilotin lipoprotei...  169     2e-52
+  UniRef90_A0A221T6P3 Predicted chaperone lipoprotein YacC, poten...  169     2e-52
+  UniRef90_A0A2X1K3X2 Pullulanase secretion protein pulS n=12 Tax...  168     2e-52
+  UniRef90_A0A2G8C5F0 Uncharacterized protein n=2 Tax=Enterobacte...  168     2e-52
+  UniRef90_G7LS85 Uncharacterized protein n=4 Tax=Brenneria TaxID...  167     1e-51
+  UniRef90_E0SBM7 Uncharacterized protein n=16 Tax=Enterobacteral...  166     3e-51
+  UniRef90_A0A2U8I4C7 Uncharacterized protein n=1 Tax=Candidatus ...  165     5e-51
+  UniRef90_A0A1Y2SE49 Molecular chaperone n=1 Tax=Xenorhabdus vie...  165     6e-51
+  UniRef90_A0A0G3CLV3 Lipoprotein, PulS/OutS family n=1 Tax=Pragi...  164     8e-51
+  UniRef90_UPI000372A807 hypothetical protein n=1 Tax=Pantoea sp....  164     1e-50
+  UniRef90_A0A376X6S2 Protein n=2 Tax=Escherichia coli TaxID=562 ...  164     1e-50
+  UniRef90_I6DVF8 Uncharacterized protein n=1 Tax=Shigella boydii...  163     1e-50
+  UniRef90_A0A1K3D4R8 Pullulanase secretion protein pulS n=12 Tax...  163     6e-50
+  UniRef90_A0A0K0HTP6 Pullulanase secretion protein pulS n=10 Tax...  162     7e-50
+  UniRef90_A0A068R9S3 Uncharacterized protein YacC n=3 Tax=Serrat...  161     3e-49
+  UniRef90_A0A198FKF9 Putative YacC family chaperone lipoprotein ...  160     4e-49
+  UniRef90_A0A2C6DL19 Uncharacterized protein n=1 Tax=Budvicia aq...  159     1e-48
+  UniRef90_UPI000D685B11 hypothetical protein n=1 Tax=Proteus Tax...  158     4e-48
+  UniRef90_A0A085HNI7 Putative YacC family chaperone lipoprotein ...  156     1e-47
+  UniRef90_A0A0G4QK01 Uncharacterized protein n=16 Tax=Enterobact...  154     1e-46
+  UniRef90_A0A3D2BK32 Uncharacterized protein n=2 Tax=Proteus Tax...  153     2e-46
+  UniRef90_A0A1Z1SZC3 Uncharacterized protein n=6 Tax=Enterobacte...  153     3e-46
+  UniRef90_A0A2X4UE33 Bacterial chaperone lipoprotein (PulS_OutS)...  153     4e-46
+  UniRef90_A0A2Y9U178 Uncharacterized protein n=1 Tax=Limnobaculu...  152     6e-46
+  UniRef90_A0A1B8H608 Uncharacterized protein n=3 Tax=Morganella ...  151     3e-45
+  UniRef90_UPI000491C721 hypothetical protein n=1 Tax=Phaseolibac...  149     6e-45
+  UniRef90_UPI00067F1665 hypothetical protein n=2 Tax=Gammaproteo...  142     5e-42
+  UniRef90_D2U3Z3 Uncharacterized protein n=1 Tax=Arsenophonus na...  142     8e-42
+  UniRef90_A0A2A2GWI9 Uncharacterized protein n=3 Tax=Arsenophonu...  141     1e-41
+  UniRef90_A0A143HY96 YacC protein n=1 Tax=Enterobacter asburiae ...  124     2e-35
+  UniRef90_A0A377DX91 Protein n=1 Tax=Escherichia coli TaxID=562 ...  122     1e-34
+  UniRef90_A0A2X3M4X6 Protein n=1 Tax=Escherichia coli TaxID=562 ...  122     1e-34
+  UniRef90_A0A379D6K4 Uncharacterized protein n=1 Tax=Pluralibact...  114     1e-31
+  UniRef90_A0A2X4TID4 Uncharacterized protein n=2 Tax=Salmonella ...  113     3e-31
+  UniRef90_A0A376TKX1 Protein n=1 Tax=Escherichia coli TaxID=562 ...  112     9e-31
+  UniRef90_A0A379YJZ6 Uncharacterized protein n=1 Tax=Serratia ma...  111     6e-30
+  UniRef90_X1WM28 Uncharacterized protein n=1 Tax=Acyrthosiphon p...  117     7e-29
+  UniRef90_A0A377ZL46 Chaperone lipoprotein YacC n=1 Tax=Klebsiel...  107     1e-28
+  UniRef90_A0A0J8YWD3 Uncharacterized protein (Fragment) n=1 Tax=...  105     6e-28
+  UniRef90_UPI000DED7467 hypothetical protein n=1 Tax=Escherichia...  72.5    1e-14
+  UniRef90_A0A1B7JMN9 Putative YacC family chaperone lipoprotein ...  68.3    2e-13
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_W0L523 Uncharacterized protein n=1 Tax=Chania multitud...  52.1    2e-06
+  UniRef90_A0A1F2H438 Type II secretion protein etpO n=7 Tax=Ente...  49.0    3e-05
+  UniRef90_A0A087KL79 Uncharacterized protein n=1 Tax=Serratia sp...  47.9    9e-05
+  UniRef90_A0A1S8CEG7 Uncharacterized protein n=1 Tax=Serratia or...  47.9    1e-04
+  UniRef90_UPI000532AE86 lipoprotein, PulS/OutS family n=1 Tax=Di...  47.1    2e-04
+  UniRef90_A0A1Q5VJI3 Type II secretion protein etpO n=10 Tax=Ser...  46.3    4e-04
+  UniRef90_L0MMM0 Bacterial chaperone lipoprotein (PulS_OutS) n=2...  45.9    5e-04
+  UniRef90_UPI0009A4CDA3 hypothetical protein n=1 Tax=Serratia ma...  45.2    0.001
+  UniRef90_A0A084A0U0 Pullulanase secretion protein PulS n=2 Tax=...  44.8    0.001
+  UniRef90_D2BSR5 Lipoprotein, PulS/OutS family n=8 Tax=Enterobac...  44.8    0.002
+  UniRef90_A0A0G4JZL9 Uncharacterized protein n=3 Tax=Brenneria g...  44.4    0.002
+  UniRef90_UPI00036DCEAB hypothetical protein n=1 Tax=Enterobacte...  44.0    0.003
+  UniRef90_UPI000EF1F493 lipoprotein, PulS/OutS family n=1 Tax=Br...  43.6    0.004
+  UniRef90_A0A2V1HFL7 Pullulanase n=1 Tax=Serratia sp. S1B TaxID=...  43.6    0.004
+  UniRef90_A0A0T9P8U2 Lipoprotein n=1 Tax=Yersinia pekkanenii Tax...  43.2    0.005
+  UniRef90_A0A2U1UMR8 Pullulanase n=1 Tax=Brenneria roseae subsp....  43.6    0.005
+  UniRef90_Q6D2I1 General secretion pathway lipoprotein n=26 Tax=...  43.2    0.006
+  UniRef90_Q01567 Lipoprotein OutS n=16 Tax=Dickeya TaxID=204037 ...  43.2    0.007
+  UniRef90_A0A318G2C1 Type II secretion system protein S n=1 Tax=...  42.8    0.007
+  UniRef90_P20440 Pullulanase secretion protein PulS n=30 Tax=Ent...  42.8    0.008
+  UniRef90_UPI0003A43AC2 lipoprotein, PulS/OutS family n=1 Tax=Di...  42.8    0.009
+  UniRef90_UPI0009DD79E9 hypothetical protein n=1 Tax=Serratia Ta...  42.8    0.013
+  UniRef90_A0A2J4RCR8 Pullulanase (Fragment) n=1 Tax=Klebsiella m...  41.3    0.015
+  UniRef90_A0A3N2E7T1 Type II secretion system protein S n=2 Tax=...  41.7    0.017
+  UniRef90_A0A0H3I613 General secretion pathway lipoprotein n=2 T...  42.1    0.019
+  UniRef90_A0A1I0A0F4 Uncharacterized protein n=1 Tax=Thorsellia ...  41.7    0.019
+  UniRef90_D0KKT0 Lipoprotein, PulS/OutS family n=1 Tax=Pectobact...  41.7    0.022
+  UniRef90_A0A093RNH6 Pullulanase n=1 Tax=Pectobacterium betavasc...  41.3    0.028
+  UniRef90_A0A378CVK3 Pullulanase-specific type II secretion syst...  41.7    0.028
+  UniRef90_A0A370Q895 Type II secretion system protein S n=1 Tax=...  41.3    0.029
+  UniRef90_A0A366IB42 Type II secretion system protein S n=1 Tax=...  41.3    0.034
+  UniRef90_A0A0M2KER8 General secretion pathway protein n=3 Tax=E...  40.5    0.036
+  UniRef90_A0A2I0FU82 Secretion protein n=1 Tax=Enterobacterales ...  40.9    0.041
+  UniRef90_A0A375A874 Lipoprotein outS n=1 Tax=Dickeya aquatica T...  40.9    0.051
+  UniRef90_A0A0G3SSQ4 Pullulanase secretion protein pulS n=61 Tax...  40.1    0.071
+  UniRef90_UPI000F658CED lipoprotein, PulS/OutS family n=1 Tax=Di...  40.1    0.080
+  UniRef90_A0A1H3ZUB3 General secretion pathway protein S n=8 Tax...  40.1    0.080
+  UniRef90_UPI000DD44939 lipoprotein, PulS/OutS family n=1 Tax=Kl...  40.1    0.081
+  UniRef90_UPI0009E43170 hypothetical protein n=1 Tax=Yersinia en...  39.4    0.086
+  UniRef90_A0A0H5GGB3 Lipoprotein n=11 Tax=Yersinia enterocolitic...  39.8    0.097
+  UniRef90_A0A0H3NV95 Type II secretion pathway related protein n...  39.0    0.11 
+  UniRef90_C6C302 Lipoprotein, PulS/OutS family n=1 Tax=Dickeya p...  39.4    0.17 
+  UniRef90_UPI00094B8D24 hypothetical protein n=1 Tax=Yersinia en...  39.0    0.18 
+  UniRef90_H3RKS5 Uncharacterized protein n=2 Tax=Pantoea stewart...  38.6    0.20 
+  UniRef90_A0A250B6C3 Pullulanase n=1 Tax=Gibbsiella quercinecans...  39.0    0.27 
+  UniRef90_A0A2X2E6S1 Pullulanase secretion protein pulS n=10 Tax...  38.2    0.30 
+  UniRef90_A0A2I5TIM3 Lipoprotein, PulS/OutS family n=1 Tax=Serra...  38.2    0.47 
+  UniRef90_A0A2J9SHE9 Uncharacterized protein n=1 Tax=Yersinia en...  37.1    1.1  
+  UniRef90_A0A0Q4MW77 Secretion protein n=2 Tax=Erwinia TaxID=551...  37.1    1.1  
+  UniRef90_A0A0E8XIV3 Lipoprotein n=34 Tax=Yersinia TaxID=444888 ...  36.3    1.9  
+  UniRef90_I3EPB0 Uncharacterized protein n=2 Tax=Nematocida pari...  36.7    2.5  
+  UniRef90_A0A2U8I2H5 Uncharacterized protein n=1 Tax=Candidatus ...  35.9    2.6  
+  UniRef90_UPI0004A8145C hypothetical protein n=1 Tax=Serratia Ta...  35.9    2.8  
+  UniRef90_UPI000517E358 hypothetical protein n=4 Tax=Yersinia fr...  35.5    3.3  
+  UniRef90_A0A327ZBT9 Uncharacterized protein DUF3349 n=1 Tax=Act...  35.1    3.4  
+  UniRef90_A0A380AL70 Lipoprotein outS n=2 Tax=Serratia TaxID=613...  35.9    3.4  
+  UniRef90_A0A1H3UXJ3 RNA polymerase sigma-70 factor, ECF subfami...  36.3    3.5  
+  UniRef90_A0A378DDY3 Pullulanase-specific type II secretion syst...  35.9    3.6  
+  UniRef90_A0A1V2BM14 Pullulanase n=8 Tax=Enterobacteriaceae TaxI...  35.5    4.0  
+  UniRef90_A0A2G2JF09 Uncharacterized protein n=1 Tax=Oceanobacte...  36.3    4.2  
+  UniRef90_UPI00040DA24A secretion protein n=1 Tax=Serratia fonti...  35.5    4.4  
+  UniRef90_A2FEB7 Uncharacterized protein n=1 Tax=Trichomonas vag...  36.3    4.7  
+  UniRef90_F4KSD2 Uncharacterized protein n=1 Tax=Haliscomenobact...  35.9    6.5  
+  UniRef90_A0A2T5BUL1 Phosphate-selective porin O/P n=2 Tax=Mangr...  35.5    7.2  
+  UniRef90_A0A1V5T7G1 Protease 3 n=1 Tax=Spirochaetes bacterium A...  35.5    7.3  
+  UniRef90_A0A209A2P0 Uncharacterized protein n=1 Tax=Yersinia fr...  34.8    8.0  
+  UniRef90_A0A0U1HAA6 Lipoprotein n=4 Tax=Yersinia enterocolitica...  34.4    9.0  
+  UniRef90_A0A1J4JDK7 Uncharacterized protein n=1 Tax=Tritrichomo...  35.5    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.164    0.558    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0501    0.140     1.90     42.6     43.6 
+
+Effective search space used: 750733979919
+Results from round 3
+
+
+Query= NP_414664.4
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A7MGP0 Uncharacterized protein n=18 Tax=Cronobacter Ta...  202     5e-65
+  UniRef90_A0A127L7Q7 Bacterial chaperone lipoprotein n=2 Tax=Ent...  199     8e-64
+  UniRef90_H5V4A8 Uncharacterized protein n=8 Tax=Enterobacteriac...  196     1e-63
+  UniRef90_G9YZK6 Uncharacterized protein n=3 Tax=Yokenella regen...  196     5e-63
+  UniRef90_UPI00073DB202 hypothetical protein n=1 Tax=[Erwinia] t...  195     9e-63
+  UniRef90_A0A144ECA9 Protein YacC n=14 Tax=Enterobacteriaceae Ta...  195     2e-62
+  UniRef90_P0AA96 Uncharacterized protein YacC n=204 Tax=Bacteria...  194     2e-62
+  UniRef90_A0A0D8WGF5 Protein n=157 Tax=Enterobacteriaceae TaxID=...  193     3e-62
+  UniRef90_A0A1B7L2S9 Uncharacterized protein n=4 Tax=Enterobacte...  193     3e-62
+  UniRef90_L0MAC2 Bacterial chaperone lipoprotein (PulS_OutS) n=2...  193     5e-62
+  UniRef90_A0A089PS96 Uncharacterized protein n=8 Tax=Enterobacte...  193     5e-62
+  UniRef90_A0A3N1IW46 Type II secretion system (T2SS) pilotin Pul...  193     7e-62
+  UniRef90_UPI00082F377C hypothetical protein n=1 Tax=Erwinia sp....  192     7e-62
+  UniRef90_UPI000381387D hypothetical protein n=1 Tax=Enterobacte...  192     1e-61
+  UniRef90_A0A0T5XF05 Uncharacterized protein n=44 Tax=Bacteria T...  191     2e-61
+  UniRef90_Q57T88 Putative periplasmic protein n=170 Tax=Gammapro...  190     6e-61
+  UniRef90_A0A370YUX8 Uncharacterized protein n=11 Tax=Enterobact...  189     2e-60
+  UniRef90_A0A1D3KJX2 Protein n=101 Tax=Bacteria TaxID=2 RepID=A0...  188     3e-60
+  UniRef90_D4GK95 YacC n=48 Tax=Enterobacterales TaxID=91347 RepI...  188     3e-60
+  UniRef90_S3K6Z9 Uncharacterized protein n=18 Tax=Enterobacteria...  188     3e-60
+  UniRef90_A0A379GK42 Bacterial chaperone lipoprotein (PulS_OutS)...  188     5e-60
+  UniRef90_A0A0L7T8K6 Uncharacterized protein n=7 Tax=Erwiniaceae...  188     5e-60
+  UniRef90_A0A2D0IRN4 Molecular chaperone n=4 Tax=Xenorhabdus Tax...  187     7e-60
+  UniRef90_A0A2P8VHE6 Uncharacterized protein n=1 Tax=Siccibacter...  187     8e-60
+  UniRef90_A0A1I4WVE1 Type II secretion system pilotin lipoprotei...  187     1e-59
+  UniRef90_A0A0L0AHH2 Uncharacterized protein n=1 Tax=Klebsiella ...  186     2e-59
+  UniRef90_A0A2G8E8R9 Uncharacterized protein n=2 Tax=Enterobacte...  186     3e-59
+  UniRef90_A0A0A8NRU6 Uncharacterized protein n=5 Tax=Xenorhabdus...  184     1e-58
+  UniRef90_A0A2I0FVB5 Uncharacterized protein n=1 Tax=Enterobacte...  183     3e-58
+  UniRef90_B6VMG8 Uncharacterized protein n=22 Tax=Photorhabdus T...  183     3e-58
+  UniRef90_K8WYJ3 Uncharacterized protein n=1 Tax=Providencia bur...  183     6e-58
+  UniRef90_A0A1N6MUK2 Uncharacterized protein n=4 Tax=Xenorhabdus...  182     1e-57
+  UniRef90_A0A0J5FVB4 Bacterial chaperone lipo family protein n=3...  182     1e-57
+  UniRef90_A0A095T1P3 Uncharacterized protein n=2 Tax=Tatumella T...  181     1e-57
+  UniRef90_K8WDB6 Uncharacterized protein n=1 Tax=Providencia sne...  181     3e-57
+  UniRef90_A0A250B8S8 Uncharacterized protein n=2 Tax=Gibbsiella ...  181     4e-57
+  UniRef90_A0A0A5FTS9 Predicted chaperone lipoprotein YacC n=68 T...  180     4e-57
+  UniRef90_I2BCP0 Uncharacterized protein n=1 Tax=Shimwellia blat...  180     4e-57
+  UniRef90_A0A068QVZ4 Uncharacterized protein n=2 Tax=Xenorhabdus...  180     5e-57
+  UniRef90_UPI0005581181 hypothetical protein n=1 Tax=Enterobacte...  179     8e-57
+  UniRef90_A0A1W5DQH6 Uncharacterized protein n=51 Tax=Gammaprote...  179     2e-56
+  UniRef90_D8MN97 Conserved uncharacterized protein YacC n=15 Tax...  179     2e-56
+  UniRef90_L0MJ70 Bacterial chaperone lipoprotein (PulS_OutS) n=4...  178     3e-56
+  UniRef90_UPI00094914A6 hypothetical protein n=1 Tax=Pantoea sp....  178     3e-56
+  UniRef90_A0A2X5PSV2 Lipoprotein, PulS/OutS family n=2 Tax=Tatum...  178     4e-56
+  UniRef90_A0A2S9I4N3 Uncharacterized protein n=2 Tax=Erwiniaceae...  177     6e-56
+  UniRef90_UPI000DEF8EA1 hypothetical protein n=1 Tax=Rahnella sp...  177     1e-55
+  UniRef90_A0A1I3VHR1 Type II secretion system pilotin lipoprotei...  176     1e-55
+  UniRef90_I0QYU1 Uncharacterized protein n=2 Tax=Yersiniaceae Ta...  176     1e-55
+  UniRef90_D1P4K5 Uncharacterized protein n=4 Tax=Providencia rus...  176     2e-55
+  UniRef90_A0A2G0Q483 Bacterial chaperone lipo family protein n=1...  176     2e-55
+  UniRef90_D3V529 Uncharacterized protein n=9 Tax=Xenorhabdus bov...  176     2e-55
+  UniRef90_X6QF03 Chaperone lipoprotein n=14 Tax=Providencia TaxI...  176     2e-55
+  UniRef90_UPI000468538D hypothetical protein n=1 Tax=Pantoea sp....  176     3e-55
+  UniRef90_Q2NVS0 Bacterial chaperone lipoprotein (PulS_OutS) n=4...  176     3e-55
+  UniRef90_W3YAW6 Chaperone lipoprotein n=1 Tax=Providencia alcal...  175     4e-55
+  UniRef90_A0A1I5EIQ9 Type II secretion system pilotin lipoprotei...  175     4e-55
+  UniRef90_A0A0N0Z8C6 Putative YacC family chaperone lipoprotein ...  175     5e-55
+  UniRef90_B2VD22 Uncharacterized protein n=2 Tax=Erwinia TaxID=5...  174     8e-55
+  UniRef90_A0A0M0T7H4 Bacterial chaperone lipo family protein n=6...  174     1e-54
+  UniRef90_H2IQC3 Bacterial chaperone lipoprotein (PulS_OutS) n=1...  173     3e-54
+  UniRef90_A0A2I5T5N4 Uncharacterized protein n=1 Tax=Serratia sp...  173     3e-54
+  UniRef90_C6CB84 Uncharacterized protein n=1 Tax=Dickeya paradis...  173     3e-54
+  UniRef90_A0A356D561 Uncharacterized protein n=1 Tax=Providencia...  173     3e-54
+  UniRef90_A0A0Q4MI56 Uncharacterized protein n=3 Tax=Yersiniacea...  172     6e-54
+  UniRef90_U3TMQ0 Uncharacterized protein n=1 Tax=Plautia stali s...  172     8e-54
+  UniRef90_A0A068QZQ5 Uncharacterized protein n=1 Tax=Xenorhabdus...  171     1e-53
+  UniRef90_W1IW96 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  171     1e-53
+  UniRef90_A0A376U4C5 Protein n=1 Tax=Escherichia coli TaxID=562 ...  169     5e-53
+  UniRef90_UPI000553D45F hypothetical protein n=2 Tax=Erwinia Tax...  169     7e-53
+  UniRef90_A0A014PXJ4 Uncharacterized protein n=3 Tax=Erwinia Tax...  169     8e-53
+  UniRef90_A0A2N5EKF7 Uncharacterized protein n=3 Tax=unclassifie...  169     1e-52
+  UniRef90_A0A370R1W5 Type II secretion system (T2SS) pilotin Pul...  169     1e-52
+  UniRef90_A0A2X1K3X2 Pullulanase secretion protein pulS n=12 Tax...  167     6e-52
+  UniRef90_A0A084A5Z5 Lipoprotein, PulS/OutS family n=3 Tax=Serra...  167     9e-52
+  UniRef90_A0A345CYC4 Uncharacterized protein n=1 Tax=Erwinia tra...  167     1e-51
+  UniRef90_A0A1Y2SE49 Molecular chaperone n=1 Tax=Xenorhabdus vie...  166     1e-51
+  UniRef90_UPI000DF0D40D hypothetical protein n=2 Tax=Klebsiella ...  166     1e-51
+  UniRef90_UPI000FDF6504 UPI000FDF6504 related cluster n=1 Tax=un...  166     1e-51
+  UniRef90_A0A0G4JX81 Predicted chaperone lipoprotein YacC, poten...  166     2e-51
+  UniRef90_A0A379AKD0 Bacterial chaperone lipoprotein (PulS_OutS)...  164     9e-51
+  UniRef90_UPI0004A31988 hypothetical protein n=1 Tax=Tatumella s...  164     1e-50
+  UniRef90_A0A1H4EEK8 Type II secretion system pilotin lipoprotei...  164     2e-50
+  UniRef90_A0A0K0HTP6 Pullulanase secretion protein pulS n=10 Tax...  163     4e-50
+  UniRef90_A0A2G8C5F0 Uncharacterized protein n=2 Tax=Enterobacte...  163     4e-50
+  UniRef90_A0A221T6P3 Predicted chaperone lipoprotein YacC, poten...  163     5e-50
+  UniRef90_A0A2U8I4C7 Uncharacterized protein n=1 Tax=Candidatus ...  161     1e-49
+  UniRef90_G7LS85 Uncharacterized protein n=4 Tax=Brenneria TaxID...  161     1e-49
+  UniRef90_E0SBM7 Uncharacterized protein n=16 Tax=Enterobacteral...  161     3e-49
+  UniRef90_A0A0G3CLV3 Lipoprotein, PulS/OutS family n=1 Tax=Pragi...  160     6e-49
+  UniRef90_A0A1K3D4R8 Pullulanase secretion protein pulS n=12 Tax...  158     5e-48
+  UniRef90_I6DVF8 Uncharacterized protein n=1 Tax=Shigella boydii...  156     9e-48
+  UniRef90_A0A068R9S3 Uncharacterized protein YacC n=3 Tax=Serrat...  156     1e-47
+  UniRef90_A0A376X6S2 Protein n=2 Tax=Escherichia coli TaxID=562 ...  155     2e-47
+  UniRef90_UPI000372A807 hypothetical protein n=1 Tax=Pantoea sp....  155     4e-47
+  UniRef90_A0A198FKF9 Putative YacC family chaperone lipoprotein ...  152     5e-46
+  UniRef90_A0A2C6DL19 Uncharacterized protein n=1 Tax=Budvicia aq...  152     6e-46
+  UniRef90_A0A085HNI7 Putative YacC family chaperone lipoprotein ...  151     1e-45
+  UniRef90_A0A1B8H608 Uncharacterized protein n=3 Tax=Morganella ...  150     4e-45
+  UniRef90_A0A2Y9U178 Uncharacterized protein n=1 Tax=Limnobaculu...  149     7e-45
+  UniRef90_UPI000D685B11 hypothetical protein n=1 Tax=Proteus Tax...  148     2e-44
+  UniRef90_A0A2X4UE33 Bacterial chaperone lipoprotein (PulS_OutS)...  146     1e-43
+  UniRef90_A0A3D2BK32 Uncharacterized protein n=2 Tax=Proteus Tax...  146     2e-43
+  UniRef90_A0A0G4QK01 Uncharacterized protein n=16 Tax=Enterobact...  145     3e-43
+  UniRef90_A0A1Z1SZC3 Uncharacterized protein n=6 Tax=Enterobacte...  144     1e-42
+  UniRef90_A0A2A2GWI9 Uncharacterized protein n=3 Tax=Arsenophonu...  143     2e-42
+  UniRef90_D2U3Z3 Uncharacterized protein n=1 Tax=Arsenophonus na...  143     4e-42
+  UniRef90_UPI000491C721 hypothetical protein n=1 Tax=Phaseolibac...  141     1e-41
+  UniRef90_UPI00067F1665 hypothetical protein n=2 Tax=Gammaproteo...  132     3e-38
+  UniRef90_A0A143HY96 YacC protein n=1 Tax=Enterobacter asburiae ...  116     2e-32
+  UniRef90_A0A377DX91 Protein n=1 Tax=Escherichia coli TaxID=562 ...  115     7e-32
+  UniRef90_A0A2X3M4X6 Protein n=1 Tax=Escherichia coli TaxID=562 ...  113     3e-31
+  UniRef90_A0A379YJZ6 Uncharacterized protein n=1 Tax=Serratia ma...  113     4e-31
+  UniRef90_A0A379D6K4 Uncharacterized protein n=1 Tax=Pluralibact...  110     1e-29
+  UniRef90_A0A2X4TID4 Uncharacterized protein n=2 Tax=Salmonella ...  107     1e-28
+  UniRef90_L0MMM0 Bacterial chaperone lipoprotein (PulS_OutS) n=2...  108     2e-28
+  UniRef90_UPI0009A4CDA3 hypothetical protein n=1 Tax=Serratia ma...  108     2e-28
+  UniRef90_A0A087KL79 Uncharacterized protein n=1 Tax=Serratia sp...  107     6e-28
+  UniRef90_A0A376TKX1 Protein n=1 Tax=Escherichia coli TaxID=562 ...  105     1e-27
+  UniRef90_A0A1S8CEG7 Uncharacterized protein n=1 Tax=Serratia or...  106     2e-27
+  UniRef90_A0A1Q5VJI3 Type II secretion protein etpO n=10 Tax=Ser...  105     4e-27
+  UniRef90_A0A0J8YWD3 Uncharacterized protein (Fragment) n=1 Tax=...  103     7e-27
+  UniRef90_X1WM28 Uncharacterized protein n=1 Tax=Acyrthosiphon p...  111     7e-27
+  UniRef90_A0A377ZL46 Chaperone lipoprotein YacC n=1 Tax=Klebsiel...  100     4e-26
+  UniRef90_A0A1F2H438 Type II secretion protein etpO n=7 Tax=Ente...  100     4e-25
+  UniRef90_W0L523 Uncharacterized protein n=1 Tax=Chania multitud...  99.1    1e-24
+  UniRef90_UPI000532AE86 lipoprotein, PulS/OutS family n=1 Tax=Di...  90.6    3e-21
+  UniRef90_A0A1B7JMN9 Putative YacC family chaperone lipoprotein ...  64.4    5e-12
+  UniRef90_UPI000DED7467 hypothetical protein n=1 Tax=Escherichia...  65.6    8e-12
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A2V1HFL7 Pullulanase n=1 Tax=Serratia sp. S1B TaxID=...  101     1e-25
+  UniRef90_A0A084A0U0 Pullulanase secretion protein PulS n=2 Tax=...  98.7    1e-24
+  UniRef90_D2BSR5 Lipoprotein, PulS/OutS family n=8 Tax=Enterobac...  85.6    3e-19
+  UniRef90_Q01567 Lipoprotein OutS n=16 Tax=Dickeya TaxID=204037 ...  84.8    6e-19
+  UniRef90_A0A375A874 Lipoprotein outS n=1 Tax=Dickeya aquatica T...  82.5    6e-18
+  UniRef90_UPI0003A43AC2 lipoprotein, PulS/OutS family n=1 Tax=Di...  82.1    6e-18
+  UniRef90_A0A366IB42 Type II secretion system protein S n=1 Tax=...  81.8    7e-18
+  UniRef90_Q6D2I1 General secretion pathway lipoprotein n=26 Tax=...  81.4    1e-17
+  UniRef90_A0A318G2C1 Type II secretion system protein S n=1 Tax=...  81.0    1e-17
+  UniRef90_C6C302 Lipoprotein, PulS/OutS family n=1 Tax=Dickeya p...  81.0    2e-17
+  UniRef90_A0A2U1UMR8 Pullulanase n=1 Tax=Brenneria roseae subsp....  80.6    2e-17
+  UniRef90_P20440 Pullulanase secretion protein PulS n=30 Tax=Ent...  80.6    2e-17
+  UniRef90_UPI000F658CED lipoprotein, PulS/OutS family n=1 Tax=Di...  81.0    2e-17
+  UniRef90_A0A093RNH6 Pullulanase n=1 Tax=Pectobacterium betavasc...  80.2    3e-17
+  UniRef90_A0A0H3I613 General secretion pathway lipoprotein n=2 T...  78.7    1e-16
+  UniRef90_D0KKT0 Lipoprotein, PulS/OutS family n=1 Tax=Pectobact...  78.3    2e-16
+  UniRef90_A0A3N2E7T1 Type II secretion system protein S n=2 Tax=...  77.1    3e-16
+  UniRef90_A0A2J4RCR8 Pullulanase (Fragment) n=1 Tax=Klebsiella m...  76.0    6e-16
+  UniRef90_UPI000EF1F493 lipoprotein, PulS/OutS family n=1 Tax=Br...  77.1    6e-16
+  UniRef90_A0A2I5TIM3 Lipoprotein, PulS/OutS family n=1 Tax=Serra...  76.8    7e-16
+  UniRef90_A0A1V2BM14 Pullulanase n=8 Tax=Enterobacteriaceae TaxI...  76.4    8e-16
+  UniRef90_A0A378CVK3 Pullulanase-specific type II secretion syst...  76.8    9e-16
+  UniRef90_UPI000DD44939 lipoprotein, PulS/OutS family n=1 Tax=Kl...  76.0    1e-15
+  UniRef90_A0A0G4JZL9 Uncharacterized protein n=3 Tax=Brenneria g...  75.6    2e-15
+  UniRef90_A0A2X2E6S1 Pullulanase secretion protein pulS n=10 Tax...  74.8    3e-15
+  UniRef90_A0A1H3ZUB3 General secretion pathway protein S n=8 Tax...  74.4    6e-15
+  UniRef90_A0A370Q895 Type II secretion system protein S n=1 Tax=...  71.7    6e-14
+  UniRef90_A0A250B6C3 Pullulanase n=1 Tax=Gibbsiella quercinecans...  71.4    1e-13
+  UniRef90_A0A2X7ATZ5 Type II secretion protein n=4 Tax=Escherich...  71.0    1e-13
+  UniRef90_UPI0009DD79E9 hypothetical protein n=1 Tax=Serratia Ta...  71.4    2e-13
+  UniRef90_B5Y1M1 Pullulanase secretion protein PulS n=53 Tax=Ent...  70.6    2e-13
+  UniRef90_A0A2N4W823 Lipoprotein, PulS/OutS family n=55 Tax=Ente...  69.4    4e-13
+  UniRef90_UPI00036DCEAB hypothetical protein n=1 Tax=Enterobacte...  69.1    5e-13
+  UniRef90_O32577 Chaperone lipoprotein n=15 Tax=Enterobacteriace...  69.4    6e-13
+  UniRef90_UPI000C7E5610 lipoprotein, PulS/OutS family n=1 Tax=Es...  67.9    2e-12
+  UniRef90_A0A0B0VKC8 Lipoprotein, PulS/OutS family n=3 Tax=Esche...  67.5    3e-12
+  UniRef90_A0A0K4SVF2 Putative type II secretion protein etpO n=1...  67.1    3e-12
+  UniRef90_UPI00082AA338 hypothetical protein n=1 Tax=Erwinia sp....  66.0    1e-11
+  UniRef90_A0A2I0FU82 Secretion protein n=1 Tax=Enterobacterales ...  66.0    1e-11
+  UniRef90_A0A0Q4MW77 Secretion protein n=2 Tax=Erwinia TaxID=551...  64.8    3e-11
+  UniRef90_A0A378DDY3 Pullulanase-specific type II secretion syst...  65.6    4e-11
+  UniRef90_UPI0004A8145C hypothetical protein n=1 Tax=Serratia Ta...  64.4    4e-11
+  UniRef90_UPI000B48AB81 lipoprotein, PulS/OutS family n=2 Tax=Es...  63.7    5e-11
+  UniRef90_UPI000BFFC717 general secretion pathway protein n=1 Ta...  64.0    5e-11
+  UniRef90_A0A0G3SSQ4 Pullulanase secretion protein pulS n=61 Tax...  61.7    6e-10
+  UniRef90_A0A2N0MYV1 Uncharacterized protein n=1 Tax=Ewingella a...  60.6    1e-09
+  UniRef90_A0A2K1QBB3 Pullulanase n=1 Tax=Mixta theicola TaxID=14...  60.2    2e-09
+  UniRef90_UPI00025CABAD lipoprotein, PulS/OutS family n=1 Tax=Es...  59.8    3e-09
+  UniRef90_A0A1V8NT41 Chaperone lipoprotein n=3 Tax=Enterobacteri...  59.4    4e-09
+  UniRef90_UPI000E1D0D29 lipoprotein, PulS/OutS family n=1 Tax=Es...  58.7    8e-09
+  UniRef90_A0A379ZVJ9 Pullulanase secretion protein pulS n=3 Tax=...  57.9    1e-08
+  UniRef90_A0A0E8XIV3 Lipoprotein n=34 Tax=Yersinia TaxID=444888 ...  57.5    2e-08
+  UniRef90_A0A380AL70 Lipoprotein outS n=2 Tax=Serratia TaxID=613...  57.5    2e-08
+  UniRef90_A0A071LUZ0 Uncharacterized protein n=4 Tax=Mangrovibac...  56.7    3e-08
+  UniRef90_A0A0M2KER8 General secretion pathway protein n=3 Tax=E...  56.3    3e-08
+  UniRef90_A0A0A3Z5N5 Uncharacterized protein n=2 Tax=Erwinia typ...  56.0    6e-08
+  UniRef90_UPI0009FAF4D5 hypothetical protein n=1 Tax=Pantoea sp....  56.3    7e-08
+  UniRef90_A0A0T9UWT3 Putative secretion protein n=3 Tax=Yersinia...  56.0    7e-08
+  UniRef90_A0A2X2H3L6 Lipoprotein outS n=2 Tax=Serratia TaxID=613...  56.3    7e-08
+  UniRef90_A0A1B1KM54 Pullulanase secretion protein PulS n=1 Tax=...  55.6    9e-08
+  UniRef90_A0A0H5M182 Putative secretion protein n=7 Tax=Yersinia...  54.4    3e-07
+  UniRef90_H3RKS5 Uncharacterized protein n=2 Tax=Pantoea stewart...  53.6    3e-07
+  UniRef90_UPI000E0F2841 hypothetical protein n=1 Tax=Enterobacte...  53.6    5e-07
+  UniRef90_A0A0T9P8U2 Lipoprotein n=1 Tax=Yersinia pekkanenii Tax...  53.6    5e-07
+  UniRef90_A0A084YX23 Lipoprotein OutS n=2 Tax=Serratia TaxID=613...  52.5    2e-06
+  UniRef90_A0A0T9PMP7 Lipoprotein n=2 Tax=Yersinia pseudotubercul...  52.1    2e-06
+  UniRef90_A0A085U424 OutS lipoprotein n=2 Tax=Yersinia ruckeri T...  52.1    2e-06
+  UniRef90_A0A2J9SHE9 Uncharacterized protein n=1 Tax=Yersinia en...  50.2    1e-05
+  UniRef90_A0A0T9LMD0 Putative secretion protein n=2 Tax=Yersinia...  50.2    1e-05
+  UniRef90_UPI00040DA24A secretion protein n=1 Tax=Serratia fonti...  50.2    1e-05
+  UniRef90_A0A2U8I2H5 Uncharacterized protein n=1 Tax=Candidatus ...  49.8    1e-05
+  UniRef90_UPI0005C8044B secretion protein n=1 Tax=Serratia lique...  49.8    2e-05
+  UniRef90_A0A3N6UMC4 Secretion protein n=1 Tax=Erwinia psidii Ta...  49.4    2e-05
+  UniRef90_D4E1I4 Bacterial chaperone lipoprotein (PulS_OutS) n=1...  49.4    2e-05
+  UniRef90_S4YR85 Pullulanase n=5 Tax=Yersiniaceae TaxID=1903411 ...  49.0    3e-05
+  UniRef90_E3DE18 General secretion pathway lipoprotein n=2 Tax=E...  49.0    3e-05
+  UniRef90_Q8GBD5 Yts1S protein n=3 Tax=Yersinia enterocolitica T...  49.0    3e-05
+  UniRef90_UPI000517E358 hypothetical protein n=4 Tax=Yersinia fr...  48.6    4e-05
+  UniRef90_A0A1C3H9V3 Pullulanase secretion protein PulS n=9 Tax=...  48.6    4e-05
+  UniRef90_A0A377PBT8 Lipoprotein outS n=4 Tax=Hafniaceae TaxID=1...  48.6    6e-05
+  UniRef90_A0A2V4FT01 Pullulanase n=16 Tax=Yersiniaceae TaxID=190...  47.9    9e-05
+  UniRef90_A0A0T9T4S9 Putative secretion protein n=1 Tax=Yersinia...  47.9    9e-05
+  UniRef90_A0A2G4U049 Secretion protein n=3 Tax=Yersinia TaxID=44...  47.5    1e-04
+  UniRef90_B2VHZ7 General secretion pathway lipoprotein n=2 Tax=E...  47.5    1e-04
+  UniRef90_A0A0U5ZFZ0 Pullulanase secretion protein pulS n=1 Tax=...  47.1    1e-04
+  UniRef90_UPI000EABF9D8 molecular chaperone n=1 Tax=Enterobacter...  47.5    2e-04
+  UniRef90_A0A0T9M9H7 Lipoprotein n=8 Tax=Yersiniaceae TaxID=1903...  46.7    2e-04
+  UniRef90_D4HZY2 Uncharacterized protein yacC n=4 Tax=Erwinia am...  47.1    2e-04
+  UniRef90_V5ZAJ6 Uncharacterized protein n=1 Tax=Erwinia piriflo...  46.7    2e-04
+  UniRef90_A0A0T9UDW9 Putative secretion protein n=1 Tax=Yersinia...  46.7    3e-04
+  UniRef90_W1BI83 Pullulanase secretion protein pulS n=1 Tax=Kleb...  44.8    7e-04
+  UniRef90_G2SCQ1 Chaperone lipoprotein, PulS/OutS n=4 Tax=Entero...  45.6    8e-04
+  UniRef90_A0A014N8P6 Pullulanase n=1 Tax=Erwinia mallotivora Tax...  44.0    0.002
+  UniRef90_A0A1I0A0F4 Uncharacterized protein n=1 Tax=Thorsellia ...  44.0    0.003
+  UniRef90_A0A0H5GGB3 Lipoprotein n=11 Tax=Yersinia enterocolitic...  44.0    0.003
+  UniRef90_UPI0009E43170 hypothetical protein n=1 Tax=Yersinia en...  43.2    0.003
+  UniRef90_A0A0T9SZ50 Putative secretion protein n=7 Tax=Yersinia...  43.6    0.004
+  UniRef90_UPI00094B8D24 hypothetical protein n=1 Tax=Yersinia en...  42.9    0.006
+  UniRef90_G9YDA1 Bacterial chaperone lipoprotein n=4 Tax=Enterob...  43.2    0.006
+  UniRef90_A0A0H3NV95 Type II secretion pathway related protein n...  41.7    0.009
+  UniRef90_A0A383M8M8 Pullulanase secretion protein pulS n=14 Tax...  42.9    0.010
+  UniRef90_A0A0T9PF61 Lipoprotein n=1 Tax=Yersinia kristensenii T...  40.9    0.033
+  UniRef90_A0A0U1HWR3 Lipoprotein n=4 Tax=Yersinia rohdei TaxID=2...  40.5    0.055
+  UniRef90_UPI0003A9211F hypothetical protein n=1 Tax=Dickeya dad...  40.5    0.057
+  UniRef90_A0A0U1HAA6 Lipoprotein n=4 Tax=Yersinia enterocolitica...  40.2    0.060
+  UniRef90_A0A1Q2M699 Hydrolase Nlp/P60 n=1 Tax=Microbulbifer aga...  40.5    0.11 
+  UniRef90_A0A209A2P0 Uncharacterized protein n=1 Tax=Yersinia fr...  39.0    0.17 
+  UniRef90_A0A1I0AUJ9 Type II secretion system pilotin lipoprotei...  39.4    0.22 
+  UniRef90_UPI000D9A9C68 pullulanase n=1 Tax=Serratia marcescens ...  37.9    0.28 
+  UniRef90_A0A0B6FT39 Bacterial chaperone lipo family protein n=2...  38.6    0.31 
+  UniRef90_E0SG36 Uncharacterized protein n=2 Tax=Dickeya dadanti...  38.2    0.39 
+  UniRef90_C6CIM4 Uncharacterized protein n=3 Tax=Dickeya chrysan...  38.2    0.42 
+  UniRef90_A0A229I938 Uncharacterized protein n=4 Tax=Prevotella ...  39.0    0.44 
+  UniRef90_A0A0T9UYG7 Lipoprotein n=5 Tax=Yersinia frederiksenii ...  37.9    0.49 
+  UniRef90_UPI000BE5BA3E hypothetical protein n=1 Tax=Escherichia...  36.3    0.84 
+  UniRef90_A0A2N8E1R9 Halovibrin HvnA n=1 Tax=Pseudomonas sp. FW2...  38.2    0.90 
+  UniRef90_A0A0T9LF38 Lipoprotein n=8 Tax=Yersinia kristensenii T...  36.7    1.2  
+  UniRef90_UPI0006488042 hypothetical protein n=1 Tax=Chryseobact...  36.3    1.6  
+  UniRef90_A0A1B1LRU8 Uncharacterized protein n=2 Tax=Vibrio TaxI...  37.1    1.9  
+  UniRef90_B1LYG1 Uncharacterized protein n=5 Tax=Methylobacteria...  35.5    2.2  
+  UniRef90_I3EPB0 Uncharacterized protein n=2 Tax=Nematocida pari...  36.7    2.8  
+  UniRef90_A0A370WGU1 Uncharacterized protein (Fragment) n=1 Tax=...  34.8    2.9  
+  UniRef90_UPI000C080D2D deoxynucleoside kinase n=1 Tax=Tepidibac...  36.3    3.4  
+  UniRef90_A0A0D6LJ91 Smr domain protein n=2 Tax=Ancylostoma ceyl...  36.7    3.6  
+  UniRef90_UPI000A02BA3A hypothetical protein n=1 Tax=Phaseolibac...  35.9    3.6  
+  UniRef90_A2FEB7 Uncharacterized protein n=1 Tax=Trichomonas vag...  36.3    3.9  
+  UniRef90_A0A327ZBT9 Uncharacterized protein DUF3349 n=1 Tax=Act...  34.8    4.3  
+  UniRef90_G1Q8H5 Chromosome 17 open reading frame 67 n=2 Tax=Myo...  35.2    4.4  
+  UniRef90_A0A2N6GDB1 Uncharacterized protein n=1 Tax=Sulfurimona...  35.9    4.7  
+  UniRef90_B3PE56 Putative lipoprotein n=1 Tax=Cellvibrio japonic...  35.5    5.1  
+  UniRef90_A0A0H3CPP8 Serine protease n=28 Tax=Enterobacteriaceae...  35.9    6.0  
+  UniRef90_A0A3G6MAP2 Uncharacterized protein n=1 Tax=Chryseobact...  34.8    7.9  
+  UniRef90_A0A1L6L721 AttM/AiiB family protein n=1 Tax=Minicystis...  35.5    8.3  
+  UniRef90_UPI000E33EF8D gonadotropin-releasing hormone II recept...  35.5    8.4  
+  UniRef90_UPI00041BDAE6 hypothetical protein n=1 Tax=Psychroserp...  35.2    8.7  
+  UniRef90_UPI000CCC2E55 uncharacterized protein C17orf67 homolog...  34.0    8.9  
+  UniRef90_G4CLM7 Uncharacterized protein (Fragment) n=1 Tax=Neis...  35.2    9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.161    0.521    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0494    0.140     1.90     42.6     43.6 
+
+Effective search space used: 750733979919
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

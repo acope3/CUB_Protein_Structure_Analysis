@@ -1,0 +1,275 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415521.1
+
+Length=418
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P36661 Uncharacterized protein YccE n=380 Tax=Proteoba...  860     0.0   
+  UniRef90_A0A0L6Y2L7 YccE n=153 Tax=Enterobacterales TaxID=91347...  780     0.0   
+  UniRef90_A0A0Q3HLV5 YccE n=234 Tax=Enterobacterales TaxID=91347...  765     0.0   
+  UniRef90_L4JAM3 Uncharacterized protein n=4 Tax=Escherichia col...  740     0.0   
+  UniRef90_A0A074I6M0 Uncharacterized protein n=100 Tax=Escherich...  731     0.0   
+  UniRef90_UPI000BE2CB5E YccE family protein n=1 Tax=Escherichia ...  731     0.0   
+  UniRef90_A0A2X5DNA4 YccE n=52 Tax=Enterobacterales TaxID=91347 ...  728     0.0   
+  UniRef90_UPI000542B994 YccE family protein n=3 Tax=Escherichia ...  726     0.0   
+  UniRef90_D3QPJ5 Uncharacterized protein n=27 Tax=Escherichia co...  717     0.0   
+  UniRef90_A0A2X3NGH7 YccE n=30 Tax=Enterobacteriaceae TaxID=543 ...  697     0.0   
+  UniRef90_A0A2S7G107 Uncharacterized protein n=3 Tax=Escherichia...  689     0.0   
+  UniRef90_UPI0007E80C13 YccE family protein n=3 Tax=Escherichia ...  687     0.0   
+  UniRef90_A0A376TIB6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  637     0.0   
+  UniRef90_UPI0003EF4DC8 hypothetical protein n=3 Tax=Escherichia...  636     0.0   
+  UniRef90_A0A0L7AJH5 Uncharacterized protein n=10 Tax=Enterobact...  613     0.0   
+  UniRef90_A0A0K5TEP3 YccE n=5 Tax=Escherichia coli TaxID=562 Rep...  611     0.0   
+  UniRef90_A0A0F3T6V8 YccE n=60 Tax=Enterobacteriaceae TaxID=543 ...  562     0.0   
+  UniRef90_A0A399VB62 Uncharacterized protein n=3 Tax=Escherichia...  535     0.0   
+  UniRef90_A0A070FQB3 Uncharacterized protein n=15 Tax=Escherichi...  530     0.0   
+  UniRef90_UPI000CE51FEF hypothetical protein n=2 Tax=Escherichia...  523     0.0   
+  UniRef90_A0A376M9S0 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  505     7e-178
+  UniRef90_A0A3P5CYE5 Uncharacterized protein n=1 Tax=Escherichia...  504     3e-177
+  UniRef90_A0A377FCC9 YccE n=24 Tax=Enterobacterales TaxID=91347 ...  501     4e-176
+  UniRef90_A0A0P7LPU0 Uncharacterized protein n=1 Tax=Escherichia...  495     1e-174
+  UniRef90_A0A377CFS7 YccE n=6 Tax=Enterobacteriaceae TaxID=543 R...  485     5e-170
+  UniRef90_UPI000BE7E95C hypothetical protein n=1 Tax=Escherichia...  469     2e-163
+  UniRef90_U9ZU02 Uncharacterized protein n=4 Tax=Escherichia col...  466     2e-162
+  UniRef90_A0A3P4RDQ3 Uncharacterized protein n=5 Tax=Escherichia...  448     8e-156
+  UniRef90_A0A377BXB9 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  428     4e-148
+  UniRef90_A0A090NAW1 Uncharacterized protein n=5 Tax=Shigella dy...  385     2e-131
+  UniRef90_UPI000B42832B hypothetical protein n=1 Tax=Escherichia...  369     2e-125
+  UniRef90_A0A0I2HCY8 Uncharacterized protein n=6 Tax=Enterobacte...  359     7e-122
+  UniRef90_A0A2X1K6Q4 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  361     8e-122
+  UniRef90_A0A376FR31 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  359     2e-121
+  UniRef90_A0A3P4R1D4 Uncharacterized protein n=1 Tax=Escherichia...  353     6e-119
+  UniRef90_UPI000C1FA3AF hypothetical protein n=1 Tax=Escherichia...  352     2e-118
+  UniRef90_A0A376FKX2 YccE n=2 Tax=Escherichia coli TaxID=562 Rep...  347     5e-117
+  UniRef90_A0A148HS77 Uncharacterized protein (Fragment) n=3 Tax=...  301     3e-99 
+  UniRef90_A0A377AST4 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  286     2e-93 
+  UniRef90_A0A376YCP6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  275     5e-89 
+  UniRef90_A0A2X1MZD4 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  272     3e-88 
+  UniRef90_A0A398TG01 Uncharacterized protein (Fragment) n=1 Tax=...  268     4e-86 
+  UniRef90_A0A2X3JLJ6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  269     5e-86 
+  UniRef90_A0A2X1NPB6 YccE n=28 Tax=Escherichia coli TaxID=562 Re...  262     5e-84 
+  UniRef90_A0A377BZF7 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  256     8e-82 
+  UniRef90_A0A376UCP8 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  252     1e-80 
+  UniRef90_A0A376YA64 YccE n=2 Tax=Escherichia coli TaxID=562 Rep...  248     7e-79 
+  UniRef90_A0A377CGB8 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  245     1e-77 
+  UniRef90_A0A3J1D8G6 Uncharacterized protein (Fragment) n=1 Tax=...  241     2e-76 
+  UniRef90_A0A376ZUM3 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  239     7e-75 
+  UniRef90_A0A0K5EDF1 YccE n=17 Tax=Enterobacterales TaxID=91347 ...  234     2e-73 
+  UniRef90_A0A3P6WH11 Uncharacterized protein n=5 Tax=Escherichia...  232     2e-72 
+  UniRef90_A0A0I3C0Y1 Uncharacterized protein n=16 Tax=Enterobact...  213     3e-65 
+  UniRef90_UPI00039126D9 hypothetical protein n=1 Tax=Escherichia...  213     3e-64 
+  UniRef90_A0A377DVN9 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  209     2e-63 
+  UniRef90_A0A3P4CI38 Uncharacterized protein n=2 Tax=Escherichia...  209     2e-63 
+  UniRef90_A0A1A9P7B3 Uncharacterized protein n=35 Tax=Enterobact...  207     3e-63 
+  UniRef90_A0A376ZW37 YccE n=2 Tax=Escherichia coli TaxID=562 Rep...  198     1e-59 
+  UniRef90_A0A3P5DNW5 Uncharacterized protein n=3 Tax=Escherichia...  197     3e-59 
+  UniRef90_I6H6W2 Uncharacterized protein n=1 Tax=Shigella flexne...  193     8e-58 
+  UniRef90_W1VRM9 Uncharacterized protein (Fragment) n=1 Tax=Esch...  185     2e-54 
+  UniRef90_A0A3P6L2R8 Uncharacterized protein n=1 Tax=Shigella dy...  178     6e-52 
+  UniRef90_I6FRX4 Uncharacterized protein n=3 Tax=Enterobacteriac...  174     1e-49 
+  UniRef90_A0A0H0ITY6 YccE n=24 Tax=Enterobacteriaceae TaxID=543 ...  159     5e-45 
+  UniRef90_A0A2X1N096 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  157     3e-44 
+  UniRef90_A0A376VNJ0 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  155     3e-43 
+  UniRef90_A0A2X3M1S1 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  151     3e-42 
+  UniRef90_A0A376VLY6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  133     6e-35 
+  UniRef90_UPI000A367D81 hypothetical protein n=1 Tax=Escherichia...  127     1e-32 
+  UniRef90_UPI0003EE7B59 hypothetical protein n=2 Tax=Escherichia...  120     3e-30 
+  UniRef90_W1YJZ1 Uncharacterized protein (Fragment) n=1 Tax=huma...  118     2e-29 
+  UniRef90_UPI000C3382AA hypothetical protein n=1 Tax=Escherichia...  115     4e-28 
+  UniRef90_A0A377DU14 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  108     5e-26 
+  UniRef90_A0A2X2JHG4 Uncharacterized protein n=1 Tax=Shigella bo...  110     7e-26 
+  UniRef90_UPI000BE15F89 hypothetical protein n=1 Tax=Escherichia...  106     4e-25 
+  UniRef90_A0A3P5V7S5 Uncharacterized protein n=1 Tax=Escherichia...  104     1e-24 
+  UniRef90_V6G167 Uncharacterized protein n=1 Tax=Escherichia col...  99.8    9e-23 
+  UniRef90_A0A3P4DR53 Uncharacterized protein n=1 Tax=Escherichia...  96.3    3e-21 
+  UniRef90_UPI000BE44FBB hypothetical protein n=1 Tax=Escherichia...  93.2    4e-20 
+  UniRef90_A0A3P5VN29 Uncharacterized protein n=1 Tax=Escherichia...  90.9    3e-19 
+  UniRef90_UPI000BB6595D hypothetical protein n=1 Tax=Shigella so...  88.6    2e-18 
+  UniRef90_UPI000C22669C hypothetical protein n=1 Tax=Escherichia...  76.3    4e-14 
+  UniRef90_A0A376M9R1 YccE n=3 Tax=Escherichia coli TaxID=562 Rep...  60.1    2e-08 
+  UniRef90_A0A376THF6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  49.7    5e-05 
+  UniRef90_A0A0K4KTP2 YccE n=25 Tax=Escherichia TaxID=561 RepID=A...  54.7    7e-05 
+  UniRef90_A0A2D0SDQ2 probable carboxypeptidase X1 n=1 Tax=Ictalu...  46.2    0.065 
+  UniRef90_J1H6L6 NYN domain protein n=3 Tax=Clostridiales TaxID=...  41.6    1.1   
+  UniRef90_A0A3L6Q3X0 Putative gypsy-type retrotransposon n=1 Tax...  41.2    1.2   
+  UniRef90_A0A1W1BQW2 GTP-binding protein EngB n=1 Tax=hydrotherm...  40.4    2.1   
+  UniRef90_A0A378JU29 Uncharacterized protein n=3 Tax=Legionella ...  40.4    2.1   
+  UniRef90_A0A2A4GFL1 N-acetylgalactosamine-6-sulfatase n=1 Tax=S...  40.4    3.6   
+  UniRef90_A0A0D9NCN4 Glutamine-dependent NAD(+) synthetase n=24 ...  40.4    4.3   
+  UniRef90_A0A1G7ILV2 Glutamine-dependent NAD(+) synthetase n=3 T...  39.7    8.8   
+  UniRef90_A0A1H9MW14 Subtilisin n=2 Tax=Piscibacillus halophilus...  39.3    8.9   
+  UniRef90_A0A1Z8VSR3 Uncharacterized protein n=2 Tax=Alphaproteo...  38.5    9.2   
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4294081993080
+Warning: [psiblast] lcl|Query_1 NP_415521.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415521.1
+
+Length=418
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0Q3HLV5 YccE n=234 Tax=Enterobacterales TaxID=91347...  732     0.0   
+  UniRef90_A0A0L6Y2L7 YccE n=153 Tax=Enterobacterales TaxID=91347...  729     0.0   
+  UniRef90_UPI000542B994 YccE family protein n=3 Tax=Escherichia ...  714     0.0   
+  UniRef90_P36661 Uncharacterized protein YccE n=380 Tax=Proteoba...  714     0.0   
+  UniRef90_L4JAM3 Uncharacterized protein n=4 Tax=Escherichia col...  702     0.0   
+  UniRef90_A0A074I6M0 Uncharacterized protein n=100 Tax=Escherich...  700     0.0   
+  UniRef90_A0A2X3NGH7 YccE n=30 Tax=Enterobacteriaceae TaxID=543 ...  698     0.0   
+  UniRef90_UPI000BE2CB5E YccE family protein n=1 Tax=Escherichia ...  697     0.0   
+  UniRef90_A0A2X5DNA4 YccE n=52 Tax=Enterobacterales TaxID=91347 ...  696     0.0   
+  UniRef90_D3QPJ5 Uncharacterized protein n=27 Tax=Escherichia co...  695     0.0   
+  UniRef90_UPI0007E80C13 YccE family protein n=3 Tax=Escherichia ...  670     0.0   
+  UniRef90_A0A2S7G107 Uncharacterized protein n=3 Tax=Escherichia...  640     0.0   
+  UniRef90_A0A0L7AJH5 Uncharacterized protein n=10 Tax=Enterobact...  633     0.0   
+  UniRef90_A0A376TIB6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  593     0.0   
+  UniRef90_UPI0003EF4DC8 hypothetical protein n=3 Tax=Escherichia...  528     0.0   
+  UniRef90_A0A0F3T6V8 YccE n=60 Tax=Enterobacteriaceae TaxID=543 ...  516     0.0   
+  UniRef90_A0A399VB62 Uncharacterized protein n=3 Tax=Escherichia...  513     1e-180
+  UniRef90_A0A070FQB3 Uncharacterized protein n=15 Tax=Escherichi...  506     7e-178
+  UniRef90_A0A0K5TEP3 YccE n=5 Tax=Escherichia coli TaxID=562 Rep...  503     1e-176
+  UniRef90_A0A3P5CYE5 Uncharacterized protein n=1 Tax=Escherichia...  502     2e-176
+  UniRef90_UPI000CE51FEF hypothetical protein n=2 Tax=Escherichia...  498     9e-175
+  UniRef90_A0A377FCC9 YccE n=24 Tax=Enterobacterales TaxID=91347 ...  492     2e-172
+  UniRef90_UPI000BE7E95C hypothetical protein n=1 Tax=Escherichia...  477     2e-166
+  UniRef90_A0A377CFS7 YccE n=6 Tax=Enterobacteriaceae TaxID=543 R...  474     1e-165
+  UniRef90_A0A376M9S0 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  466     3e-162
+  UniRef90_U9ZU02 Uncharacterized protein n=4 Tax=Escherichia col...  454     1e-157
+  UniRef90_A0A3P4RDQ3 Uncharacterized protein n=5 Tax=Escherichia...  431     6e-149
+  UniRef90_A0A0P7LPU0 Uncharacterized protein n=1 Tax=Escherichia...  423     4e-146
+  UniRef90_A0A377BXB9 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  395     2e-135
+  UniRef90_UPI000B42832B hypothetical protein n=1 Tax=Escherichia...  368     3e-125
+  UniRef90_A0A090NAW1 Uncharacterized protein n=5 Tax=Shigella dy...  369     4e-125
+  UniRef90_A0A2X1K6Q4 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  367     3e-124
+  UniRef90_A0A3P4R1D4 Uncharacterized protein n=1 Tax=Escherichia...  365     1e-123
+  UniRef90_UPI000C1FA3AF hypothetical protein n=1 Tax=Escherichia...  365     2e-123
+  UniRef90_A0A376FR31 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  330     3e-110
+  UniRef90_A0A0I2HCY8 Uncharacterized protein n=6 Tax=Enterobacte...  330     4e-110
+  UniRef90_A0A376FKX2 YccE n=2 Tax=Escherichia coli TaxID=562 Rep...  291     5e-95 
+  UniRef90_A0A148HS77 Uncharacterized protein (Fragment) n=3 Tax=...  274     1e-88 
+  UniRef90_A0A398TG01 Uncharacterized protein (Fragment) n=1 Tax=...  271     2e-87 
+  UniRef90_A0A2X3JLJ6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  271     5e-87 
+  UniRef90_A0A377AST4 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  258     3e-82 
+  UniRef90_A0A377BZF7 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  255     2e-81 
+  UniRef90_A0A2X1NPB6 YccE n=28 Tax=Escherichia coli TaxID=562 Re...  253     1e-80 
+  UniRef90_A0A376YCP6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  246     1e-77 
+  UniRef90_A0A377CGB8 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  236     4e-74 
+  UniRef90_A0A376UCP8 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  228     3e-71 
+  UniRef90_A0A376ZUM3 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  229     4e-71 
+  UniRef90_A0A3P6WH11 Uncharacterized protein n=5 Tax=Escherichia...  222     8e-69 
+  UniRef90_A0A3P4CI38 Uncharacterized protein n=2 Tax=Escherichia...  222     2e-68 
+  UniRef90_A0A0I3C0Y1 Uncharacterized protein n=16 Tax=Enterobact...  219     2e-67 
+  UniRef90_UPI00039126D9 hypothetical protein n=1 Tax=Escherichia...  219     1e-66 
+  UniRef90_A0A3J1D8G6 Uncharacterized protein (Fragment) n=1 Tax=...  216     1e-66 
+  UniRef90_A0A2X1MZD4 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  214     1e-65 
+  UniRef90_A0A1A9P7B3 Uncharacterized protein n=35 Tax=Enterobact...  208     2e-63 
+  UniRef90_A0A0K5EDF1 YccE n=17 Tax=Enterobacterales TaxID=91347 ...  207     5e-63 
+  UniRef90_A0A376YA64 YccE n=2 Tax=Escherichia coli TaxID=562 Rep...  201     2e-60 
+  UniRef90_A0A3P5DNW5 Uncharacterized protein n=3 Tax=Escherichia...  192     3e-57 
+  UniRef90_A0A377DVN9 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  192     6e-57 
+  UniRef90_A0A376ZW37 YccE n=2 Tax=Escherichia coli TaxID=562 Rep...  189     3e-56 
+  UniRef90_W1VRM9 Uncharacterized protein (Fragment) n=1 Tax=Esch...  186     8e-55 
+  UniRef90_A0A3P6L2R8 Uncharacterized protein n=1 Tax=Shigella dy...  181     4e-53 
+  UniRef90_I6H6W2 Uncharacterized protein n=1 Tax=Shigella flexne...  177     8e-52 
+  UniRef90_I6FRX4 Uncharacterized protein n=3 Tax=Enterobacteriac...  168     1e-47 
+  UniRef90_A0A0H0ITY6 YccE n=24 Tax=Enterobacteriaceae TaxID=543 ...  150     2e-41 
+  UniRef90_A0A376VLY6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  146     8e-40 
+  UniRef90_A0A0K4KTP2 YccE n=25 Tax=Escherichia TaxID=561 RepID=A...  150     3e-39 
+  UniRef90_A0A376VNJ0 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  144     4e-39 
+  UniRef90_A0A2X1N096 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  143     7e-39 
+  UniRef90_A0A2X3M1S1 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  132     8e-35 
+  UniRef90_W1YJZ1 Uncharacterized protein (Fragment) n=1 Tax=huma...  129     1e-33 
+  UniRef90_UPI000A367D81 hypothetical protein n=1 Tax=Escherichia...  123     3e-31 
+  UniRef90_UPI0003EE7B59 hypothetical protein n=2 Tax=Escherichia...  118     1e-29 
+  UniRef90_A0A377DU14 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  116     8e-29 
+  UniRef90_A0A2X2JHG4 Uncharacterized protein n=1 Tax=Shigella bo...  112     6e-27 
+  UniRef90_UPI000C3382AA hypothetical protein n=1 Tax=Escherichia...  103     8e-24 
+  UniRef90_A0A3P4DR53 Uncharacterized protein n=1 Tax=Escherichia...  96.3    2e-21 
+  UniRef90_A0A3P5V7S5 Uncharacterized protein n=1 Tax=Escherichia...  95.1    5e-21 
+  UniRef90_A0A3P5VN29 Uncharacterized protein n=1 Tax=Escherichia...  93.6    3e-20 
+  UniRef90_V6G167 Uncharacterized protein n=1 Tax=Escherichia col...  92.4    5e-20 
+  UniRef90_UPI000BE15F89 hypothetical protein n=1 Tax=Escherichia...  91.3    1e-19 
+  UniRef90_UPI000BE44FBB hypothetical protein n=1 Tax=Escherichia...  88.9    1e-18 
+  UniRef90_UPI000BB6595D hypothetical protein n=1 Tax=Shigella so...  80.1    2e-15 
+  UniRef90_UPI000C22669C hypothetical protein n=1 Tax=Escherichia...  75.5    9e-14 
+  UniRef90_A0A376M9R1 YccE n=3 Tax=Escherichia coli TaxID=562 Rep...  58.5    8e-08 
+  UniRef90_A0A376THF6 YccE n=1 Tax=Escherichia coli TaxID=562 Rep...  47.3    3e-04 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A3G4VJW1 Uncharacterized protein n=1 Tax=Vibrio medi...  45.8    0.057
+  UniRef90_UPI000E0C3FAD hypothetical protein n=1 Tax=Vibrio sp. ...  45.0    0.12 
+  UniRef90_UPI000F68F63C hypothetical protein n=1 Tax=Vibrio pect...  40.8    2.7  
+  UniRef90_UPI000405D2E6 hypothetical protein n=1 Tax=Ottowia thi...  40.8    2.9  
+  UniRef90_A0A1H9VYW4 Oligoendopeptidase F n=2 Tax=Salisediminiba...  40.8    3.5  
+  UniRef90_A0A3L8PXD2 Uncharacterized protein n=1 Tax=Shewanellac...  40.4    4.4  
+  UniRef90_J1H6L6 NYN domain protein n=3 Tax=Clostridiales TaxID=...  39.6    5.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.136    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0416    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4294081993080
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,815 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415228.1
+
+Length=68
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAU3 Uncharacterized protein YbfA n=274 Tax=cellular...  141     7e-43
+  UniRef90_I2RAZ3 PF10725 family protein n=2 Tax=Escherichia coli...  133     1e-39
+  UniRef90_L0M8M1 Uncharacterized protein n=7 Tax=Enterobacteriac...  125     1e-36
+  UniRef90_A0A2T1LNR7 DUF2517 domain-containing protein n=23 Tax=...  123     9e-36
+  UniRef90_A8AJB5 Uncharacterized protein n=3 Tax=Enterobacteriac...  122     4e-35
+  UniRef90_A0A2S4RZU7 DUF2517 domain-containing protein n=1 Tax=C...  121     4e-35
+  UniRef90_A0A1B3EYX4 DUF2517 domain-containing protein n=22 Tax=...  120     7e-35
+  UniRef90_A0A0L0H0U1 Uncharacterized protein n=2 Tax=Trabulsiell...  120     8e-35
+  UniRef90_G8LEZ9 YbfA n=86 Tax=Bacteria TaxID=2 RepID=G8LEZ9_ENTCL   120     1e-34
+  UniRef90_A0A0D7LS75 Uncharacterized protein n=18 Tax=Gammaprote...  120     1e-34
+  UniRef90_A0A1S1A5M8 DUF2517 family protein n=121 Tax=Enterobact...  118     6e-34
+  UniRef90_A0A2X3GE24 Protein of uncharacterized function (DUF251...  118     8e-34
+  UniRef90_UPI000808438A DUF2517 family protein n=3 Tax=Enterobac...  116     4e-33
+  UniRef90_A0A3E1ZZU8 DUF2517 family protein n=2 Tax=Leclercia Ta...  116     5e-33
+  UniRef90_UPI000377EDD7 DUF2517 family protein n=1 Tax=Enterobac...  115     7e-33
+  UniRef90_E3G3V8 Uncharacterized protein n=1 Tax=Enterobacter li...  115     7e-33
+  UniRef90_A0A089PVM1 DUF2517 domain-containing protein n=2 Tax=P...  115     1e-32
+  UniRef90_A0A1B7JFQ0 Putative exported protein n=2 Tax=Kluyvera ...  115     2e-32
+  UniRef90_UPI000EB2B89F DUF2517 family protein n=1 Tax=Enterobac...  114     2e-32
+  UniRef90_A0A0M3F0U2 Uncharacterized protein n=2 Tax=Enterobacte...  114     3e-32
+  UniRef90_UPI000903C6B0 DUF2517 family protein n=1 Tax=Enterobac...  114     3e-32
+  UniRef90_A0A0D5WR97 Uncharacterized protein n=8 Tax=Enterobacte...  114     5e-32
+  UniRef90_A0A3L3H912 DUF2517 family protein (Fragment) n=6 Tax=E...  113     5e-32
+  UniRef90_A0A2P8VPK8 DUF2517 domain-containing protein n=2 Tax=S...  113     6e-32
+  UniRef90_A0A1U7E327 Uncharacterized protein n=4 Tax=Enterobacte...  113     7e-32
+  UniRef90_A0A381CBV0 Protein of uncharacterized function (DUF251...  113     1e-31
+  UniRef90_A0A285L2M2 Uncharacterized protein n=2 Tax=Enterobacte...  112     1e-31
+  UniRef90_A0A318F7G6 Uncharacterized protein DUF2517 n=1 Tax=Kle...  112     2e-31
+  UniRef90_A0A127L263 Membrane protein n=2 Tax=Enterobacteriaceae...  112     2e-31
+  UniRef90_UPI0003066C6D DUF2517 family protein n=1 Tax=Metakosak...  112     3e-31
+  UniRef90_A0A1I6D9U2 Uncharacterized protein n=1 Tax=Enterobacte...  111     4e-31
+  UniRef90_UPI00073DB1DD DUF2517 family protein n=1 Tax=[Erwinia]...  111     5e-31
+  UniRef90_A0A370YRU4 DUF2517 family protein n=10 Tax=Enterobacte...  109     2e-30
+  UniRef90_R9VRL6 Uncharacterized protein n=9 Tax=Enterobacteriac...  109     2e-30
+  UniRef90_A0A0J8YF07 Uncharacterized protein n=3 Tax=Franconibac...  108     4e-30
+  UniRef90_A0A1B7HS46 Putative exported protein n=6 Tax=Buttiauxe...  108     4e-30
+  UniRef90_UPI00077B79FE DUF2517 family protein n=1 Tax=Enterobac...  108     5e-30
+  UniRef90_UPI000E342304 DUF2517 family protein n=1 Tax=Escherich...  108     6e-30
+  UniRef90_A0A2T7AZE0 DUF2517 domain-containing protein n=1 Tax=C...  108     7e-30
+  UniRef90_H5V329 Uncharacterized protein n=4 Tax=Enterobacteriac...  107     2e-29
+  UniRef90_A0A3N1IVI8 Uncharacterized protein DUF2517 n=2 Tax=Ent...  107     3e-29
+  UniRef90_A0A0L0AM01 Uncharacterized protein n=2 Tax=Enterobacte...  105     1e-28
+  UniRef90_A0A379WZ92 Putative periplasmic protein n=1 Tax=Salmon...  102     1e-27
+  UniRef90_C9XZ88 Uncharacterized protein ybfA n=23 Tax=Cronobact...  101     6e-27
+  UniRef90_D4E9L0 Uncharacterized protein n=1 Tax=Serratia odorif...  100     6e-27
+  UniRef90_A0A140F006 Protein of uncharacterized function (DUF251...  100     1e-26
+  UniRef90_I2BB53 Uncharacterized protein n=1 Tax=Shimwellia blat...  100     1e-26
+  UniRef90_A0A250AYS0 Uncharacterized protein n=1 Tax=Gibbsiella ...  99.8    2e-26
+  UniRef90_A0A0T9N0G0 Membrane protein n=12 Tax=Yersinia TaxID=44...  98.2    7e-26
+  UniRef90_A0A071LUH0 Membrane protein n=3 Tax=Mangrovibacter Tax...  97.8    1e-25
+  UniRef90_A0A1M5LR38 Uncharacterized protein YbfA n=25 Tax=Pecto...  97.4    1e-25
+  UniRef90_A0A090V1Q4 Uncharacterized protein n=3 Tax=Enterobacte...  97.4    1e-25
+  UniRef90_A0A0T9RJ08 DUF2517 domain-containing protein n=3 Tax=Y...  96.3    5e-25
+  UniRef90_W0LHX6 Membrane protein n=3 Tax=Yersiniaceae TaxID=190...  95.9    6e-25
+  UniRef90_A0A0X8SGB1 DUF2517 domain-containing protein n=27 Tax=...  95.5    8e-25
+  UniRef90_A0A168MM93 DUF2517 family protein n=18 Tax=Enterobacte...  95.5    8e-25
+  UniRef90_A0A0U3ZWL7 DUF2517 domain-containing protein n=7 Tax=Y...  95.5    9e-25
+  UniRef90_A0A370QHP8 Uncharacterized protein DUF2517 n=1 Tax=Ent...  95.5    9e-25
+  UniRef90_A0A366IBT4 Uncharacterized protein DUF2517 n=1 Tax=Bre...  95.1    1e-24
+  UniRef90_A8GB64 Uncharacterized protein n=5 Tax=Serratia TaxID=...  95.1    2e-24
+  UniRef90_A0A097R071 Membrane protein n=9 Tax=Enterobacterales T...  94.7    2e-24
+  UniRef90_A0A084A6D8 Uncharacterized protein n=1 Tax=Serratia sp...  94.4    2e-24
+  UniRef90_A0A0T9URI0 Membrane protein n=4 Tax=Yersinia frederiks...  94.4    2e-24
+  UniRef90_Q8D109 Uncharacterized protein n=12 Tax=Yersinia TaxID...  95.1    3e-24
+  UniRef90_A0A2U1TWJ3 DUF2517 domain-containing protein n=2 Tax=B...  94.0    4e-24
+  UniRef90_A0A2S9II63 Uncharacterized protein n=2 Tax=Erwiniaceae...  94.0    4e-24
+  UniRef90_A0A2X1LTX4 Protein n=2 Tax=Enterobacteriaceae TaxID=54...  93.2    4e-24
+  UniRef90_UPI00098E42DA DUF2517 family protein n=1 Tax=Salmonell...  94.0    4e-24
+  UniRef90_A0A1N6T0U4 Uncharacterized protein n=2 Tax=Enterobacte...  93.6    4e-24
+  UniRef90_A0A2V1HA56 DUF2517 domain-containing protein n=1 Tax=S...  93.6    5e-24
+  UniRef90_G7LQ85 Uncharacterized protein n=3 Tax=Brenneria TaxID...  93.6    5e-24
+  UniRef90_A0A2I0FRT3 Uncharacterized protein n=1 Tax=Enterobacte...  93.2    7e-24
+  UniRef90_A0A1V2BT86 Uncharacterized protein n=5 Tax=Enterobacte...  93.2    8e-24
+  UniRef90_UPI000EF260B3 DUF2517 family protein n=1 Tax=Brenneria...  92.8    9e-24
+  UniRef90_A0A354AP25 DUF2517 domain-containing protein n=1 Tax=E...  92.4    1e-23
+  UniRef90_C6CCC6 Uncharacterized protein n=1 Tax=Dickeya paradis...  92.4    1e-23
+  UniRef90_A0A1D3U723 Protein n=66 Tax=Enterobacteriaceae TaxID=5...  92.4    2e-23
+  UniRef90_A0A2N5EQA9 DUF2517 domain-containing protein n=3 Tax=u...  92.0    2e-23
+  UniRef90_A0A2X2URN5 Protein of uncharacterized function (DUF251...  92.4    2e-23
+  UniRef90_UPI0004B07EFF DUF2517 family protein n=1 Tax=Enterobac...  92.0    2e-23
+  UniRef90_UPI000DEF6D1F DUF2517 family protein n=1 Tax=Rahnella ...  91.3    4e-23
+  UniRef90_C6CPU6 Uncharacterized protein n=3 Tax=Dickeya chrysan...  91.3    4e-23
+  UniRef90_UPI00055130AB DUF2517 family protein n=2 Tax=Erwinia T...  91.3    5e-23
+  UniRef90_A0A0N0ZA35 Putative exported protein n=2 Tax=Moellerel...  91.3    5e-23
+  UniRef90_A0A2L0IE17 DUF2517 domain-containing protein n=3 Tax=E...  90.9    6e-23
+  UniRef90_D8MPQ6 Putative membrane protein n=2 Tax=Erwinia billi...  90.9    6e-23
+  UniRef90_A0A358L5Y9 DUF2517 domain-containing protein n=1 Tax=E...  90.5    8e-23
+  UniRef90_A0A385XYH7 Uncharacterized protein n=2 Tax=Dickeya dia...  90.5    9e-23
+  UniRef90_A0A0A5FT85 Membrane protein n=3 Tax=Yersinia TaxID=444...  90.1    1e-22
+  UniRef90_A0A1W6B0Z7 Uncharacterized protein n=2 Tax=Erwiniaceae...  89.7    1e-22
+  UniRef90_A0A0T9QLR4 Membrane protein n=5 Tax=Yersinia pseudotub...  90.1    1e-22
+  UniRef90_UPI0004696451 DUF2517 family protein n=1 Tax=Pantoea s...  89.7    2e-22
+  UniRef90_UPI000F66265C DUF2517 family protein n=1 Tax=Erwinia s...  89.7    2e-22
+  UniRef90_A0A1N6MZY6 Uncharacterized protein n=4 Tax=Xenorhabdus...  89.4    3e-22
+  UniRef90_A0A0A3ZXQ8 Membrane protein n=1 Tax=Erwinia typographi...  89.4    3e-22
+  UniRef90_D2BVA5 Uncharacterized protein n=8 Tax=Enterobacterale...  89.0    3e-22
+  UniRef90_A0A0J9B8N6 Membrane protein n=2 Tax=unclassified Erwin...  89.0    4e-22
+  UniRef90_A0A2N0MXJ7 Uncharacterized protein n=3 Tax=Ewingella a...  89.0    4e-22
+  UniRef90_A0A3N6S8I7 DUF2517 family protein n=1 Tax=Erwinia psid...  88.6    5e-22
+  UniRef90_H2IX75 Uncharacterized protein n=10 Tax=Yersiniaceae T...  88.6    6e-22
+  UniRef90_A0A377E6T7 Protein n=1 Tax=Escherichia coli TaxID=562 ...  87.8    6e-22
+  UniRef90_A0A1S8YJ10 Uncharacterized protein n=1 Tax=Izhakiella ...  88.2    8e-22
+  UniRef90_A0A068QQV6 Uncharacterized protein n=1 Tax=Xenorhabdus...  88.2    8e-22
+  UniRef90_A0A0T9SBH7 Membrane protein n=21 Tax=Yersinia TaxID=44...  87.8    1e-21
+  UniRef90_A0A068R527 Uncharacterized protein n=2 Tax=Xenorhabdus...  87.8    1e-21
+  UniRef90_A0A1Y2SEW9 Membrane protein n=1 Tax=Xenorhabdus vietna...  87.8    1e-21
+  UniRef90_A0A0F7LRT5 Membrane protein n=5 Tax=Photorhabdus TaxID...  87.4    2e-21
+  UniRef90_A0A0L7TDM4 Membrane protein n=1 Tax=Erwinia iniecta Ta...  87.0    2e-21
+  UniRef90_A0A1Y2SIL0 Membrane protein n=1 Tax=Xenorhabdus beddin...  87.0    2e-21
+  UniRef90_A0A2D0J5S0 Membrane protein n=4 Tax=Xenorhabdus TaxID=...  87.0    2e-21
+  UniRef90_UPI000F657030 DUF2517 family protein n=1 Tax=Dickeya s...  86.7    2e-21
+  UniRef90_UPI000948E582 DUF2517 family protein n=1 Tax=Pantoea s...  86.7    3e-21
+  UniRef90_E0SEY1 Uncharacterized protein n=7 Tax=Dickeya TaxID=2...  86.7    3e-21
+  UniRef90_A0A3N4PIZ3 DUF2517 family protein n=1 Tax=Pantoea sp. ...  86.7    3e-21
+  UniRef90_A0A0A2REL4 DUF2517 domain-containing protein n=9 Tax=B...  86.7    3e-21
+  UniRef90_UPI00034CD551 DUF2517 family protein n=1 Tax=Erwinia t...  86.3    4e-21
+  UniRef90_A0A2G0QAI1 Membrane protein n=1 Tax=Xenorhabdus homini...  85.9    6e-21
+  UniRef90_UPI0005345D44 DUF2517 family protein n=1 Tax=Pantoea s...  85.5    7e-21
+  UniRef90_E0LUC0 Uncharacterized protein n=21 Tax=Erwiniaceae Ta...  85.5    8e-21
+  UniRef90_J3D703 Uncharacterized protein n=4 Tax=Enterobacterale...  85.5    1e-20
+  UniRef90_A0A077PL12 Uncharacterized protein n=9 Tax=Xenorhabdus...  85.5    1e-20
+  UniRef90_A0A375AE20 FIG01200701: possible membrane protein n=1 ...  85.1    1e-20
+  UniRef90_D4HZB2 Uncharacterized protein ybfA n=3 Tax=Erwinia am...  85.1    1e-20
+  UniRef90_Q7N6W4 Uncharacterized protein n=11 Tax=Photorhabdus T...  85.1    1e-20
+  UniRef90_A0A0J5FTV8 Membrane protein n=3 Tax=Xenorhabdus TaxID=...  85.1    1e-20
+  UniRef90_A0A1X3RTW3 Uncharacterized protein n=6 Tax=Lonsdalea T...  85.1    1e-20
+  UniRef90_A0A2D0LGC5 Membrane protein n=1 Tax=Xenorhabdus kozodo...  85.1    1e-20
+  UniRef90_A0A022PH67 Uncharacterized protein n=7 Tax=Photorhabdu...  85.1    1e-20
+  UniRef90_A0A0A8NYC8 Uncharacterized protein n=4 Tax=Xenorhabdus...  85.1    1e-20
+  UniRef90_A0A0Q4MV27 Uncharacterized protein n=1 Tax=Erwinia sp....  85.1    1e-20
+  UniRef90_A0A0N0CLF7 Uncharacterized protein n=1 Tax=Photorhabdu...  84.7    2e-20
+  UniRef90_A0A1A9B004 DUF2517 domain-containing protein n=3 Tax=P...  84.7    2e-20
+  UniRef90_A0A1C0U1I4 Uncharacterized protein n=2 Tax=Photorhabdu...  84.3    2e-20
+  UniRef90_A0A1I4UD06 Uncharacterized protein n=1 Tax=Izhakiella ...  84.3    2e-20
+  UniRef90_A0A0F3LV21 Membrane protein n=5 Tax=Enterobacterales T...  84.0    3e-20
+  UniRef90_UPI0008FBCCA9 DUF2517 family protein n=1 Tax=Cronobact...  83.6    3e-20
+  UniRef90_W1IW39 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  84.0    4e-20
+  UniRef90_A0A014LVC8 Membrane protein n=1 Tax=Erwinia mallotivor...  84.0    4e-20
+  UniRef90_A0A246NJW5 Uncharacterized protein n=1 Tax=Pantoea sp....  83.6    4e-20
+  UniRef90_A0A1X0WLD1 Uncharacterized protein n=1 Tax=Rouxiella b...  83.6    5e-20
+  UniRef90_UPI000FE30488 DUF2517 family protein n=1 Tax=Pantoea s...  83.2    6e-20
+  UniRef90_A0A2I5TAE8 DUF2517 domain-containing protein n=1 Tax=S...  83.2    7e-20
+  UniRef90_J3C039 Uncharacterized protein n=2 Tax=Pantoea TaxID=5...  83.2    8e-20
+  UniRef90_A0A2A7U0M2 DUF2517 domain-containing protein n=2 Tax=E...  83.2    8e-20
+  UniRef90_A0A2C6DN84 DUF2517 domain-containing protein n=1 Tax=B...  82.8    8e-20
+  UniRef90_A0A1B7JZ24 Putative exported protein n=7 Tax=Providenc...  82.8    8e-20
+  UniRef90_UPI00080F5784 DUF2517 family protein n=1 Tax=Pantoea e...  82.8    1e-19
+  UniRef90_A0A1Q5TY69 Membrane protein n=1 Tax=Xenorhabdus eapoke...  82.8    1e-19
+  UniRef90_A0A1B8GZY5 Uncharacterized protein n=3 Tax=Morganella ...  82.8    1e-19
+  UniRef90_B6XJJ4 Uncharacterized protein n=6 Tax=Providencia Tax...  82.4    1e-19
+  UniRef90_A0A376DB82 Protein of uncharacterized function (DUF251...  82.0    2e-19
+  UniRef90_A0A0M0T881 Membrane protein n=1 Tax=Xenorhabdus sp. GD...  82.0    3e-19
+  UniRef90_UPI00082ABBC9 DUF2517 family protein n=1 Tax=Erwinia s...  81.6    3e-19
+  UniRef90_A0A2Y9TVF6 DUF2517 family protein n=1 Tax=Limnobaculum...  81.6    3e-19
+  UniRef90_A0A1N6NLM2 Uncharacterized protein n=1 Tax=Aeromonas s...  81.3    3e-19
+  UniRef90_R1H296 Uncharacterized protein n=2 Tax=Aeromonas TaxID...  81.3    4e-19
+  UniRef90_A0A0G3CPN5 Membrane protein n=1 Tax=Pragia fontium Tax...  81.3    4e-19
+  UniRef90_A0A356DB78 DUF2517 domain-containing protein n=1 Tax=P...  81.3    4e-19
+  UniRef90_A0A2S5KC09 DUF2517 domain-containing protein n=3 Tax=E...  80.9    5e-19
+  UniRef90_A0A0S2SPT1 Uncharacterized protein n=2 Tax=Aeromonas T...  80.9    6e-19
+  UniRef90_K8WZQ3 Uncharacterized protein n=2 Tax=Providencia Tax...  80.5    8e-19
+  UniRef90_A0A198FIP0 Putative exported protein n=1 Tax=Cosenzaea...  80.1    1e-18
+  UniRef90_A0A2X1QLK4 Protein of uncharacterized function (DUF251...  79.3    1e-18
+  UniRef90_UPI000663C204 DUF2517 family protein n=1 Tax=Shigella ...  79.3    2e-18
+  UniRef90_A0A0U5L3J7 Putative membrane protein n=1 Tax=Erwinia g...  79.0    3e-18
+  UniRef90_A0A0Q4M2B8 Uncharacterized protein n=2 Tax=Yersiniacea...  78.6    5e-18
+  UniRef90_C5BG85 Uncharacterized protein n=6 Tax=Edwardsiella Ta...  78.2    6e-18
+  UniRef90_A0A329X271 Uncharacterized protein n=1 Tax=Photorhabdu...  78.2    6e-18
+  UniRef90_A0A1Q5U9I6 Membrane protein n=3 Tax=Xenorhabdus TaxID=...  78.2    8e-18
+  UniRef90_A0A1I3IF10 Uncharacterized protein n=1 Tax=Xenorhabdus...  78.2    8e-18
+  UniRef90_UPI000B34D5CE DUF2517 family protein n=1 Tax=Thaumasio...  77.8    8e-18
+  UniRef90_UPI0005A9799A DUF2517 family protein n=1 Tax=Aeromonas...  77.8    9e-18
+  UniRef90_A0KMT9 Uncharacterized protein n=59 Tax=Gammaproteobac...  77.8    9e-18
+  UniRef90_A0A1Z1SXB5 Protein of uncharacterized function (DUF251...  77.8    1e-17
+  UniRef90_A0A379GQC8 Protein of uncharacterized function (DUF251...  77.0    2e-17
+  UniRef90_D2U0D2 Uncharacterized protein n=3 Tax=Arsenophonus Ta...  77.4    2e-17
+  UniRef90_A0A376LK29 Protein n=1 Tax=Escherichia coli TaxID=562 ...  75.9    6e-17
+  UniRef90_A0A1E7YZ75 Uncharacterized protein n=2 Tax=Candidatus ...  74.7    2e-16
+  UniRef90_UPI0005A6B6F5 DUF2517 family protein n=1 Tax=Aeromonas...  74.3    2e-16
+  UniRef90_UPI0006633C36 DUF2517 family protein n=1 Tax=Shigella ...  73.6    3e-16
+  UniRef90_A0A2T3N504 DUF2517 domain-containing protein n=1 Tax=P...  73.6    5e-16
+  UniRef90_A0A2J9E6P5 DUF2517 domain-containing protein n=5 Tax=E...  73.6    5e-16
+  UniRef90_K8WFX9 Uncharacterized protein n=1 Tax=Providencia sne...  73.2    6e-16
+  UniRef90_A0A1X1D9D6 Uncharacterized protein n=1 Tax=Pantoea wal...  73.2    7e-16
+  UniRef90_UPI000B353A38 DUF2517 family protein n=1 Tax=Thaumasio...  72.4    1e-15
+  UniRef90_I0QT64 Uncharacterized protein n=1 Tax=Serratia sp. M2...  71.6    3e-15
+  UniRef90_A0A0F5Y5S7 Membrane protein n=3 Tax=Pantoea TaxID=5333...  71.2    3e-15
+  UniRef90_Q1Z5P7 Putative membrane protein n=2 Tax=Photobacteriu...  70.9    5e-15
+  UniRef90_A0A0J1HC03 Uncharacterized protein n=1 Tax=Photobacter...  70.1    1e-14
+  UniRef90_A0A389MBI2 Uncharacterized protein n=1 Tax=Enterobacte...  69.7    1e-14
+  UniRef90_UPI0009522637 DUF2517 family protein n=1 Tax=Photobact...  69.3    2e-14
+  UniRef90_A0A0B1R9A7 Membrane protein n=4 Tax=Erwiniaceae TaxID=...  67.8    7e-14
+  UniRef90_W1WD04 Uncharacterized protein (Fragment) n=1 Tax=huma...  68.2    8e-14
+  UniRef90_E6WC05 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  67.8    9e-14
+  UniRef90_E3DKR8 Uncharacterized protein n=1 Tax=Erwinia sp. (st...  67.4    1e-13
+  UniRef90_A0A0F5VFZ5 Uncharacterized protein n=3 Tax=Photobacter...  66.6    2e-13
+  UniRef90_A0A2G8E4J3 Uncharacterized protein n=1 Tax=Erwinia sp....  65.1    1e-12
+  UniRef90_A0A066RZZ1 Uncharacterized protein n=1 Tax=Photobacter...  64.3    2e-12
+  UniRef90_A0A2T3JRA6 DUF2517 domain-containing protein n=2 Tax=P...  63.9    3e-12
+  UniRef90_A0A2T3IB51 DUF2517 domain-containing protein n=6 Tax=P...  61.6    3e-11
+  UniRef90_L8JEQ1 Putative exported protein n=2 Tax=Photobacteriu...  60.8    6e-11
+  UniRef90_A0A2T3NRB3 DUF2517 domain-containing protein n=1 Tax=P...  60.1    1e-10
+  UniRef90_A0A368NSF3 DUF2517 family protein n=1 Tax=Corallincola...  58.9    3e-10
+  UniRef90_UPI0001961194 DUF2517 family protein n=1 Tax=Erwinia p...  58.5    4e-10
+  UniRef90_A0A2A4GD20 Uncharacterized protein n=4 Tax=Salinivibri...  58.5    4e-10
+  UniRef90_A0A0F5AU98 Membrane protein n=6 Tax=Salinivibrio TaxID...  57.0    1e-09
+  UniRef90_A0A0B9GWN6 Uncharacterized protein n=4 Tax=Photobacter...  57.0    1e-09
+  UniRef90_UPI000B3C0949 DUF2517 family protein n=1 Tax=Neiella m...  57.0    2e-09
+  UniRef90_UPI00055007CB DUF2517 family protein n=1 Tax=Aliagariv...  54.7    1e-08
+  UniRef90_A0A1T5HZD6 Uncharacterized protein n=1 Tax=Photobacter...  53.5    4e-08
+  UniRef90_UPI000F0AB5C5 DUF2517 family protein n=1 Tax=Escherich...  53.1    6e-08
+  UniRef90_R9PLI2 Uncharacterized protein n=1 Tax=Agarivorans alb...  52.4    1e-07
+  UniRef90_A0A376MTG6 Protein n=1 Tax=Escherichia coli TaxID=562 ...  51.6    2e-07
+  UniRef90_A0A1B8I237 DUF2517 domain-containing protein n=7 Tax=P...  51.6    2e-07
+  UniRef90_A0A2T3MQ78 DUF2517 domain-containing protein n=1 Tax=P...  50.8    4e-07
+  UniRef90_A0A1T4KMX1 Uncharacterized protein n=1 Tax=Photobacter...  50.8    5e-07
+  UniRef90_A0A1N6FGC5 Uncharacterized protein n=1 Tax=Salinivibri...  50.1    8e-07
+  UniRef90_UPI0006EC037A DUF2517 family protein n=1 Tax=Agarivora...  50.1    1e-06
+  UniRef90_A0A2T3PMX6 DUF2517 domain-containing protein n=1 Tax=P...  49.7    1e-06
+  UniRef90_H3RAQ7 Uncharacterized protein n=11 Tax=Erwiniaceae Ta...  48.9    1e-06
+  UniRef90_A0A1V3H7F2 Uncharacterized protein n=2 Tax=Salinivibri...  49.3    2e-06
+  UniRef90_G5LKY1 Uncharacterized protein n=1 Tax=Salmonella ente...  47.8    3e-06
+  UniRef90_A0A377UDU8 Protein of uncharacterized function (DUF251...  45.4    6e-04
+  UniRef90_Q1ZP45 Uncharacterized protein n=11 Tax=Photobacterium...  41.6    0.002
+  UniRef90_A0A1E8F909 Uncharacterized protein n=1 Tax=Alteromonas...  38.1    0.059
+  UniRef90_UPI000E7744AF DUF2517 family protein n=1 Tax=Alteromon...  36.6    0.14 
+  UniRef90_A0A2Z2HUN3 Uncharacterized protein n=1 Tax=Natronolimn...  37.0    0.44 
+  UniRef90_A0A2N6GVP0 Uncharacterized protein n=1 Tax=Nitrospira ...  35.4    1.9  
+  UniRef90_UPI0006903BF1 HTTM domain-containing protein n=1 Tax=S...  34.7    3.2  
+  UniRef90_A0A2P8HRU4 Fatty acid hydroxylase family protein n=1 T...  34.7    4.0  
+  UniRef90_A0A1U9R9C7 Uncharacterized protein n=2 Tax=Halomonas T...  34.3    4.6  
+  UniRef90_UPI00068B17E9 HTTM domain-containing protein n=1 Tax=S...  33.9    6.8  
+  UniRef90_A0A1Y1I7T3 Uncharacterized protein n=1 Tax=Klebsormidi...  33.9    6.9  
+  UniRef90_A0A3N5N1M8 Phospholipid carrier-dependent glycosyltran...  33.9    7.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.139    0.478    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 742892597188
+Warning: [psiblast] lcl|Query_1 NP_415228.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415228.1
+
+Length=68
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A8AJB5 Uncharacterized protein n=3 Tax=Enterobacteriac...  118     1e-33
+  UniRef90_H5V329 Uncharacterized protein n=4 Tax=Enterobacteriac...  113     7e-32
+  UniRef90_A0A2S4RZU7 DUF2517 domain-containing protein n=1 Tax=C...  112     2e-31
+  UniRef90_A0A0J8YF07 Uncharacterized protein n=3 Tax=Franconibac...  111     4e-31
+  UniRef90_A0A2T1LNR7 DUF2517 domain-containing protein n=23 Tax=...  111     4e-31
+  UniRef90_Q8D109 Uncharacterized protein n=12 Tax=Yersinia TaxID...  112     5e-31
+  UniRef90_D4E9L0 Uncharacterized protein n=1 Tax=Serratia odorif...  111     5e-31
+  UniRef90_A0A2X3GE24 Protein of uncharacterized function (DUF251...  111     6e-31
+  UniRef90_A0A140F006 Protein of uncharacterized function (DUF251...  111     6e-31
+  UniRef90_A0A2U1TWJ3 DUF2517 domain-containing protein n=2 Tax=B...  110     8e-31
+  UniRef90_L0M8M1 Uncharacterized protein n=7 Tax=Enterobacteriac...  110     8e-31
+  UniRef90_G8LEZ9 YbfA n=86 Tax=Bacteria TaxID=2 RepID=G8LEZ9_ENTCL   110     9e-31
+  UniRef90_A0A0T9N0G0 Membrane protein n=12 Tax=Yersinia TaxID=44...  110     1e-30
+  UniRef90_A0A0X8SGB1 DUF2517 domain-containing protein n=27 Tax=...  110     1e-30
+  UniRef90_A0A381CBV0 Protein of uncharacterized function (DUF251...  110     1e-30
+  UniRef90_W0LHX6 Membrane protein n=3 Tax=Yersiniaceae TaxID=190...  110     1e-30
+  UniRef90_A0A0T9RJ08 DUF2517 domain-containing protein n=3 Tax=Y...  110     1e-30
+  UniRef90_A0A1M5LR38 Uncharacterized protein YbfA n=25 Tax=Pecto...  109     2e-30
+  UniRef90_UPI000EB2B89F DUF2517 family protein n=1 Tax=Enterobac...  109     2e-30
+  UniRef90_A0A0M3F0U2 Uncharacterized protein n=2 Tax=Enterobacte...  109     2e-30
+  UniRef90_G7LQ85 Uncharacterized protein n=3 Tax=Brenneria TaxID...  109     2e-30
+  UniRef90_A0A1S1A5M8 DUF2517 family protein n=121 Tax=Enterobact...  109     2e-30
+  UniRef90_A0A0L0H0U1 Uncharacterized protein n=2 Tax=Trabulsiell...  109     2e-30
+  UniRef90_A0A2T7AZE0 DUF2517 domain-containing protein n=1 Tax=C...  109     2e-30
+  UniRef90_A0A366IBT4 Uncharacterized protein DUF2517 n=1 Tax=Bre...  109     3e-30
+  UniRef90_UPI000377EDD7 DUF2517 family protein n=1 Tax=Enterobac...  109     3e-30
+  UniRef90_A0A250AYS0 Uncharacterized protein n=1 Tax=Gibbsiella ...  109     3e-30
+  UniRef90_D8MPQ6 Putative membrane protein n=2 Tax=Erwinia billi...  109     3e-30
+  UniRef90_A0A2P8VPK8 DUF2517 domain-containing protein n=2 Tax=S...  109     4e-30
+  UniRef90_A0A0T9QLR4 Membrane protein n=5 Tax=Yersinia pseudotub...  108     4e-30
+  UniRef90_A0A354AP25 DUF2517 domain-containing protein n=1 Tax=E...  108     4e-30
+  UniRef90_A0A1B3EYX4 DUF2517 domain-containing protein n=22 Tax=...  108     4e-30
+  UniRef90_P0AAU3 Uncharacterized protein YbfA n=274 Tax=cellular...  108     4e-30
+  UniRef90_A0A1B7JFQ0 Putative exported protein n=2 Tax=Kluyvera ...  108     4e-30
+  UniRef90_A8GB64 Uncharacterized protein n=5 Tax=Serratia TaxID=...  108     5e-30
+  UniRef90_A0A0U3ZWL7 DUF2517 domain-containing protein n=7 Tax=Y...  108     5e-30
+  UniRef90_A0A0J9B8N6 Membrane protein n=2 Tax=unclassified Erwin...  108     6e-30
+  UniRef90_A0A0D5WR97 Uncharacterized protein n=8 Tax=Enterobacte...  108     6e-30
+  UniRef90_A0A1I6D9U2 Uncharacterized protein n=1 Tax=Enterobacte...  108     7e-30
+  UniRef90_A0A0D7LS75 Uncharacterized protein n=18 Tax=Gammaprote...  108     7e-30
+  UniRef90_A0A0T9URI0 Membrane protein n=4 Tax=Yersinia frederiks...  108     9e-30
+  UniRef90_A0A0A3ZXQ8 Membrane protein n=1 Tax=Erwinia typographi...  107     2e-29
+  UniRef90_E3G3V8 Uncharacterized protein n=1 Tax=Enterobacter li...  107     2e-29
+  UniRef90_UPI00055130AB DUF2517 family protein n=2 Tax=Erwinia T...  107     2e-29
+  UniRef90_A0A127L263 Membrane protein n=2 Tax=Enterobacteriaceae...  107     2e-29
+  UniRef90_A0A1B7HS46 Putative exported protein n=6 Tax=Buttiauxe...  106     3e-29
+  UniRef90_A0A084A6D8 Uncharacterized protein n=1 Tax=Serratia sp...  106     3e-29
+  UniRef90_R9VRL6 Uncharacterized protein n=9 Tax=Enterobacteriac...  106     4e-29
+  UniRef90_A0A370QHP8 Uncharacterized protein DUF2517 n=1 Tax=Ent...  106     4e-29
+  UniRef90_A0A071LUH0 Membrane protein n=3 Tax=Mangrovibacter Tax...  106     5e-29
+  UniRef90_A0A2I0FRT3 Uncharacterized protein n=1 Tax=Enterobacte...  106     5e-29
+  UniRef90_UPI00073DB1DD DUF2517 family protein n=1 Tax=[Erwinia]...  106     5e-29
+  UniRef90_A0A3E1ZZU8 DUF2517 family protein n=2 Tax=Leclercia Ta...  106     5e-29
+  UniRef90_A0A0L7TDM4 Membrane protein n=1 Tax=Erwinia iniecta Ta...  105     7e-29
+  UniRef90_D4HZB2 Uncharacterized protein ybfA n=3 Tax=Erwinia am...  105     7e-29
+  UniRef90_UPI00077B79FE DUF2517 family protein n=1 Tax=Enterobac...  105     7e-29
+  UniRef90_A0A2S9II63 Uncharacterized protein n=2 Tax=Erwiniaceae...  105     1e-28
+  UniRef90_A0A0L0AM01 Uncharacterized protein n=2 Tax=Enterobacte...  105     1e-28
+  UniRef90_A0A3N6S8I7 DUF2517 family protein n=1 Tax=Erwinia psid...  104     2e-28
+  UniRef90_A0A370YRU4 DUF2517 family protein n=10 Tax=Enterobacte...  104     2e-28
+  UniRef90_A0A0A5FT85 Membrane protein n=3 Tax=Yersinia TaxID=444...  104     2e-28
+  UniRef90_A0A097R071 Membrane protein n=9 Tax=Enterobacterales T...  104     2e-28
+  UniRef90_UPI0003066C6D DUF2517 family protein n=1 Tax=Metakosak...  104     3e-28
+  UniRef90_UPI0004696451 DUF2517 family protein n=1 Tax=Pantoea s...  104     3e-28
+  UniRef90_A0A285L2M2 Uncharacterized protein n=2 Tax=Enterobacte...  104     3e-28
+  UniRef90_C9XZ88 Uncharacterized protein ybfA n=23 Tax=Cronobact...  104     3e-28
+  UniRef90_A0A2V1HA56 DUF2517 domain-containing protein n=1 Tax=S...  104     4e-28
+  UniRef90_UPI000DEF6D1F DUF2517 family protein n=1 Tax=Rahnella ...  104     4e-28
+  UniRef90_A0A014LVC8 Membrane protein n=1 Tax=Erwinia mallotivor...  103     4e-28
+  UniRef90_UPI00082ABBC9 DUF2517 family protein n=1 Tax=Erwinia s...  103     4e-28
+  UniRef90_A0A1U7E327 Uncharacterized protein n=4 Tax=Enterobacte...  103     4e-28
+  UniRef90_UPI000EF260B3 DUF2517 family protein n=1 Tax=Brenneria...  103     4e-28
+  UniRef90_A0A3N1IVI8 Uncharacterized protein DUF2517 n=2 Tax=Ent...  103     5e-28
+  UniRef90_A0A089PVM1 DUF2517 domain-containing protein n=2 Tax=P...  103     5e-28
+  UniRef90_A0A2G0QAI1 Membrane protein n=1 Tax=Xenorhabdus homini...  103     5e-28
+  UniRef90_A0A318F7G6 Uncharacterized protein DUF2517 n=1 Tax=Kle...  103     8e-28
+  UniRef90_A0A0T9SBH7 Membrane protein n=21 Tax=Yersinia TaxID=44...  103     9e-28
+  UniRef90_A0A068QQV6 Uncharacterized protein n=1 Tax=Xenorhabdus...  103     1e-27
+  UniRef90_A0A2L0IE17 DUF2517 domain-containing protein n=3 Tax=E...  102     1e-27
+  UniRef90_A0A1Y2SIL0 Membrane protein n=1 Tax=Xenorhabdus beddin...  102     1e-27
+  UniRef90_A0A0A8NYC8 Uncharacterized protein n=4 Tax=Xenorhabdus...  102     2e-27
+  UniRef90_A0A0M0T881 Membrane protein n=1 Tax=Xenorhabdus sp. GD...  102     2e-27
+  UniRef90_I2BB53 Uncharacterized protein n=1 Tax=Shimwellia blat...  101     3e-27
+  UniRef90_A0A1Y2SEW9 Membrane protein n=1 Tax=Xenorhabdus vietna...  101     3e-27
+  UniRef90_A0A2D0LGC5 Membrane protein n=1 Tax=Xenorhabdus kozodo...  101     4e-27
+  UniRef90_A0A0Q4MV27 Uncharacterized protein n=1 Tax=Erwinia sp....  101     4e-27
+  UniRef90_A0A1W6B0Z7 Uncharacterized protein n=2 Tax=Erwiniaceae...  101     5e-27
+  UniRef90_A0A0J5FTV8 Membrane protein n=3 Tax=Xenorhabdus TaxID=...  101     5e-27
+  UniRef90_UPI0004B07EFF DUF2517 family protein n=1 Tax=Enterobac...  101     5e-27
+  UniRef90_UPI000903C6B0 DUF2517 family protein n=1 Tax=Enterobac...  101     5e-27
+  UniRef90_A0A2N5EQA9 DUF2517 domain-containing protein n=3 Tax=u...  101     6e-27
+  UniRef90_A0A2N0MXJ7 Uncharacterized protein n=3 Tax=Ewingella a...  100     1e-26
+  UniRef90_A0A358L5Y9 DUF2517 domain-containing protein n=1 Tax=E...   99     1e-26
+  UniRef90_UPI000F66265C DUF2517 family protein n=1 Tax=Erwinia s...   99     1e-26
+  UniRef90_A0A1X0WLD1 Uncharacterized protein n=1 Tax=Rouxiella b...   99     2e-26
+  UniRef90_UPI000FE30488 DUF2517 family protein n=1 Tax=Pantoea s...   99     2e-26
+  UniRef90_A0A1Q5TY69 Membrane protein n=1 Tax=Xenorhabdus eapoke...  99.2    3e-26
+  UniRef90_A0A0F7LRT5 Membrane protein n=5 Tax=Photorhabdus TaxID...  99.2    3e-26
+  UniRef90_A0A077PL12 Uncharacterized protein n=9 Tax=Xenorhabdus...  99.2    3e-26
+  UniRef90_D2BVA5 Uncharacterized protein n=8 Tax=Enterobacterale...  99.2    3e-26
+  UniRef90_A0A1X3RTW3 Uncharacterized protein n=6 Tax=Lonsdalea T...  99.2    4e-26
+  UniRef90_I2RAZ3 PF10725 family protein n=2 Tax=Escherichia coli...  99.2    4e-26
+  UniRef90_A0A2I5TAE8 DUF2517 domain-containing protein n=1 Tax=S...  98.8    4e-26
+  UniRef90_H2IX75 Uncharacterized protein n=10 Tax=Yersiniaceae T...  98.8    5e-26
+  UniRef90_UPI00034CD551 DUF2517 family protein n=1 Tax=Erwinia t...  98.4    7e-26
+  UniRef90_UPI000948E582 DUF2517 family protein n=1 Tax=Pantoea s...  98.0    1e-25
+  UniRef90_A0A2A7U0M2 DUF2517 domain-containing protein n=2 Tax=E...  97.6    1e-25
+  UniRef90_E0LUC0 Uncharacterized protein n=21 Tax=Erwiniaceae Ta...  97.6    1e-25
+  UniRef90_UPI0005345D44 DUF2517 family protein n=1 Tax=Pantoea s...  97.6    1e-25
+  UniRef90_C6CCC6 Uncharacterized protein n=1 Tax=Dickeya paradis...  97.6    1e-25
+  UniRef90_C6CPU6 Uncharacterized protein n=3 Tax=Dickeya chrysan...  97.6    1e-25
+  UniRef90_A0A1N6NLM2 Uncharacterized protein n=1 Tax=Aeromonas s...  97.6    1e-25
+  UniRef90_A0A2D0J5S0 Membrane protein n=4 Tax=Xenorhabdus TaxID=...  97.6    2e-25
+  UniRef90_A0A3N4PIZ3 DUF2517 family protein n=1 Tax=Pantoea sp. ...  97.2    2e-25
+  UniRef90_A0A246NJW5 Uncharacterized protein n=1 Tax=Pantoea sp....  97.2    2e-25
+  UniRef90_A0A1N6MZY6 Uncharacterized protein n=4 Tax=Xenorhabdus...  97.2    2e-25
+  UniRef90_D2U0D2 Uncharacterized protein n=3 Tax=Arsenophonus Ta...  97.2    2e-25
+  UniRef90_C5BG85 Uncharacterized protein n=6 Tax=Edwardsiella Ta...  96.9    3e-25
+  UniRef90_A0A1I3IF10 Uncharacterized protein n=1 Tax=Xenorhabdus...  96.9    3e-25
+  UniRef90_E0SEY1 Uncharacterized protein n=7 Tax=Dickeya TaxID=2...  96.9    3e-25
+  UniRef90_A0A385XYH7 Uncharacterized protein n=2 Tax=Dickeya dia...  96.9    3e-25
+  UniRef90_A0A0U5L3J7 Putative membrane protein n=1 Tax=Erwinia g...  96.5    3e-25
+  UniRef90_A0A376DB82 Protein of uncharacterized function (DUF251...  96.1    5e-25
+  UniRef90_A0A0S2SPT1 Uncharacterized protein n=2 Tax=Aeromonas T...  96.1    5e-25
+  UniRef90_A0A0Q4M2B8 Uncharacterized protein n=2 Tax=Yersiniacea...  95.7    8e-25
+  UniRef90_W1IW39 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  95.7    8e-25
+  UniRef90_A0A068R527 Uncharacterized protein n=2 Tax=Xenorhabdus...  95.7    9e-25
+  UniRef90_A0A1A9B004 DUF2517 domain-containing protein n=3 Tax=P...  95.3    1e-24
+  UniRef90_A0A1C0U1I4 Uncharacterized protein n=2 Tax=Photorhabdu...  95.3    1e-24
+  UniRef90_A0A1Q5U9I6 Membrane protein n=3 Tax=Xenorhabdus TaxID=...  95.3    1e-24
+  UniRef90_A0A0A2REL4 DUF2517 domain-containing protein n=9 Tax=B...  95.3    1e-24
+  UniRef90_Q7N6W4 Uncharacterized protein n=11 Tax=Photorhabdus T...  95.3    1e-24
+  UniRef90_A0A2Y9TVF6 DUF2517 family protein n=1 Tax=Limnobaculum...  94.9    1e-24
+  UniRef90_A0A1B8GZY5 Uncharacterized protein n=3 Tax=Morganella ...  94.9    2e-24
+  UniRef90_UPI00080F5784 DUF2517 family protein n=1 Tax=Pantoea e...  94.2    2e-24
+  UniRef90_A0A0F3LV21 Membrane protein n=5 Tax=Enterobacterales T...  94.2    3e-24
+  UniRef90_A0A022PH67 Uncharacterized protein n=7 Tax=Photorhabdu...  94.2    3e-24
+  UniRef90_R1H296 Uncharacterized protein n=2 Tax=Aeromonas TaxID...  94.2    3e-24
+  UniRef90_I0QT64 Uncharacterized protein n=1 Tax=Serratia sp. M2...  93.8    4e-24
+  UniRef90_A0A198FIP0 Putative exported protein n=1 Tax=Cosenzaea...  93.8    4e-24
+  UniRef90_UPI000F657030 DUF2517 family protein n=1 Tax=Dickeya s...  93.8    5e-24
+  UniRef90_J3D703 Uncharacterized protein n=4 Tax=Enterobacterale...  93.4    6e-24
+  UniRef90_A0A1B7JZ24 Putative exported protein n=7 Tax=Providenc...  93.4    7e-24
+  UniRef90_E3DKR8 Uncharacterized protein n=1 Tax=Erwinia sp. (st...  93.4    7e-24
+  UniRef90_B6XJJ4 Uncharacterized protein n=6 Tax=Providencia Tax...  93.4    7e-24
+  UniRef90_A0A2S5KC09 DUF2517 domain-containing protein n=3 Tax=E...  93.0    7e-24
+  UniRef90_A0A090V1Q4 Uncharacterized protein n=3 Tax=Enterobacte...  93.0    8e-24
+  UniRef90_A0A1E7YZ75 Uncharacterized protein n=2 Tax=Candidatus ...  93.0    8e-24
+  UniRef90_A0A1S8YJ10 Uncharacterized protein n=1 Tax=Izhakiella ...  93.0    9e-24
+  UniRef90_UPI000B34D5CE DUF2517 family protein n=1 Tax=Thaumasio...  93.0    9e-24
+  UniRef90_A0A356DB78 DUF2517 domain-containing protein n=1 Tax=P...  93.0    1e-23
+  UniRef90_UPI0005A9799A DUF2517 family protein n=1 Tax=Aeromonas...  92.6    1e-23
+  UniRef90_A0A329X271 Uncharacterized protein n=1 Tax=Photorhabdu...  93.0    1e-23
+  UniRef90_A0KMT9 Uncharacterized protein n=59 Tax=Gammaproteobac...  92.6    1e-23
+  UniRef90_A0A2C6DN84 DUF2517 domain-containing protein n=1 Tax=B...  92.6    1e-23
+  UniRef90_A0A375AE20 FIG01200701: possible membrane protein n=1 ...  92.6    1e-23
+  UniRef90_A0A379WZ92 Putative periplasmic protein n=1 Tax=Salmon...  92.2    1e-23
+  UniRef90_A0A0N0ZA35 Putative exported protein n=2 Tax=Moellerel...  92.6    1e-23
+  UniRef90_K8WZQ3 Uncharacterized protein n=2 Tax=Providencia Tax...  91.9    2e-23
+  UniRef90_A0A1Z1SXB5 Protein of uncharacterized function (DUF251...  91.9    3e-23
+  UniRef90_A0A1I4UD06 Uncharacterized protein n=1 Tax=Izhakiella ...  91.5    3e-23
+  UniRef90_UPI000E342304 DUF2517 family protein n=1 Tax=Escherich...  91.1    4e-23
+  UniRef90_J3C039 Uncharacterized protein n=2 Tax=Pantoea TaxID=5...  91.1    4e-23
+  UniRef90_UPI00098E42DA DUF2517 family protein n=1 Tax=Salmonell...  91.5    5e-23
+  UniRef90_A0A0N0CLF7 Uncharacterized protein n=1 Tax=Photorhabdu...  91.1    6e-23
+  UniRef90_A0A0G3CPN5 Membrane protein n=1 Tax=Pragia fontium Tax...  90.7    6e-23
+  UniRef90_A0A379GQC8 Protein of uncharacterized function (DUF251...  90.7    7e-23
+  UniRef90_UPI000808438A DUF2517 family protein n=3 Tax=Enterobac...  90.3    8e-23
+  UniRef90_UPI000B353A38 DUF2517 family protein n=1 Tax=Thaumasio...  89.9    1e-22
+  UniRef90_UPI0009522637 DUF2517 family protein n=1 Tax=Photobact...  89.9    1e-22
+  UniRef90_A0A168MM93 DUF2517 family protein n=18 Tax=Enterobacte...  89.2    3e-22
+  UniRef90_A0A1D3U723 Protein n=66 Tax=Enterobacteriaceae TaxID=5...  87.6    1e-21
+  UniRef90_A0A0F5AU98 Membrane protein n=6 Tax=Salinivibrio TaxID...  87.6    1e-21
+  UniRef90_Q1Z5P7 Putative membrane protein n=2 Tax=Photobacteriu...  87.6    1e-21
+  UniRef90_A0A2A4GD20 Uncharacterized protein n=4 Tax=Salinivibri...  86.8    2e-21
+  UniRef90_K8WFX9 Uncharacterized protein n=1 Tax=Providencia sne...  86.5    4e-21
+  UniRef90_A0A1V2BT86 Uncharacterized protein n=5 Tax=Enterobacte...  85.7    7e-21
+  UniRef90_A0A3L3H912 DUF2517 family protein (Fragment) n=6 Tax=E...  85.3    7e-21
+  UniRef90_A0A2X2URN5 Protein of uncharacterized function (DUF251...  85.7    9e-21
+  UniRef90_A0A2T3JRA6 DUF2517 domain-containing protein n=2 Tax=P...  85.3    1e-20
+  UniRef90_A0A0J1HC03 Uncharacterized protein n=1 Tax=Photobacter...  85.3    1e-20
+  UniRef90_A0A389MBI2 Uncharacterized protein n=1 Tax=Enterobacte...  85.3    1e-20
+  UniRef90_A0A2T3N504 DUF2517 domain-containing protein n=1 Tax=P...  84.9    1e-20
+  UniRef90_A0A0F5VFZ5 Uncharacterized protein n=3 Tax=Photobacter...  83.4    6e-20
+  UniRef90_UPI0008FBCCA9 DUF2517 family protein n=1 Tax=Cronobact...  82.6    1e-19
+  UniRef90_L8JEQ1 Putative exported protein n=2 Tax=Photobacteriu...  82.6    1e-19
+  UniRef90_UPI0001961194 DUF2517 family protein n=1 Tax=Erwinia p...  82.2    1e-19
+  UniRef90_A0A1N6T0U4 Uncharacterized protein n=2 Tax=Enterobacte...  82.2    2e-19
+  UniRef90_A0A066RZZ1 Uncharacterized protein n=1 Tax=Photobacter...  81.8    2e-19
+  UniRef90_A0A1X1D9D6 Uncharacterized protein n=1 Tax=Pantoea wal...  81.8    2e-19
+  UniRef90_A0A2T3IB51 DUF2517 domain-containing protein n=6 Tax=P...  81.1    4e-19
+  UniRef90_A0A2J9E6P5 DUF2517 domain-containing protein n=5 Tax=E...  79.5    2e-18
+  UniRef90_UPI000B3C0949 DUF2517 family protein n=1 Tax=Neiella m...  79.5    3e-18
+  UniRef90_UPI0005A6B6F5 DUF2517 family protein n=1 Tax=Aeromonas...  78.4    6e-18
+  UniRef90_A0A0F5Y5S7 Membrane protein n=3 Tax=Pantoea TaxID=5333...  77.6    1e-17
+  UniRef90_UPI00055007CB DUF2517 family protein n=1 Tax=Aliagariv...  75.3    8e-17
+  UniRef90_A0A0B1R9A7 Membrane protein n=4 Tax=Erwiniaceae TaxID=...  74.9    1e-16
+  UniRef90_A0A368NSF3 DUF2517 family protein n=1 Tax=Corallincola...  74.9    1e-16
+  UniRef90_A0A2G8E4J3 Uncharacterized protein n=1 Tax=Erwinia sp....  74.5    2e-16
+  UniRef90_E6WC05 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  74.1    2e-16
+  UniRef90_A0A2T3NRB3 DUF2517 domain-containing protein n=1 Tax=P...  73.4    5e-16
+  UniRef90_R9PLI2 Uncharacterized protein n=1 Tax=Agarivorans alb...  73.0    7e-16
+  UniRef90_UPI0006EC037A DUF2517 family protein n=1 Tax=Agarivora...  72.2    1e-15
+  UniRef90_A0A1T5HZD6 Uncharacterized protein n=1 Tax=Photobacter...  72.2    1e-15
+  UniRef90_A0A2X1QLK4 Protein of uncharacterized function (DUF251...  71.4    2e-15
+  UniRef90_A0A1T4KMX1 Uncharacterized protein n=1 Tax=Photobacter...  71.4    3e-15
+  UniRef90_A0A1N6FGC5 Uncharacterized protein n=1 Tax=Salinivibri...  71.1    3e-15
+  UniRef90_A0A0B9GWN6 Uncharacterized protein n=4 Tax=Photobacter...  71.1    4e-15
+  UniRef90_A0A2T3MQ78 DUF2517 domain-containing protein n=1 Tax=P...  69.5    1e-14
+  UniRef90_A0A1B8I237 DUF2517 domain-containing protein n=7 Tax=P...  69.5    2e-14
+  UniRef90_A0A2T3PMX6 DUF2517 domain-containing protein n=1 Tax=P...  68.7    3e-14
+  UniRef90_A0A1V3H7F2 Uncharacterized protein n=2 Tax=Salinivibri...  68.4    5e-14
+  UniRef90_A0A2X1LTX4 Protein n=2 Tax=Enterobacteriaceae TaxID=54...  66.8    1e-13
+  UniRef90_A0A377E6T7 Protein n=1 Tax=Escherichia coli TaxID=562 ...  63.3    3e-12
+  UniRef90_UPI000663C204 DUF2517 family protein n=1 Tax=Shigella ...  61.4    2e-11
+  UniRef90_W1WD04 Uncharacterized protein (Fragment) n=1 Tax=huma...  61.8    2e-11
+  UniRef90_A0A376LK29 Protein n=1 Tax=Escherichia coli TaxID=562 ...  58.0    5e-10
+  UniRef90_H3RAQ7 Uncharacterized protein n=11 Tax=Erwiniaceae Ta...  53.7    2e-08
+  UniRef90_UPI000F0AB5C5 DUF2517 family protein n=1 Tax=Escherich...  53.3    5e-08
+  UniRef90_UPI0006633C36 DUF2517 family protein n=1 Tax=Shigella ...  52.2    8e-08
+  UniRef90_G5LKY1 Uncharacterized protein n=1 Tax=Salmonella ente...  46.4    1e-05
+  UniRef90_A0A376MTG6 Protein n=1 Tax=Escherichia coli TaxID=562 ...  44.9    8e-05
+  UniRef90_A0A377UDU8 Protein of uncharacterized function (DUF251...  47.2    1e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_Q1ZP45 Uncharacterized protein n=11 Tax=Photobacterium...  58.0    5e-10
+  UniRef90_UPI000E7744AF DUF2517 family protein n=1 Tax=Alteromon...  42.9    6e-04
+  UniRef90_A0A3D1MAH6 Uncharacterized protein n=1 Tax=Bacteroidet...  38.3    0.18 
+  UniRef90_W7TUU3 Nuclear control of ATP synthase 2 n=1 Tax=Nanno...  37.2    0.48 
+  UniRef90_S9SCN3 Bacitracin synthetase 3 (Fragment) n=1 Tax=Paen...  34.5    4.2  
+  UniRef90_A0A1E8F909 Uncharacterized protein n=1 Tax=Alteromonas...  32.9    4.6  
+  UniRef90_A0A2E3GLE4 Uncharacterized protein n=1 Tax=Saprospiral...  34.5    4.6  
+  UniRef90_UPI000CE1C768 beta-adaptin-like protein C n=1 Tax=Quer...  34.1    5.6  
+  UniRef90_A0A3A5G1W3 HAD family hydrolase n=1 Tax=Corallococcus ...  34.1    6.0  
+  UniRef90_A0A1V9YAX2 C2 domain-containing protein n=1 Tax=Achlya...  34.1    6.1  
+  UniRef90_A0A1B9HJM6 U3 small nucleolar ribonucleoprotein IMP4 n...  33.7    6.7  
+  UniRef90_A0A1V4R7Y6 Bifunctional enzyme IspD/IspF n=1 Tax=Campy...  33.7    6.7  
+  UniRef90_J9EVA9 tRNA (GuanineN(7))methyltransferase putative n=...  34.1    6.9  
+  UniRef90_A0A3B8TMM2 Uncharacterized protein n=1 Tax=Bacteroidet...  33.7    8.1  
+  UniRef90_A0A210QTZ4 Transporter n=1 Tax=Mizuhopecten yessoensis...  33.7    8.1  
+  UniRef90_A0A2P8WEU2 MFS transporter n=1 Tax=filamentous cyanoba...  33.7    8.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.153    0.568    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0469    0.140     1.90     42.6     43.6 
+
+Effective search space used: 742892597188
+Results from round 3
+
+
+Query= NP_415228.1
+
+Length=68
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A8AJB5 Uncharacterized protein n=3 Tax=Enterobacteriac...  114     5e-32
+  UniRef90_H5V329 Uncharacterized protein n=4 Tax=Enterobacteriac...  109     4e-30
+  UniRef90_Q8D109 Uncharacterized protein n=12 Tax=Yersinia TaxID...  108     1e-29
+  UniRef90_A0A0J8YF07 Uncharacterized protein n=3 Tax=Franconibac...  107     1e-29
+  UniRef90_A0A2S4RZU7 DUF2517 domain-containing protein n=1 Tax=C...  107     2e-29
+  UniRef90_A0A2T1LNR7 DUF2517 domain-containing protein n=23 Tax=...  107     2e-29
+  UniRef90_D4E9L0 Uncharacterized protein n=1 Tax=Serratia odorif...  106     3e-29
+  UniRef90_A0A2X3GE24 Protein of uncharacterized function (DUF251...  106     3e-29
+  UniRef90_A0A2U1TWJ3 DUF2517 domain-containing protein n=2 Tax=B...  106     4e-29
+  UniRef90_G8LEZ9 YbfA n=86 Tax=Bacteria TaxID=2 RepID=G8LEZ9_ENTCL   106     4e-29
+  UniRef90_A0A0T9N0G0 Membrane protein n=12 Tax=Yersinia TaxID=44...  106     4e-29
+  UniRef90_L0M8M1 Uncharacterized protein n=7 Tax=Enterobacteriac...  106     5e-29
+  UniRef90_A0A140F006 Protein of uncharacterized function (DUF251...  106     6e-29
+  UniRef90_A0A0T9RJ08 DUF2517 domain-containing protein n=3 Tax=Y...  106     6e-29
+  UniRef90_A0A0X8SGB1 DUF2517 domain-containing protein n=27 Tax=...  106     6e-29
+  UniRef90_G7LQ85 Uncharacterized protein n=3 Tax=Brenneria TaxID...  106     7e-29
+  UniRef90_A0A1M5LR38 Uncharacterized protein YbfA n=25 Tax=Pecto...  105     7e-29
+  UniRef90_W0LHX6 Membrane protein n=3 Tax=Yersiniaceae TaxID=190...  105     8e-29
+  UniRef90_A0A0M3F0U2 Uncharacterized protein n=2 Tax=Enterobacte...  105     9e-29
+  UniRef90_A0A381CBV0 Protein of uncharacterized function (DUF251...  105     1e-28
+  UniRef90_A0A2T7AZE0 DUF2517 domain-containing protein n=1 Tax=C...  105     1e-28
+  UniRef90_A0A1S1A5M8 DUF2517 family protein n=121 Tax=Enterobact...  105     1e-28
+  UniRef90_A0A354AP25 DUF2517 domain-containing protein n=1 Tax=E...  105     1e-28
+  UniRef90_A0A0L0H0U1 Uncharacterized protein n=2 Tax=Trabulsiell...  105     1e-28
+  UniRef90_D8MPQ6 Putative membrane protein n=2 Tax=Erwinia billi...  105     1e-28
+  UniRef90_A0A366IBT4 Uncharacterized protein DUF2517 n=1 Tax=Bre...  105     1e-28
+  UniRef90_A0A0T9QLR4 Membrane protein n=5 Tax=Yersinia pseudotub...  105     1e-28
+  UniRef90_UPI000EB2B89F DUF2517 family protein n=1 Tax=Enterobac...  105     1e-28
+  UniRef90_A0A0J9B8N6 Membrane protein n=2 Tax=unclassified Erwin...  105     1e-28
+  UniRef90_A8GB64 Uncharacterized protein n=5 Tax=Serratia TaxID=...  104     1e-28
+  UniRef90_UPI000377EDD7 DUF2517 family protein n=1 Tax=Enterobac...  104     2e-28
+  UniRef90_A0A0U3ZWL7 DUF2517 domain-containing protein n=7 Tax=Y...  104     2e-28
+  UniRef90_A0A250AYS0 Uncharacterized protein n=1 Tax=Gibbsiella ...  104     2e-28
+  UniRef90_A0A1B3EYX4 DUF2517 domain-containing protein n=22 Tax=...  104     2e-28
+  UniRef90_A0A1B7JFQ0 Putative exported protein n=2 Tax=Kluyvera ...  104     2e-28
+  UniRef90_A0A0T9URI0 Membrane protein n=4 Tax=Yersinia frederiks...  104     2e-28
+  UniRef90_A0A2P8VPK8 DUF2517 domain-containing protein n=2 Tax=S...  104     2e-28
+  UniRef90_A0A1I6D9U2 Uncharacterized protein n=1 Tax=Enterobacte...  104     3e-28
+  UniRef90_A0A0D5WR97 Uncharacterized protein n=8 Tax=Enterobacte...  104     3e-28
+  UniRef90_A0A0D7LS75 Uncharacterized protein n=18 Tax=Gammaprote...  104     3e-28
+  UniRef90_P0AAU3 Uncharacterized protein YbfA n=274 Tax=cellular...  104     4e-28
+  UniRef90_A0A0A3ZXQ8 Membrane protein n=1 Tax=Erwinia typographi...  103     4e-28
+  UniRef90_A0A127L263 Membrane protein n=2 Tax=Enterobacteriaceae...  103     7e-28
+  UniRef90_UPI00055130AB DUF2517 family protein n=2 Tax=Erwinia T...  103     7e-28
+  UniRef90_A0A084A6D8 Uncharacterized protein n=1 Tax=Serratia sp...  103     8e-28
+  UniRef90_E3G3V8 Uncharacterized protein n=1 Tax=Enterobacter li...  103     9e-28
+  UniRef90_A0A1B7HS46 Putative exported protein n=6 Tax=Buttiauxe...  102     1e-27
+  UniRef90_R9VRL6 Uncharacterized protein n=9 Tax=Enterobacteriac...  102     1e-27
+  UniRef90_A0A2I0FRT3 Uncharacterized protein n=1 Tax=Enterobacte...  102     2e-27
+  UniRef90_D4HZB2 Uncharacterized protein ybfA n=3 Tax=Erwinia am...  102     2e-27
+  UniRef90_A0A0L7TDM4 Membrane protein n=1 Tax=Erwinia iniecta Ta...  102     2e-27
+  UniRef90_A0A3N6S8I7 DUF2517 family protein n=1 Tax=Erwinia psid...  102     2e-27
+  UniRef90_UPI00077B79FE DUF2517 family protein n=1 Tax=Enterobac...  101     2e-27
+  UniRef90_A0A3E1ZZU8 DUF2517 family protein n=2 Tax=Leclercia Ta...  101     2e-27
+  UniRef90_UPI00073DB1DD DUF2517 family protein n=1 Tax=[Erwinia]...  101     3e-27
+  UniRef90_A0A370QHP8 Uncharacterized protein DUF2517 n=1 Tax=Ent...  101     3e-27
+  UniRef90_A0A2S9II63 Uncharacterized protein n=2 Tax=Erwiniaceae...  101     3e-27
+  UniRef90_A0A0L0AM01 Uncharacterized protein n=2 Tax=Enterobacte...  101     4e-27
+  UniRef90_A0A071LUH0 Membrane protein n=3 Tax=Mangrovibacter Tax...  101     6e-27
+  UniRef90_UPI00082ABBC9 DUF2517 family protein n=1 Tax=Erwinia s...  100     7e-27
+  UniRef90_A0A0A5FT85 Membrane protein n=3 Tax=Yersinia TaxID=444...  100     7e-27
+  UniRef90_UPI0004696451 DUF2517 family protein n=1 Tax=Pantoea s...  100     8e-27
+  UniRef90_A0A370YRU4 DUF2517 family protein n=10 Tax=Enterobacte...  100     8e-27
+  UniRef90_A0A014LVC8 Membrane protein n=1 Tax=Erwinia mallotivor...  100     9e-27
+  UniRef90_A0A3N1IVI8 Uncharacterized protein DUF2517 n=2 Tax=Ent...  100     1e-26
+  UniRef90_UPI0003066C6D DUF2517 family protein n=1 Tax=Metakosak...  100     1e-26
+  UniRef90_A0A2V1HA56 DUF2517 domain-containing protein n=1 Tax=S...  100     1e-26
+  UniRef90_A0A285L2M2 Uncharacterized protein n=2 Tax=Enterobacte...  100     1e-26
+  UniRef90_C9XZ88 Uncharacterized protein ybfA n=23 Tax=Cronobact...  100     1e-26
+  UniRef90_UPI000DEF6D1F DUF2517 family protein n=1 Tax=Rahnella ...  100     1e-26
+  UniRef90_A0A097R071 Membrane protein n=9 Tax=Enterobacterales T...  100     1e-26
+  UniRef90_A0A089PVM1 DUF2517 domain-containing protein n=2 Tax=P...   99     1e-26
+  UniRef90_A0A1U7E327 Uncharacterized protein n=4 Tax=Enterobacte...   99     2e-26
+  UniRef90_UPI000EF260B3 DUF2517 family protein n=1 Tax=Brenneria...   99     2e-26
+  UniRef90_A0A0T9SBH7 Membrane protein n=21 Tax=Yersinia TaxID=44...  99.2    3e-26
+  UniRef90_A0A2L0IE17 DUF2517 domain-containing protein n=3 Tax=E...  99.2    3e-26
+  UniRef90_A0A318F7G6 Uncharacterized protein DUF2517 n=1 Tax=Kle...  98.4    6e-26
+  UniRef90_A0A2G0QAI1 Membrane protein n=1 Tax=Xenorhabdus homini...  98.4    7e-26
+  UniRef90_A0A0A8NYC8 Uncharacterized protein n=4 Tax=Xenorhabdus...  98.4    7e-26
+  UniRef90_A0A068QQV6 Uncharacterized protein n=1 Tax=Xenorhabdus...  98.0    1e-25
+  UniRef90_A0A1Y2SIL0 Membrane protein n=1 Tax=Xenorhabdus beddin...  98.0    1e-25
+  UniRef90_A0A0M0T881 Membrane protein n=1 Tax=Xenorhabdus sp. GD...  97.6    1e-25
+  UniRef90_I2BB53 Uncharacterized protein n=1 Tax=Shimwellia blat...  97.6    1e-25
+  UniRef90_A0A1W6B0Z7 Uncharacterized protein n=2 Tax=Erwiniaceae...  97.2    1e-25
+  UniRef90_A0A0Q4MV27 Uncharacterized protein n=1 Tax=Erwinia sp....  97.2    2e-25
+  UniRef90_UPI0004B07EFF DUF2517 family protein n=1 Tax=Enterobac...  97.2    2e-25
+  UniRef90_A0A2N0MXJ7 Uncharacterized protein n=3 Tax=Ewingella a...  97.2    2e-25
+  UniRef90_A0A2N5EQA9 DUF2517 domain-containing protein n=3 Tax=u...  96.8    2e-25
+  UniRef90_A0A2D0LGC5 Membrane protein n=1 Tax=Xenorhabdus kozodo...  96.8    3e-25
+  UniRef90_A0A1X0WLD1 Uncharacterized protein n=1 Tax=Rouxiella b...  96.8    3e-25
+  UniRef90_UPI000903C6B0 DUF2517 family protein n=1 Tax=Enterobac...  96.8    3e-25
+  UniRef90_UPI000FE30488 DUF2517 family protein n=1 Tax=Pantoea s...  96.5    3e-25
+  UniRef90_A0A1Y2SEW9 Membrane protein n=1 Tax=Xenorhabdus vietna...  96.8    3e-25
+  UniRef90_A0A358L5Y9 DUF2517 domain-containing protein n=1 Tax=E...  96.5    4e-25
+  UniRef90_UPI000F66265C DUF2517 family protein n=1 Tax=Erwinia s...  96.5    4e-25
+  UniRef90_A0A0J5FTV8 Membrane protein n=3 Tax=Xenorhabdus TaxID=...  96.5    4e-25
+  UniRef90_A0A1X3RTW3 Uncharacterized protein n=6 Tax=Lonsdalea T...  96.1    5e-25
+  UniRef90_A0A0F7LRT5 Membrane protein n=5 Tax=Photorhabdus TaxID...  95.7    8e-25
+  UniRef90_H2IX75 Uncharacterized protein n=10 Tax=Yersiniaceae T...  95.3    9e-25
+  UniRef90_UPI00034CD551 DUF2517 family protein n=1 Tax=Erwinia t...  95.3    1e-24
+  UniRef90_A0A2I5TAE8 DUF2517 domain-containing protein n=1 Tax=S...  94.9    1e-24
+  UniRef90_A0A1Q5TY69 Membrane protein n=1 Tax=Xenorhabdus eapoke...  94.9    2e-24
+  UniRef90_E0LUC0 Uncharacterized protein n=21 Tax=Erwiniaceae Ta...  94.9    2e-24
+  UniRef90_UPI0005345D44 DUF2517 family protein n=1 Tax=Pantoea s...  94.9    2e-24
+  UniRef90_A0A0U5L3J7 Putative membrane protein n=1 Tax=Erwinia g...  94.5    2e-24
+  UniRef90_D2BVA5 Uncharacterized protein n=8 Tax=Enterobacterale...  94.5    2e-24
+  UniRef90_A0A2A7U0M2 DUF2517 domain-containing protein n=2 Tax=E...  94.5    2e-24
+  UniRef90_UPI000948E582 DUF2517 family protein n=1 Tax=Pantoea s...  94.1    3e-24
+  UniRef90_A0A3N4PIZ3 DUF2517 family protein n=1 Tax=Pantoea sp. ...  94.1    3e-24
+  UniRef90_I2RAZ3 PF10725 family protein n=2 Tax=Escherichia coli...  94.5    3e-24
+  UniRef90_A0A077PL12 Uncharacterized protein n=9 Tax=Xenorhabdus...  94.1    3e-24
+  UniRef90_A0A1N6NLM2 Uncharacterized protein n=1 Tax=Aeromonas s...  94.1    3e-24
+  UniRef90_A0A246NJW5 Uncharacterized protein n=1 Tax=Pantoea sp....  94.1    3e-24
+  UniRef90_C6CCC6 Uncharacterized protein n=1 Tax=Dickeya paradis...  93.8    4e-24
+  UniRef90_A0A1N6MZY6 Uncharacterized protein n=4 Tax=Xenorhabdus...  93.4    5e-24
+  UniRef90_A0A0S2SPT1 Uncharacterized protein n=2 Tax=Aeromonas T...  93.4    6e-24
+  UniRef90_C6CPU6 Uncharacterized protein n=3 Tax=Dickeya chrysan...  93.4    6e-24
+  UniRef90_UPI00080F5784 DUF2517 family protein n=1 Tax=Pantoea e...  93.4    6e-24
+  UniRef90_D2U0D2 Uncharacterized protein n=3 Tax=Arsenophonus Ta...  93.4    9e-24
+  UniRef90_A0A2D0J5S0 Membrane protein n=4 Tax=Xenorhabdus TaxID=...  93.0    9e-24
+  UniRef90_A0A0Q4M2B8 Uncharacterized protein n=2 Tax=Yersiniacea...  92.6    1e-23
+  UniRef90_C5BG85 Uncharacterized protein n=6 Tax=Edwardsiella Ta...  92.6    1e-23
+  UniRef90_A0A1I3IF10 Uncharacterized protein n=1 Tax=Xenorhabdus...  92.6    1e-23
+  UniRef90_E0SEY1 Uncharacterized protein n=7 Tax=Dickeya TaxID=2...  92.2    2e-23
+  UniRef90_A0A376DB82 Protein of uncharacterized function (DUF251...  92.2    2e-23
+  UniRef90_A0A385XYH7 Uncharacterized protein n=2 Tax=Dickeya dia...  92.2    2e-23
+  UniRef90_R1H296 Uncharacterized protein n=2 Tax=Aeromonas TaxID...  91.8    2e-23
+  UniRef90_A0A0F3LV21 Membrane protein n=5 Tax=Enterobacterales T...  91.8    3e-23
+  UniRef90_A0A2S5KC09 DUF2517 domain-containing protein n=3 Tax=E...  91.8    3e-23
+  UniRef90_A0A1A9B004 DUF2517 domain-containing protein n=3 Tax=P...  91.4    3e-23
+  UniRef90_A0A0A2REL4 DUF2517 domain-containing protein n=9 Tax=B...  91.8    3e-23
+  UniRef90_A0A1C0U1I4 Uncharacterized protein n=2 Tax=Photorhabdu...  91.4    3e-23
+  UniRef90_Q7N6W4 Uncharacterized protein n=11 Tax=Photorhabdus T...  91.4    4e-23
+  UniRef90_W1IW39 Uncharacterized protein n=1 Tax=Xenorhabdus sze...  91.4    4e-23
+  UniRef90_A0A2Y9TVF6 DUF2517 family protein n=1 Tax=Limnobaculum...  91.1    5e-23
+  UniRef90_A0A1B8GZY5 Uncharacterized protein n=3 Tax=Morganella ...  91.1    5e-23
+  UniRef90_J3D703 Uncharacterized protein n=4 Tax=Enterobacterale...  91.1    5e-23
+  UniRef90_A0A1Q5U9I6 Membrane protein n=3 Tax=Xenorhabdus TaxID=...  91.1    6e-23
+  UniRef90_UPI0005A9799A DUF2517 family protein n=1 Tax=Aeromonas...  90.7    7e-23
+  UniRef90_I0QT64 Uncharacterized protein n=1 Tax=Serratia sp. M2...  90.7    7e-23
+  UniRef90_A0A068R527 Uncharacterized protein n=2 Tax=Xenorhabdus...  90.7    8e-23
+  UniRef90_A0A198FIP0 Putative exported protein n=1 Tax=Cosenzaea...  90.7    8e-23
+  UniRef90_E3DKR8 Uncharacterized protein n=1 Tax=Erwinia sp. (st...  90.7    8e-23
+  UniRef90_A0A022PH67 Uncharacterized protein n=7 Tax=Photorhabdu...  90.3    1e-22
+  UniRef90_UPI000B34D5CE DUF2517 family protein n=1 Tax=Thaumasio...  90.3    1e-22
+  UniRef90_A0KMT9 Uncharacterized protein n=59 Tax=Gammaproteobac...  90.3    1e-22
+  UniRef90_A0A1S8YJ10 Uncharacterized protein n=1 Tax=Izhakiella ...  89.9    1e-22
+  UniRef90_A0A090V1Q4 Uncharacterized protein n=3 Tax=Enterobacte...  89.9    2e-22
+  UniRef90_A0A1B7JZ24 Putative exported protein n=7 Tax=Providenc...  89.9    2e-22
+  UniRef90_J3C039 Uncharacterized protein n=2 Tax=Pantoea TaxID=5...  89.5    2e-22
+  UniRef90_A0A356DB78 DUF2517 domain-containing protein n=1 Tax=P...  89.5    2e-22
+  UniRef90_B6XJJ4 Uncharacterized protein n=6 Tax=Providencia Tax...  89.5    2e-22
+  UniRef90_UPI000F657030 DUF2517 family protein n=1 Tax=Dickeya s...  89.5    2e-22
+  UniRef90_A0A2C6DN84 DUF2517 domain-containing protein n=1 Tax=B...  89.1    2e-22
+  UniRef90_A0A0N0ZA35 Putative exported protein n=2 Tax=Moellerel...  89.5    3e-22
+  UniRef90_A0A329X271 Uncharacterized protein n=1 Tax=Photorhabdu...  89.1    3e-22
+  UniRef90_A0A1E7YZ75 Uncharacterized protein n=2 Tax=Candidatus ...  89.1    3e-22
+  UniRef90_A0A375AE20 FIG01200701: possible membrane protein n=1 ...  89.1    3e-22
+  UniRef90_A0A379WZ92 Putative periplasmic protein n=1 Tax=Salmon...  88.8    3e-22
+  UniRef90_A0A1I4UD06 Uncharacterized protein n=1 Tax=Izhakiella ...  88.8    4e-22
+  UniRef90_A0A1Z1SXB5 Protein of uncharacterized function (DUF251...  88.8    4e-22
+  UniRef90_K8WZQ3 Uncharacterized protein n=2 Tax=Providencia Tax...  88.8    4e-22
+  UniRef90_UPI000B353A38 DUF2517 family protein n=1 Tax=Thaumasio...  88.4    5e-22
+  UniRef90_UPI0009522637 DUF2517 family protein n=1 Tax=Photobact...  87.6    1e-21
+  UniRef90_UPI000E342304 DUF2517 family protein n=1 Tax=Escherich...  87.6    1e-21
+  UniRef90_A0A379GQC8 Protein of uncharacterized function (DUF251...  87.6    1e-21
+  UniRef90_UPI00098E42DA DUF2517 family protein n=1 Tax=Salmonell...  87.6    1e-21
+  UniRef90_A0A0G3CPN5 Membrane protein n=1 Tax=Pragia fontium Tax...  87.6    1e-21
+  UniRef90_A0A0N0CLF7 Uncharacterized protein n=1 Tax=Photorhabdu...  87.2    2e-21
+  UniRef90_UPI000808438A DUF2517 family protein n=3 Tax=Enterobac...  86.4    3e-21
+  UniRef90_A0A0F5AU98 Membrane protein n=6 Tax=Salinivibrio TaxID...  86.1    5e-21
+  UniRef90_Q1Z5P7 Putative membrane protein n=2 Tax=Photobacteriu...  86.1    5e-21
+  UniRef90_A0A2A4GD20 Uncharacterized protein n=4 Tax=Salinivibri...  85.7    6e-21
+  UniRef90_A0A168MM93 DUF2517 family protein n=18 Tax=Enterobacte...  84.9    2e-20
+  UniRef90_A0A2T3JRA6 DUF2517 domain-containing protein n=2 Tax=P...  83.7    4e-20
+  UniRef90_K8WFX9 Uncharacterized protein n=1 Tax=Providencia sne...  83.7    4e-20
+  UniRef90_A0A1D3U723 Protein n=66 Tax=Enterobacteriaceae TaxID=5...  83.7    5e-20
+  UniRef90_A0A2T3N504 DUF2517 domain-containing protein n=1 Tax=P...  82.6    1e-19
+  UniRef90_A0A0J1HC03 Uncharacterized protein n=1 Tax=Photobacter...  82.6    1e-19
+  UniRef90_A0A3L3H912 DUF2517 family protein (Fragment) n=6 Tax=E...  81.8    1e-19
+  UniRef90_A0A389MBI2 Uncharacterized protein n=1 Tax=Enterobacte...  82.2    1e-19
+  UniRef90_A0A0F5VFZ5 Uncharacterized protein n=3 Tax=Photobacter...  81.8    2e-19
+  UniRef90_A0A1V2BT86 Uncharacterized protein n=5 Tax=Enterobacte...  81.8    2e-19
+  UniRef90_A0A2X2URN5 Protein of uncharacterized function (DUF251...  82.2    3e-19
+  UniRef90_A0A066RZZ1 Uncharacterized protein n=1 Tax=Photobacter...  80.7    6e-19
+  UniRef90_L8JEQ1 Putative exported protein n=2 Tax=Photobacteriu...  80.7    8e-19
+  UniRef90_UPI0001961194 DUF2517 family protein n=1 Tax=Erwinia p...  79.9    2e-18
+  UniRef90_A0A2T3IB51 DUF2517 domain-containing protein n=6 Tax=P...  79.5    2e-18
+  UniRef90_UPI0008FBCCA9 DUF2517 family protein n=1 Tax=Cronobact...  79.1    2e-18
+  UniRef90_A0A1X1D9D6 Uncharacterized protein n=1 Tax=Pantoea wal...  79.1    3e-18
+  UniRef90_A0A1N6T0U4 Uncharacterized protein n=2 Tax=Enterobacte...  78.7    4e-18
+  UniRef90_A0A2J9E6P5 DUF2517 domain-containing protein n=5 Tax=E...  76.8    2e-17
+  UniRef90_UPI0005A6B6F5 DUF2517 family protein n=1 Tax=Aeromonas...  76.0    4e-17
+  UniRef90_UPI000B3C0949 DUF2517 family protein n=1 Tax=Neiella m...  76.0    5e-17
+  UniRef90_A0A0F5Y5S7 Membrane protein n=3 Tax=Pantoea TaxID=5333...  75.3    8e-17
+  UniRef90_UPI00055007CB DUF2517 family protein n=1 Tax=Aliagariv...  73.3    5e-16
+  UniRef90_A0A2G8E4J3 Uncharacterized protein n=1 Tax=Erwinia sp....  73.0    7e-16
+  UniRef90_A0A0B1R9A7 Membrane protein n=4 Tax=Erwiniaceae TaxID=...  72.2    1e-15
+  UniRef90_A0A368NSF3 DUF2517 family protein n=1 Tax=Corallincola...  72.2    1e-15
+  UniRef90_E6WC05 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  72.2    1e-15
+  UniRef90_R9PLI2 Uncharacterized protein n=1 Tax=Agarivorans alb...  71.4    3e-15
+  UniRef90_A0A2T3NRB3 DUF2517 domain-containing protein n=1 Tax=P...  71.0    4e-15
+  UniRef90_A0A1T5HZD6 Uncharacterized protein n=1 Tax=Photobacter...  71.0    4e-15
+  UniRef90_UPI0006EC037A DUF2517 family protein n=1 Tax=Agarivora...  70.6    5e-15
+  UniRef90_A0A2T3MQ78 DUF2517 domain-containing protein n=1 Tax=P...  70.3    8e-15
+  UniRef90_A0A1T4KMX1 Uncharacterized protein n=1 Tax=Photobacter...  70.3    9e-15
+  UniRef90_A0A1N6FGC5 Uncharacterized protein n=1 Tax=Salinivibri...  69.9    1e-14
+  UniRef90_A0A0B9GWN6 Uncharacterized protein n=4 Tax=Photobacter...  69.1    3e-14
+  UniRef90_A0A1B8I237 DUF2517 domain-containing protein n=7 Tax=P...  68.3    5e-14
+  UniRef90_A0A2X1QLK4 Protein of uncharacterized function (DUF251...  67.6    8e-14
+  UniRef90_A0A2T3PMX6 DUF2517 domain-containing protein n=1 Tax=P...  67.6    9e-14
+  UniRef90_A0A1V3H7F2 Uncharacterized protein n=2 Tax=Salinivibri...  66.4    2e-13
+  UniRef90_A0A2X1LTX4 Protein n=2 Tax=Enterobacteriaceae TaxID=54...  64.5    1e-12
+  UniRef90_A0A377E6T7 Protein n=1 Tax=Escherichia coli TaxID=562 ...  61.0    3e-11
+  UniRef90_W1WD04 Uncharacterized protein (Fragment) n=1 Tax=huma...  59.5    2e-10
+  UniRef90_UPI000663C204 DUF2517 family protein n=1 Tax=Shigella ...  58.3    3e-10
+  UniRef90_Q1ZP45 Uncharacterized protein n=11 Tax=Photobacterium...  58.3    5e-10
+  UniRef90_A0A376LK29 Protein n=1 Tax=Escherichia coli TaxID=562 ...  55.6    5e-09
+  UniRef90_H3RAQ7 Uncharacterized protein n=11 Tax=Erwiniaceae Ta...  51.8    9e-08
+  UniRef90_UPI000F0AB5C5 DUF2517 family protein n=1 Tax=Escherich...  51.0    4e-07
+  UniRef90_UPI0006633C36 DUF2517 family protein n=1 Tax=Shigella ...  50.2    5e-07
+  UniRef90_UPI000E7744AF DUF2517 family protein n=1 Tax=Alteromon...  49.1    2e-06
+  UniRef90_G5LKY1 Uncharacterized protein n=1 Tax=Salmonella ente...  44.5    6e-05
+  UniRef90_A0A376MTG6 Protein n=1 Tax=Escherichia coli TaxID=562 ...  43.3    3e-04
+  UniRef90_A0A377UDU8 Protein of uncharacterized function (DUF251...  44.8    7e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A3D1MAH6 Uncharacterized protein n=1 Tax=Bacteroidet...  37.1    0.51 
+  UniRef90_W7TUU3 Nuclear control of ATP synthase 2 n=1 Tax=Nanno...  35.2    2.5  
+  UniRef90_S9SCN3 Bacitracin synthetase 3 (Fragment) n=1 Tax=Paen...  34.4    4.9  
+  UniRef90_A0A3P9K9T7 Uncharacterized protein n=1 Tax=Oryzias lat...  34.1    5.1  
+  UniRef90_UPI000CE1C768 beta-adaptin-like protein C n=1 Tax=Quer...  33.3    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.155    0.570    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0475    0.140     1.90     42.6     43.6 
+
+Effective search space used: 742892597188
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

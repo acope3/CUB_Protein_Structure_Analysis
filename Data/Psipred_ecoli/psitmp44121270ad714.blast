@@ -1,0 +1,983 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415208.1
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P75734 Uncharacterized lipoprotein ChiQ n=377 Tax=Bact...  221     2e-73
+  UniRef90_A0A2S4RZX1 Uncharacterized protein n=4 Tax=Citrobacter...  201     1e-65
+  UniRef90_A0A090TZE6 Uncharacterized protein n=52 Tax=Gammaprote...  201     2e-65
+  UniRef90_A0A0V9JXM5 Uncharacterized protein n=2 Tax=Citrobacter...  197     5e-64
+  UniRef90_A0A078LGH0 Putative lipoprotein ChiQ n=6 Tax=Enterobac...  193     2e-62
+  UniRef90_Q8ZQX4 Uncharacterized lipoprotein ChiQ n=152 Tax=Salm...  193     3e-62
+  UniRef90_A0A084ZZ77 Putative lipoprotein n=5 Tax=Enterobacteria...  192     7e-62
+  UniRef90_A0A376DDX6 Putative lipoprotein n=2 Tax=Escherichia co...  189     9e-61
+  UniRef90_A0A0B2IL87 Lipoprotein n=11 Tax=Enterobacteriaceae Tax...  189     1e-60
+  UniRef90_A0A248KBP9 Uncharacterized protein n=3 Tax=Salmonella ...  187     4e-60
+  UniRef90_A0A0B5IEA6 Uncharacterized protein n=16 Tax=Enterobact...  186     1e-59
+  UniRef90_A0A1B7JG20 Putative lipoprotein n=4 Tax=Kluyvera TaxID...  186     2e-59
+  UniRef90_E3G4I5 Putative lipoprotein n=1 Tax=Enterobacter ligno...  185     3e-59
+  UniRef90_A0A0B7GC64 Putative lipoprotein n=88 Tax=Enterobacteri...  184     7e-59
+  UniRef90_A0A3F3IYY8 Uncharacterized protein n=5 Tax=Salmonella ...  184     8e-59
+  UniRef90_UPI000663D702 hypothetical protein n=1 Tax=Shigella so...  184     1e-58
+  UniRef90_G9Z4Z9 Uncharacterized protein n=2 Tax=Yokenella regen...  184     1e-58
+  UniRef90_A0A285L2P1 YbfN-like lipoprotein n=1 Tax=Enterobacter ...  183     3e-58
+  UniRef90_H3N8A7 Uncharacterized protein n=27 Tax=Enterobacteral...  182     5e-58
+  UniRef90_A0A223UEJ0 Uncharacterized protein n=1 Tax=Klebsiella ...  180     3e-57
+  UniRef90_A0A2X3DTI2 Uncharacterized protein n=3 Tax=Kluyvera Ta...  179     1e-56
+  UniRef90_G2S1T4 Lipoprotein YbfN n=3 Tax=Enterobacteriaceae Tax...  179     1e-56
+  UniRef90_A0A370WJY5 Uncharacterized protein n=1 Tax=Hafnia para...  178     2e-56
+  UniRef90_W7P5A6 Putative lipoprotein ChiQ n=153 Tax=Bacteria Ta...  177     6e-56
+  UniRef90_A0A1A9FGQ4 Uncharacterized protein n=1 Tax=Lelliottia ...  177     8e-56
+  UniRef90_A0A2I6E7Y6 Uncharacterized protein n=3 Tax=Enterobacte...  176     1e-55
+  UniRef90_A0A330G7I1 Uncharacterized protein n=4 Tax=Enterobacte...  176     2e-55
+  UniRef90_A0A1X0M9K0 Uncharacterized protein n=3 Tax=Enterobacte...  176     2e-55
+  UniRef90_A4W848 Conserved hypothetical lipoprotein YbfN n=2 Tax...  175     3e-55
+  UniRef90_A0A0X4ESE5 Uncharacterized protein n=16 Tax=Enterobact...  175     3e-55
+  UniRef90_A0A378GMD5 Uncharacterized protein n=2 Tax=Kluyvera as...  175     4e-55
+  UniRef90_A0A0M3EYY8 Uncharacterized protein n=2 Tax=Enterobacte...  173     1e-54
+  UniRef90_UPI00077B7B30 hypothetical protein n=1 Tax=Enterobacte...  173     2e-54
+  UniRef90_A0A2S5CCS0 Uncharacterized protein n=1 Tax=Lelliottia ...  172     4e-54
+  UniRef90_L0M731 Uncharacterized protein n=3 Tax=Enterobacteriac...  169     7e-53
+  UniRef90_A0A2I8NYV7 Uncharacterized protein n=3 Tax=Enterobacte...  168     2e-52
+  UniRef90_A0A318WJD6 YbfN-like lipoprotein n=2 Tax=Enterobacteri...  166     3e-51
+  UniRef90_A0A0F0VTQ6 YbfN n=4 Tax=Pluralibacter gergoviae TaxID=...  164     1e-50
+  UniRef90_A0A2U3TIQ9 Uncharacterized protein n=3 Tax=Enterobacte...  164     1e-50
+  UniRef90_A0A3E1ZZS5 Uncharacterized protein n=7 Tax=Enterobacte...  163     1e-50
+  UniRef90_A0A085GG83 Putative lipoprotein n=9 Tax=Buttiauxella T...  162     5e-50
+  UniRef90_A0A0U4IU37 YbfN-like lipoprotein n=9 Tax=Yersiniaceae ...  162     5e-50
+  UniRef90_S3JZI6 Uncharacterized protein n=5 Tax=Enterobacteriac...  159     9e-49
+  UniRef90_A0A143HY79 Lipoprotein YbfN n=1 Tax=Enterobacter asbur...  157     4e-48
+  UniRef90_A0A370QHP6 YbfN-like lipoprotein n=1 Tax=Enterobacillu...  157     5e-48
+  UniRef90_A0A318GG27 YbfN-like lipoprotein n=11 Tax=Gammaproteob...  156     1e-47
+  UniRef90_A0A0D5WR50 Uncharacterized protein n=4 Tax=Enterobacte...  155     2e-47
+  UniRef90_A0A085HGK0 Putative lipoprotein n=2 Tax=Leminorella gr...  154     6e-47
+  UniRef90_A0A3P2HQK7 Uncharacterized protein n=2 Tax=Klebsiella ...  153     2e-46
+  UniRef90_UPI00067AEE21 hypothetical protein n=1 Tax=Escherichia...  148     7e-45
+  UniRef90_A0A2X4UDV6 Uncharacterized protein n=9 Tax=Yersiniacea...  147     5e-44
+  UniRef90_A0A1W5DG06 Putative lipoprotein n=28 Tax=Enterobactera...  147     5e-44
+  UniRef90_UPI0005C87A18 hypothetical protein n=1 Tax=Serratia li...  146     1e-43
+  UniRef90_A0A0Q4P175 Uncharacterized protein n=2 Tax=Yersiniacea...  144     8e-43
+  UniRef90_UPI000BA29D57 hypothetical protein n=1 Tax=Klebsiella ...  143     9e-43
+  UniRef90_A0A2Y9TWE3 Uncharacterized protein n=1 Tax=Limnobaculu...  142     5e-42
+  UniRef90_UPI000DD44577 hypothetical protein n=1 Tax=Rahnella Ta...  141     9e-42
+  UniRef90_D4E9N3 Uncharacterized protein n=1 Tax=Serratia odorif...  141     1e-41
+  UniRef90_A0A1I1WEK3 YbfN-like lipoprotein n=1 Tax=Kosakonia sp....  141     1e-41
+  UniRef90_A0A097R058 Uncharacterized protein n=14 Tax=Enterobact...  139     4e-41
+  UniRef90_A0A2G7ZRR8 Uncharacterized protein n=15 Tax=Gammaprote...  137     3e-40
+  UniRef90_A0A2R3GYB0 Uncharacterized protein n=2 Tax=Serratia Ta...  137     3e-40
+  UniRef90_A0A210TSS5 Uncharacterized protein n=2 Tax=Yersinia Ta...  137     3e-40
+  UniRef90_UPI0004A309D9 hypothetical protein n=1 Tax=Enterobacte...  136     4e-40
+  UniRef90_A0A0G3CND2 Uncharacterized protein n=2 Tax=Pragia font...  137     5e-40
+  UniRef90_A0A240BJ12 Uncharacterized protein n=2 Tax=Serratia fi...  136     1e-39
+  UniRef90_A0A0T9SBN1 Putative lipoprotein n=21 Tax=Yersinia TaxI...  134     5e-39
+  UniRef90_A0A0T9UNE2 Putative lipoprotein n=9 Tax=Yersinia TaxID...  134     6e-39
+  UniRef90_A0A0B6FF14 YbfN-like lipofamily protein n=6 Tax=Yersin...  134     8e-39
+  UniRef90_A0A2L1URK5 Uncharacterized protein n=2 Tax=Rahnella Ta...  132     3e-38
+  UniRef90_A0A0T9UR22 Putative lipoprotein n=2 Tax=Yersinia frede...  132     5e-38
+  UniRef90_A0A0U1HV17 Putative lipoprotein n=3 Tax=Yersinia rohde...  130     2e-37
+  UniRef90_I2BB68 Putative lipoprotein YbfN n=1 Tax=Shimwellia bl...  127     3e-36
+  UniRef90_UPI000CEBA026 hypothetical protein n=1 Tax=Staphylococ...  126     3e-36
+  UniRef90_L0MFL0 Uncharacterized protein n=3 Tax=Serratia TaxID=...  126     1e-35
+  UniRef90_A0A2A3KZ49 Uncharacterized protein n=3 Tax=Enterobacte...  125     2e-35
+  UniRef90_A0A0A8VBF6 Hypothetical lipoprotein ybfN n=3 Tax=Yersi...  124     5e-35
+  UniRef90_H8NW21 Lipoprotein n=9 Tax=Rahnella TaxID=34037 RepID=...  124     6e-35
+  UniRef90_A0A366NDU6 Uncharacterized protein n=4 Tax=Rahnella Ta...  122     2e-34
+  UniRef90_UPI000E7442D7 hypothetical protein n=1 Tax=Rahnella wo...  122     4e-34
+  UniRef90_A0A0T9UCW5 Putative lipoprotein n=3 Tax=Yersinia aldov...  120     2e-33
+  UniRef90_A0A090NJW8 Axoneme-associated protein n=5 Tax=Enteroba...  115     2e-32
+  UniRef90_UPI0007DAD960 hypothetical protein n=1 Tax=Klebsiella ...  114     6e-31
+  UniRef90_UPI0004B4AC2B hypothetical protein n=1 Tax=Enterobacte...  112     3e-30
+  UniRef90_A0A377XSH1 Lipoprotein ybfN n=1 Tax=Klebsiella pneumon...  112     4e-30
+  UniRef90_A0A389M7D8 Chitosugar-induced verified lipoprotein n=1...  108     8e-29
+  UniRef90_A0A377NE13 Uncharacterized protein n=3 Tax=Ewingella a...  108     2e-28
+  UniRef90_A0A2X1P5N1 Putative lipoprotein n=1 Tax=Escherichia co...  102     8e-27
+  UniRef90_A0A076LGD4 Uncharacterized protein n=6 Tax=Edwardsiell...  103     1e-26
+  UniRef90_UPI00094911D0 hypothetical protein n=1 Tax=Pantoea sp....  100     2e-25
+  UniRef90_UPI00036C3BFC hypothetical protein n=1 Tax=Enterobacte...  99.8    3e-25
+  UniRef90_A0A376DAU6 Uncharacterized protein n=1 Tax=Edwardsiell...  99.8    3e-25
+  UniRef90_D4F8I8 Uncharacterized protein n=3 Tax=Edwardsiella ta...  96.3    8e-24
+  UniRef90_A0A2X3ELZ8 Lipoprotein ybfN n=2 Tax=Klebsiella pneumon...  94.4    1e-23
+  UniRef90_A0A2D0AEI0 Uncharacterized protein n=1 Tax=Pseudomonas...  93.6    7e-23
+  UniRef90_A0A357SP95 Uncharacterized protein n=4 Tax=Erwinia per...  93.2    1e-22
+  UniRef90_A0A2M8V2I3 Uncharacterized protein n=1 Tax=Pseudomonas...  88.2    1e-20
+  UniRef90_A0A2X1KJW9 Putative lipoprotein n=1 Tax=Escherichia co...  85.5    2e-20
+  UniRef90_A0A1V9UZ38 Uncharacterized protein n=1 Tax=Pseudomonas...  86.3    6e-20
+  UniRef90_A0A376F2W1 Lipoprotein YbfN n=1 Tax=Enterobacter asbur...  79.7    5e-18
+  UniRef90_A0A2X3EWY3 Lipoprotein ybfN n=1 Tax=Klebsiella pneumon...  70.1    3e-14
+  UniRef90_UPI000788C063 hypothetical protein n=1 Tax=Kluyvera in...  43.1    0.001
+  UniRef90_D4B6L9 Uncharacterized protein n=2 Tax=Enterobacteriac...  39.7    0.029
+  UniRef90_A0A0A3YUU3 Uncharacterized protein n=1 Tax=Erwinia typ...  39.3    0.045
+  UniRef90_A0A357JH73 Uncharacterized protein n=1 Tax=Flavobacter...  40.8    0.087
+  UniRef90_G9Y366 Uncharacterized protein n=2 Tax=Enterobacterale...  37.7    0.17 
+  UniRef90_A0A3N2SDS6 Uncharacterized protein n=1 Tax=Kluyvera as...  37.7    0.20 
+  UniRef90_UPI00090732D1 hypothetical protein n=1 Tax=Yersinia wa...  37.4    0.23 
+  UniRef90_A0A1C6Z693 YbfN-like lipoprotein n=1 Tax=Hafnia alvei ...  37.4    0.27 
+  UniRef90_UPI00054E6C3A hypothetical protein n=2 Tax=Erwinia Tax...  37.0    0.36 
+  UniRef90_A0A0M2KLC1 Uncharacterized protein n=1 Tax=Erwinia tra...  37.0    0.42 
+  UniRef90_A0A2I2A297 Uncharacterized protein n=1 Tax=Hydrogenovi...  37.7    0.60 
+  UniRef90_A0A3N0ZUS3 Uncharacterized protein n=1 Tax=Bacteroidet...  36.6    1.7  
+  UniRef90_A0A021X3V3 Endolytic peptidoglycan transglycosylase Rl...  37.0    2.0  
+  UniRef90_A0A0J1PKK6 Uncharacterized protein n=1 Tax=Citrobacter...  35.0    2.1  
+  UniRef90_A0A1Y0L5U2 Uncharacterized protein n=1 Tax=Tatumella c...  35.0    2.1  
+  UniRef90_A0A0Q9RK22 Uncharacterized protein n=1 Tax=Paenibacill...  35.8    2.6  
+  UniRef90_A0A2S5C2Q6 Uncharacterized protein n=1 Tax=Lelliottia ...  34.3    3.0  
+  UniRef90_A0A0D3A4H3 Uncharacterized protein n=1 Tax=Brassica ol...  36.2    3.2  
+  UniRef90_A0A327Q4I6 Uncharacterized protein n=1 Tax=Chitinophag...  34.3    3.7  
+  UniRef90_UPI00036A482C hypothetical protein n=1 Tax=Lamprocysti...  36.2    4.0  
+  UniRef90_A0A3B1BJX5 Uncharacterized protein n=1 Tax=hydrotherma...  36.2    4.1  
+  UniRef90_A0A1G6Y4Q7 Uncharacterized protein n=1 Tax=Pricia anta...  35.8    4.5  
+  UniRef90_A0A075R5Q1 Uncharacterized protein n=1 Tax=Brevibacill...  34.3    4.9  
+  UniRef90_A0A3C1UCD6 Uncharacterized protein n=1 Tax=Porphyromon...  35.8    5.6  
+  UniRef90_A0A2E2XNY8 Uncharacterized protein n=1 Tax=Cellvibrion...  33.9    5.6  
+  UniRef90_Q1N0S1 Uncharacterized protein n=1 Tax=Bermanella mari...  33.9    6.3  
+  UniRef90_UPI00048BC8F7 hypothetical protein n=1 Tax=Paenibacill...  34.3    6.6  
+  UniRef90_A0A1H7G633 Uncharacterized protein n=1 Tax=Nonomuraea ...  33.5    8.5  
+  UniRef90_A0A080KB29 Carbonic anhydrase n=15 Tax=Gilliamella Tax...  35.0    8.5  
+  UniRef90_UPI0005D36122 BTB/POZ domain-containing protein At2g04...  35.0    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.124    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 745275271904
+Warning: [psiblast] lcl|Query_1 NP_415208.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415208.1
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0B2IL87 Lipoprotein n=11 Tax=Enterobacteriaceae Tax...  182     8e-58
+  UniRef90_G9Z4Z9 Uncharacterized protein n=2 Tax=Yokenella regen...  178     2e-56
+  UniRef90_A0A223UEJ0 Uncharacterized protein n=1 Tax=Klebsiella ...  177     9e-56
+  UniRef90_A0A0B7GC64 Putative lipoprotein n=88 Tax=Enterobacteri...  176     2e-55
+  UniRef90_E3G4I5 Putative lipoprotein n=1 Tax=Enterobacter ligno...  175     2e-55
+  UniRef90_A0A0B5IEA6 Uncharacterized protein n=16 Tax=Enterobact...  175     4e-55
+  UniRef90_A0A0D5WR50 Uncharacterized protein n=4 Tax=Enterobacte...  175     5e-55
+  UniRef90_H3N8A7 Uncharacterized protein n=27 Tax=Enterobacteral...  175     5e-55
+  UniRef90_A0A2X3DTI2 Uncharacterized protein n=3 Tax=Kluyvera Ta...  174     7e-55
+  UniRef90_A0A378GMD5 Uncharacterized protein n=2 Tax=Kluyvera as...  172     4e-54
+  UniRef90_Q8ZQX4 Uncharacterized lipoprotein ChiQ n=152 Tax=Salm...  172     6e-54
+  UniRef90_A0A248KBP9 Uncharacterized protein n=3 Tax=Salmonella ...  172     8e-54
+  UniRef90_A0A1W5DG06 Putative lipoprotein n=28 Tax=Enterobactera...  172     1e-53
+  UniRef90_A0A084ZZ77 Putative lipoprotein n=5 Tax=Enterobacteria...  171     1e-53
+  UniRef90_A0A2S4RZX1 Uncharacterized protein n=4 Tax=Citrobacter...  171     1e-53
+  UniRef90_A0A1B7JG20 Putative lipoprotein n=4 Tax=Kluyvera TaxID...  171     2e-53
+  UniRef90_A0A1A9FGQ4 Uncharacterized protein n=1 Tax=Lelliottia ...  171     2e-53
+  UniRef90_A0A330G7I1 Uncharacterized protein n=4 Tax=Enterobacte...  171     2e-53
+  UniRef90_P75734 Uncharacterized lipoprotein ChiQ n=377 Tax=Bact...  170     2e-53
+  UniRef90_UPI000DD44577 hypothetical protein n=1 Tax=Rahnella Ta...  170     2e-53
+  UniRef90_A0A285L2P1 YbfN-like lipoprotein n=1 Tax=Enterobacter ...  170     2e-53
+  UniRef90_A0A078LGH0 Putative lipoprotein ChiQ n=6 Tax=Enterobac...  170     2e-53
+  UniRef90_S3JZI6 Uncharacterized protein n=5 Tax=Enterobacteriac...  170     3e-53
+  UniRef90_A0A370WJY5 Uncharacterized protein n=1 Tax=Hafnia para...  170     4e-53
+  UniRef90_A0A370QHP6 YbfN-like lipoprotein n=1 Tax=Enterobacillu...  170     4e-53
+  UniRef90_A0A0V9JXM5 Uncharacterized protein n=2 Tax=Citrobacter...  169     1e-52
+  UniRef90_A0A1X0M9K0 Uncharacterized protein n=3 Tax=Enterobacte...  168     1e-52
+  UniRef90_A0A318WJD6 YbfN-like lipoprotein n=2 Tax=Enterobacteri...  168     1e-52
+  UniRef90_G2S1T4 Lipoprotein YbfN n=3 Tax=Enterobacteriaceae Tax...  168     2e-52
+  UniRef90_A0A0U4IU37 YbfN-like lipoprotein n=9 Tax=Yersiniaceae ...  168     2e-52
+  UniRef90_A0A3F3IYY8 Uncharacterized protein n=5 Tax=Salmonella ...  168     3e-52
+  UniRef90_A0A090TZE6 Uncharacterized protein n=52 Tax=Gammaprote...  167     3e-52
+  UniRef90_W7P5A6 Putative lipoprotein ChiQ n=153 Tax=Bacteria Ta...  167     5e-52
+  UniRef90_A0A0X4ESE5 Uncharacterized protein n=16 Tax=Enterobact...  166     1e-51
+  UniRef90_A4W848 Conserved hypothetical lipoprotein YbfN n=2 Tax...  166     1e-51
+  UniRef90_A0A0Q4P175 Uncharacterized protein n=2 Tax=Yersiniacea...  166     1e-51
+  UniRef90_A0A2S5CCS0 Uncharacterized protein n=1 Tax=Lelliottia ...  165     3e-51
+  UniRef90_A0A0T9SBN1 Putative lipoprotein n=21 Tax=Yersinia TaxI...  165     4e-51
+  UniRef90_A0A0T9UNE2 Putative lipoprotein n=9 Tax=Yersinia TaxID...  165     5e-51
+  UniRef90_A0A0M3EYY8 Uncharacterized protein n=2 Tax=Enterobacte...  164     7e-51
+  UniRef90_A0A0T9UR22 Putative lipoprotein n=2 Tax=Yersinia frede...  164     8e-51
+  UniRef90_A0A2U3TIQ9 Uncharacterized protein n=3 Tax=Enterobacte...  164     9e-51
+  UniRef90_A0A2I8NYV7 Uncharacterized protein n=3 Tax=Enterobacte...  163     1e-50
+  UniRef90_A0A3P2HQK7 Uncharacterized protein n=2 Tax=Klebsiella ...  162     4e-50
+  UniRef90_A0A0B6FF14 YbfN-like lipofamily protein n=6 Tax=Yersin...  162     6e-50
+  UniRef90_A0A2R3GYB0 Uncharacterized protein n=2 Tax=Serratia Ta...  162     6e-50
+  UniRef90_L0M731 Uncharacterized protein n=3 Tax=Enterobacteriac...  162     7e-50
+  UniRef90_A0A2L1URK5 Uncharacterized protein n=2 Tax=Rahnella Ta...  162     8e-50
+  UniRef90_UPI0005C87A18 hypothetical protein n=1 Tax=Serratia li...  161     1e-49
+  UniRef90_A0A2I6E7Y6 Uncharacterized protein n=3 Tax=Enterobacte...  161     1e-49
+  UniRef90_A0A2X4UDV6 Uncharacterized protein n=9 Tax=Yersiniacea...  160     2e-49
+  UniRef90_A0A3E1ZZS5 Uncharacterized protein n=7 Tax=Enterobacte...  160     4e-49
+  UniRef90_UPI00077B7B30 hypothetical protein n=1 Tax=Enterobacte...  160     5e-49
+  UniRef90_A0A085GG83 Putative lipoprotein n=9 Tax=Buttiauxella T...  160     5e-49
+  UniRef90_A0A210TSS5 Uncharacterized protein n=2 Tax=Yersinia Ta...  158     1e-48
+  UniRef90_A0A0U1HV17 Putative lipoprotein n=3 Tax=Yersinia rohde...  158     2e-48
+  UniRef90_A0A2A3KZ49 Uncharacterized protein n=3 Tax=Enterobacte...  158     2e-48
+  UniRef90_A0A0A8VBF6 Hypothetical lipoprotein ybfN n=3 Tax=Yersi...  158     3e-48
+  UniRef90_H8NW21 Lipoprotein n=9 Tax=Rahnella TaxID=34037 RepID=...  157     5e-48
+  UniRef90_A0A2Y9TWE3 Uncharacterized protein n=1 Tax=Limnobaculu...  156     1e-47
+  UniRef90_A0A318GG27 YbfN-like lipoprotein n=11 Tax=Gammaproteob...  156     1e-47
+  UniRef90_A0A366NDU6 Uncharacterized protein n=4 Tax=Rahnella Ta...  156     1e-47
+  UniRef90_UPI000E7442D7 hypothetical protein n=1 Tax=Rahnella wo...  155     4e-47
+  UniRef90_A0A143HY79 Lipoprotein YbfN n=1 Tax=Enterobacter asbur...  154     8e-47
+  UniRef90_A0A097R058 Uncharacterized protein n=14 Tax=Enterobact...  154     8e-47
+  UniRef90_A0A240BJ12 Uncharacterized protein n=2 Tax=Serratia fi...  153     2e-46
+  UniRef90_A0A085HGK0 Putative lipoprotein n=2 Tax=Leminorella gr...  151     1e-45
+  UniRef90_A0A0T9UCW5 Putative lipoprotein n=3 Tax=Yersinia aldov...  151     2e-45
+  UniRef90_A0A0F0VTQ6 YbfN n=4 Tax=Pluralibacter gergoviae TaxID=...  150     3e-45
+  UniRef90_A0A0G3CND2 Uncharacterized protein n=2 Tax=Pragia font...  150     3e-45
+  UniRef90_D4E9N3 Uncharacterized protein n=1 Tax=Serratia odorif...  149     6e-45
+  UniRef90_UPI000663D702 hypothetical protein n=1 Tax=Shigella so...  147     3e-44
+  UniRef90_A0A2G7ZRR8 Uncharacterized protein n=15 Tax=Gammaprote...  146     8e-44
+  UniRef90_A0A377NE13 Uncharacterized protein n=3 Tax=Ewingella a...  146     9e-44
+  UniRef90_L0MFL0 Uncharacterized protein n=3 Tax=Serratia TaxID=...  146     1e-43
+  UniRef90_A0A376DDX6 Putative lipoprotein n=2 Tax=Escherichia co...  144     3e-43
+  UniRef90_A0A1I1WEK3 YbfN-like lipoprotein n=1 Tax=Kosakonia sp....  144     8e-43
+  UniRef90_A0A076LGD4 Uncharacterized protein n=6 Tax=Edwardsiell...  141     9e-42
+  UniRef90_UPI0004B4AC2B hypothetical protein n=1 Tax=Enterobacte...  139     7e-41
+  UniRef90_UPI000BA29D57 hypothetical protein n=1 Tax=Klebsiella ...  138     7e-41
+  UniRef90_D4F8I8 Uncharacterized protein n=3 Tax=Edwardsiella ta...  138     1e-40
+  UniRef90_A0A376DAU6 Uncharacterized protein n=1 Tax=Edwardsiell...  138     2e-40
+  UniRef90_UPI0004A309D9 hypothetical protein n=1 Tax=Enterobacte...  137     2e-40
+  UniRef90_A0A389M7D8 Chitosugar-induced verified lipoprotein n=1...  136     7e-40
+  UniRef90_I2BB68 Putative lipoprotein YbfN n=1 Tax=Shimwellia bl...  133     2e-38
+  UniRef90_A0A2D0AEI0 Uncharacterized protein n=1 Tax=Pseudomonas...  129     3e-37
+  UniRef90_UPI00067AEE21 hypothetical protein n=1 Tax=Escherichia...  126     5e-36
+  UniRef90_UPI00036C3BFC hypothetical protein n=1 Tax=Enterobacte...  126     7e-36
+  UniRef90_UPI00094911D0 hypothetical protein n=1 Tax=Pantoea sp....  125     1e-35
+  UniRef90_A0A357SP95 Uncharacterized protein n=4 Tax=Erwinia per...  126     1e-35
+  UniRef90_UPI0007DAD960 hypothetical protein n=1 Tax=Klebsiella ...  121     3e-34
+  UniRef90_UPI000CEBA026 hypothetical protein n=1 Tax=Staphylococ...  117     1e-32
+  UniRef90_A0A1V9UZ38 Uncharacterized protein n=1 Tax=Pseudomonas...  116     6e-32
+  UniRef90_A0A2M8V2I3 Uncharacterized protein n=1 Tax=Pseudomonas...  116     7e-32
+  UniRef90_A0A377XSH1 Lipoprotein ybfN n=1 Tax=Klebsiella pneumon...  110     2e-29
+  UniRef90_A0A090NJW8 Axoneme-associated protein n=5 Tax=Enteroba...  94.2    9e-24
+  UniRef90_A0A2X3ELZ8 Lipoprotein ybfN n=2 Tax=Klebsiella pneumon...  89.2    9e-22
+  UniRef90_A0A376F2W1 Lipoprotein YbfN n=1 Tax=Enterobacter asbur...  87.7    3e-21
+  UniRef90_A0A2X1P5N1 Putative lipoprotein n=1 Tax=Escherichia co...  83.4    4e-19
+  UniRef90_A0A2X3EWY3 Lipoprotein ybfN n=1 Tax=Klebsiella pneumon...  73.4    2e-15
+  UniRef90_A0A2X1KJW9 Putative lipoprotein n=1 Tax=Escherichia co...  73.0    2e-15
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_D4B6L9 Uncharacterized protein n=2 Tax=Enterobacteriac...  52.6    3e-07
+  UniRef90_UPI000832AE75 hypothetical protein n=1 Tax=Erwinia sp....  51.1    1e-06
+  UniRef90_UPI00090732D1 hypothetical protein n=1 Tax=Yersinia wa...  50.7    2e-06
+  UniRef90_A0A1Y0L5U2 Uncharacterized protein n=1 Tax=Tatumella c...  48.0    2e-05
+  UniRef90_UPI000788C063 hypothetical protein n=1 Tax=Kluyvera in...  47.6    2e-05
+  UniRef90_G9Y366 Uncharacterized protein n=2 Tax=Enterobacterale...  46.8    4e-05
+  UniRef90_A0A370WJQ9 Uncharacterized protein n=1 Tax=Hafnia para...  46.5    6e-05
+  UniRef90_A0A2S5C2Q6 Uncharacterized protein n=1 Tax=Lelliottia ...  46.5    7e-05
+  UniRef90_A0A0A3YUU3 Uncharacterized protein n=1 Tax=Erwinia typ...  46.5    7e-05
+  UniRef90_A0A1C6Z693 YbfN-like lipoprotein n=1 Tax=Hafnia alvei ...  45.3    2e-04
+  UniRef90_A0A3N2SDS6 Uncharacterized protein n=1 Tax=Kluyvera as...  45.3    2e-04
+  UniRef90_A0A0J1PKK6 Uncharacterized protein n=1 Tax=Citrobacter...  44.9    3e-04
+  UniRef90_UPI00054E6C3A hypothetical protein n=2 Tax=Erwinia Tax...  43.8    7e-04
+  UniRef90_A0A0M2KLC1 Uncharacterized protein n=1 Tax=Erwinia tra...  43.8    8e-04
+  UniRef90_A0A014LVR0 Uncharacterized protein n=1 Tax=Erwinia mal...  43.0    0.002
+  UniRef90_A0A2H0JBS1 Uncharacterized protein n=5 Tax=unclassifie...  43.4    0.008
+  UniRef90_A0A317R9R3 LemA protein n=1 Tax=Melaminivora alkalimes...  42.2    0.022
+  UniRef90_A0A3D9EUZ8 Uncharacterized protein n=1 Tax=Pseudomonas...  41.4    0.026
+  UniRef90_J2HRU1 Spore germination protein, immunogloblin-like d...  41.4    0.027
+  UniRef90_A0A0Q5ZK77 Uncharacterized protein n=1 Tax=Ramlibacter...  41.1    0.063
+  UniRef90_A0A098F6R0 Uncharacterized protein n=1 Tax=Bacillus sp...  40.3    0.082
+  UniRef90_M1WKP2 Protein ynjB n=1 Tax=Pseudodesulfovibrio piezop...  40.7    0.091
+  UniRef90_UPI000F81EA07 hypothetical protein n=1 Tax=Bacillus sp...  40.7    0.095
+  UniRef90_A0A357QZ60 Amino acid ABC transporter substrate-bindin...  40.7    0.10 
+  UniRef90_UPI000E718C98 hypothetical protein n=1 Tax=Mangrovibac...  40.3    0.13 
+  UniRef90_UPI00076A88A0 hypothetical protein n=2 Tax=Aliivibrio ...  40.3    0.14 
+  UniRef90_A0A090I7C3 Putative lipoprotein n=5 Tax=Aliivibrio Tax...  40.3    0.14 
+  UniRef90_UPI000782E9FA hypothetical protein n=1 Tax=Endozoicomo...  39.9    0.16 
+  UniRef90_A0A2S0L9G9 DUF4300 domain-containing protein n=1 Tax=C...  39.9    0.18 
+  UniRef90_V4CE93 Uncharacterized protein n=1 Tax=Lottia gigantea...  39.9    0.19 
+  UniRef90_A0A1J5BWY8 Uncharacterized protein n=2 Tax=unclassifie...  39.5    0.20 
+  UniRef90_A0A2V4E959 Uncharacterized protein n=2 Tax=Gilliamella...  38.4    0.20 
+  UniRef90_UPI0002487B2E hypothetical protein n=1 Tax=Acinetobact...  39.5    0.22 
+  UniRef90_UPI000FD8C301 LemA family protein n=1 Tax=Mesorhizobiu...  39.5    0.22 
+  UniRef90_A0A0P9ASK3 Uncharacterized protein n=25 Tax=Comamonada...  39.5    0.23 
+  UniRef90_A0A1V3ILE6 Uncharacterized protein n=4 Tax=Rodentibact...  37.6    0.24 
+  UniRef90_UPI000C06F35C transporter substrate-binding domain-con...  39.5    0.24 
+  UniRef90_A0A369JXA0 Calcium-transporting ATPase n=1 Tax=Hypsizy...  39.5    0.27 
+  UniRef90_A0A2C6DHX8 Uncharacterized protein n=1 Tax=Budvicia aq...  38.4    0.31 
+  UniRef90_UPI00083AE9C8 transglycosylase n=1 Tax=Thauera phenoli...  39.1    0.33 
+  UniRef90_H2BUA4 Outer membrane chaperone Skp (OmpH) n=1 Tax=Gil...  38.8    0.34 
+  UniRef90_UPI00037C6728 tetratricopeptide repeat protein n=1 Tax...  39.1    0.35 
+  UniRef90_A0A1Y1R042 Uncharacterized protein n=3 Tax=Proteobacte...  38.8    0.35 
+  UniRef90_A0A1Q8YG21 LemA family protein n=1 Tax=Rhodoferax anta...  38.8    0.35 
+  UniRef90_UPI00082B32B7 hypothetical protein n=1 Tax=Porphyromon...  39.1    0.36 
+  UniRef90_A0A2R3QBI5 Uncharacterized protein n=1 Tax=Melaminivor...  38.8    0.39 
+  UniRef90_A0A1I3HKM8 Uncharacterized protein n=1 Tax=Parapedobac...  36.8    0.40 
+  UniRef90_A0A380C5X2 Ferrienterobactin-binding periplasmic prote...  39.1    0.40 
+  UniRef90_A0A257KQZ5 Uncharacterized protein n=1 Tax=Bradyrhizob...  38.8    0.43 
+  UniRef90_A0A3P4B070 LemA family protein n=1 Tax=Pigmentiphaga s...  38.8    0.43 
+  UniRef90_A0A1G6CWP3 Uncharacterized protein n=1 Tax=Ruminococca...  38.8    0.43 
+  UniRef90_A0A2T5X852 Nucleoside-binding protein n=1 Tax=Microbac...  38.8    0.44 
+  UniRef90_A0A2V5TW23 Uncharacterized protein n=1 Tax=Verrucomicr...  36.4    0.44 
+  UniRef90_A0A1Q5PZV7 BMP family ABC transporter substrate-bindin...  38.8    0.46 
+  UniRef90_UPI000E5C239A LemA family protein n=1 Tax=Simplicispir...  38.4    0.47 
+  UniRef90_A0A1R1ACT7 Uncharacterized protein n=2 Tax=Paenibacill...  38.8    0.48 
+  UniRef90_A1W2U5 LemA family protein n=21 Tax=Burkholderiales Ta...  38.4    0.49 
+  UniRef90_A0A0A2WXU5 Peptidase family M20/M25/M40 n=1 Tax=Lysoba...  38.8    0.50 
+  UniRef90_Q50985 Outer membrane protein assembly factor BamD n=5...  38.4    0.52 
+  UniRef90_A0A2V4DUS5 Uncharacterized protein n=1 Tax=Gilliamella...  37.2    0.53 
+  UniRef90_A0A1S8FXM1 Uncharacterized protein n=1 Tax=Polaromonas...  38.4    0.53 
+  UniRef90_G4CQA7 Outer membrane protein assembly factor BamD n=3...  38.4    0.54 
+  UniRef90_A0A366GVR6 Peptidyl-prolyl cis-trans isomerase n=2 Tax...  38.4    0.54 
+  UniRef90_A0A350G321 Uncharacterized protein (Fragment) n=1 Tax=...  37.6    0.55 
+  UniRef90_A0A0P9JGM4 Group 1 truncated hemoglobin n=107 Tax=Pseu...  38.0    0.58 
+  UniRef90_A0A3M3NNK3 Uncharacterized protein n=2 Tax=Pseudomonas...  38.0    0.64 
+  UniRef90_S6GEA9 Uncharacterized protein n=1 Tax=Osedax symbiont...  38.0    0.65 
+  UniRef90_UPI0006768489 sel1 repeat family protein n=1 Tax=Pseud...  38.4    0.66 
+  UniRef90_A0A0P7X8K5 Uncharacterized protein n=1 Tax=Salinarimon...  38.0    0.68 
+  UniRef90_W5YIU0 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Mar...  38.0    0.72 
+  UniRef90_Q9JVB7 Outer membrane protein assembly factor BamD n=3...  38.0    0.73 
+  UniRef90_A0A1M6C8B4 Peptidase family M28 n=1 Tax=Arenitalea lut...  38.4    0.73 
+  UniRef90_A0A3C1F8Y7 Uncharacterized protein n=1 Tax=Elusimicrob...  38.4    0.76 
+  UniRef90_A0A1A8TP61 Uncharacterized protein n=2 Tax=Marinomonas...  36.4    0.77 
+  UniRef90_A0A1I6LRL5 LemA protein n=2 Tax=Dyella TaxID=231454 Re...  38.0    0.80 
+  UniRef90_A0A363P052 Multidrug MFS transporter n=2 Tax=Bacteroid...  38.0    0.83 
+  UniRef90_A0A1G6ECI9 Uncharacterized protein n=1 Tax=Ruminococca...  38.0    0.84 
+  UniRef90_A0A090PVY4 Uncharacterized protein n=4 Tax=Nonlabens u...  37.6    0.89 
+  UniRef90_A0A1F4APJ6 Uncharacterized protein n=2 Tax=unclassifie...  37.6    0.90 
+  UniRef90_A0A357WYB1 Uncharacterized protein (Fragment) n=1 Tax=...  37.6    0.93 
+  UniRef90_A6VP12 Uncharacterized protein n=1 Tax=Actinobacillus ...  35.3    0.94 
+  UniRef90_A0A2N6DI82 Uncharacterized protein n=1 Tax=Denitrovibr...  36.8    0.96 
+  UniRef90_A0A3C2D0F3 Uncharacterized protein n=1 Tax=Prolixibact...  36.4    0.97 
+  UniRef90_R5M8F0 Uncharacterized protein n=1 Tax=Clostridium sp....  37.6    0.98 
+  UniRef90_UPI000A311D39 efflux RND transporter periplasmic adapt...  38.0    0.99 
+  UniRef90_A0A371YPG6 Uncharacterized protein n=1 Tax=Acinetobact...  37.6    1.0  
+  UniRef90_A0A2E2XNY8 Uncharacterized protein n=1 Tax=Cellvibrion...  36.1    1.1  
+  UniRef90_A0A220SRH4 Uncharacterized protein n=2 Tax=Alcanivorax...  37.6    1.1  
+  UniRef90_A0A1X3CIY9 Outer membrane protein assembly factor BamD...  37.6    1.1  
+  UniRef90_UPI00041F9FE1 DUF3160 domain-containing protein n=1 Ta...  37.6    1.1  
+  UniRef90_A0A2N2CU33 Uncharacterized protein n=1 Tax=Firmicutes ...  37.2    1.1  
+  UniRef90_B9YAF5 Uncharacterized protein n=2 Tax=Holdemania TaxI...  37.6    1.2  
+  UniRef90_A0A2S7T551 Uncharacterized protein n=1 Tax=Aureicoccus...  36.8    1.3  
+  UniRef90_A0A1F4H8N8 Lytic transglycosylase n=4 Tax=Betaproteoba...  37.6    1.3  
+  UniRef90_A0A1D2SEF9 Uncharacterized protein n=2 Tax=Burkholderi...  37.2    1.3  
+  UniRef90_A0A366WPC1 Peptidyl-prolyl cis-trans isomerase n=3 Tax...  37.2    1.3  
+  UniRef90_A0A1G7IQZ0 Uncharacterized protein n=1 Tax=Pseudomonas...  36.8    1.3  
+  UniRef90_A0A1S9B371 Uncharacterized protein n=1 Tax=Hymenobacte...  37.2    1.4  
+  UniRef90_A0A2N7ZFE2 Uncharacterized protein (Fragment) n=1 Tax=...  35.3    1.4  
+  UniRef90_A0A0J7XF34 GumB n=5 Tax=Alphaproteobacteria TaxID=2821...  37.2    1.4  
+  UniRef90_A0A0J0YSW9 Outer membrane protein assembly factor BamD...  37.2    1.4  
+  UniRef90_UPI000302F766 hypothetical protein n=1 Tax=Moritella m...  36.1    1.4  
+  UniRef90_A0A1G5PKN8 Uncharacterized protein n=1 Tax=Epibacteriu...  37.2    1.4  
+  UniRef90_A0A1M6P9H5 Peptidyl-prolyl cis-trans isomerase n=1 Tax...  37.2    1.4  
+  UniRef90_UPI0003FB1D1E hypothetical protein n=1 Tax=Pseudodugan...  35.3    1.5  
+  UniRef90_A0A3G9G783 Uncharacterized protein n=1 Tax=Asticcacaul...  37.2    1.5  
+  UniRef90_A0A0A1YHN8 Uncharacterized protein n=1 Tax=Pseudomonas...  36.4    1.5  
+  UniRef90_UPI000783009E hypothetical protein n=1 Tax=Herbidospor...  36.4    1.5  
+  UniRef90_E1SKY5 Uncharacterized protein n=1 Tax=Ferrimonas bale...  37.2    1.6  
+  UniRef90_UPI0009EEF9BF flavodoxin n=2 Tax=Emergencia timonensis...  37.2    1.6  
+  UniRef90_UPI00054C0275 LemA family protein n=1 Tax=Pseudomonas ...  37.2    1.6  
+  UniRef90_A0A370WMA8 YnfC family lipoprotein (Fragment) n=1 Tax=...  35.3    1.6  
+  UniRef90_A0A1G1GM74 Uncharacterized protein n=2 Tax=unclassifie...  36.8    1.6  
+  UniRef90_A0A2A5LT73 Peptidyl-prolyl cis-trans isomerase n=3 Tax...  37.2    1.6  
+  UniRef90_A0A2W4RB60 Uncharacterized protein n=1 Tax=Proteobacte...  37.2    1.7  
+  UniRef90_UPI000BFF6F71 recombinase n=1 Tax=Cupriavidus pauculus...  37.2    1.7  
+  UniRef90_A0A349EI87 Uncharacterized protein n=1 Tax=Gammaproteo...  36.1    1.7  
+  UniRef90_A0A3G2T636 Uncharacterized protein n=1 Tax=Acinetobact...  35.3    1.8  
+  UniRef90_G7EHD9 Peptidylprolyl isomerase n=19 Tax=root TaxID=1 ...  37.2    1.8  
+  UniRef90_A0A0P7XQK5 Lipoprotein n=1 Tax=Idiomarinaceae bacteriu...  35.3    1.8  
+  UniRef90_A0A090ILW6 Putative lipoprotein n=3 Tax=Moritella TaxI...  35.7    1.8  
+  UniRef90_UPI000EFD6DDB hypothetical protein n=1 Tax=Aliivibrio ...  36.4    1.8  
+  UniRef90_UPI00036D479B LemA family protein n=1 Tax=Cupriavidus ...  36.8    1.9  
+  UniRef90_A0A2D6DGI5 Uncharacterized protein n=1 Tax=Marinomonas...  35.3    1.9  
+  UniRef90_L0FYN1 Uncharacterized protein n=1 Tax=Echinicola viet...  36.8    2.0  
+  UniRef90_I3YYU9 Uncharacterized protein n=2 Tax=Aequorivita Tax...  36.4    2.0  
+  UniRef90_A0A023XE41 Uncharacterized protein n=6 Tax=Bradyrhizob...  36.8    2.1  
+  UniRef90_A0A1D8J663 LemA protein n=16 Tax=Bacteria TaxID=2 RepI...  36.8    2.1  
+  UniRef90_A0A1Q4GPP0 Uncharacterized protein n=2 Tax=Thiobacillu...  36.8    2.1  
+  UniRef90_UPI000E76E972 LemA family protein n=1 Tax=Simplicispir...  36.4    2.2  
+  UniRef90_A0A0Q4YDG0 Uncharacterized protein n=5 Tax=Comamonadac...  36.4    2.2  
+  UniRef90_A0A3E0GV02 NitT/TauT family transport system substrate...  36.8    2.3  
+  UniRef90_C9MWG4 NLPA lipoprotein n=1 Tax=Leptotrichia hofstadii...  36.1    2.3  
+  UniRef90_A0A1J5QKJ6 LemA family protein n=1 Tax=mine drainage m...  36.8    2.3  
+  UniRef90_UPI000484480D LemA family protein n=1 Tax=Simplicispir...  36.4    2.3  
+  UniRef90_A0A2N2T8H8 Uncharacterized protein (Fragment) n=1 Tax=...  35.7    2.3  
+  UniRef90_N8W488 Uncharacterized protein n=16 Tax=Acinetobacter ...  36.4    2.4  
+  UniRef90_A0A1F9QNR7 Uncharacterized protein n=1 Tax=Elusimicrob...  36.8    2.4  
+  UniRef90_A0A1N6X950 Thioredoxin-related protein n=1 Tax=Mucilag...  36.4    2.5  
+  UniRef90_A0A354HQJ2 ABC transporter substrate-binding protein (...  36.1    2.6  
+  UniRef90_UPI00067EE874 sel1 repeat family protein n=1 Tax=Pseud...  36.4    2.6  
+  UniRef90_A0A327WUC7 Superoxide dismutase [Cu-Zn] n=1 Tax=Aliidi...  36.4    2.6  
+  UniRef90_A0A0F0FLZ5 LemA n=5 Tax=Burkholderiaceae TaxID=119060 ...  36.4    2.7  
+  UniRef90_R6IVD8 Putative lipoprotein n=1 Tax=Azospirillum sp. C...  36.4    2.7  
+  UniRef90_A0A072MXS2 Peptidyl-prolyl cis-trans isomerase n=1 Tax...  36.4    2.7  
+  UniRef90_A0A1A9AW10 DUF1190 domain-containing protein n=5 Tax=P...  36.4    2.7  
+  UniRef90_UPI0005AC70D9 LemA family protein n=2 Tax=Ralstonia Ta...  36.4    2.8  
+  UniRef90_A0A2E4EEE6 Uncharacterized protein n=1 Tax=Crocinitomi...  36.4    2.8  
+  UniRef90_UPI0009B11C21 hypothetical protein n=1 Tax=Salmonella ...  36.1    2.8  
+  UniRef90_A0A1V6HQG3 Uncharacterized protein n=1 Tax=Bacteroidet...  36.1    2.8  
+  UniRef90_A0A3D1VL93 Uncharacterized protein (Fragment) n=1 Tax=...  34.9    2.9  
+  UniRef90_A0A080K1U0 Uncharacterized protein (Fragment) n=1 Tax=...  35.7    2.9  
+  UniRef90_A0A1B9PQ00 Uncharacterized protein n=3 Tax=Aliivibrio ...  35.7    2.9  
+  UniRef90_A0A2J0T3E4 Uncharacterized protein n=3 Tax=Stenotropho...  36.4    2.9  
+  UniRef90_A0A1B9PFK7 Uncharacterized protein n=1 Tax=Aliivibrio ...  36.4    3.0  
+  UniRef90_F5S7D8 Outer membrane protein assembly factor BamD n=1...  36.4    3.0  
+  UniRef90_A0A317HAT7 Uncharacterized protein n=1 Tax=Proteobacte...  36.4    3.0  
+  UniRef90_L5MU48 Uncharacterized protein n=1 Tax=Brevibacillus a...  34.9    3.1  
+  UniRef90_A0A2M8GXE1 Flagellar biosynthesis protein FlgP n=2 Tax...  35.7    3.1  
+  UniRef90_A0A1G1YG92 Uncharacterized protein n=1 Tax=Candidatus ...  36.4    3.1  
+  UniRef90_UPI00041F181A DUF2846 domain-containing protein n=2 Ta...  35.7    3.2  
+  UniRef90_K0ABS2 Extracellular solute-binding protein n=2 Tax=Ex...  36.4    3.2  
+  UniRef90_A0A3P3NCH2 Entry exclusion lipoprotein TrbK n=1 Tax=Ps...  34.9    3.2  
+  UniRef90_A0A1I7FS89 Uncharacterized protein n=2 Tax=Polaromonas...  36.1    3.3  
+  UniRef90_UPI0004085A5B hypothetical protein n=1 Tax=Halalkaliba...  36.4    3.3  
+  UniRef90_A0A0M0N002 Uncharacterized protein (Fragment) n=3 Tax=...  35.7    3.4  
+  UniRef90_UPI0003A07E9E LemA family protein n=2 Tax=Curvibacter ...  36.1    3.4  
+  UniRef90_UPI000D114C1E hypothetical protein n=1 Tax=Lysinibacil...  36.1    3.4  
+  UniRef90_N8VDW9 Uncharacterized protein n=5 Tax=Moraxellaceae T...  35.3    3.6  
+  UniRef90_A0A351YED0 Uncharacterized protein n=1 Tax=Bacteroides...  35.3    3.7  
+  UniRef90_A0A2T3IK66 Uncharacterized protein n=1 Tax=Photobacter...  36.1    3.7  
+  UniRef90_A0A132H5H6 Uncharacterized protein n=1 Tax=bacterium P...  36.1    3.7  
+  UniRef90_UPI0004175BAE LemA family protein n=1 Tax=Thermithioba...  36.1    3.7  
+  UniRef90_UPI000EF7FA0A hypothetical protein n=1 Tax=Mucilaginib...  35.3    3.9  
+  UniRef90_A0A1M6NAQ4 Putative ABC transport system substrate-bin...  36.1    4.0  
+  UniRef90_A0A231P4T1 Uncharacterized protein n=1 Tax=Desulfovibr...  35.3    4.1  
+  UniRef90_A0A090R9N5 Uncharacterized protein n=1 Tax=Photobacter...  36.1    4.1  
+  UniRef90_A0A369UWD9 LemA family protein n=1 Tax=Dyella sp. L4-6...  36.1    4.1  
+  UniRef90_E4U244 Uncharacterized protein n=1 Tax=Sulfuricurvum k...  36.1    4.1  
+  UniRef90_F4GNE5 LemA protein n=1 Tax=Pusillimonas sp. (strain T...  35.7    4.2  
+  UniRef90_A0A2S0MYV5 Uncharacterized protein n=2 Tax=Simplicispi...  35.7    4.2  
+  UniRef90_H1Z847 Uncharacterized protein n=4 Tax=Myroides odorat...  35.7    4.2  
+  UniRef90_Q1N0S1 Uncharacterized protein n=1 Tax=Bermanella mari...  34.1    4.2  
+  UniRef90_A0A1G3EB01 Uncharacterized protein n=1 Tax=Pseudomonad...  34.9    4.2  
+  UniRef90_A0A150HVM7 Uncharacterized protein n=10 Tax=Acinetobac...  35.7    4.3  
+  UniRef90_UPI0007559BA9 LemA family protein n=1 Tax=Burkholderia...  35.7    4.4  
+  UniRef90_UPI000E3C54AE hypothetical protein n=1 Tax=Klebsiella ...  34.1    4.5  
+  UniRef90_A0A356HK50 Uncharacterized protein (Fragment) n=1 Tax=...  34.1    4.6  
+  UniRef90_A0A1F6H0G5 Uncharacterized protein n=1 Tax=Candidatus ...  35.7    4.7  
+  UniRef90_A0A0F0DY02 LemA n=1 Tax=Burkholderiaceae bacterium 26 ...  35.7    4.7  
+  UniRef90_UPI000BB1D67D hypothetical protein n=1 Tax=Capnocytoph...  35.7    4.7  
+  UniRef90_A0A2U1BGS7 Uncharacterized protein n=1 Tax=Agathobacul...  36.1    4.7  
+  UniRef90_F9DTX1 Uncharacterized protein n=2 Tax=Sporosarcina ne...  35.7    4.7  
+  UniRef90_A0A2I0FH63 Uncharacterized protein n=2 Tax=Moritella T...  34.5    4.8  
+  UniRef90_A0A365NTQ3 Uncharacterized protein n=2 Tax=Herminiimon...  35.3    4.8  
+  UniRef90_UPI000CE57BB3 hypothetical protein n=1 Tax=Halomonas s...  35.7    4.8  
+  UniRef90_A0A1I5BL57 Quinoprotein glucose dehydrogenase n=2 Tax=...  36.1    4.9  
+  UniRef90_N9TA17 Uncharacterized protein n=38 Tax=Gammaproteobac...  35.7    4.9  
+  UniRef90_A0A2J9E202 LemA family protein n=2 Tax=Psychrobacter T...  35.7    5.0  
+  UniRef90_UPI00045EB1DE LemA family protein n=1 Tax=Pseudogulben...  35.7    5.0  
+  UniRef90_A0A2Z6E7M3 LemA family protein n=1 Tax=Rhodanobacterac...  35.7    5.1  
+  UniRef90_UPI000F7B7AEA hypothetical protein n=1 Tax=Lactobacill...  35.3    5.1  
+  UniRef90_UPI000B3E94AC DUF1190 domain-containing protein n=1 Ta...  35.7    5.1  
+  UniRef90_A0A2D2DNA2 Uncharacterized protein n=1 Tax=Massilia vi...  34.9    5.1  
+  UniRef90_UPI000F7B3F83 hypothetical protein n=1 Tax=Nonomuraea ...  35.7    5.2  
+  UniRef90_A0A0F9JW63 Uncharacterized protein n=1 Tax=marine sedi...  35.7    5.2  
+  UniRef90_A0A1S6IMU5 Glutamine-binding periplasmic protein n=2 T...  35.7    5.2  
+  UniRef90_A0A242PF55 Ecotin n=13 Tax=Gilliamella TaxID=1193503 R...  35.3    5.2  
+  UniRef90_A0A1Q6R0U0 Uncharacterized protein n=1 Tax=Firmicutes ...  35.7    5.2  
+  UniRef90_A0A3M2C353 Alpha/beta fold hydrolase n=1 Tax=Acidobact...  35.7    5.3  
+  UniRef90_UPI000F095B8D NLPA lipoprotein n=1 Tax=Acinetobacter s...  35.7    5.3  
+  UniRef90_A0A3D5BBZ3 Cell envelope biogenesis protein OmpA n=1 T...  35.7    5.3  
+  UniRef90_UPI0003193C89 hypothetical protein n=1 Tax=Alkalibacil...  33.7    5.5  
+  UniRef90_Q7NQA6 Uncharacterized protein n=17 Tax=Chromobacteria...  35.7    5.6  
+  UniRef90_UPI000E6C9F56 LemA family protein n=1 Tax=Herbaspirill...  35.3    5.7  
+  UniRef90_UPI00056C9DB1 outer membrane protein assembly factor B...  35.7    5.7  
+  UniRef90_A0A2G2QGY9 Flagellar motor protein MotB n=1 Tax=Methyl...  35.7    5.9  
+  UniRef90_A0A1Y3G5W9 Uncharacterized protein n=2 Tax=Acetobacter...  34.5    5.9  
+  UniRef90_A0A250L027 LemA family protein n=3 Tax=Methylocaldum T...  35.3    6.0  
+  UniRef90_A0A346S3K9 Peptidyl-prolyl cis-trans isomerase n=3 Tax...  35.7    6.0  
+  UniRef90_UPI00067A7616 glycine zipper 2TM domain-containing pro...  34.9    6.2  
+  UniRef90_A0A2D0IBU7 Uncharacterized protein n=3 Tax=Curvibacter...  35.3    6.3  
+  UniRef90_A0A0R3ME31 Uncharacterized protein n=3 Tax=Bradyrhizob...  35.7    6.3  
+  UniRef90_A0A2W5TEB6 LemA family protein n=1 Tax=Starkeya novell...  35.3    6.3  
+  UniRef90_A0A1V0BCL3 Uncharacterized protein n=3 Tax=Comamonadac...  35.3    6.4  
+  UniRef90_A0A1E3ZBP3 Uncharacterized protein n=5 Tax=Burkholderi...  35.3    6.4  
+  UniRef90_A0A2T7G3L3 Uncharacterized protein n=2 Tax=Rhodobacter...  34.1    6.4  
+  UniRef90_UPI0003788B3A hypothetical protein n=1 Tax=Rudanella l...  35.3    6.6  
+  UniRef90_A0A0J1H2M2 Flagellar L-ring protein n=1 Tax=Photobacte...  35.3    6.7  
+  UniRef90_UPI000E6B5D57 hypothetical protein n=1 Tax=Herbaspiril...  34.1    6.7  
+  UniRef90_E1W3E8 Uncharacterized protein n=2 Tax=Haemophilus par...  34.1    6.8  
+  UniRef90_UPI0003F6ADDF LemA family protein n=1 Tax=Paludibacter...  35.3    6.9  
+  UniRef90_UPI000DAA4BC5 DUF1311 domain-containing protein n=1 Ta...  35.3    7.0  
+  UniRef90_UPI000371C6A9 LemA family protein n=1 Tax=Janthinobact...  35.3    7.0  
+  UniRef90_A0A2M9EBP2 Uncharacterized protein n=3 Tax=unclassifie...  34.9    7.1  
+  UniRef90_F7RVJ1 Uncharacterized protein n=2 Tax=Idiomarinaceae ...  35.3    7.1  
+  UniRef90_A0A1B9KCA8 Ecotin n=2 Tax=Gilliamella apicola TaxID=11...  34.9    7.2  
+  UniRef90_A0A1Z2LF93 Uncharacterized protein n=9 Tax=Xanthomonad...  35.3    7.2  
+  UniRef90_UPI00047650F6 BMP family ABC transporter substrate-bin...  35.3    7.3  
+  UniRef90_A0A2W6S070 Uncharacterized protein n=1 Tax=Francisella...  35.3    7.4  
+  UniRef90_A0A0D6RYW3 Phosphonate ABC transporter phosphate-bindi...  34.1    7.4  
+  UniRef90_A0A357N573 Uncharacterized protein n=2 Tax=Stenotropho...  34.9    7.7  
+  UniRef90_UPI00037FA7DF LemA family protein n=1 Tax=Rudaea cellu...  35.3    7.8  
+  UniRef90_G2J3P1 LemA family protein n=3 Tax=Pseudogulbenkiania ...  35.3    7.8  
+  UniRef90_A0A258TCB7 LemA family protein n=6 Tax=unclassified Rh...  34.9    8.0  
+  UniRef90_Q46MW5 LemA n=3 Tax=Burkholderiaceae TaxID=119060 RepI...  34.9    8.2  
+  UniRef90_D8J264 Lipoprotein n=2 Tax=Herbaspirillum TaxID=963 Re...  34.9    8.2  
+  UniRef90_A0A3A0CJX0 Uncharacterized protein n=1 Tax=Planctomyce...  35.3    8.3  
+  UniRef90_A0A267T538 Uncharacterized protein n=1 Tax=Flectobacil...  33.7    8.5  
+  UniRef90_A0A1B0Z248 Uncharacterized protein n=1 Tax=uncultured ...  33.7    8.7  
+  UniRef90_A0A0A8RQH9 Uncharacterized protein n=42 Tax=Gammaprote...  33.7    8.8  
+  UniRef90_A0A1G7T2X6 Uncharacterized protein n=1 Tax=Pseudomonas...  34.5    8.9  
+  UniRef90_UPI0006CFC818 YhcN/YlaJ family sporulation lipoprotein...  34.9    9.0  
+  UniRef90_A0A1E5XC75 Uncharacterized protein n=4 Tax=Pseudomonad...  33.7    9.2  
+  UniRef90_D4H8U9 Uncharacterized protein n=1 Tax=Denitrovibrio a...  34.1    9.2  
+  UniRef90_UPI0007577D67 hypothetical protein n=1 Tax=Burkholderi...  33.7    9.5  
+  UniRef90_F8FXG8 Lipoprotein n=13 Tax=Pseudomonas TaxID=286 RepI...  34.5    9.5  
+  UniRef90_A0A0H0ZQC3 Uncharacterized protein n=2 Tax=Micrococcac...  34.1    9.7  
+  UniRef90_I3CTQ1 Putative outer membrane lipoprotein transmembra...  34.5    9.8  
+  UniRef90_A0A085HIB3 Putative lipoprotein n=2 Tax=Leminorella gr...  34.9    10.0 
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.149    0.478    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0458    0.140     1.90     42.6     43.6 
+
+Effective search space used: 745275271904
+Results from round 3
+
+
+Query= NP_415208.1
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0B2IL87 Lipoprotein n=11 Tax=Enterobacteriaceae Tax...  167     6e-52
+  UniRef90_G9Z4Z9 Uncharacterized protein n=2 Tax=Yokenella regen...  165     3e-51
+  UniRef90_A0A0D5WR50 Uncharacterized protein n=4 Tax=Enterobacte...  165     3e-51
+  UniRef90_A0A223UEJ0 Uncharacterized protein n=1 Tax=Klebsiella ...  163     3e-50
+  UniRef90_A0A0B7GC64 Putative lipoprotein n=88 Tax=Enterobacteri...  162     7e-50
+  UniRef90_Q8ZQX4 Uncharacterized lipoprotein ChiQ n=152 Tax=Salm...  161     8e-50
+  UniRef90_H3N8A7 Uncharacterized protein n=27 Tax=Enterobacteral...  161     1e-49
+  UniRef90_A0A248KBP9 Uncharacterized protein n=3 Tax=Salmonella ...  161     1e-49
+  UniRef90_E3G4I5 Putative lipoprotein n=1 Tax=Enterobacter ligno...  161     1e-49
+  UniRef90_A0A0B5IEA6 Uncharacterized protein n=16 Tax=Enterobact...  160     3e-49
+  UniRef90_A0A2X3DTI2 Uncharacterized protein n=3 Tax=Kluyvera Ta...  160     4e-49
+  UniRef90_S3JZI6 Uncharacterized protein n=5 Tax=Enterobacteriac...  160     4e-49
+  UniRef90_A0A1W5DG06 Putative lipoprotein n=28 Tax=Enterobactera...  160     4e-49
+  UniRef90_A0A084ZZ77 Putative lipoprotein n=5 Tax=Enterobacteria...  159     6e-49
+  UniRef90_A0A1A9FGQ4 Uncharacterized protein n=1 Tax=Lelliottia ...  159     8e-49
+  UniRef90_A0A330G7I1 Uncharacterized protein n=4 Tax=Enterobacte...  159     1e-48
+  UniRef90_A0A3F3IYY8 Uncharacterized protein n=5 Tax=Salmonella ...  158     1e-48
+  UniRef90_A0A378GMD5 Uncharacterized protein n=2 Tax=Kluyvera as...  158     1e-48
+  UniRef90_A0A2S4RZX1 Uncharacterized protein n=4 Tax=Citrobacter...  158     2e-48
+  UniRef90_A0A078LGH0 Putative lipoprotein ChiQ n=6 Tax=Enterobac...  158     2e-48
+  UniRef90_A0A0T9UR22 Putative lipoprotein n=2 Tax=Yersinia frede...  158     2e-48
+  UniRef90_A0A370QHP6 YbfN-like lipoprotein n=1 Tax=Enterobacillu...  158     3e-48
+  UniRef90_P75734 Uncharacterized lipoprotein ChiQ n=377 Tax=Bact...  157     3e-48
+  UniRef90_A0A0T9UNE2 Putative lipoprotein n=9 Tax=Yersinia TaxID...  157     3e-48
+  UniRef90_UPI000DD44577 hypothetical protein n=1 Tax=Rahnella Ta...  157     4e-48
+  UniRef90_A0A0T9SBN1 Putative lipoprotein n=21 Tax=Yersinia TaxI...  157     5e-48
+  UniRef90_A0A285L2P1 YbfN-like lipoprotein n=1 Tax=Enterobacter ...  157     6e-48
+  UniRef90_A0A0V9JXM5 Uncharacterized protein n=2 Tax=Citrobacter...  157     6e-48
+  UniRef90_A0A1X0M9K0 Uncharacterized protein n=3 Tax=Enterobacte...  157     6e-48
+  UniRef90_A0A0U4IU37 YbfN-like lipoprotein n=9 Tax=Yersiniaceae ...  157     7e-48
+  UniRef90_A0A1B7JG20 Putative lipoprotein n=4 Tax=Kluyvera TaxID...  156     9e-48
+  UniRef90_A0A090TZE6 Uncharacterized protein n=52 Tax=Gammaprote...  156     1e-47
+  UniRef90_A0A0B6FF14 YbfN-like lipofamily protein n=6 Tax=Yersin...  155     2e-47
+  UniRef90_G2S1T4 Lipoprotein YbfN n=3 Tax=Enterobacteriaceae Tax...  155     3e-47
+  UniRef90_W7P5A6 Putative lipoprotein ChiQ n=153 Tax=Bacteria Ta...  155     3e-47
+  UniRef90_A0A0Q4P175 Uncharacterized protein n=2 Tax=Yersiniacea...  155     4e-47
+  UniRef90_A0A370WJY5 Uncharacterized protein n=1 Tax=Hafnia para...  155     5e-47
+  UniRef90_A0A0X4ESE5 Uncharacterized protein n=16 Tax=Enterobact...  154     9e-47
+  UniRef90_A0A318WJD6 YbfN-like lipoprotein n=2 Tax=Enterobacteri...  154     1e-46
+  UniRef90_A0A3P2HQK7 Uncharacterized protein n=2 Tax=Klebsiella ...  154     1e-46
+  UniRef90_A4W848 Conserved hypothetical lipoprotein YbfN n=2 Tax...  153     1e-46
+  UniRef90_A0A2S5CCS0 Uncharacterized protein n=1 Tax=Lelliottia ...  153     2e-46
+  UniRef90_A0A0M3EYY8 Uncharacterized protein n=2 Tax=Enterobacte...  152     3e-46
+  UniRef90_A0A2U3TIQ9 Uncharacterized protein n=3 Tax=Enterobacte...  152     4e-46
+  UniRef90_L0M731 Uncharacterized protein n=3 Tax=Enterobacteriac...  152     5e-46
+  UniRef90_A0A2I8NYV7 Uncharacterized protein n=3 Tax=Enterobacte...  152     7e-46
+  UniRef90_A0A0U1HV17 Putative lipoprotein n=3 Tax=Yersinia rohde...  151     8e-46
+  UniRef90_A0A210TSS5 Uncharacterized protein n=2 Tax=Yersinia Ta...  151     9e-46
+  UniRef90_A0A2R3GYB0 Uncharacterized protein n=2 Tax=Serratia Ta...  151     9e-46
+  UniRef90_A0A2X4UDV6 Uncharacterized protein n=9 Tax=Yersiniacea...  150     1e-45
+  UniRef90_UPI0005C87A18 hypothetical protein n=1 Tax=Serratia li...  150     2e-45
+  UniRef90_A0A0A8VBF6 Hypothetical lipoprotein ybfN n=3 Tax=Yersi...  149     5e-45
+  UniRef90_A0A2I6E7Y6 Uncharacterized protein n=3 Tax=Enterobacte...  149     6e-45
+  UniRef90_A0A3E1ZZS5 Uncharacterized protein n=7 Tax=Enterobacte...  149     8e-45
+  UniRef90_A0A318GG27 YbfN-like lipoprotein n=11 Tax=Gammaproteob...  148     1e-44
+  UniRef90_UPI00077B7B30 hypothetical protein n=1 Tax=Enterobacte...  148     1e-44
+  UniRef90_A0A085GG83 Putative lipoprotein n=9 Tax=Buttiauxella T...  148     2e-44
+  UniRef90_A0A2L1URK5 Uncharacterized protein n=2 Tax=Rahnella Ta...  148     2e-44
+  UniRef90_A0A2A3KZ49 Uncharacterized protein n=3 Tax=Enterobacte...  146     1e-43
+  UniRef90_A0A2Y9TWE3 Uncharacterized protein n=1 Tax=Limnobaculu...  145     2e-43
+  UniRef90_H8NW21 Lipoprotein n=9 Tax=Rahnella TaxID=34037 RepID=...  144     6e-43
+  UniRef90_A0A0T9UCW5 Putative lipoprotein n=3 Tax=Yersinia aldov...  144     8e-43
+  UniRef90_A0A097R058 Uncharacterized protein n=14 Tax=Enterobact...  144     8e-43
+  UniRef90_A0A366NDU6 Uncharacterized protein n=4 Tax=Rahnella Ta...  144     1e-42
+  UniRef90_UPI000E7442D7 hypothetical protein n=1 Tax=Rahnella wo...  142     4e-42
+  UniRef90_A0A143HY79 Lipoprotein YbfN n=1 Tax=Enterobacter asbur...  142     6e-42
+  UniRef90_A0A240BJ12 Uncharacterized protein n=2 Tax=Serratia fi...  141     2e-41
+  UniRef90_A0A0F0VTQ6 YbfN n=4 Tax=Pluralibacter gergoviae TaxID=...  140     3e-41
+  UniRef90_A0A0G3CND2 Uncharacterized protein n=2 Tax=Pragia font...  140     3e-41
+  UniRef90_A0A085HGK0 Putative lipoprotein n=2 Tax=Leminorella gr...  139     9e-41
+  UniRef90_D4E9N3 Uncharacterized protein n=1 Tax=Serratia odorif...  137     3e-40
+  UniRef90_A0A2G7ZRR8 Uncharacterized protein n=15 Tax=Gammaprote...  136     8e-40
+  UniRef90_UPI000663D702 hypothetical protein n=1 Tax=Shigella so...  136     8e-40
+  UniRef90_L0MFL0 Uncharacterized protein n=3 Tax=Serratia TaxID=...  136     1e-39
+  UniRef90_A0A377NE13 Uncharacterized protein n=3 Tax=Ewingella a...  135     2e-39
+  UniRef90_A0A1I1WEK3 YbfN-like lipoprotein n=1 Tax=Kosakonia sp....  134     6e-39
+  UniRef90_A0A376DDX6 Putative lipoprotein n=2 Tax=Escherichia co...  132     3e-38
+  UniRef90_A0A076LGD4 Uncharacterized protein n=6 Tax=Edwardsiell...  131     8e-38
+  UniRef90_UPI0004B4AC2B hypothetical protein n=1 Tax=Enterobacte...  129     7e-37
+  UniRef90_UPI000BA29D57 hypothetical protein n=1 Tax=Klebsiella ...  128     8e-37
+  UniRef90_D4F8I8 Uncharacterized protein n=3 Tax=Edwardsiella ta...  129     9e-37
+  UniRef90_A0A376DAU6 Uncharacterized protein n=1 Tax=Edwardsiell...  128     2e-36
+  UniRef90_UPI0004A309D9 hypothetical protein n=1 Tax=Enterobacte...  125     9e-36
+  UniRef90_A0A389M7D8 Chitosugar-induced verified lipoprotein n=1...  125     1e-35
+  UniRef90_I2BB68 Putative lipoprotein YbfN n=1 Tax=Shimwellia bl...  124     5e-35
+  UniRef90_UPI00094911D0 hypothetical protein n=1 Tax=Pantoea sp....  119     7e-33
+  UniRef90_A0A357SP95 Uncharacterized protein n=4 Tax=Erwinia per...  118     1e-32
+  UniRef90_A0A2D0AEI0 Uncharacterized protein n=1 Tax=Pseudomonas...  118     2e-32
+  UniRef90_UPI00067AEE21 hypothetical protein n=1 Tax=Escherichia...  115     6e-32
+  UniRef90_UPI00036C3BFC hypothetical protein n=1 Tax=Enterobacte...  113     8e-31
+  UniRef90_UPI0007DAD960 hypothetical protein n=1 Tax=Klebsiella ...  110     1e-29
+  UniRef90_UPI000CEBA026 hypothetical protein n=1 Tax=Staphylococ...  106     2e-28
+  UniRef90_A0A2M8V2I3 Uncharacterized protein n=1 Tax=Pseudomonas...  104     2e-27
+  UniRef90_A0A377XSH1 Lipoprotein ybfN n=1 Tax=Klebsiella pneumon...  103     5e-27
+  UniRef90_A0A1V9UZ38 Uncharacterized protein n=1 Tax=Pseudomonas...  103     7e-27
+  UniRef90_A0A090NJW8 Axoneme-associated protein n=5 Tax=Enteroba...  87.4    6e-21
+  UniRef90_A0A2X1P5N1 Putative lipoprotein n=1 Tax=Escherichia co...  82.4    1e-18
+  UniRef90_A0A2X3ELZ8 Lipoprotein ybfN n=2 Tax=Klebsiella pneumon...  80.9    2e-18
+  UniRef90_A0A376F2W1 Lipoprotein YbfN n=1 Tax=Enterobacter asbur...  80.1    4e-18
+  UniRef90_A0A2X3EWY3 Lipoprotein ybfN n=1 Tax=Klebsiella pneumon...  75.1    4e-16
+  UniRef90_A0A2X1KJW9 Putative lipoprotein n=1 Tax=Escherichia co...  68.2    2e-13
+  UniRef90_UPI000832AE75 hypothetical protein n=1 Tax=Erwinia sp....  65.1    5e-12
+  UniRef90_UPI000788C063 hypothetical protein n=1 Tax=Kluyvera in...  60.1    4e-10
+  UniRef90_D4B6L9 Uncharacterized protein n=2 Tax=Enterobacteriac...  59.3    8e-10
+  UniRef90_UPI00090732D1 hypothetical protein n=1 Tax=Yersinia wa...  58.5    1e-09
+  UniRef90_A0A1Y0L5U2 Uncharacterized protein n=1 Tax=Tatumella c...  56.6    9e-09
+  UniRef90_G9Y366 Uncharacterized protein n=2 Tax=Enterobacterale...  55.8    1e-08
+  UniRef90_A0A3N2SDS6 Uncharacterized protein n=1 Tax=Kluyvera as...  54.7    4e-08
+  UniRef90_A0A0A3YUU3 Uncharacterized protein n=1 Tax=Erwinia typ...  54.3    6e-08
+  UniRef90_A0A0J1PKK6 Uncharacterized protein n=1 Tax=Citrobacter...  53.1    2e-07
+  UniRef90_A0A1C6Z693 YbfN-like lipoprotein n=1 Tax=Hafnia alvei ...  52.0    6e-07
+  UniRef90_A0A370WJQ9 Uncharacterized protein n=1 Tax=Hafnia para...  50.8    2e-06
+  UniRef90_UPI00054E6C3A hypothetical protein n=2 Tax=Erwinia Tax...  50.4    3e-06
+  UniRef90_A0A0M2KLC1 Uncharacterized protein n=1 Tax=Erwinia tra...  49.7    4e-06
+  UniRef90_A0A2S5C2Q6 Uncharacterized protein n=1 Tax=Lelliottia ...  49.7    4e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A014LVR0 Uncharacterized protein n=1 Tax=Erwinia mal...  49.7    5e-06
+  UniRef90_UPI000E718C98 hypothetical protein n=1 Tax=Mangrovibac...  45.8    0.002
+  UniRef90_A0A366GVR6 Peptidyl-prolyl cis-trans isomerase n=2 Tax...  42.3    0.027
+  UniRef90_UPI000F81EA07 hypothetical protein n=1 Tax=Bacillus sp...  41.6    0.039
+  UniRef90_M1WKP2 Protein ynjB n=1 Tax=Pseudodesulfovibrio piezop...  41.6    0.046
+  UniRef90_A0A357QZ60 Amino acid ABC transporter substrate-bindin...  41.2    0.065
+  UniRef90_W5YIU0 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Mar...  41.2    0.070
+  UniRef90_A0A2H0JBS1 Uncharacterized protein n=5 Tax=unclassifie...  40.8    0.071
+  UniRef90_A0A2T5X852 Nucleoside-binding protein n=1 Tax=Microbac...  40.8    0.090
+  UniRef90_A0A1G7IQZ0 Uncharacterized protein n=1 Tax=Pseudomonas...  39.7    0.098
+  UniRef90_B9YAF5 Uncharacterized protein n=2 Tax=Holdemania TaxI...  40.8    0.099
+  UniRef90_A0A357WYB1 Uncharacterized protein (Fragment) n=1 Tax=...  40.4    0.10 
+  UniRef90_J2HRU1 Spore germination protein, immunogloblin-like d...  40.0    0.12 
+  UniRef90_A0A1M6P9H5 Peptidyl-prolyl cis-trans isomerase n=1 Tax...  40.4    0.12 
+  UniRef90_A0A2S0L9G9 DUF4300 domain-containing protein n=1 Tax=C...  40.4    0.12 
+  UniRef90_UPI00096D5039 SH3 domain-containing protein n=1 Tax=Pa...  40.4    0.13 
+  UniRef90_A0A098F6R0 Uncharacterized protein n=1 Tax=Bacillus sp...  39.7    0.13 
+  UniRef90_A0A359G235 Peptidase S9 n=2 Tax=Alistipes sp. TaxID=18...  40.4    0.14 
+  UniRef90_A0A1I3HKM8 Uncharacterized protein n=1 Tax=Parapedobac...  37.7    0.15 
+  UniRef90_A0A1Q5PZV7 BMP family ABC transporter substrate-bindin...  40.0    0.15 
+  UniRef90_V4CE93 Uncharacterized protein n=1 Tax=Lottia gigantea...  40.0    0.17 
+  UniRef90_A0A3D9EUZ8 Uncharacterized protein n=1 Tax=Pseudomonas...  38.9    0.18 
+  UniRef90_A0A2A5LT73 Peptidyl-prolyl cis-trans isomerase n=3 Tax...  39.7    0.19 
+  UniRef90_B1YM07 Uncharacterized protein n=4 Tax=Exiguobacterium...  39.7    0.20 
+  UniRef90_A0A366WPC1 Peptidyl-prolyl cis-trans isomerase n=3 Tax...  39.7    0.21 
+  UniRef90_A0A060JP21 Putative ABC-type transport system, peripla...  39.7    0.22 
+  UniRef90_A0A1V6HQG3 Uncharacterized protein n=1 Tax=Bacteroidet...  39.3    0.22 
+  UniRef90_UPI0002487B2E hypothetical protein n=1 Tax=Acinetobact...  39.3    0.23 
+  UniRef90_UPI000FD8C301 LemA family protein n=1 Tax=Mesorhizobiu...  39.7    0.23 
+  UniRef90_A0A1I6H7V6 Peptidyl-prolyl cis-trans isomerase n=1 Tax...  39.3    0.25 
+  UniRef90_A0A374X3L9 BMP family ABC transporter substrate-bindin...  39.7    0.26 
+  UniRef90_A0A0P9ASK3 Uncharacterized protein n=25 Tax=Comamonada...  39.3    0.26 
+  UniRef90_A0A371YPG6 Uncharacterized protein n=1 Tax=Acinetobact...  39.7    0.26 
+  UniRef90_A0A2G2EZ14 Uncharacterized protein n=1 Tax=Fluviicola ...  38.9    0.27 
+  UniRef90_A0A2V4E959 Uncharacterized protein n=2 Tax=Gilliamella...  38.1    0.29 
+  UniRef90_A0A0P9JGM4 Group 1 truncated hemoglobin n=107 Tax=Pseu...  38.5    0.30 
+  UniRef90_K0ABS2 Extracellular solute-binding protein n=2 Tax=Ex...  39.3    0.32 
+  UniRef90_A0A072MXS2 Peptidyl-prolyl cis-trans isomerase n=1 Tax...  39.3    0.32 
+  UniRef90_A0A0Q5ZK77 Uncharacterized protein n=1 Tax=Ramlibacter...  38.9    0.33 
+  UniRef90_A0A2N6DI82 Uncharacterized protein n=1 Tax=Denitrovibr...  38.1    0.33 
+  UniRef90_R2RRH6 Uncharacterized protein n=2 Tax=Enterococcus as...  39.3    0.34 
+  UniRef90_UPI000D114C1E hypothetical protein n=1 Tax=Lysinibacil...  39.3    0.35 
+  UniRef90_A0A1G6CWP3 Uncharacterized protein n=1 Tax=Ruminococca...  39.3    0.36 
+  UniRef90_UPI000782E9FA hypothetical protein n=1 Tax=Endozoicomo...  38.9    0.37 
+  UniRef90_A0A2S7T551 Uncharacterized protein n=1 Tax=Aureicoccus...  38.5    0.37 
+  UniRef90_A0A1A8TP61 Uncharacterized protein n=2 Tax=Marinomonas...  37.0    0.38 
+  UniRef90_A0A1E5XC61 Uncharacterized protein n=4 Tax=Pseudomonad...  38.9    0.38 
+  UniRef90_A0A317R9R3 LemA protein n=1 Tax=Melaminivora alkalimes...  38.9    0.38 
+  UniRef90_S6GEA9 Uncharacterized protein n=1 Tax=Osedax symbiont...  38.9    0.38 
+  UniRef90_A0A1V3ILE6 Uncharacterized protein n=4 Tax=Rodentibact...  37.0    0.39 
+  UniRef90_A0A358TX69 Phosphate/phosphite/phosphonate ABC transpo...  38.9    0.39 
+  UniRef90_A0A380M9I6 Hemin-binding periplasmic protein hmuT n=6 ...  38.9    0.40 
+  UniRef90_A0A3M3NNK3 Uncharacterized protein n=2 Tax=Pseudomonas...  38.5    0.43 
+  UniRef90_A0A2V5TW23 Uncharacterized protein n=1 Tax=Verrucomicr...  36.6    0.45 
+  UniRef90_A0A0A2WXU5 Peptidase family M20/M25/M40 n=1 Tax=Lysoba...  38.9    0.48 
+  UniRef90_A0A1I6LRL5 LemA protein n=2 Tax=Dyella TaxID=231454 Re...  38.5    0.49 
+  UniRef90_A0A380C5X2 Ferrienterobactin-binding periplasmic prote...  38.9    0.49 
+  UniRef90_R4K9E4 ABC-type phosphate/phosphonate transport system...  38.5    0.53 
+  UniRef90_R6IVD8 Putative lipoprotein n=1 Tax=Azospirillum sp. C...  38.5    0.56 
+  UniRef90_A0A0M0N002 Uncharacterized protein (Fragment) n=3 Tax=...  37.7    0.59 
+  UniRef90_G4CQA7 Outer membrane protein assembly factor BamD n=3...  38.5    0.62 
+  UniRef90_UPI00082B32B7 hypothetical protein n=1 Tax=Porphyromon...  38.5    0.62 
+  UniRef90_A0A1M6C8B4 Peptidase family M28 n=1 Tax=Arenitalea lut...  38.5    0.63 
+  UniRef90_A0A1Q4GPP0 Uncharacterized protein n=2 Tax=Thiobacillu...  38.1    0.63 
+  UniRef90_I3DHH6 Lipoprotein, PF05643 family n=1 Tax=Pasteurella...  38.1    0.65 
+  UniRef90_A0A3M2C353 Alpha/beta fold hydrolase n=1 Tax=Acidobact...  38.5    0.65 
+  UniRef90_UPI000839F93E hypothetical protein n=1 Tax=Paenibacill...  37.0    0.65 
+  UniRef90_A0A1I3KK99 Uncharacterized protein n=3 Tax=Pseudomonas...  37.7    0.66 
+  UniRef90_UPI00083AE9C8 transglycosylase n=1 Tax=Thauera phenoli...  38.5    0.66 
+  UniRef90_A0A346S3K9 Peptidyl-prolyl cis-trans isomerase n=3 Tax...  38.1    0.67 
+  UniRef90_A0A222E5L6 Outer membrane protein A n=3 Tax=Rhodobacte...  38.5    0.68 
+  UniRef90_A0A370WMA8 YnfC family lipoprotein (Fragment) n=1 Tax=...  36.2    0.70 
+  UniRef90_UPI0006768489 sel1 repeat family protein n=1 Tax=Pseud...  38.1    0.70 
+  UniRef90_A0A1J5RTJ3 Outer membrane protein P6 n=1 Tax=mine drai...  37.7    0.71 
+  UniRef90_UPI00022BFC1D hypothetical protein n=1 Tax=Aggregatiba...  37.3    0.72 
+  UniRef90_R5M8F0 Uncharacterized protein n=1 Tax=Clostridium sp....  38.1    0.72 
+  UniRef90_A0A1I7FS89 Uncharacterized protein n=2 Tax=Polaromonas...  38.1    0.76 
+  UniRef90_A0A2R3QBI5 Uncharacterized protein n=1 Tax=Melaminivor...  37.7    0.78 
+  UniRef90_A0A2D6DGI5 Uncharacterized protein n=1 Tax=Marinomonas...  36.2    0.79 
+  UniRef90_UPI00080EC5EC hypothetical protein n=1 Tax=Gilliamella...  37.3    0.79 
+  UniRef90_Q50985 Outer membrane protein assembly factor BamD n=5...  38.1    0.80 
+  UniRef90_A0A2N2CU33 Uncharacterized protein n=1 Tax=Firmicutes ...  37.7    0.81 
+  UniRef90_A0A1Q8YG21 LemA family protein n=1 Tax=Rhodoferax anta...  37.7    0.81 
+  UniRef90_A0A1J5BWY8 Uncharacterized protein n=2 Tax=unclassifie...  37.7    0.81 
+  UniRef90_A0A2M9BQW8 Uncharacterized protein DUF4440 n=1 Tax=Hym...  37.7    0.82 
+  UniRef90_A0A2A4XZ21 Uncharacterized protein n=1 Tax=Rhizobiales...  37.7    0.85 
+  UniRef90_D4H8U9 Uncharacterized protein n=1 Tax=Denitrovibrio a...  37.0    0.88 
+  UniRef90_A0A1G6ECI9 Uncharacterized protein n=1 Tax=Ruminococca...  38.1    0.88 
+  UniRef90_UPI00067A7616 glycine zipper 2TM domain-containing pro...  37.3    0.93 
+  UniRef90_A0A1I3QRE0 Uncharacterized protein n=1 Tax=Myroides gu...  37.7    0.94 
+  UniRef90_A0A0P7X8K5 Uncharacterized protein n=1 Tax=Salinarimon...  37.3    0.99 
+  UniRef90_UPI0004175BAE LemA family protein n=1 Tax=Thermithioba...  37.7    1.0  
+  UniRef90_A0A1I3TU68 Uncharacterized protein n=2 Tax=Bosea sp. O...  37.0    1.0  
+  UniRef90_A0A2C6DHX8 Uncharacterized protein n=1 Tax=Budvicia aq...  37.0    1.0  
+  UniRef90_UPI0009B11C21 hypothetical protein n=1 Tax=Salmonella ...  37.0    1.0  
+  UniRef90_Q9JVB7 Outer membrane protein assembly factor BamD n=3...  37.7    1.1  
+  UniRef90_A0A268IW33 Uncharacterized protein n=1 Tax=Bacillus sp...  37.3    1.1  
+  UniRef90_A0A0V8HRY3 Uncharacterized protein n=1 Tax=Arthrobacte...  36.6    1.2  
+  UniRef90_A0A0J8YAN9 N-acetylmuramoyl-L-alanine amidase n=3 Tax=...  37.7    1.2  
+  UniRef90_UPI00037C6728 tetratricopeptide repeat protein n=1 Tax...  37.7    1.2  
+  UniRef90_A0A023XE41 Uncharacterized protein n=6 Tax=Bradyrhizob...  37.3    1.3  
+  UniRef90_A0A1X3CIY9 Outer membrane protein assembly factor BamD...  37.3    1.3  
+  UniRef90_UPI000CE57BB3 hypothetical protein n=1 Tax=Halomonas s...  37.3    1.3  
+  UniRef90_A0A0H3ZRX0 Uncharacterized protein n=2 Tax=Vibrionacea...  35.4    1.3  
+  UniRef90_H2BUA4 Outer membrane chaperone Skp (OmpH) n=1 Tax=Gil...  37.0    1.3  
+  UniRef90_UPI00035C7D6A hypothetical protein n=1 Tax=Henriciella...  37.3    1.4  
+  UniRef90_A0A2N2T8H8 Uncharacterized protein (Fragment) n=1 Tax=...  36.6    1.4  
+  UniRef90_N8W488 Uncharacterized protein n=16 Tax=Acinetobacter ...  37.0    1.4  
+  UniRef90_A0A3D8YTZ6 Uncharacterized protein n=1 Tax=Sporosarcin...  36.6    1.4  
+  UniRef90_A0A257KQZ5 Uncharacterized protein n=1 Tax=Bradyrhizob...  37.3    1.4  
+  UniRef90_A0A1G1GM74 Uncharacterized protein n=2 Tax=unclassifie...  37.0    1.4  
+  UniRef90_Q8VRD2 TraF-like protein n=1 Tax=Haemophilus influenza...  35.0    1.4  
+  UniRef90_A0A3C2D0F3 Uncharacterized protein n=1 Tax=Prolixibact...  36.2    1.4  
+  UniRef90_UPI000991722B hypothetical protein n=3 Tax=Staphylococ...  36.2    1.5  
+  UniRef90_A0A1S2UAE9 DUF695 domain-containing protein n=1 Tax=Ps...  37.3    1.5  
+  UniRef90_A0A132H5H6 Uncharacterized protein n=1 Tax=bacterium P...  37.3    1.5  
+  UniRef90_A0A1F4APJ6 Uncharacterized protein n=2 Tax=unclassifie...  37.0    1.5  
+  UniRef90_A0A3A0RA40 Beta-lactamase n=15 Tax=Bacteria TaxID=2 Re...  37.3    1.5  
+  UniRef90_A0A3E0GV02 NitT/TauT family transport system substrate...  37.3    1.6  
+  UniRef90_A0A1Y3X499 Uncharacterized protein n=6 Tax=Flavonifrac...  37.3    1.6  
+  UniRef90_A0A2E4EEE6 Uncharacterized protein n=1 Tax=Crocinitomi...  37.3    1.6  
+  UniRef90_A0A2T5H0R3 CHAT domain-containing protein n=1 Tax=Sphi...  37.3    1.6  
+  UniRef90_A0A3A9EQP5 DUF1311 domain-containing protein n=1 Tax=b...  37.3    1.7  
+  UniRef90_A0A2N1F3F2 Uncharacterized protein n=2 Tax=Tenacibacul...  37.3    1.7  
+  UniRef90_M8C286 Uncharacterized protein n=1 Tax=Aegilops tausch...  37.3    1.7  
+  UniRef90_UPI000E34BFE9 hypothetical protein n=2 Tax=Klebsiella ...  36.6    1.7  
+  UniRef90_A0A1E2W201 Uncharacterized protein n=7 Tax=Bacillus Ta...  37.0    1.7  
+  UniRef90_A0A2Z3JL33 Uncharacterized protein n=1 Tax=Deinococcus...  36.6    1.7  
+  UniRef90_UPI000302F766 hypothetical protein n=1 Tax=Moritella m...  35.8    1.7  
+  UniRef90_A0A2Z4PDD9 Uncharacterized protein n=4 Tax=Paracoccus ...  36.6    1.8  
+  UniRef90_UPI000F888135 DUF4430 domain-containing protein n=1 Ta...  36.6    1.8  
+  UniRef90_A0A2V4DUS5 Uncharacterized protein n=1 Tax=Gilliamella...  35.8    1.8  
+  UniRef90_K0ZI41 Uncharacterized protein n=2 Tax=Actinomyces Tax...  37.0    1.8  
+  UniRef90_A0A1A7QLW7 Amidase n=1 Tax=Erythrobacter sp. QSSC1-22B...  37.0    1.9  
+  UniRef90_A0A327WUC7 Superoxide dismutase [Cu-Zn] n=1 Tax=Aliidi...  36.6    1.9  
+  UniRef90_A0A317HAT7 Uncharacterized protein n=1 Tax=Proteobacte...  37.0    1.9  
+  UniRef90_UPI000BFF6F71 recombinase n=1 Tax=Cupriavidus pauculus...  37.0    1.9  
+  UniRef90_A0A0P7XQK5 Lipoprotein n=1 Tax=Idiomarinaceae bacteriu...  35.4    2.0  
+  UniRef90_A0A349EI87 Uncharacterized protein n=1 Tax=Gammaproteo...  35.8    2.1  
+  UniRef90_A0A250L027 LemA family protein n=3 Tax=Methylocaldum T...  36.6    2.1  
+  UniRef90_W6LYQ2 Uncharacterized protein n=1 Tax=Candidatus Cont...  36.2    2.1  
+  UniRef90_A0A069E7E8 TonB-dependent receptor n=4 Tax=Hyphomonas ...  37.0    2.1  
+  UniRef90_A0A0F6A5Y9 Uncharacterized protein n=2 Tax=Pseudoalter...  36.6    2.1  
+  UniRef90_A0A1Y1R042 Uncharacterized protein n=3 Tax=Proteobacte...  36.6    2.2  
+  UniRef90_A0A3D5BBZ3 Cell envelope biogenesis protein OmpA n=1 T...  36.6    2.2  
+  UniRef90_A0A150HVM7 Uncharacterized protein n=10 Tax=Acinetobac...  36.6    2.2  
+  UniRef90_A0A2W4P6N6 Thiamine ABC transporter substrate-binding ...  37.0    2.2  
+  UniRef90_A0A356HK50 Uncharacterized protein (Fragment) n=1 Tax=...  35.0    2.2  
+  UniRef90_A0A090ILW6 Putative lipoprotein n=3 Tax=Moritella TaxI...  35.4    2.2  
+  UniRef90_UPI00048705F8 D-alanyl-D-alanine carboxypeptidase fami...  37.0    2.2  
+  UniRef90_F2CCQ9 D-alanyl-D-alanine carboxypeptidase n=39 Tax=St...  37.0    2.2  
+  UniRef90_A0A3D1VL93 Uncharacterized protein (Fragment) n=1 Tax=...  35.0    2.2  
+  UniRef90_A0A2Z6E7M3 LemA family protein n=1 Tax=Rhodanobacterac...  36.6    2.2  
+  UniRef90_UPI000EFD6DDB hypothetical protein n=1 Tax=Aliivibrio ...  36.2    2.3  
+  UniRef90_A1W2U5 LemA family protein n=21 Tax=Burkholderiales Ta...  36.6    2.3  
+  UniRef90_A0A2T7G3L3 Uncharacterized protein n=2 Tax=Rhodobacter...  35.4    2.3  
+  UniRef90_A0A3L7VZJ6 Uncharacterized protein n=1 Tax=Chloroflexi...  37.0    2.3  
+  UniRef90_A0A2E3JZF3 Uncharacterized protein n=2 Tax=Hyphomonas ...  37.0    2.4  
+  UniRef90_A0A2E4GB26 Peptidyl-prolyl cis-trans isomerase n=3 Tax...  36.6    2.4  
+  UniRef90_A0A1B9PQ00 Uncharacterized protein n=3 Tax=Aliivibrio ...  36.2    2.4  
+  UniRef90_UPI00054C0275 LemA family protein n=1 Tax=Pseudomonas ...  36.6    2.4  
+  UniRef90_A0A2U2CXA4 Uncharacterized protein n=1 Tax=Pelagicola ...  35.4    2.5  
+  UniRef90_UPI000F863EA7 hypothetical protein n=1 Tax=Aliidiomari...  36.6    2.5  
+  UniRef90_A0A2E9KBF6 Toluene tolerance protein n=2 Tax=Alteromon...  36.6    2.5  
+  UniRef90_F4GNE5 LemA protein n=1 Tax=Pusillimonas sp. (strain T...  36.6    2.5  
+  UniRef90_A0A176Y7U1 Uncharacterized protein n=1 Tax=Bradyrhizob...  36.6    2.6  
+  UniRef90_UPI00093FC379 hypothetical protein n=1 Tax=Anaerococcu...  36.6    2.6  
+  UniRef90_A0A1D8J663 LemA protein n=16 Tax=Bacteria TaxID=2 RepI...  36.6    2.6  
+  UniRef90_H8MRP6 Uncharacterized protein n=7 Tax=Corallococcus T...  35.8    2.7  
+  UniRef90_A0A1G6ZC16 Dipeptidase, putative n=1 Tax=Acidovorax va...  36.6    2.7  
+  UniRef90_UPI0004113DE5 hypothetical protein n=1 Tax=Bradyrhizob...  35.4    2.7  
+  UniRef90_A0A1Y5DW33 Uncharacterized protein n=1 Tax=Marinomonas...  35.0    2.8  
+  UniRef90_R6MMC1 Basic membrane protein n=1 Tax=Firmicutes bacte...  36.6    2.8  
+  UniRef90_A0A1I5BL57 Quinoprotein glucose dehydrogenase n=2 Tax=...  36.6    2.8  
+  UniRef90_A0A0J0YSW9 Outer membrane protein assembly factor BamD...  36.6    2.9  
+  UniRef90_A0A2E2XNY8 Uncharacterized protein n=1 Tax=Cellvibrion...  34.6    2.9  
+  UniRef90_A0A1B3W5E0 Thiol:disulfide interchange protein n=1 Tax...  36.6    2.9  
+  UniRef90_UPI00082BF820 hypothetical protein n=1 Tax=Marinomonas...  34.6    2.9  
+  UniRef90_UPI0003FB1D1E hypothetical protein n=1 Tax=Pseudodugan...  34.6    2.9  
+  UniRef90_A0A2W4RB60 Uncharacterized protein n=1 Tax=Proteobacte...  36.2    3.0  
+  UniRef90_UPI0005F98EDE type IV conjugative transfer system prot...  36.2    3.1  
+  UniRef90_A0A0J8SR65 Copper homeostasis protein CutF n=12 Tax=Ac...  36.2    3.1  
+  UniRef90_UPI0005AC70D9 LemA family protein n=2 Tax=Ralstonia Ta...  36.2    3.1  
+  UniRef90_A0A0J7XF34 GumB n=5 Tax=Alphaproteobacteria TaxID=2821...  36.2    3.1  
+  UniRef90_UPI0005BAB42F hypothetical protein n=1 Tax=Halomonas x...  35.4    3.1  
+  UniRef90_A0A399CXX3 Efflux RND transporter periplasmic adaptor ...  36.6    3.1  
+  UniRef90_A0A2M9EBP2 Uncharacterized protein n=3 Tax=unclassifie...  35.8    3.2  
+  UniRef90_A0A220SRH4 Uncharacterized protein n=2 Tax=Alcanivorax...  36.2    3.2  
+  UniRef90_UPI0004085A5B hypothetical protein n=1 Tax=Halalkaliba...  36.2    3.2  
+  UniRef90_A0A0J1H2M2 Flagellar L-ring protein n=1 Tax=Photobacte...  36.2    3.3  
+  UniRef90_R9KMX5 Uncharacterized protein n=1 Tax=Lachnospiraceae...  36.6    3.3  
+  UniRef90_I3CTQ1 Putative outer membrane lipoprotein transmembra...  35.8    3.3  
+  UniRef90_A0A080K1U0 Uncharacterized protein (Fragment) n=1 Tax=...  35.8    3.4  
+  UniRef90_Q1N0S1 Uncharacterized protein n=1 Tax=Bermanella mari...  34.6    3.4  
+  UniRef90_UPI00037FA7DF LemA family protein n=1 Tax=Rudaea cellu...  36.2    3.4  
+  UniRef90_A0A2G5P7L5 DUF541 domain-containing protein n=1 Tax=My...  36.2    3.5  
+  UniRef90_E4U244 Uncharacterized protein n=1 Tax=Sulfuricurvum k...  36.2    3.5  
+  UniRef90_A0A2T0K1U6 Carbohydrate ABC transporter substrate-bind...  36.2    3.5  
+  UniRef90_A0A3L7E0W1 Uncharacterized protein n=1 Tax=Halioglobus...  36.2    3.5  
+  UniRef90_A0A1J5QKJ6 LemA family protein n=1 Tax=mine drainage m...  36.2    3.5  
+  UniRef90_A0A3C0I299 Uncharacterized protein n=1 Tax=Gammaproteo...  35.0    3.6  
+  UniRef90_A0A135V6F9 Acetyltransferase n=1 Tax=Colletotrichum sa...  36.2    3.6  
+  UniRef90_UPI000F7B7AEA hypothetical protein n=1 Tax=Lactobacill...  35.8    3.6  
+  UniRef90_A0A1F9QNR7 Uncharacterized protein n=1 Tax=Elusimicrob...  36.2    3.7  
+  UniRef90_A0A2B9AE17 Thermonuclease n=1 Tax=Bacillus sp. AFS0535...  35.8    3.7  
+  UniRef90_W7Q793 Uncharacterized protein n=2 Tax=Halomonas sp. B...  35.8    3.9  
+  UniRef90_A0A1Q5RMA6 Uncharacterized protein n=4 Tax=Bradyrhizob...  36.2    4.1  
+  UniRef90_A0A1H7WWS6 LemA protein n=1 Tax=Luteibacter sp. UNCMF3...  35.8    4.2  
+  UniRef90_A0A2R4MAW4 Uncharacterized protein n=1 Tax=Maritalea m...  35.4    4.2  
+  UniRef90_F2JTX3 Uncharacterized protein n=1 Tax=Marinomonas med...  34.3    4.2  
+  UniRef90_A0A1D9GN24 Peptidyl-prolyl cis-trans isomerase n=1 Tax...  35.8    4.2  
+  UniRef90_A0A2Z3JH09 Uncharacterized protein n=1 Tax=Deinococcus...  35.8    4.3  
+  UniRef90_A0A1L3ENU3 Uncharacterized protein n=9 Tax=Xanthomonad...  35.8    4.4  
+  UniRef90_N9TA17 Uncharacterized protein n=38 Tax=Gammaproteobac...  35.8    4.4  
+  UniRef90_A0A3N7GY86 Thiol:disulfide interchange protein n=1 Tax...  35.8    4.4  
+  UniRef90_UPI000E0D426F hypothetical protein n=1 Tax=Rhodoferax ...  34.6    4.5  
+  UniRef90_A0A2S5C7Y0 Uncharacterized protein n=3 Tax=Lelliottia ...  35.4    4.6  
+  UniRef90_A0A1G5PKN8 Uncharacterized protein n=1 Tax=Epibacteriu...  35.8    4.6  
+  UniRef90_G6YNL1 Peptidyl-prolyl cis-trans isomerase n=15 Tax=Ma...  35.8    4.7  
+  UniRef90_UPI0007559BA9 LemA family protein n=1 Tax=Burkholderia...  35.8    4.7  
+  UniRef90_A0A1D2SEF9 Uncharacterized protein n=2 Tax=Burkholderi...  35.8    4.7  
+  UniRef90_A0A1T4MKZ6 Uncharacterized protein n=1 Tax=Anaerorhabd...  35.8    4.7  
+  UniRef90_H1Z847 Uncharacterized protein n=4 Tax=Myroides odorat...  35.4    4.8  
+  UniRef90_F5S9N5 Lipoprotein e(P4) family 5'-nucleotidase n=7 Ta...  35.8    4.9  
+  UniRef90_F5S7D8 Outer membrane protein assembly factor BamD n=1...  35.8    5.0  
+  UniRef90_A0A0K1N1T9 Uncharacterized protein n=6 Tax=Aggregatiba...  33.9    5.0  
+  UniRef90_A0A2G2QGY9 Flagellar motor protein MotB n=1 Tax=Methyl...  35.8    5.0  
+  UniRef90_A0A3C1UCD6 Uncharacterized protein n=1 Tax=Porphyromon...  35.8    5.1  
+  UniRef90_A0A3G2T636 Uncharacterized protein n=1 Tax=Acinetobact...  34.3    5.1  
+  UniRef90_A0A1Q6R0U0 Uncharacterized protein n=1 Tax=Firmicutes ...  35.8    5.1  
+  UniRef90_A0A0F9U8E4 Uncharacterized protein n=1 Tax=marine sedi...  35.8    5.3  
+  UniRef90_UPI000DED40A6 P-type conjugative transfer protein TrbG...  35.8    5.3  
+  UniRef90_A0A149VQ17 Peptidoglycan-associated protein n=1 Tax=Fe...  35.4    5.3  
+  UniRef90_A0A1B1AI32 Uncharacterized protein n=1 Tax=Caulobacter...  35.4    5.6  
+  UniRef90_A0A198XBB1 LemA family protein n=20 Tax=Moraxella TaxI...  35.4    5.7  
+  UniRef90_M7CPW6 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Mar...  35.4    5.7  
+  UniRef90_A0A259KUR5 Peptidyl-prolyl cis-trans isomerase n=1 Tax...  35.4    5.8  
+  UniRef90_A0A133Q9G1 Uncharacterized protein n=2 Tax=Prevotella ...  35.8    5.8  
+  UniRef90_E1W3E8 Uncharacterized protein n=2 Tax=Haemophilus par...  34.3    6.0  
+  UniRef90_A0A2J9E202 LemA family protein n=2 Tax=Psychrobacter T...  35.4    6.1  
+  UniRef90_A0A0F2NRG4 Competence protein n=1 Tax=Peptococcaceae b...  35.4    6.1  
+  UniRef90_Q7NQA6 Uncharacterized protein n=17 Tax=Chromobacteria...  35.4    6.2  
+  UniRef90_A0A1V3J7D3 Uncharacterized protein n=1 Tax=Rodentibact...  33.9    6.2  
+  UniRef90_A0A2V2FRB2 ABC transporter substrate-binding protein n...  35.4    6.4  
+  UniRef90_A0A2G6F0M1 Uncharacterized protein n=2 Tax=Flavobacter...  35.4    6.4  
+  UniRef90_K0G996 Secreted protein n=5 Tax=Actinobacillus TaxID=7...  34.6    6.4  
+  UniRef90_A0A2W6S070 Uncharacterized protein n=1 Tax=Francisella...  35.4    6.5  
+  UniRef90_A0A2D8QW34 Uncharacterized protein n=2 Tax=Gammaproteo...  34.3    6.5  
+  UniRef90_A0A2D2DNA2 Uncharacterized protein n=1 Tax=Massilia vi...  34.3    6.6  
+  UniRef90_A0A106QC25 Uncharacterized protein n=1 Tax=Burkholderi...  35.0    6.9  
+  UniRef90_A0A370UAC6 Uncharacterized protein n=1 Tax=Marinomonas...  33.9    6.9  
+  UniRef90_A0A0R0LFV5 Peptidoglycan-associated protein n=2 Tax=Fe...  35.0    7.0  
+  UniRef90_A0A1I7ITS5 Spore coat protein E n=2 Tax=Alicyclobacill...  35.0    7.0  
+  UniRef90_A4G2U8 Uncharacterized protein n=2 Tax=Herminiimonas T...  35.0    7.2  
+  UniRef90_A0A2G6RDV6 DNA recombination protein RmuC n=2 Tax=Rhod...  35.4    7.5  
+  UniRef90_UPI000B3E94AC DUF1190 domain-containing protein n=1 Ta...  35.0    7.6  
+  UniRef90_A0A2A2GSU3 Uncharacterized protein n=1 Tax=Helicobacte...  34.6    7.7  
+  UniRef90_A0A1V3IRQ5 Uncharacterized protein n=1 Tax=Rodentibact...  34.3    8.2  
+  UniRef90_K8AN93 Uncharacterized protein n=7 Tax=Cronobacter Tax...  34.6    8.3  
+  UniRef90_A0A223MCG8 Secreted protein n=5 Tax=Actinobacillus ple...  34.3    8.5  
+  UniRef90_A0A1M6NAQ4 Putative ABC transport system substrate-bin...  35.0    8.6  
+  UniRef90_A0A258TCB7 LemA family protein n=6 Tax=unclassified Rh...  35.0    8.6  
+  UniRef90_A0A259FUA7 Uncharacterized protein n=2 Tax=Polynucleob...  35.0    8.9  
+  UniRef90_A0A2G1UJE9 Peptidyl-prolyl cis-trans isomerase n=1 Tax...  35.0    9.1  
+  UniRef90_A0A379C9U3 Uncharacterized protein n=1 Tax=Phocoenobac...  33.1    9.3  
+  UniRef90_A0A198UT81 LemA family protein n=5 Tax=Moraxella TaxID...  35.0    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 745275271904
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

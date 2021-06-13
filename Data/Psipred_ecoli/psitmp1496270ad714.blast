@@ -1,0 +1,450 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415312.1
+
+Length=136
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAW7 Inner membrane protein YbhQ n=312 Tax=Bacteria ...  270     9e-92
+  UniRef90_A0A376RLL7 Inner membrane protein n=1 Tax=Escherichia ...  225     2e-74
+  UniRef90_G9Z592 Uncharacterized protein n=2 Tax=Yokenella regen...  200     4e-64
+  UniRef90_A0A127L279 Membrane protein n=2 Tax=Enterobacteriaceae...  199     1e-63
+  UniRef90_A0A0D1MV20 Membrane protein n=4 Tax=Enterobacteriaceae...  198     2e-63
+  UniRef90_R9VU38 Membrane protein n=4 Tax=Enterobacteriaceae Tax...  198     2e-63
+  UniRef90_A0A1X0X842 Uncharacterized protein n=10 Tax=Enterobact...  196     7e-63
+  UniRef90_A0A1N6ST42 Aspartate kinase n=2 Tax=Enterobacter TaxID...  196     2e-62
+  UniRef90_A0A2P5GRZ8 Uncharacterized protein n=1 Tax=Superficiei...  194     1e-61
+  UniRef90_UPI00057BF943 membrane protein n=1 Tax=Enterobacter sp...  194     1e-61
+  UniRef90_A0A2S4QT38 Uncharacterized protein n=1 Tax=Escherichia...  193     2e-61
+  UniRef90_A0A285KW42 Putative inner membrane protein YbhQ n=1 Ta...  192     5e-61
+  UniRef90_A0A376VP82 Inner membrane protein n=1 Tax=Escherichia ...  191     6e-61
+  UniRef90_A0A378GPC5 Inner membrane protein ybhQ n=6 Tax=Kluyver...  189     7e-60
+  UniRef90_A0A084ZX01 Putative inner membrane protein n=3 Tax=Tra...  188     2e-59
+  UniRef90_UPI0002F6C8FB membrane protein n=1 Tax=Metakosakonia m...  186     2e-58
+  UniRef90_A0A318W7A3 Aspartate kinase n=2 Tax=Enterobacteriaceae...  185     2e-58
+  UniRef90_E3G313 Uncharacterized protein n=1 Tax=Enterobacter li...  185     2e-58
+  UniRef90_V5AW08 Inner membrane protein ybhQ n=3 Tax=Enterobacte...  185     3e-58
+  UniRef90_A0A071M5E4 Membrane protein n=3 Tax=Mangrovibacter Tax...  184     8e-58
+  UniRef90_A0A090V6M1 Uncharacterized protein n=2 Tax=Enterobacte...  183     1e-57
+  UniRef90_A0A1B7IW02 Putative inner membrane protein n=1 Tax=But...  182     5e-57
+  UniRef90_A0A2P8VPS9 Uncharacterized protein n=2 Tax=Siccibacter...  182     5e-57
+  UniRef90_A0A1I6D8Y3 Inner membrane protein YbhQ n=1 Tax=Enterob...  181     7e-57
+  UniRef90_A0A376LKF6 Inner membrane protein n=1 Tax=Escherichia ...  180     3e-56
+  UniRef90_A0A1Y6GM26 Inner membrane protein ybhQ n=19 Tax=Entero...  180     4e-56
+  UniRef90_A0A2C5UXM5 Inner membrane protein ybhQ n=12 Tax=Entero...  179     5e-56
+  UniRef90_A0A370WLC1 Uncharacterized protein (Fragment) n=1 Tax=...  178     1e-55
+  UniRef90_A0A1B7I8B8 Putative inner membrane protein n=3 Tax=But...  177     2e-55
+  UniRef90_A0A078LFP2 inner membrane protein YbhQ n=225 Tax=Gamma...  177     3e-55
+  UniRef90_A0A089PQH9 Inner membrane protein ybhQ n=3 Tax=Plurali...  177     4e-55
+  UniRef90_A0A0M3EY78 Membrane protein n=10 Tax=Enterobacteriacea...  177     5e-55
+  UniRef90_A0A1T5HR11 Aspartate kinase n=10 Tax=Enterobacteriacea...  177     5e-55
+  UniRef90_UPI00037D8108 membrane protein n=1 Tax=Enterobacteriac...  176     1e-54
+  UniRef90_A0A381CA66 Inner membrane protein ybhQ n=4 Tax=Buttiau...  174     5e-54
+  UniRef90_UPI00073D2D9F hypothetical protein n=1 Tax=[Erwinia] t...  174     6e-54
+  UniRef90_UPI000EB4865A hypothetical protein n=1 Tax=Enterobacte...  174     9e-54
+  UniRef90_A0A366FFY5 Aspartate kinase n=2 Tax=Enterobacteriaceae...  173     1e-53
+  UniRef90_A0A3N1IVA0 Putative inner membrane protein YbhQ n=2 Ta...  172     2e-53
+  UniRef90_C9XZG3 Inner membrane protein ybhQ n=36 Tax=Cronobacte...  172     3e-53
+  UniRef90_A0A2X3DSC6 Inner membrane protein ybhQ n=3 Tax=Kluyver...  172     3e-53
+  UniRef90_A0A2X1PWL5 Inner membrane protein n=1 Tax=Escherichia ...  171     8e-53
+  UniRef90_UPI0009ACFB37 hypothetical protein n=6 Tax=Salmonella ...  169     2e-52
+  UniRef90_A0A0F0YER5 Membrane protein n=105 Tax=Bacteria TaxID=2...  169     6e-52
+  UniRef90_A0A181XMX5 Membrane protein n=12 Tax=Enterobacteriacea...  169     9e-52
+  UniRef90_A0A376TJJ2 Inner membrane protein n=2 Tax=Bacteria Tax...  165     4e-51
+  UniRef90_UPI0008FCFC6D hypothetical protein n=2 Tax=Citrobacter...  165     1e-50
+  UniRef90_A0A0L0AM80 Membrane protein n=1 Tax=Klebsiella sp. RIT...  166     1e-50
+  UniRef90_A0A0J8VJV6 Membrane protein n=3 Tax=Franconibacter Tax...  165     2e-50
+  UniRef90_UPI00077B7A2C hypothetical protein n=1 Tax=Enterobacte...  162     5e-49
+  UniRef90_A0A291E0T9 Inner membrane protein ybhQ n=8 Tax=Enterob...  162     5e-49
+  UniRef90_A0A1B7HYJ4 Putative inner membrane protein n=1 Tax=But...  156     5e-47
+  UniRef90_W9B5T6 Inner membrane protein YbhQ n=78 Tax=Enterobact...  154     6e-46
+  UniRef90_A0A376W0C4 Inner membrane protein n=1 Tax=Escherichia ...  148     1e-43
+  UniRef90_I2BAZ2 Putative inner membrane protein n=1 Tax=Shimwel...  142     2e-41
+  UniRef90_A0A377M6A6 Membrane protein n=1 Tax=Enterobacter cloac...  136     4e-39
+  UniRef90_A0A378F754 Membrane protein n=1 Tax=Klebsiella pneumon...  135     6e-39
+  UniRef90_G5LLB9 Putative inner membrane protein n=2 Tax=Salmone...  127     5e-36
+  UniRef90_UPI00082C9669 hypothetical protein n=1 Tax=Erwinia sp....  124     4e-34
+  UniRef90_A0A0L7TBZ4 Membrane protein n=2 Tax=Erwinia TaxID=551 ...  124     4e-34
+  UniRef90_A0A379U2Q1 Putative inner membrane protein n=1 Tax=Sal...  123     7e-34
+  UniRef90_A0A2K1QF22 Uncharacterized protein n=1 Tax=Mixta theic...  121     3e-33
+  UniRef90_A0A1W6B0R9 Uncharacterized protein n=4 Tax=Erwiniaceae...  121     6e-33
+  UniRef90_A0A0F3LV85 Membrane protein n=14 Tax=Enterobacterales ...  120     9e-33
+  UniRef90_E6W9K3 Inner membrane protein YbhQ n=3 Tax=Pantoea Tax...  120     1e-32
+  UniRef90_A0A0M2KCR8 Membrane protein n=1 Tax=Erwinia tracheiphi...  118     7e-32
+  UniRef90_A0A014M5Y5 Membrane protein n=2 Tax=Erwinia TaxID=551 ...  118     7e-32
+  UniRef90_UPI00036A9682 membrane protein n=1 Tax=Pantoea sp. A4 ...  117     2e-31
+  UniRef90_D8MPY0 Inner membrane protein YbhQ n=3 Tax=Erwiniaceae...  117     2e-31
+  UniRef90_UPI000FE2C502 hypothetical protein n=1 Tax=Pantoea sp....  117     2e-31
+  UniRef90_U3TPI3 Inner membrane protein YbhQ n=4 Tax=Enterobacte...  117     2e-31
+  UniRef90_A0A2I0FS75 Uncharacterized protein n=1 Tax=Enterobacte...  116     5e-31
+  UniRef90_A0A1I4UH69 Inner membrane protein YbhQ n=1 Tax=Izhakie...  114     3e-30
+  UniRef90_A0A358L254 Uncharacterized protein n=2 Tax=Erwinia Tax...  113     5e-30
+  UniRef90_E1SH69 Inner membrane protein ybhQ n=21 Tax=Erwiniacea...  113     8e-30
+  UniRef90_A0A085JC70 Putative inner membrane protein n=2 Tax=Tat...  112     1e-29
+  UniRef90_UPI0004A4D3C5 membrane protein n=1 Tax=Tatumella saani...  112     1e-29
+  UniRef90_UPI000948F439 hypothetical protein n=1 Tax=Pantoea sp....  112     2e-29
+  UniRef90_A0A2J9E770 Uncharacterized protein n=7 Tax=Erwiniaceae...  112     2e-29
+  UniRef90_A0A0J8YUX6 Membrane protein n=3 Tax=Enterobacterales T...  110     7e-29
+  UniRef90_A0A1S8YJE9 Uncharacterized protein n=1 Tax=Izhakiella ...  110     1e-28
+  UniRef90_UPI00054D2970 membrane protein n=2 Tax=Erwinia TaxID=5...  110     1e-28
+  UniRef90_A0A2G8E4D4 Uncharacterized protein n=1 Tax=Erwinia sp....  109     1e-28
+  UniRef90_A0A0F5BUS0 Membrane protein n=2 Tax=Tatumella TaxID=82...  109     2e-28
+  UniRef90_UPI0009B02D39 hypothetical protein n=1 Tax=Salmonella ...  105     2e-27
+  UniRef90_A0A379WXA2 Putative inner membrane protein n=1 Tax=Sal...  104     1e-26
+  UniRef90_A0A0Q4MSC0 Uncharacterized protein n=1 Tax=Erwinia sp....  105     1e-26
+  UniRef90_D4GMR3 YbhQ n=11 Tax=Pantoea TaxID=53335 RepID=D4GMR3_...  104     2e-26
+  UniRef90_B2VBW0 Inner membrane protein YbhQ n=6 Tax=Erwiniaceae...  100     9e-25
+  UniRef90_D4HZH9 Inner membrane protein ybhQ n=2 Tax=Erwinia amy...  99.0    3e-24
+  UniRef90_A0A2S9IID6 Uncharacterized protein n=2 Tax=Erwiniaceae...  98.2    6e-24
+  UniRef90_A0A0U5GJT8 Putative membrane protein n=1 Tax=Erwinia g...  95.9    4e-23
+  UniRef90_A0A370R4S7 Putative inner membrane protein YbhQ n=1 Ta...  95.5    6e-23
+  UniRef90_A0A357SNC8 Uncharacterized protein n=1 Tax=Erwinia per...  92.8    6e-22
+  UniRef90_UPI000490306B membrane protein n=1 Tax=Phaseolibacter ...  87.8    7e-20
+  UniRef90_A0A378DI57 Membrane protein n=1 Tax=Klebsiella pneumon...  80.1    1e-17
+  UniRef90_D2T317 Inner membrane protein ybhQ n=1 Tax=Erwinia pyr...  80.5    2e-17
+  UniRef90_U3U8B0 Uncharacterized protein n=1 Tax=Candidatus Pant...  81.3    3e-17
+  UniRef90_A0A377T911 Membrane protein n=1 Tax=Raoultella plantic...  78.6    7e-17
+  UniRef90_A0A377XYN6 Membrane protein n=1 Tax=Klebsiella pneumon...  75.9    1e-15
+  UniRef90_A0A376F764 Inner membrane protein n=1 Tax=Enterobacter...  70.1    1e-13
+  UniRef90_A0A377XVC8 Inner membrane protein n=3 Tax=Klebsiella p...  67.0    3e-12
+  UniRef90_A0A377T6U8 Inner membrane protein n=1 Tax=Raoultella p...  62.0    1e-10
+  UniRef90_A0A354AIV8 Uncharacterized protein (Fragment) n=1 Tax=...  59.7    1e-09
+  UniRef90_A0A376DEG2 Putative inner membrane protein n=1 Tax=Esc...  54.7    1e-07
+  UniRef90_A0A2A5PLJ0 Uncharacterized protein (Fragment) n=3 Tax=...  43.1    0.001
+  UniRef90_H2IPE8 Uncharacterized protein n=1 Tax=Rahnella aquati...  37.0    0.50 
+  UniRef90_A0A098LHT3 Amino acid transporter n=1 Tax=Sporocytopha...  38.5    1.4  
+  UniRef90_P0C6X8 Replicase polyprotein 1ab n=1 Tax=Murine corona...  37.7    2.7  
+  UniRef90_A0A1U7JD43 Integrase n=2 Tax=Nesiotobacter exalbescens...  35.8    3.2  
+  UniRef90_P0C6U9 Replicase polyprotein 1a n=3 Tax=Murine hepatit...  37.4    3.5  
+  UniRef90_A0A2N8HSI3 Uncharacterized protein n=1 Tax=Akkermansia...  35.8    4.2  
+  UniRef90_UPI000559CE89 dihydropteroate synthase n=1 Tax=Stenoxy...  36.6    4.6  
+  UniRef90_R5PY79 Uncharacterized protein n=2 Tax=Prevotella TaxI...  37.0    4.7  
+  UniRef90_A0A346DZH3 Putative membrane protein n=2 Tax=Candidatu...  35.4    5.0  
+  UniRef90_R6AV45 Uncharacterized protein n=2 Tax=Prevotellaceae ...  36.2    5.9  
+  UniRef90_A0A1V6SYA9 Uncharacterized protein n=1 Tax=Penicillium...  36.6    6.9  
+  UniRef90_A0A328SFX6 Membrane-associated Zn-dependent protease n...  35.8    9.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.139    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736345580145
+Warning: [psiblast] lcl|Query_1 NP_415312.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415312.1
+
+Length=136
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P0AAW7 Inner membrane protein YbhQ n=312 Tax=Bacteria ...  185     2e-58
+  UniRef90_A0A2S4QT38 Uncharacterized protein n=1 Tax=Escherichia...  181     1e-56
+  UniRef90_A0A1B7I8B8 Putative inner membrane protein n=3 Tax=But...  180     3e-56
+  UniRef90_A0A381CA66 Inner membrane protein ybhQ n=4 Tax=Buttiau...  178     9e-56
+  UniRef90_A0A090V6M1 Uncharacterized protein n=2 Tax=Enterobacte...  176     6e-55
+  UniRef90_A0A1B7IW02 Putative inner membrane protein n=1 Tax=But...  176     1e-54
+  UniRef90_UPI000EB4865A hypothetical protein n=1 Tax=Enterobacte...  174     5e-54
+  UniRef90_A0A127L279 Membrane protein n=2 Tax=Enterobacteriaceae...  174     9e-54
+  UniRef90_A0A0D1MV20 Membrane protein n=4 Tax=Enterobacteriaceae...  173     2e-53
+  UniRef90_A0A285KW42 Putative inner membrane protein YbhQ n=1 Ta...  170     3e-52
+  UniRef90_R9VU38 Membrane protein n=4 Tax=Enterobacteriaceae Tax...  170     4e-52
+  UniRef90_A0A1Y6GM26 Inner membrane protein ybhQ n=19 Tax=Entero...  169     6e-52
+  UniRef90_UPI00057BF943 membrane protein n=1 Tax=Enterobacter sp...  169     1e-51
+  UniRef90_A0A1N6ST42 Aspartate kinase n=2 Tax=Enterobacter TaxID...  168     1e-51
+  UniRef90_A0A2I0FS75 Uncharacterized protein n=1 Tax=Enterobacte...  168     1e-51
+  UniRef90_A0A1I6D8Y3 Inner membrane protein YbhQ n=1 Tax=Enterob...  167     2e-51
+  UniRef90_E3G313 Uncharacterized protein n=1 Tax=Enterobacter li...  167     3e-51
+  UniRef90_A0A318W7A3 Aspartate kinase n=2 Tax=Enterobacteriaceae...  167     3e-51
+  UniRef90_A0A378GPC5 Inner membrane protein ybhQ n=6 Tax=Kluyver...  167     4e-51
+  UniRef90_A0A084ZX01 Putative inner membrane protein n=3 Tax=Tra...  166     6e-51
+  UniRef90_A0A0F3LV85 Membrane protein n=14 Tax=Enterobacterales ...  166     1e-50
+  UniRef90_A0A0L7TBZ4 Membrane protein n=2 Tax=Erwinia TaxID=551 ...  165     1e-50
+  UniRef90_A0A071M5E4 Membrane protein n=3 Tax=Mangrovibacter Tax...  165     2e-50
+  UniRef90_G9Z592 Uncharacterized protein n=2 Tax=Yokenella regen...  165     2e-50
+  UniRef90_A0A376LKF6 Inner membrane protein n=1 Tax=Escherichia ...  165     3e-50
+  UniRef90_A0A2C5UXM5 Inner membrane protein ybhQ n=12 Tax=Entero...  165     3e-50
+  UniRef90_A0A1X0X842 Uncharacterized protein n=10 Tax=Enterobact...  164     4e-50
+  UniRef90_U3TPI3 Inner membrane protein YbhQ n=4 Tax=Enterobacte...  164     4e-50
+  UniRef90_UPI000FE2C502 hypothetical protein n=1 Tax=Pantoea sp....  164     5e-50
+  UniRef90_UPI00082C9669 hypothetical protein n=1 Tax=Erwinia sp....  163     1e-49
+  UniRef90_UPI0002F6C8FB membrane protein n=1 Tax=Metakosakonia m...  163     1e-49
+  UniRef90_E6W9K3 Inner membrane protein YbhQ n=3 Tax=Pantoea Tax...  163     1e-49
+  UniRef90_UPI000948F439 hypothetical protein n=1 Tax=Pantoea sp....  163     1e-49
+  UniRef90_D8MPY0 Inner membrane protein YbhQ n=3 Tax=Erwiniaceae...  162     2e-49
+  UniRef90_V5AW08 Inner membrane protein ybhQ n=3 Tax=Enterobacte...  162     3e-49
+  UniRef90_A0A089PQH9 Inner membrane protein ybhQ n=3 Tax=Plurali...  162     4e-49
+  UniRef90_A0A2P5GRZ8 Uncharacterized protein n=1 Tax=Superficiei...  161     6e-49
+  UniRef90_A0A1W6B0R9 Uncharacterized protein n=4 Tax=Erwiniaceae...  161     8e-49
+  UniRef90_A0A2J9E770 Uncharacterized protein n=7 Tax=Erwiniaceae...  160     1e-48
+  UniRef90_E1SH69 Inner membrane protein ybhQ n=21 Tax=Erwiniacea...  160     1e-48
+  UniRef90_A0A2K1QF22 Uncharacterized protein n=1 Tax=Mixta theic...  160     2e-48
+  UniRef90_A0A1I4UH69 Inner membrane protein YbhQ n=1 Tax=Izhakie...  160     3e-48
+  UniRef90_UPI00036A9682 membrane protein n=1 Tax=Pantoea sp. A4 ...  160     3e-48
+  UniRef90_UPI00073D2D9F hypothetical protein n=1 Tax=[Erwinia] t...  160     3e-48
+  UniRef90_A0A1T5HR11 Aspartate kinase n=10 Tax=Enterobacteriacea...  159     5e-48
+  UniRef90_C9XZG3 Inner membrane protein ybhQ n=36 Tax=Cronobacte...  158     9e-48
+  UniRef90_UPI00037D8108 membrane protein n=1 Tax=Enterobacteriac...  158     1e-47
+  UniRef90_A0A1S8YJE9 Uncharacterized protein n=1 Tax=Izhakiella ...  156     4e-47
+  UniRef90_A0A2G8E4D4 Uncharacterized protein n=1 Tax=Erwinia sp....  156     4e-47
+  UniRef90_UPI0004A4D3C5 membrane protein n=1 Tax=Tatumella saani...  156     4e-47
+  UniRef90_A0A358L254 Uncharacterized protein n=2 Tax=Erwinia Tax...  156     8e-47
+  UniRef90_A0A376RLL7 Inner membrane protein n=1 Tax=Escherichia ...  155     9e-47
+  UniRef90_A0A085JC70 Putative inner membrane protein n=2 Tax=Tat...  156     1e-46
+  UniRef90_A0A291E0T9 Inner membrane protein ybhQ n=8 Tax=Enterob...  156     1e-46
+  UniRef90_A0A370WLC1 Uncharacterized protein (Fragment) n=1 Tax=...  155     1e-46
+  UniRef90_D4GMR3 YbhQ n=11 Tax=Pantoea TaxID=53335 RepID=D4GMR3_...  155     1e-46
+  UniRef90_A0A0J8VJV6 Membrane protein n=3 Tax=Franconibacter Tax...  155     2e-46
+  UniRef90_A0A0J8YUX6 Membrane protein n=3 Tax=Enterobacterales T...  154     2e-46
+  UniRef90_A0A2P8VPS9 Uncharacterized protein n=2 Tax=Siccibacter...  154     7e-46
+  UniRef90_A0A366FFY5 Aspartate kinase n=2 Tax=Enterobacteriaceae...  153     8e-46
+  UniRef90_UPI00054D2970 membrane protein n=2 Tax=Erwinia TaxID=5...  153     9e-46
+  UniRef90_A0A2X3DSC6 Inner membrane protein ybhQ n=3 Tax=Kluyver...  152     3e-45
+  UniRef90_A0A3N1IVA0 Putative inner membrane protein YbhQ n=2 Ta...  152     3e-45
+  UniRef90_A0A014M5Y5 Membrane protein n=2 Tax=Erwinia TaxID=551 ...  151     7e-45
+  UniRef90_A0A0M3EY78 Membrane protein n=10 Tax=Enterobacteriacea...  151     8e-45
+  UniRef90_A0A181XMX5 Membrane protein n=12 Tax=Enterobacteriacea...  151     9e-45
+  UniRef90_A0A0F5BUS0 Membrane protein n=2 Tax=Tatumella TaxID=82...  150     1e-44
+  UniRef90_A0A1B7HYJ4 Putative inner membrane protein n=1 Tax=But...  149     3e-44
+  UniRef90_W9B5T6 Inner membrane protein YbhQ n=78 Tax=Enterobact...  149     5e-44
+  UniRef90_UPI00077B7A2C hypothetical protein n=1 Tax=Enterobacte...  148     7e-44
+  UniRef90_A0A078LFP2 inner membrane protein YbhQ n=225 Tax=Gamma...  148     2e-43
+  UniRef90_A0A0F0YER5 Membrane protein n=105 Tax=Bacteria TaxID=2...  148     2e-43
+  UniRef90_A0A0M2KCR8 Membrane protein n=1 Tax=Erwinia tracheiphi...  146     5e-43
+  UniRef90_A0A0U5GJT8 Putative membrane protein n=1 Tax=Erwinia g...  145     2e-42
+  UniRef90_A0A0Q4MSC0 Uncharacterized protein n=1 Tax=Erwinia sp....  143     5e-42
+  UniRef90_B2VBW0 Inner membrane protein YbhQ n=6 Tax=Erwiniaceae...  143     1e-41
+  UniRef90_I2BAZ2 Putative inner membrane protein n=1 Tax=Shimwel...  142     2e-41
+  UniRef90_D4HZH9 Inner membrane protein ybhQ n=2 Tax=Erwinia amy...  140     1e-40
+  UniRef90_UPI0009ACFB37 hypothetical protein n=6 Tax=Salmonella ...  137     1e-39
+  UniRef90_A0A357SNC8 Uncharacterized protein n=1 Tax=Erwinia per...  137     3e-39
+  UniRef90_UPI000490306B membrane protein n=1 Tax=Phaseolibacter ...  137     3e-39
+  UniRef90_A0A2S9IID6 Uncharacterized protein n=2 Tax=Erwiniaceae...  136     6e-39
+  UniRef90_UPI0008FCFC6D hypothetical protein n=2 Tax=Citrobacter...  135     1e-38
+  UniRef90_A0A0L0AM80 Membrane protein n=1 Tax=Klebsiella sp. RIT...  135     1e-38
+  UniRef90_A0A378F754 Membrane protein n=1 Tax=Klebsiella pneumon...  133     5e-38
+  UniRef90_A0A376VP82 Inner membrane protein n=1 Tax=Escherichia ...  131     2e-37
+  UniRef90_A0A377M6A6 Membrane protein n=1 Tax=Enterobacter cloac...  128     4e-36
+  UniRef90_A0A379U2Q1 Putative inner membrane protein n=1 Tax=Sal...  127     2e-35
+  UniRef90_A0A370R4S7 Putative inner membrane protein YbhQ n=1 Ta...  124     3e-34
+  UniRef90_A0A2X1PWL5 Inner membrane protein n=1 Tax=Escherichia ...  123     6e-34
+  UniRef90_U3U8B0 Uncharacterized protein n=1 Tax=Candidatus Pant...  121     3e-33
+  UniRef90_A0A376TJJ2 Inner membrane protein n=2 Tax=Bacteria Tax...  116     1e-31
+  UniRef90_A0A376W0C4 Inner membrane protein n=1 Tax=Escherichia ...  110     1e-28
+  UniRef90_D2T317 Inner membrane protein ybhQ n=1 Tax=Erwinia pyr...  104     5e-27
+  UniRef90_A0A379WXA2 Putative inner membrane protein n=1 Tax=Sal...  103     3e-26
+  UniRef90_G5LLB9 Putative inner membrane protein n=2 Tax=Salmone...  97.2    4e-24
+  UniRef90_UPI0009B02D39 hypothetical protein n=1 Tax=Salmonella ...  86.0    8e-20
+  UniRef90_A0A378DI57 Membrane protein n=1 Tax=Klebsiella pneumon...  80.3    1e-17
+  UniRef90_A0A377T911 Membrane protein n=1 Tax=Raoultella plantic...  74.9    2e-15
+  UniRef90_A0A377XYN6 Membrane protein n=1 Tax=Klebsiella pneumon...  73.7    6e-15
+  UniRef90_A0A354AIV8 Uncharacterized protein (Fragment) n=1 Tax=...  71.8    3e-14
+  UniRef90_A0A376F764 Inner membrane protein n=1 Tax=Enterobacter...  66.8    2e-12
+  UniRef90_A0A377XVC8 Inner membrane protein n=3 Tax=Klebsiella p...  66.4    4e-12
+  UniRef90_A0A377T6U8 Inner membrane protein n=1 Tax=Raoultella p...  57.9    5e-09
+  UniRef90_A0A376DEG2 Putative inner membrane protein n=1 Tax=Esc...  48.3    3e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A346DZH3 Putative membrane protein n=2 Tax=Candidatu...  48.3    7e-05
+  UniRef90_H2IPE8 Uncharacterized protein n=1 Tax=Rahnella aquati...  39.8    0.039
+  UniRef90_A0A2A5PLJ0 Uncharacterized protein (Fragment) n=3 Tax=...  37.1    0.29 
+  UniRef90_A0A178ZCE1 Uncharacterized protein n=1 Tax=Fonsecaea e...  37.1    4.0  
+  UniRef90_A0A381R743 Uncharacterized protein n=1 Tax=marine meta...  36.0    8.9  
+  UniRef90_A0A210QWZ2 Vezatin n=1 Tax=Mizuhopecten yessoensis Tax...  36.0    9.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.154    0.527    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0471    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736345580145
+Results from round 3
+
+
+Query= NP_415312.1
+
+Length=136
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P0AAW7 Inner membrane protein YbhQ n=312 Tax=Bacteria ...  180     2e-56
+  UniRef90_A0A1B7I8B8 Putative inner membrane protein n=3 Tax=But...  177     3e-55
+  UniRef90_A0A2S4QT38 Uncharacterized protein n=1 Tax=Escherichia...  176     7e-55
+  UniRef90_A0A381CA66 Inner membrane protein ybhQ n=4 Tax=Buttiau...  176     1e-54
+  UniRef90_A0A1B7IW02 Putative inner membrane protein n=1 Tax=But...  173     2e-53
+  UniRef90_A0A090V6M1 Uncharacterized protein n=2 Tax=Enterobacte...  173     2e-53
+  UniRef90_UPI000EB4865A hypothetical protein n=1 Tax=Enterobacte...  171     7e-53
+  UniRef90_A0A127L279 Membrane protein n=2 Tax=Enterobacteriaceae...  171     1e-52
+  UniRef90_A0A0D1MV20 Membrane protein n=4 Tax=Enterobacteriaceae...  169     8e-52
+  UniRef90_R9VU38 Membrane protein n=4 Tax=Enterobacteriaceae Tax...  168     2e-51
+  UniRef90_A0A2I0FS75 Uncharacterized protein n=1 Tax=Enterobacte...  167     3e-51
+  UniRef90_A0A1Y6GM26 Inner membrane protein ybhQ n=19 Tax=Entero...  167     4e-51
+  UniRef90_UPI00057BF943 membrane protein n=1 Tax=Enterobacter sp...  166     9e-51
+  UniRef90_A0A0F3LV85 Membrane protein n=14 Tax=Enterobacterales ...  166     1e-50
+  UniRef90_A0A285KW42 Putative inner membrane protein YbhQ n=1 Ta...  166     1e-50
+  UniRef90_A0A318W7A3 Aspartate kinase n=2 Tax=Enterobacteriaceae...  165     1e-50
+  UniRef90_A0A0L7TBZ4 Membrane protein n=2 Tax=Erwinia TaxID=551 ...  165     1e-50
+  UniRef90_U3TPI3 Inner membrane protein YbhQ n=4 Tax=Enterobacte...  165     2e-50
+  UniRef90_A0A1I6D8Y3 Inner membrane protein YbhQ n=1 Tax=Enterob...  165     2e-50
+  UniRef90_A0A1N6ST42 Aspartate kinase n=2 Tax=Enterobacter TaxID...  165     2e-50
+  UniRef90_A0A378GPC5 Inner membrane protein ybhQ n=6 Tax=Kluyver...  164     4e-50
+  UniRef90_E3G313 Uncharacterized protein n=1 Tax=Enterobacter li...  164     7e-50
+  UniRef90_E6W9K3 Inner membrane protein YbhQ n=3 Tax=Pantoea Tax...  163     8e-50
+  UniRef90_UPI000FE2C502 hypothetical protein n=1 Tax=Pantoea sp....  163     9e-50
+  UniRef90_A0A071M5E4 Membrane protein n=3 Tax=Mangrovibacter Tax...  163     1e-49
+  UniRef90_A0A084ZX01 Putative inner membrane protein n=3 Tax=Tra...  163     2e-49
+  UniRef90_G9Z592 Uncharacterized protein n=2 Tax=Yokenella regen...  163     2e-49
+  UniRef90_A0A1X0X842 Uncharacterized protein n=10 Tax=Enterobact...  162     3e-49
+  UniRef90_D8MPY0 Inner membrane protein YbhQ n=3 Tax=Erwiniaceae...  161     4e-49
+  UniRef90_A0A2C5UXM5 Inner membrane protein ybhQ n=12 Tax=Entero...  162     5e-49
+  UniRef90_UPI000948F439 hypothetical protein n=1 Tax=Pantoea sp....  161     5e-49
+  UniRef90_UPI00082C9669 hypothetical protein n=1 Tax=Erwinia sp....  161     7e-49
+  UniRef90_A0A2J9E770 Uncharacterized protein n=7 Tax=Erwiniaceae...  161     8e-49
+  UniRef90_E1SH69 Inner membrane protein ybhQ n=21 Tax=Erwiniacea...  159     2e-48
+  UniRef90_V5AW08 Inner membrane protein ybhQ n=3 Tax=Enterobacte...  160     2e-48
+  UniRef90_UPI00036A9682 membrane protein n=1 Tax=Pantoea sp. A4 ...  159     3e-48
+  UniRef90_A0A089PQH9 Inner membrane protein ybhQ n=3 Tax=Plurali...  159     3e-48
+  UniRef90_A0A376LKF6 Inner membrane protein n=1 Tax=Escherichia ...  159     4e-48
+  UniRef90_A0A1W6B0R9 Uncharacterized protein n=4 Tax=Erwiniaceae...  159     4e-48
+  UniRef90_A0A2K1QF22 Uncharacterized protein n=1 Tax=Mixta theic...  158     1e-47
+  UniRef90_UPI0002F6C8FB membrane protein n=1 Tax=Metakosakonia m...  158     2e-47
+  UniRef90_A0A2P5GRZ8 Uncharacterized protein n=1 Tax=Superficiei...  158     2e-47
+  UniRef90_C9XZG3 Inner membrane protein ybhQ n=36 Tax=Cronobacte...  157     4e-47
+  UniRef90_A0A2G8E4D4 Uncharacterized protein n=1 Tax=Erwinia sp....  156     6e-47
+  UniRef90_UPI00073D2D9F hypothetical protein n=1 Tax=[Erwinia] t...  156     6e-47
+  UniRef90_A0A1I4UH69 Inner membrane protein YbhQ n=1 Tax=Izhakie...  156     7e-47
+  UniRef90_D4GMR3 YbhQ n=11 Tax=Pantoea TaxID=53335 RepID=D4GMR3_...  156     9e-47
+  UniRef90_A0A085JC70 Putative inner membrane protein n=2 Tax=Tat...  155     1e-46
+  UniRef90_A0A1T5HR11 Aspartate kinase n=10 Tax=Enterobacteriacea...  156     1e-46
+  UniRef90_A0A1S8YJE9 Uncharacterized protein n=1 Tax=Izhakiella ...  154     3e-46
+  UniRef90_A0A358L254 Uncharacterized protein n=2 Tax=Erwinia Tax...  154     3e-46
+  UniRef90_UPI0004A4D3C5 membrane protein n=1 Tax=Tatumella saani...  154     4e-46
+  UniRef90_UPI00037D8108 membrane protein n=1 Tax=Enterobacteriac...  154     5e-46
+  UniRef90_A0A370WLC1 Uncharacterized protein (Fragment) n=1 Tax=...  153     5e-46
+  UniRef90_A0A0J8YUX6 Membrane protein n=3 Tax=Enterobacterales T...  153     7e-46
+  UniRef90_A0A376RLL7 Inner membrane protein n=1 Tax=Escherichia ...  153     8e-46
+  UniRef90_A0A291E0T9 Inner membrane protein ybhQ n=8 Tax=Enterob...  153     1e-45
+  UniRef90_A0A0J8VJV6 Membrane protein n=3 Tax=Franconibacter Tax...  152     4e-45
+  UniRef90_A0A014M5Y5 Membrane protein n=2 Tax=Erwinia TaxID=551 ...  151     5e-45
+  UniRef90_UPI00054D2970 membrane protein n=2 Tax=Erwinia TaxID=5...  151     7e-45
+  UniRef90_A0A0F5BUS0 Membrane protein n=2 Tax=Tatumella TaxID=82...  150     1e-44
+  UniRef90_A0A3N1IVA0 Putative inner membrane protein YbhQ n=2 Ta...  150     1e-44
+  UniRef90_A0A2P8VPS9 Uncharacterized protein n=2 Tax=Siccibacter...  150     2e-44
+  UniRef90_A0A366FFY5 Aspartate kinase n=2 Tax=Enterobacteriaceae...  149     5e-44
+  UniRef90_A0A2X3DSC6 Inner membrane protein ybhQ n=3 Tax=Kluyver...  149     6e-44
+  UniRef90_W9B5T6 Inner membrane protein YbhQ n=78 Tax=Enterobact...  148     2e-43
+  UniRef90_A0A0M3EY78 Membrane protein n=10 Tax=Enterobacteriacea...  146     5e-43
+  UniRef90_A0A1B7HYJ4 Putative inner membrane protein n=1 Tax=But...  146     8e-43
+  UniRef90_A0A0M2KCR8 Membrane protein n=1 Tax=Erwinia tracheiphi...  146     8e-43
+  UniRef90_A0A181XMX5 Membrane protein n=12 Tax=Enterobacteriacea...  146     1e-42
+  UniRef90_A0A0U5GJT8 Putative membrane protein n=1 Tax=Erwinia g...  144     2e-42
+  UniRef90_UPI00077B7A2C hypothetical protein n=1 Tax=Enterobacte...  144     6e-42
+  UniRef90_A0A0F0YER5 Membrane protein n=105 Tax=Bacteria TaxID=2...  143     7e-42
+  UniRef90_A0A0Q4MSC0 Uncharacterized protein n=1 Tax=Erwinia sp....  143     9e-42
+  UniRef90_A0A078LFP2 inner membrane protein YbhQ n=225 Tax=Gamma...  142     3e-41
+  UniRef90_D4HZH9 Inner membrane protein ybhQ n=2 Tax=Erwinia amy...  141     6e-41
+  UniRef90_B2VBW0 Inner membrane protein YbhQ n=6 Tax=Erwiniaceae...  140     2e-40
+  UniRef90_I2BAZ2 Putative inner membrane protein n=1 Tax=Shimwel...  139     6e-40
+  UniRef90_A0A357SNC8 Uncharacterized protein n=1 Tax=Erwinia per...  137     2e-39
+  UniRef90_UPI000490306B membrane protein n=1 Tax=Phaseolibacter ...  137     3e-39
+  UniRef90_A0A377M6A6 Membrane protein n=1 Tax=Enterobacter cloac...  136     4e-39
+  UniRef90_A0A2S9IID6 Uncharacterized protein n=2 Tax=Erwiniaceae...  135     1e-38
+  UniRef90_UPI0009ACFB37 hypothetical protein n=6 Tax=Salmonella ...  134     1e-38
+  UniRef90_UPI0008FCFC6D hypothetical protein n=2 Tax=Citrobacter...  132     2e-37
+  UniRef90_A0A0L0AM80 Membrane protein n=1 Tax=Klebsiella sp. RIT...  131     4e-37
+  UniRef90_A0A378F754 Membrane protein n=1 Tax=Klebsiella pneumon...  130     9e-37
+  UniRef90_A0A376VP82 Inner membrane protein n=1 Tax=Escherichia ...  129     3e-36
+  UniRef90_A0A379U2Q1 Putative inner membrane protein n=1 Tax=Sal...  126     5e-35
+  UniRef90_U3U8B0 Uncharacterized protein n=1 Tax=Candidatus Pant...  123     1e-33
+  UniRef90_A0A370R4S7 Putative inner membrane protein YbhQ n=1 Ta...  122     2e-33
+  UniRef90_A0A2X1PWL5 Inner membrane protein n=1 Tax=Escherichia ...  121     4e-33
+  UniRef90_A0A376W0C4 Inner membrane protein n=1 Tax=Escherichia ...  116     4e-31
+  UniRef90_A0A376TJJ2 Inner membrane protein n=2 Tax=Bacteria Tax...  114     5e-31
+  UniRef90_D2T317 Inner membrane protein ybhQ n=1 Tax=Erwinia pyr...  107     6e-28
+  UniRef90_A0A379WXA2 Putative inner membrane protein n=1 Tax=Sal...  103     4e-26
+  UniRef90_G5LLB9 Putative inner membrane protein n=2 Tax=Salmone...  93.4    1e-22
+  UniRef90_UPI0009B02D39 hypothetical protein n=1 Tax=Salmonella ...  83.3    1e-18
+  UniRef90_A0A378DI57 Membrane protein n=1 Tax=Klebsiella pneumon...  77.2    2e-16
+  UniRef90_A0A354AIV8 Uncharacterized protein (Fragment) n=1 Tax=...  74.9    1e-15
+  UniRef90_A0A377T911 Membrane protein n=1 Tax=Raoultella plantic...  74.1    4e-15
+  UniRef90_A0A377XYN6 Membrane protein n=1 Tax=Klebsiella pneumon...  71.4    6e-14
+  UniRef90_A0A376F764 Inner membrane protein n=1 Tax=Enterobacter...  68.3    4e-13
+  UniRef90_A0A377XVC8 Inner membrane protein n=3 Tax=Klebsiella p...  67.9    1e-12
+  UniRef90_A0A376DEG2 Putative inner membrane protein n=1 Tax=Esc...  64.5    2e-11
+  UniRef90_A0A346DZH3 Putative membrane protein n=2 Tax=Candidatu...  61.4    7e-10
+  UniRef90_A0A377T6U8 Inner membrane protein n=1 Tax=Raoultella p...  58.7    2e-09
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_H2IPE8 Uncharacterized protein n=1 Tax=Rahnella aquati...  39.8    0.038
+  UniRef90_A0A2A5PLJ0 Uncharacterized protein (Fragment) n=3 Tax=...  36.7    0.34 
+  UniRef90_A0A178ZCE1 Uncharacterized protein n=1 Tax=Fonsecaea e...  36.3    8.2  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.155    0.529    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0476    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736345580145
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

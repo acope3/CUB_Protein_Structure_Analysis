@@ -1,0 +1,183 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414565.1
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P75620 Uncharacterized protein YaaY n=165 Tax=Bacteria...  146     7e-45
+  UniRef90_UPI0002BAB916 DUF2575 domain-containing protein n=3 Ta...  134     4e-40
+  UniRef90_A0A2U9KKU0 DUF2575 domain-containing protein n=7 Tax=G...  126     5e-37
+  UniRef90_A0A2S4RX89 DUF2575 domain-containing protein n=1 Tax=C...  103     6e-28
+  UniRef90_A0A1S0ZYC3 DUF2575 domain-containing protein n=15 Tax=...  97.4    2e-25
+  UniRef90_A0A3G5Y0P9 DUF2575 domain-containing protein n=3 Tax=E...  96.3    5e-25
+  UniRef90_A0A3E2KU79 DUF2575 domain-containing protein n=1 Tax=C...  91.7    4e-23
+  UniRef90_A0A0K0H6X8 Uncharacterized protein n=4 Tax=Salmonella ...  90.9    9e-23
+  UniRef90_D2TGJ8 Putative membrane protein n=1 Tax=Citrobacter r...  89.0    5e-22
+  UniRef90_UPI00069AF9B7 DUF2575 domain-containing protein n=1 Ta...  87.4    2e-21
+  UniRef90_G5R9Z8 Uncharacterized protein n=87 Tax=Gammaproteobac...  87.0    3e-21
+  UniRef90_A0A2Z3X1D5 DUF2575 domain-containing protein n=5 Tax=E...  85.9    9e-21
+  UniRef90_A0A3H7DEI1 DUF2575 domain-containing protein n=2 Tax=S...  85.9    9e-21
+  UniRef90_UPI0008FFC214 DUF2575 domain-containing protein n=1 Ta...  81.3    5e-19
+  UniRef90_A0A3N2S882 DUF2575 domain-containing protein n=2 Tax=K...  51.2    3e-07
+  UniRef90_A0A3C0GWS7 Uncharacterized protein n=2 Tax=Enterobacte...  48.1    4e-06
+  UniRef90_A0A330DMX8 DUF2575 domain-containing protein n=5 Tax=E...  45.8    2e-05
+  UniRef90_UPI000F66142F DUF2575 domain-containing protein n=1 Ta...  45.1    1e-04
+  UniRef90_A0A370YVM1 DUF2575 domain-containing protein n=1 Tax=E...  44.3    1e-04
+  UniRef90_UPI00093D1F06 DUF2575 domain-containing protein n=1 Ta...  44.7    1e-04
+  UniRef90_A0A2U2HXN6 DUF2575 domain-containing protein n=1 Tax=[...  42.0    8e-04
+  UniRef90_UPI000CFEBF2B DUF2575 domain-containing protein n=1 Ta...  41.6    0.002
+  UniRef90_A0A351NI07 DUF2575 domain-containing protein n=1 Tax=E...  38.5    0.014
+  UniRef90_A0A2T4Y5E5 DUF2575 domain-containing protein n=4 Tax=E...  37.7    0.030
+  UniRef90_UPI000DA1116A DUF2575 domain-containing protein n=3 Ta...  37.7    0.062
+  UniRef90_UPI000DBE608F DUF2575 domain-containing protein n=3 Ta...  37.4    0.086
+  UniRef90_A0A2V4HCD6 Uncharacterized protein n=13 Tax=Serratia T...  37.4    0.11 
+  UniRef90_A0A2T4Y5G2 DUF2575 domain-containing protein n=2 Tax=E...  35.8    0.20 
+  UniRef90_A0A351NI08 Uncharacterized protein n=2 Tax=Enterobacte...  35.4    0.48 
+  UniRef90_UPI000E26383D DUF2575 domain-containing protein n=1 Ta...  35.8    0.54 
+  UniRef90_A0A3G5JJ25 DUF2575 domain-containing protein n=2 Tax=Y...  35.8    0.60 
+  UniRef90_A0A2W1LPH9 DUF2575 domain-containing protein n=2 Tax=K...  34.3    0.61 
+  UniRef90_A0A2R4NTV2 Uncharacterized protein n=7 Tax=Enterobacte...  35.4    0.63 
+  UniRef90_C9XVH4 Uncharacterized protein n=5 Tax=Enterobacteriac...  34.7    0.65 
+  UniRef90_UPI000F76D94E DUF2575 domain-containing protein n=1 Ta...  35.4    0.68 
+  UniRef90_A0A3G2RMY5 DUF2575 domain-containing protein n=2 Tax=S...  35.0    0.72 
+  UniRef90_UPI000E0F978D DUF2575 domain-containing protein n=1 Ta...  35.0    0.84 
+  UniRef90_UPI000E0EB288 DUF2575 domain-containing protein n=2 Ta...  35.0    1.0  
+  UniRef90_A0A3G2FPU7 DUF2575 domain-containing protein n=2 Tax=Y...  35.8    1.1  
+  UniRef90_A0A0P1ATV7 Myosin light chain kinase-related n=1 Tax=P...  35.8    1.9  
+  UniRef90_UPI000D501309 DUF2575 domain-containing protein n=1 Ta...  33.1    3.3  
+  UniRef90_W1JAB5 Uncharacterized protein n=2 Tax=Xenorhabdus Tax...  32.7    3.7  
+  UniRef90_UPI000F8275C0 DUF2575 domain-containing protein n=2 Ta...  32.0    10.0 
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.143    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 761589578951
+Warning: [psiblast] lcl|Query_1 NP_414565.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414565.1
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P75620 Uncharacterized protein YaaY n=165 Tax=Bacteria...  108     5e-30
+  UniRef90_UPI0002BAB916 DUF2575 domain-containing protein n=3 Ta...  108     7e-30
+  UniRef90_A0A1S0ZYC3 DUF2575 domain-containing protein n=15 Tax=...  103     6e-28
+  UniRef90_A0A3H7DEI1 DUF2575 domain-containing protein n=2 Tax=S...  103     6e-28
+  UniRef90_A0A3G5Y0P9 DUF2575 domain-containing protein n=3 Tax=E...  100     1e-26
+  UniRef90_A0A2S4RX89 DUF2575 domain-containing protein n=1 Tax=C...  100     2e-26
+  UniRef90_A0A0K0H6X8 Uncharacterized protein n=4 Tax=Salmonella ...  99.3    4e-26
+  UniRef90_G5R9Z8 Uncharacterized protein n=87 Tax=Gammaproteobac...  98.6    7e-26
+  UniRef90_A0A2Z3X1D5 DUF2575 domain-containing protein n=5 Tax=E...  96.6    4e-25
+  UniRef90_UPI0008FFC214 DUF2575 domain-containing protein n=1 Ta...  96.6    5e-25
+  UniRef90_A0A3E2KU79 DUF2575 domain-containing protein n=1 Tax=C...  95.9    8e-25
+  UniRef90_A0A2U9KKU0 DUF2575 domain-containing protein n=7 Tax=G...  94.3    4e-24
+  UniRef90_UPI00069AF9B7 DUF2575 domain-containing protein n=1 Ta...  93.6    6e-24
+  UniRef90_D2TGJ8 Putative membrane protein n=1 Tax=Citrobacter r...  92.8    2e-23
+  UniRef90_A0A3N2S882 DUF2575 domain-containing protein n=2 Tax=K...  70.5    7e-15
+  UniRef90_UPI00093D1F06 DUF2575 domain-containing protein n=1 Ta...  68.5    5e-14
+  UniRef90_A0A370YVM1 DUF2575 domain-containing protein n=1 Tax=E...  50.8    3e-07
+  UniRef90_A0A3C0GWS7 Uncharacterized protein n=2 Tax=Enterobacte...  50.0    6e-07
+  UniRef90_A0A2U2HXN6 DUF2575 domain-containing protein n=1 Tax=[...  47.3    6e-06
+  UniRef90_UPI000F66142F DUF2575 domain-containing protein n=1 Ta...  48.1    7e-06
+  UniRef90_A0A330DMX8 DUF2575 domain-containing protein n=5 Tax=E...  45.4    3e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000CFEBF2B DUF2575 domain-containing protein n=1 Ta...  40.4    0.006
+  UniRef90_A0A3G2RMY5 DUF2575 domain-containing protein n=2 Tax=S...  38.9    0.021
+  UniRef90_A0A2T4Y5G2 DUF2575 domain-containing protein n=2 Tax=E...  38.1    0.027
+  UniRef90_A0A2T4Y5E5 DUF2575 domain-containing protein n=4 Tax=E...  36.9    0.056
+  UniRef90_UPI000E0F978D DUF2575 domain-containing protein n=1 Ta...  37.3    0.097
+  UniRef90_A0A2V4HCD6 Uncharacterized protein n=13 Tax=Serratia T...  37.3    0.13 
+  UniRef90_A0A3G5JJ25 DUF2575 domain-containing protein n=2 Tax=Y...  37.3    0.14 
+  UniRef90_UPI000D70C824 DUF2575 domain-containing protein n=1 Ta...  36.9    0.15 
+  UniRef90_A0A351NI08 Uncharacterized protein n=2 Tax=Enterobacte...  36.6    0.16 
+  UniRef90_A0A2R4NTV2 Uncharacterized protein n=7 Tax=Enterobacte...  36.9    0.16 
+  UniRef90_UPI000DBE608F DUF2575 domain-containing protein n=3 Ta...  36.2    0.21 
+  UniRef90_UPI000E0EB288 DUF2575 domain-containing protein n=2 Ta...  36.6    0.29 
+  UniRef90_C9XVH4 Uncharacterized protein n=5 Tax=Enterobacteriac...  35.4    0.33 
+  UniRef90_UPI000E26383D DUF2575 domain-containing protein n=1 Ta...  36.2    0.34 
+  UniRef90_A0A351NI07 DUF2575 domain-containing protein n=1 Tax=E...  35.0    0.36 
+  UniRef90_UPI000F76D94E DUF2575 domain-containing protein n=1 Ta...  36.2    0.44 
+  UniRef90_UPI000DA1116A DUF2575 domain-containing protein n=3 Ta...  35.0    0.55 
+  UniRef90_A0A165QKE1 Uncharacterized protein n=7 Tax=Sphingomona...  36.9    0.67 
+  UniRef90_A0A2W1LPH9 DUF2575 domain-containing protein n=2 Tax=K...  34.2    0.73 
+  UniRef90_W1JAB5 Uncharacterized protein n=2 Tax=Xenorhabdus Tax...  34.6    0.80 
+  UniRef90_A0A0L1KCF8 GGDEF family protein n=14 Tax=Sphingomonada...  36.6    0.93 
+  UniRef90_UPI000F8275C0 DUF2575 domain-containing protein n=2 Ta...  34.2    1.4  
+  UniRef90_A0A3G2FPU7 DUF2575 domain-containing protein n=2 Tax=Y...  35.4    1.8  
+  UniRef90_A0A2U2I3Z6 DUF2575 domain-containing protein n=1 Tax=[...  33.1    2.2  
+  UniRef90_A0A3G2RL88 DUF2575 domain-containing protein n=1 Tax=S...  33.1    2.3  
+  UniRef90_A0A3N6UUW0 DUF2575 domain-containing protein n=1 Tax=E...  33.5    2.3  
+  UniRef90_UPI000DBE50F6 DUF2575 domain-containing protein n=1 Ta...  33.5    2.5  
+  UniRef90_UPI000D501309 DUF2575 domain-containing protein n=1 Ta...  33.1    3.6  
+  UniRef90_A0A2A4P3G6 GGDEF-domain containing protein n=1 Tax=Ery...  34.6    4.7  
+  UniRef90_A0A109LXL7 Uncharacterized protein n=2 Tax=Erythrobact...  34.2    5.7  
+  UniRef90_A0A375AF96 Uncharacterized protein n=1 Tax=Dickeya aqu...  31.9    7.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.136    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0417    0.140     1.90     42.6     43.6 
+
+Effective search space used: 761589578951
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

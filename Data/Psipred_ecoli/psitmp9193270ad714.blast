@@ -1,0 +1,1563 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414546.1
+
+Length=98
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P75616 Uncharacterized protein YaaX n=301 Tax=Bacteria...  197     2e-64
+  UniRef90_B7LWR3 Uncharacterized protein n=5 Tax=Escherichia fer...  149     2e-45
+  UniRef90_W0AT20 Uncharacterized protein n=14 Tax=Escherichia Ta...  137     2e-40
+  UniRef90_A0A2X1LHY2 Protein n=1 Tax=Escherichia coli TaxID=562 ...  130     5e-38
+  UniRef90_A0A078LIA6 Protein of uncharacterized function (DUF250...  129     4e-37
+  UniRef90_S0X9Y6 Uncharacterized protein n=12 Tax=Enterobacteria...  125     2e-35
+  UniRef90_A0A0F6RDD6 Uncharacterized protein n=1 Tax=Citrobacter...  122     1e-34
+  UniRef90_A0A2T3CBB1 Uncharacterized protein n=2 Tax=Enterobacte...  117     1e-32
+  UniRef90_A0A2X3DXU3 Protein of uncharacterized function (DUF250...  115     8e-32
+  UniRef90_A4W6C4 Uncharacterized protein n=2 Tax=Enterobacteriac...  113     5e-31
+  UniRef90_A0A1B7IJE4 Uncharacterized protein n=4 Tax=Buttiauxell...  113     6e-31
+  UniRef90_A0A140IF82 Uncharacterized protein n=2 Tax=Enterobacte...  113     8e-31
+  UniRef90_A0A1A9F7Z0 Uncharacterized protein n=1 Tax=Lelliottia ...  112     1e-30
+  UniRef90_A0A2P5GJB7 Uncharacterized protein n=1 Tax=Superficiei...  112     2e-30
+  UniRef90_UPI000744BCDD DUF2502 domain-containing protein n=1 Ta...  112     2e-30
+  UniRef90_A0A085G2B7 Uncharacterized DUF2502 family protein n=3 ...  111     3e-30
+  UniRef90_UPI000EB57456 DUF2502 domain-containing protein n=1 Ta...  111     3e-30
+  UniRef90_A0A1I7CEY7 Uncharacterized protein n=1 Tax=Kosakonia a...  110     5e-30
+  UniRef90_A0A0M3F699 Uncharacterized protein n=2 Tax=Enterobacte...  111     5e-30
+  UniRef90_A0A2S4WX83 DUF2502 domain-containing protein n=6 Tax=E...  110     6e-30
+  UniRef90_A0A1V0LJ29 Uncharacterized protein n=6 Tax=Enterobacte...  110     8e-30
+  UniRef90_D2Z9S7 Uncharacterized protein n=1 Tax=Enterobacter ca...  110     9e-30
+  UniRef90_A0A0J8YCH9 Uncharacterized protein n=3 Tax=Franconibac...  110     1e-29
+  UniRef90_A0A3N1W1G7 Uncharacterized protein DUF2502 n=4 Tax=Ent...  110     1e-29
+  UniRef90_A0A1B7IIG2 Uncharacterized protein n=2 Tax=Buttiauxell...  109     2e-29
+  UniRef90_UPI00077B80F0 DUF2502 domain-containing protein n=1 Ta...  109     2e-29
+  UniRef90_A0A0F1BAH6 Uncharacterized protein n=21 Tax=Enterobact...  108     3e-29
+  UniRef90_A0A0B5IPW3 Uncharacterized protein n=6 Tax=Enterobacte...  108     3e-29
+  UniRef90_L0MAM7 Uncharacterized protein n=3 Tax=Enterobacteriac...  108     8e-29
+  UniRef90_A0A0F0XTK2 Uncharacterized protein n=9 Tax=Enterobacte...  107     1e-28
+  UniRef90_G8LLY4 YaaX n=12 Tax=Enterobacteriaceae TaxID=543 RepI...  107     3e-28
+  UniRef90_G2S4T7 Uncharacterized protein n=83 Tax=Bacteria TaxID...  107     3e-28
+  UniRef90_UPI000486724C DUF2502 domain-containing protein n=1 Ta...  105     8e-28
+  UniRef90_A0A090UW56 Uncharacterized protein n=2 Tax=Enterobacte...  104     1e-27
+  UniRef90_A0A0G3PEC2 Uncharacterized protein n=38 Tax=Enterobact...  104     2e-27
+  UniRef90_G9YZ92 Uncharacterized protein n=2 Tax=Yokenella regen...  103     4e-27
+  UniRef90_A0A1B7JNV6 Uncharacterized protein n=2 Tax=Kluyvera ge...  103     4e-27
+  UniRef90_UPI00066A168B DUF2502 domain-containing protein n=2 Ta...  103     5e-27
+  UniRef90_A0A1X0XEU4 Uncharacterized protein n=1 Tax=Kluyvera in...  102     2e-26
+  UniRef90_A0A0G3QD70 Uncharacterized protein n=10 Tax=Enterobact...  102     2e-26
+  UniRef90_UPI0007881BAA DUF2502 domain-containing protein n=1 Ta...  100     6e-26
+  UniRef90_A0A181XPL9 Protein of uncharacterized function (DUF250...  100     9e-26
+  UniRef90_A0A2S5CAD5 Uncharacterized protein n=2 Tax=Enterobacte...  99.8    2e-25
+  UniRef90_A0A378GP52 Protein of uncharacterized function (DUF250...  100     2e-25
+  UniRef90_E3GAP3 Uncharacterized protein n=1 Tax=Enterobacter li...  99.8    2e-25
+  UniRef90_A0A318W3M9 Uncharacterized protein DUF2502 n=2 Tax=Ent...  99.0    3e-25
+  UniRef90_V8FJG9 Uncharacterized protein (Fragment) n=1 Tax=Esch...  97.8    4e-25
+  UniRef90_UPI0004E270A8 DUF2502 domain-containing protein n=1 Ta...  97.8    7e-25
+  UniRef90_A0A370WIU0 DUF2502 domain-containing protein n=1 Tax=H...  97.4    9e-25
+  UniRef90_A0A0D5WPT1 Uncharacterized protein n=6 Tax=Enterobacte...  97.4    9e-25
+  UniRef90_A0A285K9D2 Uncharacterized protein n=1 Tax=Enterobacte...  97.4    1e-24
+  UniRef90_UPI0002EEAF77 DUF2502 domain-containing protein n=1 Ta...  95.1    8e-24
+  UniRef90_R9VJ75 Uncharacterized protein n=11 Tax=Enterobacteria...  95.5    8e-24
+  UniRef90_A0A2S4QWP6 Uncharacterized protein n=2 Tax=Escherichia...  95.1    1e-23
+  UniRef90_A0A2T2Y4L0 Uncharacterized protein n=1 Tax=Kluyvera as...  95.1    1e-23
+  UniRef90_A0A181D919 DUF2502 domain-containing protein n=88 Tax=...  94.7    2e-23
+  UniRef90_V5ACW2 Uncharacterized protein n=8 Tax=Enterobacterale...  94.7    2e-23
+  UniRef90_A0A0M3F8J6 Uncharacterized protein n=7 Tax=Enterobacte...  94.7    2e-23
+  UniRef90_A0A0G3S4H5 DUF2502 domain-containing protein n=29 Tax=...  94.7    3e-23
+  UniRef90_A0A3E2A0A2 DUF2502 domain-containing protein n=5 Tax=E...  94.4    3e-23
+  UniRef90_A0A3N1J8A9 Uncharacterized protein DUF2502 n=2 Tax=Ent...  93.6    6e-23
+  UniRef90_A0A1C4ERN9 Uncharacterized protein n=2 Tax=Kosakonia T...  93.2    7e-23
+  UniRef90_UPI0002D7A2F7 DUF2502 domain-containing protein n=1 Ta...  93.2    8e-23
+  UniRef90_A0A1N6TF53 Uncharacterized protein n=3 Tax=Enterobacte...  93.2    1e-22
+  UniRef90_A4WD09 Uncharacterized protein n=6 Tax=Enterobacteriac...  92.8    1e-22
+  UniRef90_A0A2P5GHX5 DUF2502 domain-containing protein n=2 Tax=E...  92.8    1e-22
+  UniRef90_S3IPB7 Uncharacterized protein n=1 Tax=Cedecea davisae...  92.0    2e-22
+  UniRef90_A0A2T4LED0 Uncharacterized protein (Fragment) n=1 Tax=...  90.1    2e-22
+  UniRef90_A0A2T3X4L6 DUF2502 domain-containing protein n=6 Tax=E...  91.7    3e-22
+  UniRef90_UPI00077B72A9 DUF2502 domain-containing protein n=1 Ta...  92.0    3e-22
+  UniRef90_I2B6S4 Uncharacterized protein n=1 Tax=Shimwellia blat...  91.7    3e-22
+  UniRef90_P64543 Uncharacterized protein YpeC n=323 Tax=Proteoba...  91.3    5e-22
+  UniRef90_A0A2T3RKK8 DUF2502 domain-containing protein YpeC n=58...  90.9    5e-22
+  UniRef90_A0A0F1KR34 Uncharacterized protein n=10 Tax=Enterobact...  90.9    7e-22
+  UniRef90_A0A377BVP6 Protein n=2 Tax=Escherichia coli TaxID=562 ...  91.3    8e-22
+  UniRef90_G2S3C0 Uncharacterized protein n=3 Tax=Enterobacteriac...  90.1    1e-21
+  UniRef90_A0A071LMT8 Uncharacterized protein n=3 Tax=Mangrovibac...  89.4    3e-21
+  UniRef90_UPI00057BFD43 DUF2502 domain-containing protein n=1 Ta...  88.6    4e-21
+  UniRef90_A0A2T7ARL6 DUF2502 domain-containing protein n=1 Tax=C...  87.8    5e-21
+  UniRef90_A0A1B7HNZ2 Uncharacterized protein n=1 Tax=Buttiauxell...  88.6    7e-21
+  UniRef90_A0A1B7IEQ9 Uncharacterized protein n=9 Tax=Buttiauxell...  88.2    1e-20
+  UniRef90_A0A090UZF0 Uncharacterized protein n=3 Tax=Enterobacte...  87.4    1e-20
+  UniRef90_UPI000C7B506B DUF2502 domain-containing protein n=1 Ta...  86.3    2e-20
+  UniRef90_G9ZAN1 Uncharacterized protein n=2 Tax=Yokenella regen...  87.0    2e-20
+  UniRef90_E3G9L1 Uncharacterized protein n=1 Tax=Enterobacter li...  86.7    3e-20
+  UniRef90_I2BD03 Putative periplasmic protein YaaX n=1 Tax=Shimw...  86.7    4e-20
+  UniRef90_A0A2X3EVP9 Protein of uncharacterized function (DUF250...  87.4    5e-20
+  UniRef90_UPI000ADD65C8 DUF2502 domain-containing protein n=1 Ta...  85.1    5e-20
+  UniRef90_A0A0E1CF39 Uncharacterized protein n=64 Tax=Enterobact...  86.3    6e-20
+  UniRef90_A0A376WKJ2 Protein n=1 Tax=Escherichia coli TaxID=562 ...  84.3    8e-20
+  UniRef90_A0A1D3KT84 Periplasmic protein YaaX n=31 Tax=Enterobac...  85.9    8e-20
+  UniRef90_L0M3G9 Uncharacterized protein n=3 Tax=Enterobacteriac...  85.1    1e-19
+  UniRef90_UPI000EABC636 DUF2502 domain-containing protein n=1 Ta...  84.7    1e-19
+  UniRef90_A0A2X4T4P1 Protein of uncharacterized function (DUF250...  82.4    1e-18
+  UniRef90_A0A0J8VL09 Uncharacterized protein n=2 Tax=Franconibac...  82.0    2e-18
+  UniRef90_A0A0L0GYG0 Uncharacterized protein n=4 Tax=Trabulsiell...  81.6    3e-18
+  UniRef90_A0A200LMD2 DUF2502 domain-containing protein n=7 Tax=E...  80.9    4e-18
+  UniRef90_UPI0007869C94 DUF2502 domain-containing protein n=1 Ta...  80.1    1e-17
+  UniRef90_A0A2X3ED34 Protein of uncharacterized function (DUF250...  79.7    2e-17
+  UniRef90_A0A0J4XZ33 Protein of uncharacterized function (DUF250...  79.3    2e-17
+  UniRef90_A0A1B7K3V9 Uncharacterized protein n=3 Tax=Kluyvera Ta...  79.3    2e-17
+  UniRef90_C9XXD7 Uncharacterized protein ypeC n=27 Tax=Enterobac...  79.3    3e-17
+  UniRef90_A0A376HXR0 Periplasmic protein YaaX n=64 Tax=Bacteria ...  77.8    1e-16
+  UniRef90_UPI0005CBA285 DUF2502 domain-containing protein n=1 Ta...  77.0    2e-16
+  UniRef90_A0A285JRT9 Uncharacterized protein n=1 Tax=Enterobacte...  77.0    2e-16
+  UniRef90_A0A0D5WXU3 Uncharacterized protein n=6 Tax=Enterobacte...  76.6    3e-16
+  UniRef90_A0A0L7TAD2 Zinc ABC transporter substrate-binding prot...  77.0    3e-16
+  UniRef90_UPI000DE04548 DUF2502 domain-containing protein n=8 Ta...  76.3    3e-16
+  UniRef90_A0A0D1N7L6 Uncharacterized protein n=4 Tax=Enterobacte...  75.5    7e-16
+  UniRef90_A0A0F5Y1V5 Zinc ABC transporter substrate-binding prot...  75.9    7e-16
+  UniRef90_UPI0004752C11 DUF2502 domain-containing protein n=1 Ta...  74.7    1e-15
+  UniRef90_A0A0F6TVV3 Uncharacterized protein n=4 Tax=Enterobacte...  74.7    1e-15
+  UniRef90_A0A2U4DA77 DUF2502 domain-containing protein n=3 Tax=E...  74.7    1e-15
+  UniRef90_H2IUY6 Uncharacterized protein n=11 Tax=Yersiniaceae T...  74.3    3e-15
+  UniRef90_A0A383HJB2 Protein n=3 Tax=Escherichia coli TaxID=562 ...  74.7    3e-15
+  UniRef90_A0A0H3FWR7 Uncharacterized protein n=8 Tax=Enterobacte...  73.6    3e-15
+  UniRef90_UPI00073D2B58 DUF2502 domain-containing protein n=1 Ta...  73.9    3e-15
+  UniRef90_UPI000FE38A19 DUF2502 domain-containing protein n=1 Ta...  73.6    5e-15
+  UniRef90_A0A1W6B741 Zinc ABC transporter substrate-binding prot...  73.9    6e-15
+  UniRef90_A0A366FF24 Uncharacterized protein DUF2502 n=1 Tax=Pse...  72.4    8e-15
+  UniRef90_D2TIJ4 Putative exported protein n=53 Tax=Bacteria Tax...  72.4    1e-14
+  UniRef90_A0A0F0VCS4 DUF2502 domain-containing protein n=5 Tax=P...  72.4    1e-14
+  UniRef90_UPI000BB789AD DUF2502 domain-containing protein n=1 Ta...  70.1    3e-14
+  UniRef90_E1SKI4 Uncharacterized protein ypeC n=24 Tax=Erwiniace...  71.2    5e-14
+  UniRef90_A0A379QZD5 Protein of uncharacterized function (DUF250...  70.5    7e-14
+  UniRef90_A0A0V9JLF1 Uncharacterized protein n=3 Tax=Enterobacte...  70.1    1e-13
+  UniRef90_A0A0A2WL73 Uncharacterized protein yghZ n=2 Tax=cellul...  74.3    1e-13
+  UniRef90_A0A0Q4N128 Zinc ABC transporter substrate-binding prot...  70.1    1e-13
+  UniRef90_A0A2K1Q5W1 Zinc ABC transporter substrate-binding prot...  69.7    1e-13
+  UniRef90_A0A318W7Z2 Uncharacterized protein DUF2502 n=2 Tax=Ent...  69.7    2e-13
+  UniRef90_UPI000DEF8923 DUF2502 domain-containing protein n=1 Ta...  69.7    2e-13
+  UniRef90_A0A3D5QXY4 Zinc ABC transporter substrate-binding prot...  68.6    4e-13
+  UniRef90_A0A1D9BJ50 Uncharacterized protein n=1 Tax=Jeongeupia ...  68.2    7e-13
+  UniRef90_A0A2L1UQN1 Uncharacterized protein n=1 Tax=Rahnella sp...  67.0    1e-12
+  UniRef90_A0A2S4RLJ0 DUF2502 domain-containing protein n=3 Tax=E...  67.4    2e-12
+  UniRef90_A0A0A3YTV7 Zinc ABC transporter substrate-binding prot...  67.0    2e-12
+  UniRef90_A0A2G8D1T0 Zinc ABC transporter substrate-binding prot...  66.2    3e-12
+  UniRef90_A0A0Q4MAX2 Uncharacterized protein n=2 Tax=Yersiniacea...  66.2    4e-12
+  UniRef90_A0A1X1DCD3 Zinc ABC transporter substrate-binding prot...  65.9    5e-12
+  UniRef90_A0A2J9EAY6 DUF2502 domain-containing protein n=5 Tax=E...  65.5    6e-12
+  UniRef90_A0A2S9IB99 Zinc ABC transporter substrate-binding prot...  65.1    9e-12
+  UniRef90_A0A2S5KFU8 DUF2502 domain-containing protein n=3 Tax=E...  65.5    1e-11
+  UniRef90_A0A267W5I9 Uncharacterized protein (Fragment) n=1 Tax=...  62.8    1e-11
+  UniRef90_UPI00016C75A6 DUF2502 domain-containing protein YpeC n...  62.8    4e-11
+  UniRef90_U3TVW4 Uncharacterized protein n=1 Tax=Plautia stali s...  62.4    6e-11
+  UniRef90_A0A0F3LNW3 Uncharacterized protein n=9 Tax=Enterobacte...  62.8    8e-11
+  UniRef90_UPI0003822882 DUF2502 domain-containing protein n=1 Ta...  62.4    1e-10
+  UniRef90_A0A1B7KA83 Putative exported protein n=9 Tax=Hafniacea...  62.8    1e-10
+  UniRef90_E6WBR4 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  62.4    1e-10
+  UniRef90_E5YCL5 Uncharacterized protein n=6 Tax=Enterobacterale...  63.2    1e-10
+  UniRef90_A0A2N2RFR4 Uncharacterized protein n=1 Tax=Betaproteob...  61.6    1e-10
+  UniRef90_J3DCR0 ABC-type Zn2+ transport system, periplasmic com...  62.0    1e-10
+  UniRef90_A0A0G4JW29 Putative exported protein n=1 Tax=Brenneria...  62.4    2e-10
+  UniRef90_UPI000DD31413 DUF2502 domain-containing protein n=1 Ta...  61.6    2e-10
+  UniRef90_UPI0004B5D49E DUF2502 domain-containing protein n=1 Ta...  61.2    3e-10
+  UniRef90_UPI000E3CEA6B DUF2502 domain-containing protein n=1 Ta...  59.3    3e-10
+  UniRef90_A8ADJ9 Uncharacterized protein n=1 Tax=Citrobacter kos...  60.1    4e-10
+  UniRef90_D8MVC8 Conserved uncharacterized protein n=1 Tax=Erwin...  61.2    4e-10
+  UniRef90_A0A2V2BIP4 Uncharacterized protein DUF2502 n=3 Tax=Pan...  60.8    4e-10
+  UniRef90_J3D0Q1 Uncharacterized protein n=9 Tax=Enterobacterale...  60.8    5e-10
+  UniRef90_A0A0Q4MP99 Uncharacterized protein n=2 Tax=Yersiniacea...  61.6    5e-10
+  UniRef90_A0A3N4PRU0 DUF2502 domain-containing protein n=1 Tax=P...  60.8    5e-10
+  UniRef90_A0A0B1RBG7 Zinc ABC transporter substrate-binding prot...  60.5    5e-10
+  UniRef90_A0A356YR10 Uncharacterized protein n=4 Tax=Erwinia per...  60.8    5e-10
+  UniRef90_A0A1X1CSN8 Uncharacterized protein n=1 Tax=Pantoea rwa...  60.5    6e-10
+  UniRef90_A0A2V3Q653 Uncharacterized protein DUF2502 n=2 Tax=Pan...  60.5    6e-10
+  UniRef90_E6WCK5 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  60.5    6e-10
+  UniRef90_UPI0005D3DD04 DUF2502 domain-containing protein n=1 Ta...  60.5    7e-10
+  UniRef90_D4GJU6 YpeC n=11 Tax=Pantoea ananas TaxID=553 RepID=D4...  60.5    7e-10
+  UniRef90_UPI0004852713 DUF2502 domain-containing protein n=1 Ta...  59.7    8e-10
+  UniRef90_A0A2N5EQ42 DUF2502 domain-containing protein n=5 Tax=Y...  60.1    9e-10
+  UniRef90_UPI000EF1D2BE DUF2502 domain-containing protein n=1 Ta...  60.1    1e-09
+  UniRef90_A0A2N5EDA4 DUF2502 domain-containing protein n=1 Tax=Y...  60.1    1e-09
+  UniRef90_A0A085GB26 YaaX family protein n=2 Tax=Ewingella ameri...  59.3    1e-09
+  UniRef90_UPI000349F17D DUF2502 domain-containing protein n=1 Ta...  59.7    2e-09
+  UniRef90_A0A1B1KUA5 Uncharacterized protein n=17 Tax=Serratia T...  59.3    2e-09
+  UniRef90_A0A0U5L6Z0 Putative secreted protein n=1 Tax=Erwinia g...  60.1    2e-09
+  UniRef90_A0A0F7D3F0 Uncharacterized protein n=10 Tax=Yersiniace...  59.7    2e-09
+  UniRef90_A0A1X0WD83 Uncharacterized protein n=1 Tax=Rouxiella b...  59.7    2e-09
+  UniRef90_A0A126VGZ7 Putative exported protein n=5 Tax=Serratia ...  60.5    2e-09
+  UniRef90_A0A2I0FXN0 Zinc ABC transporter substrate-binding prot...  58.9    3e-09
+  UniRef90_Q8D0W4 Uncharacterized protein n=18 Tax=Yersinia TaxID...  58.5    3e-09
+  UniRef90_UPI0004D3507B DUF2502 domain-containing protein n=1 Ta...  59.3    3e-09
+  UniRef90_H3RFX0 Uncharacterized protein n=1 Tax=Pantoea stewart...  57.4    4e-09
+  UniRef90_A0A0A3YHL2 Zinc ABC transporter substrate-binding prot...  58.9    4e-09
+  UniRef90_A0A2S4RIX2 DUF2502 domain-containing protein n=2 Tax=E...  59.3    4e-09
+  UniRef90_H8NTC3 Uncharacterized protein n=6 Tax=Rahnella TaxID=...  58.9    4e-09
+  UniRef90_UPI0003B203CD DUF2502 domain-containing protein n=1 Ta...  58.2    6e-09
+  UniRef90_A0A0U5L0K9 Uncharacterized protein n=2 Tax=Erwinia ger...  58.2    7e-09
+  UniRef90_UPI0005D3FBB4 DUF2502 domain-containing protein n=1 Ta...  58.2    8e-09
+  UniRef90_J2VGL1 Uncharacterized protein n=1 Tax=Pantoea sp. YR3...  57.8    8e-09
+  UniRef90_A0A0T9MDM2 Protein of uncharacterized function (DUF250...  58.2    8e-09
+  UniRef90_D4E3D9 Uncharacterized protein n=1 Tax=Serratia odorif...  57.8    9e-09
+  UniRef90_C7RVC0 Uncharacterized protein n=1 Tax=Accumulibacter ...  57.0    9e-09
+  UniRef90_C6DDN4 Uncharacterized protein n=27 Tax=Pectobacterium...  57.8    1e-08
+  UniRef90_A0A377NAR5 Protein of uncharacterized function (DUF250...  57.4    1e-08
+  UniRef90_A0A2K1QDZ5 Uncharacterized protein n=1 Tax=Mixta theic...  57.8    1e-08
+  UniRef90_G7LJW0 Uncharacterized protein n=3 Tax=Brenneria TaxID...  57.8    1e-08
+  UniRef90_A0A2U1U2F4 DUF2502 domain-containing protein n=2 Tax=B...  57.4    1e-08
+  UniRef90_UPI00034DF512 DUF2502 domain-containing protein n=1 Ta...  57.4    1e-08
+  UniRef90_A0A0J8YKL1 Uncharacterized protein n=2 Tax=unclassifie...  57.4    2e-08
+  UniRef90_A0A0T9UKU0 Protein of uncharacterized function (DUF250...  57.8    2e-08
+  UniRef90_A0A366IAB4 Uncharacterized protein DUF2502 n=1 Tax=Bre...  57.4    2e-08
+  UniRef90_A0A3N0USH8 DUF2502 domain-containing protein n=2 Tax=L...  57.0    2e-08
+  UniRef90_A0A240C9Q5 Protein of uncharacterized function (DUF250...  57.0    2e-08
+  UniRef90_A0A2N5EG91 DUF2502 domain-containing protein n=1 Tax=Y...  57.4    2e-08
+  UniRef90_A0A240C7K7 Protein of uncharacterized function (DUF250...  56.2    2e-08
+  UniRef90_I0QQN5 Uncharacterized protein n=1 Tax=Serratia sp. M2...  56.2    3e-08
+  UniRef90_A0A209AK60 Uncharacterized protein n=1 Tax=Yersinia fr...  57.4    3e-08
+  UniRef90_A0A085U2E3 Protein of uncharacterized function (DUF250...  56.2    3e-08
+  UniRef90_A0A2X4VFH7 Protein of uncharacterized function (DUF250...  56.2    3e-08
+  UniRef90_A0A2N5ESZ4 DUF2502 domain-containing protein n=1 Tax=Y...  57.0    3e-08
+  UniRef90_A0A1V9DMH6 Uncharacterized protein n=1 Tax=Pantoea lat...  56.2    3e-08
+  UniRef90_Q6D144 Putative exported protein n=14 Tax=Pectobacteri...  56.6    4e-08
+  UniRef90_UPI000421CBA1 DUF2502 domain-containing protein n=1 Ta...  55.1    5e-08
+  UniRef90_A0A3B7AAR4 DUF2502 domain-containing protein n=1 Tax=D...  55.1    5e-08
+  UniRef90_A0A379YXR0 Protein of uncharacterized function (DUF250...  55.8    6e-08
+  UniRef90_A0A0U1HXI8 Protein of uncharacterized function (DUF250...  55.8    6e-08
+  UniRef90_A0A1W6BB98 Uncharacterized protein n=1 Tax=Pantoea alh...  55.8    7e-08
+  UniRef90_A0A0T9NJS7 Protein of uncharacterized function (DUF250...  55.5    8e-08
+  UniRef90_A0A1H4AJR0 Uncharacterized protein n=6 Tax=Lonsdalea T...  55.1    9e-08
+  UniRef90_A0A0T9QUU8 Protein of uncharacterized function (DUF250...  55.5    9e-08
+  UniRef90_A0A1X1E599 DUF2502 domain-containing protein n=1 Tax=M...  55.5    9e-08
+  UniRef90_A0A2N2V2H7 Uncharacterized protein n=2 Tax=unclassifie...  54.3    9e-08
+  UniRef90_A0A080M367 Uncharacterized protein n=1 Tax=Candidatus ...  54.3    1e-07
+  UniRef90_A0A0T9KKW6 Protein of uncharacterized function (DUF250...  54.7    1e-07
+  UniRef90_A0A0P0QH95 Uncharacterized protein n=52 Tax=Gammaprote...  54.3    1e-07
+  UniRef90_UPI000EB054C8 DUF2502 domain-containing protein n=1 Ta...  53.9    1e-07
+  UniRef90_A0A0T9ND67 Protein of uncharacterized function (DUF250...  55.1    2e-07
+  UniRef90_A0A250B533 Uncharacterized protein n=2 Tax=Gibbsiella ...  54.3    2e-07
+  UniRef90_A0A3A5DXC6 Uncharacterized protein n=11 Tax=Pectobacte...  54.3    2e-07
+  UniRef90_A0A1B3FEZ1 Uncharacterized protein n=30 Tax=Gammaprote...  54.7    2e-07
+  UniRef90_UPI000907CE13 DUF2502 domain-containing protein n=1 Ta...  54.7    2e-07
+  UniRef90_D4HXN1 Uncharacterized protein ypeC n=3 Tax=Erwinia am...  54.3    2e-07
+  UniRef90_A0A0T9SY94 Protein of uncharacterized function (DUF250...  54.7    2e-07
+  UniRef90_A8GHC2 Uncharacterized protein n=12 Tax=Serratia TaxID...  54.3    2e-07
+  UniRef90_A0A378A384 Protein of uncharacterized function (DUF250...  53.9    3e-07
+  UniRef90_A0A0U4IM45 Uncharacterized protein n=7 Tax=Yersiniacea...  53.5    3e-07
+  UniRef90_A0A2N2S262 Uncharacterized protein n=1 Tax=Betaproteob...  53.1    3e-07
+  UniRef90_A0A0H5LXY5 Protein of uncharacterized function (DUF250...  53.9    4e-07
+  UniRef90_A0A377NAM6 Protein of uncharacterized function (DUF250...  54.3    4e-07
+  UniRef90_A0A3A9JEI1 DUF2502 domain-containing protein n=2 Tax=E...  53.1    4e-07
+  UniRef90_A0A389MFV5 Uncharacterized protein n=1 Tax=Enterobacte...  53.5    4e-07
+  UniRef90_A0A014N5X5 Uncharacterized protein n=1 Tax=Erwinia mal...  53.1    4e-07
+  UniRef90_A0A084Y2N5 Uncharacterized protein n=1 Tax=Candidatus ...  52.8    5e-07
+  UniRef90_A0A1B1KUD6 Uncharacterized protein n=5 Tax=Yersiniacea...  53.1    6e-07
+  UniRef90_A0A1R1I976 Uncharacterized protein n=1 Tax=Azonexus hy...  52.4    7e-07
+  UniRef90_A0A0H5G8J4 Protein of uncharacterized function (DUF250...  53.1    7e-07
+  UniRef90_UPI00030DE692 DUF2502 domain-containing protein n=1 Ta...  52.8    7e-07
+  UniRef90_A0A209ADH3 Uncharacterized protein n=2 Tax=Yersinia Ta...  53.1    7e-07
+  UniRef90_A0A0H3B2N9 Uncharacterized protein n=19 Tax=Yersinia T...  53.1    8e-07
+  UniRef90_A0A133XN03 Uncharacterized protein n=1 Tax=Dechloromon...  52.0    8e-07
+  UniRef90_W1FT29 Uncharacterized protein n=2 Tax=Enterobacteriac...  51.6    8e-07
+  UniRef90_A0A0B6FV14 Uncharacterized protein n=1 Tax=Yersinia fr...  53.5    8e-07
+  UniRef90_A0A0U1HPQ4 Protein of uncharacterized function (DUF250...  53.5    9e-07
+  UniRef90_A0A0Q4NCD6 Uncharacterized protein n=2 Tax=Yersiniacea...  52.8    1e-06
+  UniRef90_A0A0T9U5K0 Protein of uncharacterized function (DUF250...  52.4    1e-06
+  UniRef90_UPI000DD4BD46 DUF2502 domain-containing protein n=4 Ta...  52.4    1e-06
+  UniRef90_UPI00036196C0 DUF2502 domain-containing protein n=1 Ta...  51.6    1e-06
+  UniRef90_A0A1S8YRL0 Uncharacterized protein n=1 Tax=Izhakiella ...  52.0    1e-06
+  UniRef90_A0A0L7SY54 Uncharacterized protein n=1 Tax=Erwinia ini...  52.0    2e-06
+  UniRef90_A0A2N5EQ76 Uncharacterized protein n=1 Tax=Yersiniacea...  51.6    2e-06
+  UniRef90_A0A1X0WG60 Uncharacterized protein n=1 Tax=Rouxiella b...  51.6    2e-06
+  UniRef90_A0A0T9TBB6 Protein of uncharacterized function (DUF250...  52.4    2e-06
+  UniRef90_I0QVZ9 Uncharacterized protein n=1 Tax=Serratia sp. M2...  52.4    2e-06
+  UniRef90_UPI0004BC0C57 DUF2502 domain-containing protein n=1 Ta...  51.6    2e-06
+  UniRef90_A0A1S8CEL2 Uncharacterized protein n=1 Tax=Serratia or...  51.2    2e-06
+  UniRef90_W0HTF6 Uncharacterized protein n=1 Tax=Sodalis praecap...  52.0    3e-06
+  UniRef90_A0A0T7NR14 Protein of uncharacterized function (DUF250...  51.6    3e-06
+  UniRef90_A0A1C7WIN6 Uncharacterized protein n=3 Tax=Serratia Ta...  50.8    4e-06
+  UniRef90_A0A168QVT0 Protein of uncharacterized function (DUF250...  51.2    4e-06
+  UniRef90_UPI000F68402E DUF2502 domain-containing protein n=1 Ta...  50.4    4e-06
+  UniRef90_UPI000E724B66 DUF2502 domain-containing protein n=2 Ta...  51.2    5e-06
+  UniRef90_A0A316ETB1 Uncharacterized protein DUF2502 n=3 Tax=Cup...  49.7    5e-06
+  UniRef90_UPI000F7EB510 DUF2502 domain-containing protein n=1 Ta...  50.1    5e-06
+  UniRef90_A0A011NHS1 Uncharacterized protein n=1 Tax=Candidatus ...  49.7    7e-06
+  UniRef90_A0A377D1T8 Protein n=1 Tax=Escherichia coli TaxID=562 ...  49.3    7e-06
+  UniRef90_UPI000D73A856 DUF2502 domain-containing protein n=1 Ta...  49.7    9e-06
+  UniRef90_A0A2A3KSS4 Uncharacterized protein n=3 Tax=Rahnella Ta...  50.1    1e-05
+  UniRef90_A0A0T9NV31 Protein of uncharacterized function (DUF250...  50.4    1e-05
+  UniRef90_D2BVR5 Uncharacterized protein n=6 Tax=Enterobacterale...  49.7    1e-05
+  UniRef90_UPI0009006D3B DUF2502 domain-containing protein n=1 Ta...  49.7    1e-05
+  UniRef90_UPI000467F302 DUF2502 domain-containing protein n=1 Ta...  49.7    1e-05
+  UniRef90_A0A2A7T498 DUF2502 domain-containing protein n=1 Tax=Y...  49.7    2e-05
+  UniRef90_H2ITA4 Uncharacterized protein n=5 Tax=Rahnella TaxID=...  49.3    2e-05
+  UniRef90_A0A0Q4M2E0 Uncharacterized protein n=2 Tax=Yersiniacea...  49.7    2e-05
+  UniRef90_L0MJB0 Uncharacterized protein n=6 Tax=Serratia TaxID=...  48.1    3e-05
+  UniRef90_A0A0T9M5F7 Protein of uncharacterized function (DUF250...  49.3    3e-05
+  UniRef90_A0A1S8YJD5 Zinc ABC transporter substrate-binding prot...  48.5    3e-05
+  UniRef90_L0MHL7 Uncharacterized protein n=6 Tax=Serratia TaxID=...  48.9    3e-05
+  UniRef90_A0A1X0WCB5 Uncharacterized protein n=2 Tax=Rouxiella b...  49.3    3e-05
+  UniRef90_A0A084A496 Uncharacterized protein n=1 Tax=Serratia sp...  48.1    3e-05
+  UniRef90_A0A2K8QSF0 DUF2502 domain-containing protein n=1 Tax=D...  48.5    3e-05
+  UniRef90_A0A2L1UWS0 Uncharacterized protein n=1 Tax=Rahnella sp...  48.9    3e-05
+  UniRef90_A0A2K7ZI52 DUF2502 domain-containing protein n=2 Tax=Y...  48.9    4e-05
+  UniRef90_A0A2I5TH73 DUF2502 domain-containing protein n=1 Tax=S...  48.1    4e-05
+  UniRef90_A0A2R3H0F3 Uncharacterized protein n=2 Tax=Serratia Ta...  48.5    4e-05
+  UniRef90_A0A0T9QYF8 Protein of uncharacterized function (DUF250...  48.9    4e-05
+  UniRef90_UPI000DEF58A8 DUF2502 domain-containing protein n=1 Ta...  48.1    5e-05
+  UniRef90_Q47CH5 Uncharacterized protein n=1 Tax=Dechloromonas a...  47.4    5e-05
+  UniRef90_A0A2N0W243 DUF2502 domain-containing protein n=1 Tax=R...  48.1    6e-05
+  UniRef90_A0A2J9S913 DUF2502 domain-containing protein n=1 Tax=Y...  48.5    6e-05
+  UniRef90_A0A0T9QUF2 Protein of uncharacterized function (DUF250...  48.1    9e-05
+  UniRef90_H0Q4N6 Uncharacterized protein n=1 Tax=Azoarcus sp. KH...  46.6    9e-05
+  UniRef90_A0A380PP64 Protein of uncharacterized function (DUF250...  47.8    1e-04
+  UniRef90_A0A1B3FBF3 Uncharacterized protein n=43 Tax=Gammaprote...  47.4    1e-04
+  UniRef90_S4YHN2 Uncharacterized protein n=11 Tax=Yersiniaceae T...  47.8    1e-04
+  UniRef90_A0A0T9SL37 Protein of uncharacterized function (DUF250...  47.8    1e-04
+  UniRef90_C6CL11 Uncharacterized protein n=3 Tax=Dickeya TaxID=2...  47.0    1e-04
+  UniRef90_A0A0Q4N916 Uncharacterized protein n=3 Tax=Yersiniacea...  47.4    1e-04
+  UniRef90_A0A2A3KPX2 Uncharacterized protein n=2 Tax=Enterobacte...  47.4    1e-04
+  UniRef90_A0A250B779 Uncharacterized protein n=2 Tax=Gibbsiella ...  47.4    1e-04
+  UniRef90_A0A0T9UTZ0 Protein of uncharacterized function (DUF250...  47.4    1e-04
+  UniRef90_UPI0003A81587 DUF2502 domain-containing protein n=1 Ta...  47.0    1e-04
+  UniRef90_A0A2J9E858 DUF2502 domain-containing protein n=5 Tax=P...  46.6    1e-04
+  UniRef90_A0A086GFH4 Uncharacterized protein n=17 Tax=Serratia T...  47.0    1e-04
+  UniRef90_UPI000F7F0C00 DUF2502 domain-containing protein n=1 Ta...  46.2    2e-04
+  UniRef90_UPI00094B8C2C DUF2502 domain-containing protein n=1 Ta...  47.4    2e-04
+  UniRef90_UPI000CDD6A6B DUF2502 domain-containing protein n=1 Ta...  46.6    2e-04
+  UniRef90_A0A087KNU4 Uncharacterized protein n=1 Tax=Serratia sp...  46.2    2e-04
+  UniRef90_A1JPR3 Putative exported protein n=19 Tax=Yersinia ent...  47.0    2e-04
+  UniRef90_A0A0H5LSU6 Protein of uncharacterized function (DUF250...  47.0    2e-04
+  UniRef90_A0A240C0L0 Protein of uncharacterized function (DUF250...  45.8    4e-04
+  UniRef90_A0A0M1V419 Uncharacterized protein n=1 Tax=Yersinia pe...  45.1    5e-04
+  UniRef90_I0QRZ9 Uncharacterized protein n=1 Tax=Serratia sp. M2...  45.8    5e-04
+  UniRef90_UPI000948AB3F DUF2502 domain-containing protein n=1 Ta...  45.1    6e-04
+  UniRef90_UPI0005D459EA DUF2502 domain-containing protein n=1 Ta...  45.8    7e-04
+  UniRef90_A0A375AED2 Probable exported protein YPO2426 n=2 Tax=D...  44.7    8e-04
+  UniRef90_UPI000373C196 DUF2502 domain-containing protein n=1 Ta...  44.7    8e-04
+  UniRef90_A0A3N6S352 DUF2502 domain-containing protein n=1 Tax=E...  44.7    9e-04
+  UniRef90_A0A0T9QQY1 Protein of uncharacterized function (DUF250...  45.4    0.001
+  UniRef90_A0A3N4P018 DUF2502 domain-containing protein n=1 Tax=P...  44.7    0.001
+  UniRef90_A0A3D6DPU9 Uncharacterized protein n=1 Tax=Candidatus ...  43.9    0.001
+  UniRef90_A0A2X5B2C7 Protein of uncharacterized function (DUF250...  43.9    0.001
+  UniRef90_UPI0009DAD794 hypothetical protein n=1 Tax=Hyphomicrob...  43.9    0.001
+  UniRef90_A0A0T9TXZ3 Protein of uncharacterized function (DUF250...  45.1    0.001
+  UniRef90_A0A2X2G7B5 Protein of uncharacterized function (DUF250...  44.7    0.001
+  UniRef90_D4E726 Uncharacterized protein n=2 Tax=Serratia odorif...  44.7    0.001
+  UniRef90_A0A0X8SEP0 DUF2502 domain-containing protein n=4 Tax=S...  43.5    0.003
+  UniRef90_A0A2P5INT0 DUF2502 domain-containing protein n=1 Tax=P...  43.1    0.003
+  UniRef90_A0A2L1UKV7 Uncharacterized protein n=2 Tax=Rahnella Ta...  43.5    0.004
+  UniRef90_UPI00077C2DF4 DUF2502 domain-containing protein n=1 Ta...  43.1    0.004
+  UniRef90_UPI000F7EFE78 DUF2502 domain-containing protein n=2 Ta...  42.7    0.004
+  UniRef90_A0A2H1LF08 Uncharacterized protein n=4 Tax=Serratia Ta...  43.1    0.004
+  UniRef90_E3DL15 Conserved uncharacterized protein n=3 Tax=Erwin...  41.6    0.007
+  UniRef90_A0A345CTD9 DUF2502 domain-containing protein n=1 Tax=E...  41.6    0.011
+  UniRef90_A0A2N0MYF2 Uncharacterized protein n=3 Tax=Ewingella a...  42.0    0.012
+  UniRef90_C6CAS2 Uncharacterized protein n=1 Tax=Dickeya paradis...  41.6    0.012
+  UniRef90_A0A133XIM7 Uncharacterized protein n=1 Tax=Dechloromon...  39.7    0.036
+  UniRef90_A0A377N9G8 Protein of uncharacterized function (DUF250...  38.5    0.053
+  UniRef90_UPI000326BC8B DUF2502 domain-containing protein n=1 Ta...  40.4    0.063
+  UniRef90_A0A2N5DZ51 Uncharacterized protein n=4 Tax=Yersiniacea...  39.7    0.068
+  UniRef90_UPI000FE1BB92 DUF2502 domain-containing protein n=1 Ta...  38.9    0.085
+  UniRef90_UPI0004682042 DUF2502 domain-containing protein n=1 Ta...  38.9    0.18 
+  UniRef90_F2LAS6 Uncharacterized protein n=8 Tax=Burkholderia Ta...  38.5    0.18 
+  UniRef90_A0A372K3I5 Uncharacterized protein n=1 Tax=Paraburkhol...  38.1    0.22 
+  UniRef90_UPI00047127E9 hypothetical protein n=1 Tax=Paenibacill...  38.9    0.29 
+  UniRef90_A0A3E1KC97 Carboxypeptidase regulatory-like domain-con...  38.9    0.32 
+  UniRef90_A0A379YY88 Protein of uncharacterized function (DUF250...  37.4    0.34 
+  UniRef90_A0A226WPM0 Phosphonate ABC transporter phosphate-bindi...  37.4    0.51 
+  UniRef90_UPI000486A55A hypothetical protein n=1 Tax=gamma prote...  37.0    0.55 
+  UniRef90_A0A177RGJ3 Type IV secretion protein Rhs (Fragment) n=...  38.1    0.58 
+  UniRef90_A0A158AN05 YXWGXW repeat protein n=1 Tax=Caballeronia ...  36.6    0.86 
+  UniRef90_A0A158GFD4 YXWGXW repeat protein n=1 Tax=Caballeronia ...  36.6    0.93 
+  UniRef90_A0A1N6JV02 YXWGXW repeat-containing protein n=2 Tax=Pa...  36.2    1.1  
+  UniRef90_A0A3N1E2E0 YXWGXW repeat-containing protein n=2 Tax=Bu...  35.8    1.6  
+  UniRef90_UPI0005C975AE hypothetical protein n=2 Tax=Paenibacill...  37.0    1.8  
+  UniRef90_UPI000EB41B7D hypothetical protein n=1 Tax=Paraburkhol...  35.4    2.0  
+  UniRef90_A0A2Z5MRL9 Uncharacterized protein n=1 Tax=Burkholderi...  35.8    2.2  
+  UniRef90_A0A1Q9J6S9 Arabinogalactan endo-beta-1,4-galactanase n...  36.2    2.7  
+  UniRef90_A0A0M8TSH7 Large tegument protein n=1 Tax=Streptomyces...  36.2    2.9  
+  UniRef90_A0A3L7LUW5 DUF2502 domain-containing protein n=1 Tax=S...  33.5    3.2  
+  UniRef90_A0A078KU08 Uncharacterized protein n=1 Tax=Legionella ...  34.7    3.5  
+  UniRef90_A0A1H8W952 Ketosteroid isomerase homolog n=1 Tax=Rhodo...  35.4    3.5  
+  UniRef90_A0A0F9M823 Uncharacterized protein (Fragment) n=1 Tax=...  35.8    3.7  
+  UniRef90_UPI00096E4788 hypothetical protein n=2 Tax=Paenibacill...  35.8    3.9  
+  UniRef90_UPI000C6EE951 uncharacterized protein LOC102222345 iso...  35.8    4.3  
+  UniRef90_Q0BHG8 Uncharacterized protein n=20 Tax=Burkholderia T...  35.0    4.9  
+  UniRef90_A0A3E1KCC2 Uncharacterized protein (Fragment) n=1 Tax=...  35.4    5.0  
+  UniRef90_A0A0C2WAM6 Uncharacterized protein n=1 Tax=Serendipita...  35.4    5.5  
+  UniRef90_R4WFK6 Uncharacterized protein n=1 Tax=Burkholderia in...  34.3    5.9  
+  UniRef90_B0TCQ3 Eal domain protein, putative n=1 Tax=Heliobacte...  35.4    5.9  
+  UniRef90_UPI000C6DCAE0 glutamate-rich protein 6 isoform X2 n=1 ...  35.4    6.3  
+  UniRef90_A7TGW9 Uncharacterized protein n=1 Tax=Vanderwaltozyma...  35.0    6.7  
+  UniRef90_A0A1M6IQW4 Hydrophobic W protein n=1 Tax=Clostridium c...  35.0    6.9  
+  UniRef90_A0A3E0C2R9 YXWGXW repeat-containing protein n=3 Tax=Pa...  33.9    7.4  
+  UniRef90_A0A1Z8XAL2 Uncharacterized protein n=2 Tax=Hyphomicrob...  34.7    7.5  
+  UniRef90_B9YC96 Serine-type D-Ala-D-Ala carboxypeptidase n=2 Ta...  35.0    7.8  
+  UniRef90_A0A0H2R0F1 Glycogen [starch] synthase n=1 Tax=Schizopo...  35.0    8.5  
+  UniRef90_A0A1Z9VYH7 Nuclease n=2 Tax=Synechococcus TaxID=1129 R...  33.9    9.5  
+  UniRef90_A0A069PX67 Uncharacterized protein n=1 Tax=Caballeroni...  33.9    9.6  
+  UniRef90_UPI00067FAE0F hypothetical protein n=1 Tax=Anaeromassi...  34.7    9.6  
+  UniRef90_A0A2N3E2Q8 Uncharacterized protein n=1 Tax=Alphaproteo...  34.3    9.8  
+  UniRef90_A0A2V0P7Z3 Uncharacterized protein n=1 Tax=Raphidoceli...  34.7    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.512    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 747111122893
+Warning: [psiblast] lcl|Query_1 NP_414546.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414546.1
+
+Length=98
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P75616 Uncharacterized protein YaaX n=301 Tax=Bacteria...  118     8e-33
+  UniRef90_B7LWR3 Uncharacterized protein n=5 Tax=Escherichia fer...  101     3e-26
+  UniRef90_A0A078LIA6 Protein of uncharacterized function (DUF250...  100     8e-26
+  UniRef90_A0A2X1LHY2 Protein n=1 Tax=Escherichia coli TaxID=562 ...  99.3    1e-25
+  UniRef90_A0A0F6RDD6 Uncharacterized protein n=1 Tax=Citrobacter...  99.7    2e-25
+  UniRef90_W0AT20 Uncharacterized protein n=14 Tax=Escherichia Ta...  98.5    4e-25
+  UniRef90_A0A377BVP6 Protein n=2 Tax=Escherichia coli TaxID=562 ...  97.7    2e-24
+  UniRef90_A4W6C4 Uncharacterized protein n=2 Tax=Enterobacteriac...  95.0    1e-23
+  UniRef90_A0A3N1W1G7 Uncharacterized protein DUF2502 n=4 Tax=Ent...  93.1    6e-23
+  UniRef90_A0A383HJB2 Protein n=3 Tax=Escherichia coli TaxID=562 ...  93.1    2e-22
+  UniRef90_A0A2P5GJB7 Uncharacterized protein n=1 Tax=Superficiei...  92.0    2e-22
+  UniRef90_A0A2T3CBB1 Uncharacterized protein n=2 Tax=Enterobacte...  90.4    6e-22
+  UniRef90_A0A0F1BAH6 Uncharacterized protein n=21 Tax=Enterobact...  90.0    1e-21
+  UniRef90_D2Z9S7 Uncharacterized protein n=1 Tax=Enterobacter ca...  90.0    1e-21
+  UniRef90_UPI000744BCDD DUF2502 domain-containing protein n=1 Ta...  89.6    1e-21
+  UniRef90_A0A140IF82 Uncharacterized protein n=2 Tax=Enterobacte...  89.6    1e-21
+  UniRef90_A0A1B7IIG2 Uncharacterized protein n=2 Tax=Buttiauxell...  89.3    2e-21
+  UniRef90_A0A2S4WX83 DUF2502 domain-containing protein n=6 Tax=E...  89.3    2e-21
+  UniRef90_A0A0F0XTK2 Uncharacterized protein n=9 Tax=Enterobacte...  89.3    2e-21
+  UniRef90_A0A2S5CAD5 Uncharacterized protein n=2 Tax=Enterobacte...  88.9    2e-21
+  UniRef90_L0MAM7 Uncharacterized protein n=3 Tax=Enterobacteriac...  89.3    3e-21
+  UniRef90_A0A0J8YCH9 Uncharacterized protein n=3 Tax=Franconibac...  88.5    4e-21
+  UniRef90_A0A085G2B7 Uncharacterized DUF2502 family protein n=3 ...  88.1    6e-21
+  UniRef90_A0A0A2WL73 Uncharacterized protein yghZ n=2 Tax=cellul...  94.3    7e-21
+  UniRef90_G8LLY4 YaaX n=12 Tax=Enterobacteriaceae TaxID=543 RepI...  88.1    7e-21
+  UniRef90_UPI000486724C DUF2502 domain-containing protein n=1 Ta...  87.3    1e-20
+  UniRef90_A0A1B7IJE4 Uncharacterized protein n=4 Tax=Buttiauxell...  87.3    1e-20
+  UniRef90_S0X9Y6 Uncharacterized protein n=12 Tax=Enterobacteria...  87.3    1e-20
+  UniRef90_A0A1A9F7Z0 Uncharacterized protein n=1 Tax=Lelliottia ...  86.9    2e-20
+  UniRef90_A0A1X0XEU4 Uncharacterized protein n=1 Tax=Kluyvera in...  86.6    2e-20
+  UniRef90_A0A0G3QD70 Uncharacterized protein n=10 Tax=Enterobact...  86.2    3e-20
+  UniRef90_A0A376WKJ2 Protein n=1 Tax=Escherichia coli TaxID=562 ...  84.6    6e-20
+  UniRef90_A0A285K9D2 Uncharacterized protein n=1 Tax=Enterobacte...  85.0    8e-20
+  UniRef90_A0A2X3DXU3 Protein of uncharacterized function (DUF250...  85.4    1e-19
+  UniRef90_UPI00066A168B DUF2502 domain-containing protein n=2 Ta...  84.6    1e-19
+  UniRef90_A0A318W3M9 Uncharacterized protein DUF2502 n=2 Tax=Ent...  85.0    1e-19
+  UniRef90_UPI00077B80F0 DUF2502 domain-containing protein n=1 Ta...  85.0    1e-19
+  UniRef90_A0A0G3PEC2 Uncharacterized protein n=38 Tax=Enterobact...  84.6    1e-19
+  UniRef90_R9VJ75 Uncharacterized protein n=11 Tax=Enterobacteria...  84.6    1e-19
+  UniRef90_A0A0M3F699 Uncharacterized protein n=2 Tax=Enterobacte...  84.6    1e-19
+  UniRef90_G9YZ92 Uncharacterized protein n=2 Tax=Yokenella regen...  84.6    1e-19
+  UniRef90_S3IPB7 Uncharacterized protein n=1 Tax=Cedecea davisae...  84.6    2e-19
+  UniRef90_A0A0G3S4H5 DUF2502 domain-containing protein n=29 Tax=...  84.6    2e-19
+  UniRef90_A4WD09 Uncharacterized protein n=6 Tax=Enterobacteriac...  84.6    2e-19
+  UniRef90_A0A2N2RFR4 Uncharacterized protein n=1 Tax=Betaproteob...  84.2    2e-19
+  UniRef90_A0A0B5IPW3 Uncharacterized protein n=6 Tax=Enterobacte...  83.9    2e-19
+  UniRef90_A0A2P5GHX5 DUF2502 domain-containing protein n=2 Tax=E...  84.2    3e-19
+  UniRef90_G2S3C0 Uncharacterized protein n=3 Tax=Enterobacteriac...  84.2    3e-19
+  UniRef90_A0A1I7CEY7 Uncharacterized protein n=1 Tax=Kosakonia a...  83.5    3e-19
+  UniRef90_A0A181D919 DUF2502 domain-containing protein n=88 Tax=...  83.9    4e-19
+  UniRef90_A0A1V0LJ29 Uncharacterized protein n=6 Tax=Enterobacte...  83.1    5e-19
+  UniRef90_I2B6S4 Uncharacterized protein n=1 Tax=Shimwellia blat...  83.5    5e-19
+  UniRef90_G9ZAN1 Uncharacterized protein n=2 Tax=Yokenella regen...  83.1    6e-19
+  UniRef90_UPI000EB57456 DUF2502 domain-containing protein n=1 Ta...  82.7    6e-19
+  UniRef90_I0QVZ9 Uncharacterized protein n=1 Tax=Serratia sp. M2...  84.6    8e-19
+  UniRef90_G2S4T7 Uncharacterized protein n=83 Tax=Bacteria TaxID...  82.7    9e-19
+  UniRef90_A0A1B7IEQ9 Uncharacterized protein n=9 Tax=Buttiauxell...  83.1    9e-19
+  UniRef90_A0A1B7HNZ2 Uncharacterized protein n=1 Tax=Buttiauxell...  83.1    1e-18
+  UniRef90_A0A181XPL9 Protein of uncharacterized function (DUF250...  81.9    1e-18
+  UniRef90_A0A2N2S262 Uncharacterized protein n=1 Tax=Betaproteob...  81.9    2e-18
+  UniRef90_A0A1N6TF53 Uncharacterized protein n=3 Tax=Enterobacte...  82.3    2e-18
+  UniRef90_A0A2X3EVP9 Protein of uncharacterized function (DUF250...  83.5    2e-18
+  UniRef90_A0A2N2V2H7 Uncharacterized protein n=2 Tax=unclassifie...  81.6    2e-18
+  UniRef90_A0A1C4ERN9 Uncharacterized protein n=2 Tax=Kosakonia T...  81.9    2e-18
+  UniRef90_UPI000EABC636 DUF2502 domain-containing protein n=1 Ta...  81.9    2e-18
+  UniRef90_A0A0M3F8J6 Uncharacterized protein n=7 Tax=Enterobacte...  81.9    2e-18
+  UniRef90_UPI0004852713 DUF2502 domain-containing protein n=1 Ta...  81.6    3e-18
+  UniRef90_UPI00057BFD43 DUF2502 domain-containing protein n=1 Ta...  81.6    3e-18
+  UniRef90_A0A0L0GYG0 Uncharacterized protein n=4 Tax=Trabulsiell...  81.6    3e-18
+  UniRef90_A0A2T3X4L6 DUF2502 domain-containing protein n=6 Tax=E...  81.6    3e-18
+  UniRef90_E3GAP3 Uncharacterized protein n=1 Tax=Enterobacter li...  80.8    5e-18
+  UniRef90_A0A3E2A0A2 DUF2502 domain-containing protein n=5 Tax=E...  81.2    5e-18
+  UniRef90_V5ACW2 Uncharacterized protein n=8 Tax=Enterobacterale...  81.2    5e-18
+  UniRef90_A0A080M367 Uncharacterized protein n=1 Tax=Candidatus ...  80.4    6e-18
+  UniRef90_UPI0002D7A2F7 DUF2502 domain-containing protein n=1 Ta...  80.4    8e-18
+  UniRef90_A0A0D5WPT1 Uncharacterized protein n=6 Tax=Enterobacte...  79.6    8e-18
+  UniRef90_A0A3N1J8A9 Uncharacterized protein DUF2502 n=2 Tax=Ent...  80.4    9e-18
+  UniRef90_A0A3B7AAR4 DUF2502 domain-containing protein n=1 Tax=D...  79.6    1e-17
+  UniRef90_UPI0004E270A8 DUF2502 domain-containing protein n=1 Ta...  79.2    2e-17
+  UniRef90_UPI00077B72A9 DUF2502 domain-containing protein n=1 Ta...  79.6    2e-17
+  UniRef90_A0A2T4LED0 Uncharacterized protein (Fragment) n=1 Tax=...  77.3    3e-17
+  UniRef90_A0A1B7K3V9 Uncharacterized protein n=3 Tax=Kluyvera Ta...  78.9    3e-17
+  UniRef90_A0A090UW56 Uncharacterized protein n=2 Tax=Enterobacte...  78.1    4e-17
+  UniRef90_A0A090UZF0 Uncharacterized protein n=3 Tax=Enterobacte...  78.5    6e-17
+  UniRef90_L0M3G9 Uncharacterized protein n=3 Tax=Enterobacteriac...  78.1    7e-17
+  UniRef90_A0A0F1KR34 Uncharacterized protein n=10 Tax=Enterobact...  78.1    7e-17
+  UniRef90_A0A2T3RKK8 DUF2502 domain-containing protein YpeC n=58...  78.1    7e-17
+  UniRef90_A0A2X3ED34 Protein of uncharacterized function (DUF250...  77.3    1e-16
+  UniRef90_A0A084Y2N5 Uncharacterized protein n=1 Tax=Candidatus ...  76.9    1e-16
+  UniRef90_P64543 Uncharacterized protein YpeC n=323 Tax=Proteoba...  77.3    1e-16
+  UniRef90_A0A2J9EAY6 DUF2502 domain-containing protein n=5 Tax=E...  77.3    2e-16
+  UniRef90_A0A1B7JNV6 Uncharacterized protein n=2 Tax=Kluyvera ge...  76.9    2e-16
+  UniRef90_UPI000EB054C8 DUF2502 domain-containing protein n=1 Ta...  76.5    2e-16
+  UniRef90_UPI0007869C94 DUF2502 domain-containing protein n=1 Ta...  76.9    2e-16
+  UniRef90_A0A1X1DCD3 Zinc ABC transporter substrate-binding prot...  76.5    3e-16
+  UniRef90_UPI000421CBA1 DUF2502 domain-containing protein n=1 Ta...  76.2    3e-16
+  UniRef90_A0A3N4PRU0 DUF2502 domain-containing protein n=1 Tax=P...  76.5    3e-16
+  UniRef90_C7RVC0 Uncharacterized protein n=1 Tax=Accumulibacter ...  76.2    3e-16
+  UniRef90_A0A1R1I976 Uncharacterized protein n=1 Tax=Azonexus hy...  76.2    3e-16
+  UniRef90_A0A0H5LXY5 Protein of uncharacterized function (DUF250...  77.3    4e-16
+  UniRef90_J2VGL1 Uncharacterized protein n=1 Tax=Pantoea sp. YR3...  76.5    4e-16
+  UniRef90_A0A0F5Y1V5 Zinc ABC transporter substrate-binding prot...  76.5    5e-16
+  UniRef90_A0A370WIU0 DUF2502 domain-containing protein n=1 Tax=H...  75.4    5e-16
+  UniRef90_A0A126VGZ7 Putative exported protein n=5 Tax=Serratia ...  76.5    8e-16
+  UniRef90_A0A0A3YTV7 Zinc ABC transporter substrate-binding prot...  75.4    9e-16
+  UniRef90_A0A071LMT8 Uncharacterized protein n=3 Tax=Mangrovibac...  74.6    1e-15
+  UniRef90_A0A2S4QWP6 Uncharacterized protein n=2 Tax=Escherichia...  74.6    1e-15
+  UniRef90_J3DCR0 ABC-type Zn2+ transport system, periplasmic com...  74.6    2e-15
+  UniRef90_A0A0E1CF39 Uncharacterized protein n=64 Tax=Enterobact...  74.6    2e-15
+  UniRef90_E3G9L1 Uncharacterized protein n=1 Tax=Enterobacter li...  74.2    2e-15
+  UniRef90_UPI000BB789AD DUF2502 domain-containing protein n=1 Ta...  72.7    2e-15
+  UniRef90_A0A267W5I9 Uncharacterized protein (Fragment) n=1 Tax=...  71.9    3e-15
+  UniRef90_A0A0U1HXI8 Protein of uncharacterized function (DUF250...  74.6    4e-15
+  UniRef90_E1SKI4 Uncharacterized protein ypeC n=24 Tax=Erwiniace...  74.2    4e-15
+  UniRef90_A0A0Q4MAX2 Uncharacterized protein n=2 Tax=Yersiniacea...  73.5    5e-15
+  UniRef90_A0A0L7TAD2 Zinc ABC transporter substrate-binding prot...  73.8    5e-15
+  UniRef90_A0A3D5QXY4 Zinc ABC transporter substrate-binding prot...  73.5    5e-15
+  UniRef90_A0A0T9SY94 Protein of uncharacterized function (DUF250...  73.8    7e-15
+  UniRef90_UPI0002EEAF77 DUF2502 domain-containing protein n=1 Ta...  72.3    9e-15
+  UniRef90_A0A2X4T4P1 Protein of uncharacterized function (DUF250...  72.3    9e-15
+  UniRef90_A0A3A5DXC6 Uncharacterized protein n=11 Tax=Pectobacte...  72.7    1e-14
+  UniRef90_A0A379YXR0 Protein of uncharacterized function (DUF250...  73.5    1e-14
+  UniRef90_UPI00030DE692 DUF2502 domain-containing protein n=1 Ta...  73.1    1e-14
+  UniRef90_A0A085U2E3 Protein of uncharacterized function (DUF250...  72.7    1e-14
+  UniRef90_A0A011NHS1 Uncharacterized protein n=1 Tax=Candidatus ...  71.9    1e-14
+  UniRef90_A0A0U1HPQ4 Protein of uncharacterized function (DUF250...  73.8    1e-14
+  UniRef90_A0A0T9UKU0 Protein of uncharacterized function (DUF250...  73.8    1e-14
+  UniRef90_E6WCK5 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  72.3    2e-14
+  UniRef90_A0A1D3KT84 Periplasmic protein YaaX n=31 Tax=Enterobac...  72.3    2e-14
+  UniRef90_A0A0T7NR14 Protein of uncharacterized function (DUF250...  73.1    2e-14
+  UniRef90_A0A0B6FV14 Uncharacterized protein n=1 Tax=Yersinia fr...  73.5    2e-14
+  UniRef90_A0A209AK60 Uncharacterized protein n=1 Tax=Yersinia fr...  73.5    2e-14
+  UniRef90_A0A0T9ND67 Protein of uncharacterized function (DUF250...  72.7    2e-14
+  UniRef90_A0A0T9KKW6 Protein of uncharacterized function (DUF250...  72.3    2e-14
+  UniRef90_UPI0004752C11 DUF2502 domain-containing protein n=1 Ta...  71.5    2e-14
+  UniRef90_A0A1D9BJ50 Uncharacterized protein n=1 Tax=Jeongeupia ...  71.9    2e-14
+  UniRef90_A0A0J8VL09 Uncharacterized protein n=2 Tax=Franconibac...  71.2    4e-14
+  UniRef90_UPI000C7B506B DUF2502 domain-containing protein n=1 Ta...  70.4    4e-14
+  UniRef90_E5YCL5 Uncharacterized protein n=6 Tax=Enterobacterale...  72.3    4e-14
+  UniRef90_A0A377NAM6 Protein of uncharacterized function (DUF250...  72.3    4e-14
+  UniRef90_A0A0T9MDM2 Protein of uncharacterized function (DUF250...  71.5    4e-14
+  UniRef90_UPI00034DF512 DUF2502 domain-containing protein n=1 Ta...  71.5    5e-14
+  UniRef90_U3TVW4 Uncharacterized protein n=1 Tax=Plautia stali s...  70.0    5e-14
+  UniRef90_A0A209ADH3 Uncharacterized protein n=2 Tax=Yersinia Ta...  71.5    5e-14
+  UniRef90_A0A0T9U5K0 Protein of uncharacterized function (DUF250...  71.2    6e-14
+  UniRef90_A0A1X0WD83 Uncharacterized protein n=1 Tax=Rouxiella b...  70.8    7e-14
+  UniRef90_A0A0F3LNW3 Uncharacterized protein n=9 Tax=Enterobacte...  70.8    7e-14
+  UniRef90_UPI0007881BAA DUF2502 domain-containing protein n=1 Ta...  70.4    7e-14
+  UniRef90_A0A0H3B2N9 Uncharacterized protein n=19 Tax=Yersinia T...  71.2    9e-14
+  UniRef90_A0A0F7D3F0 Uncharacterized protein n=10 Tax=Yersiniace...  70.8    9e-14
+  UniRef90_A0A0H3FWR7 Uncharacterized protein n=8 Tax=Enterobacte...  69.6    1e-13
+  UniRef90_A0A0T9NJS7 Protein of uncharacterized function (DUF250...  70.4    1e-13
+  UniRef90_H2IUY6 Uncharacterized protein n=11 Tax=Yersiniaceae T...  69.6    2e-13
+  UniRef90_A0A1X1CSN8 Uncharacterized protein n=1 Tax=Pantoea rwa...  69.2    2e-13
+  UniRef90_A0A2S5KFU8 DUF2502 domain-containing protein n=3 Tax=E...  69.6    3e-13
+  UniRef90_A0A377NAR5 Protein of uncharacterized function (DUF250...  69.2    3e-13
+  UniRef90_A0A2N5EG91 DUF2502 domain-containing protein n=1 Tax=Y...  70.0    3e-13
+  UniRef90_UPI000ADD65C8 DUF2502 domain-containing protein n=1 Ta...  67.7    4e-13
+  UniRef90_A0A2G8D1T0 Zinc ABC transporter substrate-binding prot...  68.5    5e-13
+  UniRef90_A0A0H5G8J4 Protein of uncharacterized function (DUF250...  69.2    5e-13
+  UniRef90_A0A133XN03 Uncharacterized protein n=1 Tax=Dechloromon...  67.7    6e-13
+  UniRef90_A0A0U5L0K9 Uncharacterized protein n=2 Tax=Erwinia ger...  68.5    7e-13
+  UniRef90_A0A2T2Y4L0 Uncharacterized protein n=1 Tax=Kluyvera as...  67.7    7e-13
+  UniRef90_J3D0Q1 Uncharacterized protein n=9 Tax=Enterobacterale...  68.1    8e-13
+  UniRef90_UPI000DD31413 DUF2502 domain-containing protein n=1 Ta...  67.7    8e-13
+  UniRef90_A0A2N5ESZ4 DUF2502 domain-containing protein n=1 Tax=Y...  68.8    8e-13
+  UniRef90_UPI000DEF8923 DUF2502 domain-containing protein n=1 Ta...  68.1    8e-13
+  UniRef90_Q47CH5 Uncharacterized protein n=1 Tax=Dechloromonas a...  67.3    9e-13
+  UniRef90_V8FJG9 Uncharacterized protein (Fragment) n=1 Tax=Esch...  66.1    1e-12
+  UniRef90_E6WBR4 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  67.3    1e-12
+  UniRef90_A0A0T9QUU8 Protein of uncharacterized function (DUF250...  68.1    1e-12
+  UniRef90_A0A378GP52 Protein of uncharacterized function (DUF250...  67.7    1e-12
+  UniRef90_A0A0Q4N128 Zinc ABC transporter substrate-binding prot...  67.7    1e-12
+  UniRef90_A0A0D5WXU3 Uncharacterized protein n=6 Tax=Enterobacte...  66.9    2e-12
+  UniRef90_D4E3D9 Uncharacterized protein n=1 Tax=Serratia odorif...  67.3    2e-12
+  UniRef90_A0A2S9IB99 Zinc ABC transporter substrate-binding prot...  67.3    2e-12
+  UniRef90_UPI0003822882 DUF2502 domain-containing protein n=1 Ta...  66.9    2e-12
+  UniRef90_UPI0005D3DD04 DUF2502 domain-containing protein n=1 Ta...  66.9    2e-12
+  UniRef90_A0A2L1UQN1 Uncharacterized protein n=1 Tax=Rahnella sp...  66.9    2e-12
+  UniRef90_A0A1B1KUA5 Uncharacterized protein n=17 Tax=Serratia T...  66.9    2e-12
+  UniRef90_A0A2K1QDZ5 Uncharacterized protein n=1 Tax=Mixta theic...  67.3    3e-12
+  UniRef90_UPI0005D3FBB4 DUF2502 domain-containing protein n=1 Ta...  66.9    3e-12
+  UniRef90_A0A2N5EDA4 DUF2502 domain-containing protein n=1 Tax=Y...  66.9    3e-12
+  UniRef90_UPI000FE38A19 DUF2502 domain-containing protein n=1 Ta...  66.5    3e-12
+  UniRef90_A0A0J4XZ33 Protein of uncharacterized function (DUF250...  65.8    4e-12
+  UniRef90_A0A2V3Q653 Uncharacterized protein DUF2502 n=2 Tax=Pan...  66.1    4e-12
+  UniRef90_A0A2I5TH73 DUF2502 domain-containing protein n=1 Tax=S...  66.1    4e-12
+  UniRef90_A0A0B1RBG7 Zinc ABC transporter substrate-binding prot...  65.4    6e-12
+  UniRef90_A0A0F0VCS4 DUF2502 domain-containing protein n=5 Tax=P...  65.0    7e-12
+  UniRef90_A0A2V2BIP4 Uncharacterized protein DUF2502 n=3 Tax=Pan...  65.4    9e-12
+  UniRef90_Q8D0W4 Uncharacterized protein n=18 Tax=Yersinia TaxID...  65.4    9e-12
+  UniRef90_A0A014N5X5 Uncharacterized protein n=1 Tax=Erwinia mal...  65.4    9e-12
+  UniRef90_A0A200LMD2 DUF2502 domain-containing protein n=7 Tax=E...  64.6    9e-12
+  UniRef90_A0A2T7ARL6 DUF2502 domain-containing protein n=1 Tax=C...  63.8    1e-11
+  UniRef90_A0A240C9Q5 Protein of uncharacterized function (DUF250...  65.4    1e-11
+  UniRef90_A0A318W7Z2 Uncharacterized protein DUF2502 n=2 Tax=Ent...  65.0    1e-11
+  UniRef90_A0A316ETB1 Uncharacterized protein DUF2502 n=3 Tax=Cup...  64.2    1e-11
+  UniRef90_D2BVR5 Uncharacterized protein n=6 Tax=Enterobacterale...  64.6    1e-11
+  UniRef90_UPI00073D2B58 DUF2502 domain-containing protein n=1 Ta...  64.6    2e-11
+  UniRef90_A0A2K1Q5W1 Zinc ABC transporter substrate-binding prot...  64.6    2e-11
+  UniRef90_H3RFX0 Uncharacterized protein n=1 Tax=Pantoea stewart...  63.1    2e-11
+  UniRef90_A0A2X4VFH7 Protein of uncharacterized function (DUF250...  64.2    2e-11
+  UniRef90_A0A1W6B741 Zinc ABC transporter substrate-binding prot...  65.0    2e-11
+  UniRef90_C9XXD7 Uncharacterized protein ypeC n=27 Tax=Enterobac...  64.2    2e-11
+  UniRef90_A0A0G4JW29 Putative exported protein n=1 Tax=Brenneria...  64.6    2e-11
+  UniRef90_A0A1W6BB98 Uncharacterized protein n=1 Tax=Pantoea alh...  64.6    3e-11
+  UniRef90_A0A1B7KA83 Putative exported protein n=9 Tax=Hafniacea...  64.2    3e-11
+  UniRef90_D8MVC8 Conserved uncharacterized protein n=1 Tax=Erwin...  63.8    4e-11
+  UniRef90_A0A1V9DMH6 Uncharacterized protein n=1 Tax=Pantoea lat...  63.4    4e-11
+  UniRef90_A8GHC2 Uncharacterized protein n=12 Tax=Serratia TaxID...  63.8    4e-11
+  UniRef90_A0A0Q4MP99 Uncharacterized protein n=2 Tax=Yersiniacea...  63.8    5e-11
+  UniRef90_A0A2A7T498 DUF2502 domain-containing protein n=1 Tax=Y...  64.2    5e-11
+  UniRef90_A0A376HXR0 Periplasmic protein YaaX n=64 Tax=Bacteria ...  63.1    5e-11
+  UniRef90_I2BD03 Putative periplasmic protein YaaX n=1 Tax=Shimw...  63.1    7e-11
+  UniRef90_A1JPR3 Putative exported protein n=19 Tax=Yersinia ent...  63.8    9e-11
+  UniRef90_A0A2N5EQ76 Uncharacterized protein n=1 Tax=Yersiniacea...  62.3    9e-11
+  UniRef90_A0A2K8QSF0 DUF2502 domain-containing protein n=1 Tax=D...  62.7    9e-11
+  UniRef90_A0A0P0QH95 Uncharacterized protein n=52 Tax=Gammaprote...  62.3    9e-11
+  UniRef90_A0A2U1U2F4 DUF2502 domain-containing protein n=2 Tax=B...  63.1    1e-10
+  UniRef90_A0A3N0USH8 DUF2502 domain-containing protein n=2 Tax=L...  62.7    1e-10
+  UniRef90_A0A2K7ZI52 DUF2502 domain-containing protein n=2 Tax=Y...  63.4    1e-10
+  UniRef90_UPI000EF1D2BE DUF2502 domain-containing protein n=1 Ta...  63.1    1e-10
+  UniRef90_UPI00094B8C2C DUF2502 domain-containing protein n=1 Ta...  63.4    1e-10
+  UniRef90_H0Q4N6 Uncharacterized protein n=1 Tax=Azoarcus sp. KH...  61.9    1e-10
+  UniRef90_A0A366FF24 Uncharacterized protein DUF2502 n=1 Tax=Pse...  61.9    1e-10
+  UniRef90_A0A380PP64 Protein of uncharacterized function (DUF250...  63.4    1e-10
+  UniRef90_A0A0T9NV31 Protein of uncharacterized function (DUF250...  63.1    1e-10
+  UniRef90_A0A2S4RLJ0 DUF2502 domain-containing protein n=3 Tax=E...  62.3    2e-10
+  UniRef90_D4GJU6 YpeC n=11 Tax=Pantoea ananas TaxID=553 RepID=D4...  61.9    2e-10
+  UniRef90_A0A0L7SY54 Uncharacterized protein n=1 Tax=Erwinia ini...  61.9    2e-10
+  UniRef90_C6CL11 Uncharacterized protein n=3 Tax=Dickeya TaxID=2...  61.9    2e-10
+  UniRef90_UPI000DE04548 DUF2502 domain-containing protein n=8 Ta...  61.1    2e-10
+  UniRef90_A0A240C7K7 Protein of uncharacterized function (DUF250...  61.5    2e-10
+  UniRef90_UPI0005CBA285 DUF2502 domain-containing protein n=1 Ta...  61.9    2e-10
+  UniRef90_A0A2S4RIX2 DUF2502 domain-containing protein n=2 Tax=E...  62.3    2e-10
+  UniRef90_C6DDN4 Uncharacterized protein n=27 Tax=Pectobacterium...  62.3    2e-10
+  UniRef90_A0A366IAB4 Uncharacterized protein DUF2502 n=1 Tax=Bre...  62.3    2e-10
+  UniRef90_A0A1X1E599 DUF2502 domain-containing protein n=1 Tax=M...  61.5    4e-10
+  UniRef90_UPI0004D3507B DUF2502 domain-containing protein n=1 Ta...  61.5    4e-10
+  UniRef90_A0A0T9M5F7 Protein of uncharacterized function (DUF250...  61.9    4e-10
+  UniRef90_Q6D144 Putative exported protein n=14 Tax=Pectobacteri...  61.5    4e-10
+  UniRef90_A0A3A9JEI1 DUF2502 domain-containing protein n=2 Tax=E...  60.8    4e-10
+  UniRef90_A0A0D1N7L6 Uncharacterized protein n=4 Tax=Enterobacte...  60.4    6e-10
+  UniRef90_UPI0003A81587 DUF2502 domain-containing protein n=1 Ta...  60.4    7e-10
+  UniRef90_D2TIJ4 Putative exported protein n=53 Tax=Bacteria Tax...  60.0    9e-10
+  UniRef90_A0A0T9QUF2 Protein of uncharacterized function (DUF250...  61.1    9e-10
+  UniRef90_A0A1S8CEL2 Uncharacterized protein n=1 Tax=Serratia or...  60.0    9e-10
+  UniRef90_A0A1B1KUD6 Uncharacterized protein n=5 Tax=Yersiniacea...  60.0    1e-09
+  UniRef90_A0A0T9TBB6 Protein of uncharacterized function (DUF250...  60.8    1e-09
+  UniRef90_A0A1B3FEZ1 Uncharacterized protein n=30 Tax=Gammaprote...  59.6    2e-09
+  UniRef90_G7LJW0 Uncharacterized protein n=3 Tax=Brenneria TaxID...  59.6    2e-09
+  UniRef90_A0A1H4AJR0 Uncharacterized protein n=6 Tax=Lonsdalea T...  59.2    2e-09
+  UniRef90_A0A285JRT9 Uncharacterized protein n=1 Tax=Enterobacte...  58.8    2e-09
+  UniRef90_I0QQN5 Uncharacterized protein n=1 Tax=Serratia sp. M2...  58.8    2e-09
+  UniRef90_UPI0004B5D49E DUF2502 domain-containing protein n=1 Ta...  58.8    3e-09
+  UniRef90_A0A0V9JLF1 Uncharacterized protein n=3 Tax=Enterobacte...  58.8    3e-09
+  UniRef90_A0A0T9QYF8 Protein of uncharacterized function (DUF250...  60.0    3e-09
+  UniRef90_A0A0F6TVV3 Uncharacterized protein n=4 Tax=Enterobacte...  58.4    3e-09
+  UniRef90_A0A2U4DA77 DUF2502 domain-containing protein n=3 Tax=E...  58.4    4e-09
+  UniRef90_A0A2J9S913 DUF2502 domain-containing protein n=1 Tax=Y...  59.2    4e-09
+  UniRef90_UPI0003B203CD DUF2502 domain-containing protein n=1 Ta...  58.1    5e-09
+  UniRef90_A0A379QZD5 Protein of uncharacterized function (DUF250...  58.1    5e-09
+  UniRef90_UPI000907CE13 DUF2502 domain-containing protein n=1 Ta...  58.8    5e-09
+  UniRef90_A0A0H5LSU6 Protein of uncharacterized function (DUF250...  59.2    5e-09
+  UniRef90_A0A0U5L6Z0 Putative secreted protein n=1 Tax=Erwinia g...  58.4    6e-09
+  UniRef90_A0A2N5EQ42 DUF2502 domain-containing protein n=5 Tax=Y...  58.1    6e-09
+  UniRef90_UPI0009006D3B DUF2502 domain-containing protein n=1 Ta...  58.4    7e-09
+  UniRef90_D4HXN1 Uncharacterized protein ypeC n=3 Tax=Erwinia am...  58.1    7e-09
+  UniRef90_UPI00036196C0 DUF2502 domain-containing protein n=1 Ta...  57.3    8e-09
+  UniRef90_UPI000467F302 DUF2502 domain-containing protein n=1 Ta...  58.4    9e-09
+  UniRef90_A0A378A384 Protein of uncharacterized function (DUF250...  58.1    9e-09
+  UniRef90_A0A0Q4N916 Uncharacterized protein n=3 Tax=Yersiniacea...  58.1    1e-08
+  UniRef90_UPI0004BC0C57 DUF2502 domain-containing protein n=1 Ta...  57.7    1e-08
+  UniRef90_A0A375AED2 Probable exported protein YPO2426 n=2 Tax=D...  56.9    1e-08
+  UniRef90_S4YHN2 Uncharacterized protein n=11 Tax=Yersiniaceae T...  58.1    1e-08
+  UniRef90_A0A0J8YKL1 Uncharacterized protein n=2 Tax=unclassifie...  57.3    2e-08
+  UniRef90_A0A0T9SL37 Protein of uncharacterized function (DUF250...  58.1    2e-08
+  UniRef90_A0A0A3YHL2 Zinc ABC transporter substrate-binding prot...  56.9    2e-08
+  UniRef90_A0A086GFH4 Uncharacterized protein n=17 Tax=Serratia T...  56.9    2e-08
+  UniRef90_A0A085GB26 YaaX family protein n=2 Tax=Ewingella ameri...  56.1    2e-08
+  UniRef90_W0HTF6 Uncharacterized protein n=1 Tax=Sodalis praecap...  57.3    2e-08
+  UniRef90_A0A356YR10 Uncharacterized protein n=4 Tax=Erwinia per...  56.5    3e-08
+  UniRef90_A0A0Q4M2E0 Uncharacterized protein n=2 Tax=Yersiniacea...  57.3    3e-08
+  UniRef90_UPI000F7EB510 DUF2502 domain-containing protein n=1 Ta...  55.7    3e-08
+  UniRef90_UPI000DEF58A8 DUF2502 domain-containing protein n=1 Ta...  56.5    3e-08
+  UniRef90_A0A0T9UTZ0 Protein of uncharacterized function (DUF250...  56.9    3e-08
+  UniRef90_L0MHL7 Uncharacterized protein n=6 Tax=Serratia TaxID=...  56.5    4e-08
+  UniRef90_A0A1X0WG60 Uncharacterized protein n=1 Tax=Rouxiella b...  56.1    4e-08
+  UniRef90_A0A0U4IM45 Uncharacterized protein n=7 Tax=Yersiniacea...  55.7    4e-08
+  UniRef90_A0A0T9QQY1 Protein of uncharacterized function (DUF250...  56.9    4e-08
+  UniRef90_A0A087KNU4 Uncharacterized protein n=1 Tax=Serratia sp...  55.0    7e-08
+  UniRef90_A0A1B3FBF3 Uncharacterized protein n=43 Tax=Gammaprote...  55.4    8e-08
+  UniRef90_A0A2I0FXN0 Zinc ABC transporter substrate-binding prot...  55.0    8e-08
+  UniRef90_UPI000E3CEA6B DUF2502 domain-containing protein n=1 Ta...  53.0    1e-07
+  UniRef90_A0A168QVT0 Protein of uncharacterized function (DUF250...  55.0    1e-07
+  UniRef90_UPI00016C75A6 DUF2502 domain-containing protein YpeC n...  53.8    1e-07
+  UniRef90_A0A2R3H0F3 Uncharacterized protein n=2 Tax=Serratia Ta...  55.0    2e-07
+  UniRef90_A0A3N4P018 DUF2502 domain-containing protein n=1 Tax=P...  54.2    2e-07
+  UniRef90_UPI000D73A856 DUF2502 domain-containing protein n=1 Ta...  53.8    2e-07
+  UniRef90_A0A240C0L0 Protein of uncharacterized function (DUF250...  54.6    2e-07
+  UniRef90_UPI000F68402E DUF2502 domain-containing protein n=1 Ta...  53.8    2e-07
+  UniRef90_A0A1X0WCB5 Uncharacterized protein n=2 Tax=Rouxiella b...  54.6    2e-07
+  UniRef90_A0A389MFV5 Uncharacterized protein n=1 Tax=Enterobacte...  54.2    3e-07
+  UniRef90_UPI000CDD6A6B DUF2502 domain-containing protein n=1 Ta...  54.2    3e-07
+  UniRef90_A0A3D6DPU9 Uncharacterized protein n=1 Tax=Candidatus ...  53.0    3e-07
+  UniRef90_A0A2J9E858 DUF2502 domain-containing protein n=5 Tax=P...  53.4    4e-07
+  UniRef90_A0A2L1UWS0 Uncharacterized protein n=1 Tax=Rahnella sp...  53.8    4e-07
+  UniRef90_A0A250B779 Uncharacterized protein n=2 Tax=Gibbsiella ...  53.8    4e-07
+  UniRef90_A8ADJ9 Uncharacterized protein n=1 Tax=Citrobacter kos...  52.3    5e-07
+  UniRef90_UPI0005D459EA DUF2502 domain-containing protein n=1 Ta...  54.2    5e-07
+  UniRef90_A0A250B533 Uncharacterized protein n=2 Tax=Gibbsiella ...  53.0    5e-07
+  UniRef90_H8NTC3 Uncharacterized protein n=6 Tax=Rahnella TaxID=...  53.4    6e-07
+  UniRef90_H2ITA4 Uncharacterized protein n=5 Tax=Rahnella TaxID=...  52.7    1e-06
+  UniRef90_I0QRZ9 Uncharacterized protein n=1 Tax=Serratia sp. M2...  52.3    1e-06
+  UniRef90_A0A1C7WIN6 Uncharacterized protein n=3 Tax=Serratia Ta...  51.9    1e-06
+  UniRef90_A0A2N0W243 DUF2502 domain-containing protein n=1 Tax=R...  51.9    2e-06
+  UniRef90_UPI000F7F0C00 DUF2502 domain-containing protein n=1 Ta...  51.1    2e-06
+  UniRef90_A0A1S8YJD5 Zinc ABC transporter substrate-binding prot...  51.1    2e-06
+  UniRef90_A0A2A3KPX2 Uncharacterized protein n=2 Tax=Enterobacte...  51.5    3e-06
+  UniRef90_A0A084A496 Uncharacterized protein n=1 Tax=Serratia sp...  50.4    5e-06
+  UniRef90_A0A377D1T8 Protein n=1 Tax=Escherichia coli TaxID=562 ...  49.6    5e-06
+  UniRef90_W1FT29 Uncharacterized protein n=2 Tax=Enterobacteriac...  48.8    8e-06
+  UniRef90_UPI000DD4BD46 DUF2502 domain-containing protein n=4 Ta...  50.4    9e-06
+  UniRef90_UPI000373C196 DUF2502 domain-containing protein n=1 Ta...  49.6    1e-05
+  UniRef90_A0A3N6S352 DUF2502 domain-containing protein n=1 Tax=E...  49.6    1e-05
+  UniRef90_UPI000349F17D DUF2502 domain-containing protein n=1 Ta...  49.2    1e-05
+  UniRef90_A0A0M1V419 Uncharacterized protein n=1 Tax=Yersinia pe...  48.8    2e-05
+  UniRef90_A0A1S8YRL0 Uncharacterized protein n=1 Tax=Izhakiella ...  47.3    7e-05
+  UniRef90_A0A0Q4NCD6 Uncharacterized protein n=2 Tax=Yersiniacea...  47.3    1e-04
+  UniRef90_A0A2A3KSS4 Uncharacterized protein n=3 Tax=Rahnella Ta...  46.1    4e-04
+  UniRef90_UPI000948AB3F DUF2502 domain-containing protein n=1 Ta...  44.6    0.001
+  UniRef90_UPI000E724B66 DUF2502 domain-containing protein n=2 Ta...  44.6    0.002
+  UniRef90_L0MJB0 Uncharacterized protein n=6 Tax=Serratia TaxID=...  43.0    0.002
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000326BC8B DUF2502 domain-containing protein n=1 Ta...  60.0    3e-09
+  UniRef90_A0A0T9TXZ3 Protein of uncharacterized function (DUF250...  58.8    1e-08
+  UniRef90_A0A2N0MYF2 Uncharacterized protein n=3 Tax=Ewingella a...  56.5    3e-08
+  UniRef90_A0A2X2G7B5 Protein of uncharacterized function (DUF250...  56.1    6e-08
+  UniRef90_UPI0004682042 DUF2502 domain-containing protein n=1 Ta...  53.8    3e-07
+  UniRef90_A0A0X8SEP0 DUF2502 domain-containing protein n=4 Tax=S...  53.4    5e-07
+  UniRef90_UPI00077C2DF4 DUF2502 domain-containing protein n=1 Ta...  53.4    6e-07
+  UniRef90_A0A2H1LF08 Uncharacterized protein n=4 Tax=Serratia Ta...  53.0    8e-07
+  UniRef90_A0A133XIM7 Uncharacterized protein n=1 Tax=Dechloromon...  50.7    2e-06
+  UniRef90_A0A2P5INT0 DUF2502 domain-containing protein n=1 Tax=P...  51.5    2e-06
+  UniRef90_A0A345CTD9 DUF2502 domain-containing protein n=1 Tax=E...  50.4    4e-06
+  UniRef90_C6CAS2 Uncharacterized protein n=1 Tax=Dickeya paradis...  48.8    2e-05
+  UniRef90_A0A377N9G8 Protein of uncharacterized function (DUF250...  46.9    3e-05
+  UniRef90_UPI0009FAA692 DUF2502 domain-containing protein n=1 Ta...  46.5    8e-05
+  UniRef90_E3DL15 Conserved uncharacterized protein n=3 Tax=Erwin...  46.5    8e-05
+  UniRef90_UPI000F7EFE78 DUF2502 domain-containing protein n=2 Ta...  46.1    2e-04
+  UniRef90_A0A177RGJ3 Type IV secretion protein Rhs (Fragment) n=...  47.7    3e-04
+  UniRef90_UPI000E57CC77 RHS repeat protein n=2 Tax=Ralstonia sol...  47.7    3e-04
+  UniRef90_F6G835 Rhs-related protein n=10 Tax=Ralstonia TaxID=48...  47.3    4e-04
+  UniRef90_D4E726 Uncharacterized protein n=2 Tax=Serratia odorif...  45.7    6e-04
+  UniRef90_UPI000C141A31 uncharacterized transmembrane protein DD...  45.7    0.001
+  UniRef90_UPI000C142FEB uncharacterized transmembrane protein DD...  45.7    0.001
+  UniRef90_UPI000C141AC6 hornerin-like isoform X6 n=2 Tax=Spodopt...  45.7    0.001
+  UniRef90_A0A2L1UKV7 Uncharacterized protein n=2 Tax=Rahnella Ta...  44.6    0.001
+  UniRef90_A0A2X5B2C7 Protein of uncharacterized function (DUF250...  43.4    0.002
+  UniRef90_A0A1L5P3X5 Uncharacterized protein n=1 Tax=Rhizobium e...  42.6    0.005
+  UniRef90_A0A1R2D4P7 Uncharacterized protein n=1 Tax=Stentor coe...  43.8    0.006
+  UniRef90_A0A2N5DZ51 Uncharacterized protein n=4 Tax=Yersiniacea...  42.3    0.007
+  UniRef90_A0A379YY88 Protein of uncharacterized function (DUF250...  41.5    0.007
+  UniRef90_G0VG86 Uncharacterized protein n=1 Tax=Naumovozyma cas...  43.4    0.008
+  UniRef90_A0A1H3ACP0 Lipid A deacylase n=2 Tax=Pseudomonas TaxID...  41.9    0.018
+  UniRef90_UPI000F8E593E UPI000F8E593E related cluster n=1 Tax=un...  42.3    0.018
+  UniRef90_A0A3L7LUW5 DUF2502 domain-containing protein n=1 Tax=S...  39.2    0.019
+  UniRef90_UPI0005224062 uncharacterized protein LOC104336182 n=1...  42.3    0.021
+  UniRef90_UPI0008F9D9D5 protein FAM98A-like n=1 Tax=Bemisia taba...  41.9    0.034
+  UniRef90_A0A1S7HXA0 OSH2 (YDL019C) and SWH1 (YAR042W) n=4 Tax=Z...  41.5    0.050
+  UniRef90_A0A3B8J091 Uncharacterized protein n=3 Tax=Cytophagale...  41.1    0.053
+  UniRef90_J3BGR7 Uncharacterized protein n=1 Tax=Rhizobium sp. C...  40.0    0.056
+  UniRef90_A0A2E6EQU8 Uncharacterized protein n=1 Tax=Rickettsial...  40.7    0.057
+  UniRef90_N2J8Y9 Lipid A deacylase n=5 Tax=Pseudomonadaceae TaxI...  40.3    0.059
+  UniRef90_A0A0W0TMB3 Heavy metal transporting P-type ATPase n=3 ...  40.7    0.082
+  UniRef90_A0A226EWR9 Uncharacterized protein n=1 Tax=Folsomia ca...  40.3    0.098
+  UniRef90_A0A139WLP4 Uncharacterized protein n=2 Tax=Tribolium c...  40.3    0.11 
+  UniRef90_A0A2W1JWV0 Uncharacterized protein n=2 Tax=Acaryochlor...  40.3    0.11 
+  UniRef90_A0A0A9YQ91 Protein disabled n=2 Tax=Lygus hesperus Tax...  40.0    0.13 
+  UniRef90_UPI0009DD28C8 hypothetical protein n=1 Tax=Rhizobium s...  38.4    0.14 
+  UniRef90_A0A0Q3BN10 Uncharacterized protein n=2 Tax=Loktanella ...  37.6    0.15 
+  UniRef90_A0A1Q9ED51 Uncharacterized protein n=1 Tax=Symbiodiniu...  40.0    0.16 
+  UniRef90_Q8XTG0 Putative rhs-related protein n=19 Tax=Burkholde...  40.0    0.17 
+  UniRef90_A0A0A9YKN9 Protein disabled n=2 Tax=Lygus hesperus Tax...  39.6    0.17 
+  UniRef90_Q7XPJ7 OSJNBa0087O24.13 protein n=1 Tax=Oryza sativa s...  39.6    0.18 
+  UniRef90_A0A0N0GL37 Thioredoxin n=1 Tax=Amantichitinum ursilacu...  39.6    0.19 
+  UniRef90_A0A2N8JM39 Uncharacterized protein n=4 Tax=Sinorhizobi...  38.0    0.20 
+  UniRef90_UPI000BAF3FE0 uncharacterized protein LOC111116988 iso...  39.6    0.20 
+  UniRef90_A0A2N5B0I7 BA14K family protein n=2 Tax=Mesorhizobium ...  38.8    0.20 
+  UniRef90_A0A238YP92 Uncharacterized protein n=2 Tax=Lutibacter ...  39.6    0.20 
+  UniRef90_A0A0Q5A7X8 Uncharacterized protein n=2 Tax=Rathayibact...  39.6    0.20 
+  UniRef90_A0A0J9TCW6 Uncharacterized protein n=2 Tax=Plasmodium ...  39.6    0.23 
+  UniRef90_Q2QU62 Retrotransposon protein, putative, unclassified...  39.6    0.23 
+  UniRef90_A0A396NV25 Uncharacterized protein n=2 Tax=Clostridial...  38.8    0.23 
+  UniRef90_A0A177RG94 Type IV secretion protein Rhs (Fragment) n=...  39.2    0.25 
+  UniRef90_A0A1H8M6H0 Uncharacterized protein n=2 Tax=Rhizobiales...  38.0    0.26 
+  UniRef90_A0A0M3GT07 Uncharacterized protein n=2 Tax=Rhizobium p...  38.0    0.26 
+  UniRef90_UPI00063F41DF mucin-2 n=1 Tax=Propithecus coquereli Ta...  39.2    0.27 
+  UniRef90_E4WY79 Uncharacterized protein n=1 Tax=Oikopleura dioi...  39.2    0.29 
+  UniRef90_A0A2N2H6S9 Uncharacterized protein n=2 Tax=unclassifie...  38.8    0.29 
+  UniRef90_A0A2K1L2W6 Uncharacterized protein n=1 Tax=Physcomitre...  39.2    0.29 
+  UniRef90_I8V973 Uncharacterized protein n=2 Tax=Bacteroides Tax...  38.4    0.31 
+  UniRef90_UPI0009DAD794 hypothetical protein n=1 Tax=Hyphomicrob...  37.6    0.33 
+  UniRef90_UPI000691DDE1 alpha/beta fold hydrolase n=1 Tax=Roseov...  38.8    0.34 
+  UniRef90_A0A1Q9EZ28 Uncharacterized protein n=1 Tax=Symbiodiniu...  38.8    0.36 
+  UniRef90_A5K564 Uncharacterized protein n=3 Tax=Plasmodium viva...  38.4    0.45 
+  UniRef90_R0JIX7 Uncharacterized protein n=1 Tax=Anas platyrhync...  38.4    0.48 
+  UniRef90_UPI0009DDECCF BA14K family protein n=1 Tax=Caulobacter...  37.3    0.48 
+  UniRef90_B1FTB2 Uncharacterized protein n=2 Tax=Paraburkholderi...  38.4    0.53 
+  UniRef90_A0A109JVJ8 Uncharacterized protein n=6 Tax=Rhizobiales...  36.9    0.53 
+  UniRef90_A0A1G7RDS4 Lipid A deacylase n=3 Tax=Pseudomonadaceae ...  38.0    0.54 
+  UniRef90_A0A1I3XHZ8 Uncharacterized protein n=1 Tax=Mesorhizobi...  37.3    0.57 
+  UniRef90_A0A1B0D3R2 Uncharacterized protein n=1 Tax=Phlebotomus...  38.0    0.61 
+  UniRef90_A0A1T0CEL0 Uncharacterized protein n=2 Tax=Moraxella l...  38.0    0.62 
+  UniRef90_UPI000762781F protein transport protein Sec16A isoform...  38.0    0.63 
+  UniRef90_B9FJA0 Uncharacterized protein n=1 Tax=Oryza sativa su...  38.0    0.63 
+  UniRef90_A0A1V5V0G0 Uncharacterized protein n=1 Tax=Lentisphaer...  38.0    0.63 
+  UniRef90_A0A0G4LC58 Uncharacterized protein (Fragment) n=1 Tax=...  38.0    0.64 
+  UniRef90_A0A0G4MEK1 Uncharacterized protein (Fragment) n=2 Tax=...  38.0    0.66 
+  UniRef90_I3MMC1 Protein transport protein sec16 n=3 Tax=Marmoti...  38.0    0.68 
+  UniRef90_UPI0009A3FBE9 chromodomain-helicase-DNA-binding protei...  38.0    0.68 
+  UniRef90_UPI000DD78E35 SH3 domain-containing protein n=1 Tax=Rh...  37.6    0.69 
+  UniRef90_A0A1G4HD96 Uncharacterized protein n=1 Tax=Plasmodium ...  38.0    0.70 
+  UniRef90_W6R962 Uncharacterized protein n=4 Tax=Rhizobium favel...  36.9    0.70 
+  UniRef90_A0A2N3E2Q8 Uncharacterized protein n=1 Tax=Alphaproteo...  37.3    0.72 
+  UniRef90_D8NFV5 Putative rhs-related protein n=1 Tax=Ralstonia ...  38.0    0.77 
+  UniRef90_UPI000E70DBA0 hypothetical protein n=1 Tax=Mangrovibac...  38.0    0.77 
+  UniRef90_A0A117NRA2 Uncharacterized protein n=3 Tax=Penicillium...  37.6    0.80 
+  UniRef90_UPI0007629797 protein transport protein Sec16A isoform...  38.0    0.81 
+  UniRef90_A0A3G7M4U0 Uncharacterized protein n=2 Tax=Pseudomonas...  37.6    0.82 
+  UniRef90_A0A1M3LKE8 Uncharacterized protein n=1 Tax=Micrococcal...  37.6    0.85 
+  UniRef90_A0A177RTE7 Type IV secretion protein Rhs (Fragment) n=...  37.6    0.92 
+  UniRef90_A0A222GQA8 Uncharacterized protein n=13 Tax=Rhizobiace...  36.5    0.93 
+  UniRef90_UPI000DD50F2E SH3 domain-containing protein n=1 Tax=Rh...  37.6    0.96 
+  UniRef90_A0A3G7IF70 Uncharacterized protein n=1 Tax=Pseudomonas...  37.3    1.1  
+  UniRef90_A0A1C6QVR3 Predicted ATPase n=3 Tax=Streptomyces TaxID...  37.3    1.1  
+  UniRef90_A0A367YG11 Uncharacterized protein n=1 Tax=Candida vis...  37.3    1.2  
+  UniRef90_A0A2K6QKP3 Uncharacterized protein n=2 Tax=Rhinopithec...  37.3    1.3  
+  UniRef90_S3BYL4 Sugar porter (SP) family MFS transporter n=9 Ta...  37.3    1.3  
+  UniRef90_Q89PC1 Blr3561 protein n=4 Tax=Bradyrhizobium TaxID=37...  36.9    1.3  
+  UniRef90_UPI000A05032B hypothetical protein n=3 Tax=Rhizobiales...  36.1    1.3  
+  UniRef90_A0A1Q9E4N6 Uncharacterized protein n=1 Tax=Symbiodiniu...  37.3    1.3  
+  UniRef90_A0A146Y5D7 AE binding protein 1 n=1 Tax=Fundulus heter...  37.3    1.4  
+  UniRef90_UPI000D0A454D ATP-dependent RNA helicase DDX42-like n=...  36.9    1.5  
+  UniRef90_A0A2G7TCH8 Signal peptide protein n=3 Tax=Rhizobium me...  35.7    1.5  
+  UniRef90_A0A2V6J3E5 Uncharacterized protein n=2 Tax=Verrucomicr...  36.9    1.5  
+  UniRef90_A0A086LVW1 Uncharacterized protein (Fragment) n=1 Tax=...  36.9    1.5  
+  UniRef90_A0A0Q6SQ28 Uncharacterized protein n=1 Tax=Rhizobium s...  36.9    1.5  
+  UniRef90_A0A0N0J919 Uncharacterized protein n=2 Tax=Betaproteob...  36.9    1.6  
+  UniRef90_A0A0D2AZR0 Uncharacterized protein n=1 Tax=Verruconis ...  36.9    1.6  
+  UniRef90_UPI000947BEB4 eukaryotic translation initiation factor...  36.9    1.6  
+  UniRef90_A0A060Y6C1 Uncharacterized protein n=1 Tax=Oncorhynchu...  36.9    1.7  
+  UniRef90_UPI000404C059 hypothetical protein n=1 Tax=Desulfovibr...  36.9    1.7  
+  UniRef90_A0A1R3T5C9 Multifunctional expression regulator n=2 Ta...  36.9    1.7  
+  UniRef90_K0PWT0 Uncharacterized protein n=1 Tax=Rhizobium mesoa...  35.7    1.8  
+  UniRef90_UPI00046B8111 histidine-rich glycoprotein n=1 Tax=Epte...  36.9    1.8  
+  UniRef90_A0A146Y3H0 AE binding protein 1 (Fragment) n=1 Tax=Fun...  36.9    1.8  
+  UniRef90_H0X6T7 Protein transport protein sec16 n=2 Tax=Otolemu...  36.9    1.8  
+  UniRef90_A0A146Y3K1 Adipocyte enhancer-binding protein 1 n=1 Ta...  36.9    1.8  
+  UniRef90_A0A2T1A4T5 Uncharacterized protein n=1 Tax=Antricoccus...  36.9    1.9  
+  UniRef90_UPI0006B7AC8A TBC1 domain family member 25 n=1 Tax=Pse...  36.9    2.0  
+  UniRef90_A0A1Y1XK07 Uncharacterized protein n=1 Tax=Basidiobolu...  36.9    2.0  
+  UniRef90_UPI000CEAAA60 uncharacterized protein LOC112075353 n=1...  36.5    2.0  
+  UniRef90_A0A023B8W1 Uncharacterized protein n=1 Tax=Gregarina n...  36.9    2.1  
+  UniRef90_A0A2V5MRD5 Uncharacterized protein n=2 Tax=Verrucomicr...  36.5    2.1  
+  UniRef90_A0A0F0DXL0 Lipid A deacylase n=8 Tax=Pseudomonas TaxID...  36.1    2.1  
+  UniRef90_A0A1Q9DG47 Uncharacterized protein n=1 Tax=Symbiodiniu...  36.5    2.2  
+  UniRef90_UPI00071219A4 hypothetical protein n=1 Tax=Blastocysti...  36.5    2.2  
+  UniRef90_A0A222GI01 Uncharacterized protein n=8 Tax=Rhizobiales...  35.3    2.4  
+  UniRef90_F7L7M6 Uncharacterized protein n=2 Tax=Bacteroides Tax...  36.1    2.4  
+  UniRef90_Q96JE7 Protein transport protein Sec16B n=36 Tax=Catar...  36.5    2.5  
+  UniRef90_A0A177QDT3 Uncharacterized protein n=1 Tax=Rhizomicrob...  36.1    2.6  
+  UniRef90_UPI000DD7704E SH3 domain-containing protein n=1 Tax=Rh...  36.1    2.6  
+  UniRef90_B4DK76 cDNA FLJ58538, highly similar to Homo sapiens l...  36.5    2.6  
+  UniRef90_A0A194R4W8 Zinc finger CCCH domain-containing protein ...  36.5    2.6  
+  UniRef90_A0A3B9LSE1 Uncharacterized protein n=2 Tax=Blastocatel...  35.7    2.7  
+  UniRef90_G0SDA6 MAP kinase kinase-like protein n=1 Tax=Chaetomi...  36.1    2.8  
+  UniRef90_UPI00042A2A91 hypothetical protein n=1 Tax=Sphingomona...  36.1    2.9  
+  UniRef90_A0A0B6SDA0 Uncharacterized protein n=2 Tax=Burkholderi...  34.6    2.9  
+  UniRef90_A0A1V4Y1M7 Uncharacterized protein n=1 Tax=Syntrophus ...  36.1    3.0  
+  UniRef90_A0A2M6Y484 EamA family transporter n=1 Tax=Elusimicrob...  36.1    3.1  
+  UniRef90_F6CKN8 Glycosyl transferase family 2 n=4 Tax=Desulfofu...  36.1    3.2  
+  UniRef90_A0A0N0JK84 Uncharacterized protein n=1 Tax=beta proteo...  35.7    3.2  
+  UniRef90_A0DN37 Uncharacterized protein n=2 Tax=Paramecium tetr...  36.1    3.2  
+  UniRef90_A0A1F3ZVC2 Lipid A deacylase n=1 Tax=Betaproteobacteri...  35.7    3.2  
+  UniRef90_A0A074RVF1 Uncharacterized protein n=2 Tax=Rhizoctonia...  36.1    3.2  
+  UniRef90_UPI000F51442F inactive carboxypeptidase-like protein X...  36.1    3.3  
+  UniRef90_A0A2A4JXC9 Uncharacterized protein n=6 Tax=Heliothinae...  36.1    3.3  
+  UniRef90_UPI000625A0B0 transmembrane protein 132E n=1 Tax=Oruss...  36.1    3.4  
+  UniRef90_UPI000288CC81 hypothetical protein n=1 Tax=Sphingomona...  34.9    3.4  
+  UniRef90_A0A212ES93 Uncharacterized protein n=1 Tax=Danaus plex...  36.1    3.5  
+  UniRef90_A0A1L8D6X6 Carboxyl/cholinesterase-024a n=1 Tax=Plutel...  36.1    3.7  
+  UniRef90_UPI000DAB6F84 collagen-like protein n=1 Tax=Xiangella ...  36.1    3.8  
+  UniRef90_A0A2M6U8S3 Uncharacterized protein n=1 Tax=Bradyrhizob...  35.3    4.0  
+  UniRef90_A0A1L9PV00 Uncharacterized protein n=1 Tax=Aspergillus...  35.7    4.0  
+  UniRef90_UPI0009BB1E63 SH3 domain-containing protein n=1 Tax=Rh...  35.7    4.2  
+  UniRef90_A0A2J8A6H9 Uncharacterized protein (Fragment) n=1 Tax=...  35.7    4.2  
+  UniRef90_A0A2V5Z8X5 Uncharacterized protein n=2 Tax=Verrucomicr...  35.7    4.2  
+  UniRef90_UPI000489CBD9 glycosyltransferase n=1 Tax=Desulfovirgu...  35.7    4.4  
+  UniRef90_A0A146NA67 AE binding protein 1 n=2 Tax=Fundulus heter...  35.7    4.4  
+  UniRef90_Q2N9E0 Uncharacterized protein n=1 Tax=Erythrobacter l...  35.3    4.5  
+  UniRef90_UPI000E48852E hypothetical protein n=1 Tax=Ruminococcu...  35.7    4.7  
+  UniRef90_A0A2W4C1I7 Uncharacterized protein n=1 Tax=Rhizobium t...  34.6    4.8  
+  UniRef90_UPI000CE5BCFD zinc finger CCCH domain-containing prote...  35.7    4.9  
+  UniRef90_A0A146NB98 AE binding protein 1 n=1 Tax=Fundulus heter...  35.7    5.0  
+  UniRef90_A0A3D3HD69 Uncharacterized protein n=1 Tax=Bacteroidal...  35.7    5.0  
+  UniRef90_B1XXV7 Uncharacterized protein n=1 Tax=Leptothrix chol...  35.3    5.2  
+  UniRef90_UPI0007A715FF histidine-rich glycoprotein n=1 Tax=Mini...  35.3    5.2  
+  UniRef90_A0A2V5V3D9 Uncharacterized protein n=1 Tax=Verrucomicr...  35.3    5.2  
+  UniRef90_A0A0J1FZP6 Uncharacterized protein n=2 Tax=Caballeroni...  34.6    5.3  
+  UniRef90_UPI0001DE7614 neuronal pentraxin-1-like n=1 Tax=Xenopu...  35.3    5.5  
+  UniRef90_A0A089J2X4 Uncharacterized protein n=4 Tax=Paenibacill...  35.3    5.6  
+  UniRef90_A0A2V5ZVV9 Uncharacterized protein n=3 Tax=Verrucomicr...  35.3    5.6  
+  UniRef90_UPI000EF9533B zinc finger CCCH domain-containing prote...  35.3    5.7  
+  UniRef90_A0A165GAE1 Uncharacterized protein (Fragment) n=1 Tax=...  35.3    6.0  
+  UniRef90_S7P5F8 Histidine-rich glycoprotein n=1 Tax=Myotis bran...  35.3    6.0  
+  UniRef90_UPI000DABA8C3 DUF3300 domain-containing protein n=1 Ta...  35.3    6.0  
+  UniRef90_A0A1B0GHF8 Uncharacterized protein n=1 Tax=Lutzomyia l...  35.3    6.0  
+  UniRef90_UPI0005D0C8B5 venom carboxylesterase-6-like isoform X1...  35.3    6.1  
+  UniRef90_UPI000D736D5B uncharacterized protein LOC112556500 iso...  35.3    6.6  
+  UniRef90_A0A2U4C7Y7 LOW QUALITY PROTEIN: histidine-rich glycopr...  35.3    6.6  
+  UniRef90_A0A078A337 Uncharacterized protein n=1 Tax=Stylonychia...  35.3    7.0  
+  UniRef90_I1CM38 Uncharacterized protein n=1 Tax=Rhizopus delema...  34.9    7.4  
+  UniRef90_A0A252BZZ9 Membrane protein n=2 Tax=Acetobacter TaxID=...  34.9    7.5  
+  UniRef90_UPI000B39700E cyclin-T-like isoform X3 n=1 Tax=Helicov...  34.9    7.6  
+  UniRef90_A0A192LVI5 Uncharacterized protein n=12 Tax=Rhizobium/...  34.2    7.6  
+  UniRef90_A0A2A6PCP8 Uncharacterized protein n=1 Tax=Sinorhizobi...  33.8    7.8  
+  UniRef90_I1C8F5 Uncharacterized protein n=1 Tax=Rhizopus delema...  34.9    7.8  
+  UniRef90_A0A101IN37 Uncharacterized protein n=2 Tax=unclassifie...  34.9    8.2  
+  UniRef90_A0A0T6Z4G1 Signal peptide protein n=8 Tax=Rhizobium fr...  33.8    8.5  
+  UniRef90_UPI000EB1CFCB hypothetical protein n=1 Tax=Mucilaginib...  33.4    8.5  
+  UniRef90_A0A1H8X0H8 Permease of the drug/metabolite transporter...  34.9    8.6  
+  UniRef90_A0A1B9UR76 Peptide-binding protein n=45 Tax=Rhizobiale...  34.6    8.7  
+  UniRef90_UPI000643ABA6 histidine-rich glycoprotein n=1 Tax=Micr...  34.9    8.8  
+  UniRef90_UPI000D62CC8C inactive carboxypeptidase-like protein X...  34.9    9.0  
+  UniRef90_A0A3D1U3J2 Uncharacterized protein n=1 Tax=Chloroflexi...  34.6    9.1  
+  UniRef90_D5RSW4 SH3 domain protein (Fragment) n=1 Tax=Roseomona...  34.6    9.2  
+  UniRef90_A0A2V5PF27 Uncharacterized protein n=1 Tax=Verrucomicr...  34.6    9.3  
+  UniRef90_UPI00094E7FB6 inactive carboxypeptidase-like protein X...  34.9    9.5  
+  UniRef90_A0A380THI5 Membrane protein n=1 Tax=metagenome TaxID=2...  34.6    9.7  
+  UniRef90_UPI000EFA7B54 SH3 domain-containing protein n=3 Tax=Rh...  34.6    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.146    0.514    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0446    0.140     1.90     42.6     43.6 
+
+Effective search space used: 747111122893
+Results from round 3
+
+
+Query= NP_414546.1
+
+Length=98
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A377BVP6 Protein n=2 Tax=Escherichia coli TaxID=562 ...  92.3    3e-22
+  UniRef90_A0A383HJB2 Protein n=3 Tax=Escherichia coli TaxID=562 ...  88.4    1e-20
+  UniRef90_P75616 Uncharacterized protein YaaX n=301 Tax=Bacteria...  86.9    1e-20
+  UniRef90_A0A0F6RDD6 Uncharacterized protein n=1 Tax=Citrobacter...  86.9    2e-20
+  UniRef90_A0A2X1LHY2 Protein n=1 Tax=Escherichia coli TaxID=562 ...  86.1    2e-20
+  UniRef90_A0A078LIA6 Protein of uncharacterized function (DUF250...  86.5    2e-20
+  UniRef90_W0AT20 Uncharacterized protein n=14 Tax=Escherichia Ta...  85.4    6e-20
+  UniRef90_A0A0A2WL73 Uncharacterized protein yghZ n=2 Tax=cellul...  91.5    9e-20
+  UniRef90_B7LWR3 Uncharacterized protein n=5 Tax=Escherichia fer...  83.1    6e-19
+  UniRef90_A4W6C4 Uncharacterized protein n=2 Tax=Enterobacteriac...  82.3    1e-18
+  UniRef90_A0A3N1W1G7 Uncharacterized protein DUF2502 n=4 Tax=Ent...  81.9    2e-18
+  UniRef90_I0QVZ9 Uncharacterized protein n=1 Tax=Serratia sp. M2...  83.8    2e-18
+  UniRef90_D2Z9S7 Uncharacterized protein n=1 Tax=Enterobacter ca...  81.1    3e-18
+  UniRef90_A0A0F1BAH6 Uncharacterized protein n=21 Tax=Enterobact...  80.4    6e-18
+  UniRef90_A0A0F0XTK2 Uncharacterized protein n=9 Tax=Enterobacte...  80.4    6e-18
+  UniRef90_L0MAM7 Uncharacterized protein n=3 Tax=Enterobacteriac...  80.4    1e-17
+  UniRef90_A0A140IF82 Uncharacterized protein n=2 Tax=Enterobacte...  79.6    1e-17
+  UniRef90_UPI000486724C DUF2502 domain-containing protein n=1 Ta...  79.2    2e-17
+  UniRef90_UPI000744BCDD DUF2502 domain-containing protein n=1 Ta...  78.8    2e-17
+  UniRef90_R9VJ75 Uncharacterized protein n=11 Tax=Enterobacteria...  79.2    2e-17
+  UniRef90_A0A2S5CAD5 Uncharacterized protein n=2 Tax=Enterobacte...  78.8    3e-17
+  UniRef90_A0A0F5Y1V5 Zinc ABC transporter substrate-binding prot...  79.2    3e-17
+  UniRef90_A4WD09 Uncharacterized protein n=6 Tax=Enterobacteriac...  78.8    3e-17
+  UniRef90_A0A2S4WX83 DUF2502 domain-containing protein n=6 Tax=E...  78.4    3e-17
+  UniRef90_A0A2P5GJB7 Uncharacterized protein n=1 Tax=Superficiei...  78.4    4e-17
+  UniRef90_A0A285K9D2 Uncharacterized protein n=1 Tax=Enterobacte...  78.4    4e-17
+  UniRef90_G8LLY4 YaaX n=12 Tax=Enterobacteriaceae TaxID=543 RepI...  78.4    4e-17
+  UniRef90_A0A2X3EVP9 Protein of uncharacterized function (DUF250...  80.0    4e-17
+  UniRef90_A0A2N2RFR4 Uncharacterized protein n=1 Tax=Betaproteob...  78.0    5e-17
+  UniRef90_S0X9Y6 Uncharacterized protein n=12 Tax=Enterobacteria...  78.4    5e-17
+  UniRef90_A0A2T3CBB1 Uncharacterized protein n=2 Tax=Enterobacte...  78.0    5e-17
+  UniRef90_A0A376WKJ2 Protein n=1 Tax=Escherichia coli TaxID=562 ...  76.9    6e-17
+  UniRef90_A0A1B7IIG2 Uncharacterized protein n=2 Tax=Buttiauxell...  77.7    7e-17
+  UniRef90_A0A318W3M9 Uncharacterized protein DUF2502 n=2 Tax=Ent...  78.0    7e-17
+  UniRef90_G2S3C0 Uncharacterized protein n=3 Tax=Enterobacteriac...  78.0    8e-17
+  UniRef90_A0A0J8YCH9 Uncharacterized protein n=3 Tax=Franconibac...  77.3    1e-16
+  UniRef90_G9ZAN1 Uncharacterized protein n=2 Tax=Yokenella regen...  77.3    1e-16
+  UniRef90_A0A080M367 Uncharacterized protein n=1 Tax=Candidatus ...  76.9    1e-16
+  UniRef90_A0A1B7IJE4 Uncharacterized protein n=4 Tax=Buttiauxell...  76.9    1e-16
+  UniRef90_A0A0G3S4H5 DUF2502 domain-containing protein n=29 Tax=...  76.9    2e-16
+  UniRef90_A0A181D919 DUF2502 domain-containing protein n=88 Tax=...  76.9    2e-16
+  UniRef90_A0A0H5LXY5 Protein of uncharacterized function (DUF250...  77.7    2e-16
+  UniRef90_A0A2N2S262 Uncharacterized protein n=1 Tax=Betaproteob...  76.5    2e-16
+  UniRef90_A0A085G2B7 Uncharacterized DUF2502 family protein n=3 ...  76.5    2e-16
+  UniRef90_A0A1N6TF53 Uncharacterized protein n=3 Tax=Enterobacte...  76.5    3e-16
+  UniRef90_A0A2N2V2H7 Uncharacterized protein n=2 Tax=unclassifie...  76.1    3e-16
+  UniRef90_A0A0M3F8J6 Uncharacterized protein n=7 Tax=Enterobacte...  76.5    3e-16
+  UniRef90_A0A3E2A0A2 DUF2502 domain-containing protein n=5 Tax=E...  76.5    3e-16
+  UniRef90_A0A2J9EAY6 DUF2502 domain-containing protein n=5 Tax=E...  76.5    3e-16
+  UniRef90_A0A1A9F7Z0 Uncharacterized protein n=1 Tax=Lelliottia ...  75.7    4e-16
+  UniRef90_A0A0M3F699 Uncharacterized protein n=2 Tax=Enterobacte...  75.7    5e-16
+  UniRef90_A0A0G3PEC2 Uncharacterized protein n=38 Tax=Enterobact...  75.3    6e-16
+  UniRef90_A0A0G3QD70 Uncharacterized protein n=10 Tax=Enterobact...  75.3    6e-16
+  UniRef90_A0A2P5GHX5 DUF2502 domain-containing protein n=2 Tax=E...  75.7    6e-16
+  UniRef90_A0A3N4PRU0 DUF2502 domain-containing protein n=1 Tax=P...  75.7    6e-16
+  UniRef90_G2S4T7 Uncharacterized protein n=83 Tax=Bacteria TaxID...  75.3    7e-16
+  UniRef90_J3DCR0 ABC-type Zn2+ transport system, periplasmic com...  75.7    7e-16
+  UniRef90_UPI00077B80F0 DUF2502 domain-containing protein n=1 Ta...  75.3    8e-16
+  UniRef90_G9YZ92 Uncharacterized protein n=2 Tax=Yokenella regen...  75.3    8e-16
+  UniRef90_A0A1C4ERN9 Uncharacterized protein n=2 Tax=Kosakonia T...  75.3    9e-16
+  UniRef90_A0A1X0XEU4 Uncharacterized protein n=1 Tax=Kluyvera in...  75.0    9e-16
+  UniRef90_UPI00066A168B DUF2502 domain-containing protein n=2 Ta...  74.6    1e-15
+  UniRef90_E1SKI4 Uncharacterized protein ypeC n=24 Tax=Erwiniace...  75.7    1e-15
+  UniRef90_A0A0L0GYG0 Uncharacterized protein n=4 Tax=Trabulsiell...  75.0    1e-15
+  UniRef90_A0A2T3X4L6 DUF2502 domain-containing protein n=6 Tax=E...  75.0    1e-15
+  UniRef90_A0A2T4LED0 Uncharacterized protein (Fragment) n=1 Tax=...  73.0    1e-15
+  UniRef90_A0A0L7TAD2 Zinc ABC transporter substrate-binding prot...  75.0    1e-15
+  UniRef90_A0A0A3YTV7 Zinc ABC transporter substrate-binding prot...  74.6    2e-15
+  UniRef90_D8MVC8 Conserved uncharacterized protein n=1 Tax=Erwin...  74.6    2e-15
+  UniRef90_A0A0B5IPW3 Uncharacterized protein n=6 Tax=Enterobacte...  73.8    2e-15
+  UniRef90_UPI00057BFD43 DUF2502 domain-containing protein n=1 Ta...  74.2    2e-15
+  UniRef90_J2VGL1 Uncharacterized protein n=1 Tax=Pantoea sp. YR3...  74.6    2e-15
+  UniRef90_A0A1I7CEY7 Uncharacterized protein n=1 Tax=Kosakonia a...  73.8    3e-15
+  UniRef90_A0A1X1DCD3 Zinc ABC transporter substrate-binding prot...  74.2    3e-15
+  UniRef90_A0A3N1J8A9 Uncharacterized protein DUF2502 n=2 Tax=Ent...  73.8    3e-15
+  UniRef90_S3IPB7 Uncharacterized protein n=1 Tax=Cedecea davisae...  73.8    3e-15
+  UniRef90_UPI0004852713 DUF2502 domain-containing protein n=1 Ta...  73.4    3e-15
+  UniRef90_V5ACW2 Uncharacterized protein n=8 Tax=Enterobacterale...  73.8    4e-15
+  UniRef90_UPI0002D7A2F7 DUF2502 domain-containing protein n=1 Ta...  73.4    4e-15
+  UniRef90_A0A3B7AAR4 DUF2502 domain-containing protein n=1 Tax=D...  73.0    4e-15
+  UniRef90_UPI000EB57456 DUF2502 domain-containing protein n=1 Ta...  72.7    5e-15
+  UniRef90_A0A1V0LJ29 Uncharacterized protein n=6 Tax=Enterobacte...  72.7    6e-15
+  UniRef90_A0A181XPL9 Protein of uncharacterized function (DUF250...  72.7    6e-15
+  UniRef90_A0A0B6FV14 Uncharacterized protein n=1 Tax=Yersinia fr...  75.0    6e-15
+  UniRef90_A0A370WIU0 DUF2502 domain-containing protein n=1 Tax=H...  72.7    6e-15
+  UniRef90_A0A2K1Q5W1 Zinc ABC transporter substrate-binding prot...  73.0    8e-15
+  UniRef90_A0A0U1HPQ4 Protein of uncharacterized function (DUF250...  74.2    9e-15
+  UniRef90_A0A126VGZ7 Putative exported protein n=5 Tax=Serratia ...  73.8    9e-15
+  UniRef90_A0A2V2BIP4 Uncharacterized protein DUF2502 n=3 Tax=Pan...  72.7    1e-14
+  UniRef90_I2B6S4 Uncharacterized protein n=1 Tax=Shimwellia blat...  72.3    1e-14
+  UniRef90_A0A1B7K3V9 Uncharacterized protein n=3 Tax=Kluyvera Ta...  72.3    1e-14
+  UniRef90_A0A0T9SY94 Protein of uncharacterized function (DUF250...  73.0    1e-14
+  UniRef90_A0A2X3ED34 Protein of uncharacterized function (DUF250...  72.3    1e-14
+  UniRef90_UPI000EB054C8 DUF2502 domain-containing protein n=1 Ta...  71.9    1e-14
+  UniRef90_A0A0U1HXI8 Protein of uncharacterized function (DUF250...  73.0    2e-14
+  UniRef90_UPI0003822882 DUF2502 domain-containing protein n=1 Ta...  71.9    2e-14
+  UniRef90_A0A1W6B741 Zinc ABC transporter substrate-binding prot...  72.3    2e-14
+  UniRef90_A0A090UZF0 Uncharacterized protein n=3 Tax=Enterobacte...  71.5    2e-14
+  UniRef90_UPI0004E270A8 DUF2502 domain-containing protein n=1 Ta...  71.1    3e-14
+  UniRef90_E3GAP3 Uncharacterized protein n=1 Tax=Enterobacter li...  71.1    3e-14
+  UniRef90_P64543 Uncharacterized protein YpeC n=323 Tax=Proteoba...  71.1    3e-14
+  UniRef90_UPI000EABC636 DUF2502 domain-containing protein n=1 Ta...  71.1    3e-14
+  UniRef90_A0A085U2E3 Protein of uncharacterized function (DUF250...  71.5    3e-14
+  UniRef90_A0A267W5I9 Uncharacterized protein (Fragment) n=1 Tax=...  69.6    3e-14
+  UniRef90_U3TVW4 Uncharacterized protein n=1 Tax=Plautia stali s...  70.7    3e-14
+  UniRef90_L0M3G9 Uncharacterized protein n=3 Tax=Enterobacteriac...  71.1    4e-14
+  UniRef90_A0A2X3DXU3 Protein of uncharacterized function (DUF250...  70.7    4e-14
+  UniRef90_A0A084Y2N5 Uncharacterized protein n=1 Tax=Candidatus ...  70.7    4e-14
+  UniRef90_UPI00077B72A9 DUF2502 domain-containing protein n=1 Ta...  71.1    5e-14
+  UniRef90_A0A0D5WPT1 Uncharacterized protein n=6 Tax=Enterobacte...  70.0    6e-14
+  UniRef90_A0A2V3Q653 Uncharacterized protein DUF2502 n=2 Tax=Pan...  70.7    6e-14
+  UniRef90_A0A0T7NR14 Protein of uncharacterized function (DUF250...  71.5    6e-14
+  UniRef90_A0A2S4RLJ0 DUF2502 domain-containing protein n=3 Tax=E...  71.1    7e-14
+  UniRef90_C7RVC0 Uncharacterized protein n=1 Tax=Accumulibacter ...  70.0    7e-14
+  UniRef90_A0A0B1RBG7 Zinc ABC transporter substrate-binding prot...  70.3    7e-14
+  UniRef90_D4GJU6 YpeC n=11 Tax=Pantoea ananas TaxID=553 RepID=D4...  70.7    8e-14
+  UniRef90_A0A1R1I976 Uncharacterized protein n=1 Tax=Azonexus hy...  70.0    8e-14
+  UniRef90_UPI0004D3507B DUF2502 domain-containing protein n=1 Ta...  71.1    8e-14
+  UniRef90_A0A209AK60 Uncharacterized protein n=1 Tax=Yersinia fr...  71.5    8e-14
+  UniRef90_E6WCK5 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  70.3    8e-14
+  UniRef90_A0A0T9U5K0 Protein of uncharacterized function (DUF250...  70.7    1e-13
+  UniRef90_UPI000421CBA1 DUF2502 domain-containing protein n=1 Ta...  69.6    1e-13
+  UniRef90_UPI0007869C94 DUF2502 domain-containing protein n=1 Ta...  70.0    1e-13
+  UniRef90_A0A0T9UKU0 Protein of uncharacterized function (DUF250...  71.1    1e-13
+  UniRef90_UPI00034DF512 DUF2502 domain-containing protein n=1 Ta...  70.7    1e-13
+  UniRef90_A0A0F1KR34 Uncharacterized protein n=10 Tax=Enterobact...  70.0    1e-13
+  UniRef90_A0A0T9KKW6 Protein of uncharacterized function (DUF250...  70.0    1e-13
+  UniRef90_UPI000BB789AD DUF2502 domain-containing protein n=1 Ta...  68.4    1e-13
+  UniRef90_A0A0H3B2N9 Uncharacterized protein n=19 Tax=Yersinia T...  70.7    1e-13
+  UniRef90_A0A0J8VL09 Uncharacterized protein n=2 Tax=Franconibac...  69.6    2e-13
+  UniRef90_A0A3D5QXY4 Zinc ABC transporter substrate-binding prot...  69.2    2e-13
+  UniRef90_UPI00030DE692 DUF2502 domain-containing protein n=1 Ta...  69.6    2e-13
+  UniRef90_A0A209ADH3 Uncharacterized protein n=2 Tax=Yersinia Ta...  69.6    3e-13
+  UniRef90_J3D0Q1 Uncharacterized protein n=9 Tax=Enterobacterale...  69.2    3e-13
+  UniRef90_E6WBR4 Uncharacterized protein n=3 Tax=Pantoea TaxID=5...  68.8    3e-13
+  UniRef90_A0A379YXR0 Protein of uncharacterized function (DUF250...  69.6    3e-13
+  UniRef90_A0A1D9BJ50 Uncharacterized protein n=1 Tax=Jeongeupia ...  69.2    3e-13
+  UniRef90_A0A2S9IB99 Zinc ABC transporter substrate-binding prot...  68.8    3e-13
+  UniRef90_E5YCL5 Uncharacterized protein n=6 Tax=Enterobacterale...  70.0    3e-13
+  UniRef90_A0A2X4T4P1 Protein of uncharacterized function (DUF250...  68.0    4e-13
+  UniRef90_A0A071LMT8 Uncharacterized protein n=3 Tax=Mangrovibac...  68.0    5e-13
+  UniRef90_E3G9L1 Uncharacterized protein n=1 Tax=Enterobacter li...  68.0    6e-13
+  UniRef90_A0A1D3KT84 Periplasmic protein YaaX n=31 Tax=Enterobac...  68.0    7e-13
+  UniRef90_A0A2T3RKK8 DUF2502 domain-containing protein YpeC n=58...  67.6    8e-13
+  UniRef90_A0A0E1CF39 Uncharacterized protein n=64 Tax=Enterobact...  68.0    8e-13
+  UniRef90_A0A0F7D3F0 Uncharacterized protein n=10 Tax=Yersiniace...  68.0    9e-13
+  UniRef90_A0A377NAM6 Protein of uncharacterized function (DUF250...  68.8    9e-13
+  UniRef90_UPI000E57CC77 RHS repeat protein n=2 Tax=Ralstonia sol...  71.9    9e-13
+  UniRef90_A0A177RGJ3 Type IV secretion protein Rhs (Fragment) n=...  71.9    9e-13
+  UniRef90_A0A011NHS1 Uncharacterized protein n=1 Tax=Candidatus ...  66.9    1e-12
+  UniRef90_A0A0H5G8J4 Protein of uncharacterized function (DUF250...  68.0    1e-12
+  UniRef90_A0A200LMD2 DUF2502 domain-containing protein n=7 Tax=E...  66.9    1e-12
+  UniRef90_A0A3A5DXC6 Uncharacterized protein n=11 Tax=Pectobacte...  67.3    1e-12
+  UniRef90_A0A0Q4N128 Zinc ABC transporter substrate-binding prot...  67.3    2e-12
+  UniRef90_A0A345CTD9 DUF2502 domain-containing protein n=1 Tax=E...  66.9    2e-12
+  UniRef90_A0A1X1CSN8 Uncharacterized protein n=1 Tax=Pantoea rwa...  66.9    2e-12
+  UniRef90_A0A0F3LNW3 Uncharacterized protein n=9 Tax=Enterobacte...  67.3    2e-12
+  UniRef90_A0A2S5KFU8 DUF2502 domain-containing protein n=3 Tax=E...  66.9    2e-12
+  UniRef90_A0A0A3YHL2 Zinc ABC transporter substrate-binding prot...  66.9    2e-12
+  UniRef90_A0A0T9ND67 Protein of uncharacterized function (DUF250...  67.3    3e-12
+  UniRef90_A0A0U5L0K9 Uncharacterized protein n=2 Tax=Erwinia ger...  66.5    4e-12
+  UniRef90_F6G835 Rhs-related protein n=10 Tax=Ralstonia TaxID=48...  70.0    4e-12
+  UniRef90_UPI0003B203CD DUF2502 domain-containing protein n=1 Ta...  66.1    5e-12
+  UniRef90_A0A2G8D1T0 Zinc ABC transporter substrate-binding prot...  65.7    6e-12
+  UniRef90_UPI000DD31413 DUF2502 domain-containing protein n=1 Ta...  65.3    7e-12
+  UniRef90_UPI000FE38A19 DUF2502 domain-containing protein n=1 Ta...  65.3    7e-12
+  UniRef90_A0A1B7JNV6 Uncharacterized protein n=2 Tax=Kluyvera ge...  65.3    8e-12
+  UniRef90_A0A1B7HNZ2 Uncharacterized protein n=1 Tax=Buttiauxell...  65.3    9e-12
+  UniRef90_A0A090UW56 Uncharacterized protein n=2 Tax=Enterobacte...  64.6    1e-11
+  UniRef90_A0A014N5X5 Uncharacterized protein n=1 Tax=Erwinia mal...  65.3    1e-11
+  UniRef90_UPI0002EEAF77 DUF2502 domain-containing protein n=1 Ta...  64.2    1e-11
+  UniRef90_A0A0T9MDM2 Protein of uncharacterized function (DUF250...  65.3    1e-11
+  UniRef90_A0A2S4QWP6 Uncharacterized protein n=2 Tax=Escherichia...  64.6    1e-11
+  UniRef90_C9XXD7 Uncharacterized protein ypeC n=27 Tax=Enterobac...  64.9    1e-11
+  UniRef90_A0A356YR10 Uncharacterized protein n=4 Tax=Erwinia per...  64.6    2e-11
+  UniRef90_A0A1V9DMH6 Uncharacterized protein n=1 Tax=Pantoea lat...  64.2    2e-11
+  UniRef90_UPI000F68402E DUF2502 domain-containing protein n=1 Ta...  64.2    2e-11
+  UniRef90_A0A1B7KA83 Putative exported protein n=9 Tax=Hafniacea...  64.9    2e-11
+  UniRef90_A0A0U5L6Z0 Putative secreted protein n=1 Tax=Erwinia g...  64.6    2e-11
+  UniRef90_A0A377NAR5 Protein of uncharacterized function (DUF250...  64.2    2e-11
+  UniRef90_A0A0T9QUU8 Protein of uncharacterized function (DUF250...  64.6    3e-11
+  UniRef90_A0A2N5EG91 DUF2502 domain-containing protein n=1 Tax=Y...  64.9    3e-11
+  UniRef90_A0A0Q4MAX2 Uncharacterized protein n=2 Tax=Yersiniacea...  63.8    3e-11
+  UniRef90_H2IUY6 Uncharacterized protein n=11 Tax=Yersiniaceae T...  63.8    3e-11
+  UniRef90_A0A0T9NJS7 Protein of uncharacterized function (DUF250...  64.2    4e-11
+  UniRef90_A0A2K1QDZ5 Uncharacterized protein n=1 Tax=Mixta theic...  64.2    4e-11
+  UniRef90_UPI000C7B506B DUF2502 domain-containing protein n=1 Ta...  62.6    4e-11
+  UniRef90_UPI0004682042 DUF2502 domain-containing protein n=1 Ta...  63.8    4e-11
+  UniRef90_A0A2N5ESZ4 DUF2502 domain-containing protein n=1 Tax=Y...  64.2    4e-11
+  UniRef90_D4E3D9 Uncharacterized protein n=1 Tax=Serratia odorif...  63.4    5e-11
+  UniRef90_A0A318W7Z2 Uncharacterized protein DUF2502 n=2 Tax=Ent...  63.0    6e-11
+  UniRef90_A0A0D5WXU3 Uncharacterized protein n=6 Tax=Enterobacte...  62.6    7e-11
+  UniRef90_A0A133XN03 Uncharacterized protein n=1 Tax=Dechloromon...  62.3    8e-11
+  UniRef90_Q47CH5 Uncharacterized protein n=1 Tax=Dechloromonas a...  62.3    1e-10
+  UniRef90_A0A0Q4MP99 Uncharacterized protein n=2 Tax=Yersiniacea...  63.0    1e-10
+  UniRef90_UPI0005CBA285 DUF2502 domain-containing protein n=1 Ta...  62.6    1e-10
+  UniRef90_A0A1X0WD83 Uncharacterized protein n=1 Tax=Rouxiella b...  62.6    1e-10
+  UniRef90_A0A0H3FWR7 Uncharacterized protein n=8 Tax=Enterobacte...  61.9    1e-10
+  UniRef90_A0A378GP52 Protein of uncharacterized function (DUF250...  62.3    1e-10
+  UniRef90_A0A0F6TVV3 Uncharacterized protein n=4 Tax=Enterobacte...  61.9    1e-10
+  UniRef90_I2BD03 Putative periplasmic protein YaaX n=1 Tax=Shimw...  62.3    1e-10
+  UniRef90_A0A2U4DA77 DUF2502 domain-containing protein n=3 Tax=E...  61.9    1e-10
+  UniRef90_A0A379QZD5 Protein of uncharacterized function (DUF250...  61.5    2e-10
+  UniRef90_A0A1B1KUA5 Uncharacterized protein n=17 Tax=Serratia T...  61.5    2e-10
+  UniRef90_A0A1W6BB98 Uncharacterized protein n=1 Tax=Pantoea alh...  62.3    2e-10
+  UniRef90_A0A0V9JLF1 Uncharacterized protein n=3 Tax=Enterobacte...  61.5    2e-10
+  UniRef90_UPI0004752C11 DUF2502 domain-containing protein n=1 Ta...  61.5    2e-10
+  UniRef90_UPI0005D3DD04 DUF2502 domain-containing protein n=1 Ta...  61.5    2e-10
+  UniRef90_A0A1B7IEQ9 Uncharacterized protein n=9 Tax=Buttiauxell...  61.5    2e-10
+  UniRef90_D2BVR5 Uncharacterized protein n=6 Tax=Enterobacterale...  61.5    2e-10
+  UniRef90_A0A2N5EDA4 DUF2502 domain-containing protein n=1 Tax=Y...  61.9    3e-10
+  UniRef90_A0A0T9NV31 Protein of uncharacterized function (DUF250...  62.6    3e-10
+  UniRef90_A0A376HXR0 Periplasmic protein YaaX n=64 Tax=Bacteria ...  61.1    3e-10
+  UniRef90_A0A0D1N7L6 Uncharacterized protein n=4 Tax=Enterobacte...  60.7    4e-10
+  UniRef90_D2TIJ4 Putative exported protein n=53 Tax=Bacteria Tax...  60.7    4e-10
+  UniRef90_A0A1X1E599 DUF2502 domain-containing protein n=1 Tax=M...  61.5    4e-10
+  UniRef90_A0A2K7ZI52 DUF2502 domain-containing protein n=2 Tax=Y...  61.9    5e-10
+  UniRef90_A0A3A9JEI1 DUF2502 domain-containing protein n=2 Tax=E...  60.3    7e-10
+  UniRef90_A0A380PP64 Protein of uncharacterized function (DUF250...  61.5    7e-10
+  UniRef90_A0A366IAB4 Uncharacterized protein DUF2502 n=1 Tax=Bre...  61.1    7e-10
+  UniRef90_A0A2K8QSF0 DUF2502 domain-containing protein n=1 Tax=D...  60.3    8e-10
+  UniRef90_A0A2A7T498 DUF2502 domain-containing protein n=1 Tax=Y...  61.1    9e-10
+  UniRef90_A0A2L1UQN1 Uncharacterized protein n=1 Tax=Rahnella sp...  59.9    1e-09
+  UniRef90_D4HXN1 Uncharacterized protein ypeC n=3 Tax=Erwinia am...  59.9    1e-09
+  UniRef90_UPI00073D2B58 DUF2502 domain-containing protein n=1 Ta...  59.6    1e-09
+  UniRef90_A0A285JRT9 Uncharacterized protein n=1 Tax=Enterobacte...  59.6    1e-09
+  UniRef90_A0A0F0VCS4 DUF2502 domain-containing protein n=5 Tax=P...  59.2    1e-09
+  UniRef90_A0A240C9Q5 Protein of uncharacterized function (DUF250...  59.9    1e-09
+  UniRef90_H3RFX0 Uncharacterized protein n=1 Tax=Pantoea stewart...  58.0    2e-09
+  UniRef90_A0A0P0QH95 Uncharacterized protein n=52 Tax=Gammaprote...  59.2    2e-09
+  UniRef90_A0A1B3FEZ1 Uncharacterized protein n=30 Tax=Gammaprote...  59.9    2e-09
+  UniRef90_UPI00016C75A6 DUF2502 domain-containing protein YpeC n...  58.4    2e-09
+  UniRef90_UPI000ADD65C8 DUF2502 domain-containing protein n=1 Ta...  58.4    2e-09
+  UniRef90_A0A316ETB1 Uncharacterized protein DUF2502 n=3 Tax=Cup...  58.8    2e-09
+  UniRef90_UPI0007881BAA DUF2502 domain-containing protein n=1 Ta...  59.2    2e-09
+  UniRef90_A0A1S8YJD5 Zinc ABC transporter substrate-binding prot...  59.2    2e-09
+  UniRef90_C6CL11 Uncharacterized protein n=3 Tax=Dickeya TaxID=2...  59.2    2e-09
+  UniRef90_A0A2U1U2F4 DUF2502 domain-containing protein n=2 Tax=B...  59.6    2e-09
+  UniRef90_UPI0005D3FBB4 DUF2502 domain-containing protein n=1 Ta...  59.6    3e-09
+  UniRef90_A0A2X4VFH7 Protein of uncharacterized function (DUF250...  58.8    3e-09
+  UniRef90_A0A2T7ARL6 DUF2502 domain-containing protein n=1 Tax=C...  57.6    3e-09
+  UniRef90_A8GHC2 Uncharacterized protein n=12 Tax=Serratia TaxID...  59.2    3e-09
+  UniRef90_A0A0G4JW29 Putative exported protein n=1 Tax=Brenneria...  59.2    3e-09
+  UniRef90_A1JPR3 Putative exported protein n=19 Tax=Yersinia ent...  59.6    3e-09
+  UniRef90_A0A085GB26 YaaX family protein n=2 Tax=Ewingella ameri...  58.4    3e-09
+  UniRef90_H0Q4N6 Uncharacterized protein n=1 Tax=Azoarcus sp. KH...  58.0    4e-09
+  UniRef90_Q8D0W4 Uncharacterized protein n=18 Tax=Yersinia TaxID...  58.4    5e-09
+  UniRef90_A0A0L7SY54 Uncharacterized protein n=1 Tax=Erwinia ini...  58.4    6e-09
+  UniRef90_UPI0003A81587 DUF2502 domain-containing protein n=1 Ta...  58.0    6e-09
+  UniRef90_A0A2N5EQ76 Uncharacterized protein n=1 Tax=Yersiniacea...  57.6    6e-09
+  UniRef90_A0A2T2Y4L0 Uncharacterized protein n=1 Tax=Kluyvera as...  57.6    6e-09
+  UniRef90_A8ADJ9 Uncharacterized protein n=1 Tax=Citrobacter kos...  56.9    6e-09
+  UniRef90_A0A2I0FXN0 Zinc ABC transporter substrate-binding prot...  58.0    6e-09
+  UniRef90_A0A2I5TH73 DUF2502 domain-containing protein n=1 Tax=S...  58.0    6e-09
+  UniRef90_UPI000326BC8B DUF2502 domain-containing protein n=1 Ta...  59.2    7e-09
+  UniRef90_A0A3N6S352 DUF2502 domain-containing protein n=1 Tax=E...  58.0    8e-09
+  UniRef90_V8FJG9 Uncharacterized protein (Fragment) n=1 Tax=Esch...  56.5    8e-09
+  UniRef90_A0A0T9TXZ3 Protein of uncharacterized function (DUF250...  58.8    9e-09
+  UniRef90_UPI000DEF8923 DUF2502 domain-containing protein n=1 Ta...  57.6    9e-09
+  UniRef90_UPI000EF1D2BE DUF2502 domain-containing protein n=1 Ta...  58.0    9e-09
+  UniRef90_A0A240C7K7 Protein of uncharacterized function (DUF250...  57.2    1e-08
+  UniRef90_A0A2S4RIX2 DUF2502 domain-containing protein n=2 Tax=E...  58.0    1e-08
+  UniRef90_A0A0T9M5F7 Protein of uncharacterized function (DUF250...  58.0    1e-08
+  UniRef90_Q6D144 Putative exported protein n=14 Tax=Pectobacteri...  57.6    1e-08
+  UniRef90_C6DDN4 Uncharacterized protein n=27 Tax=Pectobacterium...  57.6    2e-08
+  UniRef90_A0A2J9S913 DUF2502 domain-containing protein n=1 Tax=Y...  57.6    2e-08
+  UniRef90_A0A3N0USH8 DUF2502 domain-containing protein n=2 Tax=L...  56.9    2e-08
+  UniRef90_A0A1X0WG60 Uncharacterized protein n=1 Tax=Rouxiella b...  56.9    2e-08
+  UniRef90_A0A378A384 Protein of uncharacterized function (DUF250...  57.2    2e-08
+  UniRef90_A0A0H5LSU6 Protein of uncharacterized function (DUF250...  57.6    2e-08
+  UniRef90_A0A0T9QQY1 Protein of uncharacterized function (DUF250...  57.6    2e-08
+  UniRef90_G7LJW0 Uncharacterized protein n=3 Tax=Brenneria TaxID...  56.9    2e-08
+  UniRef90_UPI000907CE13 DUF2502 domain-containing protein n=1 Ta...  56.9    2e-08
+  UniRef90_UPI00094B8C2C DUF2502 domain-containing protein n=1 Ta...  57.2    3e-08
+  UniRef90_UPI00036196C0 DUF2502 domain-containing protein n=1 Ta...  55.7    3e-08
+  UniRef90_A0A0T9TBB6 Protein of uncharacterized function (DUF250...  56.9    3e-08
+  UniRef90_UPI000DD4BD46 DUF2502 domain-containing protein n=4 Ta...  56.5    3e-08
+  UniRef90_A0A0T9QYF8 Protein of uncharacterized function (DUF250...  56.9    4e-08
+  UniRef90_A0A366FF24 Uncharacterized protein DUF2502 n=1 Tax=Pse...  55.3    5e-08
+  UniRef90_A0A084A496 Uncharacterized protein n=1 Tax=Serratia sp...  55.3    5e-08
+  UniRef90_A0A168QVT0 Protein of uncharacterized function (DUF250...  56.1    5e-08
+  UniRef90_A0A0Q4N916 Uncharacterized protein n=3 Tax=Yersiniacea...  56.1    6e-08
+  UniRef90_A0A0T9QUF2 Protein of uncharacterized function (DUF250...  56.5    6e-08
+  UniRef90_A0A0J4XZ33 Protein of uncharacterized function (DUF250...  54.9    6e-08
+  UniRef90_A0A2R3H0F3 Uncharacterized protein n=2 Tax=Serratia Ta...  56.1    6e-08
+  UniRef90_W1FT29 Uncharacterized protein n=2 Tax=Enterobacteriac...  54.2    7e-08
+  UniRef90_E3DL15 Conserved uncharacterized protein n=3 Tax=Erwin...  54.5    7e-08
+  UniRef90_A0A1B1KUD6 Uncharacterized protein n=5 Tax=Yersiniacea...  55.3    8e-08
+  UniRef90_A0A0Q4M2E0 Uncharacterized protein n=2 Tax=Yersiniacea...  56.1    1e-07
+  UniRef90_UPI000373C196 DUF2502 domain-containing protein n=1 Ta...  54.5    1e-07
+  UniRef90_UPI000DEF58A8 DUF2502 domain-containing protein n=1 Ta...  54.9    1e-07
+  UniRef90_A0A0J8YKL1 Uncharacterized protein n=2 Tax=unclassifie...  55.3    1e-07
+  UniRef90_A0A375AED2 Probable exported protein YPO2426 n=2 Tax=D...  54.5    1e-07
+  UniRef90_A0A0T9UTZ0 Protein of uncharacterized function (DUF250...  55.3    1e-07
+  UniRef90_UPI000D73A856 DUF2502 domain-containing protein n=1 Ta...  54.2    1e-07
+  UniRef90_UPI0005D459EA DUF2502 domain-containing protein n=1 Ta...  55.3    1e-07
+  UniRef90_UPI000F7F0C00 DUF2502 domain-containing protein n=1 Ta...  54.2    1e-07
+  UniRef90_A0A2L1UWS0 Uncharacterized protein n=1 Tax=Rahnella sp...  54.9    2e-07
+  UniRef90_A0A1H4AJR0 Uncharacterized protein n=6 Tax=Lonsdalea T...  54.2    2e-07
+  UniRef90_UPI0009006D3B DUF2502 domain-containing protein n=1 Ta...  54.5    2e-07
+  UniRef90_A0A2A3KPX2 Uncharacterized protein n=2 Tax=Enterobacte...  54.2    2e-07
+  UniRef90_H2ITA4 Uncharacterized protein n=5 Tax=Rahnella TaxID=...  54.2    3e-07
+  UniRef90_I0QQN5 Uncharacterized protein n=1 Tax=Serratia sp. M2...  53.8    3e-07
+  UniRef90_A0A2N0W243 DUF2502 domain-containing protein n=1 Tax=R...  54.2    3e-07
+  UniRef90_UPI0004B5D49E DUF2502 domain-containing protein n=1 Ta...  53.4    4e-07
+  UniRef90_L0MHL7 Uncharacterized protein n=6 Tax=Serratia TaxID=...  53.8    4e-07
+  UniRef90_A0A0T9SL37 Protein of uncharacterized function (DUF250...  54.2    5e-07
+  UniRef90_UPI000349F17D DUF2502 domain-containing protein n=1 Ta...  53.0    5e-07
+  UniRef90_A0A0M1V419 Uncharacterized protein n=1 Tax=Yersinia pe...  52.2    6e-07
+  UniRef90_A0A1S8CEL2 Uncharacterized protein n=1 Tax=Serratia or...  52.6    6e-07
+  UniRef90_UPI0004BC0C57 DUF2502 domain-containing protein n=1 Ta...  53.0    6e-07
+  UniRef90_S4YHN2 Uncharacterized protein n=11 Tax=Yersiniaceae T...  53.4    6e-07
+  UniRef90_A0A250B779 Uncharacterized protein n=2 Tax=Gibbsiella ...  53.4    7e-07
+  UniRef90_A0A086GFH4 Uncharacterized protein n=17 Tax=Serratia T...  53.0    7e-07
+  UniRef90_A0A0U4IM45 Uncharacterized protein n=7 Tax=Yersiniacea...  52.6    7e-07
+  UniRef90_A0A240C0L0 Protein of uncharacterized function (DUF250...  53.0    8e-07
+  UniRef90_UPI000467F302 DUF2502 domain-containing protein n=1 Ta...  53.0    9e-07
+  UniRef90_A0A1B3FBF3 Uncharacterized protein n=43 Tax=Gammaprote...  52.6    1e-06
+  UniRef90_A0A2X2G7B5 Protein of uncharacterized function (DUF250...  53.0    1e-06
+  UniRef90_A0A2N5EQ42 DUF2502 domain-containing protein n=5 Tax=Y...  51.9    1e-06
+  UniRef90_UPI000CDD6A6B DUF2502 domain-containing protein n=1 Ta...  51.9    2e-06
+  UniRef90_UPI000DE04548 DUF2502 domain-containing protein n=8 Ta...  51.1    2e-06
+  UniRef90_A0A2J9E858 DUF2502 domain-containing protein n=5 Tax=P...  51.1    2e-06
+  UniRef90_A0A2H1LF08 Uncharacterized protein n=4 Tax=Serratia Ta...  51.5    3e-06
+  UniRef90_A0A3N4P018 DUF2502 domain-containing protein n=1 Tax=P...  51.1    3e-06
+  UniRef90_H8NTC3 Uncharacterized protein n=6 Tax=Rahnella TaxID=...  51.5    3e-06
+  UniRef90_UPI000F7EFE78 DUF2502 domain-containing protein n=2 Ta...  50.7    3e-06
+  UniRef90_UPI00077C2DF4 DUF2502 domain-containing protein n=1 Ta...  51.5    3e-06
+  UniRef90_A0A1C7WIN6 Uncharacterized protein n=3 Tax=Serratia Ta...  50.7    4e-06
+  UniRef90_I0QRZ9 Uncharacterized protein n=1 Tax=Serratia sp. M2...  51.1    4e-06
+  UniRef90_A0A2N0MYF2 Uncharacterized protein n=3 Tax=Ewingella a...  50.7    6e-06
+  UniRef90_A0A0X8SEP0 DUF2502 domain-containing protein n=4 Tax=S...  50.7    6e-06
+  UniRef90_A0A1X0WCB5 Uncharacterized protein n=2 Tax=Rouxiella b...  50.7    7e-06
+  UniRef90_A0A1S8YRL0 Uncharacterized protein n=1 Tax=Izhakiella ...  49.9    8e-06
+  UniRef90_UPI000F7EB510 DUF2502 domain-containing protein n=1 Ta...  49.5    9e-06
+  UniRef90_A0A087KNU4 Uncharacterized protein n=1 Tax=Serratia sp...  49.5    9e-06
+  UniRef90_A0A2P5INT0 DUF2502 domain-containing protein n=1 Tax=P...  49.5    1e-05
+  UniRef90_A0A3D6DPU9 Uncharacterized protein n=1 Tax=Candidatus ...  48.8    1e-05
+  UniRef90_A0A0Q4NCD6 Uncharacterized protein n=2 Tax=Yersiniacea...  49.9    1e-05
+  UniRef90_UPI000E3CEA6B DUF2502 domain-containing protein n=1 Ta...  47.6    1e-05
+  UniRef90_A0A133XIM7 Uncharacterized protein n=1 Tax=Dechloromon...  48.4    2e-05
+  UniRef90_D4E726 Uncharacterized protein n=2 Tax=Serratia odorif...  49.2    2e-05
+  UniRef90_A0A2A3KSS4 Uncharacterized protein n=3 Tax=Rahnella Ta...  48.8    4e-05
+  UniRef90_A0A377D1T8 Protein n=1 Tax=Escherichia coli TaxID=562 ...  47.2    4e-05
+  UniRef90_A0A389MFV5 Uncharacterized protein n=1 Tax=Enterobacte...  48.0    6e-05
+  UniRef90_C6CAS2 Uncharacterized protein n=1 Tax=Dickeya paradis...  47.6    7e-05
+  UniRef90_A0A377N9G8 Protein of uncharacterized function (DUF250...  45.7    9e-05
+  UniRef90_W0HTF6 Uncharacterized protein n=1 Tax=Sodalis praecap...  47.2    1e-04
+  UniRef90_UPI0009FAA692 DUF2502 domain-containing protein n=1 Ta...  44.5    4e-04
+  UniRef90_A0A250B533 Uncharacterized protein n=2 Tax=Gibbsiella ...  41.8    0.010
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A177RG94 Type IV secretion protein Rhs (Fragment) n=...  55.7    4e-07
+  UniRef90_UPI000C141A31 uncharacterized transmembrane protein DD...  54.2    2e-06
+  UniRef90_UPI000C142FEB uncharacterized transmembrane protein DD...  54.2    2e-06
+  UniRef90_UPI000C141AC6 hornerin-like isoform X6 n=2 Tax=Spodopt...  54.2    2e-06
+  UniRef90_D8NFV5 Putative rhs-related protein n=1 Tax=Ralstonia ...  53.4    3e-06
+  UniRef90_Q8XTG0 Putative rhs-related protein n=19 Tax=Burkholde...  51.9    1e-05
+  UniRef90_A0A1R2D4P7 Uncharacterized protein n=1 Tax=Stentor coe...  49.5    6e-05
+  UniRef90_A0A177RTE7 Type IV secretion protein Rhs (Fragment) n=...  49.2    9e-05
+  UniRef90_J4H1R3 Uncharacterized protein n=1 Tax=Fibroporia radi...  47.6    3e-04
+  UniRef90_A0A379YY88 Protein of uncharacterized function (DUF250...  44.5    6e-04
+  UniRef90_UPI000948AB3F DUF2502 domain-containing protein n=1 Ta...  44.9    7e-04
+  UniRef90_UPI000E724B66 DUF2502 domain-containing protein n=2 Ta...  44.9    0.001
+  UniRef90_A0A2X5B2C7 Protein of uncharacterized function (DUF250...  43.8    0.001
+  UniRef90_A0A2L1UKV7 Uncharacterized protein n=2 Tax=Rahnella Ta...  44.1    0.002
+  UniRef90_L0MJB0 Uncharacterized protein n=6 Tax=Serratia TaxID=...  43.4    0.002
+  UniRef90_A0A2K1L2W6 Uncharacterized protein n=1 Tax=Physcomitre...  44.9    0.002
+  UniRef90_UPI0005224062 uncharacterized protein LOC104336182 n=1...  44.5    0.003
+  UniRef90_A0A1Q9ED51 Uncharacterized protein n=1 Tax=Symbiodiniu...  44.1    0.006
+  UniRef90_A0A359HN02 Uncharacterized protein (Fragment) n=2 Tax=...  43.8    0.007
+  UniRef90_UPI000F8E593E UPI000F8E593E related cluster n=1 Tax=un...  43.0    0.010
+  UniRef90_A0A388K3A0 Uncharacterized protein n=1 Tax=Chara braun...  42.2    0.016
+  UniRef90_B0EC65 Caldesmon, putative n=1 Tax=Entamoeba dispar (s...  42.2    0.023
+  UniRef90_A0A2W1JWV0 Uncharacterized protein n=2 Tax=Acaryochlor...  41.8    0.029
+  UniRef90_A0A238YP92 Uncharacterized protein n=2 Tax=Lutibacter ...  41.5    0.043
+  UniRef90_A0A0S4U1V5 Uncharacterized protein (Fragment) n=1 Tax=...  41.1    0.043
+  UniRef90_UPI0009A3FBE9 chromodomain-helicase-DNA-binding protei...  41.5    0.046
+  UniRef90_A0A1H8PQZ7 Uncharacterized protein n=1 Tax=Amphibacill...  41.5    0.048
+  UniRef90_A0A1Q9EZ28 Uncharacterized protein n=1 Tax=Symbiodiniu...  41.1    0.058
+  UniRef90_A0A117NRA2 Uncharacterized protein n=3 Tax=Penicillium...  40.7    0.066
+  UniRef90_W6QKT3 FAS1 domain n=1 Tax=Penicillium roqueforti (str...  40.7    0.079
+  UniRef90_A0A0W0TMB3 Heavy metal transporting P-type ATPase n=3 ...  40.7    0.090
+  UniRef90_J3BGR7 Uncharacterized protein n=1 Tax=Rhizobium sp. C...  39.1    0.090
+  UniRef90_A0A060Y6C1 Uncharacterized protein n=1 Tax=Oncorhynchu...  40.3    0.095
+  UniRef90_A0A3B4CKF9 Chromodomain helicase DNA binding protein 2...  40.3    0.10 
+  UniRef90_UPI000E1B9B6F gem-associated protein 5 n=1 Tax=Nothopr...  40.3    0.11 
+  UniRef90_UPI0008F9D9D5 protein FAM98A-like n=1 Tax=Bemisia taba...  40.3    0.11 
+  UniRef90_A0A1L9PV00 Uncharacterized protein n=1 Tax=Aspergillus...  40.3    0.13 
+  UniRef90_UPI000CE430B2 DMT family transporter n=1 Tax=Cryobacte...  39.9    0.13 
+  UniRef90_A0A2E0ZBK3 Uncharacterized protein n=1 Tax=Anaerolinea...  39.9    0.13 
+  UniRef90_A0A1Q9CR28 Uncharacterized protein n=1 Tax=Symbiodiniu...  39.9    0.14 
+  UniRef90_A0A1B0D3R2 Uncharacterized protein n=1 Tax=Phlebotomus...  39.9    0.17 
+  UniRef90_UPI000D0A454D ATP-dependent RNA helicase DDX42-like n=...  39.5    0.17 
+  UniRef90_UPI000F7C11EB uncharacterized protein LOC101791905 iso...  39.5    0.18 
+  UniRef90_D3BLX6 RNA-binding region RNP-1 domain-containing prot...  39.5    0.19 
+  UniRef90_A0A3L7LUW5 DUF2502 domain-containing protein n=1 Tax=S...  36.8    0.19 
+  UniRef90_UPI00048DB3E9 RHS repeat protein n=2 Tax=Ralstonia sol...  39.1    0.20 
+  UniRef90_A0A1L5P3X5 Uncharacterized protein n=1 Tax=Rhizobium e...  38.0    0.24 
+  UniRef90_A0A1Q9E7I3 Collagen-like protein 6 n=1 Tax=Symbiodiniu...  39.1    0.25 
+  UniRef90_A0A3B4EUV0 Dynamin binding protein n=6 Tax=Pseudocreni...  39.1    0.26 
+  UniRef90_A0A139WLP4 Uncharacterized protein n=2 Tax=Tribolium c...  39.1    0.27 
+  UniRef90_A0A1B0GHF8 Uncharacterized protein n=1 Tax=Lutzomyia l...  39.1    0.31 
+  UniRef90_A0A078A337 Uncharacterized protein n=1 Tax=Stylonychia...  38.8    0.34 
+  UniRef90_UPI0009DAD794 hypothetical protein n=1 Tax=Hyphomicrob...  37.2    0.39 
+  UniRef90_A0A1E2UYH0 Uncharacterized protein n=1 Tax=Candidatus ...  38.8    0.40 
+  UniRef90_UPI000D736D5B uncharacterized protein LOC112556500 iso...  38.8    0.41 
+  UniRef90_A0A146Y5D7 AE binding protein 1 n=1 Tax=Fundulus heter...  38.8    0.43 
+  UniRef90_A0A2V6J3E5 Uncharacterized protein n=2 Tax=Verrucomicr...  38.4    0.43 
+  UniRef90_A0A3B8J091 Uncharacterized protein n=3 Tax=Cytophagale...  38.4    0.46 
+  UniRef90_A0A2N8JM39 Uncharacterized protein n=4 Tax=Sinorhizobi...  37.2    0.47 
+  UniRef90_A0A2N5DZ51 Uncharacterized protein n=4 Tax=Yersiniacea...  37.2    0.48 
+  UniRef90_A0A2V5MRD5 Uncharacterized protein n=2 Tax=Verrucomicr...  38.4    0.48 
+  UniRef90_UPI000E31EDB2 hypothetical protein n=1 Tax=Euzebya tan...  38.4    0.48 
+  UniRef90_UPI000A05032B hypothetical protein n=3 Tax=Rhizobiales...  37.2    0.54 
+  UniRef90_A0A146Y3H0 AE binding protein 1 (Fragment) n=1 Tax=Fun...  38.4    0.58 
+  UniRef90_A0A146Y3K1 Adipocyte enhancer-binding protein 1 n=1 Ta...  38.0    0.60 
+  UniRef90_A0A1H7TXE9 Uncharacterized protein n=1 Tax=Paraburkhol...  36.8    0.65 
+  UniRef90_A0A0M3GT07 Uncharacterized protein n=2 Tax=Rhizobium p...  36.8    0.66 
+  UniRef90_A0A1I7Y880 Uncharacterized protein n=1 Tax=Steinernema...  38.0    0.66 
+  UniRef90_A0A0Q5A7X8 Uncharacterized protein n=2 Tax=Rathayibact...  38.0    0.66 
+  UniRef90_A0A367YG11 Uncharacterized protein n=1 Tax=Candida vis...  38.0    0.66 
+  UniRef90_A0A2U1LUV2 Uncharacterized protein n=1 Tax=Artemisia a...  38.0    0.68 
+  UniRef90_A0A1V6RF51 Uncharacterized protein n=1 Tax=Penicillium...  38.0    0.71 
+  UniRef90_W6R962 Uncharacterized protein n=4 Tax=Rhizobium favel...  36.8    0.81 
+  UniRef90_A0A1Q9C0V9 Retrovirus-related Pol polyprotein from tra...  37.6    0.86 
+  UniRef90_A0A3G7M4U0 Uncharacterized protein n=2 Tax=Pseudomonas...  37.6    0.86 
+  UniRef90_UPI0009DD28C8 hypothetical protein n=1 Tax=Rhizobium s...  36.4    0.88 
+  UniRef90_X5M116 NlpC/P60 family protein n=4 Tax=Mycolicibacteri...  37.6    0.92 
+  UniRef90_R6SYJ6 Uncharacterized protein n=1 Tax=Bacteroides sp....  37.6    0.92 
+  UniRef90_A0A1C6QVR3 Predicted ATPase n=3 Tax=Streptomyces TaxID...  37.6    0.98 
+  UniRef90_UPI000830313C hypothetical protein n=1 Tax=Mycolicibac...  37.6    0.98 
+  UniRef90_A0A1V4Y1M7 Uncharacterized protein n=1 Tax=Syntrophus ...  37.6    1.0  
+  UniRef90_A0A2V5Z8X5 Uncharacterized protein n=2 Tax=Verrucomicr...  37.2    1.1  
+  UniRef90_A0A2E3PZB0 Uncharacterized protein n=1 Tax=Phycisphaer...  37.2    1.1  
+  UniRef90_UPI000A2A6E55 chromatin modification-related protein e...  37.6    1.1  
+  UniRef90_A0A1N6FYN5 Uncharacterized protein n=1 Tax=Paraburkhol...  36.1    1.2  
+  UniRef90_A0A0G4LC58 Uncharacterized protein (Fragment) n=1 Tax=...  37.2    1.2  
+  UniRef90_A0A0G4MEK1 Uncharacterized protein (Fragment) n=2 Tax=...  37.2    1.2  
+  UniRef90_UPI00094E7FB6 inactive carboxypeptidase-like protein X...  37.2    1.3  
+  UniRef90_A0A0J9TCW6 Uncharacterized protein n=2 Tax=Plasmodium ...  37.2    1.4  
+  UniRef90_A0A3M0JB40 Uncharacterized protein n=1 Tax=Hirundo rus...  37.2    1.4  
+  UniRef90_UPI0006B7AC8A TBC1 domain family member 25 n=1 Tax=Pse...  37.2    1.4  
+  UniRef90_UPI0009E49E03 eukaryotic translation initiation factor...  37.2    1.5  
+  UniRef90_G0SDA6 MAP kinase kinase-like protein n=1 Tax=Chaetomi...  36.8    1.5  
+  UniRef90_A0A1Y1JEP2 Uncharacterized protein n=1 Tax=Plasmodium ...  37.2    1.5  
+  UniRef90_A0A2V6IQA6 Uncharacterized protein n=3 Tax=Verrucomicr...  36.8    1.6  
+  UniRef90_A0A0G4PEZ7 FAS1 domain n=1 Tax=Penicillium camemberti ...  36.8    1.6  
+  UniRef90_A0A2V5LEG1 Uncharacterized protein n=4 Tax=unclassifie...  36.8    1.7  
+  UniRef90_A0A2V5PF27 Uncharacterized protein n=1 Tax=Verrucomicr...  36.8    1.8  
+  UniRef90_UPI00068A5905 hypothetical protein n=2 Tax=Mycolicibac...  36.8    1.8  
+  UniRef90_UPI000719DFAA uncharacterized protein LOC106810795 n=1...  36.8    2.0  
+  UniRef90_A0DN37 Uncharacterized protein n=2 Tax=Paramecium tetr...  36.4    2.1  
+  UniRef90_A0A3G7IF70 Uncharacterized protein n=1 Tax=Pseudomonas...  36.4    2.1  
+  UniRef90_A0A1Q9C4B4 E3 ubiquitin-protein ligase HERC2 n=1 Tax=S...  36.4    2.2  
+  UniRef90_A0A2V5QWI9 Uncharacterized protein n=1 Tax=Verrucomicr...  36.4    2.2  
+  UniRef90_A0A1F3ZVC2 Lipid A deacylase n=1 Tax=Betaproteobacteri...  36.1    2.3  
+  UniRef90_A0A1X7UWM0 Uncharacterized protein n=2 Tax=Amphimedon ...  36.4    2.3  
+  UniRef90_A0A380THI5 Membrane protein n=1 Tax=metagenome TaxID=2...  36.4    2.4  
+  UniRef90_A0A1L8D6X6 Carboxyl/cholinesterase-024a n=1 Tax=Plutel...  36.4    2.5  
+  UniRef90_A0A1E4YK06 Uncharacterized protein n=11 Tax=Rhizobiale...  36.1    2.5  
+  UniRef90_A0A1N6JKP4 Uncharacterized protein n=2 Tax=Paraburkhol...  34.9    2.6  
+  UniRef90_A0A222GQA8 Uncharacterized protein n=13 Tax=Rhizobiace...  35.3    2.6  
+  UniRef90_A0A2P6LHC8 Cat2 n=1 Tax=Nephila clavipes TaxID=6915 Re...  36.4    2.8  
+  UniRef90_A0A2D7H821 Uncharacterized protein n=1 Tax=Rhodopirell...  36.1    2.8  
+  UniRef90_UPI0006BB8CD3 hypothetical protein n=1 Tax=Neofamilia ...  36.1    2.9  
+  UniRef90_UPI0005D0BE16 pre-mRNA-splicing factor CWC22 homolog n...  36.1    2.9  
+  UniRef90_A0A150H6Z8 Uncharacterized protein n=1 Tax=Brevibacter...  36.1    2.9  
+  UniRef90_F7B438 Uncharacterized protein n=2 Tax=Monodelphis dom...  36.1    3.1  
+  UniRef90_A0A2V5V3D9 Uncharacterized protein n=1 Tax=Verrucomicr...  36.1    3.1  
+  UniRef90_A0A2N1VPW7 16S rRNA (Cytidine(1402)-2'-O)-methyltransf...  36.1    3.3  
+  UniRef90_A0A2V6KLX8 Uncharacterized protein n=1 Tax=Verrucomicr...  36.1    3.4  
+  UniRef90_A0A1X0AZ23 Uncharacterized protein n=1 Tax=Mycobacteri...  36.1    3.4  
+  UniRef90_A0A1Q8Y8L1 Uncharacterized protein n=1 Tax=Mycolicibac...  36.1    3.5  
+  UniRef90_A0A2A6HM48 Uncharacterized protein n=1 Tax=Rhizobium s...  34.9    3.5  
+  UniRef90_A0A0G4H8Z2 Uncharacterized protein n=1 Tax=Chromera ve...  36.1    3.6  
+  UniRef90_A0A100VUV3 Uncharacterized protein n=3 Tax=Mycobacteri...  36.1    3.7  
+  UniRef90_UPI000B355C14 hypothetical protein n=1 Tax=Mycobacteri...  36.1    3.7  
+  UniRef90_UPI00097344C9 inactive carboxypeptidase-like protein X...  36.1    3.8  
+  UniRef90_A0A2V6CLD4 Uncharacterized protein n=1 Tax=Verrucomicr...  35.7    3.8  
+  UniRef90_A0A1X1S851 Uncharacterized protein n=3 Tax=Mycolicibac...  36.1    3.8  
+  UniRef90_A0A1E7Y438 Uncharacterized protein n=2 Tax=Mycobacteri...  35.7    4.0  
+  UniRef90_A0A3E0CD21 Uncharacterized protein n=6 Tax=Paracoccus ...  35.7    4.2  
+  UniRef90_K0PWT0 Uncharacterized protein n=1 Tax=Rhizobium mesoa...  34.5    4.3  
+  UniRef90_A0A2V5U8A3 Uncharacterized protein n=1 Tax=Verrucomicr...  35.7    4.5  
+  UniRef90_UPI000E77C4EE zinc finger CCCH domain-containing prote...  35.7    4.5  
+  UniRef90_UPI0005D0C8B5 venom carboxylesterase-6-like isoform X1...  35.7    4.6  
+  UniRef90_A0A0H5RXI4 NlpC/P60 family protein n=1 Tax=Mycolicibac...  35.7    4.9  
+  UniRef90_A0A1P8QLM8 Uncharacterized protein n=2 Tax=Methylobact...  33.7    5.3  
+  UniRef90_UPI000EF9533B zinc finger CCCH domain-containing prote...  35.7    5.3  
+  UniRef90_A0A2V6AZU1 Uncharacterized protein n=1 Tax=Verrucomicr...  35.3    5.5  
+  UniRef90_A0A2N3E2Q8 Uncharacterized protein n=1 Tax=Alphaproteo...  34.9    5.8  
+  UniRef90_A8N4T4 Uncharacterized protein n=1 Tax=Coprinopsis cin...  35.3    6.1  
+  UniRef90_A0A0P0RHF2 Uncharacterized protein n=9 Tax=Burkholderi...  34.1    6.1  
+  UniRef90_A0A2G7TCH8 Signal peptide protein n=3 Tax=Rhizobium me...  34.1    6.2  
+  UniRef90_A0A367LGL0 Uncharacterized protein (Fragment) n=2 Tax=...  35.3    6.4  
+  UniRef90_UPI000F8C3838 hypothetical protein n=1 Tax=Azospirillu...  34.9    6.5  
+  UniRef90_A0A222GI01 Uncharacterized protein n=8 Tax=Rhizobiales...  34.1    6.9  
+  UniRef90_A0A1B8B4Q1 Uncharacterized protein n=1 Tax=Fusarium po...  35.3    7.1  
+  UniRef90_A0A0G3EQT9 Uncharacterized protein n=1 Tax=Pandoraea t...  34.1    7.4  
+  UniRef90_A0A2V5ZVV9 Uncharacterized protein n=3 Tax=Verrucomicr...  34.9    7.7  
+  UniRef90_UPI000E0EF520 BA14K family protein n=1 Tax=Rhizobiales...  34.5    7.8  
+  UniRef90_A0A0F7ZH64 Uncharacterized protein n=1 Tax=Hirsutella ...  34.9    7.9  
+  UniRef90_UPI0004A73C66 hypothetical protein n=1 Tax=Nevskia sol...  33.7    7.9  
+  UniRef90_UPI00021A4BE1 mRNA cap guanine-N7 methyltransferase-li...  34.9    8.1  
+  UniRef90_A0A109JVJ8 Uncharacterized protein n=6 Tax=Rhizobiales...  33.7    8.1  
+  UniRef90_A0A2V6J8H1 Uncharacterized protein n=2 Tax=Verrucomicr...  34.9    8.1  
+  UniRef90_A0A1M7MN55 Uncharacterized protein n=1 Tax=Cryptospora...  34.5    8.2  
+  UniRef90_A0A2J6MU43 Uncharacterized protein n=1 Tax=Burkholderi...  33.7    8.2  
+  UniRef90_A0A0N7H839 Uncharacterized protein n=10 Tax=Mycobacter...  34.9    8.4  
+  UniRef90_A0A2V5JTN9 Uncharacterized protein n=2 Tax=Verrucomicr...  34.9    8.4  
+  UniRef90_A0A2E3DPG2 Uncharacterized protein (Fragment) n=1 Tax=...  34.9    8.5  
+  UniRef90_A0A0A6Q669 Uncharacterized protein n=1 Tax=Paraburkhol...  33.7    8.5  
+  UniRef90_A0A0W0Z3Y6 Uncharacterized protein n=3 Tax=Legionella ...  34.9    8.9  
+  UniRef90_J3HS47 BA14K-like protein n=2 Tax=Rhizobiales TaxID=35...  34.5    9.0  
+  UniRef90_A0A1H4GH72 Uncharacterized protein n=1 Tax=Paraburkhol...  33.7    9.4  
+  UniRef90_I1C8F5 Uncharacterized protein n=1 Tax=Rhizopus delema...  34.9    9.5  
+  UniRef90_A0A2M4A5S7 Putative e3 ubiquitin-protein ligase rbbp6 ...  34.9    9.5  
+  UniRef90_A0A1Q5D0M6 Phosphatidate cytidylyltransferase n=1 Tax=...  34.9    9.6  
+  UniRef90_A0A0M1WEC6 SH3 type 3 domain-containing protein n=5 Ta...  34.5    9.7  
+  UniRef90_D3HLX9 Uncharacterized protein n=6 Tax=Legionella TaxI...  34.5    9.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.148    0.502    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0452    0.140     1.90     42.6     43.6 
+
+Effective search space used: 747111122893
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

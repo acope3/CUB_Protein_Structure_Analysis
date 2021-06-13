@@ -1,0 +1,2176 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415496.1
+
+Length=285
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P19932 Hydrogenase-1 operon protein HyaF n=147 Tax=Pro...  578     0.0   
+  UniRef90_A0A0H2UYJ7 Hydrogenase-1 operon protein hyaF n=576 Tax...  542     0.0   
+  UniRef90_W0AJV4 Hydrogenase-1 operon protein HyaF n=24 Tax=Esch...  517     0.0   
+  UniRef90_UPI0005C699EA hydrogenase expression/formation protein...  514     0.0   
+  UniRef90_A0A2X1L888 Hydrogenase-1 operon protein HyaF n=2 Tax=E...  464     1e-164
+  UniRef90_D4F1X1 HupH hydrogenase expression protein, C-terminal...  447     3e-157
+  UniRef90_A0A076LPX1 Hydrogenase maturation factor HoxQ n=8 Tax=...  442     3e-155
+  UniRef90_A0A0J1PN72 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  427     5e-149
+  UniRef90_A0A0K0HBF3 Hydrogenase-1 operon protein HyaF n=314 Tax...  422     2e-147
+  UniRef90_A0A2X2J1U0 Hydrogenase-1 operon protein hyaF n=6 Tax=E...  417     2e-146
+  UniRef90_A0A2X1PVM3 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  417     3e-145
+  UniRef90_A0A090TYS2 NiFe-hydrogenase 1 nickel incorporation pro...  413     1e-143
+  UniRef90_UPI000EF2248C hydrogenase expression/formation protein...  408     1e-141
+  UniRef90_UPI00061BDA35 hydrogenase expression/formation protein...  388     4e-134
+  UniRef90_UPI0007377D41 hydrogenase-1 operon protein HyaF n=4 Ta...  314     1e-105
+  UniRef90_A0A376W177 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  304     3e-101
+  UniRef90_A0A2J0RL43 Hydrogenase expression/formation protein (F...  272     2e-89 
+  UniRef90_R8API0 Hydrogenase-1 operon protein HyaF, putative n=1...  241     1e-75 
+  UniRef90_A0A379TBG1 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  208     7e-65 
+  UniRef90_A0A377AUC4 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  193     2e-59 
+  UniRef90_A0A377LH26 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  191     5e-58 
+  UniRef90_A0A2X4TNC5 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  181     5e-53 
+  UniRef90_A0A0F3KTK1 Uncharacterized protein n=6 Tax=Aquitalea T...  180     4e-52 
+  UniRef90_A0A2J0R9C4 Hydrogenase expression/formation protein (F...  167     3e-49 
+  UniRef90_A0A364UK42 Hydrogenase expression/formation protein (F...  157     8e-46 
+  UniRef90_A0A376K2H6 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  159     1e-45 
+  UniRef90_A0A318LJW4 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  163     2e-45 
+  UniRef90_A0A1U9JLU8 Uncharacterized protein n=2 Tax=Aquaspirill...  162     8e-45 
+  UniRef90_A0A377AVP7 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  138     1e-38 
+  UniRef90_A0A2W2BKM1 Hydrogenase expression/formation protein n=...  143     6e-38 
+  UniRef90_A0A177NNX6 Hydrogenase expression protein HupH n=1 Tax...  143     8e-38 
+  UniRef90_UPI000E0DE37D hydrogenase expression/formation protein...  141     7e-37 
+  UniRef90_E3I2G3 HupH hydrogenase expression protein n=3 Tax=Rho...  140     9e-37 
+  UniRef90_UPI000EAD47E4 hydrogenase expression/formation protein...  140     1e-36 
+  UniRef90_A0A1J5C6X4 Hydrogenase expression/formation protein n=...  140     1e-36 
+  UniRef90_A0A1E4N5K8 Hydrogenase expression protein HupH n=1 Tax...  139     3e-36 
+  UniRef90_A0A1A5X0S9 Hydrogenase-1 operon protein HyaF n=2 Tax=P...  139     4e-36 
+  UniRef90_A0A379Q296 Hydrogenase-1 operon protein HyaF2 n=350 Ta...  140     4e-36 
+  UniRef90_A0A2S5T571 Hydrogenase expression/formation protein n=...  138     1e-35 
+  UniRef90_A0A376RM05 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  133     1e-35 
+  UniRef90_A0A1B8T1B2 Hydrogenase n=3 Tax=Pseudomonas TaxID=286 R...  137     2e-35 
+  UniRef90_A0A1D8ILQ6 Uncharacterized protein n=1 Tax=Acidihaloba...  137     2e-35 
+  UniRef90_A0A3C0KD41 Hydrogenase expression/formation protein n=...  137     3e-35 
+  UniRef90_P95499 HupH protein n=2 Tax=Proteobacteria TaxID=1224 ...  136     3e-35 
+  UniRef90_UPI000361CD47 hydrogenase expression/formation protein...  136     5e-35 
+  UniRef90_A0A0S6WXE1 HupH hydrogenase expression protein n=1 Tax...  136     5e-35 
+  UniRef90_A0A2N6CUT7 Hydrogenase expression/formation protein n=...  136     6e-35 
+  UniRef90_A0A1F4M618 Hydrogenase n=1 Tax=Burkholderiales bacteri...  136     6e-35 
+  UniRef90_UPI0009314075 hydrogenase expression/formation protein...  135     9e-35 
+  UniRef90_A0A2K9L6Z8 Uncharacterized protein n=3 Tax=Rhodocyclal...  135     1e-34 
+  UniRef90_A4YNU1 Hydrogenase expression/formation protein hupH n...  135     1e-34 
+  UniRef90_S5MVQ4 Hydrogenase maturation factor HoxQ /Hydrogenase...  136     1e-34 
+  UniRef90_UPI0008343D12 hydrogenase expression/formation protein...  135     2e-34 
+  UniRef90_Q1LNV1 HoxQ protein involved in nickel incorporation i...  134     2e-34 
+  UniRef90_F1Z423 HupH hydrogenase expression/formation protein n...  134     3e-34 
+  UniRef90_A0A375FHX5 Hydrogenase expression/formation protein Ho...  134     3e-34 
+  UniRef90_G3J1A8 HupH hydrogenase expression protein n=4 Tax=Met...  134     3e-34 
+  UniRef90_A0A239C351 Hydrogenase-1 operon protein HyaF n=3 Tax=P...  134     3e-34 
+  UniRef90_A0A2U2CET3 Hydrogenase expression/formation protein n=...  133     4e-34 
+  UniRef90_A0A1Z4C3B7 Hydrogenase expression/formation protein n=...  133     6e-34 
+  UniRef90_UPI0004858573 hydrogenase expression/formation protein...  133     9e-34 
+  UniRef90_A0A2A6NSX7 Hydrogenase expression/formation protein n=...  131     1e-33 
+  UniRef90_UPI000F8CD7ED UPI000F8CD7ED related cluster n=1 Tax=un...  132     1e-33 
+  UniRef90_UPI0003A19FF8 hydrogenase expression/formation protein...  132     1e-33 
+  UniRef90_A0A238D161 Hydrogenase expression/formation protein Ho...  132     1e-33 
+  UniRef90_A0A177NPH0 Hydrogenase expression protein HupH n=2 Tax...  132     1e-33 
+  UniRef90_A0A0Q0THN9 Hydrogenase n=1 Tax=Acidovorax sp. SD340 Ta...  132     2e-33 
+  UniRef90_A0A081YD81 Hydrogenase n=5 Tax=Pseudomonas TaxID=286 R...  132     2e-33 
+  UniRef90_UPI00066FE3E2 hydrogenase expression/formation protein...  132     2e-33 
+  UniRef90_UPI00041985B6 hydrogenase expression/formation protein...  132     2e-33 
+  UniRef90_A0A0P6W6K0 Hydrogenase accessory protein HypB n=1 Tax=...  132     2e-33 
+  UniRef90_A0A258IMB3 Hydrogenase expression/formation protein n=...  131     3e-33 
+  UniRef90_UPI00041CC8EF hydrogenase expression/formation protein...  132     3e-33 
+  UniRef90_B2IJ35 HupH hydrogenase expression protein n=1 Tax=Bei...  132     3e-33 
+  UniRef90_A0A2E2RRU3 Hydrogenase expression/formation protein n=...  131     4e-33 
+  UniRef90_A0A2N0V432 Hydrogenase expression/formation protein n=...  131     4e-33 
+  UniRef90_A0A2W5QZE4 Hydrogenase expression/formation protein n=...  131     5e-33 
+  UniRef90_A0A3E1R6V0 Hydrogenase expression/formation protein n=...  130     7e-33 
+  UniRef90_A0A160SM71 Hydrogenase expression/formation protein Ho...  130     8e-33 
+  UniRef90_A0A3L7AFD0 Hydrogenase expression/formation protein n=...  130     9e-33 
+  UniRef90_UPI0003638EFF hydrogenase expression/formation protein...  130     9e-33 
+  UniRef90_M4ZE75 Hydrogenase expression/formation protein HupH n...  130     1e-32 
+  UniRef90_A0A0F7K3F1 Hydrogenase expression protein HupH n=1 Tax...  130     1e-32 
+  UniRef90_H5WMQ6 HupH hydrogenase expression protein n=1 Tax=Bur...  130     2e-32 
+  UniRef90_UPI00045E91F3 hydrogenase expression/formation protein...  129     2e-32 
+  UniRef90_UPI00037CE3B9 hydrogenase expression/formation protein...  129     2e-32 
+  UniRef90_A0A2E0HHA7 Hydrogenase expression/formation protein n=...  129     2e-32 
+  UniRef90_A0A167IQG1 Hydrogenase expression/formation protein n=...  129     2e-32 
+  UniRef90_A0A254N3S3 Hydrogenase expression/formation protein n=...  129     2e-32 
+  UniRef90_A0A2S6BBS0 Hydrogenase expression/formation protein n=...  129     2e-32 
+  UniRef90_UPI0003FDFAA9 hydrogenase expression/formation protein...  129     3e-32 
+  UniRef90_A0A1E7ZDF7 Hydrogenase n=1 Tax=Alteromonas confluentis...  129     3e-32 
+  UniRef90_A0A3N6MYG8 Hydrogenase expression/formation protein n=...  129     3e-32 
+  UniRef90_A0A0Q4Y4A0 Hydrogenase n=1 Tax=Pseudorhodoferax sp. Le...  129     3e-32 
+  UniRef90_A0A2U1VUK5 Hydrogenase accessory protein HypB n=1 Tax=...  129     4e-32 
+  UniRef90_A2SJN4 Hydrogenase expression/formation protein, putat...  129     4e-32 
+  UniRef90_A0A0F4QND4 Hydrogenase accessory protein HypB n=5 Tax=...  128     6e-32 
+  UniRef90_A0A2E3PD07 Hydrogenase expression/formation protein n=...  128     6e-32 
+  UniRef90_UPI000BA2E142 hydrogenase expression/formation protein...  128     7e-32 
+  UniRef90_UPI0004974799 hydrogenase expression/formation protein...  128     7e-32 
+  UniRef90_A0A3P1SX23 Hydrogenase expression/formation protein n=...  128     7e-32 
+  UniRef90_I0HV85 Hydrogenase expression/formation protein HupH n...  128     8e-32 
+  UniRef90_A0A2E0IV91 Hydrogenase expression/formation protein n=...  127     8e-32 
+  UniRef90_Q13BY2 HupH hydrogenase expression protein n=2 Tax=Rho...  127     1e-31 
+  UniRef90_A0A0F2KXD0 Hydrogenase accessory protein HypB n=1 Tax=...  127     1e-31 
+  UniRef90_P31911 Hydrogenase expression/formation protein HoxQ n...  127     1e-31 
+  UniRef90_A0A2Z6HXE5 Uncharacterized protein n=1 Tax=Pleomorphom...  127     2e-31 
+  UniRef90_A0A285XDJ8 Hydrogenase-1 operon protein HyaF n=3 Tax=R...  126     2e-31 
+  UniRef90_A0A285CP37 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  126     2e-31 
+  UniRef90_A0A257JSQ2 Hydrogenase expression/formation protein n=...  127     2e-31 
+  UniRef90_N0B552 HupH hydrogenase expression protein n=1 Tax=Hyp...  126     2e-31 
+  UniRef90_A0A1S2SFW4 Hydrogenase expression/formation protein n=...  126     3e-31 
+  UniRef90_UPI000377259D hypothetical protein n=1 Tax=beta proteo...  126     3e-31 
+  UniRef90_A0A1V4CDR4 Hydrogenase n=4 Tax=Hydrogenophaga TaxID=47...  126     3e-31 
+  UniRef90_Q07S95 HupH hydrogenase expression protein n=1 Tax=Rho...  126     4e-31 
+  UniRef90_Q6NB61 Hydrogenase expression/formation protein hupH n...  126     4e-31 
+  UniRef90_A0A2T4IJ68 Hydrogenase expression/formation protein n=...  126     4e-31 
+  UniRef90_A0A0S7Z598 Uncharacterized protein n=1 Tax=Gammaproteo...  125     4e-31 
+  UniRef90_UPI000B878C9D hydrogenase expression/formation protein...  124     5e-31 
+  UniRef90_S6BM00 Hydrogenase expression/formation protein n=1 Ta...  125     5e-31 
+  UniRef90_A0A2S5Q067 Hydrogenase expression/formation protein n=...  125     6e-31 
+  UniRef90_UPI000F74FD73 hydrogenase expression/formation protein...  125     6e-31 
+  UniRef90_A0A1H9FXY6 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  125     7e-31 
+  UniRef90_A0A318TDM8 Hydrogenase-1 operon protein HyaF n=3 Tax=R...  125     8e-31 
+  UniRef90_A0A1D9MGG9 Hydrogenase expression/formation protein n=...  125     8e-31 
+  UniRef90_A1VNP9 HupH hydrogenase expression protein n=1 Tax=Pol...  125     8e-31 
+  UniRef90_A0A3M1VA23 Hydrogenase expression/formation protein n=...  125     8e-31 
+  UniRef90_UPI0009AA8EF6 hydrogenase-1 operon protein HyaF2 n=9 T...  124     9e-31 
+  UniRef90_Q1KZW9 HupH n=4 Tax=Bradyrhizobium TaxID=374 RepID=Q1K...  125     1e-30 
+  UniRef90_A0A1T1AYS8 Hydrogenase expression/formation protein n=...  125     1e-30 
+  UniRef90_A0A0F3IJA5 Hydrogenase expression protein HupH n=1 Tax...  124     1e-30 
+  UniRef90_UPI000DD783A2 hydrogenase expression/formation protein...  124     1e-30 
+  UniRef90_A0A1W6MW91 Hydrogenase expression/formation protein n=...  124     1e-30 
+  UniRef90_A0A2U8FNG3 Hydrogenase expression/formation protein n=...  125     1e-30 
+  UniRef90_A0A3D2FE19 Hydrogenase expression/formation protein n=...  124     1e-30 
+  UniRef90_V4PIQ0 Uncharacterized protein n=1 Tax=Asticcacaulis s...  124     2e-30 
+  UniRef90_A0A1D3JYM9 Hydrogenase expression/formation protein Ho...  124     2e-30 
+  UniRef90_UPI000648AECE hydrogenase expression/formation protein...  124     2e-30 
+  UniRef90_A0A1V3SER4 Hydrogenase expression/formation protein n=...  124     2e-30 
+  UniRef90_A0A238JB50 Uncharacterized protein n=1 Tax=Tropicibact...  123     3e-30 
+  UniRef90_A0A1H9FUZ0 Hydrogenase-1 operon protein HyaF n=1 Tax=A...  124     3e-30 
+  UniRef90_A0A1R1QZB3 Hydrogenase expression/formation protein n=...  124     3e-30 
+  UniRef90_A0A0N0KJP5 Hydrogenase accessory protein HypB n=1 Tax=...  123     3e-30 
+  UniRef90_A0A366J9K5 Hydrogenase-1 operon protein HyaF n=4 Tax=R...  123     4e-30 
+  UniRef90_A0A1A6FJ55 Hydrogenase accessory protein HypB n=2 Tax=...  123     4e-30 
+  UniRef90_A0A1B3LK83 Uncharacterized protein n=5 Tax=Betaproteob...  123     4e-30 
+  UniRef90_A0A2R7P3V2 Hydrogenase expression/formation protein n=...  123     4e-30 
+  UniRef90_A0A2T4IKX0 Hydrogenase expression/formation protein n=...  123     4e-30 
+  UniRef90_A0A1H5YWE0 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  123     5e-30 
+  UniRef90_A0A2S6GID7 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  123     5e-30 
+  UniRef90_UPI0004099338 hydrogenase expression/formation protein...  123     5e-30 
+  UniRef90_UPI0009AED4EE hydrogenase n=3 Tax=Salmonella enterica ...  122     7e-30 
+  UniRef90_A0A2E0A2H0 Hydrogenase expression/formation protein n=...  122     8e-30 
+  UniRef90_A0A2P5L6I7 Hydrogenase expression/formation protein n=...  122     8e-30 
+  UniRef90_UPI00040E1174 hydrogenase expression/formation protein...  122     9e-30 
+  UniRef90_B2JX95 HupH hydrogenase expression protein n=5 Tax=Par...  122     1e-29 
+  UniRef90_H0TX75 Hydrogenase expression/formation protein hupH n...  122     1e-29 
+  UniRef90_UPI000A2F4D5A hydrogenase expression/formation protein...  120     1e-29 
+  UniRef90_UPI000300DE79 hydrogenase expression/formation protein...  122     1e-29 
+  UniRef90_F5RGC2 Hydrogenase expression/formation protein hoxQ n...  122     2e-29 
+  UniRef90_G2DY96 HupH hydrogenase expression protein n=1 Tax=Thi...  122     2e-29 
+  UniRef90_A0A109JZX9 Hydrogenase accessory protein HypB n=1 Tax=...  121     2e-29 
+  UniRef90_A0A1B8V1N3 Hydrogenase n=1 Tax=Pseudomonas sp. AU11447...  121     2e-29 
+  UniRef90_UPI00036CE8EC hypothetical protein n=1 Tax=Thiolinea d...  122     2e-29 
+  UniRef90_A0A0K8P856 Hydrogenase maturation factor HoxQ n=1 Tax=...  122     2e-29 
+  UniRef90_A0A2S2CYW8 Hydrogenase expression/formation protein n=...  122     2e-29 
+  UniRef90_A0A1E2ZJR9 Uncharacterized protein n=2 Tax=unclassifie...  121     2e-29 
+  UniRef90_UPI00082FB89F hydrogenase expression/formation protein...  121     2e-29 
+  UniRef90_A0A085TXM5 Hydrogenase expression/formation protein Hu...  120     3e-29 
+  UniRef90_A0A2M6U9U1 Hydrogenase accessory protein HypB n=1 Tax=...  121     3e-29 
+  UniRef90_A0A323UGL4 Hydrogenase expression/formation protein n=...  121     3e-29 
+  UniRef90_A0A058ZKH3 HupH hydrogenase expression protein n=1 Tax...  120     3e-29 
+  UniRef90_UPI0003768DCD hydrogenase expression/formation protein...  121     3e-29 
+  UniRef90_A0A2T9ZNY5 Hydrogenase expression/formation protein n=...  121     3e-29 
+  UniRef90_A0A059KMI3 Hydrogenase expression/formation protein Hu...  121     3e-29 
+  UniRef90_A0A1G8LJD3 Hydrogenase-1 operon protein HyaF n=1 Tax=P...  120     4e-29 
+  UniRef90_Q3J0L1 HupH hydrogenase expression/formation protein n...  120     4e-29 
+  UniRef90_A0A3N7C6J2 Hydrogenase expression/formation protein n=...  121     4e-29 
+  UniRef90_I1AUH4 HupH hydrogenase expression protein n=2 Tax=Rho...  120     4e-29 
+  UniRef90_A0A2E3FBG5 Hydrogenase expression/formation protein n=...  120     4e-29 
+  UniRef90_UPI0005530773 hydrogenase expression/formation protein...  120     4e-29 
+  UniRef90_A0A1V0I0I9 Hydrogenase expression/formation protein n=...  120     5e-29 
+  UniRef90_UPI000471B371 hydrogenase expression/formation protein...  120     6e-29 
+  UniRef90_UPI00099136E9 hypothetical protein n=1 Tax=Chromatiace...  120     7e-29 
+  UniRef90_UPI000F666087 hydrogenase expression/formation protein...  120     7e-29 
+  UniRef90_UPI00048B0FE8 hydrogenase expression/formation protein...  120     7e-29 
+  UniRef90_Q2BN48 HupH hydrogenase expression/formation protein n...  120     7e-29 
+  UniRef90_A0A2E2KNF8 Hydrogenase expression/formation protein n=...  120     8e-29 
+  UniRef90_UPI00035F163F hydrogenase accessory protein HypB n=1 T...  119     1e-28 
+  UniRef90_A0A353V037 Hydrogenase expression/formation protein n=...  119     1e-28 
+  UniRef90_A0A1I4Q0W1 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  119     1e-28 
+  UniRef90_D5WZY2 HupH hydrogenase expression protein n=1 Tax=Thi...  119     1e-28 
+  UniRef90_A0A252B3L0 Hydrogenase accessory protein HypB n=2 Tax=...  119     1e-28 
+  UniRef90_UPI0004098771 hydrogenase expression/formation protein...  119     1e-28 
+  UniRef90_A0A1N7L9Z0 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  119     2e-28 
+  UniRef90_A0A1M5MJY8 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  119     2e-28 
+  UniRef90_A0A1C3VT45 Hydrogenase-1 operon protein HyaF n=4 Tax=B...  119     2e-28 
+  UniRef90_A0A0B3SJL8 HupH hydrogenase expression protein n=5 Tax...  119     2e-28 
+  UniRef90_UPI0001F886B9 hydrogenase accessory protein HypB n=1 T...  119     2e-28 
+  UniRef90_A0A2Z6TVS9 Hydrogenase expression/formation protein n=...  119     2e-28 
+  UniRef90_UPI000977BF2C hydrogenase expression/formation protein...  119     2e-28 
+  UniRef90_G7ZE62 Hydrogenase expression/formation protein hupH n...  119     2e-28 
+  UniRef90_A0A0R3KSN2 Hydrogenase accessory protein HypB n=6 Tax=...  119     2e-28 
+  UniRef90_A0A2E3CWZ7 Hydrogenase expression/formation protein n=...  119     2e-28 
+  UniRef90_UPI0009E6668F hydrogenase expression/formation protein...  119     2e-28 
+  UniRef90_UPI00067C5ACD hydrogenase expression/formation protein...  119     2e-28 
+  UniRef90_A0A074K327 Hydrogenase accessory protein HypB n=1 Tax=...  118     2e-28 
+  UniRef90_A0A1B1UKL8 Hydrogenase accessory protein HypB n=3 Tax=...  119     2e-28 
+  UniRef90_A8IMS9 Hydrogenase expression/formation protein n=2 Ta...  118     3e-28 
+  UniRef90_A0A292EAU0 Hydrogenase expression/formation protein n=...  118     4e-28 
+  UniRef90_A0A117N4A0 Hydrogenase accessory protein HypB n=1 Tax=...  117     4e-28 
+  UniRef90_A0A2U1WY43 Hydrogenase accessory protein HypB n=8 Tax=...  118     4e-28 
+  UniRef90_A0A1E8FDX5 Hydrogenase n=1 Tax=Alteromonas lipolytica ...  118     4e-28 
+  UniRef90_A0A318E8P0 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  118     4e-28 
+  UniRef90_A0A2R8ATM0 Uncharacterized protein n=1 Tax=Primorskyib...  117     4e-28 
+  UniRef90_P28150 Hydrogenase expression/formation protein HupH n...  118     4e-28 
+  UniRef90_A0A177PMS9 Hydrogenase accessory protein HypB n=4 Tax=...  118     5e-28 
+  UniRef90_UPI000B4B6D07 hydrogenase expression/formation protein...  118     5e-28 
+  UniRef90_A0A317EAH6 Hydrogenase expression/formation protein n=...  118     5e-28 
+  UniRef90_A0A1H5UIX5 Hydrogenase-1 operon protein HyaF n=1 Tax=J...  117     5e-28 
+  UniRef90_A0A2E9DCT7 Hydrogenase expression/formation protein n=...  117     6e-28 
+  UniRef90_A0A1I3IFL9 Hydrogenase-1 operon protein HyaF n=1 Tax=A...  117     6e-28 
+  UniRef90_A0A2C9D141 Uncharacterized protein n=1 Tax=Hartmanniba...  117     6e-28 
+  UniRef90_Q03007 Hydrogenase expression/formation protein HupH n...  117     6e-28 
+  UniRef90_A0A323V0Q2 Hydrogenase expression/formation protein n=...  117     7e-28 
+  UniRef90_UPI000831E1BF hydrogenase expression/formation protein...  117     7e-28 
+  UniRef90_A0A2T5UIQ4 Hydrogenase-1 operon protein HyaF n=4 Tax=R...  117     7e-28 
+  UniRef90_A6E4C4 HupH hydrogenase expression/formation protein n...  117     7e-28 
+  UniRef90_A0A2W7HKR9 Hydrogenase-1 operon protein HyaF n=1 Tax=V...  117     8e-28 
+  UniRef90_A0A238JJ18 Uncharacterized protein n=1 Tax=Confluentim...  117     9e-28 
+  UniRef90_A0A063BK39 HupH hydrogenase expression protein n=1 Tax...  117     1e-27 
+  UniRef90_A0A1H6BN92 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  116     1e-27 
+  UniRef90_A1B6P1 HupH hydrogenase expression protein n=4 Tax=Rho...  115     2e-27 
+  UniRef90_A0A176YZ72 Hydrogenase accessory protein HypB n=3 Tax=...  116     2e-27 
+  UniRef90_UPI0007E5A663 hydrogenase expression/formation protein...  116     2e-27 
+  UniRef90_A0A2T6N947 Hydrogenase expression/formation protein n=...  116     2e-27 
+  UniRef90_UPI00034DD6DA hydrogenase expression/formation protein...  116     3e-27 
+  UniRef90_A0A3D0G7Y9 Hydrogenase expression/formation protein n=...  115     3e-27 
+  UniRef90_A0A1G7XHK1 Hydrogenase-1 operon protein HyaF n=1 Tax=B...  115     3e-27 
+  UniRef90_A0A2D4USM4 Hydrogenase expression/formation protein n=...  115     3e-27 
+  UniRef90_H0HX69 HupH hydrogenase expression protein n=3 Tax=Mes...  115     3e-27 
+  UniRef90_A0A2W5DUT9 Hydrogenase expression/formation protein n=...  116     3e-27 
+  UniRef90_S5STH0 Hydrogenase expression/formation protein HupH n...  115     4e-27 
+  UniRef90_A0A0P7VR02 Hydrogenase expression protein HyaF n=1 Tax...  115     4e-27 
+  UniRef90_G0A2K7 HupH hydrogenase expression protein n=1 Tax=Met...  115     4e-27 
+  UniRef90_UPI00098A6EED hydrogenase expression/formation protein...  115     4e-27 
+  UniRef90_Q60CE7 Putative hydrogenase expression/formation prote...  115     5e-27 
+  UniRef90_A0A1V5EI10 Hydrogenase accessory protein HypB n=1 Tax=...  115     5e-27 
+  UniRef90_A0A1X6ZAS5 Uncharacterized protein n=1 Tax=Pseudoocean...  115     5e-27 
+  UniRef90_A1KC55 Hydrogenase-1 operon protein hupH n=2 Tax=Azoar...  115     6e-27 
+  UniRef90_A0A371Z4E2 Hydrogenase expression/formation protein n=...  115     6e-27 
+  UniRef90_A0A212RX46 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  115     6e-27 
+  UniRef90_A0A2N2QX69 Hydrogenase expression/formation protein n=...  115     6e-27 
+  UniRef90_A0A316L8X9 Hydrogenase expression/formation protein n=...  114     6e-27 
+  UniRef90_A0A1N7KZ03 Hydrogenase-1 operon protein HyaF n=2 Tax=R...  114     7e-27 
+  UniRef90_A0A2W7CKM6 Hydrogenase expression/formation protein n=...  114     7e-27 
+  UniRef90_UPI0008370B5A hydrogenase expression/formation protein...  114     7e-27 
+  UniRef90_UPI0004949BA7 hydrogenase expression/formation protein...  115     8e-27 
+  UniRef90_A0A2A4RFA4 Hydrogenase expression/formation protein n=...  114     9e-27 
+  UniRef90_A0A376RL55 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  109     1e-26 
+  UniRef90_A0A1C3XES9 Hydrogenase-1 operon protein HyaF n=5 Tax=B...  114     1e-26 
+  UniRef90_W1IAI0 Hydrogenase expression/formation hupH (Fragment...  114     1e-26 
+  UniRef90_UPI000FE412B8 hydrogenase expression/formation protein...  113     1e-26 
+  UniRef90_A0A1X7NA65 Hydrogenase-1 operon protein HyaF n=1 Tax=A...  114     1e-26 
+  UniRef90_J6J508 Hydrogenase maturation factor HoxQ n=1 Tax=Rhod...  114     1e-26 
+  UniRef90_UPI0006CF9AD7 hydrogenase expression/formation protein...  114     1e-26 
+  UniRef90_A0A3G8MCZ1 Hydrogenase expression/formation protein n=...  113     2e-26 
+  UniRef90_A0A0D7EWJ8 Hydrogenase accessory protein HypB n=1 Tax=...  114     2e-26 
+  UniRef90_A0A366F9C2 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  114     2e-26 
+  UniRef90_A0A2S3YSZ5 Hydrogenase accessory protein HypB n=5 Tax=...  113     2e-26 
+  UniRef90_A0A212LCI8 Hydrogenase expression/formation protein Hu...  113     2e-26 
+  UniRef90_A0A1D8K912 Uncharacterized protein n=1 Tax=Acidihaloba...  113     2e-26 
+  UniRef90_A3KAF2 HupH hydrogenase expression/formation protein n...  113     2e-26 
+  UniRef90_A0A285PI98 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  114     2e-26 
+  UniRef90_UPI0003F5A61B hydrogenase expression/formation protein...  113     2e-26 
+  UniRef90_J7QQP7 HupH hydrogenase expression protein n=2 Tax=Met...  113     2e-26 
+  UniRef90_A0A2D8AA75 Hydrogenase expression/formation protein n=...  114     2e-26 
+  UniRef90_A0A2Z4PA46 Hydrogenase expression/formation protein n=...  113     2e-26 
+  UniRef90_A0A0R3E4P5 Hydrogenase accessory protein HypB n=1 Tax=...  112     3e-26 
+  UniRef90_A0A317E8J7 Hydrogenase expression/formation protein n=...  113     3e-26 
+  UniRef90_A0A2G2QFZ9 Hydrogenase expression/formation protein n=...  113     3e-26 
+  UniRef90_P48340 Hydrogenase expression/formation protein HupH n...  113     3e-26 
+  UniRef90_A0A0P1GIS0 Uncharacterized protein n=1 Tax=Tropicibact...  112     4e-26 
+  UniRef90_A0A1Q5RMV8 Hydrogenase accessory protein HypB n=1 Tax=...  112     4e-26 
+  UniRef90_UPI00036A4C1D hydrogenase expression/formation protein...  113     4e-26 
+  UniRef90_UPI00055FE50A hydrogenase expression/formation protein...  112     4e-26 
+  UniRef90_A0A3A4RMN1 Hydrogenase expression/formation protein n=...  112     5e-26 
+  UniRef90_A0A3B9NWF5 Hydrogenase expression/formation protein n=...  112     5e-26 
+  UniRef90_A0A2U3QAT7 Hydrogenase expression/formation protein Hu...  112     5e-26 
+  UniRef90_A0A2E7EUV4 Hydrogenase expression/formation protein n=...  112     5e-26 
+  UniRef90_A0A2D9YKS7 Hydrogenase expression/formation protein n=...  112     5e-26 
+  UniRef90_A0A348G363 Hydrogenase expression/formation protein Hu...  112     6e-26 
+  UniRef90_A0A2D5PGM0 Hydrogenase expression/formation protein n=...  112     6e-26 
+  UniRef90_A4WXY5 Hydrogenase-1 expression HyaE n=3 Tax=Rhodobact...  112     6e-26 
+  UniRef90_A0A1J5RWD1 Uncharacterized protein n=2 Tax=mine draina...  112     6e-26 
+  UniRef90_A0A1I3NHA2 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  112     7e-26 
+  UniRef90_UPI000DD41D1C hydrogenase expression/formation protein...  112     7e-26 
+  UniRef90_A7IHD0 HupH hydrogenase expression protein n=1 Tax=Xan...  112     7e-26 
+  UniRef90_A0A081G4G6 Hydrogenase maturation factor HoxQ n=1 Tax=...  112     7e-26 
+  UniRef90_UPI000F8CA6EC hydrogenase expression/formation protein...  112     8e-26 
+  UniRef90_A0A1W1BZ97 Hydrogenase maturation factor HoxQ n=1 Tax=...  112     8e-26 
+  UniRef90_A0A2N2VE94 Hydrogenase expression/formation protein n=...  112     8e-26 
+  UniRef90_A0A327L644 Hydrogenase expression/formation protein n=...  112     8e-26 
+  UniRef90_A0A2T7UL22 Hydrogenase expression/formation protein n=...  111     8e-26 
+  UniRef90_A0A259PI90 Uncharacterized protein (Fragment) n=1 Tax=...  110     9e-26 
+  UniRef90_A0A250KMQ7 Putative hydrogenase expression/formation p...  111     1e-25 
+  UniRef90_UPI000255FD53 HupH hydrogenase expression protein n=1 ...  112     1e-25 
+  UniRef90_A0A1M5B265 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  111     1e-25 
+  UniRef90_A0A0A0EC67 Hydrogenase accessory protein HypB n=1 Tax=...  111     1e-25 
+  UniRef90_A0A1V0PX27 Hydrogenase maturation factor HoxQ n=1 Tax=...  111     1e-25 
+  UniRef90_A0A1C7HHV3 Hydrogenase n=2 Tax=Burkholderiales TaxID=8...  111     2e-25 
+  UniRef90_A0A1E2UUS3 Uncharacterized protein n=2 Tax=Candidatus ...  111     2e-25 
+  UniRef90_A0A0P0UPZ6 Hydrogenase-1 operon protein HyaF n=2 Tax=s...  111     2e-25 
+  UniRef90_A0A395CUM1 Hydrogenase expression/formation protein n=...  111     2e-25 
+  UniRef90_A0A0U3PGC9 Hydrogenase accessory protein HypB n=5 Tax=...  110     2e-25 
+  UniRef90_R6AP17 HupH hydrogenase expression protein conserved r...  111     2e-25 
+  UniRef90_A0A0R3L348 Hydrogenase accessory protein HypB n=1 Tax=...  111     2e-25 
+  UniRef90_UPI00041C94C7 hydrogenase accessory protein HypB n=2 T...  111     2e-25 
+  UniRef90_UPI000BAA9E79 hydrogenase expression/formation protein...  110     2e-25 
+  UniRef90_UPI0004029E45 hydrogenase expression/formation protein...  110     2e-25 
+  UniRef90_A0A1L3LAD6 Hydrogenase expression/formation protein Hu...  110     2e-25 
+  UniRef90_I3CFD5 HupH hydrogenase expression protein n=1 Tax=Beg...  110     2e-25 
+  UniRef90_A0A2T5BS91 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  110     2e-25 
+  UniRef90_A0A1S1T3D7 Hydrogenase accessory protein HypB n=3 Tax=...  110     2e-25 
+  UniRef90_Q478M1 HupH hydrogenase expression protein, C-terminal...  110     2e-25 
+  UniRef90_UPI0009C0E73C hydrogenase expression/formation protein...  110     3e-25 
+  UniRef90_A0A0S8F0S5 Uncharacterized protein n=1 Tax=Gammaproteo...  110     3e-25 
+  UniRef90_A0A0B4X696 Hydrogenase expression/formation protein Hu...  110     3e-25 
+  UniRef90_Q43957 Hydrogenase expression/formation protein HupQ n...  110     3e-25 
+  UniRef90_UPI000C8025E1 hydrogenase expression/formation protein...  109     5e-25 
+  UniRef90_A0A369CHU1 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  110     5e-25 
+  UniRef90_UPI000404F0A2 hydrogenase expression/formation protein...  109     5e-25 
+  UniRef90_A0A2K8U2G5 Uncharacterized protein n=1 Tax=Candidatus ...  109     5e-25 
+  UniRef90_UPI000E65A017 hydrogenase expression/formation protein...  110     6e-25 
+  UniRef90_A0A1Y6D4Z2 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  109     6e-25 
+  UniRef90_S9Q8G3 Hydrogenase maturation factor HoxQ n=1 Tax=Sali...  109     6e-25 
+  UniRef90_A0A2G2I441 Hydrogenase expression/formation protein n=...  109     7e-25 
+  UniRef90_A0A2W4SZF8 Hydrogenase expression/formation protein n=...  109     7e-25 
+  UniRef90_A0A2A4UHN8 Hydrogenase expression/formation protein n=...  109     7e-25 
+  UniRef90_A0A358B4W3 Hydrogenase expression/formation protein n=...  109     7e-25 
+  UniRef90_UPI0004A6D2BC hydrogenase expression/formation protein...  109     8e-25 
+  UniRef90_C8S276 HupH hydrogenase expression protein n=1 Tax=Rho...  109     8e-25 
+  UniRef90_A0A1G8B0L9 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  108     8e-25 
+  UniRef90_W9V745 Hydrogenase maturation factor HoxQ n=1 Tax=Imho...  109     8e-25 
+  UniRef90_A0A086XVW0 Hydrogenase accessory protein HypB n=1 Tax=...  108     1e-24 
+  UniRef90_H8FMT2 Hydrogenase expression/formation protein hupH n...  108     1e-24 
+  UniRef90_UPI000E4C9960 hydrogenase expression/formation protein...  108     1e-24 
+  UniRef90_A0A3G3IPF2 Hydrogenase expression protein HupH n=2 Tax...  109     1e-24 
+  UniRef90_A0A0D6B682 Hydrogenase-1 expression HyaE n=4 Tax=Rhodo...  108     1e-24 
+  UniRef90_A0A2E6SP85 Hydrogenase expression/formation protein n=...  108     1e-24 
+  UniRef90_P40594 Hydrogenase expression/formation protein HoxQ n...  108     1e-24 
+  UniRef90_A0A353Y834 Hydrogenase expression/formation protein n=...  108     1e-24 
+  UniRef90_UPI0003F9425C hydrogenase expression/formation protein...  108     2e-24 
+  UniRef90_A0A149VYN5 Uncharacterized protein n=3 Tax=root TaxID=...  108     2e-24 
+  UniRef90_UPI000481EA8E hydrogenase expression/formation protein...  108     2e-24 
+  UniRef90_A0A1G6YLL0 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  107     2e-24 
+  UniRef90_A0A126SY96 HupH hydrogenase expression protein n=1 Tax...  108     3e-24 
+  UniRef90_A0A2N2RAE1 Hydrogenase expression/formation protein n=...  108     3e-24 
+  UniRef90_A0A0S8FJA1 Uncharacterized protein n=1 Tax=Gammaproteo...  108     3e-24 
+  UniRef90_A0A1B1PLR8 Hydrogenase accessory protein HypB n=1 Tax=...  107     3e-24 
+  UniRef90_A0A2S6N5A6 Hydrogenase expression/formation protein n=...  107     3e-24 
+  UniRef90_A0A1N7RSY6 Hydrogenase expression/formation protein Ho...  107     3e-24 
+  UniRef90_A0A2A2V3R4 Hydrogenase expression/formation protein n=...  105     4e-24 
+  UniRef90_UPI000FDACC3A UPI000FDACC3A related cluster n=1 Tax=un...  107     4e-24 
+  UniRef90_A0A327KGQ1 Hydrogenase expression/formation protein n=...  107     4e-24 
+  UniRef90_A0A1I1N2Z3 Hydrogenase-1 operon protein HyaF n=1 Tax=P...  107     4e-24 
+  UniRef90_S5AD96 Hydrogenase expression/formation protein HoxQ n...  107     5e-24 
+  UniRef90_UPI000A11A60E hydrogenase expression/formation protein...  107     5e-24 
+  UniRef90_UPI000E26A9EF hydrogenase expression/formation protein...  107     5e-24 
+  UniRef90_A0P1N4 HupH hydrogenase expression/formation protein n...  107     6e-24 
+  UniRef90_A0A1G3HIU5 Uncharacterized protein n=2 Tax=unclassifie...  107     7e-24 
+  UniRef90_A0A1G8FHZ5 Hydrogenase-1 operon protein HyaF n=3 Tax=V...  107     7e-24 
+  UniRef90_Q9ANQ2 Hydrogenase accessory protein HypB n=6 Tax=Brad...  104     8e-24 
+  UniRef90_UPI0003773AFC hypothetical protein n=1 Tax=Thioalkaliv...  106     9e-24 
+  UniRef90_UPI00085441E7 hypothetical protein n=2 Tax=Escherichia...  106     9e-24 
+  UniRef90_A0A3L6LVX1 Hydrogenase expression/formation protein n=...  106     9e-24 
+  UniRef90_S9SAT9 HupH hydrogenase expression protein n=2 Tax=Pha...  106     1e-23 
+  UniRef90_A0A2Y9A1H4 Hydrogenase-1 operon protein HyaF n=1 Tax=J...  105     1e-23 
+  UniRef90_A0A1I3QRD8 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  105     1e-23 
+  UniRef90_UPI000A16F659 hypothetical protein n=1 Tax=Derxia lacu...  106     1e-23 
+  UniRef90_UPI0003F58F9A hydrogenase expression/formation protein...  106     1e-23 
+  UniRef90_A0A2U8GN69 Hydrogenase expression/formation protein n=...  106     1e-23 
+  UniRef90_A0A2E2JSZ2 Hydrogenase expression/formation protein n=...  105     1e-23 
+  UniRef90_Q0FRA4 HupH hydrogenase expression/formation protein n...  105     2e-23 
+  UniRef90_Q6LB96 Hydrogenase expression/formation protein HupH n...  105     2e-23 
+  UniRef90_A0A1I4QAY1 Hydrogenase expression/formation protein n=...  105     2e-23 
+  UniRef90_A0A1M4N475 Hydrogenase expression/formation protein Hu...  105     2e-23 
+  UniRef90_V7EPV5 Hydrogenase accessory protein HypB n=1 Tax=Rhod...  105     2e-23 
+  UniRef90_UPI000BBE8F79 hydrogenase expression/formation protein...  105     2e-23 
+  UniRef90_W9H0A4 Hydrogenase accessory protein HypB n=1 Tax=Sker...  105     4e-23 
+  UniRef90_A0A3B0M7R0 Uncharacterized protein n=1 Tax=Roseibaca e...  104     4e-23 
+  UniRef90_F8JI04 Hydrogenase expression/formation protein hupH n...  104     4e-23 
+  UniRef90_A0A2T0WLW7 Hydrogenase-1 operon protein HyaF n=1 Tax=D...  104     4e-23 
+  UniRef90_UPI000A04937F hydrogenase expression/formation protein...  104     5e-23 
+  UniRef90_UPI000FDBB672 hydrogenase expression/formation protein...  104     6e-23 
+  UniRef90_A0A2N9YC11 Uncharacterized protein n=1 Tax=Beggiatoa l...  103     9e-23 
+  UniRef90_A0A136HM52 Hydrogenase n=1 Tax=Neptuniibacter sp. Phe_...  103     1e-22 
+  UniRef90_UPI00047B2CB8 hydrogenase expression/formation protein...  103     1e-22 
+  UniRef90_A0A3D5SXI4 Hydrogenase expression/formation protein n=...  103     1e-22 
+  UniRef90_A0A285RMB5 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  103     2e-22 
+  UniRef90_UPI0004093EAF hydrogenase expression/formation protein...  104     2e-22 
+  UniRef90_A0A0R3CAL2 Hydrogenase accessory protein HypB n=1 Tax=...  100     2e-22 
+  UniRef90_D9PLD0 Hydrogenase expression/formation protein (Fragm...  101     2e-22 
+  UniRef90_D0D929 Hydrogenase expression/formation protein HupH n...  102     2e-22 
+  UniRef90_UPI00048EBDC7 hydrogenase expression/formation protein...  102     2e-22 
+  UniRef90_A0A2K9JNR6 Hydrogenase expression/formation protein n=...  102     3e-22 
+  UniRef90_I3YF33 HupH hydrogenase expression protein n=1 Tax=Thi...  102     3e-22 
+  UniRef90_A0A221KF38 Hydrogenase n=2 Tax=Vitreoscilla filiformis...  103     3e-22 
+  UniRef90_UPI0008FF0F12 hydrogenase expression/formation protein...  102     4e-22 
+  UniRef90_UPI000EB05BD3 hydrogenase expression/formation protein...  100     1e-21 
+  UniRef90_A0A1J4XEF3 Uncharacterized protein n=1 Tax=Proteobacte...  101     1e-21 
+  UniRef90_A0A251X0H6 Hydrogenase expression/formation protein n=...  100     1e-21 
+  UniRef90_G1Y4V8 Hydrogenase formation protein n=2 Tax=Nitrospir...  100     1e-21 
+  UniRef90_F8XQ71 HupH hydrogenase expression protein n=2 Tax=Aci...  99.8    2e-21 
+  UniRef90_UPI000DF1825E hydrogenase expression/formation protein...  100     2e-21 
+  UniRef90_A0A357IFG6 Hydrogenase expression/formation protein n=...  100     2e-21 
+  UniRef90_K9HQQ3 Hydrogenase maturation factor HoxQ n=1 Tax=Caen...  99.8    3e-21 
+  UniRef90_A0A1J5PLZ0 Uncharacterized protein n=1 Tax=mine draina...  96.7    5e-21 
+  UniRef90_UPI0004DF5A81 hydrogenase expression/formation protein...  99.0    6e-21 
+  UniRef90_UPI000EB40658 hydrogenase expression/formation protein...  99.0    7e-21 
+  UniRef90_UPI000E65898F hydrogenase expression/formation protein...  100     7e-21 
+  UniRef90_A0A2M7WDE9 Hydrogenase expression/formation protein n=...  100     8e-21 
+  UniRef90_V4JB78 Uncharacterized protein n=2 Tax=Chromatiaceae T...  100     9e-21 
+  UniRef90_A0A0U5IGS8 Hydrogenase expression protein HupH n=3 Tax...  97.8    2e-20 
+  UniRef90_A0A1H6MTH0 Hydrogenase accessory protein HypB n=1 Tax=...  97.8    2e-20 
+  UniRef90_Q56363 HupH n=1 Tax=Thiocapsa roseopersicina TaxID=105...  97.4    2e-20 
+  UniRef90_A0A257NU34 Hydrogenase expression/formation protein n=...  97.1    3e-20 
+  UniRef90_A0A0D2VWB2 Hydrogenase accessory protein HypB n=2 Tax=...  95.9    3e-20 
+  UniRef90_A0A133XFS4 Uncharacterized protein n=1 Tax=Dechloromon...  96.7    4e-20 
+  UniRef90_A0A2M8DFG2 Hydrogenase expression/formation protein n=...  95.1    5e-20 
+  UniRef90_UPI0007323A3E hydrogenase expression/formation protein...  97.1    5e-20 
+  UniRef90_A0A2U1RWR9 Hydrogenase expression/formation protein n=...  96.3    8e-20 
+  UniRef90_A0A2T4J8Z3 Hydrogenase expression/formation protein n=...  95.9    8e-20 
+  UniRef90_UPI0005EB63B5 hydrogenase expression/formation protein...  95.9    1e-19 
+  UniRef90_A0A379TB08 Hydrogenase-1 operon protein HyaF2 n=2 Tax=...  94.4    1e-19 
+  UniRef90_A0A1Z9Y4G1 Hydrogenase expression/formation protein n=...  95.5    1e-19 
+  UniRef90_UPI0006853E53 hydrogenase expression/formation protein...  95.9    1e-19 
+  UniRef90_A0A0H5BH65 Hydrogenase maturation factor HoxQ n=1 Tax=...  95.1    2e-19 
+  UniRef90_Q20ZY5 HupH hydrogenase expression protein n=1 Tax=Rho...  94.4    4e-19 
+  UniRef90_UPI0009A49D3B hydrogenase expression/formation protein...  94.0    4e-19 
+  UniRef90_A0A2Z3R1E8 Hydrogenase expression/formation protein n=...  92.8    8e-19 
+  UniRef90_F9U5A7 HupH hydrogenase expression protein n=2 Tax=Thi...  92.8    1e-18 
+  UniRef90_A0A1R1I3S7 Uncharacterized protein n=1 Tax=Azonexus hy...  92.8    1e-18 
+  UniRef90_A0A066ZLR7 Uncharacterized protein n=1 Tax=Hydrogenovi...  92.8    1e-18 
+  UniRef90_A0A1C2G401 Uncharacterized protein n=2 Tax=Acidiferrob...  92.0    2e-18 
+  UniRef90_A0A2S8RYY5 Hydrogenase-1 operon protein HyaF n=1 Tax=D...  92.0    2e-18 
+  UniRef90_A0A251XB82 Uncharacterized protein n=1 Tax=Thioflexoth...  91.7    2e-18 
+  UniRef90_A0A0F2RSD8 Uncharacterized protein n=1 Tax=Rhodospiril...  91.3    3e-18 
+  UniRef90_UPI000D39039D hydrogenase expression/formation protein...  87.4    6e-18 
+  UniRef90_A0A1N7P956 Hydrogenase-1 operon protein HyaF n=1 Tax=I...  90.5    7e-18 
+  UniRef90_H8Z5R4 HupH hydrogenase expression protein n=1 Tax=Thi...  89.4    2e-17 
+  UniRef90_Q0A722 HupH hydrogenase expression protein n=1 Tax=Alk...  89.0    3e-17 
+  UniRef90_A0A2T6AYZ5 Hydrogenase-1 operon protein HyaF n=3 Tax=R...  87.4    1e-16 
+  UniRef90_A0A0X8CQD4 Hydrogenase accessory protein HypB n=2 Tax=...  84.0    2e-16 
+  UniRef90_G5Q1Y4 Hydrogenase maturation factor HoxQ n=1 Tax=Salm...  80.1    3e-16 
+  UniRef90_UPI00039D265F hydrogenase expression/formation protein...  85.9    4e-16 
+  UniRef90_N6UDV9 Uncharacterized protein n=4 Tax=Rhizobium TaxID...  84.7    5e-16 
+  UniRef90_I3BNG0 HupH hydrogenase expression protein n=1 Tax=Thi...  85.5    6e-16 
+  UniRef90_A0A0A1H8W5 HupH hydrogenase expression protein, C-term...  85.5    6e-16 
+  UniRef90_A0A2E7E8K5 Uncharacterized protein n=1 Tax=Oceanospiri...  82.0    6e-16 
+  UniRef90_A0A2L0WH90 Hydrogenase expression/formation protein Hu...  84.0    2e-15 
+  UniRef90_A0A159Z3F8 HupH hydrogenase expression/formation prote...  83.6    2e-15 
+  UniRef90_A0A3N7HTN2 Hydrogenase expression/formation protein (F...  77.8    7e-15 
+  UniRef90_A0A2N3PSJ3 Hydrogenase expression/formation protein n=...  82.0    8e-15 
+  UniRef90_Q2RV78 Hydrogenase expression/formation protein hupH n...  81.6    9e-15 
+  UniRef90_A0A376MUV8 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  77.0    6e-14 
+  UniRef90_A0A257NL06 Hydrogenase expression/formation protein n=...  78.6    1e-13 
+  UniRef90_I0IS54 Putative hydrogenase-1 operon protein HyaF2 n=1...  77.4    4e-13 
+  UniRef90_K1JJG0 Uncharacterized protein n=2 Tax=Sutterella TaxI...  77.4    5e-13 
+  UniRef90_A0A2Z6DZ94 Hydrogenase expression/formation protein n=...  76.6    8e-13 
+  UniRef90_A0A379S574 Rubredoxin n=2 Tax=Salmonella enterica subs...  73.6    2e-12 
+  UniRef90_A0A379S4W1 Hydrogenase-1 operon protein HyaF2 n=1 Tax=...  73.2    3e-12 
+  UniRef90_W7WNZ6 Uncharacterized protein n=1 Tax=Hydrogenophaga ...  70.9    5e-12 
+  UniRef90_A0A161PBH8 Uncharacterized protein n=3 Tax=Marichromat...  74.3    5e-12 
+  UniRef90_A0A352LPX7 Uncharacterized protein n=1 Tax=Sutterella ...  72.8    1e-11 
+  UniRef90_A0A351SJY0 Hydrogenase expression/formation protein (F...  69.7    3e-11 
+  UniRef90_A0A286H0M0 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  70.9    7e-11 
+  UniRef90_W0E4B7 Hydrogenase accessory protein HypB n=1 Tax=Mari...  69.7    2e-10 
+  UniRef90_R7KGU7 Uncharacterized protein n=1 Tax=Sutterella sp. ...  67.8    8e-10 
+  UniRef90_H6SN22 Hydrogenase expression/formation protein hupH n...  68.2    1e-09 
+  UniRef90_UPI0009B0C87F hydrogenase n=1 Tax=Salmonella enterica ...  65.1    1e-09 
+  UniRef90_H3KCA7 HupH hydrogenase expression protein, conserved ...  67.4    2e-09 
+  UniRef90_G5LN27 Hydrogenase maturation factor hoxQ n=1 Tax=Salm...  61.2    2e-09 
+  UniRef90_A0A0T9XH69 Hydrogenase-1 operon protein HyaF2 n=3 Tax=...  64.7    2e-09 
+  UniRef90_A0A3M2GVN2 Hydrogenase expression/formation protein n=...  63.2    4e-09 
+  UniRef90_A0A3N6V7L2 Hydrogenase expression/formation protein n=...  63.9    5e-09 
+  UniRef90_A0A066PQP0 Hydrogenase expression/formation protein Hu...  65.5    6e-09 
+  UniRef90_I0JY98 Putative HupH hydrogenase expression protein n=...  65.1    6e-09 
+  UniRef90_UPI00068A67C5 hypothetical protein n=1 Tax=Methylacidi...  64.7    7e-09 
+  UniRef90_R7BWP7 HupH hydrogenase expression protein conserved r...  63.5    3e-08 
+  UniRef90_R7I4Z0 HupH hydrogenase expression protein conserved r...  63.2    4e-08 
+  UniRef90_B4U667 HupH hydrogenase expression protein n=1 Tax=Hyd...  60.1    5e-08 
+  UniRef90_A0A1E2UTF5 Hydrogenase accessory protein HupE n=1 Tax=...  60.1    6e-08 
+  UniRef90_UPI000E499D20 hypothetical protein n=1 Tax=Sutterella ...  62.4    7e-08 
+  UniRef90_M1QGX0 HupH hydrogenase expression protein n=2 Tax=Hyd...  59.7    8e-08 
+  UniRef90_D3SLV6 HupH hydrogenase expression protein n=2 Tax=The...  58.2    2e-07 
+  UniRef90_A0A376ZW79 Hydrogenase-1 operon protein HyaF n=2 Tax=E...  55.1    4e-07 
+  UniRef90_A0A1E4P556 Uncharacterized protein n=1 Tax=Rubrivivax ...  57.8    4e-07 
+  UniRef90_A0A1W5LCV2 Hydrogenase-1 operon protein n=2 Tax=Methyl...  59.7    4e-07 
+  UniRef90_A0A2Z6IER5 Uncharacterized protein n=1 Tax=Sutterella ...  60.1    5e-07 
+  UniRef90_E7H6D6 Uncharacterized protein n=3 Tax=Sutterella TaxI...  60.1    5e-07 
+  UniRef90_A0A379TBM2 Hydrogenase-1 operon protein HyaF n=2 Tax=S...  57.0    8e-07 
+  UniRef90_A0A2W1KM05 Hydrogenase expression/formation protein n=...  55.8    2e-06 
+  UniRef90_A0A1V3NBJ7 Hydrogenase expression/formation protein n=...  55.8    3e-06 
+  UniRef90_T0YI43 HupH hydrogenase expression protein (Fragment) ...  55.1    3e-06 
+  UniRef90_A0A1E4JUI7 Uncharacterized protein n=1 Tax=Thiobacillu...  54.7    5e-06 
+  UniRef90_A0A3P3ZQR4 Uncharacterized protein n=1 Tax=mine draina...  55.1    9e-06 
+  UniRef90_A0A1H6LHF3 HupH hydrogenase expression protein n=1 Tax...  52.8    9e-06 
+  UniRef90_UPI0009B03BDC hydrogenase n=1 Tax=Salmonella enterica ...  53.5    1e-05 
+  UniRef90_UPI000FDEB297 hydrogenase expression/formation protein...  53.5    1e-05 
+  UniRef90_B8GQG1 Uncharacterized protein n=2 Tax=Thioalkalivibri...  53.9    1e-05 
+  UniRef90_UPI000DD35107 hydrogenase expression/formation protein...  53.1    2e-05 
+  UniRef90_UPI000C806771 hydrogenase expression/formation protein...  52.8    2e-05 
+  UniRef90_A0A376MUZ2 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  50.4    3e-05 
+  UniRef90_O66900 Uncharacterized protein n=1 Tax=Aquifex aeolicu...  51.2    7e-05 
+  UniRef90_A0A285P1Y5 Hydrogenase-1 operon protein HyaF n=1 Tax=H...  50.8    9e-05 
+  UniRef90_UPI000EB23838 hydrogenase expression/formation protein...  51.2    1e-04 
+  UniRef90_A0A1B4V5C8 Hydrogenase expression protein HupH n=1 Tax...  51.2    1e-04 
+  UniRef90_UPI00034B32D1 hypothetical protein n=1 Tax=Ideonella s...  52.4    1e-04 
+  UniRef90_A0A0P1L8P0 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  50.1    2e-04 
+  UniRef90_A0A348ANV1 Uncharacterized protein n=1 Tax=Methylomusa...  50.1    2e-04 
+  UniRef90_A0A1E4HXW9 Uncharacterized protein n=3 Tax=Thiobacillu...  49.7    3e-04 
+  UniRef90_A0A259F243 Hydrogenase expression/formation protein n=...  49.7    4e-04 
+  UniRef90_A0A370DPC8 Hydrogenase accessory protein HupE n=1 Tax=...  49.7    4e-04 
+  UniRef90_D3DI15 Uncharacterized protein n=3 Tax=Bacteria TaxID=...  48.9    4e-04 
+  UniRef90_A0A1M3HES2 Hydrogenase expression/formation protein n=...  48.5    8e-04 
+  UniRef90_A8UUE6 Uncharacterized protein n=2 Tax=Hydrogenivirga ...  48.1    0.001 
+  UniRef90_A0A1E4PS78 Uncharacterized protein n=2 Tax=Thiobacillu...  48.1    0.001 
+  UniRef90_A0A3D3RQZ7 Hydrogenase expression/formation protein n=...  48.1    0.001 
+  UniRef90_A0A1E2UX55 Hydrogenase accessory protein HupE n=1 Tax=...  47.8    0.001 
+  UniRef90_W0DHW0 Hydrogenase expression protein HupH n=1 Tax=Thi...  47.8    0.001 
+  UniRef90_A0A2G2GI50 Hydrogenase expression/formation protein n=...  46.2    0.004 
+  UniRef90_A0A251X829 Uncharacterized protein n=1 Tax=Thioflexoth...  46.2    0.005 
+  UniRef90_A0A327K493 Uncharacterized protein n=1 Tax=Rhodobium o...  46.2    0.005 
+  UniRef90_A0A1E4L2F9 Uncharacterized protein n=5 Tax=Proteobacte...  46.2    0.005 
+  UniRef90_A0A0N7MYL6 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  45.8    0.005 
+  UniRef90_A0A1Q4GND9 Hydrogenase expression/formation protein n=...  46.2    0.005 
+  UniRef90_A0A2T6NSY3 Uncharacterized protein n=2 Tax=gamma prote...  46.2    0.006 
+  UniRef90_T1AH45 Hydrogenase expression/formation protein HupH (...  45.8    0.007 
+  UniRef90_A0A1V5FTF7 Uncharacterized protein n=1 Tax=Alphaproteo...  45.4    0.009 
+  UniRef90_A0A2N6AZE4 Hydrogenase expression/formation protein n=...  45.8    0.009 
+  UniRef90_A0A2T9ZUM2 Hydrogenase accessory protein HupE n=1 Tax=...  45.4    0.009 
+  UniRef90_UPI00098F74DF hypothetical protein n=1 Tax=Pseudoruege...  45.4    0.012 
+  UniRef90_A0A2N6BKR3 Uncharacterized protein n=1 Tax=Rhizobiales...  45.1    0.013 
+  UniRef90_A0A1G0ND57 Uncharacterized protein n=1 Tax=Hydrogenoph...  45.1    0.015 
+  UniRef90_A0A3D4DW83 Hydrogenase expression protein HupH n=1 Tax...  44.7    0.020 
+  UniRef90_B2ICM0 Uncharacterized protein n=1 Tax=Beijerinckia in...  46.2    0.021 
+  UniRef90_UPI00036F92FE hydrogenase expression/formation protein...  44.7    0.023 
+  UniRef90_L0DXE2 Hydrogenase maturation factor HoxQ domain-conta...  44.3    0.023 
+  UniRef90_A0A1H6FGU5 Uncharacterized protein n=1 Tax=Thiotrichal...  44.3    0.025 
+  UniRef90_A0A1G3Y6R9 Uncharacterized protein n=2 Tax=Thiobacillu...  44.3    0.028 
+  UniRef90_UPI0003696E94 hypothetical protein n=1 Tax=Verrucomicr...  45.8    0.029 
+  UniRef90_A0A1V0PRR3 Hydrogenase maturation factor HoxQ n=2 Tax=...  43.5    0.032 
+  UniRef90_A0A3N5JRQ7 Uncharacterized protein n=1 Tax=Xanthomonad...  44.7    0.039 
+  UniRef90_UPI00036E1EC3 hypothetical protein n=1 Tax=Sporomusace...  43.1    0.056 
+  UniRef90_UPI00073219BC hypothetical protein n=1 Tax=Thiohalocap...  43.1    0.064 
+  UniRef90_A0A1T4SJ93 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  42.7    0.069 
+  UniRef90_A1HTR0 HupH hydrogenase expression protein n=1 Tax=The...  42.7    0.075 
+  UniRef90_A0A397Q534 Hydrogenase-1 operon protein HyaF n=1 Tax=D...  43.1    0.075 
+  UniRef90_A0A2K8UFU7 Hydrogenase expression protein HupH n=1 Tax...  43.1    0.078 
+  UniRef90_A0A0S8L3Q8 Uncharacterized protein n=1 Tax=Acidithioba...  42.7    0.081 
+  UniRef90_A0A1I3NJV2 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  43.5    0.084 
+  UniRef90_A0A368HL75 Hydrogenase expression/formation protein n=...  43.1    0.087 
+  UniRef90_A0A1T2L5X2 Uncharacterized protein n=2 Tax=Solemya vel...  42.7    0.088 
+  UniRef90_C8S1B1 HupH hydrogenase expression protein n=1 Tax=Rho...  42.4    0.090 
+  UniRef90_UPI00047B5BD9 hypothetical protein n=1 Tax=Methylomona...  42.7    0.091 
+  UniRef90_A0A2D5PEY1 Hydrogenase expression protein HupH n=1 Tax...  42.7    0.098 
+  UniRef90_A0A1E2ZAD4 Uncharacterized protein n=2 Tax=unclassifie...  42.4    0.11  
+  UniRef90_A0A2E6RGK3 Hydrogenase expression/formation protein n=...  42.4    0.13  
+  UniRef90_A0A1E4NCA6 Uncharacterized protein n=1 Tax=Thiobacillu...  42.0    0.15  
+  UniRef90_UPI000B4B77EB hydrogenase expression/formation protein...  42.0    0.15  
+  UniRef90_A0A351SJX9 Hydrogenase expression/formation protein (F...  41.6    0.17  
+  UniRef90_A0A258F9I1 Hydrogenase expression/formation protein n=...  41.6    0.22  
+  UniRef90_D3RV30 HupH hydrogenase expression protein n=1 Tax=All...  42.0    0.22  
+  UniRef90_A0A3E4ZT89 DNA helicase n=2 Tax=Parabacteroides TaxID=...  43.5    0.22  
+  UniRef90_W0DC31 HupH hydrogenase expression protein n=1 Tax=The...  41.2    0.24  
+  UniRef90_UPI000F611B87 hydrogenase expression/formation protein...  41.2    0.28  
+  UniRef90_A0A1Z4VSP2 Uncharacterized protein n=2 Tax=unclassifie...  41.2    0.30  
+  UniRef90_A0A1S7LDH4 Uncharacterized protein n=1 Tax=magneto-ovo...  40.8    0.35  
+  UniRef90_A0A0S4N4J1 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  40.4    0.37  
+  UniRef90_UPI000990E4DE hypothetical protein n=1 Tax=Chromatiace...  40.8    0.38  
+  UniRef90_A0A363SIF2 Hydrogenase expression protein HupH n=1 Tax...  40.4    0.42  
+  UniRef90_A0A2N2TS49 Hydrogenase expression protein HupH n=1 Tax...  40.4    0.43  
+  UniRef90_A0A0S4MY30 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  40.4    0.44  
+  UniRef90_A0A1G7JJ87 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  40.4    0.50  
+  UniRef90_A0A3M1C5M6 Uncharacterized protein n=1 Tax=Alphaproteo...  40.4    0.59  
+  UniRef90_UPI000FD7EB41 hydrogenase expression/formation protein...  40.4    0.62  
+  UniRef90_A0A131XTG1 Uncharacterized protein (Fragment) n=1 Tax=...  41.6    0.63  
+  UniRef90_A0A2A4XHQ5 Diguanylate phosphodiesterase n=1 Tax=Ocean...  42.0    0.68  
+  UniRef90_V5HX98 Uncharacterized protein (Fragment) n=1 Tax=Ixod...  41.6    0.88  
+  UniRef90_A0A1K2AJW7 Uncharacterized protein n=18 Tax=Pseudomona...  41.2    0.95  
+  UniRef90_A0A2M7MYA8 Hydrogenase expression/formation protein n=...  39.7    1.1   
+  UniRef90_A0A1E5Q7A2 Uncharacterized protein n=2 Tax=Magnetovibr...  39.3    1.2   
+  UniRef90_A0A1Y6DBN2 Hydrogenase-1 operon protein HyaF (Fragment...  40.4    1.2   
+  UniRef90_A0A1G5PM05 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  38.9    1.9   
+  UniRef90_I3YC98 HupH hydrogenase expression protein n=1 Tax=Thi...  38.9    2.1   
+  UniRef90_G2FIG4 Hydrogenase expression protein HupH n=3 Tax=sul...  38.1    2.2   
+  UniRef90_A0A075KDT0 HupH hydrogenase expression protein n=2 Tax...  38.1    2.4   
+  UniRef90_A0A2G2R4K6 Hydrogenase expression protein HupH n=1 Tax...  38.5    2.4   
+  UniRef90_UPI0009E6B805 hypothetical protein n=1 Tax=Pseudoruege...  38.9    3.0   
+  UniRef90_V9GX32 Exostosin-2 n=3 Tax=Muridae TaxID=10066 RepID=V...  40.0    3.1   
+  UniRef90_P70428 Exostosin-2 n=33 Tax=Amniota TaxID=32524 RepID=...  40.0    3.2   
+  UniRef90_E9Q1M5 Exostosin-2 n=2 Tax=Muroidea TaxID=337687 RepID...  39.7    3.3   
+  UniRef90_A0A353Y081 Hydrogenase accessory protein HupE n=1 Tax=...  38.1    3.4   
+  UniRef90_G1LDS1 Uncharacterized protein n=6 Tax=Amniota TaxID=3...  39.7    3.6   
+  UniRef90_E9PTT2 Exostoses (Multiple) 2 (Predicted) n=2 Tax=Bore...  39.7    4.3   
+  UniRef90_B7Z431 cDNA FLJ51510, highly similar to Exostosin-2 n=...  39.3    4.4   
+  UniRef90_A0A2N2AJJ3 Hydrogenase expression/formation protein n=...  37.7    4.5   
+  UniRef90_UPI0000D7787D exostosin-2 isoform 3 n=2 Tax=Glires Tax...  39.3    4.5   
+  UniRef90_A0A1D8K6J2 Uncharacterized protein n=1 Tax=Acidihaloba...  37.7    4.8   
+  UniRef90_Q93063 Exostosin-2 n=259 Tax=Amniota TaxID=32524 RepID...  39.3    4.9   
+  UniRef90_UPI000F739B9D exostosin-2 isoform X3 n=1 Tax=Cricetulu...  39.3    5.0   
+  UniRef90_A0A1H2R1E8 Hydrogenase-1 operon protein HyaF n=2 Tax=T...  37.7    5.6   
+  UniRef90_A0A1V2DWT7 Diguanylate phosphodiesterase n=2 Tax=Gamma...  38.9    5.6   
+  UniRef90_A0A163X442 Photosystem I assembly protein Ycf3 n=1 Tax...  38.9    6.4   
+  UniRef90_A0A151APF0 L-2-hydroxyglutarate oxidase LhgO n=2 Tax=C...  38.9    6.4   
+  UniRef90_A0A1V6FU08 Uncharacterized protein n=1 Tax=Alphaproteo...  37.4    6.8   
+  UniRef90_E6QTI1 Uncharacterized protein n=1 Tax=mine drainage m...  37.4    7.2   
+  UniRef90_W9V8F3 Hydrogenase maturation factor HoxQ n=1 Tax=Imho...  37.4    7.6   
+  UniRef90_A0A3C0R1C1 Uncharacterized protein n=1 Tax=Spartobacte...  38.5    8.0   
+  UniRef90_A0A1U7UE72 exostosin-2-like n=1 Tax=Tarsius syrichta T...  38.5    8.3   
+  UniRef90_A0A2K6RMI5 Exostosin glycosyltransferase 2 n=5 Tax=Bor...  38.5    8.6   
+  UniRef90_A0A349W7Y8 ABC transporter permease n=3 Tax=Burkholder...  37.7    9.6   
+  UniRef90_A0A1Y0GAP9 Uncharacterized protein n=1 Tax=Sulfuriferu...  37.0    9.8   
+  UniRef90_A0A258H477 GNAT family N-acetyltransferase n=1 Tax=Sph...  37.0    9.8   
+  UniRef90_F6YVZ1 Exostosin glycosyltransferase 2 n=3 Tax=Amniota...  38.1    10.0  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2273341118040
+Warning: [psiblast] lcl|Query_1 NP_415496.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415496.1
+
+Length=285
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P19932 Hydrogenase-1 operon protein HyaF n=147 Tax=Pro...  387     2e-133
+  UniRef90_W0AJV4 Hydrogenase-1 operon protein HyaF n=24 Tax=Esch...  376     7e-129
+  UniRef90_A0A0H2UYJ7 Hydrogenase-1 operon protein hyaF n=576 Tax...  364     2e-123
+  UniRef90_A0A076LPX1 Hydrogenase maturation factor HoxQ n=8 Tax=...  354     3e-120
+  UniRef90_D4F1X1 HupH hydrogenase expression protein, C-terminal...  353     1e-119
+  UniRef90_UPI000EF2248C hydrogenase expression/formation protein...  350     9e-119
+  UniRef90_A0A090TYS2 NiFe-hydrogenase 1 nickel incorporation pro...  348     5e-118
+  UniRef90_UPI0005C699EA hydrogenase expression/formation protein...  347     8e-118
+  UniRef90_A0A0K0HBF3 Hydrogenase-1 operon protein HyaF n=314 Tax...  347     1e-117
+  UniRef90_A0A0J1PN72 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  346     4e-117
+  UniRef90_UPI0003FDFAA9 hydrogenase expression/formation protein...  328     5e-110
+  UniRef90_UPI000E0DE37D hydrogenase expression/formation protein...  323     5e-108
+  UniRef90_UPI00037CE3B9 hydrogenase expression/formation protein...  323     5e-108
+  UniRef90_F5RGC2 Hydrogenase expression/formation protein hoxQ n...  320     6e-107
+  UniRef90_UPI000F8CD7ED UPI000F8CD7ED related cluster n=1 Tax=un...  319     2e-106
+  UniRef90_A2SJN4 Hydrogenase expression/formation protein, putat...  319     2e-106
+  UniRef90_A0A2E0IV91 Hydrogenase expression/formation protein n=...  318     3e-106
+  UniRef90_A0A2E2RRU3 Hydrogenase expression/formation protein n=...  318     4e-106
+  UniRef90_A0A2S6GID7 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  317     7e-106
+  UniRef90_A0A177NNX6 Hydrogenase expression protein HupH n=1 Tax...  317     8e-106
+  UniRef90_A0A1J5C6X4 Hydrogenase expression/formation protein n=...  316     2e-105
+  UniRef90_G3J1A8 HupH hydrogenase expression protein n=4 Tax=Met...  316     2e-105
+  UniRef90_A0A3E1R6V0 Hydrogenase expression/formation protein n=...  316     2e-105
+  UniRef90_A0A1Z4C3B7 Hydrogenase expression/formation protein n=...  316     2e-105
+  UniRef90_P31911 Hydrogenase expression/formation protein HoxQ n...  315     5e-105
+  UniRef90_A1VNP9 HupH hydrogenase expression protein n=1 Tax=Pol...  315     5e-105
+  UniRef90_A0A2N0V432 Hydrogenase expression/formation protein n=...  315     6e-105
+  UniRef90_UPI0004858573 hydrogenase expression/formation protein...  315     8e-105
+  UniRef90_A0A1F4M618 Hydrogenase n=1 Tax=Burkholderiales bacteri...  315     8e-105
+  UniRef90_UPI0003A19FF8 hydrogenase expression/formation protein...  315     8e-105
+  UniRef90_A0A254N3S3 Hydrogenase expression/formation protein n=...  314     9e-105
+  UniRef90_A0A257JSQ2 Hydrogenase expression/formation protein n=...  314     2e-104
+  UniRef90_A0A1B3LK83 Uncharacterized protein n=5 Tax=Betaproteob...  314     3e-104
+  UniRef90_A0A2S5T571 Hydrogenase expression/formation protein n=...  313     4e-104
+  UniRef90_UPI000648AECE hydrogenase expression/formation protein...  312     5e-104
+  UniRef90_A0A0F3KTK1 Uncharacterized protein n=6 Tax=Aquitalea T...  312     9e-104
+  UniRef90_A0A2X1PVM3 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  311     2e-103
+  UniRef90_UPI00061BDA35 hydrogenase expression/formation protein...  307     2e-102
+  UniRef90_A0A3M1VA23 Hydrogenase expression/formation protein n=...  308     4e-102
+  UniRef90_A0A0F3IJA5 Hydrogenase expression protein HupH n=1 Tax...  307     4e-102
+  UniRef90_A0A3C0KD41 Hydrogenase expression/formation protein n=...  307     5e-102
+  UniRef90_A0A074K327 Hydrogenase accessory protein HypB n=1 Tax=...  307     5e-102
+  UniRef90_A0A1E7ZDF7 Hydrogenase n=1 Tax=Alteromonas confluentis...  307     7e-102
+  UniRef90_UPI00036CE8EC hypothetical protein n=1 Tax=Thiolinea d...  307     1e-101
+  UniRef90_UPI00041CC8EF hydrogenase expression/formation protein...  307     2e-101
+  UniRef90_A0A085TXM5 Hydrogenase expression/formation protein Hu...  305     3e-101
+  UniRef90_A0A2X1L888 Hydrogenase-1 operon protein HyaF n=2 Tax=E...  304     3e-101
+  UniRef90_A0A0Q0THN9 Hydrogenase n=1 Tax=Acidovorax sp. SD340 Ta...  306     4e-101
+  UniRef90_A0A1T1AYS8 Hydrogenase expression/formation protein n=...  306     4e-101
+  UniRef90_I0HV85 Hydrogenase expression/formation protein HupH n...  305     8e-101
+  UniRef90_A0A238D161 Hydrogenase expression/formation protein Ho...  304     8e-101
+  UniRef90_A0A2W7HKR9 Hydrogenase-1 operon protein HyaF n=1 Tax=V...  304     2e-100
+  UniRef90_UPI0007E5A663 hydrogenase expression/formation protein...  304     2e-100
+  UniRef90_A0A1N7KZ03 Hydrogenase-1 operon protein HyaF n=2 Tax=R...  303     2e-100
+  UniRef90_A0A1G8FHZ5 Hydrogenase-1 operon protein HyaF n=3 Tax=V...  303     3e-100
+  UniRef90_Q03007 Hydrogenase expression/formation protein HupH n...  302     6e-100
+  UniRef90_A0A1V4CDR4 Hydrogenase n=4 Tax=Hydrogenophaga TaxID=47...  302     6e-100
+  UniRef90_A0A1I3NHA2 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  302     8e-100
+  UniRef90_A0A0Q4Y4A0 Hydrogenase n=1 Tax=Pseudorhodoferax sp. Le...  302     8e-100
+  UniRef90_A0A3N7C6J2 Hydrogenase expression/formation protein n=...  302     9e-100
+  UniRef90_UPI00067C5ACD hydrogenase expression/formation protein...  302     9e-100
+  UniRef90_UPI000EAD47E4 hydrogenase expression/formation protein...  302     1e-99 
+  UniRef90_A0A177NPH0 Hydrogenase expression protein HupH n=2 Tax...  301     1e-99 
+  UniRef90_A0A0F7K3F1 Hydrogenase expression protein HupH n=1 Tax...  302     1e-99 
+  UniRef90_W1IAI0 Hydrogenase expression/formation hupH (Fragment...  302     1e-99 
+  UniRef90_G0A2K7 HupH hydrogenase expression protein n=1 Tax=Met...  301     2e-99 
+  UniRef90_A0A086XVW0 Hydrogenase accessory protein HypB n=1 Tax=...  300     2e-99 
+  UniRef90_A0A285PI98 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  302     3e-99 
+  UniRef90_A0A160SM71 Hydrogenase expression/formation protein Ho...  301     3e-99 
+  UniRef90_A0A366J9K5 Hydrogenase-1 operon protein HyaF n=4 Tax=R...  300     5e-99 
+  UniRef90_A0A2S5Q067 Hydrogenase expression/formation protein n=...  299     6e-99 
+  UniRef90_A0A1E8FDX5 Hydrogenase n=1 Tax=Alteromonas lipolytica ...  300     6e-99 
+  UniRef90_H5WMQ6 HupH hydrogenase expression protein n=1 Tax=Bur...  300     7e-99 
+  UniRef90_A0A2P5L6I7 Hydrogenase expression/formation protein n=...  299     9e-99 
+  UniRef90_A0A1D9MGG9 Hydrogenase expression/formation protein n=...  299     1e-98 
+  UniRef90_A0A2K9L6Z8 Uncharacterized protein n=3 Tax=Rhodocyclal...  299     1e-98 
+  UniRef90_A0A058ZKH3 HupH hydrogenase expression protein n=1 Tax...  298     2e-98 
+  UniRef90_N0B552 HupH hydrogenase expression protein n=1 Tax=Hyp...  298     3e-98 
+  UniRef90_B2IJ35 HupH hydrogenase expression protein n=1 Tax=Bei...  298     3e-98 
+  UniRef90_UPI0009314075 hydrogenase expression/formation protein...  298     3e-98 
+  UniRef90_A0A1H9FUZ0 Hydrogenase-1 operon protein HyaF n=1 Tax=A...  298     4e-98 
+  UniRef90_A0A2T9ZNY5 Hydrogenase expression/formation protein n=...  297     4e-98 
+  UniRef90_A0A2A4UHN8 Hydrogenase expression/formation protein n=...  297     5e-98 
+  UniRef90_S5AD96 Hydrogenase expression/formation protein HoxQ n...  297     5e-98 
+  UniRef90_UPI000481EA8E hydrogenase expression/formation protein...  297     7e-98 
+  UniRef90_A0A3P1SX23 Hydrogenase expression/formation protein n=...  297     8e-98 
+  UniRef90_A0A2N6CUT7 Hydrogenase expression/formation protein n=...  297     9e-98 
+  UniRef90_R8API0 Hydrogenase-1 operon protein HyaF, putative n=1...  297     1e-97 
+  UniRef90_A0A2U2CET3 Hydrogenase expression/formation protein n=...  296     1e-97 
+  UniRef90_H0HX69 HupH hydrogenase expression protein n=3 Tax=Mes...  296     1e-97 
+  UniRef90_A0A2W7CKM6 Hydrogenase expression/formation protein n=...  296     1e-97 
+  UniRef90_A0A2A4RFA4 Hydrogenase expression/formation protein n=...  296     1e-97 
+  UniRef90_A0A2G2QFZ9 Hydrogenase expression/formation protein n=...  296     2e-97 
+  UniRef90_A0A2E6SP85 Hydrogenase expression/formation protein n=...  296     2e-97 
+  UniRef90_A0A0K8P856 Hydrogenase maturation factor HoxQ n=1 Tax=...  296     2e-97 
+  UniRef90_A0A2W2BKM1 Hydrogenase expression/formation protein n=...  296     2e-97 
+  UniRef90_Q2BN48 HupH hydrogenase expression/formation protein n...  296     2e-97 
+  UniRef90_A0A2R7P3V2 Hydrogenase expression/formation protein n=...  296     3e-97 
+  UniRef90_A0A1V3SER4 Hydrogenase expression/formation protein n=...  296     3e-97 
+  UniRef90_UPI000FDBB672 hydrogenase expression/formation protein...  295     4e-97 
+  UniRef90_A0A1B8T1B2 Hydrogenase n=3 Tax=Pseudomonas TaxID=286 R...  295     4e-97 
+  UniRef90_Q1LNV1 HoxQ protein involved in nickel incorporation i...  295     5e-97 
+  UniRef90_UPI000831E1BF hydrogenase expression/formation protein...  295     5e-97 
+  UniRef90_A0A238JJ18 Uncharacterized protein n=1 Tax=Confluentim...  294     7e-97 
+  UniRef90_I1AUH4 HupH hydrogenase expression protein n=2 Tax=Rho...  294     8e-97 
+  UniRef90_A0A2E0A2H0 Hydrogenase expression/formation protein n=...  294     9e-97 
+  UniRef90_UPI0008343D12 hydrogenase expression/formation protein...  295     9e-97 
+  UniRef90_A0A0U3PGC9 Hydrogenase accessory protein HypB n=5 Tax=...  294     1e-96 
+  UniRef90_A0A2D4USM4 Hydrogenase expression/formation protein n=...  293     1e-96 
+  UniRef90_A0A167IQG1 Hydrogenase expression/formation protein n=...  293     2e-96 
+  UniRef90_A4WXY5 Hydrogenase-1 expression HyaE n=3 Tax=Rhodobact...  293     3e-96 
+  UniRef90_Q3J0L1 HupH hydrogenase expression/formation protein n...  292     3e-96 
+  UniRef90_UPI000F74FD73 hydrogenase expression/formation protein...  293     3e-96 
+  UniRef90_A0A318LJW4 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  293     3e-96 
+  UniRef90_A0A2G2I441 Hydrogenase expression/formation protein n=...  293     3e-96 
+  UniRef90_E3I2G3 HupH hydrogenase expression protein n=3 Tax=Rho...  292     4e-96 
+  UniRef90_A0A1E2ZJR9 Uncharacterized protein n=2 Tax=unclassifie...  293     4e-96 
+  UniRef90_UPI00045E91F3 hydrogenase expression/formation protein...  292     4e-96 
+  UniRef90_A0A238JB50 Uncharacterized protein n=1 Tax=Tropicibact...  292     4e-96 
+  UniRef90_A0A1H6BN92 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  292     4e-96 
+  UniRef90_A0A1D3JYM9 Hydrogenase expression/formation protein Ho...  293     4e-96 
+  UniRef90_UPI000BA2E142 hydrogenase expression/formation protein...  292     5e-96 
+  UniRef90_UPI00066FE3E2 hydrogenase expression/formation protein...  292     6e-96 
+  UniRef90_A0A2T5BS91 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  292     7e-96 
+  UniRef90_A0A081YD81 Hydrogenase n=5 Tax=Pseudomonas TaxID=286 R...  292     7e-96 
+  UniRef90_UPI000C8025E1 hydrogenase expression/formation protein...  291     7e-96 
+  UniRef90_A0A1V0I0I9 Hydrogenase expression/formation protein n=...  291     8e-96 
+  UniRef90_S6BM00 Hydrogenase expression/formation protein n=1 Ta...  292     9e-96 
+  UniRef90_A0A239C351 Hydrogenase-1 operon protein HyaF n=3 Tax=P...  292     1e-95 
+  UniRef90_A0A2T5UIQ4 Hydrogenase-1 operon protein HyaF n=4 Tax=R...  291     1e-95 
+  UniRef90_UPI00099136E9 hypothetical protein n=1 Tax=Chromatiace...  292     1e-95 
+  UniRef90_A0A2E3FBG5 Hydrogenase expression/formation protein n=...  291     1e-95 
+  UniRef90_A0A1I4Q0W1 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  291     1e-95 
+  UniRef90_A0A2K9JNR6 Hydrogenase expression/formation protein n=...  291     1e-95 
+  UniRef90_A0A0F4QND4 Hydrogenase accessory protein HypB n=5 Tax=...  291     2e-95 
+  UniRef90_P95499 HupH protein n=2 Tax=Proteobacteria TaxID=1224 ...  291     2e-95 
+  UniRef90_A0A3A4RMN1 Hydrogenase expression/formation protein n=...  291     2e-95 
+  UniRef90_UPI00034DD6DA hydrogenase expression/formation protein...  291     2e-95 
+  UniRef90_UPI00082FB89F hydrogenase expression/formation protein...  291     2e-95 
+  UniRef90_A0A3B9NWF5 Hydrogenase expression/formation protein n=...  290     3e-95 
+  UniRef90_A0A1U9JLU8 Uncharacterized protein n=2 Tax=Aquaspirill...  290     4e-95 
+  UniRef90_UPI00041985B6 hydrogenase expression/formation protein...  290     4e-95 
+  UniRef90_A0A2T6N947 Hydrogenase expression/formation protein n=...  290     4e-95 
+  UniRef90_A0A059KMI3 Hydrogenase expression/formation protein Hu...  291     4e-95 
+  UniRef90_Q0FRA4 HupH hydrogenase expression/formation protein n...  289     6e-95 
+  UniRef90_A0A1E2UUS3 Uncharacterized protein n=2 Tax=Candidatus ...  289     7e-95 
+  UniRef90_G2DY96 HupH hydrogenase expression protein n=1 Tax=Thi...  289     7e-95 
+  UniRef90_UPI0004093EAF hydrogenase expression/formation protein...  291     7e-95 
+  UniRef90_A0A2U8FNG3 Hydrogenase expression/formation protein n=...  290     8e-95 
+  UniRef90_UPI000361CD47 hydrogenase expression/formation protein...  289     9e-95 
+  UniRef90_A0A2Z4PA46 Hydrogenase expression/formation protein n=...  289     9e-95 
+  UniRef90_A0A1I3QRD8 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  289     1e-94 
+  UniRef90_A0A136HM52 Hydrogenase n=1 Tax=Neptuniibacter sp. Phe_...  289     1e-94 
+  UniRef90_A0A2S2CYW8 Hydrogenase expression/formation protein n=...  289     1e-94 
+  UniRef90_D5WZY2 HupH hydrogenase expression protein n=1 Tax=Thi...  289     1e-94 
+  UniRef90_A0A0B3SJL8 HupH hydrogenase expression protein n=5 Tax...  289     1e-94 
+  UniRef90_A0A379Q296 Hydrogenase-1 operon protein HyaF2 n=350 Ta...  291     1e-94 
+  UniRef90_UPI000FDACC3A UPI000FDACC3A related cluster n=1 Tax=un...  288     2e-94 
+  UniRef90_A0A285CP37 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  288     2e-94 
+  UniRef90_A0A2T7UL22 Hydrogenase expression/formation protein n=...  288     2e-94 
+  UniRef90_A0A2E3CWZ7 Hydrogenase expression/formation protein n=...  289     2e-94 
+  UniRef90_A0A1H5UIX5 Hydrogenase-1 operon protein HyaF n=1 Tax=J...  288     2e-94 
+  UniRef90_A0A318E8P0 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  289     2e-94 
+  UniRef90_A0A369CHU1 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  288     2e-94 
+  UniRef90_A0A081G4G6 Hydrogenase maturation factor HoxQ n=1 Tax=...  288     3e-94 
+  UniRef90_D0D929 Hydrogenase expression/formation protein HupH n...  287     3e-94 
+  UniRef90_A0A1M5MJY8 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  287     3e-94 
+  UniRef90_UPI000BAA9E79 hydrogenase expression/formation protein...  287     3e-94 
+  UniRef90_A0A1J5RWD1 Uncharacterized protein n=2 Tax=mine draina...  288     4e-94 
+  UniRef90_A0A2R8ATM0 Uncharacterized protein n=1 Tax=Primorskyib...  287     4e-94 
+  UniRef90_A0A3L7AFD0 Hydrogenase expression/formation protein n=...  287     4e-94 
+  UniRef90_Q43957 Hydrogenase expression/formation protein HupQ n...  287     5e-94 
+  UniRef90_A0A1H9FXY6 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  288     5e-94 
+  UniRef90_UPI000E65A017 hydrogenase expression/formation protein...  287     5e-94 
+  UniRef90_A0A1M5B265 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  287     6e-94 
+  UniRef90_A0A1V0PX27 Hydrogenase maturation factor HoxQ n=1 Tax=...  287     6e-94 
+  UniRef90_A0A2E3PD07 Hydrogenase expression/formation protein n=...  286     8e-94 
+  UniRef90_A0A0P7VR02 Hydrogenase expression protein HyaF n=1 Tax...  286     8e-94 
+  UniRef90_A0A2E0HHA7 Hydrogenase expression/formation protein n=...  286     1e-93 
+  UniRef90_A0A316L8X9 Hydrogenase expression/formation protein n=...  286     1e-93 
+  UniRef90_A0A2U1VUK5 Hydrogenase accessory protein HypB n=1 Tax=...  286     1e-93 
+  UniRef90_A0A2E2KNF8 Hydrogenase expression/formation protein n=...  286     2e-93 
+  UniRef90_A0A2D9YKS7 Hydrogenase expression/formation protein n=...  286     2e-93 
+  UniRef90_A0A251X0H6 Hydrogenase expression/formation protein n=...  285     2e-93 
+  UniRef90_A0A1I1N2Z3 Hydrogenase-1 operon protein HyaF n=1 Tax=P...  285     3e-93 
+  UniRef90_A0A1H5YWE0 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  285     3e-93 
+  UniRef90_UPI00048EBDC7 hydrogenase expression/formation protein...  285     3e-93 
+  UniRef90_A6E4C4 HupH hydrogenase expression/formation protein n...  284     5e-93 
+  UniRef90_UPI0004949BA7 hydrogenase expression/formation protein...  285     5e-93 
+  UniRef90_UPI0008370B5A hydrogenase expression/formation protein...  284     6e-93 
+  UniRef90_UPI000F666087 hydrogenase expression/formation protein...  284     6e-93 
+  UniRef90_S9Q8G3 Hydrogenase maturation factor HoxQ n=1 Tax=Sali...  284     7e-93 
+  UniRef90_A0A3D2FE19 Hydrogenase expression/formation protein n=...  284     7e-93 
+  UniRef90_A0A2W5QZE4 Hydrogenase expression/formation protein n=...  284     8e-93 
+  UniRef90_A0A285RMB5 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  284     8e-93 
+  UniRef90_A0A2T0WLW7 Hydrogenase-1 operon protein HyaF n=1 Tax=D...  284     9e-93 
+  UniRef90_A0A0S6WXE1 HupH hydrogenase expression protein n=1 Tax...  284     1e-92 
+  UniRef90_A0A0S8FJA1 Uncharacterized protein n=1 Tax=Gammaproteo...  284     1e-92 
+  UniRef90_UPI0004A6D2BC hydrogenase expression/formation protein...  284     1e-92 
+  UniRef90_A0A063BK39 HupH hydrogenase expression protein n=1 Tax...  284     1e-92 
+  UniRef90_A0A2D5PGM0 Hydrogenase expression/formation protein n=...  284     1e-92 
+  UniRef90_A0A317EAH6 Hydrogenase expression/formation protein n=...  284     1e-92 
+  UniRef90_UPI000B4B6D07 hydrogenase expression/formation protein...  284     1e-92 
+  UniRef90_A0A1G8LJD3 Hydrogenase-1 operon protein HyaF n=1 Tax=P...  284     1e-92 
+  UniRef90_A3KAF2 HupH hydrogenase expression/formation protein n...  283     1e-92 
+  UniRef90_A0A2E9DCT7 Hydrogenase expression/formation protein n=...  284     1e-92 
+  UniRef90_A0A0P1GIS0 Uncharacterized protein n=1 Tax=Tropicibact...  283     2e-92 
+  UniRef90_A0A2U8GN69 Hydrogenase expression/formation protein n=...  282     3e-92 
+  UniRef90_A1B6P1 HupH hydrogenase expression protein n=4 Tax=Rho...  282     3e-92 
+  UniRef90_C8S276 HupH hydrogenase expression protein n=1 Tax=Rho...  282     4e-92 
+  UniRef90_A0A1M4N475 Hydrogenase expression/formation protein Hu...  282     4e-92 
+  UniRef90_F1Z423 HupH hydrogenase expression/formation protein n...  282     5e-92 
+  UniRef90_A0A353Y834 Hydrogenase expression/formation protein n=...  282     5e-92 
+  UniRef90_G7ZE62 Hydrogenase expression/formation protein hupH n...  282     5e-92 
+  UniRef90_A0P1N4 HupH hydrogenase expression/formation protein n...  282     6e-92 
+  UniRef90_A0A2U1WY43 Hydrogenase accessory protein HypB n=8 Tax=...  282     7e-92 
+  UniRef90_V4PIQ0 Uncharacterized protein n=1 Tax=Asticcacaulis s...  281     8e-92 
+  UniRef90_W9V745 Hydrogenase maturation factor HoxQ n=1 Tax=Imho...  281     8e-92 
+  UniRef90_UPI0004974799 hydrogenase expression/formation protein...  281     1e-91 
+  UniRef90_A0A2X2J1U0 Hydrogenase-1 operon protein hyaF n=6 Tax=E...  279     1e-91 
+  UniRef90_A0A317E8J7 Hydrogenase expression/formation protein n=...  281     1e-91 
+  UniRef90_UPI00048B0FE8 hydrogenase expression/formation protein...  281     1e-91 
+  UniRef90_UPI000BBE8F79 hydrogenase expression/formation protein...  281     1e-91 
+  UniRef90_A0A2D8AA75 Hydrogenase expression/formation protein n=...  282     1e-91 
+  UniRef90_A0A375FHX5 Hydrogenase expression/formation protein Ho...  281     2e-91 
+  UniRef90_A0A0D6B682 Hydrogenase-1 expression HyaE n=4 Tax=Rhodo...  281     2e-91 
+  UniRef90_A0A1B8V1N3 Hydrogenase n=1 Tax=Pseudomonas sp. AU11447...  281     2e-91 
+  UniRef90_A0A066ZLR7 Uncharacterized protein n=1 Tax=Hydrogenovi...  281     2e-91 
+  UniRef90_A0A2E2JSZ2 Hydrogenase expression/formation protein n=...  281     2e-91 
+  UniRef90_A0A0F2KXD0 Hydrogenase accessory protein HypB n=1 Tax=...  281     2e-91 
+  UniRef90_A0A258IMB3 Hydrogenase expression/formation protein n=...  280     3e-91 
+  UniRef90_UPI000471B371 hydrogenase expression/formation protein...  281     3e-91 
+  UniRef90_A0A1I3IFL9 Hydrogenase-1 operon protein HyaF n=1 Tax=A...  280     3e-91 
+  UniRef90_A0A1B1PLR8 Hydrogenase accessory protein HypB n=1 Tax=...  280     3e-91 
+  UniRef90_A0A2K8U2G5 Uncharacterized protein n=1 Tax=Candidatus ...  280     4e-91 
+  UniRef90_A0A2T4IJ68 Hydrogenase expression/formation protein n=...  280     5e-91 
+  UniRef90_A0A252B3L0 Hydrogenase accessory protein HypB n=2 Tax=...  280     6e-91 
+  UniRef90_A0A353V037 Hydrogenase expression/formation protein n=...  279     7e-91 
+  UniRef90_A0A1D8K912 Uncharacterized protein n=1 Tax=Acidihaloba...  279     9e-91 
+  UniRef90_A1KC55 Hydrogenase-1 operon protein hupH n=2 Tax=Azoar...  279     1e-90 
+  UniRef90_A0A2Y9A1H4 Hydrogenase-1 operon protein HyaF n=1 Tax=J...  278     1e-90 
+  UniRef90_UPI0005530773 hydrogenase expression/formation protein...  279     1e-90 
+  UniRef90_A7IHD0 HupH hydrogenase expression protein n=1 Tax=Xan...  278     1e-90 
+  UniRef90_A0A358B4W3 Hydrogenase expression/formation protein n=...  278     2e-90 
+  UniRef90_UPI0003768DCD hydrogenase expression/formation protein...  279     2e-90 
+  UniRef90_S5MVQ4 Hydrogenase maturation factor HoxQ /Hydrogenase...  281     2e-90 
+  UniRef90_A0A3D0G7Y9 Hydrogenase expression/formation protein n=...  277     4e-90 
+  UniRef90_A0A357IFG6 Hydrogenase expression/formation protein n=...  277     5e-90 
+  UniRef90_A0A1N7L9Z0 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  277     5e-90 
+  UniRef90_I3CFD5 HupH hydrogenase expression protein n=1 Tax=Beg...  277     5e-90 
+  UniRef90_UPI000DD41D1C hydrogenase expression/formation protein...  276     1e-89 
+  UniRef90_UPI00055FE50A hydrogenase expression/formation protein...  276     1e-89 
+  UniRef90_UPI000F8CA6EC hydrogenase expression/formation protein...  276     2e-89 
+  UniRef90_A0A0S8F0S5 Uncharacterized protein n=1 Tax=Gammaproteo...  276     2e-89 
+  UniRef90_A0A1X7NA65 Hydrogenase-1 operon protein HyaF n=1 Tax=A...  276     2e-89 
+  UniRef90_A0A2Z6TVS9 Hydrogenase expression/formation protein n=...  275     3e-89 
+  UniRef90_UPI00036A4C1D hydrogenase expression/formation protein...  275     5e-89 
+  UniRef90_A0A0S7Z598 Uncharacterized protein n=1 Tax=Gammaproteo...  274     6e-89 
+  UniRef90_A0A371Z4E2 Hydrogenase expression/formation protein n=...  274     1e-88 
+  UniRef90_A0A1E4N5K8 Hydrogenase expression protein HupH n=1 Tax...  273     1e-88 
+  UniRef90_P40594 Hydrogenase expression/formation protein HoxQ n...  273     1e-88 
+  UniRef90_A0A0A0EC67 Hydrogenase accessory protein HypB n=1 Tax=...  273     2e-88 
+  UniRef90_UPI000E4C9960 hydrogenase expression/formation protein...  273     2e-88 
+  UniRef90_UPI0008FF0F12 hydrogenase expression/formation protein...  273     2e-88 
+  UniRef90_G1Y4V8 Hydrogenase formation protein n=2 Tax=Nitrospir...  273     2e-88 
+  UniRef90_A0A2S6BBS0 Hydrogenase expression/formation protein n=...  273     2e-88 
+  UniRef90_V7EPV5 Hydrogenase accessory protein HypB n=1 Tax=Rhod...  272     2e-88 
+  UniRef90_A0A2N2RAE1 Hydrogenase expression/formation protein n=...  272     4e-88 
+  UniRef90_A8IMS9 Hydrogenase expression/formation protein n=2 Ta...  272     5e-88 
+  UniRef90_A0A1D8ILQ6 Uncharacterized protein n=1 Tax=Acidihaloba...  272     5e-88 
+  UniRef90_A0A2S8RYY5 Hydrogenase-1 operon protein HyaF n=1 Tax=D...  271     7e-88 
+  UniRef90_A0A2T4J8Z3 Hydrogenase expression/formation protein n=...  271     8e-88 
+  UniRef90_UPI000377259D hypothetical protein n=1 Tax=beta proteo...  272     1e-87 
+  UniRef90_A0A2N2VE94 Hydrogenase expression/formation protein n=...  271     1e-87 
+  UniRef90_A0A149VYN5 Uncharacterized protein n=3 Tax=root TaxID=...  271     1e-87 
+  UniRef90_A0A2N9YC11 Uncharacterized protein n=1 Tax=Beggiatoa l...  271     1e-87 
+  UniRef90_H0TX75 Hydrogenase expression/formation protein hupH n...  271     2e-87 
+  UniRef90_A0A1X6ZAS5 Uncharacterized protein n=1 Tax=Pseudoocean...  270     2e-87 
+  UniRef90_A0A1Z9Y4G1 Hydrogenase expression/formation protein n=...  271     2e-87 
+  UniRef90_A0A3L6LVX1 Hydrogenase expression/formation protein n=...  270     4e-87 
+  UniRef90_Q6LB96 Hydrogenase expression/formation protein HupH n...  269     5e-87 
+  UniRef90_UPI000EB05BD3 hydrogenase expression/formation protein...  269     5e-87 
+  UniRef90_M4ZE75 Hydrogenase expression/formation protein HupH n...  269     5e-87 
+  UniRef90_Q478M1 HupH hydrogenase expression protein, C-terminal...  269     8e-87 
+  UniRef90_P28150 Hydrogenase expression/formation protein HupH n...  268     1e-86 
+  UniRef90_A0A285XDJ8 Hydrogenase-1 operon protein HyaF n=3 Tax=R...  268     1e-86 
+  UniRef90_A0A2C9D141 Uncharacterized protein n=1 Tax=Hartmanniba...  268     2e-86 
+  UniRef90_A0A2T4IKX0 Hydrogenase expression/formation protein n=...  268     2e-86 
+  UniRef90_UPI0003F5A61B hydrogenase expression/formation protein...  268     2e-86 
+  UniRef90_A0A3B0M7R0 Uncharacterized protein n=1 Tax=Roseibaca e...  267     2e-86 
+  UniRef90_A0A0P0UPZ6 Hydrogenase-1 operon protein HyaF n=2 Tax=s...  268     2e-86 
+  UniRef90_A0A109JZX9 Hydrogenase accessory protein HypB n=1 Tax=...  268     2e-86 
+  UniRef90_A4YNU1 Hydrogenase expression/formation protein hupH n...  267     3e-86 
+  UniRef90_A0A2M6U9U1 Hydrogenase accessory protein HypB n=1 Tax=...  267     3e-86 
+  UniRef90_A0A2T6AYZ5 Hydrogenase-1 operon protein HyaF n=3 Tax=R...  266     6e-86 
+  UniRef90_UPI00041C94C7 hydrogenase accessory protein HypB n=2 T...  266     8e-86 
+  UniRef90_A0A126SY96 HupH hydrogenase expression protein n=1 Tax...  267     8e-86 
+  UniRef90_A0A2N2QX69 Hydrogenase expression/formation protein n=...  266     9e-86 
+  UniRef90_P48340 Hydrogenase expression/formation protein HupH n...  266     1e-85 
+  UniRef90_I3BNG0 HupH hydrogenase expression protein n=1 Tax=Thi...  266     1e-85 
+  UniRef90_UPI000DD783A2 hydrogenase expression/formation protein...  265     2e-85 
+  UniRef90_UPI0006853E53 hydrogenase expression/formation protein...  266     4e-85 
+  UniRef90_A0A2W5DUT9 Hydrogenase expression/formation protein n=...  265     4e-85 
+  UniRef90_A0A0U5IGS8 Hydrogenase expression protein HupH n=3 Tax...  264     4e-85 
+  UniRef90_A0A1Q5RMV8 Hydrogenase accessory protein HypB n=1 Tax=...  264     5e-85 
+  UniRef90_A0A318TDM8 Hydrogenase-1 operon protein HyaF n=3 Tax=R...  264     5e-85 
+  UniRef90_F8JI04 Hydrogenase expression/formation protein hupH n...  264     7e-85 
+  UniRef90_A0A2Z6HXE5 Uncharacterized protein n=1 Tax=Pleomorphom...  264     7e-85 
+  UniRef90_UPI00040E1174 hydrogenase expression/formation protein...  264     9e-85 
+  UniRef90_UPI0003638EFF hydrogenase expression/formation protein...  264     1e-84 
+  UniRef90_A0A251XB82 Uncharacterized protein n=1 Tax=Thioflexoth...  263     1e-84 
+  UniRef90_A0A292EAU0 Hydrogenase expression/formation protein n=...  263     1e-84 
+  UniRef90_UPI0003F58F9A hydrogenase expression/formation protein...  264     1e-84 
+  UniRef90_A0A323V0Q2 Hydrogenase expression/formation protein n=...  263     2e-84 
+  UniRef90_Q0A722 HupH hydrogenase expression protein n=1 Tax=Alk...  263     2e-84 
+  UniRef90_A0A1B1UKL8 Hydrogenase accessory protein HypB n=3 Tax=...  263     2e-84 
+  UniRef90_A0A176YZ72 Hydrogenase accessory protein HypB n=3 Tax=...  262     3e-84 
+  UniRef90_Q56363 HupH n=1 Tax=Thiocapsa roseopersicina TaxID=105...  262     3e-84 
+  UniRef90_Q07S95 HupH hydrogenase expression protein n=1 Tax=Rho...  262     4e-84 
+  UniRef90_UPI000A04937F hydrogenase expression/formation protein...  262     5e-84 
+  UniRef90_A0A0B4X696 Hydrogenase expression/formation protein Hu...  261     6e-84 
+  UniRef90_UPI000E26A9EF hydrogenase expression/formation protein...  261     7e-84 
+  UniRef90_UPI0007377D41 hydrogenase-1 operon protein HyaF n=4 Ta...  258     1e-83 
+  UniRef90_A0A3N6MYG8 Hydrogenase expression/formation protein n=...  261     1e-83 
+  UniRef90_UPI000A16F659 hypothetical protein n=1 Tax=Derxia lacu...  261     2e-83 
+  UniRef90_A0A1C7HHV3 Hydrogenase n=2 Tax=Burkholderiales TaxID=8...  261     2e-83 
+  UniRef90_A0A3D5SXI4 Hydrogenase expression/formation protein n=...  260     2e-83 
+  UniRef90_UPI000977BF2C hydrogenase expression/formation protein...  260     2e-83 
+  UniRef90_A0A0P6W6K0 Hydrogenase accessory protein HypB n=1 Tax=...  260     3e-83 
+  UniRef90_A0A1G7XHK1 Hydrogenase-1 operon protein HyaF n=1 Tax=B...  260     4e-83 
+  UniRef90_F9U5A7 HupH hydrogenase expression protein n=2 Tax=Thi...  259     4e-83 
+  UniRef90_S5STH0 Hydrogenase expression/formation protein HupH n...  259     6e-83 
+  UniRef90_A0A159Z3F8 HupH hydrogenase expression/formation prote...  259     6e-83 
+  UniRef90_UPI000B878C9D hydrogenase expression/formation protein...  257     6e-83 
+  UniRef90_UPI0001F886B9 hydrogenase accessory protein HypB n=1 T...  259     6e-83 
+  UniRef90_UPI00039D265F hydrogenase expression/formation protein...  259     7e-83 
+  UniRef90_A0A133XFS4 Uncharacterized protein n=1 Tax=Dechloromon...  259     1e-82 
+  UniRef90_UPI0009E6668F hydrogenase expression/formation protein...  258     1e-82 
+  UniRef90_A0A0R3E4P5 Hydrogenase accessory protein HypB n=1 Tax=...  257     1e-82 
+  UniRef90_A0A2A6NSX7 Hydrogenase expression/formation protein n=...  256     1e-82 
+  UniRef90_UPI0009A49D3B hydrogenase expression/formation protein...  258     2e-82 
+  UniRef90_UPI000255FD53 HupH hydrogenase expression protein n=1 ...  258     2e-82 
+  UniRef90_A0A1S2SFW4 Hydrogenase expression/formation protein n=...  257     3e-82 
+  UniRef90_A0A177PMS9 Hydrogenase accessory protein HypB n=4 Tax=...  257     3e-82 
+  UniRef90_A0A1S1T3D7 Hydrogenase accessory protein HypB n=3 Tax=...  257     3e-82 
+  UniRef90_UPI0009C0E73C hydrogenase expression/formation protein...  257     3e-82 
+  UniRef90_A0A2U3QAT7 Hydrogenase expression/formation protein Hu...  257     4e-82 
+  UniRef90_UPI0004098771 hydrogenase expression/formation protein...  257     5e-82 
+  UniRef90_UPI0003F9425C hydrogenase expression/formation protein...  256     7e-82 
+  UniRef90_A0A3G3IPF2 Hydrogenase expression protein HupH n=2 Tax...  257     7e-82 
+  UniRef90_A0A0D7EWJ8 Hydrogenase accessory protein HypB n=1 Tax=...  256     7e-82 
+  UniRef90_A0A1C3VT45 Hydrogenase-1 operon protein HyaF n=4 Tax=B...  256     9e-82 
+  UniRef90_A0A1N7RSY6 Hydrogenase expression/formation protein Ho...  255     1e-81 
+  UniRef90_A0A1R1QZB3 Hydrogenase expression/formation protein n=...  255     1e-81 
+  UniRef90_A0A1H6MTH0 Hydrogenase accessory protein HypB n=1 Tax=...  255     1e-81 
+  UniRef90_UPI000A2F4D5A hydrogenase expression/formation protein...  253     2e-81 
+  UniRef90_UPI000EB40658 hydrogenase expression/formation protein...  255     3e-81 
+  UniRef90_A0A1A5X0S9 Hydrogenase-1 operon protein HyaF n=2 Tax=P...  255     3e-81 
+  UniRef90_UPI00098A6EED hydrogenase expression/formation protein...  254     4e-81 
+  UniRef90_UPI0009AA8EF6 hydrogenase-1 operon protein HyaF2 n=9 T...  253     6e-81 
+  UniRef90_R6AP17 HupH hydrogenase expression protein conserved r...  254     7e-81 
+  UniRef90_A0A250KMQ7 Putative hydrogenase expression/formation p...  253     1e-80 
+  UniRef90_A0A323UGL4 Hydrogenase expression/formation protein n=...  253     1e-80 
+  UniRef90_A0A0R3L348 Hydrogenase accessory protein HypB n=1 Tax=...  253     2e-80 
+  UniRef90_A0A1A6FJ55 Hydrogenase accessory protein HypB n=2 Tax=...  253     2e-80 
+  UniRef90_A0A0R3KSN2 Hydrogenase accessory protein HypB n=6 Tax=...  253     2e-80 
+  UniRef90_A0A117N4A0 Hydrogenase accessory protein HypB n=1 Tax=...  252     2e-80 
+  UniRef90_A0A221KF38 Hydrogenase n=2 Tax=Vitreoscilla filiformis...  254     2e-80 
+  UniRef90_UPI0007323A3E hydrogenase expression/formation protein...  253     3e-80 
+  UniRef90_A0A3G8MCZ1 Hydrogenase expression/formation protein n=...  251     5e-80 
+  UniRef90_UPI000300DE79 hydrogenase expression/formation protein...  251     6e-80 
+  UniRef90_Q13BY2 HupH hydrogenase expression protein n=2 Tax=Rho...  251     6e-80 
+  UniRef90_UPI00047B2CB8 hydrogenase expression/formation protein...  251     7e-80 
+  UniRef90_Q6NB61 Hydrogenase expression/formation protein hupH n...  251     9e-80 
+  UniRef90_Q1KZW9 HupH n=4 Tax=Bradyrhizobium TaxID=374 RepID=Q1K...  251     1e-79 
+  UniRef90_A0A1Y6D4Z2 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  250     1e-79 
+  UniRef90_A0A1R1I3S7 Uncharacterized protein n=1 Tax=Azonexus hy...  251     1e-79 
+  UniRef90_V4JB78 Uncharacterized protein n=2 Tax=Chromatiaceae T...  256     1e-79 
+  UniRef90_A0A1W1BZ97 Hydrogenase maturation factor HoxQ n=1 Tax=...  250     1e-79 
+  UniRef90_UPI0004099338 hydrogenase expression/formation protein...  250     3e-79 
+  UniRef90_UPI0009AED4EE hydrogenase n=3 Tax=Salmonella enterica ...  249     3e-79 
+  UniRef90_Q60CE7 Putative hydrogenase expression/formation prote...  248     8e-79 
+  UniRef90_UPI0006CF9AD7 hydrogenase expression/formation protein...  249     9e-79 
+  UniRef90_A0A1W6MW91 Hydrogenase expression/formation protein n=...  248     9e-79 
+  UniRef90_A0A1V5EI10 Hydrogenase accessory protein HypB n=1 Tax=...  247     3e-78 
+  UniRef90_A0A212LCI8 Hydrogenase expression/formation protein Hu...  246     4e-78 
+  UniRef90_A0A2E7EUV4 Hydrogenase expression/formation protein n=...  246     9e-78 
+  UniRef90_B2JX95 HupH hydrogenase expression protein n=5 Tax=Par...  246     1e-77 
+  UniRef90_UPI000DF1825E hydrogenase expression/formation protein...  245     1e-77 
+  UniRef90_A0A0N0KJP5 Hydrogenase accessory protein HypB n=1 Tax=...  245     2e-77 
+  UniRef90_F8XQ71 HupH hydrogenase expression protein n=2 Tax=Aci...  243     5e-77 
+  UniRef90_UPI000404F0A2 hydrogenase expression/formation protein...  243     6e-77 
+  UniRef90_A0A259PI90 Uncharacterized protein (Fragment) n=1 Tax=...  241     6e-77 
+  UniRef90_UPI000E65898F hydrogenase expression/formation protein...  245     8e-77 
+  UniRef90_J7QQP7 HupH hydrogenase expression protein n=2 Tax=Met...  243     8e-77 
+  UniRef90_A0A395CUM1 Hydrogenase expression/formation protein n=...  243     1e-76 
+  UniRef90_A0A327L644 Hydrogenase expression/formation protein n=...  242     3e-76 
+  UniRef90_A0A1C3XES9 Hydrogenase-1 operon protein HyaF n=5 Tax=B...  242     4e-76 
+  UniRef90_UPI000FE412B8 hydrogenase expression/formation protein...  239     1e-75 
+  UniRef90_UPI0003773AFC hypothetical protein n=1 Tax=Thioalkaliv...  240     1e-75 
+  UniRef90_A0A327KGQ1 Hydrogenase expression/formation protein n=...  240     2e-75 
+  UniRef90_UPI0004029E45 hydrogenase expression/formation protein...  239     2e-75 
+  UniRef90_UPI00035F163F hydrogenase accessory protein HypB n=1 T...  240     2e-75 
+  UniRef90_W9H0A4 Hydrogenase accessory protein HypB n=1 Tax=Sker...  239     4e-75 
+  UniRef90_I3YF33 HupH hydrogenase expression protein n=1 Tax=Thi...  237     1e-74 
+  UniRef90_A0A1I4QAY1 Hydrogenase expression/formation protein n=...  236     3e-74 
+  UniRef90_A0A2S3YSZ5 Hydrogenase accessory protein HypB n=5 Tax=...  237     3e-74 
+  UniRef90_A0A1G3HIU5 Uncharacterized protein n=2 Tax=unclassifie...  236     5e-74 
+  UniRef90_UPI0004DF5A81 hydrogenase expression/formation protein...  235     1e-73 
+  UniRef90_A0A2W4SZF8 Hydrogenase expression/formation protein n=...  235     1e-73 
+  UniRef90_A0A2S6N5A6 Hydrogenase expression/formation protein n=...  234     3e-73 
+  UniRef90_A0A1L3LAD6 Hydrogenase expression/formation protein Hu...  233     5e-73 
+  UniRef90_A0A212RX46 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  233     7e-73 
+  UniRef90_A0A1J4XEF3 Uncharacterized protein n=1 Tax=Proteobacte...  233     1e-72 
+  UniRef90_J6J508 Hydrogenase maturation factor HoxQ n=1 Tax=Rhod...  233     1e-72 
+  UniRef90_UPI000A11A60E hydrogenase expression/formation protein...  231     4e-72 
+  UniRef90_H8FMT2 Hydrogenase expression/formation protein hupH n...  231     5e-72 
+  UniRef90_Q20ZY5 HupH hydrogenase expression protein n=1 Tax=Rho...  230     1e-71 
+  UniRef90_A0A366F9C2 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  230     1e-71 
+  UniRef90_A0A348G363 Hydrogenase expression/formation protein Hu...  229     3e-71 
+  UniRef90_A0A0H5BH65 Hydrogenase maturation factor HoxQ n=1 Tax=...  227     2e-70 
+  UniRef90_D9PLD0 Hydrogenase expression/formation protein (Fragm...  225     2e-70 
+  UniRef90_A0A0R3CAL2 Hydrogenase accessory protein HypB n=1 Tax=...  223     4e-70 
+  UniRef90_A0A2U1RWR9 Hydrogenase expression/formation protein n=...  226     4e-70 
+  UniRef90_A0A257NU34 Hydrogenase expression/formation protein n=...  225     6e-70 
+  UniRef90_S9SAT9 HupH hydrogenase expression protein n=2 Tax=Pha...  225     7e-70 
+  UniRef90_A0A2M7WDE9 Hydrogenase expression/formation protein n=...  229     8e-70 
+  UniRef90_A0A0A1H8W5 HupH hydrogenase expression protein, C-term...  222     3e-68 
+  UniRef90_Q9ANQ2 Hydrogenase accessory protein HypB n=6 Tax=Brad...  217     6e-68 
+  UniRef90_UPI0005EB63B5 hydrogenase expression/formation protein...  220     1e-67 
+  UniRef90_A0A0F2RSD8 Uncharacterized protein n=1 Tax=Rhodospiril...  216     2e-66 
+  UniRef90_A0A376W177 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  215     3e-66 
+  UniRef90_A0A2A2V3R4 Hydrogenase expression/formation protein n=...  213     3e-66 
+  UniRef90_A0A0D2VWB2 Hydrogenase accessory protein HypB n=2 Tax=...  213     2e-65 
+  UniRef90_A0A2L0WH90 Hydrogenase expression/formation protein Hu...  213     3e-65 
+  UniRef90_A0A1J5PLZ0 Uncharacterized protein n=1 Tax=mine draina...  210     3e-65 
+  UniRef90_A0A2J0RL43 Hydrogenase expression/formation protein (F...  210     6e-65 
+  UniRef90_N6UDV9 Uncharacterized protein n=4 Tax=Rhizobium TaxID...  211     8e-65 
+  UniRef90_K9HQQ3 Hydrogenase maturation factor HoxQ n=1 Tax=Caen...  209     1e-63 
+  UniRef90_A0A2Z3R1E8 Hydrogenase expression/formation protein n=...  208     4e-63 
+  UniRef90_A0A1C2G401 Uncharacterized protein n=2 Tax=Acidiferrob...  205     4e-62 
+  UniRef90_A0A257NL06 Hydrogenase expression/formation protein n=...  201     2e-60 
+  UniRef90_A0A0X8CQD4 Hydrogenase accessory protein HypB n=2 Tax=...  198     2e-60 
+  UniRef90_A0A2N3PSJ3 Hydrogenase expression/formation protein n=...  200     4e-60 
+  UniRef90_A0A161PBH8 Uncharacterized protein n=3 Tax=Marichromat...  198     3e-59 
+  UniRef90_A0A1N7P956 Hydrogenase-1 operon protein HyaF n=1 Tax=I...  197     4e-59 
+  UniRef90_A0A1G6YLL0 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  197     1e-58 
+  UniRef90_A0A1G8B0L9 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  196     3e-58 
+  UniRef90_A0A379TB08 Hydrogenase-1 operon protein HyaF2 n=2 Tax=...  189     3e-56 
+  UniRef90_UPI00085441E7 hypothetical protein n=2 Tax=Escherichia...  189     1e-55 
+  UniRef90_I0IS54 Putative hydrogenase-1 operon protein HyaF2 n=1...  188     3e-55 
+  UniRef90_W0E4B7 Hydrogenase accessory protein HypB n=1 Tax=Mari...  187     4e-55 
+  UniRef90_H8Z5R4 HupH hydrogenase expression protein n=1 Tax=Thi...  185     5e-54 
+  UniRef90_A0A066PQP0 Hydrogenase expression/formation protein Hu...  184     8e-54 
+  UniRef90_UPI000D39039D hydrogenase expression/formation protein...  180     9e-54 
+  UniRef90_A0A2Z6DZ94 Hydrogenase expression/formation protein n=...  181     2e-52 
+  UniRef90_A0A351SJY0 Hydrogenase expression/formation protein (F...  176     4e-52 
+  UniRef90_Q2RV78 Hydrogenase expression/formation protein hupH n...  179     4e-52 
+  UniRef90_A0A286H0M0 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  179     7e-52 
+  UniRef90_A0A2E7E8K5 Uncharacterized protein n=1 Tax=Oceanospiri...  175     7e-52 
+  UniRef90_A0A379TBG1 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  174     2e-51 
+  UniRef90_W7WNZ6 Uncharacterized protein n=1 Tax=Hydrogenophaga ...  167     3e-49 
+  UniRef90_A0A2X4TNC5 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  159     1e-44 
+  UniRef90_A0A379S574 Rubredoxin n=2 Tax=Salmonella enterica subs...  157     1e-44 
+  UniRef90_R7BWP7 HupH hydrogenase expression protein conserved r...  160     3e-44 
+  UniRef90_A0A3N7HTN2 Hydrogenase expression/formation protein (F...  153     8e-44 
+  UniRef90_R7I4Z0 HupH hydrogenase expression protein conserved r...  158     9e-44 
+  UniRef90_A0A352LPX7 Uncharacterized protein n=1 Tax=Sutterella ...  158     1e-43 
+  UniRef90_A0A1W5LCV2 Hydrogenase-1 operon protein n=2 Tax=Methyl...  152     7e-42 
+  UniRef90_A0A2M8DFG2 Hydrogenase expression/formation protein n=...  151     9e-42 
+  UniRef90_K1JJG0 Uncharacterized protein n=2 Tax=Sutterella TaxI...  152     2e-41 
+  UniRef90_R7KGU7 Uncharacterized protein n=1 Tax=Sutterella sp. ...  151     5e-41 
+  UniRef90_I0JY98 Putative HupH hydrogenase expression protein n=...  149     1e-40 
+  UniRef90_A0A2J0R9C4 Hydrogenase expression/formation protein (F...  144     2e-40 
+  UniRef90_UPI00034B32D1 hypothetical protein n=1 Tax=Ideonella s...  149     3e-40 
+  UniRef90_UPI000E499D20 hypothetical protein n=1 Tax=Sutterella ...  148     6e-40 
+  UniRef90_H3KCA7 HupH hydrogenase expression protein, conserved ...  148     1e-39 
+  UniRef90_A0A2Z6IER5 Uncharacterized protein n=1 Tax=Sutterella ...  147     2e-39 
+  UniRef90_A0A377LH26 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  143     2e-39 
+  UniRef90_UPI00068A67C5 hypothetical protein n=1 Tax=Methylacidi...  145     4e-39 
+  UniRef90_A0A379S4W1 Hydrogenase-1 operon protein HyaF2 n=1 Tax=...  140     8e-38 
+  UniRef90_A0A3N6V7L2 Hydrogenase expression/formation protein n=...  139     2e-37 
+  UniRef90_A0A377AUC4 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  136     4e-37 
+  UniRef90_E7H6D6 Uncharacterized protein n=3 Tax=Sutterella TaxI...  140     2e-36 
+  UniRef90_A0A1H6LHF3 HupH hydrogenase expression protein n=1 Tax...  132     6e-36 
+  UniRef90_H6SN22 Hydrogenase expression/formation protein hupH n...  138     2e-35 
+  UniRef90_UPI0009B0C87F hydrogenase n=1 Tax=Salmonella enterica ...  123     1e-31 
+  UniRef90_A0A0T9XH69 Hydrogenase-1 operon protein HyaF2 n=3 Tax=...  123     1e-31 
+  UniRef90_A0A3P3ZQR4 Uncharacterized protein n=1 Tax=mine draina...  121     2e-30 
+  UniRef90_A0A1E4JUI7 Uncharacterized protein n=1 Tax=Thiobacillu...  119     2e-30 
+  UniRef90_A0A364UK42 Hydrogenase expression/formation protein (F...  117     4e-30 
+  UniRef90_A0A0P1L8P0 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  116     3e-29 
+  UniRef90_A0A1M3HES2 Hydrogenase expression/formation protein n=...  116     4e-29 
+  UniRef90_A0A3M2GVN2 Hydrogenase expression/formation protein n=...  115     9e-29 
+  UniRef90_A0A259F243 Hydrogenase expression/formation protein n=...  115     1e-28 
+  UniRef90_A0A285P1Y5 Hydrogenase-1 operon protein HyaF n=1 Tax=H...  113     3e-28 
+  UniRef90_A0A1E4HXW9 Uncharacterized protein n=3 Tax=Thiobacillu...  113     4e-28 
+  UniRef90_A0A376K2H6 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  111     2e-27 
+  UniRef90_A0A379TBM2 Hydrogenase-1 operon protein HyaF n=2 Tax=S...  111     2e-27 
+  UniRef90_D3SLV6 HupH hydrogenase expression protein n=2 Tax=The...  110     5e-27 
+  UniRef90_D3DI15 Uncharacterized protein n=3 Tax=Bacteria TaxID=...  108     6e-26 
+  UniRef90_A0A1B4V5C8 Hydrogenase expression protein HupH n=1 Tax...  108     9e-26 
+  UniRef90_A0A2W1KM05 Hydrogenase expression/formation protein n=...  106     3e-25 
+  UniRef90_O66900 Uncharacterized protein n=1 Tax=Aquifex aeolicu...  106     3e-25 
+  UniRef90_A0A1E4PS78 Uncharacterized protein n=2 Tax=Thiobacillu...  105     9e-25 
+  UniRef90_A0A1V3NBJ7 Hydrogenase expression/formation protein n=...  104     2e-24 
+  UniRef90_UPI000EB23838 hydrogenase expression/formation protein...  103     4e-24 
+  UniRef90_UPI0009B03BDC hydrogenase n=1 Tax=Salmonella enterica ...  101     1e-23 
+  UniRef90_A0A1E2UTF5 Hydrogenase accessory protein HupE n=1 Tax=...  101     2e-23 
+  UniRef90_A8UUE6 Uncharacterized protein n=2 Tax=Hydrogenivirga ...  101     2e-23 
+  UniRef90_B4U667 HupH hydrogenase expression protein n=1 Tax=Hyd...  100     5e-23 
+  UniRef90_B8GQG1 Uncharacterized protein n=2 Tax=Thioalkalivibri...   99     1e-22 
+  UniRef90_M1QGX0 HupH hydrogenase expression protein n=2 Tax=Hyd...  97.7    5e-22 
+  UniRef90_A0A376RM05 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  96.1    4e-21 
+  UniRef90_UPI000FDEB297 hydrogenase expression/formation protein...  95.4    5e-21 
+  UniRef90_A0A370DPC8 Hydrogenase accessory protein HupE n=1 Tax=...  95.7    6e-21 
+  UniRef90_A0A1E4P556 Uncharacterized protein n=1 Tax=Rubrivivax ...  92.7    5e-20 
+  UniRef90_T0YI43 HupH hydrogenase expression protein (Fragment) ...  91.9    1e-19 
+  UniRef90_UPI000C806771 hydrogenase expression/formation protein...  90.0    4e-19 
+  UniRef90_A0A348ANV1 Uncharacterized protein n=1 Tax=Methylomusa...  88.8    1e-18 
+  UniRef90_UPI000DD35107 hydrogenase expression/formation protein...  85.7    2e-17 
+  UniRef90_A0A377AVP7 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  83.0    4e-17 
+  UniRef90_A0A376RL55 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  80.3    8e-16 
+  UniRef90_A0A376MUV8 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  72.6    2e-12 
+  UniRef90_G5Q1Y4 Hydrogenase maturation factor HoxQ n=1 Tax=Salm...  64.5    2e-10 
+  UniRef90_G5LN27 Hydrogenase maturation factor hoxQ n=1 Tax=Salm...  55.3    3e-07 
+  UniRef90_A0A376ZW79 Hydrogenase-1 operon protein HyaF n=2 Tax=E...  49.9    3e-05 
+  UniRef90_A0A376MUZ2 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  45.7    0.002 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1G0ND57 Uncharacterized protein n=1 Tax=Hydrogenoph...  114     4e-28
+  UniRef90_A0A1Y6DBN2 Hydrogenase-1 operon protein HyaF (Fragment...  117     5e-28
+  UniRef90_A0A1G3Y6R9 Uncharacterized protein n=2 Tax=Thiobacillu...  113     9e-28
+  UniRef90_A0A1E4L2F9 Uncharacterized protein n=5 Tax=Proteobacte...  111     3e-27
+  UniRef90_A0A258F9I1 Hydrogenase expression/formation protein n=...  109     2e-26
+  UniRef90_UPI000FD7EB41 hydrogenase expression/formation protein...  107     1e-25
+  UniRef90_A0A0N7MYL6 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  106     2e-25
+  UniRef90_A0A2N2AJJ3 Hydrogenase expression/formation protein n=...  107     2e-25
+  UniRef90_A0A1Q4GND9 Hydrogenase expression/formation protein n=...  106     3e-25
+  UniRef90_A0A1E4NCA6 Uncharacterized protein n=1 Tax=Thiobacillu...  106     3e-25
+  UniRef90_A0A2T6NSY3 Uncharacterized protein n=2 Tax=gamma prote...  104     3e-24
+  UniRef90_A0A258TTF6 Hydrogenase expression/formation protein n=...  103     7e-24
+  UniRef90_UPI000F611B87 hydrogenase expression/formation protein...  102     9e-24
+  UniRef90_A0A1E2UX55 Hydrogenase accessory protein HupE n=1 Tax=...  102     1e-23
+  UniRef90_A0A2M7MYA8 Hydrogenase expression/formation protein n=...  102     1e-23
+  UniRef90_W0DC31 HupH hydrogenase expression protein n=1 Tax=The...  101     1e-23
+  UniRef90_A0A0S4MY30 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  101     2e-23
+  UniRef90_A0A1Y0GAP9 Uncharacterized protein n=1 Tax=Sulfuriferu...  101     3e-23
+  UniRef90_A0A0S4N4J1 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  99.6    8e-23
+  UniRef90_A0A251X829 Uncharacterized protein n=1 Tax=Thioflexoth...   99     1e-22
+  UniRef90_UPI000F5C025D hydrogenase expression/formation protein...   99     1e-22
+  UniRef90_A0A2T9ZUM2 Hydrogenase accessory protein HupE n=1 Tax=...  97.7    8e-22
+  UniRef90_A0A3D3RQZ7 Hydrogenase expression/formation protein n=...  97.3    1e-21
+  UniRef90_A0A1H6FGU5 Uncharacterized protein n=1 Tax=Thiotrichal...  96.5    2e-21
+  UniRef90_T1AH45 Hydrogenase expression/formation protein HupH (...  95.7    3e-21
+  UniRef90_A0A1Z4VSP2 Uncharacterized protein n=2 Tax=unclassifie...  95.7    4e-21
+  UniRef90_A0A1E2ZAD4 Uncharacterized protein n=2 Tax=unclassifie...  95.7    4e-21
+  UniRef90_A0A1V6FU08 Uncharacterized protein n=1 Tax=Alphaproteo...  95.7    4e-21
+  UniRef90_A0A0S8L3Q8 Uncharacterized protein n=1 Tax=Acidithioba...  95.4    6e-21
+  UniRef90_A0A351SJX9 Hydrogenase expression/formation protein (F...  94.6    7e-21
+  UniRef90_A0A1G0BAD5 Uncharacterized protein n=2 Tax=Nitrosomona...  94.6    1e-20
+  UniRef90_G2DWF5 HupH hydrogenase expression protein n=1 Tax=Thi...  94.2    2e-20
+  UniRef90_UPI00046512FF hypothetical protein n=1 Tax=Verrucomicr...  96.5    4e-20
+  UniRef90_UPI00047B5BD9 hypothetical protein n=1 Tax=Methylomona...  93.0    5e-20
+  UniRef90_UPI00036F92FE hydrogenase expression/formation protein...  93.0    5e-20
+  UniRef90_UPI000F610D5D hydrogenase expression/formation protein...  92.7    7e-20
+  UniRef90_A0A1G0EUV6 Uncharacterized protein n=1 Tax=Gallionella...  92.7    7e-20
+  UniRef90_Q3SJ38 Uncharacterized protein n=2 Tax=Thiobacillus de...  92.3    7e-20
+  UniRef90_A0A2G2R4K6 Hydrogenase expression protein HupH n=1 Tax...  92.7    8e-20
+  UniRef90_A0A1W9NGS0 Uncharacterized protein n=2 Tax=unclassifie...  91.9    1e-19
+  UniRef90_L0DXE2 Hydrogenase maturation factor HoxQ domain-conta...  91.9    1e-19
+  UniRef90_B2ICM0 Uncharacterized protein n=1 Tax=Beijerinckia in...  95.4    2e-19
+  UniRef90_W9V8F3 Hydrogenase maturation factor HoxQ n=1 Tax=Imho...  90.7    4e-19
+  UniRef90_A0A2G6I6A5 Uncharacterized protein n=1 Tax=Rhodobacter...  90.4    4e-19
+  UniRef90_A0A2N2TS49 Hydrogenase expression protein HupH n=1 Tax...  90.0    4e-19
+  UniRef90_A0A3C0Q9U4 Uncharacterized protein n=1 Tax=Gammaproteo...  90.0    6e-19
+  UniRef90_A0A3D4DW83 Hydrogenase expression protein HupH n=1 Tax...  90.4    6e-19
+  UniRef90_UPI00098F74DF hypothetical protein n=1 Tax=Pseudoruege...  90.4    6e-19
+  UniRef90_W0DHW0 Hydrogenase expression protein HupH n=1 Tax=Thi...  90.0    7e-19
+  UniRef90_A0A353Y081 Hydrogenase accessory protein HupE n=1 Tax=...  89.6    8e-19
+  UniRef90_A0A1E5Q7A2 Uncharacterized protein n=2 Tax=Magnetovibr...  89.2    1e-18
+  UniRef90_I3BNJ1 HupH hydrogenase expression protein n=1 Tax=Thi...  88.8    2e-18
+  UniRef90_UPI0009E6B805 hypothetical protein n=1 Tax=Pseudoruege...  90.0    2e-18
+  UniRef90_A0A1H2R1E8 Hydrogenase-1 operon protein HyaF n=2 Tax=T...  88.4    3e-18
+  UniRef90_A0A2N6CYI9 Envelope stress response membrane protein P...  87.7    3e-18
+  UniRef90_A0A2A5FX51 Hydrogenase accessory protein HupE n=1 Tax=...  88.0    3e-18
+  UniRef90_UPI0006873ADE hypothetical protein n=1 Tax=Thiothrix l...  87.7    4e-18
+  UniRef90_A0A1T2L5X2 Uncharacterized protein n=2 Tax=Solemya vel...  87.3    5e-18
+  UniRef90_A0A0F7JVV2 Uncharacterized protein n=2 Tax=Sedimentico...  87.7    5e-18
+  UniRef90_A0A369BYZ7 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  87.7    5e-18
+  UniRef90_A0A1H4D9N0 Hydrogenase-1 operon protein HyaF n=2 Tax=T...  87.3    7e-18
+  UniRef90_A0A368HL75 Hydrogenase expression/formation protein n=...  87.7    8e-18
+  UniRef90_A0A363SIF2 Hydrogenase expression protein HupH n=1 Tax...  86.5    8e-18
+  UniRef90_A0A2G2GI50 Hydrogenase expression/formation protein n=...  86.5    9e-18
+  UniRef90_E6QTI1 Uncharacterized protein n=1 Tax=mine drainage m...  86.5    1e-17
+  UniRef90_UPI0009D938AA hypothetical protein n=1 Tax=Verrucomicr...  89.2    2e-17
+  UniRef90_A0A2N6BKR3 Uncharacterized protein n=1 Tax=Rhizobiales...  86.5    2e-17
+  UniRef90_A0A0S8A7L2 Uncharacterized protein n=1 Tax=Gammaproteo...  85.7    2e-17
+  UniRef90_UPI00073219BC hypothetical protein n=1 Tax=Thiohalocap...  85.3    4e-17
+  UniRef90_F9U5E2 HupH hydrogenase expression protein n=1 Tax=Thi...  85.0    6e-17
+  UniRef90_A0A397Q534 Hydrogenase-1 operon protein HyaF n=1 Tax=D...  84.6    6e-17
+  UniRef90_A0A1V5FTF7 Uncharacterized protein n=1 Tax=Alphaproteo...  83.8    1e-16
+  UniRef90_I3YC98 HupH hydrogenase expression protein n=1 Tax=Thi...  83.4    2e-16
+  UniRef90_G2FIG4 Hydrogenase expression protein HupH n=3 Tax=sul...  82.6    2e-16
+  UniRef90_UPI000B4B77EB hydrogenase expression/formation protein...  83.4    2e-16
+  UniRef90_A0A1X7N822 Hydrogenase-1 operon protein HyaF n=2 Tax=M...  83.0    2e-16
+  UniRef90_A0A1Y1Q9U6 Uncharacterized protein (Fragment) n=1 Tax=...  82.3    3e-16
+  UniRef90_A0A2E6RGK3 Hydrogenase expression/formation protein n=...  83.0    3e-16
+  UniRef90_W1IB27 Hydrogenase expression/formation protein hypH (...  82.3    3e-16
+  UniRef90_A0A3M1C5M6 Uncharacterized protein n=1 Tax=Alphaproteo...  83.0    3e-16
+  UniRef90_D3RV30 HupH hydrogenase expression protein n=1 Tax=All...  83.4    3e-16
+  UniRef90_H8YX05 HupH hydrogenase expression protein n=1 Tax=Thi...  83.8    3e-16
+  UniRef90_A0A2N6AZE4 Hydrogenase expression/formation protein n=...  82.6    4e-16
+  UniRef90_A0A366JBW2 Hydrogenase-1 operon protein HyaF n=4 Tax=R...  82.3    5e-16
+  UniRef90_A0A0B0H9U2 HupH hydrogenase expression protein n=5 Tax...  82.3    5e-16
+  UniRef90_C8S1B1 HupH hydrogenase expression protein n=1 Tax=Rho...  81.5    7e-16
+  UniRef90_A0A327K493 Uncharacterized protein n=1 Tax=Rhodobium o...  81.5    8e-16
+  UniRef90_A0A1G5PM05 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  81.5    1e-15
+  UniRef90_A0A1T4SJ93 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  80.7    1e-15
+  UniRef90_UPI0009DB9D5D hypothetical protein n=1 Tax=Thermithiob...  80.3    2e-15
+  UniRef90_UPI00037B9DFD hypothetical protein n=1 Tax=Lamprocysti...  79.6    4e-15
+  UniRef90_A0A1I3NJV2 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  80.7    4e-15
+  UniRef90_UPI000990E4DE hypothetical protein n=1 Tax=Chromatiace...  79.6    5e-15
+  UniRef90_UPI00036E1EC3 hypothetical protein n=1 Tax=Sporomusace...  78.8    7e-15
+  UniRef90_UPI000C80BB61 hydrogenase expression/formation protein...  78.8    7e-15
+  UniRef90_A0A2D5PEY1 Hydrogenase expression protein HupH n=1 Tax...  79.2    7e-15
+  UniRef90_A5EUI6 Uncharacterized protein n=1 Tax=Bradyrhizobium ...  78.0    2e-14
+  UniRef90_A0A2E2XND5 Hydrogenase expression protein HupH n=1 Tax...  78.4    2e-14
+  UniRef90_A0A2K8UFU7 Hydrogenase expression protein HupH n=1 Tax...  78.0    2e-14
+  UniRef90_UPI0009B88163 hypothetical protein n=2 Tax=Bradyrhizob...  78.0    2e-14
+  UniRef90_A0A074J0I2 Uncharacterized protein n=1 Tax=Thioclava p...  77.6    2e-14
+  UniRef90_A1HTR0 HupH hydrogenase expression protein n=1 Tax=The...  76.9    4e-14
+  UniRef90_A0A0U5BTP6 Hydrogenase expression/formation protein Hy...  77.3    4e-14
+  UniRef90_A0A1D8K6J2 Uncharacterized protein n=1 Tax=Acidihaloba...  76.9    6e-14
+  UniRef90_G4E1B2 HupH hydrogenase expression protein n=1 Tax=Thi...  76.1    8e-14
+  UniRef90_A0A1Y1QAB5 Uncharacterized protein (Fragment) n=1 Tax=...  75.3    8e-14
+  UniRef90_A0A3N5JRQ7 Uncharacterized protein n=1 Tax=Xanthomonad...  77.3    9e-14
+  UniRef90_A0A1J5P5R8 Uncharacterized protein n=1 Tax=mine draina...  73.4    1e-13
+  UniRef90_A0A3M1V9V1 Hydrogenase accessory protein HupE n=1 Tax=...  75.7    1e-13
+  UniRef90_A0A372BXG7 Hydrogenase expression/formation protein n=...  75.7    1e-13
+  UniRef90_UPI000F6340AB hypothetical protein n=1 Tax=Thiohalobac...  76.9    2e-13
+  UniRef90_A0A1D9MAQ5 Uncharacterized protein n=2 Tax=Rhodobacter...  74.6    3e-13
+  UniRef90_A0A2N6G9C0 Uncharacterized protein n=1 Tax=Sedimentico...  74.6    4e-13
+  UniRef90_A0A370DG78 Uncharacterized protein n=1 Tax=endosymbion...  73.8    8e-13
+  UniRef90_A0A1G7JJ87 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  73.0    9e-13
+  UniRef90_A0A1V0PRR3 Hydrogenase maturation factor HoxQ n=2 Tax=...  72.2    2e-12
+  UniRef90_L0H1D8 HupH hydrogenase expression protein n=1 Tax=Thi...  71.9    4e-12
+  UniRef90_UPI0009E8C071 hypothetical protein n=1 Tax=Candidatus ...  69.2    4e-12
+  UniRef90_A0A075KDT0 HupH hydrogenase expression protein n=2 Tax...  71.1    4e-12
+  UniRef90_A0A350P4Q4 Hydrogenase expression protein HupH n=1 Tax...  70.3    1e-11
+  UniRef90_A0A1S7LDH4 Uncharacterized protein n=1 Tax=magneto-ovo...  69.9    1e-11
+  UniRef90_F4AUS5 HupH hydrogenase expression protein n=5 Tax=Alt...  69.9    2e-11
+  UniRef90_A0A1G0BZ27 Uncharacterized protein n=1 Tax=Gallionella...  70.3    2e-11
+  UniRef90_UPI00037AD385 hypothetical protein n=1 Tax=Verrucomicr...  71.9    3e-11
+  UniRef90_F2G4N9 Hydrogenase expression protein HupH n=6 Tax=roo...  68.8    4e-11
+  UniRef90_I8TZ29 HupH hydrogenase expression protein n=2 Tax=Pel...  68.4    4e-11
+  UniRef90_A0A0S7ZX57 Uncharacterized protein n=1 Tax=Gammaproteo...  66.9    9e-11
+  UniRef90_A0A1I4GS73 Hydrogenase-1 operon protein HyaF n=1 Tax=P...  67.6    1e-10
+  UniRef90_I0JZN8 Hydrogenase expression/formation protein hoxQ n...  70.3    1e-10
+  UniRef90_UPI0003696E94 hypothetical protein n=1 Tax=Verrucomicr...  70.3    1e-10
+  UniRef90_UPI00069C583B hypothetical protein n=1 Tax=Methyloterr...  66.9    3e-10
+  UniRef90_UPI00037DD013 hypothetical protein n=1 Tax=Lamprocysti...  66.9    5e-10
+  UniRef90_B3DWK8 Hydrogenase expression/formation protein hoxQ n...  67.2    1e-09
+  UniRef90_A0A0C1RKR9 Hydrogenase n=1 Tax=Methylacidiphilum kamch...  67.2    2e-09
+  UniRef90_W6K6J3 Hydrogenase expression/formation protein hupH (...  64.2    2e-09
+  UniRef90_T1BXL5 HupH hydrogenase expression protein n=1 Tax=min...  61.5    3e-09
+  UniRef90_F9N445 Hydrogenase expression protein HupH, C-terminal...  63.0    4e-09
+  UniRef90_UPI0009FDB977 hypothetical protein n=1 Tax=Uliginosiba...  63.0    8e-09
+  UniRef90_W0DYL8 Hydrogenase expression protein HupH n=5 Tax=Mar...  62.2    1e-08
+  UniRef90_A0A2K8U7I0 Uncharacterized protein n=1 Tax=Candidatus ...  60.3    6e-08
+  UniRef90_D1BNA7 Uncharacterized protein n=25 Tax=root TaxID=1 R...  58.8    1e-07
+  UniRef90_UPI00054CE396 hypothetical protein n=1 Tax=Beijerincki...  61.5    2e-07
+  UniRef90_A0A133S1E6 HupH hydrogenase expression protein, C-term...  56.5    9e-07
+  UniRef90_UPI000B4B5012 hypothetical protein n=1 Tax=Ideonella s...  57.2    2e-06
+  UniRef90_A0A096AMK8 Hydrogenase expression protein HupH n=1 Tax...  55.3    2e-06
+  UniRef90_K9DKS9 Uncharacterized protein n=3 Tax=Veillonella Tax...  54.1    6e-06
+  UniRef90_W1Y133 Uncharacterized protein (Fragment) n=1 Tax=huma...  52.6    1e-05
+  UniRef90_W6M0E0 Uncharacterized protein n=1 Tax=Candidatus Cont...  47.2    0.003
+  UniRef90_UPI0009AD1DC2 hydrogenase n=1 Tax=Salmonella enterica ...  45.3    0.005
+  UniRef90_UPI0004193912 hydrogenase expression protein HupH n=1 ...  45.3    0.008
+  UniRef90_A0A1C4Q412 TIGR02679 family protein n=1 Tax=Streptomyc...  43.7    0.16 
+  UniRef90_A0A1F8WVK4 Transaldolase n=1 Tax=Deltaproteobacteria b...  43.7    0.21 
+  UniRef90_A0A3D4T109 Phosphoenolpyruvate carboxylase n=2 Tax=Cor...  42.6    0.42 
+  UniRef90_A0A2T2US93 Long-chain fatty acid--CoA ligase n=1 Tax=B...  42.6    0.45 
+  UniRef90_H6BJU3 Mediator of RNA polymerase II transcription sub...  41.8    0.51 
+  UniRef90_A0A078MIF4 Flagellar motor switch protein FliG n=8 Tax...  42.2    0.52 
+  UniRef90_K7GET9 Latent transforming growth factor beta binding ...  42.6    0.55 
+  UniRef90_Q9ANQ3 ID32 n=1 Tax=Bradyrhizobium japonicum TaxID=375...  40.7    0.56 
+  UniRef90_A0A2N2D4L9 Bifunctional folylpolyglutamate synthase/di...  41.4    0.82 
+  UniRef90_A0A1G3JTD5 Molybdopterin oxidoreductase n=2 Tax=Sphing...  41.8    0.83 
+  UniRef90_A0A3E2YTD9 Acetoin dehydrogenase operon transcriptiona...  41.4    0.94 
+  UniRef90_UPI00082D880C DUF433 domain-containing protein n=1 Tax...  39.1    0.97 
+  UniRef90_A0A2E0IGP2 Conjugative transfer signal peptidase TraF ...  40.3    1.0  
+  UniRef90_UPI0007C4B1C6 hypothetical protein n=1 Tax=Streptomyce...  41.0    1.3  
+  UniRef90_A0A3A0BBG6 ABC transporter ATP-binding protein n=1 Tax...  40.7    1.6  
+  UniRef90_A4X1I8 GCN5-related N-acetyltransferase n=18 Tax=Salin...  39.5    1.8  
+  UniRef90_A0A1K0JVF3 3-ketoacyl-ACP reductase n=1 Tax=Cupriavidu...  39.9    1.9  
+  UniRef90_UPI000B78ECB4 double-strand break repair helicase AddA...  40.7    2.1  
+  UniRef90_UPI00082F9649 ATP-binding cassette domain-containing p...  39.9    2.1  
+  UniRef90_K0YV23 Uncharacterized protein n=4 Tax=Bacteria TaxID=...  39.9    2.4  
+  UniRef90_Q1MFI6 Leucine--tRNA ligase 1 n=32 Tax=Rhizobiales Tax...  40.3    2.4  
+  UniRef90_A0A1M5TJT9 Autotransporter secretion outer membrane pr...  40.3    2.5  
+  UniRef90_E9E2V0 Glutaredoxin domain-containing protein n=8 Tax=...  39.5    2.7  
+  UniRef90_UPI000AEA98CD tRNA uridine-5-carboxymethylaminomethyl(...  39.9    3.3  
+  UniRef90_A0A1L7F718 Glycosyl transferase, UDP-glucuronosyltrans...  39.9    3.3  
+  UniRef90_A0A2D5AGJ7 Tetraacyldisaccharide 4'-kinase n=1 Tax=Fla...  39.5    3.6  
+  UniRef90_A0A1H1MSM7 Flagellar motor switch protein FliG n=25 Ta...  39.5    3.7  
+  UniRef90_A0A1Y5S6F2 Cell division protein FtsQ n=2 Tax=Pelagico...  39.1    3.7  
+  UniRef90_A0A1C5GM33 Protein N-acetyltransferase, RimJ/RimL fami...  38.3    4.1  
+  UniRef90_A0A2E3Z802 Aspartate kinase n=1 Tax=Planctomycetaceae ...  39.5    4.2  
+  UniRef90_A0A2V9FWJ0 ATPase n=1 Tax=Acidobacteria bacterium TaxI...  39.1    4.3  
+  UniRef90_A0A2V9GJN1 Uncharacterized protein n=4 Tax=Acidobacter...  39.1    4.7  
+  UniRef90_UPI000C9E31B7 response regulator n=1 Tax=Mangrovicella...  39.5    4.8  
+  UniRef90_A0A142VXV5 Uncharacterized protein n=6 Tax=Sphingopyxi...  39.1    4.9  
+  UniRef90_UPI0003B3034A PAS domain S-box protein n=1 Tax=Ideonel...  39.1    5.2  
+  UniRef90_A0A2T2TBF8 Uncharacterized protein n=1 Tax=Bacteroidet...  38.7    5.5  
+  UniRef90_A0A357K736 Tetraacyldisaccharide 4'-kinase (Fragment) ...  38.3    5.5  
+  UniRef90_A0A2N7VC97 Multidrug ABC transporter ATP-binding prote...  39.1    5.6  
+  UniRef90_A0A194RB09 Ral GTPase-activating protein subunit beta ...  39.1    5.7  
+  UniRef90_A0A0S2HKZ0 Putative TelA-like protein n=5 Tax=Streptom...  38.7    5.8  
+  UniRef90_A0A238K4E0 Fatty acid desaturase n=1 Tax=Octadecabacte...  38.7    6.1  
+  UniRef90_A0A263CWS4 ABC transporter ATP-binding protein n=1 Tax...  38.7    6.1  
+  UniRef90_G4YGC2 Uncharacterized protein n=1 Tax=Phytophthora so...  39.1    6.2  
+  UniRef90_A0A270PID2 Metalloprotease n=1 Tax=Pseudomonas sp. ERM...  38.3    6.9  
+  UniRef90_A0A2S8VAZ7 Cytochrome C oxidase subunit II n=1 Tax=Ach...  38.3    6.9  
+  UniRef90_A0A1L6J7U9 Uncharacterized protein n=2 Tax=Sphingomona...  39.1    7.3  
+  UniRef90_A0A1A8ZHW3 Polyketide synthase 12 n=2 Tax=Micromonospo...  39.1    7.5  
+  UniRef90_UPI0003F6F26B hypothetical protein n=1 Tax=Nisaea deni...  38.7    8.0  
+  UniRef90_A0A3A8RZZ9 Amino acid adenylation domain-containing pr...  38.7    8.3  
+  UniRef90_UPI0004038ACF hypothetical protein n=1 Tax=Azospirillu...  38.7    8.6  
+  UniRef90_A0A1H8V6C3 Uncharacterized protein n=2 Tax=Streptomyce...  38.3    8.8  
+  UniRef90_C6XIL4 tRNA modification GTPase MnmE n=1 Tax=Hirschia ...  38.3    8.8  
+  UniRef90_A0A2K3E811 Uncharacterized protein n=1 Tax=Chlamydomon...  38.7    8.9  
+  UniRef90_UPI00053C0394 hypothetical protein n=1 Tax=Sphingomona...  38.3    9.1  
+  UniRef90_A0A3A8SXQ9 Amino acid adenylation domain-containing pr...  38.7    9.1  
+  UniRef90_A0A1B7UQY0 Isoaspartyl dipeptidase n=1 Tax=Rheinheimer...  38.3    9.6  
+  UniRef90_F1Z6D0 Fusaric acid resistance protein region n=1 Tax=...  38.3    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.149    0.465    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0457    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2273341118040
+Results from round 3
+
+
+Query= NP_415496.1
+
+Length=285
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI0003FDFAA9 hydrogenase expression/formation protein...  313     2e-104
+  UniRef90_UPI000E0DE37D hydrogenase expression/formation protein...  314     2e-104
+  UniRef90_A2SJN4 Hydrogenase expression/formation protein, putat...  311     2e-103
+  UniRef90_A0A1F4M618 Hydrogenase n=1 Tax=Burkholderiales bacteri...  310     6e-103
+  UniRef90_F5RGC2 Hydrogenase expression/formation protein hoxQ n...  310     7e-103
+  UniRef90_A0A2E2RRU3 Hydrogenase expression/formation protein n=...  308     2e-102
+  UniRef90_P19932 Hydrogenase-1 operon protein HyaF n=147 Tax=Pro...  308     3e-102
+  UniRef90_P31911 Hydrogenase expression/formation protein HoxQ n...  307     4e-102
+  UniRef90_UPI0003A19FF8 hydrogenase expression/formation protein...  307     5e-102
+  UniRef90_A0A254N3S3 Hydrogenase expression/formation protein n=...  307     6e-102
+  UniRef90_A0A2E0IV91 Hydrogenase expression/formation protein n=...  307     7e-102
+  UniRef90_UPI00037CE3B9 hydrogenase expression/formation protein...  307     8e-102
+  UniRef90_A0A1J5C6X4 Hydrogenase expression/formation protein n=...  306     2e-101
+  UniRef90_UPI0004858573 hydrogenase expression/formation protein...  306     2e-101
+  UniRef90_UPI000648AECE hydrogenase expression/formation protein...  306     2e-101
+  UniRef90_A0A3E1R6V0 Hydrogenase expression/formation protein n=...  306     4e-101
+  UniRef90_A1VNP9 HupH hydrogenase expression protein n=1 Tax=Pol...  304     1e-100
+  UniRef90_A0A2S5T571 Hydrogenase expression/formation protein n=...  304     1e-100
+  UniRef90_A0A3C0KD41 Hydrogenase expression/formation protein n=...  304     2e-100
+  UniRef90_A0A257JSQ2 Hydrogenase expression/formation protein n=...  303     5e-100
+  UniRef90_UPI000F8CD7ED UPI000F8CD7ED related cluster n=1 Tax=un...  302     8e-100
+  UniRef90_A0A1B3LK83 Uncharacterized protein n=5 Tax=Betaproteob...  302     1e-99 
+  UniRef90_W0AJV4 Hydrogenase-1 operon protein HyaF n=24 Tax=Esch...  301     2e-99 
+  UniRef90_A0A2S6GID7 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  300     4e-99 
+  UniRef90_A0A1Z4C3B7 Hydrogenase expression/formation protein n=...  299     6e-99 
+  UniRef90_A0A1T1AYS8 Hydrogenase expression/formation protein n=...  300     7e-99 
+  UniRef90_G3J1A8 HupH hydrogenase expression protein n=4 Tax=Met...  299     1e-98 
+  UniRef90_A0A177NNX6 Hydrogenase expression protein HupH n=1 Tax...  297     8e-98 
+  UniRef90_I0HV85 Hydrogenase expression/formation protein HupH n...  296     1e-97 
+  UniRef90_A0A3M1VA23 Hydrogenase expression/formation protein n=...  296     2e-97 
+  UniRef90_A0A063BK39 HupH hydrogenase expression protein n=1 Tax...  296     3e-97 
+  UniRef90_UPI00036CE8EC hypothetical protein n=1 Tax=Thiolinea d...  296     3e-97 
+  UniRef90_UPI00041CC8EF hydrogenase expression/formation protein...  296     4e-97 
+  UniRef90_A0A285PI98 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  296     4e-97 
+  UniRef90_Q1LNV1 HoxQ protein involved in nickel incorporation i...  294     7e-97 
+  UniRef90_A0A1E7ZDF7 Hydrogenase n=1 Tax=Alteromonas confluentis...  294     8e-97 
+  UniRef90_A0A074K327 Hydrogenase accessory protein HypB n=1 Tax=...  294     8e-97 
+  UniRef90_UPI000EF2248C hydrogenase expression/formation protein...  294     8e-97 
+  UniRef90_A0A0Q0THN9 Hydrogenase n=1 Tax=Acidovorax sp. SD340 Ta...  294     9e-97 
+  UniRef90_A0A1V4CDR4 Hydrogenase n=4 Tax=Hydrogenophaga TaxID=47...  294     9e-97 
+  UniRef90_A0A1E8FDX5 Hydrogenase n=1 Tax=Alteromonas lipolytica ...  294     2e-96 
+  UniRef90_A0A2W7HKR9 Hydrogenase-1 operon protein HyaF n=1 Tax=V...  293     2e-96 
+  UniRef90_A0A0F3IJA5 Hydrogenase expression protein HupH n=1 Tax...  293     3e-96 
+  UniRef90_D4F1X1 HupH hydrogenase expression protein, C-terminal...  293     3e-96 
+  UniRef90_A0A085TXM5 Hydrogenase expression/formation protein Hu...  292     3e-96 
+  UniRef90_N0B552 HupH hydrogenase expression protein n=1 Tax=Hyp...  292     3e-96 
+  UniRef90_A0A090TYS2 NiFe-hydrogenase 1 nickel incorporation pro...  292     4e-96 
+  UniRef90_A0A2N0V432 Hydrogenase expression/formation protein n=...  292     7e-96 
+  UniRef90_Q2BN48 HupH hydrogenase expression/formation protein n...  292     8e-96 
+  UniRef90_UPI000481EA8E hydrogenase expression/formation protein...  292     9e-96 
+  UniRef90_P95499 HupH protein n=2 Tax=Proteobacteria TaxID=1224 ...  291     1e-95 
+  UniRef90_UPI0009314075 hydrogenase expression/formation protein...  291     1e-95 
+  UniRef90_A0A3P1SX23 Hydrogenase expression/formation protein n=...  291     1e-95 
+  UniRef90_UPI000FDBB672 hydrogenase expression/formation protein...  291     1e-95 
+  UniRef90_A0A0K8P856 Hydrogenase maturation factor HoxQ n=1 Tax=...  292     1e-95 
+  UniRef90_W1IAI0 Hydrogenase expression/formation hupH (Fragment...  291     3e-95 
+  UniRef90_A0A2A4RFA4 Hydrogenase expression/formation protein n=...  290     4e-95 
+  UniRef90_A0A076LPX1 Hydrogenase maturation factor HoxQ n=8 Tax=...  290     4e-95 
+  UniRef90_A0A086XVW0 Hydrogenase accessory protein HypB n=1 Tax=...  289     4e-95 
+  UniRef90_A0A1G8FHZ5 Hydrogenase-1 operon protein HyaF n=3 Tax=V...  290     4e-95 
+  UniRef90_A0A0F3KTK1 Uncharacterized protein n=6 Tax=Aquitalea T...  290     5e-95 
+  UniRef90_A0A0J1PN72 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  290     5e-95 
+  UniRef90_A0A1N7KZ03 Hydrogenase-1 operon protein HyaF n=2 Tax=R...  289     6e-95 
+  UniRef90_A0A0K0HBF3 Hydrogenase-1 operon protein HyaF n=314 Tax...  289     6e-95 
+  UniRef90_A0A2N6CUT7 Hydrogenase expression/formation protein n=...  289     6e-95 
+  UniRef90_UPI000831E1BF hydrogenase expression/formation protein...  289     7e-95 
+  UniRef90_A0A2K9L6Z8 Uncharacterized protein n=3 Tax=Rhodocyclal...  290     7e-95 
+  UniRef90_A0A0F7K3F1 Hydrogenase expression protein HupH n=1 Tax...  289     1e-94 
+  UniRef90_A0A1V3SER4 Hydrogenase expression/formation protein n=...  289     1e-94 
+  UniRef90_UPI00067C5ACD hydrogenase expression/formation protein...  289     2e-94 
+  UniRef90_A0A0H2UYJ7 Hydrogenase-1 operon protein hyaF n=576 Tax...  290     2e-94 
+  UniRef90_A0A2A4UHN8 Hydrogenase expression/formation protein n=...  288     2e-94 
+  UniRef90_UPI0008343D12 hydrogenase expression/formation protein...  289     2e-94 
+  UniRef90_UPI0007E5A663 hydrogenase expression/formation protein...  288     3e-94 
+  UniRef90_A4WXY5 Hydrogenase-1 expression HyaE n=3 Tax=Rhodobact...  287     3e-94 
+  UniRef90_A0A238D161 Hydrogenase expression/formation protein Ho...  288     3e-94 
+  UniRef90_A0A167IQG1 Hydrogenase expression/formation protein n=...  288     3e-94 
+  UniRef90_A0A2T9ZNY5 Hydrogenase expression/formation protein n=...  288     4e-94 
+  UniRef90_Q43957 Hydrogenase expression/formation protein HupQ n...  287     4e-94 
+  UniRef90_UPI00099136E9 hypothetical protein n=1 Tax=Chromatiace...  287     4e-94 
+  UniRef90_A0A366J9K5 Hydrogenase-1 operon protein HyaF n=4 Tax=R...  287     4e-94 
+  UniRef90_A0A2R7P3V2 Hydrogenase expression/formation protein n=...  287     5e-94 
+  UniRef90_Q03007 Hydrogenase expression/formation protein HupH n...  287     6e-94 
+  UniRef90_A0A1H9FUZ0 Hydrogenase-1 operon protein HyaF n=1 Tax=A...  287     7e-94 
+  UniRef90_H5WMQ6 HupH hydrogenase expression protein n=1 Tax=Bur...  287     8e-94 
+  UniRef90_A0A3N7C6J2 Hydrogenase expression/formation protein n=...  287     9e-94 
+  UniRef90_A0A1I3NHA2 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  286     1e-93 
+  UniRef90_UPI0004093EAF hydrogenase expression/formation protein...  288     1e-93 
+  UniRef90_A0A3B9NWF5 Hydrogenase expression/formation protein n=...  286     1e-93 
+  UniRef90_I1AUH4 HupH hydrogenase expression protein n=2 Tax=Rho...  286     2e-93 
+  UniRef90_A0A2S5Q067 Hydrogenase expression/formation protein n=...  286     2e-93 
+  UniRef90_A0A2W2BKM1 Hydrogenase expression/formation protein n=...  286     2e-93 
+  UniRef90_A0A2D4USM4 Hydrogenase expression/formation protein n=...  285     2e-93 
+  UniRef90_S5AD96 Hydrogenase expression/formation protein HoxQ n...  286     2e-93 
+  UniRef90_A0A1D9MGG9 Hydrogenase expression/formation protein n=...  285     2e-93 
+  UniRef90_A0A160SM71 Hydrogenase expression/formation protein Ho...  286     2e-93 
+  UniRef90_A0A177NPH0 Hydrogenase expression protein HupH n=2 Tax...  285     3e-93 
+  UniRef90_UPI00048EBDC7 hydrogenase expression/formation protein...  285     3e-93 
+  UniRef90_A0A058ZKH3 HupH hydrogenase expression protein n=1 Tax...  285     3e-93 
+  UniRef90_A0A1E2ZJR9 Uncharacterized protein n=2 Tax=unclassifie...  285     4e-93 
+  UniRef90_A0A2P5L6I7 Hydrogenase expression/formation protein n=...  284     6e-93 
+  UniRef90_UPI00066FE3E2 hydrogenase expression/formation protein...  285     6e-93 
+  UniRef90_A0A1H5UIX5 Hydrogenase-1 operon protein HyaF n=1 Tax=J...  284     7e-93 
+  UniRef90_A0A2E6SP85 Hydrogenase expression/formation protein n=...  284     8e-93 
+  UniRef90_A0A2G2I441 Hydrogenase expression/formation protein n=...  284     8e-93 
+  UniRef90_A0A375FHX5 Hydrogenase expression/formation protein Ho...  284     9e-93 
+  UniRef90_UPI0004949BA7 hydrogenase expression/formation protein...  284     9e-93 
+  UniRef90_UPI00034DD6DA hydrogenase expression/formation protein...  284     1e-92 
+  UniRef90_A0A1B8T1B2 Hydrogenase n=3 Tax=Pseudomonas TaxID=286 R...  284     1e-92 
+  UniRef90_A0A2T5UIQ4 Hydrogenase-1 operon protein HyaF n=4 Tax=R...  283     2e-92 
+  UniRef90_A0A2G2QFZ9 Hydrogenase expression/formation protein n=...  284     2e-92 
+  UniRef90_A0A2K9JNR6 Hydrogenase expression/formation protein n=...  283     2e-92 
+  UniRef90_A0A0U3PGC9 Hydrogenase accessory protein HypB n=5 Tax=...  283     2e-92 
+  UniRef90_A0A238JJ18 Uncharacterized protein n=1 Tax=Confluentim...  283     2e-92 
+  UniRef90_UPI00045E91F3 hydrogenase expression/formation protein...  283     2e-92 
+  UniRef90_A0A285CP37 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  283     2e-92 
+  UniRef90_A0A0Q4Y4A0 Hydrogenase n=1 Tax=Pseudorhodoferax sp. Le...  283     2e-92 
+  UniRef90_A0A2T5BS91 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  283     2e-92 
+  UniRef90_UPI000EAD47E4 hydrogenase expression/formation protein...  283     3e-92 
+  UniRef90_UPI00082FB89F hydrogenase expression/formation protein...  282     4e-92 
+  UniRef90_A0A2K8U2G5 Uncharacterized protein n=1 Tax=Candidatus ...  282     4e-92 
+  UniRef90_A0A3A4RMN1 Hydrogenase expression/formation protein n=...  282     6e-92 
+  UniRef90_A0A0F4QND4 Hydrogenase accessory protein HypB n=5 Tax=...  282     6e-92 
+  UniRef90_A0A2S2CYW8 Hydrogenase expression/formation protein n=...  282     6e-92 
+  UniRef90_Q3J0L1 HupH hydrogenase expression/formation protein n...  281     6e-92 
+  UniRef90_A0A059KMI3 Hydrogenase expression/formation protein Hu...  282     7e-92 
+  UniRef90_A0A2D9YKS7 Hydrogenase expression/formation protein n=...  282     7e-92 
+  UniRef90_A0A2U2CET3 Hydrogenase expression/formation protein n=...  281     8e-92 
+  UniRef90_A0A081G4G6 Hydrogenase maturation factor HoxQ n=1 Tax=...  281     9e-92 
+  UniRef90_A0A0S6WXE1 HupH hydrogenase expression protein n=1 Tax...  281     1e-91 
+  UniRef90_UPI000C8025E1 hydrogenase expression/formation protein...  281     1e-91 
+  UniRef90_A0A2Z6TVS9 Hydrogenase expression/formation protein n=...  281     1e-91 
+  UniRef90_A0A1J5RWD1 Uncharacterized protein n=2 Tax=mine draina...  281     1e-91 
+  UniRef90_Q0FRA4 HupH hydrogenase expression/formation protein n...  281     1e-91 
+  UniRef90_B2IJ35 HupH hydrogenase expression protein n=1 Tax=Bei...  281     2e-91 
+  UniRef90_A0A136HM52 Hydrogenase n=1 Tax=Neptuniibacter sp. Phe_...  281     2e-91 
+  UniRef90_UPI000BA2E142 hydrogenase expression/formation protein...  281     2e-91 
+  UniRef90_A0A318E8P0 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  281     2e-91 
+  UniRef90_A0A1M5B265 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  280     2e-91 
+  UniRef90_A0A2Z4PA46 Hydrogenase expression/formation protein n=...  280     3e-91 
+  UniRef90_A0A2W7CKM6 Hydrogenase expression/formation protein n=...  280     3e-91 
+  UniRef90_A0A2E3CWZ7 Hydrogenase expression/formation protein n=...  281     3e-91 
+  UniRef90_G0A2K7 HupH hydrogenase expression protein n=1 Tax=Met...  280     3e-91 
+  UniRef90_UPI000B4B6D07 hydrogenase expression/formation protein...  281     3e-91 
+  UniRef90_A0A2U8GN69 Hydrogenase expression/formation protein n=...  280     3e-91 
+  UniRef90_A0A1E2UUS3 Uncharacterized protein n=2 Tax=Candidatus ...  280     3e-91 
+  UniRef90_A0A1H5YWE0 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  280     3e-91 
+  UniRef90_A0A0B3SJL8 HupH hydrogenase expression protein n=5 Tax...  280     4e-91 
+  UniRef90_D0D929 Hydrogenase expression/formation protein HupH n...  279     4e-91 
+  UniRef90_A0A2T7UL22 Hydrogenase expression/formation protein n=...  279     5e-91 
+  UniRef90_A0A3L7AFD0 Hydrogenase expression/formation protein n=...  279     6e-91 
+  UniRef90_A0A2T6N947 Hydrogenase expression/formation protein n=...  279     7e-91 
+  UniRef90_A0A1V0I0I9 Hydrogenase expression/formation protein n=...  279     7e-91 
+  UniRef90_A0A1D3JYM9 Hydrogenase expression/formation protein Ho...  279     9e-91 
+  UniRef90_UPI0005C699EA hydrogenase expression/formation protein...  278     9e-91 
+  UniRef90_UPI00041985B6 hydrogenase expression/formation protein...  279     1e-90 
+  UniRef90_A0A2W5QZE4 Hydrogenase expression/formation protein n=...  279     1e-90 
+  UniRef90_V4PIQ0 Uncharacterized protein n=1 Tax=Asticcacaulis s...  278     1e-90 
+  UniRef90_A0A239C351 Hydrogenase-1 operon protein HyaF n=3 Tax=P...  279     1e-90 
+  UniRef90_A0A1M5MJY8 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  278     1e-90 
+  UniRef90_A0A2E2KNF8 Hydrogenase expression/formation protein n=...  279     1e-90 
+  UniRef90_A0A2E0A2H0 Hydrogenase expression/formation protein n=...  278     2e-90 
+  UniRef90_A0A2E0HHA7 Hydrogenase expression/formation protein n=...  278     2e-90 
+  UniRef90_A0A066ZLR7 Uncharacterized protein n=1 Tax=Hydrogenovi...  278     3e-90 
+  UniRef90_UPI000BAA9E79 hydrogenase expression/formation protein...  277     4e-90 
+  UniRef90_UPI0004974799 hydrogenase expression/formation protein...  277     4e-90 
+  UniRef90_UPI000361CD47 hydrogenase expression/formation protein...  277     4e-90 
+  UniRef90_A0A1G8LJD3 Hydrogenase-1 operon protein HyaF n=1 Tax=P...  277     4e-90 
+  UniRef90_A0A0P7VR02 Hydrogenase expression protein HyaF n=1 Tax...  277     4e-90 
+  UniRef90_G2DY96 HupH hydrogenase expression protein n=1 Tax=Thi...  277     5e-90 
+  UniRef90_E3I2G3 HupH hydrogenase expression protein n=3 Tax=Rho...  277     5e-90 
+  UniRef90_UPI00048B0FE8 hydrogenase expression/formation protein...  277     5e-90 
+  UniRef90_UPI000F74FD73 hydrogenase expression/formation protein...  277     5e-90 
+  UniRef90_A1KC55 Hydrogenase-1 operon protein hupH n=2 Tax=Azoar...  277     6e-90 
+  UniRef90_UPI000DD41D1C hydrogenase expression/formation protein...  277     6e-90 
+  UniRef90_UPI0004A6D2BC hydrogenase expression/formation protein...  277     7e-90 
+  UniRef90_A0A2E3FBG5 Hydrogenase expression/formation protein n=...  276     7e-90 
+  UniRef90_UPI000BBE8F79 hydrogenase expression/formation protein...  276     7e-90 
+  UniRef90_D5WZY2 HupH hydrogenase expression protein n=1 Tax=Thi...  277     8e-90 
+  UniRef90_H0HX69 HupH hydrogenase expression protein n=3 Tax=Mes...  276     8e-90 
+  UniRef90_W9V745 Hydrogenase maturation factor HoxQ n=1 Tax=Imho...  276     9e-90 
+  UniRef90_A0A1H6BN92 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  276     9e-90 
+  UniRef90_A0A316L8X9 Hydrogenase expression/formation protein n=...  276     1e-89 
+  UniRef90_S6BM00 Hydrogenase expression/formation protein n=1 Ta...  276     1e-89 
+  UniRef90_A0A1I3QRD8 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  276     1e-89 
+  UniRef90_A0A3D2FE19 Hydrogenase expression/formation protein n=...  276     2e-89 
+  UniRef90_A0A369CHU1 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  276     2e-89 
+  UniRef90_A1B6P1 HupH hydrogenase expression protein n=4 Tax=Rho...  275     2e-89 
+  UniRef90_UPI000E65A017 hydrogenase expression/formation protein...  276     2e-89 
+  UniRef90_A0A1I4Q0W1 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  275     3e-89 
+  UniRef90_A3KAF2 HupH hydrogenase expression/formation protein n...  274     4e-89 
+  UniRef90_A0A081YD81 Hydrogenase n=5 Tax=Pseudomonas TaxID=286 R...  275     4e-89 
+  UniRef90_A0A2E2JSZ2 Hydrogenase expression/formation protein n=...  274     5e-89 
+  UniRef90_P40594 Hydrogenase expression/formation protein HoxQ n...  274     6e-89 
+  UniRef90_A0A318LJW4 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  274     6e-89 
+  UniRef90_A0A2U8FNG3 Hydrogenase expression/formation protein n=...  275     6e-89 
+  UniRef90_A0A1H9FXY6 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  275     7e-89 
+  UniRef90_UPI000FDACC3A UPI000FDACC3A related cluster n=1 Tax=un...  274     8e-89 
+  UniRef90_UPI00036A4C1D hydrogenase expression/formation protein...  274     9e-89 
+  UniRef90_A0A2U1WY43 Hydrogenase accessory protein HypB n=8 Tax=...  274     9e-89 
+  UniRef90_A0A1U9JLU8 Uncharacterized protein n=2 Tax=Aquaspirill...  274     1e-88 
+  UniRef90_A0A1I1N2Z3 Hydrogenase-1 operon protein HyaF n=1 Tax=P...  273     2e-88 
+  UniRef90_A0A251X0H6 Hydrogenase expression/formation protein n=...  273     2e-88 
+  UniRef90_A0A2U1VUK5 Hydrogenase accessory protein HypB n=1 Tax=...  273     2e-88 
+  UniRef90_A0A258IMB3 Hydrogenase expression/formation protein n=...  273     2e-88 
+  UniRef90_A0A2E9DCT7 Hydrogenase expression/formation protein n=...  273     2e-88 
+  UniRef90_A0A238JB50 Uncharacterized protein n=1 Tax=Tropicibact...  272     2e-88 
+  UniRef90_UPI0008370B5A hydrogenase expression/formation protein...  272     3e-88 
+  UniRef90_A6E4C4 HupH hydrogenase expression/formation protein n...  272     3e-88 
+  UniRef90_A0A2T0WLW7 Hydrogenase-1 operon protein HyaF n=1 Tax=D...  272     3e-88 
+  UniRef90_A0A1I3IFL9 Hydrogenase-1 operon protein HyaF n=1 Tax=A...  272     4e-88 
+  UniRef90_A0A1V0PX27 Hydrogenase maturation factor HoxQ n=1 Tax=...  272     4e-88 
+  UniRef90_A0A0P1GIS0 Uncharacterized protein n=1 Tax=Tropicibact...  272     4e-88 
+  UniRef90_A0A1B8V1N3 Hydrogenase n=1 Tax=Pseudomonas sp. AU11447...  272     5e-88 
+  UniRef90_A0A2R8ATM0 Uncharacterized protein n=1 Tax=Primorskyib...  272     5e-88 
+  UniRef90_A0A2T4IJ68 Hydrogenase expression/formation protein n=...  272     5e-88 
+  UniRef90_R8API0 Hydrogenase-1 operon protein HyaF, putative n=1...  272     6e-88 
+  UniRef90_S9Q8G3 Hydrogenase maturation factor HoxQ n=1 Tax=Sali...  271     6e-88 
+  UniRef90_A7IHD0 HupH hydrogenase expression protein n=1 Tax=Xan...  272     7e-88 
+  UniRef90_A0P1N4 HupH hydrogenase expression/formation protein n...  271     7e-88 
+  UniRef90_A0A353Y834 Hydrogenase expression/formation protein n=...  272     8e-88 
+  UniRef90_A0A317EAH6 Hydrogenase expression/formation protein n=...  272     8e-88 
+  UniRef90_C8S276 HupH hydrogenase expression protein n=1 Tax=Rho...  271     1e-87 
+  UniRef90_A0A0S8FJA1 Uncharacterized protein n=1 Tax=Gammaproteo...  271     1e-87 
+  UniRef90_A0A2E3PD07 Hydrogenase expression/formation protein n=...  271     1e-87 
+  UniRef90_F1Z423 HupH hydrogenase expression/formation protein n...  271     1e-87 
+  UniRef90_A0A379Q296 Hydrogenase-1 operon protein HyaF2 n=350 Ta...  273     1e-87 
+  UniRef90_A0A1B1PLR8 Hydrogenase accessory protein HypB n=1 Tax=...  270     2e-87 
+  UniRef90_UPI0003638EFF hydrogenase expression/formation protein...  271     2e-87 
+  UniRef90_A0A285RMB5 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  270     2e-87 
+  UniRef90_A0A358B4W3 Hydrogenase expression/formation protein n=...  270     2e-87 
+  UniRef90_UPI000E4C9960 hydrogenase expression/formation protein...  270     3e-87 
+  UniRef90_A0A317E8J7 Hydrogenase expression/formation protein n=...  270     3e-87 
+  UniRef90_A0A3D0G7Y9 Hydrogenase expression/formation protein n=...  270     3e-87 
+  UniRef90_A0A149VYN5 Uncharacterized protein n=3 Tax=root TaxID=...  269     3e-87 
+  UniRef90_A0A2S8RYY5 Hydrogenase-1 operon protein HyaF n=1 Tax=D...  269     4e-87 
+  UniRef90_A0A2Y9A1H4 Hydrogenase-1 operon protein HyaF n=1 Tax=J...  269     5e-87 
+  UniRef90_A0A252B3L0 Hydrogenase accessory protein HypB n=2 Tax=...  270     6e-87 
+  UniRef90_UPI000F666087 hydrogenase expression/formation protein...  269     6e-87 
+  UniRef90_G1Y4V8 Hydrogenase formation protein n=2 Tax=Nitrospir...  269     1e-86 
+  UniRef90_A0A2D5PGM0 Hydrogenase expression/formation protein n=...  269     1e-86 
+  UniRef90_UPI000471B371 hydrogenase expression/formation protein...  269     1e-86 
+  UniRef90_Q6LB96 Hydrogenase expression/formation protein HupH n...  268     1e-86 
+  UniRef90_A0A371Z4E2 Hydrogenase expression/formation protein n=...  268     2e-86 
+  UniRef90_A0A0D6B682 Hydrogenase-1 expression HyaE n=4 Tax=Rhodo...  267     2e-86 
+  UniRef90_A0A357IFG6 Hydrogenase expression/formation protein n=...  268     2e-86 
+  UniRef90_A0A0F2KXD0 Hydrogenase accessory protein HypB n=1 Tax=...  267     3e-86 
+  UniRef90_UPI000F8CA6EC hydrogenase expression/formation protein...  267     4e-86 
+  UniRef90_UPI00055FE50A hydrogenase expression/formation protein...  267     5e-86 
+  UniRef90_UPI0005530773 hydrogenase expression/formation protein...  267     7e-86 
+  UniRef90_A0A1X7NA65 Hydrogenase-1 operon protein HyaF n=1 Tax=A...  266     1e-85 
+  UniRef90_A0A0S8F0S5 Uncharacterized protein n=1 Tax=Gammaproteo...  266     1e-85 
+  UniRef90_I3CFD5 HupH hydrogenase expression protein n=1 Tax=Beg...  266     1e-85 
+  UniRef90_A0A1E4N5K8 Hydrogenase expression protein HupH n=1 Tax...  265     1e-85 
+  UniRef90_A0A1M4N475 Hydrogenase expression/formation protein Hu...  265     1e-85 
+  UniRef90_UPI00039D265F hydrogenase expression/formation protein...  265     2e-85 
+  UniRef90_V7EPV5 Hydrogenase accessory protein HypB n=1 Tax=Rhod...  265     2e-85 
+  UniRef90_UPI0008FF0F12 hydrogenase expression/formation protein...  264     4e-85 
+  UniRef90_A0A1N7L9Z0 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  264     5e-85 
+  UniRef90_A0A353V037 Hydrogenase expression/formation protein n=...  264     5e-85 
+  UniRef90_G7ZE62 Hydrogenase expression/formation protein hupH n...  264     6e-85 
+  UniRef90_UPI000377259D hypothetical protein n=1 Tax=beta proteo...  264     1e-84 
+  UniRef90_A0A3B0M7R0 Uncharacterized protein n=1 Tax=Roseibaca e...  263     1e-84 
+  UniRef90_A0A2D8AA75 Hydrogenase expression/formation protein n=...  263     2e-84 
+  UniRef90_I3BNG0 HupH hydrogenase expression protein n=1 Tax=Thi...  262     3e-84 
+  UniRef90_A0A1D8K912 Uncharacterized protein n=1 Tax=Acidihaloba...  262     3e-84 
+  UniRef90_UPI0003768DCD hydrogenase expression/formation protein...  263     3e-84 
+  UniRef90_A0A126SY96 HupH hydrogenase expression protein n=1 Tax...  262     5e-84 
+  UniRef90_A0A2S6BBS0 Hydrogenase expression/formation protein n=...  261     8e-84 
+  UniRef90_A0A1Z9Y4G1 Hydrogenase expression/formation protein n=...  261     1e-83 
+  UniRef90_A0A2N9YC11 Uncharacterized protein n=1 Tax=Beggiatoa l...  261     1e-83 
+  UniRef90_A0A0A0EC67 Hydrogenase accessory protein HypB n=1 Tax=...  260     1e-83 
+  UniRef90_A0A2T4J8Z3 Hydrogenase expression/formation protein n=...  260     2e-83 
+  UniRef90_UPI000EB05BD3 hydrogenase expression/formation protein...  260     2e-83 
+  UniRef90_A0A2N2VE94 Hydrogenase expression/formation protein n=...  260     3e-83 
+  UniRef90_A0A2C9D141 Uncharacterized protein n=1 Tax=Hartmanniba...  259     3e-83 
+  UniRef90_A0A0P0UPZ6 Hydrogenase-1 operon protein HyaF n=2 Tax=s...  260     4e-83 
+  UniRef90_UPI0003F5A61B hydrogenase expression/formation protein...  259     5e-83 
+  UniRef90_A0A1H6MTH0 Hydrogenase accessory protein HypB n=1 Tax=...  259     6e-83 
+  UniRef90_F8JI04 Hydrogenase expression/formation protein hupH n...  259     6e-83 
+  UniRef90_A0A2N2RAE1 Hydrogenase expression/formation protein n=...  259     7e-83 
+  UniRef90_S5MVQ4 Hydrogenase maturation factor HoxQ /Hydrogenase...  261     8e-83 
+  UniRef90_Q0A722 HupH hydrogenase expression protein n=1 Tax=Alk...  259     8e-83 
+  UniRef90_A0A0S7Z598 Uncharacterized protein n=1 Tax=Gammaproteo...  258     1e-82 
+  UniRef90_Q478M1 HupH hydrogenase expression protein, C-terminal...  258     1e-82 
+  UniRef90_A0A2T6AYZ5 Hydrogenase-1 operon protein HyaF n=3 Tax=R...  257     2e-82 
+  UniRef90_UPI000255FD53 HupH hydrogenase expression protein n=1 ...  258     2e-82 
+  UniRef90_A0A3D5SXI4 Hydrogenase expression/formation protein n=...  257     3e-82 
+  UniRef90_P28150 Hydrogenase expression/formation protein HupH n...  257     3e-82 
+  UniRef90_A0A2W5DUT9 Hydrogenase expression/formation protein n=...  257     5e-82 
+  UniRef90_A0A1D8ILQ6 Uncharacterized protein n=1 Tax=Acidihaloba...  257     5e-82 
+  UniRef90_A0A2T4IKX0 Hydrogenase expression/formation protein n=...  257     5e-82 
+  UniRef90_A0A1N7RSY6 Hydrogenase expression/formation protein Ho...  255     6e-82 
+  UniRef90_A0A323V0Q2 Hydrogenase expression/formation protein n=...  256     7e-82 
+  UniRef90_A0A1X6ZAS5 Uncharacterized protein n=1 Tax=Pseudoocean...  255     1e-81 
+  UniRef90_A8IMS9 Hydrogenase expression/formation protein n=2 Ta...  255     1e-81 
+  UniRef90_UPI0009A49D3B hydrogenase expression/formation protein...  255     1e-81 
+  UniRef90_UPI0003F58F9A hydrogenase expression/formation protein...  255     2e-81 
+  UniRef90_A0A3L6LVX1 Hydrogenase expression/formation protein n=...  255     2e-81 
+  UniRef90_UPI00061BDA35 hydrogenase expression/formation protein...  254     2e-81 
+  UniRef90_A0A251XB82 Uncharacterized protein n=1 Tax=Thioflexoth...  254     3e-81 
+  UniRef90_UPI000DD783A2 hydrogenase expression/formation protein...  254     4e-81 
+  UniRef90_A0A159Z3F8 HupH hydrogenase expression/formation prote...  254     7e-81 
+  UniRef90_A0A0U5IGS8 Hydrogenase expression protein HupH n=3 Tax...  254     9e-81 
+  UniRef90_A0A2N2QX69 Hydrogenase expression/formation protein n=...  253     1e-80 
+  UniRef90_A0A1Y6D4Z2 Hydrogenase-1 operon protein HyaF n=1 Tax=M...  253     1e-80 
+  UniRef90_A0A285XDJ8 Hydrogenase-1 operon protein HyaF n=3 Tax=R...  253     2e-80 
+  UniRef90_A0A1W1BZ97 Hydrogenase maturation factor HoxQ n=1 Tax=...  252     3e-80 
+  UniRef90_A0A0B4X696 Hydrogenase expression/formation protein Hu...  252     4e-80 
+  UniRef90_UPI000A04937F hydrogenase expression/formation protein...  251     1e-79 
+  UniRef90_A0A3G3IPF2 Hydrogenase expression protein HupH n=2 Tax...  251     1e-79 
+  UniRef90_A0A292EAU0 Hydrogenase expression/formation protein n=...  250     2e-79 
+  UniRef90_UPI000A16F659 hypothetical protein n=1 Tax=Derxia lacu...  250     2e-79 
+  UniRef90_S5STH0 Hydrogenase expression/formation protein HupH n...  250     2e-79 
+  UniRef90_F9U5A7 HupH hydrogenase expression protein n=2 Tax=Thi...  249     4e-79 
+  UniRef90_UPI000EB40658 hydrogenase expression/formation protein...  249     4e-79 
+  UniRef90_Q56363 HupH n=1 Tax=Thiocapsa roseopersicina TaxID=105...  248     1e-78 
+  UniRef90_A0A3N6MYG8 Hydrogenase expression/formation protein n=...  248     2e-78 
+  UniRef90_H0TX75 Hydrogenase expression/formation protein hupH n...  247     3e-78 
+  UniRef90_Q07S95 HupH hydrogenase expression protein n=1 Tax=Rho...  247     3e-78 
+  UniRef90_A0A2Z6HXE5 Uncharacterized protein n=1 Tax=Pleomorphom...  247     5e-78 
+  UniRef90_A0A318TDM8 Hydrogenase-1 operon protein HyaF n=3 Tax=R...  246     6e-78 
+  UniRef90_UPI00047B2CB8 hydrogenase expression/formation protein...  246     7e-78 
+  UniRef90_A0A1S1T3D7 Hydrogenase accessory protein HypB n=3 Tax=...  246     7e-78 
+  UniRef90_UPI0007323A3E hydrogenase expression/formation protein...  247     7e-78 
+  UniRef90_UPI00041C94C7 hydrogenase accessory protein HypB n=2 T...  246     1e-77 
+  UniRef90_A0A133XFS4 Uncharacterized protein n=1 Tax=Dechloromon...  245     2e-77 
+  UniRef90_UPI00098A6EED hydrogenase expression/formation protein...  244     3e-77 
+  UniRef90_A0A109JZX9 Hydrogenase accessory protein HypB n=1 Tax=...  244     3e-77 
+  UniRef90_A0A1Q5RMV8 Hydrogenase accessory protein HypB n=1 Tax=...  244     4e-77 
+  UniRef90_UPI000E26A9EF hydrogenase expression/formation protein...  244     4e-77 
+  UniRef90_P48340 Hydrogenase expression/formation protein HupH n...  244     5e-77 
+  UniRef90_UPI0006853E53 hydrogenase expression/formation protein...  245     6e-77 
+  UniRef90_A0A2X1PVM3 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  244     6e-77 
+  UniRef90_A0A2M6U9U1 Hydrogenase accessory protein HypB n=1 Tax=...  244     7e-77 
+  UniRef90_A0A323UGL4 Hydrogenase expression/formation protein n=...  244     8e-77 
+  UniRef90_UPI00040E1174 hydrogenase expression/formation protein...  243     1e-76 
+  UniRef90_A0A221KF38 Hydrogenase n=2 Tax=Vitreoscilla filiformis...  244     1e-76 
+  UniRef90_V4JB78 Uncharacterized protein n=2 Tax=Chromatiaceae T...  248     1e-76 
+  UniRef90_A0A250KMQ7 Putative hydrogenase expression/formation p...  243     1e-76 
+  UniRef90_M4ZE75 Hydrogenase expression/formation protein HupH n...  243     2e-76 
+  UniRef90_A0A177PMS9 Hydrogenase accessory protein HypB n=4 Tax=...  242     2e-76 
+  UniRef90_A0A1C7HHV3 Hydrogenase n=2 Tax=Burkholderiales TaxID=8...  243     2e-76 
+  UniRef90_Q13BY2 HupH hydrogenase expression protein n=2 Tax=Rho...  242     2e-76 
+  UniRef90_A0A1A5X0S9 Hydrogenase-1 operon protein HyaF n=2 Tax=P...  242     3e-76 
+  UniRef90_A4YNU1 Hydrogenase expression/formation protein hupH n...  242     3e-76 
+  UniRef90_UPI0009C0E73C hydrogenase expression/formation protein...  242     4e-76 
+  UniRef90_Q60CE7 Putative hydrogenase expression/formation prote...  241     5e-76 
+  UniRef90_A0A1R1I3S7 Uncharacterized protein n=1 Tax=Azonexus hy...  241     9e-76 
+  UniRef90_A0A2X1L888 Hydrogenase-1 operon protein HyaF n=2 Tax=E...  239     1e-75 
+  UniRef90_UPI0001F886B9 hydrogenase accessory protein HypB n=1 T...  240     2e-75 
+  UniRef90_A0A0P6W6K0 Hydrogenase accessory protein HypB n=1 Tax=...  240     2e-75 
+  UniRef90_A0A2U3QAT7 Hydrogenase expression/formation protein Hu...  239     4e-75 
+  UniRef90_UPI0009E6668F hydrogenase expression/formation protein...  239     7e-75 
+  UniRef90_A0A1B1UKL8 Hydrogenase accessory protein HypB n=3 Tax=...  239     7e-75 
+  UniRef90_UPI000E65898F hydrogenase expression/formation protein...  240     8e-75 
+  UniRef90_A0A117N4A0 Hydrogenase accessory protein HypB n=1 Tax=...  237     1e-74 
+  UniRef90_A0A0R3E4P5 Hydrogenase accessory protein HypB n=1 Tax=...  237     1e-74 
+  UniRef90_A0A1R1QZB3 Hydrogenase expression/formation protein n=...  238     1e-74 
+  UniRef90_Q6NB61 Hydrogenase expression/formation protein hupH n...  238     1e-74 
+  UniRef90_A0A176YZ72 Hydrogenase accessory protein HypB n=3 Tax=...  238     1e-74 
+  UniRef90_UPI000DF1825E hydrogenase expression/formation protein...  237     2e-74 
+  UniRef90_A0A1G7XHK1 Hydrogenase-1 operon protein HyaF n=1 Tax=B...  237     2e-74 
+  UniRef90_UPI000300DE79 hydrogenase expression/formation protein...  237     3e-74 
+  UniRef90_A0A1C3VT45 Hydrogenase-1 operon protein HyaF n=4 Tax=B...  237     3e-74 
+  UniRef90_UPI0009AA8EF6 hydrogenase-1 operon protein HyaF2 n=9 T...  235     6e-74 
+  UniRef90_A0A0D7EWJ8 Hydrogenase accessory protein HypB n=1 Tax=...  235     1e-73 
+  UniRef90_UPI000977BF2C hydrogenase expression/formation protein...  235     2e-73 
+  UniRef90_UPI0006CF9AD7 hydrogenase expression/formation protein...  236     2e-73 
+  UniRef90_A0A1A6FJ55 Hydrogenase accessory protein HypB n=2 Tax=...  235     2e-73 
+  UniRef90_UPI0004098771 hydrogenase expression/formation protein...  234     3e-73 
+  UniRef90_A0A2W4SZF8 Hydrogenase expression/formation protein n=...  234     3e-73 
+  UniRef90_A0A327L644 Hydrogenase expression/formation protein n=...  234     4e-73 
+  UniRef90_A0A1J4XEF3 Uncharacterized protein n=1 Tax=Proteobacte...  234     6e-73 
+  UniRef90_A0A0N0KJP5 Hydrogenase accessory protein HypB n=1 Tax=...  234     6e-73 
+  UniRef90_UPI0003F9425C hydrogenase expression/formation protein...  234     6e-73 
+  UniRef90_A0A1S2SFW4 Hydrogenase expression/formation protein n=...  234     7e-73 
+  UniRef90_UPI000B878C9D hydrogenase expression/formation protein...  231     9e-73 
+  UniRef90_A0A327KGQ1 Hydrogenase expression/formation protein n=...  233     1e-72 
+  UniRef90_A0A212LCI8 Hydrogenase expression/formation protein Hu...  232     1e-72 
+  UniRef90_R6AP17 HupH hydrogenase expression protein conserved r...  233     1e-72 
+  UniRef90_UPI000A2F4D5A hydrogenase expression/formation protein...  230     2e-72 
+  UniRef90_A0A1W6MW91 Hydrogenase expression/formation protein n=...  231     4e-72 
+  UniRef90_UPI0009AED4EE hydrogenase n=3 Tax=Salmonella enterica ...  230     6e-72 
+  UniRef90_A0A2A6NSX7 Hydrogenase expression/formation protein n=...  229     8e-72 
+  UniRef90_W9H0A4 Hydrogenase accessory protein HypB n=1 Tax=Sker...  230     1e-71 
+  UniRef90_UPI000404F0A2 hydrogenase expression/formation protein...  229     1e-71 
+  UniRef90_A0A395CUM1 Hydrogenase expression/formation protein n=...  230     2e-71 
+  UniRef90_UPI0004DF5A81 hydrogenase expression/formation protein...  229     3e-71 
+  UniRef90_A0A3G8MCZ1 Hydrogenase expression/formation protein n=...  229     3e-71 
+  UniRef90_A0A0R3L348 Hydrogenase accessory protein HypB n=1 Tax=...  228     7e-71 
+  UniRef90_Q1KZW9 HupH n=4 Tax=Bradyrhizobium TaxID=374 RepID=Q1K...  228     9e-71 
+  UniRef90_A0A2E7EUV4 Hydrogenase expression/formation protein n=...  227     1e-70 
+  UniRef90_B2JX95 HupH hydrogenase expression protein n=5 Tax=Par...  227     2e-70 
+  UniRef90_A0A1G3HIU5 Uncharacterized protein n=2 Tax=unclassifie...  227     3e-70 
+  UniRef90_J7QQP7 HupH hydrogenase expression protein n=2 Tax=Met...  226     3e-70 
+  UniRef90_UPI00035F163F hydrogenase accessory protein HypB n=1 T...  226     4e-70 
+  UniRef90_F8XQ71 HupH hydrogenase expression protein n=2 Tax=Aci...  225     5e-70 
+  UniRef90_A0A0R3KSN2 Hydrogenase accessory protein HypB n=6 Tax=...  225     9e-70 
+  UniRef90_A0A1V5EI10 Hydrogenase accessory protein HypB n=1 Tax=...  225     1e-69 
+  UniRef90_A0A259PI90 Uncharacterized protein (Fragment) n=1 Tax=...  222     2e-69 
+  UniRef90_UPI0004029E45 hydrogenase expression/formation protein...  224     2e-69 
+  UniRef90_A0A2M7WDE9 Hydrogenase expression/formation protein n=...  227     3e-69 
+  UniRef90_A0A0A1H8W5 HupH hydrogenase expression protein, C-term...  224     3e-69 
+  UniRef90_UPI0003773AFC hypothetical protein n=1 Tax=Thioalkaliv...  224     3e-69 
+  UniRef90_A0A366F9C2 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  224     4e-69 
+  UniRef90_A0A1I4QAY1 Hydrogenase expression/formation protein n=...  223     4e-69 
+  UniRef90_UPI0004099338 hydrogenase expression/formation protein...  222     1e-68 
+  UniRef90_A0A2S3YSZ5 Hydrogenase accessory protein HypB n=5 Tax=...  222     2e-68 
+  UniRef90_A0A212RX46 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  222     3e-68 
+  UniRef90_A0A2U1RWR9 Hydrogenase expression/formation protein n=...  222     3e-68 
+  UniRef90_A0A348G363 Hydrogenase expression/formation protein Hu...  221     5e-68 
+  UniRef90_I3YF33 HupH hydrogenase expression protein n=1 Tax=Thi...  220     5e-68 
+  UniRef90_A0A257NU34 Hydrogenase expression/formation protein n=...  220     7e-68 
+  UniRef90_UPI0005EB63B5 hydrogenase expression/formation protein...  221     7e-68 
+  UniRef90_A0A1L3LAD6 Hydrogenase expression/formation protein Hu...  220     9e-68 
+  UniRef90_UPI000FE412B8 hydrogenase expression/formation protein...  219     2e-67 
+  UniRef90_A0A1C3XES9 Hydrogenase-1 operon protein HyaF n=5 Tax=B...  219     2e-67 
+  UniRef90_UPI000A11A60E hydrogenase expression/formation protein...  218     8e-67 
+  UniRef90_A0A2X2J1U0 Hydrogenase-1 operon protein hyaF n=6 Tax=E...  215     8e-67 
+  UniRef90_A0A2S6N5A6 Hydrogenase expression/formation protein n=...  218     1e-66 
+  UniRef90_J6J508 Hydrogenase maturation factor HoxQ n=1 Tax=Rhod...  215     6e-66 
+  UniRef90_Q20ZY5 HupH hydrogenase expression protein n=1 Tax=Rho...  215     9e-66 
+  UniRef90_D9PLD0 Hydrogenase expression/formation protein (Fragm...  213     9e-66 
+  UniRef90_A0A0H5BH65 Hydrogenase maturation factor HoxQ n=1 Tax=...  214     4e-65 
+  UniRef90_UPI0007377D41 hydrogenase-1 operon protein HyaF n=4 Ta...  209     2e-64 
+  UniRef90_A0A0D2VWB2 Hydrogenase accessory protein HypB n=2 Tax=...  205     2e-62 
+  UniRef90_H8FMT2 Hydrogenase expression/formation protein hupH n...  205     6e-62 
+  UniRef90_A0A0F2RSD8 Uncharacterized protein n=1 Tax=Rhodospiril...  204     7e-62 
+  UniRef90_S9SAT9 HupH hydrogenase expression protein n=2 Tax=Pha...  204     2e-61 
+  UniRef90_A0A2Z3R1E8 Hydrogenase expression/formation protein n=...  202     6e-61 
+  UniRef90_A0A1C2G401 Uncharacterized protein n=2 Tax=Acidiferrob...  201     1e-60 
+  UniRef90_A0A257NL06 Hydrogenase expression/formation protein n=...  200     6e-60 
+  UniRef90_A0A2L0WH90 Hydrogenase expression/formation protein Hu...  199     7e-60 
+  UniRef90_Q9ANQ2 Hydrogenase accessory protein HypB n=6 Tax=Brad...  196     1e-59 
+  UniRef90_A0A0R3CAL2 Hydrogenase accessory protein HypB n=1 Tax=...  196     1e-59 
+  UniRef90_K9HQQ3 Hydrogenase maturation factor HoxQ n=1 Tax=Caen...  199     1e-59 
+  UniRef90_A0A2N3PSJ3 Hydrogenase expression/formation protein n=...  197     5e-59 
+  UniRef90_A0A161PBH8 Uncharacterized protein n=3 Tax=Marichromat...  197     1e-58 
+  UniRef90_N6UDV9 Uncharacterized protein n=4 Tax=Rhizobium TaxID...  195     2e-58 
+  UniRef90_A0A2A2V3R4 Hydrogenase expression/formation protein n=...  190     3e-57 
+  UniRef90_A0A1J5PLZ0 Uncharacterized protein n=1 Tax=mine draina...  189     5e-57 
+  UniRef90_A0A1G6YLL0 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  188     1e-55 
+  UniRef90_A0A066PQP0 Hydrogenase expression/formation protein Hu...  188     2e-55 
+  UniRef90_A0A1N7P956 Hydrogenase-1 operon protein HyaF n=1 Tax=I...  188     2e-55 
+  UniRef90_A0A1G8B0L9 Hydrogenase-1 operon protein HyaF n=1 Tax=R...  186     1e-54 
+  UniRef90_W0E4B7 Hydrogenase accessory protein HypB n=1 Tax=Mari...  185     4e-54 
+  UniRef90_A0A2Z6DZ94 Hydrogenase expression/formation protein n=...  181     3e-52 
+  UniRef90_A0A376W177 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  177     3e-51 
+  UniRef90_H8Z5R4 HupH hydrogenase expression protein n=1 Tax=Thi...  177     4e-51 
+  UniRef90_UPI00085441E7 hypothetical protein n=2 Tax=Escherichia...  175     5e-50 
+  UniRef90_A0A2J0RL43 Hydrogenase expression/formation protein (F...  170     2e-49 
+  UniRef90_I0IS54 Putative hydrogenase-1 operon protein HyaF2 n=1...  172     2e-49 
+  UniRef90_A0A0X8CQD4 Hydrogenase accessory protein HypB n=2 Tax=...  169     5e-49 
+  UniRef90_A0A286H0M0 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  172     6e-49 
+  UniRef90_Q2RV78 Hydrogenase expression/formation protein hupH n...  168     9e-48 
+  UniRef90_A0A379TB08 Hydrogenase-1 operon protein HyaF2 n=2 Tax=...  166     3e-47 
+  UniRef90_UPI000D39039D hydrogenase expression/formation protein...  161     2e-46 
+  UniRef90_A0A351SJY0 Hydrogenase expression/formation protein (F...  161     2e-46 
+  UniRef90_A0A2E7E8K5 Uncharacterized protein n=1 Tax=Oceanospiri...  156     2e-44 
+  UniRef90_I0JY98 Putative HupH hydrogenase expression protein n=...  157     1e-43 
+  UniRef90_W7WNZ6 Uncharacterized protein n=1 Tax=Hydrogenophaga ...  153     1e-43 
+  UniRef90_A0A379TBG1 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  153     2e-43 
+  UniRef90_R7BWP7 HupH hydrogenase expression protein conserved r...  154     3e-42 
+  UniRef90_UPI00068A67C5 hypothetical protein n=1 Tax=Methylacidi...  152     1e-41 
+  UniRef90_A0A3N7HTN2 Hydrogenase expression/formation protein (F...  147     2e-41 
+  UniRef90_UPI00034B32D1 hypothetical protein n=1 Tax=Ideonella s...  151     4e-41 
+  UniRef90_A0A379S574 Rubredoxin n=2 Tax=Salmonella enterica subs...  146     2e-40 
+  UniRef90_A0A2M8DFG2 Hydrogenase expression/formation protein n=...  145     4e-39 
+  UniRef90_A0A1W5LCV2 Hydrogenase-1 operon protein n=2 Tax=Methyl...  144     9e-39 
+  UniRef90_A0A1Y6DBN2 Hydrogenase-1 operon protein HyaF (Fragment...  143     4e-38 
+  UniRef90_R7KGU7 Uncharacterized protein n=1 Tax=Sutterella sp. ...  143     6e-38 
+  UniRef90_K1JJG0 Uncharacterized protein n=2 Tax=Sutterella TaxI...  143     1e-37 
+  UniRef90_UPI000E499D20 hypothetical protein n=1 Tax=Sutterella ...  141     2e-37 
+  UniRef90_H6SN22 Hydrogenase expression/formation protein hupH n...  142     8e-37 
+  UniRef90_A0A352LPX7 Uncharacterized protein n=1 Tax=Sutterella ...  140     9e-37 
+  UniRef90_R7I4Z0 HupH hydrogenase expression protein conserved r...  138     5e-36 
+  UniRef90_E7H6D6 Uncharacterized protein n=3 Tax=Sutterella TaxI...  138     9e-36 
+  UniRef90_H3KCA7 HupH hydrogenase expression protein, conserved ...  136     2e-35 
+  UniRef90_A0A379S4W1 Hydrogenase-1 operon protein HyaF2 n=1 Tax=...  133     6e-35 
+  UniRef90_A0A3P3ZQR4 Uncharacterized protein n=1 Tax=mine draina...  131     5e-34 
+  UniRef90_A0A2Z6IER5 Uncharacterized protein n=1 Tax=Sutterella ...  133     9e-34 
+  UniRef90_A0A2J0R9C4 Hydrogenase expression/formation protein (F...  127     9e-34 
+  UniRef90_UPI0009D938AA hypothetical protein n=1 Tax=Verrucomicr...  131     3e-33 
+  UniRef90_A0A0P1L8P0 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  126     4e-33 
+  UniRef90_A0A2N2AJJ3 Hydrogenase expression/formation protein n=...  126     9e-33 
+  UniRef90_A0A0T9XH69 Hydrogenase-1 operon protein HyaF2 n=3 Tax=...  126     2e-32 
+  UniRef90_UPI00046512FF hypothetical protein n=1 Tax=Verrucomicr...  129     2e-32 
+  UniRef90_UPI0009B0C87F hydrogenase n=1 Tax=Salmonella enterica ...  125     2e-32 
+  UniRef90_A0A3N6V7L2 Hydrogenase expression/formation protein n=...  125     3e-32 
+  UniRef90_A0A1H6LHF3 HupH hydrogenase expression protein n=1 Tax...  121     6e-32 
+  UniRef90_UPI000FD7EB41 hydrogenase expression/formation protein...  123     8e-32 
+  UniRef90_A0A2T6NSY3 Uncharacterized protein n=2 Tax=gamma prote...  122     3e-31 
+  UniRef90_A0A1E4JUI7 Uncharacterized protein n=1 Tax=Thiobacillu...  121     4e-31 
+  UniRef90_A0A377LH26 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  122     4e-31 
+  UniRef90_A0A1E2UX55 Hydrogenase accessory protein HupE n=1 Tax=...  121     7e-31 
+  UniRef90_A0A0N7MYL6 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  120     1e-30 
+  UniRef90_A0A1B4V5C8 Hydrogenase expression protein HupH n=1 Tax...  120     2e-30 
+  UniRef90_A0A1G3Y6R9 Uncharacterized protein n=2 Tax=Thiobacillu...  120     2e-30 
+  UniRef90_UPI000F611B87 hydrogenase expression/formation protein...  119     4e-30 
+  UniRef90_A0A1G0ND57 Uncharacterized protein n=1 Tax=Hydrogenoph...  119     4e-30 
+  UniRef90_UPI00037AD385 hypothetical protein n=1 Tax=Verrucomicr...  123     4e-30 
+  UniRef90_A0A258F9I1 Hydrogenase expression/formation protein n=...  118     8e-30 
+  UniRef90_A0A1M3HES2 Hydrogenase expression/formation protein n=...  118     1e-29 
+  UniRef90_A0A259F243 Hydrogenase expression/formation protein n=...  118     1e-29 
+  UniRef90_A0A2M7MYA8 Hydrogenase expression/formation protein n=...  118     1e-29 
+  UniRef90_A0A285P1Y5 Hydrogenase-1 operon protein HyaF n=1 Tax=H...  117     1e-29 
+  UniRef90_A0A3M2GVN2 Hydrogenase expression/formation protein n=...  117     1e-29 
+  UniRef90_A0A1G0EUV6 Uncharacterized protein n=1 Tax=Gallionella...  117     1e-29 
+  UniRef90_A0A1E2UTF5 Hydrogenase accessory protein HupE n=1 Tax=...  117     2e-29 
+  UniRef90_A0A2T9ZUM2 Hydrogenase accessory protein HupE n=1 Tax=...  117     2e-29 
+  UniRef90_A0A379TBM2 Hydrogenase-1 operon protein HyaF n=2 Tax=S...  116     3e-29 
+  UniRef90_A0A0S4MY30 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  116     3e-29 
+  UniRef90_O66900 Uncharacterized protein n=1 Tax=Aquifex aeolicu...  116     3e-29 
+  UniRef90_A0A0S4N4J1 Hydrogenase-1 operon protein HyaF n=1 Tax=C...  116     3e-29 
+  UniRef90_A0A1Y0GAP9 Uncharacterized protein n=1 Tax=Sulfuriferu...  116     3e-29 
+  UniRef90_A0A1E4L2F9 Uncharacterized protein n=5 Tax=Proteobacte...  116     4e-29 
+  UniRef90_A0A1G0BAD5 Uncharacterized protein n=2 Tax=Nitrosomona...  116     4e-29 
+  UniRef90_A0A2X4TNC5 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  118     5e-29 
+  UniRef90_A0A251X829 Uncharacterized protein n=1 Tax=Thioflexoth...  116     5e-29 
+  UniRef90_A0A258TTF6 Hydrogenase expression/formation protein n=...  116     6e-29 
+  UniRef90_A0A1E2ZAD4 Uncharacterized protein n=2 Tax=unclassifie...  116     7e-29 
+  UniRef90_D3SLV6 HupH hydrogenase expression protein n=2 Tax=The...  115     8e-29 
+  UniRef90_A0A2G2R4K6 Hydrogenase expression protein HupH n=1 Tax...  115     1e-28 
+  UniRef90_A0A1E4NCA6 Uncharacterized protein n=1 Tax=Thiobacillu...  114     2e-28 
+  UniRef90_UPI000F5C025D hydrogenase expression/formation protein...  114     2e-28 
+  UniRef90_A0A1E4HXW9 Uncharacterized protein n=3 Tax=Thiobacillu...  114     3e-28 
+  UniRef90_UPI000F610D5D hydrogenase expression/formation protein...  114     4e-28 
+  UniRef90_G2DWF5 HupH hydrogenase expression protein n=1 Tax=Thi...  113     6e-28 
+  UniRef90_A0A1H6FGU5 Uncharacterized protein n=1 Tax=Thiotrichal...  113     6e-28 
+  UniRef90_A0A3C0Q9U4 Uncharacterized protein n=1 Tax=Gammaproteo...  113     8e-28 
+  UniRef90_D3DI15 Uncharacterized protein n=3 Tax=Bacteria TaxID=...  112     9e-28 
+  UniRef90_A0A1Q4GND9 Hydrogenase expression/formation protein n=...  112     9e-28 
+  UniRef90_A0A353Y081 Hydrogenase accessory protein HupE n=1 Tax=...  112     9e-28 
+  UniRef90_A0A1H4D9N0 Hydrogenase-1 operon protein HyaF n=2 Tax=T...  112     2e-27 
+  UniRef90_T1AH45 Hydrogenase expression/formation protein HupH (...  111     2e-27 
+  UniRef90_A0A2N2TS49 Hydrogenase expression protein HupH n=1 Tax...  111     2e-27 
+  UniRef90_A0A0F7JVV2 Uncharacterized protein n=2 Tax=Sedimentico...  111     3e-27 
+  UniRef90_W0DC31 HupH hydrogenase expression protein n=1 Tax=The...  111     4e-27 
+  UniRef90_A0A2W1KM05 Hydrogenase expression/formation protein n=...  111     4e-27 
+  UniRef90_A0A1V3NBJ7 Hydrogenase expression/formation protein n=...  111     5e-27 
+  UniRef90_A0A370DPC8 Hydrogenase accessory protein HupE n=1 Tax=...  111     6e-27 
+  UniRef90_A0A0S8L3Q8 Uncharacterized protein n=1 Tax=Acidithioba...  111     7e-27 
+  UniRef90_A0A1W9NGS0 Uncharacterized protein n=2 Tax=unclassifie...  110     7e-27 
+  UniRef90_A0A2A5FX51 Hydrogenase accessory protein HupE n=1 Tax=...  110     8e-27 
+  UniRef90_F9U5E2 HupH hydrogenase expression protein n=1 Tax=Thi...  110     8e-27 
+  UniRef90_W9V8F3 Hydrogenase maturation factor HoxQ n=1 Tax=Imho...  110     8e-27 
+  UniRef90_A0A1H2R1E8 Hydrogenase-1 operon protein HyaF n=2 Tax=T...  110     9e-27 
+  UniRef90_UPI00098F74DF hypothetical protein n=1 Tax=Pseudoruege...  110     1e-26 
+  UniRef90_I0JZN8 Hydrogenase expression/formation protein hoxQ n...  114     1e-26 
+  UniRef90_A0A1Z4VSP2 Uncharacterized protein n=2 Tax=unclassifie...  110     1e-26 
+  UniRef90_I3BNJ1 HupH hydrogenase expression protein n=1 Tax=Thi...  109     1e-26 
+  UniRef90_UPI0003696E94 hypothetical protein n=1 Tax=Verrucomicr...  113     1e-26 
+  UniRef90_UPI0009E6B805 hypothetical protein n=1 Tax=Pseudoruege...  111     2e-26 
+  UniRef90_A0A2G6I6A5 Uncharacterized protein n=1 Tax=Rhodobacter...  109     2e-26 
+  UniRef90_A0A1T2L5X2 Uncharacterized protein n=2 Tax=Solemya vel...  109     2e-26 
+  UniRef90_A0A363SIF2 Hydrogenase expression protein HupH n=1 Tax...  109     3e-26 
+  UniRef90_A0A1V6FU08 Uncharacterized protein n=1 Tax=Alphaproteo...  108     3e-26 
+  UniRef90_UPI00047B5BD9 hypothetical protein n=1 Tax=Methylomona...  108     4e-26 
+  UniRef90_A0A0C1RKR9 Hydrogenase n=1 Tax=Methylacidiphilum kamch...  112     5e-26 
+  UniRef90_UPI000EB23838 hydrogenase expression/formation protein...  108     6e-26 
+  UniRef90_G2FIG4 Hydrogenase expression protein HupH n=3 Tax=sul...  107     8e-26 
+  UniRef90_B8GQG1 Uncharacterized protein n=2 Tax=Thioalkalivibri...  108     1e-25 
+  UniRef90_UPI0009B03BDC hydrogenase n=1 Tax=Salmonella enterica ...  106     1e-25 
+  UniRef90_A0A2N6CYI9 Envelope stress response membrane protein P...  107     1e-25 
+  UniRef90_A0A369BYZ7 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  107     1e-25 
+  UniRef90_A0A1E5Q7A2 Uncharacterized protein n=2 Tax=Magnetovibr...  106     2e-25 
+  UniRef90_A0A1E4PS78 Uncharacterized protein n=2 Tax=Thiobacillu...  106     2e-25 
+  UniRef90_E6QTI1 Uncharacterized protein n=1 Tax=mine drainage m...  106     2e-25 
+  UniRef90_UPI0006873ADE hypothetical protein n=1 Tax=Thiothrix l...  106     2e-25 
+  UniRef90_A0A1V5FTF7 Uncharacterized protein n=1 Tax=Alphaproteo...  106     3e-25 
+  UniRef90_UPI00073219BC hypothetical protein n=1 Tax=Thiohalocap...  106     3e-25 
+  UniRef90_A8UUE6 Uncharacterized protein n=2 Tax=Hydrogenivirga ...  106     3e-25 
+  UniRef90_A0A3D3RQZ7 Hydrogenase expression/formation protein n=...  105     6e-25 
+  UniRef90_A0A3M1C5M6 Uncharacterized protein n=1 Tax=Alphaproteo...  105     7e-25 
+  UniRef90_D3RV30 HupH hydrogenase expression protein n=1 Tax=All...  106     8e-25 
+  UniRef90_A0A074J0I2 Uncharacterized protein n=1 Tax=Thioclava p...  105     1e-24 
+  UniRef90_I3YC98 HupH hydrogenase expression protein n=1 Tax=Thi...  105     1e-24 
+  UniRef90_A0A3D4DW83 Hydrogenase expression protein HupH n=1 Tax...  105     1e-24 
+  UniRef90_B4U667 HupH hydrogenase expression protein n=1 Tax=Hyd...  104     1e-24 
+  UniRef90_A0A0B0H9U2 HupH hydrogenase expression protein n=5 Tax...  104     2e-24 
+  UniRef90_A0A1E4P556 Uncharacterized protein n=1 Tax=Rubrivivax ...  104     2e-24 
+  UniRef90_B3DWK8 Hydrogenase expression/formation protein hoxQ n...  107     2e-24 
+  UniRef90_UPI000C806771 hydrogenase expression/formation protein...  103     3e-24 
+  UniRef90_A0A2G2GI50 Hydrogenase expression/formation protein n=...  103     5e-24 
+  UniRef90_L0DXE2 Hydrogenase maturation factor HoxQ domain-conta...  103     5e-24 
+  UniRef90_A0A2E6RGK3 Hydrogenase expression/formation protein n=...  103     5e-24 
+  UniRef90_H8YX05 HupH hydrogenase expression protein n=1 Tax=Thi...  104     5e-24 
+  UniRef90_W0DHW0 Hydrogenase expression protein HupH n=1 Tax=Thi...  103     6e-24 
+  UniRef90_A0A2E2XND5 Hydrogenase expression protein HupH n=1 Tax...  103     7e-24 
+  UniRef90_A0A1Y1Q9U6 Uncharacterized protein (Fragment) n=1 Tax=...  101     7e-24 
+  UniRef90_A0A2D5PEY1 Hydrogenase expression protein HupH n=1 Tax...  103     8e-24 
+  UniRef90_UPI00037B9DFD hypothetical protein n=1 Tax=Lamprocysti...  102     1e-23 
+  UniRef90_M1QGX0 HupH hydrogenase expression protein n=2 Tax=Hyd...  101     2e-23 
+  UniRef90_A0A370DG78 Uncharacterized protein n=1 Tax=endosymbion...  101     2e-23 
+  UniRef90_Q3SJ38 Uncharacterized protein n=2 Tax=Thiobacillus de...  101     3e-23 
+  UniRef90_A0A2K8UFU7 Hydrogenase expression protein HupH n=1 Tax...  101     3e-23 
+  UniRef90_A0A364UK42 Hydrogenase expression/formation protein (F...  99.2    4e-23 
+  UniRef90_UPI00036F92FE hydrogenase expression/formation protein...  101     4e-23 
+  UniRef90_A0A366JBW2 Hydrogenase-1 operon protein HyaF n=4 Tax=R...  101     4e-23 
+  UniRef90_A0A377AUC4 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  100     5e-23 
+  UniRef90_UPI000FDEB297 hydrogenase expression/formation protein...  100     6e-23 
+  UniRef90_W1IB27 Hydrogenase expression/formation protein hypH (...  99.6    9e-23 
+  UniRef90_A0A2N6AZE4 Hydrogenase expression/formation protein n=...  100     1e-22 
+  UniRef90_A0A0S8A7L2 Uncharacterized protein n=1 Tax=Gammaproteo...  99.6    1e-22 
+  UniRef90_T0YI43 HupH hydrogenase expression protein (Fragment) ...  99.6    1e-22 
+  UniRef90_A0A2N6G9C0 Uncharacterized protein n=1 Tax=Sedimentico...  99.6    1e-22 
+  UniRef90_A0A1I3NJV2 Hydrogenase-1 operon protein HyaF n=2 Tax=C...  100     2e-22 
+  UniRef90_A0A351SJX9 Hydrogenase expression/formation protein (F...  98.4    3e-22 
+  UniRef90_A0A2N6BKR3 Uncharacterized protein n=1 Tax=Rhizobiales...  98.4    5e-22 
+  UniRef90_UPI000DD35107 hydrogenase expression/formation protein...  98.1    5e-22 
+  UniRef90_A0A1X7N822 Hydrogenase-1 operon protein HyaF n=2 Tax=M...  98.1    7e-22 
+  UniRef90_A5EUI6 Uncharacterized protein n=1 Tax=Bradyrhizobium ...  97.3    8e-22 
+  UniRef90_A0A368HL75 Hydrogenase expression/formation protein n=...  98.1    9e-22 
+  UniRef90_A0A0U5BTP6 Hydrogenase expression/formation protein Hy...  96.9    2e-21 
+  UniRef90_UPI000B4B77EB hydrogenase expression/formation protein...  96.9    2e-21 
+  UniRef90_A0A397Q534 Hydrogenase-1 operon protein HyaF n=1 Tax=D...  96.5    2e-21 
+  UniRef90_L0H1D8 HupH hydrogenase expression protein n=1 Tax=Thi...  96.1    2e-21 
+  UniRef90_A0A1T4SJ93 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  95.4    3e-21 
+  UniRef90_A0A348ANV1 Uncharacterized protein n=1 Tax=Methylomusa...  95.4    4e-21 
+  UniRef90_A0A1G5PM05 Hydrogenase-1 operon protein HyaF n=1 Tax=T...  95.4    5e-21 
+  UniRef90_A0A372BXG7 Hydrogenase expression/formation protein n=...  95.0    7e-21 
+  UniRef90_UPI0009DB9D5D hypothetical protein n=1 Tax=Thermithiob...  94.6    8e-21 
+  UniRef90_A0A3N5JRQ7 Uncharacterized protein n=1 Tax=Xanthomonad...  96.1    1e-20 
+  UniRef90_UPI00036E1EC3 hypothetical protein n=1 Tax=Sporomusace...  94.2    1e-20 
+  UniRef90_UPI000990E4DE hypothetical protein n=1 Tax=Chromatiace...  94.6    1e-20 
+  UniRef90_UPI000C80BB61 hydrogenase expression/formation protein...  93.4    2e-20 
+  UniRef90_A0A3M1V9V1 Hydrogenase accessory protein HupE n=1 Tax=...  93.8    2e-20 
+  UniRef90_C8S1B1 HupH hydrogenase expression protein n=1 Tax=Rho...  93.0    3e-20 
+  UniRef90_A0A1Y1QAB5 Uncharacterized protein (Fragment) n=1 Tax=...  92.3    3e-20 
+  UniRef90_B2ICM0 Uncharacterized protein n=1 Tax=Beijerinckia in...  96.9    5e-20 
+  UniRef90_UPI0009B88163 hypothetical protein n=2 Tax=Bradyrhizob...  93.0    7e-20 
+  UniRef90_G4E1B2 HupH hydrogenase expression protein n=1 Tax=Thi...  91.9    9e-20 
+  UniRef90_A0A0S7ZX57 Uncharacterized protein n=1 Tax=Gammaproteo...  91.1    1e-19 
+  UniRef90_A0A1D9MAQ5 Uncharacterized protein n=2 Tax=Rhodobacter...  91.9    1e-19 
+  UniRef90_A0A327K493 Uncharacterized protein n=1 Tax=Rhodobium o...  91.5    1e-19 
+  UniRef90_A0A350P4Q4 Hydrogenase expression protein HupH n=1 Tax...  91.5    2e-19 
+  UniRef90_F4AUS5 HupH hydrogenase expression protein n=5 Tax=Alt...  90.3    4e-19 
+  UniRef90_F2G4N9 Hydrogenase expression protein HupH n=6 Tax=roo...  90.0    7e-19 
+  UniRef90_A0A1D8K6J2 Uncharacterized protein n=1 Tax=Acidihaloba...  89.2    1e-18 
+  UniRef90_A0A075KDT0 HupH hydrogenase expression protein n=2 Tax...  87.7    3e-18 
+  UniRef90_W0DYL8 Hydrogenase expression protein HupH n=5 Tax=Mar...  87.7    6e-18 
+  UniRef90_A1HTR0 HupH hydrogenase expression protein n=1 Tax=The...  86.5    8e-18 
+  UniRef90_A0A1V0PRR3 Hydrogenase maturation factor HoxQ n=2 Tax=...  85.7    2e-17 
+  UniRef90_F9N445 Hydrogenase expression protein HupH, C-terminal...  85.7    2e-17 
+  UniRef90_UPI00037DD013 hypothetical protein n=1 Tax=Lamprocysti...  87.3    2e-17 
+  UniRef90_UPI000F6340AB hypothetical protein n=1 Tax=Thiohalobac...  87.7    2e-17 
+  UniRef90_A0A1G0BZ27 Uncharacterized protein n=1 Tax=Gallionella...  86.5    2e-17 
+  UniRef90_A0A1I4GS73 Hydrogenase-1 operon protein HyaF n=1 Tax=P...  84.2    5e-17 
+  UniRef90_A0A376K2H6 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  84.2    6e-17 
+  UniRef90_W6K6J3 Hydrogenase expression/formation protein hupH (...  83.8    9e-17 
+  UniRef90_A0A2K8U7I0 Uncharacterized protein n=1 Tax=Candidatus ...  84.6    1e-16 
+  UniRef90_D1BNA7 Uncharacterized protein n=25 Tax=root TaxID=1 R...  83.8    1e-16 
+  UniRef90_A0A1S7LDH4 Uncharacterized protein n=1 Tax=magneto-ovo...  83.8    1e-16 
+  UniRef90_A0A1G7JJ87 Hydrogenase-1 operon protein HyaF n=1 Tax=S...  83.0    1e-16 
+  UniRef90_I8TZ29 HupH hydrogenase expression protein n=2 Tax=Pel...  83.0    2e-16 
+  UniRef90_K9DKS9 Uncharacterized protein n=3 Tax=Veillonella Tax...  82.6    2e-16 
+  UniRef90_UPI000B4B5012 hypothetical protein n=1 Tax=Ideonella s...  85.0    3e-16 
+  UniRef90_A0A133S1E6 HupH hydrogenase expression protein, C-term...  81.5    6e-16 
+  UniRef90_UPI0009FDB977 hypothetical protein n=1 Tax=Uliginosiba...  82.3    9e-16 
+  UniRef90_UPI00054CE396 hypothetical protein n=1 Tax=Beijerincki...  84.6    1e-15 
+  UniRef90_UPI00069C583B hypothetical protein n=1 Tax=Methyloterr...  80.3    3e-15 
+  UniRef90_A0A1J5P5R8 Uncharacterized protein n=1 Tax=mine draina...  77.6    4e-15 
+  UniRef90_A0A096AMK8 Hydrogenase expression protein HupH n=1 Tax...  78.8    7e-15 
+  UniRef90_UPI0009E8C071 hypothetical protein n=1 Tax=Candidatus ...  72.6    2e-13 
+  UniRef90_A0A377AVP7 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  71.5    9e-13 
+  UniRef90_A0A376RL55 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  71.9    1e-12 
+  UniRef90_W1Y133 Uncharacterized protein (Fragment) n=1 Tax=huma...  70.7    3e-12 
+  UniRef90_A0A376RM05 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  67.6    1e-10 
+  UniRef90_T1BXL5 HupH hydrogenase expression protein n=1 Tax=min...  62.2    2e-09 
+  UniRef90_G5Q1Y4 Hydrogenase maturation factor HoxQ n=1 Tax=Salm...  58.8    2e-08 
+  UniRef90_G5LN27 Hydrogenase maturation factor hoxQ n=1 Tax=Salm...  51.1    1e-05 
+  UniRef90_A0A376ZW79 Hydrogenase-1 operon protein HyaF n=2 Tax=E...  43.7    0.004 
+  UniRef90_A0A376MUV8 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  45.3    0.015 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI0004193912 hydrogenase expression protein HupH n=1 ...  68.8    4e-11
+  UniRef90_W6M0E0 Uncharacterized protein n=1 Tax=Candidatus Cont...  66.1    6e-10
+  UniRef90_A0A3M0YH05 Hydrogenase expression/formation protein (F...  46.4    0.001
+  UniRef90_A0A0B2VDJ5 DnaJ-like protein dnj-5 n=1 Tax=Toxocara ca...  49.5    0.002
+  UniRef90_Q9ANQ3 ID32 n=1 Tax=Bradyrhizobium japonicum TaxID=375...  46.0    0.007
+  UniRef90_UPI0009AD1DC2 hydrogenase n=1 Tax=Salmonella enterica ...  44.9    0.007
+  UniRef90_A0A2S8VAZ7 Cytochrome C oxidase subunit II n=1 Tax=Ach...  41.4    0.72 
+  UniRef90_UPI0003F6F26B hypothetical protein n=1 Tax=Nisaea deni...  41.8    0.85 
+  UniRef90_A0A3M1D0Y5 Response regulator n=1 Tax=Deltaproteobacte...  41.8    0.91 
+  UniRef90_A0A2D5AGJ7 Tetraacyldisaccharide 4'-kinase n=1 Tax=Fla...  40.7    1.5  
+  UniRef90_A0A2Z5BRZ5 Uncharacterized protein n=1 Tax=Microbacter...  37.6    1.6  
+  UniRef90_A0A357K736 Tetraacyldisaccharide 4'-kinase (Fragment) ...  39.5    2.1  
+  UniRef90_A0A1V2RR24 Erythronolide synthase, modules 3 and 4 n=2...  40.7    2.5  
+  UniRef90_UPI0009A73A1C hypothetical protein n=1 Tax=Mycobactero...  39.5    2.9  
+  UniRef90_UPI000412F95F rod shape-determining protein MreC n=1 T...  39.1    3.8  
+  UniRef90_A0A1Z8S0E7 Tetraacyldisaccharide 4'-kinase n=2 Tax=unc...  39.5    3.9  
+  UniRef90_A0A2H3Y3B0 uncharacterized protein LOC103709271 isofor...  39.9    4.2  
+  UniRef90_A0A0Q4QQU3 Uncharacterized protein n=2 Tax=Xanthomonad...  39.5    5.1  
+  UniRef90_A0A3E0VZ73 Quinone oxidoreductase n=1 Tax=Subtercola b...  38.7    5.1  
+  UniRef90_T0KHI9 Twin-arginine translocation pathway signal n=1 ...  39.1    5.2  
+  UniRef90_A0A2I1PC60 ATP-binding protein n=1 Tax=Kytococcus schr...  39.1    5.3  
+  UniRef90_A0A2A5F8Z9 Nicotinate phosphoribosyltransferase n=2 Ta...  37.6    5.4  
+  UniRef90_A0A376MUZ2 Hydrogenase-1 operon protein HyaF n=1 Tax=E...  35.6    6.0  
+  UniRef90_A0A078MIF4 Flagellar motor switch protein FliG n=8 Tax...  38.7    6.8  
+  UniRef90_A0A372IAV8 PA0069 family radical SAM protein n=1 Tax=R...  38.7    6.9  
+  UniRef90_D5V0L7 Phosphoribosyltransferase n=1 Tax=Arcobacter ni...  37.2    7.4  
+  UniRef90_E8N739 Signal transduction histidine kinase n=2 Tax=Mi...  38.3    7.8  
+  UniRef90_A0A1Q5DEG8 Uncharacterized protein n=1 Tax=Streptomyce...  38.7    8.0  
+  UniRef90_G8ATG9 Ribonuclease G n=7 Tax=Azospirillum TaxID=191 R...  38.3    8.6  
+  UniRef90_V6LSR5 Uncharacterized protein n=2 Tax=Spironucleus sa...  38.3    8.7  
+  UniRef90_A0A2N3G6M9 Pyridinium-3,5-bisthiocarboxylic acid monon...  38.3    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.149    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0456    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2273341118040
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

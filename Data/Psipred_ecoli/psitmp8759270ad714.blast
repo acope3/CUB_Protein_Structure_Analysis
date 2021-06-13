@@ -1,0 +1,737 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415357.1
+
+Length=127
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAY2 Biofilm regulator BssR n=333 Tax=root TaxID=1 R...  259     9e-88
+  UniRef90_A0A2S7SLP4 Transcriptional regulator n=3 Tax=Escherich...  204     4e-66
+  UniRef90_A0A0V9JPR4 Transcriptional regulator n=2 Tax=Citrobact...  196     5e-63
+  UniRef90_A0A2S4RZG3 Transcriptional regulator n=1 Tax=Citrobact...  191     7e-61
+  UniRef90_A0A2T8T080 Transcriptional regulator n=140 Tax=Enterob...  184     5e-58
+  UniRef90_A0A223JPK2 Transcriptional regulator n=8 Tax=Gammaprot...  184     5e-58
+  UniRef90_A0A0D7LPG0 Biofilm formation regulator BssR n=51 Tax=E...  177     3e-55
+  UniRef90_A0A3D8Z820 Transcriptional regulator (Fragment) n=2 Ta...  172     5e-54
+  UniRef90_A0A3I1QKY7 Biofilm formation regulator BssR n=3 Tax=Sa...  170     7e-53
+  UniRef90_UPI000E3D5BA5 biofilm formation regulator BssR n=1 Tax...  171     9e-53
+  UniRef90_A0A2X2V6P1 Biofilm formation regulatory protein BssR n...  161     5e-49
+  UniRef90_A0A329H9K6 Biofilm formation regulator BssR n=1 Tax=En...  154     3e-46
+  UniRef90_A0A2I8NSI1 Transcriptional regulator n=10 Tax=Gammapro...  154     3e-46
+  UniRef90_A0A2S5CCB6 Transcriptional regulator n=6 Tax=Enterobac...  147     1e-43
+  UniRef90_A0A2L2JAG1 Transcriptional regulator n=135 Tax=Bacteri...  145     7e-43
+  UniRef90_A0A2A7PNI7 Transcriptional regulator n=2 Tax=Enterobac...  144     4e-42
+  UniRef90_A0A1N6SLV0 Biofilm regulator BssR n=2 Tax=Enterobacter...  143     7e-42
+  UniRef90_R9VSX4 Biofilm formation regulatory protein BssR n=6 T...  141     4e-41
+  UniRef90_W1EY63 Biofilm regulator BssR n=2 Tax=Bacteria TaxID=2...  139     6e-41
+  UniRef90_A0A1A9F9X2 Transcriptional regulator n=1 Tax=Lelliotti...  140     7e-41
+  UniRef90_A0A0F1M228 Transcriptional regulator n=11 Tax=Enteroba...  140     8e-41
+  UniRef90_A0A2M9RH12 Transcriptional regulator n=13 Tax=Enteroba...  139     3e-40
+  UniRef90_A0A0M3EXT7 Biofilm formation regulatory protein BssR n...  138     6e-40
+  UniRef90_A0A127L2L7 Biofilm regulator n=3 Tax=Enterobacteriacea...  137     3e-39
+  UniRef90_E3G291 Biofilm formation regulatory protein BssR n=1 T...  135     8e-39
+  UniRef90_A0A0L0H230 Biofilm formation regulatory protein BssR n...  134     2e-38
+  UniRef90_G9Z5E9 Biofilm formation regulatory protein BssR n=2 T...  134     3e-38
+  UniRef90_A0A1I6CSM3 Biofilm formation protein (YliH/bssR) n=1 T...  134     3e-38
+  UniRef90_A0A267S4D3 Transcriptional regulator n=6 Tax=Enterobac...  133     5e-38
+  UniRef90_A0A1V0LGJ9 Transcriptional regulator n=6 Tax=Enterobac...  132     8e-38
+  UniRef90_UPI00077B7BB3 biofilm formation regulator BssR n=1 Tax...  132     1e-37
+  UniRef90_A0A169FLM3 Biofilm formation regulatory protein BssR n...  132     1e-37
+  UniRef90_H3NA43 Transcriptional regulator n=15 Tax=Enterobacter...  132     1e-37
+  UniRef90_A0A2J5PER3 Transcriptional regulator n=13 Tax=Enteroba...  131     3e-37
+  UniRef90_UPI0007DCF9A1 transcriptional regulator n=2 Tax=Kosako...  129     1e-36
+  UniRef90_A0A3N1IV60 Biofilm regulator BssR n=2 Tax=Enterobacter...  128     4e-36
+  UniRef90_A0A3N2EPF5 Biofilm regulator BssR n=2 Tax=Raoultella s...  128     4e-36
+  UniRef90_A0A370YN50 Transcriptional regulator n=10 Tax=Enteroba...  128     6e-36
+  UniRef90_A0A3N5DL68 Transcriptional regulator n=1 Tax=Buttiauxe...  127     7e-36
+  UniRef90_L0M6M3 Biofilm formation protein (YliH/bssR) n=2 Tax=E...  127     1e-35
+  UniRef90_A0A2P5GRV1 Transcriptional regulator n=1 Tax=Superfici...  127     2e-35
+  UniRef90_A0A3A5K1B5 Transcriptional regulator n=3 Tax=Buttiauxe...  126     2e-35
+  UniRef90_A0A0T9WEX5 Biofilm formation regulatory protein BssR n...  125     3e-35
+  UniRef90_UPI000F65BBA8 transcriptional regulator n=1 Tax=Entero...  125     7e-35
+  UniRef90_A0A0L0AME7 Biofilm formation regulatory protein BssR n...  125     7e-35
+  UniRef90_UPI000F67677C transcriptional regulator n=1 Tax=Atlant...  125     7e-35
+  UniRef90_A0A1B7IN08 BssR family biofilm regulator n=1 Tax=Butti...  124     2e-34
+  UniRef90_A0A2S4QT12 Transcriptional regulator n=4 Tax=Enterobac...  124     3e-34
+  UniRef90_A0A1B7IDH2 BssR family biofilm regulator n=2 Tax=Butti...  123     4e-34
+  UniRef90_A0A376W1V8 Biofilm formation regulatory protein BssR n...  119     2e-33
+  UniRef90_A0A1U7E375 Transcriptional regulator n=5 Tax=Enterobac...  121     3e-33
+  UniRef90_UPI000BCE0DA2 transcriptional regulator n=2 Tax=Klebsi...  120     5e-33
+  UniRef90_A0A2T2Y6C5 Transcriptional regulator n=1 Tax=Kluyvera ...  120     8e-33
+  UniRef90_A0A180FW35 Uncharacterized protein (Fragment) n=1 Tax=...  118     2e-32
+  UniRef90_A0A1B7JE44 BssR family biofilm regulator n=2 Tax=Kluyv...  118     4e-32
+  UniRef90_A0A141RNT7 Biofilm formation protein (YliH/bssR) n=1 T...  117     6e-32
+  UniRef90_A0A378GKX3 Biofilm formation regulatory protein BssR n...  114     2e-30
+  UniRef90_H5UX96 Biofilm regulator BssR n=4 Tax=Enterobacteriace...  114     2e-30
+  UniRef90_UPI0007887862 transcriptional regulator n=1 Tax=Kluyve...  113     5e-30
+  UniRef90_A0A1B7I4R9 BssR family biofilm regulator n=3 Tax=Butti...  112     2e-29
+  UniRef90_A0A0J8VLV6 Uncharacterized protein n=2 Tax=Franconibac...  111     2e-29
+  UniRef90_A0A2X3EF50 Biofilm formation regulatory protein BssR n...  111     3e-29
+  UniRef90_UPI000465FC44 hypothetical protein n=1 Tax=Franconibac...  108     2e-28
+  UniRef90_UPI00068B2BF5 transcriptional regulator n=1 Tax=Kluyve...  108     3e-28
+  UniRef90_UPI000EB26C41 transcriptional regulator n=1 Tax=Entero...  108     5e-28
+  UniRef90_UPI0002DD7BB4 biofilm formation regulatory protein Bss...  108     5e-28
+  UniRef90_UPI000DE3B55E hypothetical protein n=1 Tax=Staphylococ...  99.8    7e-25
+  UniRef90_A0A1X7I5H9 Biofilm regulator BssR n=2 Tax=Cedecea TaxI...  98.6    3e-24
+  UniRef90_A0A291DVR9 Transcriptional regulator n=2 Tax=Cedecea n...  98.6    3e-24
+  UniRef90_J0MKK3 Biofilm formation regulatory protein BssR n=3 T...  98.2    4e-24
+  UniRef90_UPI000F6E309F transcriptional regulator n=1 Tax=Cedece...  96.3    2e-23
+  UniRef90_A0A1B7L0B2 Uncharacterized protein n=3 Tax=Mangrovibac...  90.1    5e-21
+  UniRef90_UPI00073D23D1 hypothetical protein n=1 Tax=[Erwinia] t...  85.1    6e-19
+  UniRef90_A0A376VKR6 Biofilm formation regulatory protein BssR n...  81.6    2e-18
+  UniRef90_W1FW51 Biofilm regulator BssR n=1 Tax=Escherichia coli...  80.5    7e-18
+  UniRef90_I2BAV5 Biofilm regulator BssR n=1 Tax=Shimwellia blatt...  82.0    9e-18
+  UniRef90_A0A379WD19 Biofilm regulator BssR n=2 Tax=Salmonella e...  79.0    2e-17
+  UniRef90_A0A3P8K046 Biofilm formation regulatory protein BssR n...  74.3    3e-15
+  UniRef90_A0A2X3EU19 Biofilm formation regulatory protein BssR n...  73.9    4e-15
+  UniRef90_UPI0009E4625D peptide ABC transporter substrate-bindin...  73.2    4e-15
+  UniRef90_A0A2P8VQC3 Transcriptional regulator n=2 Tax=Enterobac...  63.9    8e-11
+  UniRef90_UPI00037D6FA0 hypothetical protein n=1 Tax=Enterobacte...  61.6    6e-10
+  UniRef90_A0A376MU71 Uncharacterized protein n=1 Tax=Escherichia...  42.0    0.004
+  UniRef90_A0A1Q5MJ80 Dihydroorotase n=1 Tax=Streptomyces sp. CB0...  37.4    2.4  
+  UniRef90_A0A2Z3UJC0 Histidine kinase n=3 Tax=Streptosporangium ...  35.8    9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.132    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 739802444246
+Warning: [psiblast] lcl|Query_1 NP_415357.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415357.1
+
+Length=127
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A2I8NSI1 Transcriptional regulator n=10 Tax=Gammapro...  184     4e-58
+  UniRef90_A0A267S4D3 Transcriptional regulator n=6 Tax=Enterobac...  184     4e-58
+  UniRef90_A0A0F1M228 Transcriptional regulator n=11 Tax=Enteroba...  183     1e-57
+  UniRef90_A0A2J5PER3 Transcriptional regulator n=13 Tax=Enteroba...  183     1e-57
+  UniRef90_A0A169FLM3 Biofilm formation regulatory protein BssR n...  182     1e-57
+  UniRef90_H3NA43 Transcriptional regulator n=15 Tax=Enterobacter...  182     2e-57
+  UniRef90_A0A2L2JAG1 Transcriptional regulator n=135 Tax=Bacteri...  181     4e-57
+  UniRef90_A0A329H9K6 Biofilm formation regulator BssR n=1 Tax=En...  181     5e-57
+  UniRef90_A0A2S7SLP4 Transcriptional regulator n=3 Tax=Escherich...  179     2e-56
+  UniRef90_A0A2M9RH12 Transcriptional regulator n=13 Tax=Enteroba...  179     2e-56
+  UniRef90_P0AAY2 Biofilm regulator BssR n=333 Tax=root TaxID=1 R...  178     9e-56
+  UniRef90_A0A0M3EXT7 Biofilm formation regulatory protein BssR n...  177     2e-55
+  UniRef90_A0A2A7PNI7 Transcriptional regulator n=2 Tax=Enterobac...  176     7e-55
+  UniRef90_G9Z5E9 Biofilm formation regulatory protein BssR n=2 T...  175     2e-54
+  UniRef90_A0A2S5CCB6 Transcriptional regulator n=6 Tax=Enterobac...  172     2e-53
+  UniRef90_A0A2T8T080 Transcriptional regulator n=140 Tax=Enterob...  172     2e-53
+  UniRef90_E3G291 Biofilm formation regulatory protein BssR n=1 T...  172     3e-53
+  UniRef90_A0A2S4RZG3 Transcriptional regulator n=1 Tax=Citrobact...  172     4e-53
+  UniRef90_A0A1A9F9X2 Transcriptional regulator n=1 Tax=Lelliotti...  170     2e-52
+  UniRef90_R9VSX4 Biofilm formation regulatory protein BssR n=6 T...  169     3e-52
+  UniRef90_A0A2P5GRV1 Transcriptional regulator n=1 Tax=Superfici...  167     2e-51
+  UniRef90_A0A0L0H230 Biofilm formation regulatory protein BssR n...  166     3e-51
+  UniRef90_A0A0V9JPR4 Transcriptional regulator n=2 Tax=Citrobact...  165     1e-50
+  UniRef90_A0A370YN50 Transcriptional regulator n=10 Tax=Enteroba...  165     1e-50
+  UniRef90_A0A3N2EPF5 Biofilm regulator BssR n=2 Tax=Raoultella s...  163     1e-49
+  UniRef90_L0M6M3 Biofilm formation protein (YliH/bssR) n=2 Tax=E...  162     1e-49
+  UniRef90_A0A1N6SLV0 Biofilm regulator BssR n=2 Tax=Enterobacter...  162     2e-49
+  UniRef90_UPI00077B7BB3 biofilm formation regulator BssR n=1 Tax...  161     3e-49
+  UniRef90_A0A1B7JE44 BssR family biofilm regulator n=2 Tax=Kluyv...  161     6e-49
+  UniRef90_A0A1I6CSM3 Biofilm formation protein (YliH/bssR) n=1 T...  160     8e-49
+  UniRef90_A0A378GKX3 Biofilm formation regulatory protein BssR n...  160     1e-48
+  UniRef90_A0A127L2L7 Biofilm regulator n=3 Tax=Enterobacteriacea...  160     1e-48
+  UniRef90_A0A0D7LPG0 Biofilm formation regulator BssR n=51 Tax=E...  159     2e-48
+  UniRef90_A0A3N1IV60 Biofilm regulator BssR n=2 Tax=Enterobacter...  159     3e-48
+  UniRef90_A0A1V0LGJ9 Transcriptional regulator n=6 Tax=Enterobac...  158     8e-48
+  UniRef90_A0A2S4QT12 Transcriptional regulator n=4 Tax=Enterobac...  158     1e-47
+  UniRef90_UPI000F65BBA8 transcriptional regulator n=1 Tax=Entero...  158     1e-47
+  UniRef90_UPI000BCE0DA2 transcriptional regulator n=2 Tax=Klebsi...  157     1e-47
+  UniRef90_A0A3A5K1B5 Transcriptional regulator n=3 Tax=Buttiauxe...  157     2e-47
+  UniRef90_A0A2X3EF50 Biofilm formation regulatory protein BssR n...  156     3e-47
+  UniRef90_UPI00068B2BF5 transcriptional regulator n=1 Tax=Kluyve...  156     3e-47
+  UniRef90_A0A0L0AME7 Biofilm formation regulatory protein BssR n...  156     4e-47
+  UniRef90_UPI000F67677C transcriptional regulator n=1 Tax=Atlant...  156     5e-47
+  UniRef90_A0A2T2Y6C5 Transcriptional regulator n=1 Tax=Kluyvera ...  155     9e-47
+  UniRef90_A0A3I1QKY7 Biofilm formation regulator BssR n=3 Tax=Sa...  154     2e-46
+  UniRef90_UPI0007887862 transcriptional regulator n=1 Tax=Kluyve...  154     2e-46
+  UniRef90_A0A223JPK2 Transcriptional regulator n=8 Tax=Gammaprot...  154     3e-46
+  UniRef90_UPI0007DCF9A1 transcriptional regulator n=2 Tax=Kosako...  153     5e-46
+  UniRef90_A0A3N5DL68 Transcriptional regulator n=1 Tax=Buttiauxe...  153     1e-45
+  UniRef90_A0A1B7IN08 BssR family biofilm regulator n=1 Tax=Butti...  152     2e-45
+  UniRef90_UPI000EB26C41 transcriptional regulator n=1 Tax=Entero...  150     7e-45
+  UniRef90_UPI000E3D5BA5 biofilm formation regulator BssR n=1 Tax...  150     9e-45
+  UniRef90_A0A1B7IDH2 BssR family biofilm regulator n=2 Tax=Butti...  150     1e-44
+  UniRef90_A0A0J8VLV6 Uncharacterized protein n=2 Tax=Franconibac...  148     4e-44
+  UniRef90_UPI000DE3B55E hypothetical protein n=1 Tax=Staphylococ...  148     6e-44
+  UniRef90_A0A141RNT7 Biofilm formation protein (YliH/bssR) n=1 T...  148     7e-44
+  UniRef90_A0A1U7E375 Transcriptional regulator n=5 Tax=Enterobac...  148     8e-44
+  UniRef90_UPI000465FC44 hypothetical protein n=1 Tax=Franconibac...  146     3e-43
+  UniRef90_A0A2X2V6P1 Biofilm formation regulatory protein BssR n...  144     2e-42
+  UniRef90_H5UX96 Biofilm regulator BssR n=4 Tax=Enterobacteriace...  143     9e-42
+  UniRef90_A0A180FW35 Uncharacterized protein (Fragment) n=1 Tax=...  141     1e-41
+  UniRef90_A0A1B7I4R9 BssR family biofilm regulator n=3 Tax=Butti...  139     2e-40
+  UniRef90_A0A1B7L0B2 Uncharacterized protein n=3 Tax=Mangrovibac...  137     1e-39
+  UniRef90_UPI0002DD7BB4 biofilm formation regulatory protein Bss...  136     3e-39
+  UniRef90_J0MKK3 Biofilm formation regulatory protein BssR n=3 T...  134     2e-38
+  UniRef90_A0A291DVR9 Transcriptional regulator n=2 Tax=Cedecea n...  134     3e-38
+  UniRef90_A0A1X7I5H9 Biofilm regulator BssR n=2 Tax=Cedecea TaxI...  132     8e-38
+  UniRef90_UPI000F6E309F transcriptional regulator n=1 Tax=Cedece...  129     2e-36
+  UniRef90_I2BAV5 Biofilm regulator BssR n=1 Tax=Shimwellia blatt...  128     6e-36
+  UniRef90_A0A3D8Z820 Transcriptional regulator (Fragment) n=2 Ta...  126     9e-36
+  UniRef90_UPI00073D23D1 hypothetical protein n=1 Tax=[Erwinia] t...  126     3e-35
+  UniRef90_A0A0T9WEX5 Biofilm formation regulatory protein BssR n...  114     5e-31
+  UniRef90_A0A2X3EU19 Biofilm formation regulatory protein BssR n...  112     2e-30
+  UniRef90_A0A2P8VQC3 Transcriptional regulator n=2 Tax=Enterobac...  109     9e-29
+  UniRef90_UPI00037D6FA0 hypothetical protein n=1 Tax=Enterobacte...  105     6e-27
+  UniRef90_A0A376W1V8 Biofilm formation regulatory protein BssR n...  92.6    9e-23
+  UniRef90_A0A3P8K046 Biofilm formation regulatory protein BssR n...  92.6    1e-22
+  UniRef90_W1EY63 Biofilm regulator BssR n=2 Tax=Bacteria TaxID=2...  89.2    3e-21
+  UniRef90_W1FW51 Biofilm regulator BssR n=1 Tax=Escherichia coli...  84.2    2e-19
+  UniRef90_A0A379WD19 Biofilm regulator BssR n=2 Tax=Salmonella e...  80.7    3e-18
+  UniRef90_UPI0009E4625D peptide ABC transporter substrate-bindin...  69.9    6e-14
+  UniRef90_A0A376VKR6 Biofilm formation regulatory protein BssR n...  66.1    2e-12
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A376C3I9 Arsenical pump-driving ATPase n=2 Tax=Enter...  58.8    3e-09
+  UniRef90_UPI0008FFC790 BLUF domain-containing protein n=1 Tax=K...  59.5    4e-09
+  UniRef90_A0A234XKC8 Uncharacterized protein n=1 Tax=Escherichia...  60.7    5e-09
+  UniRef90_A0A376ZPN1 Protein FimG-like protein n=1 Tax=Escherich...  58.4    9e-09
+  UniRef90_E2XHE3 Uncharacterized protein n=2 Tax=Shigella dysent...  58.4    1e-08
+  UniRef90_A0A380D436 IS1 orfB n=1 Tax=Shigella flexneri TaxID=62...  58.4    1e-08
+  UniRef90_E7SQJ1 Uncharacterized protein n=3 Tax=Shigella dysent...  59.1    1e-08
+  UniRef90_A0A0A7A2X5 Uncharacterized protein n=2 Tax=Enterobacte...  56.4    2e-08
+  UniRef90_E7SUX6 Uncharacterized protein n=1 Tax=Shigella boydii...  59.1    2e-08
+  UniRef90_UPI00098A2739 alpha/beta fold hydrolase n=1 Tax=Escher...  59.9    2e-08
+  UniRef90_J7QXR6 Uncharacterized protein n=16 Tax=Escherichia co...  58.4    2e-08
+  UniRef90_A0A0H2V1D6 Putative tail fiber protein n=16 Tax=Shigel...  60.3    2e-08
+  UniRef90_UPI0004DAF1C3 DDE transposase family protein n=1 Tax=E...  58.0    2e-08
+  UniRef90_A0A221ZQZ1 Uncharacterized protein n=2 Tax=Escherichia...  59.9    3e-08
+  UniRef90_A0A0A6ZYE0 SecY stabilizing membrane protein n=2 Tax=S...  55.7    3e-08
+  UniRef90_A0A380B1M6 Tail fiber protein n=1 Tax=Shigella flexner...  57.2    3e-08
+  UniRef90_A0A142BVW7 Uncharacterized protein n=1 Tax=uncultured ...  59.5    3e-08
+  UniRef90_A0A3P6LZM9 Cystathionine beta-lyase n=2 Tax=Shigella d...  59.5    4e-08
+  UniRef90_A0A379ZNT6 Putative fels-1 Prophage Protein n=1 Tax=Sh...  57.2    4e-08
+  UniRef90_E7SQ63 Uncharacterized protein n=2 Tax=Enterobacteriac...  55.7    4e-08
+  UniRef90_D2A716 IS1 orfB n=1 Tax=Shigella flexneri serotype X (...  57.6    4e-08
+  UniRef90_A0A378P3I4 Putative transposase-like protein n=1 Tax=K...  56.8    4e-08
+  UniRef90_E7SFJ0 Uncharacterized protein n=1 Tax=Shigella dysent...  56.8    4e-08
+  UniRef90_A0A1M0UIX7 Uncharacterized protein (Fragment) n=1 Tax=...  55.7    4e-08
+  UniRef90_A0A377CNJ9 HTH DNA-binding domain-containing protein n...  58.8    5e-08
+  UniRef90_A0A2X1MZ72 Flagellin structural protein n=1 Tax=Escher...  57.2    5e-08
+  UniRef90_I6FQS6 Gram-negative pili assembly chaperone, N-termin...  58.8    5e-08
+  UniRef90_UPI0009891F08 transposase n=1 Tax=Escherichia coli Tax...  55.3    6e-08
+  UniRef90_E7SGZ7 Uncharacterized protein n=3 Tax=Shigella TaxID=...  54.9    6e-08
+  UniRef90_A0A2Y2ZLL3 Bacteriophage protein n=1 Tax=Shigella flex...  58.4    7e-08
+  UniRef90_A0A074I501 Uncharacterized protein n=1 Tax=Escherichia...  59.1    7e-08
+  UniRef90_A0A074GZY1 Putative tail fiber domain protein n=1 Tax=...  57.2    7e-08
+  UniRef90_A0A3P6LGY2 Flagellar protein n=1 Tax=Shigella dysenter...  58.4    7e-08
+  UniRef90_A0A376J081 Flagellin structural protein n=1 Tax=Escher...  58.4    7e-08
+  UniRef90_I6CS57 Inner membrane yihN domain protein n=1 Tax=Shig...  58.4    7e-08
+  UniRef90_A0A2X2IXV1 IS66 family element, orf1 n=10 Tax=Shigella...  57.2    8e-08
+  UniRef90_A0A1X3JJZ4 Integrase n=2 Tax=Enterobacteriaceae TaxID=...  58.8    8e-08
+  UniRef90_E7SNL4 Putative tail fiber protein n=4 Tax=Enterobacte...  54.9    8e-08
+  UniRef90_A0A380B796 Outer membrane autotransporter barrel domai...  58.4    9e-08
+  UniRef90_S1GZH0 Uncharacterized protein n=1 Tax=Escherichia col...  57.2    9e-08
+  UniRef90_A0A2Y6Y215 IS1 orfB n=1 Tax=Shigella sonnei TaxID=624 ...  57.2    9e-08
+  UniRef90_A0A141RGU7 Uncharacterized protein (Fragment) n=1 Tax=...  56.1    9e-08
+  UniRef90_A0A2X2IF42 IS1 orfB n=2 Tax=Shigella dysenteriae TaxID...  55.7    1e-07
+  UniRef90_UPI0008FBC0BA acyltransferase n=1 Tax=Escherichia coli...  58.4    1e-07
+  UniRef90_W0ARN0 Putative membrane protein n=1 Tax=Escherichia a...  58.4    1e-07
+  UniRef90_UPI000907794D hypothetical protein n=1 Tax=Escherichia...  58.4    1e-07
+  UniRef90_UPI00046D58EE hypothetical protein n=1 Tax=Escherichia...  58.4    1e-07
+  UniRef90_S1H570 Uncharacterized protein n=3 Tax=Escherichia col...  58.4    1e-07
+  UniRef90_A0A2X6R6M6 Putative prophage side tail fiber protein n...  54.5    1e-07
+  UniRef90_E9XSW0 Uncharacterized protein n=2 Tax=Escherichia Tax...  58.0    1e-07
+  UniRef90_UPI00098905F7 hypothetical protein n=1 Tax=Escherichia...  55.7    1e-07
+  UniRef90_A0A161KB62 IS600 orfB family protein n=2 Tax=Enterobac...  56.4    2e-07
+  UniRef90_A0A383J1L2 Putative prophage side tail fiber protein n...  54.5    2e-07
+  UniRef90_J7QYU3 Uncharacterized protein n=4 Tax=Escherichia col...  54.9    2e-07
+  UniRef90_A0A2X1NGX9 Putative invasin n=5 Tax=Enterobacterales T...  57.6    2e-07
+  UniRef90_Q0WVS2 Uncharacterized protein At2g28460 n=1 Tax=Arabi...  57.6    2e-07
+  UniRef90_UPI00099378CB fimbriae biosynthesis transcriptional re...  56.4    3e-07
+  UniRef90_UPI000BB719D5 transposase n=2 Tax=Escherichia coli Tax...  53.4    3e-07
+  UniRef90_A0A2X1LZ33 Protein FimG-like protein n=1 Tax=Escherich...  55.3    3e-07
+  UniRef90_E7SN23 Transposase n=1 Tax=Shigella dysenteriae CDC 74...  54.5    3e-07
+  UniRef90_UPI00063D3964 ABC transporter region 2 family protein ...  56.8    3e-07
+  UniRef90_UPI000906F738 hypothetical protein n=1 Tax=Escherichia...  53.7    4e-07
+  UniRef90_A0A3P4L2T3 Uncharacterized protein n=1 Tax=Escherichia...  56.1    4e-07
+  UniRef90_A0A1M0UM04 Uncharacterized protein n=1 Tax=Escherichia...  53.0    4e-07
+  UniRef90_W1DR64 IncF plasmid conjugative transfer protein TraG ...  56.4    5e-07
+  UniRef90_A0A2X1MJ67 Transposase IS4 family protein n=1 Tax=Esch...  55.3    5e-07
+  UniRef90_Q32HM2 IS600 ORF2 n=3 Tax=Shigella TaxID=620 RepID=Q32...  56.1    6e-07
+  UniRef90_A0A2X2HNC2 IS600 ORF2 n=1 Tax=Shigella dysenteriae Tax...  54.1    1e-06
+  UniRef90_B1LIQ3 Uncharacterized protein n=1 Tax=Escherichia col...  55.3    1e-06
+  UniRef90_V8JSH1 Transposase n=3 Tax=Enterobacteriaceae TaxID=54...  51.4    1e-06
+  UniRef90_A0A376V4M4 Putative transposase-related protein n=1 Ta...  53.4    1e-06
+  UniRef90_A0A376V3F8 Outer membrane usher protein n=1 Tax=Escher...  55.3    2e-06
+  UniRef90_A0A2Y2NPZ8 Bacteriophage protein n=1 Tax=Shigella flex...  54.1    2e-06
+  UniRef90_A0A377X6H8 Putative transposase-like protein n=2 Tax=K...  53.0    2e-06
+  UniRef90_A0A377XG81 Putative transposase-like protein n=2 Tax=K...  53.0    2e-06
+  UniRef90_UPI000DD39B8C hypothetical protein n=1 Tax=Escherichia...  51.4    4e-06
+  UniRef90_A0A377XC95 Cysteinyl-tRNA synthetase n=1 Tax=Klebsiell...  52.6    4e-06
+  UniRef90_A0A376K9N8 Outer membrane protein N n=2 Tax=Escherichi...  53.7    4e-06
+  UniRef90_UPI0008FEEC25 hypothetical protein n=1 Tax=Escherichia...  51.4    4e-06
+  UniRef90_A0A377X5Q7 Cysteinyl-tRNA synthetase n=3 Tax=Klebsiell...  53.4    4e-06
+  UniRef90_B7LWX0 Putative tail fiber protein n=1 Tax=Escherichia...  49.9    5e-06
+  UniRef90_A0A2X1L4K8 Phage tail tape measure protein n=1 Tax=Esc...  53.7    6e-06
+  UniRef90_A0A2X3D6X5 Putative transposase-like protein n=5 Tax=K...  51.0    6e-06
+  UniRef90_A0A378EE97 Putative transposase-like protein n=1 Tax=K...  51.0    6e-06
+  UniRef90_A0A378EFZ8 Putative transposase-like protein n=1 Tax=K...  53.0    6e-06
+  UniRef90_A0A3P4P5J8 Uncharacterized protein n=2 Tax=Escherichia...  52.2    6e-06
+  UniRef90_A0A181XH76 Putative transposase-like protein n=2 Tax=E...  49.9    6e-06
+  UniRef90_A0A377EMW7 Toxin n=5 Tax=Escherichia coli TaxID=562 Re...  51.4    7e-06
+  UniRef90_UPI000A2DCFE8 hypothetical protein n=1 Tax=Escherichia...  50.7    7e-06
+  UniRef90_A0A377X0A8 Putative transposase-like protein n=3 Tax=K...  53.0    8e-06
+  UniRef90_D8EFU9 Uncharacterized protein n=1 Tax=Escherichia col...  51.0    8e-06
+  UniRef90_A0A378ECJ0 SD repeat-containing cell surface protein n...  53.0    9e-06
+  UniRef90_R4Y742 Uncharacterized protein n=3 Tax=Klebsiella pneu...  53.0    1e-05
+  UniRef90_A0A0A6ZSX0 Transposase n=1 Tax=Shigella dysenteriae 16...  51.8    1e-05
+  UniRef90_D8EF77 Outer membrane usher protein HtrE n=1 Tax=Esche...  51.4    1e-05
+  UniRef90_UPI00092D6D49 hypothetical protein n=1 Tax=Escherichia...  51.4    3e-05
+  UniRef90_A0A1X3L792 Bacteriophage lysis protein n=1 Tax=Escheri...  50.3    4e-05
+  UniRef90_D8EFW7 Predicted Peptidoglycan domain protein n=1 Tax=...  50.7    4e-05
+  UniRef90_A0A376SL70 DNA-directed DNA polymerase n=6 Tax=Escheri...  51.0    4e-05
+  UniRef90_A0A026UQI1 Uncharacterized protein n=1 Tax=Escherichia...  50.7    5e-05
+  UniRef90_UPI000B7D9488 hypothetical protein n=1 Tax=Escherichia...  49.5    2e-04
+  UniRef90_UPI0009893DC2 transposase n=1 Tax=Escherichia coli Tax...  45.7    2e-04
+  UniRef90_UPI0002BA5342 hypothetical protein n=2 Tax=Escherichia...  46.4    4e-04
+  UniRef90_UPI000DD348FD hypothetical protein n=19 Tax=Enterobact...  44.9    0.001
+  UniRef90_A0A2Y5B2B6 Tail fiber protein n=1 Tax=Shigella flexner...  43.0    0.002
+  UniRef90_A0A3P5Q9G2 Uncharacterized protein n=4 Tax=Klebsiella ...  45.7    0.004
+  UniRef90_UPI0009833985 hypothetical protein n=1 Tax=Escherichia...  42.6    0.004
+  UniRef90_UPI000E32A84C transposase n=1 Tax=Escherichia coli Tax...  42.2    0.004
+  UniRef90_A0A372D2J8 Transposase n=1 Tax=Klebsiella pneumoniae T...  41.4    0.008
+  UniRef90_A0A376ML80 Putative prophage side tail fiber protein n...  42.6    0.017
+  UniRef90_UPI000989AEBE sensor dcuS domain protein n=1 Tax=Shige...  40.6    0.020
+  UniRef90_UPI000DD2C1E2 kinase n=1 Tax=Shigella sonnei TaxID=624...  39.9    0.050
+  UniRef90_A0A1Q3R476 Cupin n=1 Tax=Burkholderiales bacterium 68-...  41.8    0.070
+  UniRef90_UPI0008FC1080 hypothetical protein n=1 Tax=Escherichia...  39.1    0.085
+  UniRef90_A0A398DBK4 Sensor histidine kinase n=2 Tax=Caldiserica...  41.4    0.10 
+  UniRef90_A0A2R7ZUV1 DegV domain-containing protein YteA n=2 Tax...  41.0    0.10 
+  UniRef90_A0A0D6DZV0 DegV domain-containing protein YteA n=5 Tax...  40.6    0.18 
+  UniRef90_A0A0D8VWJ2 Uncharacterized protein (Fragment) n=1 Tax=...  38.3    0.19 
+  UniRef90_UPI000B500755 sensor dcuS domain protein n=1 Tax=Esche...  37.6    0.27 
+  UniRef90_UPI000560D5FE XRE family transcriptional regulator n=1...  39.5    0.37 
+  UniRef90_A0A1H7F1P7 Uncharacterized protein n=3 Tax=Variovorax ...  39.5    0.40 
+  UniRef90_A0A3G1IE16 Putative transposase-like protein n=2 Tax=K...  38.0    0.97 
+  UniRef90_F7T7Q5 D-aminoacylase 2 n=4 Tax=Bacteria TaxID=2 RepID...  38.3    1.2  
+  UniRef90_D4XII0 Excinuclease ABC, A subunit n=11 Tax=Achromobac...  38.3    1.2  
+  UniRef90_A0A398CYC5 Sensor histidine kinase n=2 Tax=unclassifie...  38.3    1.3  
+  UniRef90_A0A0V1MX77 Thyroid adenoma-associated-like protein n=1...  38.0    1.6  
+  UniRef90_A0A0V1MWQ8 Thyroid adenoma-associated-like protein n=2...  38.0    1.7  
+  UniRef90_A0A0V1HBX6 Thyroid adenoma-associated protein n=1 Tax=...  38.0    1.9  
+  UniRef90_A0A0V1HDL6 Thyroid adenoma-associated-like protein n=2...  38.0    2.0  
+  UniRef90_A0A084JA26 Uncharacterized protein n=3 Tax=Clostridium...  37.2    2.2  
+  UniRef90_P72349 D-aminoacylase n=13 Tax=Alcaligenaceae TaxID=50...  37.6    2.4  
+  UniRef90_UPI00098C1885 DUF2219 family protein n=1 Tax=Escherich...  36.8    2.6  
+  UniRef90_UPI00046AF3B1 alanine racemase n=1 Tax=Sulfitobacter n...  37.2    3.0  
+  UniRef90_A0A1H0CCA9 PAS domain S-box-containing protein n=1 Tax...  37.2    3.0  
+  UniRef90_A0A2H4TKW4 Uncharacterized protein n=1 Tax=Escherichia...  37.2    3.1  
+  UniRef90_A0A2H9ZY45 Pectinesterase 2 n=1 Tax=Apostasia shenzhen...  36.8    3.2  
+  UniRef90_UPI000DF2276F hypothetical protein n=1 Tax=Escherichia...  34.9    3.3  
+  UniRef90_A0A0L8EQL5 D-aminoacylase n=1 Tax=Achromobacter sp. DM...  36.8    3.6  
+  UniRef90_A0A0N5DJP9 Uncharacterized protein n=1 Tax=Trichuris m...  36.8    4.1  
+  UniRef90_A0A229AMH8 Uncharacterized protein (Fragment) n=1 Tax=...  34.9    4.1  
+  UniRef90_UPI0004E110CF PAS domain S-box protein n=1 Tax=Strepto...  36.4    4.9  
+  UniRef90_UPI00075A5502 hypothetical protein n=2 Tax=Burkholderi...  36.4    5.0  
+  UniRef90_A0A0J6NQJ4 Uncharacterized protein n=1 Tax=Chromobacte...  36.4    5.1  
+  UniRef90_A0A0A6ZQA1 Uncharacterized protein n=1 Tax=Shigella dy...  33.7    5.1  
+  UniRef90_A0A0S2F5H6 Excinuclease ABC subunit A n=3 Tax=Lysobact...  36.4    5.3  
+  UniRef90_A0A124IAB5 Protein phosphatase n=1 Tax=Streptomyces ca...  36.4    5.6  
+  UniRef90_A0A0X3VQD7 Protein phosphatase n=1 Tax=Streptomyces re...  36.4    6.3  
+  UniRef90_UPI000F829E03 PAS domain S-box protein n=1 Tax=Strepto...  36.4    6.4  
+  UniRef90_A0A0J7YZN4 Protein phosphatase n=1 Tax=Streptomyces vi...  36.4    6.4  
+  UniRef90_A0A2V9IQZ6 Uncharacterized protein n=1 Tax=Acidobacter...  36.0    6.7  
+  UniRef90_A0A0V1J0W5 Thyroid adenoma-associated protein n=1 Tax=...  36.4    6.9  
+  UniRef90_A0A0V1J0Y5 Thyroid adenoma-associated protein n=5 Tax=...  36.4    6.9  
+  UniRef90_A0A0V1J102 Thyroid adenoma-associated protein n=5 Tax=...  36.0    7.0  
+  UniRef90_C6I0Q6 Secretion protein HlyD family protein n=1 Tax=L...  36.0    7.1  
+  UniRef90_A0A0V1J0X9 Thyroid adenoma-associated protein n=1 Tax=...  36.0    7.2  
+  UniRef90_A0A0V1J1U2 Thyroid adenoma-associated protein n=4 Tax=...  36.0    7.3  
+  UniRef90_A0A1J4NZJ2 Histidine kinase (Fragment) n=1 Tax=Strepto...  36.0    7.5  
+  UniRef90_A0A0M7JE54 D-aminoacylase n=19 Tax=Achromobacter TaxID...  36.0    7.6  
+  UniRef90_A0A2E4GEB2 Amidase n=3 Tax=cellular organisms TaxID=13...  36.0    7.9  
+  UniRef90_A0A0V1IJ31 Thyroid adenoma-associated protein n=1 Tax=...  36.0    8.1  
+  UniRef90_A0A0V1DYM5 Thyroid adenoma-associated protein n=1 Tax=...  36.0    8.1  
+  UniRef90_A0A0V1DZK3 Thyroid adenoma-associated protein n=1 Tax=...  36.0    8.4  
+  UniRef90_A0A1Q7EH50 Uncharacterized protein n=1 Tax=Actinobacte...  35.6    8.8  
+  UniRef90_A0A233SY37 PAS sensor protein n=1 Tax=Streptomyces dia...  35.6    9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.150    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0458    0.140     1.90     42.6     43.6 
+
+Effective search space used: 739802444246
+Results from round 3
+
+
+Query= NP_415357.1
+
+Length=127
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A2I8NSI1 Transcriptional regulator n=10 Tax=Gammapro...  167     3e-51
+  UniRef90_A0A2J5PER3 Transcriptional regulator n=13 Tax=Enteroba...  167     3e-51
+  UniRef90_A0A169FLM3 Biofilm formation regulatory protein BssR n...  166     4e-51
+  UniRef90_A0A329H9K6 Biofilm formation regulator BssR n=1 Tax=En...  166     4e-51
+  UniRef90_A0A2L2JAG1 Transcriptional regulator n=135 Tax=Bacteri...  166     6e-51
+  UniRef90_A0A267S4D3 Transcriptional regulator n=6 Tax=Enterobac...  165     8e-51
+  UniRef90_H3NA43 Transcriptional regulator n=15 Tax=Enterobacter...  165     9e-51
+  UniRef90_A0A0F1M228 Transcriptional regulator n=11 Tax=Enteroba...  165     1e-50
+  UniRef90_G9Z5E9 Biofilm formation regulatory protein BssR n=2 T...  163     1e-49
+  UniRef90_A0A2M9RH12 Transcriptional regulator n=13 Tax=Enteroba...  162     2e-49
+  UniRef90_A0A2S7SLP4 Transcriptional regulator n=3 Tax=Escherich...  162     2e-49
+  UniRef90_A0A0M3EXT7 Biofilm formation regulatory protein BssR n...  162     2e-49
+  UniRef90_A0A2A7PNI7 Transcriptional regulator n=2 Tax=Enterobac...  162     3e-49
+  UniRef90_P0AAY2 Biofilm regulator BssR n=333 Tax=root TaxID=1 R...  159     2e-48
+  UniRef90_A0A2S5CCB6 Transcriptional regulator n=6 Tax=Enterobac...  157     3e-47
+  UniRef90_A0A1A9F9X2 Transcriptional regulator n=1 Tax=Lelliotti...  157     3e-47
+  UniRef90_A0A0L0H230 Biofilm formation regulatory protein BssR n...  156     3e-47
+  UniRef90_A0A2T8T080 Transcriptional regulator n=140 Tax=Enterob...  156     3e-47
+  UniRef90_A0A2S4RZG3 Transcriptional regulator n=1 Tax=Citrobact...  155     8e-47
+  UniRef90_R9VSX4 Biofilm formation regulatory protein BssR n=6 T...  153     5e-46
+  UniRef90_A0A1B7JE44 BssR family biofilm regulator n=2 Tax=Kluyv...  153     6e-46
+  UniRef90_E3G291 Biofilm formation regulatory protein BssR n=1 T...  153     8e-46
+  UniRef90_L0M6M3 Biofilm formation protein (YliH/bssR) n=2 Tax=E...  153     8e-46
+  UniRef90_A0A2P5GRV1 Transcriptional regulator n=1 Tax=Superfici...  152     1e-45
+  UniRef90_A0A378GKX3 Biofilm formation regulatory protein BssR n...  151     3e-45
+  UniRef90_UPI00068B2BF5 transcriptional regulator n=1 Tax=Kluyve...  150     1e-44
+  UniRef90_A0A370YN50 Transcriptional regulator n=10 Tax=Enteroba...  149     2e-44
+  UniRef90_A0A0V9JPR4 Transcriptional regulator n=2 Tax=Citrobact...  149     3e-44
+  UniRef90_A0A3A5K1B5 Transcriptional regulator n=3 Tax=Buttiauxe...  149     3e-44
+  UniRef90_A0A2X3EF50 Biofilm formation regulatory protein BssR n...  148     5e-44
+  UniRef90_A0A3N2EPF5 Biofilm regulator BssR n=2 Tax=Raoultella s...  148     6e-44
+  UniRef90_A0A3N1IV60 Biofilm regulator BssR n=2 Tax=Enterobacter...  147     1e-43
+  UniRef90_UPI000DE3B55E hypothetical protein n=1 Tax=Staphylococ...  147     1e-43
+  UniRef90_A0A1N6SLV0 Biofilm regulator BssR n=2 Tax=Enterobacter...  147     1e-43
+  UniRef90_A0A2T2Y6C5 Transcriptional regulator n=1 Tax=Kluyvera ...  147     2e-43
+  UniRef90_UPI0007887862 transcriptional regulator n=1 Tax=Kluyve...  146     4e-43
+  UniRef90_A0A1I6CSM3 Biofilm formation protein (YliH/bssR) n=1 T...  146     4e-43
+  UniRef90_A0A127L2L7 Biofilm regulator n=3 Tax=Enterobacteriacea...  145     1e-42
+  UniRef90_UPI000F65BBA8 transcriptional regulator n=1 Tax=Entero...  144     2e-42
+  UniRef90_A0A3N5DL68 Transcriptional regulator n=1 Tax=Buttiauxe...  144     2e-42
+  UniRef90_UPI000F67677C transcriptional regulator n=1 Tax=Atlant...  144     2e-42
+  UniRef90_A0A0L0AME7 Biofilm formation regulatory protein BssR n...  144     3e-42
+  UniRef90_UPI00077B7BB3 biofilm formation regulator BssR n=1 Tax...  143     3e-42
+  UniRef90_A0A1V0LGJ9 Transcriptional regulator n=6 Tax=Enterobac...  143     3e-42
+  UniRef90_UPI000BCE0DA2 transcriptional regulator n=2 Tax=Klebsi...  143     4e-42
+  UniRef90_A0A0D7LPG0 Biofilm formation regulator BssR n=51 Tax=E...  143     8e-42
+  UniRef90_A0A1B7IN08 BssR family biofilm regulator n=1 Tax=Butti...  142     9e-42
+  UniRef90_A0A2S4QT12 Transcriptional regulator n=4 Tax=Enterobac...  142     2e-41
+  UniRef90_UPI000EB26C41 transcriptional regulator n=1 Tax=Entero...  141     3e-41
+  UniRef90_A0A1B7IDH2 BssR family biofilm regulator n=2 Tax=Butti...  141     5e-41
+  UniRef90_A0A3I1QKY7 Biofilm formation regulator BssR n=3 Tax=Sa...  139     1e-40
+  UniRef90_A0A0J8VLV6 Uncharacterized protein n=2 Tax=Franconibac...  139     1e-40
+  UniRef90_UPI0007DCF9A1 transcriptional regulator n=2 Tax=Kosako...  139     2e-40
+  UniRef90_UPI000465FC44 hypothetical protein n=1 Tax=Franconibac...  138     4e-40
+  UniRef90_A0A223JPK2 Transcriptional regulator n=8 Tax=Gammaprot...  138     8e-40
+  UniRef90_A0A1U7E375 Transcriptional regulator n=5 Tax=Enterobac...  136     5e-39
+  UniRef90_UPI000E3D5BA5 biofilm formation regulator BssR n=1 Tax...  135     6e-39
+  UniRef90_J0MKK3 Biofilm formation regulatory protein BssR n=3 T...  133     6e-38
+  UniRef90_A0A291DVR9 Transcriptional regulator n=2 Tax=Cedecea n...  133     7e-38
+  UniRef90_A0A141RNT7 Biofilm formation protein (YliH/bssR) n=1 T...  132     1e-37
+  UniRef90_A0A1B7I4R9 BssR family biofilm regulator n=3 Tax=Butti...  132     1e-37
+  UniRef90_A0A1X7I5H9 Biofilm regulator BssR n=2 Tax=Cedecea TaxI...  132     2e-37
+  UniRef90_H5UX96 Biofilm regulator BssR n=4 Tax=Enterobacteriace...  131     4e-37
+  UniRef90_A0A2X2V6P1 Biofilm formation regulatory protein BssR n...  128     3e-36
+  UniRef90_A0A180FW35 Uncharacterized protein (Fragment) n=1 Tax=...  126     1e-35
+  UniRef90_UPI000F6E309F transcriptional regulator n=1 Tax=Cedece...  127     2e-35
+  UniRef90_A0A1B7L0B2 Uncharacterized protein n=3 Tax=Mangrovibac...  124     2e-34
+  UniRef90_I2BAV5 Biofilm regulator BssR n=1 Tax=Shimwellia blatt...  122     1e-33
+  UniRef90_UPI0002DD7BB4 biofilm formation regulatory protein Bss...  121     3e-33
+  UniRef90_UPI00073D23D1 hypothetical protein n=1 Tax=[Erwinia] t...  120     6e-33
+  UniRef90_A0A3D8Z820 Transcriptional regulator (Fragment) n=2 Ta...  112     5e-30
+  UniRef90_A0A3P4P5J8 Uncharacterized protein n=2 Tax=Escherichia...  113     1e-29
+  UniRef90_A0A2P8VQC3 Transcriptional regulator n=2 Tax=Enterobac...  108     3e-28
+  UniRef90_A0A0T9WEX5 Biofilm formation regulatory protein BssR n...  100     2e-25
+  UniRef90_A0A2X3EU19 Biofilm formation regulatory protein BssR n...  98.9    7e-25
+  UniRef90_UPI00037D6FA0 hypothetical protein n=1 Tax=Enterobacte...  96.6    1e-23
+  UniRef90_A0A234XKC8 Uncharacterized protein n=1 Tax=Escherichia...  98.1    2e-23
+  UniRef90_W1EY63 Biofilm regulator BssR n=2 Tax=Bacteria TaxID=2...  82.7    9e-19
+  UniRef90_A0A376W1V8 Biofilm formation regulatory protein BssR n...  80.4    5e-18
+  UniRef90_A0A142BVW7 Uncharacterized protein n=1 Tax=uncultured ...  85.4    1e-17
+  UniRef90_UPI00099378CB fimbriae biosynthesis transcriptional re...  84.3    1e-17
+  UniRef90_A0A3P8K046 Biofilm formation regulatory protein BssR n...  80.0    1e-17
+  UniRef90_A0A376C3I9 Arsenical pump-driving ATPase n=2 Tax=Enter...  76.2    5e-16
+  UniRef90_UPI0008FFC790 BLUF domain-containing protein n=1 Tax=K...  77.3    5e-16
+  UniRef90_A0A378P3I4 Putative transposase-like protein n=1 Tax=K...  76.2    1e-15
+  UniRef90_A0A376K9N8 Outer membrane protein N n=2 Tax=Escherichi...  79.6    2e-15
+  UniRef90_A0A377X5Q7 Cysteinyl-tRNA synthetase n=3 Tax=Klebsiell...  77.7    3e-15
+  UniRef90_A0A377XG81 Putative transposase-like protein n=2 Tax=K...  75.8    4e-15
+  UniRef90_A0A377XC95 Cysteinyl-tRNA synthetase n=1 Tax=Klebsiell...  76.2    4e-15
+  UniRef90_A0A0H2V1D6 Putative tail fiber protein n=16 Tax=Shigel...  78.9    5e-15
+  UniRef90_A0A2X1MJ67 Transposase IS4 family protein n=1 Tax=Esch...  76.2    5e-15
+  UniRef90_A0A2X1LZ33 Protein FimG-like protein n=1 Tax=Escherich...  75.4    6e-15
+  UniRef90_A0A181XH76 Putative transposase-like protein n=2 Tax=E...  73.1    6e-15
+  UniRef90_W1FW51 Biofilm regulator BssR n=1 Tax=Escherichia coli...  72.7    7e-15
+  UniRef90_A0A376ZPN1 Protein FimG-like protein n=1 Tax=Escherich...  73.9    8e-15
+  UniRef90_A0A376J081 Flagellin structural protein n=1 Tax=Escher...  77.3    8e-15
+  UniRef90_Q32HM2 IS600 ORF2 n=3 Tax=Shigella TaxID=620 RepID=Q32...  77.3    9e-15
+  UniRef90_A0A379WD19 Biofilm regulator BssR n=2 Tax=Salmonella e...  71.9    1e-14
+  UniRef90_A0A377X6H8 Putative transposase-like protein n=2 Tax=K...  74.3    1e-14
+  UniRef90_A0A380D436 IS1 orfB n=1 Tax=Shigella flexneri TaxID=62...  73.5    2e-14
+  UniRef90_UPI00098A2739 alpha/beta fold hydrolase n=1 Tax=Escher...  76.6    2e-14
+  UniRef90_UPI000DD39B8C hypothetical protein n=1 Tax=Escherichia...  72.7    2e-14
+  UniRef90_E7SUX6 Uncharacterized protein n=1 Tax=Shigella boydii...  75.4    2e-14
+  UniRef90_I6FQS6 Gram-negative pili assembly chaperone, N-termin...  76.2    2e-14
+  UniRef90_A0A074GZY1 Putative tail fiber domain protein n=1 Tax=...  74.3    2e-14
+  UniRef90_D8EFU9 Uncharacterized protein n=1 Tax=Escherichia col...  73.5    2e-14
+  UniRef90_J7QXR6 Uncharacterized protein n=16 Tax=Escherichia co...  73.9    2e-14
+  UniRef90_UPI00063D3964 ABC transporter region 2 family protein ...  76.2    2e-14
+  UniRef90_E7SFJ0 Uncharacterized protein n=1 Tax=Shigella dysent...  73.1    3e-14
+  UniRef90_E7SQJ1 Uncharacterized protein n=3 Tax=Shigella dysent...  73.9    3e-14
+  UniRef90_S1H570 Uncharacterized protein n=3 Tax=Escherichia col...  77.3    3e-14
+  UniRef90_E2XHE3 Uncharacterized protein n=2 Tax=Shigella dysent...  72.7    3e-14
+  UniRef90_UPI0004DAF1C3 DDE transposase family protein n=1 Tax=E...  72.7    4e-14
+  UniRef90_A0A379ZNT6 Putative fels-1 Prophage Protein n=1 Tax=Sh...  72.3    4e-14
+  UniRef90_A0A221ZQZ1 Uncharacterized protein n=2 Tax=Escherichia...  75.8    5e-14
+  UniRef90_A0A377EMW7 Toxin n=5 Tax=Escherichia coli TaxID=562 Re...  72.7    5e-14
+  UniRef90_A0A377CNJ9 HTH DNA-binding domain-containing protein n...  74.6    5e-14
+  UniRef90_A0A378EFZ8 Putative transposase-like protein n=1 Tax=K...  74.3    5e-14
+  UniRef90_B1LIQ3 Uncharacterized protein n=1 Tax=Escherichia col...  75.4    6e-14
+  UniRef90_A0A377X0A8 Putative transposase-like protein n=3 Tax=K...  75.0    7e-14
+  UniRef90_UPI0008FEEC25 hypothetical protein n=1 Tax=Escherichia...  71.2    7e-14
+  UniRef90_A0A1M0UM04 Uncharacterized protein n=1 Tax=Escherichia...  70.0    8e-14
+  UniRef90_S1GZH0 Uncharacterized protein n=1 Tax=Escherichia col...  73.1    8e-14
+  UniRef90_W1DR64 IncF plasmid conjugative transfer protein TraG ...  76.2    8e-14
+  UniRef90_B7LWX0 Putative tail fiber protein n=1 Tax=Escherichia...  70.0    9e-14
+  UniRef90_UPI00092D6D49 hypothetical protein n=1 Tax=Escherichia...  75.4    9e-14
+  UniRef90_A0A380B1M6 Tail fiber protein n=1 Tax=Shigella flexner...  71.6    9e-14
+  UniRef90_A0A3P6LGY2 Flagellar protein n=1 Tax=Shigella dysenter...  74.3    1e-13
+  UniRef90_D2A716 IS1 orfB n=1 Tax=Shigella flexneri serotype X (...  72.3    1e-13
+  UniRef90_A0A3P6LZM9 Cystathionine beta-lyase n=2 Tax=Shigella d...  75.0    1e-13
+  UniRef90_A0A2X1MZ72 Flagellin structural protein n=1 Tax=Escher...  71.9    1e-13
+  UniRef90_A0A2Y6Y215 IS1 orfB n=1 Tax=Shigella sonnei TaxID=624 ...  72.7    1e-13
+  UniRef90_A0A2Y2ZLL3 Bacteriophage protein n=1 Tax=Shigella flex...  73.9    1e-13
+  UniRef90_I6CS57 Inner membrane yihN domain protein n=1 Tax=Shig...  73.9    1e-13
+  UniRef90_A0A074I501 Uncharacterized protein n=1 Tax=Escherichia...  75.4    1e-13
+  UniRef90_A0A378EE97 Putative transposase-like protein n=1 Tax=K...  70.8    1e-13
+  UniRef90_A0A376V3F8 Outer membrane usher protein n=1 Tax=Escher...  75.4    1e-13
+  UniRef90_A0A1M0UIX7 Uncharacterized protein (Fragment) n=1 Tax=...  69.6    1e-13
+  UniRef90_E7SQ63 Uncharacterized protein n=2 Tax=Enterobacteriac...  69.2    2e-13
+  UniRef90_UPI00046D58EE hypothetical protein n=1 Tax=Escherichia...  75.0    2e-13
+  UniRef90_UPI0008FBC0BA acyltransferase n=1 Tax=Escherichia coli...  74.6    2e-13
+  UniRef90_V8JSH1 Transposase n=3 Tax=Enterobacteriaceae TaxID=54...  69.2    2e-13
+  UniRef90_A0A2X1NGX9 Putative invasin n=5 Tax=Enterobacterales T...  75.0    2e-13
+  UniRef90_A0A2X2IXV1 IS66 family element, orf1 n=10 Tax=Shigella...  71.9    2e-13
+  UniRef90_A0A141RGU7 Uncharacterized protein (Fragment) n=1 Tax=...  70.8    2e-13
+  UniRef90_D8EF77 Outer membrane usher protein HtrE n=1 Tax=Esche...  72.3    2e-13
+  UniRef90_A0A380B796 Outer membrane autotransporter barrel domai...  73.9    2e-13
+  UniRef90_W0ARN0 Putative membrane protein n=1 Tax=Escherichia a...  74.6    2e-13
+  UniRef90_A0A0A7A2X5 Uncharacterized protein n=2 Tax=Enterobacte...  68.9    2e-13
+  UniRef90_A0A2X2IF42 IS1 orfB n=2 Tax=Shigella dysenteriae TaxID...  70.0    3e-13
+  UniRef90_A0A376V4M4 Putative transposase-related protein n=1 Ta...  70.8    3e-13
+  UniRef90_A0A0A6ZYE0 SecY stabilizing membrane protein n=2 Tax=S...  68.5    3e-13
+  UniRef90_A0A2X3D6X5 Putative transposase-like protein n=5 Tax=K...  70.0    3e-13
+  UniRef90_A0A378ECJ0 SD repeat-containing cell surface protein n...  73.9    4e-13
+  UniRef90_UPI000907794D hypothetical protein n=1 Tax=Escherichia...  73.9    4e-13
+  UniRef90_UPI000A2DCFE8 hypothetical protein n=1 Tax=Escherichia...  69.2    4e-13
+  UniRef90_A0A2X1L4K8 Phage tail tape measure protein n=1 Tax=Esc...  73.9    4e-13
+  UniRef90_UPI0009891F08 transposase n=1 Tax=Escherichia coli Tax...  68.1    4e-13
+  UniRef90_A0A161KB62 IS600 orfB family protein n=2 Tax=Enterobac...  71.2    5e-13
+  UniRef90_A0A3P4L2T3 Uncharacterized protein n=1 Tax=Escherichia...  71.9    5e-13
+  UniRef90_E7SGZ7 Uncharacterized protein n=3 Tax=Shigella TaxID=...  68.1    5e-13
+  UniRef90_A0A1X3JJZ4 Integrase n=2 Tax=Enterobacteriaceae TaxID=...  73.5    5e-13
+  UniRef90_R4Y742 Uncharacterized protein n=3 Tax=Klebsiella pneu...  73.9    5e-13
+  UniRef90_UPI00098905F7 hypothetical protein n=1 Tax=Escherichia...  69.6    6e-13
+  UniRef90_E9XSW0 Uncharacterized protein n=2 Tax=Escherichia Tax...  72.3    7e-13
+  UniRef90_Q0WVS2 Uncharacterized protein At2g28460 n=1 Tax=Arabi...  73.5    7e-13
+  UniRef90_E7SNL4 Putative tail fiber protein n=4 Tax=Enterobacte...  67.7    8e-13
+  UniRef90_A0A2X6R6M6 Putative prophage side tail fiber protein n...  67.7    9e-13
+  UniRef90_J7QYU3 Uncharacterized protein n=4 Tax=Escherichia col...  68.9    1e-12
+  UniRef90_UPI0009E4625D peptide ABC transporter substrate-bindin...  66.9    1e-12
+  UniRef90_A0A026UQI1 Uncharacterized protein n=1 Tax=Escherichia...  71.9    1e-12
+  UniRef90_D8EFW7 Predicted Peptidoglycan domain protein n=1 Tax=...  70.8    1e-12
+  UniRef90_A0A383J1L2 Putative prophage side tail fiber protein n...  67.7    1e-12
+  UniRef90_E7SN23 Transposase n=1 Tax=Shigella dysenteriae CDC 74...  68.1    2e-12
+  UniRef90_A0A376SL70 DNA-directed DNA polymerase n=6 Tax=Escheri...  71.2    3e-12
+  UniRef90_UPI000BB719D5 transposase n=2 Tax=Escherichia coli Tax...  66.6    3e-12
+  UniRef90_UPI000906F738 hypothetical protein n=1 Tax=Escherichia...  66.2    4e-12
+  UniRef90_A0A2X2HNC2 IS600 ORF2 n=1 Tax=Shigella dysenteriae Tax...  68.1    6e-12
+  UniRef90_A0A2Y2NPZ8 Bacteriophage protein n=1 Tax=Shigella flex...  67.7    1e-11
+  UniRef90_A0A1X3L792 Bacteriophage lysis protein n=1 Tax=Escheri...  67.7    1e-11
+  UniRef90_UPI000B7D9488 hypothetical protein n=1 Tax=Escherichia...  69.6    2e-11
+  UniRef90_A0A0A6ZSX0 Transposase n=1 Tax=Shigella dysenteriae 16...  66.6    2e-11
+  UniRef90_UPI0002BA5342 hypothetical protein n=2 Tax=Escherichia...  65.0    3e-11
+  UniRef90_A0A376VKR6 Biofilm formation regulatory protein BssR n...  58.8    1e-09
+  UniRef90_UPI0009893DC2 transposase n=1 Tax=Escherichia coli Tax...  57.3    8e-09
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A3P5Q9G2 Uncharacterized protein n=4 Tax=Klebsiella ...  64.6    7e-10
+  UniRef90_UPI0009833985 hypothetical protein n=1 Tax=Escherichia...  58.8    2e-09
+  UniRef90_UPI000DD348FD hypothetical protein n=19 Tax=Enterobact...  56.9    3e-08
+  UniRef90_UPI00098C1885 DUF2219 family protein n=1 Tax=Escherich...  58.5    4e-08
+  UniRef90_A0A2Y5B2B6 Tail fiber protein n=1 Tax=Shigella flexner...  55.0    6e-08
+  UniRef90_C6K7P8 Putative YagA/OmpC fusion protein n=3 Tax=Esche...  59.2    7e-08
+  UniRef90_A0A0B1N8X2 Uncharacterized protein n=1 Tax=Escherichia...  56.5    7e-08
+  UniRef90_A0A2H4TKW4 Uncharacterized protein n=1 Tax=Escherichia...  58.5    1e-07
+  UniRef90_A0A376ML80 Putative prophage side tail fiber protein n...  55.8    2e-07
+  UniRef90_C7S9Z7 YagA n=304 Tax=root TaxID=1 RepID=C7S9Z7_ECOLX      57.7    2e-07
+  UniRef90_A0A075UHR7 Uncharacterized protein n=7 Tax=Escherichia...  56.1    2e-07
+  UniRef90_D8ACK3 Uncharacterized protein n=1 Tax=Escherichia col...  55.4    3e-07
+  UniRef90_UPI000989AEBE sensor dcuS domain protein n=1 Tax=Shige...  53.1    3e-07
+  UniRef90_UPI000E32A84C transposase n=1 Tax=Escherichia coli Tax...  53.1    3e-07
+  UniRef90_A0A3G4RTK8 Uncharacterized protein n=1 Tax=Escherichia...  53.8    5e-07
+  UniRef90_UPI0009AC23B9 hypothetical protein n=1 Tax=Salmonella ...  54.2    7e-07
+  UniRef90_UPI000B500755 sensor dcuS domain protein n=1 Tax=Esche...  51.9    7e-07
+  UniRef90_A0A372D2J8 Transposase n=1 Tax=Klebsiella pneumoniae T...  51.5    9e-07
+  UniRef90_A0A0J2G5E2 Uncharacterized protein n=12 Tax=Enterobact...  55.8    1e-06
+  UniRef90_A0A3G1IE16 Putative transposase-like protein n=2 Tax=K...  53.5    1e-06
+  UniRef90_A0A229AMH8 Uncharacterized protein (Fragment) n=1 Tax=...  51.5    2e-06
+  UniRef90_UPI00098C5CA9 transposase n=1 Tax=Escherichia coli Tax...  51.1    2e-06
+  UniRef90_UPI00092D3801 hypothetical protein n=2 Tax=Shigella so...  54.2    3e-06
+  UniRef90_UPI0008FC1080 hypothetical protein n=1 Tax=Escherichia...  50.8    3e-06
+  UniRef90_UPI000BB82568 hypothetical protein n=1 Tax=Escherichia...  52.7    3e-06
+  UniRef90_A0A3P1KVB3 Uncharacterized protein (Fragment) n=2 Tax=...  50.8    5e-06
+  UniRef90_A0A376I769 Flagellin structural protein n=1 Tax=Escher...  52.7    7e-06
+  UniRef90_UPI000DF2276F hypothetical protein n=1 Tax=Escherichia...  49.6    8e-06
+  UniRef90_UPI00098BD369 sensor dcuS domain protein n=1 Tax=Shige...  49.2    9e-06
+  UniRef90_A0A236IQU2 Uncharacterized protein (Fragment) n=11 Tax...  52.3    1e-05
+  UniRef90_A0A0D8VWJ2 Uncharacterized protein (Fragment) n=1 Tax=...  49.6    1e-05
+  UniRef90_A0A1M2TVA4 Uncharacterized protein (Fragment) n=1 Tax=...  49.2    2e-05
+  UniRef90_A0A381GNC5 Protease 2 n=1 Tax=Citrobacter freundii Tax...  51.1    2e-05
+  UniRef90_UPI000DD2C1E2 kinase n=1 Tax=Shigella sonnei TaxID=624...  48.4    2e-05
+  UniRef90_A0A376I107 Protein FimG-like protein n=1 Tax=Escherich...  51.5    2e-05
+  UniRef90_UPI00098C67EA hypothetical protein n=1 Tax=Escherichia...  50.0    2e-05
+  UniRef90_A0A376I5A7 Putative prophage side tail fiber protein n...  50.8    3e-05
+  UniRef90_A0A336QII2 Uncharacterized protein n=1 Tax=Citrobacter...  51.1    3e-05
+  UniRef90_UPI0003EDD581 hypothetical protein n=1 Tax=Escherichia...  48.8    5e-05
+  UniRef90_UPI00098AAEA5 sensor dcuS domain protein n=2 Tax=Esche...  47.3    6e-05
+  UniRef90_A0A376I8T9 Protein FimG-like protein n=1 Tax=Escherich...  50.0    9e-05
+  UniRef90_A0A0J1NBL4 Glucans biosynthesis protein C n=1 Tax=Citr...  49.2    2e-04
+  UniRef90_UPI0009F9D59C sensor dcuS domain protein n=1 Tax=Panto...  45.7    2e-04
+  UniRef90_A0A0P0SMK1 YagA n=4 Tax=Escherichia coli TaxID=562 Rep...  46.5    3e-04
+  UniRef90_A0A3I5PHM3 Uncharacterized protein n=11 Tax=Salmonella...  46.5    0.001
+  UniRef90_A0A3P5GEE2 Uncharacterized protein n=3 Tax=Klebsiella ...  46.5    0.002
+  UniRef90_A0A2Z6G0K2 IS110 family transposase n=1 Tax=Enterobact...  45.4    0.003
+  UniRef90_A0A3I6ZJE6 Uncharacterized protein n=1 Tax=Salmonella ...  45.7    0.003
+  UniRef90_UPI0002694DBE hypothetical protein n=1 Tax=Salmonella ...  45.0    0.006
+  UniRef90_A0A330DB07 Uncharacterized protein n=2 Tax=Enterobacte...  45.0    0.006
+  UniRef90_A0A377EAL3 YagA n=2 Tax=Escherichia coli TaxID=562 Rep...  43.4    0.006
+  UniRef90_UPI000DD3AD3C sensor dcuS domain protein n=1 Tax=Esche...  41.1    0.011
+  UniRef90_A0A3K9KDD6 Uncharacterized protein n=8 Tax=Salmonella ...  44.2    0.011
+  UniRef90_UPI00098A281B transposase n=2 Tax=Escherichia coli Tax...  40.4    0.026
+  UniRef90_A0A084JA26 Uncharacterized protein n=3 Tax=Clostridium...  42.7    0.026
+  UniRef90_A0A1I7EA76 Uncharacterized protein n=2 Tax=Kosakonia T...  42.7    0.033
+  UniRef90_A0A3L9AAX0 Flagellin structural protein (Fragment) n=1...  38.4    0.081
+  UniRef90_A0A0J1M717 Uncharacterized protein n=2 Tax=Citrobacter...  41.5    0.084
+  UniRef90_A0A1U7E954 Uncharacterized protein n=2 Tax=Enterobacte...  41.1    0.12 
+  UniRef90_R9VXS4 Uncharacterized protein n=1 Tax=Enterobacter sp...  41.1    0.12 
+  UniRef90_A0A0A6ZQA1 Uncharacterized protein n=1 Tax=Shigella dy...  38.0    0.12 
+  UniRef90_UPI000E3ED32A restriction endonuclease subunit S n=2 T...  40.0    0.31 
+  UniRef90_UPI0009897632 hypothetical protein n=1 Tax=Escherichia...  37.3    0.41 
+  UniRef90_A0A2U2UX36 Transposase (Fragment) n=2 Tax=Escherichia ...  36.1    0.50 
+  UniRef90_UPI00046AF3B1 alanine racemase n=1 Tax=Sulfitobacter n...  39.2    0.60 
+  UniRef90_A0A1Q3R476 Cupin n=1 Tax=Burkholderiales bacterium 68-...  39.2    0.61 
+  UniRef90_UPI0002D6CC80 type I polyketide synthase n=1 Tax=Nocar...  38.8    0.82 
+  UniRef90_A0A236M8H7 Uncharacterized protein (Fragment) n=1 Tax=...  36.5    1.0  
+  UniRef90_A0A1H0CCA9 PAS domain S-box-containing protein n=1 Tax...  38.4    1.2  
+  UniRef90_K7W7S8 RING-type E3 ubiquitin transferase n=6 Tax=Zea ...  38.4    1.2  
+  UniRef90_UPI000BE502CF hypothetical protein n=1 Tax=Escherichia...  35.7    1.3  
+  UniRef90_A0A2X6CWY1 Putative prophage side tail fiber protein n...  38.0    1.3  
+  UniRef90_UPI0004E110CF PAS domain S-box protein n=1 Tax=Strepto...  38.4    1.3  
+  UniRef90_UPI000BE14F11 hypothetical protein n=1 Tax=Escherichia...  36.5    1.3  
+  UniRef90_A0A243U3S6 Uncharacterized protein n=1 Tax=Citrobacter...  36.9    1.5  
+  UniRef90_A0A0J7YZN4 Protein phosphatase n=1 Tax=Streptomyces vi...  38.0    1.6  
+  UniRef90_UPI000F829E03 PAS domain S-box protein n=1 Tax=Strepto...  38.0    1.7  
+  UniRef90_A0A233SY37 PAS sensor protein n=1 Tax=Streptomyces dia...  38.0    1.7  
+  UniRef90_A0A0X3VQD7 Protein phosphatase n=1 Tax=Streptomyces re...  38.0    1.8  
+  UniRef90_A0A124IAB5 Protein phosphatase n=1 Tax=Streptomyces ca...  38.0    1.8  
+  UniRef90_UPI000A0406B4 type I polyketide synthase n=1 Tax=Nocar...  37.7    2.0  
+  UniRef90_UPI000DD8D180 PerC family transcriptional regulator n=...  35.7    2.1  
+  UniRef90_M0HJN0 Phosphoglucosamine mutase n=3 Tax=Haloferax Tax...  37.7    2.1  
+  UniRef90_A0A059GCB9 Uncharacterized protein n=2 Tax=Hyphomonas ...  37.7    2.2  
+  UniRef90_D4XII0 Excinuclease ABC, A subunit n=11 Tax=Achromobac...  37.7    2.2  
+  UniRef90_A0A2S5RK65 Sensor dcuS domain protein (Fragment) n=1 T...  34.2    2.7  
+  UniRef90_A0A2A3HRQ0 PAS domain S-box-containing protein n=1 Tax...  37.3    2.8  
+  UniRef90_UPI0002FF47A5 DUF1501 domain-containing protein n=1 Ta...  37.3    3.0  
+  UniRef90_A0A0F7YBH9 Uncharacterized protein n=5 Tax=Pseudomonas...  35.0    3.2  
+  UniRef90_A0A1H4MAN3 PAS domain S-box-containing protein n=4 Tax...  37.3    3.3  
+  UniRef90_A0A0N5DJP9 Uncharacterized protein n=1 Tax=Trichuris m...  36.9    3.4  
+  UniRef90_A0A1K2EB27 Uncharacterized protein n=1 Tax=Enterobacte...  36.9    3.4  
+  UniRef90_UPI0008FCEB5D hypothetical protein n=1 Tax=Pantoea sp....  35.7    3.9  
+  UniRef90_F7T7Q5 D-aminoacylase 2 n=4 Tax=Bacteria TaxID=2 RepID...  36.9    4.1  
+  UniRef90_A0A398LVH2 Sensor dcuS domain protein n=3 Tax=Shigella...  34.2    4.5  
+  UniRef90_A0A117P5E8 Protein phosphatase n=2 Tax=Streptomyces Ta...  36.5    4.7  
+  UniRef90_A0A2U2UXV0 Transposase (Fragment) n=1 Tax=Escherichia ...  33.8    4.7  
+  UniRef90_A0A1Q4WR01 Protein phosphatase n=1 Tax=Streptomyces sp...  36.5    4.7  
+  UniRef90_A0A0M9CPM9 Protein phosphatase n=6 Tax=Streptomyces Ta...  36.5    4.8  
+  UniRef90_A0A2R6DE31 Histidine kinase n=1 Tax=Halobacteriales ar...  35.7    5.5  
+  UniRef90_UPI000560D5FE XRE family transcriptional regulator n=1...  36.1    5.6  
+  UniRef90_A0A0X3XXP9 Protein phosphatase n=5 Tax=Streptomyces Ta...  36.5    5.7  
+  UniRef90_A0A0D4DGS6 Protein phosphatase n=2 Tax=Streptomyces Ta...  36.5    6.1  
+  UniRef90_A0A1J4NZJ2 Histidine kinase (Fragment) n=1 Tax=Strepto...  36.1    6.7  
+  UniRef90_G2GI53 Magnesium or manganese-dependent protein phosph...  36.1    6.8  
+  UniRef90_D9XFA4 Magnesium or manganese-dependent protein phosph...  36.1    7.8  
+  UniRef90_UPI000F8862D1 GNAT family N-acetyltransferase n=1 Tax=...  35.7    8.1  
+  UniRef90_D9XX45 Integral membrane sensor protein n=3 Tax=Strept...  35.7    8.4  
+  UniRef90_A0A1G8IVF9 Methyl-accepting chemotaxis protein-2, aspa...  35.7    9.1  
+  UniRef90_A0A259DAH5 Uncharacterized protein n=1 Tax=Rhodobacter...  35.7    9.3  
+  UniRef90_UPI0004C852F9 PAS domain S-box protein n=1 Tax=Strepto...  35.7    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.142    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0434    0.140     1.90     42.6     43.6 
+
+Effective search space used: 739802444246
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

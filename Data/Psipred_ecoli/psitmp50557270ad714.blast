@@ -1,0 +1,553 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414844.1
+
+Length=222
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P77180 Uncharacterized protein YkgH n=712 Tax=root Tax...  461     1e-164
+  UniRef90_A0A2X5FGD3 Inner membrane protein n=5 Tax=Escherichia ...  378     2e-132
+  UniRef90_A0A377LJG9 Inner membrane protein n=9 Tax=Escherichia ...  377     4e-132
+  UniRef90_A0A0J2F402 Inner membrane protein n=12 Tax=Enterobacte...  376     1e-131
+  UniRef90_UPI000BB8575B hypothetical protein n=1 Tax=Escherichia...  374     1e-130
+  UniRef90_A0A2H9A4R0 Inner membrane protein n=12 Tax=Enterobacte...  355     4e-123
+  UniRef90_A0A376YFK1 Inner membrane protein n=1 Tax=Escherichia ...  327     2e-112
+  UniRef90_A0A3J7CII9 Uncharacterized protein n=8 Tax=Escherichia...  280     4e-94 
+  UniRef90_A0A2H9EHX6 Uncharacterized protein n=12 Tax=Escherichi...  273     1e-91 
+  UniRef90_UPI000DD4BE12 hypothetical protein n=1 Tax=Escherichia...  263     9e-88 
+  UniRef90_A0A0A1A0E1 Membrane protein n=23 Tax=Enterobacteriacea...  250     3e-82 
+  UniRef90_UPI0009899409 hypothetical protein n=1 Tax=Escherichia...  241     6e-79 
+  UniRef90_A0A2K0Q857 Uncharacterized protein n=3 Tax=Enterobacte...  228     8e-74 
+  UniRef90_A0A0K3ZW63 Inner membrane protein n=10 Tax=Enterobacte...  202     5e-64 
+  UniRef90_A0A2H9EHM3 Tyrosine kinase n=5 Tax=Escherichia coli Ta...  196     7e-62 
+  UniRef90_UPI000D155A11 hypothetical protein n=3 Tax=Escherichia...  196     1e-61 
+  UniRef90_W1EZ17 Uncharacterized protein n=1 Tax=Escherichia col...  185     2e-57 
+  UniRef90_H4KCJ0 Uncharacterized protein n=2 Tax=Escherichia col...  176     2e-53 
+  UniRef90_A0A377KB65 Inner membrane protein n=2 Tax=Escherichia ...  174     3e-53 
+  UniRef90_UPI000E20BB45 hypothetical protein n=1 Tax=Escherichia...  157     2e-46 
+  UniRef90_D8EFU9 Uncharacterized protein n=1 Tax=Escherichia col...  145     4e-41 
+  UniRef90_W1EXC3 Uncharacterized protein n=1 Tax=Escherichia col...  140     5e-40 
+  UniRef90_W1XPW9 Uncharacterized protein (Fragment) n=1 Tax=huma...  134     1e-37 
+  UniRef90_F4VA76 Uncharacterized protein n=2 Tax=Escherichia col...  131     1e-36 
+  UniRef90_A0A2I5SK42 Putative inner membrane protein n=1 Tax=Esc...  130     2e-35 
+  UniRef90_UPI0008B79EAD hypothetical protein n=1 Tax=Kosakonia s...  128     1e-33 
+  UniRef90_R9VNA4 Uncharacterized protein n=1 Tax=Enterobacter sp...  126     1e-32 
+  UniRef90_I2WT71 Uncharacterized protein n=7 Tax=Bacteria TaxID=...  119     5e-32 
+  UniRef90_A0A1K1ZXE6 Uncharacterized protein n=5 Tax=Enterobacte...  123     2e-31 
+  UniRef90_UPI000DDC0F6F tyrosine kinase n=1 Tax=Escherichia coli...  117     5e-31 
+  UniRef90_UPI000BE38841 hypothetical protein n=4 Tax=Enterobacte...  112     2e-27 
+  UniRef90_UPI000926D6E6 hypothetical protein n=7 Tax=Enterobacte...  110     2e-26 
+  UniRef90_A0A0T7NYX1 Uncharacterized protein n=8 Tax=Enterobacte...  107     2e-25 
+  UniRef90_UPI00092D8CC5 hypothetical protein n=1 Tax=Escherichia...  106     7e-25 
+  UniRef90_B1LS00 Uncharacterized protein n=34 Tax=Enterobacteral...  103     1e-23 
+  UniRef90_UPI000DA48CEA hypothetical protein n=1 Tax=Escherichia...  97.4    3e-23 
+  UniRef90_UPI0009420C6B tyrosine kinase n=1 Tax=Escherichia coli...  93.6    5e-22 
+  UniRef90_A0A0J2F6K7 Uncharacterized protein n=1 Tax=Escherichia...  91.7    3e-21 
+  UniRef90_UPI000B9525AA hypothetical protein n=1 Tax=Shigella so...  91.3    1e-19 
+  UniRef90_UPI000991878F tyrosine kinase n=1 Tax=Escherichia coli...  86.3    5e-19 
+  UniRef90_A0A376YCQ0 Inner membrane protein n=2 Tax=root TaxID=1...  84.0    3e-18 
+  UniRef90_UPI00092B0359 hypothetical protein n=1 Tax=Escherichia...  80.1    1e-15 
+  UniRef90_V2RY83 Uncharacterized protein n=1 Tax=Escherichia col...  74.7    8e-15 
+  UniRef90_UPI000991661B hypothetical protein n=1 Tax=Escherichia...  73.6    4e-14 
+  UniRef90_A0A0D7LLS6 Uncharacterized protein n=7 Tax=Citrobacter...  60.1    1e-07 
+  UniRef90_UPI000774FEFC hypothetical protein n=2 Tax=Escherichia...  56.6    6e-07 
+  UniRef90_UPI000926EF67 hypothetical protein n=1 Tax=Escherichia...  53.5    4e-06 
+  UniRef90_UPI000BA18370 hypothetical protein n=1 Tax=Escherichia...  53.5    6e-06 
+  UniRef90_A0A2I5HEM0 Uncharacterized protein n=12 Tax=Salmonella...  49.7    6e-04 
+  UniRef90_A0A2Z3X1N8 Uncharacterized protein n=1 Tax=Citrobacter...  48.9    9e-04 
+  UniRef90_A0A379Q6Y8 Membrane protein n=4 Tax=Salmonella enteric...  47.8    0.003 
+  UniRef90_A0A3P5DMN2 Uncharacterized protein n=1 Tax=Escherichia...  43.9    0.003 
+  UniRef90_A0A2X5JH41 Inner membrane protein n=1 Tax=Escherichia ...  42.4    0.009 
+  UniRef90_A9MK41 Uncharacterized protein n=15 Tax=Salmonella ent...  45.8    0.013 
+  UniRef90_V1HNB5 Uncharacterized protein n=7 Tax=Enterobacteriac...  44.7    0.029 
+  UniRef90_G5NFA1 Putative inner membrane protein n=314 Tax=Gamma...  43.5    0.074 
+  UniRef90_A0A379TWF5 Membrane protein n=1 Tax=Salmonella diarizo...  38.9    0.87  
+  UniRef90_A0A257HVX2 Uncharacterized protein n=1 Tax=Chitinophag...  40.0    1.4   
+  UniRef90_A0A0D3BRZ4 Uncharacterized protein n=8 Tax=Brassiceae ...  40.0    1.5   
+  UniRef90_A0A0T9XPU7 Inner membrane protein n=2 Tax=Salmonella e...  37.4    3.5   
+  UniRef90_V5NRD0 DNA topoisomerase I n=6 Tax=Helicobacter pylori...  37.7    6.5   
+  UniRef90_A0A0L0DG51 Uncharacterized protein n=1 Tax=Thecamonas ...  37.4    7.1   
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1314849586127
+Warning: [psiblast] lcl|Query_1 NP_414844.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414844.1
+
+Length=222
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P77180 Uncharacterized protein YkgH n=712 Tax=root Tax...  280     7e-93
+  UniRef90_A0A2X5FGD3 Inner membrane protein n=5 Tax=Escherichia ...  239     1e-77
+  UniRef90_A0A377LJG9 Inner membrane protein n=9 Tax=Escherichia ...  235     6e-76
+  UniRef90_A0A0J2F402 Inner membrane protein n=12 Tax=Enterobacte...  233     5e-75
+  UniRef90_UPI000BB8575B hypothetical protein n=1 Tax=Escherichia...  229     3e-73
+  UniRef90_A0A2H9A4R0 Inner membrane protein n=12 Tax=Enterobacte...  215     7e-68
+  UniRef90_A0A376YFK1 Inner membrane protein n=1 Tax=Escherichia ...  202     4e-63
+  UniRef90_UPI00092D8CC5 hypothetical protein n=1 Tax=Escherichia...  201     4e-62
+  UniRef90_UPI000BE38841 hypothetical protein n=4 Tax=Enterobacte...  199     4e-61
+  UniRef90_UPI000926D6E6 hypothetical protein n=7 Tax=Enterobacte...  198     7e-61
+  UniRef90_UPI0008B79EAD hypothetical protein n=1 Tax=Kosakonia s...  196     6e-60
+  UniRef90_B1LS00 Uncharacterized protein n=34 Tax=Enterobacteral...  194     4e-59
+  UniRef90_A0A0T7NYX1 Uncharacterized protein n=8 Tax=Enterobacte...  189     2e-57
+  UniRef90_A0A1K1ZXE6 Uncharacterized protein n=5 Tax=Enterobacte...  189     3e-57
+  UniRef90_R9VNA4 Uncharacterized protein n=1 Tax=Enterobacter sp...  186     3e-56
+  UniRef90_A0A3J7CII9 Uncharacterized protein n=8 Tax=Escherichia...  180     7e-55
+  UniRef90_A0A2H9EHX6 Uncharacterized protein n=12 Tax=Escherichi...  164     9e-49
+  UniRef90_UPI000DD4BE12 hypothetical protein n=1 Tax=Escherichia...  160     3e-47
+  UniRef90_A0A0A1A0E1 Membrane protein n=23 Tax=Enterobacteriacea...  160     9e-47
+  UniRef90_UPI0009899409 hypothetical protein n=1 Tax=Escherichia...  158     2e-46
+  UniRef90_A0A2I5HEM0 Uncharacterized protein n=12 Tax=Salmonella...  159     3e-45
+  UniRef90_A0A0D7LLS6 Uncharacterized protein n=7 Tax=Citrobacter...  157     9e-45
+  UniRef90_UPI000B9525AA hypothetical protein n=1 Tax=Shigella so...  155     2e-44
+  UniRef90_A0A2Z3X1N8 Uncharacterized protein n=1 Tax=Citrobacter...  155     5e-44
+  UniRef90_A0A2K0Q857 Uncharacterized protein n=3 Tax=Enterobacte...  141     1e-39
+  UniRef90_UPI00092B0359 hypothetical protein n=1 Tax=Escherichia...  134     1e-36
+  UniRef90_UPI000D155A11 hypothetical protein n=3 Tax=Escherichia...  127     1e-34
+  UniRef90_A0A2H9EHM3 Tyrosine kinase n=5 Tax=Escherichia coli Ta...  125     1e-33
+  UniRef90_A0A0K3ZW63 Inner membrane protein n=10 Tax=Enterobacte...  124     4e-33
+  UniRef90_D8EFU9 Uncharacterized protein n=1 Tax=Escherichia col...  119     5e-31
+  UniRef90_UPI000774FEFC hypothetical protein n=2 Tax=Escherichia...  116     6e-30
+  UniRef90_W1EZ17 Uncharacterized protein n=1 Tax=Escherichia col...  114     1e-29
+  UniRef90_H4KCJ0 Uncharacterized protein n=2 Tax=Escherichia col...  115     3e-29
+  UniRef90_UPI000BA18370 hypothetical protein n=1 Tax=Escherichia...  111     4e-28
+  UniRef90_A0A377KB65 Inner membrane protein n=2 Tax=Escherichia ...  110     6e-28
+  UniRef90_UPI000E20BB45 hypothetical protein n=1 Tax=Escherichia...  102     1e-24
+  UniRef90_A0A2I5SK42 Putative inner membrane protein n=1 Tax=Esc...  99.8    1e-23
+  UniRef90_W1EXC3 Uncharacterized protein n=1 Tax=Escherichia col...  94.8    4e-22
+  UniRef90_UPI000926EF67 hypothetical protein n=1 Tax=Escherichia...  84.4    7e-18
+  UniRef90_F4VA76 Uncharacterized protein n=2 Tax=Escherichia col...  83.3    1e-17
+  UniRef90_W1XPW9 Uncharacterized protein (Fragment) n=1 Tax=huma...  80.2    1e-16
+  UniRef90_I2WT71 Uncharacterized protein n=7 Tax=Bacteria TaxID=...  79.4    2e-16
+  UniRef90_UPI000DDC0F6F tyrosine kinase n=1 Tax=Escherichia coli...  77.5    1e-15
+  UniRef90_UPI0009420C6B tyrosine kinase n=1 Tax=Escherichia coli...  62.8    3e-10
+  UniRef90_UPI000DA48CEA hypothetical protein n=1 Tax=Escherichia...  63.2    5e-10
+  UniRef90_A0A0J2F6K7 Uncharacterized protein n=1 Tax=Escherichia...  60.9    2e-09
+  UniRef90_UPI000991878F tyrosine kinase n=1 Tax=Escherichia coli...  56.3    1e-07
+  UniRef90_UPI000991661B hypothetical protein n=1 Tax=Escherichia...  53.2    2e-06
+  UniRef90_A0A376YCQ0 Inner membrane protein n=2 Tax=root TaxID=1...  52.4    2e-06
+  UniRef90_V2RY83 Uncharacterized protein n=1 Tax=Escherichia col...  50.1    2e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_G5NFA1 Putative inner membrane protein n=314 Tax=Gamma...  147     7e-41
+  UniRef90_A9MK41 Uncharacterized protein n=15 Tax=Salmonella ent...  146     1e-40
+  UniRef90_A0A379Q6Y8 Membrane protein n=4 Tax=Salmonella enteric...  144     9e-40
+  UniRef90_V1HNB5 Uncharacterized protein n=7 Tax=Enterobacteriac...  137     8e-37
+  UniRef90_UPI0009AC02F9 hypothetical protein n=2 Tax=Salmonella ...  123     4e-32
+  UniRef90_UPI000DEC8D4C hypothetical protein n=2 Tax=Salmonella ...  114     1e-28
+  UniRef90_UPI0002A697CC hypothetical protein n=16 Tax=Salmonella...  109     8e-27
+  UniRef90_UPI000DBE748D hypothetical protein n=1 Tax=Salmonella ...  100     5e-23
+  UniRef90_A0A379TWF5 Membrane protein n=1 Tax=Salmonella diarizo...  89.8    9e-20
+  UniRef90_A0A0T9XPU7 Inner membrane protein n=2 Tax=Salmonella e...  87.9    8e-19
+  UniRef90_UPI0009AC99E7 hypothetical protein n=1 Tax=Salmonella ...  82.5    1e-16
+  UniRef90_UPI0009AE82F1 hypothetical protein n=1 Tax=Salmonella ...  81.3    2e-16
+  UniRef90_A0A3E0DIZ5 Subunit length determinant protein n=1 Tax=...  55.9    4e-06
+  UniRef90_G5LBL5 Putative inner membrane protein n=2 Tax=Salmone...  45.1    0.001
+  UniRef90_A0A0M0HPQ6 Uncharacterized protein n=1 Tax=Vibrio nere...  45.9    0.010
+  UniRef90_A0A0D8CH63 Uncharacterized protein n=1 Tax=Thalassospi...  45.5    0.014
+  UniRef90_A0A1S8PAU8 Transport permease protein n=1 Tax=Clostrid...  44.0    0.084
+  UniRef90_UPI0004E1E80C LPS O-antigen chain length determinant p...  41.3    0.54 
+  UniRef90_UPI000E09A47D hypothetical protein n=1 Tax=Polynucleob...  40.1    1.1  
+  UniRef90_UPI000BA32D12 O-antigen chain length regulator n=1 Tax...  40.1    1.4  
+  UniRef90_UPI000E6712F9 polysaccharide biosynthesis tyrosine aut...  39.7    2.3  
+  UniRef90_UPI000EB34059 hypothetical protein n=1 Tax=Hydrogenivi...  38.2    4.3  
+  UniRef90_UPI0009D767AC polysaccharide biosynthesis tyrosine aut...  38.6    5.2  
+  UniRef90_UPI000E669606 hypothetical protein n=1 Tax=Oceanospiri...  38.2    5.2  
+  UniRef90_A0A3M2F3E2 Polysaccharide biosynthesis tyrosine autoki...  38.2    6.3  
+  UniRef90_UPI00083E897A putative immunoglobulin-blocking virulen...  38.2    7.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.127    0.310    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0388    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1314849586127
+Results from round 3
+
+
+Query= NP_414844.1
+
+Length=222
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P77180 Uncharacterized protein YkgH n=712 Tax=root Tax...  270     3e-89
+  UniRef90_A0A2X5FGD3 Inner membrane protein n=5 Tax=Escherichia ...  229     1e-73
+  UniRef90_A0A377LJG9 Inner membrane protein n=9 Tax=Escherichia ...  225     7e-72
+  UniRef90_A0A0J2F402 Inner membrane protein n=12 Tax=Enterobacte...  223     3e-71
+  UniRef90_UPI000BB8575B hypothetical protein n=1 Tax=Escherichia...  221     2e-70
+  UniRef90_A0A2H9A4R0 Inner membrane protein n=12 Tax=Enterobacte...  209     2e-65
+  UniRef90_UPI00092D8CC5 hypothetical protein n=1 Tax=Escherichia...  198     6e-61
+  UniRef90_UPI000926D6E6 hypothetical protein n=7 Tax=Enterobacte...  196     6e-60
+  UniRef90_UPI000BE38841 hypothetical protein n=4 Tax=Enterobacte...  196     7e-60
+  UniRef90_G5NFA1 Putative inner membrane protein n=314 Tax=Gamma...  196     8e-60
+  UniRef90_A0A376YFK1 Inner membrane protein n=1 Tax=Escherichia ...  193     9e-60
+  UniRef90_B1LS00 Uncharacterized protein n=34 Tax=Enterobacteral...  193     5e-59
+  UniRef90_UPI0008B79EAD hypothetical protein n=1 Tax=Kosakonia s...  192     2e-58
+  UniRef90_A0A379Q6Y8 Membrane protein n=4 Tax=Salmonella enteric...  190     1e-57
+  UniRef90_A0A2I5HEM0 Uncharacterized protein n=12 Tax=Salmonella...  190     2e-57
+  UniRef90_A0A0T7NYX1 Uncharacterized protein n=8 Tax=Enterobacte...  187     2e-56
+  UniRef90_A0A1K1ZXE6 Uncharacterized protein n=5 Tax=Enterobacte...  186     5e-56
+  UniRef90_V1HNB5 Uncharacterized protein n=7 Tax=Enterobacteriac...  185     8e-56
+  UniRef90_A9MK41 Uncharacterized protein n=15 Tax=Salmonella ent...  185     1e-55
+  UniRef90_R9VNA4 Uncharacterized protein n=1 Tax=Enterobacter sp...  183     8e-55
+  UniRef90_A0A3J7CII9 Uncharacterized protein n=8 Tax=Escherichia...  172     2e-51
+  UniRef90_A0A2H9EHX6 Uncharacterized protein n=12 Tax=Escherichi...  160     5e-47
+  UniRef90_A0A3E0DIZ5 Subunit length determinant protein n=1 Tax=...  160     8e-46
+  UniRef90_A0A0D7LLS6 Uncharacterized protein n=7 Tax=Citrobacter...  159     3e-45
+  UniRef90_UPI0009AC02F9 hypothetical protein n=2 Tax=Salmonella ...  156     4e-45
+  UniRef90_UPI000DD4BE12 hypothetical protein n=1 Tax=Escherichia...  152     5e-44
+  UniRef90_UPI000B9525AA hypothetical protein n=1 Tax=Shigella so...  153     7e-44
+  UniRef90_A0A0A1A0E1 Membrane protein n=23 Tax=Enterobacteriacea...  152     1e-43
+  UniRef90_A0A2Z3X1N8 Uncharacterized protein n=1 Tax=Citrobacter...  154     2e-43
+  UniRef90_UPI0009899409 hypothetical protein n=1 Tax=Escherichia...  150     5e-43
+  UniRef90_UPI0002A697CC hypothetical protein n=16 Tax=Salmonella...  148     1e-41
+  UniRef90_UPI000DEC8D4C hypothetical protein n=2 Tax=Salmonella ...  141     7e-39
+  UniRef90_A0A2K0Q857 Uncharacterized protein n=3 Tax=Enterobacte...  134     1e-36
+  UniRef90_UPI000DBE748D hypothetical protein n=1 Tax=Salmonella ...  134     2e-36
+  UniRef90_UPI00092B0359 hypothetical protein n=1 Tax=Escherichia...  131     2e-35
+  UniRef90_A0A2H9EHM3 Tyrosine kinase n=5 Tax=Escherichia coli Ta...  122     7e-33
+  UniRef90_A0A0K3ZW63 Inner membrane protein n=10 Tax=Enterobacte...  122     9e-33
+  UniRef90_UPI000D155A11 hypothetical protein n=3 Tax=Escherichia...  122     2e-32
+  UniRef90_D8EFU9 Uncharacterized protein n=1 Tax=Escherichia col...  121     1e-31
+  UniRef90_UPI000774FEFC hypothetical protein n=2 Tax=Escherichia...  117     4e-30
+  UniRef90_W1EZ17 Uncharacterized protein n=1 Tax=Escherichia col...  115     8e-30
+  UniRef90_A0A377KB65 Inner membrane protein n=2 Tax=Escherichia ...  114     1e-29
+  UniRef90_UPI000BA18370 hypothetical protein n=1 Tax=Escherichia...  113     8e-29
+  UniRef90_A0A0T9XPU7 Inner membrane protein n=2 Tax=Salmonella e...  112     2e-28
+  UniRef90_H4KCJ0 Uncharacterized protein n=2 Tax=Escherichia col...  112     5e-28
+  UniRef90_UPI0009AC99E7 hypothetical protein n=1 Tax=Salmonella ...  111     1e-27
+  UniRef90_A0A379TWF5 Membrane protein n=1 Tax=Salmonella diarizo...  104     2e-25
+  UniRef90_UPI000E20BB45 hypothetical protein n=1 Tax=Escherichia...  102     5e-25
+  UniRef90_UPI0009AE82F1 hypothetical protein n=1 Tax=Salmonella ...  102     1e-24
+  UniRef90_A0A2I5SK42 Putative inner membrane protein n=1 Tax=Esc...  98.3    6e-23
+  UniRef90_W1EXC3 Uncharacterized protein n=1 Tax=Escherichia col...  93.3    2e-21
+  UniRef90_F4VA76 Uncharacterized protein n=2 Tax=Escherichia col...  83.3    9e-18
+  UniRef90_UPI000926EF67 hypothetical protein n=1 Tax=Escherichia...  82.5    4e-17
+  UniRef90_W1XPW9 Uncharacterized protein (Fragment) n=1 Tax=huma...  80.6    9e-17
+  UniRef90_I2WT71 Uncharacterized protein n=7 Tax=Bacteria TaxID=...  77.1    2e-15
+  UniRef90_UPI000DDC0F6F tyrosine kinase n=1 Tax=Escherichia coli...  74.4    2e-14
+  UniRef90_UPI000DA48CEA hypothetical protein n=1 Tax=Escherichia...  64.0    2e-10
+  UniRef90_UPI0009420C6B tyrosine kinase n=1 Tax=Escherichia coli...  62.5    5e-10
+  UniRef90_A0A0J2F6K7 Uncharacterized protein n=1 Tax=Escherichia...  61.3    1e-09
+  UniRef90_UPI000991661B hypothetical protein n=1 Tax=Escherichia...  56.3    1e-07
+  UniRef90_UPI000991878F tyrosine kinase n=1 Tax=Escherichia coli...  55.2    3e-07
+  UniRef90_A0A376YCQ0 Inner membrane protein n=2 Tax=root TaxID=1...  53.3    1e-06
+  UniRef90_V2RY83 Uncharacterized protein n=1 Tax=Escherichia col...  51.3    5e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A199Y6V4 Uncharacterized protein n=1 Tax=Thalassospi...  74.8    7e-13
+  UniRef90_A0A0M0HPQ6 Uncharacterized protein n=1 Tax=Vibrio nere...  74.4    9e-13
+  UniRef90_A0A0D8CH63 Uncharacterized protein n=1 Tax=Thalassospi...  69.0    6e-11
+  UniRef90_G5LBL5 Putative inner membrane protein n=2 Tax=Salmone...  57.1    5e-08
+  UniRef90_A0A2E2KLA4 Uncharacterized protein n=1 Tax=Oceanospiri...  57.5    1e-06
+  UniRef90_UPI0004E1E80C LPS O-antigen chain length determinant p...  51.3    2e-04
+  UniRef90_UPI000EB34059 hypothetical protein n=1 Tax=Hydrogenivi...  48.2    0.002
+  UniRef90_A0A3D2FC93 Uncharacterized protein n=1 Tax=Sulfitobact...  47.1    0.005
+  UniRef90_F9RDQ6 Lipopolysaccharide biosynthesis protein n=1 Tax...  46.7    0.006
+  UniRef90_A0A2P8VJU6 LPS O-antigen chain length determinant prot...  47.1    0.006
+  UniRef90_A0A177E9I6 Uncharacterized protein n=1 Tax=Thermodesul...  45.2    0.016
+  UniRef90_A0A136HDY9 Uncharacterized protein n=1 Tax=Colwellia s...  45.2    0.018
+  UniRef90_UPI00069E74CB LPS O-antigen chain length determinant p...  45.2    0.020
+  UniRef90_K2AQW6 Uncharacterized protein n=1 Tax=uncultured bact...  44.8    0.022
+  UniRef90_A0A0R2A9Y5 Chain length regulator n=5 Tax=Lactobacillu...  45.2    0.023
+  UniRef90_UPI0006B48F42 hypothetical protein n=1 Tax=Desulfatita...  44.8    0.038
+  UniRef90_A0A1H3CR91 Chain length determinant protein n=1 Tax=Ai...  44.4    0.042
+  UniRef90_UPI000E77D193 hypothetical protein n=1 Tax=Alteromonad...  44.0    0.047
+  UniRef90_UPI000E669606 hypothetical protein n=1 Tax=Oceanospiri...  44.4    0.049
+  UniRef90_A0A0J8GVU1 Lipopolysaccharide biosynthesis protein n=1...  44.4    0.050
+  UniRef90_UPI000BA32D12 O-antigen chain length regulator n=1 Tax...  44.4    0.055
+  UniRef90_A0A085GFL5 O-antigen lipopolysaccharide chain length r...  43.6    0.058
+  UniRef90_A0A1S8PAU8 Transport permease protein n=1 Tax=Clostrid...  44.0    0.072
+  UniRef90_UPI000E6712F9 polysaccharide biosynthesis tyrosine aut...  43.6    0.11 
+  UniRef90_UPI0009D767AC polysaccharide biosynthesis tyrosine aut...  43.6    0.11 
+  UniRef90_A0A178GD98 Tyrosine protein kinase n=2 Tax=Acinetobact...  43.6    0.11 
+  UniRef90_A0A0A8J602 O-antigen chain length determinant protein ...  43.2    0.12 
+  UniRef90_UPI0004A78364 hypothetical protein n=1 Tax=Thiomicrosp...  42.5    0.13 
+  UniRef90_A0A0J1PM24 Chain length determinant protein n=1 Tax=Ci...  43.2    0.13 
+  UniRef90_A0A1A7PDY3 Wzz n=3 Tax=Gallibacterium TaxID=155493 Rep...  43.2    0.13 
+  UniRef90_A0A328RFL3 Uncharacterized protein n=1 Tax=Candidatus ...  42.5    0.15 
+  UniRef90_D2Q677 Chain length regulator (Capsular polysaccharide...  43.2    0.15 
+  UniRef90_UPI000D3C50B2 LPS O-antigen chain length determinant p...  42.9    0.15 
+  UniRef90_A0A3E2KNS1 LPS O-antigen chain length determinant prot...  42.9    0.16 
+  UniRef90_A0A2N7UPY6 Lipopolysaccharide biosynthesis protein n=1...  42.5    0.18 
+  UniRef90_A0A328RIT5 Uncharacterized protein n=1 Tax=Candidatus ...  42.1    0.21 
+  UniRef90_A0A3N0CUT9 Polysaccharide biosynthesis tyrosine autoki...  42.9    0.21 
+  UniRef90_UPI000554C9F5 LPS biosynthesis protein n=1 Tax=Chromoh...  42.5    0.21 
+  UniRef90_A0A369ZI14 Chain-length determining protein n=3 Tax=Pa...  42.5    0.21 
+  UniRef90_A0A2S4X0M6 LPS O-antigen chain length determinant prot...  42.5    0.22 
+  UniRef90_A0A2S4S2T5 LPS O-antigen chain length determinant prot...  42.5    0.22 
+  UniRef90_A0A0S3TRE6 WD-40 repeat-containing protein n=13 Tax=Fi...  42.9    0.27 
+  UniRef90_UPI000E0B9DB3 hypothetical protein n=1 Tax=Fischerella...  42.5    0.28 
+  UniRef90_B7LUF8 Chain length determinant protein (Polysaccharid...  42.1    0.29 
+  UniRef90_A0A369WSV3 Uncharacterized protein n=1 Tax=Motiliprote...  42.1    0.29 
+  UniRef90_A0A2C9WR04 Tyrosine protein kinase n=4 Tax=Acinetobact...  42.5    0.30 
+  UniRef90_A0A3G9BPU9 LPS O-antigen chain length determinant prot...  42.1    0.32 
+  UniRef90_A0A2N6M398 Uncharacterized protein (Fragment) n=5 Tax=...  42.1    0.35 
+  UniRef90_A8UTW4 Uncharacterized protein n=1 Tax=Hydrogenivirga ...  41.7    0.35 
+  UniRef90_A0A1B7KCD4 O-antigen lipopolysaccharide chain length r...  41.7    0.40 
+  UniRef90_A0A2V3Q8T7 Chain length determinant protein (Polysacch...  41.7    0.44 
+  UniRef90_A0A379B2M2 Lipopolysaccharide biosynthesis protein wzz...  41.7    0.45 
+  UniRef90_B3H297 Wzz-like protein n=11 Tax=Actinobacillus TaxID=...  41.7    0.46 
+  UniRef90_C9XVU9 Chain length determinant protein n=13 Tax=Crono...  41.3    0.49 
+  UniRef90_A0A1I6D7K8 Chain length determinant protein (Polysacch...  41.3    0.51 
+  UniRef90_A0A1V0LLP1 LPS O-antigen chain length determinant prot...  41.3    0.53 
+  UniRef90_A0A2S5KFK3 LPS O-antigen chain length determinant prot...  41.3    0.55 
+  UniRef90_A0A377H666 Lipopolysaccharide biosynthesis protein wzz...  41.3    0.58 
+  UniRef90_A0A1C4G368 Chain length determinant protein (Polysacch...  40.9    0.63 
+  UniRef90_A0A0F3ZRL6 Chain length determinant protein WzzB n=14 ...  40.9    0.64 
+  UniRef90_UPI0005B22D41 hypothetical protein n=1 Tax=Aeromonas e...  40.9    0.64 
+  UniRef90_A0A144MCC2 Chain length determinant protein n=11 Tax=E...  40.9    0.67 
+  UniRef90_UPI000E09A47D hypothetical protein n=1 Tax=Polynucleob...  40.9    0.68 
+  UniRef90_A0A0J1NE11 Chain length determinant protein n=1 Tax=Ci...  40.9    0.68 
+  UniRef90_A0A1D2QP87 Uncharacterized protein n=1 Tax=Candidatus ...  40.9    0.69 
+  UniRef90_A0A351CYC0 LPS O-antigen length regulator (Fragment) n...  39.0    0.73 
+  UniRef90_A3Y9Z8 Chain length regulator (Capsular polysaccharide...  41.3    0.76 
+  UniRef90_I3DHW5 Chain length determinant protein n=1 Tax=Haemop...  40.9    0.81 
+  UniRef90_UPI0007A3AC1F hypothetical protein n=1 Tax=Enterobacte...  38.2    0.82 
+  UniRef90_A0A090RAA4 Lipopolysaccharide biosynthesis n=1 Tax=Vib...  40.5    0.83 
+  UniRef90_UPI000D182E7B LPS O-antigen length regulator n=1 Tax=V...  40.5    0.84 
+  UniRef90_F9S4P8 Uncharacterized protein n=1 Tax=Vibrio ichthyoe...  40.5    0.87 
+  UniRef90_I4ZQ69 Tyrosine-protein kinase ptk n=6 Tax=Acinetobact...  40.9    0.93 
+  UniRef90_UPI000DAE8152 chain-length determining protein n=1 Tax...  40.5    0.95 
+  UniRef90_Q6FFV8 Tyrosine-protein kinase, autophosphorylates n=3...  40.9    0.96 
+  UniRef90_UPI0003B5F0F7 hypothetical protein n=1 Tax=Thermodesul...  40.5    0.96 
+  UniRef90_A0A1X3KLK3 Chain length determinant protein (Polysacch...  40.5    1.1  
+  UniRef90_K0GEV9 Wzz-like protein n=1 Tax=Actinobacillus suis H9...  40.5    1.1  
+  UniRef90_A0A369Y1H2 Chain-length determining protein n=3 Tax=Ha...  40.5    1.1  
+  UniRef90_UPI0006E3219F polysaccharide biosynthesis tyrosine aut...  40.5    1.1  
+  UniRef90_A0A329HM62 LPS O-antigen chain length determinant prot...  40.2    1.1  
+  UniRef90_A0A369YYB4 Chain-length determining protein n=3 Tax=Ha...  40.2    1.2  
+  UniRef90_N9C8L8 Tyrosine-protein kinase ptk n=3 Tax=Acinetobact...  40.5    1.2  
+  UniRef90_A0A0W0SD25 Chain length determinant protein n=1 Tax=Le...  40.2    1.2  
+  UniRef90_UPI00063C87C1 LPS O-antigen chain length determinant p...  40.2    1.3  
+  UniRef90_A0A2T4W4F3 Uncharacterized protein n=2 Tax=Halomonas T...  40.2    1.3  
+  UniRef90_A0A1P8EL71 Tyrosine protein kinase n=1 Tax=Acinetobact...  40.5    1.3  
+  UniRef90_Q65UU8 Uncharacterized protein n=2 Tax=Basfia TaxID=69...  40.2    1.3  
+  UniRef90_F4HEY6 Ferric enterobactin transport protein FepE n=3 ...  40.2    1.3  
+  UniRef90_A0A2C6DMY4 Chain-length determining protein n=3 Tax=Bu...  40.2    1.4  
+  UniRef90_A0A1I4TX06 Chain length determinant protein n=1 Tax=Th...  40.2    1.4  
+  UniRef90_A0A369ZNL5 Chain-length determining protein n=3 Tax=Ha...  40.2    1.5  
+  UniRef90_A0A376I0V8 Regulator of length of O-antigen component ...  39.8    1.5  
+  UniRef90_A0A2D8R912 LPS O-antigen length regulator n=1 Tax=Hahe...  39.8    1.5  
+  UniRef90_A0A0N9WBG0 Tyrosine protein kinase n=1 Tax=Acinetobact...  40.2    1.5  
+  UniRef90_A0A085GBJ9 O-antigen lipopolysaccharide chain length r...  39.8    1.6  
+  UniRef90_A0A318V7C4 Putative tyrosine kinase-like protein n=1 T...  39.8    1.6  
+  UniRef90_UPI000F6C4E85 LPS O-antigen chain length determinant p...  39.8    1.6  
+  UniRef90_A0A2K7ZIN7 Chain-length determining protein n=1 Tax=Ye...  39.8    1.6  
+  UniRef90_A0A3A8EZP3 Polysaccharide biosynthesis tyrosine autoki...  40.2    1.7  
+  UniRef90_UPI0009B70637 hypothetical protein n=1 Tax=Aeromonas h...  39.8    1.7  
+  UniRef90_W1RRR2 Lipopolysaccharide biosynthesis protein n=1 Tax...  39.8    1.8  
+  UniRef90_A0A1N6XHV5 Chain length determinant protein (Polysacch...  39.8    1.8  
+  UniRef90_A0A380TRQ8 Wzz-like protein n=1 Tax=[Actinobacillus] r...  39.8    1.8  
+  UniRef90_UPI0009BB7EED polysaccharide biosynthesis tyrosine aut...  39.8    1.9  
+  UniRef90_UPI000E092167 hypothetical protein n=1 Tax=Polynucleob...  39.4    1.9  
+  UniRef90_A0A3D0L2Z9 Uncharacterized protein n=1 Tax=Alcaligenes...  39.8    2.0  
+  UniRef90_A0A1Q6DH68 Uncharacterized protein n=1 Tax=Desulfobulb...  39.8    2.0  
+  UniRef90_E6PN29 Uncharacterized protein n=1 Tax=mine drainage m...  39.8    2.0  
+  UniRef90_A0A0A2YGY2 Wzz n=3 Tax=Gallibacterium anatis TaxID=750...  39.4    2.1  
+  UniRef90_A0A3B7QF86 Polysaccharide biosynthesis tyrosine autoki...  39.8    2.1  
+  UniRef90_A0A2E7FV18 LPS O-antigen length regulator n=2 Tax=Prot...  39.4    2.3  
+  UniRef90_C3K6I8 Conserved hypothetical chain length determinant...  39.0    2.4  
+  UniRef90_A7MHD9 Uncharacterized protein n=28 Tax=Cronobacter Ta...  39.4    2.4  
+  UniRef90_A0A1R4HC49 Putative tyrosine-protein kinase EpsB n=1 T...  39.8    2.4  
+  UniRef90_UPI000E740D12 LPS O-antigen chain length determinant p...  39.4    2.5  
+  UniRef90_UPI000C70E8BD hypothetical protein n=1 Tax=Fusobacteri...  39.0    2.5  
+  UniRef90_A0A2U2C2H2 Uncharacterized protein n=1 Tax=Arcobacter ...  38.6    2.6  
+  UniRef90_UPI000646CF0F LPS O-antigen chain length determinant p...  39.4    2.6  
+  UniRef90_A0A0V9JQM6 Chain length determination protein n=1 Tax=...  39.4    2.6  
+  UniRef90_A0A1B7ICW1 O-antigen lipopolysaccharide chain length r...  39.0    2.6  
+  UniRef90_A0A1E3CAS2 Lipopolysaccharide biosynthesis protein n=1...  39.0    2.7  
+  UniRef90_A0A1V3L956 Chain-length determining protein n=1 Tax=Ro...  39.4    2.7  
+  UniRef90_A0A3A5JYD2 LPS O-antigen chain length determinant prot...  39.0    2.7  
+  UniRef90_A0A0F6TVF0 Chain length determinant protein WzzB n=1 T...  39.0    2.8  
+  UniRef90_UPI000595CE6D chain length determination protein n=1 T...  39.0    2.8  
+  UniRef90_A0A353RKH5 Lipopolysaccharide biosynthesis protein (Fr...  38.6    2.8  
+  UniRef90_UPI000192C012 chain length determination protein n=1 T...  39.0    2.9  
+  UniRef90_A0A1V3L418 Chain length determination protein n=3 Tax=...  39.0    2.9  
+  UniRef90_UPI0002E496D4 polysaccharide biosynthesis tyrosine aut...  39.4    2.9  
+  UniRef90_A0A1J5LCC1 Uncharacterized protein n=1 Tax=Vibrio sp. ...  39.0    2.9  
+  UniRef90_A0A2G6ETF6 Uncharacterized protein n=1 Tax=Gammaproteo...  39.0    3.0  
+  UniRef90_N9MC29 Tyrosine-protein kinase ptk n=23 Tax=Acinetobac...  39.4    3.0  
+  UniRef90_O52788 Tyrosine-protein kinase ptk n=12 Tax=Pseudomona...  39.4    3.1  
+  UniRef90_R5QKA2 Chain length determinant protein n=3 Tax=Firmic...  39.0    3.1  
+  UniRef90_A0A1C7PSI9 Uncharacterized protein n=2 Tax=Aeromonas p...  39.0    3.2  
+  UniRef90_A0A3D3CEE0 Uncharacterized protein (Fragment) n=1 Tax=...  39.0    3.2  
+  UniRef90_A0A2A9FL81 LPS O-antigen subunit length determinant pr...  39.0    3.3  
+  UniRef90_UPI000F6EA635 chain length determination protein n=1 T...  39.0    3.3  
+  UniRef90_A0A1V3KJ55 Chain-length determining protein n=1 Tax=Ro...  39.0    3.3  
+  UniRef90_S6ATQ8 Uncharacterized protein n=1 Tax=Pseudomonas res...  39.0    3.4  
+  UniRef90_A0A1W6B7U6 LPS O-antigen chain length determinant prot...  39.0    3.4  
+  UniRef90_UPI00029A866F chain length determinant protein n=1 Tax...  39.0    3.5  
+  UniRef90_A0A366WGB6 LPS O-antigen length regulator n=1 Tax=Mari...  38.6    3.5  
+  UniRef90_A0A1B7HQM1 O-antigen lipopolysaccharide chain length r...  38.6    3.5  
+  UniRef90_D0S7H6 Tyrosine-protein kinase Ptk n=441 Tax=Moraxella...  39.0    3.5  
+  UniRef90_A0A3A8F8T4 Polysaccharide biosynthesis tyrosine autoki...  39.0    3.6  
+  UniRef90_UPI000558169B hypothetical protein n=1 Tax=Halomonas s...  38.6    3.6  
+  UniRef90_A0A3N1RD41 LPS O-antigen subunit length determinant pr...  38.6    3.6  
+  UniRef90_A0A090V0C1 Lipopolysaccharide chain length determinant...  38.6    3.7  
+  UniRef90_U7HNP4 Lipopolysaccharide biosynthesis protein n=1 Tax...  38.6    3.7  
+  UniRef90_A0A0L7T1B7 Chain length-determining protein n=2 Tax=Er...  38.6    3.7  
+  UniRef90_V2TL85 Tyrosine-protein kinase ptk n=3 Tax=Acinetobact...  39.0    3.8  
+  UniRef90_A0A084TF43 Lipopolysaccharide biosynthesis protein n=3...  38.6    3.9  
+  UniRef90_N9K4G6 Tyrosine-protein kinase ptk n=2 Tax=Acinetobact...  39.0    4.0  
+  UniRef90_A0A1A7R7Q3 Tyrosine protein kinase n=3 Tax=Acinetobact...  39.0    4.1  
+  UniRef90_A0A1V3JWH2 Chain-length determining protein n=1 Tax=Ro...  38.6    4.2  
+  UniRef90_UPI000987999D hypothetical protein n=1 Tax=Pasteurella...  38.6    4.2  
+  UniRef90_UPI00079CBF76 LPS O-antigen chain length determinant p...  38.6    4.2  
+  UniRef90_A0A2T9UTR2 LPS O-antigen chain length determinant prot...  38.6    4.2  
+  UniRef90_V5CVG0 Chain length determinant family protein n=1 Tax...  38.6    4.2  
+  UniRef90_A0A1E7RCL7 Tyrosine protein kinase n=1 Tax=Acinetobact...  39.0    4.3  
+  UniRef90_A0A1V3KVZ4 Chain length determination protein n=2 Tax=...  38.6    4.4  
+  UniRef90_A0A1V3JQ47 Chain length determination protein n=1 Tax=...  38.6    4.4  
+  UniRef90_UPI00054DEE28 LPS O-antigen chain length determinant p...  38.2    4.6  
+  UniRef90_A0A3P4PD17 Tyrosine-protein kinase ptk n=1 Tax=Acineto...  37.5    4.7  
+  UniRef90_A0A3B7LTR5 Polysaccharide biosynthesis tyrosine autoki...  38.6    4.7  
+  UniRef90_U7D8R0 Uncharacterized protein n=1 Tax=Chitinivibrio a...  37.5    4.7  
+  UniRef90_A0A250G1Q9 Capsule biosynthesis protein n=1 Tax=Capnoc...  38.6    4.7  
+  UniRef90_A0A1V3JB01 Chain length determination protein n=1 Tax=...  38.6    4.7  
+  UniRef90_A0A2T7UQK4 Acetyltransferase n=1 Tax=Pararhodobacter a...  38.6    4.8  
+  UniRef90_A0A1I2X4M4 Chain length determinant protein n=1 Tax=Al...  38.2    4.9  
+  UniRef90_A0A3N4VIR3 Chain length determinant protein (Polysacch...  38.2    5.1  
+  UniRef90_A0A2T3CGS7 LPS O-antigen chain length determinant prot...  38.2    5.1  
+  UniRef90_A0A172YSV5 Tyrosine protein kinase n=1 Tax=Acinetobact...  38.6    5.2  
+  UniRef90_A0A031LPJ2 Tyrosine protein kinase n=2 Tax=Acinetobact...  38.6    5.2  
+  UniRef90_A0A2J6RUD0 HET-domain-containing protein n=1 Tax=Hyalo...  38.2    5.3  
+  UniRef90_A0A1V3I6G6 Uncharacterized protein n=2 Tax=Rodentibact...  38.2    5.4  
+  UniRef90_A0A1K2A2S1 Chain length determinant protein (Polysacch...  38.2    5.4  
+  UniRef90_R5IC73 Lipopolysaccharide biosynthesis protein n=1 Tax...  38.2    5.5  
+  UniRef90_UPI0006CC88B7 lipopolysaccharide biosynthesis protein ...  38.2    5.6  
+  UniRef90_A0A239AB34 Uncharacterized protein involved in exopoly...  38.2    5.7  
+  UniRef90_A0A0M7DFM6 Chain length determinant protein n=101 Tax=...  38.2    5.7  
+  UniRef90_A0A170NNR8 Capsular polysaccharide type 8 biosynthesis...  37.8    5.7  
+  UniRef90_A0A2E2WIZ0 Uncharacterized protein n=1 Tax=Micavibrio ...  38.2    5.9  
+  UniRef90_N8NVW4 Tyrosine-protein kinase ptk n=5 Tax=Acinetobact...  38.2    6.0  
+  UniRef90_UPI000C07C397 lipopolysaccharide biosynthesis protein ...  38.2    6.0  
+  UniRef90_B6EPI3 O-antigen length determinant protein n=1 Tax=Al...  38.2    6.0  
+  UniRef90_R9ATR5 Uncharacterized protein n=1 Tax=Acinetobacter s...  38.2    6.1  
+  UniRef90_UPI000907E2A2 LPS O-antigen chain length determinant p...  38.2    6.1  
+  UniRef90_A0A117KXX2 Lipopolysaccharide biosynthesis protein n=2...  37.8    6.3  
+  UniRef90_A0A3N5DHK9 LPS O-antigen chain length determinant prot...  37.8    6.5  
+  UniRef90_A0A2E2BN17 Lipopolysaccharide biosynthesis protein n=1...  37.8    6.5  
+  UniRef90_A0A3D1L077 Capsule biosynthesis protein (Fragment) n=1...  37.8    6.6  
+  UniRef90_A0A1V3K6W6 Chain length determination protein n=3 Tax=...  37.8    6.6  
+  UniRef90_UPI0004037D42 hypothetical protein n=1 Tax=Thiomicrorh...  37.5    6.7  
+  UniRef90_A0A3D3G0T8 Tyrosine protein kinase (Fragment) n=1 Tax=...  38.2    6.7  
+  UniRef90_C5S1B1 Wzz-like protein n=1 Tax=Actinobacillus minor N...  37.8    6.9  
+  UniRef90_UPI00065088CA chain-length determining protein n=1 Tax...  37.8    7.0  
+  UniRef90_A0A377I033 Lipopolysaccharide biosynthesis protein wzz...  36.3    7.0  
+  UniRef90_A0A2S9ZNK1 LPS O-antigen length regulator n=2 Tax=Vibr...  37.8    7.1  
+  UniRef90_UPI000B3D139D polysaccharide biosynthesis tyrosine aut...  38.2    7.1  
+  UniRef90_A0A0W0WCT3 Chain length determinant protein n=2 Tax=Le...  37.8    7.2  
+  UniRef90_UPI0004A6AF81 hypothetical protein n=1 Tax=Polycyclovo...  37.8    7.2  
+  UniRef90_UPI000D3C7282 lipopolysaccharide biosynthesis protein ...  37.8    7.3  
+  UniRef90_A0A2E5TPP6 Uncharacterized protein n=3 Tax=Bacteria Ta...  37.5    7.4  
+  UniRef90_A0A2S5ZFL9 LPS O-antigen length regulator n=1 Tax=Mari...  37.8    7.6  
+  UniRef90_UPI000E7246BC exopolysaccharide biosynthesis protein n...  37.8    7.6  
+  UniRef90_A0A2C6CQ72 Chain-length determining protein n=1 Tax=Bu...  37.8    7.7  
+  UniRef90_A0A354RB88 Uncharacterized protein n=1 Tax=Opitutae ba...  37.8    7.8  
+  UniRef90_I9KUU7 Capsular polysaccharide biosynthesis protein n=...  37.5    7.8  
+  UniRef90_A0A2T1KCB3 LPS O-antigen length regulator n=1 Tax=Mari...  37.8    7.9  
+  UniRef90_UPI000DD2C9E4 LPS O-antigen chain length determinant p...  37.8    7.9  
+  UniRef90_A0A155HE89 Chain length determinant protein n=7 Tax=En...  37.8    7.9  
+  UniRef90_R9WN05 Wzz n=2 Tax=Haemophilus parainfluenzae TaxID=72...  37.8    8.0  
+  UniRef90_G2MWC1 Lipopolysaccharide biosynthesis protein n=10 Ta...  37.5    8.0  
+  UniRef90_A0A0L0H0S4 Chain length determinant protein WzzB n=2 T...  37.8    8.1  
+  UniRef90_A0A0P7YHL5 Chain length determinant protein n=1 Tax=Ma...  37.8    8.2  
+  UniRef90_A0A0M3AJ85 Tyrosine protein kinase n=5 Tax=Acinetobact...  37.8    8.3  
+  UniRef90_UPI000E568DCD chain-length determining protein n=3 Tax...  37.8    8.4  
+  UniRef90_UPI00077B84D6 polysaccharide biosynthesis tyrosine aut...  37.8    8.5  
+  UniRef90_C2MBF7 Chain length determinant protein n=1 Tax=Porphy...  37.8    8.5  
+  UniRef90_UPI0004982997 hypothetical protein n=1 Tax=Serpentinom...  37.5    8.5  
+  UniRef90_A0A222GD90 LPS O-antigen length regulator n=1 Tax=Colw...  37.5    8.6  
+  UniRef90_A0A354ADV0 LPS O-antigen chain length determinant prot...  37.5    8.7  
+  UniRef90_UPI0009E4F9E5 kelch-like protein 12 n=1 Tax=Orbicella ...  37.8    8.7  
+  UniRef90_A0A223I1K3 Capsular biosynthesis protein n=4 Tax=Therm...  37.5    8.7  
+  UniRef90_UPI00046FF3C2 hypothetical protein n=1 Tax=Pseudomonas...  37.1    8.8  
+  UniRef90_A0A2X3IEI8 Polysaccharide antigen chain regulator n=2 ...  37.5    8.8  
+  UniRef90_A0A3D5ME35 LPS O-antigen chain length determinant prot...  35.5    8.9  
+  UniRef90_K7A0K9 Lipopolysaccharide biosynthesis protein n=1 Tax...  37.5    8.9  
+  UniRef90_A0A2N6K6D1 Uncharacterized protein n=3 Tax=Fischerella...  37.8    9.0  
+  UniRef90_UPI000986B7B1 LPS O-antigen length regulator n=1 Tax=C...  37.5    9.0  
+  UniRef90_UPI00047DDC58 polysaccharide biosynthesis tyrosine aut...  37.8    9.1  
+  UniRef90_A0A3A8FRT5 Polysaccharide biosynthesis tyrosine autoki...  37.8    9.2  
+  UniRef90_F9H1R3 Chain length determining protein n=1 Tax=Haemop...  37.5    9.2  
+  UniRef90_UPI000E4CC654 hypothetical protein n=1 Tax=Clostridiac...  37.8    9.3  
+  UniRef90_A0A2C6BY50 Uncharacterized protein n=1 Tax=Budvicia aq...  37.5    9.4  
+  UniRef90_A0A285NB45 Chain length determinant protein n=1 Tax=Pe...  37.5    9.6  
+  UniRef90_A0A285JY51 Chain length determinant protein (Polysacch...  37.5    9.6  
+  UniRef90_A0A352ISG2 LPS O-antigen length regulator (Fragment) n...  34.8    9.7  
+  UniRef90_A6VTF0 Lipopolysaccharide biosynthesis protein n=4 Tax...  37.5    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.125    0.288    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0382    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1314849586127
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

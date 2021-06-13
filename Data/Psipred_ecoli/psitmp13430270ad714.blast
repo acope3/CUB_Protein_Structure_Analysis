@@ -1,0 +1,1010 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_414576.4
+
+Length=131
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AE58 Transcriptional activatory protein CaiF n=211 T...  269     9e-92
+  UniRef90_A0A2Y4J357 DNA-binding transcriptional activator CaiF ...  266     2e-90
+  UniRef90_B7LWM5 Transcriptional activator n=11 Tax=Escherichia ...  258     2e-87
+  UniRef90_A0A0K4FMH2 Transcriptional activator n=16 Tax=Bacteria...  257     6e-87
+  UniRef90_L0M8W9 Uncharacterized protein n=3 Tax=Enterobacteriac...  219     7e-72
+  UniRef90_UPI0007A5EF49 carnitine metabolism transcriptional reg...  216     5e-71
+  UniRef90_D4BF23 Transcriptional activatory protein CaiF n=133 T...  211     1e-68
+  UniRef90_A0A0J1LLS4 Transcriptional activatory protein CaiF n=1...  209     6e-68
+  UniRef90_A0A376I7D7 Transcriptional activator n=2 Tax=Enterobac...  204     7e-66
+  UniRef90_UPI0007A04BFB carnitine metabolism transcriptional reg...  202     2e-65
+  UniRef90_A0A376VNX0 Transcriptional activator n=1 Tax=Escherich...  197     1e-63
+  UniRef90_V1H9E5 DNA-binding transcriptional activator CaiF n=24...  198     1e-63
+  UniRef90_A0A0L0GZU3 Transcriptional regulator n=1 Tax=Trabulsie...  194     5e-62
+  UniRef90_A0A381G237 Transcriptional activator n=9 Tax=Gammaprot...  193     1e-61
+  UniRef90_A0A370YUI9 Carnitine metabolism transcriptional regula...  192     4e-61
+  UniRef90_A0A381H9C6 DNA-binding transcriptional activator CaiF ...  187     2e-59
+  UniRef90_A0A0V9JB63 Transcriptional regulator n=1 Tax=Citrobact...  187     4e-59
+  UniRef90_A0A386QBJ2 Carnitine metabolism transcriptional regula...  179     2e-56
+  UniRef90_D2TGM1 Transcriptional activator n=1 Tax=Citrobacter r...  179     5e-56
+  UniRef90_S3K6Q7 Transcriptional activatory protein CaiF n=1 Tax...  179     6e-56
+  UniRef90_A0A381C7L6 DNA-binding transcriptional activator CaiF ...  172     2e-53
+  UniRef90_A0A356D9Z1 CaiF/GrlA family transcriptional regulator ...  170     1e-52
+  UniRef90_E3G9M8 DNA-binding transcriptional activator CaiF n=2 ...  169     4e-52
+  UniRef90_UPI000D56F171 carnitine metabolism transcriptional reg...  169     4e-52
+  UniRef90_A0A1B8SNJ9 CaiF/GrlA family transcriptional regulator ...  168     1e-51
+  UniRef90_W3YDM8 Transcriptional activatory protein CaiF n=1 Tax...  165     1e-50
+  UniRef90_A0A1B7JPY6 Transcriptional activator n=1 Tax=Providenc...  164     4e-50
+  UniRef90_A0A1Q5V719 CaiF/GrlA family transcriptional regulator ...  162     4e-49
+  UniRef90_G9Z705 Transcriptional activatory protein CaiF n=2 Tax...  160     2e-48
+  UniRef90_UPI00073D5793 carnitine metabolism transcriptional reg...  157     3e-47
+  UniRef90_UPI000F670F1C carnitine metabolism transcriptional reg...  155     1e-46
+  UniRef90_A0A376YF46 Transcriptional activator n=1 Tax=Escherich...  150     3e-45
+  UniRef90_I2BCX8 Transcriptional activatory protein CaiF n=1 Tax...  149     4e-44
+  UniRef90_A0A0G4Q7A4 DNA-binding transcriptional activator CaiF ...  147     2e-43
+  UniRef90_A0A379FA98 DNA-binding transcriptional activator CaiF ...  144     3e-42
+  UniRef90_A0A1Z1SR09 CaiF/GrlA family transcriptional regulator ...  142     1e-41
+  UniRef90_A0A2Y9TWB0 CaiF/GrlA family transcriptional regulator ...  140     1e-40
+  UniRef90_A0A2A2MAB3 CaiF/GrlA family transcriptional regulator ...  139     4e-40
+  UniRef90_A0A376D9P4 DNA-binding transcriptional activator CaiF ...  139     6e-40
+  UniRef90_A0A2X4XQP0 DNA-binding transcriptional activator CaiF ...  138     8e-40
+  UniRef90_A0A2J9GWB3 CaiF/GrlA family transcriptional regulator ...  135     9e-39
+  UniRef90_UPI0004687EA6 carnitine metabolism transcriptional reg...  135     1e-38
+  UniRef90_A0A076LFD7 Transcriptional activatory protein CaiF n=5...  135     2e-38
+  UniRef90_A0A370R3E7 Transcriptional activator CaiF n=1 Tax=Ente...  130     9e-37
+  UniRef90_A0A376SUV6 Transcriptional activator n=1 Tax=Escherich...  123     1e-34
+  UniRef90_A0A2C6DV90 CaiF/GrlA family transcriptional regulator ...  115     6e-31
+  UniRef90_I2WQ96 Transcriptional activatory protein CaiF n=1 Tax...  107     2e-28
+  UniRef90_UPI000CFC6356 CaiF/GrlA family transcriptional regulat...  78.2    1e-16
+  UniRef90_A0A2X2BJK0 DNA-binding transcriptional activator CaiF ...  74.7    1e-15
+  UniRef90_A0A2X2BNJ6 DNA-binding transcriptional activator CaiF ...  73.6    6e-15
+  UniRef90_G5LIN0 Transcriptional activatory protein CaiF n=1 Tax...  57.8    4e-09
+  UniRef90_UPI0009E2AA6A CaiF/GrlA family transcriptional regulat...  52.8    4e-06
+  UniRef90_A0A1S0ZIZ2 CaiF/GrlA family transcriptional regulator ...  52.4    5e-06
+  UniRef90_A0A2X1L0A0 Transcriptional activator n=1 Tax=Escherich...  48.5    1e-05
+  UniRef90_I3W313 Uncharacterized protein n=3 Tax=Salmonella TaxI...  50.4    2e-05
+  UniRef90_UPI00071ACFD2 CaiF/GrlA family transcriptional regulat...  50.4    3e-05
+  UniRef90_UPI0008FC8274 CaiF/GrlA family transcriptional regulat...  50.4    3e-05
+  UniRef90_A0A1S0Z5D0 CaiF/GrlA family transcriptional regulator ...  49.7    5e-05
+  UniRef90_UPI000F462F7C CaiF/GrlA family transcriptional regulat...  49.3    5e-05
+  UniRef90_A0A3J7U0U4 CaiF/GrlA family transcriptional regulator ...  49.7    6e-05
+  UniRef90_A0A1V8NS41 Uncharacterized protein n=1 Tax=Citrobacter...  49.3    6e-05
+  UniRef90_A0A1V8P0R2 Uncharacterized protein n=1 Tax=Citrobacter...  49.3    7e-05
+  UniRef90_UPI0009489D99 CaiF/GrlA family transcriptional regulat...  48.9    8e-05
+  UniRef90_A0A3K5RHI6 CaiF/GrlA family transcriptional regulator ...  48.5    8e-05
+  UniRef90_A0A1V8NT84 Uncharacterized protein n=1 Tax=Citrobacter...  48.9    1e-04
+  UniRef90_A0A3I4GRZ3 CaiF/GrlA family transcriptional regulator ...  48.5    1e-04
+  UniRef90_UPI0003BD7FFD CaiF/GrlA family transcriptional regulat...  48.1    2e-04
+  UniRef90_A0A3J2NJP7 CaiF/GrlA family transcriptional regulator ...  47.4    4e-04
+  UniRef90_A0A3J5X4X2 CaiF/GrlA family transcriptional regulator ...  47.4    4e-04
+  UniRef90_UPI00098AA7A0 CaiF/GrlA family transcriptional regulat...  47.0    4e-04
+  UniRef90_A0A370WEP7 CaiF/GrlA family transcriptional regulator ...  47.4    4e-04
+  UniRef90_UPI00092F0538 CaiF/GrlA family transcriptional regulat...  47.0    5e-04
+  UniRef90_V1X3K1 Uncharacterized protein n=1 Tax=Salmonella ente...  47.0    6e-04
+  UniRef90_V1XJK6 Uncharacterized protein n=3 Tax=Salmonella ente...  46.6    6e-04
+  UniRef90_UPI0009AC1CFE CaiF/GrlA family transcriptional regulat...  47.0    7e-04
+  UniRef90_A0A2S9I9Z4 Uncharacterized protein n=2 Tax=Bacteria Ta...  46.2    9e-04
+  UniRef90_A0A2I0FWA3 LEE type III secretion system transcription...  46.2    0.001
+  UniRef90_UPI000A0353F0 CaiF/GrlA family transcriptional regulat...  46.6    0.001
+  UniRef90_A0A1S0ZUG9 Positive regulator GrlA n=12 Tax=Salmonella...  45.8    0.001
+  UniRef90_UPI000A195E5A CaiF/GrlA family transcriptional regulat...  45.4    0.002
+  UniRef90_V1WYS3 Uncharacterized protein n=2 Tax=Salmonella ente...  44.7    0.003
+  UniRef90_A0A3I9RBH7 CaiF/GrlA family transcriptional regulator ...  44.7    0.004
+  UniRef90_A0A376DJL7 DNA-binding transcriptional activator CaiF ...  44.7    0.004
+  UniRef90_A0A1Z3QE56 CaiF/GrlA family transcriptional regulator ...  44.7    0.004
+  UniRef90_A0A241PXM1 Uncharacterized protein n=9 Tax=Salmonella ...  44.3    0.004
+  UniRef90_A0A344QQU7 CaiF/GrlA family transcriptional regulator ...  44.3    0.005
+  UniRef90_A0A3K5RGS3 CaiF/GrlA family transcriptional regulator ...  44.3    0.006
+  UniRef90_A0A357SMC7 CaiF/GrlA family transcriptional regulator ...  43.9    0.006
+  UniRef90_A0A2I5HKV3 CaiF/GrlA family transcriptional regulator ...  43.9    0.007
+  UniRef90_A0A0J8YBF8 Uncharacterized protein n=1 Tax=bacteria sy...  43.9    0.007
+  UniRef90_V1WGM3 Transcription regulator CaiF n=1 Tax=Salmonella...  43.9    0.007
+  UniRef90_V1H8M3 Uncharacterized protein n=5 Tax=Enterobacteriac...  43.9    0.009
+  UniRef90_A0A3I2QFT3 CaiF/GrlA family transcriptional regulator ...  43.5    0.010
+  UniRef90_UPI0009EC3C5F CaiF/GrlA family transcriptional regulat...  43.1    0.010
+  UniRef90_A0A344SUE9 CaiF/GrlA family transcriptional regulator ...  43.5    0.010
+  UniRef90_UPI0009B099E2 CaiF/GrlA family transcriptional regulat...  43.5    0.011
+  UniRef90_UPI0009AF2FF1 CaiF/GrlA family transcriptional regulat...  43.5    0.011
+  UniRef90_UPI0009AEEB08 CaiF/GrlA family transcriptional regulat...  43.1    0.013
+  UniRef90_A0A0Q4MGM1 Uncharacterized protein n=2 Tax=Erwiniaceae...  42.4    0.013
+  UniRef90_A0A379RGM1 Positive regulator GrlA n=2 Tax=Salmonella ...  43.1    0.013
+  UniRef90_UPI0009BFF03D CaiF/GrlA family transcriptional regulat...  43.1    0.013
+  UniRef90_UPI0009ACFF28 CaiF/GrlA family transcriptional regulat...  43.1    0.015
+  UniRef90_A0A1S0Z697 CaiF/GrlA family transcriptional regulator ...  43.1    0.015
+  UniRef90_UPI0009AE9C33 CaiF/GrlA family transcriptional regulat...  43.1    0.016
+  UniRef90_UPI0005CD21A3 CaiF/GrlA family transcriptional regulat...  42.7    0.017
+  UniRef90_A0A1V8NRZ0 CaiF/GrlA family transcriptional regulator ...  42.7    0.018
+  UniRef90_A0A3I4VSY4 CaiF/GrlA family transcriptional regulator ...  42.7    0.019
+  UniRef90_A0A3J4SVV0 CaiF/GrlA family transcriptional regulator ...  42.7    0.020
+  UniRef90_A0A3H7LQY2 CaiF/GrlA family transcriptional regulator ...  42.7    0.023
+  UniRef90_A0A379UUH6 Positive regulator GrlA n=1 Tax=Salmonella ...  42.4    0.025
+  UniRef90_UPI0009A95FBC CaiF/GrlA family transcriptional regulat...  41.2    0.027
+  UniRef90_V1XSW2 Uncharacterized protein (Fragment) n=24 Tax=Sal...  42.4    0.028
+  UniRef90_UPI000F7B3000 CaiF/GrlA family transcriptional regulat...  41.2    0.030
+  UniRef90_A0A0U0WKH4 DNA-binding transcriptional activator CaiF ...  42.4    0.031
+  UniRef90_A0A2S4QC98 CaiF/GrlA family transcriptional regulator ...  42.0    0.034
+  UniRef90_UPI0002BACC97 CaiF/GrlA family transcriptional regulat...  42.0    0.036
+  UniRef90_A0A344S6S2 CaiF/GrlA family transcriptional regulator ...  42.0    0.038
+  UniRef90_A0A370W6X2 CaiF/GrlA family transcriptional regulator ...  42.4    0.042
+  UniRef90_A0A1V8NS53 CaiF/GrlA family transcriptional regulator ...  42.0    0.043
+  UniRef90_A0A2I5HQ23 CaiF/GrlA family transcriptional regulator ...  42.0    0.046
+  UniRef90_UPI000779E225 CaiF/GrlA family transcriptional regulat...  41.6    0.047
+  UniRef90_UPI0009AF5FD6 CaiF/GrlA family transcriptional regulat...  41.6    0.047
+  UniRef90_A0A379SED7 Transcriptional activator CaiF n=1 Tax=Salm...  41.6    0.047
+  UniRef90_A0A1Z3Q8Q1 CaiF/GrlA family transcriptional regulator ...  41.6    0.047
+  UniRef90_UPI00046F2EA0 CaiF/GrlA family transcriptional regulat...  41.6    0.050
+  UniRef90_A0A344QL75 Uncharacterized protein n=1 Tax=Salmonella ...  41.6    0.051
+  UniRef90_A0A1V8NT90 CaiF/GrlA family transcriptional regulator ...  41.6    0.059
+  UniRef90_A0A377CX13 DNA-binding transcriptional activator CaiF ...  40.8    0.061
+  UniRef90_UPI000ABAA9C4 CaiF/GrlA family transcriptional regulat...  40.4    0.085
+  UniRef90_A0A3K9F0X0 Uncharacterized protein n=1 Tax=Salmonella ...  40.4    0.094
+  UniRef90_UPI000B507ADF CaiF/GrlA family transcriptional regulat...  40.8    0.096
+  UniRef90_UPI000E1B71C6 CaiF/GrlA family transcriptional regulat...  40.0    0.11 
+  UniRef90_UPI0009A99054 CaiF/GrlA family transcriptional regulat...  40.8    0.12 
+  UniRef90_A0A3K3VPH4 CaiF/GrlA family transcriptional regulator ...  40.4    0.14 
+  UniRef90_UPI0009BBE200 CaiF/GrlA family transcriptional regulat...  39.3    0.16 
+  UniRef90_UPI0009834816 CaiF/GrlA family transcriptional regulat...  40.4    0.16 
+  UniRef90_A0A344SG28 CaiF/GrlA family transcriptional regulator ...  40.0    0.17 
+  UniRef90_A0A379RDF6 Positive regulator GrlA n=10 Tax=Salmonella...  40.0    0.18 
+  UniRef90_A0A381GFB3 GrlA, global regulator of LEE activator n=8...  39.7    0.19 
+  UniRef90_A0A370W6K4 CaiF/GrlA family transcriptional regulator ...  40.0    0.19 
+  UniRef90_A0A1X2RHN1 Uncharacterized protein n=2 Tax=Salmonella ...  40.0    0.21 
+  UniRef90_A0A344S680 CaiF/GrlA family transcriptional regulator ...  39.7    0.25 
+  UniRef90_UPI0008A81776 CaiF/GrlA family transcriptional regulat...  39.7    0.25 
+  UniRef90_A0A3I3BBR9 CaiF/GrlA family transcriptional regulator ...  39.7    0.27 
+  UniRef90_UPI000C7DE957 CaiF/GrlA family transcriptional regulat...  39.7    0.27 
+  UniRef90_A0A3K9D7T9 CaiF/GrlA family transcriptional regulator ...  39.7    0.28 
+  UniRef90_UPI0005B61804 CaiF/GrlA family transcriptional regulat...  38.9    0.31 
+  UniRef90_V1YLD1 Uncharacterized protein n=1 Tax=Salmonella ente...  39.3    0.34 
+  UniRef90_H9TI96 Uncharacterized protein n=1 Tax=Salmonella ente...  38.5    0.34 
+  UniRef90_UPI0009E687B1 hypothetical protein n=1 Tax=Salmonella ...  38.9    0.40 
+  UniRef90_I3W488 Uncharacterized protein n=2 Tax=Salmonella ente...  38.9    0.40 
+  UniRef90_A0A3I6PE72 CaiF/GrlA family transcriptional regulator ...  38.9    0.41 
+  UniRef90_A0A379RJK4 Positive regulator GrlA n=4 Tax=Salmonella ...  39.3    0.41 
+  UniRef90_A0A1X2REM7 CaiF/GrlA family transcriptional regulator ...  38.1    0.42 
+  UniRef90_UPI0009AC50E5 CaiF/GrlA family transcriptional regulat...  38.9    0.44 
+  UniRef90_A0A1X2RIZ5 Uncharacterized protein n=1 Tax=Salmonella ...  38.5    0.44 
+  UniRef90_A0A1Z3Q5D4 Uncharacterized protein n=2 Tax=Salmonella ...  38.5    0.45 
+  UniRef90_A0A344SNY1 CaiF/GrlA family transcriptional regulator ...  38.9    0.48 
+  UniRef90_A0A344QLK8 CaiF/GrlA family transcriptional regulator ...  38.9    0.50 
+  UniRef90_A0A336QWK2 DNA-binding transcriptional activator CaiF ...  38.5    0.52 
+  UniRef90_A0A2I8S9X6 CaiF/GrlA family transcriptional regulator ...  38.5    0.52 
+  UniRef90_A0A2S4Q9Z6 CaiF/GrlA family transcriptional regulator ...  38.5    0.54 
+  UniRef90_UPI000A114B0C CaiF/GrlA family transcriptional regulat...  38.5    0.54 
+  UniRef90_A0A379TW44 Positive regulator GrlA n=1 Tax=Salmonella ...  38.5    0.60 
+  UniRef90_UPI000F78A609 CaiF/GrlA family transcriptional regulat...  37.4    0.63 
+  UniRef90_G2SDB3 Uncharacterized protein n=2 Tax=Enterobacter Ta...  38.1    0.63 
+  UniRef90_A0A3I4G8A3 CaiF/GrlA family transcriptional regulator ...  38.5    0.69 
+  UniRef90_A0A3I6KHJ9 CaiF/GrlA family transcriptional regulator ...  38.5    0.72 
+  UniRef90_A0A3L7M3P9 CaiF/GrlA family transcriptional regulator ...  38.5    0.74 
+  UniRef90_UPI000DDD6E2D CaiF/GrlA family transcriptional regulat...  38.1    0.78 
+  UniRef90_Q9F504 CaiF/GrlA family transcriptional regulator n=77...  38.5    0.78 
+  UniRef90_A0A1C0U8C7 DNA-binding transcriptional activator CaiF ...  38.1    0.82 
+  UniRef90_A0A241PXI4 Uncharacterized protein n=8 Tax=Salmonella ...  38.1    0.87 
+  UniRef90_UPI0008FC2DD2 CaiF/GrlA family transcriptional regulat...  37.4    0.94 
+  UniRef90_A0A3K9A2R2 CaiF/GrlA family transcriptional regulator ...  37.0    1.1  
+  UniRef90_A0A379SF79 Positive regulator GrlA n=1 Tax=Salmonella ...  37.7    1.3  
+  UniRef90_V1HUR9 Uncharacterized protein n=2 Tax=Salmonella ente...  37.7    1.4  
+  UniRef90_A0A344S4X3 Uncharacterized protein n=2 Tax=Salmonella ...  37.0    1.4  
+  UniRef90_A0A3B9S0X1 Uncharacterized protein (Fragment) n=1 Tax=...  38.1    1.4  
+  UniRef90_A0A2X2QBX9 DNA-binding transcriptional activator CaiF ...  37.7    1.6  
+  UniRef90_A0A022PIM7 Uncharacterized protein n=8 Tax=Photorhabdu...  37.4    1.8  
+  UniRef90_A0A0K0H7R5 Uncharacterized protein n=5 Tax=Salmonella ...  37.4    1.8  
+  UniRef90_UPI0009AE0C70 CaiF/GrlA family transcriptional regulat...  37.4    1.8  
+  UniRef90_A0A0K8QVS8 Transcriptional regulator, TetR family n=1 ...  37.4    2.0  
+  UniRef90_B6VM37 Uncharacterized protein n=2 Tax=Photorhabdus Ta...  37.0    2.0  
+  UniRef90_A0A3I8DQV1 CaiF/GrlA family transcriptional regulator ...  37.0    2.1  
+  UniRef90_A0A1D6GWK1 Serine/threonine-protein kinase ATR n=11 Ta...  37.7    2.1  
+  UniRef90_A0A3F3I8N5 Uncharacterized protein n=1 Tax=Salmonella ...  37.4    2.1  
+  UniRef90_UPI0009AE6F52 CaiF/GrlA family transcriptional regulat...  36.2    2.1  
+  UniRef90_A0A1D6GWJ5 Serine/threonine-protein kinase ATR n=3 Tax...  37.7    2.3  
+  UniRef90_A0A1D6GWJ8 Serine/threonine-protein kinase ATR n=1 Tax...  37.7    2.3  
+  UniRef90_A0A379SEP9 Positive regulator GrlA n=1 Tax=Salmonella ...  36.6    3.0  
+  UniRef90_A0A1M5JXL0 Penicillin-binding protein 2 n=1 Tax=Hydroc...  37.4    3.3  
+  UniRef90_UPI0007E99F70 CaiF/GrlA family transcriptional regulat...  36.2    3.3  
+  UniRef90_A0A349L4S1 Peptidase M16 n=1 Tax=Janthinobacterium sp....  37.4    3.4  
+  UniRef90_UPI0009EA88FD hypothetical protein n=1 Tax=Salmonella ...  36.2    3.4  
+  UniRef90_UPI00069FBE29 CaiF/GrlA family transcriptional regulat...  36.2    4.0  
+  UniRef90_I3W324 Uncharacterized protein n=2 Tax=Salmonella TaxI...  36.2    4.4  
+  UniRef90_UPI0006D49FF3 CaiF/GrlA family transcriptional regulat...  36.2    4.5  
+  UniRef90_UPI0005E4454D CaiF/GrlA family transcriptional regulat...  35.8    6.0  
+  UniRef90_UPI000BE1BD2E CaiF/GrlA family transcriptional regulat...  35.8    6.4  
+  UniRef90_UPI000C349D5E type III secretion system LEE transcript...  35.4    6.5  
+  UniRef90_E7QS96 Uncharacterized protein n=2 Tax=Haladaptatus Ta...  35.0    6.9  
+  UniRef90_A0A1U7EA27 Uncharacterized protein n=1 Tax=Jeotgalibac...  35.0    7.1  
+  UniRef90_O52133 DNA-binding transcriptional activator CaiF n=14...  35.4    7.8  
+  UniRef90_A0A241PX86 Uncharacterized protein n=1 Tax=Salmonella ...  35.4    8.5  
+  UniRef90_A0A3J2E6A9 Type III secretion system LEE transcription...  35.0    9.0  
+  UniRef90_UPI0003EB37B7 CaiF/GrlA family transcriptional regulat...  35.0    9.1  
+  UniRef90_A0A370V5J4 Uncharacterized protein n=4 Tax=Enterobacte...  35.4    9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 752105429845
+Warning: [psiblast] lcl|Query_1 NP_414576.4: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_414576.4
+
+Length=131
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0J1LLS4 Transcriptional activatory protein CaiF n=1...  222     4e-73
+  UniRef90_A0A381G237 Transcriptional activator n=9 Tax=Gammaprot...  222     5e-73
+  UniRef90_P0AE58 Transcriptional activatory protein CaiF n=211 T...  221     8e-73
+  UniRef90_A0A376I7D7 Transcriptional activator n=2 Tax=Enterobac...  221     8e-73
+  UniRef90_B7LWM5 Transcriptional activator n=11 Tax=Escherichia ...  221     1e-72
+  UniRef90_A0A0K4FMH2 Transcriptional activator n=16 Tax=Bacteria...  220     3e-72
+  UniRef90_A0A2Y4J357 DNA-binding transcriptional activator CaiF ...  220     3e-72
+  UniRef90_V1H9E5 DNA-binding transcriptional activator CaiF n=24...  220     4e-72
+  UniRef90_D4BF23 Transcriptional activatory protein CaiF n=133 T...  219     5e-72
+  UniRef90_A0A0L0GZU3 Transcriptional regulator n=1 Tax=Trabulsie...  216     1e-70
+  UniRef90_A0A381C7L6 DNA-binding transcriptional activator CaiF ...  215     3e-70
+  UniRef90_E3G9M8 DNA-binding transcriptional activator CaiF n=2 ...  215     4e-70
+  UniRef90_L0M8W9 Uncharacterized protein n=3 Tax=Enterobacteriac...  213     2e-69
+  UniRef90_A0A0V9JB63 Transcriptional regulator n=1 Tax=Citrobact...  212     6e-69
+  UniRef90_D2TGM1 Transcriptional activator n=1 Tax=Citrobacter r...  212     6e-69
+  UniRef90_A0A1Q5V719 CaiF/GrlA family transcriptional regulator ...  211     9e-69
+  UniRef90_A0A381H9C6 DNA-binding transcriptional activator CaiF ...  211     9e-69
+  UniRef90_G9Z705 Transcriptional activatory protein CaiF n=2 Tax...  210     3e-68
+  UniRef90_A0A370YUI9 Carnitine metabolism transcriptional regula...  209     6e-68
+  UniRef90_S3K6Q7 Transcriptional activatory protein CaiF n=1 Tax...  206     9e-67
+  UniRef90_A0A0G4Q7A4 DNA-binding transcriptional activator CaiF ...  205     1e-66
+  UniRef90_A0A379FA98 DNA-binding transcriptional activator CaiF ...  203     2e-65
+  UniRef90_A0A1B8SNJ9 CaiF/GrlA family transcriptional regulator ...  202     3e-65
+  UniRef90_A0A356D9Z1 CaiF/GrlA family transcriptional regulator ...  202     4e-65
+  UniRef90_A0A1Z1SR09 CaiF/GrlA family transcriptional regulator ...  202     4e-65
+  UniRef90_UPI00073D5793 carnitine metabolism transcriptional reg...  201     6e-65
+  UniRef90_A0A1B7JPY6 Transcriptional activator n=1 Tax=Providenc...  199     5e-64
+  UniRef90_UPI000D56F171 carnitine metabolism transcriptional reg...  198     9e-64
+  UniRef90_A0A2A2MAB3 CaiF/GrlA family transcriptional regulator ...  198     1e-63
+  UniRef90_A0A2J9GWB3 CaiF/GrlA family transcriptional regulator ...  195     3e-62
+  UniRef90_W3YDM8 Transcriptional activatory protein CaiF n=1 Tax...  195     3e-62
+  UniRef90_A0A2Y9TWB0 CaiF/GrlA family transcriptional regulator ...  194     5e-62
+  UniRef90_A0A2X4XQP0 DNA-binding transcriptional activator CaiF ...  193     1e-61
+  UniRef90_UPI000F670F1C carnitine metabolism transcriptional reg...  188     2e-59
+  UniRef90_I2BCX8 Transcriptional activatory protein CaiF n=1 Tax...  188     2e-59
+  UniRef90_UPI0004687EA6 carnitine metabolism transcriptional reg...  185     3e-58
+  UniRef90_A0A076LFD7 Transcriptional activatory protein CaiF n=5...  183     3e-57
+  UniRef90_A0A376D9P4 DNA-binding transcriptional activator CaiF ...  183     3e-57
+  UniRef90_A0A370R3E7 Transcriptional activator CaiF n=1 Tax=Ente...  181     7e-57
+  UniRef90_UPI0007A5EF49 carnitine metabolism transcriptional reg...  176     6e-55
+  UniRef90_A0A2C6DV90 CaiF/GrlA family transcriptional regulator ...  167     2e-51
+  UniRef90_A0A376VNX0 Transcriptional activator n=1 Tax=Escherich...  166     3e-51
+  UniRef90_UPI0007A04BFB carnitine metabolism transcriptional reg...  160     5e-49
+  UniRef90_A0A386QBJ2 Carnitine metabolism transcriptional regula...  151     3e-45
+  UniRef90_A0A376YF46 Transcriptional activator n=1 Tax=Escherich...  129     4e-37
+  UniRef90_A0A3J7U0U4 CaiF/GrlA family transcriptional regulator ...  113     1e-29
+  UniRef90_UPI0003BD7FFD CaiF/GrlA family transcriptional regulat...  113     2e-29
+  UniRef90_UPI000CFC6356 CaiF/GrlA family transcriptional regulat...  109     6e-29
+  UniRef90_A0A1S0Z5D0 CaiF/GrlA family transcriptional regulator ...  111     6e-29
+  UniRef90_UPI0009AC1CFE CaiF/GrlA family transcriptional regulat...  111     8e-29
+  UniRef90_A0A376SUV6 Transcriptional activator n=1 Tax=Escherich...  106     5e-28
+  UniRef90_A0A1S0ZIZ2 CaiF/GrlA family transcriptional regulator ...  109     6e-28
+  UniRef90_A0A370WEP7 CaiF/GrlA family transcriptional regulator ...  108     1e-27
+  UniRef90_UPI0009E2AA6A CaiF/GrlA family transcriptional regulat...  107     4e-27
+  UniRef90_V1X3K1 Uncharacterized protein n=1 Tax=Salmonella ente...  107     5e-27
+  UniRef90_A0A2X2BNJ6 DNA-binding transcriptional activator CaiF ...  104     5e-27
+  UniRef90_V1XJK6 Uncharacterized protein n=3 Tax=Salmonella ente...  104     2e-26
+  UniRef90_A0A2X2BJK0 DNA-binding transcriptional activator CaiF ...  101     3e-26
+  UniRef90_UPI0009489D99 CaiF/GrlA family transcriptional regulat...  104     3e-26
+  UniRef90_UPI0008FC8274 CaiF/GrlA family transcriptional regulat...  104     6e-26
+  UniRef90_A0A1V8P0R2 Uncharacterized protein n=1 Tax=Citrobacter...  103     1e-25
+  UniRef90_UPI000F462F7C CaiF/GrlA family transcriptional regulat...  102     2e-25
+  UniRef90_A0A2S9I9Z4 Uncharacterized protein n=2 Tax=Bacteria Ta...  101     4e-25
+  UniRef90_A0A1V8NT84 Uncharacterized protein n=1 Tax=Citrobacter...  100     1e-24
+  UniRef90_A0A3J5X4X2 CaiF/GrlA family transcriptional regulator ...   99     3e-24
+  UniRef90_A0A1V8NS41 Uncharacterized protein n=1 Tax=Citrobacter...  99.2    4e-24
+  UniRef90_A0A3K5RHI6 CaiF/GrlA family transcriptional regulator ...  98.4    4e-24
+  UniRef90_A0A3J2NJP7 CaiF/GrlA family transcriptional regulator ...  95.4    1e-22
+  UniRef90_UPI00098AA7A0 CaiF/GrlA family transcriptional regulat...  94.2    2e-22
+  UniRef90_A0A3I4GRZ3 CaiF/GrlA family transcriptional regulator ...  94.6    4e-22
+  UniRef90_I3W313 Uncharacterized protein n=3 Tax=Salmonella TaxI...  93.8    4e-22
+  UniRef90_A0A2I0FWA3 LEE type III secretion system transcription...  93.4    5e-22
+  UniRef90_UPI00071ACFD2 CaiF/GrlA family transcriptional regulat...  91.1    4e-21
+  UniRef90_I2WQ96 Transcriptional activatory protein CaiF n=1 Tax...  87.3    1e-20
+  UniRef90_UPI00092F0538 CaiF/GrlA family transcriptional regulat...  89.6    3e-20
+  UniRef90_G5LIN0 Transcriptional activatory protein CaiF n=1 Tax...  61.5    1e-10
+  UniRef90_A0A2X1L0A0 Transcriptional activator n=1 Tax=Escherich...  48.0    2e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A3K5RGS3 CaiF/GrlA family transcriptional regulator ...  108     8e-28
+  UniRef90_A0A3I9RBH7 CaiF/GrlA family transcriptional regulator ...  103     8e-26
+  UniRef90_A0A3I4VSY4 CaiF/GrlA family transcriptional regulator ...  102     2e-25
+  UniRef90_A0A1Z3QE56 CaiF/GrlA family transcriptional regulator ...  102     3e-25
+  UniRef90_A0A1S0ZUG9 Positive regulator GrlA n=12 Tax=Salmonella...  100     9e-25
+  UniRef90_UPI000A195E5A CaiF/GrlA family transcriptional regulat...  98.4    6e-24
+  UniRef90_A0A379RGM1 Positive regulator GrlA n=2 Tax=Salmonella ...  98.1    1e-23
+  UniRef90_A0A344QQU7 CaiF/GrlA family transcriptional regulator ...  96.5    4e-23
+  UniRef90_UPI0005CD21A3 CaiF/GrlA family transcriptional regulat...  96.5    4e-23
+  UniRef90_A0A3H7LQY2 CaiF/GrlA family transcriptional regulator ...  96.5    7e-23
+  UniRef90_UPI0009EC3C5F CaiF/GrlA family transcriptional regulat...  93.8    2e-22
+  UniRef90_A0A1S0Z697 CaiF/GrlA family transcriptional regulator ...  95.0    2e-22
+  UniRef90_A0A344QL75 Uncharacterized protein n=1 Tax=Salmonella ...  94.2    3e-22
+  UniRef90_UPI0009ACFF28 CaiF/GrlA family transcriptional regulat...  93.8    7e-22
+  UniRef90_A0A357SMC7 CaiF/GrlA family transcriptional regulator ...  90.7    8e-21
+  UniRef90_UPI0009834816 CaiF/GrlA family transcriptional regulat...  90.7    2e-20
+  UniRef90_A0A344SUE9 CaiF/GrlA family transcriptional regulator ...  90.4    2e-20
+  UniRef90_A0A3I2QFT3 CaiF/GrlA family transcriptional regulator ...  88.8    4e-20
+  UniRef90_A0A0J8YBF8 Uncharacterized protein n=1 Tax=bacteria sy...  88.4    5e-20
+  UniRef90_A0A370W6X2 CaiF/GrlA family transcriptional regulator ...  88.0    3e-19
+  UniRef90_A0A3J2E6A9 Type III secretion system LEE transcription...  85.3    4e-19
+  UniRef90_UPI0009AF5FD6 CaiF/GrlA family transcriptional regulat...  83.4    5e-18
+  UniRef90_O52133 DNA-binding transcriptional activator CaiF n=14...  82.7    7e-18
+  UniRef90_A0A2S4QC98 CaiF/GrlA family transcriptional regulator ...  82.3    1e-17
+  UniRef90_UPI000C349D5E type III secretion system LEE transcript...  81.5    1e-17
+  UniRef90_UPI0009AF2FF1 CaiF/GrlA family transcriptional regulat...  82.7    1e-17
+  UniRef90_V1HUR9 Uncharacterized protein n=2 Tax=Salmonella ente...  82.3    2e-17
+  UniRef90_UPI0009A95FBC CaiF/GrlA family transcriptional regulat...  80.3    2e-17
+  UniRef90_A0A241PXM1 Uncharacterized protein n=9 Tax=Salmonella ...  81.5    2e-17
+  UniRef90_A0A3J4SVV0 CaiF/GrlA family transcriptional regulator ...  81.5    3e-17
+  UniRef90_A0A381GFB3 GrlA, global regulator of LEE activator n=8...  80.7    4e-17
+  UniRef90_UPI0006D49FF3 CaiF/GrlA family transcriptional regulat...  80.7    7e-17
+  UniRef90_UPI0009AE0C70 CaiF/GrlA family transcriptional regulat...  80.3    9e-17
+  UniRef90_UPI0009AC50E5 CaiF/GrlA family transcriptional regulat...  80.0    1e-16
+  UniRef90_A0A1Z3Q8Q1 CaiF/GrlA family transcriptional regulator ...  80.3    1e-16
+  UniRef90_UPI0003EB37B7 CaiF/GrlA family transcriptional regulat...  79.6    1e-16
+  UniRef90_A0A0U0WKH4 DNA-binding transcriptional activator CaiF ...  80.3    1e-16
+  UniRef90_A0A2I5HKV3 CaiF/GrlA family transcriptional regulator ...  80.0    2e-16
+  UniRef90_I3W324 Uncharacterized protein n=2 Tax=Salmonella TaxI...  80.0    2e-16
+  UniRef90_A0A0K0H7R5 Uncharacterized protein n=5 Tax=Salmonella ...  79.6    2e-16
+  UniRef90_UPI000A114B0C CaiF/GrlA family transcriptional regulat...  79.2    2e-16
+  UniRef90_A0A1V8NS53 CaiF/GrlA family transcriptional regulator ...  79.6    2e-16
+  UniRef90_A0A2S4Q9Z6 CaiF/GrlA family transcriptional regulator ...  79.2    3e-16
+  UniRef90_V1WGM3 Transcription regulator CaiF n=1 Tax=Salmonella...  78.8    3e-16
+  UniRef90_A0A0Q4MGM1 Uncharacterized protein n=2 Tax=Erwiniaceae...  77.6    4e-16
+  UniRef90_A0A376DJL7 DNA-binding transcriptional activator CaiF ...  78.8    4e-16
+  UniRef90_A0A379UUH6 Positive regulator GrlA n=1 Tax=Salmonella ...  78.4    6e-16
+  UniRef90_UPI000779E225 CaiF/GrlA family transcriptional regulat...  78.4    7e-16
+  UniRef90_A0A1X2RHN1 Uncharacterized protein n=2 Tax=Salmonella ...  78.4    7e-16
+  UniRef90_UPI000A0353F0 CaiF/GrlA family transcriptional regulat...  78.8    8e-16
+  UniRef90_A0A344S6S2 CaiF/GrlA family transcriptional regulator ...  78.0    8e-16
+  UniRef90_A0A241PXI4 Uncharacterized protein n=8 Tax=Salmonella ...  76.9    1e-15
+  UniRef90_A0A1V8NRZ0 CaiF/GrlA family transcriptional regulator ...  77.6    1e-15
+  UniRef90_UPI0009AEEB08 CaiF/GrlA family transcriptional regulat...  77.3    1e-15
+  UniRef90_A0A344SG28 CaiF/GrlA family transcriptional regulator ...  77.3    2e-15
+  UniRef90_UPI0009AE9C33 CaiF/GrlA family transcriptional regulat...  77.3    2e-15
+  UniRef90_A0A344S680 CaiF/GrlA family transcriptional regulator ...  76.9    2e-15
+  UniRef90_A0A2I5HQ23 CaiF/GrlA family transcriptional regulator ...  76.9    2e-15
+  UniRef90_UPI0009B099E2 CaiF/GrlA family transcriptional regulat...  76.5    3e-15
+  UniRef90_V1H8M3 Uncharacterized protein n=5 Tax=Enterobacteriac...  76.5    3e-15
+  UniRef90_A0A370W6K4 CaiF/GrlA family transcriptional regulator ...  76.1    4e-15
+  UniRef90_V1YLD1 Uncharacterized protein n=1 Tax=Salmonella ente...  76.1    4e-15
+  UniRef90_UPI0002BACC97 CaiF/GrlA family transcriptional regulat...  76.1    5e-15
+  UniRef90_A0A344QLK8 CaiF/GrlA family transcriptional regulator ...  76.1    5e-15
+  UniRef90_UPI0008A81776 CaiF/GrlA family transcriptional regulat...  76.1    6e-15
+  UniRef90_A0A1V8NT90 CaiF/GrlA family transcriptional regulator ...  76.1    6e-15
+  UniRef90_V1XSW2 Uncharacterized protein (Fragment) n=24 Tax=Sal...  75.3    6e-15
+  UniRef90_A0A3I4G8A3 CaiF/GrlA family transcriptional regulator ...  75.7    7e-15
+  UniRef90_A0A344SNY1 CaiF/GrlA family transcriptional regulator ...  75.3    8e-15
+  UniRef90_A0A379RDF6 Positive regulator GrlA n=10 Tax=Salmonella...  75.3    1e-14
+  UniRef90_A0A3K9A2R2 CaiF/GrlA family transcriptional regulator ...  73.4    1e-14
+  UniRef90_A0A379TW44 Positive regulator GrlA n=1 Tax=Salmonella ...  74.9    1e-14
+  UniRef90_A0A379RJK4 Positive regulator GrlA n=4 Tax=Salmonella ...  74.9    1e-14
+  UniRef90_V1WYS3 Uncharacterized protein n=2 Tax=Salmonella ente...  74.6    2e-14
+  UniRef90_UPI0009A99054 CaiF/GrlA family transcriptional regulat...  74.6    2e-14
+  UniRef90_A0A1X2REM7 CaiF/GrlA family transcriptional regulator ...  71.9    4e-14
+  UniRef90_A0A3I6KHJ9 CaiF/GrlA family transcriptional regulator ...  73.4    5e-14
+  UniRef90_UPI0009AE6F52 CaiF/GrlA family transcriptional regulat...  71.5    6e-14
+  UniRef90_UPI000B507ADF CaiF/GrlA family transcriptional regulat...  73.4    7e-14
+  UniRef90_A0A3L7M3P9 CaiF/GrlA family transcriptional regulator ...  71.1    4e-13
+  UniRef90_UPI00046F2EA0 CaiF/GrlA family transcriptional regulat...  70.3    1e-12
+  UniRef90_UPI0009BFF03D CaiF/GrlA family transcriptional regulat...  68.0    4e-12
+  UniRef90_UPI00065134E3 CaiF/GrlA family transcriptional regulat...  68.0    6e-12
+  UniRef90_A0A387CMS0 CaiF/GrlA family transcriptional regulator ...  67.6    9e-12
+  UniRef90_UPI0005B61804 CaiF/GrlA family transcriptional regulat...  66.1    2e-11
+  UniRef90_I3W488 Uncharacterized protein n=2 Tax=Salmonella ente...  66.5    2e-11
+  UniRef90_E3GCC9 Transcription regulator CaiF n=3 Tax=Enterobact...  66.1    3e-11
+  UniRef90_A0A379SF79 Positive regulator GrlA n=1 Tax=Salmonella ...  66.1    3e-11
+  UniRef90_UPI000F7B3000 CaiF/GrlA family transcriptional regulat...  64.2    4e-11
+  UniRef90_UPI0009BBE200 CaiF/GrlA family transcriptional regulat...  63.8    8e-11
+  UniRef90_A0A379SEP9 Positive regulator GrlA n=1 Tax=Salmonella ...  64.5    1e-10
+  UniRef90_UPI000E1B71C6 CaiF/GrlA family transcriptional regulat...  62.6    2e-10
+  UniRef90_UPI000C7DE957 CaiF/GrlA family transcriptional regulat...  62.6    6e-10
+  UniRef90_UPI000ABAA9C4 CaiF/GrlA family transcriptional regulat...  61.5    1e-09
+  UniRef90_A0A3K9D7T9 CaiF/GrlA family transcriptional regulator ...  61.9    1e-09
+  UniRef90_A0A3I3BBR9 CaiF/GrlA family transcriptional regulator ...  61.1    2e-09
+  UniRef90_A0A3I6PE72 CaiF/GrlA family transcriptional regulator ...  61.1    3e-09
+  UniRef90_A0A120M2K4 CaiF/GrlA family transcriptional regulator ...  61.1    3e-09
+  UniRef90_A0A379SED7 Transcriptional activator CaiF n=1 Tax=Salm...  61.1    3e-09
+  UniRef90_UPI0008FC2DD2 CaiF/GrlA family transcriptional regulat...  59.2    4e-09
+  UniRef90_UPI000F78A609 CaiF/GrlA family transcriptional regulat...  58.0    7e-09
+  UniRef90_UPI0009B2CC0F CaiF/GrlA family transcriptional regulat...  61.1    8e-09
+  UniRef90_UPI0009079FD9 CaiF/GrlA family transcriptional regulat...  59.5    9e-09
+  UniRef90_UPI000DDD6E2D CaiF/GrlA family transcriptional regulat...  59.5    1e-08
+  UniRef90_UPI0009E687B1 hypothetical protein n=1 Tax=Salmonella ...  58.8    1e-08
+  UniRef90_A0A2S5C344 Uncharacterized protein n=1 Tax=Lelliottia ...  58.8    2e-08
+  UniRef90_A0A3I8DQV1 CaiF/GrlA family transcriptional regulator ...  58.8    2e-08
+  UniRef90_A0A2S4RXS0 Uncharacterized protein n=1 Tax=Citrobacter...  58.8    2e-08
+  UniRef90_A0A1J4R6B9 Uncharacterized protein n=1 Tax=Salmonella ...  57.6    3e-08
+  UniRef90_A0A2S3SSD5 CaiF/GrlA family transcriptional regulator ...  56.8    3e-08
+  UniRef90_A0A3F3IFT7 Uncharacterized protein n=2 Tax=Salmonella ...  57.6    3e-08
+  UniRef90_A0A2I8S9X6 CaiF/GrlA family transcriptional regulator ...  58.0    4e-08
+  UniRef90_UPI00098334B4 CaiF/GrlA family transcriptional regulat...  57.2    4e-08
+  UniRef90_A0A0T7NVV9 Protein of uncharacterized function (DUF140...  57.6    4e-08
+  UniRef90_W0BPA3 Uncharacterized protein n=2 Tax=Enterobacter cl...  58.4    4e-08
+  UniRef90_UPI0006ACD227 CaiF/GrlA family transcriptional regulat...  57.6    5e-08
+  UniRef90_UPI000E03D496 CaiF/GrlA family transcriptional regulat...  57.2    6e-08
+  UniRef90_UPI0009BDBB34 CaiF/GrlA family transcriptional regulat...  57.2    6e-08
+  UniRef90_UPI0005E4454D CaiF/GrlA family transcriptional regulat...  56.8    8e-08
+  UniRef90_B6VM37 Uncharacterized protein n=2 Tax=Photorhabdus Ta...  56.5    2e-07
+  UniRef90_A0A0T9NGB4 Protein of uncharacterized function (DUF140...  55.7    2e-07
+  UniRef90_A0A022PIM7 Uncharacterized protein n=8 Tax=Photorhabdu...  55.7    3e-07
+  UniRef90_UPI0008FEF943 CaiF/GrlA family transcriptional regulat...  54.9    3e-07
+  UniRef90_A0A336QWK2 DNA-binding transcriptional activator CaiF ...  55.3    4e-07
+  UniRef90_UPI0009EA88FD hypothetical protein n=1 Tax=Salmonella ...  54.5    4e-07
+  UniRef90_UPI0009B51666 CaiF/GrlA family transcriptional regulat...  55.7    4e-07
+  UniRef90_Q7N9P5 Uncharacterized protein n=16 Tax=Photorhabdus T...  55.3    5e-07
+  UniRef90_A0A3K9F0X0 Uncharacterized protein n=1 Tax=Salmonella ...  54.1    7e-07
+  UniRef90_UPI000B5EFF4A CaiF/GrlA family transcriptional regulat...  55.3    7e-07
+  UniRef90_A0A1X2RIZ5 Uncharacterized protein n=1 Tax=Salmonella ...  53.8    8e-07
+  UniRef90_A0A377VQ36 Uncharacterized protein n=1 Tax=Klebsiella ...  54.1    9e-07
+  UniRef90_A0A377CX13 DNA-binding transcriptional activator CaiF ...  53.8    1e-06
+  UniRef90_A0A241PX86 Uncharacterized protein n=1 Tax=Salmonella ...  54.5    1e-06
+  UniRef90_UPI0005DED56D CaiF/GrlA family transcriptional regulat...  54.5    1e-06
+  UniRef90_A0A3F3I8N5 Uncharacterized protein n=1 Tax=Salmonella ...  54.1    1e-06
+  UniRef90_A0A2X2QBX9 DNA-binding transcriptional activator CaiF ...  54.1    1e-06
+  UniRef90_UPI000E64C678 CaiF/GrlA family transcriptional regulat...  53.4    1e-06
+  UniRef90_A0A3K3VPH4 CaiF/GrlA family transcriptional regulator ...  53.8    1e-06
+  UniRef90_A0A379SHU5 Putative inner membrane protein n=2 Tax=Sal...  53.8    2e-06
+  UniRef90_UPI000B76BBA0 CaiF/GrlA family transcriptional regulat...  53.4    2e-06
+  UniRef90_UPI0009B27664 CaiF/GrlA family transcriptional regulat...  52.6    2e-06
+  UniRef90_UPI0006938F4A CaiF/GrlA family transcriptional regulat...  53.4    3e-06
+  UniRef90_UPI000BE1BD2E CaiF/GrlA family transcriptional regulat...  53.4    3e-06
+  UniRef90_UPI000B9FEA64 hypothetical protein n=1 Tax=Salmonella ...  52.2    3e-06
+  UniRef90_UPI00069FBE29 CaiF/GrlA family transcriptional regulat...  52.6    4e-06
+  UniRef90_A0A3K7AJC4 CaiF/GrlA family transcriptional regulator ...  53.0    4e-06
+  UniRef90_A0A1C0U8C7 DNA-binding transcriptional activator CaiF ...  52.6    5e-06
+  UniRef90_A0A0L0GWM7 Uncharacterized protein (Fragment) n=1 Tax=...  51.8    5e-06
+  UniRef90_UPI000DFC74B0 CaiF/GrlA family transcriptional regulat...  53.4    6e-06
+  UniRef90_H2IRN9 Uncharacterized protein n=2 Tax=Rahnella aquati...  52.2    6e-06
+  UniRef90_A0A3K9EVM7 Uncharacterized protein n=3 Tax=Salmonella ...  51.5    8e-06
+  UniRef90_A0A3K6EGK8 CaiF/GrlA family transcriptional regulator ...  50.3    1e-05
+  UniRef90_UPI0009AF9FC5 hypothetical protein n=2 Tax=Salmonella ...  50.7    1e-05
+  UniRef90_UPI00077FCCC4 CaiF/GrlA family transcriptional regulat...  51.5    1e-05
+  UniRef90_UPI000F615373 CaiF/GrlA family transcriptional regulat...  51.8    1e-05
+  UniRef90_UPI0008FD6835 CaiF/GrlA family transcriptional regulat...  51.1    1e-05
+  UniRef90_A0A3H5ZR93 Uncharacterized protein n=2 Tax=Salmonella ...  50.3    1e-05
+  UniRef90_UPI000935DC03 CaiF/GrlA family transcriptional regulat...  50.7    1e-05
+  UniRef90_A0A376I5N3 Positive regulator GrlA n=3 Tax=Enterobacte...  51.5    1e-05
+  UniRef90_UPI000F866946 CaiF/GrlA family transcriptional regulat...  51.1    1e-05
+  UniRef90_A0A1S0ZP12 Uncharacterized protein n=7 Tax=Salmonella ...  50.7    1e-05
+  UniRef90_A0A223JYE4 CaiF/GrlA family transcriptional regulator ...  50.7    2e-05
+  UniRef90_A0A0M3EC72 Uncharacterized protein n=3 Tax=Proteobacte...  50.3    3e-05
+  UniRef90_UPI0009EF2C64 CaiF/GrlA family transcriptional regulat...  50.3    4e-05
+  UniRef90_UPI0008FCE0ED CaiF/GrlA family transcriptional regulat...  49.9    4e-05
+  UniRef90_I3W2Z8 Uncharacterized protein n=1 Tax=Salmonella sp. ...  48.4    5e-05
+  UniRef90_A0A1Z3Q5D4 Uncharacterized protein n=2 Tax=Salmonella ...  48.8    5e-05
+  UniRef90_Q9F504 CaiF/GrlA family transcriptional regulator n=77...  49.5    7e-05
+  UniRef90_A0A381G6G0 GrlA, global regulator of LEE activator n=8...  49.1    9e-05
+  UniRef90_H9TI96 Uncharacterized protein n=1 Tax=Salmonella ente...  48.0    1e-04
+  UniRef90_UPI000CFC075F CaiF/GrlA family transcriptional regulat...  47.2    1e-04
+  UniRef90_A0A3I4XHI9 CaiF/GrlA family transcriptional regulator ...  48.8    1e-04
+  UniRef90_UPI000469A7A1 CaiF/GrlA family transcriptional regulat...  48.8    1e-04
+  UniRef90_A0A109Z433 CaiF/GrlA family transcriptional regulator ...  47.6    2e-04
+  UniRef90_UPI000F86A694 CaiF/GrlA family transcriptional regulat...  46.8    2e-04
+  UniRef90_A0A370V5J4 Uncharacterized protein n=4 Tax=Enterobacte...  48.0    2e-04
+  UniRef90_UPI0009DEED86 CaiF/GrlA family transcriptional regulat...  48.4    3e-04
+  UniRef90_UPI0009A9AE23 CaiF/GrlA family transcriptional regulat...  46.8    4e-04
+  UniRef90_UPI0002AF419A CaiF/GrlA family transcriptional regulat...  47.2    4e-04
+  UniRef90_A0A3G9HM52 Uncharacterized protein n=1 Tax=Serratia ma...  47.6    4e-04
+  UniRef90_UPI00083CD655 CaiF/GrlA family transcriptional regulat...  46.4    5e-04
+  UniRef90_UPI000CDADB22 CaiF/GrlA family transcriptional regulat...  47.2    6e-04
+  UniRef90_UPI000C1A58B9 CaiF/GrlA family transcriptional regulat...  45.3    7e-04
+  UniRef90_G2SDB3 Uncharacterized protein n=2 Tax=Enterobacter Ta...  46.1    7e-04
+  UniRef90_UPI000D382325 HTH domain-containing protein n=1 Tax=Ae...  45.7    8e-04
+  UniRef90_A0A344QNP7 Uncharacterized protein n=1 Tax=Salmonella ...  45.7    8e-04
+  UniRef90_A0A3K0R8L9 CaiF/GrlA family transcriptional regulator ...  46.4    9e-04
+  UniRef90_E3PBM0 Uncharacterized protein n=16 Tax=Escherichia Ta...  46.4    0.001
+  UniRef90_Q9EUK8 Uncharacterized protein n=51 Tax=Gammaproteobac...  46.1    0.001
+  UniRef90_A0A1V8NT96 Uncharacterized protein n=1 Tax=Citrobacter...  44.9    0.002
+  UniRef90_A0A0M3EFH9 Uncharacterized protein n=1 Tax=Vibrio para...  45.7    0.002
+  UniRef90_A0A3E2EPJ1 CaiF/GrlA family transcriptional regulator ...  45.3    0.002
+  UniRef90_V1X4X3 Uncharacterized protein n=10 Tax=Salmonella ent...  43.7    0.002
+  UniRef90_UPI000DD08634 hypothetical protein n=1 Tax=Aeromonas v...  44.5    0.002
+  UniRef90_UPI0007E99F70 CaiF/GrlA family transcriptional regulat...  44.5    0.003
+  UniRef90_A0A1S6KRE2 Orf10 n=1 Tax=Salmonella enteritidis TaxID=...  44.5    0.003
+  UniRef90_UPI00071AB206 hypothetical protein n=1 Tax=Salmonella ...  43.4    0.004
+  UniRef90_UPI0009AC57E8 CaiF/GrlA family transcriptional regulat...  44.5    0.004
+  UniRef90_A0A1X2RKP2 Uncharacterized protein n=2 Tax=Salmonella ...  43.4    0.004
+  UniRef90_A0A3H8X0C8 Uncharacterized protein n=1 Tax=Salmonella ...  43.7    0.005
+  UniRef90_UPI000F65975A CaiF/GrlA family transcriptional regulat...  44.1    0.005
+  UniRef90_UPI00035D396D CaiF/GrlA family transcriptional regulat...  44.9    0.006
+  UniRef90_A0A3E2E9A2 CaiF/GrlA family transcriptional regulator ...  44.1    0.006
+  UniRef90_UPI0009A4D21D CaiF/GrlA family transcriptional regulat...  44.1    0.007
+  UniRef90_UPI000DD4CD15 CaiF/GrlA family transcriptional regulat...  43.7    0.007
+  UniRef90_A0A344S6C9 Uncharacterized protein n=11 Tax=Salmonella...  42.6    0.008
+  UniRef90_A0A3J4SVT6 Uncharacterized protein n=4 Tax=Salmonella ...  43.0    0.008
+  UniRef90_A0A3G9H5W2 Uncharacterized protein n=2 Tax=Serratia ma...  43.4    0.009
+  UniRef90_UPI0009ACEBE3 hypothetical protein n=1 Tax=Salmonella ...  42.2    0.009
+  UniRef90_V1XAT6 Uncharacterized protein n=3 Tax=Salmonella ente...  42.2    0.010
+  UniRef90_A0A344QMX4 Uncharacterized protein n=1 Tax=Salmonella ...  42.2    0.012
+  UniRef90_UPI000CFE33F1 CaiF/GrlA family transcriptional regulat...  42.6    0.016
+  UniRef90_UPI0005A4F9F0 CaiF/GrlA family transcriptional regulat...  42.2    0.020
+  UniRef90_A0A2S5F5G2 Uncharacterized protein n=1 Tax=Aeromonas j...  41.8    0.027
+  UniRef90_A0A291U2E0 Uncharacterized protein n=1 Tax=Aeromonas s...  41.4    0.031
+  UniRef90_A0A344S4X3 Uncharacterized protein n=2 Tax=Salmonella ...  41.4    0.031
+  UniRef90_A0A2S5FG61 Uncharacterized protein n=1 Tax=Aeromonas j...  41.4    0.037
+  UniRef90_UPI0009E25715 hypothetical protein n=1 Tax=Aeromonas p...  41.1    0.048
+  UniRef90_A0A344SG20 Uncharacterized protein n=1 Tax=Salmonella ...  40.3    0.061
+  UniRef90_D0ZEM3 Uncharacterized protein n=10 Tax=Edwardsiella t...  41.8    0.074
+  UniRef90_A0A3L7M3M1 Uncharacterized protein n=1 Tax=Salmonella ...  40.3    0.084
+  UniRef90_A0A2S4RXS1 CaiF/GrlA family transcriptional regulator ...  41.1    0.085
+  UniRef90_A0A3K9EVM6 Uncharacterized protein n=2 Tax=Salmonella ...  39.1    0.18 
+  UniRef90_UPI000839CFB6 transcription antiterminator n=1 Tax=Pae...  40.3    0.28 
+  UniRef90_A0A344QL97 Uncharacterized protein n=2 Tax=Salmonella ...  38.4    0.28 
+  UniRef90_UPI0009078627 hypothetical protein n=1 Tax=Escherichia...  37.6    0.31 
+  UniRef90_A0A3J2QW19 Uncharacterized protein n=2 Tax=Salmonella ...  38.4    0.33 
+  UniRef90_A0A344SI89 Uncharacterized protein n=1 Tax=Salmonella ...  38.7    0.36 
+  UniRef90_A0A2E3RCR1 Phosphopentomutase n=1 Tax=Planctomycetacea...  39.9    0.39 
+  UniRef90_A0A1V8NU15 Uncharacterized protein n=1 Tax=Citrobacter...  38.4    0.41 
+  UniRef90_A0A3I7PSN4 Uncharacterized protein n=1 Tax=Salmonella ...  38.7    0.54 
+  UniRef90_UPI0009AF0CCE hypothetical protein n=1 Tax=Salmonella ...  37.6    0.59 
+  UniRef90_UPI0007605933 hypothetical protein n=1 Tax=Aeromonas h...  37.6    0.80 
+  UniRef90_A0A1X7U651 Uncharacterized protein n=2 Tax=Amphimedon ...  38.7    0.98 
+  UniRef90_A0A1S2D791 Uncharacterized protein n=2 Tax=Aeromonas T...  37.6    0.98 
+  UniRef90_UPI000467CC80 hypothetical protein n=1 Tax=Salmonella ...  37.6    1.1  
+  UniRef90_A0A0N4ZN13 Uncharacterized protein n=1 Tax=Parastrongy...  38.0    1.4  
+  UniRef90_A0A1V8NRJ9 Uncharacterized protein n=1 Tax=Citrobacter...  36.8    1.4  
+  UniRef90_A0A2Y0NZL4 Uncharacterized protein n=2 Tax=Escherichia...  37.2    1.7  
+  UniRef90_C4LBB6 Uncharacterized protein n=1 Tax=Tolumonas auens...  36.8    1.9  
+  UniRef90_A0A2G8KVJ2 Uncharacterized protein n=2 Tax=Stichopus j...  38.0    2.0  
+  UniRef90_A0A0S4QGH8 SnoaL-like domain-containing protein n=5 Ta...  37.2    2.2  
+  UniRef90_A0A2G8KYS5 Uncharacterized protein n=1 Tax=Stichopus j...  37.6    2.5  
+  UniRef90_UPI0009E56BDB hypothetical protein n=1 Tax=Aeromonas p...  36.4    2.7  
+  UniRef90_A0A3N6VM13 Uncharacterized protein n=1 Tax=Aeromonas j...  36.0    3.5  
+  UniRef90_A0A3I9MNU7 Uncharacterized protein n=1 Tax=Salmonella ...  35.7    3.8  
+  UniRef90_A0A1Q6VQU3 Phosphopentomutase n=6 Tax=unclassified Nit...  36.8    4.0  
+  UniRef90_A0A378TJ37 Gamma-hexachlorocyclohexane dehydrochlorina...  35.7    7.4  
+  UniRef90_UPI000D582C3B hypothetical protein n=1 Tax=Plesiomonas...  34.5    9.0  
+  UniRef90_UPI000F712326 hypothetical protein n=1 Tax=Salmonella ...  34.9    9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.150    0.513    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0459    0.140     1.90     42.6     43.6 
+
+Effective search space used: 752105429845
+Results from round 3
+
+
+Query= NP_414576.4
+
+Length=131
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A381C7L6 DNA-binding transcriptional activator CaiF ...  168     1e-51
+  UniRef90_A0A0J1LLS4 Transcriptional activatory protein CaiF n=1...  168     1e-51
+  UniRef90_V1H9E5 DNA-binding transcriptional activator CaiF n=24...  167     2e-51
+  UniRef90_A0A0L0GZU3 Transcriptional regulator n=1 Tax=Trabulsie...  167     3e-51
+  UniRef90_P0AE58 Transcriptional activatory protein CaiF n=211 T...  166     7e-51
+  UniRef90_A0A381G237 Transcriptional activator n=9 Tax=Gammaprot...  165     9e-51
+  UniRef90_A0A376I7D7 Transcriptional activator n=2 Tax=Enterobac...  165     2e-50
+  UniRef90_A0A0K4FMH2 Transcriptional activator n=16 Tax=Bacteria...  165     2e-50
+  UniRef90_A0A2Y4J357 DNA-binding transcriptional activator CaiF ...  165     2e-50
+  UniRef90_D4BF23 Transcriptional activatory protein CaiF n=133 T...  164     3e-50
+  UniRef90_E3G9M8 DNA-binding transcriptional activator CaiF n=2 ...  164     4e-50
+  UniRef90_B7LWM5 Transcriptional activator n=11 Tax=Escherichia ...  164     5e-50
+  UniRef90_A0A1Q5V719 CaiF/GrlA family transcriptional regulator ...  164     6e-50
+  UniRef90_L0M8W9 Uncharacterized protein n=3 Tax=Enterobacteriac...  160     1e-48
+  UniRef90_G9Z705 Transcriptional activatory protein CaiF n=2 Tax...  160     1e-48
+  UniRef90_A0A356D9Z1 CaiF/GrlA family transcriptional regulator ...  159     3e-48
+  UniRef90_A0A379FA98 DNA-binding transcriptional activator CaiF ...  158     5e-48
+  UniRef90_A0A2A2MAB3 CaiF/GrlA family transcriptional regulator ...  158     5e-48
+  UniRef90_A0A0G4Q7A4 DNA-binding transcriptional activator CaiF ...  158     6e-48
+  UniRef90_A0A1B7JPY6 Transcriptional activator n=1 Tax=Providenc...  158     7e-48
+  UniRef90_A0A370YUI9 Carnitine metabolism transcriptional regula...  158     8e-48
+  UniRef90_A0A1B8SNJ9 CaiF/GrlA family transcriptional regulator ...  158     1e-47
+  UniRef90_D2TGM1 Transcriptional activator n=1 Tax=Citrobacter r...  158     1e-47
+  UniRef90_A0A1Z1SR09 CaiF/GrlA family transcriptional regulator ...  158     1e-47
+  UniRef90_A0A2X4XQP0 DNA-binding transcriptional activator CaiF ...  157     2e-47
+  UniRef90_A0A0V9JB63 Transcriptional regulator n=1 Tax=Citrobact...  157     2e-47
+  UniRef90_A0A381H9C6 DNA-binding transcriptional activator CaiF ...  156     6e-47
+  UniRef90_S3K6Q7 Transcriptional activatory protein CaiF n=1 Tax...  156     7e-47
+  UniRef90_A0A2J9GWB3 CaiF/GrlA family transcriptional regulator ...  156     8e-47
+  UniRef90_UPI00073D5793 carnitine metabolism transcriptional reg...  154     2e-46
+  UniRef90_W3YDM8 Transcriptional activatory protein CaiF n=1 Tax...  153     5e-46
+  UniRef90_A0A2Y9TWB0 CaiF/GrlA family transcriptional regulator ...  152     1e-45
+  UniRef90_UPI000D56F171 carnitine metabolism transcriptional reg...  150     1e-44
+  UniRef90_UPI000F670F1C carnitine metabolism transcriptional reg...  150     2e-44
+  UniRef90_UPI0004687EA6 carnitine metabolism transcriptional reg...  146     7e-43
+  UniRef90_A0A370R3E7 Transcriptional activator CaiF n=1 Tax=Ente...  143     7e-42
+  UniRef90_A0A076LFD7 Transcriptional activatory protein CaiF n=5...  142     3e-41
+  UniRef90_A0A376D9P4 DNA-binding transcriptional activator CaiF ...  142     5e-41
+  UniRef90_I2BCX8 Transcriptional activatory protein CaiF n=1 Tax...  138     1e-39
+  UniRef90_A0A2C6DV90 CaiF/GrlA family transcriptional regulator ...  131     4e-37
+  UniRef90_UPI0007A5EF49 carnitine metabolism transcriptional reg...  130     8e-37
+  UniRef90_A0A376VNX0 Transcriptional activator n=1 Tax=Escherich...  124     1e-34
+  UniRef90_UPI0007A04BFB carnitine metabolism transcriptional reg...  114     1e-30
+  UniRef90_A0A386QBJ2 Carnitine metabolism transcriptional regula...  109     1e-28
+  UniRef90_UPI0009AC1CFE CaiF/GrlA family transcriptional regulat...  109     6e-28
+  UniRef90_UPI0003BD7FFD CaiF/GrlA family transcriptional regulat...  108     1e-27
+  UniRef90_A0A3J7U0U4 CaiF/GrlA family transcriptional regulator ...  108     1e-27
+  UniRef90_A0A1S0Z5D0 CaiF/GrlA family transcriptional regulator ...  106     7e-27
+  UniRef90_A0A3K5RGS3 CaiF/GrlA family transcriptional regulator ...  105     2e-26
+  UniRef90_A0A370W6X2 CaiF/GrlA family transcriptional regulator ...  105     3e-26
+  UniRef90_A0A376YF46 Transcriptional activator n=1 Tax=Escherich...  101     4e-26
+  UniRef90_A0A1S0ZIZ2 CaiF/GrlA family transcriptional regulator ...  104     6e-26
+  UniRef90_V1X3K1 Uncharacterized protein n=1 Tax=Salmonella ente...  103     1e-25
+  UniRef90_UPI0005CD21A3 CaiF/GrlA family transcriptional regulat...  102     3e-25
+  UniRef90_UPI0008FC8274 CaiF/GrlA family transcriptional regulat...  101     6e-25
+  UniRef90_A0A370WEP7 CaiF/GrlA family transcriptional regulator ...  101     7e-25
+  UniRef90_A0A3I9RBH7 CaiF/GrlA family transcriptional regulator ...  101     7e-25
+  UniRef90_A0A357SMC7 CaiF/GrlA family transcriptional regulator ...  99.3    4e-24
+  UniRef90_A0A1V8NS53 CaiF/GrlA family transcriptional regulator ...  97.4    2e-23
+  UniRef90_UPI000F462F7C CaiF/GrlA family transcriptional regulat...  97.0    3e-23
+  UniRef90_A0A1Z3QE56 CaiF/GrlA family transcriptional regulator ...  97.4    4e-23
+  UniRef90_A0A0J8YBF8 Uncharacterized protein n=1 Tax=bacteria sy...  95.4    8e-23
+  UniRef90_UPI0009EC3C5F CaiF/GrlA family transcriptional regulat...  95.1    1e-22
+  UniRef90_A0A2S9I9Z4 Uncharacterized protein n=2 Tax=Bacteria Ta...  94.7    2e-22
+  UniRef90_UPI0009AF2FF1 CaiF/GrlA family transcriptional regulat...  95.1    2e-22
+  UniRef90_A0A3K9D7T9 CaiF/GrlA family transcriptional regulator ...  95.1    2e-22
+  UniRef90_A0A2I0FWA3 LEE type III secretion system transcription...  94.7    2e-22
+  UniRef90_A0A344SUE9 CaiF/GrlA family transcriptional regulator ...  95.1    2e-22
+  UniRef90_UPI0009EA88FD hypothetical protein n=1 Tax=Salmonella ...  93.9    3e-22
+  UniRef90_UPI0009489D99 CaiF/GrlA family transcriptional regulat...  94.3    3e-22
+  UniRef90_A0A1S0ZUG9 Positive regulator GrlA n=12 Tax=Salmonella...  94.3    3e-22
+  UniRef90_A0A1S0Z697 CaiF/GrlA family transcriptional regulator ...  94.7    3e-22
+  UniRef90_A0A3H7LQY2 CaiF/GrlA family transcriptional regulator ...  94.7    3e-22
+  UniRef90_V1XJK6 Uncharacterized protein n=3 Tax=Salmonella ente...  93.9    4e-22
+  UniRef90_A0A1V8NT84 Uncharacterized protein n=1 Tax=Citrobacter...  93.9    5e-22
+  UniRef90_A0A3I3BBR9 CaiF/GrlA family transcriptional regulator ...  93.9    6e-22
+  UniRef90_A0A3J5X4X2 CaiF/GrlA family transcriptional regulator ...  93.9    7e-22
+  UniRef90_UPI0009834816 CaiF/GrlA family transcriptional regulat...  94.3    7e-22
+  UniRef90_A0A3I4VSY4 CaiF/GrlA family transcriptional regulator ...  93.9    7e-22
+  UniRef90_A0A379RGM1 Positive regulator GrlA n=2 Tax=Salmonella ...  93.5    7e-22
+  UniRef90_A0A3I4GRZ3 CaiF/GrlA family transcriptional regulator ...  93.5    8e-22
+  UniRef90_A0A344QQU7 CaiF/GrlA family transcriptional regulator ...  93.1    9e-22
+  UniRef90_A0A1V8P0R2 Uncharacterized protein n=1 Tax=Citrobacter...  92.7    1e-21
+  UniRef90_UPI0009ACFF28 CaiF/GrlA family transcriptional regulat...  93.1    1e-21
+  UniRef90_UPI000A195E5A CaiF/GrlA family transcriptional regulat...  92.7    1e-21
+  UniRef90_UPI0009E687B1 hypothetical protein n=1 Tax=Salmonella ...  91.6    2e-21
+  UniRef90_UPI0009AF5FD6 CaiF/GrlA family transcriptional regulat...  92.4    2e-21
+  UniRef90_A0A3K5RHI6 CaiF/GrlA family transcriptional regulator ...  91.6    2e-21
+  UniRef90_UPI000A0353F0 CaiF/GrlA family transcriptional regulat...  93.1    2e-21
+  UniRef90_UPI00098AA7A0 CaiF/GrlA family transcriptional regulat...  91.2    3e-21
+  UniRef90_A0A379RJK4 Positive regulator GrlA n=4 Tax=Salmonella ...  92.4    3e-21
+  UniRef90_UPI000C7DE957 CaiF/GrlA family transcriptional regulat...  92.0    3e-21
+  UniRef90_A0A344QL75 Uncharacterized protein n=1 Tax=Salmonella ...  92.0    3e-21
+  UniRef90_A0A3I6PE72 CaiF/GrlA family transcriptional regulator ...  91.6    3e-21
+  UniRef90_A0A344S6S2 CaiF/GrlA family transcriptional regulator ...  91.6    5e-21
+  UniRef90_A0A0U0WKH4 DNA-binding transcriptional activator CaiF ...  91.6    6e-21
+  UniRef90_A0A379TW44 Positive regulator GrlA n=1 Tax=Salmonella ...  91.6    6e-21
+  UniRef90_V1HUR9 Uncharacterized protein n=2 Tax=Salmonella ente...  91.2    6e-21
+  UniRef90_UPI000A114B0C CaiF/GrlA family transcriptional regulat...  90.8    6e-21
+  UniRef90_A0A344S680 CaiF/GrlA family transcriptional regulator ...  91.2    7e-21
+  UniRef90_A0A1V8NS41 Uncharacterized protein n=1 Tax=Citrobacter...  90.8    8e-21
+  UniRef90_A0A2X2BJK0 DNA-binding transcriptional activator CaiF ...  87.7    9e-21
+  UniRef90_V1XSW2 Uncharacterized protein (Fragment) n=24 Tax=Sal...  90.4    1e-20
+  UniRef90_A0A2S4RXS0 Uncharacterized protein n=1 Tax=Citrobacter...  91.2    1e-20
+  UniRef90_UPI0008A81776 CaiF/GrlA family transcriptional regulat...  90.4    1e-20
+  UniRef90_A0A3I4G8A3 CaiF/GrlA family transcriptional regulator ...  90.8    1e-20
+  UniRef90_UPI0009AC50E5 CaiF/GrlA family transcriptional regulat...  90.0    1e-20
+  UniRef90_UPI0002BACC97 CaiF/GrlA family transcriptional regulat...  90.4    1e-20
+  UniRef90_A0A344SNY1 CaiF/GrlA family transcriptional regulator ...  90.4    1e-20
+  UniRef90_A0A379RDF6 Positive regulator GrlA n=10 Tax=Salmonella...  90.4    1e-20
+  UniRef90_A0A2I5HKV3 CaiF/GrlA family transcriptional regulator ...  90.4    1e-20
+  UniRef90_A0A344SG28 CaiF/GrlA family transcriptional regulator ...  90.0    2e-20
+  UniRef90_A0A1Z3Q8Q1 CaiF/GrlA family transcriptional regulator ...  90.0    2e-20
+  UniRef90_A0A3J2E6A9 Type III secretion system LEE transcription...  88.5    2e-20
+  UniRef90_V1H8M3 Uncharacterized protein n=5 Tax=Enterobacteriac...  90.0    2e-20
+  UniRef90_A0A2S4Q9Z6 CaiF/GrlA family transcriptional regulator ...  89.3    3e-20
+  UniRef90_A0A344QLK8 CaiF/GrlA family transcriptional regulator ...  89.7    3e-20
+  UniRef90_UPI0009AE9C33 CaiF/GrlA family transcriptional regulat...  89.7    3e-20
+  UniRef90_UPI0003EB37B7 CaiF/GrlA family transcriptional regulat...  88.9    3e-20
+  UniRef90_I3W313 Uncharacterized protein n=3 Tax=Salmonella TaxI...  89.3    3e-20
+  UniRef90_A0A3L7M3P9 CaiF/GrlA family transcriptional regulator ...  88.9    7e-20
+  UniRef90_A0A0K0H7R5 Uncharacterized protein n=5 Tax=Salmonella ...  88.1    8e-20
+  UniRef90_A0A3K9F0X0 Uncharacterized protein n=1 Tax=Salmonella ...  87.3    9e-20
+  UniRef90_UPI0005E4454D CaiF/GrlA family transcriptional regulat...  87.7    1e-19
+  UniRef90_UPI00071ACFD2 CaiF/GrlA family transcriptional regulat...  87.7    1e-19
+  UniRef90_A0A1X2RHN1 Uncharacterized protein n=2 Tax=Salmonella ...  88.1    1e-19
+  UniRef90_A0A376SUV6 Transcriptional activator n=1 Tax=Escherich...  85.0    1e-19
+  UniRef90_UPI000779E225 CaiF/GrlA family transcriptional regulat...  88.1    1e-19
+  UniRef90_A0A241PXI4 Uncharacterized protein n=8 Tax=Salmonella ...  87.0    1e-19
+  UniRef90_O52133 DNA-binding transcriptional activator CaiF n=14...  87.0    1e-19
+  UniRef90_A0A3J2NJP7 CaiF/GrlA family transcriptional regulator ...  87.3    2e-19
+  UniRef90_A0A3I6KHJ9 CaiF/GrlA family transcriptional regulator ...  87.7    2e-19
+  UniRef90_V1YLD1 Uncharacterized protein n=1 Tax=Salmonella ente...  87.7    2e-19
+  UniRef90_A0A1V8NT90 CaiF/GrlA family transcriptional regulator ...  87.7    2e-19
+  UniRef90_A0A379SF79 Positive regulator GrlA n=1 Tax=Salmonella ...  87.3    2e-19
+  UniRef90_A0A379UUH6 Positive regulator GrlA n=1 Tax=Salmonella ...  87.3    2e-19
+  UniRef90_I3W324 Uncharacterized protein n=2 Tax=Salmonella TaxI...  87.0    2e-19
+  UniRef90_A0A2I5HQ23 CaiF/GrlA family transcriptional regulator ...  87.3    2e-19
+  UniRef90_A0A0T7NVV9 Protein of uncharacterized function (DUF140...  86.6    3e-19
+  UniRef90_A0A1V8NRZ0 CaiF/GrlA family transcriptional regulator ...  87.3    3e-19
+  UniRef90_UPI000ABAA9C4 CaiF/GrlA family transcriptional regulat...  86.2    3e-19
+  UniRef90_A0A2I8S9X6 CaiF/GrlA family transcriptional regulator ...  86.6    3e-19
+  UniRef90_A0A381GFB3 GrlA, global regulator of LEE activator n=8...  85.8    3e-19
+  UniRef90_A0A2S4QC98 CaiF/GrlA family transcriptional regulator ...  86.2    3e-19
+  UniRef90_A0A3I2QFT3 CaiF/GrlA family transcriptional regulator ...  86.6    4e-19
+  UniRef90_A0A241PXM1 Uncharacterized protein n=9 Tax=Salmonella ...  86.2    4e-19
+  UniRef90_A0A3K9EVM7 Uncharacterized protein n=3 Tax=Salmonella ...  85.8    4e-19
+  UniRef90_UPI0009E2AA6A CaiF/GrlA family transcriptional regulat...  86.2    5e-19
+  UniRef90_A0A344QNP7 Uncharacterized protein n=1 Tax=Salmonella ...  85.4    5e-19
+  UniRef90_UPI000F7B3000 CaiF/GrlA family transcriptional regulat...  83.9    7e-19
+  UniRef90_UPI0009AF9FC5 hypothetical protein n=2 Tax=Salmonella ...  85.0    7e-19
+  UniRef90_A0A1S0ZP12 Uncharacterized protein n=7 Tax=Salmonella ...  84.7    8e-19
+  UniRef90_UPI0009A99054 CaiF/GrlA family transcriptional regulat...  85.8    8e-19
+  UniRef90_UPI0009B099E2 CaiF/GrlA family transcriptional regulat...  85.4    9e-19
+  UniRef90_UPI0009AE0C70 CaiF/GrlA family transcriptional regulat...  85.4    9e-19
+  UniRef90_UPI0009079FD9 CaiF/GrlA family transcriptional regulat...  85.4    9e-19
+  UniRef90_UPI00046F2EA0 CaiF/GrlA family transcriptional regulat...  85.8    1e-18
+  UniRef90_UPI000CFC6356 CaiF/GrlA family transcriptional regulat...  83.5    1e-18
+  UniRef90_A0A1X2REM7 CaiF/GrlA family transcriptional regulator ...  83.5    1e-18
+  UniRef90_UPI000DDD6E2D CaiF/GrlA family transcriptional regulat...  84.7    2e-18
+  UniRef90_A0A1J4R6B9 Uncharacterized protein n=1 Tax=Salmonella ...  83.9    2e-18
+  UniRef90_UPI00092F0538 CaiF/GrlA family transcriptional regulat...  84.7    2e-18
+  UniRef90_UPI0006D49FF3 CaiF/GrlA family transcriptional regulat...  84.7    2e-18
+  UniRef90_A0A0T9NGB4 Protein of uncharacterized function (DUF140...  84.3    2e-18
+  UniRef90_UPI000B76BBA0 CaiF/GrlA family transcriptional regulat...  84.7    2e-18
+  UniRef90_UPI000C349D5E type III secretion system LEE transcript...  83.1    3e-18
+  UniRef90_UPI0009B51666 CaiF/GrlA family transcriptional regulat...  84.7    4e-18
+  UniRef90_UPI000B9FEA64 hypothetical protein n=1 Tax=Salmonella ...  82.7    5e-18
+  UniRef90_V1WYS3 Uncharacterized protein n=2 Tax=Salmonella ente...  83.1    7e-18
+  UniRef90_A0A376DJL7 DNA-binding transcriptional activator CaiF ...  83.1    8e-18
+  UniRef90_UPI0009A95FBC CaiF/GrlA family transcriptional regulat...  80.8    1e-17
+  UniRef90_UPI000DFC74B0 CaiF/GrlA family transcriptional regulat...  84.7    1e-17
+  UniRef90_UPI0002AF419A CaiF/GrlA family transcriptional regulat...  82.3    2e-17
+  UniRef90_A0A379SEP9 Positive regulator GrlA n=1 Tax=Salmonella ...  82.3    2e-17
+  UniRef90_A0A370W6K4 CaiF/GrlA family transcriptional regulator ...  81.6    3e-17
+  UniRef90_UPI000F615373 CaiF/GrlA family transcriptional regulat...  82.3    3e-17
+  UniRef90_UPI000E03D496 CaiF/GrlA family transcriptional regulat...  81.2    4e-17
+  UniRef90_V1WGM3 Transcription regulator CaiF n=1 Tax=Salmonella...  80.8    6e-17
+  UniRef90_A0A0M3EC72 Uncharacterized protein n=3 Tax=Proteobacte...  80.8    7e-17
+  UniRef90_UPI000E1B71C6 CaiF/GrlA family transcriptional regulat...  79.3    8e-17
+  UniRef90_A0A379SED7 Transcriptional activator CaiF n=1 Tax=Salm...  80.4    8e-17
+  UniRef90_A0A3J4SVV0 CaiF/GrlA family transcriptional regulator ...  80.4    9e-17
+  UniRef90_A0A3I8DQV1 CaiF/GrlA family transcriptional regulator ...  80.0    1e-16
+  UniRef90_UPI000D382325 HTH domain-containing protein n=1 Tax=Ae...  78.5    2e-16
+  UniRef90_E3GCC9 Transcription regulator CaiF n=3 Tax=Enterobact...  79.3    3e-16
+  UniRef90_A0A3F3IFT7 Uncharacterized protein n=2 Tax=Salmonella ...  78.5    3e-16
+  UniRef90_I3W488 Uncharacterized protein n=2 Tax=Salmonella ente...  78.9    3e-16
+  UniRef90_UPI0009AEEB08 CaiF/GrlA family transcriptional regulat...  78.5    5e-16
+  UniRef90_Q7N9P5 Uncharacterized protein n=16 Tax=Photorhabdus T...  78.5    7e-16
+  UniRef90_UPI00065134E3 CaiF/GrlA family transcriptional regulat...  78.1    7e-16
+  UniRef90_E3PBM0 Uncharacterized protein n=16 Tax=Escherichia Ta...  78.5    7e-16
+  UniRef90_A0A2S3SSD5 CaiF/GrlA family transcriptional regulator ...  76.2    9e-16
+  UniRef90_A0A381G6G0 GrlA, global regulator of LEE activator n=8...  77.7    1e-15
+  UniRef90_UPI00098334B4 CaiF/GrlA family transcriptional regulat...  76.6    1e-15
+  UniRef90_A0A387CMS0 CaiF/GrlA family transcriptional regulator ...  77.3    2e-15
+  UniRef90_A0A241PX86 Uncharacterized protein n=1 Tax=Salmonella ...  77.7    2e-15
+  UniRef90_A0A022PIM7 Uncharacterized protein n=8 Tax=Photorhabdu...  76.9    2e-15
+  UniRef90_A0A3G9HM52 Uncharacterized protein n=1 Tax=Serratia ma...  77.3    2e-15
+  UniRef90_UPI0008FCE0ED CaiF/GrlA family transcriptional regulat...  76.6    2e-15
+  UniRef90_B6VM37 Uncharacterized protein n=2 Tax=Photorhabdus Ta...  76.6    3e-15
+  UniRef90_A0A2X2BNJ6 DNA-binding transcriptional activator CaiF ...  73.9    3e-15
+  UniRef90_A0A3K7AJC4 CaiF/GrlA family transcriptional regulator ...  76.6    4e-15
+  UniRef90_UPI0006ACD227 CaiF/GrlA family transcriptional regulat...  76.2    4e-15
+  UniRef90_UPI0008FEF943 CaiF/GrlA family transcriptional regulat...  75.4    4e-15
+  UniRef90_A0A0Q4MGM1 Uncharacterized protein n=2 Tax=Erwiniaceae...  74.6    5e-15
+  UniRef90_UPI0008FC2DD2 CaiF/GrlA family transcriptional regulat...  74.3    5e-15
+  UniRef90_A0A120M2K4 CaiF/GrlA family transcriptional regulator ...  75.8    6e-15
+  UniRef90_A0A3K9A2R2 CaiF/GrlA family transcriptional regulator ...  73.9    6e-15
+  UniRef90_UPI0009BFF03D CaiF/GrlA family transcriptional regulat...  75.0    9e-15
+  UniRef90_UPI0009BDBB34 CaiF/GrlA family transcriptional regulat...  74.6    1e-14
+  UniRef90_A0A1X2RIZ5 Uncharacterized protein n=1 Tax=Salmonella ...  73.9    1e-14
+  UniRef90_A0A376I5N3 Positive regulator GrlA n=3 Tax=Enterobacte...  74.3    2e-14
+  UniRef90_A0A2S5C344 Uncharacterized protein n=1 Tax=Lelliottia ...  73.5    3e-14
+  UniRef90_UPI000F78A609 CaiF/GrlA family transcriptional regulat...  71.6    3e-14
+  UniRef90_H2IRN9 Uncharacterized protein n=2 Tax=Rahnella aquati...  73.9    3e-14
+  UniRef90_A0A377CX13 DNA-binding transcriptional activator CaiF ...  73.1    3e-14
+  UniRef90_UPI000B507ADF CaiF/GrlA family transcriptional regulat...  73.9    4e-14
+  UniRef90_A0A1Z3Q5D4 Uncharacterized protein n=2 Tax=Salmonella ...  72.3    5e-14
+  UniRef90_A0A0L0GWM7 Uncharacterized protein (Fragment) n=1 Tax=...  71.9    8e-14
+  UniRef90_Q9F504 CaiF/GrlA family transcriptional regulator n=77...  73.1    8e-14
+  UniRef90_UPI0005DED56D CaiF/GrlA family transcriptional regulat...  73.5    8e-14
+  UniRef90_A0A3F3I8N5 Uncharacterized protein n=1 Tax=Salmonella ...  73.1    8e-14
+  UniRef90_UPI0006938F4A CaiF/GrlA family transcriptional regulat...  73.1    1e-13
+  UniRef90_UPI0009AE6F52 CaiF/GrlA family transcriptional regulat...  70.8    1e-13
+  UniRef90_UPI000B5EFF4A CaiF/GrlA family transcriptional regulat...  73.1    1e-13
+  UniRef90_UPI0005B61804 CaiF/GrlA family transcriptional regulat...  71.2    2e-13
+  UniRef90_UPI0009B2CC0F CaiF/GrlA family transcriptional regulat...  73.5    2e-13
+  UniRef90_A0A3I4XHI9 CaiF/GrlA family transcriptional regulator ...  71.9    2e-13
+  UniRef90_A0A1C0U8C7 DNA-binding transcriptional activator CaiF ...  71.6    3e-13
+  UniRef90_UPI0009BBE200 CaiF/GrlA family transcriptional regulat...  70.0    3e-13
+  UniRef90_A0A223JYE4 CaiF/GrlA family transcriptional regulator ...  71.2    3e-13
+  UniRef90_UPI000469A7A1 CaiF/GrlA family transcriptional regulat...  71.2    5e-13
+  UniRef90_A0A377VQ36 Uncharacterized protein n=1 Tax=Klebsiella ...  70.0    6e-13
+  UniRef90_W0BPA3 Uncharacterized protein n=2 Tax=Enterobacter cl...  70.8    6e-13
+  UniRef90_A0A3K3VPH4 CaiF/GrlA family transcriptional regulator ...  70.4    6e-13
+  UniRef90_A0A379SHU5 Putative inner membrane protein n=2 Tax=Sal...  70.4    8e-13
+  UniRef90_UPI0009B27664 CaiF/GrlA family transcriptional regulat...  68.9    1e-12
+  UniRef90_A0A3H5ZR93 Uncharacterized protein n=2 Tax=Salmonella ...  67.7    2e-12
+  UniRef90_UPI000F866946 CaiF/GrlA family transcriptional regulat...  68.1    3e-12
+  UniRef90_UPI0009EF2C64 CaiF/GrlA family transcriptional regulat...  68.9    3e-12
+  UniRef90_UPI00077FCCC4 CaiF/GrlA family transcriptional regulat...  68.5    3e-12
+  UniRef90_A0A370V5J4 Uncharacterized protein n=4 Tax=Enterobacte...  68.5    4e-12
+  UniRef90_UPI000935DC03 CaiF/GrlA family transcriptional regulat...  67.7    4e-12
+  UniRef90_UPI000E64C678 CaiF/GrlA family transcriptional regulat...  67.3    5e-12
+  UniRef90_H9TI96 Uncharacterized protein n=1 Tax=Salmonella ente...  65.8    1e-11
+  UniRef90_I2WQ96 Transcriptional activatory protein CaiF n=1 Tax...  64.2    2e-11
+  UniRef90_G2SDB3 Uncharacterized protein n=2 Tax=Enterobacter Ta...  66.2    2e-11
+  UniRef90_A0A336QWK2 DNA-binding transcriptional activator CaiF ...  66.5    2e-11
+  UniRef90_UPI0009DEED86 CaiF/GrlA family transcriptional regulat...  67.7    2e-11
+  UniRef90_UPI0009A9AE23 CaiF/GrlA family transcriptional regulat...  66.2    2e-11
+  UniRef90_UPI00083CD655 CaiF/GrlA family transcriptional regulat...  66.2    2e-11
+  UniRef90_A0A3K0R8L9 CaiF/GrlA family transcriptional regulator ...  66.5    2e-11
+  UniRef90_UPI000BE1BD2E CaiF/GrlA family transcriptional regulat...  65.4    7e-11
+  UniRef90_UPI0008FD6835 CaiF/GrlA family transcriptional regulat...  64.6    7e-11
+  UniRef90_UPI000F86A694 CaiF/GrlA family transcriptional regulat...  63.5    8e-11
+  UniRef90_A0A2X2QBX9 DNA-binding transcriptional activator CaiF ...  63.9    3e-10
+  UniRef90_UPI000CFC075F CaiF/GrlA family transcriptional regulat...  61.5    4e-10
+  UniRef90_A0A109Z433 CaiF/GrlA family transcriptional regulator ...  62.3    4e-10
+  UniRef90_UPI000CDADB22 CaiF/GrlA family transcriptional regulat...  62.7    1e-09
+  UniRef90_UPI00069FBE29 CaiF/GrlA family transcriptional regulat...  61.2    2e-09
+  UniRef90_I3W2Z8 Uncharacterized protein n=1 Tax=Salmonella sp. ...  53.1    7e-07
+  UniRef90_UPI000C1A58B9 CaiF/GrlA family transcriptional regulat...  53.1    7e-07
+  UniRef90_G5LIN0 Transcriptional activatory protein CaiF n=1 Tax...  47.3    4e-05
+  UniRef90_A0A3K6EGK8 CaiF/GrlA family transcriptional regulator ...  48.4    7e-05
+  UniRef90_A0A2X1L0A0 Transcriptional activator n=1 Tax=Escherich...  43.1    0.001
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A3E2E9A2 CaiF/GrlA family transcriptional regulator ...  83.1    8e-18
+  UniRef90_A0A2S4RXS1 CaiF/GrlA family transcriptional regulator ...  81.6    3e-17
+  UniRef90_A0A0M3EFH9 Uncharacterized protein n=1 Tax=Vibrio para...  73.5    3e-14
+  UniRef90_A0A344S4X3 Uncharacterized protein n=2 Tax=Salmonella ...  71.9    9e-14
+  UniRef90_UPI000F65975A CaiF/GrlA family transcriptional regulat...  71.9    2e-13
+  UniRef90_Q9EUK8 Uncharacterized protein n=51 Tax=Gammaproteobac...  68.5    4e-12
+  UniRef90_UPI0007E99F70 CaiF/GrlA family transcriptional regulat...  65.8    2e-11
+  UniRef90_UPI0009A4D21D CaiF/GrlA family transcriptional regulat...  63.1    6e-10
+  UniRef90_A0A1S6KRE2 Orf10 n=1 Tax=Salmonella enteritidis TaxID=...  62.3    6e-10
+  UniRef90_UPI000CFE33F1 CaiF/GrlA family transcriptional regulat...  61.9    9e-10
+  UniRef90_A0A3E2EPJ1 CaiF/GrlA family transcriptional regulator ...  61.5    1e-09
+  UniRef90_A0A3G9H5W2 Uncharacterized protein n=2 Tax=Serratia ma...  60.8    2e-09
+  UniRef90_UPI0009AC57E8 CaiF/GrlA family transcriptional regulat...  58.8    1e-08
+  UniRef90_UPI0005A4F9F0 CaiF/GrlA family transcriptional regulat...  58.1    2e-08
+  UniRef90_UPI00035D396D CaiF/GrlA family transcriptional regulat...  60.4    3e-08
+  UniRef90_A0A344QMX4 Uncharacterized protein n=1 Tax=Salmonella ...  56.9    3e-08
+  UniRef90_UPI000DD4CD15 CaiF/GrlA family transcriptional regulat...  57.7    4e-08
+  UniRef90_A0A3L7M3M1 Uncharacterized protein n=1 Tax=Salmonella ...  56.9    4e-08
+  UniRef90_UPI000467CC80 hypothetical protein n=1 Tax=Salmonella ...  55.8    2e-07
+  UniRef90_A0A2Y0NZL4 Uncharacterized protein n=2 Tax=Escherichia...  56.1    2e-07
+  UniRef90_UPI000246E922 hypothetical protein n=2 Tax=Escherichia...  55.4    2e-07
+  UniRef90_A0A2U3ERQ3 Uncharacterized protein n=2 Tax=Enterobacte...  53.8    8e-07
+  UniRef90_UPI000DD08634 hypothetical protein n=1 Tax=Aeromonas v...  53.5    1e-06
+  UniRef90_D0ZEM3 Uncharacterized protein n=10 Tax=Edwardsiella t...  55.8    1e-06
+  UniRef90_A0A2S5FG61 Uncharacterized protein n=1 Tax=Aeromonas j...  53.1    2e-06
+  UniRef90_A0A291U2E0 Uncharacterized protein n=1 Tax=Aeromonas s...  52.3    3e-06
+  UniRef90_A0A2S5F5G2 Uncharacterized protein n=1 Tax=Aeromonas j...  51.9    5e-06
+  UniRef90_A0A376KXU0 Uncharacterized protein n=6 Tax=Enterobacte...  50.8    6e-06
+  UniRef90_UPI0009E25715 hypothetical protein n=1 Tax=Aeromonas p...  51.1    7e-06
+  UniRef90_A0A3I7PSN4 Uncharacterized protein n=1 Tax=Salmonella ...  50.8    2e-05
+  UniRef90_A0A179TBQ2 Uncharacterized protein n=4 Tax=Escherichia...  50.4    2e-05
+  UniRef90_A0A1X2RKP2 Uncharacterized protein n=2 Tax=Salmonella ...  48.8    4e-05
+  UniRef90_V1X4X3 Uncharacterized protein n=10 Tax=Salmonella ent...  46.5    2e-04
+  UniRef90_A0A3J4SVT6 Uncharacterized protein n=4 Tax=Salmonella ...  47.3    2e-04
+  UniRef90_A0A1S2D791 Uncharacterized protein n=2 Tax=Aeromonas T...  46.5    4e-04
+  UniRef90_UPI0009078627 hypothetical protein n=1 Tax=Escherichia...  44.6    7e-04
+  UniRef90_A0A1V8NT96 Uncharacterized protein n=1 Tax=Citrobacter...  45.7    7e-04
+  UniRef90_UPI0009E56BDB hypothetical protein n=1 Tax=Aeromonas p...  45.7    8e-04
+  UniRef90_A0A1V8NRJ9 Uncharacterized protein n=1 Tax=Citrobacter...  45.4    9e-04
+  UniRef90_A0A3H8X0C8 Uncharacterized protein n=1 Tax=Salmonella ...  45.7    0.001
+  UniRef90_UPI0007605933 hypothetical protein n=1 Tax=Aeromonas h...  45.0    0.001
+  UniRef90_UPI000F712326 hypothetical protein n=1 Tax=Salmonella ...  45.4    0.002
+  UniRef90_UPI00071AB206 hypothetical protein n=1 Tax=Salmonella ...  44.2    0.002
+  UniRef90_V1XAT6 Uncharacterized protein n=3 Tax=Salmonella ente...  44.2    0.002
+  UniRef90_A0A344SG20 Uncharacterized protein n=1 Tax=Salmonella ...  44.2    0.002
+  UniRef90_UPI0009AF0CCE hypothetical protein n=1 Tax=Salmonella ...  43.8    0.003
+  UniRef90_UPI000892F2C3 hypothetical protein n=1 Tax=Aeromonas h...  43.8    0.003
+  UniRef90_A0A2M8H991 Uncharacterized protein n=3 Tax=Aeromonas T...  43.1    0.004
+  UniRef90_A0A344QL97 Uncharacterized protein n=2 Tax=Salmonella ...  43.1    0.005
+  UniRef90_A0A344S6C9 Uncharacterized protein n=11 Tax=Salmonella...  43.1    0.005
+  UniRef90_A0A2P1PG13 Uncharacterized protein n=3 Tax=Aeromonas T...  43.1    0.005
+  UniRef90_UPI000E0E0EE5 CaiF/GrlA family transcriptional regulat...  44.6    0.005
+  UniRef90_A0A1V8NU15 Uncharacterized protein n=1 Tax=Citrobacter...  43.1    0.006
+  UniRef90_A0A3K9EVM6 Uncharacterized protein n=2 Tax=Salmonella ...  43.1    0.007
+  UniRef90_UPI000CD189D5 hypothetical protein n=1 Tax=Aeromonas s...  42.3    0.008
+  UniRef90_A0A1N6YPV9 Uncharacterized protein n=2 Tax=Aeromonas s...  42.7    0.010
+  UniRef90_A0A2R7PVK6 Uncharacterized protein n=4 Tax=Aeromonas T...  43.1    0.010
+  UniRef90_A0A2N3IYM1 Uncharacterized protein n=1 Tax=Aeromonas s...  42.7    0.011
+  UniRef90_A0A3J2QW19 Uncharacterized protein n=2 Tax=Salmonella ...  42.3    0.011
+  UniRef90_UPI0009E2647A hypothetical protein n=1 Tax=Aeromonas v...  42.3    0.017
+  UniRef90_A0A2T3NGN3 Uncharacterized protein n=1 Tax=Photobacter...  41.5    0.032
+  UniRef90_UPI000DCF9899 hypothetical protein n=1 Tax=Aeromonas a...  41.5    0.037
+  UniRef90_K1JCD9 Uncharacterized protein n=1 Tax=Aeromonas veron...  40.7    0.037
+  UniRef90_UPI0009ACEBE3 hypothetical protein n=1 Tax=Salmonella ...  40.0    0.051
+  UniRef90_A0A3N6VM13 Uncharacterized protein n=1 Tax=Aeromonas j...  40.7    0.060
+  UniRef90_UPI000D582C3B hypothetical protein n=1 Tax=Plesiomonas...  40.4    0.060
+  UniRef90_UPI0009B83895 hypothetical protein n=1 Tax=Aeromonas h...  40.7    0.065
+  UniRef90_A0A344SI89 Uncharacterized protein n=1 Tax=Salmonella ...  40.4    0.089
+  UniRef90_A0A261E9E4 Uncharacterized protein n=3 Tax=Aeromonas T...  39.2    0.22 
+  UniRef90_UPI0005A6FDB1 hypothetical protein n=1 Tax=Aeromonas e...  39.2    0.26 
+  UniRef90_UPI0009AEB4B2 hypothetical protein n=1 Tax=Carboxydoce...  40.4    0.27 
+  UniRef90_UPI0006900487 hypothetical protein n=1 Tax=Pectobacter...  40.4    0.27 
+  UniRef90_A0A2D5Y666 Ribonuclease R n=1 Tax=Micavibrio sp. TaxID...  39.6    0.52 
+  UniRef90_A0A3I9MNU7 Uncharacterized protein n=1 Tax=Salmonella ...  38.0    0.58 
+  UniRef90_UPI000EAB814E MarR family transcriptional regulator n=...  38.0    0.77 
+  UniRef90_A0A1M7ULD7 Xylose ABC transporter ATP-binding protein ...  38.8    0.87 
+  UniRef90_F2NDE4 LexA repressor n=2 Tax=Deltaproteobacteria TaxI...  38.4    1.0  
+  UniRef90_A0A1X7VVA1 Uncharacterized protein n=1 Tax=Amphimedon ...  38.4    1.1  
+  UniRef90_A0A1Q4MCI3 Uncharacterized protein n=4 Tax=Aeromonas s...  36.5    1.5  
+  UniRef90_A0A143HH12 Transcriptional regulator n=1 Tax=Rummeliib...  37.7    1.6  
+  UniRef90_A0A2N0UEC7 Uncharacterized protein n=2 Tax=Aeromonas T...  37.3    1.8  
+  UniRef90_G1VUB2 Uncharacterized protein n=2 Tax=Erysipelotricha...  38.0    1.8  
+  UniRef90_A0A3A5B1A9 LexA repressor n=1 Tax=Deltaproteobacteria ...  37.7    1.9  
+  UniRef90_A0A165KSB5 Uncharacterized protein n=1 Tax=Pseudoalter...  36.1    2.0  
+  UniRef90_A0A2X4NGD7 Uncharacterized protein n=6 Tax=Gammaproteo...  36.9    2.4  
+  UniRef90_A0A1N6YRE0 Uncharacterized protein n=7 Tax=Aeromonas T...  36.5    2.7  
+  UniRef90_A0A2M6ZMJ6 LexA repressor n=2 Tax=Deltaproteobacteria ...  36.9    2.9  
+  UniRef90_UPI000DCFF993 hypothetical protein n=1 Tax=Escherichia...  35.7    3.7  
+  UniRef90_A0A2S4U8T7 Uncharacterized protein n=1 Tax=Aeromonas s...  35.7    4.7  
+  UniRef90_UPI00051ADB3F hypothetical protein n=1 Tax=Aeromonas f...  35.3    4.8  
+  UniRef90_UPI000E5737F5 hypothetical protein n=1 Tax=Pseudoalter...  35.0    4.8  
+  UniRef90_G8S4T1 Arsenical resistance operon repressor n=1 Tax=A...  35.7    5.6  
+  UniRef90_K1ISX0 Uncharacterized protein n=1 Tax=Aeromonas veron...  35.7    6.1  
+  UniRef90_A0A2E0PJT9 Selenocysteine-specific translation elongat...  36.5    6.1  
+  UniRef90_A0A1H9AUM2 HTH domain-containing protein n=2 Tax=Ignav...  36.1    6.7  
+  UniRef90_A0A0N8TX13 Uncharacterized protein n=1 Tax=Pseudoalter...  34.6    7.5  
+  UniRef90_UPI0005DA007A hypothetical protein n=1 Tax=Aeromonas T...  35.0    8.2  
+  UniRef90_C4LBB6 Uncharacterized protein n=1 Tax=Tolumonas auens...  35.0    9.0  
+  UniRef90_UPI000589B226 hypothetical protein n=1 Tax=Escherichia...  34.6    9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 752105429845
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

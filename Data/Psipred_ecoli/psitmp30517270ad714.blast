@@ -1,0 +1,118 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415511.1
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAA6 Uncharacterized protein YmcE n=64 Tax=Enterobac...  155     2e-48
+  UniRef90_Q8XC17 Uncharacterized protein YmcE n=124 Tax=Enteroba...  149     8e-46
+  UniRef90_A0A3L3SJC8 Protein YmcE n=1 Tax=Escherichia coli TaxID...  145     1e-44
+  UniRef90_UPI000B7FA9BB cold-shock protein n=1 Tax=Escherichia c...  137     5e-41
+  UniRef90_A0A2T3RL94 Cold-shock protein n=7 Tax=Enterobacteriace...  135     2e-40
+  UniRef90_A0A2K0Q7U3 Cold-shock protein n=8 Tax=Enterobacterales...  131     1e-38
+  UniRef90_UPI000668DA37 cold-shock protein n=4 Tax=Enterobactera...  122     3e-35
+  UniRef90_UPI0008546070 cold-shock protein n=1 Tax=Escherichia c...  112     2e-31
+  UniRef90_UPI0002E0779A cold-shock protein n=1 Tax=Escherichia c...  111     7e-31
+  UniRef90_E1IPY9 Sfa family protein n=12 Tax=Escherichia coli Ta...  83.2    6e-20
+  UniRef90_A0A3J1GKN8 Uncharacterized protein n=1 Tax=Escherichia...  45.8    2e-05
+  UniRef90_A0A3L5AMG1 Uncharacterized protein n=1 Tax=Escherichia...  44.7    7e-05
+  UniRef90_UPI000D16E01E hypothetical protein n=2 Tax=Enterobacte...  43.5    4e-04
+  UniRef90_A0A383CTI0 Uncharacterized protein (Fragment) n=1 Tax=...  34.3    6.2  
+  UniRef90_A0A1M7H5T9 Arsenate reductase (Glutaredoxin) n=1 Tax=L...  34.3    6.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.142    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 751143050007
+Warning: [psiblast] lcl|Query_1 NP_415511.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415511.1
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P0AAA6 Uncharacterized protein YmcE n=64 Tax=Enterobac...  135     3e-40
+  UniRef90_Q8XC17 Uncharacterized protein YmcE n=124 Tax=Enteroba...  133     2e-39
+  UniRef90_A0A3L3SJC8 Protein YmcE n=1 Tax=Escherichia coli TaxID...  128     9e-38
+  UniRef90_A0A2T3RL94 Cold-shock protein n=7 Tax=Enterobacteriace...  126     7e-37
+  UniRef90_UPI000B7FA9BB cold-shock protein n=1 Tax=Escherichia c...  118     8e-34
+  UniRef90_A0A2K0Q7U3 Cold-shock protein n=8 Tax=Enterobacterales...  117     2e-33
+  UniRef90_UPI000668DA37 cold-shock protein n=4 Tax=Enterobactera...  104     3e-28
+  UniRef90_UPI0008546070 cold-shock protein n=1 Tax=Escherichia c...  102     2e-27
+  UniRef90_UPI0002E0779A cold-shock protein n=1 Tax=Escherichia c...  100     1e-26
+  UniRef90_E1IPY9 Sfa family protein n=12 Tax=Escherichia coli Ta...  75.8    4e-17
+  UniRef90_UPI000D16E01E hypothetical protein n=2 Tax=Enterobacte...  51.9    2e-07
+  UniRef90_A0A3J1GKN8 Uncharacterized protein n=1 Tax=Escherichia...  44.6    8e-05
+  UniRef90_A0A3L5AMG1 Uncharacterized protein n=1 Tax=Escherichia...  42.7    4e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1M7H5T9 Arsenate reductase (Glutaredoxin) n=1 Tax=L...  34.2    6.0  
+  UniRef90_A0A2P9DCW3 Uncharacterized protein n=1 Tax=Plasmodium ...  33.8    8.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.144    0.476    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0439    0.140     1.90     42.6     43.6 
+
+Effective search space used: 751143050007
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2007 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415090.2
+
+Length=136
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P77598 Uncharacterized protein YbcV n=77 Tax=Bacteria ...  280     8e-96
+  UniRef90_A0A0F3TJL1 DUF1398 domain-containing protein n=53 Tax=...  278     5e-95
+  UniRef90_A0A137D512 DUF1398 domain-containing protein n=93 Tax=...  256     3e-86
+  UniRef90_UPI000B4A1430 DUF1398 domain-containing protein n=1 Ta...  249     1e-83
+  UniRef90_A0A0E1LY07 Phage envelope protein n=13 Tax=Escherichia...  243     4e-81
+  UniRef90_A0A2A6PZU3 DUF1398 domain-containing protein n=6 Tax=E...  235     3e-78
+  UniRef90_UPI0007A61160 DUF1398 domain-containing protein n=2 Ta...  234     5e-78
+  UniRef90_P76156 Uncharacterized protein YdfO n=169 Tax=Proteoba...  229     1e-75
+  UniRef90_A0A3P5CWQ0 Uncharacterized protein n=2 Tax=Escherichia...  228     4e-75
+  UniRef90_A0A1Q6BFL6 Phage protein n=135 Tax=Enterobacterales Ta...  214     9e-70
+  UniRef90_UPI000B429C05 DUF1398 domain-containing protein n=1 Ta...  207     4e-67
+  UniRef90_UPI000B7E3929 DUF1398 domain-containing protein n=2 Ta...  205     2e-66
+  UniRef90_UPI000F09A8A8 DUF1398 domain-containing protein n=1 Ta...  192     3e-61
+  UniRef90_UPI000C3317B6 DUF1398 domain-containing protein n=2 Ta...  190     1e-60
+  UniRef90_UPI000D6A6BEF DUF1398 domain-containing protein n=3 Ta...  189     3e-60
+  UniRef90_UPI000E2100FD DUF1398 domain-containing protein n=1 Ta...  186     8e-59
+  UniRef90_UPI000E356E33 DUF1398 domain-containing protein n=1 Ta...  174     2e-54
+  UniRef90_A0A2X1KT58 Qin prophage n=1 Tax=Escherichia coli TaxID...  162     2e-49
+  UniRef90_UPI000665EAAE DUF1398 domain-containing protein n=4 Ta...  158     4e-48
+  UniRef90_A0A2K1SWW1 Uncharacterized protein (Fragment) n=1 Tax=...  146     1e-43
+  UniRef90_A0A0J1LYZ1 Uncharacterized protein n=2 Tax=Citrobacter...  142     2e-41
+  UniRef90_A0A2U2VTB7 Protein n=3 Tax=Escherichia TaxID=561 RepID...  139     6e-40
+  UniRef90_UPI000DA512DA DUF1398 domain-containing protein n=1 Ta...  135     4e-39
+  UniRef90_A0A1X3KLS2 Putative envelope protein of prophage n=11 ...  132     2e-37
+  UniRef90_UPI000DEB5A18 DUF1398 domain-containing protein n=1 Ta...  127     3e-36
+  UniRef90_A0A3E2KPC2 DUF1398 domain-containing protein n=2 Tax=C...  129     4e-36
+  UniRef90_A0A156ES00 Putative cytoplasmic protein n=3 Tax=Entero...  126     4e-35
+  UniRef90_UPI0007743539 DUF1398 domain-containing protein n=1 Ta...  124     5e-35
+  UniRef90_P75988 Uncharacterized protein YcgX n=124 Tax=root Tax...  123     7e-34
+  UniRef90_Q2LD85 DUF1398 domain-containing protein n=249 Tax=Ent...  123     7e-34
+  UniRef90_UPI000BE16FF7 DUF1398 domain-containing protein n=1 Ta...  120     2e-32
+  UniRef90_UPI0002A1C402 DUF1398 domain-containing protein n=2 Ta...  116     6e-32
+  UniRef90_A0A1Q6B9Q6 Uncharacterized protein n=4 Tax=Enterobacte...  118     8e-32
+  UniRef90_A0A2X1N117 Phage protein n=3 Tax=Escherichia coli TaxI...  115     2e-31
+  UniRef90_UPI0007200346 DUF1398 domain-containing protein n=1 Ta...  117     2e-31
+  UniRef90_UPI00098BAD9E DUF1398 domain-containing protein n=1 Ta...  113     2e-30
+  UniRef90_UPI000E0F07D7 DUF1398 domain-containing protein n=1 Ta...  110     4e-29
+  UniRef90_UPI000DECACCF DUF1398 domain-containing protein n=1 Ta...  108     1e-28
+  UniRef90_UPI000A1888A6 DUF1398 domain-containing protein n=1 Ta...  110     1e-28
+  UniRef90_A0A376J4H9 Qin prophage n=1 Tax=Escherichia coli TaxID...  103     1e-26
+  UniRef90_UPI000E1E1075 DUF1398 domain-containing protein n=1 Ta...  104     2e-26
+  UniRef90_A0A1C3PWK7 Cytoplasmic protein n=19 Tax=Enterobacteria...  99.4    2e-24
+  UniRef90_A0A377W1X8 Phage envelope protein n=13 Tax=Klebsiella ...  100     4e-24
+  UniRef90_A0A1D3U519 Qin prophage n=19 Tax=Enterobacteriaceae Ta...  98.2    6e-24
+  UniRef90_A0A1W1K1D2 Phage envelope protein n=38 Tax=Enterobacte...  97.8    9e-24
+  UniRef90_A0A223UBU8 DUF1398 domain-containing protein n=2 Tax=E...  95.9    5e-23
+  UniRef90_A0A2S6EKP0 DUF1398 domain-containing protein n=63 Tax=...  95.9    5e-23
+  UniRef90_L0M6H7 Phage envelope protein n=1 Tax=Enterobacteriace...  92.8    1e-21
+  UniRef90_UPI000F70B400 DUF1398 domain-containing protein n=1 Ta...  91.7    2e-21
+  UniRef90_A0A376D838 Protein n=15 Tax=Enterobacteriaceae TaxID=5...  90.9    2e-21
+  UniRef90_UPI000929CE71 DUF1398 domain-containing protein n=2 Ta...  92.4    2e-21
+  UniRef90_A0A2T2Y353 Cytoplasmic protein n=1 Tax=Kluyvera ascorb...  91.7    2e-21
+  UniRef90_A0A366F4U6 Uncharacterized protein YbcV (DUF1398 famil...  91.3    4e-21
+  UniRef90_I2B9J5 Uncharacterized protein n=1 Tax=Shimwellia blat...  90.5    6e-21
+  UniRef90_UPI000D0BD47B DUF1398 domain-containing protein n=1 Ta...  88.2    3e-20
+  UniRef90_A0A1Y6GIF7 Phage envelope protein n=6 Tax=Enterobacter...  88.2    5e-20
+  UniRef90_A0A378GQ02 Phage envelope protein n=2 Tax=Kluyvera asc...  88.2    5e-20
+  UniRef90_A0A1B7JV88 Putative cytoplasmic protein n=2 Tax=Kluyve...  86.7    2e-19
+  UniRef90_A0A379R3H6 Protein ycgX n=5 Tax=Salmonella enterica Ta...  85.9    4e-19
+  UniRef90_A0A379UQY2 Protein ycgX n=250 Tax=Salmonella enterica ...  85.5    5e-19
+  UniRef90_A0A2X3EGV1 Phage envelope protein n=1 Tax=Kluyvera cry...  84.0    2e-18
+  UniRef90_L0M6F5 Phage envelope protein n=1 Tax=Enterobacteriace...  84.3    2e-18
+  UniRef90_A0A366FIU5 Uncharacterized protein YbcV (DUF1398 famil...  84.0    2e-18
+  UniRef90_A0A2X1MWP5 Qin prophage n=1 Tax=Escherichia coli TaxID...  81.3    3e-18
+  UniRef90_UPI00068D0621 DUF1398 domain-containing protein n=1 Ta...  81.3    3e-17
+  UniRef90_A0A2I5HFQ6 DUF1398 domain-containing protein n=6 Tax=S...  80.9    3e-17
+  UniRef90_A0A2X3LWD1 Protein n=2 Tax=Escherichia coli TaxID=562 ...  79.7    5e-17
+  UniRef90_A0A0L6XXA6 Uncharacterized protein (Fragment) n=9 Tax=...  79.0    6e-17
+  UniRef90_A0A0M3H2W1 Cytoplasmic protein n=20 Tax=Enterobacteral...  80.1    8e-17
+  UniRef90_A0A379QLP3 Protein ycgX n=2 Tax=Salmonella enterica Ta...  79.7    9e-17
+  UniRef90_UPI0007876B1E DUF1398 domain-containing protein n=1 Ta...  77.4    8e-16
+  UniRef90_F4TD45 Putative envelope protein of prophage n=4 Tax=E...  75.1    1e-15
+  UniRef90_A0A3J6R115 DUF1398 domain-containing protein (Fragment...  74.7    4e-15
+  UniRef90_A0A344RU96 Cytoplasmic protein n=3 Tax=Salmonella ente...  75.1    4e-15
+  UniRef90_E3GBM5 Uncharacterized protein n=1 Tax=Enterobacter li...  75.1    7e-15
+  UniRef90_I6CP32 Uncharacterized protein n=1 Tax=Shigella flexne...  65.9    3e-12
+  UniRef90_UPI000EB5FD54 DUF1398 domain-containing protein n=1 Ta...  65.1    6e-12
+  UniRef90_L0M0N3 Phage envelope protein n=2 Tax=Enterobacteriace...  63.2    5e-10
+  UniRef90_A0A378EJD9 Phage envelope protein n=2 Tax=Klebsiella p...  61.2    7e-10
+  UniRef90_A0A0T9X7S4 Putative cytoplasmic protein n=1 Tax=Salmon...  60.8    1e-09
+  UniRef90_UPI00098B78AA DUF1398 domain-containing protein n=3 Ta...  57.4    1e-08
+  UniRef90_U9Z4G6 Uncharacterized protein n=3 Tax=Enterobacteriac...  56.6    1e-08
+  UniRef90_W1DJT9 Putative cytoplasmic protein n=1 Tax=Klebsiella...  57.4    1e-08
+  UniRef90_UPI000DA5B6E8 DUF1398 domain-containing protein n=2 Ta...  57.0    2e-08
+  UniRef90_A0A0L6XVS8 Uncharacterized protein (Fragment) n=3 Tax=...  56.2    3e-08
+  UniRef90_UPI000DEE102F DUF1398 domain-containing protein n=1 Ta...  56.2    5e-08
+  UniRef90_A0A377ZSC8 Phage envelope protein n=1 Tax=Klebsiella p...  55.1    2e-07
+  UniRef90_UPI000D5804EA DUF1398 domain-containing protein n=2 Ta...  53.5    2e-07
+  UniRef90_A0A3K5G974 DUF1398 domain-containing protein n=9 Tax=S...  52.0    1e-06
+  UniRef90_UPI000C7E32E7 DUF1398 domain-containing protein n=1 Ta...  53.9    2e-06
+  UniRef90_A0A378B115 Phage envelope protein n=1 Tax=Klebsiella p...  51.2    3e-06
+  UniRef90_UPI00098951C2 DUF1398 domain-containing protein n=1 Ta...  50.4    3e-06
+  UniRef90_A0A3P5UTC2 Uncharacterized protein n=1 Tax=Klebsiella ...  50.4    6e-06
+  UniRef90_A0A2A5PNR3 DUF1398 domain-containing protein n=1 Tax=K...  49.3    8e-06
+  UniRef90_UPI00098AC95D DUF1398 domain-containing protein n=7 Ta...  49.7    7e-05
+  UniRef90_A0A2N5JG06 Envelope protein n=5 Tax=Carnobacterium mal...  48.9    8e-05
+  UniRef90_UPI0009082BA5 DUF1398 domain-containing protein n=1 Ta...  49.7    8e-05
+  UniRef90_A0A379WTJ1 Protein ycgX n=1 Tax=Salmonella enterica I ...  47.8    9e-05
+  UniRef90_A0A0U3F7V5 Uncharacterized protein n=1 Tax=Carnobacter...  48.5    9e-05
+  UniRef90_A0A2X3M4E7 Putative envelope protein n=1 Tax=Escherich...  44.7    4e-04
+  UniRef90_W1EXX9 Putative envelope protein n=1 Tax=Escherichia c...  44.7    5e-04
+  UniRef90_W1DH66 Putative cytoplasmic protein n=1 Tax=Klebsiella...  44.7    8e-04
+  UniRef90_A0A3K9TGH2 DUF1398 domain-containing protein n=6 Tax=S...  44.3    9e-04
+  UniRef90_UPI000CFC1E17 DUF1398 domain-containing protein n=1 Ta...  46.6    9e-04
+  UniRef90_A0A2C6WQ95 Uncharacterized protein n=1 Tax=Staphylococ...  43.1    0.011
+  UniRef90_U5SEK2 Envelope protein n=1 Tax=Carnobacterium inhiben...  41.2    0.056
+  UniRef90_A0A1S6TE90 Uncharacterized protein n=3 Tax=Escherichia...  40.8    0.078
+  UniRef90_A0A351F498 Phage envelope protein n=1 Tax=Saprospirale...  38.9    0.34 
+  UniRef90_A0A377TWP2 Phage envelope protein n=1 Tax=Klebsiella p...  37.7    0.39 
+  UniRef90_UPI000F641F0F DUF1398 domain-containing protein n=1 Ta...  37.0    0.43 
+  UniRef90_A0A1G6AR64 Uncharacterized conserved protein YbcV, DUF...  38.9    0.44 
+  UniRef90_A0A0G7HGY4 Phage envelope protein n=10 Tax=Bacilli Tax...  38.1    0.81 
+  UniRef90_A0A1E5H6M3 Envelope protein n=1 Tax=Enterococcus termi...  38.1    0.83 
+  UniRef90_A0A260YQN7 Uncharacterized protein (Fragment) n=1 Tax=...  38.9    1.0  
+  UniRef90_UPI000368EABE hypothetical protein n=1 Tax=Blautia pro...  37.7    1.2  
+  UniRef90_UPI0006A793E5 transposase n=1 Tax=Bacillus sp. FJAT-27...  38.1    1.7  
+  UniRef90_A0A2W6Y0J7 Phage envelope protein n=2 Tax=Chryseobacte...  37.0    2.0  
+  UniRef90_A0A2S8FWY2 Uncharacterized protein n=1 Tax=Blastopirel...  38.1    2.1  
+  UniRef90_A0A369SZ53 Carbohydrate kinase family protein n=2 Tax=...  37.7    2.4  
+  UniRef90_A8U7H7 Putative phage envelope protein n=2 Tax=Carnoba...  36.2    3.2  
+  UniRef90_A0A0M2NNS2 Uncharacterized protein n=7 Tax=Staphylococ...  36.2    3.8  
+  UniRef90_H2UM40 Thrombospondin type laminin G domain and EAR re...  37.0    4.3  
+  UniRef90_A0A1V1ZJ06 Phage envelope protein n=2 Tax=Mangrovimona...  35.8    4.5  
+  UniRef90_A0A364URI0 DUF1398 domain-containing protein n=8 Tax=T...  35.8    5.0  
+  UniRef90_UPI000E785540 vomeronasal type-2 receptor 26-like n=2 ...  36.6    5.5  
+  UniRef90_UPI000CF3EC75 DUF1398 domain-containing protein n=1 Ta...  35.8    5.6  
+  UniRef90_A0A2E2K3I5 AraC family transcriptional regulator n=1 T...  36.6    5.8  
+  UniRef90_A0A2E7IRV1 AraC family transcriptional regulator n=1 T...  36.6    6.1  
+  UniRef90_A0A0R1JSR5 Uncharacterized protein n=7 Tax=Lactobacill...  35.4    6.6  
+  UniRef90_UPI000762C216 DUF1398 domain-containing protein n=1 Ta...  35.0    7.4  
+  UniRef90_A0A380BLY2 Phage envelope protein n=104 Tax=Staphyloco...  35.4    7.9  
+  UniRef90_A0A2G1ZU32 Uncharacterized protein n=1 Tax=Coxiella sp...  35.8    9.0  
+  UniRef90_A0A365XX29 Uncharacterized protein n=1 Tax=Chitinophag...  36.2    9.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.137    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736345580145
+Warning: [psiblast] lcl|Query_1 NP_415090.2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415090.2
+
+Length=136
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A0J1LYZ1 Uncharacterized protein n=2 Tax=Citrobacter...  188     2e-59
+  UniRef90_P75988 Uncharacterized protein YcgX n=124 Tax=root Tax...  187     6e-59
+  UniRef90_Q2LD85 DUF1398 domain-containing protein n=249 Tax=Ent...  184     8e-58
+  UniRef90_A0A0F3TJL1 DUF1398 domain-containing protein n=53 Tax=...  183     2e-57
+  UniRef90_P77598 Uncharacterized protein YbcV n=77 Tax=Bacteria ...  183     2e-57
+  UniRef90_A0A1Q6B9Q6 Uncharacterized protein n=4 Tax=Enterobacte...  182     4e-57
+  UniRef90_A0A377W1X8 Phage envelope protein n=13 Tax=Klebsiella ...  183     1e-56
+  UniRef90_A0A1X3KLS2 Putative envelope protein of prophage n=11 ...  180     1e-56
+  UniRef90_A0A1Q6BFL6 Phage protein n=135 Tax=Enterobacterales Ta...  180     2e-56
+  UniRef90_UPI000B4A1430 DUF1398 domain-containing protein n=1 Ta...  178     1e-55
+  UniRef90_A0A156ES00 Putative cytoplasmic protein n=3 Tax=Entero...  178     1e-55
+  UniRef90_A0A2A6PZU3 DUF1398 domain-containing protein n=6 Tax=E...  178     1e-55
+  UniRef90_P76156 Uncharacterized protein YdfO n=169 Tax=Proteoba...  178     2e-55
+  UniRef90_A0A0E1LY07 Phage envelope protein n=13 Tax=Escherichia...  178     2e-55
+  UniRef90_A0A3E2KPC2 DUF1398 domain-containing protein n=2 Tax=C...  177     3e-55
+  UniRef90_A0A137D512 DUF1398 domain-containing protein n=93 Tax=...  177     3e-55
+  UniRef90_A0A223UBU8 DUF1398 domain-containing protein n=2 Tax=E...  175     2e-54
+  UniRef90_A0A1B7JV88 Putative cytoplasmic protein n=2 Tax=Kluyve...  175     3e-54
+  UniRef90_UPI000B429C05 DUF1398 domain-containing protein n=1 Ta...  174     4e-54
+  UniRef90_A0A2U2VTB7 Protein n=3 Tax=Escherichia TaxID=561 RepID...  174     5e-54
+  UniRef90_A0A1D3U519 Qin prophage n=19 Tax=Enterobacteriaceae Ta...  174     6e-54
+  UniRef90_A0A2S6EKP0 DUF1398 domain-containing protein n=63 Tax=...  172     2e-53
+  UniRef90_A0A2T2Y353 Cytoplasmic protein n=1 Tax=Kluyvera ascorb...  172     3e-53
+  UniRef90_I2B9J5 Uncharacterized protein n=1 Tax=Shimwellia blat...  172     5e-53
+  UniRef90_A0A1W1K1D2 Phage envelope protein n=38 Tax=Enterobacte...  171     7e-53
+  UniRef90_A0A1C3PWK7 Cytoplasmic protein n=19 Tax=Enterobacteria...  170     1e-52
+  UniRef90_A0A0M3H2W1 Cytoplasmic protein n=20 Tax=Enterobacteral...  170     2e-52
+  UniRef90_A0A379UQY2 Protein ycgX n=250 Tax=Salmonella enterica ...  168     7e-52
+  UniRef90_UPI0007200346 DUF1398 domain-containing protein n=1 Ta...  168     9e-52
+  UniRef90_A0A378GQ02 Phage envelope protein n=2 Tax=Kluyvera asc...  167     2e-51
+  UniRef90_L0M6H7 Phage envelope protein n=1 Tax=Enterobacteriace...  167     5e-51
+  UniRef90_A0A366F4U6 Uncharacterized protein YbcV (DUF1398 famil...  166     9e-51
+  UniRef90_E3GBM5 Uncharacterized protein n=1 Tax=Enterobacter li...  165     1e-50
+  UniRef90_A0A379R3H6 Protein ycgX n=5 Tax=Salmonella enterica Ta...  165     2e-50
+  UniRef90_A0A1Y6GIF7 Phage envelope protein n=6 Tax=Enterobacter...  164     4e-50
+  UniRef90_UPI00068D0621 DUF1398 domain-containing protein n=1 Ta...  164     5e-50
+  UniRef90_A0A2X3EGV1 Phage envelope protein n=1 Tax=Kluyvera cry...  164     5e-50
+  UniRef90_UPI0007876B1E DUF1398 domain-containing protein n=1 Ta...  163     8e-50
+  UniRef90_A0A366FIU5 Uncharacterized protein YbcV (DUF1398 famil...  163     2e-49
+  UniRef90_A0A2I5HFQ6 DUF1398 domain-containing protein n=6 Tax=S...  162     5e-49
+  UniRef90_UPI000A1888A6 DUF1398 domain-containing protein n=1 Ta...  160     2e-48
+  UniRef90_L0M6F5 Phage envelope protein n=1 Tax=Enterobacteriace...  160     2e-48
+  UniRef90_UPI000BE16FF7 DUF1398 domain-containing protein n=1 Ta...  160     2e-48
+  UniRef90_UPI000E2100FD DUF1398 domain-containing protein n=1 Ta...  157     2e-47
+  UniRef90_UPI000D0BD47B DUF1398 domain-containing protein n=1 Ta...  155     8e-47
+  UniRef90_A0A379QLP3 Protein ycgX n=2 Tax=Salmonella enterica Ta...  155     1e-46
+  UniRef90_UPI000E1E1075 DUF1398 domain-containing protein n=1 Ta...  153     1e-45
+  UniRef90_UPI0007A61160 DUF1398 domain-containing protein n=2 Ta...  151     2e-45
+  UniRef90_UPI000929CE71 DUF1398 domain-containing protein n=2 Ta...  152     7e-45
+  UniRef90_UPI000F09A8A8 DUF1398 domain-containing protein n=1 Ta...  149     4e-44
+  UniRef90_UPI000C3317B6 DUF1398 domain-containing protein n=2 Ta...  148     4e-44
+  UniRef90_UPI000F70B400 DUF1398 domain-containing protein n=1 Ta...  148     8e-44
+  UniRef90_A0A3P5CWQ0 Uncharacterized protein n=2 Tax=Escherichia...  147     2e-43
+  UniRef90_A0A344RU96 Cytoplasmic protein n=3 Tax=Salmonella ente...  143     5e-42
+  UniRef90_UPI000B7E3929 DUF1398 domain-containing protein n=2 Ta...  140     8e-41
+  UniRef90_UPI000D6A6BEF DUF1398 domain-containing protein n=3 Ta...  140     9e-41
+  UniRef90_UPI000665EAAE DUF1398 domain-containing protein n=4 Ta...  140     1e-40
+  UniRef90_A0A376D838 Protein n=15 Tax=Enterobacteriaceae TaxID=5...  139     1e-40
+  UniRef90_A0A3J6R115 DUF1398 domain-containing protein (Fragment...  132     5e-38
+  UniRef90_A0A2X1KT58 Qin prophage n=1 Tax=Escherichia coli TaxID...  129     1e-36
+  UniRef90_L0M0N3 Phage envelope protein n=2 Tax=Enterobacteriace...  130     3e-36
+  UniRef90_A0A0T9X7S4 Putative cytoplasmic protein n=1 Tax=Salmon...  125     5e-35
+  UniRef90_UPI000C7E32E7 DUF1398 domain-containing protein n=1 Ta...  125     4e-34
+  UniRef90_UPI00098AC95D DUF1398 domain-containing protein n=7 Ta...  123     3e-33
+  UniRef90_UPI0009082BA5 DUF1398 domain-containing protein n=1 Ta...  121     2e-32
+  UniRef90_A0A378EJD9 Phage envelope protein n=2 Tax=Klebsiella p...  115     3e-31
+  UniRef90_UPI000CFC1E17 DUF1398 domain-containing protein n=1 Ta...  117     4e-31
+  UniRef90_UPI000E356E33 DUF1398 domain-containing protein n=1 Ta...  114     8e-31
+  UniRef90_UPI000DEB5A18 DUF1398 domain-containing protein n=1 Ta...  110     2e-29
+  UniRef90_W1DJT9 Putative cytoplasmic protein n=1 Tax=Klebsiella...  110     3e-29
+  UniRef90_A0A0L6XXA6 Uncharacterized protein (Fragment) n=9 Tax=...  107     3e-28
+  UniRef90_A0A3K5G974 DUF1398 domain-containing protein n=9 Tax=S...  106     7e-28
+  UniRef90_UPI00098B78AA DUF1398 domain-containing protein n=3 Ta...  105     1e-27
+  UniRef90_A0A0U3F7V5 Uncharacterized protein n=1 Tax=Carnobacter...  105     6e-27
+  UniRef90_A0A2X3LWD1 Protein n=2 Tax=Escherichia coli TaxID=562 ...  103     2e-26
+  UniRef90_UPI000DA5B6E8 DUF1398 domain-containing protein n=2 Ta...  101     2e-25
+  UniRef90_UPI000DA512DA DUF1398 domain-containing protein n=1 Ta...  99.2    5e-25
+  UniRef90_A0A2N5JG06 Envelope protein n=5 Tax=Carnobacterium mal...  100     7e-25
+  UniRef90_A0A2K1SWW1 Uncharacterized protein (Fragment) n=1 Tax=...  95.4    2e-23
+  UniRef90_UPI000DEE102F DUF1398 domain-containing protein n=1 Ta...  93.8    9e-23
+  UniRef90_A0A2X1N117 Phage protein n=3 Tax=Escherichia coli TaxI...  93.1    1e-22
+  UniRef90_A0A377ZSC8 Phage envelope protein n=1 Tax=Klebsiella p...  92.7    4e-22
+  UniRef90_UPI0007743539 DUF1398 domain-containing protein n=1 Ta...  90.0    2e-21
+  UniRef90_UPI000E0F07D7 DUF1398 domain-containing protein n=1 Ta...  90.4    2e-21
+  UniRef90_F4TD45 Putative envelope protein of prophage n=4 Tax=E...  88.8    5e-21
+  UniRef90_UPI000D5804EA DUF1398 domain-containing protein n=2 Ta...  88.0    7e-21
+  UniRef90_A0A379WTJ1 Protein ycgX n=1 Tax=Salmonella enterica I ...  88.8    8e-21
+  UniRef90_A0A376J4H9 Qin prophage n=1 Tax=Escherichia coli TaxID...  88.0    1e-20
+  UniRef90_A0A3K9TGH2 DUF1398 domain-containing protein n=6 Tax=S...  85.0    1e-19
+  UniRef90_A0A0L6XVS8 Uncharacterized protein (Fragment) n=3 Tax=...  85.3    1e-19
+  UniRef90_U9Z4G6 Uncharacterized protein n=3 Tax=Enterobacteriac...  84.2    2e-19
+  UniRef90_UPI000DECACCF DUF1398 domain-containing protein n=1 Ta...  83.0    7e-19
+  UniRef90_UPI0002A1C402 DUF1398 domain-containing protein n=2 Ta...  82.3    1e-18
+  UniRef90_UPI00098BAD9E DUF1398 domain-containing protein n=1 Ta...  81.5    5e-18
+  UniRef90_A0A3P5UTC2 Uncharacterized protein n=1 Tax=Klebsiella ...  79.2    3e-17
+  UniRef90_A0A2A5PNR3 DUF1398 domain-containing protein n=1 Tax=K...  75.7    3e-16
+  UniRef90_A0A378B115 Phage envelope protein n=1 Tax=Klebsiella p...  75.3    9e-16
+  UniRef90_UPI000EB5FD54 DUF1398 domain-containing protein n=1 Ta...  74.2    2e-15
+  UniRef90_A0A2X1MWP5 Qin prophage n=1 Tax=Escherichia coli TaxID...  71.9    2e-14
+  UniRef90_W1DH66 Putative cytoplasmic protein n=1 Tax=Klebsiella...  71.1    5e-14
+  UniRef90_I6CP32 Uncharacterized protein n=1 Tax=Shigella flexne...  70.3    5e-14
+  UniRef90_UPI00098951C2 DUF1398 domain-containing protein n=1 Ta...  68.0    5e-13
+  UniRef90_W1EXX9 Putative envelope protein n=1 Tax=Escherichia c...  43.7    0.001
+  UniRef90_A0A2X3M4E7 Putative envelope protein n=1 Tax=Escherich...  36.0    0.89 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1S6TE90 Uncharacterized protein n=3 Tax=Escherichia...  109     3e-28
+  UniRef90_A0A1H0ZMP1 Uncharacterized conserved protein YbcV, DUF...  94.2    2e-22
+  UniRef90_UPI0005545054 DUF1398 domain-containing protein n=1 Ta...  91.9    2e-21
+  UniRef90_A0A0R2L9M7 Phage envelope protein n=1 Tax=Lactobacillu...  91.5    3e-21
+  UniRef90_U5SEK2 Envelope protein n=1 Tax=Carnobacterium inhiben...  91.1    3e-21
+  UniRef90_D6HW01 Predicted protein n=4 Tax=Escherichia coli TaxI...  86.5    8e-20
+  UniRef90_A0A1E5H6M3 Envelope protein n=1 Tax=Enterococcus termi...  87.3    1e-19
+  UniRef90_A0A0R2MNC9 Phage envelope protein n=1 Tax=Lactobacillu...  86.5    2e-19
+  UniRef90_A0A1N6ES85 Uncharacterized conserved protein YbcV, DUF...  86.5    2e-19
+  UniRef90_A0A0R2NFK7 Phage envelope protein n=1 Tax=Pediococcus ...  86.1    3e-19
+  UniRef90_UPI00064F8F1E DUF1398 domain-containing protein n=1 Ta...  85.7    5e-19
+  UniRef90_A8U7H7 Putative phage envelope protein n=2 Tax=Carnoba...  85.3    5e-19
+  UniRef90_A0A2D8FVM2 Phage envelope protein n=1 Tax=Flavobacteri...  85.0    7e-19
+  UniRef90_A0A0R1JSR5 Uncharacterized protein n=7 Tax=Lactobacill...  85.0    8e-19
+  UniRef90_A0A242LGX1 Uncharacterized protein n=3 Tax=Enterococca...  85.7    1e-18
+  UniRef90_A0A1E5GDY6 Envelope protein n=1 Tax=Enterococcus ureas...  83.4    4e-18
+  UniRef90_A0A1W6NJB0 Envelope protein n=10 Tax=Lactobacillus bre...  82.7    6e-18
+  UniRef90_A0A1E5H3X7 Envelope protein n=2 Tax=Enterococcus TaxID...  82.3    8e-18
+  UniRef90_UPI000502712A DUF1398 domain-containing protein n=3 Ta...  82.3    1e-17
+  UniRef90_A0A0R2B975 Phage envelope protein n=1 Tax=Lactobacillu...  82.3    1e-17
+  UniRef90_A0A1I5XSZ9 Uncharacterized conserved protein YbcV, DUF...  81.5    2e-17
+  UniRef90_A0A1V1ZJ06 Phage envelope protein n=2 Tax=Mangrovimona...  81.5    2e-17
+  UniRef90_UPI000F626FEB DUF1398 domain-containing protein n=1 Ta...  81.1    3e-17
+  UniRef90_A0A0C5VW87 Phage envelope protein n=1 Tax=Siansivirga ...  80.7    3e-17
+  UniRef90_UPI000562D5FE DUF1398 domain-containing protein n=1 Ta...  80.3    6e-17
+  UniRef90_UPI000B42B118 DUF1398 domain-containing protein n=1 Ta...  79.2    6e-17
+  UniRef90_UPI000E0D75D9 DUF1398 domain-containing protein n=1 Ta...  80.0    8e-17
+  UniRef90_A0A1X7KYD4 Uncharacterized conserved protein YbcV, DUF...  79.2    2e-16
+  UniRef90_UPI000E70B40A DUF1398 domain-containing protein n=1 Ta...  78.8    2e-16
+  UniRef90_UPI00041DE36E DUF1398 domain-containing protein n=1 Ta...  78.8    2e-16
+  UniRef90_A0A3A1NLH6 DUF1398 domain-containing protein n=2 Tax=M...  77.6    6e-16
+  UniRef90_A0A351PX07 Phage envelope protein n=1 Tax=Chitinophaga...  77.6    7e-16
+  UniRef90_A0A242AX99 Uncharacterized protein n=1 Tax=Enterococcu...  77.6    7e-16
+  UniRef90_A0A242C5Q4 Uncharacterized protein n=1 Tax=Enterococcu...  77.3    8e-16
+  UniRef90_A0A2I9E5I3 Uncharacterized protein n=2 Tax=Arenibacter...  76.9    1e-15
+  UniRef90_A0A317LZE5 Uncharacterized protein YbcV (DUF1398 famil...  76.5    2e-15
+  UniRef90_A0A1W2BPW7 Uncharacterized conserved protein YbcV, DUF...  76.1    2e-15
+  UniRef90_A0A085BEU3 Uncharacterized protein n=1 Tax=Chryseobact...  75.7    3e-15
+  UniRef90_A0A258F6H1 Phage envelope protein n=2 Tax=Flavobacteri...  75.7    4e-15
+  UniRef90_A0A2W6Y0J7 Phage envelope protein n=2 Tax=Chryseobacte...  75.3    5e-15
+  UniRef90_A0A177LH57 Uncharacterized protein n=1 Tax=Chryseobact...  75.3    5e-15
+  UniRef90_A0A3L9ZIV7 Uncharacterized protein YbcV (DUF1398 famil...  75.3    5e-15
+  UniRef90_A0A1M6RY93 Uncharacterized conserved protein YbcV, DUF...  75.3    5e-15
+  UniRef90_UPI0007168F88 DUF1398 domain-containing protein n=1 Ta...  74.9    6e-15
+  UniRef90_UPI00040C5206 DUF1398 domain-containing protein n=1 Ta...  74.9    8e-15
+  UniRef90_A0A369Q3Q1 DUF1398 domain-containing protein n=1 Tax=P...  74.6    9e-15
+  UniRef90_R2QYJ2 Uncharacterized protein n=2 Tax=Enterococcus mo...  74.9    9e-15
+  UniRef90_A0A085Z8I7 Phage envelope protein n=2 Tax=Chryseobacte...  74.6    9e-15
+  UniRef90_A0A162QCA6 Phage envelope protein n=1 Tax=Flavihumibac...  74.6    9e-15
+  UniRef90_A0A2D0A5K3 Phage envelope protein n=1 Tax=Pedobacter s...  74.6    1e-14
+  UniRef90_A0A081BGJ4 Putative phage envelope protein n=1 Tax=Lac...  74.6    1e-14
+  UniRef90_UPI000F86F158 DUF1398 domain-containing protein n=1 Ta...  74.2    1e-14
+  UniRef90_UPI000493AAE5 DUF1398 domain-containing protein n=1 Ta...  74.2    1e-14
+  UniRef90_A0A086A164 Phage envelope protein n=1 Tax=Chryseobacte...  74.2    1e-14
+  UniRef90_A0A366L1G4 Phage envelope protein n=1 Tax=Pedobacter s...  74.2    2e-14
+  UniRef90_A0A0Q4LH99 Phage envelope protein n=1 Tax=Pedobacter s...  74.2    2e-14
+  UniRef90_A0A1M3GEG9 Phage envelope protein n=2 Tax=Bacteroidete...  73.8    2e-14
+  UniRef90_A0A2I2DTC2 Phage envelope protein n=2 Tax=Flavobacteri...  73.4    2e-14
+  UniRef90_A0A3D3MKN8 Phage envelope protein n=2 Tax=Chryseobacte...  73.4    3e-14
+  UniRef90_A0A2A2S0T6 Phage envelope protein n=1 Tax=Mucilaginiba...  73.4    3e-14
+  UniRef90_A0A1V3TWW1 Phage envelope protein n=3 Tax=Elizabethkin...  73.0    4e-14
+  UniRef90_A0A1X9Z4I7 Phage envelope protein n=2 Tax=Sphingobacte...  73.0    4e-14
+  UniRef90_A0A3E1P4E4 DUF1398 domain-containing protein n=1 Tax=C...  72.6    5e-14
+  UniRef90_UPI000DE311F6 DUF1398 domain-containing protein n=1 Ta...  72.6    5e-14
+  UniRef90_UPI000F65333E DUF1398 domain-containing protein n=1 Ta...  72.6    6e-14
+  UniRef90_UPI0009DDB80B DUF1398 domain-containing protein n=1 Ta...  73.0    6e-14
+  UniRef90_A0A1G8RWR7 Uncharacterized conserved protein YbcV, DUF...  73.0    6e-14
+  UniRef90_A0A1I0SEK6 Uncharacterized conserved protein YbcV, DUF...  72.6    7e-14
+  UniRef90_A0A0A2M5G4 Phage envelope protein n=1 Tax=Flavobacteri...  72.3    7e-14
+  UniRef90_A0A1N7A6S8 Uncharacterized conserved protein YbcV, DUF...  72.3    7e-14
+  UniRef90_A0A1T4ZX68 Uncharacterized conserved protein YbcV, DUF...  72.3    7e-14
+  UniRef90_UPI000EB4FB13 DUF1398 domain-containing protein n=1 Ta...  72.3    8e-14
+  UniRef90_W7BYN1 Uncharacterized protein n=1 Tax=Listeria cornel...  72.3    9e-14
+  UniRef90_A0A2N1TCA4 Phage envelope protein n=1 Tax=Candidatus P...  71.9    1e-13
+  UniRef90_A0A2H9VTY8 Uncharacterized protein YbcV (DUF1398 famil...  71.9    1e-13
+  UniRef90_A0A3D9B9T0 Phage envelope protein n=1 Tax=Chryseobacte...  71.9    1e-13
+  UniRef90_C7PJK0 Putative phage envelope protein n=1 Tax=Chitino...  71.9    1e-13
+  UniRef90_A0A1H9MMR2 Uncharacterized conserved protein YbcV, DUF...  71.9    1e-13
+  UniRef90_A0A3G6MJU8 DUF1398 domain-containing protein n=1 Tax=C...  71.9    1e-13
+  UniRef90_A0A367GMD0 Phage envelope protein n=1 Tax=Mucilaginiba...  71.9    1e-13
+  UniRef90_A0A1H5Y4R6 Uncharacterized conserved protein YbcV, DUF...  71.5    1e-13
+  UniRef90_A0A2S6I9M9 Uncharacterized protein YbcV (DUF1398 famil...  71.9    2e-13
+  UniRef90_A0A1G7GWC8 Uncharacterized conserved protein YbcV, DUF...  71.5    2e-13
+  UniRef90_A0A317EQP4 Phage envelope protein n=1 Tax=Pedobacter y...  71.1    2e-13
+  UniRef90_A0A316XF81 DUF1398 domain-containing protein n=1 Tax=C...  71.1    2e-13
+  UniRef90_A0A0W8EW54 Phage envelope protein n=4 Tax=Flavobacteri...  71.1    2e-13
+  UniRef90_A0A220SHR7 Phage envelope protein n=1 Tax=Chryseobacte...  71.1    2e-13
+  UniRef90_I2EW29 Uncharacterized protein n=1 Tax=Emticicia oligo...  71.1    2e-13
+  UniRef90_A0A0T5VN69 Phage envelope protein n=2 Tax=Pedobacter T...  71.1    2e-13
+  UniRef90_A0A1S9PBH1 Phage envelope protein n=1 Tax=Mucilaginiba...  71.1    2e-13
+  UniRef90_A0A3D9DGD3 DUF1398 domain-containing protein n=2 Tax=C...  71.1    2e-13
+  UniRef90_A0A085B8U4 Phage envelope protein n=1 Tax=Chryseobacte...  70.7    3e-13
+  UniRef90_A0A0C1LJ59 Phage envelope protein n=1 Tax=Flavihumibac...  70.7    3e-13
+  UniRef90_A0A261Q2E3 Phage envelope protein n=2 Tax=Siphonobacte...  70.7    3e-13
+  UniRef90_A0A1G4V648 2,3-bisphosphoglycerate-independent phospho...  74.9    3e-13
+  UniRef90_A0A1S9B385 Uncharacterized protein n=1 Tax=Hymenobacte...  70.7    3e-13
+  UniRef90_A0A2W5UKP9 Phage envelope protein n=1 Tax=Citrobacter ...  70.7    3e-13
+  UniRef90_A0A085ZCE7 Phage envelope protein n=1 Tax=Chryseobacte...  70.7    3e-13
+  UniRef90_A0A1H6H909 Uncharacterized conserved protein YbcV, DUF...  70.7    3e-13
+  UniRef90_UPI0004225B47 DUF1398 domain-containing protein n=1 Ta...  70.7    4e-13
+  UniRef90_F5IY24 Uncharacterized protein n=1 Tax=Dysgonomonas ga...  70.3    4e-13
+  UniRef90_A0A1K1SEV3 Uncharacterized conserved protein YbcV, DUF...  70.3    4e-13
+  UniRef90_UPI000FE29181 DUF1398 domain-containing protein n=1 Ta...  70.3    4e-13
+  UniRef90_A0A1G9LQ28 Uncharacterized conserved protein YbcV, DUF...  72.3    4e-13
+  UniRef90_A0A2C6WQ95 Uncharacterized protein n=1 Tax=Staphylococ...  70.3    4e-13
+  UniRef90_A0A2G6TJZ8 Uncharacterized protein YbcV (DUF1398 famil...  70.3    5e-13
+  UniRef90_A0A2G6UKL3 Uncharacterized protein YbcV (DUF1398 famil...  70.3    5e-13
+  UniRef90_A0A317F326 Phage envelope protein n=1 Tax=Pedobacter s...  70.3    5e-13
+  UniRef90_A0A351F498 Phage envelope protein n=1 Tax=Saprospirale...  69.9    5e-13
+  UniRef90_A0A1H8E087 Uncharacterized conserved protein YbcV, DUF...  70.3    5e-13
+  UniRef90_W7DH94 Uncharacterized protein n=1 Tax=Listeria ripari...  70.3    5e-13
+  UniRef90_A0A1G8X2C2 Uncharacterized conserved protein YbcV, DUF...  72.3    6e-13
+  UniRef90_UPI000F8D4729 DUF1398 domain-containing protein n=1 Ta...  69.9    6e-13
+  UniRef90_A0A1W2CUP8 Uncharacterized conserved protein YbcV, DUF...  69.9    6e-13
+  UniRef90_UPI00046A213F DUF1398 domain-containing protein n=1 Ta...  69.9    6e-13
+  UniRef90_A0A099WAR0 Phage envelope protein n=4 Tax=Listeriaceae...  69.9    6e-13
+  UniRef90_A0A1I5IEA0 Uncharacterized conserved protein YbcV, DUF...  69.9    7e-13
+  UniRef90_UPI0006470B1E DUF1398 domain-containing protein n=2 Ta...  69.6    7e-13
+  UniRef90_A0A1M7L213 Uncharacterized conserved protein YbcV, DUF...  69.9    8e-13
+  UniRef90_A0A0Q4FUD4 Phage envelope protein n=1 Tax=Pedobacter s...  69.6    9e-13
+  UniRef90_UPI0009DD048B 2,3-bisphosphoglycerate-independent phos...  73.4    9e-13
+  UniRef90_A0A2A2S256 Phage envelope protein n=1 Tax=Mucilaginiba...  69.6    1e-12
+  UniRef90_A0A3G2G469 DUF1398 domain-containing protein n=1 Tax=C...  69.6    1e-12
+  UniRef90_A0A1G9CV29 Uncharacterized conserved protein YbcV, DUF...  73.0    1e-12
+  UniRef90_UPI000646ECB0 DUF1398 domain-containing protein n=1 Ta...  69.2    1e-12
+  UniRef90_A0A380CIP5 Phage envelope protein n=3 Tax=Sphingobacte...  69.2    1e-12
+  UniRef90_A0A1V2B3G2 Phage envelope protein n=1 Tax=[Flexibacter...  69.2    1e-12
+  UniRef90_A0A316GZQ4 Uncharacterized protein YbcV (DUF1398 famil...  69.2    1e-12
+  UniRef90_A0A0Q5N2Y9 Phage envelope protein n=1 Tax=Pedobacter s...  69.2    1e-12
+  UniRef90_A0A212IZE9 Uncharacterized protein n=1 Tax=uncultured ...  69.2    1e-12
+  UniRef90_A0A1Q4G5F6 Phage envelope protein n=1 Tax=Sphingobacte...  69.2    1e-12
+  UniRef90_UPI000EAD2CB0 DUF1398 domain-containing protein n=1 Ta...  69.2    1e-12
+  UniRef90_UPI000EB30273 DUF1398 domain-containing protein n=1 Ta...  68.8    1e-12
+  UniRef90_W7CR28 Uncharacterized protein n=2 Tax=Listeria weihen...  68.8    2e-12
+  UniRef90_UPI000428FC80 DUF1398 domain-containing protein n=1 Ta...  68.8    2e-12
+  UniRef90_UPI0006811085 DUF1398 domain-containing protein n=1 Ta...  68.8    2e-12
+  UniRef90_A0A3G8X0Q9 DUF1398 domain-containing protein n=3 Tax=P...  68.8    2e-12
+  UniRef90_A0A2S9CZJ1 Phage envelope protein n=3 Tax=Chryseobacte...  68.8    2e-12
+  UniRef90_UPI000681851A DUF1398 domain-containing protein n=1 Ta...  68.8    2e-12
+  UniRef90_A0A0Q1F382 Phage envelope protein n=1 Tax=Pedobacter s...  68.8    2e-12
+  UniRef90_UPI000647C2B7 DUF1398 domain-containing protein n=1 Ta...  68.8    2e-12
+  UniRef90_A0A0Q4S2H9 Phage envelope protein n=3 Tax=Flavobacteri...  68.8    2e-12
+  UniRef90_A0A1Q3RXF5 Phage envelope protein n=1 Tax=Flavobacteri...  68.4    2e-12
+  UniRef90_A0A1H9RYA0 Uncharacterized conserved protein YbcV, DUF...  68.4    2e-12
+  UniRef90_UPI000E31F593 DUF1398 domain-containing protein n=1 Ta...  68.4    2e-12
+  UniRef90_A0A2S7I6K1 Phage envelope protein n=1 Tax=Cloacibacter...  68.4    2e-12
+  UniRef90_A0A2T5JFC6 Uncharacterized protein YbcV (DUF1398 famil...  68.4    3e-12
+  UniRef90_A0A364WUQ7 Phage envelope protein n=1 Tax=Mucilaginiba...  68.4    3e-12
+  UniRef90_A0A2T7BP42 Phage envelope protein n=1 Tax=Chitinophaga...  68.0    3e-12
+  UniRef90_A0A099WCZ6 Phage envelope protein n=1 Tax=Listeria boo...  68.0    3e-12
+  UniRef90_A0A0J0Y1M1 Phage envelope protein n=1 Tax=Pedobacter s...  68.0    3e-12
+  UniRef90_A0A0Q0S8M4 Phage envelope protein n=2 Tax=Flavobacteri...  68.0    4e-12
+  UniRef90_A0A3D9CKK0 Phage envelope protein n=1 Tax=Chryseobacte...  68.0    4e-12
+  UniRef90_A0A135WIX8 Phage envelope protein n=2 Tax=Chryseobacte...  67.6    4e-12
+  UniRef90_UPI00064754C6 DUF1398 domain-containing protein n=1 Ta...  67.6    4e-12
+  UniRef90_W7DQJ2 Uncharacterized protein n=1 Tax=Listeria rocour...  67.6    5e-12
+  UniRef90_A0A0J7I627 Phage envelope protein n=1 Tax=Chryseobacte...  67.2    6e-12
+  UniRef90_A0A3M7LCE3 DUF1398 domain-containing protein n=2 Tax=C...  67.2    6e-12
+  UniRef90_UPI000FCA7698 DUF1398 domain-containing protein n=1 Ta...  67.2    7e-12
+  UniRef90_A0A1Q3ZIY4 Phage envelope protein n=1 Tax=Flavobacteri...  67.2    7e-12
+  UniRef90_A0A354D9X9 Phage envelope protein n=1 Tax=Flavobacteri...  67.2    7e-12
+  UniRef90_A0A1M3FZW1 Phage envelope protein n=1 Tax=Sphingobacte...  66.9    8e-12
+  UniRef90_UPI0003672F42 DUF1398 domain-containing protein n=1 Ta...  66.9    8e-12
+  UniRef90_A0A086AXV5 Phage envelope protein n=3 Tax=Chryseobacte...  66.9    8e-12
+  UniRef90_A0A3N0WNU7 DUF1398 domain-containing protein n=1 Tax=C...  66.9    9e-12
+  UniRef90_UPI000E70A52B DUF1398 domain-containing protein n=1 Ta...  66.9    9e-12
+  UniRef90_UPI000D11C2BF DUF1398 domain-containing protein n=1 Ta...  66.9    1e-11
+  UniRef90_A0A1I3AL94 Uncharacterized conserved protein YbcV, DUF...  66.9    1e-11
+  UniRef90_A0A0Q8ZW58 Phage envelope protein n=8 Tax=Flavobacteri...  66.9    1e-11
+  UniRef90_UPI0004936263 DUF1398 domain-containing protein n=1 Ta...  66.9    1e-11
+  UniRef90_A0A1M4XST4 Uncharacterized conserved protein YbcV, DUF...  66.9    1e-11
+  UniRef90_UPI000DE41EAA DUF1398 domain-containing protein n=1 Ta...  66.9    1e-11
+  UniRef90_A0A2S7WA61 Phage envelope protein n=1 Tax=Polaribacter...  66.5    1e-11
+  UniRef90_A0A0D0EZ37 Phage envelope protein n=8 Tax=Flavobacteri...  66.5    1e-11
+  UniRef90_A0A3N0W507 DUF1398 domain-containing protein n=1 Tax=C...  66.5    1e-11
+  UniRef90_A0A316WAV2 DUF1398 domain-containing protein n=2 Tax=C...  66.5    1e-11
+  UniRef90_A0A2J6HBL7 Phage envelope protein n=2 Tax=Mucilaginiba...  66.5    1e-11
+  UniRef90_A0A1M7CF11 Uncharacterized conserved protein YbcV, DUF...  66.5    1e-11
+  UniRef90_A0A2V3PT34 Uncharacterized protein YbcV (DUF1398 famil...  66.5    1e-11
+  UniRef90_A0A221UVP5 Phage envelope protein n=1 Tax=Arenibacter ...  66.5    1e-11
+  UniRef90_A0A1M3IEM0 Phage envelope protein n=1 Tax=Bacteroidete...  66.5    1e-11
+  UniRef90_UPI000A03FE77 DUF1398 domain-containing protein n=1 Ta...  66.5    2e-11
+  UniRef90_A0A0J7IE10 Phage envelope protein n=1 Tax=Chryseobacte...  66.5    2e-11
+  UniRef90_A0A318IDE3 Uncharacterized protein YbcV (DUF1398 famil...  66.5    2e-11
+  UniRef90_A0A1S1J3W2 Phage envelope protein n=5 Tax=Flavobacteri...  66.1    2e-11
+  UniRef90_A0A1M5K0E0 Uncharacterized conserved protein YbcV, DUF...  66.1    2e-11
+  UniRef90_A0A0Q7GPU5 Phage envelope protein n=2 Tax=Flavobacteri...  66.1    2e-11
+  UniRef90_UPI000F5C4749 DUF1398 domain-containing protein n=1 Ta...  66.1    2e-11
+  UniRef90_UPI000F865F1A DUF1398 domain-containing protein n=1 Ta...  66.1    2e-11
+  UniRef90_A0A0E9N038 Uncharacterized protein n=1 Tax=Flavihumiba...  66.1    2e-11
+  UniRef90_UPI000E59BA57 DUF1398 domain-containing protein n=1 Ta...  66.1    2e-11
+  UniRef90_A0A1B9DY71 Phage envelope protein n=1 Tax=Flavobacteri...  66.1    2e-11
+  UniRef90_A0A345P928 DUF1398 domain-containing protein n=1 Tax=M...  68.0    2e-11
+  UniRef90_A0A2V4BZ65 Phage envelope protein n=1 Tax=Flavobacteri...  66.1    2e-11
+  UniRef90_UPI00083AAABC DUF1398 domain-containing protein n=1 Ta...  66.1    2e-11
+  UniRef90_A0A2T3HKR7 Phage envelope protein n=1 Tax=Pedobacter y...  66.1    2e-11
+  UniRef90_A0A1D9PE33 Phage envelope protein n=3 Tax=Flavobacteri...  65.7    2e-11
+  UniRef90_A0A1M7A021 Uncharacterized conserved protein YbcV, DUF...  66.1    2e-11
+  UniRef90_A0A1P8ED94 Phage envelope protein n=1 Tax=Sphingobacte...  65.7    2e-11
+  UniRef90_A0A0C1FX74 Phage envelope protein n=3 Tax=Pedobacter T...  65.7    2e-11
+  UniRef90_J0RVK6 Phage envelope protein-like protein n=15 Tax=Fl...  65.7    2e-11
+  UniRef90_A0A3G6QM41 DUF1398 domain-containing protein n=2 Tax=C...  65.7    3e-11
+  UniRef90_A0A2W7TQQ7 Phage envelope protein n=2 Tax=Flavobacteri...  65.7    3e-11
+  UniRef90_UPI0002DD1B44 DUF1398 domain-containing protein n=1 Ta...  65.7    3e-11
+  UniRef90_A0A2M8XWC2 Uncharacterized protein YbcV (DUF1398 famil...  65.7    3e-11
+  UniRef90_A0A1M6Z545 Uncharacterized conserved protein YbcV, DUF...  65.7    3e-11
+  UniRef90_A0A0G7HGY4 Phage envelope protein n=10 Tax=Bacilli Tax...  65.7    3e-11
+  UniRef90_A6EJ70 Uncharacterized protein n=1 Tax=Pedobacter sp. ...  65.3    3e-11
+  UniRef90_A0A1M5GQB3 Uncharacterized conserved protein YbcV, DUF...  65.3    3e-11
+  UniRef90_A0A1I4VMS5 Uncharacterized conserved protein YbcV, DUF...  65.3    3e-11
+  UniRef90_A0A1G6AR64 Uncharacterized conserved protein YbcV, DUF...  65.3    3e-11
+  UniRef90_A0A2X2VAE3 Phage envelope protein n=1 Tax=Chryseobacte...  65.3    4e-11
+  UniRef90_UPI00041910CE DUF1398 domain-containing protein n=1 Ta...  65.3    4e-11
+  UniRef90_A0A3G6TGB2 DUF1398 domain-containing protein n=2 Tax=C...  65.3    4e-11
+  UniRef90_A0A077KL51 Uncharacterized protein n=1 Tax=Chryseobact...  65.3    4e-11
+  UniRef90_W7B7B0 Phage envelope protein n=1 Tax=Listeria granden...  65.3    4e-11
+  UniRef90_A0A2U2PDU2 Phage envelope protein n=1 Tax=Pedobacter s...  64.9    5e-11
+  UniRef90_A0A2T8HGS7 Phage envelope protein n=1 Tax=Sphingobacte...  64.9    5e-11
+  UniRef90_A0A199XU80 Uncharacterized protein n=1 Tax=Flavobacter...  64.9    5e-11
+  UniRef90_A0A3D9G245 Uncharacterized protein YbcV (DUF1398 famil...  64.9    5e-11
+  UniRef90_Q11NI3 Uncharacterized protein n=1 Tax=Cytophaga hutch...  64.9    5e-11
+  UniRef90_A0A2V2ZGX1 Uncharacterized protein YbcV (DUF1398 famil...  64.9    6e-11
+  UniRef90_A0A2W5CJT6 Uncharacterized protein n=1 Tax=Streptococc...  64.2    6e-11
+  UniRef90_A0A0Q5SYG6 Phage envelope protein n=1 Tax=Pedobacter s...  64.9    6e-11
+  UniRef90_A0A372GVF0 DUF1398 domain-containing protein n=1 Tax=A...  64.9    6e-11
+  UniRef90_A0A3N7CK40 Phage envelope protein n=1 Tax=Taibaiella s...  64.5    6e-11
+  UniRef90_A0A101CPA6 Phage envelope protein n=1 Tax=Flavobacteri...  64.5    6e-11
+  UniRef90_A0A1M7AFL1 Uncharacterized conserved protein YbcV, DUF...  64.5    7e-11
+  UniRef90_A0A258DU58 Phage envelope protein n=1 Tax=Algoriphagus...  64.5    7e-11
+  UniRef90_A0A344TFL6 Phage envelope protein n=2 Tax=Runella TaxI...  64.5    7e-11
+  UniRef90_H8XP84 Uncharacterized protein n=1 Tax=Flavobacterium ...  64.5    7e-11
+  UniRef90_A0A2N4X9A6 Phage envelope protein n=1 Tax=Emticicia sp...  64.5    7e-11
+  UniRef90_UPI00041FECC2 DUF1398 domain-containing protein n=1 Ta...  64.5    7e-11
+  UniRef90_A0A0X7BB40 Phage envelope protein n=1 Tax=Flavobacteri...  64.5    8e-11
+  UniRef90_A0A3D9DQ61 Phage envelope protein n=1 Tax=Chryseobacte...  64.5    8e-11
+  UniRef90_A0A1M7LGP1 Uncharacterized conserved protein YbcV, DUF...  64.5    8e-11
+  UniRef90_A0A2S8ZY42 Phage envelope protein n=2 Tax=Chryseobacte...  64.5    8e-11
+  UniRef90_I3C4T9 Phage envelope protein n=1 Tax=Joostella marina...  64.5    9e-11
+  UniRef90_A0A1E4E2P6 Phage envelope protein n=2 Tax=Bacteroidete...  64.2    9e-11
+  UniRef90_A0A1H7P498 Uncharacterized conserved protein YbcV, DUF...  64.2    9e-11
+  UniRef90_A0A316X9P3 Phage envelope protein n=1 Tax=Chryseobacte...  64.2    9e-11
+  UniRef90_UPI00041C0CBB DUF1398 domain-containing protein n=1 Ta...  64.2    9e-11
+  UniRef90_A0A085EGG7 Phage envelope protein n=1 Tax=Flavobacteri...  64.2    9e-11
+  UniRef90_A0A1G6H0B9 Uncharacterized conserved protein YbcV, DUF...  64.2    1e-10
+  UniRef90_A0A2T5Z5B7 Uncharacterized protein YbcV (DUF1398 famil...  64.2    1e-10
+  UniRef90_H7FTE9 Uncharacterized protein n=2 Tax=Flavobacterium ...  64.2    1e-10
+  UniRef90_A0A2U1JSQ2 Phage envelope protein n=1 Tax=Flavobacteri...  64.2    1e-10
+  UniRef90_A0A0N0IY04 Uncharacterized protein n=1 Tax=Chryseobact...  64.2    1e-10
+  UniRef90_A0A1V3QWD7 Phage envelope protein n=2 Tax=Flavobacteri...  64.2    1e-10
+  UniRef90_A0A1M3KYR1 Phage envelope protein n=2 Tax=Dysgonomonas...  64.2    1e-10
+  UniRef90_A0A1A7KE79 Uncharacterized protein n=1 Tax=Chryseobact...  64.2    1e-10
+  UniRef90_A0A1Q4F6Q2 Phage envelope protein n=1 Tax=Sphingobacte...  63.8    1e-10
+  UniRef90_A0A3C0UL16 Phage envelope protein n=2 Tax=Runella TaxI...  63.8    1e-10
+  UniRef90_A0A2N1KLW4 Phage envelope protein n=1 Tax=Siphonobacte...  63.8    1e-10
+  UniRef90_UPI000E0AEAD6 DUF1398 domain-containing protein n=1 Ta...  63.8    1e-10
+  UniRef90_A0A3G6BAH9 DUF1398 domain-containing protein n=1 Tax=C...  63.8    1e-10
+  UniRef90_A0A3D6ESQ2 Phage envelope protein n=1 Tax=Cytophagales...  63.8    1e-10
+  UniRef90_A0A0J0YID1 Phage envelope protein n=2 Tax=Flavobacteri...  63.8    2e-10
+  UniRef90_A0A380BLY2 Phage envelope protein n=104 Tax=Staphyloco...  63.8    2e-10
+  UniRef90_A0A1T4N7V9 Uncharacterized conserved protein YbcV, DUF...  63.8    2e-10
+  UniRef90_A0A2X2SKP0 Phage envelope protein n=4 Tax=Chryseobacte...  63.4    2e-10
+  UniRef90_A0A1M5JEX0 Uncharacterized conserved protein YbcV, DUF...  63.4    2e-10
+  UniRef90_A0A2U1R2J6 Phage envelope protein n=1 Tax=Flavobacteri...  63.4    2e-10
+  UniRef90_UPI00042228F5 DUF1398 domain-containing protein n=1 Ta...  63.4    2e-10
+  UniRef90_A0A2T4PN08 DUF1398 domain-containing protein n=5 Tax=S...  63.4    2e-10
+  UniRef90_A0A098LKY9 Uncharacterized protein n=1 Tax=Sporocytoph...  63.4    2e-10
+  UniRef90_A0A3G8XIP2 DUF1398 domain-containing protein n=1 Tax=C...  63.4    2e-10
+  UniRef90_F2IGB2 Uncharacterized protein n=1 Tax=Fluviicola taff...  63.4    2e-10
+  UniRef90_UPI000DE41202 DUF1398 domain-containing protein n=1 Ta...  63.4    2e-10
+  UniRef90_A0A1N7HZ53 Uncharacterized conserved protein YbcV, DUF...  63.4    2e-10
+  UniRef90_UPI000762C216 DUF1398 domain-containing protein n=1 Ta...  63.0    2e-10
+  UniRef90_A0A327Q7M9 Uncharacterized protein YbcV (DUF1398 famil...  63.0    2e-10
+  UniRef90_A0A3D0QN71 Phage envelope protein n=2 Tax=Flavobacteri...  63.0    2e-10
+  UniRef90_UPI000E68C409 DUF1398 domain-containing protein n=2 Ta...  63.0    3e-10
+  UniRef90_UPI00040C7C33 DUF1398 domain-containing protein n=1 Ta...  63.0    3e-10
+  UniRef90_A0A2S1LGS6 Phage envelope protein n=1 Tax=Flavobacteri...  63.0    3e-10
+  UniRef90_A0A3N7H2P0 DUF1398 domain-containing protein n=1 Tax=P...  63.0    3e-10
+  UniRef90_A0A117KBB0 Phage envelope protein n=3 Tax=Chryseobacte...  63.0    3e-10
+  UniRef90_A0A2N0H8P5 Uncharacterized protein YbcV (DUF1398 famil...  63.0    3e-10
+  UniRef90_A0A150ZUV0 Phage envelope protein n=3 Tax=Chryseobacte...  63.0    3e-10
+  UniRef90_A0A1T3FC51 Phage envelope protein n=4 Tax=Elizabethkin...  62.6    3e-10
+  UniRef90_A0A242H2G3 Uncharacterized protein n=1 Tax=Enterococcu...  61.5    3e-10
+  UniRef90_A0A3N2F7K1 Uncharacterized protein YbcV (DUF1398 famil...  63.0    3e-10
+  UniRef90_A0A1M4YR44 Uncharacterized conserved protein YbcV, DUF...  62.6    3e-10
+  UniRef90_A0A372F3S7 DUF1398 domain-containing protein n=1 Tax=E...  62.6    3e-10
+  UniRef90_J2J0D7 Phage envelope protein n=1 Tax=Flavobacterium s...  62.6    4e-10
+  UniRef90_A0A345D928 Uncharacterized protein n=1 Tax=Hydromonas ...  63.4    4e-10
+  UniRef90_A0A2T7Q213 Phage envelope protein n=2 Tax=Bacteroidete...  62.6    4e-10
+  UniRef90_UPI0003FFBF07 DUF1398 domain-containing protein n=1 Ta...  62.6    4e-10
+  UniRef90_A0A1D4JJS4 Phage envelope protein n=1 Tax=Staphylococc...  62.6    5e-10
+  UniRef90_A0A345D7R5 Uncharacterized protein n=1 Tax=Hydromonas ...  62.6    5e-10
+  UniRef90_UPI000302B24D DUF1398 domain-containing protein n=1 Ta...  62.2    5e-10
+  UniRef90_A0A1M6F525 Uncharacterized conserved protein YbcV, DUF...  62.2    5e-10
+  UniRef90_A0A1T1CMD2 Phage envelope protein n=2 Tax=Flavobacteri...  62.2    5e-10
+  UniRef90_UPI0002D5DD01 DUF1398 domain-containing protein n=1 Ta...  62.2    5e-10
+  UniRef90_A0A066WMH4 Phage envelope protein n=1 Tax=Flavobacteri...  62.2    5e-10
+  UniRef90_A0A0A2LY97 Phage envelope protein n=1 Tax=Flavobacteri...  62.2    6e-10
+  UniRef90_A0A1Q3ZPX5 Phage envelope protein n=2 Tax=Flavobacteri...  62.2    6e-10
+  UniRef90_F8WZL6 Uncharacterized protein n=1 Tax=Dysgonomonas mo...  62.2    6e-10
+  UniRef90_A0A086AG39 Phage envelope protein n=4 Tax=Flavobacteri...  62.2    6e-10
+  UniRef90_A0A1I3CNN2 Uncharacterized conserved protein YbcV, DUF...  62.2    6e-10
+  UniRef90_A0A3D9NVS4 Uncharacterized protein YbcV (DUF1398 famil...  61.9    8e-10
+  UniRef90_A0A226H0E7 Phage envelope protein n=2 Tax=Flavobacteri...  61.9    8e-10
+  UniRef90_A0A3G6QTU7 DUF1398 domain-containing protein n=3 Tax=C...  61.9    8e-10
+  UniRef90_UPI000CF3EC75 DUF1398 domain-containing protein n=1 Ta...  61.9    8e-10
+  UniRef90_A0A3N0BUH8 DUF1398 domain-containing protein n=1 Tax=P...  61.9    9e-10
+  UniRef90_UPI000C290A60 DUF1398 domain-containing protein n=1 Ta...  61.9    9e-10
+  UniRef90_A0A1I0NYS1 Uncharacterized conserved protein YbcV, DUF...  61.9    9e-10
+  UniRef90_A0A366BNA0 Phage envelope protein n=1 Tax=Flavobacteri...  61.5    1e-09
+  UniRef90_A0A286A825 Uncharacterized conserved protein YbcV, DUF...  61.5    1e-09
+  UniRef90_A0A345VJW0 Uncharacterized protein n=1 Tax=Streptococc...  61.9    1e-09
+  UniRef90_A0A3D9AYX3 Phage envelope protein n=5 Tax=Chryseobacte...  61.5    1e-09
+  UniRef90_UPI000EB16EFF DUF1398 domain-containing protein n=1 Ta...  61.5    1e-09
+  UniRef90_A0A1M5RC13 Uncharacterized conserved protein YbcV, DUF...  61.5    1e-09
+  UniRef90_A0A2V4BIU7 Phage envelope protein n=4 Tax=Flavobacteri...  61.1    1e-09
+  UniRef90_A0A226ICU1 Phage envelope protein n=2 Tax=Flavobacteri...  61.1    1e-09
+  UniRef90_A0A316E7C2 Uncharacterized protein YbcV (DUF1398 famil...  61.1    1e-09
+  UniRef90_A0A1V3N2X8 Phage envelope protein n=1 Tax=Sphingobacte...  61.1    1e-09
+  UniRef90_UPI0003FB98DB DUF1398 domain-containing protein n=1 Ta...  61.1    1e-09
+  UniRef90_A0A2U0DLS2 DUF1398 domain-containing protein n=1 Tax=C...  61.1    2e-09
+  UniRef90_UPI0004939403 DUF1398 domain-containing protein n=1 Ta...  61.1    2e-09
+  UniRef90_A0A3G6PIJ1 DUF1398 domain-containing protein n=1 Tax=C...  61.1    2e-09
+  UniRef90_A0A3P1C168 DUF1398 domain-containing protein n=1 Tax=L...  61.1    2e-09
+  UniRef90_A0A2U0ZN27 Uncharacterized protein YbcV (DUF1398 famil...  60.7    2e-09
+  UniRef90_A0A1A9LCH5 Phage envelope protein n=1 Tax=Aequorivita ...  60.7    2e-09
+  UniRef90_A0A1N6Q5K7 Uncharacterized conserved protein YbcV, DUF...  60.7    2e-09
+  UniRef90_A0A2T4P480 DUF1398 domain-containing protein n=1 Tax=S...  60.7    2e-09
+  UniRef90_UPI000833CCA3 DUF1398 domain-containing protein n=1 Ta...  60.7    2e-09
+  UniRef90_A0A2X4H4L3 Phage envelope protein n=11 Tax=Streptococc...  60.7    2e-09
+  UniRef90_A0A1G8PFD8 Uncharacterized conserved protein YbcV, DUF...  60.7    2e-09
+  UniRef90_UPI0007D8A572 DUF1398 domain-containing protein n=1 Ta...  60.7    2e-09
+  UniRef90_UPI00040E229A DUF1398 domain-containing protein n=1 Ta...  60.7    2e-09
+  UniRef90_UPI0003FB07B1 DUF1398 domain-containing protein n=1 Ta...  60.7    2e-09
+  UniRef90_UPI0004015CEB DUF1398 domain-containing protein n=1 Ta...  60.3    3e-09
+  UniRef90_A0A1G9PXQ4 Uncharacterized conserved protein YbcV, DUF...  60.3    3e-09
+  UniRef90_A0A0Q5ZW28 Phage envelope protein n=1 Tax=Chryseobacte...  60.3    3e-09
+  UniRef90_A0A258WM32 Phage envelope protein n=1 Tax=Sphingobacte...  60.3    3e-09
+  UniRef90_A0A1M7E066 Uncharacterized conserved protein YbcV, DUF...  60.3    3e-09
+  UniRef90_A0A0M2NNS2 Uncharacterized protein n=7 Tax=Staphylococ...  60.3    3e-09
+  UniRef90_UPI000D342319 DUF1398 domain-containing protein n=1 Ta...  60.3    3e-09
+  UniRef90_A0A2S2DTQ7 Uncharacterized protein n=2 Tax=Pseudarcice...  60.7    3e-09
+  UniRef90_UPI000C0BCA77 DUF1398 domain-containing protein n=1 Ta...  60.3    3e-09
+  UniRef90_UPI00037CA33D DUF1398 domain-containing protein n=1 Ta...  60.3    3e-09
+  UniRef90_A0A377TWP2 Phage envelope protein n=1 Tax=Klebsiella p...  58.4    4e-09
+  UniRef90_A0A352R9H5 Phage envelope protein n=4 Tax=Flavobacteri...  59.9    4e-09
+  UniRef90_A0A1V3RF96 Phage envelope protein n=1 Tax=Flavobacteri...  59.9    4e-09
+  UniRef90_A0A0E9GEY5 Phage envelope protein n=1 Tax=Chlamydia tr...  59.9    4e-09
+  UniRef90_A0A123T132 Phage envelope protein n=11 Tax=Streptococc...  59.9    4e-09
+  UniRef90_UPI0004053436 DUF1398 domain-containing protein n=1 Ta...  59.9    5e-09
+  UniRef90_A0A2A5HC41 Phage envelope protein n=1 Tax=Flavobacteri...  59.9    5e-09
+  UniRef90_G5JHL7 Uncharacterized protein n=1 Tax=Staphylococcus ...  59.5    5e-09
+  UniRef90_A0A1M5N416 Uncharacterized conserved protein YbcV, DUF...  59.5    6e-09
+  UniRef90_A0A364URI0 DUF1398 domain-containing protein n=8 Tax=T...  59.5    6e-09
+  UniRef90_UPI0006489DD5 DUF1398 domain-containing protein n=1 Ta...  59.5    6e-09
+  UniRef90_A0A2N1GA43 Phage envelope protein n=1 Tax=Flavobacteri...  59.5    6e-09
+  UniRef90_A0A2W5V4T8 Phage envelope protein n=1 Tax=Azospira ory...  59.5    6e-09
+  UniRef90_A0A077XRR5 Uncharacterized protein n=2 Tax=Sphingobact...  59.5    7e-09
+  UniRef90_Q92E32 Lin0629 protein n=7 Tax=Listeriaceae TaxID=1868...  59.2    8e-09
+  UniRef90_A0A3N7D9C9 Phage envelope protein n=1 Tax=Pedobacter s...  59.2    8e-09
+  UniRef90_F8X1X6 Uncharacterized protein n=1 Tax=Dysgonomonas mo...  59.2    8e-09
+  UniRef90_A0A288GTH7 Uncharacterized protein n=1 Tax=candidate d...  59.2    9e-09
+  UniRef90_A0A0M3CC17 Phage envelope protein n=1 Tax=Sphingobacte...  59.2    9e-09
+  UniRef90_UPI000DE27C93 DUF1398 domain-containing protein n=1 Ta...  59.2    9e-09
+  UniRef90_UPI000F5297A0 DUF1398 domain-containing protein n=1 Ta...  59.2    9e-09
+  UniRef90_A0A1I5CCS0 Uncharacterized conserved protein YbcV, DUF...  59.2    1e-08
+  UniRef90_A0A267TBW1 Phage envelope protein n=1 Tax=Flectobacill...  58.8    1e-08
+  UniRef90_A0A0T0M479 Phage envelope protein n=1 Tax=Chryseobacte...  58.8    1e-08
+  UniRef90_V6S168 2,3-bisphosphoglycerate-independent phosphoglyc...  61.5    1e-08
+  UniRef90_A0A2K2Y690 Phage envelope protein n=1 Tax=Chryseobacte...  58.8    1e-08
+  UniRef90_A0A1H6B8Z7 Uncharacterized conserved protein YbcV, DUF...  58.8    1e-08
+  UniRef90_A0A1H8ASV1 Uncharacterized conserved protein YbcV, DUF...  58.8    1e-08
+  UniRef90_A0A0D6TJW9 Phage envelope protein n=1 Tax=Flavobacteri...  58.8    1e-08
+  UniRef90_A0A2W5U3W6 Phage envelope protein n=2 Tax=Flavobacteri...  58.4    1e-08
+  UniRef90_A0A1M3MFN6 Phage envelope protein n=1 Tax=Paludibacter...  58.4    1e-08
+  UniRef90_A0A0H3JNN6 Uncharacterized protein n=43 Tax=Staphyloco...  58.4    2e-08
+  UniRef90_A0A1T5D092 Uncharacterized conserved protein YbcV, DUF...  58.4    2e-08
+  UniRef90_A0A0D0K7Y7 Phage envelope protein n=2 Tax=Flavobacteri...  58.4    2e-08
+  UniRef90_A0A0Z8FEY1 Phage envelope protein n=2 Tax=Streptococcu...  58.0    2e-08
+  UniRef90_A0A2W2AU57 Phage envelope protein n=1 Tax=Taibaiella s...  57.6    3e-08
+  UniRef90_A0A3P1AJJ1 DUF1398 domain-containing protein n=1 Tax=F...  57.6    3e-08
+  UniRef90_A0A1T5AXS1 Uncharacterized conserved protein YbcV, DUF...  58.0    3e-08
+  UniRef90_A0AG76 Uncharacterized protein n=2 Tax=Listeria welshi...  57.6    3e-08
+  UniRef90_A0A1H6U421 Uncharacterized conserved protein YbcV, DUF...  57.6    3e-08
+  UniRef90_A0A097B2Y7 Phage envelope protein n=3 Tax=Listeria iva...  57.6    3e-08
+  UniRef90_A0A3D5Z3Z7 Phage envelope protein n=2 Tax=Bacteroidete...  57.6    3e-08
+  UniRef90_A0A1N7HU95 Uncharacterized conserved protein YbcV, DUF...  57.2    4e-08
+  UniRef90_UPI00047103BC DUF1398 domain-containing protein n=1 Ta...  57.6    4e-08
+  UniRef90_A0A3E0EWV3 Uncharacterized protein YbcV (DUF1398 famil...  57.6    4e-08
+  UniRef90_A0A1H6YH11 Uncharacterized conserved protein YbcV, DUF...  57.2    4e-08
+  UniRef90_A0A3D8Y8I8 Phage envelope protein n=1 Tax=Dyadobacter ...  57.2    5e-08
+  UniRef90_A0A350X3G6 Phage envelope protein n=1 Tax=Firmicutes b...  57.2    5e-08
+  UniRef90_A0A0E4H563 Phage envelope protein n=1 Tax=Streptococcu...  57.2    5e-08
+  UniRef90_UPI0009A440D1 DUF1398 domain-containing protein n=2 Ta...  57.6    6e-08
+  UniRef90_A0A1B9DKI3 Phage envelope protein n=1 Tax=Flavobacteri...  56.8    6e-08
+  UniRef90_A0A086B4J7 Phage envelope protein n=1 Tax=Chryseobacte...  56.8    7e-08
+  UniRef90_A0A1G0B420 Phage envelope protein n=1 Tax=Flavobacteri...  56.8    7e-08
+  UniRef90_UPI0003FB1570 DUF1398 domain-containing protein n=1 Ta...  56.8    7e-08
+  UniRef90_UPI00068B6307 DUF1398 domain-containing protein n=1 Ta...  56.1    9e-08
+  UniRef90_A0A1I7BT45 Uncharacterized conserved protein YbcV, DUF...  56.5    1e-07
+  UniRef90_A0A0B8T396 Uncharacterized protein n=1 Tax=Sphingobact...  56.1    1e-07
+  UniRef90_A0A1Q3WGG6 Phage envelope protein n=1 Tax=Spirosoma sp...  56.1    1e-07
+  UniRef90_A0A2T5Y141 Uncharacterized protein YbcV (DUF1398 famil...  56.1    1e-07
+  UniRef90_A0A2E4PQ07 Phage envelope protein n=1 Tax=Flavobacteri...  56.1    1e-07
+  UniRef90_G2ZCF3 Uncharacterized protein n=3 Tax=Listeria ivanov...  55.7    2e-07
+  UniRef90_G7SM79 Phage envelope protein n=49 Tax=Streptococcus s...  56.5    2e-07
+  UniRef90_A0A2T4Q0J5 DUF1398 domain-containing protein n=4 Tax=S...  55.7    2e-07
+  UniRef90_A0A2D1U1Y6 Phage envelope protein n=1 Tax=Pedobacter g...  56.1    2e-07
+  UniRef90_A0A0M9VIP8 Phage envelope protein n=1 Tax=Flavobacteri...  55.7    2e-07
+  UniRef90_A0A1I0XGQ5 Uncharacterized conserved protein YbcV, DUF...  55.7    2e-07
+  UniRef90_UPI000B89CFAC DUF1398 domain-containing protein n=1 Ta...  54.9    2e-07
+  UniRef90_A0A3E1NIX9 DUF1398 domain-containing protein n=1 Tax=C...  55.3    2e-07
+  UniRef90_A0A0Z8UH00 Phage envelope protein n=3 Tax=Streptococcu...  55.3    3e-07
+  UniRef90_UPI0009AF0ED0 DUF1398 domain-containing protein n=1 Ta...  55.3    3e-07
+  UniRef90_UPI000F81BF5B DUF1398 domain-containing protein n=1 Ta...  54.9    3e-07
+  UniRef90_A0A2R7K1P6 Uncharacterized protein n=1 Tax=Pedobacter ...  53.8    4e-07
+  UniRef90_UPI0003F55866 DUF1398 domain-containing protein n=1 Ta...  54.9    4e-07
+  UniRef90_A0A348Y5Z3 Phage envelope protein n=4 Tax=Flavobacteri...  54.9    4e-07
+  UniRef90_B9DJJ2 Uncharacterized protein n=4 Tax=Staphylococcus ...  54.9    4e-07
+  UniRef90_A0A2S5ADY9 Phage envelope protein n=1 Tax=Flavobacteri...  54.5    4e-07
+  UniRef90_UPI000DB98768 DUF1398 domain-containing protein n=1 Ta...  54.5    4e-07
+  UniRef90_A0A3P6N2Z3 Phage envelope protein n=2 Tax=Flavobacteri...  54.5    5e-07
+  UniRef90_A0A1G9RRF3 Uncharacterized conserved protein YbcV, DUF...  54.5    5e-07
+  UniRef90_G7SHJ9 Phage envelope protein n=24 Tax=Streptococcus s...  54.9    5e-07
+  UniRef90_UPI000DE4FA3E DUF1398 domain-containing protein n=1 Ta...  54.5    5e-07
+  UniRef90_A0A1S1XT12 Uncharacterized protein n=4 Tax=Streptococc...  54.1    6e-07
+  UniRef90_A0A386HUB2 DUF1398 domain-containing protein n=1 Tax=A...  54.1    6e-07
+  UniRef90_A0A3E0E5P6 Uncharacterized protein YbcV (DUF1398 famil...  53.8    1e-06
+  UniRef90_A0A0A6S1T7 Uncharacterized protein n=1 Tax=Streptococc...  53.8    1e-06
+  UniRef90_A0A0Z8ICS8 Phage envelope protein n=6 Tax=Streptococcu...  53.4    1e-06
+  UniRef90_A0A2S4N667 Uncharacterized protein YbcV (DUF1398 famil...  53.4    1e-06
+  UniRef90_A0A095TXT0 Phage envelope protein n=1 Tax=Flavobacteri...  53.4    1e-06
+  UniRef90_A0A380MKK9 Phage envelope protein n=4 Tax=Streptococcu...  53.0    2e-06
+  UniRef90_UPI000F641F0F DUF1398 domain-containing protein n=1 Ta...  51.1    2e-06
+  UniRef90_F1Z107 Uncharacterized protein n=11 Tax=Streptococcus ...  52.6    2e-06
+  UniRef90_A0A328YBD2 Uncharacterized protein YbcV (DUF1398 famil...  52.2    4e-06
+  UniRef90_A0A3M9NQC0 DUF1398 domain-containing protein n=1 Tax=F...  52.2    4e-06
+  UniRef90_UPI000646E258 DUF1398 domain-containing protein n=1 Ta...  52.2    4e-06
+  UniRef90_A0A0B8R2H7 DUF1398 domain-containing protein n=58 Tax=...  51.8    5e-06
+  UniRef90_A0A2H3KTF8 Phage envelope protein n=3 Tax=Flavobacteri...  51.5    8e-06
+  UniRef90_A0A1M3ECC4 Uncharacterized protein n=1 Tax=Bacteroidet...  51.5    8e-06
+  UniRef90_A0A1H5UCJ6 Uncharacterized conserved protein YbcV, DUF...  51.5    9e-06
+  UniRef90_E5QPW6 Phage envelope protein (Fragment) n=9 Tax=Liste...  51.1    9e-06
+  UniRef90_A0A143PA72 Uncharacterized protein n=2 Tax=Staphylococ...  51.1    1e-05
+  UniRef90_UPI0005323D3B DUF1398 domain-containing protein n=1 Ta...  50.7    1e-05
+  UniRef90_A0A3P3SLI1 DUF1398 domain-containing protein (Fragment...  48.8    2e-05
+  UniRef90_A0A0W0Y4I4 Uncharacterized protein n=2 Tax=Legionella ...  50.3    2e-05
+  UniRef90_A0A372FA54 DUF1398 domain-containing protein n=1 Tax=E...  49.9    3e-05
+  UniRef90_UPI000C0C067A DUF1398 domain-containing protein n=1 Ta...  49.5    4e-05
+  UniRef90_A0A2S8KTV3 DUF1398 domain-containing protein n=1 Tax=M...  49.5    5e-05
+  UniRef90_UPI000376E654 DUF1398 domain-containing protein n=1 Ta...  51.1    5e-05
+  UniRef90_A0A1L8MNM8 Uncharacterized protein n=2 Tax=Streptococc...  49.1    6e-05
+  UniRef90_UPI0009FF47EF DUF1398 domain-containing protein n=1 Ta...  48.8    7e-05
+  UniRef90_UPI000824700F DUF1398 domain-containing protein n=1 Ta...  48.8    7e-05
+  UniRef90_A0A364LIV5 Uncharacterized protein n=1 Tax=Legionella ...  48.4    1e-04
+  UniRef90_A0A161LSK7 Uncharacterized protein n=1 Tax=Paludibacte...  48.4    1e-04
+  UniRef90_A0A2W5EF63 Phage envelope protein (Fragment) n=1 Tax=P...  46.4    2e-04
+  UniRef90_A0A0Q9T2V7 Uncharacterized protein n=1 Tax=Phycicoccus...  47.6    2e-04
+  UniRef90_A0A239UCQ9 Phage envelope protein n=2 Tax=Staphylococc...  47.2    4e-04
+  UniRef90_UPI0009EAE393 DUF1398 domain-containing protein n=1 Ta...  47.2    4e-04
+  UniRef90_UPI000B42AEEB DUF1398 domain-containing protein n=1 Ta...  46.1    5e-04
+  UniRef90_A0A1H4D9D9 Uncharacterized protein n=1 Tax=Flavobacter...  44.5    5e-04
+  UniRef90_A0A1M7EG12 Uncharacterized conserved protein YbcV, DUF...  46.1    8e-04
+  UniRef90_A0A2A3UC44 Phage envelope protein n=1 Tax=Sphingobacte...  46.1    8e-04
+  UniRef90_A0A2P8HH59 Uncharacterized protein YbcV (DUF1398 famil...  46.1    8e-04
+  UniRef90_A0A345JQS9 DUF1398 domain-containing protein n=1 Tax=F...  46.1    0.001
+  UniRef90_A0A2S5A183 Uncharacterized protein n=1 Tax=Solitalea l...  45.7    0.001
+  UniRef90_A0A2V2AV87 Uncharacterized protein YbcV (DUF1398 famil...  45.7    0.001
+  UniRef90_H8KU29 Phage envelope protein n=1 Tax=Solitalea canade...  45.3    0.001
+  UniRef90_A0A1I6KB79 Uncharacterized conserved protein YbcV, DUF...  44.9    0.002
+  UniRef90_A0A1Q3TU85 Uncharacterized protein n=1 Tax=Chloroflexi...  44.9    0.003
+  UniRef90_UPI0009DD4ABC DUF1398 domain-containing protein n=1 Ta...  43.0    0.003
+  UniRef90_A0A378JUJ6 Phage envelope protein n=2 Tax=Legionella b...  44.5    0.003
+  UniRef90_A0A378JDL3 Phage envelope protein n=1 Tax=Legionella g...  44.5    0.004
+  UniRef90_A0A078KZE3 Phage envelope protein n=2 Tax=Legionella m...  44.1    0.004
+  UniRef90_UPI0004700840 DUF1398 domain-containing protein n=1 Ta...  43.7    0.007
+  UniRef90_UPI0006477D95 DUF1398 domain-containing protein n=1 Ta...  43.4    0.008
+  UniRef90_A0A1L6HV68 DUF1398 domain-containing protein n=1 Tax=P...  43.4    0.009
+  UniRef90_UPI000EABE66A DUF1398 domain-containing protein n=1 Ta...  43.4    0.009
+  UniRef90_A0A1X0IIB3 DUF1398 domain-containing protein n=1 Tax=M...  43.4    0.010
+  UniRef90_A0A124E6M9 Uncharacterized protein n=4 Tax=Mycobacteri...  42.6    0.010
+  UniRef90_A0A328P2X9 Uncharacterized protein n=1 Tax=Dyella jian...  43.0    0.011
+  UniRef90_UPI0009A4C142 DUF1398 domain-containing protein n=1 Ta...  43.4    0.011
+  UniRef90_UPI0005A64F4F DUF1398 domain-containing protein n=2 Ta...  43.0    0.012
+  UniRef90_A0A1E4ICW6 Uncharacterized protein n=1 Tax=Pseudonocar...  43.0    0.012
+  UniRef90_A0A2Z3KP09 DUF1398 domain-containing protein n=1 Tax=L...  43.0    0.013
+  UniRef90_A0A261UEV8 DUF1398 domain-containing protein n=1 Tax=B...  43.0    0.015
+  UniRef90_M4KEC8 Uncharacterized protein n=35 Tax=Lactobacillus ...  42.6    0.015
+  UniRef90_A0A2C9SU29 Uncharacterized protein n=2 Tax=Mycobacteri...  41.4    0.021
+  UniRef90_UPI000B5E8251 DUF1398 domain-containing protein n=1 Ta...  42.2    0.030
+  UniRef90_A0A0N0NGG7 Uncharacterized protein n=1 Tax=Actinobacte...  41.8    0.030
+  UniRef90_A0A117J9B1 Uncharacterized protein n=1 Tax=Mycolicibac...  42.2    0.031
+  UniRef90_A0A1Y5PJN3 Uncharacterized protein n=1 Tax=uncultured ...  41.8    0.039
+  UniRef90_UPI000B8516BE DUF1398 domain-containing protein n=1 Ta...  39.9    0.044
+  UniRef90_A0A317GZV3 Uncharacterized protein n=1 Tax=Bacteroidet...  39.5    0.049
+  UniRef90_A0A3E0FYI9 Uncharacterized protein DUF1398 n=1 Tax=Ped...  40.7    0.054
+  UniRef90_A0A0T9YTQ0 Phage envelope protein n=2 Tax=Mycobacteriu...  40.3    0.054
+  UniRef90_A0A257QJN2 Uncharacterized protein n=1 Tax=Verrucomicr...  41.8    0.060
+  UniRef90_UPI0009FD8194 DUF1398 domain-containing protein n=1 Ta...  39.9    0.062
+  UniRef90_A0A286ENU0 Uncharacterized protein YbcV n=1 Tax=Jatrop...  41.0    0.063
+  UniRef90_A0A2I6QN53 Uncharacterized protein n=1 Tax=uncultured ...  41.0    0.064
+  UniRef90_A0A064CJL2 Uncharacterized protein n=1 Tax=Mycolicibac...  41.0    0.070
+  UniRef90_A0A376DSZ7 Phage envelope protein n=1 Tax=Chryseobacte...  40.3    0.075
+  UniRef90_W6T502 Uncharacterized protein n=2 Tax=Lactobacillus f...  40.7    0.080
+  UniRef90_UPI000CF5A385 DUF1398 domain-containing protein n=2 Ta...  40.7    0.081
+  UniRef90_K2PUD8 Uncharacterized protein n=2 Tax=Lactococcus gar...  40.7    0.089
+  UniRef90_A0A1Q9PK52 Uncharacterized protein n=2 Tax=Bacillus sp...  40.7    0.090
+  UniRef90_A0A0A0E4D4 Uncharacterized protein n=1 Tax=Bacillus ni...  40.7    0.090
+  UniRef90_UPI000CD92D16 DUF1398 domain-containing protein n=1 Ta...  40.7    0.092
+  UniRef90_A0A1G8TD55 Uncharacterized conserved protein YbcV, DUF...  40.7    0.093
+  UniRef90_A0A0X8PSZ3 DUF1398 domain-containing protein n=1 Tax=E...  40.7    0.096
+  UniRef90_A0A1X1STK7 Uncharacterized protein n=1 Tax=Mycobacteri...  40.7    0.10 
+  UniRef90_UPI000B9457FC DUF1398 domain-containing protein n=1 Ta...  40.7    0.11 
+  UniRef90_A0A1A6B921 DUF1398 domain-containing protein n=2 Tax=M...  40.7    0.11 
+  UniRef90_A0A0Q6UR48 Uncharacterized protein n=1 Tax=Rhizobium s...  40.3    0.12 
+  UniRef90_A0A0R2MRG9 Uncharacterized protein n=3 Tax=Lactobacill...  39.9    0.14 
+  UniRef90_A0A1V4D0V6 DUF1398 domain-containing protein n=1 Tax=S...  40.3    0.14 
+  UniRef90_A0A1E5JN11 Uncharacterized protein n=2 Tax=Legionellac...  40.3    0.14 
+  UniRef90_A0A1H2XZD3 Uncharacterized conserved protein YbcV, DUF...  40.3    0.14 
+  UniRef90_A0A1A3MIV0 DUF1398 domain-containing protein n=1 Tax=M...  40.3    0.14 
+  UniRef90_UPI00047CD1B3 DUF1398 domain-containing protein n=1 Ta...  40.3    0.15 
+  UniRef90_A0A0T9V886 Phage envelope protein n=35 Tax=Mycobacteri...  40.3    0.15 
+  UniRef90_A0A1S8FXF2 DUF1398 domain-containing protein n=1 Tax=P...  39.9    0.17 
+  UniRef90_P9WLM2 Uncharacterized protein MT2067 n=19 Tax=Mycobac...  40.3    0.18 
+  UniRef90_A0A0D2A7I2 Uncharacterized protein n=1 Tax=Verruconis ...  39.9    0.19 
+  UniRef90_A0A0D6DUU2 Uncharacterized protein n=5 Tax=Lactococcus...  39.9    0.20 
+  UniRef90_UPI0008265586 DUF1398 domain-containing protein n=1 Ta...  39.5    0.22 
+  UniRef90_A0A233RM57 DUF1398 domain-containing protein n=3 Tax=S...  39.5    0.24 
+  UniRef90_A0A1I4F1D7 Uncharacterized conserved protein YbcV, DUF...  39.5    0.27 
+  UniRef90_V9DCV6 Uncharacterized protein n=1 Tax=Cladophialophor...  39.5    0.28 
+  UniRef90_UPI00098E35D4 DUF1398 domain-containing protein n=1 Ta...  37.6    0.28 
+  UniRef90_UPI00058E11BF DUF1398 domain-containing protein n=1 Ta...  39.1    0.29 
+  UniRef90_A0A3C1YWI9 DUF1398 domain-containing protein n=1 Tax=N...  39.1    0.33 
+  UniRef90_A0A1E7KW48 Uncharacterized protein n=1 Tax=Streptomyce...  39.1    0.38 
+  UniRef90_I8R2P6 Uncharacterized protein n=10 Tax=Lactobacillus ...  38.7    0.41 
+  UniRef90_UPI000693E2BA DUF1398 domain-containing protein n=1 Ta...  38.7    0.47 
+  UniRef90_A0A1E7JQ24 Uncharacterized protein n=2 Tax=Streptomyce...  38.7    0.48 
+  UniRef90_A0A3D8Y7E0 DUF1398 domain-containing protein n=1 Tax=D...  38.7    0.50 
+  UniRef90_A0A0D2JUG5 Uncharacterized protein n=2 Tax=Fonsecaea m...  38.7    0.55 
+  UniRef90_A0A0W0ZJK1 Uncharacterized protein n=2 Tax=Legionella ...  38.4    0.63 
+  UniRef90_A0A327UW48 Uncharacterized protein YbcV (DUF1398 famil...  38.4    0.69 
+  UniRef90_A0A1M3CPX2 DUF1398 domain-containing protein n=1 Tax=C...  38.4    0.73 
+  UniRef90_A0A090D311 Putative membrane protein n=2 Tax=Criblamyd...  39.1    0.76 
+  UniRef90_UPI00055330E9 DUF1398 domain-containing protein n=1 Ta...  38.0    0.83 
+  UniRef90_UPI0004CD725D DUF1398 domain-containing protein n=1 Ta...  38.0    0.84 
+  UniRef90_C5WV40 Uncharacterized protein n=1 Tax=Sorghum bicolor...  39.1    0.87 
+  UniRef90_A0A2H9SQ19 DUF1398 domain-containing protein n=1 Tax=P...  37.6    0.94 
+  UniRef90_A0A090D0L6 Uncharacterized protein n=1 Tax=Criblamydia...  38.0    0.95 
+  UniRef90_UPI00056739BF DUF1398 domain-containing protein n=1 Ta...  38.0    0.97 
+  UniRef90_UPI000A06BF55 DUF1398 domain-containing protein n=1 Ta...  36.0    0.99 
+  UniRef90_A0A0F4ICX1 Uncharacterized protein n=8 Tax=Streptomyce...  38.0    1.0  
+  UniRef90_A0A072Q6W1 Uncharacterized protein n=1 Tax=Exophiala a...  38.0    1.1  
+  UniRef90_A0A2R3JP36 Uncharacterized protein n=2 Tax=Lactobacill...  37.6    1.1  
+  UniRef90_I4W706 Uncharacterized protein n=2 Tax=Rhodanobacter T...  37.6    1.2  
+  UniRef90_A0A139M6I3 Uncharacterized protein n=1 Tax=Lactococcus...  37.6    1.2  
+  UniRef90_A0A357IV21 DUF1398 domain-containing protein n=2 Tax=S...  37.6    1.3  
+  UniRef90_A0A1H9XF68 Uncharacterized conserved protein YbcV, DUF...  37.2    1.5  
+  UniRef90_Q01SM2 Uncharacterized protein n=1 Tax=Solibacter usit...  37.2    1.5  
+  UniRef90_A0A1W1I7A5 Uncharacterized protein n=1 Tax=Nitrospira ...  37.2    1.7  
+  UniRef90_A0A1G8Q7P1 Putative competence-damage inducible protei...  38.0    1.7  
+  UniRef90_UPI000C81C1B0 DUF1398 domain-containing protein n=1 Ta...  37.2    1.8  
+  UniRef90_A0A1U9NS62 DUF1398 domain-containing protein n=2 Tax=S...  37.2    1.9  
+  UniRef90_D5CPM1 Uncharacterized protein n=2 Tax=root TaxID=1 Re...  36.8    2.0  
+  UniRef90_A0A2D6JCP4 Uncharacterized protein n=1 Tax=Euryarchaeo...  37.6    2.2  
+  UniRef90_UPI00062987A0 DUF1398 domain-containing protein n=1 Ta...  36.4    2.5  
+  UniRef90_UPI00071BFA31 DUF1398 domain-containing protein n=1 Ta...  36.4    2.6  
+  UniRef90_A0A2R7P3Z9 Uncharacterized protein n=1 Tax=Chryseobact...  34.9    2.7  
+  UniRef90_A0A023NQ47 Phage envelope protein n=1 Tax=Dyella jiang...  36.8    2.7  
+  UniRef90_R7URW8 Uncharacterized protein n=1 Tax=Capitella telet...  37.6    2.8  
+  UniRef90_A0A0Q2R7A4 Uncharacterized protein n=1 Tax=Mycobacteri...  36.4    3.0  
+  UniRef90_A0A2A5RJ89 Uncharacterized protein n=1 Tax=Lactococcus...  36.4    3.0  
+  UniRef90_A0A139MGC6 Phage envelope protein n=6 Tax=Lactococcus ...  36.4    3.3  
+  UniRef90_A0A2T7KBZ5 DUF1398 domain-containing protein n=1 Tax=S...  36.0    3.5  
+  UniRef90_A0A2S1XC02 DUF1398 domain-containing protein n=2 Tax=A...  36.0    3.7  
+  UniRef90_UPI00051C433A DUF1398 domain-containing protein n=2 Ta...  36.0    4.1  
+  UniRef90_A0A0Q5TS46 Uncharacterized protein n=2 Tax=Dyadobacter...  36.0    4.5  
+  UniRef90_A0A254QJY0 Uncharacterized protein n=1 Tax=Bdellovibri...  35.7    5.0  
+  UniRef90_A0A2S9H241 Phage envelope protein n=1 Tax=Solimicrobiu...  35.7    5.8  
+  UniRef90_UPI00047B1516 DUF1398 domain-containing protein n=1 Ta...  35.7    5.8  
+  UniRef90_A0A378J7K6 Phage envelope protein n=1 Tax=Legionella d...  35.7    5.9  
+  UniRef90_A0A1I3WYL4 His Kinase A (Phospho-acceptor) domain-cont...  36.4    6.1  
+  UniRef90_D2VVJ0 Predicted protein n=1 Tax=Naegleria gruberi Tax...  35.7    6.5  
+  UniRef90_UPI000997707C DUF1398 domain-containing protein n=3 Ta...  35.7    6.8  
+  UniRef90_A0A2D4BEJ1 Uncharacterized protein n=1 Tax=Pythium ins...  36.4    6.9  
+  UniRef90_A0A2P2DTK9 Uncharacterized protein n=1 Tax=Leptospira ...  35.3    7.2  
+  UniRef90_UPI00087DB804 dTDP-4-dehydrorhamnose reductase n=1 Tax...  36.0    7.4  
+  UniRef90_A0A0W1A3I9 Uncharacterized protein n=1 Tax=Legionella ...  35.7    7.5  
+  UniRef90_UPI00065F6EB6 DUF1398 domain-containing protein n=1 Ta...  35.3    7.7  
+  UniRef90_A0A0W0TK71 Phage envelope protein n=2 Tax=Legionella f...  35.3    7.9  
+  UniRef90_A0A1U6SBR7 Phage envelope protein n=1 Tax=Mycobacteroi...  35.3    8.3  
+  UniRef90_UPI0008270767 DUF1398 domain-containing protein n=1 Ta...  35.3    8.4  
+  UniRef90_A0A3D9RQH3 Uncharacterized protein YbcV (DUF1398 famil...  35.3    8.8  
+  UniRef90_A0A098CYC5 Uncharacterized protein n=1 Tax=Lactococcus...  35.3    9.7  
+  UniRef90_Q1QVU8 OmpA-like transmembrane region n=3 Tax=Chromoha...  35.7    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.149    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0456    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736345580145
+Results from round 3
+
+
+Query= NP_415090.2
+
+Length=136
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_UPI00041DE36E DUF1398 domain-containing protein n=1 Ta...  209     1e-67
+  UniRef90_A0A2W2AU57 Phage envelope protein n=1 Tax=Taibaiella s...  202     3e-65
+  UniRef90_A0A2I9E5I3 Uncharacterized protein n=2 Tax=Arenibacter...  201     7e-65
+  UniRef90_A0A0C1LJ59 Phage envelope protein n=1 Tax=Flavihumibac...  201     2e-64
+  UniRef90_A0A354D9X9 Phage envelope protein n=1 Tax=Flavobacteri...  200     3e-64
+  UniRef90_UPI0004225B47 DUF1398 domain-containing protein n=1 Ta...  199     6e-64
+  UniRef90_UPI000F86F158 DUF1398 domain-containing protein n=1 Ta...  199     9e-64
+  UniRef90_A0A1M3GEG9 Phage envelope protein n=2 Tax=Bacteroidete...  198     9e-64
+  UniRef90_UPI0002D5DD01 DUF1398 domain-containing protein n=1 Ta...  198     1e-63
+  UniRef90_A0A0A2M5G4 Phage envelope protein n=1 Tax=Flavobacteri...  198     1e-63
+  UniRef90_A0A258F6H1 Phage envelope protein n=2 Tax=Flavobacteri...  198     2e-63
+  UniRef90_A0A286A825 Uncharacterized conserved protein YbcV, DUF...  198     2e-63
+  UniRef90_A0A2I2DTC2 Phage envelope protein n=2 Tax=Flavobacteri...  198     2e-63
+  UniRef90_UPI0007D8A572 DUF1398 domain-containing protein n=1 Ta...  197     5e-63
+  UniRef90_UPI0003FB98DB DUF1398 domain-containing protein n=1 Ta...  197     5e-63
+  UniRef90_A0A162QCA6 Phage envelope protein n=1 Tax=Flavihumibac...  197     6e-63
+  UniRef90_A0A1A9LCH5 Phage envelope protein n=1 Tax=Aequorivita ...  196     8e-63
+  UniRef90_UPI000EB4FB13 DUF1398 domain-containing protein n=1 Ta...  196     9e-63
+  UniRef90_I2EW29 Uncharacterized protein n=1 Tax=Emticicia oligo...  196     1e-62
+  UniRef90_A0A1W2BPW7 Uncharacterized conserved protein YbcV, DUF...  196     1e-62
+  UniRef90_A0A3E1NIX9 DUF1398 domain-containing protein n=1 Tax=C...  195     2e-62
+  UniRef90_A0A258WM32 Phage envelope protein n=1 Tax=Sphingobacte...  195     2e-62
+  UniRef90_UPI000493AAE5 DUF1398 domain-containing protein n=1 Ta...  195     2e-62
+  UniRef90_A0A3P1AJJ1 DUF1398 domain-containing protein n=1 Tax=F...  195     2e-62
+  UniRef90_A0A1H5Y4R6 Uncharacterized conserved protein YbcV, DUF...  195     2e-62
+  UniRef90_A0A2N1KLW4 Phage envelope protein n=1 Tax=Siphonobacte...  195     2e-62
+  UniRef90_A0A316E7C2 Uncharacterized protein YbcV (DUF1398 famil...  195     2e-62
+  UniRef90_A0A0Q7GPU5 Phage envelope protein n=2 Tax=Flavobacteri...  195     2e-62
+  UniRef90_A0A0Q8ZW58 Phage envelope protein n=8 Tax=Flavobacteri...  194     3e-62
+  UniRef90_F8X1X6 Uncharacterized protein n=1 Tax=Dysgonomonas mo...  194     4e-62
+  UniRef90_UPI00040C7C33 DUF1398 domain-containing protein n=1 Ta...  194     4e-62
+  UniRef90_A0A2A5HC41 Phage envelope protein n=1 Tax=Flavobacteri...  194     4e-62
+  UniRef90_A0A1V3QWD7 Phage envelope protein n=2 Tax=Flavobacteri...  194     4e-62
+  UniRef90_A0A2G6TJZ8 Uncharacterized protein YbcV (DUF1398 famil...  194     4e-62
+  UniRef90_J2J0D7 Phage envelope protein n=1 Tax=Flavobacterium s...  194     5e-62
+  UniRef90_H8XP84 Uncharacterized protein n=1 Tax=Flavobacterium ...  194     5e-62
+  UniRef90_A0A3M9NQC0 DUF1398 domain-containing protein n=1 Tax=F...  194     5e-62
+  UniRef90_A0A1Q4F6Q2 Phage envelope protein n=1 Tax=Sphingobacte...  194     6e-62
+  UniRef90_UPI000EAD2CB0 DUF1398 domain-containing protein n=1 Ta...  194     8e-62
+  UniRef90_UPI000E70A52B DUF1398 domain-containing protein n=1 Ta...  194     8e-62
+  UniRef90_A0A2U1R2J6 Phage envelope protein n=1 Tax=Flavobacteri...  193     1e-61
+  UniRef90_UPI000DE27C93 DUF1398 domain-containing protein n=1 Ta...  193     1e-61
+  UniRef90_UPI00037CA33D DUF1398 domain-containing protein n=1 Ta...  193     1e-61
+  UniRef90_A0A1H8ASV1 Uncharacterized conserved protein YbcV, DUF...  193     1e-61
+  UniRef90_A0A1I5CCS0 Uncharacterized conserved protein YbcV, DUF...  193     1e-61
+  UniRef90_A0A0D6TJW9 Phage envelope protein n=1 Tax=Flavobacteri...  193     1e-61
+  UniRef90_A0A2N1TCA4 Phage envelope protein n=1 Tax=Candidatus P...  193     2e-61
+  UniRef90_A0A0W8EW54 Phage envelope protein n=4 Tax=Flavobacteri...  193     2e-61
+  UniRef90_UPI00040E229A DUF1398 domain-containing protein n=1 Ta...  193     2e-61
+  UniRef90_A0A101CPA6 Phage envelope protein n=1 Tax=Flavobacteri...  193     2e-61
+  UniRef90_A0A3D6ESQ2 Phage envelope protein n=1 Tax=Cytophagales...  193     2e-61
+  UniRef90_A0A1M5JEX0 Uncharacterized conserved protein YbcV, DUF...  193     2e-61
+  UniRef90_A0A1T4ZX68 Uncharacterized conserved protein YbcV, DUF...  193     2e-61
+  UniRef90_UPI000FCA7698 DUF1398 domain-containing protein n=1 Ta...  193     2e-61
+  UniRef90_I3C4T9 Phage envelope protein n=1 Tax=Joostella marina...  193     2e-61
+  UniRef90_UPI0003FB07B1 DUF1398 domain-containing protein n=1 Ta...  192     3e-61
+  UniRef90_UPI0007168F88 DUF1398 domain-containing protein n=1 Ta...  192     3e-61
+  UniRef90_A0A3D9G245 Uncharacterized protein YbcV (DUF1398 famil...  192     3e-61
+  UniRef90_UPI000E0AEAD6 DUF1398 domain-containing protein n=1 Ta...  192     3e-61
+  UniRef90_A0A258DU58 Phage envelope protein n=1 Tax=Algoriphagus...  192     3e-61
+  UniRef90_UPI000302B24D DUF1398 domain-containing protein n=1 Ta...  192     4e-61
+  UniRef90_A0A1M7LGP1 Uncharacterized conserved protein YbcV, DUF...  192     5e-61
+  UniRef90_UPI00041C0CBB DUF1398 domain-containing protein n=1 Ta...  192     5e-61
+  UniRef90_UPI00042228F5 DUF1398 domain-containing protein n=1 Ta...  191     6e-61
+  UniRef90_A0A1Q3ZIY4 Phage envelope protein n=1 Tax=Flavobacteri...  191     6e-61
+  UniRef90_A0A1T4N7V9 Uncharacterized conserved protein YbcV, DUF...  191     6e-61
+  UniRef90_A0A1I5XSZ9 Uncharacterized conserved protein YbcV, DUF...  191     7e-61
+  UniRef90_A0A1X7KYD4 Uncharacterized conserved protein YbcV, DUF...  191     9e-61
+  UniRef90_A0A1H7P498 Uncharacterized conserved protein YbcV, DUF...  191     1e-60
+  UniRef90_A0A135WIX8 Phage envelope protein n=2 Tax=Chryseobacte...  191     1e-60
+  UniRef90_A0A1M7E066 Uncharacterized conserved protein YbcV, DUF...  191     1e-60
+  UniRef90_A0A1G9RRF3 Uncharacterized conserved protein YbcV, DUF...  191     2e-60
+  UniRef90_A0A2W5U3W6 Phage envelope protein n=2 Tax=Flavobacteri...  190     2e-60
+  UniRef90_A0A372GVF0 DUF1398 domain-containing protein n=1 Tax=A...  190     2e-60
+  UniRef90_A0A380CIP5 Phage envelope protein n=3 Tax=Sphingobacte...  190     2e-60
+  UniRef90_A0A2U2PDU2 Phage envelope protein n=1 Tax=Pedobacter s...  190     2e-60
+  UniRef90_A0A2V4BZ65 Phage envelope protein n=1 Tax=Flavobacteri...  190     2e-60
+  UniRef90_UPI000EB16EFF DUF1398 domain-containing protein n=1 Ta...  190     2e-60
+  UniRef90_A0A3D9NVS4 Uncharacterized protein YbcV (DUF1398 famil...  190     3e-60
+  UniRef90_A0A1M7L213 Uncharacterized conserved protein YbcV, DUF...  190     3e-60
+  UniRef90_UPI000DE41202 DUF1398 domain-containing protein n=1 Ta...  189     4e-60
+  UniRef90_A0A344TFL6 Phage envelope protein n=2 Tax=Runella TaxI...  189     4e-60
+  UniRef90_A0A085Z8I7 Phage envelope protein n=2 Tax=Chryseobacte...  189     4e-60
+  UniRef90_A0A1M4XST4 Uncharacterized conserved protein YbcV, DUF...  189     4e-60
+  UniRef90_A0A0Q4S2H9 Phage envelope protein n=3 Tax=Flavobacteri...  189     4e-60
+  UniRef90_A0A221UVP5 Phage envelope protein n=1 Tax=Arenibacter ...  189     4e-60
+  UniRef90_A0A0J0YID1 Phage envelope protein n=2 Tax=Flavobacteri...  189     4e-60
+  UniRef90_J0RVK6 Phage envelope protein-like protein n=15 Tax=Fl...  189     5e-60
+  UniRef90_A0A085ZCE7 Phage envelope protein n=1 Tax=Chryseobacte...  189     6e-60
+  UniRef90_A0A2S7WA61 Phage envelope protein n=1 Tax=Polaribacter...  189     6e-60
+  UniRef90_A0A3N7H2P0 DUF1398 domain-containing protein n=1 Tax=P...  189     6e-60
+  UniRef90_UPI000DE41EAA DUF1398 domain-containing protein n=1 Ta...  189     7e-60
+  UniRef90_A0A1D9PE33 Phage envelope protein n=3 Tax=Flavobacteri...  189     7e-60
+  UniRef90_A0A3N7D9C9 Phage envelope protein n=1 Tax=Pedobacter s...  189     8e-60
+  UniRef90_A0A2G6UKL3 Uncharacterized protein YbcV (DUF1398 famil...  188     9e-60
+  UniRef90_A0A3D3MKN8 Phage envelope protein n=2 Tax=Chryseobacte...  188     9e-60
+  UniRef90_F2IGB2 Uncharacterized protein n=1 Tax=Fluviicola taff...  188     9e-60
+  UniRef90_UPI000E59BA57 DUF1398 domain-containing protein n=1 Ta...  188     9e-60
+  UniRef90_A0A226ICU1 Phage envelope protein n=2 Tax=Flavobacteri...  188     9e-60
+  UniRef90_A0A086AXV5 Phage envelope protein n=3 Tax=Chryseobacte...  188     1e-59
+  UniRef90_A0A3E0EWV3 Uncharacterized protein YbcV (DUF1398 famil...  188     1e-59
+  UniRef90_A0A1G9PXQ4 Uncharacterized conserved protein YbcV, DUF...  188     1e-59
+  UniRef90_A0A1P8ED94 Phage envelope protein n=1 Tax=Sphingobacte...  188     1e-59
+  UniRef90_A0A2T7Q213 Phage envelope protein n=2 Tax=Bacteroidete...  188     1e-59
+  UniRef90_UPI000F5C4749 DUF1398 domain-containing protein n=1 Ta...  188     2e-59
+  UniRef90_A0A3P1C168 DUF1398 domain-containing protein n=1 Tax=L...  188     2e-59
+  UniRef90_A0A2W5V4T8 Phage envelope protein n=1 Tax=Azospira ory...  188     2e-59
+  UniRef90_A0A0Q0S8M4 Phage envelope protein n=2 Tax=Flavobacteri...  188     2e-59
+  UniRef90_A0A2S7I6K1 Phage envelope protein n=1 Tax=Cloacibacter...  188     2e-59
+  UniRef90_A0A351F498 Phage envelope protein n=1 Tax=Saprospirale...  188     2e-59
+  UniRef90_A0A0J7IE10 Phage envelope protein n=1 Tax=Chryseobacte...  188     2e-59
+  UniRef90_UPI000C290A60 DUF1398 domain-containing protein n=1 Ta...  188     2e-59
+  UniRef90_UPI000646E258 DUF1398 domain-containing protein n=1 Ta...  188     2e-59
+  UniRef90_A0A1V3N2X8 Phage envelope protein n=1 Tax=Sphingobacte...  188     2e-59
+  UniRef90_A0A1M3MFN6 Phage envelope protein n=1 Tax=Paludibacter...  187     2e-59
+  UniRef90_UPI00041FECC2 DUF1398 domain-containing protein n=1 Ta...  187     3e-59
+  UniRef90_A0A1I4VMS5 Uncharacterized conserved protein YbcV, DUF...  187     3e-59
+  UniRef90_A0A2V4BIU7 Phage envelope protein n=4 Tax=Flavobacteri...  187     3e-59
+  UniRef90_A0A1M6Z545 Uncharacterized conserved protein YbcV, DUF...  187     3e-59
+  UniRef90_A0A0D0EZ37 Phage envelope protein n=8 Tax=Flavobacteri...  187     3e-59
+  UniRef90_A0A1S1J3W2 Phage envelope protein n=5 Tax=Flavobacteri...  187     3e-59
+  UniRef90_A0A1T5AXS1 Uncharacterized conserved protein YbcV, DUF...  188     3e-59
+  UniRef90_A0A1Q4G5F6 Phage envelope protein n=1 Tax=Sphingobacte...  187     3e-59
+  UniRef90_A0A3N7CK40 Phage envelope protein n=1 Tax=Taibaiella s...  187     3e-59
+  UniRef90_A0A3C0UL16 Phage envelope protein n=2 Tax=Runella TaxI...  187     4e-59
+  UniRef90_A0A2E4PQ07 Phage envelope protein n=1 Tax=Flavobacteri...  187     4e-59
+  UniRef90_A0A1H6U421 Uncharacterized conserved protein YbcV, DUF...  187     4e-59
+  UniRef90_A0A1B9DY71 Phage envelope protein n=1 Tax=Flavobacteri...  187     4e-59
+  UniRef90_UPI000FE29181 DUF1398 domain-containing protein n=1 Ta...  187     5e-59
+  UniRef90_UPI0003672F42 DUF1398 domain-containing protein n=1 Ta...  186     5e-59
+  UniRef90_UPI000DB98768 DUF1398 domain-containing protein n=1 Ta...  186     5e-59
+  UniRef90_A0A3G6MJU8 DUF1398 domain-containing protein n=1 Tax=C...  186     5e-59
+  UniRef90_A0A1M3IEM0 Phage envelope protein n=1 Tax=Bacteroidete...  186     6e-59
+  UniRef90_A0A2W7TQQ7 Phage envelope protein n=2 Tax=Flavobacteri...  186     6e-59
+  UniRef90_A0A352R9H5 Phage envelope protein n=4 Tax=Flavobacteri...  186     6e-59
+  UniRef90_A0A0M9VIP8 Phage envelope protein n=1 Tax=Flavobacteri...  186     6e-59
+  UniRef90_A0A066WMH4 Phage envelope protein n=1 Tax=Flavobacteri...  186     7e-59
+  UniRef90_UPI0005323D3B DUF1398 domain-containing protein n=1 Ta...  186     7e-59
+  UniRef90_A0A1M3FZW1 Phage envelope protein n=1 Tax=Sphingobacte...  186     7e-59
+  UniRef90_A0A327Q7M9 Uncharacterized protein YbcV (DUF1398 famil...  186     8e-59
+  UniRef90_A0A1M5K0E0 Uncharacterized conserved protein YbcV, DUF...  186     8e-59
+  UniRef90_A0A2M8XWC2 Uncharacterized protein YbcV (DUF1398 famil...  186     9e-59
+  UniRef90_A0A2U0DLS2 DUF1398 domain-containing protein n=1 Tax=C...  186     1e-58
+  UniRef90_A0A0T0M479 Phage envelope protein n=1 Tax=Chryseobacte...  186     1e-58
+  UniRef90_A0A1N6Q5K7 Uncharacterized conserved protein YbcV, DUF...  186     1e-58
+  UniRef90_A0A095TXT0 Phage envelope protein n=1 Tax=Flavobacteri...  186     1e-58
+  UniRef90_A0A086A164 Phage envelope protein n=1 Tax=Chryseobacte...  186     1e-58
+  UniRef90_A0A0J7I627 Phage envelope protein n=1 Tax=Chryseobacte...  185     1e-58
+  UniRef90_UPI000F8D4729 DUF1398 domain-containing protein n=1 Ta...  185     2e-58
+  UniRef90_A0A3D9AYX3 Phage envelope protein n=5 Tax=Chryseobacte...  185     2e-58
+  UniRef90_A0A2S4N667 Uncharacterized protein YbcV (DUF1398 famil...  185     2e-58
+  UniRef90_UPI000D342319 DUF1398 domain-containing protein n=1 Ta...  185     2e-58
+  UniRef90_UPI000EB30273 DUF1398 domain-containing protein n=1 Ta...  185     2e-58
+  UniRef90_A0A0D0K7Y7 Phage envelope protein n=2 Tax=Flavobacteri...  185     2e-58
+  UniRef90_A0A1V3TWW1 Phage envelope protein n=3 Tax=Elizabethkin...  185     2e-58
+  UniRef90_A0A1M7CF11 Uncharacterized conserved protein YbcV, DUF...  185     2e-58
+  UniRef90_A0A1M6F525 Uncharacterized conserved protein YbcV, DUF...  185     2e-58
+  UniRef90_UPI0004939403 DUF1398 domain-containing protein n=1 Ta...  185     3e-58
+  UniRef90_A0A085EGG7 Phage envelope protein n=1 Tax=Flavobacteri...  185     3e-58
+  UniRef90_A0A226H0E7 Phage envelope protein n=2 Tax=Flavobacteri...  184     3e-58
+  UniRef90_A0A2N0H8P5 Uncharacterized protein YbcV (DUF1398 famil...  184     4e-58
+  UniRef90_A0A3D9DQ61 Phage envelope protein n=1 Tax=Chryseobacte...  184     4e-58
+  UniRef90_A0A1T5D092 Uncharacterized conserved protein YbcV, DUF...  184     4e-58
+  UniRef90_A0A1H9MMR2 Uncharacterized conserved protein YbcV, DUF...  184     5e-58
+  UniRef90_A0A1I7BT45 Uncharacterized conserved protein YbcV, DUF...  184     5e-58
+  UniRef90_A0A3D0QN71 Phage envelope protein n=2 Tax=Flavobacteri...  184     5e-58
+  UniRef90_UPI000428FC80 DUF1398 domain-containing protein n=1 Ta...  184     5e-58
+  UniRef90_A0A3G6QM41 DUF1398 domain-containing protein n=2 Tax=C...  184     5e-58
+  UniRef90_A0A0Q5ZW28 Phage envelope protein n=1 Tax=Chryseobacte...  184     5e-58
+  UniRef90_UPI0004053436 DUF1398 domain-containing protein n=1 Ta...  184     6e-58
+  UniRef90_A0A1M7A021 Uncharacterized conserved protein YbcV, DUF...  184     6e-58
+  UniRef90_A0A3G2G469 DUF1398 domain-containing protein n=1 Tax=C...  184     6e-58
+  UniRef90_A0A2U1JSQ2 Phage envelope protein n=1 Tax=Flavobacteri...  184     6e-58
+  UniRef90_A0A3E0E5P6 Uncharacterized protein YbcV (DUF1398 famil...  184     6e-58
+  UniRef90_A0A1Q3WGG6 Phage envelope protein n=1 Tax=Spirosoma sp...  184     6e-58
+  UniRef90_A0A1M4YR44 Uncharacterized conserved protein YbcV, DUF...  184     6e-58
+  UniRef90_A0A386HUB2 DUF1398 domain-containing protein n=1 Tax=A...  184     6e-58
+  UniRef90_UPI000833CCA3 DUF1398 domain-containing protein n=1 Ta...  184     6e-58
+  UniRef90_A0A3D9CKK0 Phage envelope protein n=1 Tax=Chryseobacte...  184     7e-58
+  UniRef90_UPI0004015CEB DUF1398 domain-containing protein n=1 Ta...  184     7e-58
+  UniRef90_UPI0009AF0ED0 DUF1398 domain-containing protein n=1 Ta...  183     9e-58
+  UniRef90_A0A1I3CNN2 Uncharacterized conserved protein YbcV, DUF...  183     1e-57
+  UniRef90_UPI000E0D75D9 DUF1398 domain-containing protein n=1 Ta...  183     1e-57
+  UniRef90_A0A2T8HGS7 Phage envelope protein n=1 Tax=Sphingobacte...  183     1e-57
+  UniRef90_A0A2S2DTQ7 Uncharacterized protein n=2 Tax=Pseudarcice...  184     1e-57
+  UniRef90_A0A316X9P3 Phage envelope protein n=1 Tax=Chryseobacte...  183     1e-57
+  UniRef90_A0A199XU80 Uncharacterized protein n=1 Tax=Flavobacter...  183     1e-57
+  UniRef90_A0A1G6H0B9 Uncharacterized conserved protein YbcV, DUF...  183     1e-57
+  UniRef90_A0A1S9PBH1 Phage envelope protein n=1 Tax=Mucilaginiba...  183     2e-57
+  UniRef90_UPI000A03FE77 DUF1398 domain-containing protein n=1 Ta...  183     2e-57
+  UniRef90_A0A1H6YH11 Uncharacterized conserved protein YbcV, DUF...  183     2e-57
+  UniRef90_A0A351PX07 Phage envelope protein n=1 Tax=Chitinophaga...  183     2e-57
+  UniRef90_A0A3N0WNU7 DUF1398 domain-containing protein n=1 Tax=C...  183     2e-57
+  UniRef90_UPI00083AAABC DUF1398 domain-containing protein n=1 Ta...  183     2e-57
+  UniRef90_A0A1G8PFD8 Uncharacterized conserved protein YbcV, DUF...  182     2e-57
+  UniRef90_UPI0003FB1570 DUF1398 domain-containing protein n=1 Ta...  182     3e-57
+  UniRef90_C7PJK0 Putative phage envelope protein n=1 Tax=Chitino...  182     3e-57
+  UniRef90_A0A220SHR7 Phage envelope protein n=1 Tax=Chryseobacte...  182     3e-57
+  UniRef90_A0A2T5Z5B7 Uncharacterized protein YbcV (DUF1398 famil...  182     4e-57
+  UniRef90_A0A1I0XGQ5 Uncharacterized conserved protein YbcV, DUF...  182     4e-57
+  UniRef90_A0A086AG39 Phage envelope protein n=4 Tax=Flavobacteri...  181     5e-57
+  UniRef90_A0A316WAV2 DUF1398 domain-containing protein n=2 Tax=C...  181     6e-57
+  UniRef90_A0A3G6QTU7 DUF1398 domain-containing protein n=3 Tax=C...  181     6e-57
+  UniRef90_A0A3M7LCE3 DUF1398 domain-containing protein n=2 Tax=C...  181     7e-57
+  UniRef90_A0A1M5N416 Uncharacterized conserved protein YbcV, DUF...  181     7e-57
+  UniRef90_A0A098LKY9 Uncharacterized protein n=1 Tax=Sporocytoph...  181     8e-57
+  UniRef90_A0A1Q3ZPX5 Phage envelope protein n=2 Tax=Flavobacteri...  181     8e-57
+  UniRef90_UPI000646ECB0 DUF1398 domain-containing protein n=1 Ta...  181     8e-57
+  UniRef90_UPI000647C2B7 DUF1398 domain-containing protein n=1 Ta...  181     8e-57
+  UniRef90_A0A0X7BB40 Phage envelope protein n=1 Tax=Flavobacteri...  181     1e-56
+  UniRef90_A0A1I5IEA0 Uncharacterized conserved protein YbcV, DUF...  181     1e-56
+  UniRef90_A0A1M7AFL1 Uncharacterized conserved protein YbcV, DUF...  181     1e-56
+  UniRef90_A0A0A2LY97 Phage envelope protein n=1 Tax=Flavobacteri...  181     1e-56
+  UniRef90_UPI0006489DD5 DUF1398 domain-containing protein n=1 Ta...  181     1e-56
+  UniRef90_A0A3G6TGB2 DUF1398 domain-containing protein n=2 Tax=C...  180     1e-56
+  UniRef90_A0A1H6H909 Uncharacterized conserved protein YbcV, DUF...  180     2e-56
+  UniRef90_A0A3D5Z3Z7 Phage envelope protein n=2 Tax=Bacteroidete...  180     2e-56
+  UniRef90_A0A1A7KE79 Uncharacterized protein n=1 Tax=Chryseobact...  180     2e-56
+  UniRef90_A0A3P6N2Z3 Phage envelope protein n=2 Tax=Flavobacteri...  180     2e-56
+  UniRef90_A0A267TBW1 Phage envelope protein n=1 Tax=Flectobacill...  180     2e-56
+  UniRef90_A0A316GZQ4 Uncharacterized protein YbcV (DUF1398 famil...  180     2e-56
+  UniRef90_A0A117KBB0 Phage envelope protein n=3 Tax=Chryseobacte...  180     2e-56
+  UniRef90_UPI0006811085 DUF1398 domain-containing protein n=1 Ta...  180     3e-56
+  UniRef90_A0A0M3CC17 Phage envelope protein n=1 Tax=Sphingobacte...  179     3e-56
+  UniRef90_A0A2D1U1Y6 Phage envelope protein n=1 Tax=Pedobacter g...  180     3e-56
+  UniRef90_A0A2N4X9A6 Phage envelope protein n=1 Tax=Emticicia sp...  179     3e-56
+  UniRef90_A0A261Q2E3 Phage envelope protein n=2 Tax=Siphonobacte...  179     3e-56
+  UniRef90_A0A1N7A6S8 Uncharacterized conserved protein YbcV, DUF...  179     3e-56
+  UniRef90_UPI00047103BC DUF1398 domain-containing protein n=1 Ta...  179     3e-56
+  UniRef90_A0A3D8Y8I8 Phage envelope protein n=1 Tax=Dyadobacter ...  179     4e-56
+  UniRef90_A0A1Q3RXF5 Phage envelope protein n=1 Tax=Flavobacteri...  179     5e-56
+  UniRef90_Q11NI3 Uncharacterized protein n=1 Tax=Cytophaga hutch...  179     5e-56
+  UniRef90_A0A077XRR5 Uncharacterized protein n=2 Tax=Sphingobact...  179     6e-56
+  UniRef90_A0A2S9CZJ1 Phage envelope protein n=3 Tax=Chryseobacte...  179     6e-56
+  UniRef90_A0A1M5RC13 Uncharacterized conserved protein YbcV, DUF...  179     7e-56
+  UniRef90_A0A3E1P4E4 DUF1398 domain-containing protein n=1 Tax=C...  178     8e-56
+  UniRef90_A0A1H8E087 Uncharacterized conserved protein YbcV, DUF...  178     8e-56
+  UniRef90_A0A2X2VAE3 Phage envelope protein n=1 Tax=Chryseobacte...  178     9e-56
+  UniRef90_A0A2S5ADY9 Phage envelope protein n=1 Tax=Flavobacteri...  178     9e-56
+  UniRef90_A0A3N0W507 DUF1398 domain-containing protein n=1 Tax=C...  178     1e-55
+  UniRef90_A0A150ZUV0 Phage envelope protein n=3 Tax=Chryseobacte...  178     1e-55
+  UniRef90_A0A3L9ZIV7 Uncharacterized protein YbcV (DUF1398 famil...  178     1e-55
+  UniRef90_A0A2V2ZGX1 Uncharacterized protein YbcV (DUF1398 famil...  178     1e-55
+  UniRef90_A0A1G0B420 Phage envelope protein n=1 Tax=Flavobacteri...  178     1e-55
+  UniRef90_A0A372F3S7 DUF1398 domain-containing protein n=1 Tax=E...  178     1e-55
+  UniRef90_F5IY24 Uncharacterized protein n=1 Tax=Dysgonomonas ga...  178     1e-55
+  UniRef90_UPI000D11C2BF DUF1398 domain-containing protein n=1 Ta...  178     2e-55
+  UniRef90_UPI000562D5FE DUF1398 domain-containing protein n=1 Ta...  178     2e-55
+  UniRef90_A0A3G6BAH9 DUF1398 domain-containing protein n=1 Tax=C...  178     2e-55
+  UniRef90_A0A1G8RWR7 Uncharacterized conserved protein YbcV, DUF...  178     2e-55
+  UniRef90_A0A1E4E2P6 Phage envelope protein n=2 Tax=Bacteroidete...  178     2e-55
+  UniRef90_A0A3G6PIJ1 DUF1398 domain-containing protein n=1 Tax=C...  178     2e-55
+  UniRef90_A0A3N2F7K1 Uncharacterized protein YbcV (DUF1398 famil...  177     2e-55
+  UniRef90_UPI000F865F1A DUF1398 domain-containing protein n=1 Ta...  177     3e-55
+  UniRef90_A0A318IDE3 Uncharacterized protein YbcV (DUF1398 famil...  178     3e-55
+  UniRef90_A0A077KL51 Uncharacterized protein n=1 Tax=Chryseobact...  177     3e-55
+  UniRef90_A0A2S8ZY42 Phage envelope protein n=2 Tax=Chryseobacte...  177     3e-55
+  UniRef90_A0A1N7HZ53 Uncharacterized conserved protein YbcV, DUF...  177     3e-55
+  UniRef90_A0A2A2S0T6 Phage envelope protein n=1 Tax=Mucilaginiba...  177     4e-55
+  UniRef90_UPI0002DD1B44 DUF1398 domain-containing protein n=1 Ta...  177     4e-55
+  UniRef90_A0A328YBD2 Uncharacterized protein YbcV (DUF1398 famil...  176     5e-55
+  UniRef90_UPI000DE4FA3E DUF1398 domain-containing protein n=1 Ta...  176     5e-55
+  UniRef90_A0A1V3RF96 Phage envelope protein n=1 Tax=Flavobacteri...  176     6e-55
+  UniRef90_UPI0006470B1E DUF1398 domain-containing protein n=2 Ta...  176     6e-55
+  UniRef90_A0A0Q4LH99 Phage envelope protein n=1 Tax=Pedobacter s...  176     6e-55
+  UniRef90_A0A369Q3Q1 DUF1398 domain-containing protein n=1 Tax=P...  176     8e-55
+  UniRef90_UPI000E31F593 DUF1398 domain-containing protein n=1 Ta...  176     8e-55
+  UniRef90_A0A1G8X2C2 Uncharacterized conserved protein YbcV, DUF...  179     1e-54
+  UniRef90_A0A0Q1F382 Phage envelope protein n=1 Tax=Pedobacter s...  176     1e-54
+  UniRef90_A0A2X2SKP0 Phage envelope protein n=4 Tax=Chryseobacte...  176     1e-54
+  UniRef90_UPI000DE311F6 DUF1398 domain-containing protein n=1 Ta...  175     1e-54
+  UniRef90_A0A2U0ZN27 Uncharacterized protein YbcV (DUF1398 famil...  175     2e-54
+  UniRef90_UPI000824700F DUF1398 domain-containing protein n=1 Ta...  175     2e-54
+  UniRef90_A0A2A2S256 Phage envelope protein n=1 Tax=Mucilaginiba...  175     2e-54
+  UniRef90_A0A161LSK7 Uncharacterized protein n=1 Tax=Paludibacte...  175     2e-54
+  UniRef90_A0A317LZE5 Uncharacterized protein YbcV (DUF1398 famil...  175     2e-54
+  UniRef90_A0A3G8X0Q9 DUF1398 domain-containing protein n=3 Tax=P...  175     2e-54
+  UniRef90_UPI00064754C6 DUF1398 domain-containing protein n=1 Ta...  175     2e-54
+  UniRef90_A0A1V2B3G2 Phage envelope protein n=1 Tax=[Flexibacter...  175     2e-54
+  UniRef90_A0A288GTH7 Uncharacterized protein n=1 Tax=candidate d...  175     2e-54
+  UniRef90_A0A2H9VTY8 Uncharacterized protein YbcV (DUF1398 famil...  175     2e-54
+  UniRef90_A0A2W5UKP9 Phage envelope protein n=1 Tax=Citrobacter ...  175     2e-54
+  UniRef90_A0A1V1ZJ06 Phage envelope protein n=2 Tax=Mangrovimona...  174     3e-54
+  UniRef90_A0A1M5GQB3 Uncharacterized conserved protein YbcV, DUF...  174     5e-54
+  UniRef90_A0A1T1CMD2 Phage envelope protein n=2 Tax=Flavobacteri...  174     5e-54
+  UniRef90_A0A3D9B9T0 Phage envelope protein n=1 Tax=Chryseobacte...  174     5e-54
+  UniRef90_A0A0N0IY04 Uncharacterized protein n=1 Tax=Chryseobact...  174     5e-54
+  UniRef90_A0A317F326 Phage envelope protein n=1 Tax=Pedobacter s...  174     6e-54
+  UniRef90_A0A2K2Y690 Phage envelope protein n=1 Tax=Chryseobacte...  173     8e-54
+  UniRef90_A0A1G9CV29 Uncharacterized conserved protein YbcV, DUF...  182     8e-54
+  UniRef90_A0A1I3AL94 Uncharacterized conserved protein YbcV, DUF...  173     1e-53
+  UniRef90_A0A1X9Z4I7 Phage envelope protein n=2 Tax=Sphingobacte...  173     1e-53
+  UniRef90_A0A1S9B385 Uncharacterized protein n=1 Tax=Hymenobacte...  173     1e-53
+  UniRef90_A6EJ70 Uncharacterized protein n=1 Tax=Pedobacter sp. ...  173     1e-53
+  UniRef90_UPI00040C5206 DUF1398 domain-containing protein n=1 Ta...  173     1e-53
+  UniRef90_A0A085BEU3 Uncharacterized protein n=1 Tax=Chryseobact...  173     2e-53
+  UniRef90_A0A2S1LGS6 Phage envelope protein n=1 Tax=Flavobacteri...  173     2e-53
+  UniRef90_A0A1W2CUP8 Uncharacterized conserved protein YbcV, DUF...  173     2e-53
+  UniRef90_A0A367GMD0 Phage envelope protein n=1 Tax=Mucilaginiba...  173     2e-53
+  UniRef90_A0A316XF81 DUF1398 domain-containing protein n=1 Tax=C...  172     2e-53
+  UniRef90_A0A212IZE9 Uncharacterized protein n=1 Tax=uncultured ...  172     3e-53
+  UniRef90_A0A1I0SEK6 Uncharacterized conserved protein YbcV, DUF...  172     3e-53
+  UniRef90_A0A3D9DGD3 DUF1398 domain-containing protein n=2 Tax=C...  172     3e-53
+  UniRef90_A0A1K1SEV3 Uncharacterized conserved protein YbcV, DUF...  172     3e-53
+  UniRef90_UPI000E70B40A DUF1398 domain-containing protein n=1 Ta...  171     4e-53
+  UniRef90_A0A2T5JFC6 Uncharacterized protein YbcV (DUF1398 famil...  172     5e-53
+  UniRef90_A0A2T5Y141 Uncharacterized protein YbcV (DUF1398 famil...  171     8e-53
+  UniRef90_A0A2J6HBL7 Phage envelope protein n=2 Tax=Mucilaginiba...  171     8e-53
+  UniRef90_A0A2D8FVM2 Phage envelope protein n=1 Tax=Flavobacteri...  171     9e-53
+  UniRef90_A0A2S6I9M9 Uncharacterized protein YbcV (DUF1398 famil...  171     9e-53
+  UniRef90_A0A2N1GA43 Phage envelope protein n=1 Tax=Flavobacteri...  171     9e-53
+  UniRef90_A0A0C5VW87 Phage envelope protein n=1 Tax=Siansivirga ...  171     1e-52
+  UniRef90_UPI00046A213F DUF1398 domain-containing protein n=1 Ta...  170     1e-52
+  UniRef90_A0A1I0NYS1 Uncharacterized conserved protein YbcV, DUF...  170     1e-52
+  UniRef90_A0A1T3FC51 Phage envelope protein n=4 Tax=Elizabethkin...  170     2e-52
+  UniRef90_A0A0T5VN69 Phage envelope protein n=2 Tax=Pedobacter T...  170     2e-52
+  UniRef90_A0A366L1G4 Phage envelope protein n=1 Tax=Pedobacter s...  170     2e-52
+  UniRef90_A0A2T7BP42 Phage envelope protein n=1 Tax=Chitinophaga...  169     4e-52
+  UniRef90_A0A317EQP4 Phage envelope protein n=1 Tax=Pedobacter y...  169     5e-52
+  UniRef90_A0A348Y5Z3 Phage envelope protein n=4 Tax=Flavobacteri...  169     5e-52
+  UniRef90_A0A2V3PT34 Uncharacterized protein YbcV (DUF1398 famil...  169     6e-52
+  UniRef90_A0A0C1FX74 Phage envelope protein n=3 Tax=Pedobacter T...  168     9e-52
+  UniRef90_A0A0B8T396 Uncharacterized protein n=1 Tax=Sphingobact...  168     1e-51
+  UniRef90_A0A0Q4FUD4 Phage envelope protein n=1 Tax=Pedobacter s...  168     1e-51
+  UniRef90_A0A2W6Y0J7 Phage envelope protein n=2 Tax=Chryseobacte...  168     1e-51
+  UniRef90_A0A1M6RY93 Uncharacterized conserved protein YbcV, DUF...  168     2e-51
+  UniRef90_A0A085B8U4 Phage envelope protein n=1 Tax=Chryseobacte...  167     3e-51
+  UniRef90_UPI0003FFBF07 DUF1398 domain-containing protein n=1 Ta...  165     2e-50
+  UniRef90_A0A177LH57 Uncharacterized protein n=1 Tax=Chryseobact...  165     2e-50
+  UniRef90_A0A1G9LQ28 Uncharacterized conserved protein YbcV, DUF...  167     3e-50
+  UniRef90_A0A345P928 DUF1398 domain-containing protein n=1 Tax=M...  167     8e-50
+  UniRef90_A0A345D7R5 Uncharacterized protein n=1 Tax=Hydromonas ...  163     8e-50
+  UniRef90_A0A3A1NLH6 DUF1398 domain-containing protein n=2 Tax=M...  163     1e-49
+  UniRef90_A0A1G7GWC8 Uncharacterized conserved protein YbcV, DUF...  163     1e-49
+  UniRef90_A0A0J0Y1M1 Phage envelope protein n=1 Tax=Pedobacter s...  163     1e-49
+  UniRef90_A0A1N7HU95 Uncharacterized conserved protein YbcV, DUF...  163     2e-49
+  UniRef90_A0A0Q5N2Y9 Phage envelope protein n=1 Tax=Pedobacter s...  163     2e-49
+  UniRef90_A0A1G4V648 2,3-bisphosphoglycerate-independent phospho...  176     2e-49
+  UniRef90_A0A2H3KTF8 Phage envelope protein n=3 Tax=Flavobacteri...  162     2e-49
+  UniRef90_A0A364WUQ7 Phage envelope protein n=1 Tax=Mucilaginiba...  162     2e-49
+  UniRef90_A0A1M3KYR1 Phage envelope protein n=2 Tax=Dysgonomonas...  162     3e-49
+  UniRef90_A0A0Q5SYG6 Phage envelope protein n=1 Tax=Pedobacter s...  162     4e-49
+  UniRef90_A0A1B9DKI3 Phage envelope protein n=1 Tax=Flavobacteri...  161     5e-49
+  UniRef90_A0A086B4J7 Phage envelope protein n=1 Tax=Chryseobacte...  161     6e-49
+  UniRef90_UPI000F65333E DUF1398 domain-containing protein n=1 Ta...  159     3e-48
+  UniRef90_F8WZL6 Uncharacterized protein n=1 Tax=Dysgonomonas mo...  159     4e-48
+  UniRef90_A0A1H9RYA0 Uncharacterized conserved protein YbcV, DUF...  159     4e-48
+  UniRef90_A0A2D0A5K3 Phage envelope protein n=1 Tax=Pedobacter s...  159     5e-48
+  UniRef90_A0A1M3ECC4 Uncharacterized protein n=1 Tax=Bacteroidet...  158     9e-48
+  UniRef90_A0A366BNA0 Phage envelope protein n=1 Tax=Flavobacteri...  157     2e-47
+  UniRef90_A0A2T3HKR7 Phage envelope protein n=1 Tax=Pedobacter y...  157     3e-47
+  UniRef90_A0A3N0BUH8 DUF1398 domain-containing protein n=1 Tax=P...  156     6e-47
+  UniRef90_H7FTE9 Uncharacterized protein n=2 Tax=Flavobacterium ...  156     9e-47
+  UniRef90_UPI000C0C067A DUF1398 domain-containing protein n=1 Ta...  154     2e-46
+  UniRef90_UPI000681851A DUF1398 domain-containing protein n=1 Ta...  154     4e-46
+  UniRef90_UPI0004936263 DUF1398 domain-containing protein n=1 Ta...  154     4e-46
+  UniRef90_A0A350X3G6 Phage envelope protein n=1 Tax=Firmicutes b...  154     5e-46
+  UniRef90_A0A1H5UCJ6 Uncharacterized conserved protein YbcV, DUF...  154     5e-46
+  UniRef90_UPI0009DD048B 2,3-bisphosphoglycerate-independent phos...  166     9e-46
+  UniRef90_G7SHJ9 Phage envelope protein n=24 Tax=Streptococcus s...  152     5e-45
+  UniRef90_A0A1G6AR64 Uncharacterized conserved protein YbcV, DUF...  151     5e-45
+  UniRef90_UPI0009A440D1 DUF1398 domain-containing protein n=2 Ta...  152     8e-45
+  UniRef90_G7SM79 Phage envelope protein n=49 Tax=Streptococcus s...  151     1e-44
+  UniRef90_UPI000CF3EC75 DUF1398 domain-containing protein n=1 Ta...  149     3e-44
+  UniRef90_A0A0Z8FEY1 Phage envelope protein n=2 Tax=Streptococcu...  149     4e-44
+  UniRef90_A0A372FA54 DUF1398 domain-containing protein n=1 Tax=E...  148     9e-44
+  UniRef90_A0A0E9N038 Uncharacterized protein n=1 Tax=Flavihumiba...  148     9e-44
+  UniRef90_A0A0Z8ICS8 Phage envelope protein n=6 Tax=Streptococcu...  147     2e-43
+  UniRef90_A0A0Z8UH00 Phage envelope protein n=3 Tax=Streptococcu...  147     2e-43
+  UniRef90_UPI0003F55866 DUF1398 domain-containing protein n=1 Ta...  147     2e-43
+  UniRef90_A0A1H6B8Z7 Uncharacterized conserved protein YbcV, DUF...  147     3e-43
+  UniRef90_A0A2P8HH59 Uncharacterized protein YbcV (DUF1398 famil...  146     3e-43
+  UniRef90_UPI000C0BCA77 DUF1398 domain-containing protein n=1 Ta...  146     6e-43
+  UniRef90_A0A1M7EG12 Uncharacterized conserved protein YbcV, DUF...  146     7e-43
+  UniRef90_V6S168 2,3-bisphosphoglycerate-independent phosphoglyc...  156     2e-42
+  UniRef90_I2B9J5 Uncharacterized protein n=1 Tax=Shimwellia blat...  144     2e-42
+  UniRef90_A0A3G8XIP2 DUF1398 domain-containing protein n=1 Tax=C...  144     3e-42
+  UniRef90_A0A0J1LYZ1 Uncharacterized protein n=2 Tax=Citrobacter...  144     4e-42
+  UniRef90_A0A123T132 Phage envelope protein n=11 Tax=Streptococc...  144     5e-42
+  UniRef90_A0A1W1K1D2 Phage envelope protein n=38 Tax=Enterobacte...  143     8e-42
+  UniRef90_A0A223UBU8 DUF1398 domain-containing protein n=2 Tax=E...  142     1e-41
+  UniRef90_A0A364URI0 DUF1398 domain-containing protein n=8 Tax=T...  142     1e-41
+  UniRef90_E3GBM5 Uncharacterized protein n=1 Tax=Enterobacter li...  141     7e-41
+  UniRef90_A0A2T4Q0J5 DUF1398 domain-containing protein n=4 Tax=S...  139     2e-40
+  UniRef90_A0A0M3H2W1 Cytoplasmic protein n=20 Tax=Enterobacteral...  139     2e-40
+  UniRef90_A0A1X3KLS2 Putative envelope protein of prophage n=11 ...  139     3e-40
+  UniRef90_A0A380BLY2 Phage envelope protein n=104 Tax=Staphyloco...  139     3e-40
+  UniRef90_A0A0E9GEY5 Phage envelope protein n=1 Tax=Chlamydia tr...  139     4e-40
+  UniRef90_A0A2C6WQ95 Uncharacterized protein n=1 Tax=Staphylococ...  138     5e-40
+  UniRef90_UPI00068D0621 DUF1398 domain-containing protein n=1 Ta...  139     6e-40
+  UniRef90_A0A377W1X8 Phage envelope protein n=13 Tax=Klebsiella ...  140     9e-40
+  UniRef90_A0A2T2Y353 Cytoplasmic protein n=1 Tax=Kluyvera ascorb...  138     1e-39
+  UniRef90_A0A0H3JNN6 Uncharacterized protein n=43 Tax=Staphyloco...  137     1e-39
+  UniRef90_A0A1C3PWK7 Cytoplasmic protein n=19 Tax=Enterobacteria...  137     1e-39
+  UniRef90_A0A1Q6B9Q6 Uncharacterized protein n=4 Tax=Enterobacte...  137     1e-39
+  UniRef90_A0A2S6EKP0 DUF1398 domain-containing protein n=63 Tax=...  137     2e-39
+  UniRef90_P75988 Uncharacterized protein YcgX n=124 Tax=root Tax...  137     3e-39
+  UniRef90_Q2LD85 DUF1398 domain-containing protein n=249 Tax=Ent...  137     3e-39
+  UniRef90_A0A0F3TJL1 DUF1398 domain-containing protein n=53 Tax=...  136     8e-39
+  UniRef90_A0A1B7JV88 Putative cytoplasmic protein n=2 Tax=Kluyve...  135     1e-38
+  UniRef90_UPI000A1888A6 DUF1398 domain-containing protein n=1 Ta...  135     1e-38
+  UniRef90_A0A0E4H563 Phage envelope protein n=1 Tax=Streptococcu...  135     1e-38
+  UniRef90_A0A1D3U519 Qin prophage n=19 Tax=Enterobacteriaceae Ta...  135     1e-38
+  UniRef90_UPI000B89CFAC DUF1398 domain-containing protein n=1 Ta...  134     2e-38
+  UniRef90_P77598 Uncharacterized protein YbcV n=77 Tax=Bacteria ...  134     3e-38
+  UniRef90_A0A345VJW0 Uncharacterized protein n=1 Tax=Streptococc...  134     4e-38
+  UniRef90_A0A0M2NNS2 Uncharacterized protein n=7 Tax=Staphylococ...  134     5e-38
+  UniRef90_P76156 Uncharacterized protein YdfO n=169 Tax=Proteoba...  134     5e-38
+  UniRef90_UPI000B4A1430 DUF1398 domain-containing protein n=1 Ta...  133     7e-38
+  UniRef90_A0A156ES00 Putative cytoplasmic protein n=3 Tax=Entero...  133     8e-38
+  UniRef90_UPI000F81BF5B DUF1398 domain-containing protein n=1 Ta...  132     1e-37
+  UniRef90_A0A2X3EGV1 Phage envelope protein n=1 Tax=Kluyvera cry...  132     1e-37
+  UniRef90_A0A366FIU5 Uncharacterized protein YbcV (DUF1398 famil...  132     1e-37
+  UniRef90_A0A1Q6BFL6 Phage protein n=135 Tax=Enterobacterales Ta...  132     2e-37
+  UniRef90_A0A2T4PN08 DUF1398 domain-containing protein n=5 Tax=S...  132     2e-37
+  UniRef90_A0A379UQY2 Protein ycgX n=250 Tax=Salmonella enterica ...  132     2e-37
+  UniRef90_L0M6H7 Phage envelope protein n=1 Tax=Enterobacteriace...  132     2e-37
+  UniRef90_A0A2A6PZU3 DUF1398 domain-containing protein n=6 Tax=E...  132     2e-37
+  UniRef90_A0A0Q9T2V7 Uncharacterized protein n=1 Tax=Phycicoccus...  132     3e-37
+  UniRef90_A0A0E1LY07 Phage envelope protein n=13 Tax=Escherichia...  132     3e-37
+  UniRef90_UPI000E68C409 DUF1398 domain-containing protein n=2 Ta...  131     3e-37
+  UniRef90_A0A378GQ02 Phage envelope protein n=2 Tax=Kluyvera asc...  131     4e-37
+  UniRef90_A0A0R2MNC9 Phage envelope protein n=1 Tax=Lactobacillu...  131     5e-37
+  UniRef90_A0A2A3UC44 Phage envelope protein n=1 Tax=Sphingobacte...  131     5e-37
+  UniRef90_A0A2T4P480 DUF1398 domain-containing protein n=1 Tax=S...  131     5e-37
+  UniRef90_A0A0G7HGY4 Phage envelope protein n=10 Tax=Bacilli Tax...  131     8e-37
+  UniRef90_A0A379R3H6 Protein ycgX n=5 Tax=Salmonella enterica Ta...  130     9e-37
+  UniRef90_A0A1D4JJS4 Phage envelope protein n=1 Tax=Staphylococc...  130     1e-36
+  UniRef90_A0A366F4U6 Uncharacterized protein YbcV (DUF1398 famil...  129     2e-36
+  UniRef90_UPI0005545054 DUF1398 domain-containing protein n=1 Ta...  129     2e-36
+  UniRef90_A0A2I5HFQ6 DUF1398 domain-containing protein n=6 Tax=S...  129     3e-36
+  UniRef90_UPI0007200346 DUF1398 domain-containing protein n=1 Ta...  129     4e-36
+  UniRef90_A0A3E2KPC2 DUF1398 domain-containing protein n=2 Tax=C...  129     4e-36
+  UniRef90_G5JHL7 Uncharacterized protein n=1 Tax=Staphylococcus ...  129     4e-36
+  UniRef90_A0A0U3F7V5 Uncharacterized protein n=1 Tax=Carnobacter...  129     4e-36
+  UniRef90_A0A137D512 DUF1398 domain-containing protein n=93 Tax=...  129     5e-36
+  UniRef90_A0A0A6S1T7 Uncharacterized protein n=1 Tax=Streptococc...  128     6e-36
+  UniRef90_L0M6F5 Phage envelope protein n=1 Tax=Enterobacteriace...  128     7e-36
+  UniRef90_A0A2U2VTB7 Protein n=3 Tax=Escherichia TaxID=561 RepID...  128     7e-36
+  UniRef90_A0A099WAR0 Phage envelope protein n=4 Tax=Listeriaceae...  127     1e-35
+  UniRef90_A0A1S1XT12 Uncharacterized protein n=4 Tax=Streptococc...  127     1e-35
+  UniRef90_A0A0R1JSR5 Uncharacterized protein n=7 Tax=Lactobacill...  127     2e-35
+  UniRef90_F1Z107 Uncharacterized protein n=11 Tax=Streptococcus ...  127     2e-35
+  UniRef90_W7DQJ2 Uncharacterized protein n=1 Tax=Listeria rocour...  127     2e-35
+  UniRef90_UPI000BE16FF7 DUF1398 domain-containing protein n=1 Ta...  127     3e-35
+  UniRef90_UPI0007876B1E DUF1398 domain-containing protein n=1 Ta...  126     4e-35
+  UniRef90_UPI000D0BD47B DUF1398 domain-containing protein n=1 Ta...  125     8e-35
+  UniRef90_W7CR28 Uncharacterized protein n=2 Tax=Listeria weihen...  125     1e-34
+  UniRef90_A0A1H0ZMP1 Uncharacterized conserved protein YbcV, DUF...  125     1e-34
+  UniRef90_A0A1Y6GIF7 Phage envelope protein n=6 Tax=Enterobacter...  125     1e-34
+  UniRef90_A0A380MKK9 Phage envelope protein n=4 Tax=Streptococcu...  124     2e-34
+  UniRef90_A0A2X4H4L3 Phage envelope protein n=11 Tax=Streptococc...  124     3e-34
+  UniRef90_UPI000376E654 DUF1398 domain-containing protein n=1 Ta...  130     4e-34
+  UniRef90_A0A0R2B975 Phage envelope protein n=1 Tax=Lactobacillu...  124     4e-34
+  UniRef90_A0A1L8MNM8 Uncharacterized protein n=2 Tax=Streptococc...  123     5e-34
+  UniRef90_U5SEK2 Envelope protein n=1 Tax=Carnobacterium inhiben...  123     5e-34
+  UniRef90_UPI000502712A DUF1398 domain-containing protein n=3 Ta...  123     6e-34
+  UniRef90_W7BYN1 Uncharacterized protein n=1 Tax=Listeria cornel...  123     8e-34
+  UniRef90_E5QPW6 Phage envelope protein (Fragment) n=9 Tax=Liste...  123     8e-34
+  UniRef90_UPI000B429C05 DUF1398 domain-containing protein n=1 Ta...  122     1e-33
+  UniRef90_W7B7B0 Phage envelope protein n=1 Tax=Listeria granden...  122     1e-33
+  UniRef90_Q92E32 Lin0629 protein n=7 Tax=Listeriaceae TaxID=1868...  122     2e-33
+  UniRef90_A0A1W6NJB0 Envelope protein n=10 Tax=Lactobacillus bre...  122     2e-33
+  UniRef90_A0A0R2L9M7 Phage envelope protein n=1 Tax=Lactobacillu...  122     2e-33
+  UniRef90_A8U7H7 Putative phage envelope protein n=2 Tax=Carnoba...  122     2e-33
+  UniRef90_UPI000762C216 DUF1398 domain-containing protein n=1 Ta...  121     3e-33
+  UniRef90_A0AG76 Uncharacterized protein n=2 Tax=Listeria welshi...  121     4e-33
+  UniRef90_A0A379QLP3 Protein ycgX n=2 Tax=Salmonella enterica Ta...  121     7e-33
+  UniRef90_W7DH94 Uncharacterized protein n=1 Tax=Listeria ripari...  121     7e-33
+  UniRef90_A0A1N6ES85 Uncharacterized conserved protein YbcV, DUF...  120     1e-32
+  UniRef90_A0A0R2NFK7 Phage envelope protein n=1 Tax=Pediococcus ...  119     2e-32
+  UniRef90_A0A099WCZ6 Phage envelope protein n=1 Tax=Listeria boo...  119     3e-32
+  UniRef90_A0A0B8R2H7 DUF1398 domain-containing protein n=58 Tax=...  119     4e-32
+  UniRef90_A0A1E5H6M3 Envelope protein n=1 Tax=Enterococcus termi...  118     4e-32
+  UniRef90_UPI000F70B400 DUF1398 domain-containing protein n=1 Ta...  117     1e-31
+  UniRef90_UPI00064F8F1E DUF1398 domain-containing protein n=1 Ta...  116     3e-31
+  UniRef90_UPI0009FF47EF DUF1398 domain-containing protein n=1 Ta...  116     5e-31
+  UniRef90_UPI0007A61160 DUF1398 domain-containing protein n=2 Ta...  114     1e-30
+  UniRef90_UPI0009DDB80B DUF1398 domain-containing protein n=1 Ta...  115     2e-30
+  UniRef90_A0A2W5CJT6 Uncharacterized protein n=1 Tax=Streptococc...  113     3e-30
+  UniRef90_A0A345D928 Uncharacterized protein n=1 Tax=Hydromonas ...  114     5e-30
+  UniRef90_R2QYJ2 Uncharacterized protein n=2 Tax=Enterococcus mo...  112     1e-29
+  UniRef90_UPI000F626FEB DUF1398 domain-containing protein n=1 Ta...  112     2e-29
+  UniRef90_UPI000E2100FD DUF1398 domain-containing protein n=1 Ta...  111     3e-29
+  UniRef90_UPI000F5297A0 DUF1398 domain-containing protein n=1 Ta...  111     5e-29
+  UniRef90_UPI000E1E1075 DUF1398 domain-containing protein n=1 Ta...  110     6e-29
+  UniRef90_A0A242C5Q4 Uncharacterized protein n=1 Tax=Enterococcu...  109     1e-28
+  UniRef90_UPI000C3317B6 DUF1398 domain-containing protein n=2 Ta...  109     1e-28
+  UniRef90_UPI000F09A8A8 DUF1398 domain-containing protein n=1 Ta...  109     2e-28
+  UniRef90_A0A1E5H3X7 Envelope protein n=2 Tax=Enterococcus TaxID...  109     3e-28
+  UniRef90_UPI00041910CE DUF1398 domain-containing protein n=1 Ta...  109     3e-28
+  UniRef90_A0A242AX99 Uncharacterized protein n=1 Tax=Enterococcu...  109     3e-28
+  UniRef90_L0M0N3 Phage envelope protein n=2 Tax=Enterobacteriace...  109     3e-28
+  UniRef90_A0A097B2Y7 Phage envelope protein n=3 Tax=Listeria iva...  108     6e-28
+  UniRef90_A0A3P5CWQ0 Uncharacterized protein n=2 Tax=Escherichia...  107     1e-27
+  UniRef90_A0A344RU96 Cytoplasmic protein n=3 Tax=Salmonella ente...  106     2e-27
+  UniRef90_A0A2N5JG06 Envelope protein n=5 Tax=Carnobacterium mal...  106     2e-27
+  UniRef90_A0A242LGX1 Uncharacterized protein n=3 Tax=Enterococca...  107     3e-27
+  UniRef90_A0A081BGJ4 Putative phage envelope protein n=1 Tax=Lac...  106     3e-27
+  UniRef90_A0A1E5GDY6 Envelope protein n=1 Tax=Enterococcus ureas...  106     3e-27
+  UniRef90_UPI000929CE71 DUF1398 domain-containing protein n=2 Ta...  107     5e-27
+  UniRef90_B9DJJ2 Uncharacterized protein n=4 Tax=Staphylococcus ...  105     5e-27
+  UniRef90_UPI000D6A6BEF DUF1398 domain-containing protein n=3 Ta...  104     9e-27
+  UniRef90_UPI000665EAAE DUF1398 domain-containing protein n=4 Ta...  102     4e-26
+  UniRef90_G2ZCF3 Uncharacterized protein n=3 Tax=Listeria ivanov...  103     4e-26
+  UniRef90_A0A239UCQ9 Phage envelope protein n=2 Tax=Staphylococc...  102     1e-25
+  UniRef90_UPI000C7E32E7 DUF1398 domain-containing protein n=1 Ta...  103     1e-25
+  UniRef90_UPI000B7E3929 DUF1398 domain-containing protein n=2 Ta...  100     2e-25
+  UniRef90_A0A376D838 Protein n=15 Tax=Enterobacteriaceae TaxID=5...  99.8    6e-25
+  UniRef90_UPI00098AC95D DUF1398 domain-containing protein n=7 Ta...  101     1e-24
+  UniRef90_A0A143PA72 Uncharacterized protein n=2 Tax=Staphylococ...  99.1    2e-24
+  UniRef90_A0A0T9X7S4 Putative cytoplasmic protein n=1 Tax=Salmon...  96.4    1e-23
+  UniRef90_A0A3J6R115 DUF1398 domain-containing protein (Fragment...  96.0    2e-23
+  UniRef90_A0A2X1KT58 Qin prophage n=1 Tax=Escherichia coli TaxID...  96.0    3e-23
+  UniRef90_A0A2W5EF63 Phage envelope protein (Fragment) n=1 Tax=P...  94.1    3e-23
+  UniRef90_A0A1S6TE90 Uncharacterized protein n=3 Tax=Escherichia...  94.4    1e-22
+  UniRef90_UPI0009082BA5 DUF1398 domain-containing protein n=1 Ta...  95.6    2e-22
+  UniRef90_A0A0W0Y4I4 Uncharacterized protein n=2 Tax=Legionella ...  91.4    2e-21
+  UniRef90_A0A2R7K1P6 Uncharacterized protein n=1 Tax=Pedobacter ...  89.4    4e-21
+  UniRef90_A0A378EJD9 Phage envelope protein n=2 Tax=Klebsiella p...  88.7    2e-20
+  UniRef90_UPI000CFC1E17 DUF1398 domain-containing protein n=1 Ta...  90.2    2e-20
+  UniRef90_UPI000E356E33 DUF1398 domain-containing protein n=1 Ta...  86.7    6e-20
+  UniRef90_A0A1H4D9D9 Uncharacterized protein n=1 Tax=Flavobacter...  84.8    1e-19
+  UniRef90_A0A364LIV5 Uncharacterized protein n=1 Tax=Legionella ...  84.8    8e-19
+  UniRef90_A0A3K5G974 DUF1398 domain-containing protein n=9 Tax=S...  83.3    9e-19
+  UniRef90_UPI00098B78AA DUF1398 domain-containing protein n=3 Ta...  81.3    4e-18
+  UniRef90_W1DJT9 Putative cytoplasmic protein n=1 Tax=Klebsiella...  80.6    1e-17
+  UniRef90_UPI000DEB5A18 DUF1398 domain-containing protein n=1 Ta...  79.0    5e-17
+  UniRef90_UPI000DA5B6E8 DUF1398 domain-containing protein n=2 Ta...  77.9    2e-16
+  UniRef90_UPI0009EAE393 DUF1398 domain-containing protein n=1 Ta...  78.6    4e-16
+  UniRef90_UPI00068B6307 DUF1398 domain-containing protein n=1 Ta...  77.5    5e-16
+  UniRef90_A0A2S8KTV3 DUF1398 domain-containing protein n=1 Tax=M...  77.1    1e-15
+  UniRef90_A0A242H2G3 Uncharacterized protein n=1 Tax=Enterococcu...  74.4    3e-15
+  UniRef90_A0A3P3SLI1 DUF1398 domain-containing protein (Fragment...  73.3    4e-15
+  UniRef90_A0A3K9TGH2 DUF1398 domain-containing protein n=6 Tax=S...  73.3    4e-15
+  UniRef90_D6HW01 Predicted protein n=4 Tax=Escherichia coli TaxI...  74.0    5e-15
+  UniRef90_UPI000DEE102F DUF1398 domain-containing protein n=1 Ta...  72.9    1e-14
+  UniRef90_A0A0L6XXA6 Uncharacterized protein (Fragment) n=9 Tax=...  72.9    2e-14
+  UniRef90_A0A0L6XVS8 Uncharacterized protein (Fragment) n=3 Tax=...  70.9    4e-14
+  UniRef90_UPI000D5804EA DUF1398 domain-containing protein n=2 Ta...  70.6    5e-14
+  UniRef90_U9Z4G6 Uncharacterized protein n=3 Tax=Enterobacteriac...  70.2    7e-14
+  UniRef90_UPI000DA512DA DUF1398 domain-containing protein n=1 Ta...  70.9    8e-14
+  UniRef90_A0A2X3LWD1 Protein n=2 Tax=Escherichia coli TaxID=562 ...  71.3    9e-14
+  UniRef90_UPI000E0F07D7 DUF1398 domain-containing protein n=1 Ta...  70.6    1e-13
+  UniRef90_A0A377ZSC8 Phage envelope protein n=1 Tax=Klebsiella p...  70.6    2e-13
+  UniRef90_UPI000DECACCF DUF1398 domain-containing protein n=1 Ta...  68.2    5e-13
+  UniRef90_A0A2X1N117 Phage protein n=3 Tax=Escherichia coli TaxI...  65.9    5e-12
+  UniRef90_UPI000B42B118 DUF1398 domain-containing protein n=1 Ta...  66.3    5e-12
+  UniRef90_A0A2K1SWW1 Uncharacterized protein (Fragment) n=1 Tax=...  65.2    1e-11
+  UniRef90_A0A379WTJ1 Protein ycgX n=1 Tax=Salmonella enterica I ...  64.4    3e-11
+  UniRef90_A0A2A5PNR3 DUF1398 domain-containing protein n=1 Tax=K...  63.2    3e-11
+  UniRef90_A0A376J4H9 Qin prophage n=1 Tax=Escherichia coli TaxID...  62.5    9e-11
+  UniRef90_A0A378B115 Phage envelope protein n=1 Tax=Klebsiella p...  62.5    1e-10
+  UniRef90_F4TD45 Putative envelope protein of prophage n=4 Tax=E...  62.1    1e-10
+  UniRef90_A0A3P5UTC2 Uncharacterized protein n=1 Tax=Klebsiella ...  62.5    1e-10
+  UniRef90_UPI0002A1C402 DUF1398 domain-containing protein n=2 Ta...  60.2    7e-10
+  UniRef90_UPI00098BAD9E DUF1398 domain-containing protein n=1 Ta...  60.5    8e-10
+  UniRef90_UPI0007743539 DUF1398 domain-containing protein n=1 Ta...  59.0    2e-09
+  UniRef90_W1DH66 Putative cytoplasmic protein n=1 Tax=Klebsiella...  57.5    1e-08
+  UniRef90_UPI00098951C2 DUF1398 domain-containing protein n=1 Ta...  54.0    2e-07
+  UniRef90_A0A377TWP2 Phage envelope protein n=1 Tax=Klebsiella p...  53.2    5e-07
+  UniRef90_A0A2X1MWP5 Qin prophage n=1 Tax=Escherichia coli TaxID...  52.5    6e-07
+  UniRef90_UPI000EB5FD54 DUF1398 domain-containing protein n=1 Ta...  51.3    2e-06
+  UniRef90_I6CP32 Uncharacterized protein n=1 Tax=Shigella flexne...  50.5    3e-06
+  UniRef90_UPI000F641F0F DUF1398 domain-containing protein n=1 Ta...  41.7    0.007
+  UniRef90_UPI000B42AEEB DUF1398 domain-containing protein n=1 Ta...  35.5    3.9  
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1I6KB79 Uncharacterized conserved protein YbcV, DUF...  148     6e-44
+  UniRef90_A0A328P2X9 Uncharacterized protein n=1 Tax=Dyella jian...  137     1e-39
+  UniRef90_A0A2I6QN53 Uncharacterized protein n=1 Tax=uncultured ...  136     3e-39
+  UniRef90_A0A023NQ47 Phage envelope protein n=1 Tax=Dyella jiang...  135     2e-38
+  UniRef90_A0A239IYJ6 Uncharacterized conserved protein YbcV, DUF...  129     3e-36
+  UniRef90_UPI0004763FD2 DUF1398 domain-containing protein n=1 Ta...  130     4e-36
+  UniRef90_A0A376DSZ7 Phage envelope protein n=1 Tax=Chryseobacte...  120     4e-33
+  UniRef90_UPI000CF5A385 DUF1398 domain-containing protein n=2 Ta...  118     8e-32
+  UniRef90_A0A1G8ZHC0 Uncharacterized protein n=1 Tax=Flavobacter...  112     7e-30
+  UniRef90_A0A3E0FYI9 Uncharacterized protein DUF1398 n=1 Tax=Ped...  112     7e-30
+  UniRef90_A0A1E4ICW6 Uncharacterized protein n=1 Tax=Pseudonocar...  112     1e-29
+  UniRef90_A0A0F5Z1T9 Phage envelope protein n=4 Tax=Listeria see...  112     2e-29
+  UniRef90_UPI0009FD8194 DUF1398 domain-containing protein n=1 Ta...  97.1    4e-24
+  UniRef90_UPI0009DD4ABC DUF1398 domain-containing protein n=1 Ta...  89.4    2e-21
+  UniRef90_A0A2W5E927 Phage envelope protein (Fragment) n=1 Tax=P...  89.4    3e-21
+  UniRef90_A0A317GZV3 Uncharacterized protein n=1 Tax=Bacteroidet...  84.8    1e-19
+  UniRef90_A0A1H4D9Y9 Uncharacterized protein n=1 Tax=Flavobacter...  84.4    2e-19
+  UniRef90_UPI0002D59744 DUF1398 domain-containing protein n=1 Ta...  82.1    2e-18
+  UniRef90_A0A316ACB5 Uncharacterized protein YbcV (DUF1398 famil...  81.0    3e-17
+  UniRef90_A0A2S5A183 Uncharacterized protein n=1 Tax=Solitalea l...  80.2    5e-17
+  UniRef90_A0A2R7P3Z9 Uncharacterized protein n=1 Tax=Chryseobact...  77.1    1e-16
+  UniRef90_H8KU29 Phage envelope protein n=1 Tax=Solitalea canade...  79.4    1e-16
+  UniRef90_A0A2V2AV87 Uncharacterized protein YbcV (DUF1398 famil...  79.4    1e-16
+  UniRef90_A0A1A3KUH9 DUF1398 domain-containing protein n=3 Tax=M...  79.4    2e-16
+  UniRef90_A0A0Q5TS46 Uncharacterized protein n=2 Tax=Dyadobacter...  79.0    2e-16
+  UniRef90_A0A239X506 Phage envelope protein n=3 Tax=Streptococcu...  77.9    3e-16
+  UniRef90_A0A1X0IIB3 DUF1398 domain-containing protein n=1 Tax=M...  78.3    6e-16
+  UniRef90_A0A345JQS9 DUF1398 domain-containing protein n=1 Tax=F...  77.5    8e-16
+  UniRef90_A0A064CJL2 Uncharacterized protein n=1 Tax=Mycolicibac...  77.9    8e-16
+  UniRef90_C6W4X3 Uncharacterized protein n=6 Tax=Dyadobacter Tax...  77.1    9e-16
+  UniRef90_UPI000FDBC3AF DUF1398 domain-containing protein n=1 Ta...  76.7    1e-15
+  UniRef90_A0A1A6B921 DUF1398 domain-containing protein n=2 Tax=M...  76.3    3e-15
+  UniRef90_A0A2Z3KP09 DUF1398 domain-containing protein n=1 Tax=L...  76.0    4e-15
+  UniRef90_A0A1X1T9M9 Uncharacterized protein n=2 Tax=Mycobacteri...  75.6    5e-15
+  UniRef90_A0A1H2XZD3 Uncharacterized conserved protein YbcV, DUF...  74.4    1e-14
+  UniRef90_A0A0W0TK71 Phage envelope protein n=2 Tax=Legionella f...  74.4    1e-14
+  UniRef90_A0A1X0FDD5 Uncharacterized protein n=1 Tax=Mycolicibac...  74.4    2e-14
+  UniRef90_UPI0005A64F4F DUF1398 domain-containing protein n=2 Ta...  74.0    2e-14
+  UniRef90_B4UX81 Uncharacterized protein n=7 Tax=Streptomyces Ta...  73.6    3e-14
+  UniRef90_A0A1V4D0V6 DUF1398 domain-containing protein n=1 Tax=S...  73.3    3e-14
+  UniRef90_A0A1E5JN11 Uncharacterized protein n=2 Tax=Legionellac...  73.3    4e-14
+  UniRef90_UPI000F773AC1 DUF1398 domain-containing protein n=1 Ta...  72.9    4e-14
+  UniRef90_A0A0Q2R7A4 Uncharacterized protein n=1 Tax=Mycobacteri...  72.9    6e-14
+  UniRef90_A0A1L6HV68 DUF1398 domain-containing protein n=1 Tax=P...  72.1    9e-14
+  UniRef90_UPI000693E2BA DUF1398 domain-containing protein n=1 Ta...  72.1    1e-13
+  UniRef90_A0A0F5MWF1 Uncharacterized protein n=2 Tax=Mycolicibac...  71.7    1e-13
+  UniRef90_A0A378I9H5 Phage envelope protein n=1 Tax=Legionella b...  71.3    2e-13
+  UniRef90_A0A1T5CEC0 Uncharacterized conserved protein YbcV, DUF...  71.3    2e-13
+  UniRef90_A0A1I5NNQ0 Uncharacterized conserved protein YbcV, DUF...  71.3    2e-13
+  UniRef90_A0A327UW48 Uncharacterized protein YbcV (DUF1398 famil...  71.3    2e-13
+  UniRef90_A0A0F4ICX1 Uncharacterized protein n=8 Tax=Streptomyce...  71.7    2e-13
+  UniRef90_UPI00056739BF DUF1398 domain-containing protein n=1 Ta...  71.3    2e-13
+  UniRef90_A0A1S8FXF2 DUF1398 domain-containing protein n=1 Tax=P...  70.9    2e-13
+  UniRef90_A0A2P8DA61 Uncharacterized protein DUF1398 n=1 Tax=Tai...  70.9    3e-13
+  UniRef90_A0A1M3CPX2 DUF1398 domain-containing protein n=1 Tax=C...  70.9    3e-13
+  UniRef90_A0A0N0NGG7 Uncharacterized protein n=1 Tax=Actinobacte...  70.9    3e-13
+  UniRef90_UPI000F83B462 DUF1398 domain-containing protein n=1 Ta...  69.0    4e-13
+  UniRef90_UPI0004CD1A98 DUF1398 domain-containing protein n=1 Ta...  70.6    4e-13
+  UniRef90_UPI00098E35D4 DUF1398 domain-containing protein n=1 Ta...  68.2    5e-13
+  UniRef90_UPI000F637B41 hypothetical protein n=1 Tax=Streptococc...  69.4    6e-13
+  UniRef90_UPI00071BFA31 DUF1398 domain-containing protein n=1 Ta...  69.8    6e-13
+  UniRef90_UPI0004CD725D DUF1398 domain-containing protein n=1 Ta...  69.8    9e-13
+  UniRef90_A0A378JDL3 Phage envelope protein n=1 Tax=Legionella g...  69.8    9e-13
+  UniRef90_A0A286ENU0 Uncharacterized protein YbcV n=1 Tax=Jatrop...  69.8    9e-13
+  UniRef90_A0A233RM57 DUF1398 domain-containing protein n=3 Tax=S...  69.4    1e-12
+  UniRef90_W6T502 Uncharacterized protein n=2 Tax=Lactobacillus f...  69.0    1e-12
+  UniRef90_UPI0009FD2CC7 DUF1398 domain-containing protein n=1 Ta...  67.1    1e-12
+  UniRef90_A0A1E7JQ24 Uncharacterized protein n=2 Tax=Streptomyce...  69.0    2e-12
+  UniRef90_A0A1C0ZTC7 Uncharacterized protein n=1 Tax=Paenibacill...  69.0    2e-12
+  UniRef90_UPI0006477D95 DUF1398 domain-containing protein n=1 Ta...  69.0    2e-12
+  UniRef90_A0A1U9NS62 DUF1398 domain-containing protein n=2 Tax=S...  69.0    2e-12
+  UniRef90_A0A1H8H2J3 Uncharacterized protein n=1 Tax=Paenibacill...  68.6    2e-12
+  UniRef90_A0A3D8Y7E0 DUF1398 domain-containing protein n=1 Tax=D...  68.6    2e-12
+  UniRef90_A0A3D9RQH3 Uncharacterized protein YbcV (DUF1398 famil...  68.6    2e-12
+  UniRef90_UPI0005A77DBA DUF1398 domain-containing protein n=1 Ta...  68.6    2e-12
+  UniRef90_A0A0Q6UR48 Uncharacterized protein n=1 Tax=Rhizobium s...  68.6    2e-12
+  UniRef90_A0A327NTQ2 Uncharacterized protein n=1 Tax=Spirosoma s...  68.2    2e-12
+  UniRef90_D5CPM1 Uncharacterized protein n=2 Tax=root TaxID=1 Re...  68.6    2e-12
+  UniRef90_A0A1Y5PJN3 Uncharacterized protein n=1 Tax=uncultured ...  69.0    3e-12
+  UniRef90_A0A072Q6W1 Uncharacterized protein n=1 Tax=Exophiala a...  68.2    3e-12
+  UniRef90_UPI0009DBB9A2 DUF1398 domain-containing protein n=1 Ta...  68.2    4e-12
+  UniRef90_UPI000EABE66A DUF1398 domain-containing protein n=1 Ta...  67.5    6e-12
+  UniRef90_UPI00055330E9 DUF1398 domain-containing protein n=1 Ta...  67.5    6e-12
+  UniRef90_A0A2H9SQ19 DUF1398 domain-containing protein n=1 Tax=P...  67.1    7e-12
+  UniRef90_A0A0R2MRG9 Uncharacterized protein n=3 Tax=Lactobacill...  67.1    7e-12
+  UniRef90_UPI000F75395A DUF1398 domain-containing protein n=1 Ta...  67.1    7e-12
+  UniRef90_D2VVJ0 Predicted protein n=1 Tax=Naegleria gruberi Tax...  67.5    7e-12
+  UniRef90_UPI0004700840 DUF1398 domain-containing protein n=1 Ta...  67.1    7e-12
+  UniRef90_A0A257QJN2 Uncharacterized protein n=1 Tax=Verrucomicr...  67.9    8e-12
+  UniRef90_A0A3G8JNL8 Uncharacterized protein n=1 Tax=Gordonia sp...  67.5    9e-12
+  UniRef90_UPI000CD92D16 DUF1398 domain-containing protein n=1 Ta...  67.1    9e-12
+  UniRef90_P9WLM2 Uncharacterized protein MT2067 n=19 Tax=Mycobac...  67.5    1e-11
+  UniRef90_M4KEC8 Uncharacterized protein n=35 Tax=Lactobacillus ...  66.7    1e-11
+  UniRef90_A0A2S9H241 Phage envelope protein n=1 Tax=Solimicrobiu...  66.7    1e-11
+  UniRef90_A0A090D0L6 Uncharacterized protein n=1 Tax=Criblamydia...  66.3    2e-11
+  UniRef90_I8R2P6 Uncharacterized protein n=10 Tax=Lactobacillus ...  65.9    2e-11
+  UniRef90_A0A2R3JP36 Uncharacterized protein n=2 Tax=Lactobacill...  65.9    2e-11
+  UniRef90_UPI0009F420F8 DUF1398 domain-containing protein n=1 Ta...  64.4    2e-11
+  UniRef90_A0A1A3MIV0 DUF1398 domain-containing protein n=1 Tax=M...  66.3    2e-11
+  UniRef90_A0A378J7K6 Phage envelope protein n=1 Tax=Legionella d...  66.3    2e-11
+  UniRef90_UPI000997707C DUF1398 domain-containing protein n=3 Ta...  66.3    3e-11
+  UniRef90_A0A1Q3TU85 Uncharacterized protein n=1 Tax=Chloroflexi...  65.9    3e-11
+  UniRef90_A0A1E7KW48 Uncharacterized protein n=1 Tax=Streptomyce...  65.9    3e-11
+  UniRef90_A0A3C1YWI9 DUF1398 domain-containing protein n=1 Tax=N...  65.6    4e-11
+  UniRef90_UPI00042660F5 DUF1398 domain-containing protein n=1 Ta...  65.2    4e-11
+  UniRef90_A0A178CUH2 Uncharacterized protein n=1 Tax=Fonsecaea n...  65.9    4e-11
+  UniRef90_A0A1G8TD55 Uncharacterized conserved protein YbcV, DUF...  65.2    5e-11
+  UniRef90_A0A117J9B1 Uncharacterized protein n=1 Tax=Mycolicibac...  65.2    5e-11
+  UniRef90_A0A151GKL1 Uncharacterized protein n=1 Tax=Drechmeria ...  65.2    5e-11
+  UniRef90_A0A0D2AW08 Uncharacterized protein n=1 Tax=Cladophialo...  65.2    7e-11
+  UniRef90_UPI000BE4EAA7 DUF1398 domain-containing protein n=1 Ta...  64.8    8e-11
+  UniRef90_Q01SM2 Uncharacterized protein n=1 Tax=Solibacter usit...  64.8    8e-11
+  UniRef90_A0A0X8PSZ3 DUF1398 domain-containing protein n=1 Tax=E...  64.8    8e-11
+  UniRef90_A0A1W9IT56 DUF1398 domain-containing protein n=2 Tax=N...  64.4    1e-10
+  UniRef90_A0A2Z3HK85 DUF1398 domain-containing protein n=3 Tax=G...  64.0    1e-10
+  UniRef90_A0A0T9V886 Phage envelope protein n=35 Tax=Mycobacteri...  64.4    1e-10
+  UniRef90_A0A1X1STK7 Uncharacterized protein n=1 Tax=Mycobacteri...  64.8    1e-10
+  UniRef90_A0A380EDB8 Phage envelope protein n=1 Tax=Staphylococc...  62.5    1e-10
+  UniRef90_A0A0X8GLH4 Uncharacterized protein n=1 Tax=Janthinobac...  64.0    1e-10
+  UniRef90_UPI0004CA2C8E DUF1398 domain-containing protein n=1 Ta...  63.6    2e-10
+  UniRef90_A0A3A8ET00 DUF1398 domain-containing protein n=1 Tax=A...  63.6    2e-10
+  UniRef90_A0A0H5DQX2 Uncharacterized protein n=1 Tax=Estrella la...  63.2    2e-10
+  UniRef90_R9A425 Uncharacterized protein n=1 Tax=Leptospira wolb...  63.6    2e-10
+  UniRef90_A0A2S1XC02 DUF1398 domain-containing protein n=2 Tax=A...  63.2    2e-10
+  UniRef90_A0A261UEV8 DUF1398 domain-containing protein n=1 Tax=B...  63.2    2e-10
+  UniRef90_A0A258PZR3 DUF1398 domain-containing protein n=7 Tax=P...  63.2    2e-10
+  UniRef90_A0A150WH83 Uncharacterized protein n=1 Tax=Bdellovibri...  63.2    3e-10
+  UniRef90_UPI0002486544 DUF1398 domain-containing protein n=2 Ta...  62.9    3e-10
+  UniRef90_A0A098CYC5 Uncharacterized protein n=1 Tax=Lactococcus...  62.9    3e-10
+  UniRef90_A0A2S4HHZ1 DUF1398 domain-containing protein n=1 Tax=Z...  62.9    3e-10
+  UniRef90_A0A0U5JEH3 Uncharacterized protein n=2 Tax=Candidatus ...  62.9    4e-10
+  UniRef90_A0A139M6I3 Uncharacterized protein n=1 Tax=Lactococcus...  62.5    5e-10
+  UniRef90_UPI000F82BC3F DUF1398 domain-containing protein n=1 Ta...  63.6    6e-10
+  UniRef90_UPI00047B1516 DUF1398 domain-containing protein n=1 Ta...  62.1    7e-10
+  UniRef90_A0A2N0ANK1 DUF1398 domain-containing protein n=1 Tax=L...  62.1    7e-10
+  UniRef90_A0A1J4PWX9 DUF1398 domain-containing protein n=2 Tax=S...  61.3    7e-10
+  UniRef90_UPI00051C433A DUF1398 domain-containing protein n=2 Ta...  62.1    9e-10
+  UniRef90_N1VXX6 Uncharacterized protein n=1 Tax=Leptospira terp...  61.7    9e-10
+  UniRef90_A0A1J5TE78 Uncharacterized protein n=1 Tax=mine draina...  61.7    1e-09
+  UniRef90_A0A258S1W7 DUF1398 domain-containing protein n=1 Tax=G...  61.7    1e-09
+  UniRef90_A0A1M3CPU3 DUF1398 domain-containing protein n=1 Tax=C...  61.7    1e-09
+  UniRef90_UPI00028D0A17 DUF1398 domain-containing protein n=1 Ta...  61.7    1e-09
+  UniRef90_UPI00035D278B DUF1398 domain-containing protein n=1 Ta...  61.7    1e-09
+  UniRef90_A0A258AY42 DUF1398 domain-containing protein n=1 Tax=V...  61.3    1e-09
+  UniRef90_A0A178ZNU7 Uncharacterized protein n=1 Tax=Fonsecaea e...  62.1    1e-09
+  UniRef90_A0A0A0E4D4 Uncharacterized protein n=1 Tax=Bacillus ni...  61.3    1e-09
+  UniRef90_A9AXZ3 Uncharacterized protein n=1 Tax=Herpetosiphon a...  61.3    2e-09
+  UniRef90_A0A2C9SU29 Uncharacterized protein n=2 Tax=Mycobacteri...  60.2    2e-09
+  UniRef90_A0A1G3CTY1 DUF1398 domain-containing protein n=1 Tax=P...  60.9    2e-09
+  UniRef90_A0A0M2ZNR2 Phage envelope protein n=16 Tax=Lactococcus...  60.9    2e-09
+  UniRef90_UPI000378406B DUF1398 domain-containing protein n=1 Ta...  60.9    2e-09
+  UniRef90_UPI0009A4C142 DUF1398 domain-containing protein n=1 Ta...  60.9    2e-09
+  UniRef90_A0A1U6SBR7 Phage envelope protein n=1 Tax=Mycobacteroi...  60.5    2e-09
+  UniRef90_A0A0D2JUG5 Uncharacterized protein n=2 Tax=Fonsecaea m...  60.9    3e-09
+  UniRef90_A0A0Q8SEY2 Uncharacterized protein n=2 Tax=Acidovorax ...  60.5    3e-09
+  UniRef90_A0A2I7N459 DUF1398 domain-containing protein n=1 Tax=N...  60.5    3e-09
+  UniRef90_A0A2L0HXI9 DUF1398 domain-containing protein n=1 Tax=A...  60.2    4e-09
+  UniRef90_UPI00042118DE DUF1398 domain-containing protein n=1 Ta...  60.2    4e-09
+  UniRef90_UPI00082C3BB8 DUF1398 domain-containing protein n=1 Ta...  59.8    4e-09
+  UniRef90_A0A2M9Y2N7 DUF1398 domain-containing protein n=1 Tax=L...  60.2    5e-09
+  UniRef90_D9SHR7 Uncharacterized protein n=1 Tax=Gallionella cap...  59.8    5e-09
+  UniRef90_A0A0W0ZJK1 Uncharacterized protein n=2 Tax=Legionella ...  59.8    5e-09
+  UniRef90_D2BML5 Uncharacterized protein n=37 Tax=Lactococcus la...  59.8    6e-09
+  UniRef90_A0A259IBS7 DUF1398 domain-containing protein n=1 Tax=P...  59.4    6e-09
+  UniRef90_I4W706 Uncharacterized protein n=2 Tax=Rhodanobacter T...  59.4    7e-09
+  UniRef90_UPI00056DF509 DUF1398 domain-containing protein n=1 Ta...  59.4    7e-09
+  UniRef90_A0A285KI20 Uncharacterized conserved protein YbcV, DUF...  59.4    7e-09
+  UniRef90_A0A2T7KBZ5 DUF1398 domain-containing protein n=1 Tax=S...  59.4    7e-09
+  UniRef90_UPI00047CD1B3 DUF1398 domain-containing protein n=1 Ta...  59.4    7e-09
+  UniRef90_B0SQG8 Uncharacterized protein n=1 Tax=Leptospira bifl...  59.4    7e-09
+  UniRef90_A0A380DJP9 Phage envelope protein n=1 Tax=Staphylococc...  57.8    8e-09
+  UniRef90_UPI000B9457FC DUF1398 domain-containing protein n=1 Ta...  60.2    8e-09
+  UniRef90_UPI000F75CB75 DUF1398 domain-containing protein n=1 Ta...  59.4    8e-09
+  UniRef90_UPI000A06BF55 DUF1398 domain-containing protein n=1 Ta...  57.1    8e-09
+  UniRef90_A0A2Z6GCC3 Uncharacterized protein n=1 Tax=Ferriphasel...  59.4    9e-09
+  UniRef90_A0A2W4HWG2 DUF1398 domain-containing protein n=1 Tax=C...  59.4    9e-09
+  UniRef90_D2R340 Uncharacterized protein n=1 Tax=Pirellula stale...  59.0    1e-08
+  UniRef90_K2PUD8 Uncharacterized protein n=2 Tax=Lactococcus gar...  59.0    1e-08
+  UniRef90_I4VTF7 Uncharacterized protein n=2 Tax=Rhodanobacter T...  58.2    2e-08
+  UniRef90_A0A016XL26 Uncharacterized protein n=1 Tax=Hylemonella...  58.6    2e-08
+  UniRef90_A0A2N0AEE9 DUF1398 domain-containing protein n=4 Tax=L...  58.6    2e-08
+  UniRef90_A0A268KAD4 Uncharacterized protein n=1 Tax=Bacillus sp...  58.2    2e-08
+  UniRef90_A0A366J7C5 Uncharacterized protein YbcV (DUF1398 famil...  58.2    2e-08
+  UniRef90_A0A2G3J4M0 DUF1398 domain-containing protein n=1 Tax=I...  58.2    2e-08
+  UniRef90_A0A0D2GMH9 Unplaced genomic scaffold supercont1.4, who...  58.6    3e-08
+  UniRef90_A0A0D6DUU2 Uncharacterized protein n=5 Tax=Lactococcus...  57.8    3e-08
+  UniRef90_V9DCV6 Uncharacterized protein n=1 Tax=Cladophialophor...  58.2    3e-08
+  UniRef90_A0A1I3IGN8 Uncharacterized conserved protein YbcV, DUF...  57.8    3e-08
+  UniRef90_A0A259MEC8 DUF1398 domain-containing protein n=1 Tax=R...  57.5    3e-08
+  UniRef90_UPI000B8516BE DUF1398 domain-containing protein n=1 Ta...  55.5    4e-08
+  UniRef90_A0A3C1TD40 Uncharacterized protein (Fragment) n=1 Tax=...  55.5    4e-08
+  UniRef90_W9XIE6 Uncharacterized protein n=1 Tax=Cladophialophor...  58.2    4e-08
+  UniRef90_A0A2N0AXH4 DUF1398 domain-containing protein n=2 Tax=L...  57.5    4e-08
+  UniRef90_A0A0W0YKL6 Uncharacterized protein (Fragment) n=2 Tax=...  58.2    4e-08
+  UniRef90_A0A090D311 Putative membrane protein n=2 Tax=Criblamyd...  59.8    5e-08
+  UniRef90_A0A2P1PQ72 DUF1398 domain-containing protein n=1 Tax=A...  57.1    5e-08
+  UniRef90_A0A1M5RHK0 Uncharacterized conserved protein YbcV, DUF...  57.1    5e-08
+  UniRef90_A0A078KZE3 Phage envelope protein n=2 Tax=Legionella m...  57.1    6e-08
+  UniRef90_A0A2A5RJ89 Uncharacterized protein n=1 Tax=Lactococcus...  57.1    6e-08
+  UniRef90_A0A078BIY0 Uncharacterized protein n=1 Tax=Thiomonas s...  57.1    6e-08
+  UniRef90_A0A2S5FG60 DUF1398 domain-containing protein n=1 Tax=A...  57.1    6e-08
+  UniRef90_A0A1W1I7A5 Uncharacterized protein n=1 Tax=Nitrospira ...  57.1    6e-08
+  UniRef90_UPI000F8E8B4F UPI000F8E8B4F related cluster n=1 Tax=un...  57.1    6e-08
+  UniRef90_A0A124E6M9 Uncharacterized protein n=4 Tax=Mycobacteri...  56.3    6e-08
+  UniRef90_A0A158DIZ9 Uncharacterized protein n=1 Tax=Caballeroni...  57.1    7e-08
+  UniRef90_A0A158IGW5 Uncharacterized protein n=1 Tax=Caballeroni...  56.7    7e-08
+  UniRef90_A0A346A290 DUF1398 domain-containing protein n=1 Tax=P...  56.7    9e-08
+  UniRef90_R8ZXD5 Uncharacterized protein n=1 Tax=Leptospira yana...  56.7    1e-07
+  UniRef90_A0A0F2NU59 Uncharacterized protein n=1 Tax=Gammaproteo...  56.7    1e-07
+  UniRef90_A0A078L940 Phage envelope protein n=1 Tax=Candidatus R...  56.7    1e-07
+  UniRef90_Q13SF6 Uncharacterized protein n=4 Tax=Burkholderiacea...  56.3    1e-07
+  UniRef90_UPI00099D4923 DUF1398 domain-containing protein n=1 Ta...  55.5    1e-07
+  UniRef90_A0A1L6L3H9 Uncharacterized protein n=1 Tax=Minicystis ...  56.3    1e-07
+  UniRef90_N1W0Z5 Uncharacterized protein n=1 Tax=Leptospira vant...  56.3    1e-07
+  UniRef90_A0A142XGJ5 Uncharacterized protein n=1 Tax=Gemmata sp....  56.3    1e-07
+  UniRef90_A0A0Q8JPZ3 Uncharacterized protein n=4 Tax=Achromobact...  55.9    1e-07
+  UniRef90_A0A357IV21 DUF1398 domain-containing protein n=2 Tax=S...  55.9    2e-07
+  UniRef90_A0A2S7JAS7 DUF1398 domain-containing protein n=1 Tax=R...  55.5    2e-07
+  UniRef90_A0A1G1I4F0 Uncharacterized protein n=1 Tax=Nitrospirae...  55.5    2e-07
+  UniRef90_UPI0009BB3A34 DUF1398 domain-containing protein n=1 Ta...  55.9    2e-07
+  UniRef90_A0A077FIV4 Uncharacterized protein n=1 Tax=Rickettsial...  55.5    2e-07
+  UniRef90_A0A142WQI6 Uncharacterized protein n=2 Tax=Planctomyce...  55.5    2e-07
+  UniRef90_A0A1Q9PK52 Uncharacterized protein n=2 Tax=Bacillus sp...  55.2    2e-07
+  UniRef90_UPI00045E6CAE DUF1398 domain-containing protein n=2 Ta...  55.5    2e-07
+  UniRef90_UPI000485C56E DUF1398 domain-containing protein n=1 Ta...  55.5    2e-07
+  UniRef90_UPI000C81C1B0 DUF1398 domain-containing protein n=1 Ta...  55.2    3e-07
+  UniRef90_A0A0D2A7I2 Uncharacterized protein n=1 Tax=Verruconis ...  55.5    3e-07
+  UniRef90_A0A0A0DJS4 Uncharacterized protein n=2 Tax=Aquabacteri...  55.2    3e-07
+  UniRef90_A0A2P2E2V2 Phage-like protein n=1 Tax=Leptospira sp. Y...  55.2    4e-07
+  UniRef90_A0A1C5EX01 Uncharacterized protein n=1 Tax=Streptomyce...  53.2    4e-07
+  UniRef90_B1XSM4 Uncharacterized protein n=1 Tax=Polynucleobacte...  54.8    4e-07
+  UniRef90_Y0KDX3 Uncharacterized protein n=2 Tax=Methylophilacea...  54.8    4e-07
+  UniRef90_UPI0009A4D2E1 DUF1398 domain-containing protein n=1 Ta...  54.8    4e-07
+  UniRef90_A0A0T9YTQ0 Phage envelope protein n=2 Tax=Mycobacteriu...  53.6    5e-07
+  UniRef90_UPI00065F6EB6 DUF1398 domain-containing protein n=1 Ta...  54.4    5e-07
+  UniRef90_UPI0008270767 DUF1398 domain-containing protein n=1 Ta...  54.4    6e-07
+  UniRef90_J0UF36 Uncharacterized protein n=1 Tax=Acidovorax sp. ...  54.4    6e-07
+  UniRef90_A0A2C1ZB61 Uncharacterized protein n=2 Tax=Bacillus Ta...  54.8    7e-07
+  UniRef90_UPI00062987A0 DUF1398 domain-containing protein n=1 Ta...  53.6    8e-07
+  UniRef90_A0A329PSI1 DUF1398 domain-containing protein (Fragment...  53.2    8e-07
+  UniRef90_A0A1I4F1D7 Uncharacterized conserved protein YbcV, DUF...  54.4    8e-07
+  UniRef90_A0A158CMH6 Uncharacterized protein n=1 Tax=Caballeroni...  53.6    9e-07
+  UniRef90_A0A3M8M0F4 DUF1398 domain-containing protein n=1 Tax=V...  54.0    1e-06
+  UniRef90_A0A127M9S3 Uncharacterized protein n=2 Tax=Spongiibact...  53.6    1e-06
+  UniRef90_A0A2A2PVT3 DUF1398 domain-containing protein n=1 Tax=O...  53.6    1e-06
+  UniRef90_A0A1B7UQ15 Uncharacterized protein n=1 Tax=Rheinheimer...  53.6    1e-06
+  UniRef90_A0A142XWU0 Uncharacterized protein n=1 Tax=Pirellula s...  53.6    1e-06
+  UniRef90_A0A1Q3T3J5 Uncharacterized protein n=1 Tax=Gammaproteo...  53.2    1e-06
+  UniRef90_UPI0004166E74 DUF1398 domain-containing protein n=1 Ta...  53.2    1e-06
+  UniRef90_A0A2G6SU86 Uncharacterized protein YbcV (DUF1398 famil...  53.6    1e-06
+  UniRef90_A0A1H9XF68 Uncharacterized conserved protein YbcV, DUF...  53.2    2e-06
+  UniRef90_A0A1C1CVD5 Uncharacterized protein n=1 Tax=Cladophialo...  53.6    2e-06
+  UniRef90_UPI000372A433 DUF1398 domain-containing protein n=1 Ta...  53.2    2e-06
+  UniRef90_A0A0Q8E7K0 Uncharacterized protein n=2 Tax=Rhodanobact...  53.2    2e-06
+  UniRef90_A0A0Q8BKB6 Uncharacterized protein n=3 Tax=Achromobact...  53.2    2e-06
+  UniRef90_UPI0008265586 DUF1398 domain-containing protein n=1 Ta...  52.8    2e-06
+  UniRef90_A0A257CVD3 DUF1398 domain-containing protein n=1 Tax=B...  52.8    2e-06
+  UniRef90_A0A1Q4BTJ7 DUF1398 domain-containing protein n=1 Tax=R...  52.8    3e-06
+  UniRef90_UPI00082401BA DUF1398 domain-containing protein n=1 Ta...  52.8    3e-06
+  UniRef90_A0A3D5YUA7 DUF1398 domain-containing protein n=1 Tax=N...  52.8    3e-06
+  UniRef90_V4RGV7 Uncharacterized protein n=1 Tax=Asticcacaulis s...  52.5    3e-06
+  UniRef90_A0A372IL41 DUF1398 domain-containing protein n=1 Tax=A...  52.5    3e-06
+  UniRef90_UPI00048AA04B DUF1398 domain-containing protein n=1 Ta...  52.5    3e-06
+  UniRef90_UPI00058E11BF DUF1398 domain-containing protein n=1 Ta...  52.5    3e-06
+  UniRef90_A0A0W0YH27 Uncharacterized protein n=5 Tax=Legionella ...  52.5    4e-06
+  UniRef90_F4QK03 Uncharacterized protein n=1 Tax=Asticcacaulis b...  52.1    4e-06
+  UniRef90_UPI0007BEBB28 DUF1398 domain-containing protein n=1 Ta...  52.1    5e-06
+  UniRef90_D3HJE0 Uncharacterized protein n=1 Tax=Legionella long...  52.1    5e-06
+  UniRef90_A0A2N1YTK6 DUF1398 domain-containing protein n=1 Tax=G...  51.7    6e-06
+  UniRef90_A0A1M7MYZ2 Uncharacterized protein n=1 Tax=Duganella s...  51.7    6e-06
+  UniRef90_A0A139MGC6 Phage envelope protein n=6 Tax=Lactococcus ...  52.1    6e-06
+  UniRef90_UPI0004144F60 DUF1398 domain-containing protein n=1 Ta...  51.7    6e-06
+  UniRef90_A0A3D3IWE4 DUF1398 domain-containing protein n=1 Tax=R...  51.7    6e-06
+  UniRef90_UPI000C77A9BD DUF1398 domain-containing protein n=1 Ta...  51.3    7e-06
+  UniRef90_A0A1W1HP60 Uncharacterized protein n=1 Tax=Nitrospira ...  51.3    9e-06
+  UniRef90_UPI00040293A9 DUF1398 domain-containing protein n=1 Ta...  51.3    9e-06
+  UniRef90_A0A387BKX5 DUF1398 domain-containing protein n=1 Tax=L...  51.3    9e-06
+  UniRef90_UPI000B8692EB DUF1398 domain-containing protein n=1 Ta...  50.1    9e-06
+  UniRef90_A0A1I1UBS0 Ketosteroid isomerase-related protein n=1 T...  52.8    1e-05
+  UniRef90_UPI000374D946 DUF1398 domain-containing protein n=1 Ta...  50.9    1e-05
+  UniRef90_A0A178DQX3 Uncharacterized protein n=1 Tax=Pyrenochaet...  51.3    1e-05
+  UniRef90_A0A0D2ERF1 Unplaced genomic scaffold supercont1.9, who...  51.3    1e-05
+  UniRef90_A0A0R3NFI8 Uncharacterized protein n=1 Tax=Bradyrhizob...  50.5    1e-05
+  UniRef90_UPI00029A9146 DUF1398 domain-containing protein n=1 Ta...  50.5    2e-05
+  UniRef90_A0A1C3EKS2 Uncharacterized protein n=1 Tax=Planctopiru...  50.5    2e-05
+  UniRef90_N0BG06 Uncharacterized protein n=1 Tax=Hyphomicrobium ...  50.5    2e-05
+  UniRef90_A0A378JUJ6 Phage envelope protein n=2 Tax=Legionella b...  50.5    2e-05
+  UniRef90_A0A290QJQ6 DUF1398 domain-containing protein n=1 Tax=V...  50.5    2e-05
+  UniRef90_A0A318IWG5 Uncharacterized protein DUF1398 n=1 Tax=Und...  50.1    2e-05
+  UniRef90_UPI000BB3A8E0 DUF1398 domain-containing protein n=1 Ta...  48.6    3e-05
+  UniRef90_A0A0F2KM58 Uncharacterized protein n=1 Tax=Azospirillu...  49.8    3e-05
+  UniRef90_A0A2P2DTK9 Uncharacterized protein n=1 Tax=Leptospira ...  49.8    3e-05
+  UniRef90_A0A2E2BYW0 DUF1398 domain-containing protein n=2 Tax=P...  49.8    4e-05
+  UniRef90_A0A2S5Q767 DUF1398 domain-containing protein n=1 Tax=M...  49.8    4e-05
+  UniRef90_A0A1H4GXM1 Uncharacterized conserved protein YbcV, DUF...  49.0    5e-05
+  UniRef90_A0A2B8BIB8 DUF1398 domain-containing protein n=3 Tax=A...  49.0    6e-05
+  UniRef90_A0A2G3J8D1 DUF1398 domain-containing protein n=1 Tax=I...  49.0    7e-05
+  UniRef90_A0A259N0L1 DUF1398 domain-containing protein n=1 Tax=P...  49.0    7e-05
+  UniRef90_A0A0W0VRM4 Uncharacterized protein n=1 Tax=Legionella ...  48.6    1e-04
+  UniRef90_A0A1J5QXU5 Uncharacterized protein n=1 Tax=mine draina...  48.6    1e-04
+  UniRef90_A0A1E4PRZ9 DUF1398 domain-containing protein n=1 Tax=R...  48.2    1e-04
+  UniRef90_UPI000DD8EBD7 DUF1398 domain-containing protein n=1 Ta...  48.2    1e-04
+  UniRef90_A0A146GG20 Uncharacterized protein n=3 Tax=Spartobacte...  48.2    1e-04
+  UniRef90_A0A2K9N8Z6 DUF1398 domain-containing protein n=1 Tax=N...  48.2    1e-04
+  UniRef90_A0A2M8ZSN8 Uncharacterized protein YbcV (DUF1398 famil...  48.2    2e-04
+  UniRef90_A0A1E3WE63 Uncharacterized protein n=1 Tax=Methylocean...  48.2    2e-04
+  UniRef90_A0A0N1BQX5 Uncharacterized protein n=1 Tax=alpha prote...  47.8    2e-04
+  UniRef90_A0A060DVH0 DUF1398 domain-containing protein n=1 Tax=A...  47.8    2e-04
+  UniRef90_A0A259KVJ1 DUF1398 domain-containing protein n=4 Tax=u...  47.8    2e-04
+  UniRef90_A0A378I4U0 Phage envelope protein n=2 Tax=Legionella b...  47.4    2e-04
+  UniRef90_A0A2S9YG13 Uncharacterized protein n=1 Tax=Enhygromyxa...  47.4    2e-04
+  UniRef90_A0A1T5EJF3 Uncharacterized conserved protein YbcV, DUF...  47.4    3e-04
+  UniRef90_A0A0U5HW08 Uncharacterized protein n=1 Tax=Magnetospir...  47.4    3e-04
+  UniRef90_A0A397S275 Uncharacterized protein DUF1398 n=1 Tax=Pel...  47.1    3e-04
+  UniRef90_A0A2M8U559 DUF1398 domain-containing protein n=1 Tax=F...  47.4    3e-04
+  UniRef90_V4NRE5 Uncharacterized protein n=2 Tax=Asticcacaulis s...  47.1    3e-04
+  UniRef90_G8AU25 Uncharacterized protein n=3 Tax=Azospirillum br...  47.1    4e-04
+  UniRef90_A0A2S5M4B7 DUF1398 domain-containing protein n=1 Tax=H...  46.7    5e-04
+  UniRef90_UPI0002E9EB2C DUF1398 domain-containing protein n=1 Ta...  46.7    5e-04
+  UniRef90_A0A1Q3V6C8 DUF1398 domain-containing protein n=1 Tax=R...  46.3    5e-04
+  UniRef90_UPI0009EC0D3B DUF1398 domain-containing protein n=1 Ta...  45.1    5e-04
+  UniRef90_A0A2W5QBE9 DUF1398 domain-containing protein n=1 Tax=V...  46.3    6e-04
+  UniRef90_A0A370J9G2 Uncharacterized protein n=1 Tax=Venturia in...  47.1    6e-04
+  UniRef90_A0A059FPR8 Uncharacterized protein n=1 Tax=Hyphomonas ...  46.3    6e-04
+  UniRef90_A0A2S5TUK4 DUF1398 domain-containing protein n=1 Tax=K...  46.3    7e-04
+  UniRef90_A0A3D9Z4Q8 Uncharacterized protein YbcV (DUF1398 famil...  45.9    0.001
+  UniRef90_A0A2D0B5F7 DUF1398 domain-containing protein n=2 Tax=H...  45.9    0.001
+  UniRef90_A0A254QJY0 Uncharacterized protein n=1 Tax=Bdellovibri...  45.5    0.001
+  UniRef90_A0A1D2TZC4 DUF1398 domain-containing protein n=1 Tax=S...  45.9    0.001
+  UniRef90_A0A160N1C0 Uncharacterized protein n=1 Tax=Dyella thio...  45.5    0.001
+  UniRef90_UPI000E66AC9D DUF1398 domain-containing protein n=1 Ta...  45.5    0.001
+  UniRef90_A0A2U8QAF3 DUF1398 domain-containing protein n=1 Tax=B...  45.5    0.001
+  UniRef90_A0A2X2JYG3 Phage envelope protein n=1 Tax=Staphylococc...  43.6    0.001
+  UniRef90_A0A1G9JJZ3 Uncharacterized protein n=1 Tax=Pedobacter ...  43.2    0.001
+  UniRef90_A0A3C1BJX1 Uncharacterized protein n=1 Tax=Mucilaginib...  42.8    0.001
+  UniRef90_A0A2N2SGR5 Uncharacterized protein n=1 Tax=Betaproteob...  45.5    0.002
+  UniRef90_UPI000B5E8251 DUF1398 domain-containing protein n=1 Ta...  45.5    0.002
+  UniRef90_A0A378KWY0 Phage envelope protein n=3 Tax=Legionella q...  45.5    0.002
+  UniRef90_A0A0E3Z4G6 Uncharacterized protein n=1 Tax=Pseudoxanth...  44.7    0.002
+  UniRef90_A0A258ZF71 DUF1398 domain-containing protein n=1 Tax=G...  44.7    0.002
+  UniRef90_A0A1M3NPR6 DUF1398 domain-containing protein n=1 Tax=R...  44.7    0.002
+  UniRef90_A0A101JZ92 Uncharacterized protein n=1 Tax=Bosea sp. W...  44.7    0.002
+  UniRef90_UPI000DDDA362 DUF1398 domain-containing protein n=1 Ta...  44.7    0.003
+  UniRef90_A0A0C5LBP4 Uncharacterized protein n=1 Tax=Sphingomona...  44.7    0.003
+  UniRef90_A0A377GJY4 Phage envelope protein n=1 Tax=Fluoribacter...  44.7    0.003
+  UniRef90_E8RQQ2 Uncharacterized protein n=1 Tax=Asticcacaulis e...  44.7    0.003
+  UniRef90_A0A3B8PXA8 DUF1398 domain-containing protein n=1 Tax=V...  44.4    0.003
+  UniRef90_A0A1M3PZD4 DUF1398 domain-containing protein n=1 Tax=R...  44.4    0.004
+  UniRef90_A0A3L7A214 DUF1398 domain-containing protein n=1 Tax=X...  44.4    0.004
+  UniRef90_A0A154VJ72 Uncharacterized protein n=1 Tax=Oceanibacul...  44.4    0.004
+  UniRef90_A0A1E4N6Q0 DUF1398 domain-containing protein n=1 Tax=N...  44.4    0.004
+  UniRef90_A0A0W0U8W6 Uncharacterized protein n=1 Tax=Legionella ...  44.7    0.004
+  UniRef90_A0A062VLN7 Uncharacterized protein n=2 Tax=Hyphomonas ...  44.0    0.004
+  UniRef90_A0A0W1A3I9 Uncharacterized protein n=1 Tax=Legionella ...  44.4    0.004
+  UniRef90_A8I1I6 Uncharacterized protein n=1 Tax=Azorhizobium ca...  44.0    0.005
+  UniRef90_A0A1W6ZC28 DUF1398 domain-containing protein n=1 Tax=B...  44.0    0.005
+  UniRef90_A0A177QTM5 Uncharacterized protein (Fragment) n=1 Tax=...  44.0    0.005
+  UniRef90_A0A248VSX8 DUF1398 domain-containing protein n=1 Tax=P...  43.6    0.006
+  UniRef90_A0A2E2E4K2 DUF1398 domain-containing protein n=2 Tax=R...  43.6    0.006
+  UniRef90_A0A1Y5SPT8 Uncharacterized protein n=1 Tax=Oceanibacte...  43.6    0.007
+  UniRef90_A0A2E9WB91 DUF1398 domain-containing protein n=1 Tax=T...  43.6    0.007
+  UniRef90_UPI000DD577D8 DUF1398 domain-containing protein n=2 Ta...  43.2    0.009
+  UniRef90_A0A1B9SI11 Uncharacterized protein n=2 Tax=Rhizobiales...  43.2    0.009
+  UniRef90_A0A0K8P5Y9 Uncharacterized protein n=1 Tax=Ideonella s...  42.8    0.012
+  UniRef90_A0A143ZIP2 Uncharacterized conserved protein YbcV, DUF...  42.8    0.014
+  UniRef90_A0A1H1YV25 Uncharacterized conserved protein YbcV, DUF...  43.6    0.014
+  UniRef90_A0A139MIV3 Phage envelope protein n=1 Tax=Lactococcus ...  40.9    0.018
+  UniRef90_A0A1I3ZRB0 Uncharacterized conserved protein YbcV, DUF...  42.4    0.019
+  UniRef90_M4Z2K5 Uncharacterized protein n=1 Tax=Bradyrhizobium ...  42.4    0.019
+  UniRef90_A0A2V3UNZ9 Uncharacterized protein DUF1398 n=1 Tax=Che...  42.4    0.019
+  UniRef90_A0A2R4GYR4 Uncharacterized protein n=1 Tax=Rhodopseudo...  42.4    0.020
+  UniRef90_B8EM34 Uncharacterized protein n=1 Tax=Methylocella si...  42.4    0.022
+  UniRef90_A0A354V9T6 DUF1398 domain-containing protein n=1 Tax=A...  42.1    0.023
+  UniRef90_UPI00036D691B DUF1398 domain-containing protein n=2 Ta...  42.1    0.023
+  UniRef90_A0A177PLK8 Uncharacterized protein n=2 Tax=Methylosinu...  42.1    0.023
+  UniRef90_A0A1M3IMI0 DUF1398 domain-containing protein n=1 Tax=C...  42.1    0.024
+  UniRef90_A0A235HDB5 DUF1398 domain-containing protein n=1 Tax=A...  42.1    0.025
+  UniRef90_A0A350ZNB7 DUF1398 domain-containing protein n=1 Tax=H...  42.1    0.025
+  UniRef90_A0A1U9Z0Q3 Phage envelope protein n=1 Tax=Martelella m...  41.7    0.032
+  UniRef90_Q2W1Q6 Uncharacterized protein n=2 Tax=Magnetospirillu...  41.7    0.033
+  UniRef90_A0A285XIW6 Uncharacterized protein n=1 Tax=Ensifer adh...  41.7    0.036
+  UniRef90_A0A1M3I3C5 DUF1398 domain-containing protein n=1 Tax=S...  41.7    0.037
+  UniRef90_UPI00037FF1E4 alpha-galactosidase n=1 Tax=Paenibacillu...  42.8    0.041
+  UniRef90_UPI000DDC7DF3 DUF1398 domain-containing protein n=1 Ta...  41.7    0.041
+  UniRef90_A0A0C2VGT2 Alpha-galactosidase n=1 Tax=Jeotgalibacillu...  42.4    0.061
+  UniRef90_A0A317TZ25 DUF1398 domain-containing protein n=1 Tax=L...  40.9    0.064
+  UniRef90_A0A1Q3GF20 Uncharacterized protein n=1 Tax=marine bact...  42.1    0.073
+  UniRef90_A0A3C1MBB0 DUF1398 domain-containing protein (Fragment...  40.5    0.077
+  UniRef90_A0A248JWW3 DUF1398 domain-containing protein n=1 Tax=N...  40.9    0.080
+  UniRef90_L0KB32 Alpha-galactosidase n=1 Tax=Halobacteroides hal...  42.1    0.083
+  UniRef90_A0A0D1X9A2 Uncharacterized protein n=1 Tax=Verruconis ...  41.7    0.090
+  UniRef90_A0A2Z6HV93 Uncharacterized protein n=1 Tax=Pleomorphom...  40.5    0.11 
+  UniRef90_A0A0J1KND7 Adenine deaminase n=5 Tax=Firmicutes TaxID=...  41.3    0.13 
+  UniRef90_A0A1R0WU07 Alpha-galactosidase n=24 Tax=Paenibacillus ...  41.3    0.13 
+  UniRef90_A4YT39 Uncharacterized protein n=1 Tax=Bradyrhizobium ...  39.7    0.14 
+  UniRef90_UPI0004943FA0 DUF1398 domain-containing protein n=1 Ta...  39.7    0.16 
+  UniRef90_A0A1X7FPI8 Uncharacterized protein n=1 Tax=Rhizobium o...  39.7    0.16 
+  UniRef90_UPI00047C2386 DUF1398 domain-containing protein n=1 Ta...  39.7    0.16 
+  UniRef90_A0A1H8M4Y8 Alpha-galactosidase n=1 Tax=Paenibacillus s...  41.3    0.16 
+  UniRef90_A0A0Q9HYR6 Uncharacterized protein n=1 Tax=Bosea sp. R...  39.7    0.16 
+  UniRef90_A0A0D2UIF3 Uncharacterized protein n=1 Tax=Skermanella...  39.7    0.16 
+  UniRef90_A0A194X9I5 Uncharacterized protein n=1 Tax=Phialocepha...  40.9    0.17 
+  UniRef90_UPI000DE10B8D DUF1398 domain-containing protein n=1 Ta...  39.7    0.21 
+  UniRef90_A0A081MH25 Uncharacterized protein n=2 Tax=Rhizobium/A...  39.4    0.24 
+  UniRef90_W9H4W2 Uncharacterized protein n=1 Tax=Skermanella sti...  39.4    0.26 
+  UniRef90_A0A059FHB8 Uncharacterized protein n=2 Tax=Hyphomonas ...  39.4    0.27 
+  UniRef90_UPI00054FA723 DUF1398 domain-containing protein n=1 Ta...  39.4    0.29 
+  UniRef90_UPI000DDA4B9C DUF1398 domain-containing protein n=4 Ta...  39.4    0.30 
+  UniRef90_A0A2U1V700 DUF1398 domain-containing protein n=1 Tax=R...  39.4    0.31 
+  UniRef90_A0A3D3GJA3 DUF1398 domain-containing protein (Fragment...  37.8    0.33 
+  UniRef90_A4TWG0 Phage envelope protein n=2 Tax=Magnetospirillum...  39.0    0.35 
+  UniRef90_A0A3B9AI78 Uncharacterized protein n=1 Tax=Saprospiral...  37.0    0.35 
+  UniRef90_UPI00082A3514 DUF1398 domain-containing protein n=1 Ta...  39.0    0.40 
+  UniRef90_A0A242H2J0 Uncharacterized protein n=1 Tax=Enterococcu...  37.8    0.40 
+  UniRef90_A0A2T6DBA1 Anti-sigma factor antagonist n=1 Tax=Verruc...  39.4    0.43 
+  UniRef90_UPI0005AA05B8 hypothetical protein n=1 Tax=Lactococcus...  37.4    0.44 
+  UniRef90_UPI000368D0E3 DUF1398 domain-containing protein n=1 Ta...  38.6    0.45 
+  UniRef90_M3ABD3 Uncharacterized protein n=1 Tax=Magnetospirillu...  38.6    0.47 
+  UniRef90_U3A736 DUF1398 domain-containing protein n=2 Tax=Alpha...  38.6    0.48 
+  UniRef90_UPI000DD773C9 DUF1398 domain-containing protein n=3 Ta...  38.6    0.50 
+  UniRef90_UPI000401B5A6 alpha-galactosidase n=1 Tax=Streptococcu...  39.7    0.53 
+  UniRef90_A0A0T1WXZ8 Uncharacterized protein n=1 Tax=Rhizobium s...  38.6    0.56 
+  UniRef90_UPI00030AC81A DUF1398 domain-containing protein n=1 Ta...  38.2    0.61 
+  UniRef90_UPI000DD56AF6 DUF1398 domain-containing protein n=1 Ta...  38.2    0.64 
+  UniRef90_A0A358B1B0 DUF1398 domain-containing protein n=4 Tax=R...  38.2    0.64 
+  UniRef90_A0A370LC90 DUF1398 domain-containing protein n=1 Tax=B...  38.2    0.68 
+  UniRef90_UPI00035E29F2 DUF1398 domain-containing protein n=1 Ta...  38.2    0.70 
+  UniRef90_A0A2E7MBS3 Elongation factor G n=1 Tax=Deltaproteobact...  39.4    0.71 
+  UniRef90_A0A0G1UYP3 Hydrolase, NUDIX family n=2 Tax=Microgenoma...  38.2    0.80 
+  UniRef90_V4NXI7 Uncharacterized protein n=1 Tax=Asticcacaulis s...  37.8    0.83 
+  UniRef90_W1EXX9 Putative envelope protein n=1 Tax=Escherichia c...  36.3    0.89 
+  UniRef90_A0A1E4MC16 DUF1398 domain-containing protein n=3 Tax=N...  37.8    0.92 
+  UniRef90_J7Q8Z4 Uncharacterized protein n=1 Tax=Methylocystis s...  37.8    0.95 
+  UniRef90_A0A177JYI7 Uncharacterized protein n=1 Tax=Sphingobium...  37.8    0.97 
+  UniRef90_A0A0C2V4Q1 Alpha-galactosidase n=1 Tax=Jeotgalibacillu...  39.0    0.98 
+  UniRef90_A0A1M9P6U2 Phage envelope protein n=1 Tax=Mycobacteroi...  37.0    1.0  
+  UniRef90_UPI00035F6419 DUF1398 domain-containing protein n=1 Ta...  37.8    1.1  
+  UniRef90_UPI000DE11E50 DUF1398 domain-containing protein n=1 Ta...  37.4    1.1  
+  UniRef90_UPI0009FB53F7 hypothetical protein n=1 Tax=Chryseobact...  38.6    1.2  
+  UniRef90_UPI000360E9FD alpha-galactosidase n=1 Tax=Saccharibaci...  38.6    1.2  
+  UniRef90_A0A1T3VCH4 Uncharacterized protein (Fragment) n=1 Tax=...  38.6    1.2  
+  UniRef90_A0A1A6FGS5 DUF1398 domain-containing protein n=2 Tax=M...  37.4    1.2  
+  UniRef90_A0A2W6YV39 Uncharacterized protein n=1 Tax=Rhizobium s...  38.2    1.3  
+  UniRef90_A0A220SB06 Deoxyribose-phosphate aldolase n=1 Tax=Chry...  38.2    1.4  
+  UniRef90_A0A0Q7XLB2 Uncharacterized protein n=2 Tax=Rhizobium T...  38.2    1.5  
+  UniRef90_A0A098MCM2 Alpha-galactosidase n=1 Tax=Paenibacillus w...  38.2    1.8  
+  UniRef90_UPI000F08CEEF DNA-directed RNA polymerase III subunit ...  38.2    1.8  
+  UniRef90_A0A026VVN8 DNA-directed RNA polymerase subunit beta n=...  38.2    1.8  
+  UniRef90_A0A1L3ZYR9 DUF1398 domain-containing protein n=1 Tax=S...  37.0    2.0  
+  UniRef90_A0A356R1E0 7,8-dihydroneopterin aldolase n=1 Tax=Nitro...  37.8    2.0  
+  UniRef90_A0A364P3N8 DUF1398 domain-containing protein n=1 Tax=M...  37.0    2.1  
+  UniRef90_A0A2U1SCU4 DUF1398 domain-containing protein n=4 Tax=M...  37.0    2.2  
+  UniRef90_UPI0009A72738 tRNA pseudouridine(38-40) synthase TruA ...  37.4    2.3  
+  UniRef90_A0A099P688 Uncharacterized protein n=3 Tax=Pichia kudr...  37.8    2.3  
+  UniRef90_A0A1J5G250 Allantoinase n=1 Tax=Ignavibacteria bacteri...  37.8    2.4  
+  UniRef90_A0A0I9N9V6 Trehalase n=2 Tax=Brugia malayi TaxID=6279 ...  37.8    2.5  
+  UniRef90_A0A327Y366 Uncharacterized protein n=2 Tax=Rhizobiales...  36.7    2.5  
+  UniRef90_A0A315WCJ1 Uncharacterized protein n=1 Tax=Acinetobact...  35.1    2.6  
+  UniRef90_J9YHT7 Alpha-galactosidase n=4 Tax=Leuconostoc gelidum...  37.4    2.7  
+  UniRef90_A0A259CE19 DUF1398 domain-containing protein n=2 Tax=u...  36.7    2.8  
+  UniRef90_A0A2Z2KIY3 Alpha-galactosidase n=1 Tax=Paenibacillus d...  37.4    3.0  
+  UniRef90_F4L1L4 ASPIC/UnbV domain protein n=1 Tax=Haliscomenoba...  37.4    3.0  
+  UniRef90_UPI0004AD8E04 alpha-galactosidase n=1 Tax=Saccharibaci...  37.4    3.1  
+  UniRef90_A0A0K0JM32 Trehalase n=1 Tax=Brugia malayi TaxID=6279 ...  37.4    3.1  
+  UniRef90_A0A0N4TPA6 Trehalase n=4 Tax=Onchocercidae TaxID=6296 ...  37.4    3.2  
+  UniRef90_A0A256W6R9 Uncharacterized protein (Fragment) n=1 Tax=...  37.0    3.2  
+  UniRef90_A0A209DDB1 Alpha-galactosidase n=2 Tax=Saccharibacillu...  37.4    3.2  
+  UniRef90_A0A1M7ZQZ7 Uncharacterized protein n=1 Tax=Pseudoxanth...  36.3    3.3  
+  UniRef90_A0A2E0G5N7 Uncharacterized protein n=1 Tax=Candidatus ...  37.0    3.4  
+  UniRef90_A0A315D9J7 DUF1398 domain-containing protein n=1 Tax=L...  36.3    3.4  
+  UniRef90_A0A1H0A7H2 Alpha-galactosidase n=5 Tax=Paenibacillus T...  37.4    3.4  
+  UniRef90_A0A084J8A2 DNA-directed RNA polymerase subunit beta n=...  37.4    3.5  
+  UniRef90_A0A1I1KX93 Uncaracterized surface protein containing f...  37.0    3.5  
+  UniRef90_UPI0008130A5C calmodulin n=1 Tax=Manis javanica TaxID=...  35.9    3.5  
+  UniRef90_A0A1N7M9B9 Deoxyribose-phosphate aldolase n=1 Tax=Chry...  37.0    3.7  
+  UniRef90_A0A3D8ZPV7 Uncharacterized protein n=1 Tax=Cutibacteri...  34.7    3.7  
+  UniRef90_A0A1M4UWY1 Deoxyribose-phosphate aldolase n=2 Tax=Chry...  37.0    3.7  
+  UniRef90_A0A1A7UNC5 Alpha-galactosidase n=3 Tax=Enterococcus Ta...  37.0    3.8  
+  UniRef90_UPI000F8D6F76 DUF1398 domain-containing protein n=1 Ta...  35.9    4.2  
+  UniRef90_UPI00036C14D6 alpha-galactosidase n=1 Tax=Streptococcu...  37.0    4.6  
+  UniRef90_K5ZWL3 Uncharacterized protein n=10 Tax=Parabacteroide...  36.7    4.6  
+  UniRef90_A0A2M7YYY6 7,8-dihydroneopterin aldolase n=1 Tax=Nitro...  36.7    4.9  
+  UniRef90_A0A2Z5CWB7 Dipeptidyl peptidase IV n=1 Tax=Saccopteryx...  36.7    4.9  
+  UniRef90_H0A763 Uncharacterized protein n=1 Tax=Acetobacteracea...  35.9    5.0  
+  UniRef90_R2RGC4 Alpha-galactosidase n=1 Tax=Enterococcus malodo...  36.7    5.1  
+  UniRef90_S3HUT5 Uncharacterized protein n=1 Tax=Rhizobium graha...  35.9    5.2  
+  UniRef90_A0A1C3SLR5 Glycerol dehydrogenase n=4 Tax=Bacillus Tax...  36.7    5.2  
+  UniRef90_A0A1W9RNP8 Uncharacterized protein n=1 Tax=Candidatus ...  36.3    5.3  
+  UniRef90_UPI000161E921 Trehalase family protein n=1 Tax=Brugia ...  36.7    6.1  
+  UniRef90_A0A3M7L7B9 Peptidase S41 n=2 Tax=Chryseobacterium nema...  36.7    6.2  
+  UniRef90_A0A142VVH9 Uncharacterized protein n=1 Tax=Sphingopyxi...  35.5    6.4  
+  UniRef90_J9E1B0 Trehalase (Fragment) n=2 Tax=Wuchereria bancrof...  36.3    6.4  
+  UniRef90_UPI00037195EB DUF1398 domain-containing protein n=1 Ta...  35.5    6.5  
+  UniRef90_A0A372KJ37 Amidohydrolase n=2 Tax=Streptococcus TaxID=...  36.3    6.6  
+  UniRef90_A0A1W9G9D8 7,8-dihydroneopterin aldolase n=1 Tax=Nitro...  36.3    6.8  
+  UniRef90_UPI00064D0EBF vomeronasal type-2 receptor 26-like n=1 ...  36.3    7.3  
+  UniRef90_UPI0004575559 myosin-IIIb n=1 Tax=Callorhinchus milii ...  36.3    7.3  
+  UniRef90_UPI000A1C8154 tetratricopeptide repeat protein n=1 Tax...  36.3    7.6  
+  UniRef90_A0A2N9VXD4 Uncharacterized protein n=1 Tax=Phyllobacte...  33.2    8.2  
+  UniRef90_A0A349DNK0 Uncharacterized protein n=1 Tax=Microscilla...  35.9    9.1  
+  UniRef90_A0A2D8HGB4 DUF1398 domain-containing protein n=1 Tax=S...  35.1    9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.165    0.550    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0504    0.140     1.90     42.6     43.6 
+
+Effective search space used: 736345580145
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,364 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415548.1
+
+Length=328
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P75910 Uncharacterized protein YcdU n=390 Tax=root Tax...  657     0.0   
+  UniRef90_UPI000D34D29E hypothetical protein n=1 Tax=Pseudocitro...  483     1e-169
+  UniRef90_UPI000494AC70 membrane protein n=3 Tax=Escherichia col...  459     6e-162
+  UniRef90_A0A2X6FE58 Inner membrane protein n=27 Tax=Enterobacte...  352     2e-120
+  UniRef90_F5NR91 Uncharacterized protein n=1 Tax=Shigella flexne...  347     4e-118
+  UniRef90_A0A376XEA8 Inner membrane protein n=10 Tax=Enterobacte...  343     5e-117
+  UniRef90_A0A1V0LJF7 Uncharacterized protein n=9 Tax=Enterobacte...  348     2e-116
+  UniRef90_UPI0007DD940E hypothetical protein n=2 Tax=Kosakonia T...  347     3e-116
+  UniRef90_A0A0T5XG15 Uncharacterized protein n=11 Tax=Enterobact...  347     6e-116
+  UniRef90_A0A2J0NA76 Uncharacterized protein n=6 Tax=Enterobacte...  343     1e-114
+  UniRef90_A0A330WSY5 Uncharacterized protein n=4 Tax=Enterobacte...  343     2e-114
+  UniRef90_A0A0J1VTY9 Inner membrane protein n=8 Tax=Enterobacter...  342     5e-114
+  UniRef90_A0A1I4XE69 Uncharacterized protein n=1 Tax=Izhakiella ...  334     4e-111
+  UniRef90_A0A0F0T5V4 Uncharacterized protein n=22 Tax=Enterobact...  325     3e-107
+  UniRef90_UPI000E760894 hypothetical protein n=2 Tax=Enterobacte...  319     5e-105
+  UniRef90_UPI000A3828B2 hypothetical protein n=2 Tax=Kosakonia p...  312     2e-102
+  UniRef90_UPI0005A633CE membrane protein n=1 Tax=Escherichia col...  305     3e-102
+  UniRef90_UPI0002F0965E hypothetical protein n=2 Tax=Kosakonia s...  306     3e-100
+  UniRef90_A0A1U7E3M3 Uncharacterized protein n=3 Tax=Enterobacte...  291     4e-94 
+  UniRef90_R9VUL6 Uncharacterized protein n=2 Tax=Enterobacteriac...  291     5e-94 
+  UniRef90_A0A376SV08 Inner membrane protein n=1 Tax=Escherichia ...  283     9e-93 
+  UniRef90_A0A376YBE5 Inner membrane protein n=9 Tax=Escherichia ...  280     1e-92 
+  UniRef90_A0A377DU16 Inner membrane protein n=1 Tax=Escherichia ...  269     5e-88 
+  UniRef90_E6WDK4 Putative inner membrane protein n=1 Tax=Pantoea...  270     6e-86 
+  UniRef90_A0A2K1QEH8 Uncharacterized protein n=1 Tax=Mixta theic...  266     3e-84 
+  UniRef90_V5A6D7 Putative membrane protein n=2 Tax=Enterobacteri...  266     3e-84 
+  UniRef90_A0A0N9WEL9 Uncharacterized protein n=1 Tax=Acinetobact...  265     5e-84 
+  UniRef90_A0A087L4G4 Membrane protein n=1 Tax=Serratia sp. Ag1 T...  265     6e-84 
+  UniRef90_U2NFK1 Uncharacterized protein n=1 Tax=Pantoea sp. AS-...  264     1e-83 
+  UniRef90_A0A241VY44 Uncharacterized protein n=1 Tax=Acinetobact...  261     2e-82 
+  UniRef90_A0A0H3FXB0 Putative inner membrane protein n=9 Tax=Ent...  255     4e-80 
+  UniRef90_A0A163VAZ2 Uncharacterized protein n=15 Tax=Enterobact...  252     6e-79 
+  UniRef90_A0A2L1UXV6 Uncharacterized protein n=1 Tax=Rahnella sp...  249     1e-77 
+  UniRef90_A0A0M3H7V7 Uncharacterized protein n=26 Tax=Enterobact...  247     6e-77 
+  UniRef90_UPI000DDCD1AC hypothetical protein n=7 Tax=Enterobacte...  243     1e-75 
+  UniRef90_UPI000370B3C1 hypothetical protein n=1 Tax=Enterobacte...  239     1e-73 
+  UniRef90_H3N972 Uncharacterized protein n=3 Tax=Klebsiella TaxI...  235     2e-72 
+  UniRef90_A0A377M7I7 Putative inner membrane protein n=1 Tax=Ent...  231     8e-72 
+  UniRef90_A0A2S4RN86 Uncharacterized protein n=1 Tax=Pantoea sp....  230     3e-70 
+  UniRef90_UPI00098A7425 hypothetical protein n=2 Tax=Escherichia...  213     1e-66 
+  UniRef90_UPI000EA018D9 hypothetical protein n=1 Tax=Rahnella br...  220     2e-66 
+  UniRef90_A0A3P1MJA1 Uncharacterized protein (Fragment) n=1 Tax=...  193     4e-59 
+  UniRef90_UPI000989D813 hypothetical protein n=1 Tax=Escherichia...  187     6e-57 
+  UniRef90_A0A376ZV06 Inner membrane protein n=2 Tax=Escherichia ...  174     7e-51 
+  UniRef90_UPI000DA4EE5E hypothetical protein n=1 Tax=Escherichia...  172     7e-51 
+  UniRef90_UPI000B7F3760 hypothetical protein n=2 Tax=Escherichia...  132     7e-36 
+  UniRef90_A0A2X4YCI8 Uncharacterized protein n=1 Tax=Klebsiella ...  132     2e-33 
+  UniRef90_UPI000D0A91D5 hypothetical protein n=1 Tax=Escherichia...  123     4e-32 
+  UniRef90_UPI000DF3A383 hypothetical protein n=1 Tax=Escherichia...  115     5e-29 
+  UniRef90_A0A070RR64 Uncharacterized protein n=4 Tax=Escherichia...  93.2    1e-20 
+  UniRef90_UPI00092F617C hypothetical protein n=1 Tax=Escherichia...  92.8    1e-20 
+  UniRef90_A0A376SUS9 Inner membrane protein n=1 Tax=Escherichia ...  68.6    1e-11 
+  UniRef90_A0A376YES7 Inner membrane protein n=1 Tax=Escherichia ...  64.7    2e-10 
+  UniRef90_UPI000556297C hypothetical protein n=2 Tax=Erwinia Tax...  68.9    9e-10 
+  UniRef90_A0A356D9R5 Uncharacterized protein n=1 Tax=Providencia...  66.2    1e-08 
+  UniRef90_UPI000D6F0C99 hypothetical protein n=1 Tax=Providencia...  65.9    1e-08 
+  UniRef90_A0A1W6BAK8 Uncharacterized protein n=1 Tax=Pantoea alh...  52.4    2e-05 
+  UniRef90_UPI0008321200 hypothetical protein n=1 Tax=Erwinia sp....  55.5    3e-05 
+  UniRef90_UPI000FDD6AC7 UPI000FDD6AC7 related cluster n=1 Tax=un...  50.4    0.001 
+  UniRef90_U2MIC8 Uncharacterized protein n=1 Tax=Serratia fontic...  50.4    0.002 
+  UniRef90_UPI00073D7365 hypothetical protein n=1 Tax=[Erwinia] t...  48.5    0.006 
+  UniRef90_K8X1I9 Uncharacterized protein n=1 Tax=Providencia bur...  47.0    0.017 
+  UniRef90_A0A083ZWF1 Uncharacterized protein n=2 Tax=Serratia sp...  43.1    0.29  
+  UniRef90_UPI000753C320 hypothetical protein n=1 Tax=Burkholderi...  36.6    6.2   
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.147    0.479    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2926806677619
+Warning: [psiblast] lcl|Query_1 NP_415548.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415548.1
+
+Length=328
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A2J0NA76 Uncharacterized protein n=6 Tax=Enterobacte...  362     4e-122
+  UniRef90_P75910 Uncharacterized protein YcdU n=390 Tax=root Tax...  360     2e-121
+  UniRef90_A0A0T5XG15 Uncharacterized protein n=11 Tax=Enterobact...  356     1e-119
+  UniRef90_A0A0F0T5V4 Uncharacterized protein n=22 Tax=Enterobact...  355     3e-119
+  UniRef90_A0A0J1VTY9 Inner membrane protein n=8 Tax=Enterobacter...  350     2e-117
+  UniRef90_A0A1V0LJF7 Uncharacterized protein n=9 Tax=Enterobacte...  348     1e-116
+  UniRef90_UPI000A3828B2 hypothetical protein n=2 Tax=Kosakonia p...  344     8e-115
+  UniRef90_UPI000D34D29E hypothetical protein n=1 Tax=Pseudocitro...  343     1e-114
+  UniRef90_A0A087L4G4 Membrane protein n=1 Tax=Serratia sp. Ag1 T...  342     3e-114
+  UniRef90_A0A1I4XE69 Uncharacterized protein n=1 Tax=Izhakiella ...  340     2e-113
+  UniRef90_UPI000E760894 hypothetical protein n=2 Tax=Enterobacte...  339     6e-113
+  UniRef90_UPI0007DD940E hypothetical protein n=2 Tax=Kosakonia T...  338     2e-112
+  UniRef90_E6WDK4 Putative inner membrane protein n=1 Tax=Pantoea...  336     6e-112
+  UniRef90_UPI0002F0965E hypothetical protein n=2 Tax=Kosakonia s...  336     1e-111
+  UniRef90_A0A1U7E3M3 Uncharacterized protein n=3 Tax=Enterobacte...  333     1e-110
+  UniRef90_R9VUL6 Uncharacterized protein n=2 Tax=Enterobacteriac...  332     4e-110
+  UniRef90_U2NFK1 Uncharacterized protein n=1 Tax=Pantoea sp. AS-...  330     1e-109
+  UniRef90_UPI000370B3C1 hypothetical protein n=1 Tax=Enterobacte...  329     4e-109
+  UniRef90_A0A330WSY5 Uncharacterized protein n=4 Tax=Enterobacte...  329     1e-108
+  UniRef90_A0A2K1QEH8 Uncharacterized protein n=1 Tax=Mixta theic...  327     2e-108
+  UniRef90_A0A0H3FXB0 Putative inner membrane protein n=9 Tax=Ent...  327     2e-108
+  UniRef90_A0A0M3H7V7 Uncharacterized protein n=26 Tax=Enterobact...  324     3e-107
+  UniRef90_A0A163VAZ2 Uncharacterized protein n=15 Tax=Enterobact...  320     1e-105
+  UniRef90_UPI000DDCD1AC hypothetical protein n=7 Tax=Enterobacte...  320     1e-105
+  UniRef90_A0A0N9WEL9 Uncharacterized protein n=1 Tax=Acinetobact...  318     1e-104
+  UniRef90_A0A2L1UXV6 Uncharacterized protein n=1 Tax=Rahnella sp...  315     1e-103
+  UniRef90_V5A6D7 Putative membrane protein n=2 Tax=Enterobacteri...  312     3e-102
+  UniRef90_H3N972 Uncharacterized protein n=3 Tax=Klebsiella TaxI...  308     7e-101
+  UniRef90_A0A2S4RN86 Uncharacterized protein n=1 Tax=Pantoea sp....  308     8e-101
+  UniRef90_A0A241VY44 Uncharacterized protein n=1 Tax=Acinetobact...  303     6e-99 
+  UniRef90_UPI000EA018D9 hypothetical protein n=1 Tax=Rahnella br...  302     1e-98 
+  UniRef90_A0A377M7I7 Putative inner membrane protein n=1 Tax=Ent...  262     1e-83 
+  UniRef90_UPI000494AC70 membrane protein n=3 Tax=Escherichia col...  259     4e-83 
+  UniRef90_A0A356D9R5 Uncharacterized protein n=1 Tax=Providencia...  203     2e-59 
+  UniRef90_A0A2X6FE58 Inner membrane protein n=27 Tax=Enterobacte...  196     5e-59 
+  UniRef90_A0A376XEA8 Inner membrane protein n=10 Tax=Enterobacte...  195     1e-58 
+  UniRef90_UPI000D6F0C99 hypothetical protein n=1 Tax=Providencia...  200     1e-58 
+  UniRef90_F5NR91 Uncharacterized protein n=1 Tax=Shigella flexne...  195     5e-58 
+  UniRef90_A0A2X4YCI8 Uncharacterized protein n=1 Tax=Klebsiella ...  185     5e-54 
+  UniRef90_UPI000556297C hypothetical protein n=2 Tax=Erwinia Tax...  185     2e-52 
+  UniRef90_UPI0008321200 hypothetical protein n=1 Tax=Erwinia sp....  180     2e-50 
+  UniRef90_UPI0005A633CE membrane protein n=1 Tax=Escherichia col...  173     2e-50 
+  UniRef90_A0A376SV08 Inner membrane protein n=1 Tax=Escherichia ...  167     2e-47 
+  UniRef90_A0A376YBE5 Inner membrane protein n=9 Tax=Escherichia ...  148     4e-41 
+  UniRef90_A0A377DU16 Inner membrane protein n=1 Tax=Escherichia ...  147     3e-40 
+  UniRef90_A0A376ZV06 Inner membrane protein n=2 Tax=Escherichia ...  134     2e-35 
+  UniRef90_UPI000DA4EE5E hypothetical protein n=1 Tax=Escherichia...  129     4e-34 
+  UniRef90_UPI00098A7425 hypothetical protein n=2 Tax=Escherichia...  120     2e-30 
+  UniRef90_A0A3P1MJA1 Uncharacterized protein (Fragment) n=1 Tax=...  104     2e-24 
+  UniRef90_UPI000989D813 hypothetical protein n=1 Tax=Escherichia...  98.4    2e-22 
+  UniRef90_UPI000D0A91D5 hypothetical protein n=1 Tax=Escherichia...  85.7    1e-17 
+  UniRef90_A0A1W6BAK8 Uncharacterized protein n=1 Tax=Pantoea alh...  81.4    5e-16 
+  UniRef90_UPI000DF3A383 hypothetical protein n=1 Tax=Escherichia...  79.9    1e-15 
+  UniRef90_UPI000B7F3760 hypothetical protein n=2 Tax=Escherichia...  76.4    2e-14 
+  UniRef90_A0A070RR64 Uncharacterized protein n=4 Tax=Escherichia...  68.3    2e-11 
+  UniRef90_UPI00092F617C hypothetical protein n=1 Tax=Escherichia...  66.0    8e-11 
+  UniRef90_A0A376SUS9 Inner membrane protein n=1 Tax=Escherichia ...  49.8    6e-05 
+  UniRef90_A0A376YES7 Inner membrane protein n=1 Tax=Escherichia ...  49.1    7e-05 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI00073D7365 hypothetical protein n=1 Tax=[Erwinia] t...  126     3e-30
+  UniRef90_A0A126VJW0 Uncharacterized protein n=7 Tax=Serratia Ta...  119     1e-27
+  UniRef90_A0A0F7HG64 Uncharacterized protein n=15 Tax=Serratia T...  118     3e-27
+  UniRef90_UPI000FDD6AC7 UPI000FDD6AC7 related cluster n=1 Tax=un...  116     1e-26
+  UniRef90_A0A083ZWF1 Uncharacterized protein n=2 Tax=Serratia sp...  115     3e-26
+  UniRef90_U2MIC8 Uncharacterized protein n=1 Tax=Serratia fontic...  113     2e-25
+  UniRef90_UPI000DEFE306 hypothetical protein n=1 Tax=Rahnella sp...  92.6    8e-18
+  UniRef90_K8X1I9 Uncharacterized protein n=1 Tax=Providencia bur...  91.4    2e-17
+  UniRef90_UPI000488F0A9 hypothetical protein n=1 Tax=Paraburkhol...  89.1    1e-16
+  UniRef90_UPI0004AF7BBB hypothetical protein n=1 Tax=Enterobacte...  88.0    3e-16
+  UniRef90_A0A0L7TCC2 Uncharacterized protein n=1 Tax=Erwinia ini...  85.3    2e-15
+  UniRef90_A0A0A6Q4W9 Uncharacterized protein n=1 Tax=Paraburkhol...  81.4    5e-14
+  UniRef90_B4EZK3 Putative membrane protein n=42 Tax=Enterobacter...  77.2    2e-12
+  UniRef90_A1WKY5 Uncharacterized protein n=1 Tax=Verminephrobact...  66.0    1e-08
+  UniRef90_A0A142IUP0 Uncharacterized protein n=6 Tax=Pseudomonas...  53.7    1e-04
+  UniRef90_A0A379GDE1 Uncharacterized protein n=1 Tax=Proteus mir...  41.8    0.092
+  UniRef90_A0A3M6V5K2 Uncharacterized protein n=1 Tax=Pocillopora...  42.9    0.55 
+  UniRef90_UPI000F556FBE LOW QUALITY PROTEIN: polycystic kidney d...  42.1    0.87 
+  UniRef90_UPI000E76A4A6 hypothetical protein n=1 Tax=Mangrovibac...  41.4    1.5  
+  UniRef90_A0A099W7D3 Uncharacterized protein n=2 Tax=Listeria Ta...  40.6    2.3  
+  UniRef90_A0A1I4UMC9 Uncharacterized protein n=3 Tax=Streptomyce...  37.5    8.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.155    0.492    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0474    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2926806677619
+Results from round 3
+
+
+Query= NP_415548.1
+
+Length=328
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A2J0NA76 Uncharacterized protein n=6 Tax=Enterobacte...  329     5e-109
+  UniRef90_A0A0T5XG15 Uncharacterized protein n=11 Tax=Enterobact...  324     2e-107
+  UniRef90_A0A0F0T5V4 Uncharacterized protein n=22 Tax=Enterobact...  323     8e-107
+  UniRef90_P75910 Uncharacterized protein YcdU n=390 Tax=root Tax...  322     2e-106
+  UniRef90_A0A1V0LJF7 Uncharacterized protein n=9 Tax=Enterobacte...  322     2e-106
+  UniRef90_A0A0J1VTY9 Inner membrane protein n=8 Tax=Enterobacter...  315     1e-103
+  UniRef90_UPI000A3828B2 hypothetical protein n=2 Tax=Kosakonia p...  312     2e-102
+  UniRef90_UPI0007DD940E hypothetical protein n=2 Tax=Kosakonia T...  311     4e-102
+  UniRef90_A0A1I4XE69 Uncharacterized protein n=1 Tax=Izhakiella ...  311     4e-102
+  UniRef90_UPI000D34D29E hypothetical protein n=1 Tax=Pseudocitro...  310     1e-101
+  UniRef90_A0A087L4G4 Membrane protein n=1 Tax=Serratia sp. Ag1 T...  309     2e-101
+  UniRef90_E6WDK4 Putative inner membrane protein n=1 Tax=Pantoea...  309     4e-101
+  UniRef90_UPI0002F0965E hypothetical protein n=2 Tax=Kosakonia s...  306     4e-100
+  UniRef90_UPI000E760894 hypothetical protein n=2 Tax=Enterobacte...  305     1e-99 
+  UniRef90_A0A0M3H7V7 Uncharacterized protein n=26 Tax=Enterobact...  304     3e-99 
+  UniRef90_A0A0H3FXB0 Putative inner membrane protein n=9 Tax=Ent...  303     5e-99 
+  UniRef90_U2NFK1 Uncharacterized protein n=1 Tax=Pantoea sp. AS-...  303     5e-99 
+  UniRef90_A0A1U7E3M3 Uncharacterized protein n=3 Tax=Enterobacte...  303     5e-99 
+  UniRef90_A0A2K1QEH8 Uncharacterized protein n=1 Tax=Mixta theic...  303     8e-99 
+  UniRef90_UPI000370B3C1 hypothetical protein n=1 Tax=Enterobacte...  301     4e-98 
+  UniRef90_R9VUL6 Uncharacterized protein n=2 Tax=Enterobacteriac...  301     4e-98 
+  UniRef90_A0A330WSY5 Uncharacterized protein n=4 Tax=Enterobacte...  301     6e-98 
+  UniRef90_UPI000DDCD1AC hypothetical protein n=7 Tax=Enterobacte...  297     1e-96 
+  UniRef90_A0A163VAZ2 Uncharacterized protein n=15 Tax=Enterobact...  295     8e-96 
+  UniRef90_A0A0N9WEL9 Uncharacterized protein n=1 Tax=Acinetobact...  294     4e-95 
+  UniRef90_V5A6D7 Putative membrane protein n=2 Tax=Enterobacteri...  289     2e-93 
+  UniRef90_H3N972 Uncharacterized protein n=3 Tax=Klebsiella TaxI...  287     9e-93 
+  UniRef90_A0A2L1UXV6 Uncharacterized protein n=1 Tax=Rahnella sp...  287     2e-92 
+  UniRef90_A0A2S4RN86 Uncharacterized protein n=1 Tax=Pantoea sp....  279     1e-89 
+  UniRef90_UPI000EA018D9 hypothetical protein n=1 Tax=Rahnella br...  277     7e-89 
+  UniRef90_A0A241VY44 Uncharacterized protein n=1 Tax=Acinetobact...  276     3e-88 
+  UniRef90_UPI00073D7365 hypothetical protein n=1 Tax=[Erwinia] t...  254     1e-79 
+  UniRef90_A0A0F7HG64 Uncharacterized protein n=15 Tax=Serratia T...  250     6e-78 
+  UniRef90_UPI000FDD6AC7 UPI000FDD6AC7 related cluster n=1 Tax=un...  248     4e-77 
+  UniRef90_A0A126VJW0 Uncharacterized protein n=7 Tax=Serratia Ta...  242     6e-75 
+  UniRef90_A0A083ZWF1 Uncharacterized protein n=2 Tax=Serratia sp...  241     2e-74 
+  UniRef90_A0A377M7I7 Putative inner membrane protein n=1 Tax=Ent...  237     4e-74 
+  UniRef90_UPI000494AC70 membrane protein n=3 Tax=Escherichia col...  232     2e-72 
+  UniRef90_U2MIC8 Uncharacterized protein n=1 Tax=Serratia fontic...  235     1e-71 
+  UniRef90_UPI000D6F0C99 hypothetical protein n=1 Tax=Providencia...  231     1e-70 
+  UniRef90_A0A356D9R5 Uncharacterized protein n=1 Tax=Providencia...  230     8e-70 
+  UniRef90_UPI0008321200 hypothetical protein n=1 Tax=Erwinia sp....  222     8e-67 
+  UniRef90_UPI000556297C hypothetical protein n=2 Tax=Erwinia Tax...  216     1e-64 
+  UniRef90_UPI000488F0A9 hypothetical protein n=1 Tax=Paraburkhol...  210     2e-62 
+  UniRef90_UPI0004AF7BBB hypothetical protein n=1 Tax=Enterobacte...  200     4e-58 
+  UniRef90_A0A0A6Q4W9 Uncharacterized protein n=1 Tax=Paraburkhol...  198     4e-58 
+  UniRef90_A0A0L7TCC2 Uncharacterized protein n=1 Tax=Erwinia ini...  190     2e-54 
+  UniRef90_UPI000DEFE306 hypothetical protein n=1 Tax=Rahnella sp...  188     5e-54 
+  UniRef90_A0A2X6FE58 Inner membrane protein n=27 Tax=Enterobacte...  179     2e-52 
+  UniRef90_F5NR91 Uncharacterized protein n=1 Tax=Shigella flexne...  178     1e-51 
+  UniRef90_K8X1I9 Uncharacterized protein n=1 Tax=Providencia bur...  182     2e-51 
+  UniRef90_A0A376XEA8 Inner membrane protein n=10 Tax=Enterobacte...  173     4e-50 
+  UniRef90_A0A2X4YCI8 Uncharacterized protein n=1 Tax=Klebsiella ...  171     1e-48 
+  UniRef90_B4EZK3 Putative membrane protein n=42 Tax=Enterobacter...  168     4e-46 
+  UniRef90_UPI0005A633CE membrane protein n=1 Tax=Escherichia col...  152     3e-42 
+  UniRef90_A0A376SV08 Inner membrane protein n=1 Tax=Escherichia ...  153     5e-42 
+  UniRef90_A1WKY5 Uncharacterized protein n=1 Tax=Verminephrobact...  156     1e-41 
+  UniRef90_A0A376YBE5 Inner membrane protein n=9 Tax=Escherichia ...  133     3e-35 
+  UniRef90_A0A377DU16 Inner membrane protein n=1 Tax=Escherichia ...  131     6e-34 
+  UniRef90_A0A376ZV06 Inner membrane protein n=2 Tax=Escherichia ...  123     7e-31 
+  UniRef90_A0A142IUP0 Uncharacterized protein n=6 Tax=Pseudomonas...  125     8e-30 
+  UniRef90_UPI000DA4EE5E hypothetical protein n=1 Tax=Escherichia...  118     8e-30 
+  UniRef90_UPI00098A7425 hypothetical protein n=2 Tax=Escherichia...  108     7e-26 
+  UniRef90_A0A3P1MJA1 Uncharacterized protein (Fragment) n=1 Tax=...  95.7    3e-21 
+  UniRef90_UPI000989D813 hypothetical protein n=1 Tax=Escherichia...  88.0    2e-18 
+  UniRef90_UPI000D0A91D5 hypothetical protein n=1 Tax=Escherichia...  76.8    2e-14 
+  UniRef90_A0A1W6BAK8 Uncharacterized protein n=1 Tax=Pantoea alh...  74.5    2e-13 
+  UniRef90_UPI000DF3A383 hypothetical protein n=1 Tax=Escherichia...  73.4    3e-13 
+  UniRef90_UPI000B7F3760 hypothetical protein n=2 Tax=Escherichia...  69.5    6e-12 
+  UniRef90_A0A070RR64 Uncharacterized protein n=4 Tax=Escherichia...  64.5    4e-10 
+  UniRef90_UPI00092F617C hypothetical protein n=1 Tax=Escherichia...  62.6    1e-09 
+  UniRef90_A0A376SUS9 Inner membrane protein n=1 Tax=Escherichia ...  48.3    2e-04 
+  UniRef90_A0A376YES7 Inner membrane protein n=1 Tax=Escherichia ...  46.0    0.001 
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A3L9MXE4 Uncharacterized protein (Fragment) n=1 Tax=...  62.6    8e-09
+  UniRef90_A0A379GDE1 Uncharacterized protein n=1 Tax=Proteus mir...  53.0    1e-05
+  UniRef90_UPI00082F24C2 hypothetical protein n=1 Tax=Cosenzaea m...  43.3    0.012
+  UniRef90_A0A380GDQ1 Lysostaphin resistance protein A, lyrA n=3 ...  45.6    0.057
+  UniRef90_A0A099W7D3 Uncharacterized protein n=2 Tax=Listeria Ta...  42.9    0.47 
+  UniRef90_A0A3N2QXK0 DUF3483 domain-containing protein n=1 Tax=M...  42.9    0.51 
+  UniRef90_UPI000E76A4A6 hypothetical protein n=1 Tax=Mangrovibac...  42.6    0.62 
+  UniRef90_A0A1Y6DD19 Uncharacterized protein n=2 Tax=Gibberella ...  42.2    1.1  
+  UniRef90_A0A3B0Y0D1 Lead, cadmium, zinc and mercury transportin...  41.8    1.2  
+  UniRef90_A1HM86 Uncharacterized protein n=1 Tax=Thermosinus car...  41.4    1.4  
+  UniRef90_UPI0006605EB5 hypothetical protein n=1 Tax=Staphylococ...  41.4    1.4  
+  UniRef90_H6D5F1 Uncharacterized protein orf2572 n=1 Tax=Gibbere...  41.0    2.3  
+  UniRef90_A0A1E4RIJ9 Palmitoyltransferase n=1 Tax=Hyphopichia bu...  40.6    2.6  
+  UniRef90_A0A1I2F765 His Kinase A (Phospho-acceptor) domain-cont...  40.6    2.6  
+  UniRef90_UPI0009DBD3B0 GGDEF domain-containing protein n=1 Tax=...  40.2    3.2  
+  UniRef90_A0A1E3L0M9 Uncharacterized protein n=1 Tax=Paenibacill...  40.2    3.4  
+  UniRef90_A0A2V8KDC3 CusA/CzcA family heavy metal efflux RND tra...  39.9    3.9  
+  UniRef90_A0A2C2V365 PAS domain-containing sensor histidine kina...  39.9    4.4  
+  UniRef90_A0A1R3IMI1 Bax inhibitor 1-related protein n=1 Tax=Cor...  39.9    4.6  
+  UniRef90_UPI0009DF6DC3 ABC transporter permease n=1 Tax=Clostri...  39.9    4.9  
+  UniRef90_A0A139NK20 UDP-N-acetylglucosamine 4,6-dehydratase n=1...  39.5    5.1  
+  UniRef90_A0A0W0Y695 Inner membrane protein n=4 Tax=Legionella q...  39.9    5.1  
+  UniRef90_A0A0L6VAJ6 Uncharacterized protein n=1 Tax=Puccinia so...  37.9    5.3  
+  UniRef90_A0A3B8VX84 Cadmium-translocating P-type ATPase n=1 Tax...  39.5    6.0  
+  UniRef90_A0A1H0UNM0 Endonuclease, HJR/Mrr/RecB family n=4 Tax=R...  38.3    6.3  
+  UniRef90_A0A177UKE3 Uncharacterized protein n=2 Tax=Tilletia Ta...  39.5    6.6  
+  UniRef90_A0A0H5CCF9 Two component sensor kinase n=1 Tax=Alloact...  39.1    6.6  
+  UniRef90_UPI00040EEE82 efflux RND transporter permease subunit ...  39.5    6.7  
+  UniRef90_A0A2G8JWB1 Putative 5-hydroxytryptamine receptor 2B-li...  39.1    6.9  
+  UniRef90_K5WKN4 Uncharacterized protein n=2 Tax=Agaricus bispor...  39.1    7.4  
+  UniRef90_A0A1B8VUW1 Metal-dependent phosphohydrolase n=9 Tax=Ba...  39.1    7.7  
+  UniRef90_A0A1G1YFH8 Uncharacterized protein n=1 Tax=Candidatus ...  39.1    7.9  
+  UniRef90_UPI000A2A90E2 5-hydroxytryptamine receptor 2A-like n=1...  39.1    8.2  
+  UniRef90_A0A1S3IFW4 uncharacterized protein LOC106163933 n=1 Ta...  39.1    8.5  
+  UniRef90_A0A344LUY9 Uncharacterized protein n=1 Tax=Flavobacter...  38.7    8.7  
+  UniRef90_A0A3M6V5K2 Uncharacterized protein n=1 Tax=Pocillopora...  39.1    8.9  
+  UniRef90_J9ITF3 Uncharacterized protein n=2 Tax=Oxytricha trifa...  39.1    9.9  
+  UniRef90_UPI00092F48DF phosphate transporter PHO1 n=1 Tax=Lupin...  38.7    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.153    0.459    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0468    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2926806677619
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2106 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           90,056,284 sequences; 30,134,129,831 total letters
+
+Results from round 1
+
+
+Query= NP_415155.1
+
+Length=186
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P37001 Lipid A palmitoyltransferase PagP n=476 Tax=roo...  386     3e-136
+  UniRef90_A0A3P4REQ6 Lipid A palmitoyltransferase PagP n=9 Tax=E...  378     1e-132
+  UniRef90_A0A2S8D430 Lipid A palmitoyltransferase PagP n=36 Tax=...  366     2e-128
+  UniRef90_UPI0007E3BAE5 phospholipid:lipid A palmitoyltransferas...  352     1e-122
+  UniRef90_V0AHB8 Lipid A palmitoyltransferase PagP (Fragment) n=...  338     1e-117
+  UniRef90_B1EKB0 Lipid A palmitoyltransferase PagP n=38 Tax=Ente...  337     8e-117
+  UniRef90_A0A376LJT8 Lipid A palmitoyltransferase PagP n=3 Tax=E...  329     5e-114
+  UniRef90_A0A0F6REC1 Lipid A palmitoyltransferase PagP n=16 Tax=...  329     2e-113
+  UniRef90_A0A2S4RZZ5 Lipid A palmitoyltransferase PagP n=2 Tax=C...  323     5e-111
+  UniRef90_A0A2T1LNL3 Lipid A palmitoyltransferase PagP n=48 Tax=...  317     7e-109
+  UniRef90_UPI000E4C137B phospholipid:lipid A palmitoyltransferas...  315     2e-108
+  UniRef90_A8AJI1 Lipid A palmitoyltransferase PagP n=12 Tax=Ente...  315     6e-108
+  UniRef90_R9VRG4 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  310     6e-106
+  UniRef90_A0A345CDC3 Lipid A palmitoyltransferase PagP n=3 Tax=E...  310     7e-106
+  UniRef90_D2TMR7 Lipid A palmitoyltransferase PagP n=1 Tax=Citro...  309     1e-105
+  UniRef90_A0A1A9F9J5 Lipid A palmitoyltransferase PagP n=1 Tax=L...  308     2e-105
+  UniRef90_F5RUA0 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  308     6e-105
+  UniRef90_V5ACA2 Lipid A palmitoyltransferase PagP n=5 Tax=Enter...  305     3e-104
+  UniRef90_B7LLI8 Lipid A palmitoyltransferase PagP n=4 Tax=Esche...  305     5e-104
+  UniRef90_A0A0M3F7U2 Lipid A palmitoyltransferase PagP n=2 Tax=E...  305     5e-104
+  UniRef90_A0A1V0LH88 Lipid A palmitoyltransferase PagP n=8 Tax=E...  303     2e-103
+  UniRef90_A0A2S4X2C6 Lipid A palmitoyltransferase PagP n=6 Tax=E...  303     2e-103
+  UniRef90_A0A2J7P679 Lipid A palmitoyltransferase PagP n=5 Tax=E...  303     3e-103
+  UniRef90_A0A0M7D4X9 Lipid A palmitoyltransferase PagP n=105 Tax...  303     4e-103
+  UniRef90_A4W809 Lipid A palmitoyltransferase PagP n=7 Tax=Bacte...  302     7e-103
+  UniRef90_Q8ZR06 Lipid A palmitoyltransferase PagP n=223 Tax=Sal...  302     7e-103
+  UniRef90_A0A145TD87 Lipid A palmitoyltransferase PagP n=10 Tax=...  303     8e-103
+  UniRef90_A0A328I1X8 Lipid A palmitoyltransferase PagP n=56 Tax=...  302     8e-103
+  UniRef90_A0A1I6DAX1 Lipid A palmitoyltransferase PagP n=2 Tax=E...  300     2e-102
+  UniRef90_A0A2S5C883 Lipid A palmitoyltransferase PagP n=2 Tax=L...  300     4e-102
+  UniRef90_UPI00057C0798 phospholipid:lipid A palmitoyltransferas...  300     4e-102
+  UniRef90_UPI0007A7568E phospholipid:lipid A palmitoyltransferas...  299     1e-101
+  UniRef90_A0A1N6TAY0 Lipid A palmitoyltransferase PagP n=1 Tax=E...  298     2e-101
+  UniRef90_A0A0A1RIX9 Lipid A palmitoyltransferase PagP n=1 Tax=C...  297     4e-101
+  UniRef90_A0A127L1X7 Lipid A palmitoyltransferase PagP n=2 Tax=E...  296     8e-101
+  UniRef90_L0M5E7 Lipid A palmitoyltransferase PagP n=4 Tax=Enter...  295     7e-100
+  UniRef90_A0A2P8VQT3 Lipid A palmitoyltransferase PagP n=2 Tax=E...  293     1e-99 
+  UniRef90_A0A3N2DRW8 Palmitoyl transferase n=2 Tax=Raoultella te...  294     1e-99 
+  UniRef90_A0A377TCD9 Lipid A palmitoyltransferase PagP n=11 Tax=...  293     3e-99 
+  UniRef90_A0A370WG98 Lipid A palmitoyltransferase PagP n=3 Tax=E...  293     4e-99 
+  UniRef90_E3G4M5 Lipid A palmitoyltransferase PagP n=3 Tax=Plura...  292     4e-99 
+  UniRef90_A0A157TEU9 Lipid A palmitoyltransferase PagP n=12 Tax=...  293     5e-99 
+  UniRef90_A0A318VVZ9 Lipid A palmitoyltransferase PagP n=3 Tax=E...  291     6e-99 
+  UniRef90_A6T684 Lipid A palmitoyltransferase PagP n=113 Tax=Ent...  292     7e-99 
+  UniRef90_A9MKE9 Lipid A palmitoyltransferase PagP n=16 Tax=Salm...  291     2e-98 
+  UniRef90_G9Z4J5 Lipid A palmitoyltransferase PagP n=2 Tax=Yoken...  291     2e-98 
+  UniRef90_UPI00073D80E2 phospholipid:lipid A palmitoyltransferas...  290     2e-98 
+  UniRef90_A0A0G3SCI7 Lipid A palmitoyltransferase PagP n=30 Tax=...  291     2e-98 
+  UniRef90_A0A0L0GLU3 Lipid A palmitoyltransferase PagP n=4 Tax=T...  290     3e-98 
+  UniRef90_A0A0C7KKP4 Lipid A palmitoyltransferase PagP n=18 Tax=...  289     4e-98 
+  UniRef90_UPI0004E2678D phospholipid:lipid A palmitoyltransferas...  288     1e-97 
+  UniRef90_A0A2T2Y6X9 Lipid A palmitoyltransferase PagP n=1 Tax=K...  289     1e-97 
+  UniRef90_A0A3A5JRZ3 Lipid A palmitoyltransferase PagP n=1 Tax=B...  287     3e-97 
+  UniRef90_A0A1B7JGG2 Lipid A palmitoyltransferase PagP n=2 Tax=K...  287     5e-97 
+  UniRef90_A0A2X3DQ33 Lipid A palmitoyltransferase PagP n=6 Tax=K...  287     6e-97 
+  UniRef90_UPI000EB1CF1E phospholipid:lipid A palmitoyltransferas...  287     7e-97 
+  UniRef90_A0A0D5WSF6 Lipid A palmitoyltransferase PagP n=3 Tax=E...  286     9e-97 
+  UniRef90_UPI000474E5C8 phospholipid:lipid A palmitoyltransferas...  286     1e-96 
+  UniRef90_UPI0009ABD32C lipid IV(A) palmitoyltransferase PagP n=...  285     2e-96 
+  UniRef90_A0A071LUL6 Lipid A palmitoyltransferase PagP n=3 Tax=M...  285     3e-96 
+  UniRef90_A0A378GKA0 Lipid A palmitoyltransferase PagP n=2 Tax=K...  284     5e-96 
+  UniRef90_A0A085GG40 Lipid A palmitoyltransferase PagP n=4 Tax=B...  285     6e-96 
+  UniRef90_C9XYQ1 Lipid A palmitoyltransferase PagP n=29 Tax=Cron...  285     6e-96 
+  UniRef90_UPI00092D0E9E phospholipid:lipid A palmitoyltransferas...  284     7e-96 
+  UniRef90_S3IZM2 Lipid A palmitoyltransferase PagP n=6 Tax=Enter...  283     2e-95 
+  UniRef90_A0A1B7I8D1 Lipid A palmitoyltransferase PagP n=2 Tax=B...  283     4e-95 
+  UniRef90_A0A2P5GR01 Lipid A palmitoyltransferase PagP n=2 Tax=E...  282     5e-95 
+  UniRef90_U2MN31 Lipid A palmitoyltransferase PagP n=2 Tax=Panto...  284     1e-94 
+  UniRef90_A0A0J8YF61 Lipid A palmitoyltransferase PagP n=3 Tax=F...  280     2e-94 
+  UniRef90_A0A1B7HZJ7 Lipid A palmitoyltransferase PagP n=5 Tax=B...  280     3e-94 
+  UniRef90_A0A1B7IVR1 Lipid A palmitoyltransferase PagP n=2 Tax=B...  280     4e-94 
+  UniRef90_UPI000574734A lipid IV(A) palmitoyltransferase PagP n=...  278     9e-94 
+  UniRef90_A0A1S2B7L0 Lipid A palmitoyltransferase PagP n=7 Tax=P...  279     1e-93 
+  UniRef90_E6WAU8 Lipid A palmitoyltransferase PagP n=1 Tax=Panto...  278     1e-93 
+  UniRef90_UPI00098C543F phospholipid:lipid A palmitoyltransferas...  276     3e-93 
+  UniRef90_I2BBA8 Lipid A palmitoyltransferase PagP n=1 Tax=Shimw...  278     3e-93 
+  UniRef90_A0A351LSM3 Lipid A palmitoyltransferase PagP n=3 Tax=F...  275     3e-92 
+  UniRef90_A0A1X1DA63 Lipid A palmitoyltransferase PagP n=1 Tax=P...  275     3e-92 
+  UniRef90_A0A0Q3ABS3 Lipid A palmitoyltransferase PagP n=3 Tax=E...  275     4e-92 
+  UniRef90_UPI000F688542 lipid IV(A) palmitoyltransferase PagP n=...  274     1e-91 
+  UniRef90_A0A1X1ERZ7 Lipid A palmitoyltransferase PagP n=1 Tax=P...  273     3e-91 
+  UniRef90_A0A2X7FPP5 Lipid A palmitoyltransferase PagP n=4 Tax=B...  270     3e-91 
+  UniRef90_U3TU85 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  271     8e-91 
+  UniRef90_A0A0B1R5J1 Lipid A palmitoyltransferase PagP n=3 Tax=E...  271     1e-90 
+  UniRef90_UPI00069372D6 phospholipid:lipid A palmitoyltransferas...  270     1e-90 
+  UniRef90_D0ZCI3 Lipid A palmitoyltransferase PagP n=8 Tax=Edwar...  271     1e-90 
+  UniRef90_D4F8S0 Lipid A palmitoyltransferase PagP n=7 Tax=Edwar...  270     3e-90 
+  UniRef90_A0A0D1MNE5 Lipid A palmitoyltransferase PagP n=4 Tax=E...  269     6e-90 
+  UniRef90_A0A2I0FRN7 Lipid A palmitoyltransferase PagP n=1 Tax=E...  269     8e-90 
+  UniRef90_UPI0009F95BB5 phospholipid:lipid A palmitoyltransferas...  268     1e-89 
+  UniRef90_A0A0L7T206 Lipid A palmitoyltransferase PagP n=2 Tax=E...  266     9e-89 
+  UniRef90_UPI000CFA8E57 phospholipid:lipid A palmitoyltransferas...  266     9e-89 
+  UniRef90_UPI000B42A727 phospholipid:lipid A palmitoyltransferas...  266     1e-88 
+  UniRef90_A0A2S9IIF4 Lipid A palmitoyltransferase PagP n=2 Tax=E...  265     3e-88 
+  UniRef90_J3D728 Lipid A palmitoyltransferase PagP n=8 Tax=Enter...  265     3e-88 
+  UniRef90_A0A0F3LY91 Lipid A palmitoyltransferase PagP n=10 Tax=...  265     4e-88 
+  UniRef90_A0A078LMT6 Lipid A palmitoyltransferase PagP n=2 Tax=E...  263     8e-88 
+  UniRef90_A0A1V9DIG1 Lipid A palmitoyltransferase PagP n=1 Tax=P...  263     1e-87 
+  UniRef90_A0A0J8YI89 Lipid A palmitoyltransferase PagP n=2 Tax=u...  263     3e-87 
+  UniRef90_A0A0A3ZXU6 Lipid A palmitoyltransferase PagP n=2 Tax=E...  261     5e-87 
+  UniRef90_A0A2S5KBV9 Lipid A palmitoyltransferase PagP n=5 Tax=P...  261     1e-86 
+  UniRef90_A0A2V2BHN4 Lipid A palmitoyltransferase PagP n=3 Tax=P...  259     3e-86 
+  UniRef90_A0A3M9VWS0 Phospholipid:lipid A palmitoyltransferase n...  259     4e-86 
+  UniRef90_A0A3D0EQ38 Lipid A palmitoyltransferase PagP n=2 Tax=E...  259     5e-86 
+  UniRef90_A0A0A2VTP0 Cation efflux system protein CusA n=1 Tax=B...  285     7e-86 
+  UniRef90_A0A0Q4MPU7 Lipid A palmitoyltransferase PagP n=1 Tax=E...  258     1e-85 
+  UniRef90_A0A378AJ13 Lipid A palmitoyltransferase PagP n=1 Tax=K...  258     1e-85 
+  UniRef90_UPI0006870EC4 phospholipid:lipid A palmitoyltransferas...  258     1e-85 
+  UniRef90_A0A3A9JFB8 Lipid A palmitoyltransferase PagP n=3 Tax=E...  258     1e-85 
+  UniRef90_D8MPK6 Lipid A palmitoyltransferase PagP n=2 Tax=Erwin...  258     1e-85 
+  UniRef90_H3RAI9 Lipid A palmitoyltransferase PagP n=6 Tax=Panto...  257     3e-85 
+  UniRef90_B2VBK5 Lipid A palmitoyltransferase PagP n=1 Tax=Erwin...  257     3e-85 
+  UniRef90_UPI00093FFCB3 phospholipid:lipid A palmitoyltransferas...  255     6e-85 
+  UniRef90_A0A2J9E6K3 Lipid A palmitoyltransferase PagP n=5 Tax=P...  257     9e-85 
+  UniRef90_A0A2G8E4P9 Lipid A palmitoyltransferase PagP n=2 Tax=E...  255     2e-84 
+  UniRef90_A0A095TEJ3 Lipid A palmitoyltransferase PagP n=2 Tax=T...  255     2e-84 
+  UniRef90_V5Z6H2 Lipid A palmitoyltransferase PagP n=2 Tax=Erwin...  254     4e-84 
+  UniRef90_A0A2X5PB27 Lipid A palmitoyltransferase PagP n=4 Tax=T...  254     7e-84 
+  UniRef90_A0A014N2G2 Lipid A palmitoyltransferase PagP n=1 Tax=E...  253     9e-84 
+  UniRef90_A0A3N4P672 Phospholipid:lipid A palmitoyltransferase n...  253     1e-83 
+  UniRef90_UPI0002C98C27 phospholipid:lipid A palmitoyltransferas...  251     2e-83 
+  UniRef90_A0A378DD60 Lipid A palmitoyltransferase PagP n=6 Tax=K...  250     4e-83 
+  UniRef90_A0A3N6SFW2 Phospholipid:lipid A palmitoyltransferase n...  251     8e-83 
+  UniRef90_D4HYT3 Lipid A palmitoyltransferase PagP n=4 Tax=Erwin...  251     1e-82 
+  UniRef90_F2EP14 Lipid A palmitoyltransferase PagP n=14 Tax=Erwi...  249     5e-82 
+  UniRef90_A0A0Q4P2D9 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  248     2e-81 
+  UniRef90_UPI000FE2CC8C phospholipid:lipid A palmitoyltransferas...  248     2e-81 
+  UniRef90_A0A1S8YIS9 Lipid A palmitoyltransferase PagP n=1 Tax=I...  246     9e-81 
+  UniRef90_A0A0F5F413 Lipid A palmitoyltransferase PagP n=7 Tax=E...  246     2e-80 
+  UniRef90_A0A1X3S4H6 Lipid A palmitoyltransferase PagP n=2 Tax=L...  246     2e-80 
+  UniRef90_UPI000736C225 lipid IV(A) palmitoyltransferase PagP n=...  242     6e-80 
+  UniRef90_UPI000DD4E3D4 phospholipid:lipid A palmitoyltransferas...  244     7e-80 
+  UniRef90_A0A1H4CU10 Lipid A palmitoyltransferase PagP n=4 Tax=L...  244     7e-80 
+  UniRef90_UPI0004A36886 phospholipid:lipid A palmitoyltransferas...  243     2e-79 
+  UniRef90_A0A0M2KLR1 Lipid A palmitoyltransferase PagP n=3 Tax=E...  243     2e-79 
+  UniRef90_A0A366NEA0 Lipid A palmitoyltransferase PagP n=3 Tax=R...  243     2e-79 
+  UniRef90_A0A0F5Y020 Lipid A palmitoyltransferase PagP n=2 Tax=P...  242     3e-79 
+  UniRef90_H2J055 Lipid A palmitoyltransferase PagP n=3 Tax=Enter...  243     3e-79 
+  UniRef90_A0A330JD52 Lipid A palmitoyltransferase PagP n=2 Tax=P...  243     4e-79 
+  UniRef90_D6YQZ2 Lipid A palmitoyltransferase PagP n=34 Tax=Pant...  242     4e-79 
+  UniRef90_UPI000E72A334 phospholipid:lipid A palmitoyltransferas...  242     5e-79 
+  UniRef90_A0A2P5IQZ3 Lipid A palmitoyltransferase PagP n=1 Tax=P...  241     5e-79 
+  UniRef90_UPI000F66F420 lipid IV(A) palmitoyltransferase PagP n=...  241     8e-79 
+  UniRef90_A0A2V1YJP2 Lipid A palmitoyltransferase PagP n=2 Tax=P...  241     1e-78 
+  UniRef90_UPI000B8D0308 phospholipid:lipid A palmitoyltransferas...  239     2e-78 
+  UniRef90_UPI0004686359 phospholipid:lipid A palmitoyltransferas...  240     2e-78 
+  UniRef90_A0A2L1UWV9 Lipid A palmitoyltransferase PagP n=2 Tax=R...  240     4e-78 
+  UniRef90_Q6DAS8 Lipid A palmitoyltransferase PagP n=40 Tax=Pect...  239     9e-78 
+  UniRef90_G7LU05 Lipid A palmitoyltransferase PagP n=3 Tax=Brenn...  239     1e-77 
+  UniRef90_H8NW96 Lipid A palmitoyltransferase PagP n=3 Tax=Rahne...  239     1e-77 
+  UniRef90_A0A0G4JUH0 Lipid A palmitoyltransferase PagP n=1 Tax=B...  238     4e-77 
+  UniRef90_D0KD36 Lipid A palmitoyltransferase PagP n=4 Tax=Pecto...  238     4e-77 
+  UniRef90_D2C1B0 Lipid A palmitoyltransferase PagP n=11 Tax=Ente...  238     5e-77 
+  UniRef90_UPI0004B88280 phospholipid:lipid A palmitoyltransferas...  236     7e-77 
+  UniRef90_UPI0005D43B00 phospholipid:lipid A palmitoyltransferas...  236     8e-77 
+  UniRef90_UPI0009E442AF phospholipid:lipid A palmitoyltransferas...  237     8e-77 
+  UniRef90_A0A2R3GXQ7 Lipid A palmitoyltransferase PagP n=2 Tax=S...  236     1e-76 
+  UniRef90_C6CNE4 Lipid A palmitoyltransferase PagP n=4 Tax=Dicke...  236     1e-76 
+  UniRef90_A0A126VNG4 Lipid A palmitoyltransferase PagP n=40 Tax=...  236     1e-76 
+  UniRef90_A0A085G7F7 Lipid A palmitoyltransferase PagP n=3 Tax=E...  235     3e-76 
+  UniRef90_I0QT02 Lipid A palmitoyltransferase PagP n=1 Tax=Serra...  235     3e-76 
+  UniRef90_A0A2U1TSR0 Lipid A palmitoyltransferase PagP n=2 Tax=B...  235     5e-76 
+  UniRef90_D2T3S6 Lipid A palmitoyltransferase PagP n=3 Tax=Erwin...  232     3e-75 
+  UniRef90_A0A366I128 Lipid A palmitoyltransferase PagP n=1 Tax=B...  233     4e-75 
+  UniRef90_A8GAF7 Lipid A palmitoyltransferase PagP n=15 Tax=Serr...  232     5e-75 
+  UniRef90_Q2NSM3 Lipid A palmitoyltransferase PagP n=5 Tax=Sodal...  231     7e-75 
+  UniRef90_D4DWI4 Lipid A palmitoyltransferase PagP n=2 Tax=Serra...  232     9e-75 
+  UniRef90_A0A0Q4MHA3 Lipid A palmitoyltransferase PagP n=3 Tax=E...  230     1e-74 
+  UniRef90_UPI000EF1D851 phospholipid:lipid A palmitoyltransferas...  231     2e-74 
+  UniRef90_A0A2X4U1T8 Lipid A palmitoyltransferase PagP n=3 Tax=Y...  230     2e-74 
+  UniRef90_A0A250AYL4 Lipid A palmitoyltransferase PagP n=2 Tax=G...  230     2e-74 
+  UniRef90_A0A376JDC8 Lipid A palmitoyltransferase PagP n=3 Tax=E...  226     9e-74 
+  UniRef90_A0A0U3SB19 Lipid A palmitoyltransferase PagP n=10 Tax=...  228     1e-73 
+  UniRef90_E6WKS7 Lipid A palmitoyltransferase PagP n=1 Tax=Panto...  226     4e-73 
+  UniRef90_W0LGI7 Lipid A palmitoyltransferase PagP n=1 Tax=Chani...  225     2e-72 
+  UniRef90_A0A084A5M3 Lipid A palmitoyltransferase PagP n=2 Tax=S...  224     4e-72 
+  UniRef90_E0SLJ5 Lipid A palmitoyltransferase PagP n=22 Tax=Dick...  224     8e-72 
+  UniRef90_C6C6T1 Lipid A palmitoyltransferase PagP n=1 Tax=Dicke...  223     1e-71 
+  UniRef90_A0A0A3YQ61 Lipid A palmitoyltransferase PagP n=2 Tax=E...  221     3e-71 
+  UniRef90_A0A1S8CP98 Lipid A palmitoyltransferase PagP n=1 Tax=S...  222     3e-71 
+  UniRef90_A0A068RBB6 Lipid A palmitoyltransferase PagP n=3 Tax=S...  222     3e-71 
+  UniRef90_A0A1X0WJM1 Lipid A palmitoyltransferase PagP n=2 Tax=G...  221     4e-71 
+  UniRef90_A0A087L027 Lipid A palmitoyltransferase PagP n=1 Tax=S...  221     8e-71 
+  UniRef90_A0A1X1EG35 Lipid A palmitoyltransferase PagP n=1 Tax=P...  218     6e-70 
+  UniRef90_D8MU02 Lipid A palmitoyltransferase PagP n=1 Tax=Erwin...  218     1e-69 
+  UniRef90_A0A0Q4NXW2 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  218     2e-69 
+  UniRef90_G5PZL7 Lipid A palmitoyltransferase PagP n=1 Tax=Salmo...  217     2e-69 
+  UniRef90_D6YRF7 Lipid A palmitoyltransferase PagP n=20 Tax=Erwi...  217     2e-69 
+  UniRef90_A0A3N1J3N3 Palmitoyl transferase n=2 Tax=Enterobacter ...  216     5e-69 
+  UniRef90_UPI000DEEB755 phospholipid:lipid A palmitoyltransferas...  216     6e-69 
+  UniRef90_A0A0F5XWJ5 Lipid A palmitoyltransferase PagP n=3 Tax=E...  215     1e-68 
+  UniRef90_A0A0F3M061 Lipid A palmitoyltransferase PagP n=7 Tax=E...  215     1e-68 
+  UniRef90_UPI000FDE5044 UPI000FDE5044 related cluster n=1 Tax=un...  215     1e-68 
+  UniRef90_UPI00076B734E phospholipid:lipid A palmitoyltransferas...  214     5e-68 
+  UniRef90_J2UM65 Lipid A palmitoyltransferase PagP n=8 Tax=Enter...  213     6e-68 
+  UniRef90_UPI0001BDD4D5 phospholipid:lipid A palmitoyltransferas...  214     6e-68 
+  UniRef90_A0A2S5C5Y2 Lipid A palmitoyltransferase PagP n=3 Tax=L...  213     1e-67 
+  UniRef90_UPI000D74205E phospholipid:lipid A palmitoyltransferas...  213     1e-67 
+  UniRef90_UPI000DD399C5 phospholipid:lipid A palmitoyltransferas...  213     1e-67 
+  UniRef90_A0A0B1RAS0 Lipid A palmitoyltransferase PagP n=3 Tax=E...  212     2e-67 
+  UniRef90_UPI000D749412 phospholipid:lipid A palmitoyltransferas...  211     6e-67 
+  UniRef90_A0A378DIJ2 Lipid A palmitoyltransferase PagP n=1 Tax=K...  209     8e-67 
+  UniRef90_A0A1V9DHD3 Lipid A palmitoyltransferase PagP n=1 Tax=P...  211     9e-67 
+  UniRef90_H8NW97 Lipid A palmitoyltransferase PagP n=3 Tax=Yersi...  211     1e-66 
+  UniRef90_A0A366ND60 Lipid A palmitoyltransferase PagP n=2 Tax=R...  211     1e-66 
+  UniRef90_UPI000CC8D39B hypothetical protein n=1 Tax=Escherichia...  206     5e-66 
+  UniRef90_A0A2U3TIJ6 Lipid A palmitoyltransferase PagP n=3 Tax=E...  209     6e-66 
+  UniRef90_A4WC09 Lipid A palmitoyltransferase PagP n=2 Tax=Enter...  208     8e-66 
+  UniRef90_R8ARF2 Lipid A palmitoyltransferase PagP n=7 Tax=Plesi...  207     1e-65 
+  UniRef90_UPI0007881DB9 phospholipid:lipid A palmitoyltransferas...  207     2e-65 
+  UniRef90_UPI0006489F75 phospholipid:lipid A palmitoyltransferas...  207     2e-65 
+  UniRef90_A0A2X2EKY8 Lipid A palmitoyltransferase PagP n=17 Tax=...  207     3e-65 
+  UniRef90_A0A2X2T3X6 Lipid A palmitoyltransferase PagP n=1 Tax=C...  206     3e-65 
+  UniRef90_A0A2I8WBG3 Lipid A palmitoyltransferase PagP n=43 Tax=...  206     4e-65 
+  UniRef90_A0A336ITC0 Lipid A palmitoyltransferase PagP n=1 Tax=K...  206     5e-65 
+  UniRef90_J7SL31 Lipid A palmitoyltransferase PagP n=19 Tax=Bact...  206     1e-64 
+  UniRef90_D6DRS2 Lipid A palmitoyltransferase PagP n=120 Tax=Bac...  205     1e-64 
+  UniRef90_UPI000EA3382E phospholipid:lipid A palmitoyltransferas...  206     1e-64 
+  UniRef90_UPI000E738969 phospholipid:lipid A palmitoyltransferas...  206     1e-64 
+  UniRef90_A0A2R7PKV8 Lipid A palmitoyltransferase PagP n=2 Tax=A...  204     3e-64 
+  UniRef90_V3PPL8 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  204     6e-64 
+  UniRef90_A0A0J2F2S1 Lipid A palmitoyltransferase PagP n=6 Tax=E...  201     7e-64 
+  UniRef90_A0A0F7D380 Lipid A palmitoyltransferase PagP n=10 Tax=...  202     1e-63 
+  UniRef90_W1FWG1 Lipid A palmitoyltransferase PagP n=1 Tax=Esche...  198     1e-62 
+  UniRef90_A0A356D5E1 Lipid A palmitoyltransferase PagP n=1 Tax=P...  197     1e-61 
+  UniRef90_A0A0L7T625 Lipid A palmitoyltransferase PagP n=1 Tax=E...  197     1e-61 
+  UniRef90_G9YAH0 Lipid A palmitoyltransferase PagP n=4 Tax=Enter...  197     2e-61 
+  UniRef90_A0A1B8HIK0 Lipid A palmitoyltransferase PagP n=5 Tax=M...  196     5e-61 
+  UniRef90_A0A1B7K3Z9 Lipid A palmitoyltransferase PagP n=2 Tax=P...  196     7e-61 
+  UniRef90_A0A097R2T4 Lipid A palmitoyltransferase PagP n=11 Tax=...  195     2e-60 
+  UniRef90_A0A0M7E4Y3 Lipid A palmitoyltransferase PagP n=16 Tax=...  195     2e-60 
+  UniRef90_A0A2T3XG77 Lipid A palmitoyltransferase PagP n=11 Tax=...  194     3e-60 
+  UniRef90_A0A3N2EWB9 Palmitoyl transferase n=1 Tax=Raoultella sp...  196     3e-60 
+  UniRef90_A0A1I0CSL9 Lipid A palmitoyltransferase PagP n=2 Tax=T...  194     4e-60 
+  UniRef90_K8X522 Lipid A palmitoyltransferase PagP n=1 Tax=Provi...  192     1e-59 
+  UniRef90_C0ARC7 Lipid A palmitoyltransferase PagP n=18 Tax=Ente...  192     2e-59 
+  UniRef90_A0A376V402 Lipid A palmitoyltransferase PagP n=11 Tax=...  188     3e-59 
+  UniRef90_A0A1S1HPP9 Lipid A palmitoyltransferase PagP n=1 Tax=P...  191     4e-59 
+  UniRef90_UPI000D68C454 phospholipid:lipid A palmitoyltransferas...  191     7e-59 
+  UniRef90_C7BTJ1 Lipid A palmitoyltransferase PagP n=5 Tax=Photo...  191     8e-59 
+  UniRef90_A0A2D0JUM7 Lipid A palmitoyltransferase PagP n=2 Tax=X...  191     8e-59 
+  UniRef90_A0A345LSY1 Lipid A palmitoyltransferase PagP n=9 Tax=P...  191     8e-59 
+  UniRef90_Q7N3D3 Lipid A palmitoyltransferase PagP n=18 Tax=Phot...  191     1e-58 
+  UniRef90_A0A143I3P9 Lipid A palmitoyltransferase PagP n=3 Tax=E...  190     2e-58 
+  UniRef90_B4EYA9 Lipid A palmitoyltransferase PagP n=18 Tax=Ente...  190     2e-58 
+  UniRef90_UPI0008F950D9 phospholipid:lipid A palmitoyltransferas...  187     5e-58 
+  UniRef90_A0A085HNW3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  188     7e-58 
+  UniRef90_K8WJJ2 Lipid A palmitoyltransferase PagP n=1 Tax=Provi...  188     7e-58 
+  UniRef90_A0A0N0IAD1 Lipid A palmitoyltransferase PagP n=2 Tax=M...  188     8e-58 
+  UniRef90_A0A1J0E8K8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  188     8e-58 
+  UniRef90_A0A0F7LNE0 Lipid A palmitoyltransferase PagP n=1 Tax=P...  188     1e-57 
+  UniRef90_UPI000A074268 phospholipid:lipid A palmitoyltransferas...  187     2e-57 
+  UniRef90_A0A376X355 Lipid A palmitoyltransferase PagP n=1 Tax=E...  184     3e-57 
+  UniRef90_A0A0G3CSF2 Lipid A palmitoyltransferase PagP n=1 Tax=P...  186     3e-57 
+  UniRef90_A0A1B7JER5 Lipid A palmitoyltransferase PagP n=2 Tax=P...  186     7e-57 
+  UniRef90_B6XF49 Lipid A palmitoyltransferase PagP n=7 Tax=Provi...  186     7e-57 
+  UniRef90_A0A2X4UW14 Lipid A palmitoyltransferase PagP n=1 Tax=L...  185     1e-56 
+  UniRef90_A0A2C6C904 Lipid A palmitoyltransferase PagP n=2 Tax=B...  184     3e-56 
+  UniRef90_UPI00056AF694 phospholipid:lipid A palmitoyltransferas...  183     3e-56 
+  UniRef90_A0A212JZ21 Lipid A palmitoyltransferase PagP n=1 Tax=u...  182     1e-55 
+  UniRef90_A0A0T9LHG8 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  182     3e-55 
+  UniRef90_A0A198GJK0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  182     3e-55 
+  UniRef90_A0A2G0Q5W6 Lipid A palmitoyltransferase PagP n=2 Tax=X...  181     8e-55 
+  UniRef90_W3V5M0 Lipid A palmitoyltransferase PagP n=4 Tax=Photo...  181     1e-54 
+  UniRef90_A0A354DPE8 Lipid A palmitoyltransferase PagP (Fragment...  176     2e-54 
+  UniRef90_A0A358L357 Lipid A palmitoyltransferase PagP (Fragment...  175     8e-54 
+  UniRef90_A0A2A3KP86 Lipid A palmitoyltransferase PagP n=3 Tax=E...  177     9e-54 
+  UniRef90_UPI000806B286 phospholipid:lipid A palmitoyltransferas...  175     1e-53 
+  UniRef90_A0A0J6KMF2 Lipid A palmitoyltransferase PagP n=1 Tax=C...  176     3e-53 
+  UniRef90_A0A0J6NN41 Lipid A palmitoyltransferase PagP n=8 Tax=C...  176     4e-53 
+  UniRef90_A0A0U1HMB5 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  176     1e-52 
+  UniRef90_A0A2J9S8T4 Lipid A palmitoyltransferase PagP n=1 Tax=Y...  175     2e-52 
+  UniRef90_A0A370R494 Lipid A palmitoyltransferase PagP n=2 Tax=E...  174     2e-52 
+  UniRef90_A0A2R4NPA4 Lipid A palmitoyltransferase PagP n=4 Tax=Y...  174     2e-52 
+  UniRef90_C1D6F2 Lipid A palmitoyltransferase PagP n=2 Tax=Larib...  174     3e-52 
+  UniRef90_A0A3P8L0U7 Lipid A palmitoyltransferase PagP n=1 Tax=R...  170     8e-52 
+  UniRef90_A0A378CCV9 Lipid A palmitoyltransferase PagP n=1 Tax=K...  169     1e-51 
+  UniRef90_B2PYM9 Lipid A palmitoyltransferase PagP n=7 Tax=Gamma...  172     1e-51 
+  UniRef90_A0A0T9MNY0 Lipid A palmitoyltransferase PagP n=9 Tax=Y...  172     2e-51 
+  UniRef90_UPI0005097FF9 phospholipid:lipid A palmitoyltransferas...  172     3e-51 
+  UniRef90_D7DPY2 Lipid A palmitoyltransferase PagP n=2 Tax=Methy...  171     3e-51 
+  UniRef90_A0A2Y9U1U0 Lipid A palmitoyltransferase PagP n=1 Tax=L...  171     3e-51 
+  UniRef90_A0A1J5TN15 Lipid A palmitoyltransferase PagP n=1 Tax=m...  170     6e-51 
+  UniRef90_UPI0009AD0B82 lipid IV(A) palmitoyltransferase PagP n=...  166     9e-51 
+  UniRef90_A0A0T9Q5V7 Lipid A palmitoyltransferase PagP n=1 Tax=Y...  170     1e-50 
+  UniRef90_A0A3D5D1N7 Lipid A palmitoyltransferase PagP n=3 Tax=M...  167     9e-50 
+  UniRef90_D2TYX7 Lipid A palmitoyltransferase PagP n=2 Tax=Arsen...  167     2e-49 
+  UniRef90_A0A2S5L1U6 Lipid A palmitoyltransferase PagP n=1 Tax=M...  163     3e-48 
+  UniRef90_UPI0009835227 phospholipid:lipid A palmitoyltransferas...  159     4e-48 
+  UniRef90_A0A0A7RYL0 Lipid A palmitoyltransferase PagP n=2 Tax=F...  162     7e-48 
+  UniRef90_A0A376V4N5 Lipid A palmitoyltransferase PagP n=4 Tax=E...  158     1e-47 
+  UniRef90_R5QMD5 Lipid A palmitoyltransferase PagP n=1 Tax=Prote...  161     2e-47 
+  UniRef90_UPI0009FDAD0B lipid IV(A) palmitoyltransferase PagP n=...  162     3e-47 
+  UniRef90_UPI0005695C05 phospholipid:lipid A palmitoyltransferas...  160     3e-47 
+  UniRef90_B2K0E2 Lipid A palmitoyltransferase PagP n=44 Tax=Yers...  160     9e-47 
+  UniRef90_A0A1G1B0M7 Lipid A palmitoyltransferase PagP n=1 Tax=M...  159     1e-46 
+  UniRef90_UPI00064624DF lipid IV(A) palmitoyltransferase PagP n=...  159     1e-46 
+  UniRef90_UPI000465B399 phospholipid:lipid A palmitoyltransferas...  159     1e-46 
+  UniRef90_A0A085U648 Lipid A palmitoyltransferase PagP n=3 Tax=Y...  160     3e-46 
+  UniRef90_UPI000EAC2891 phospholipid:lipid A palmitoyltransferas...  158     6e-46 
+  UniRef90_A1JM47 Lipid A palmitoyltransferase PagP n=13 Tax=Yers...  158     6e-46 
+  UniRef90_A0A2S5M1J9 Lipid A palmitoyltransferase PagP n=4 Tax=M...  157     1e-45 
+  UniRef90_A0A0T9T8P6 Lipid A palmitoyltransferase PagP n=6 Tax=Y...  157     2e-45 
+  UniRef90_A0A209A3F1 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  156     3e-45 
+  UniRef90_UPI000CF79243 hypothetical protein n=1 Tax=Escherichia...  152     4e-45 
+  UniRef90_C6WX64 Lipid A palmitoyltransferase PagP n=1 Tax=Methy...  155     7e-45 
+  UniRef90_UPI000566EAA4 phospholipid:lipid A palmitoyltransferas...  155     8e-45 
+  UniRef90_A0A0T9NWA5 Lipid A palmitoyltransferase PagP n=3 Tax=Y...  155     9e-45 
+  UniRef90_A0A0B6FP39 Lipid A palmitoyltransferase PagP n=6 Tax=Y...  155     1e-44 
+  UniRef90_A0A0T9UF18 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  153     5e-44 
+  UniRef90_A0A2U8I5D9 Lipid A palmitoyltransferase PagP n=1 Tax=C...  152     1e-43 
+  UniRef90_UPI0009FB9C81 lipid IV(A) palmitoyltransferase PagP n=...  154     3e-43 
+  UniRef90_A0A3P8KBL4 Lipid A palmitoyltransferase PagP n=1 Tax=R...  147     1e-42 
+  UniRef90_A0A3D5BCM0 Lipid A palmitoyltransferase PagP n=1 Tax=A...  149     2e-42 
+  UniRef90_C4SEV4 Lipid A palmitoyltransferase PagP n=5 Tax=Yersi...  149     2e-42 
+  UniRef90_A0A376F277 Lipid A palmitoyltransferase PagP n=1 Tax=E...  146     4e-42 
+  UniRef90_G2GX85 Lipid A palmitoyltransferase PagP (Fragment) n=...  147     4e-42 
+  UniRef90_E0WSH7 Lipid A palmitoyltransferase PagP n=1 Tax=Candi...  147     6e-42 
+  UniRef90_A0A0T7NZH5 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  147     1e-41 
+  UniRef90_D4X7L5 Lipid A palmitoyltransferase PagP n=9 Tax=Achro...  145     4e-41 
+  UniRef90_A0A3C2BND4 Lipid A palmitoyltransferase PagP (Fragment...  140     1e-40 
+  UniRef90_E3HGF7 Lipid A palmitoyltransferase PagP n=12 Tax=Achr...  143     2e-40 
+  UniRef90_A0A2N2UZ48 Lipid A palmitoyltransferase PagP n=1 Tax=B...  141     3e-39 
+  UniRef90_A0A2I8DFF9 Lipid A palmitoyltransferase PagP n=1 Tax=A...  140     3e-39 
+  UniRef90_I6H831 Lipid A palmitoyltransferase PagP n=1 Tax=Shige...  138     5e-39 
+  UniRef90_J4J6N5 Lipid A palmitoyltransferase PagP n=3 Tax=Achro...  139     2e-38 
+  UniRef90_A0A0D6G0D0 Lipid A palmitoyltransferase PagP n=15 Tax=...  138     2e-38 
+  UniRef90_A0A1Q6U8J5 Lipid A palmitoyltransferase PagP n=1 Tax=A...  137     3e-38 
+  UniRef90_G2J1C6 Lipid A palmitoyltransferase PagP n=3 Tax=Pseud...  137     5e-38 
+  UniRef90_A0A2R5F7Y7 Lipid A palmitoyltransferase PagP n=1 Tax=N...  137     6e-38 
+  UniRef90_A0A261VY34 Lipid A palmitoyltransferase PagP n=1 Tax=B...  137     6e-38 
+  UniRef90_C7RSV8 Lipid A palmitoyltransferase PagP n=1 Tax=Accum...  137     1e-37 
+  UniRef90_A0A1T4VM38 Lipid A palmitoyltransferase PagP n=2 Tax=S...  136     1e-37 
+  UniRef90_UPI000A321DBB phospholipid:lipid A palmitoyltransferas...  134     3e-37 
+  UniRef90_Q2KVI8 Lipid A palmitoyltransferase PagP (Fragment) n=...  134     7e-37 
+  UniRef90_A0A1W6YQJ1 Lipid A palmitoyltransferase PagP n=3 Tax=B...  134     7e-37 
+  UniRef90_A0A2X1J9V3 Lipid A palmitoyltransferase PagP n=1 Tax=E...  131     8e-37 
+  UniRef90_A0A2N2S8H5 Lipid A palmitoyltransferase PagP n=1 Tax=B...  134     1e-36 
+  UniRef90_H0F3E9 Lipid A palmitoyltransferase PagP n=8 Tax=Achro...  134     1e-36 
+  UniRef90_R5Y8W6 Lipid A palmitoyltransferase PagP n=2 Tax=Aceto...  134     1e-36 
+  UniRef90_A0A353Y1V7 Lipid A palmitoyltransferase PagP n=1 Tax=C...  133     1e-36 
+  UniRef90_A0A261UR23 Lipid A palmitoyltransferase PagP n=1 Tax=B...  133     2e-36 
+  UniRef90_UPI000F8D9205 lipid IV(A) palmitoyltransferase PagP n=...  133     2e-36 
+  UniRef90_A0A261SUX6 Lipid A palmitoyltransferase PagP n=2 Tax=B...  132     3e-36 
+  UniRef90_A0A1B2R6J3 Lipid A palmitoyltransferase PagP n=1 Tax=B...  132     4e-36 
+  UniRef90_A0A0Q8BVY0 Lipid A palmitoyltransferase PagP n=3 Tax=A...  132     4e-36 
+  UniRef90_Q1H2L0 Lipid A palmitoyltransferase PagP n=1 Tax=Methy...  132     5e-36 
+  UniRef90_A0A261SL55 Lipid A palmitoyltransferase PagP n=1 Tax=B...  132     5e-36 
+  UniRef90_A0A0H4W549 Lipid A palmitoyltransferase PagP n=6 Tax=B...  132     6e-36 
+  UniRef90_A0A261VVU3 Lipid A palmitoyltransferase PagP n=2 Tax=B...  132     7e-36 
+  UniRef90_UPI0006CEA338 lipid IV(A) palmitoyltransferase PagP n=...  131     2e-35 
+  UniRef90_A0A2I6QJA9 Lipid A acylation protein PagP n=1 Tax=uncu...  128     2e-35 
+  UniRef90_A0A261SU81 Lipid A palmitoyltransferase PagP n=1 Tax=B...  131     3e-35 
+  UniRef90_A0A0C5IY11 Lipid A palmitoyltransferase PagP n=1 Tax=R...  131     3e-35 
+  UniRef90_Q7WFT9 Lipid A palmitoyltransferase PagP n=15 Tax=Bact...  130     3e-35 
+  UniRef90_A0A2X7I9I4 Subunit of palmitoyl transferase for Lipid ...  126     4e-35 
+  UniRef90_A0A157S9N1 Lipid A palmitoyltransferase PagP n=8 Tax=c...  129     1e-34 
+  UniRef90_A0A261TCJ4 Lipid A palmitoyltransferase PagP n=1 Tax=B...  129     1e-34 
+  UniRef90_A0A2J0PEC9 Lipid A palmitoyltransferase PagP (Fragment...  126     1e-34 
+  UniRef90_A0A0W0Z4X9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  128     3e-34 
+  UniRef90_A0A259FRD5 Lipid A palmitoyltransferase PagP n=4 Tax=P...  127     5e-34 
+  UniRef90_A0A3N9QJW7 Lipid IV(A) palmitoyltransferase PagP n=1 T...  127     5e-34 
+  UniRef90_UPI000B9E7769 phospholipid:lipid A palmitoyltransferas...  126     1e-33 
+  UniRef90_A0A109E1R4 Lipid A palmitoyltransferase PagP n=2 Tax=B...  126     2e-33 
+  UniRef90_A0A261TBQ9 Lipid A palmitoyltransferase PagP n=1 Tax=B...  125     3e-33 
+  UniRef90_A0A193G538 Lipid A palmitoyltransferase PagP n=2 Tax=B...  124     4e-33 
+  UniRef90_UPI00035FE77F lipid IV(A) palmitoyltransferase PagP n=...  124     7e-33 
+  UniRef90_A0A0L8ENZ4 Lipid A palmitoyltransferase PagP n=1 Tax=A...  124     8e-33 
+  UniRef90_A0A0F3K5F6 Lipid A palmitoyltransferase PagP n=1 Tax=A...  124     1e-32 
+  UniRef90_UPI0006DC12F4 phospholipid:lipid A palmitoyltransferas...  122     1e-32 
+  UniRef90_A0A2R4XKX0 Lipid A palmitoyltransferase PagP n=1 Tax=B...  124     1e-32 
+  UniRef90_A0A3M0STB5 Lipid IV(A) palmitoyltransferase PagP n=3 T...  123     1e-32 
+  UniRef90_A0A1F4BB59 Lipid A palmitoyltransferase PagP n=1 Tax=B...  123     2e-32 
+  UniRef90_A0A1G5E9P8 Lipid A palmitoyltransferase PagP n=3 Tax=L...  123     2e-32 
+  UniRef90_F0EX06 Lipid A palmitoyltransferase PagP n=2 Tax=Kinge...  124     3e-32 
+  UniRef90_A0A098FZ60 Lipid A palmitoyltransferase PagP n=1 Tax=L...  124     3e-32 
+  UniRef90_W0BJ30 Lipid A palmitoyltransferase PagP n=4 Tax=Legio...  122     6e-32 
+  UniRef90_A0A258M2Q5 Lipid A palmitoyltransferase PagP n=5 Tax=B...  122     7e-32 
+  UniRef90_A0A1Q3VP48 Lipid A palmitoyltransferase PagP n=1 Tax=C...  122     8e-32 
+  UniRef90_E9CMS1 Lipid A palmitoyltransferase PagP (Fragment) n=...  119     8e-32 
+  UniRef90_Q93K12 Lipid A palmitoyltransferase PagP n=20 Tax=Legi...  121     1e-31 
+  UniRef90_A0A140J0B4 Lipid A palmitoyltransferase PagP n=4 Tax=L...  121     1e-31 
+  UniRef90_A0A1C3K5K4 Lipid A palmitoyltransferase PagP n=1 Tax=O...  120     2e-31 
+  UniRef90_A0A1G3CV01 Lipid A palmitoyltransferase PagP n=4 Tax=P...  120     2e-31 
+  UniRef90_A0A0W0VHH8 Lipid A palmitoyltransferase PagP n=1 Tax=L...  120     2e-31 
+  UniRef90_A0A1E3LEF6 Lipid A palmitoyltransferase PagP n=2 Tax=P...  120     4e-31 
+  UniRef90_A0A222P6I2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  119     5e-31 
+  UniRef90_UPI0009F71B2D lipid IV(A) palmitoyltransferase PagP n=...  120     1e-30 
+  UniRef90_A0A318JJP3 Lipid A palmitoyltransferase PagP n=1 Tax=A...  118     2e-30 
+  UniRef90_A0A231UBQ7 Lipid A palmitoyltransferase PagP n=4 Tax=P...  120     2e-30 
+  UniRef90_A0A0B3SC61 Lipid A palmitoyltransferase PagP n=1 Tax=P...  117     3e-30 
+  UniRef90_UPI00092EE354 hypothetical protein n=1 Tax=Type-D symb...  115     3e-30 
+  UniRef90_UPI000D35A386 lipid IV(A) palmitoyltransferase PagP n=...  117     3e-30 
+  UniRef90_A0A378JGV8 Lipid A palmitoyltransferase PagP n=1 Tax=L...  117     4e-30 
+  UniRef90_A0A354EXE6 Lipid A palmitoyltransferase PagP n=1 Tax=L...  115     9e-30 
+  UniRef90_A0A0W0Y9K4 Lipid A palmitoyltransferase PagP n=6 Tax=L...  117     9e-30 
+  UniRef90_D3HNB4 Lipid A palmitoyltransferase PagP n=1 Tax=Legio...  117     1e-29 
+  UniRef90_A0A212HAI0 Lipid A palmitoyltransferase PagP n=4 Tax=E...  113     1e-29 
+  UniRef90_R7X3Y3 Lipid A palmitoyltransferase PagP n=2 Tax=Pando...  117     1e-29 
+  UniRef90_A0A0W0R1B9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  116     1e-29 
+  UniRef90_A0A378IZ67 Lipid A palmitoyltransferase PagP n=1 Tax=L...  117     1e-29 
+  UniRef90_UPI0009B903F1 lipid IV(A) palmitoyltransferase PagP n=...  119     1e-29 
+  UniRef90_A0A239SMN7 Lipid A palmitoyltransferase PagP n=2 Tax=P...  117     2e-29 
+  UniRef90_A0A378JUI6 Lipid A palmitoyltransferase PagP n=2 Tax=L...  115     2e-29 
+  UniRef90_A0A378Z1M8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  116     3e-29 
+  UniRef90_A0A2H9SFG1 Lipid A palmitoyltransferase PagP n=1 Tax=L...  115     3e-29 
+  UniRef90_A0A2H9SIF6 Lipid A palmitoyltransferase PagP n=1 Tax=L...  115     4e-29 
+  UniRef90_A0A378KPG5 Lipid A palmitoyltransferase PagP n=1 Tax=L...  114     5e-29 
+  UniRef90_A0A098GA89 Lipid A palmitoyltransferase PagP n=1 Tax=T...  114     8e-29 
+  UniRef90_A0A0A8UKE2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  114     8e-29 
+  UniRef90_A0A377G647 Lipid A palmitoyltransferase PagP n=1 Tax=F...  115     8e-29 
+  UniRef90_A0A1Q4CN43 Lipid A palmitoyltransferase PagP n=2 Tax=P...  114     1e-28 
+  UniRef90_A0A0W0U5M3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  114     1e-28 
+  UniRef90_A0A378ICW8 Lipid A palmitoyltransferase PagP n=1 Tax=L...  113     1e-28 
+  UniRef90_A0A0E3YB31 Lipid A palmitoyltransferase PagP n=2 Tax=P...  113     2e-28 
+  UniRef90_A0A0W1A6A2 Lipid A palmitoyltransferase PagP n=2 Tax=L...  113     2e-28 
+  UniRef90_UPI000F8D50B2 UPI000F8D50B2 related cluster n=1 Tax=un...  113     2e-28 
+  UniRef90_A0A1G0XI06 Lipid A palmitoyltransferase PagP n=1 Tax=L...  112     3e-28 
+  UniRef90_A0A378YXB2 Lipid A palmitoyltransferase PagP n=5 Tax=B...  113     4e-28 
+  UniRef90_A0A2Z3KJ65 Lipid A palmitoyltransferase PagP n=1 Tax=L...  113     4e-28 
+  UniRef90_A0A0A2T4X2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  112     6e-28 
+  UniRef90_A0A354JX29 Lipid A palmitoyltransferase PagP n=1 Tax=A...  111     6e-28 
+  UniRef90_A0A0W0UIT5 Lipid A palmitoyltransferase PagP n=1 Tax=L...  111     9e-28 
+  UniRef90_UPI0009ACA246 lipid IV(A) palmitoyltransferase PagP n=...  107     1e-27 
+  UniRef90_A0A0W0YWN9 Lipid A palmitoyltransferase PagP n=2 Tax=L...  111     1e-27 
+  UniRef90_A0A0W0VF36 Lipid A palmitoyltransferase PagP n=2 Tax=L...  111     1e-27 
+  UniRef90_A0A1Q4DPN4 Lipid A palmitoyltransferase PagP n=1 Tax=L...  111     1e-27 
+  UniRef90_A0A0W0TKU1 Lipid A palmitoyltransferase PagP n=2 Tax=L...  111     1e-27 
+  UniRef90_A0A0H3X1W5 Lipid A palmitoyltransferase PagP n=2 Tax=P...  111     1e-27 
+  UniRef90_A0A378I5J1 Lipid A palmitoyltransferase PagP n=1 Tax=L...  110     2e-27 
+  UniRef90_A0A364LL92 Lipid A palmitoyltransferase PagP n=2 Tax=L...  110     2e-27 
+  UniRef90_A0A078KSV0 Lipid A palmitoyltransferase PagP n=2 Tax=L...  111     3e-27 
+  UniRef90_A0A0W0VVK3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  109     4e-27 
+  UniRef90_A0A0S1YBA4 Lipid A palmitoyltransferase PagP n=2 Tax=A...  108     1e-26 
+  UniRef90_UPI000E09B059 lipid IV(A) palmitoyltransferase PagP n=...  108     1e-26 
+  UniRef90_A0A1G8MB62 LPS-assembly protein LptD (Fragment) n=2 Ta...  115     1e-26 
+  UniRef90_UPI0002E3693F phospholipid:lipid A palmitoyltransferas...  108     2e-26 
+  UniRef90_G9EJV4 Lipid A palmitoyltransferase PagP n=1 Tax=Legio...  108     2e-26 
+  UniRef90_A0A378LCT8 Lipid A palmitoyltransferase PagP n=2 Tax=L...  108     2e-26 
+  UniRef90_A0A238D636 Lipid A palmitoyltransferase PagP n=1 Tax=T...  107     3e-26 
+  UniRef90_UPI00056E132F lipid IV(A) palmitoyltransferase PagP n=...  107     3e-26 
+  UniRef90_UPI0007306E88 phospholipid:lipid A palmitoyltransferas...  107     3e-26 
+  UniRef90_A0A1H8JPR1 Lipid A palmitoyltransferase PagP n=1 Tax=B...  107     4e-26 
+  UniRef90_A0A0U2XUV9 Lipid A palmitoyltransferase PagP n=2 Tax=B...  108     5e-26 
+  UniRef90_A0A379H2N8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  105     5e-26 
+  UniRef90_A0A0W0VCP6 Lipid A palmitoyltransferase PagP n=1 Tax=L...  107     6e-26 
+  UniRef90_A0A0W1AER4 Lipid A palmitoyltransferase PagP n=1 Tax=L...  106     6e-26 
+  UniRef90_A0A0W0XMH7 Lipid A palmitoyltransferase PagP n=4 Tax=L...  105     9e-26 
+  UniRef90_A0A378L454 Lipid A palmitoyltransferase PagP n=1 Tax=L...  106     2e-25 
+  UniRef90_A0A378LLS9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  106     3e-25 
+  UniRef90_UPI0004DFA76B lipid IV(A) palmitoyltransferase PagP n=...  104     4e-25 
+  UniRef90_UPI000CFF46D9 phospholipid:lipid A palmitoyltransferas...  103     4e-25 
+  UniRef90_UPI00068FAFDB hypothetical protein n=1 Tax=Campylobact...  103     5e-25 
+  UniRef90_A0A356F5S7 Lipid A palmitoyltransferase PagP (Fragment...  103     7e-25 
+  UniRef90_A0A0W0ZKU7 Lipid A palmitoyltransferase PagP n=2 Tax=L...  104     1e-24 
+  UniRef90_A0A378DSG5 Lipid A palmitoyltransferase PagP n=1 Tax=K...  101     1e-24 
+  UniRef90_A0A0W0SNK2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  102     2e-24 
+  UniRef90_A0A1J5R878 Lipid A palmitoyltransferase PagP n=1 Tax=m...  102     3e-24 
+  UniRef90_A0A238DRQ0 Lipid A palmitoyltransferase PagP n=3 Tax=r...  102     3e-24 
+  UniRef90_A0A352C687 Lipid A palmitoyltransferase PagP n=1 Tax=L...  102     4e-24 
+  UniRef90_A0A0W0SCS3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  102     7e-24 
+  UniRef90_A0A329ZVX0 Lipid A palmitoyltransferase PagP n=1 Tax=H...  101     7e-24 
+  UniRef90_A0A158M3N5 Lipid A palmitoyltransferase PagP n=1 Tax=B...  100     1e-23 
+  UniRef90_C5B8U6 Lipid A palmitoyltransferase PagP n=1 Tax=Edwar...  96.7    1e-23 
+  UniRef90_A0A222MYY0 Lipid A palmitoyltransferase PagP n=2 Tax=C...  100     2e-23 
+  UniRef90_UPI0004800599 lipid IV(A) palmitoyltransferase PagP n=...  100     2e-23 
+  UniRef90_A0A0W0RTS1 Lipid A palmitoyltransferase PagP n=2 Tax=L...  101     3e-23 
+  UniRef90_A0A389MDH7 Lipid A palmitoyltransferase PagP n=1 Tax=E...  95.9    4e-23 
+  UniRef90_UPI0008077073 antimicrobial peptide resistance and lip...  99.0    7e-23 
+  UniRef90_A0A259P197 Lipid A palmitoyltransferase PagP n=1 Tax=T...  98.6    1e-22 
+  UniRef90_A0A378BVV1 Lipid A palmitoyltransferase PagP n=3 Tax=K...  94.4    2e-22 
+  UniRef90_UPI0009DF7345 lipid IV(A) palmitoyltransferase PagP n=...  97.1    5e-22 
+  UniRef90_A0A377GEJ2 Lipid A palmitoyltransferase PagP n=2 Tax=L...  97.4    7e-22 
+  UniRef90_R7KIY6 Lipid A palmitoyltransferase PagP n=1 Tax=Sutte...  99.8    1e-21 
+  UniRef90_A0A238DV90 Lipid A palmitoyltransferase PagP n=1 Tax=T...  95.1    2e-21 
+  UniRef90_UPI0009DBC4B4 hypothetical protein n=1 Tax=Thiomonas s...  95.9    2e-21 
+  UniRef90_A0A0W0ZT67 Lipid A palmitoyltransferase PagP n=1 Tax=L...  95.9    2e-21 
+  UniRef90_A0A378CDL2 Lipid A palmitoyltransferase PagP n=3 Tax=K...  91.7    3e-21 
+  UniRef90_D8IS40 Lipid A palmitoyltransferase PagP n=5 Tax=Herba...  95.1    3e-21 
+  UniRef90_A0A350CY04 Lipid A palmitoyltransferase PagP n=6 Tax=P...  98.6    3e-21 
+  UniRef90_UPI000C71B1FE uncharacterized protein LOC111686813 n=1...  92.8    4e-21 
+  UniRef90_UPI0003FA0270 hypothetical protein n=1 Tax=Chitinilyti...  94.0    5e-21 
+  UniRef90_UPI000E6BB343 hypothetical protein n=1 Tax=Herbaspiril...  93.6    6e-21 
+  UniRef90_A0A272EWI4 Lipid A palmitoyltransferase PagP n=1 Tax=C...  94.4    6e-21 
+  UniRef90_UPI00067C793A hypothetical protein n=1 Tax=Herbaspiril...  94.0    7e-21 
+  UniRef90_A0A0W0V4A9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  90.5    1e-20 
+  UniRef90_A0A0K6I385 Lipid A palmitoyltransferase PagP n=2 Tax=T...  92.8    2e-20 
+  UniRef90_A0A2E7PAP3 Lipid A palmitoyltransferase PagP n=3 Tax=H...  92.8    2e-20 
+  UniRef90_A0A225SR18 Lipid A palmitoyltransferase PagP n=1 Tax=H...  92.8    2e-20 
+  UniRef90_G2J807 Lipid A palmitoyltransferase PagP n=1 Tax=Candi...  92.4    2e-20 
+  UniRef90_R7C0K4 Lipid A palmitoyltransferase PagP n=2 Tax=Sutte...  95.5    4e-20 
+  UniRef90_I3CRL8 Lipid A palmitoyltransferase PagP n=1 Tax=Herba...  91.3    8e-20 
+  UniRef90_A0A0N0GPB3 Lipid A palmitoyltransferase PagP n=1 Tax=A...  90.5    1e-19 
+  UniRef90_UPI0003706382 hypothetical protein n=1 Tax=Chitiniphil...  90.5    1e-19 
+  UniRef90_A0A0K2B841 Lipid A palmitoyltransferase PagP n=1 Tax=H...  90.5    1e-19 
+  UniRef90_A0A1G0X262 Lipid A palmitoyltransferase PagP n=1 Tax=L...  89.7    1e-19 
+  UniRef90_UPI0004B41A5E hypothetical protein n=1 Tax=Herbaspiril...  90.9    1e-19 
+  UniRef90_A0A1N7RZN5 Lipid A palmitoyltransferase PagP n=4 Tax=P...  90.5    2e-19 
+  UniRef90_A0A0U3K8T8 Lipid A palmitoyltransferase PagP n=8 Tax=H...  90.1    3e-19 
+  UniRef90_A0A2W4LWD8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  89.4    5e-19 
+  UniRef90_A0A1C7HI29 Lipid A palmitoyltransferase PagP n=2 Tax=B...  92.4    6e-19 
+  UniRef90_A0A2Z6ETQ9 Lipid A palmitoyltransferase PagP n=2 Tax=B...  88.6    6e-19 
+  UniRef90_A0A368L0N4 Lipid A palmitoyltransferase PagP n=1 Tax=P...  90.1    8e-19 
+  UniRef90_A0A246WMY9 Lipid A palmitoyltransferase PagP n=1 Tax=H...  88.6    1e-18 
+  UniRef90_A0A1V2VKB1 Lipid A palmitoyltransferase PagP n=3 Tax=H...  87.8    2e-18 
+  UniRef90_D6CLK0 Lipid A palmitoyltransferase PagP n=9 Tax=Thiom...  87.0    3e-18 
+  UniRef90_H3KD21 Lipid A palmitoyltransferase PagP n=1 Tax=Sutte...  89.7    5e-18 
+  UniRef90_A0A1W1X3S0 Lipid A palmitoyltransferase PagP n=1 Tax=A...  85.5    8e-18 
+  UniRef90_A0A257P057 Lipid A palmitoyltransferase PagP n=1 Tax=T...  85.5    1e-17 
+  UniRef90_A0A1D9BGH5 Lipid A palmitoyltransferase PagP n=1 Tax=J...  85.1    2e-17 
+  UniRef90_J3HV08 Lipid A palmitoyltransferase PagP n=1 Tax=Herba...  85.1    2e-17 
+  UniRef90_A0A3N5JHK1 Uncharacterized protein n=1 Tax=Xanthomonad...  88.2    2e-17 
+  UniRef90_A0A2J0QQC3 Lipid A palmitoyltransferase PagP (Fragment...  80.5    2e-17 
+  UniRef90_A0A1H2PV98 Lipid A palmitoyltransferase PagP n=1 Tax=B...  84.3    2e-17 
+  UniRef90_A0A158FDA6 Lipid A palmitoyltransferase PagP n=4 Tax=B...  84.0    4e-17 
+  UniRef90_UPI0009FB3CD5 hypothetical protein n=1 Tax=Herbaspiril...  84.3    4e-17 
+  UniRef90_A0A158ARY6 Lipid A palmitoyltransferase PagP n=2 Tax=C...  84.0    5e-17 
+  UniRef90_A0A0X8GPS7 Lipid A palmitoyltransferase PagP n=4 Tax=B...  83.6    6e-17 
+  UniRef90_A0A038GR42 Lipid A palmitoyltransferase PagP n=1 Tax=C...  82.4    1e-16 
+  UniRef90_A0A157ZV77 Lipid A palmitoyltransferase PagP n=1 Tax=C...  82.0    2e-16 
+  UniRef90_A0A318J616 Lipid A palmitoyltransferase PagP n=1 Tax=U...  82.4    2e-16 
+  UniRef90_K8R5V6 Lipid A palmitoyltransferase PagP n=3 Tax=Burkh...  81.6    3e-16 
+  UniRef90_J3D935 Lipid A palmitoyltransferase PagP n=6 Tax=Herba...  80.9    3e-16 
+  UniRef90_G5PZL8 Lipid A palmitoyltransferase PagP n=3 Tax=Enter...  77.0    5e-16 
+  UniRef90_A0A157ZVL8 Lipid A palmitoyltransferase PagP n=1 Tax=C...  80.9    6e-16 
+  UniRef90_UPI000A05C015 hypothetical protein n=1 Tax=Massilia ni...  80.9    1e-15 
+  UniRef90_A0A060NVV1 Lipid A palmitoyltransferase PagP n=4 Tax=B...  79.3    2e-15 
+  UniRef90_K1JSD3 Lipid A palmitoyltransferase PagP n=2 Tax=Sutte...  82.4    2e-15 
+  UniRef90_A0A0K9JXQ1 Lipid A palmitoyltransferase PagP n=1 Tax=C...  79.3    3e-15 
+  UniRef90_E7H3Q4 Lipid A palmitoyltransferase PagP n=3 Tax=Sutte...  81.6    4e-15 
+  UniRef90_A0A364UKU1 Phospholipid:lipid A palmitoyltransferase (...  74.3    5e-15 
+  UniRef90_A0A1H3GFP5 Lipid A palmitoyltransferase PagP n=2 Tax=C...  79.0    5e-15 
+  UniRef90_UPI000E08D27C hypothetical protein n=1 Tax=Polynucleob...  76.6    6e-15 
+  UniRef90_A0A127QEG0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  78.2    8e-15 
+  UniRef90_UPI00054E49BB hypothetical protein n=1 Tax=Herminiimon...  77.0    1e-14 
+  UniRef90_A0A158C2L3 Lipid A palmitoyltransferase PagP n=3 Tax=B...  76.6    2e-14 
+  UniRef90_UPI000E4A1A12 hypothetical protein n=1 Tax=Sutterella ...  79.3    2e-14 
+  UniRef90_A0A353HSN1 Lipid A palmitoyltransferase PagP n=2 Tax=M...  77.0    2e-14 
+  UniRef90_A0A2N7VNY4 Lipid A palmitoyltransferase PagP n=1 Tax=B...  77.4    2e-14 
+  UniRef90_A0A0A0F9V0 Lipid A palmitoyltransferase PagP n=3 Tax=E...  72.4    2e-14 
+  UniRef90_A0A0L0M850 Lipid A palmitoyltransferase PagP n=1 Tax=C...  75.1    1e-13 
+  UniRef90_A0A0C2CIK2 Lipid A palmitoyltransferase PagP n=2 Tax=B...  74.7    1e-13 
+  UniRef90_A0A2Z6I7T3 Lipid A palmitoyltransferase PagP n=1 Tax=S...  77.4    1e-13 
+  UniRef90_UPI00054D3835 hypothetical protein n=1 Tax=Andreprevot...  74.3    2e-13 
+  UniRef90_G0A8E6 Lipid A palmitoyltransferase PagP n=11 Tax=Coll...  74.7    2e-13 
+  UniRef90_UPI000F76547A phospholipid:lipid A palmitoyltransferas...  73.6    4e-13 
+  UniRef90_UPI0005A6ACF4 antimicrobial peptide resistance and lip...  73.2    5e-13 
+  UniRef90_A0A158DLP1 Lipid A palmitoyltransferase PagP n=1 Tax=C...  73.2    5e-13 
+  UniRef90_A0A2X3ETY1 Lipid A palmitoyltransferase PagP n=2 Tax=K...  69.3    6e-13 
+  UniRef90_A0A239HHS1 Lipid A palmitoyltransferase PagP n=1 Tax=N...  72.0    1e-12 
+  UniRef90_A0A0A1F565 Lipid A palmitoyltransferase PagP n=1 Tax=C...  72.0    2e-12 
+  UniRef90_A0A2S9H1D3 Lipid A palmitoyltransferase PagP n=1 Tax=S...  71.6    2e-12 
+  UniRef90_A0A259QDL6 Lipid A palmitoyltransferase PagP (Fragment...  70.1    3e-12 
+  UniRef90_UPI0002D6DD5A hypothetical protein n=1 Tax=Noviherbasp...  70.1    7e-12 
+  UniRef90_A0A2T6F068 Lipid A palmitoyltransferase PagP n=1 Tax=G...  70.5    8e-12 
+  UniRef90_A0A1A8XGC5 LPS-assembly protein LptD n=1 Tax=Candidatu...  72.8    8e-12 
+  UniRef90_UPI000F887601 hypothetical protein n=1 Tax=Undibacteri...  69.7    1e-11 
+  UniRef90_A0A350CLT6 Lipid A palmitoyltransferase PagP n=2 Tax=M...  69.3    2e-11 
+  UniRef90_A0A1L6I1F2 Lipid A palmitoyltransferase PagP n=2 Tax=P...  68.9    2e-11 
+  UniRef90_UPI000F7BFE4E hypothetical protein n=1 Tax=Undibacteri...  68.2    5e-11 
+  UniRef90_A0A1J5PLN2 Lipid A palmitoyltransferase PagP n=1 Tax=m...  65.1    7e-11 
+  UniRef90_UPI0009B911B5 hypothetical protein n=1 Tax=Xenorhabdus...  64.7    8e-11 
+  UniRef90_A0A356F5J8 Lipid A palmitoyltransferase PagP (Fragment...  63.5    2e-10 
+  UniRef90_G4M3Y2 Lipid A palmitoyltransferase PagP n=1 Tax=Candi...  63.2    8e-10 
+  UniRef90_A0A259QMU8 Lipid A palmitoyltransferase PagP n=3 Tax=r...  60.1    4e-09 
+  UniRef90_F1W092 Lipid A palmitoyltransferase PagP n=1 Tax=Oxalo...  61.6    1e-08 
+  UniRef90_A0A077PF68 Lipid A palmitoyltransferase PagP n=2 Tax=X...  58.2    1e-08 
+  UniRef90_A0A388SA50 Lipid A palmitoyltransferase PagP n=4 Tax=S...  62.0    3e-08 
+  UniRef90_A0A158BLM0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  58.5    4e-08 
+  UniRef90_A0A238D3V9 Lipid A palmitoyltransferase PagP n=2 Tax=T...  53.5    1e-06 
+  UniRef90_UPI000B8E348C hypothetical protein n=1 Tax=Thiomonas d...  55.8    1e-06 
+  UniRef90_UPI000DDE2E7B hypothetical protein n=1 Tax=Escherichia...  51.6    4e-06 
+  UniRef90_A0A370YZH6 Phospholipid:lipid A palmitoyltransferase (...  51.2    8e-06 
+  UniRef90_A0A3L3L1Z0 Phospholipid:lipid A palmitoyltransferase (...  49.3    2e-05 
+  UniRef90_UPI000E08FAB3 hypothetical protein n=1 Tax=Polynucleob...  47.4    1e-04 
+  UniRef90_UPI00016A084B hypothetical protein n=2 Tax=Escherichia...  47.0    3e-04 
+  UniRef90_A0A069PHT9 Lipid A palmitoyltransferase PagP n=1 Tax=C...  48.5    3e-04 
+  UniRef90_A0A0K9JRP0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  44.3    0.009 
+  UniRef90_A0A3B1ASQ5 Uncharacterized protein n=1 Tax=hydrotherma...  43.5    0.025 
+  UniRef90_A0A2A4RXM2 Lipid A palmitoyltransferase PagP n=2 Tax=T...  42.7    0.058 
+  UniRef90_A0A3B1ADF2 Uncharacterized protein n=1 Tax=hydrotherma...  42.4    0.064 
+  UniRef90_A0A0S4TXD8 Uncharacterized protein n=1 Tax=Ralstonia s...  40.0    0.093 
+  UniRef90_A0A158ISV2 Lipid A palmitoyltransferase PagP n=1 Tax=C...  42.0    0.11  
+  UniRef90_A0A3B1BQM4 Uncharacterized protein n=1 Tax=hydrotherma...  41.6    0.13  
+  UniRef90_A0A2I7N3L9 Lipid A palmitoyltransferase PagP n=1 Tax=N...  41.6    0.20  
+  UniRef90_A0A3B1BB35 Uncharacterized protein n=1 Tax=hydrotherma...  40.4    0.29  
+  UniRef90_A0A193LI71 Lipid A palmitoyltransferase PagP n=1 Tax=W...  40.4    0.34  
+  UniRef90_A0A077MYB4 Lipid A palmitoyltransferase PagP n=2 Tax=X...  38.5    0.40  
+  UniRef90_A0A1F6QE82 Uncharacterized protein n=1 Tax=Candidatus ...  40.4    0.54  
+  UniRef90_A0A158JEK0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  37.7    1.5   
+  UniRef90_A0A371QNZ2 Na+/glucose cotransporter n=1 Tax=Rhodohalo...  39.3    1.6   
+  UniRef90_UPI0009FAAA27 hypothetical protein n=1 Tax=Burkholderi...  37.7    2.2   
+  UniRef90_A0A2D8CHF5 Na+/glucose cotransporter n=1 Tax=Balneola ...  38.9    2.2   
+  UniRef90_A0A2D9FYW7 Na+/glucose cotransporter n=3 Tax=Balneolac...  38.9    2.7   
+  UniRef90_A0A359E9F0 Na+/glucose cotransporter (Fragment) n=1 Ta...  38.1    3.3   
+  UniRef90_A0A150V6N3 Uncharacterized protein n=1 Tax=Acidomyces ...  38.5    3.7   
+  UniRef90_A0A2G6JEN4 Uncharacterized protein n=1 Tax=Planctomyce...  37.7    6.3   
+  UniRef90_UPI00083416BE hypothetical protein n=1 Tax=Comamonas t...  37.0    6.5   
+  UniRef90_A0A3B1BMT1 Uncharacterized protein n=1 Tax=hydrotherma...  36.6    8.2   
+  UniRef90_UPI00069E818C hypothetical protein n=1 Tax=Erwinia bil...  35.4    8.7   
+  UniRef90_A0A3B1BP07 Uncharacterized protein n=1 Tax=hydrotherma...  36.2    9.8   
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.488    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 784628720415
+Warning: [psiblast] lcl|Query_1 NP_415155.1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= NP_415155.1
+
+Length=186
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_P37001 Lipid A palmitoyltransferase PagP n=476 Tax=roo...  269     4e-90
+  UniRef90_A0A3P4REQ6 Lipid A palmitoyltransferase PagP n=9 Tax=E...  269     2e-89
+  UniRef90_UPI0007E3BAE5 phospholipid:lipid A palmitoyltransferas...  262     2e-87
+  UniRef90_A0A0F6REC1 Lipid A palmitoyltransferase PagP n=16 Tax=...  260     3e-86
+  UniRef90_A0A2T1LNL3 Lipid A palmitoyltransferase PagP n=48 Tax=...  258     2e-85
+  UniRef90_R9VRG4 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  257     3e-85
+  UniRef90_F5RUA0 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  258     3e-85
+  UniRef90_B1EKB0 Lipid A palmitoyltransferase PagP n=38 Tax=Ente...  257     3e-85
+  UniRef90_A8AJI1 Lipid A palmitoyltransferase PagP n=12 Tax=Ente...  257     4e-85
+  UniRef90_A0A345CDC3 Lipid A palmitoyltransferase PagP n=3 Tax=E...  255     4e-84
+  UniRef90_Q8ZR06 Lipid A palmitoyltransferase PagP n=223 Tax=Sal...  254     4e-84
+  UniRef90_A0A2S4RZZ5 Lipid A palmitoyltransferase PagP n=2 Tax=C...  254     6e-84
+  UniRef90_A0A2J7P679 Lipid A palmitoyltransferase PagP n=5 Tax=E...  254     7e-84
+  UniRef90_A0A2S8D430 Lipid A palmitoyltransferase PagP n=36 Tax=...  253     7e-84
+  UniRef90_UPI0004E2678D phospholipid:lipid A palmitoyltransferas...  254     7e-84
+  UniRef90_D2TMR7 Lipid A palmitoyltransferase PagP n=1 Tax=Citro...  254     8e-84
+  UniRef90_A0A1V0LH88 Lipid A palmitoyltransferase PagP n=8 Tax=E...  253     9e-84
+  UniRef90_A0A145TD87 Lipid A palmitoyltransferase PagP n=10 Tax=...  255     1e-83
+  UniRef90_A0A0M3F7U2 Lipid A palmitoyltransferase PagP n=2 Tax=E...  253     1e-83
+  UniRef90_A0A328I1X8 Lipid A palmitoyltransferase PagP n=56 Tax=...  253     2e-83
+  UniRef90_A0A0M7D4X9 Lipid A palmitoyltransferase PagP n=105 Tax...  252     9e-83
+  UniRef90_UPI00057C0798 phospholipid:lipid A palmitoyltransferas...  250     2e-82
+  UniRef90_A0A1A9F9J5 Lipid A palmitoyltransferase PagP n=1 Tax=L...  250     3e-82
+  UniRef90_A4W809 Lipid A palmitoyltransferase PagP n=7 Tax=Bacte...  250     3e-82
+  UniRef90_A0A2S5C883 Lipid A palmitoyltransferase PagP n=2 Tax=L...  249     4e-82
+  UniRef90_A0A085GG40 Lipid A palmitoyltransferase PagP n=4 Tax=B...  249     9e-82
+  UniRef90_A9MKE9 Lipid A palmitoyltransferase PagP n=16 Tax=Salm...  248     1e-81
+  UniRef90_A0A1I6DAX1 Lipid A palmitoyltransferase PagP n=2 Tax=E...  247     2e-81
+  UniRef90_UPI00092D0E9E phospholipid:lipid A palmitoyltransferas...  247     2e-81
+  UniRef90_U2MN31 Lipid A palmitoyltransferase PagP n=2 Tax=Panto...  250     3e-81
+  UniRef90_A0A2R3GXQ7 Lipid A palmitoyltransferase PagP n=2 Tax=S...  247     3e-81
+  UniRef90_A0A377TCD9 Lipid A palmitoyltransferase PagP n=11 Tax=...  247     4e-81
+  UniRef90_C9XYQ1 Lipid A palmitoyltransferase PagP n=29 Tax=Cron...  246     6e-81
+  UniRef90_A0A0A1RIX9 Lipid A palmitoyltransferase PagP n=1 Tax=C...  246     1e-80
+  UniRef90_UPI000474E5C8 phospholipid:lipid A palmitoyltransferas...  246     1e-80
+  UniRef90_A0A0J8YI89 Lipid A palmitoyltransferase PagP n=2 Tax=u...  245     2e-80
+  UniRef90_A0A126VNG4 Lipid A palmitoyltransferase PagP n=40 Tax=...  245     2e-80
+  UniRef90_A0A2S4X2C6 Lipid A palmitoyltransferase PagP n=6 Tax=E...  245     3e-80
+  UniRef90_A0A157TEU9 Lipid A palmitoyltransferase PagP n=12 Tax=...  246     3e-80
+  UniRef90_V5ACA2 Lipid A palmitoyltransferase PagP n=5 Tax=Enter...  245     3e-80
+  UniRef90_G9Z4J5 Lipid A palmitoyltransferase PagP n=2 Tax=Yoken...  245     3e-80
+  UniRef90_A0A0A2VTP0 Cation efflux system protein CusA n=1 Tax=B...  268     4e-80
+  UniRef90_A0A0L7T206 Lipid A palmitoyltransferase PagP n=2 Tax=E...  244     5e-80
+  UniRef90_V0AHB8 Lipid A palmitoyltransferase PagP (Fragment) n=...  244     5e-80
+  UniRef90_A0A1B7HZJ7 Lipid A palmitoyltransferase PagP n=5 Tax=B...  244     7e-80
+  UniRef90_A0A2P8VQT3 Lipid A palmitoyltransferase PagP n=2 Tax=E...  244     7e-80
+  UniRef90_A0A1N6TAY0 Lipid A palmitoyltransferase PagP n=1 Tax=E...  243     1e-79
+  UniRef90_L0M5E7 Lipid A palmitoyltransferase PagP n=4 Tax=Enter...  244     1e-79
+  UniRef90_A0A3A5JRZ3 Lipid A palmitoyltransferase PagP n=1 Tax=B...  242     1e-79
+  UniRef90_A0A370WG98 Lipid A palmitoyltransferase PagP n=3 Tax=E...  243     2e-79
+  UniRef90_A0A2P5GR01 Lipid A palmitoyltransferase PagP n=2 Tax=E...  243     2e-79
+  UniRef90_A0A1B7IVR1 Lipid A palmitoyltransferase PagP n=2 Tax=B...  242     2e-79
+  UniRef90_A0A1B7I8D1 Lipid A palmitoyltransferase PagP n=2 Tax=B...  242     2e-79
+  UniRef90_A0A1S2B7L0 Lipid A palmitoyltransferase PagP n=7 Tax=P...  242     2e-79
+  UniRef90_A0A2J9E6K3 Lipid A palmitoyltransferase PagP n=5 Tax=P...  243     2e-79
+  UniRef90_UPI0007A7568E phospholipid:lipid A palmitoyltransferas...  242     3e-79
+  UniRef90_A6T684 Lipid A palmitoyltransferase PagP n=113 Tax=Ent...  242     3e-79
+  UniRef90_A0A2T2Y6X9 Lipid A palmitoyltransferase PagP n=1 Tax=K...  242     4e-79
+  UniRef90_A0A127L1X7 Lipid A palmitoyltransferase PagP n=2 Tax=E...  242     4e-79
+  UniRef90_E3G4M5 Lipid A palmitoyltransferase PagP n=3 Tax=Plura...  242     4e-79
+  UniRef90_U3TU85 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  241     6e-79
+  UniRef90_A0A085G7F7 Lipid A palmitoyltransferase PagP n=3 Tax=E...  242     6e-79
+  UniRef90_A0A0D5WSF6 Lipid A palmitoyltransferase PagP n=3 Tax=E...  241     9e-79
+  UniRef90_A0A1X1DA63 Lipid A palmitoyltransferase PagP n=1 Tax=P...  241     1e-78
+  UniRef90_E6WAU8 Lipid A palmitoyltransferase PagP n=1 Tax=Panto...  241     1e-78
+  UniRef90_A0A0L0GLU3 Lipid A palmitoyltransferase PagP n=4 Tax=T...  240     2e-78
+  UniRef90_A0A1B7JGG2 Lipid A palmitoyltransferase PagP n=2 Tax=K...  240     2e-78
+  UniRef90_UPI000DD4E3D4 phospholipid:lipid A palmitoyltransferas...  241     2e-78
+  UniRef90_A0A0Q4MPU7 Lipid A palmitoyltransferase PagP n=1 Tax=E...  240     2e-78
+  UniRef90_V5Z6H2 Lipid A palmitoyltransferase PagP n=2 Tax=Erwin...  240     3e-78
+  UniRef90_A0A0B1R5J1 Lipid A palmitoyltransferase PagP n=3 Tax=E...  240     3e-78
+  UniRef90_B7LLI8 Lipid A palmitoyltransferase PagP n=4 Tax=Esche...  240     3e-78
+  UniRef90_A0A3D0EQ38 Lipid A palmitoyltransferase PagP n=2 Tax=E...  239     3e-78
+  UniRef90_H2J055 Lipid A palmitoyltransferase PagP n=3 Tax=Enter...  240     4e-78
+  UniRef90_A0A0F3LY91 Lipid A palmitoyltransferase PagP n=10 Tax=...  239     5e-78
+  UniRef90_A0A0Q4P2D9 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  239     6e-78
+  UniRef90_A0A3N2DRW8 Palmitoyl transferase n=2 Tax=Raoultella te...  239     6e-78
+  UniRef90_A0A0C7KKP4 Lipid A palmitoyltransferase PagP n=18 Tax=...  238     7e-78
+  UniRef90_I2BBA8 Lipid A palmitoyltransferase PagP n=1 Tax=Shimw...  239     7e-78
+  UniRef90_A0A366NEA0 Lipid A palmitoyltransferase PagP n=3 Tax=R...  239     7e-78
+  UniRef90_A0A071LUL6 Lipid A palmitoyltransferase PagP n=3 Tax=M...  238     9e-78
+  UniRef90_UPI00073D80E2 phospholipid:lipid A palmitoyltransferas...  238     1e-77
+  UniRef90_A0A2L1UWV9 Lipid A palmitoyltransferase PagP n=2 Tax=R...  239     1e-77
+  UniRef90_A0A0G3SCI7 Lipid A palmitoyltransferase PagP n=30 Tax=...  238     1e-77
+  UniRef90_A0A0U3SB19 Lipid A palmitoyltransferase PagP n=10 Tax=...  238     1e-77
+  UniRef90_G7LU05 Lipid A palmitoyltransferase PagP n=3 Tax=Brenn...  238     2e-77
+  UniRef90_A0A1V9DIG1 Lipid A palmitoyltransferase PagP n=1 Tax=P...  238     2e-77
+  UniRef90_J3D728 Lipid A palmitoyltransferase PagP n=8 Tax=Enter...  238     2e-77
+  UniRef90_UPI0006870EC4 phospholipid:lipid A palmitoyltransferas...  237     3e-77
+  UniRef90_UPI000EB1CF1E phospholipid:lipid A palmitoyltransferas...  237     3e-77
+  UniRef90_UPI000DEEB755 phospholipid:lipid A palmitoyltransferas...  237     3e-77
+  UniRef90_UPI0009F95BB5 phospholipid:lipid A palmitoyltransferas...  237     4e-77
+  UniRef90_A0A2X4U1T8 Lipid A palmitoyltransferase PagP n=3 Tax=Y...  237     4e-77
+  UniRef90_S3IZM2 Lipid A palmitoyltransferase PagP n=6 Tax=Enter...  237     4e-77
+  UniRef90_C6CNE4 Lipid A palmitoyltransferase PagP n=4 Tax=Dicke...  237     4e-77
+  UniRef90_B2VBK5 Lipid A palmitoyltransferase PagP n=1 Tax=Erwin...  236     5e-77
+  UniRef90_D8MPK6 Lipid A palmitoyltransferase PagP n=2 Tax=Erwin...  236     7e-77
+  UniRef90_A0A0G4JUH0 Lipid A palmitoyltransferase PagP n=1 Tax=B...  237     7e-77
+  UniRef90_UPI000E72A334 phospholipid:lipid A palmitoyltransferas...  237     7e-77
+  UniRef90_A0A1H4CU10 Lipid A palmitoyltransferase PagP n=4 Tax=L...  236     1e-76
+  UniRef90_A0A250AYL4 Lipid A palmitoyltransferase PagP n=2 Tax=G...  236     1e-76
+  UniRef90_UPI0004686359 phospholipid:lipid A palmitoyltransferas...  236     1e-76
+  UniRef90_H8NW96 Lipid A palmitoyltransferase PagP n=3 Tax=Rahne...  236     1e-76
+  UniRef90_A0A356D5E1 Lipid A palmitoyltransferase PagP n=1 Tax=P...  235     2e-76
+  UniRef90_A0A0J8YF61 Lipid A palmitoyltransferase PagP n=3 Tax=F...  235     2e-76
+  UniRef90_A8GAF7 Lipid A palmitoyltransferase PagP n=15 Tax=Serr...  235     2e-76
+  UniRef90_UPI000EF1D851 phospholipid:lipid A palmitoyltransferas...  236     2e-76
+  UniRef90_UPI000F688542 lipid IV(A) palmitoyltransferase PagP n=...  235     3e-76
+  UniRef90_A0A2I0FRN7 Lipid A palmitoyltransferase PagP n=1 Tax=E...  235     3e-76
+  UniRef90_A0A378GKA0 Lipid A palmitoyltransferase PagP n=2 Tax=K...  234     4e-76
+  UniRef90_D4DWI4 Lipid A palmitoyltransferase PagP n=2 Tax=Serra...  236     4e-76
+  UniRef90_D2C1B0 Lipid A palmitoyltransferase PagP n=11 Tax=Ente...  236     4e-76
+  UniRef90_A0A2S9IIF4 Lipid A palmitoyltransferase PagP n=2 Tax=E...  234     4e-76
+  UniRef90_A0A0A3ZXU6 Lipid A palmitoyltransferase PagP n=2 Tax=E...  234     5e-76
+  UniRef90_A0A2X3DQ33 Lipid A palmitoyltransferase PagP n=6 Tax=K...  234     5e-76
+  UniRef90_A0A1S1HPP9 Lipid A palmitoyltransferase PagP n=1 Tax=P...  234     5e-76
+  UniRef90_A0A1X3S4H6 Lipid A palmitoyltransferase PagP n=2 Tax=L...  234     6e-76
+  UniRef90_A0A366I128 Lipid A palmitoyltransferase PagP n=1 Tax=B...  234     8e-76
+  UniRef90_A0A318VVZ9 Lipid A palmitoyltransferase PagP n=3 Tax=E...  232     8e-76
+  UniRef90_A0A351LSM3 Lipid A palmitoyltransferase PagP n=3 Tax=F...  233     1e-75
+  UniRef90_A0A1X1ERZ7 Lipid A palmitoyltransferase PagP n=1 Tax=P...  233     1e-75
+  UniRef90_A0A3A9JFB8 Lipid A palmitoyltransferase PagP n=3 Tax=E...  233     1e-75
+  UniRef90_Q6DAS8 Lipid A palmitoyltransferase PagP n=40 Tax=Pect...  234     1e-75
+  UniRef90_A0A014N2G2 Lipid A palmitoyltransferase PagP n=1 Tax=E...  232     2e-75
+  UniRef90_A0A3M9VWS0 Phospholipid:lipid A palmitoyltransferase n...  233     2e-75
+  UniRef90_UPI000574734A lipid IV(A) palmitoyltransferase PagP n=...  232     2e-75
+  UniRef90_A0A2X5PB27 Lipid A palmitoyltransferase PagP n=4 Tax=T...  232     2e-75
+  UniRef90_UPI000CFA8E57 phospholipid:lipid A palmitoyltransferas...  232     2e-75
+  UniRef90_W0LGI7 Lipid A palmitoyltransferase PagP n=1 Tax=Chani...  232     3e-75
+  UniRef90_H3RAI9 Lipid A palmitoyltransferase PagP n=6 Tax=Panto...  232     4e-75
+  UniRef90_A0A0Q3ABS3 Lipid A palmitoyltransferase PagP n=3 Tax=E...  231     5e-75
+  UniRef90_I0QT02 Lipid A palmitoyltransferase PagP n=1 Tax=Serra...  232     5e-75
+  UniRef90_D4F8S0 Lipid A palmitoyltransferase PagP n=7 Tax=Edwar...  231     5e-75
+  UniRef90_UPI000E4C137B phospholipid:lipid A palmitoyltransferas...  230     6e-75
+  UniRef90_A0A095TEJ3 Lipid A palmitoyltransferase PagP n=2 Tax=T...  231     7e-75
+  UniRef90_K8X522 Lipid A palmitoyltransferase PagP n=1 Tax=Provi...  231     1e-74
+  UniRef90_A0A2U1TSR0 Lipid A palmitoyltransferase PagP n=2 Tax=B...  232     1e-74
+  UniRef90_J7SL31 Lipid A palmitoyltransferase PagP n=19 Tax=Bact...  231     1e-74
+  UniRef90_A0A0F5Y020 Lipid A palmitoyltransferase PagP n=2 Tax=P...  230     1e-74
+  UniRef90_A0A330JD52 Lipid A palmitoyltransferase PagP n=2 Tax=P...  231     2e-74
+  UniRef90_A0A084A5M3 Lipid A palmitoyltransferase PagP n=2 Tax=S...  230     2e-74
+  UniRef90_E6WKS7 Lipid A palmitoyltransferase PagP n=1 Tax=Panto...  230     2e-74
+  UniRef90_A0A1B7K3Z9 Lipid A palmitoyltransferase PagP n=2 Tax=P...  230     2e-74
+  UniRef90_UPI000FE2CC8C phospholipid:lipid A palmitoyltransferas...  230     2e-74
+  UniRef90_F2EP14 Lipid A palmitoyltransferase PagP n=14 Tax=Erwi...  230     3e-74
+  UniRef90_D0ZCI3 Lipid A palmitoyltransferase PagP n=8 Tax=Edwar...  229     3e-74
+  UniRef90_D0KD36 Lipid A palmitoyltransferase PagP n=4 Tax=Pecto...  230     3e-74
+  UniRef90_A0A1S8CP98 Lipid A palmitoyltransferase PagP n=1 Tax=S...  229     5e-74
+  UniRef90_A0A0Q4MHA3 Lipid A palmitoyltransferase PagP n=3 Tax=E...  228     7e-74
+  UniRef90_A0A0D1MNE5 Lipid A palmitoyltransferase PagP n=4 Tax=E...  228     7e-74
+  UniRef90_UPI0009ABD32C lipid IV(A) palmitoyltransferase PagP n=...  227     7e-74
+  UniRef90_A0A2G8E4P9 Lipid A palmitoyltransferase PagP n=2 Tax=E...  228     7e-74
+  UniRef90_D4X7L5 Lipid A palmitoyltransferase PagP n=9 Tax=Achro...  228     8e-74
+  UniRef90_A0A2I8DFF9 Lipid A palmitoyltransferase PagP n=1 Tax=A...  228     9e-74
+  UniRef90_UPI000B42A727 phospholipid:lipid A palmitoyltransferas...  228     1e-73
+  UniRef90_D4HYT3 Lipid A palmitoyltransferase PagP n=4 Tax=Erwin...  228     1e-73
+  UniRef90_A0A1B8HIK0 Lipid A palmitoyltransferase PagP n=5 Tax=M...  229     1e-73
+  UniRef90_UPI0005D43B00 phospholipid:lipid A palmitoyltransferas...  229     1e-73
+  UniRef90_E3HGF7 Lipid A palmitoyltransferase PagP n=12 Tax=Achr...  228     1e-73
+  UniRef90_A0A078LMT6 Lipid A palmitoyltransferase PagP n=2 Tax=E...  227     1e-73
+  UniRef90_A0A0M2KLR1 Lipid A palmitoyltransferase PagP n=3 Tax=E...  228     2e-73
+  UniRef90_UPI000F66F420 lipid IV(A) palmitoyltransferase PagP n=...  228     2e-73
+  UniRef90_UPI0004A36886 phospholipid:lipid A palmitoyltransferas...  227     2e-73
+  UniRef90_UPI0009E442AF phospholipid:lipid A palmitoyltransferas...  228     2e-73
+  UniRef90_A0A345LSY1 Lipid A palmitoyltransferase PagP n=9 Tax=P...  227     2e-73
+  UniRef90_A0A376LJT8 Lipid A palmitoyltransferase PagP n=3 Tax=E...  226     3e-73
+  UniRef90_J4J6N5 Lipid A palmitoyltransferase PagP n=3 Tax=Achro...  227     3e-73
+  UniRef90_A0A085HNW3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  226     4e-73
+  UniRef90_E0SLJ5 Lipid A palmitoyltransferase PagP n=22 Tax=Dick...  227     5e-73
+  UniRef90_A0A087L027 Lipid A palmitoyltransferase PagP n=1 Tax=S...  227     5e-73
+  UniRef90_A0A2S5C5Y2 Lipid A palmitoyltransferase PagP n=3 Tax=L...  226     7e-73
+  UniRef90_A0A097R2T4 Lipid A palmitoyltransferase PagP n=11 Tax=...  226     1e-72
+  UniRef90_A0A261VY34 Lipid A palmitoyltransferase PagP n=1 Tax=B...  225     1e-72
+  UniRef90_A0A0D6G0D0 Lipid A palmitoyltransferase PagP n=15 Tax=...  225     1e-72
+  UniRef90_A0A068RBB6 Lipid A palmitoyltransferase PagP n=3 Tax=S...  225     2e-72
+  UniRef90_A0A2V2BHN4 Lipid A palmitoyltransferase PagP n=3 Tax=P...  224     2e-72
+  UniRef90_A0A2S5KBV9 Lipid A palmitoyltransferase PagP n=5 Tax=P...  224     2e-72
+  UniRef90_G9YAH0 Lipid A palmitoyltransferase PagP n=4 Tax=Enter...  225     3e-72
+  UniRef90_K8WJJ2 Lipid A palmitoyltransferase PagP n=1 Tax=Provi...  224     4e-72
+  UniRef90_B6XF49 Lipid A palmitoyltransferase PagP n=7 Tax=Provi...  224     5e-72
+  UniRef90_A0A3N4P672 Phospholipid:lipid A palmitoyltransferase n...  224     6e-72
+  UniRef90_A0A0F5F413 Lipid A palmitoyltransferase PagP n=7 Tax=E...  224     7e-72
+  UniRef90_Q2NSM3 Lipid A palmitoyltransferase PagP n=5 Tax=Sodal...  224     7e-72
+  UniRef90_A0A1X0WJM1 Lipid A palmitoyltransferase PagP n=2 Tax=G...  222     2e-71
+  UniRef90_UPI000B8D0308 phospholipid:lipid A palmitoyltransferas...  221     2e-71
+  UniRef90_A0A0T9LHG8 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  222     3e-71
+  UniRef90_D6YQZ2 Lipid A palmitoyltransferase PagP n=34 Tax=Pant...  222     3e-71
+  UniRef90_A0A3N6SFW2 Phospholipid:lipid A palmitoyltransferase n...  221     4e-71
+  UniRef90_A0A1S8YIS9 Lipid A palmitoyltransferase PagP n=1 Tax=I...  221     4e-71
+  UniRef90_A0A0Q8BVY0 Lipid A palmitoyltransferase PagP n=3 Tax=A...  221     5e-71
+  UniRef90_A0A0H4W549 Lipid A palmitoyltransferase PagP n=6 Tax=B...  221     6e-71
+  UniRef90_A0A261UR23 Lipid A palmitoyltransferase PagP n=1 Tax=B...  221     9e-71
+  UniRef90_A0A0F7LNE0 Lipid A palmitoyltransferase PagP n=1 Tax=P...  221     1e-70
+  UniRef90_Q7N3D3 Lipid A palmitoyltransferase PagP n=18 Tax=Phot...  221     1e-70
+  UniRef90_A0A1X1EG35 Lipid A palmitoyltransferase PagP n=1 Tax=P...  220     1e-70
+  UniRef90_D8MU02 Lipid A palmitoyltransferase PagP n=1 Tax=Erwin...  220     1e-70
+  UniRef90_A0A1J0E8K8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  220     1e-70
+  UniRef90_A0A0Q4NXW2 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  221     2e-70
+  UniRef90_A0A0U1HMB5 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  220     3e-70
+  UniRef90_C6C6T1 Lipid A palmitoyltransferase PagP n=1 Tax=Dicke...  219     3e-70
+  UniRef90_UPI000FDE5044 UPI000FDE5044 related cluster n=1 Tax=un...  219     3e-70
+  UniRef90_UPI00069372D6 phospholipid:lipid A palmitoyltransferas...  219     3e-70
+  UniRef90_A0A2X4UW14 Lipid A palmitoyltransferase PagP n=1 Tax=L...  219     3e-70
+  UniRef90_A0A366ND60 Lipid A palmitoyltransferase PagP n=2 Tax=R...  220     4e-70
+  UniRef90_A0A2X2EKY8 Lipid A palmitoyltransferase PagP n=17 Tax=...  219     4e-70
+  UniRef90_A0A2I8WBG3 Lipid A palmitoyltransferase PagP n=43 Tax=...  219     5e-70
+  UniRef90_A0A3N1J3N3 Palmitoyl transferase n=2 Tax=Enterobacter ...  219     5e-70
+  UniRef90_A0A261VVU3 Lipid A palmitoyltransferase PagP n=2 Tax=B...  218     6e-70
+  UniRef90_A0A0F5XWJ5 Lipid A palmitoyltransferase PagP n=3 Tax=E...  218     8e-70
+  UniRef90_J2UM65 Lipid A palmitoyltransferase PagP n=8 Tax=Enter...  218     8e-70
+  UniRef90_UPI000E738969 phospholipid:lipid A palmitoyltransferas...  219     1e-69
+  UniRef90_H8NW97 Lipid A palmitoyltransferase PagP n=3 Tax=Yersi...  219     1e-69
+  UniRef90_UPI000EA3382E phospholipid:lipid A palmitoyltransferas...  218     1e-69
+  UniRef90_W3V5M0 Lipid A palmitoyltransferase PagP n=4 Tax=Photo...  218     2e-69
+  UniRef90_A0A0G3CSF2 Lipid A palmitoyltransferase PagP n=1 Tax=P...  217     2e-69
+  UniRef90_UPI000F8D9205 lipid IV(A) palmitoyltransferase PagP n=...  217     2e-69
+  UniRef90_C0ARC7 Lipid A palmitoyltransferase PagP n=18 Tax=Ente...  218     2e-69
+  UniRef90_Q7WFT9 Lipid A palmitoyltransferase PagP n=15 Tax=Bact...  217     3e-69
+  UniRef90_A0A2P5IQZ3 Lipid A palmitoyltransferase PagP n=1 Tax=P...  216     3e-69
+  UniRef90_UPI0004B88280 phospholipid:lipid A palmitoyltransferas...  217     4e-69
+  UniRef90_A0A212JZ21 Lipid A palmitoyltransferase PagP n=1 Tax=u...  216     5e-69
+  UniRef90_Q2KVI8 Lipid A palmitoyltransferase PagP (Fragment) n=...  216     6e-69
+  UniRef90_A0A2R7PKV8 Lipid A palmitoyltransferase PagP n=2 Tax=A...  216     7e-69
+  UniRef90_A0A2V1YJP2 Lipid A palmitoyltransferase PagP n=2 Tax=P...  216     8e-69
+  UniRef90_A0A2J9S8T4 Lipid A palmitoyltransferase PagP n=1 Tax=Y...  216     8e-69
+  UniRef90_A0A2R4NPA4 Lipid A palmitoyltransferase PagP n=4 Tax=Y...  216     9e-69
+  UniRef90_A0A0N0IAD1 Lipid A palmitoyltransferase PagP n=2 Tax=M...  215     1e-68
+  UniRef90_R8ARF2 Lipid A palmitoyltransferase PagP n=7 Tax=Plesi...  215     1e-68
+  UniRef90_UPI000D68C454 phospholipid:lipid A palmitoyltransferas...  216     1e-68
+  UniRef90_A0A2C6C904 Lipid A palmitoyltransferase PagP n=2 Tax=B...  215     2e-68
+  UniRef90_A0A0F3M061 Lipid A palmitoyltransferase PagP n=7 Tax=E...  214     2e-68
+  UniRef90_A0A3N2EWB9 Palmitoyl transferase n=1 Tax=Raoultella sp...  217     2e-68
+  UniRef90_A0A261SU81 Lipid A palmitoyltransferase PagP n=1 Tax=B...  215     2e-68
+  UniRef90_A0A0T9MNY0 Lipid A palmitoyltransferase PagP n=9 Tax=Y...  215     3e-68
+  UniRef90_UPI000DD399C5 phospholipid:lipid A palmitoyltransferas...  215     3e-68
+  UniRef90_C7BTJ1 Lipid A palmitoyltransferase PagP n=5 Tax=Photo...  215     3e-68
+  UniRef90_A4WC09 Lipid A palmitoyltransferase PagP n=2 Tax=Enter...  214     4e-68
+  UniRef90_R5QMD5 Lipid A palmitoyltransferase PagP n=1 Tax=Prote...  213     6e-68
+  UniRef90_A0A1W6YQJ1 Lipid A palmitoyltransferase PagP n=3 Tax=B...  214     6e-68
+  UniRef90_D6YRF7 Lipid A palmitoyltransferase PagP n=20 Tax=Erwi...  213     8e-68
+  UniRef90_A0A2U3TIJ6 Lipid A palmitoyltransferase PagP n=3 Tax=E...  213     8e-68
+  UniRef90_UPI0001BDD4D5 phospholipid:lipid A palmitoyltransferas...  213     1e-67
+  UniRef90_A0A0L8ENZ4 Lipid A palmitoyltransferase PagP n=1 Tax=A...  212     2e-67
+  UniRef90_A0A1V9DHD3 Lipid A palmitoyltransferase PagP n=1 Tax=P...  212     2e-67
+  UniRef90_A0A157S9N1 Lipid A palmitoyltransferase PagP n=8 Tax=c...  212     2e-67
+  UniRef90_UPI0006489F75 phospholipid:lipid A palmitoyltransferas...  212     2e-67
+  UniRef90_A0A0B1RAS0 Lipid A palmitoyltransferase PagP n=3 Tax=E...  212     3e-67
+  UniRef90_A0A378AJ13 Lipid A palmitoyltransferase PagP n=1 Tax=K...  212     3e-67
+  UniRef90_A0A1B7JER5 Lipid A palmitoyltransferase PagP n=2 Tax=P...  212     3e-67
+  UniRef90_A0A1B2R6J3 Lipid A palmitoyltransferase PagP n=1 Tax=B...  212     3e-67
+  UniRef90_A0A0L7T625 Lipid A palmitoyltransferase PagP n=1 Tax=E...  211     5e-67
+  UniRef90_A0A193G538 Lipid A palmitoyltransferase PagP n=2 Tax=B...  210     6e-67
+  UniRef90_A0A198GJK0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  212     6e-67
+  UniRef90_D6DRS2 Lipid A palmitoyltransferase PagP n=120 Tax=Bac...  211     6e-67
+  UniRef90_A0A0T9Q5V7 Lipid A palmitoyltransferase PagP n=1 Tax=Y...  211     7e-67
+  UniRef90_UPI000D749412 phospholipid:lipid A palmitoyltransferas...  211     7e-67
+  UniRef90_UPI000B9E7769 phospholipid:lipid A palmitoyltransferas...  210     8e-67
+  UniRef90_B4EYA9 Lipid A palmitoyltransferase PagP n=18 Tax=Ente...  211     9e-67
+  UniRef90_A0A0W0Z4X9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  210     2e-66
+  UniRef90_C1D6F2 Lipid A palmitoyltransferase PagP n=2 Tax=Larib...  210     2e-66
+  UniRef90_UPI00076B734E phospholipid:lipid A palmitoyltransferas...  210     2e-66
+  UniRef90_D7DPY2 Lipid A palmitoyltransferase PagP n=2 Tax=Methy...  209     3e-66
+  UniRef90_A0A370R494 Lipid A palmitoyltransferase PagP n=2 Tax=E...  210     3e-66
+  UniRef90_UPI0007881DB9 phospholipid:lipid A palmitoyltransferas...  209     4e-66
+  UniRef90_G2J1C6 Lipid A palmitoyltransferase PagP n=3 Tax=Pseud...  208     5e-66
+  UniRef90_D2T3S6 Lipid A palmitoyltransferase PagP n=3 Tax=Erwin...  208     5e-66
+  UniRef90_A0A0A3YQ61 Lipid A palmitoyltransferase PagP n=2 Tax=E...  208     5e-66
+  UniRef90_A0A2D0JUM7 Lipid A palmitoyltransferase PagP n=2 Tax=X...  209     6e-66
+  UniRef90_UPI000A074268 phospholipid:lipid A palmitoyltransferas...  209     7e-66
+  UniRef90_H0F3E9 Lipid A palmitoyltransferase PagP n=8 Tax=Achro...  208     7e-66
+  UniRef90_A0A2G0Q5W6 Lipid A palmitoyltransferase PagP n=2 Tax=X...  209     9e-66
+  UniRef90_A0A0J6KMF2 Lipid A palmitoyltransferase PagP n=1 Tax=C...  207     1e-65
+  UniRef90_UPI000D74205E phospholipid:lipid A palmitoyltransferas...  207     2e-65
+  UniRef90_B2PYM9 Lipid A palmitoyltransferase PagP n=7 Tax=Gamma...  207     2e-65
+  UniRef90_A0A261TCJ4 Lipid A palmitoyltransferase PagP n=1 Tax=B...  206     3e-65
+  UniRef90_A0A1J5TN15 Lipid A palmitoyltransferase PagP n=1 Tax=m...  206     4e-65
+  UniRef90_W0BJ30 Lipid A palmitoyltransferase PagP n=4 Tax=Legio...  207     4e-65
+  UniRef90_V3PPL8 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  206     5e-65
+  UniRef90_A0A0J6NN41 Lipid A palmitoyltransferase PagP n=8 Tax=C...  206     5e-65
+  UniRef90_A0A0M7E4Y3 Lipid A palmitoyltransferase PagP n=16 Tax=...  206     1e-64
+  UniRef90_UPI00098C543F phospholipid:lipid A palmitoyltransferas...  203     2e-64
+  UniRef90_UPI000EAC2891 phospholipid:lipid A palmitoyltransferas...  204     4e-64
+  UniRef90_A0A2S5L1U6 Lipid A palmitoyltransferase PagP n=1 Tax=M...  203     6e-64
+  UniRef90_A0A364LL92 Lipid A palmitoyltransferase PagP n=2 Tax=L...  203     7e-64
+  UniRef90_C6WX64 Lipid A palmitoyltransferase PagP n=1 Tax=Methy...  203     9e-64
+  UniRef90_A0A0F7D380 Lipid A palmitoyltransferase PagP n=10 Tax=...  203     9e-64
+  UniRef90_A0A378DD60 Lipid A palmitoyltransferase PagP n=6 Tax=K...  200     1e-63
+  UniRef90_A0A261SL55 Lipid A palmitoyltransferase PagP n=1 Tax=B...  202     2e-63
+  UniRef90_A0A2S5M1J9 Lipid A palmitoyltransferase PagP n=4 Tax=M...  201     3e-63
+  UniRef90_A0A0A7RYL0 Lipid A palmitoyltransferase PagP n=2 Tax=F...  201     3e-63
+  UniRef90_A0A1C3K5K4 Lipid A palmitoyltransferase PagP n=1 Tax=O...  201     4e-63
+  UniRef90_A0A1I0CSL9 Lipid A palmitoyltransferase PagP n=2 Tax=T...  202     4e-63
+  UniRef90_UPI0005097FF9 phospholipid:lipid A palmitoyltransferas...  201     8e-63
+  UniRef90_A0A378I5J1 Lipid A palmitoyltransferase PagP n=1 Tax=L...  200     9e-63
+  UniRef90_Q93K12 Lipid A palmitoyltransferase PagP n=20 Tax=Legi...  200     1e-62
+  UniRef90_A0A085U648 Lipid A palmitoyltransferase PagP n=3 Tax=Y...  202     1e-62
+  UniRef90_UPI0005695C05 phospholipid:lipid A palmitoyltransferas...  200     1e-62
+  UniRef90_UPI0009FB9C81 lipid IV(A) palmitoyltransferase PagP n=...  204     1e-62
+  UniRef90_A0A2Y9U1U0 Lipid A palmitoyltransferase PagP n=1 Tax=L...  199     2e-62
+  UniRef90_A0A2X7FPP5 Lipid A palmitoyltransferase PagP n=4 Tax=B...  197     2e-62
+  UniRef90_A0A098FZ60 Lipid A palmitoyltransferase PagP n=1 Tax=L...  200     4e-62
+  UniRef90_A0A2R5F7Y7 Lipid A palmitoyltransferase PagP n=1 Tax=N...  199     4e-62
+  UniRef90_A0A378ICW8 Lipid A palmitoyltransferase PagP n=1 Tax=L...  199     4e-62
+  UniRef90_A0A143I3P9 Lipid A palmitoyltransferase PagP n=3 Tax=E...  198     1e-61
+  UniRef90_A0A3N9QJW7 Lipid IV(A) palmitoyltransferase PagP n=1 T...  197     2e-61
+  UniRef90_A0A378JGV8 Lipid A palmitoyltransferase PagP n=1 Tax=L...  196     3e-61
+  UniRef90_A0A140J0B4 Lipid A palmitoyltransferase PagP n=4 Tax=L...  196     4e-61
+  UniRef90_A0A2T3XG77 Lipid A palmitoyltransferase PagP n=11 Tax=...  196     4e-61
+  UniRef90_B2K0E2 Lipid A palmitoyltransferase PagP n=44 Tax=Yers...  196     5e-61
+  UniRef90_UPI000736C225 lipid IV(A) palmitoyltransferase PagP n=...  194     7e-61
+  UniRef90_Q1H2L0 Lipid A palmitoyltransferase PagP n=1 Tax=Methy...  195     7e-61
+  UniRef90_D2TYX7 Lipid A palmitoyltransferase PagP n=2 Tax=Arsen...  196     8e-61
+  UniRef90_A0A0W0VHH8 Lipid A palmitoyltransferase PagP n=1 Tax=L...  195     1e-60
+  UniRef90_A0A1G1B0M7 Lipid A palmitoyltransferase PagP n=1 Tax=M...  194     1e-60
+  UniRef90_A0A0W0YWN9 Lipid A palmitoyltransferase PagP n=2 Tax=L...  195     1e-60
+  UniRef90_A0A3D5D1N7 Lipid A palmitoyltransferase PagP n=3 Tax=M...  195     2e-60
+  UniRef90_A0A0W0VF36 Lipid A palmitoyltransferase PagP n=2 Tax=L...  195     2e-60
+  UniRef90_A0A261TBQ9 Lipid A palmitoyltransferase PagP n=1 Tax=B...  194     2e-60
+  UniRef90_UPI00035FE77F lipid IV(A) palmitoyltransferase PagP n=...  194     2e-60
+  UniRef90_UPI00093FFCB3 phospholipid:lipid A palmitoyltransferas...  192     3e-60
+  UniRef90_A1JM47 Lipid A palmitoyltransferase PagP n=13 Tax=Yers...  194     3e-60
+  UniRef90_A0A0W0VCP6 Lipid A palmitoyltransferase PagP n=1 Tax=L...  194     5e-60
+  UniRef90_A0A2N2UZ48 Lipid A palmitoyltransferase PagP n=1 Tax=B...  194     5e-60
+  UniRef90_A0A0W1A6A2 Lipid A palmitoyltransferase PagP n=2 Tax=L...  194     5e-60
+  UniRef90_A0A0W0VVK3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  193     5e-60
+  UniRef90_A0A354EXE6 Lipid A palmitoyltransferase PagP n=1 Tax=L...  192     6e-60
+  UniRef90_A0A0T9T8P6 Lipid A palmitoyltransferase PagP n=6 Tax=Y...  194     7e-60
+  UniRef90_A0A261SUX6 Lipid A palmitoyltransferase PagP n=2 Tax=B...  192     1e-59
+  UniRef90_A0A222P6I2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  193     1e-59
+  UniRef90_UPI0009FDAD0B lipid IV(A) palmitoyltransferase PagP n=...  193     1e-59
+  UniRef90_A0A259FRD5 Lipid A palmitoyltransferase PagP n=4 Tax=P...  192     2e-59
+  UniRef90_A0A0W0TKU1 Lipid A palmitoyltransferase PagP n=2 Tax=L...  192     2e-59
+  UniRef90_A0A0T9UF18 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  192     3e-59
+  UniRef90_A0A3D5BCM0 Lipid A palmitoyltransferase PagP n=1 Tax=A...  191     4e-59
+  UniRef90_UPI0002E3693F phospholipid:lipid A palmitoyltransferas...  190     4e-59
+  UniRef90_A0A258M2Q5 Lipid A palmitoyltransferase PagP n=5 Tax=B...  191     4e-59
+  UniRef90_A0A0W0UIT5 Lipid A palmitoyltransferase PagP n=1 Tax=L...  190     7e-59
+  UniRef90_A0A0W0Y9K4 Lipid A palmitoyltransferase PagP n=6 Tax=L...  192     9e-59
+  UniRef90_A0A0A8UKE2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  190     1e-58
+  UniRef90_A0A1G5E9P8 Lipid A palmitoyltransferase PagP n=3 Tax=L...  190     1e-58
+  UniRef90_A0A098GA89 Lipid A palmitoyltransferase PagP n=1 Tax=T...  190     1e-58
+  UniRef90_A0A209A3F1 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  190     1e-58
+  UniRef90_A0A0B6FP39 Lipid A palmitoyltransferase PagP n=6 Tax=Y...  190     1e-58
+  UniRef90_UPI000465B399 phospholipid:lipid A palmitoyltransferas...  189     2e-58
+  UniRef90_A0A078KSV0 Lipid A palmitoyltransferase PagP n=2 Tax=L...  191     2e-58
+  UniRef90_A0A2H9SFG1 Lipid A palmitoyltransferase PagP n=1 Tax=L...  189     2e-58
+  UniRef90_UPI0006CEA338 lipid IV(A) palmitoyltransferase PagP n=...  189     3e-58
+  UniRef90_A0A0T9NWA5 Lipid A palmitoyltransferase PagP n=3 Tax=Y...  189     3e-58
+  UniRef90_A0A2A3KP86 Lipid A palmitoyltransferase PagP n=3 Tax=E...  189     3e-58
+  UniRef90_UPI00064624DF lipid IV(A) palmitoyltransferase PagP n=...  188     4e-58
+  UniRef90_A0A1G3CV01 Lipid A palmitoyltransferase PagP n=4 Tax=P...  188     6e-58
+  UniRef90_A0A377G647 Lipid A palmitoyltransferase PagP n=1 Tax=F...  190     6e-58
+  UniRef90_A0A0A2T4X2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  188     6e-58
+  UniRef90_C7RSV8 Lipid A palmitoyltransferase PagP n=1 Tax=Accum...  188     7e-58
+  UniRef90_A0A0W0SNK2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  188     8e-58
+  UniRef90_A0A0W0R1B9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  187     9e-58
+  UniRef90_A0A2U8I5D9 Lipid A palmitoyltransferase PagP n=1 Tax=C...  188     9e-58
+  UniRef90_A0A3M0STB5 Lipid IV(A) palmitoyltransferase PagP n=3 T...  187     1e-57
+  UniRef90_A0A1T4VM38 Lipid A palmitoyltransferase PagP n=2 Tax=S...  187     1e-57
+  UniRef90_UPI000566EAA4 phospholipid:lipid A palmitoyltransferas...  187     1e-57
+  UniRef90_A0A1Q3VP48 Lipid A palmitoyltransferase PagP n=1 Tax=C...  187     1e-57
+  UniRef90_D3HNB4 Lipid A palmitoyltransferase PagP n=1 Tax=Legio...  189     1e-57
+  UniRef90_A0A378KPG5 Lipid A palmitoyltransferase PagP n=1 Tax=L...  187     2e-57
+  UniRef90_A0A378JUI6 Lipid A palmitoyltransferase PagP n=2 Tax=L...  187     2e-57
+  UniRef90_G5PZL7 Lipid A palmitoyltransferase PagP n=1 Tax=Salmo...  186     2e-57
+  UniRef90_A0A378IZ67 Lipid A palmitoyltransferase PagP n=1 Tax=L...  188     3e-57
+  UniRef90_A0A0F3K5F6 Lipid A palmitoyltransferase PagP n=1 Tax=A...  186     3e-57
+  UniRef90_UPI0007306E88 phospholipid:lipid A palmitoyltransferas...  186     3e-57
+  UniRef90_A0A2R4XKX0 Lipid A palmitoyltransferase PagP n=1 Tax=B...  185     7e-57
+  UniRef90_A0A2N2S8H5 Lipid A palmitoyltransferase PagP n=1 Tax=B...  185     9e-57
+  UniRef90_A0A353Y1V7 Lipid A palmitoyltransferase PagP n=1 Tax=C...  184     1e-56
+  UniRef90_UPI000F8D50B2 UPI000F8D50B2 related cluster n=1 Tax=un...  185     1e-56
+  UniRef90_A0A0W0U5M3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  184     2e-56
+  UniRef90_A0A2H9SIF6 Lipid A palmitoyltransferase PagP n=1 Tax=L...  184     2e-56
+  UniRef90_F0EX06 Lipid A palmitoyltransferase PagP n=2 Tax=Kinge...  184     5e-56
+  UniRef90_R5Y8W6 Lipid A palmitoyltransferase PagP n=2 Tax=Aceto...  183     6e-56
+  UniRef90_A0A2Z3KJ65 Lipid A palmitoyltransferase PagP n=1 Tax=L...  184     7e-56
+  UniRef90_UPI00056AF694 phospholipid:lipid A palmitoyltransferas...  182     9e-56
+  UniRef90_C4SEV4 Lipid A palmitoyltransferase PagP n=5 Tax=Yersi...  183     1e-55
+  UniRef90_UPI00067C793A hypothetical protein n=1 Tax=Herbaspiril...  182     2e-55
+  UniRef90_UPI0009B903F1 lipid IV(A) palmitoyltransferase PagP n=...  185     2e-55
+  UniRef90_G9EJV4 Lipid A palmitoyltransferase PagP n=1 Tax=Legio...  182     2e-55
+  UniRef90_A0A378Z1M8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  182     4e-55
+  UniRef90_A0A0W1AER4 Lipid A palmitoyltransferase PagP n=1 Tax=L...  180     1e-54
+  UniRef90_D8IS40 Lipid A palmitoyltransferase PagP n=5 Tax=Herba...  180     2e-54
+  UniRef90_A0A038GR42 Lipid A palmitoyltransferase PagP n=1 Tax=C...  179     2e-54
+  UniRef90_A0A378LCT8 Lipid A palmitoyltransferase PagP n=2 Tax=L...  179     2e-54
+  UniRef90_A0A0T7NZH5 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  180     2e-54
+  UniRef90_UPI0006DC12F4 phospholipid:lipid A palmitoyltransferas...  178     2e-54
+  UniRef90_A0A1N7RZN5 Lipid A palmitoyltransferase PagP n=4 Tax=P...  179     3e-54
+  UniRef90_R7X3Y3 Lipid A palmitoyltransferase PagP n=2 Tax=Pando...  180     4e-54
+  UniRef90_A0A1Q4CN43 Lipid A palmitoyltransferase PagP n=2 Tax=P...  178     4e-54
+  UniRef90_UPI00056E132F lipid IV(A) palmitoyltransferase PagP n=...  178     6e-54
+  UniRef90_A0A378YXB2 Lipid A palmitoyltransferase PagP n=5 Tax=B...  179     6e-54
+  UniRef90_A0A0X8GPS7 Lipid A palmitoyltransferase PagP n=4 Tax=B...  178     7e-54
+  UniRef90_A0A238D636 Lipid A palmitoyltransferase PagP n=1 Tax=T...  178     7e-54
+  UniRef90_A0A1Q4DPN4 Lipid A palmitoyltransferase PagP n=1 Tax=L...  178     8e-54
+  UniRef90_A0A378DIJ2 Lipid A palmitoyltransferase PagP n=1 Tax=K...  175     1e-53
+  UniRef90_A0A1Q6U8J5 Lipid A palmitoyltransferase PagP n=1 Tax=A...  176     1e-53
+  UniRef90_A0A318JJP3 Lipid A palmitoyltransferase PagP n=1 Tax=A...  177     2e-53
+  UniRef90_UPI0004B41A5E hypothetical protein n=1 Tax=Herbaspiril...  177     2e-53
+  UniRef90_A0A354JX29 Lipid A palmitoyltransferase PagP n=1 Tax=A...  176     2e-53
+  UniRef90_A0A238DRQ0 Lipid A palmitoyltransferase PagP n=3 Tax=r...  177     2e-53
+  UniRef90_A0A239SMN7 Lipid A palmitoyltransferase PagP n=2 Tax=P...  179     2e-53
+  UniRef90_E0WSH7 Lipid A palmitoyltransferase PagP n=1 Tax=Candi...  176     3e-53
+  UniRef90_UPI0009F71B2D lipid IV(A) palmitoyltransferase PagP n=...  178     3e-53
+  UniRef90_A0A109E1R4 Lipid A palmitoyltransferase PagP n=2 Tax=B...  176     6e-53
+  UniRef90_A0A1F4BB59 Lipid A palmitoyltransferase PagP n=1 Tax=B...  175     6e-53
+  UniRef90_K8R5V6 Lipid A palmitoyltransferase PagP n=3 Tax=Burkh...  175     8e-53
+  UniRef90_UPI0004800599 lipid IV(A) palmitoyltransferase PagP n=...  175     1e-52
+  UniRef90_A0A0B3SC61 Lipid A palmitoyltransferase PagP n=1 Tax=P...  174     1e-52
+  UniRef90_A0A1L6I1F2 Lipid A palmitoyltransferase PagP n=2 Tax=P...  174     2e-52
+  UniRef90_UPI000E09B059 lipid IV(A) palmitoyltransferase PagP n=...  174     2e-52
+  UniRef90_A0A0S1YBA4 Lipid A palmitoyltransferase PagP n=2 Tax=A...  174     2e-52
+  UniRef90_A0A0K2B841 Lipid A palmitoyltransferase PagP n=1 Tax=H...  175     2e-52
+  UniRef90_A0A0C5IY11 Lipid A palmitoyltransferase PagP n=1 Tax=R...  174     2e-52
+  UniRef90_A0A158ARY6 Lipid A palmitoyltransferase PagP n=2 Tax=C...  174     2e-52
+  UniRef90_A0A157ZV77 Lipid A palmitoyltransferase PagP n=1 Tax=C...  174     2e-52
+  UniRef90_A0A231UBQ7 Lipid A palmitoyltransferase PagP n=4 Tax=P...  176     2e-52
+  UniRef90_A0A1E3LEF6 Lipid A palmitoyltransferase PagP n=2 Tax=P...  174     3e-52
+  UniRef90_UPI0003706382 hypothetical protein n=1 Tax=Chitiniphil...  174     4e-52
+  UniRef90_A0A2E7PAP3 Lipid A palmitoyltransferase PagP n=3 Tax=H...  174     4e-52
+  UniRef90_A0A0E3YB31 Lipid A palmitoyltransferase PagP n=2 Tax=P...  173     4e-52
+  UniRef90_A0A0K9JXQ1 Lipid A palmitoyltransferase PagP n=1 Tax=C...  174     5e-52
+  UniRef90_A0A378L454 Lipid A palmitoyltransferase PagP n=1 Tax=L...  175     5e-52
+  UniRef90_A0A158FDA6 Lipid A palmitoyltransferase PagP n=4 Tax=B...  173     6e-52
+  UniRef90_A0A1G0XI06 Lipid A palmitoyltransferase PagP n=1 Tax=L...  173     8e-52
+  UniRef90_A0A0W0XMH7 Lipid A palmitoyltransferase PagP n=4 Tax=L...  172     9e-52
+  UniRef90_A0A0W0RTS1 Lipid A palmitoyltransferase PagP n=2 Tax=L...  174     1e-51
+  UniRef90_A0A0W0ZKU7 Lipid A palmitoyltransferase PagP n=2 Tax=L...  174     1e-51
+  UniRef90_I3CRL8 Lipid A palmitoyltransferase PagP n=1 Tax=Herba...  173     1e-51
+  UniRef90_A0A060NVV1 Lipid A palmitoyltransferase PagP n=4 Tax=B...  172     2e-51
+  UniRef90_A0A0W0SCS3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  172     2e-51
+  UniRef90_UPI000F76547A phospholipid:lipid A palmitoyltransferas...  171     3e-51
+  UniRef90_A0A336ITC0 Lipid A palmitoyltransferase PagP n=1 Tax=K...  170     4e-51
+  UniRef90_A0A157ZVL8 Lipid A palmitoyltransferase PagP n=1 Tax=C...  170     5e-51
+  UniRef90_A0A1W1X3S0 Lipid A palmitoyltransferase PagP n=1 Tax=A...  170     6e-51
+  UniRef90_UPI0009DF7345 lipid IV(A) palmitoyltransferase PagP n=...  171     6e-51
+  UniRef90_UPI000D35A386 lipid IV(A) palmitoyltransferase PagP n=...  170     6e-51
+  UniRef90_A0A377GEJ2 Lipid A palmitoyltransferase PagP n=2 Tax=L...  172     8e-51
+  UniRef90_G2GX85 Lipid A palmitoyltransferase PagP (Fragment) n=...  169     1e-50
+  UniRef90_A0A378LLS9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  171     1e-50
+  UniRef90_A0A0U2XUV9 Lipid A palmitoyltransferase PagP n=2 Tax=B...  171     1e-50
+  UniRef90_UPI0002C98C27 phospholipid:lipid A palmitoyltransferas...  167     2e-50
+  UniRef90_A0A158C2L3 Lipid A palmitoyltransferase PagP n=3 Tax=B...  169     2e-50
+  UniRef90_A0A1H2PV98 Lipid A palmitoyltransferase PagP n=1 Tax=B...  169     3e-50
+  UniRef90_A0A225SR18 Lipid A palmitoyltransferase PagP n=1 Tax=H...  169     3e-50
+  UniRef90_A0A259P197 Lipid A palmitoyltransferase PagP n=1 Tax=T...  169     3e-50
+  UniRef90_A0A376JDC8 Lipid A palmitoyltransferase PagP n=3 Tax=E...  166     4e-50
+  UniRef90_UPI0009FB3CD5 hypothetical protein n=1 Tax=Herbaspiril...  169     4e-50
+  UniRef90_A0A0H3X1W5 Lipid A palmitoyltransferase PagP n=2 Tax=P...  168     5e-50
+  UniRef90_A0A0U3K8T8 Lipid A palmitoyltransferase PagP n=8 Tax=H...  168     7e-50
+  UniRef90_A0A1D9BGH5 Lipid A palmitoyltransferase PagP n=1 Tax=J...  167     1e-49
+  UniRef90_A0A1V2VKB1 Lipid A palmitoyltransferase PagP n=3 Tax=H...  167     1e-49
+  UniRef90_A0A246WMY9 Lipid A palmitoyltransferase PagP n=1 Tax=H...  167     2e-49
+  UniRef90_A0A0C2CIK2 Lipid A palmitoyltransferase PagP n=2 Tax=B...  166     2e-49
+  UniRef90_A0A0N0GPB3 Lipid A palmitoyltransferase PagP n=1 Tax=A...  166     2e-49
+  UniRef90_A0A0L0M850 Lipid A palmitoyltransferase PagP n=1 Tax=C...  166     3e-49
+  UniRef90_A0A0W0ZT67 Lipid A palmitoyltransferase PagP n=1 Tax=L...  167     3e-49
+  UniRef90_A0A318J616 Lipid A palmitoyltransferase PagP n=1 Tax=U...  166     5e-49
+  UniRef90_UPI0004DFA76B lipid IV(A) palmitoyltransferase PagP n=...  165     7e-49
+  UniRef90_J3D935 Lipid A palmitoyltransferase PagP n=6 Tax=Herba...  164     1e-48
+  UniRef90_A0A2X2T3X6 Lipid A palmitoyltransferase PagP n=1 Tax=C...  164     1e-48
+  UniRef90_A0A158DLP1 Lipid A palmitoyltransferase PagP n=1 Tax=C...  164     2e-48
+  UniRef90_A0A238DV90 Lipid A palmitoyltransferase PagP n=1 Tax=T...  164     2e-48
+  UniRef90_A0A127QEG0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  164     2e-48
+  UniRef90_UPI0009DBC4B4 hypothetical protein n=1 Tax=Thiomonas s...  165     2e-48
+  UniRef90_UPI0005A6ACF4 antimicrobial peptide resistance and lip...  164     3e-48
+  UniRef90_A0A0K6I385 Lipid A palmitoyltransferase PagP n=2 Tax=T...  163     3e-48
+  UniRef90_J3HV08 Lipid A palmitoyltransferase PagP n=1 Tax=Herba...  163     7e-48
+  UniRef90_A0A1G8MB62 LPS-assembly protein LptD (Fragment) n=2 Ta...  175     1e-47
+  UniRef90_G0A8E6 Lipid A palmitoyltransferase PagP n=11 Tax=Coll...  162     1e-47
+  UniRef90_A0A1H3GFP5 Lipid A palmitoyltransferase PagP n=2 Tax=C...  162     1e-47
+  UniRef90_W1FWG1 Lipid A palmitoyltransferase PagP n=1 Tax=Esche...  160     2e-47
+  UniRef90_A0A2N7VNY4 Lipid A palmitoyltransferase PagP n=1 Tax=B...  162     2e-47
+  UniRef90_UPI0003FA0270 hypothetical protein n=1 Tax=Chitinilyti...  161     3e-47
+  UniRef90_A0A2T6F068 Lipid A palmitoyltransferase PagP n=1 Tax=G...  161     5e-47
+  UniRef90_UPI000E6BB343 hypothetical protein n=1 Tax=Herbaspiril...  159     6e-47
+  UniRef90_A0A352C687 Lipid A palmitoyltransferase PagP n=1 Tax=L...  159     1e-46
+  UniRef90_D6CLK0 Lipid A palmitoyltransferase PagP n=9 Tax=Thiom...  159     1e-46
+  UniRef90_UPI00054D3835 hypothetical protein n=1 Tax=Andreprevot...  158     4e-46
+  UniRef90_A0A1J5R878 Lipid A palmitoyltransferase PagP n=1 Tax=m...  157     9e-46
+  UniRef90_A0A158M3N5 Lipid A palmitoyltransferase PagP n=1 Tax=B...  156     1e-45
+  UniRef90_UPI000A321DBB phospholipid:lipid A palmitoyltransferas...  155     2e-45
+  UniRef90_A0A0A1F565 Lipid A palmitoyltransferase PagP n=1 Tax=C...  157     2e-45
+  UniRef90_A0A1H8JPR1 Lipid A palmitoyltransferase PagP n=1 Tax=B...  156     3e-45
+  UniRef90_UPI0008077073 antimicrobial peptide resistance and lip...  156     4e-45
+  UniRef90_A0A358L357 Lipid A palmitoyltransferase PagP (Fragment...  152     4e-45
+  UniRef90_UPI0008F950D9 phospholipid:lipid A palmitoyltransferas...  153     9e-45
+  UniRef90_A0A257P057 Lipid A palmitoyltransferase PagP n=1 Tax=T...  154     1e-44
+  UniRef90_A0A1G0X262 Lipid A palmitoyltransferase PagP n=1 Tax=L...  150     1e-43
+  UniRef90_A0A3P8KBL4 Lipid A palmitoyltransferase PagP n=1 Tax=R...  148     3e-43
+  UniRef90_UPI000F887601 hypothetical protein n=1 Tax=Undibacteri...  151     3e-43
+  UniRef90_A0A368L0N4 Lipid A palmitoyltransferase PagP n=1 Tax=P...  153     3e-43
+  UniRef90_A0A239HHS1 Lipid A palmitoyltransferase PagP n=1 Tax=N...  150     8e-43
+  UniRef90_UPI0002D6DD5A hypothetical protein n=1 Tax=Noviherbasp...  150     8e-43
+  UniRef90_G2J807 Lipid A palmitoyltransferase PagP n=1 Tax=Candi...  149     1e-42
+  UniRef90_A0A354DPE8 Lipid A palmitoyltransferase PagP (Fragment...  146     2e-42
+  UniRef90_UPI000CC8D39B hypothetical protein n=1 Tax=Escherichia...  145     4e-42
+  UniRef90_A0A2Z6ETQ9 Lipid A palmitoyltransferase PagP n=2 Tax=B...  148     4e-42
+  UniRef90_UPI000806B286 phospholipid:lipid A palmitoyltransferas...  146     4e-42
+  UniRef90_UPI00054E49BB hypothetical protein n=1 Tax=Herminiimon...  147     6e-42
+  UniRef90_UPI00068FAFDB hypothetical protein n=1 Tax=Campylobact...  145     2e-41
+  UniRef90_UPI000F7BFE4E hypothetical protein n=1 Tax=Undibacteri...  145     9e-41
+  UniRef90_A0A2S9H1D3 Lipid A palmitoyltransferase PagP n=1 Tax=S...  144     2e-40
+  UniRef90_A0A353HSN1 Lipid A palmitoyltransferase PagP n=2 Tax=M...  144     2e-40
+  UniRef90_A0A3P8L0U7 Lipid A palmitoyltransferase PagP n=1 Tax=R...  140     4e-40
+  UniRef90_A0A222MYY0 Lipid A palmitoyltransferase PagP n=2 Tax=C...  142     7e-40
+  UniRef90_F1W092 Lipid A palmitoyltransferase PagP n=1 Tax=Oxalo...  142     8e-40
+  UniRef90_R7KIY6 Lipid A palmitoyltransferase PagP n=1 Tax=Sutte...  147     2e-39
+  UniRef90_UPI000A05C015 hypothetical protein n=1 Tax=Massilia ni...  142     2e-39
+  UniRef90_A0A0J2F2S1 Lipid A palmitoyltransferase PagP n=6 Tax=E...  137     8e-39
+  UniRef90_A0A378CCV9 Lipid A palmitoyltransferase PagP n=1 Tax=K...  136     1e-38
+  UniRef90_A0A376V402 Lipid A palmitoyltransferase PagP n=11 Tax=...  136     1e-38
+  UniRef90_A0A2J0PEC9 Lipid A palmitoyltransferase PagP (Fragment...  136     2e-38
+  UniRef90_A0A329ZVX0 Lipid A palmitoyltransferase PagP n=1 Tax=H...  138     2e-38
+  UniRef90_A0A2W4LWD8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  138     3e-38
+  UniRef90_A0A356F5S7 Lipid A palmitoyltransferase PagP (Fragment...  136     5e-38
+  UniRef90_A0A350CY04 Lipid A palmitoyltransferase PagP n=6 Tax=P...  142     1e-37
+  UniRef90_A0A0W0V4A9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  130     3e-36
+  UniRef90_R7C0K4 Lipid A palmitoyltransferase PagP n=2 Tax=Sutte...  138     3e-36
+  UniRef90_A0A272EWI4 Lipid A palmitoyltransferase PagP n=1 Tax=C...  133     4e-36
+  UniRef90_A0A350CLT6 Lipid A palmitoyltransferase PagP n=2 Tax=M...  133     4e-36
+  UniRef90_A0A376X355 Lipid A palmitoyltransferase PagP n=1 Tax=E...  129     2e-35
+  UniRef90_A0A376F277 Lipid A palmitoyltransferase PagP n=1 Tax=E...  128     3e-35
+  UniRef90_G4M3Y2 Lipid A palmitoyltransferase PagP n=1 Tax=Candi...  126     2e-34
+  UniRef90_A0A379H2N8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  125     4e-34
+  UniRef90_A0A1C7HI29 Lipid A palmitoyltransferase PagP n=2 Tax=B...  132     5e-34
+  UniRef90_H3KD21 Lipid A palmitoyltransferase PagP n=1 Tax=Sutte...  132     8e-34
+  UniRef90_A0A259QDL6 Lipid A palmitoyltransferase PagP (Fragment...  122     9e-33
+  UniRef90_UPI000CFF46D9 phospholipid:lipid A palmitoyltransferas...  122     1e-32
+  UniRef90_A0A212HAI0 Lipid A palmitoyltransferase PagP n=4 Tax=E...  120     2e-32
+  UniRef90_A0A3N5JHK1 Uncharacterized protein n=1 Tax=Xanthomonad...  128     4e-32
+  UniRef90_UPI0009AD0B82 lipid IV(A) palmitoyltransferase PagP n=...  118     1e-31
+  UniRef90_A0A2Z6I7T3 Lipid A palmitoyltransferase PagP n=1 Tax=S...  126     1e-31
+  UniRef90_A0A3C2BND4 Lipid A palmitoyltransferase PagP (Fragment...  117     1e-31
+  UniRef90_UPI0009835227 phospholipid:lipid A palmitoyltransferas...  117     2e-31
+  UniRef90_E7H3Q4 Lipid A palmitoyltransferase PagP n=3 Tax=Sutte...  125     3e-31
+  UniRef90_A0A158BLM0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  118     3e-31
+  UniRef90_K1JSD3 Lipid A palmitoyltransferase PagP n=2 Tax=Sutte...  125     4e-31
+  UniRef90_UPI000CF79243 hypothetical protein n=1 Tax=Escherichia...  117     5e-31
+  UniRef90_E9CMS1 Lipid A palmitoyltransferase PagP (Fragment) n=...  115     5e-30
+  UniRef90_A0A2X1J9V3 Lipid A palmitoyltransferase PagP n=1 Tax=E...  113     1e-29
+  UniRef90_UPI000C71B1FE uncharacterized protein LOC111686813 n=1...  112     6e-29
+  UniRef90_UPI000E4A1A12 hypothetical protein n=1 Tax=Sutterella ...  116     7e-28
+  UniRef90_A0A376V4N5 Lipid A palmitoyltransferase PagP n=4 Tax=E...  108     8e-28
+  UniRef90_UPI000E08D27C hypothetical protein n=1 Tax=Polynucleob...  108     2e-27
+  UniRef90_A0A389MDH7 Lipid A palmitoyltransferase PagP n=1 Tax=E...  102     1e-25
+  UniRef90_A0A378DSG5 Lipid A palmitoyltransferase PagP n=1 Tax=K...  103     2e-25
+  UniRef90_UPI00092EE354 hypothetical protein n=1 Tax=Type-D symb...  102     3e-25
+  UniRef90_A0A1J5PLN2 Lipid A palmitoyltransferase PagP n=1 Tax=m...  101     4e-25
+  UniRef90_A0A1A8XGC5 LPS-assembly protein LptD n=1 Tax=Candidatu...  110     5e-25
+  UniRef90_A0A388SA50 Lipid A palmitoyltransferase PagP n=4 Tax=S...  105     8e-24
+  UniRef90_I6H831 Lipid A palmitoyltransferase PagP n=1 Tax=Shige...  98.1    3e-23
+  UniRef90_A0A356F5J8 Lipid A palmitoyltransferase PagP (Fragment...  95.8    5e-23
+  UniRef90_A0A069PHT9 Lipid A palmitoyltransferase PagP n=1 Tax=C...  97.4    7e-23
+  UniRef90_A0A2I6QJA9 Lipid A acylation protein PagP n=1 Tax=uncu...  94.3    4e-22
+  UniRef90_UPI000B8E348C hypothetical protein n=1 Tax=Thiomonas d...  96.2    5e-22
+  UniRef90_C5B8U6 Lipid A palmitoyltransferase PagP n=1 Tax=Edwar...  88.1    3e-20
+  UniRef90_UPI0009ACA246 lipid IV(A) palmitoyltransferase PagP n=...  86.6    1e-19
+  UniRef90_A0A259QMU8 Lipid A palmitoyltransferase PagP n=3 Tax=r...  86.2    3e-19
+  UniRef90_A0A2X7I9I4 Subunit of palmitoyl transferase for Lipid ...  85.0    6e-19
+  UniRef90_A0A378CDL2 Lipid A palmitoyltransferase PagP n=3 Tax=K...  79.3    2e-16
+  UniRef90_A0A378BVV1 Lipid A palmitoyltransferase PagP n=3 Tax=K...  78.9    2e-16
+  UniRef90_A0A238D3V9 Lipid A palmitoyltransferase PagP n=2 Tax=T...  78.9    2e-16
+  UniRef90_UPI000E08FAB3 hypothetical protein n=1 Tax=Polynucleob...  77.7    4e-16
+  UniRef90_UPI0009B911B5 hypothetical protein n=1 Tax=Xenorhabdus...  75.0    8e-15
+  UniRef90_A0A2J0QQC3 Lipid A palmitoyltransferase PagP (Fragment...  70.4    2e-13
+  UniRef90_A0A364UKU1 Phospholipid:lipid A palmitoyltransferase (...  66.5    5e-12
+  UniRef90_A0A077PF68 Lipid A palmitoyltransferase PagP n=2 Tax=X...  66.2    1e-11
+  UniRef90_G5PZL8 Lipid A palmitoyltransferase PagP n=3 Tax=Enter...  65.0    2e-11
+  UniRef90_A0A2X3ETY1 Lipid A palmitoyltransferase PagP n=2 Tax=K...  61.5    6e-10
+  UniRef90_A0A0A0F9V0 Lipid A palmitoyltransferase PagP n=3 Tax=E...  58.8    5e-09
+  UniRef90_A0A370YZH6 Phospholipid:lipid A palmitoyltransferase (...  56.9    6e-08
+  UniRef90_UPI000DDE2E7B hypothetical protein n=1 Tax=Escherichia...  35.0    5.6  
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A158ISV2 Lipid A palmitoyltransferase PagP n=1 Tax=C...  110     1e-27
+  UniRef90_A0A0K9JRP0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  103     3e-25
+  UniRef90_A0A2I7N3L9 Lipid A palmitoyltransferase PagP n=1 Tax=N...  80.4    1e-15
+  UniRef90_A0A158JEK0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  70.4    8e-13
+  UniRef90_A0A3B1BQM4 Uncharacterized protein n=1 Tax=hydrotherma...  63.5    2e-09
+  UniRef90_A0A0S7ZZY8 Lipid A palmitoyltransferase PagP n=1 Tax=G...  63.1    2e-09
+  UniRef90_A0A2D6IWI6 Lipid A palmitoyltransferase PagP n=1 Tax=C...  61.5    6e-09
+  UniRef90_A0A1B4VBZ9 Lipid A palmitoyltransferase PagP n=1 Tax=S...  61.9    7e-09
+  UniRef90_A0A3B1ADF2 Uncharacterized protein n=1 Tax=hydrotherma...  61.1    1e-08
+  UniRef90_A0A3B1BB35 Uncharacterized protein n=1 Tax=hydrotherma...  60.8    2e-08
+  UniRef90_A0A3B1ASQ5 Uncharacterized protein n=1 Tax=hydrotherma...  60.4    2e-08
+  UniRef90_A0A2S5GYL1 Lipid A palmitoyltransferase PagP n=2 Tax=A...  60.4    1e-07
+  UniRef90_A0A3B1AG58 Uncharacterized protein n=1 Tax=hydrotherma...  58.5    1e-07
+  UniRef90_A0A193LI71 Lipid A palmitoyltransferase PagP n=1 Tax=W...  55.4    2e-06
+  UniRef90_A0A2A4RXM2 Lipid A palmitoyltransferase PagP n=2 Tax=T...  55.0    3e-06
+  UniRef90_A0A1F6U1M6 Lipid A palmitoyltransferase PagP n=1 Tax=C...  54.2    3e-06
+  UniRef90_A0A158BKM7 Uncharacterized protein n=2 Tax=Burkholderi...  51.9    5e-06
+  UniRef90_A0A1B4XI23 Lipid A palmitoyltransferase PagP n=2 Tax=S...  53.4    6e-06
+  UniRef90_A0A3B0XYS4 Uncharacterized protein (Fragment) n=1 Tax=...  54.2    7e-06
+  UniRef90_A0A077MYB4 Lipid A palmitoyltransferase PagP n=2 Tax=X...  50.0    2e-05
+  UniRef90_A0A3B1BMT1 Uncharacterized protein n=1 Tax=hydrotherma...  51.5    3e-05
+  UniRef90_I6NRN1 Palmitoyltransferase n=2 Tax=Bcep22virus TaxID=...  50.7    5e-05
+  UniRef90_UPI0009FAAA27 hypothetical protein n=1 Tax=Burkholderi...  50.0    7e-05
+  UniRef90_A0A2T6DMN1 Uncharacterized protein n=1 Tax=Opitutaceae...  50.0    1e-04
+  UniRef90_UPI0005A6872A hypothetical protein n=1 Tax=Paraburkhol...  49.2    2e-04
+  UniRef90_UPI0003739B1E hypothetical protein n=1 Tax=Thioalkaliv...  48.8    3e-04
+  UniRef90_UPI0003449042 hypothetical protein n=1 Tax=Paraburkhol...  48.4    4e-04
+  UniRef90_A0A3B1BP07 Uncharacterized protein n=1 Tax=hydrotherma...  48.1    6e-04
+  UniRef90_A0A2G2G1U7 Lipid A palmitoyltransferase PagP n=1 Tax=A...  47.7    0.001
+  UniRef90_A0A261E278 Lipid A palmitoyltransferase PagP n=6 Tax=A...  46.9    0.002
+  UniRef90_A0A0S4TXD8 Uncharacterized protein n=1 Tax=Ralstonia s...  44.6    0.002
+  UniRef90_A0A254VKC3 Uncharacterized protein n=1 Tax=Xenophilus ...  46.1    0.003
+  UniRef90_A0A291U3J7 Lipid A palmitoyltransferase PagP n=4 Tax=A...  45.0    0.009
+  UniRef90_UPI00069E818C hypothetical protein n=1 Tax=Erwinia bil...  43.0    0.016
+  UniRef90_A0A3M0RYH5 Uncharacterized protein n=2 Tax=Aquitalea T...  43.8    0.022
+  UniRef90_A0A0X8WPL7 Uncharacterized protein n=1 Tax=Ralstonia p...  43.4    0.028
+  UniRef90_A0A345Y940 Lipid A palmitoyltransferase PagP n=1 Tax=C...  43.4    0.028
+  UniRef90_A0A1H6LL73 Lipid A palmitoyltransferase PagP n=1 Tax=P...  43.0    0.031
+  UniRef90_UPI0006627021 hypothetical protein n=1 Tax=Ralstonia s...  43.0    0.038
+  UniRef90_B2ZXN9 Uncharacterized protein n=1 Tax=Ralstonia phage...  43.8    0.040
+  UniRef90_A0A254VHL3 Lipid A palmitoyltransferase PagP n=2 Tax=B...  41.5    0.16 
+  UniRef90_A0A2H9U7V5 Lipid A palmitoyltransferase PagP n=1 Tax=A...  41.5    0.16 
+  UniRef90_A0A1L7DS28 Putative PagP-like protein n=1 Tax=Ralstoni...  41.1    0.20 
+  UniRef90_A0A2K3J3L8 Uncharacterized protein n=1 Tax=Thermoplasm...  40.0    0.43 
+  UniRef90_UPI000D3E5418 hypothetical protein n=1 Tax=Polynucleob...  40.0    0.47 
+  UniRef90_A0A1U7WHB0 uncharacterized protein LOC104223827 n=1 Ta...  40.7    0.50 
+  UniRef90_A0A3M1VAK7 Uncharacterized protein n=1 Tax=Euryarchaeo...  38.0    0.51 
+  UniRef90_A2SNF9 Uncharacterized protein n=1 Tax=Methylibium pet...  39.6    0.62 
+  UniRef90_A0A2U1NVD8 Glycine-rich protein n=2 Tax=Artemisia annu...  40.3    0.65 
+  UniRef90_A0A2S9X3M8 Uncharacterized protein n=1 Tax=Chromobacte...  39.6    0.70 
+  UniRef90_UPI00076148C5 T9SS type A sorting domain-containing pr...  40.3    0.76 
+  UniRef90_A0A158L033 Uncharacterized protein n=1 Tax=Caballeroni...  38.0    0.83 
+  UniRef90_A0A2S9X954 Uncharacterized protein n=2 Tax=Chromobacte...  39.2    0.85 
+  UniRef90_A0A1Y5I2J9 Uncharacterized protein n=1 Tax=Oleispira a...  40.0    1.2  
+  UniRef90_UPI000F7515A7 hypothetical protein n=1 Tax=Iodobacter ...  38.4    1.7  
+  UniRef90_A0A347A643 Lipid A palmitoyltransferase PagP n=1 Tax=A...  38.4    1.8  
+  UniRef90_H1SDY5 Uncharacterized protein n=2 Tax=Cupriavidus bas...  38.4    2.0  
+  UniRef90_A0A3P1SSG8 Uncharacterized protein n=1 Tax=Amphritea b...  38.0    2.3  
+  UniRef90_A0A0C4YCN9 Uncharacterized protein n=1 Tax=Cupriavidus...  38.0    2.5  
+  UniRef90_A0A068NYU9 Copper amine oxidase domain protein n=1 Tax...  38.4    2.8  
+  UniRef90_R4YJT6 AcrB/AcrD/AcrF family cation efflux protein n=1...  38.8    3.1  
+  UniRef90_UPI000F898265 lactoylglutathione lyase n=1 Tax=Aliidio...  37.7    3.2  
+  UniRef90_A0A1G4BJS2 Daunorubicin C-13 ketoreductase n=1 Tax=Col...  38.4    3.5  
+  UniRef90_A0A2V2RI54 Uncharacterized protein n=1 Tax=Acidobacter...  37.7    3.5  
+  UniRef90_A0A0Q0XV94 Septum formation initiator n=3 Tax=Nonlaben...  36.5    3.5  
+  UniRef90_A0A2V5KDY1 Uncharacterized protein n=1 Tax=Verrucomicr...  38.4    3.6  
+  UniRef90_A0A3N9QG78 Uncharacterized protein n=1 Tax=Rhodobacter...  37.3    4.0  
+  UniRef90_UPI000A03F832 hypothetical protein n=1 Tax=Aeromonas s...  37.3    4.3  
+  UniRef90_A0A344UNF2 Uncharacterized protein n=2 Tax=Chromobacte...  37.3    4.5  
+  UniRef90_A0A0F0FLH6 Uncharacterized protein n=3 Tax=Burkholderi...  37.3    4.6  
+  UniRef90_A0A0S8C1Y1 Uncharacterized protein n=1 Tax=Betaproteob...  36.9    5.0  
+  UniRef90_A0A0B6XC11 Protein CrcA n=1 Tax=Xenorhabdus bovienii T...  34.6    5.0  
+  UniRef90_B6XS54 Glycosyl hydrolase family 3 N-terminal domain p...  38.0    5.6  
+  UniRef90_A0A2V5QV20 Uncharacterized protein n=1 Tax=Verrucomicr...  37.7    5.7  
+  UniRef90_A0A2D6H3A8 Uncharacterized protein n=2 Tax=Sphingomona...  37.3    6.0  
+  UniRef90_UPI00051C4623 hypothetical protein n=1 Tax=Aeromonas f...  36.9    6.1  
+  UniRef90_A0A357QIG2 Uncharacterized protein n=2 Tax=Bacteroidet...  37.7    6.2  
+  UniRef90_Q1LB79 Uncharacterized protein n=1 Tax=Cupriavidus met...  36.9    6.6  
+  UniRef90_A0A2V6D6G3 Uncharacterized protein n=1 Tax=Verrucomicr...  37.7    7.3  
+  UniRef90_UPI000757BFCD hypothetical protein n=3 Tax=Burkholderi...  36.5    8.7  
+  UniRef90_UPI000F76A433 hypothetical protein n=1 Tax=Lactobacill...  37.3    8.8  
+  UniRef90_A0A316V041 Glycoside hydrolase n=1 Tax=Jaminaea rosea ...  37.3    9.7  
+  UniRef90_D2QTM8 Uncharacterized protein n=1 Tax=Spirosoma lingu...  36.1    9.7  
+  UniRef90_A0A202BH43 Uncharacterized protein n=1 Tax=Chromobacte...  36.5    10.0 
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.144    0.460    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0441    0.140     1.90     42.6     43.6 
+
+Effective search space used: 784628720415
+Results from round 3
+
+
+Query= NP_415155.1
+
+Length=186
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_A0A2R3GXQ7 Lipid A palmitoyltransferase PagP n=2 Tax=S...  232     4e-75
+  UniRef90_A0A126VNG4 Lipid A palmitoyltransferase PagP n=40 Tax=...  230     3e-74
+  UniRef90_UPI0004E2678D phospholipid:lipid A palmitoyltransferas...  229     4e-74
+  UniRef90_F5RUA0 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  230     4e-74
+  UniRef90_R9VRG4 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  228     7e-74
+  UniRef90_Q8ZR06 Lipid A palmitoyltransferase PagP n=223 Tax=Sal...  228     1e-73
+  UniRef90_U2MN31 Lipid A palmitoyltransferase PagP n=2 Tax=Panto...  231     1e-73
+  UniRef90_P37001 Lipid A palmitoyltransferase PagP n=476 Tax=roo...  227     2e-73
+  UniRef90_A0A0M7D4X9 Lipid A palmitoyltransferase PagP n=105 Tax...  227     3e-73
+  UniRef90_A0A1V0LH88 Lipid A palmitoyltransferase PagP n=8 Tax=E...  227     4e-73
+  UniRef90_A0A2T1LNL3 Lipid A palmitoyltransferase PagP n=48 Tax=...  227     4e-73
+  UniRef90_A0A3P4REQ6 Lipid A palmitoyltransferase PagP n=9 Tax=E...  227     4e-73
+  UniRef90_A0A0F6REC1 Lipid A palmitoyltransferase PagP n=16 Tax=...  227     4e-73
+  UniRef90_A0A345CDC3 Lipid A palmitoyltransferase PagP n=3 Tax=E...  227     5e-73
+  UniRef90_A0A145TD87 Lipid A palmitoyltransferase PagP n=10 Tax=...  227     1e-72
+  UniRef90_A0A085GG40 Lipid A palmitoyltransferase PagP n=4 Tax=B...  226     1e-72
+  UniRef90_A8AJI1 Lipid A palmitoyltransferase PagP n=12 Tax=Ente...  225     1e-72
+  UniRef90_A0A0J8YI89 Lipid A palmitoyltransferase PagP n=2 Tax=u...  225     2e-72
+  UniRef90_D2TMR7 Lipid A palmitoyltransferase PagP n=1 Tax=Citro...  225     2e-72
+  UniRef90_UPI0007E3BAE5 phospholipid:lipid A palmitoyltransferas...  224     2e-72
+  UniRef90_A0A328I1X8 Lipid A palmitoyltransferase PagP n=56 Tax=...  225     3e-72
+  UniRef90_A0A2J7P679 Lipid A palmitoyltransferase PagP n=5 Tax=E...  225     3e-72
+  UniRef90_A0A2S5C883 Lipid A palmitoyltransferase PagP n=2 Tax=L...  224     5e-72
+  UniRef90_A0A377TCD9 Lipid A palmitoyltransferase PagP n=11 Tax=...  224     6e-72
+  UniRef90_A0A0M3F7U2 Lipid A palmitoyltransferase PagP n=2 Tax=E...  224     6e-72
+  UniRef90_A4W809 Lipid A palmitoyltransferase PagP n=7 Tax=Bacte...  223     1e-71
+  UniRef90_A0A157TEU9 Lipid A palmitoyltransferase PagP n=12 Tax=...  224     1e-71
+  UniRef90_B1EKB0 Lipid A palmitoyltransferase PagP n=38 Tax=Ente...  222     1e-71
+  UniRef90_A9MKE9 Lipid A palmitoyltransferase PagP n=16 Tax=Salm...  222     2e-71
+  UniRef90_A0A1B7HZJ7 Lipid A palmitoyltransferase PagP n=5 Tax=B...  223     2e-71
+  UniRef90_UPI00057C0798 phospholipid:lipid A palmitoyltransferas...  222     2e-71
+  UniRef90_A0A250AYL4 Lipid A palmitoyltransferase PagP n=2 Tax=G...  223     2e-71
+  UniRef90_A0A356D5E1 Lipid A palmitoyltransferase PagP n=1 Tax=P...  222     2e-71
+  UniRef90_A0A0L7T206 Lipid A palmitoyltransferase PagP n=2 Tax=E...  222     3e-71
+  UniRef90_A0A2S4RZZ5 Lipid A palmitoyltransferase PagP n=2 Tax=C...  222     4e-71
+  UniRef90_A0A085G7F7 Lipid A palmitoyltransferase PagP n=3 Tax=E...  222     4e-71
+  UniRef90_UPI00092D0E9E phospholipid:lipid A palmitoyltransferas...  221     4e-71
+  UniRef90_UPI000DEEB755 phospholipid:lipid A palmitoyltransferas...  221     6e-71
+  UniRef90_A0A0A2VTP0 Cation efflux system protein CusA n=1 Tax=B...  242     7e-71
+  UniRef90_V5Z6H2 Lipid A palmitoyltransferase PagP n=2 Tax=Erwin...  221     7e-71
+  UniRef90_A0A1I6DAX1 Lipid A palmitoyltransferase PagP n=2 Tax=E...  221     8e-71
+  UniRef90_A0A2P8VQT3 Lipid A palmitoyltransferase PagP n=2 Tax=E...  221     8e-71
+  UniRef90_A0A1A9F9J5 Lipid A palmitoyltransferase PagP n=1 Tax=L...  221     9e-71
+  UniRef90_A8GAF7 Lipid A palmitoyltransferase PagP n=15 Tax=Serr...  221     9e-71
+  UniRef90_A0A2X4U1T8 Lipid A palmitoyltransferase PagP n=3 Tax=Y...  221     9e-71
+  UniRef90_A0A3A5JRZ3 Lipid A palmitoyltransferase PagP n=1 Tax=B...  220     1e-70
+  UniRef90_G7LU05 Lipid A palmitoyltransferase PagP n=3 Tax=Brenn...  220     2e-70
+  UniRef90_G9Z4J5 Lipid A palmitoyltransferase PagP n=2 Tax=Yoken...  221     2e-70
+  UniRef90_L0M5E7 Lipid A palmitoyltransferase PagP n=4 Tax=Enter...  221     2e-70
+  UniRef90_A0A1X1DA63 Lipid A palmitoyltransferase PagP n=1 Tax=P...  220     2e-70
+  UniRef90_A0A1B7IVR1 Lipid A palmitoyltransferase PagP n=2 Tax=B...  220     2e-70
+  UniRef90_A0A3D0EQ38 Lipid A palmitoyltransferase PagP n=2 Tax=E...  220     2e-70
+  UniRef90_C6CNE4 Lipid A palmitoyltransferase PagP n=4 Tax=Dicke...  220     2e-70
+  UniRef90_UPI000474E5C8 phospholipid:lipid A palmitoyltransferas...  220     2e-70
+  UniRef90_A0A2J9E6K3 Lipid A palmitoyltransferase PagP n=5 Tax=P...  220     3e-70
+  UniRef90_E6WAU8 Lipid A palmitoyltransferase PagP n=1 Tax=Panto...  219     3e-70
+  UniRef90_A0A1S1HPP9 Lipid A palmitoyltransferase PagP n=1 Tax=P...  219     4e-70
+  UniRef90_V5ACA2 Lipid A palmitoyltransferase PagP n=5 Tax=Enter...  219     4e-70
+  UniRef90_D2C1B0 Lipid A palmitoyltransferase PagP n=11 Tax=Ente...  220     4e-70
+  UniRef90_E3G4M5 Lipid A palmitoyltransferase PagP n=3 Tax=Plura...  219     5e-70
+  UniRef90_C9XYQ1 Lipid A palmitoyltransferase PagP n=29 Tax=Cron...  219     5e-70
+  UniRef90_A0A1B7K3Z9 Lipid A palmitoyltransferase PagP n=2 Tax=P...  219     5e-70
+  UniRef90_A0A0A1RIX9 Lipid A palmitoyltransferase PagP n=1 Tax=C...  219     5e-70
+  UniRef90_A0A0D5WSF6 Lipid A palmitoyltransferase PagP n=3 Tax=E...  219     5e-70
+  UniRef90_U3TU85 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  219     6e-70
+  UniRef90_D4DWI4 Lipid A palmitoyltransferase PagP n=2 Tax=Serra...  220     6e-70
+  UniRef90_A0A370WG98 Lipid A palmitoyltransferase PagP n=3 Tax=E...  219     7e-70
+  UniRef90_J3D728 Lipid A palmitoyltransferase PagP n=8 Tax=Enter...  219     7e-70
+  UniRef90_A0A0F3LY91 Lipid A palmitoyltransferase PagP n=10 Tax=...  218     7e-70
+  UniRef90_A0A0Q4MPU7 Lipid A palmitoyltransferase PagP n=1 Tax=E...  218     7e-70
+  UniRef90_A0A0U3SB19 Lipid A palmitoyltransferase PagP n=10 Tax=...  219     7e-70
+  UniRef90_A0A1X3S4H6 Lipid A palmitoyltransferase PagP n=2 Tax=L...  219     9e-70
+  UniRef90_A0A2T2Y6X9 Lipid A palmitoyltransferase PagP n=1 Tax=K...  219     1e-69
+  UniRef90_UPI0009F95BB5 phospholipid:lipid A palmitoyltransferas...  218     1e-69
+  UniRef90_I2BBA8 Lipid A palmitoyltransferase PagP n=1 Tax=Shimw...  218     1e-69
+  UniRef90_A0A1H4CU10 Lipid A palmitoyltransferase PagP n=4 Tax=L...  218     1e-69
+  UniRef90_A0A0B1R5J1 Lipid A palmitoyltransferase PagP n=3 Tax=E...  218     1e-69
+  UniRef90_UPI000EF1D851 phospholipid:lipid A palmitoyltransferas...  219     1e-69
+  UniRef90_UPI000DD4E3D4 phospholipid:lipid A palmitoyltransferas...  218     1e-69
+  UniRef90_A0A1V9DIG1 Lipid A palmitoyltransferase PagP n=1 Tax=P...  217     2e-69
+  UniRef90_H2J055 Lipid A palmitoyltransferase PagP n=3 Tax=Enter...  218     2e-69
+  UniRef90_A0A1B7JGG2 Lipid A palmitoyltransferase PagP n=2 Tax=K...  217     2e-69
+  UniRef90_A6T684 Lipid A palmitoyltransferase PagP n=113 Tax=Ent...  217     2e-69
+  UniRef90_A0A366I128 Lipid A palmitoyltransferase PagP n=1 Tax=B...  218     2e-69
+  UniRef90_A0A0G4JUH0 Lipid A palmitoyltransferase PagP n=1 Tax=B...  217     3e-69
+  UniRef90_A0A2L1UWV9 Lipid A palmitoyltransferase PagP n=2 Tax=R...  217     3e-69
+  UniRef90_K8X522 Lipid A palmitoyltransferase PagP n=1 Tax=Provi...  217     3e-69
+  UniRef90_A0A2P5GR01 Lipid A palmitoyltransferase PagP n=2 Tax=E...  217     3e-69
+  UniRef90_A0A1B7I8D1 Lipid A palmitoyltransferase PagP n=2 Tax=B...  217     3e-69
+  UniRef90_UPI0004686359 phospholipid:lipid A palmitoyltransferas...  216     4e-69
+  UniRef90_UPI0006870EC4 phospholipid:lipid A palmitoyltransferas...  216     5e-69
+  UniRef90_A0A366NEA0 Lipid A palmitoyltransferase PagP n=3 Tax=R...  217     5e-69
+  UniRef90_A0A127L1X7 Lipid A palmitoyltransferase PagP n=2 Tax=E...  215     9e-69
+  UniRef90_B2VBK5 Lipid A palmitoyltransferase PagP n=1 Tax=Erwin...  216     1e-68
+  UniRef90_I0QT02 Lipid A palmitoyltransferase PagP n=1 Tax=Serra...  216     1e-68
+  UniRef90_A0A0L0GLU3 Lipid A palmitoyltransferase PagP n=4 Tax=T...  216     1e-68
+  UniRef90_UPI0007A7568E phospholipid:lipid A palmitoyltransferas...  216     1e-68
+  UniRef90_A0A2S8D430 Lipid A palmitoyltransferase PagP n=36 Tax=...  215     1e-68
+  UniRef90_A0A2S4X2C6 Lipid A palmitoyltransferase PagP n=6 Tax=E...  215     1e-68
+  UniRef90_UPI00073D80E2 phospholipid:lipid A palmitoyltransferas...  215     1e-68
+  UniRef90_A0A0G3SCI7 Lipid A palmitoyltransferase PagP n=30 Tax=...  215     2e-68
+  UniRef90_J7SL31 Lipid A palmitoyltransferase PagP n=19 Tax=Bact...  215     2e-68
+  UniRef90_A0A0C7KKP4 Lipid A palmitoyltransferase PagP n=18 Tax=...  214     2e-68
+  UniRef90_A0A071LUL6 Lipid A palmitoyltransferase PagP n=3 Tax=M...  215     2e-68
+  UniRef90_A0A3N2DRW8 Palmitoyl transferase n=2 Tax=Raoultella te...  215     2e-68
+  UniRef90_S3IZM2 Lipid A palmitoyltransferase PagP n=6 Tax=Enter...  215     2e-68
+  UniRef90_A0A1N6TAY0 Lipid A palmitoyltransferase PagP n=1 Tax=E...  214     2e-68
+  UniRef90_B7LLI8 Lipid A palmitoyltransferase PagP n=4 Tax=Esche...  214     3e-68
+  UniRef90_A0A2X5PB27 Lipid A palmitoyltransferase PagP n=4 Tax=T...  214     4e-68
+  UniRef90_H8NW96 Lipid A palmitoyltransferase PagP n=3 Tax=Rahne...  214     4e-68
+  UniRef90_A0A2I8DFF9 Lipid A palmitoyltransferase PagP n=1 Tax=A...  214     5e-68
+  UniRef90_A0A0Q4P2D9 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  214     5e-68
+  UniRef90_D8MPK6 Lipid A palmitoyltransferase PagP n=2 Tax=Erwin...  213     5e-68
+  UniRef90_UPI000E72A334 phospholipid:lipid A palmitoyltransferas...  214     5e-68
+  UniRef90_Q6DAS8 Lipid A palmitoyltransferase PagP n=40 Tax=Pect...  214     5e-68
+  UniRef90_A0A345LSY1 Lipid A palmitoyltransferase PagP n=9 Tax=P...  214     6e-68
+  UniRef90_A0A1S2B7L0 Lipid A palmitoyltransferase PagP n=7 Tax=P...  214     6e-68
+  UniRef90_D0KD36 Lipid A palmitoyltransferase PagP n=4 Tax=Pecto...  214     6e-68
+  UniRef90_A0A085HNW3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  213     6e-68
+  UniRef90_UPI000EB1CF1E phospholipid:lipid A palmitoyltransferas...  213     8e-68
+  UniRef90_A0A0M2KLR1 Lipid A palmitoyltransferase PagP n=3 Tax=E...  213     9e-68
+  UniRef90_UPI000CFA8E57 phospholipid:lipid A palmitoyltransferas...  213     9e-68
+  UniRef90_A0A330JD52 Lipid A palmitoyltransferase PagP n=2 Tax=P...  214     9e-68
+  UniRef90_W0LGI7 Lipid A palmitoyltransferase PagP n=1 Tax=Chani...  213     9e-68
+  UniRef90_A0A3M9VWS0 Phospholipid:lipid A palmitoyltransferase n...  213     1e-67
+  UniRef90_A0A0J8YF61 Lipid A palmitoyltransferase PagP n=3 Tax=F...  212     2e-67
+  UniRef90_E3HGF7 Lipid A palmitoyltransferase PagP n=12 Tax=Achr...  212     2e-67
+  UniRef90_D4X7L5 Lipid A palmitoyltransferase PagP n=9 Tax=Achro...  212     2e-67
+  UniRef90_A0A261VY34 Lipid A palmitoyltransferase PagP n=1 Tax=B...  212     2e-67
+  UniRef90_H3RAI9 Lipid A palmitoyltransferase PagP n=6 Tax=Panto...  212     2e-67
+  UniRef90_A0A097R2T4 Lipid A palmitoyltransferase PagP n=11 Tax=...  212     2e-67
+  UniRef90_A0A0A3ZXU6 Lipid A palmitoyltransferase PagP n=2 Tax=E...  212     2e-67
+  UniRef90_A0A3A9JFB8 Lipid A palmitoyltransferase PagP n=3 Tax=E...  212     2e-67
+  UniRef90_A0A2I0FRN7 Lipid A palmitoyltransferase PagP n=1 Tax=E...  212     3e-67
+  UniRef90_A0A351LSM3 Lipid A palmitoyltransferase PagP n=3 Tax=F...  212     3e-67
+  UniRef90_A0A378GKA0 Lipid A palmitoyltransferase PagP n=2 Tax=K...  211     3e-67
+  UniRef90_A0A1B8HIK0 Lipid A palmitoyltransferase PagP n=5 Tax=M...  212     3e-67
+  UniRef90_UPI000F688542 lipid IV(A) palmitoyltransferase PagP n=...  212     3e-67
+  UniRef90_A0A014N2G2 Lipid A palmitoyltransferase PagP n=1 Tax=E...  211     3e-67
+  UniRef90_B6XF49 Lipid A palmitoyltransferase PagP n=7 Tax=Provi...  212     3e-67
+  UniRef90_A0A2S9IIF4 Lipid A palmitoyltransferase PagP n=2 Tax=E...  212     3e-67
+  UniRef90_E0SLJ5 Lipid A palmitoyltransferase PagP n=22 Tax=Dick...  212     4e-67
+  UniRef90_UPI0005D43B00 phospholipid:lipid A palmitoyltransferas...  212     4e-67
+  UniRef90_V0AHB8 Lipid A palmitoyltransferase PagP (Fragment) n=...  211     4e-67
+  UniRef90_A0A0Q4MHA3 Lipid A palmitoyltransferase PagP n=3 Tax=E...  211     5e-67
+  UniRef90_A0A068RBB6 Lipid A palmitoyltransferase PagP n=3 Tax=S...  211     5e-67
+  UniRef90_A0A2G8E4P9 Lipid A palmitoyltransferase PagP n=2 Tax=E...  211     6e-67
+  UniRef90_A0A1X1ERZ7 Lipid A palmitoyltransferase PagP n=1 Tax=P...  211     6e-67
+  UniRef90_UPI000FE2CC8C phospholipid:lipid A palmitoyltransferas...  211     6e-67
+  UniRef90_A0A1S8CP98 Lipid A palmitoyltransferase PagP n=1 Tax=S...  211     6e-67
+  UniRef90_A0A2X3DQ33 Lipid A palmitoyltransferase PagP n=6 Tax=K...  211     7e-67
+  UniRef90_E6WKS7 Lipid A palmitoyltransferase PagP n=1 Tax=Panto...  211     8e-67
+  UniRef90_K8WJJ2 Lipid A palmitoyltransferase PagP n=1 Tax=Provi...  211     9e-67
+  UniRef90_A0A0D6G0D0 Lipid A palmitoyltransferase PagP n=15 Tax=...  210     1e-66
+  UniRef90_A0A2U1TSR0 Lipid A palmitoyltransferase PagP n=2 Tax=B...  212     1e-66
+  UniRef90_A0A087L027 Lipid A palmitoyltransferase PagP n=1 Tax=S...  211     1e-66
+  UniRef90_A0A084A5M3 Lipid A palmitoyltransferase PagP n=2 Tax=S...  211     1e-66
+  UniRef90_UPI0004A36886 phospholipid:lipid A palmitoyltransferas...  210     1e-66
+  UniRef90_A0A0Q3ABS3 Lipid A palmitoyltransferase PagP n=3 Tax=E...  210     1e-66
+  UniRef90_A0A261UR23 Lipid A palmitoyltransferase PagP n=1 Tax=B...  210     1e-66
+  UniRef90_A0A2X4UW14 Lipid A palmitoyltransferase PagP n=1 Tax=L...  210     2e-66
+  UniRef90_A0A0F5Y020 Lipid A palmitoyltransferase PagP n=2 Tax=P...  209     3e-66
+  UniRef90_F2EP14 Lipid A palmitoyltransferase PagP n=14 Tax=Erwi...  209     4e-66
+  UniRef90_A0A2S5C5Y2 Lipid A palmitoyltransferase PagP n=3 Tax=L...  209     5e-66
+  UniRef90_A0A095TEJ3 Lipid A palmitoyltransferase PagP n=2 Tax=T...  208     6e-66
+  UniRef90_G9YAH0 Lipid A palmitoyltransferase PagP n=4 Tax=Enter...  209     6e-66
+  UniRef90_J4J6N5 Lipid A palmitoyltransferase PagP n=3 Tax=Achro...  208     7e-66
+  UniRef90_UPI000F66F420 lipid IV(A) palmitoyltransferase PagP n=...  208     9e-66
+  UniRef90_UPI000574734A lipid IV(A) palmitoyltransferase PagP n=...  207     1e-65
+  UniRef90_A0A318VVZ9 Lipid A palmitoyltransferase PagP n=3 Tax=E...  207     1e-65
+  UniRef90_D4F8S0 Lipid A palmitoyltransferase PagP n=7 Tax=Edwar...  207     1e-65
+  UniRef90_UPI000E738969 phospholipid:lipid A palmitoyltransferas...  208     2e-65
+  UniRef90_A0A1X0WJM1 Lipid A palmitoyltransferase PagP n=2 Tax=G...  207     2e-65
+  UniRef90_Q2NSM3 Lipid A palmitoyltransferase PagP n=5 Tax=Sodal...  207     2e-65
+  UniRef90_D4HYT3 Lipid A palmitoyltransferase PagP n=4 Tax=Erwin...  207     2e-65
+  UniRef90_A0A078LMT6 Lipid A palmitoyltransferase PagP n=2 Tax=E...  206     3e-65
+  UniRef90_UPI000B42A727 phospholipid:lipid A palmitoyltransferas...  207     4e-65
+  UniRef90_A0A0Q4NXW2 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  207     4e-65
+  UniRef90_A0A366ND60 Lipid A palmitoyltransferase PagP n=2 Tax=R...  207     5e-65
+  UniRef90_A0A0F7LNE0 Lipid A palmitoyltransferase PagP n=1 Tax=P...  207     6e-65
+  UniRef90_A0A1S8YIS9 Lipid A palmitoyltransferase PagP n=1 Tax=I...  206     6e-65
+  UniRef90_A0A0D1MNE5 Lipid A palmitoyltransferase PagP n=4 Tax=E...  206     7e-65
+  UniRef90_A0A0T9LHG8 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  206     7e-65
+  UniRef90_A0A1J0E8K8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  206     7e-65
+  UniRef90_UPI0009E442AF phospholipid:lipid A palmitoyltransferas...  206     8e-65
+  UniRef90_A0A0U1HMB5 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  206     9e-65
+  UniRef90_A0A2X2EKY8 Lipid A palmitoyltransferase PagP n=17 Tax=...  206     9e-65
+  UniRef90_A0A0Q8BVY0 Lipid A palmitoyltransferase PagP n=3 Tax=A...  205     1e-64
+  UniRef90_Q7N3D3 Lipid A palmitoyltransferase PagP n=18 Tax=Phot...  206     1e-64
+  UniRef90_H8NW97 Lipid A palmitoyltransferase PagP n=3 Tax=Yersi...  206     1e-64
+  UniRef90_D0ZCI3 Lipid A palmitoyltransferase PagP n=8 Tax=Edwar...  204     2e-64
+  UniRef90_UPI000EA3382E phospholipid:lipid A palmitoyltransferas...  205     2e-64
+  UniRef90_C6C6T1 Lipid A palmitoyltransferase PagP n=1 Tax=Dicke...  205     2e-64
+  UniRef90_Q7WFT9 Lipid A palmitoyltransferase PagP n=15 Tax=Bact...  204     3e-64
+  UniRef90_A0A0H4W549 Lipid A palmitoyltransferase PagP n=6 Tax=B...  204     3e-64
+  UniRef90_UPI000B8D0308 phospholipid:lipid A palmitoyltransferas...  203     4e-64
+  UniRef90_A0A3N2EWB9 Palmitoyl transferase n=1 Tax=Raoultella sp...  206     4e-64
+  UniRef90_D8MU02 Lipid A palmitoyltransferase PagP n=1 Tax=Erwin...  203     6e-64
+  UniRef90_A0A0G3CSF2 Lipid A palmitoyltransferase PagP n=1 Tax=P...  203     6e-64
+  UniRef90_W3V5M0 Lipid A palmitoyltransferase PagP n=4 Tax=Photo...  204     7e-64
+  UniRef90_UPI000E4C137B phospholipid:lipid A palmitoyltransferas...  202     8e-64
+  UniRef90_A0A2R4NPA4 Lipid A palmitoyltransferase PagP n=4 Tax=Y...  204     8e-64
+  UniRef90_A0A2I8WBG3 Lipid A palmitoyltransferase PagP n=43 Tax=...  203     9e-64
+  UniRef90_A0A2S5KBV9 Lipid A palmitoyltransferase PagP n=5 Tax=P...  202     1e-63
+  UniRef90_A0A2J9S8T4 Lipid A palmitoyltransferase PagP n=1 Tax=Y...  203     1e-63
+  UniRef90_UPI0009ABD32C lipid IV(A) palmitoyltransferase PagP n=...  201     1e-63
+  UniRef90_A0A3N4P672 Phospholipid:lipid A palmitoyltransferase n...  202     2e-63
+  UniRef90_A0A261VVU3 Lipid A palmitoyltransferase PagP n=2 Tax=B...  202     2e-63
+  UniRef90_UPI000FDE5044 UPI000FDE5044 related cluster n=1 Tax=un...  202     2e-63
+  UniRef90_A0A2V2BHN4 Lipid A palmitoyltransferase PagP n=3 Tax=P...  201     2e-63
+  UniRef90_A0A1X1EG35 Lipid A palmitoyltransferase PagP n=1 Tax=P...  202     2e-63
+  UniRef90_J2UM65 Lipid A palmitoyltransferase PagP n=8 Tax=Enter...  202     2e-63
+  UniRef90_A0A0T9MNY0 Lipid A palmitoyltransferase PagP n=9 Tax=Y...  202     3e-63
+  UniRef90_UPI000DD399C5 phospholipid:lipid A palmitoyltransferas...  202     3e-63
+  UniRef90_A0A0F5F413 Lipid A palmitoyltransferase PagP n=7 Tax=E...  201     5e-63
+  UniRef90_A0A0F3M061 Lipid A palmitoyltransferase PagP n=7 Tax=E...  201     7e-63
+  UniRef90_UPI000F8D9205 lipid IV(A) palmitoyltransferase PagP n=...  201     7e-63
+  UniRef90_Q2KVI8 Lipid A palmitoyltransferase PagP (Fragment) n=...  201     7e-63
+  UniRef90_A0A3N1J3N3 Palmitoyl transferase n=2 Tax=Enterobacter ...  201     9e-63
+  UniRef90_A0A0W0Z4X9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  200     1e-62
+  UniRef90_A0A3N6SFW2 Phospholipid:lipid A palmitoyltransferase n...  199     1e-62
+  UniRef90_C0ARC7 Lipid A palmitoyltransferase PagP n=18 Tax=Ente...  201     1e-62
+  UniRef90_R5QMD5 Lipid A palmitoyltransferase PagP n=1 Tax=Prote...  199     2e-62
+  UniRef90_A0A2C6C904 Lipid A palmitoyltransferase PagP n=2 Tax=B...  199     2e-62
+  UniRef90_A0A0L7T625 Lipid A palmitoyltransferase PagP n=1 Tax=E...  200     2e-62
+  UniRef90_A0A212JZ21 Lipid A palmitoyltransferase PagP n=1 Tax=u...  199     3e-62
+  UniRef90_UPI0006489F75 phospholipid:lipid A palmitoyltransferas...  199     4e-62
+  UniRef90_D6YQZ2 Lipid A palmitoyltransferase PagP n=34 Tax=Pant...  199     4e-62
+  UniRef90_R8ARF2 Lipid A palmitoyltransferase PagP n=7 Tax=Plesi...  199     5e-62
+  UniRef90_A0A261SU81 Lipid A palmitoyltransferase PagP n=1 Tax=B...  199     5e-62
+  UniRef90_A0A0F5XWJ5 Lipid A palmitoyltransferase PagP n=3 Tax=E...  198     5e-62
+  UniRef90_A0A2R7PKV8 Lipid A palmitoyltransferase PagP n=2 Tax=A...  198     5e-62
+  UniRef90_D7DPY2 Lipid A palmitoyltransferase PagP n=2 Tax=Methy...  198     6e-62
+  UniRef90_A0A0N0IAD1 Lipid A palmitoyltransferase PagP n=2 Tax=M...  199     6e-62
+  UniRef90_A0A2U3TIJ6 Lipid A palmitoyltransferase PagP n=3 Tax=E...  198     7e-62
+  UniRef90_A0A157S9N1 Lipid A palmitoyltransferase PagP n=8 Tax=c...  198     8e-62
+  UniRef90_A4WC09 Lipid A palmitoyltransferase PagP n=2 Tax=Enter...  198     8e-62
+  UniRef90_C1D6F2 Lipid A palmitoyltransferase PagP n=2 Tax=Larib...  199     8e-62
+  UniRef90_A0A0T9Q5V7 Lipid A palmitoyltransferase PagP n=1 Tax=Y...  198     9e-62
+  UniRef90_C7BTJ1 Lipid A palmitoyltransferase PagP n=5 Tax=Photo...  198     1e-61
+  UniRef90_A0A1B2R6J3 Lipid A palmitoyltransferase PagP n=1 Tax=B...  197     1e-61
+  UniRef90_A0A1W6YQJ1 Lipid A palmitoyltransferase PagP n=3 Tax=B...  197     1e-61
+  UniRef90_A0A193G538 Lipid A palmitoyltransferase PagP n=2 Tax=B...  197     2e-61
+  UniRef90_UPI000B9E7769 phospholipid:lipid A palmitoyltransferas...  197     2e-61
+  UniRef90_UPI0004B88280 phospholipid:lipid A palmitoyltransferas...  197     2e-61
+  UniRef90_A0A370R494 Lipid A palmitoyltransferase PagP n=2 Tax=E...  197     2e-61
+  UniRef90_A0A0B1RAS0 Lipid A palmitoyltransferase PagP n=3 Tax=E...  197     3e-61
+  UniRef90_UPI000D68C454 phospholipid:lipid A palmitoyltransferas...  197     3e-61
+  UniRef90_UPI0001BDD4D5 phospholipid:lipid A palmitoyltransferas...  197     3e-61
+  UniRef90_A0A2V1YJP2 Lipid A palmitoyltransferase PagP n=2 Tax=P...  196     4e-61
+  UniRef90_A0A0L8ENZ4 Lipid A palmitoyltransferase PagP n=1 Tax=A...  196     4e-61
+  UniRef90_A0A364LL92 Lipid A palmitoyltransferase PagP n=2 Tax=L...  196     5e-61
+  UniRef90_A0A1V9DHD3 Lipid A palmitoyltransferase PagP n=1 Tax=P...  196     5e-61
+  UniRef90_A0A2P5IQZ3 Lipid A palmitoyltransferase PagP n=1 Tax=P...  195     6e-61
+  UniRef90_A0A198GJK0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  196     1e-60
+  UniRef90_D6YRF7 Lipid A palmitoyltransferase PagP n=20 Tax=Erwi...  195     1e-60
+  UniRef90_UPI00069372D6 phospholipid:lipid A palmitoyltransferas...  194     2e-60
+  UniRef90_A0A1J5TN15 Lipid A palmitoyltransferase PagP n=1 Tax=m...  194     2e-60
+  UniRef90_A0A2G0Q5W6 Lipid A palmitoyltransferase PagP n=2 Tax=X...  195     2e-60
+  UniRef90_A0A1B7JER5 Lipid A palmitoyltransferase PagP n=2 Tax=P...  195     3e-60
+  UniRef90_UPI000A074268 phospholipid:lipid A palmitoyltransferas...  194     3e-60
+  UniRef90_UPI000D749412 phospholipid:lipid A palmitoyltransferas...  194     5e-60
+  UniRef90_W0BJ30 Lipid A palmitoyltransferase PagP n=4 Tax=Legio...  194     6e-60
+  UniRef90_D2T3S6 Lipid A palmitoyltransferase PagP n=3 Tax=Erwin...  193     6e-60
+  UniRef90_A0A2D0JUM7 Lipid A palmitoyltransferase PagP n=2 Tax=X...  193     1e-59
+  UniRef90_A0A0W0YWN9 Lipid A palmitoyltransferase PagP n=2 Tax=L...  193     1e-59
+  UniRef90_Q93K12 Lipid A palmitoyltransferase PagP n=20 Tax=Legi...  192     1e-59
+  UniRef90_C6WX64 Lipid A palmitoyltransferase PagP n=1 Tax=Methy...  192     1e-59
+  UniRef90_B4EYA9 Lipid A palmitoyltransferase PagP n=18 Tax=Ente...  193     1e-59
+  UniRef90_A0A378I5J1 Lipid A palmitoyltransferase PagP n=1 Tax=L...  192     1e-59
+  UniRef90_UPI0007881DB9 phospholipid:lipid A palmitoyltransferas...  192     1e-59
+  UniRef90_B2PYM9 Lipid A palmitoyltransferase PagP n=7 Tax=Gamma...  192     2e-59
+  UniRef90_A0A0J6NN41 Lipid A palmitoyltransferase PagP n=8 Tax=C...  192     2e-59
+  UniRef90_A0A2S5M1J9 Lipid A palmitoyltransferase PagP n=4 Tax=M...  192     2e-59
+  UniRef90_H0F3E9 Lipid A palmitoyltransferase PagP n=8 Tax=Achro...  192     2e-59
+  UniRef90_A0A0J6KMF2 Lipid A palmitoyltransferase PagP n=1 Tax=C...  192     2e-59
+  UniRef90_G2J1C6 Lipid A palmitoyltransferase PagP n=3 Tax=Pseud...  192     2e-59
+  UniRef90_A0A261TCJ4 Lipid A palmitoyltransferase PagP n=1 Tax=B...  192     2e-59
+  UniRef90_A0A1C3K5K4 Lipid A palmitoyltransferase PagP n=1 Tax=O...  192     2e-59
+  UniRef90_A0A0A3YQ61 Lipid A palmitoyltransferase PagP n=2 Tax=E...  191     2e-59
+  UniRef90_UPI0005695C05 phospholipid:lipid A palmitoyltransferas...  191     3e-59
+  UniRef90_D6DRS2 Lipid A palmitoyltransferase PagP n=120 Tax=Bac...  192     3e-59
+  UniRef90_A0A0A7RYL0 Lipid A palmitoyltransferase PagP n=2 Tax=F...  191     3e-59
+  UniRef90_UPI000EAC2891 phospholipid:lipid A palmitoyltransferas...  191     4e-59
+  UniRef90_UPI00076B734E phospholipid:lipid A palmitoyltransferas...  191     4e-59
+  UniRef90_A0A378AJ13 Lipid A palmitoyltransferase PagP n=1 Tax=K...  190     1e-58
+  UniRef90_A0A1I0CSL9 Lipid A palmitoyltransferase PagP n=2 Tax=T...  191     1e-58
+  UniRef90_UPI000D74205E phospholipid:lipid A palmitoyltransferas...  190     1e-58
+  UniRef90_A0A261SL55 Lipid A palmitoyltransferase PagP n=1 Tax=B...  189     2e-58
+  UniRef90_A0A2S5L1U6 Lipid A palmitoyltransferase PagP n=1 Tax=M...  189     2e-58
+  UniRef90_UPI0009FB9C81 lipid IV(A) palmitoyltransferase PagP n=...  193     2e-58
+  UniRef90_V3PPL8 Lipid A palmitoyltransferase PagP n=7 Tax=Enter...  189     3e-58
+  UniRef90_A0A098FZ60 Lipid A palmitoyltransferase PagP n=1 Tax=L...  190     4e-58
+  UniRef90_A0A376LJT8 Lipid A palmitoyltransferase PagP n=3 Tax=E...  187     4e-58
+  UniRef90_A0A0M7E4Y3 Lipid A palmitoyltransferase PagP n=16 Tax=...  189     5e-58
+  UniRef90_A0A2Y9U1U0 Lipid A palmitoyltransferase PagP n=1 Tax=L...  188     5e-58
+  UniRef90_A0A2R5F7Y7 Lipid A palmitoyltransferase PagP n=1 Tax=N...  188     6e-58
+  UniRef90_A0A140J0B4 Lipid A palmitoyltransferase PagP n=4 Tax=L...  188     8e-58
+  UniRef90_A0A085U648 Lipid A palmitoyltransferase PagP n=3 Tax=Y...  189     1e-57
+  UniRef90_A0A0F7D380 Lipid A palmitoyltransferase PagP n=10 Tax=...  187     1e-57
+  UniRef90_A0A261TBQ9 Lipid A palmitoyltransferase PagP n=1 Tax=B...  186     2e-57
+  UniRef90_A0A378ICW8 Lipid A palmitoyltransferase PagP n=1 Tax=L...  186     3e-57
+  UniRef90_A0A3N9QJW7 Lipid IV(A) palmitoyltransferase PagP n=1 T...  186     3e-57
+  UniRef90_UPI0005097FF9 phospholipid:lipid A palmitoyltransferas...  185     9e-57
+  UniRef90_UPI00035FE77F lipid IV(A) palmitoyltransferase PagP n=...  184     1e-56
+  UniRef90_A0A0W0VCP6 Lipid A palmitoyltransferase PagP n=1 Tax=L...  185     1e-56
+  UniRef90_A0A0W0VF36 Lipid A palmitoyltransferase PagP n=2 Tax=L...  184     2e-56
+  UniRef90_A0A0W0VVK3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  184     3e-56
+  UniRef90_A0A0A8UKE2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  184     3e-56
+  UniRef90_A0A378JGV8 Lipid A palmitoyltransferase PagP n=1 Tax=L...  184     3e-56
+  UniRef90_B2K0E2 Lipid A palmitoyltransferase PagP n=44 Tax=Yers...  184     3e-56
+  UniRef90_A0A098GA89 Lipid A palmitoyltransferase PagP n=1 Tax=T...  184     3e-56
+  UniRef90_A0A0W0VHH8 Lipid A palmitoyltransferase PagP n=1 Tax=L...  183     4e-56
+  UniRef90_A0A261SUX6 Lipid A palmitoyltransferase PagP n=2 Tax=B...  183     5e-56
+  UniRef90_A0A0T9T8P6 Lipid A palmitoyltransferase PagP n=6 Tax=Y...  184     6e-56
+  UniRef90_D2TYX7 Lipid A palmitoyltransferase PagP n=2 Tax=Arsen...  184     6e-56
+  UniRef90_A0A0W0TKU1 Lipid A palmitoyltransferase PagP n=2 Tax=L...  183     7e-56
+  UniRef90_A0A2H9SFG1 Lipid A palmitoyltransferase PagP n=1 Tax=L...  183     8e-56
+  UniRef90_A0A354EXE6 Lipid A palmitoyltransferase PagP n=1 Tax=L...  181     2e-55
+  UniRef90_A0A0W0UIT5 Lipid A palmitoyltransferase PagP n=1 Tax=L...  182     2e-55
+  UniRef90_A0A143I3P9 Lipid A palmitoyltransferase PagP n=3 Tax=E...  183     2e-55
+  UniRef90_A0A3D5D1N7 Lipid A palmitoyltransferase PagP n=3 Tax=M...  182     2e-55
+  UniRef90_A1JM47 Lipid A palmitoyltransferase PagP n=13 Tax=Yers...  182     2e-55
+  UniRef90_A0A0W1A6A2 Lipid A palmitoyltransferase PagP n=2 Tax=L...  182     2e-55
+  UniRef90_A0A222P6I2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  181     3e-55
+  UniRef90_Q1H2L0 Lipid A palmitoyltransferase PagP n=1 Tax=Methy...  181     4e-55
+  UniRef90_A0A0T9UF18 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  182     4e-55
+  UniRef90_A0A259FRD5 Lipid A palmitoyltransferase PagP n=4 Tax=P...  181     4e-55
+  UniRef90_A0A0W0Y9K4 Lipid A palmitoyltransferase PagP n=6 Tax=L...  182     7e-55
+  UniRef90_UPI00098C543F phospholipid:lipid A palmitoyltransferas...  179     9e-55
+  UniRef90_A0A1Q3VP48 Lipid A palmitoyltransferase PagP n=1 Tax=C...  180     1e-54
+  UniRef90_A0A0W0SNK2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  180     1e-54
+  UniRef90_A0A2N2S8H5 Lipid A palmitoyltransferase PagP n=1 Tax=B...  180     1e-54
+  UniRef90_A0A209A3F1 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  180     1e-54
+  UniRef90_A0A3D5BCM0 Lipid A palmitoyltransferase PagP n=1 Tax=A...  180     1e-54
+  UniRef90_A0A258M2Q5 Lipid A palmitoyltransferase PagP n=5 Tax=B...  179     1e-54
+  UniRef90_A0A2N2UZ48 Lipid A palmitoyltransferase PagP n=1 Tax=B...  180     1e-54
+  UniRef90_A0A378Z1M8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  180     1e-54
+  UniRef90_UPI0002E3693F phospholipid:lipid A palmitoyltransferas...  179     1e-54
+  UniRef90_A0A1T4VM38 Lipid A palmitoyltransferase PagP n=2 Tax=S...  179     2e-54
+  UniRef90_A0A2R4XKX0 Lipid A palmitoyltransferase PagP n=1 Tax=B...  179     2e-54
+  UniRef90_A0A1G5E9P8 Lipid A palmitoyltransferase PagP n=3 Tax=L...  179     3e-54
+  UniRef90_UPI0009FDAD0B lipid IV(A) palmitoyltransferase PagP n=...  180     3e-54
+  UniRef90_A0A1G1B0M7 Lipid A palmitoyltransferase PagP n=1 Tax=M...  178     4e-54
+  UniRef90_A0A378DD60 Lipid A palmitoyltransferase PagP n=6 Tax=K...  177     4e-54
+  UniRef90_UPI000465B399 phospholipid:lipid A palmitoyltransferas...  178     6e-54
+  UniRef90_A0A0T9NWA5 Lipid A palmitoyltransferase PagP n=3 Tax=Y...  178     7e-54
+  UniRef90_A0A0W0R1B9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  177     7e-54
+  UniRef90_A0A2A3KP86 Lipid A palmitoyltransferase PagP n=3 Tax=E...  177     7e-54
+  UniRef90_A0A377G647 Lipid A palmitoyltransferase PagP n=1 Tax=F...  179     7e-54
+  UniRef90_A0A0B6FP39 Lipid A palmitoyltransferase PagP n=6 Tax=Y...  178     8e-54
+  UniRef90_UPI0009B903F1 lipid IV(A) palmitoyltransferase PagP n=...  181     8e-54
+  UniRef90_UPI0006CEA338 lipid IV(A) palmitoyltransferase PagP n=...  178     9e-54
+  UniRef90_A0A2T3XG77 Lipid A palmitoyltransferase PagP n=11 Tax=...  177     9e-54
+  UniRef90_A0A3M0STB5 Lipid IV(A) palmitoyltransferase PagP n=3 T...  177     1e-53
+  UniRef90_A0A078KSV0 Lipid A palmitoyltransferase PagP n=2 Tax=L...  179     1e-53
+  UniRef90_A0A0A2T4X2 Lipid A palmitoyltransferase PagP n=1 Tax=L...  177     1e-53
+  UniRef90_D3HNB4 Lipid A palmitoyltransferase PagP n=1 Tax=Legio...  178     2e-53
+  UniRef90_A0A1G3CV01 Lipid A palmitoyltransferase PagP n=4 Tax=P...  176     2e-53
+  UniRef90_C7RSV8 Lipid A palmitoyltransferase PagP n=1 Tax=Accum...  176     3e-53
+  UniRef90_A0A1Q4CN43 Lipid A palmitoyltransferase PagP n=2 Tax=P...  176     3e-53
+  UniRef90_A0A239SMN7 Lipid A palmitoyltransferase PagP n=2 Tax=P...  178     4e-53
+  UniRef90_A0A378YXB2 Lipid A palmitoyltransferase PagP n=5 Tax=B...  177     5e-53
+  UniRef90_UPI00067C793A hypothetical protein n=1 Tax=Herbaspiril...  176     6e-53
+  UniRef90_R7X3Y3 Lipid A palmitoyltransferase PagP n=2 Tax=Pando...  177     6e-53
+  UniRef90_A0A2U8I5D9 Lipid A palmitoyltransferase PagP n=1 Tax=C...  175     8e-53
+  UniRef90_A0A2X7FPP5 Lipid A palmitoyltransferase PagP n=4 Tax=B...  173     1e-52
+  UniRef90_A0A378IZ67 Lipid A palmitoyltransferase PagP n=1 Tax=L...  176     1e-52
+  UniRef90_A0A0X8GPS7 Lipid A palmitoyltransferase PagP n=4 Tax=B...  174     1e-52
+  UniRef90_A0A2H9SIF6 Lipid A palmitoyltransferase PagP n=1 Tax=L...  174     2e-52
+  UniRef90_UPI00064624DF lipid IV(A) palmitoyltransferase PagP n=...  174     2e-52
+  UniRef90_A0A378KPG5 Lipid A palmitoyltransferase PagP n=1 Tax=L...  174     2e-52
+  UniRef90_A0A0F3K5F6 Lipid A palmitoyltransferase PagP n=1 Tax=A...  174     2e-52
+  UniRef90_UPI0007306E88 phospholipid:lipid A palmitoyltransferas...  174     2e-52
+  UniRef90_A0A378JUI6 Lipid A palmitoyltransferase PagP n=2 Tax=L...  174     2e-52
+  UniRef90_A0A353Y1V7 Lipid A palmitoyltransferase PagP n=1 Tax=C...  174     2e-52
+  UniRef90_UPI000F8D50B2 UPI000F8D50B2 related cluster n=1 Tax=un...  174     2e-52
+  UniRef90_A0A378LCT8 Lipid A palmitoyltransferase PagP n=2 Tax=L...  174     3e-52
+  UniRef90_UPI000736C225 lipid IV(A) palmitoyltransferase PagP n=...  172     4e-52
+  UniRef90_UPI0009F71B2D lipid IV(A) palmitoyltransferase PagP n=...  175     7e-52
+  UniRef90_D8IS40 Lipid A palmitoyltransferase PagP n=5 Tax=Herba...  173     1e-51
+  UniRef90_UPI0004B41A5E hypothetical protein n=1 Tax=Herbaspiril...  173     1e-51
+  UniRef90_A0A0E3YB31 Lipid A palmitoyltransferase PagP n=2 Tax=P...  172     1e-51
+  UniRef90_A0A2Z3KJ65 Lipid A palmitoyltransferase PagP n=1 Tax=L...  173     2e-51
+  UniRef90_C4SEV4 Lipid A palmitoyltransferase PagP n=5 Tax=Yersi...  172     3e-51
+  UniRef90_A0A0W0U5M3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  170     6e-51
+  UniRef90_A0A038GR42 Lipid A palmitoyltransferase PagP n=1 Tax=C...  170     7e-51
+  UniRef90_F0EX06 Lipid A palmitoyltransferase PagP n=2 Tax=Kinge...  171     7e-51
+  UniRef90_A0A158ARY6 Lipid A palmitoyltransferase PagP n=2 Tax=C...  170     7e-51
+  UniRef90_A0A0K2B841 Lipid A palmitoyltransferase PagP n=1 Tax=H...  170     8e-51
+  UniRef90_A0A1E3LEF6 Lipid A palmitoyltransferase PagP n=2 Tax=P...  170     1e-50
+  UniRef90_A0A0B3SC61 Lipid A palmitoyltransferase PagP n=1 Tax=P...  169     1e-50
+  UniRef90_A0A0T7NZH5 Lipid A palmitoyltransferase PagP n=2 Tax=Y...  170     1e-50
+  UniRef90_A0A157ZV77 Lipid A palmitoyltransferase PagP n=1 Tax=C...  169     1e-50
+  UniRef90_UPI000566EAA4 phospholipid:lipid A palmitoyltransferas...  169     1e-50
+  UniRef90_UPI00093FFCB3 phospholipid:lipid A palmitoyltransferas...  168     2e-50
+  UniRef90_A0A231UBQ7 Lipid A palmitoyltransferase PagP n=4 Tax=P...  171     2e-50
+  UniRef90_G9EJV4 Lipid A palmitoyltransferase PagP n=1 Tax=Legio...  169     3e-50
+  UniRef90_A0A0W1AER4 Lipid A palmitoyltransferase PagP n=1 Tax=L...  168     4e-50
+  UniRef90_K8R5V6 Lipid A palmitoyltransferase PagP n=3 Tax=Burkh...  168     4e-50
+  UniRef90_A0A1F4BB59 Lipid A palmitoyltransferase PagP n=1 Tax=B...  167     6e-50
+  UniRef90_A0A1G0XI06 Lipid A palmitoyltransferase PagP n=1 Tax=L...  167     1e-49
+  UniRef90_UPI0004800599 lipid IV(A) palmitoyltransferase PagP n=...  167     1e-49
+  UniRef90_UPI000F76547A phospholipid:lipid A palmitoyltransferas...  167     1e-49
+  UniRef90_A0A2E7PAP3 Lipid A palmitoyltransferase PagP n=3 Tax=H...  167     2e-49
+  UniRef90_UPI00056E132F lipid IV(A) palmitoyltransferase PagP n=...  167     2e-49
+  UniRef90_UPI0006DC12F4 phospholipid:lipid A palmitoyltransferas...  165     2e-49
+  UniRef90_UPI00056AF694 phospholipid:lipid A palmitoyltransferas...  165     2e-49
+  UniRef90_A0A238DRQ0 Lipid A palmitoyltransferase PagP n=3 Tax=r...  167     2e-49
+  UniRef90_A0A157ZVL8 Lipid A palmitoyltransferase PagP n=1 Tax=C...  166     3e-49
+  UniRef90_A0A1Q6U8J5 Lipid A palmitoyltransferase PagP n=1 Tax=A...  165     3e-49
+  UniRef90_A0A158C2L3 Lipid A palmitoyltransferase PagP n=3 Tax=B...  165     4e-49
+  UniRef90_R5Y8W6 Lipid A palmitoyltransferase PagP n=2 Tax=Aceto...  165     4e-49
+  UniRef90_A0A1Q4DPN4 Lipid A palmitoyltransferase PagP n=1 Tax=L...  165     5e-49
+  UniRef90_A0A0K9JXQ1 Lipid A palmitoyltransferase PagP n=1 Tax=C...  165     6e-49
+  UniRef90_E0WSH7 Lipid A palmitoyltransferase PagP n=1 Tax=Candi...  165     7e-49
+  UniRef90_I3CRL8 Lipid A palmitoyltransferase PagP n=1 Tax=Herba...  165     8e-49
+  UniRef90_A0A318JJP3 Lipid A palmitoyltransferase PagP n=1 Tax=A...  165     9e-49
+  UniRef90_G5PZL7 Lipid A palmitoyltransferase PagP n=1 Tax=Salmo...  164     1e-48
+  UniRef90_A0A0U2XUV9 Lipid A palmitoyltransferase PagP n=2 Tax=B...  166     1e-48
+  UniRef90_UPI000E09B059 lipid IV(A) palmitoyltransferase PagP n=...  164     1e-48
+  UniRef90_A0A0W0XMH7 Lipid A palmitoyltransferase PagP n=4 Tax=L...  164     2e-48
+  UniRef90_A0A0S1YBA4 Lipid A palmitoyltransferase PagP n=2 Tax=A...  164     2e-48
+  UniRef90_A0A238D636 Lipid A palmitoyltransferase PagP n=1 Tax=T...  164     2e-48
+  UniRef90_A0A354JX29 Lipid A palmitoyltransferase PagP n=1 Tax=A...  164     2e-48
+  UniRef90_A0A060NVV1 Lipid A palmitoyltransferase PagP n=4 Tax=B...  164     3e-48
+  UniRef90_A0A1L6I1F2 Lipid A palmitoyltransferase PagP n=2 Tax=P...  163     3e-48
+  UniRef90_A0A1N7RZN5 Lipid A palmitoyltransferase PagP n=4 Tax=P...  164     3e-48
+  UniRef90_A0A0H3X1W5 Lipid A palmitoyltransferase PagP n=2 Tax=P...  163     6e-48
+  UniRef90_A0A378DIJ2 Lipid A palmitoyltransferase PagP n=1 Tax=K...  160     8e-48
+  UniRef90_A0A158FDA6 Lipid A palmitoyltransferase PagP n=4 Tax=B...  162     9e-48
+  UniRef90_A0A0C2CIK2 Lipid A palmitoyltransferase PagP n=2 Tax=B...  162     1e-47
+  UniRef90_UPI0009FB3CD5 hypothetical protein n=1 Tax=Herbaspiril...  162     2e-47
+  UniRef90_A0A0C5IY11 Lipid A palmitoyltransferase PagP n=1 Tax=R...  162     2e-47
+  UniRef90_A0A318J616 Lipid A palmitoyltransferase PagP n=1 Tax=U...  162     2e-47
+  UniRef90_A0A127QEG0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  162     3e-47
+  UniRef90_A0A1V2VKB1 Lipid A palmitoyltransferase PagP n=3 Tax=H...  161     4e-47
+  UniRef90_UPI0009DF7345 lipid IV(A) palmitoyltransferase PagP n=...  161     4e-47
+  UniRef90_A0A0W0RTS1 Lipid A palmitoyltransferase PagP n=2 Tax=L...  162     5e-47
+  UniRef90_A0A378L454 Lipid A palmitoyltransferase PagP n=1 Tax=L...  162     5e-47
+  UniRef90_A0A0W0SCS3 Lipid A palmitoyltransferase PagP n=1 Tax=L...  161     7e-47
+  UniRef90_A0A0U3K8T8 Lipid A palmitoyltransferase PagP n=8 Tax=H...  160     7e-47
+  UniRef90_A0A225SR18 Lipid A palmitoyltransferase PagP n=1 Tax=H...  160     7e-47
+  UniRef90_A0A158DLP1 Lipid A palmitoyltransferase PagP n=1 Tax=C...  160     9e-47
+  UniRef90_A0A109E1R4 Lipid A palmitoyltransferase PagP n=2 Tax=B...  160     9e-47
+  UniRef90_A0A1W1X3S0 Lipid A palmitoyltransferase PagP n=1 Tax=A...  159     1e-46
+  UniRef90_UPI0003706382 hypothetical protein n=1 Tax=Chitiniphil...  159     1e-46
+  UniRef90_G0A8E6 Lipid A palmitoyltransferase PagP n=11 Tax=Coll...  160     2e-46
+  UniRef90_A0A0W0ZKU7 Lipid A palmitoyltransferase PagP n=2 Tax=L...  160     2e-46
+  UniRef90_A0A0L0M850 Lipid A palmitoyltransferase PagP n=1 Tax=C...  159     2e-46
+  UniRef90_UPI000D35A386 lipid IV(A) palmitoyltransferase PagP n=...  158     3e-46
+  UniRef90_A0A1H3GFP5 Lipid A palmitoyltransferase PagP n=2 Tax=C...  159     4e-46
+  UniRef90_A0A259P197 Lipid A palmitoyltransferase PagP n=1 Tax=T...  158     4e-46
+  UniRef90_J3HV08 Lipid A palmitoyltransferase PagP n=1 Tax=Herba...  159     5e-46
+  UniRef90_A0A377GEJ2 Lipid A palmitoyltransferase PagP n=2 Tax=L...  159     6e-46
+  UniRef90_A0A0K6I385 Lipid A palmitoyltransferase PagP n=2 Tax=T...  157     7e-46
+  UniRef90_A0A1G8MB62 LPS-assembly protein LptD (Fragment) n=2 Ta...  170     1e-45
+  UniRef90_G2GX85 Lipid A palmitoyltransferase PagP (Fragment) n=...  155     1e-45
+  UniRef90_J3D935 Lipid A palmitoyltransferase PagP n=6 Tax=Herba...  156     1e-45
+  UniRef90_A0A246WMY9 Lipid A palmitoyltransferase PagP n=1 Tax=H...  157     1e-45
+  UniRef90_A0A2T6F068 Lipid A palmitoyltransferase PagP n=1 Tax=G...  157     2e-45
+  UniRef90_UPI000E6BB343 hypothetical protein n=1 Tax=Herbaspiril...  155     3e-45
+  UniRef90_D6CLK0 Lipid A palmitoyltransferase PagP n=9 Tax=Thiom...  155     5e-45
+  UniRef90_A0A1H2PV98 Lipid A palmitoyltransferase PagP n=1 Tax=B...  155     6e-45
+  UniRef90_A0A238DV90 Lipid A palmitoyltransferase PagP n=1 Tax=T...  155     1e-44
+  UniRef90_A0A1D9BGH5 Lipid A palmitoyltransferase PagP n=1 Tax=J...  154     1e-44
+  UniRef90_A0A0W0ZT67 Lipid A palmitoyltransferase PagP n=1 Tax=L...  156     1e-44
+  UniRef90_UPI0005A6ACF4 antimicrobial peptide resistance and lip...  154     1e-44
+  UniRef90_A0A352C687 Lipid A palmitoyltransferase PagP n=1 Tax=L...  154     2e-44
+  UniRef90_A0A0N0GPB3 Lipid A palmitoyltransferase PagP n=1 Tax=A...  154     2e-44
+  UniRef90_A0A378LLS9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  155     2e-44
+  UniRef90_A0A2N7VNY4 Lipid A palmitoyltransferase PagP n=1 Tax=B...  154     2e-44
+  UniRef90_UPI0003FA0270 hypothetical protein n=1 Tax=Chitinilyti...  153     3e-44
+  UniRef90_A0A0A1F565 Lipid A palmitoyltransferase PagP n=1 Tax=C...  153     7e-44
+  UniRef90_UPI0004DFA76B lipid IV(A) palmitoyltransferase PagP n=...  152     1e-43
+  UniRef90_UPI0009DBC4B4 hypothetical protein n=1 Tax=Thiomonas s...  152     3e-43
+  UniRef90_A0A336ITC0 Lipid A palmitoyltransferase PagP n=1 Tax=K...  150     4e-43
+  UniRef90_UPI000F887601 hypothetical protein n=1 Tax=Undibacteri...  150     4e-43
+  UniRef90_A0A376JDC8 Lipid A palmitoyltransferase PagP n=3 Tax=E...  147     8e-43
+  UniRef90_UPI00054D3835 hypothetical protein n=1 Tax=Andreprevot...  149     2e-42
+  UniRef90_UPI000A321DBB phospholipid:lipid A palmitoyltransferas...  146     6e-42
+  UniRef90_A0A257P057 Lipid A palmitoyltransferase PagP n=1 Tax=T...  147     6e-42
+  UniRef90_A0A239HHS1 Lipid A palmitoyltransferase PagP n=1 Tax=N...  146     2e-41
+  UniRef90_A0A2X2T3X6 Lipid A palmitoyltransferase PagP n=1 Tax=C...  145     2e-41
+  UniRef90_A0A1J5R878 Lipid A palmitoyltransferase PagP n=1 Tax=m...  145     4e-41
+  UniRef90_A0A368L0N4 Lipid A palmitoyltransferase PagP n=1 Tax=P...  147     4e-41
+  UniRef90_UPI0008077073 antimicrobial peptide resistance and lip...  145     6e-41
+  UniRef90_A0A158M3N5 Lipid A palmitoyltransferase PagP n=1 Tax=B...  143     1e-40
+  UniRef90_A0A1H8JPR1 Lipid A palmitoyltransferase PagP n=1 Tax=B...  143     2e-40
+  UniRef90_UPI0002D6DD5A hypothetical protein n=1 Tax=Noviherbasp...  143     2e-40
+  UniRef90_A0A1G0X262 Lipid A palmitoyltransferase PagP n=1 Tax=L...  142     3e-40
+  UniRef90_UPI00054E49BB hypothetical protein n=1 Tax=Herminiimon...  141     1e-39
+  UniRef90_UPI000F7BFE4E hypothetical protein n=1 Tax=Undibacteri...  141     3e-39
+  UniRef90_A0A358L357 Lipid A palmitoyltransferase PagP (Fragment...  137     4e-39
+  UniRef90_F1W092 Lipid A palmitoyltransferase PagP n=1 Tax=Oxalo...  140     6e-39
+  UniRef90_A0A2S9H1D3 Lipid A palmitoyltransferase PagP n=1 Tax=S...  139     1e-38
+  UniRef90_W1FWG1 Lipid A palmitoyltransferase PagP n=1 Tax=Esche...  137     1e-38
+  UniRef90_G2J807 Lipid A palmitoyltransferase PagP n=1 Tax=Candi...  139     2e-38
+  UniRef90_A0A3P8KBL4 Lipid A palmitoyltransferase PagP n=1 Tax=R...  135     3e-38
+  UniRef90_UPI0008F950D9 phospholipid:lipid A palmitoyltransferas...  136     4e-38
+  UniRef90_UPI0002C98C27 phospholipid:lipid A palmitoyltransferas...  135     6e-38
+  UniRef90_A0A2Z6ETQ9 Lipid A palmitoyltransferase PagP n=2 Tax=B...  136     1e-37
+  UniRef90_A0A354DPE8 Lipid A palmitoyltransferase PagP (Fragment...  131     9e-37
+  UniRef90_A0A272EWI4 Lipid A palmitoyltransferase PagP n=1 Tax=C...  133     4e-36
+  UniRef90_A0A353HSN1 Lipid A palmitoyltransferase PagP n=2 Tax=M...  132     5e-36
+  UniRef90_UPI00068FAFDB hypothetical protein n=1 Tax=Campylobact...  132     5e-36
+  UniRef90_A0A2W4LWD8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  132     6e-36
+  UniRef90_UPI000A05C015 hypothetical protein n=1 Tax=Massilia ni...  133     7e-36
+  UniRef90_A0A2J0PEC9 Lipid A palmitoyltransferase PagP (Fragment...  128     2e-35
+  UniRef90_A0A350CY04 Lipid A palmitoyltransferase PagP n=6 Tax=P...  136     2e-35
+  UniRef90_A0A222MYY0 Lipid A palmitoyltransferase PagP n=2 Tax=C...  130     3e-35
+  UniRef90_A0A3P8L0U7 Lipid A palmitoyltransferase PagP n=1 Tax=R...  128     4e-35
+  UniRef90_R7KIY6 Lipid A palmitoyltransferase PagP n=1 Tax=Sutte...  134     7e-35
+  UniRef90_UPI000806B286 phospholipid:lipid A palmitoyltransferas...  127     7e-35
+  UniRef90_A0A356F5S7 Lipid A palmitoyltransferase PagP (Fragment...  127     3e-34
+  UniRef90_A0A329ZVX0 Lipid A palmitoyltransferase PagP n=1 Tax=H...  127     3e-34
+  UniRef90_A0A378CCV9 Lipid A palmitoyltransferase PagP n=1 Tax=K...  123     7e-34
+  UniRef90_A0A376V402 Lipid A palmitoyltransferase PagP n=11 Tax=...  121     6e-33
+  UniRef90_A0A1C7HI29 Lipid A palmitoyltransferase PagP n=2 Tax=B...  129     6e-33
+  UniRef90_R7C0K4 Lipid A palmitoyltransferase PagP n=2 Tax=Sutte...  129     8e-33
+  UniRef90_A0A3N5JHK1 Uncharacterized protein n=1 Tax=Xanthomonad...  130     1e-32
+  UniRef90_A0A350CLT6 Lipid A palmitoyltransferase PagP n=2 Tax=M...  123     2e-32
+  UniRef90_A0A0W0V4A9 Lipid A palmitoyltransferase PagP n=1 Tax=L...  120     5e-32
+  UniRef90_UPI000CC8D39B hypothetical protein n=1 Tax=Escherichia...  120     5e-32
+  UniRef90_A0A379H2N8 Lipid A palmitoyltransferase PagP n=1 Tax=P...  118     3e-31
+  UniRef90_H3KD21 Lipid A palmitoyltransferase PagP n=1 Tax=Sutte...  125     3e-31
+  UniRef90_UPI000CFF46D9 phospholipid:lipid A palmitoyltransferas...  117     8e-31
+  UniRef90_G4M3Y2 Lipid A palmitoyltransferase PagP n=1 Tax=Candi...  115     4e-30
+  UniRef90_A0A376F277 Lipid A palmitoyltransferase PagP n=1 Tax=E...  113     2e-29
+  UniRef90_E7H3Q4 Lipid A palmitoyltransferase PagP n=3 Tax=Sutte...  119     5e-29
+  UniRef90_K1JSD3 Lipid A palmitoyltransferase PagP n=2 Tax=Sutte...  119     6e-29
+  UniRef90_A0A259QDL6 Lipid A palmitoyltransferase PagP (Fragment...  112     9e-29
+  UniRef90_A0A212HAI0 Lipid A palmitoyltransferase PagP n=4 Tax=E...  110     2e-28
+  UniRef90_A0A2Z6I7T3 Lipid A palmitoyltransferase PagP n=1 Tax=S...  117     2e-28
+  UniRef90_A0A0J2F2S1 Lipid A palmitoyltransferase PagP n=6 Tax=E...  109     1e-27
+  UniRef90_UPI000C71B1FE uncharacterized protein LOC111686813 n=1...  109     1e-27
+  UniRef90_E9CMS1 Lipid A palmitoyltransferase PagP (Fragment) n=...  109     1e-27
+  UniRef90_A0A158ISV2 Lipid A palmitoyltransferase PagP n=1 Tax=C...  110     2e-27
+  UniRef90_A0A3C2BND4 Lipid A palmitoyltransferase PagP (Fragment...  106     4e-27
+  UniRef90_A0A158BLM0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  107     7e-27
+  UniRef90_UPI0009835227 phospholipid:lipid A palmitoyltransferas...  105     8e-27
+  UniRef90_UPI0009AD0B82 lipid IV(A) palmitoyltransferase PagP n=...  105     1e-26
+  UniRef90_A0A2X1J9V3 Lipid A palmitoyltransferase PagP n=1 Tax=E...  103     7e-26
+  UniRef90_UPI000E4A1A12 hypothetical protein n=1 Tax=Sutterella ...  109     2e-25
+  UniRef90_UPI000E08D27C hypothetical protein n=1 Tax=Polynucleob...  102     7e-25
+  UniRef90_A0A376X355 Lipid A palmitoyltransferase PagP n=1 Tax=E...  102     1e-24
+  UniRef90_UPI000CF79243 hypothetical protein n=1 Tax=Escherichia...  99.3    5e-24
+  UniRef90_A0A2I7N3L9 Lipid A palmitoyltransferase PagP n=1 Tax=N...  101     6e-24
+  UniRef90_A0A378DSG5 Lipid A palmitoyltransferase PagP n=1 Tax=K...  99.7    7e-24
+  UniRef90_A0A0K9JRP0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  99.7    1e-23
+  UniRef90_A0A1J5PLN2 Lipid A palmitoyltransferase PagP n=1 Tax=m...  97.8    2e-23
+  UniRef90_A0A1A8XGC5 LPS-assembly protein LptD n=1 Tax=Candidatu...  105     4e-23
+  UniRef90_A0A389MDH7 Lipid A palmitoyltransferase PagP n=1 Tax=E...  93.9    2e-22
+  UniRef90_UPI00092EE354 hypothetical protein n=1 Tax=Type-D symb...  93.9    4e-22
+  UniRef90_A0A388SA50 Lipid A palmitoyltransferase PagP n=4 Tax=S...  100     6e-22
+  UniRef90_A0A069PHT9 Lipid A palmitoyltransferase PagP n=1 Tax=C...  93.5    2e-21
+  UniRef90_A0A356F5J8 Lipid A palmitoyltransferase PagP (Fragment...  90.1    9e-21
+  UniRef90_UPI000B8E348C hypothetical protein n=1 Tax=Thiomonas d...  90.1    1e-19
+  UniRef90_A0A0S7ZZY8 Lipid A palmitoyltransferase PagP n=1 Tax=G...  87.4    2e-18
+  UniRef90_A0A3B1BQM4 Uncharacterized protein n=1 Tax=hydrotherma...  86.6    2e-18
+  UniRef90_A0A376V4N5 Lipid A palmitoyltransferase PagP n=4 Tax=E...  83.9    2e-18
+  UniRef90_A0A3B1BB35 Uncharacterized protein n=1 Tax=hydrotherma...  84.3    1e-17
+  UniRef90_C5B8U6 Lipid A palmitoyltransferase PagP n=1 Tax=Edwar...  81.2    2e-17
+  UniRef90_A0A259QMU8 Lipid A palmitoyltransferase PagP n=3 Tax=r...  81.2    3e-17
+  UniRef90_A0A1F6U1M6 Lipid A palmitoyltransferase PagP n=1 Tax=C...  83.1    4e-17
+  UniRef90_A0A2D6IWI6 Lipid A palmitoyltransferase PagP n=1 Tax=C...  82.4    9e-17
+  UniRef90_UPI0009ACA246 lipid IV(A) palmitoyltransferase PagP n=...  79.3    9e-17
+  UniRef90_A0A3B1ADF2 Uncharacterized protein n=1 Tax=hydrotherma...  82.0    1e-16
+  UniRef90_A0A193LI71 Lipid A palmitoyltransferase PagP n=1 Tax=W...  82.4    1e-16
+  UniRef90_A0A1B4VBZ9 Lipid A palmitoyltransferase PagP n=1 Tax=S...  82.0    2e-16
+  UniRef90_A0A3B1ASQ5 Uncharacterized protein n=1 Tax=hydrotherma...  81.2    3e-16
+  UniRef90_A0A2I6QJA9 Lipid A acylation protein PagP n=1 Tax=uncu...  78.9    4e-16
+  UniRef90_A0A3B1AG58 Uncharacterized protein n=1 Tax=hydrotherma...  80.1    7e-16
+  UniRef90_UPI0005A6872A hypothetical protein n=1 Tax=Paraburkhol...  79.7    9e-16
+  UniRef90_A0A1B4XI23 Lipid A palmitoyltransferase PagP n=2 Tax=S...  79.3    1e-15
+  UniRef90_A0A2A4RXM2 Lipid A palmitoyltransferase PagP n=2 Tax=T...  79.7    2e-15
+  UniRef90_A0A238D3V9 Lipid A palmitoyltransferase PagP n=2 Tax=T...  73.9    1e-14
+  UniRef90_UPI0003449042 hypothetical protein n=1 Tax=Paraburkhol...  76.2    2e-14
+  UniRef90_UPI000E08FAB3 hypothetical protein n=1 Tax=Polynucleob...  72.7    3e-14
+  UniRef90_I6H831 Lipid A palmitoyltransferase PagP n=1 Tax=Shige...  73.9    7e-14
+  UniRef90_A0A378CDL2 Lipid A palmitoyltransferase PagP n=3 Tax=K...  72.0    1e-13
+  UniRef90_A0A378BVV1 Lipid A palmitoyltransferase PagP n=3 Tax=K...  71.6    1e-13
+  UniRef90_A0A2T6DMN1 Uncharacterized protein n=1 Tax=Opitutaceae...  73.9    2e-13
+  UniRef90_A0A3B0XYS4 Uncharacterized protein (Fragment) n=1 Tax=...  73.9    5e-13
+  UniRef90_A0A3B1BMT1 Uncharacterized protein n=1 Tax=hydrotherma...  72.4    5e-13
+  UniRef90_A0A3B1BP07 Uncharacterized protein n=1 Tax=hydrotherma...  72.4    6e-13
+  UniRef90_UPI0009B911B5 hypothetical protein n=1 Tax=Xenorhabdus...  68.1    3e-12
+  UniRef90_A0A158JEK0 Lipid A palmitoyltransferase PagP n=1 Tax=C...  67.3    1e-11
+  UniRef90_A0A2J0QQC3 Lipid A palmitoyltransferase PagP (Fragment...  65.0    2e-11
+  UniRef90_A0A2X7I9I4 Subunit of palmitoyl transferase for Lipid ...  65.4    3e-11
+  UniRef90_A0A2G2G1U7 Lipid A palmitoyltransferase PagP n=1 Tax=A...  67.7    4e-11
+  UniRef90_UPI0003739B1E hypothetical protein n=1 Tax=Thioalkaliv...  64.7    5e-10
+  UniRef90_A0A364UKU1 Phospholipid:lipid A palmitoyltransferase (...  61.2    6e-10
+  UniRef90_A0A077PF68 Lipid A palmitoyltransferase PagP n=2 Tax=X...  60.8    1e-09
+  UniRef90_I6NRN1 Palmitoyltransferase n=2 Tax=Bcep22virus TaxID=...  63.1    1e-09
+  UniRef90_G5PZL8 Lipid A palmitoyltransferase PagP n=3 Tax=Enter...  59.6    3e-09
+  UniRef90_A0A2X3ETY1 Lipid A palmitoyltransferase PagP n=2 Tax=K...  55.8    9e-08
+  UniRef90_A0A0A0F9V0 Lipid A palmitoyltransferase PagP n=3 Tax=E...  53.5    5e-07
+  UniRef90_A0A158BKM7 Uncharacterized protein n=2 Tax=Burkholderi...  53.9    1e-06
+  UniRef90_A0A2S5GYL1 Lipid A palmitoyltransferase PagP n=2 Tax=A...  56.9    1e-06
+  UniRef90_A0A370YZH6 Phospholipid:lipid A palmitoyltransferase (...  53.1    2e-06
+  UniRef90_UPI0009FAAA27 hypothetical protein n=1 Tax=Burkholderi...  51.2    2e-05
+  UniRef90_A0A077MYB4 Lipid A palmitoyltransferase PagP n=2 Tax=X...  44.2    0.002
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_UPI000D3E5418 hypothetical protein n=1 Tax=Polynucleob...  62.7    3e-09
+  UniRef90_A0A3M0RYH5 Uncharacterized protein n=2 Tax=Aquitalea T...  60.0    3e-08
+  UniRef90_A0A1H6LL73 Lipid A palmitoyltransferase PagP n=1 Tax=P...  55.0    2e-06
+  UniRef90_A0A345Y940 Lipid A palmitoyltransferase PagP n=1 Tax=C...  54.6    3e-06
+  UniRef90_A0A2S9X954 Uncharacterized protein n=2 Tax=Chromobacte...  53.9    4e-06
+  UniRef90_A0A0X8WPL7 Uncharacterized protein n=1 Tax=Ralstonia p...  53.5    5e-06
+  UniRef90_A2SNF9 Uncharacterized protein n=1 Tax=Methylibium pet...  53.9    5e-06
+  UniRef90_A0A261E278 Lipid A palmitoyltransferase PagP n=6 Tax=A...  52.7    1e-05
+  UniRef90_UPI000F7515A7 hypothetical protein n=1 Tax=Iodobacter ...  52.7    1e-05
+  UniRef90_A0A1L7DS28 Putative PagP-like protein n=1 Tax=Ralstoni...  51.9    3e-05
+  UniRef90_A0A254VHL3 Lipid A palmitoyltransferase PagP n=2 Tax=B...  51.2    4e-05
+  UniRef90_A0A254VKC3 Uncharacterized protein n=1 Tax=Xenophilus ...  51.2    5e-05
+  UniRef90_A0A344UNF2 Uncharacterized protein n=2 Tax=Chromobacte...  50.8    7e-05
+  UniRef90_A0A2H9U7V5 Lipid A palmitoyltransferase PagP n=1 Tax=A...  50.4    9e-05
+  UniRef90_A0A3M1V910 Uncharacterized protein n=1 Tax=Euryarchaeo...  49.6    1e-04
+  UniRef90_A0A291U3J7 Lipid A palmitoyltransferase PagP n=4 Tax=A...  50.0    1e-04
+  UniRef90_A0A0X8GQC9 Uncharacterized protein n=1 Tax=Janthinobac...  49.6    2e-04
+  UniRef90_A0A1I1N2Q6 Uncharacterized protein n=2 Tax=Collimonas ...  49.2    2e-04
+  UniRef90_A0A2S9X3M8 Uncharacterized protein n=1 Tax=Chromobacte...  48.9    3e-04
+  UniRef90_UPI00051C4623 hypothetical protein n=1 Tax=Aeromonas f...  48.9    3e-04
+  UniRef90_UPI0006627021 hypothetical protein n=1 Tax=Ralstonia s...  48.9    3e-04
+  UniRef90_A0A318DQY8 Lipid A palmitoyltransferase PagP n=10 Tax=...  48.1    6e-04
+  UniRef90_A0A1H8JUB0 Uncharacterized protein n=1 Tax=Duganella s...  48.1    6e-04
+  UniRef90_B2ZXN9 Uncharacterized protein n=1 Tax=Ralstonia phage...  48.9    0.001
+  UniRef90_A0A347A643 Lipid A palmitoyltransferase PagP n=1 Tax=A...  47.3    0.001
+  UniRef90_UPI000EAB8EC5 hypothetical protein n=1 Tax=Robbsia sp....  46.9    0.001
+  UniRef90_UPI000A03F832 hypothetical protein n=1 Tax=Aeromonas s...  47.3    0.001
+  UniRef90_A0A255ZCT3 Uncharacterized protein n=2 Tax=Rhodoferax ...  46.9    0.002
+  UniRef90_A0A0S4TXD8 Uncharacterized protein n=1 Tax=Ralstonia s...  45.0    0.002
+  UniRef90_U0Z490 Uncharacterized protein n=4 Tax=Chromobacteriac...  46.5    0.002
+  UniRef90_A0A369IQN3 Uncharacterized protein n=1 Tax=Cupriavidus...  46.9    0.002
+  UniRef90_A0A3P1SSG8 Uncharacterized protein n=1 Tax=Amphritea b...  46.5    0.002
+  UniRef90_A0A2L2BBV2 Uncharacterized protein n=1 Tax=Chromobacte...  46.2    0.003
+  UniRef90_A0A2V2RI54 Uncharacterized protein n=1 Tax=Acidobacter...  46.2    0.003
+  UniRef90_G0AIK0 Uncharacterized protein n=1 Tax=Collimonas fung...  46.5    0.004
+  UniRef90_A0A1Y2QU74 Uncharacterized protein n=1 Tax=Hydrogenoph...  45.8    0.005
+  UniRef90_Q7NWN8 Uncharacterized protein n=6 Tax=Chromobacterium...  45.4    0.005
+  UniRef90_A0A1B3M4N6 Uncharacterized protein n=1 Tax=Hydrogenoph...  45.4    0.005
+  UniRef90_A0A1D9LHP2 Uncharacterized protein n=9 Tax=Chromobacte...  45.4    0.006
+  UniRef90_UPI00069E818C hypothetical protein n=1 Tax=Erwinia bil...  43.9    0.007
+  UniRef90_K1IRW5 Uncharacterized protein n=1 Tax=Aeromonas veron...  45.0    0.010
+  UniRef90_A0A381EWK8 Uncharacterized protein n=1 Tax=Chromobacte...  44.6    0.010
+  UniRef90_UPI000382D6A4 hypothetical protein n=1 Tax=Aeromonas h...  44.6    0.010
+  UniRef90_A0A0C4YCN9 Uncharacterized protein n=1 Tax=Cupriavidus...  45.0    0.011
+  UniRef90_A0A1V5M5T8 Uncharacterized protein n=1 Tax=bacterium A...  44.6    0.014
+  UniRef90_A0A127P7Z0 Uncharacterized protein n=4 Tax=Collimonas ...  44.2    0.015
+  UniRef90_A0A3D5VN28 Uncharacterized protein n=2 Tax=Comamonadac...  43.9    0.018
+  UniRef90_A0A1N7CMN8 Uncharacterized protein n=1 Tax=Aeromonas s...  43.9    0.019
+  UniRef90_A0A352RY80 Uncharacterized protein n=1 Tax=Cupriavidus...  43.9    0.028
+  UniRef90_A0A158L033 Uncharacterized protein n=1 Tax=Caballeroni...  42.3    0.029
+  UniRef90_A0A2H9U793 Uncharacterized protein n=1 Tax=Aeromonas c...  43.1    0.031
+  UniRef90_A0A2S7J996 Uncharacterized protein n=1 Tax=Rhodoferax ...  43.5    0.032
+  UniRef90_C0INL8 Uncharacterized protein n=1 Tax=uncultured bact...  43.1    0.037
+  UniRef90_A0A1M7MUZ8 Uncharacterized protein n=1 Tax=Mucilaginib...  44.2    0.041
+  UniRef90_A0A0Q5E0H3 Uncharacterized protein n=1 Tax=Duganella s...  43.1    0.043
+  UniRef90_A0A2A9KAB8 Uncharacterized protein n=2 Tax=Collimonas ...  43.1    0.044
+  UniRef90_A0A0F0FLH6 Uncharacterized protein n=3 Tax=Burkholderi...  43.1    0.051
+  UniRef90_A0A1W0D0R0 Uncharacterized protein n=7 Tax=Chromobacte...  42.7    0.052
+  UniRef90_A0A3N9QG78 Uncharacterized protein n=1 Tax=Rhodobacter...  42.7    0.052
+  UniRef90_H1SDY5 Uncharacterized protein n=2 Tax=Cupriavidus bas...  42.7    0.070
+  UniRef90_Q1LB79 Uncharacterized protein n=1 Tax=Cupriavidus met...  42.7    0.079
+  UniRef90_A0A3M1VAK7 Uncharacterized protein n=1 Tax=Euryarchaeo...  40.0    0.088
+  UniRef90_UPI000B7F817F hypothetical protein n=1 Tax=Limnohabita...  41.5    0.093
+  UniRef90_A0A0S8C1Y1 Uncharacterized protein n=1 Tax=Betaproteob...  41.9    0.10 
+  UniRef90_A0A119HFH6 Uncharacterized protein n=1 Tax=Burkholderi...  41.5    0.12 
+  UniRef90_A0A127Q7D4 Uncharacterized protein n=2 Tax=Collimonas ...  41.5    0.14 
+  UniRef90_A0A3B9NXA8 Uncharacterized protein n=1 Tax=Gallionella...  40.8    0.15 
+  UniRef90_A0A2K3J3L8 Uncharacterized protein n=1 Tax=Thermoplasm...  41.5    0.16 
+  UniRef90_A0A2U2HI15 Uncharacterized protein n=1 Tax=Massilia gl...  41.2    0.18 
+  UniRef90_A0A2G8TIK7 Uncharacterized protein n=1 Tax=Massilia eu...  40.8    0.26 
+  UniRef90_UPI0009783FBE hypothetical protein n=1 Tax=Burkholderi...  39.2    0.28 
+  UniRef90_A0A259KKN7 Uncharacterized protein n=1 Tax=Burkholderi...  40.4    0.31 
+  UniRef90_UPI000757BFCD hypothetical protein n=3 Tax=Burkholderi...  40.4    0.35 
+  UniRef90_UPI000491811B hypothetical protein n=1 Tax=Chitinilyti...  40.4    0.36 
+  UniRef90_A0A1J0D4A6 Uncharacterized protein n=1 Tax=Polynucleob...  40.4    0.39 
+  UniRef90_A0A0Q8RDQ2 Uncharacterized protein n=4 Tax=Oxalobacter...  40.0    0.49 
+  UniRef90_A0A1I7LTE8 Uncharacterized protein n=1 Tax=Massilia na...  40.0    0.55 
+  UniRef90_Q3SHH4 Uncharacterized protein n=1 Tax=Thiobacillus de...  40.0    0.55 
+  UniRef90_UPI0007516F57 hypothetical protein n=2 Tax=Cupriavidus...  39.6    0.58 
+  UniRef90_A0A1M5LYM2 Uncharacterized protein n=2 Tax=Massilia sp...  39.6    0.58 
+  UniRef90_A0A0U3SZN8 Uncharacterized protein n=1 Tax=uncultured ...  38.8    0.73 
+  UniRef90_L9PAM9 Uncharacterized protein n=6 Tax=Oxalobacteracea...  39.2    0.87 
+  UniRef90_UPI000368EA1D hypothetical protein n=1 Tax=beta proteo...  38.8    0.98 
+  UniRef90_A0A1G7XE14 Uncharacterized protein n=1 Tax=Duganella s...  38.8    1.1  
+  UniRef90_A0A0L6VX10 Uncharacterized protein n=2 Tax=Massilia Ta...  38.8    1.1  
+  UniRef90_L8APR8 Uncharacterized protein n=2 Tax=Terrabacteria g...  39.6    1.2  
+  UniRef90_A0A3M0EUQ4 Uncharacterized protein n=2 Tax=Duganella T...  38.8    1.3  
+  UniRef90_A0A2E9ZA14 Uncharacterized protein n=1 Tax=Coxiellacea...  38.8    1.6  
+  UniRef90_UPI00093ED806 hypothetical protein n=2 Tax=Aeromonas v...  38.5    1.8  
+  UniRef90_A0A0M2WIB6 Uncharacterized protein n=16 Tax=Oxalobacte...  38.5    1.8  
+  UniRef90_A0A0G3BRX7 Uncharacterized protein n=2 Tax=[Polyangium...  38.5    1.9  
+  UniRef90_A0A0Q4NJS8 Uncharacterized protein n=1 Tax=Duganella s...  38.1    2.0  
+  UniRef90_A0A0S8DHU4 Uncharacterized protein n=1 Tax=Betaproteob...  38.1    2.0  
+  UniRef90_A0A2V6D6G3 Uncharacterized protein n=1 Tax=Verrucomicr...  39.2    2.1  
+  UniRef90_A0A2V5UGP7 Uncharacterized protein n=1 Tax=Verrucomicr...  38.8    2.4  
+  UniRef90_A0A2V7NP40 Uncharacterized protein n=1 Tax=Gemmatimona...  38.8    2.5  
+  UniRef90_A0A202BH43 Uncharacterized protein n=1 Tax=Chromobacte...  38.5    2.6  
+  UniRef90_A0A1I4PKF3 Uncharacterized protein n=2 Tax=Proteobacte...  38.1    2.7  
+  UniRef90_A0A2S7JIU8 Uncharacterized protein n=1 Tax=Limnohabita...  37.7    2.7  
+  UniRef90_A0A2V6FZT6 Uncharacterized protein n=1 Tax=Verrucomicr...  38.8    2.7  
+  UniRef90_A0A2V5QV20 Uncharacterized protein n=1 Tax=Verrucomicr...  38.8    2.8  
+  UniRef90_A0A2E4EC90 Uncharacterized protein n=1 Tax=Crocinitomi...  38.1    2.9  
+  UniRef90_A0A2V5KDY1 Uncharacterized protein n=1 Tax=Verrucomicr...  38.5    3.2  
+  UniRef90_A0A0D5LWE8 Alpha-L-rhamnosidase n=1 Tax=Martelella end...  38.5    3.7  
+  UniRef90_UPI000B360D38 hypothetical protein n=1 Tax=Thaumasiovi...  37.7    3.7  
+  UniRef90_A0A2V5V0D9 Uncharacterized protein n=1 Tax=Verrucomicr...  38.5    3.8  
+  UniRef90_A0A2A4UKD2 Uncharacterized protein n=1 Tax=Moraxellace...  37.3    3.9  
+  UniRef90_A0A1M7KL56 Uncharacterized protein n=1 Tax=Duganella s...  37.3    4.1  
+  UniRef90_A0A2P1VEL8 Uncharacterized protein n=12 Tax=Comamonada...  37.3    4.1  
+  UniRef90_A0A2V5ZCR7 Uncharacterized protein n=1 Tax=Verrucomicr...  38.1    4.4  
+  UniRef90_A0A315CAS6 Uncharacterized protein n=1 Tax=Limnohabita...  36.9    4.4  
+  UniRef90_A0A0Q7FIT2 Uncharacterized protein n=6 Tax=Oxalobacter...  37.3    4.5  
+  UniRef90_A0A0T2ZMX8 Uncharacterized protein n=1 Tax=Hydrogenoph...  37.3    4.6  
+  UniRef90_A0A2V5Y4X0 Uncharacterized protein n=1 Tax=Verrucomicr...  38.1    4.8  
+  UniRef90_A0A2E0GWK0 Uncharacterized protein n=2 Tax=Legionellal...  37.3    5.1  
+  UniRef90_A0A0F9HM93 Uncharacterized protein n=1 Tax=marine sedi...  36.9    5.6  
+  UniRef90_UPI000B41B6DD hypothetical protein n=1 Tax=Comamonas t...  36.9    5.7  
+  UniRef90_C9Y7V8 Uncharacterized protein (Fragment) n=1 Tax=Curv...  36.1    5.8  
+  UniRef90_A0A0Q6TTJ0 Uncharacterized protein n=1 Tax=Massilia sp...  36.5    6.3  
+  UniRef90_A0A0D0LPK1 Uncharacterized protein n=2 Tax=Variovorax ...  36.5    6.7  
+  UniRef90_A0A1I9Y1X8 Uncharacterized protein n=18 Tax=Janthinoba...  36.5    7.2  
+  UniRef90_A0A2V6I139 Uncharacterized protein n=1 Tax=Verrucomicr...  37.3    7.2  
+  UniRef90_A0A086WEP3 Uncharacterized protein n=2 Tax=Massilia sp...  36.5    7.4  
+  UniRef90_A0A104Z7C1 Uncharacterized protein n=2 Tax=Burkholderi...  36.5    7.5  
+  UniRef90_A0A2V5WME1 Uncharacterized protein n=3 Tax=Verrucomicr...  37.3    7.5  
+  UniRef90_A0A2V5WQD0 Uncharacterized protein n=1 Tax=Verrucomicr...  37.3    7.7  
+  UniRef90_A0A2V5RNN9 Uncharacterized protein n=3 Tax=Verrucomicr...  37.3    7.7  
+  UniRef90_A0A1F4FGU1 Uncharacterized protein n=1 Tax=Betaproteob...  35.8    8.4  
+  UniRef90_UPI00036DE3BB hypothetical protein n=1 Tax=Uliginosiba...  36.5    8.6  
+  UniRef90_A0A2V5ZAH5 Uncharacterized protein n=1 Tax=Verrucomicr...  37.3    8.7  
+  UniRef90_A0A1E7X4T5 Uncharacterized protein n=3 Tax=Duganella T...  36.5    8.8  
+  UniRef90_A0A1F6CL67 Uncharacterized protein n=1 Tax=Handelsmanb...  36.9    9.2  
+  UniRef90_V4QZR7 Uncharacterized protein n=2 Tax=Asticcacaulis s...  37.3    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.138    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0421    0.140     1.90     42.6     43.6 
+
+Effective search space used: 784628720415
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 25, 2019  11:11 AM
+  Number of letters in database: 30,134,129,831
+  Number of sequences in database:  90,056,284
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
