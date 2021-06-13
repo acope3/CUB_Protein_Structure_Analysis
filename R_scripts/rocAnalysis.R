@@ -52,11 +52,11 @@ print(args)
 
 
 ## Outputs CSP estimates
-createParameterOutput <- function(parameter,numMixtures,samples,mixture.labels,samples.percent.keep=1,relative.to.optimal.codon=F,report.original.ref=T,thin=thin)
+createParameterOutput <- function(parameter,numMixtures,samples,mixture.labels,samples.percent.keep=1,relative.to.optimal.codon=F,report.original.ref=T)
 {
   for (i in 1:numMixtures)
   {
-    getCSPEstimates(parameter,paste(dir_name,"Parameter_est",mixture.labels[i],sep="/"),i,samples*samples.percent.keep,relative.to.optimal.codon=relative.to.optimal.codon,report.original.ref = report.original.ref,thin=thin)
+    getCSPEstimates(parameter,paste(dir_name,"Parameter_est",mixture.labels[i],sep="/"),i,samples*samples.percent.keep,relative.to.optimal.codon=relative.to.optimal.codon,report.original.ref = report.original.ref)
   }
 }
 
@@ -68,9 +68,10 @@ createTracePlots <- function(trace, model,genome,numMixtures,samples,mixture.lab
   {
     plot(trace, what = "Mutation", mixture = i)
     plot(trace, what = "Selection", mixture = i)
-    plot(trace,what="AcceptanceRatio")
+    
     plot(model, genome, samples = samples*samples.percent.keep, mixture = i,main = mixture.labels[i])
   }
+  plot(trace,what="AcceptanceRatio")
 }
 
 
@@ -126,31 +127,15 @@ dir.create(directory)
 done <- FALSE
 done.adapt <- FALSE
 run_number <- 1
-# if (run_number != 1 && !est.hyp)
-# {
-#   parameter <- loadParameterObject(file.path(dir_name,"R_objects","parameter.Rda"))
-#   trace <- parameter$getTraceObject()
-#   sphi.trace <- trace$getStdDevSynthesisRateTraces()
-#   sphi_init <- mean(unlist(sphi.trace))
-# }
-# print(sphi_init)
+
 while((!done) && (run_number <= max_num_runs))
 {
 
   if (run_number == 1)
   {
     dir_name <- paste0(directory,"/restart_",run_number)
-    if (length(dM.file) > 0)
-    {
-      mutation <- read.table(dM.file,sep=",",header=T,stringsAsFactors=F)
-      mutation.prior.mean <- mutation[,3]
-      mutation.prior.sd <- mutation[,4]
-    } else{
-      mutation.prior.mean <- 0
-      mutation.prior.sd <- 0.35
-    }
     percent.to.keep <- 0.5
-    parameter <- initializeParameterObject(genome,sphi_init,numMixtures, geneAssignment,init.sepsilon = 0.05,split.serine = TRUE, mixture.definition = mixDef, initial.expression.values = init_phi)#,propose.by.prior=T,mutation.prior.mean=mutation.prior.mean,mutation.prior.sd=mutation.prior.sd)
+    parameter <- initializeParameterObject(genome,sphi_init,numMixtures, geneAssignment,init.sepsilon = 0.05,split.serine = TRUE, mixture.definition = mixDef, initial.expression.values = init_phi)
 
     ## This assumes only one mixture category
     ## TODO: generalize to allow for more than one mixture
@@ -167,7 +152,6 @@ while((!done) && (run_number <= max_num_runs))
   } else if (run_number == max_num_runs){
     percent.to.keep <- 1
     parameter<-initializeParameterObject(init.with.restart.file = paste(dir_name,"Restart_files/rstartFile.rst_final",sep="/"),model="ROC")
-    # parameter$setStdDevSynthesisRate(sphi_init[1],0)
     if (fix_dM)
     {
       parameter$fixDM()
@@ -210,7 +194,7 @@ while((!done) && (run_number <= max_num_runs))
 
   #mcmc$setStepsToAdapt(0)
   model <- initializeModelObject(parameter, "ROC", with.phi,fix.observation.noise=T)
-  setRestartSettings(mcmc, paste(dir_name,"Restart_files/rstartFile.rst",sep="/"), adaptiveWidth, F)
+  setRestartSettings(mcmc, paste(dir_name,"Restart_files/rstartFile.rst",sep="/"), adaptiveWidth, T)
   
 
   sys.runtime <- system.time(
@@ -228,7 +212,7 @@ while((!done) && (run_number <= max_num_runs))
  
 
   ## Output CSP file
-  createParameterOutput(parameter = parameter,numMixtures = numMixtures,samples = samples,mixture.labels = mixture.labels,samples.percent.keep = percent.to.keep,relative.to.optimal.codon = F,report.original.ref = T,thin=thinning)
+  createParameterOutput(parameter = parameter,numMixtures = numMixtures,samples = samples,mixture.labels = mixture.labels,samples.percent.keep = percent.to.keep,relative.to.optimal.codon = F,report.original.ref = T)
 
   ## Output phi file
   expressionValues <- getExpressionEstimates(parameter,c(1:size),samples*percent.to.keep,genome = genome)

@@ -223,36 +223,78 @@ rescaleByMean<- function(sel.file,parameter.file)
      mean.trace <- colMeans(df.traces)
      mean.deta <- mean(mean.trace)
      sd.trace <- sd(mean.trace)
-     
+     #print(data.tmp)
      data.tmp[which(data.tmp$Mean!=0),c("Mean","X2.5.","X97.5.")] <- data.tmp[which(data.tmp$Mean!=0),c("Mean","X2.5.","X97.5.")] - mean.deta
-     data.tmp[which(data.tmp$Mean==0),c("Mean","Std.Dev","Effective.Samples","X2.5.","X97.5.")] <- c(-mean.deta,sd.trace,NA,quantile(0-mean.trace,c(0.025,0.975)))
+     data.tmp[which(data.tmp$Mean==0),c("Mean","Std.Dev","X2.5.","X97.5.")] <- c(-mean.deta,sd.trace,quantile(0-mean.trace,c(0.025,0.975)))
+     print(data.tmp)
+     #data.tmp[which(data.tmp$Posterior!=0),c("Posterior","X0.025.","X0.975.")] <- data.tmp[which(data.tmp$Posterior!=0),c("Posterior","X0.025.","X0.975.")] - mean.deta
+     #data.tmp[which(data.tmp$Posterior==0),c("Posterior","Std.Dev","X0.025.","X0.975.")] <- c(-mean.deta,sd.trace,quantile(0-mean.trace,c(0.025,0.975)))
+     
      data[which(data$AA == a),] <- data.tmp
 
    }
 
-   colnames(data) <- c("AA","Codon","Posterior","Std.Dev","Effective.Samples","0.025%","0.975%")
+   colnames(data) <- c("AA","Codon","Posterior","Std.Dev","0.025%","0.975%")
    data <- data[,c("AA","Codon","Posterior","Std.Dev","0.025%","0.975%")]
    return(data)
 }
 
+rescaleByGenomeOptimal<-function(sel.file,genome.file="selection_mod_scerevisiae.csv")
+{
+  data <- read.table(sel.file,sep=",",header=T,stringsAsFactors=F)
+  data <- data[,which(colnames(data) != "Effective.Samples")]
+  colnames(data) <- c("AA","Codon","Posterior","Std.Dev","0.025%","0.975%")
+    
+  #data <- data[which(data$Posterior != 0),]
+  ref.set <- read.table(genome.file,sep=",",header=T,stringsAsFactors=F)
+  print(ref.set)
+  print(data)
+  aa <- aminoAcids()
+  for (a in aa)
+  {
+   if (a == "X" || a=="M" || a == "W") next
+   codons.w.ref <- AAToCodon(a,F)
+   data.tmp <- data[which(data$AA == a),]
+   ref.set.aa <- ref.set[which(ref.set$AA == a ),]
+   current.reference.row <- which(data.tmp[,"Posterior"]==0)
+   genome.opt.index <- which.min(c(ref.set.aa[,3],0))
+   ##optimal codon is the reference, nothing to do
+   if (genome.opt.index != length(codons.w.ref))
+   {
+      data.tmp[,c("Posterior","0.025%","0.975%")] <- data.tmp[,c("Posterior","0.025%","0.975%")] - data.tmp[genome.opt.index,"Posterior"]
 
+      ##Get row of the optimal codon, which should be 0
+      optimal.codon.row <- which(data.tmp[,"Posterior"]==0.0)
+      data.tmp[current.reference.row,"Std.Dev"] <- data.tmp[genome.opt.index,"Std.Dev"]
+      
+      data.tmp[current.reference.row,c("0.025%","0.975%")] <- data.tmp[genome.opt.index,c("0.025%","0.975%")] + data.tmp[current.reference.row,"Posterior"]
+      data.tmp[optimal.codon.row,c("Posterior","Std.Dev","0.025%","0.975%")] <- 0.0
+   }
+   
+   #data.tmp <- data.tmp[which(data.tmp$Posterior != 0),]
+   data[which(data$AA == a),] <- data.tmp
+  }
+  return(data)
+}
 
-head.directory <- "../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Results/"
-
-targets <- c("Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini")
+head.directory <- "../Scer/Predicted/Results/"
+genome.file <- "../selection_mod_scerevisiae.csv"
+targets <- c("Secondary_structure_paired_est_dM")
 
 for (f in targets)
 {
 	structure.loc <- file.path(head.directory,f)
+  print(structure.loc)
 	structures <- list.dirs(structure.loc,recursive=F)
+  print(structures)
 	for (struct in structures)
 	{
 		sel.file.loc <- file.path(struct,"restart_5","Parameter_est/")
 		sel.file <- list.files(sel.file.loc,pattern="*_Selection.csv",full.names=T)
 		parameter.file <- file.path(struct,"restart_5","R_objects","parameter.Rda")
-		print(sel.file)
-    sel.rescaled <- rescaleByMean(sel.file,parameter.file)
-    write.table(sel.rescaled,file.path(sel.file.loc,"selection_rescaled_by_mean.csv"),sep=",",col.names=T,row.names=F,quote=F)
+    print(sel.file.loc)
+    sel.rescaled <- rescaleByGenomeOptimal(sel.file,genome.file=genome.file)
+    write.table(sel.rescaled,file.path(sel.file.loc,"selection_rescaled_to_genome_optimal.csv"),sep=",",col.names=T,row.names=F,quote=F)
 	}	
 }
 
