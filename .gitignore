@@ -11,8 +11,3 @@
 *.sh
 *.svg
 *.gz
-/Exp_structure_data/
-/Alpha_psipred/
-/IUPRED2/
-/Psipred_iupred/
-/Psipred_iupred_w_Anchor/
