@@ -164,17 +164,16 @@ within.structure.diff <- function(target.dir,head.dir="../Ecoli/Empirical")
 
 
 
-# genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix/",
-#         "Ecoli/Predicted/Secondary_structures/Coil/",
-#         "Ecoli/Predicted/Secondary_structures/Sheet/",
-#         "Ecoli/Predicted/Secondary_structures/Nterminus/")
-# model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix/",
-#         "Ecoli/Predicted/Results/Secondary_structures/Coil/",
-#         "Ecoli/Predicted/Results/Secondary_structures/Sheet/",
-#         "Ecoli/Predicted/Results/Secondary_structures/Nterminus/")
-# DIC.results.ss <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print("Done with Secondary Structures")
-
+genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix/",
+        "Ecoli/Predicted/Secondary_structures/Coil/",
+        "Ecoli/Predicted/Secondary_structures/Sheet/",
+        "Ecoli/Predicted/Secondary_structures/Nterminus/")
+model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix/",
+        "Ecoli/Predicted/Results/Secondary_structures/Coil/",
+        "Ecoli/Predicted/Results/Secondary_structures/Sheet/",
+        "Ecoli/Predicted/Results/Secondary_structures/Nterminus/")
+DIC.results.ss <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures",DIC.results.ss$DIC))
 
 # genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix_Coil/",
 #         "Ecoli/Predicted/Secondary_structures/Sheet/",
@@ -204,22 +203,22 @@ within.structure.diff <- function(target.dir,head.dir="../Ecoli/Empirical")
 # print("Done with Secondary Structures, Coil and Sheet merged")
 
 
-# genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix_Sheet_Coil/",
-#         "Ecoli/Predicted/Secondary_structures/Nterminus/")
-# model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix_Sheet_Coil/",
-#         "Ecoli/Predicted/Results/Secondary_structures/Nterminus/")
-# DIC.results.all <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print("Done with Secondary Structures, All merged")
+genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix_Sheet_Coil/",
+        "Ecoli/Predicted/Secondary_structures/Nterminus/")
+model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix_Sheet_Coil/",
+        "Ecoli/Predicted/Results/Secondary_structures/Nterminus/")
+DIC.results.all <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures, All merged",DIC.results.all$DIC))
 
 
-# genome.files <- c("Ecoli/Predicted/Ordered_disordered/Ordered/",
-#         "Ecoli/Predicted/Ordered_disordered/Disordered/",
-#         "Ecoli/Predicted/Ordered_disordered/Nterminus/")
-# model.files <- c("Ecoli/Predicted/Results/Ordered_disordered/Ordered/",
-#         "Ecoli/Predicted/Results/Ordered_disordered/Disordered/",
-#         "Ecoli/Predicted/Results/Ordered_disordered/Nterminus/")
+genome.files <- c("Ecoli/Predicted/Ordered_disordered/Ordered/",
+        "Ecoli/Predicted/Ordered_disordered/Disordered/",
+        "Ecoli/Predicted/Ordered_disordered/Nterminus/")
+model.files <- c("Ecoli/Predicted/Results/Ordered_disordered/Ordered/",
+        "Ecoli/Predicted/Results/Ordered_disordered/Disordered/",
+        "Ecoli/Predicted/Results/Ordered_disordered/Nterminus/")
 
-# DIC.results.ord <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+DIC.results.ord.2 <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 
 
 # genome.files <- c("Ecoli/Empirical/Secondary_structures/Helix/",
@@ -235,170 +234,158 @@ within.structure.diff <- function(target.dir,head.dir="../Ecoli/Empirical")
 # DIC.results.ss <- calculate.for.all.fits(model.files,genome.files,samples=10000)
 # print("Done with Secondary Structures")
 
-genome.files <- c("Ecoli/Empirical/Secondary_structures/Helix/",
-        "Ecoli/Empirical/Secondary_structures/Sheet/",
-        "Ecoli/Empirical/Secondary_structures/Turn_Coil/",
-        "Ecoli/Empirical/Secondary_structures/Nterminus/")
-model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Helix/",
-        "Ecoli/Empirical/Results/Secondary_structures/Sheet/",
-        "Ecoli/Empirical/Results/Secondary_structures/Turn_Coil/",
-        "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
-DIC.results.ss.tc <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-print("Done with Secondary Structures, Turn and Coil Merged")
+# genome.files <- c("Ecoli/Empirical/Secondary_structures/Helix/",
+#         "Ecoli/Empirical/Secondary_structures/Sheet/",
+#         "Ecoli/Empirical/Secondary_structures/Turn_Coil/",
+#         "Ecoli/Empirical/Secondary_structures/Nterminus/")
+# model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Helix/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Sheet/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Turn_Coil/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
+# DIC.results.ss.tc <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+# print("Done with Secondary Structures, Turn and Coil Merged")
 
 
-genome.files <- c("Ecoli/Empirical/Secondary_structures/Helix_Coil_Turn/",
-        "Ecoli/Empirical/Secondary_structures/Sheet/",
-        "Ecoli/Empirical/Secondary_structures/Nterminus/")
-model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Helix_Coil_Turn/",
-        "Ecoli/Empirical/Results/Secondary_structures/Sheet/",
-        "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
-DIC.results.ss.hc <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-print("Done with Secondary Structures, Helix and Coil merged")
+# genome.files <- c("Ecoli/Empirical/Secondary_structures/Helix_Coil_Turn/",
+#         "Ecoli/Empirical/Secondary_structures/Sheet/",
+#         "Ecoli/Empirical/Secondary_structures/Nterminus/")
+# model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Helix_Coil_Turn/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Sheet/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
+# DIC.results.ss.hc <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+# print("Done with Secondary Structures, Helix and Coil merged")
 
-genome.files <- c("Ecoli/Empirical/Secondary_structures/Helix_Sheet/",
-        "Ecoli/Empirical/Secondary_structures/Turn_Coil/",
-        "Ecoli/Empirical/Secondary_structures/Nterminus/")
-model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Helix_Sheet/",
-        "Ecoli/Empirical/Results/Secondary_structures/Turn_Coil/",
-        "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
-DIC.results.ss.he <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-print("Done with Secondary Structures, Helix and Sheet merged")
+# genome.files <- c("Ecoli/Empirical/Secondary_structures/Helix_Sheet/",
+#         "Ecoli/Empirical/Secondary_structures/Turn_Coil/",
+#         "Ecoli/Empirical/Secondary_structures/Nterminus/")
+# model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Helix_Sheet/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Turn_Coil/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
+# DIC.results.ss.he <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+# print("Done with Secondary Structures, Helix and Sheet merged")
 
-genome.files <- c("Ecoli/Empirical/Secondary_structures/Sheet_Coil_Turn/",
-        "Ecoli/Empirical/Secondary_structures/Helix/",
-        "Ecoli/Empirical/Secondary_structures/Nterminus/")
-model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Sheet_Coil_Turn/",
-        "Ecoli/Empirical/Results/Secondary_structures/Helix/",
-        "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
-DIC.results.ss.ec <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-print("Done with Secondary Structures, Coil and Sheet merged")
+# genome.files <- c("Ecoli/Empirical/Secondary_structures/Sheet_Coil_Turn/",
+#         "Ecoli/Empirical/Secondary_structures/Helix/",
+#         "Ecoli/Empirical/Secondary_structures/Nterminus/")
+# model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Sheet_Coil_Turn/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Helix/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
+# DIC.results.ss.ec <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+# print("Done with Secondary Structures, Coil and Sheet merged")
 
-genome.files <- c("Ecoli/Empirical/Secondary_structures/Helix_Coil_Sheet_Turn/",
-        "Ecoli/Empirical/Secondary_structures/Nterminus/")
-model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Helix_Coil_Sheet_Turn/",
-        "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
-DIC.results.ss.hec <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-print("Done with Secondary Structures, null model")
+# genome.files <- c("Ecoli/Empirical/Secondary_structures/Helix_Coil_Sheet_Turn/",
+#         "Ecoli/Empirical/Secondary_structures/Nterminus/")
+# model.files <- c("Ecoli/Empirical/Results/Secondary_structures/Helix_Coil_Sheet_Turn/",
+#         "Ecoli/Empirical/Results/Secondary_structures/Nterminus/")
+# DIC.results.ss.hec <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+# print("Done with Secondary Structures, null model")
 
-# model.fits <- c("Nterm/")
-# model.type <- c("Nterm")
-# genome.locs <- paste0("Ecoli/Predicted/",model.fits,sep="/")
-# results.dir <- paste("Ecoli/Predicted/","Results/",sep="/")
-# model.locs <- paste0(results.dir,model.fits)
-# categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
-# model.files <- paste0(model.locs,categories)
-# genome.files <- paste0(genome.locs,categories)
-# DIC.results.comp <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print("Done with Complete")
+model.fits <- c("Ordered_disordered/")
+model.type <- c("Effects of disordered regions")
+genome.locs <- paste0("Ecoli/Predicted/",model.fits,sep="/")
+results.dir <- paste("Ecoli/Predicted/","Results/",sep="/")
+model.locs <- paste0(results.dir,model.fits)
+categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
+model.files <- paste0(model.locs,categories)
+genome.files <- paste0(genome.locs,categories)
+DIC.results.ord <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Ordered vs. Disordered",DIC.results.ord$DIC))
 
-# model.fits <- c("Ordered_disordered/")
-# model.type <- c("Effects of disordered regions")
-# genome.locs <- paste0("Ecoli/Predicted/",model.fits,sep="/")
-# results.dir <- paste("Ecoli/Predicted/","Results/",sep="/")
-# model.locs <- paste0(results.dir,model.fits)
-# categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
-# model.files <- paste0(model.locs,categories)
-# genome.files <- paste0(genome.locs,categories)
+genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix/",
+				"Ecoli/Predicted/Secondary_structures/Sheet/",
+				"Ecoli/Predicted/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Secondary_structure_order/Coil_ord/",
+				"Ecoli/Predicted/Secondary_structure_order/Coil_dis/")
+model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix/",
+				"Ecoli/Predicted/Results/Secondary_structures/Sheet/",
+				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_ord/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_dis/")
+DIC.results.ss_coil_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Coil Ordered/Disordered",DIC.results.ss_coil_dis$DIC))
 
-# DIC.results.ord <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+genome.files <- c("Ecoli/Predicted/Secondary_structure_order/Helix_ord/",
+				"Ecoli/Predicted/Secondary_structure_order/Helix_dis/",
+				"Ecoli/Predicted/Secondary_structures/Sheet/",
+				"Ecoli/Predicted/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Secondary_structures/Coil/")
+model.files <- c("Ecoli/Predicted/Results/Secondary_structure_order/Helix_ord/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Helix_dis/",
+				"Ecoli/Predicted/Results/Secondary_structures/Sheet/",
+				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Results/Secondary_structures/Coil/")
+DIC.results.ss_helix_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Helix Ordered/Disordered",DIC.results.ss_helix_dis$DIC))
 
-
-# genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix/",
-# 				"Ecoli/Predicted/Secondary_structures/Sheet/",
-# 				"Ecoli/Predicted/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Coil_ord/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Coil_dis/")
-# model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Sheet/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_ord/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_dis/")
-# DIC.results.ss_coil_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Coil Ordered/Disordered",DIC.results.ss_coil_dis$DIC))
-
-# genome.files <- c("Ecoli/Predicted/Secondary_structure_order/Helix_ord/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Helix_dis/",
-# 				"Ecoli/Predicted/Secondary_structures/Sheet/",
-# 				"Ecoli/Predicted/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Secondary_structures/Coil/")
-# model.files <- c("Ecoli/Predicted/Results/Secondary_structure_order/Helix_ord/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Helix_dis/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Sheet/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Coil/")
-# DIC.results.ss_helix_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Helix Ordered/Disordered",DIC.results.ss_helix_dis$DIC))
-
-# genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Sheet_ord/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Sheet_dis/",
-# 				"Ecoli/Predicted/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Secondary_structures/Coil/")
-# model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Sheet_ord/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Sheet_dis/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Coil/")
-# DIC.results.ss_sheet_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Sheet Ordered/Disordered",DIC.results.ss_sheet_dis$DIC))
+genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix/",
+				"Ecoli/Predicted/Secondary_structure_order/Sheet_ord/",
+				"Ecoli/Predicted/Secondary_structure_order/Sheet_dis/",
+				"Ecoli/Predicted/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Secondary_structures/Coil/")
+model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Sheet_ord/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Sheet_dis/",
+				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Results/Secondary_structures/Coil/")
+DIC.results.ss_sheet_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Sheet Ordered/Disordered",DIC.results.ss_sheet_dis$DIC))
 
 
-# genome.files <- c("Ecoli/Predicted/Secondary_structure_order/Helix_ord/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Helix_dis/",
-# 				"Ecoli/Predicted/Secondary_structures/Sheet/",
-# 				"Ecoli/Predicted/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Coil_ord/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Coil_dis/")
-# model.files <- c("Ecoli/Predicted/Results/Secondary_structure_order/Helix_ord/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Helix_dis/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Sheet/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_ord/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_dis/")
-# DIC.results.ss_coil_dis_helix_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Coil/Helix Ordered/Disordered",DIC.results.ss_coil_dis_helix_dis$DIC))
+genome.files <- c("Ecoli/Predicted/Secondary_structure_order/Helix_ord/",
+				"Ecoli/Predicted/Secondary_structure_order/Helix_dis/",
+				"Ecoli/Predicted/Secondary_structures/Sheet/",
+				"Ecoli/Predicted/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Secondary_structure_order/Coil_ord/",
+				"Ecoli/Predicted/Secondary_structure_order/Coil_dis/")
+model.files <- c("Ecoli/Predicted/Results/Secondary_structure_order/Helix_ord/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Helix_dis/",
+				"Ecoli/Predicted/Results/Secondary_structures/Sheet/",
+				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_ord/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_dis/")
+DIC.results.ss_coil_dis_helix_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Coil/Helix Ordered/Disordered",DIC.results.ss_coil_dis_helix_dis$DIC))
 
-# genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Sheet_ord/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Sheet_dis/",
-# 				"Ecoli/Predicted/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Coil_ord/",
-# 				"Ecoli/Predicted/Secondary_structure_order/Coil_dis/")
-# model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Sheet_ord/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Sheet_dis/",
-# 				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_ord/",
-# 				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_dis/")
-# DIC.results.ss_coil_dis_sheet_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + Coil/Sheet Ordered/Disordered",DIC.results.ss_coil_dis_sheet_dis$DIC))
-
-
-# model.fits <- c("Secondary_structure_order/")
-# model.type <- c("Secondary structure_order")
-# genome.locs <- paste0("Ecoli/Predicted/",model.fits,sep="/")
-# results.dir <- paste("Ecoli/Predicted/","Results/",sep="/")
-# model.locs <- paste0(results.dir,model.fits)
-# categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
-# model.files <- paste0(model.locs,categories)
-# genome.files <- paste0(genome.locs,categories)
-# DIC.results.ss_all_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures + All Ordered/Disordered",DIC.results.ss_all_dis$DIC))
+genome.files <- c("Ecoli/Predicted/Secondary_structures/Helix/",
+				"Ecoli/Predicted/Secondary_structure_order/Sheet_ord/",
+				"Ecoli/Predicted/Secondary_structure_order/Sheet_dis/",
+				"Ecoli/Predicted/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Secondary_structure_order/Coil_ord/",
+				"Ecoli/Predicted/Secondary_structure_order/Coil_dis/")
+model.files <- c("Ecoli/Predicted/Results/Secondary_structures/Helix/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Sheet_ord/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Sheet_dis/",
+				"Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_ord/",
+				"Ecoli/Predicted/Results/Secondary_structure_order/Coil_dis/")
+DIC.results.ss_coil_dis_sheet_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + Coil/Sheet Ordered/Disordered",DIC.results.ss_coil_dis_sheet_dis$DIC))
 
 
-# genome.files <- c("Ecoli/Predicted/Secondary_structure_order/Helix_ord/",
-#         "Ecoli/Predicted/Secondary_structure_order/Sheet_ord/",
-#         "Ecoli/Predicted/Secondary_structure_order/Coil_ord/",
-#         "Ecoli/Predicted/Secondary_structures/Nterminus/",
-#         "Ecoli/Predicted/Ordered_disordered/Disordered/")
-# model.files <- c("Ecoli/Predicted/Results/Secondary_structure_order/Helix_ord/",
-#         "Ecoli/Predicted/Results/Secondary_structure_order/Sheet_ord/",
-#         "Ecoli/Predicted/Results/Secondary_structure_order/Coil_ord/",
-#         "Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
-#         "Ecoli/Predicted/Results/Ordered_disordered/Disordered/")
-# DIC.results.ss_vs_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
-# print(paste("Done with Secondary Structures or Disordered",DIC.results.ss_vs_dis$DIC))
+model.fits <- c("Secondary_structure_order/")
+model.type <- c("Secondary structure_order")
+genome.locs <- paste0("Ecoli/Predicted/",model.fits,sep="/")
+results.dir <- paste("Ecoli/Predicted/","Results/",sep="/")
+model.locs <- paste0(results.dir,model.fits)
+categories <- list.dirs(model.locs[1],full.names = F,recursive = F)
+model.files <- paste0(model.locs,categories)
+genome.files <- paste0(genome.locs,categories)
+DIC.results.ss_all_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures + All Ordered/Disordered",DIC.results.ss_all_dis$DIC))
+
+
+genome.files <- c("Ecoli/Predicted/Secondary_structure_order/Helix_ord/",
+        "Ecoli/Predicted/Secondary_structure_order/Sheet_ord/",
+        "Ecoli/Predicted/Secondary_structure_order/Coil_ord/",
+        "Ecoli/Predicted/Secondary_structures/Nterminus/",
+        "Ecoli/Predicted/Ordered_disordered/Disordered/")
+model.files <- c("Ecoli/Predicted/Results/Secondary_structure_order/Helix_ord/",
+        "Ecoli/Predicted/Results/Secondary_structure_order/Sheet_ord/",
+        "Ecoli/Predicted/Results/Secondary_structure_order/Coil_ord/",
+        "Ecoli/Predicted/Results/Secondary_structures/Nterminus/",
+        "Ecoli/Predicted/Results/Ordered_disordered/Disordered/")
+DIC.results.ss_vs_dis <- calculate.for.all.fits(model.files,genome.files,samples=10000)
+print(paste("Done with Secondary Structures or Disordered",DIC.results.ss_vs_dis$DIC))
 
 
 #struct.4.2 <- within.structure.diff("Secondary_structures_begin_end_length_at_least_4_2_codon_for_termini",head.dir="Ecoli/Empirical")

@@ -44,11 +44,11 @@ def mergeGenomes(list_to_merge,base_dir="./"):
     return genes_used,new_folder
 
 
-def createExpressionFiles(output_folder,genes_used):
+def createExpressionFiles(output_folder,genes_used,gene_expression_file="../mod_scerevisiae_expression_wo_phi_allunique.csv"):
     #print output_folder
     files = glob.glob(output_folder+"/*.fasta")
     #print files
-    phi = pd.read_csv("../mod_scerevisiae_expression_wo_phi_allunique.csv",header=0,index_col=0)
+    phi = pd.read_csv(gene_expression_file,header=0,index_col=0)
     for f in files:
         type_struct = f.split("/")[-1].split(".fasta")[0]
         struct_genes = genes_used.loc[genes_used.iloc[:,1] == type_struct,"Gene"]
@@ -58,24 +58,41 @@ def createExpressionFiles(output_folder,genes_used):
 
 
 
-genes_used,new_folder = mergeGenomes(["Turn","Coil"],base_dir="../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini")
-createExpressionFiles("../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini/"+new_folder,genes_used)
+# genes_used,new_folder = mergeGenomes(["Helix","Coil"],base_dir="../Ecoli/Predicted/Secondary_structures")
+# createExpressionFiles("../Ecoli/Predicted/Secondary_structures/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
 
 
-genes_used,new_folder = mergeGenomes(["Start_coil","End_coil"],base_dir="../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini")
-createExpressionFiles("../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini/"+new_folder,genes_used)
+# genes_used,new_folder = mergeGenomes(["Helix","Sheet"],base_dir="../Ecoli/Predicted/Secondary_structures")
+# createExpressionFiles("../Ecoli/Predicted/Secondary_structures/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
 
-genes_used,new_folder = mergeGenomes(["Start_sheet","End_sheet"],base_dir="../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini")
-createExpressionFiles("../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini/"+new_folder,genes_used)
+# genes_used,new_folder = mergeGenomes(["Sheet","Coil"],base_dir="../Ecoli/Predicted/Secondary_structures")
+# createExpressionFiles("../Ecoli/Predicted/Secondary_structures/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
 
-genes_used,new_folder = mergeGenomes(["Start_helix","End_helix"],base_dir="../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini")
-createExpressionFiles("../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini/"+new_folder,genes_used)
+# genes_used,new_folder = mergeGenomes(["Helix","Coil","Sheet"],base_dir="../Ecoli/Predicted/Secondary_structures")
+# createExpressionFiles("../Ecoli/Predicted/Secondary_structures/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
 
-genes_used,new_folder = mergeGenomes(["Start_coil","Core_coil","End_coil"],base_dir="../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini")
-createExpressionFiles("../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini/"+new_folder,genes_used)
+genes_used,new_folder = mergeGenomes(["Helix","Coil","Sheet","Turn"],base_dir="../Ecoli/Empirical/Secondary_structures")
+createExpressionFiles("../Ecoli/Empirical/Secondary_structures/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
 
-genes_used,new_folder = mergeGenomes(["Start_sheet","Core_sheet","End_sheet"],base_dir="../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini")
-createExpressionFiles("../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini/"+new_folder,genes_used)
 
-genes_used,new_folder = mergeGenomes(["Start_helix","Core_helix","End_helix"],base_dir="../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini")
-createExpressionFiles("../Scer/Exp_conservative_homology_remove_X_effects_of_GI_in_H/Secondary_structures_begin_end_length_at_least_5_2_codon_for_termini/"+new_folder,genes_used)
+# genes_used,new_folder = mergeGenomes(["Turn","Coil"],base_dir="../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini")
+# createExpressionFiles("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
+
+
+# genes_used,new_folder = mergeGenomes(["Start_coil","End_coil"],base_dir="../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini")
+# createExpressionFiles("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
+
+# genes_used,new_folder = mergeGenomes(["Start_sheet","End_sheet"],base_dir="../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini")
+# createExpressionFiles("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
+
+# genes_used,new_folder = mergeGenomes(["Start_helix","End_helix"],base_dir="../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini")
+# createExpressionFiles("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
+
+# genes_used,new_folder = mergeGenomes(["Start_coil","Core_coil","End_coil"],base_dir="../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini")
+# createExpressionFiles("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
+
+# genes_used,new_folder = mergeGenomes(["Start_sheet","Core_sheet","End_sheet"],base_dir="../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini")
+# createExpressionFiles("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
+
+# genes_used,new_folder = mergeGenomes(["Start_helix","Core_helix","End_helix"],base_dir="../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini")
+# createExpressionFiles("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/Secondary_structures_begin_end_length_at_least_7_2_codon_for_termini/"+new_folder,genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")

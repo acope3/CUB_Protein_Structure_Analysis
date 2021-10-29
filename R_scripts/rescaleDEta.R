@@ -277,9 +277,9 @@ rescaleByGenomeOptimal<-function(sel.file,genome.file="selection_mod_scerevisiae
   return(data)
 }
 
-head.directory <- "../Scer/Predicted/Results/"
+head.directory <- "../Scer/Simulated/Results/"
 genome.file <- "../selection_mod_scerevisiae.csv"
-targets <- c("Secondary_structure_paired_est_dM")
+targets <- c("Secondary_structures","Ordered_disordered")
 
 for (f in targets)
 {

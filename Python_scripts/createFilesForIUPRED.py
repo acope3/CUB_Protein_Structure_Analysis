@@ -105,7 +105,7 @@ def parseIUPREDFiles(iupred):
 			if line[0] == ">":
 				if f != None:
 					f.close()
-				f = open("IUPRED_w_Anchor/"+line[1:].strip(),'w')
+				f = open("../Data/IUPRED2_ecoli/"+line.split()[0][1:].strip(),'w')
 			elif line[0]!="#":
 				f.write(line)
 		f.close()
@@ -131,7 +131,5 @@ def parseIUPREDFiles(iupred):
 # tmp.setGenes(tmp_genes)
 # tmp.writeFasta("scer_"+str(current)+".fasta")
 
-parseIUPREDFiles("scer_1_proteins_w_anchor.result")
-parseIUPREDFiles("scer_2_proteins_w_anchor.result")
-parseIUPREDFiles("scer_3_proteins_w_anchor.result")
-parseIUPREDFiles("scer_4_proteins_w_anchor.result")
+parseIUPREDFiles("../Data/Ecoli_K12_ncbi_protein.result")
+

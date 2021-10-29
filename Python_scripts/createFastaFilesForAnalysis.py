@@ -8,8 +8,31 @@ import sys
 import glob
               
 
-
-
+def mergePsiPredIUPRED():
+    mapping = {"C":{"O":0,"D":0},"H":{"O":0,"D":0},"E":{"O":0,"D":0}}
+    pat = re.compile("C+")
+    order = glob.glob("../Data/IUPRED2_ecoli/*")
+    for f in order:
+        try:
+            prot = f.split("/")[-1]
+            ss2 = "../Data/Psipred_ecoli/"+prot+".ss2"
+            df_ss = pd.read_csv(ss2,header=None,delim_whitespace=True,skiprows=2)
+            df_ss.columns = ["Position","AA","SS","C","H","E"]
+            df_order = pd.read_csv(f,header=None,sep="\t")
+            assert len(df_ss.index) == len(df_order.index)
+            scores = df_order.iloc[:,2].values
+            anchor = df_order.iloc[:,3].values
+            df_order["Order_Score"] = scores
+            df_order.loc[df_order.loc[:,"Order_Score"] < 0.5,2] = "O"
+            df_order.loc[df_order.loc[:,"Order_Score"] >= 0.5,2] = "D"
+            ss = df_ss.iloc[:,2].values
+            ss_string = "".join(ss)
+            order = df_order.iloc[:,2].values
+            df_ss = pd.concat([df_ss,pd.DataFrame({"Order":order,"Order_Score":scores})],axis=1)
+            order_string = "".join(order)
+            df_ss.to_csv("../Data/Psipred_iupred_ecoli/"+prot+".ss2",sep="\t",header=False,index=False,quoting=False)
+        except IOError:
+            continue
 
 def writeToFile(seq,prot_id,file_var):
     if seq:
@@ -24,7 +47,6 @@ def createExpressionFiles(output_folder,genes_used,gene_expression_file="../mod_
     for f in files:
         split_dir = f.split("/")
         subfolder = split_dir[-2]
-        #print subfolder
         type_struct = split_dir[-1].split(".fasta")[0]
         struct_genes = genes_used.loc[genes_used.iloc[:,1] == type_struct,"Gene"]
         phi_struct = phi.loc[struct_genes,:]
@@ -67,7 +89,7 @@ def pullSecondaryOrder(output_folder,genome_file = "mod_scerevisiae.fasta" ,ss2_
         os.makedirs(output_folder+"/Sheet_dis")
     if not os.path.exists(output_folder+"/Nterminus"):
         os.makedirs(output_folder+"/Nterminus")
-    prot_to_exclude,prot_to_include = getProtsForAnalysis(exclude_chap=exclude_chap,exclude_mito=exclude_mito,only_chap=only_chap,exclude_tm_sp=exclude_tm_sp)
+    prot_to_exclude,prot_to_include = getProtsForAnalysis(exclude_mito=exclude_mito)
     if genes_used is None:
         genes_used = pd.DataFrame(data={"Gene":[],"Class":[]},columns=["Gene","Class"])
     tmp = []
@@ -166,6 +188,132 @@ def pullSecondaryOrder(output_folder,genome_file = "mod_scerevisiae.fasta" ,ss2_
     return genes_used
 
 
+def pullSecondaryPaired(output_folder,genome_file = "mod_scerevisiae.fasta" ,ss2_loc = "Alpha_psipred/",genes_used = None,exclude_mito=True,separate_nterm=True,residues_to_keep=None):
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+    if not os.path.exists(output_folder+"/Coil_paired"):
+        os.makedirs(output_folder+"/Coil_paired")
+    if not os.path.exists(output_folder+"/Helix_paired"):
+        os.makedirs(output_folder+"/Helix_paired")
+    if not os.path.exists(output_folder+"/Sheet_paired"):
+        os.makedirs(output_folder+"/Sheet_paired")
+    if not os.path.exists(output_folder+"/Coil_unpaired"):
+        os.makedirs(output_folder+"/Coil_unpaired")
+    if not os.path.exists(output_folder+"/Helix_unpaired"):
+        os.makedirs(output_folder+"/Helix_unpaired")
+    if not os.path.exists(output_folder+"/Sheet_unpaired"):
+        os.makedirs(output_folder+"/Sheet_unpaired")
+    if not os.path.exists(output_folder+"/Nterminus"):
+        os.makedirs(output_folder+"/Nterminus")
+    prot_to_exclude,prot_to_include = getProtsForAnalysis(exclude_mito=exclude_mito)
+    if genes_used is None:
+        genes_used = pd.DataFrame(data={"Gene":[],"Class":[]},columns=["Gene","Class"])
+    tmp = []
+    pat = re.compile(r"[ATCGYNW]{3}")
+    #pat_id = re.compile(r"protein_id=(NP_[0-9]+\.[0-9])")
+    pat_id = re.compile(r"([YN]P_[0-9]+\.[0-9])")
+    qstart = 0
+    with open(genome_file) as fin, \
+    open(output_folder+"/complete_seq.fasta",'w') as comp,\
+    open(output_folder+"/Coil_paired/coil_paired.fasta",'w') as coil_ord,\
+    open(output_folder+"/Sheet_paired/sheet_paired.fasta",'w') as sheet_ord,\
+    open(output_folder+"/Helix_paired/helix_paired.fasta",'w') as helix_ord,\
+    open(output_folder+"/Coil_unpaired/coil_unpaired.fasta",'w') as coil_dis,\
+    open(output_folder+"/Sheet_unpaired/sheet_unpaired.fasta",'w') as sheet_dis,\
+    open(output_folder+"/Helix_unpaired/helix_unpaired.fasta",'w') as helix_dis,\
+    open(output_folder+"/Nterminus/nterminus.fasta",'w') as nterm:
+        for line in fin:
+            post_dict = {}
+            if line[0] == ">":
+                prot_id = pat_id.search(line).group(1)
+                cds_id = line.split()[0]
+            if line[0] != ">" and qstart !=-1:
+                if exclude_mito:
+                    if prot_id in prot_to_exclude:
+                        continue
+                value = re.findall(pat,line.strip())
+                try:
+                    df = pd.read_csv(ss2_loc+prot_id+".ss2",header=None,delim_whitespace=True)
+                    if residues_to_keep != None:          
+                        keep = pd.read_csv(residues_to_keep+"/"+prot_id,squeeze=True)
+                except (IOError,pd.errors.EmptyDataError):
+                    print "Could not find ",ss2_loc+prot_id+".ss2"
+                    continue
+                qstart = 0
+                qend = len(value) - 1
+                sstart = 0
+                send = len(value) - 1
+                coilo_seq = ''
+                helixo_seq = ''
+                sheeto_seq = ''
+                coild_seq = ''
+                helixd_seq = ''
+                sheetd_seq = ''
+                nterm_seq = ''
+                comp_seq = ''
+                ss = "".join(df.iloc[:,2].values)
+                order = df.iloc[:,8].values
+                aa = "".join(df.iloc[:,1].values)
+                length = len(ss[sstart:send])
+                assert length == len(value[qstart:qend])
+                for position,codon in zip(xrange(qstart,qend),value[qstart:qend]):
+                    comp_seq+=codon
+                    aa_pos = aa[position]
+                    # if aa_pos == "L":
+                    # 	paired_pat = re.compile(r"([\(\)]..)|(..[\(\)])")
+                    # 	unpaired_pat = re.compile(r"\..\.")
+                    # else:
+                    # 	paired_pat = re.compile(r"..[\(\)]")
+                    # 	unpaired_pat = re.compile(r"..\.")
+                    paired_pat = re.compile(r"([\(\)]..)|(..[\(\)])|(.[\(\)].)")
+                    unpaired_pat = re.compile(r"\.\.\.")
+                    if len(comp_seq) == 3:
+                        tmp.append(pd.DataFrame(data={"Gene":[cds_id[1:]],"Class":["complete_seq"]},columns=["Gene","Class"]))
+                    nterm_class = False
+                    if position < 35 and separate_nterm:
+                        nterm_seq += codon
+                        nterm_class = True
+                        if len(nterm_seq) == 3:
+                            tmp.append(pd.DataFrame(data={"Gene":[cds_id[1:]],"Class":["nterminus"]},columns=["Gene","Class"]))
+                    if not nterm_class:
+                        if ss[position] == "H" and (paired_pat.match(order[position]) != None):
+                            helixo_seq += codon
+                            if len(helixo_seq) == 3:
+                                tmp.append(pd.DataFrame(data={"Gene":[cds_id[1:]],"Class":["helix_paired"]},columns=["Gene","Class"]))
+                        elif ss[position] == "H" and (unpaired_pat.match(order[position]) != None):
+                            helixd_seq += codon
+                            if len(helixd_seq) == 3:
+                                tmp.append(pd.DataFrame(data={"Gene":[cds_id[1:]],"Class":["helix_unpaired"]},columns=["Gene","Class"]))
+                        elif ss[position] == "C" and (paired_pat.match(order[position]) != None):
+                            coilo_seq += codon
+                            if len(coilo_seq) == 3:
+                                tmp.append(pd.DataFrame(data={"Gene":[cds_id[1:]],"Class":["coil_paired"]},columns=["Gene","Class"]))
+                        elif ss[position] == "C" and (unpaired_pat.match(order[position]) != None):
+                            coild_seq += codon
+                            if len(coild_seq) == 3:
+                                tmp.append(pd.DataFrame(data={"Gene":[cds_id[1:]],"Class":["coil_unpaired"]},columns=["Gene","Class"]))
+                        elif ss[position] == "E" and (paired_pat.match(order[position]) != None):
+                            sheeto_seq += codon
+                            if len(sheeto_seq) == 3:
+                                tmp.append(pd.DataFrame(data={"Gene":[cds_id[1:]],"Class":["sheet_paired"]},columns=["Gene","Class"]))
+                        elif ss[position] == "E" and (unpaired_pat.match(order[position]) != None):
+                            sheetd_seq += codon
+                            if len(sheetd_seq) == 3:
+                                tmp.append(pd.DataFrame(data={"Gene":[cds_id[1:]],"Class":["sheet_unpaired"]},columns=["Gene","Class"]))
+                writeToFile(helixo_seq,cds_id,helix_ord)
+                writeToFile(coilo_seq,cds_id,coil_ord)
+                writeToFile(sheeto_seq,cds_id,sheet_ord)
+                writeToFile(helixd_seq,cds_id,helix_dis)
+                writeToFile(coild_seq,cds_id,coil_dis)
+                writeToFile(sheetd_seq,cds_id,sheet_dis)
+                writeToFile(comp_seq,cds_id,comp)
+                writeToFile(nterm_seq,cds_id,nterm)
+                assert len(comp_seq) == (len(nterm_seq) +len(helixo_seq) + len(sheeto_seq) + len(coilo_seq) +len(helixd_seq) + len(sheetd_seq) + len(coild_seq))
+    tmp = pd.concat(tmp,ignore_index=True)
+    genes_used = pd.concat([genes_used,tmp],ignore_index=True)
+    return genes_used
+
+
 def pullSecondaryStructures(output_folder,minimum_length=0,maximum_length=10000000000000000,termini_size=2,genome_file = "../Data/Fasta/mod_scerevisiae.fasta" ,ss2_loc = "../Data/Alpha_psipred/",blast_file="Exp_structure_data/scer_conservative_pid_95_80_coverage.blast",pull_transitions=False,genes_used = None,exclude_mito=True,separate_nterm=True,experimental=False,remove_disorder_region=False,residues_to_keep=None):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -205,7 +353,7 @@ def pullSecondaryStructures(output_folder,minimum_length=0,maximum_length=100000
     if experimental:
         blast_results = pd.read_csv(blast_file,sep="\t",header=0,index_col=0)
     pat = re.compile(r"[ATCGYNW]{3}")
-    pat_id = re.compile(r"([YN]P_[0-9]+\.[0-9])")
+    pat_id = re.compile(r"protein_id=([YN]P_[0-9]+\.[0-9])")
     qstart = 0
     end_gi = 0.0
     core_gi = 0.0
@@ -260,7 +408,7 @@ def pullSecondaryStructures(output_folder,minimum_length=0,maximum_length=100000
                 except (IOError,pd.errors.EmptyDataError):
                    # print "Could not find ",ss2_loc+prot_id+".ss2"
                     continue
-                if not (experimental or use_emp_seq):
+                if not experimental:
                     qstart = 0
                     qend = len(value) - 1
                     sstart = 0
@@ -547,7 +695,7 @@ def pullSecondarySplitHelixTypes(output_folder,minimum_length=4,maximum_length=1
 
 
 
-
+## Expects merged PsiPred + IUPRED2 output
 def pullDisordered(output_folder,genome_file = "../Data/Fasta/mod_scerevisiae.fasta" ,ss2_loc = "Alpha_psipred/",genes_used = None,exclude_mito=True,separate_nterm=True,residues_to_keep = None):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -581,7 +729,7 @@ def pullDisordered(output_folder,genome_file = "../Data/Fasta/mod_scerevisiae.fa
                         continue
                 value = re.findall(pat,line.strip())   
                 try:
-                    df = pd.read_csv(ss2_loc+prot_id,sep="\t",header=None)
+                    df = pd.read_csv(ss2_loc+prot_id+".ss2",sep="\t",header=None)
                     if residues_to_keep:
                         keep = pd.read_csv(residues_to_keep+"/"+prot_id,squeeze=True)
                 except (IOError,pd.errors.EmptyDataError):
@@ -595,9 +743,9 @@ def pullDisordered(output_folder,genome_file = "../Data/Fasta/mod_scerevisiae.fa
                 disordered_seq = ''
                 comp_seq = ''
                 nterm_seq = ''
-                df.loc[df.iloc[:,3] < 0.5,2] = "O"
-                df.loc[df.iloc[:,3] >= 0.5,2] = "D"
-                ss = "".join(df.iloc[:,2].values)
+                #df.loc[df.iloc[:,3] < 0.5,2] = "O"
+                #df.loc[df.iloc[:,3] >= 0.5,2] = "D"
+                ss = "".join(df.iloc[:,6].values)
 
                 ## Use qstart:qend here because structure files are based on s.cerevisiae sequences, not pdb sequences...
                 ## probably want to use pdb sequences in future
@@ -633,7 +781,8 @@ def pullDisordered(output_folder,genome_file = "../Data/Fasta/mod_scerevisiae.fa
                 writeToFile(comp_seq,cds_id,comp)
                 writeToFile(nterm_seq,cds_id,nterm)
                 assert len(comp_seq) == (len(ordered_seq) + len(nterm_seq) + len(disordered_seq))
-                assert len(comp_seq)/3 == len(keep)
+                if residues_to_keep:
+                    assert len(comp_seq)/3 == len(keep)
     
     tmp = pd.concat(tmp,ignore_index=True)
 
@@ -738,7 +887,7 @@ def pullSecondaryStartHelix(output_folder,minimum_length=4,maximum_length=100000
                 
                     gene_df = gene_df.loc[gene_df.loc[:,"Position"] >= 35,:]
                 
-                helical_struct = ["H"]
+                helical_struct = ["H","G","I"]
 
                 gene_df = gene_df.loc[(gene_df.loc[:,"Length"] >= min_length) & (gene_df.loc[:,"Length"] <= maximum_length),:]
 
@@ -769,23 +918,23 @@ def pullSecondaryStartHelix(output_folder,minimum_length=4,maximum_length=100000
 
 
 
-def pullPredScer(location,ss2_loc="../Data/Alpha_psipred/"):
+def pullPred(location,ss2_loc="../Data/Psipred/",genome_file = "mod_scerevisiae.fasta"):
 
     # genes_used =  pullSecondaryStartHelix(location+"/Secondary_structures_pechmann/",ss2_loc=ss2_loc,pull_transitions=True,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,experimental=False)
     # createExpressionFiles(location+"Secondary_structures_pechmann/",genes_used)#,gene_expression_file="Ecoli_K12_MG1655_main_phi.csv")
     
-    genes_used =  pullSecondaryBeginEnd(location+"Secondary_structures_conserved_no_ncast/",ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,experimental=False,residues_to_keep="../Conserved_sites/Conserved_positions_sacch_no_ncast/")
-    createExpressionFiles(location+"Secondary_structures_conserved_no_ncast/",genes_used)#,gene_expression_file="Ecoli_K12_MG1655_main_phi.csv")
+    # genes_used =  pullSecondaryStructures(location+"Secondary_structures/",genome_file = genome_file,ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,separate_nterm=True,experimental=False)
+    # createExpressionFiles(location+"Secondary_structures/",genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
 
-    genes_used =  pullSecondaryBeginEnd(location+"Secondary_structures_variable_no_ncast/",ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,experimental=False,residues_to_keep="../Conserved_sites/Unconserved_positions_sacch_no_ncast/")
-    createExpressionFiles(location+"Secondary_structures_variable_no_ncast/",genes_used)#,gene_expression_file="Ecoli_K12_MG1655_main_phi.csv")
+    # genes_used =  pullSecondaryStructures(location+"Secondary_structures/",genome_file = genome_file,ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,separate_nterm=True,experimental=False)
+    # createExpressionFiles(location+"Secondary_structures/",genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
     
-    genes_used =  pullSecondaryBeginEnd(location+"Secondary_structures_cyto/",ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,exclude_tm_sp=True,separate_nterm=True,experimental=False)
-    createExpressionFiles(location+"Secondary_structures_cyto/",genes_used)#,gene_expression_file="Ecoli_K12_MG1655_main_phi.csv")
+    # genes_used =  pullSecondaryStructures(location+"Secondary_structures",genome_file = genome_file,ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,separate_nterm=True,experimental=False)
+    # createExpressionFiles(location+"Secondary_structures/",genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
 
     
-    # genes_used =  pullDisordered(location+"Ordered_disordered/",ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,experimental=False)
-    # createExpressionFiles(location+"Ordered_disordered/",genes_used)#,gene_expression_file="Ecoli_K12_MG1655_main_phi.csv")
+    # genes_used =  pullDisordered(location+"Ordered_disordered/",genome_file = genome_file,ss2_loc=ss2_loc,exclude_mito=True,separate_nterm=True)
+    # createExpressionFiles(location+"Ordered_disordered/",genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
 
     # genes_used =  pullDisordered(location+"Ordered_disordered_conserved_sacch_no_ncast/",ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,experimental=False,residues_to_keep="../Conserved_sites/Conserved_positions_sacch_no_ncast/")
     # createExpressionFiles(location+"Ordered_disordered_conserved_sacch_no_ncast/",genes_used)
@@ -793,8 +942,12 @@ def pullPredScer(location,ss2_loc="../Data/Alpha_psipred/"):
     # genes_used =  pullDisordered(location+"Ordered_disordered_unconserved_sacch_no_ncast/",ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,experimental=False,residues_to_keep="../Conserved_sites/Unconserved_positions_sacch_no_ncast/")
     # createExpressionFiles(location+"Ordered_disordered_unconserved_sacch_no_ncast/",genes_used)
     
-    # genes_used =  pullSecondaryOrder(location+"Secondary_structure_order/",ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,experimental=False)
-    # createExpressionFiles(location+"Secondary_structure_order/",genes_used)#,gene_expression_file="Ecoli_K12_MG1655_main_phi.csv")
+    genes_used =  pullSecondaryPaired(location+"Secondary_structure_paired_any_nucleotide/",genome_file = genome_file,ss2_loc=ss2_loc,exclude_mito=True,separate_nterm=True)
+    createExpressionFiles(location+"Secondary_structure_paired_any_nucleotide/",genes_used,gene_expression_file="../mod_scerevisiae_expression_wo_phi_allunique.csv")
+     
+
+    # genes_used =  pullSecondaryOrder(location+"Secondary_structure_order/",genome_file = genome_file,ss2_loc=ss2_loc,exclude_mito=True,separate_nterm=True)
+    # createExpressionFiles(location+"Secondary_structure_order/",genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
      
     # genes_used =  pullDisorderedDownstream(location+"Downstream_ordered_disordered/",ss2_loc=ss2_loc,pull_transitions=False,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,experimental=False)
     # createExpressionFiles(location+"Downstream_ordered_disordered/",genes_used)#,gene_expression_file="Ecoli_K12_MG1655_main_phi.csv")
@@ -820,9 +973,9 @@ def pullPredScer(location,ss2_loc="../Data/Alpha_psipred/"):
     # createExpressionFiles(location+"Nterm/",genes_used)#,gene_expression_file="Ecoli_K12_MG1655_main_phi.csv")
 
     
-def pullEmpScer(location,ss2_loc="Alpha_psipred/",genome_file="mod_scerevisiae.fasta",blast_file="Exp_structure_data/scer_conservative_pid_95_80_coverage.blast",remove_disorder_region=False):
-    genes_used =  pullSecondaryStartHelix(location+"/Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/",minimum_length=6,genome_file=genome_file,blast_file=blast_file,ss2_loc=ss2_loc,exclude_mito=True,separate_nterm=True,remove_disorder_region=remove_disorder_region,experimental=True)
-    createExpressionFiles(location+"Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/",genes_used)
+def pullEmpScer(location,ss2_loc="Alpha_psipred/",genome_file="mod_scerevisiae.fasta",blast_file="Exp_structure_data/scer_conservative_pid_95_80_coverage.blast",remove_disorder_region=False,gene_expression_file="../mod_scerevisiae_expression_wo_phi_allunique.csv"):
+    #genes_used =  pullSecondaryStartHelix(location+"/Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/",minimum_length=6,genome_file=genome_file,blast_file=blast_file,ss2_loc=ss2_loc,exclude_mito=True,separate_nterm=True,remove_disorder_region=remove_disorder_region,experimental=True)
+    #createExpressionFiles(location+"Secondary_structures_pechmann_exclude_less_than_6_exclude_GI/",genes_used,gene_expression_file=gene_expression_file)
     
     # genes_used =  pullSecondarySplitHelixTypes(location+"Secondary_structures_helix_types/",genome_file=genome_file,blast_file=blast_file,ss2_loc=ss2_loc,pull_transitions=True,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,remove_disorder_region=remove_disorder_region,experimental=True)
     # createExpressionFiles(location+"Secondary_structures_helix_types",genes_used)
@@ -831,16 +984,18 @@ def pullEmpScer(location,ss2_loc="Alpha_psipred/",genome_file="mod_scerevisiae.f
     # createExpressionFiles(location+"Secondary_structures_begin_end_length_4_2_codon_for_termini",genes_used)
 
 
-    # for i in xrange(4,10):
-    #     genes_used =  pullSecondaryBeginEndMin(location+"Secondary_structures_begin_end_length_at_least_"+str(i)+"_2_codon_for_termini/",minimum_length=i,termini_size=2,genome_file=genome_file,blast_file=blast_file,ss2_loc=ss2_loc,pull_transitions=True,exclude_mito=True,separate_nterm=True,remove_disorder_region=remove_disorder_region,experimental=True)
-    #     createExpressionFiles(location+"Secondary_structures_begin_end_length_at_least_"+str(i)+"_2_codon_for_termini",genes_used)
+    for i in xrange(6,8):
+        genes_used =  pullSecondaryStructures(location+"Secondary_structures_begin_end_length_at_least_"+str(i)+"_2_codon_for_termini/",minimum_length=i,termini_size=2,genome_file=genome_file,blast_file=blast_file,ss2_loc=ss2_loc,pull_transitions=True,exclude_mito=True,separate_nterm=True,remove_disorder_region=remove_disorder_region,experimental=True)
+        createExpressionFiles(location+"Secondary_structures_begin_end_length_at_least_"+str(i)+"_2_codon_for_termini",genes_used,gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
         
 
 
     # genes_used =  pullSecondaryBeginEndMin(location+"Secondary_structures_begin_end_exclude_less_than_10_2_codon_for_termini/",genome_file=genome_file,blast_file=blast_file,ss2_loc=ss2_loc,pull_transitions=True,exclude_mito=True,exclude_tm_sp=False,separate_nterm=True,remove_disorder_region=remove_disorder_region,experimental=True)
     # createExpressionFiles(location+"Secondary_structures_begin_end_exclude_less_than_10_2_codon_for_termini/",genes_used)
 
-pullEmpScer("../Scer/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/",genome_file="../Data/Fasta/mod_scerevisiae.fasta",ss2_loc = "../Data/Exp_structure_data/Scer_psipred_format_conservative/",remove_disorder_region=True,blast_file="../Data/Exp_structure_data/scer_conservative_pid_95_80_coverage.blast")
+#mergePsiPredIUPRED()
+pullPred("../Scer/Predicted/",genome_file="../Data/Fasta/mod_scerevisiae.fasta",ss2_loc="../Data/Psipred_iupred_mrna/")
+#pullEmp("../Ecoli/Exp_conservative_homology_remove_X_G_I_as_H_B_as_E/",genome_file="../Data/Fasta/Ecoli_K12_MG1655_main.fasta",ss2_loc = "../Data/PDB/Ecoli_psipred_format_conservative/",remove_disorder_region=True,blast_file="../Data/PDB/ecoli_conservative_pid_95_80_coverage.blast",gene_expression_file="../Ecoli_K12_MG1655_main_phi.csv")
 
 # for i in xrange(1,101):
 #     genome = Genome()

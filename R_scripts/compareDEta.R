@@ -1,6 +1,5 @@
 ## Author: Alexander Cope
 ## A script for comparing \Delta\Etas across runs and producing plots.
-## Note the input for these functions should be generated using the rescaleDEta.R script (selection_rescaled_by_mean.csv).
 
 library(AnaCoDa)
 library(deming)
@@ -81,13 +80,6 @@ demingRegression <- function(directory.1,directory.2,file.1,file.2,include.AA=c(
   std.err <- sqrt(reg$variance[2,2])
 
 
-  # b1 <- 1
-  # ci.b1 <- c(1,1)
-  # b0 <- 0.0
-  # p.val <- 1
-  # std.err <- 0
-
-
   return(list(df=df,Slope=unname(b1),Intercept=unname(b0),Slope.CI=ci.b1,SD.1=sd.1,SD.2=sd.2,p.val=p.val,std.err = std.err))
 }
 
@@ -97,12 +89,9 @@ demingRegression <- function(directory.1,directory.2,file.1,file.2,include.AA=c(
 ## b0 slope from demingRegression (usually set to 0)
 ## reg.ci regression confidence interval for slope. Will need to be slightly modified if want to incorporate intercept
 ## categories vector of length 2 giving X and Y axis labels
-## ci Include posterior probability intervals for each point. Default is false
 ## file file name to output plot to
 ## title title of plot
-## range.xy allows you to specify the range of the plot
-
-plotDeta <-function(data,b1,b0,reg.ci=NULL,categories=c("X","Y"),ci = F,file="test.pdf",title="Regression",range.xy = NULL)
+plotDeta <-function(data,b1,b0,reg.ci=NULL,categories=c("X","Y"),file="test.pdf",title="Regression")
 {
   data <- merge(data,pc,by="AA")
   data[which(data$AA == "S"),"AA"] <- "S[4]"
@@ -115,7 +104,7 @@ plotDeta <-function(data,b1,b0,reg.ci=NULL,categories=c("X","Y"),ci = F,file="te
 
   l <- data.frame(s=c(b1,conf.int.2,conf.int.1, 1.0),ic=c(b0,b0,b0,0.0),Line=c("Slope","97.5% CI","2.5% CI","1:1 Line"),stringsAsFactors = F)
   l$Line <- factor(l$Line,levels=c("Slope","97.5% CI","2.5% CI","1:1 Line"))
-  levels(l$Line) <- c(paste0("Slope: ",round(b1,4)),paste0("95% CI: ",round(conf.int.1,4),"-",round(conf.int.2,4)),paste0("95% CI: ",round(conf.int.1,4),"-",round(conf.int.2,4)),"1:1 Line")
+  levels(l$Line) <- c("Slope","95% CI","95% CI","1:1 Line")
   legend.colors <- c("black","black","red")
   lines.reg <- c("solid","dashed","solid")
 
@@ -136,31 +125,21 @@ plotDeta <-function(data,b1,b0,reg.ci=NULL,categories=c("X","Y"),ci = F,file="te
        + scale_linetype_manual(values=lines.reg,name="",guide = guide_legend(order = 1)))
   
   ## Include posterior probability intervals for each point
-  if (ci)
+  
+  range.xy <- range(c(data[,c("X0.025.","X0.975.")],data[,c("X0.025.2","X0.975.2")]),na.rm=T)   
+  if (range.xy[1] > -0.15)
   {
-    if (is.null(range.xy))
-    {
-      range.xy <- range(c(data[,c("X0.025.","X0.975.")],data[,c("X0.025.2","X0.975.2")]),na.rm=T)
-      #max.value <- max(range.xy)
-      #range.xy <- c(-max.value,max.value)
-    }
-    if (range.xy[1] > -0.15)
-    {
-      range.xy[1] <- -0.2
-    }
-    if (range.xy[2] < 0)
-    {
-      range.xy[2] <- 0.05
-    }
-    xlim <- range.xy
-    ylim <- range.xy
-    p <- p + scale_x_continuous(limits = range.xy+c(-0.005,0.005)) + scale_y_continuous(limits = range.xy+c(-0.005,0.005))
-    
-  } else{
-    range.xy <- range(c(data[,3],data[,7]),na.rm=T)
-    xlim <- range.xy
-    ylim <- range.xy
+    range.xy[1] <- -0.2
   }
+  if (range.xy[2] < 0)
+  {
+    range.xy[2] <- 0.05
+  }
+  xlim <- range.xy
+  ylim <- range.xy
+  
+
+  p <- p + scale_x_continuous(limits = range.xy+c(-0.005,0.005)) + scale_y_continuous(limits = range.xy+c(-0.005,0.005))
   p <- p + geom_hline(yintercept=0,color="red",linetype="dashed",size=0.15) + geom_vline(xintercept=0,color="red",linetype="dashed",size=0.15)
  
   if (length(sig) > 0)
@@ -174,43 +153,41 @@ plotDeta <-function(data,b1,b0,reg.ci=NULL,categories=c("X","Y"),ci = F,file="te
         + scale_colour_manual(values=colors,name="Significant")
         + geom_errorbar(data=data[sig,],mapping=aes(ymin=X0.025.2,ymax=X0.975.2,width=0),color="black") 
         + geom_errorbarh(data=data[sig,],mapping=aes(xmin=X0.025.,xmax=X0.975.,height=0),color="black")
-        + geom_text_repel(label=uniqueInitials,size=4,max.iter=10000,force=5,box.padding=1.0,parse=T,segment.alpha=0.5,fontface="bold",max.overlaps=100))
+        + geom_text_repel(label=uniqueInitials,size=6,max.iter=10000,force=5,box.padding=1.0,parse=T,segment.alpha=0.5,fontface="bold",max.overlaps=100))
     p <- p + guides(color = guide_legend(order=2))
  } else {
     p <-(p
         + geom_point(data=data,fill="grey",color="black",size=1,shape=21,alpha=0.5)
         + geom_errorbar(mapping=aes(ymin=X0.025.2,ymax=X0.975.2,width=0),size=0.25,color="black",alpha=0.25) 
         + geom_errorbarh(mapping=aes(xmin=X0.025.,xmax=X0.975.,height=0),size=0.25,color="black",alpha=0.25))
- }
- p <- (p + labs(x=bquote(atop("   Favored"%<-%"Reference"%->%"Disfavored",.(categories[1])~Delta*eta)),y=bquote(atop("   Favored"%<-%"Reference"%->%"Disfavored",.(categories[2])~Delta*eta)),parse=T)
+ } 
+ p <- (p + labs(x=bquote(.(categories[1])~Delta*eta),y=bquote(.(categories[2])~Delta*eta),parse=T)
       + ggtitle(label=bquote(.(title)))
-      )
-  # p <- (p + labs(x=bquote(atop("Reference"%->%"Disfavored",.(categories[1])~Delta*eta)),y=bquote(atop("Reference"%->%"Disfavored",.(categories[2])~Delta*eta)),parse=T)
-  #     + ggtitle(label=bquote(.(title)))
-  #     )
-  
-  rho.p <- round(cor(data[,"Posterior"],data[,"Posterior.2"]),3)
+      )  
+  rho.s <- cor(data[,"Posterior"],data[,"Posterior.2"],method="spearman")
   
   width <- xlim[2] - xlim[1]
   height <- ylim[2] - ylim[1]
-  cor.exp <- bquote(rho ~ " = " ~ .(format(rho.p,nsmall=3)))
+  slope.exp <- bquote(hat(beta) ~ "=" ~ .(format(b1,digits=3)) ~ (.(format(conf.int.1,digits=3)) * "," ~ .(format(conf.int.2,digits=3))))
+  cor.exp <- bquote(rho["S"] ~ " = " ~ .(format(unlist(rho.s),digits=3)))
+  p <- p + annotate("text", x = xlim[1]+0.25*width, y = ylim[2] - 0.1 * height, parse = T, label = deparse(slope.exp),size=6)
+  p <- p + annotate("text", x = xlim[1]+0.25*width, y = ylim[2] - 0.2 * height,parse = T, label = deparse(cor.exp),size=6)
   p <- (p + theme_bw()
-        + theme(axis.title=element_text(face="bold",size=12),axis.text=element_text(face="bold",size=8))
+        + theme(axis.title=element_text(face="bold",size=16),axis.text=element_text(face="bold",size=12))
         + theme(axis.line = element_line(colour = "black"))
         + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
-        + theme(legend.position = c(0.32,0.82),legend.text=element_text(face="bold",size=10),legend.title=element_blank(),legend.key.width=unit(0.2,"cm"),legend.key.height=unit(0.4,"cm"),legend.spacing.y=unit(0.1,"cm"))
+        + theme(legend.text=element_text(face="bold",size=14),legend.title=element_blank(),legend.key.width=unit(0.2,"cm"),legend.key.height=unit(0.4,"cm"),legend.spacing.y=unit(0.1,"cm"))
         + theme(plot.title = element_text(hjust = 0.5,size=12,face="bold")))
   ggsave(filename = file,plot=p,device="pdf",width=6,height=6)
   return(p)
  
 }
 
-
-compareDiffToMissenseError <- function(directory.1,directory.2,file.1,file.2,categories=c("X","Y"),absolute=TRUE,missense.error = "../scer_error_rates.tsv")
+compareDiffToMissenseError <- function(directory.1,directory.2,file.1,file.2,rate.file, categories=c("X","Y"),absolute=TRUE)
 {
   sel.1 <- read.table(paste0(directory.1,"Parameter_est/",file.1),sep=",",header=TRUE,stringsAsFactors=F)
   sel.2 <- read.table(paste0(directory.2,"Parameter_est/",file.2),sep=",",header=TRUE,stringsAsFactors=F) 
-  err <- read.table(missense.error,sep="\t",header=T,stringsAsFactors=F)
+  err <- read.table(rate.file,sep="\t",header=T,stringsAsFactors=F)
   # Code updates changed this column to Mean
   colnames(sel.1)[3] <- colnames(sel.2)[3] <- "Posterior"
   dfs <- getSignificantCodons(sel.1,sel.2)
@@ -248,7 +225,6 @@ compareDiffToMissenseError <- function(directory.1,directory.2,file.1,file.2,cat
   
   if ("e_m" %in% colnames(df) && "R_c" %in% colnames(df))
   {
-    print(ppcor::pcor.test(df$Diff,df$e_m,df$R_c,method="spearman"))
     df <- df %>% pivot_longer(c("e_m","R_c"),names_to="Type",values_to="Rate")
     df$Type <- ifelse(df$Type=="e_m","Missense Error","Elongation")
     #
@@ -303,35 +279,57 @@ plotSelectionParameters <- function(head.directory,target.directory)
   plots <- vector(mode="list",length=10)
   
   output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Helix","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[1]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Helix")),file=paste0(target.directory,"/ecoli_coil_vs_helix.pdf"),range.xy=NULL)
+  plots[[1]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),title ="Coil vs. Helix",file=paste0(target.directory,"/coil_vs_helix.pdf"))
   
   output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[2]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Sheet")),file=paste0(target.directory,"/ecoli_coil_vs_sheet.pdf"),range.xy=NULL)
+  plots[[2]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),title = "Coil vs. Sheet"),file=paste0(target.directory,"/coil_vs_sheet.pdf"))
    
   output <- demingRegression(file.path(head.directory,"Secondary_structures","Helix","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[3]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Helix vs. Sheet")),file=paste0(target.directory,"/ecoli_helix_vs_sheet.pdf"),range.xy=NULL)
+  plots[[3]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),title = "Helix vs. Sheet",file=paste0(target.directory,"/helix_vs_sheet.pdf"))
  
   output <- demingRegression(file.path(head.directory,"Ordered_disordered","Ordered","restart_5/"),file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[4]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Structured Region","IDRs"),ci=T,title = bquote(atop("Comparison of Selection "*Delta*eta,"Structured vs. IDR")),file=paste0(target.directory,"/ecoli_ordered_vs_disorderd.pdf"),range.xy=NULL)
+  plots[[4]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Structured Region","IDRs"),title = "Structured vs. IDR",file=paste0(target.directory,"/ordered_vs_disorderd.pdf"))
 
   output <- demingRegression(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[5]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil (Structured only)","IDRs"),ci=T,title =bquote(atop("Comparison of Selection "*Delta*eta,"Coil vs. IDR")),file=paste0(target.directory,"/ecoli_coil_vs_idr.pdf"),range.xy=NULL)
+  plots[[5]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil (Structured only)","IDRs"),title = "Coil vs. IDR",file=paste0(target.directory,"/coil_vs_idr.pdf"))
 
   output <- demingRegression(file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[6]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix (Structured only)","IDRs"),ci=T,title = bquote(atop("Comparison of Selection "*Delta*eta,"Helix vs. IDR")),file=paste0(target.directory,"/ecoli_helix_vs_idr.pdf"),range.xy=NULL)
+  plots[[6]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix (Structured only)","IDRs"),title = "Helix vs. IDR",file=paste0(target.directory,"/helix_vs_idr.pdf"))
 
   output <- demingRegression(file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[7]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Sheet (Structured only)","IDRs"),ci=T,title = bquote(atop("Comparison of Selection "*Delta*eta,"Sheet vs. IDR")),file=paste0(target.directory,"/ecoli_sheet_vs_idr.pdf"),range.xy=NULL)
+  plots[[7]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Sheet (Structured only)","IDRs"),title = "Sheet vs. IDR",file=paste0(target.directory,"/sheet_vs_idr.pdf"))
     
   output <- demingRegression(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[8]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Helix")),file=paste0(target.directory,"/ecoli_coil_vs_helix_idr_removed.pdf"),range.xy=NULL)
+  plots[[8]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),title = "Coil vs. Helix\nIDRs Removed",file=paste0(target.directory,"/coil_vs_helix_idr_removed.pdf"))
   
   output <- demingRegression(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[9]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Sheet")),file=paste0(target.directory,"/ecoli_coil_vs_sheet_idr_removed.pdf"),range.xy=NULL)
+  plots[[9]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),title = "Coil vs. Sheet\nIDRs Removed",file=paste0(target.directory,"/coil_vs_sheet_idr_removed.pdf"))
    
   output <- demingRegression(file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  plots[[10]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Helix")),file=paste0(target.directory,"/ecoli_helix_vs_sheet_idr_removed.pdf"),range.xy=NULL)
+  plots[[10]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),title = "Coil vs. Helix\nIDRs Removed",file=paste0(target.directory,"/helix_vs_sheet_idr_removed.pdf"))
  
+
+  return(plots)
+}
+
+
+checkSimulatedResults <- function(head.directory,target.directory)
+{
+
+  plots <- vector(mode="list",length=4)
+  
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Helix","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[1]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),title ="Coil vs. Helix",file=paste0(target.directory,"/coil_vs_helix.pdf"))
+  
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[2]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),title = "Coil vs. Sheet",file=paste0(target.directory,"/coil_vs_sheet.pdf"))
+   
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Helix","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[3]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),title = "Helix vs. Sheet",file=paste0(target.directory,"/helix_vs_sheet.pdf"))
+ 
+  output <- demingRegression(file.path(head.directory,"Ordered_disordered","Ordered","restart_5/"),file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[4]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Structured Region","IDRs"),title = "Structured vs. IDR",file=paste0(target.directory,"/ordered_vs_disorderd.pdf"))
+
 
   return(plots)
 }
@@ -342,309 +340,281 @@ plotSelectionParametersEmp <- function(head.directory,target.directory)
 
   plots <- vector(mode="list",length=10)
   
-  output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Helix","restart_5/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv")
-  plots[[1]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Helix")),file=paste0(target.directory,"/ecoli_coil_vs_helix_sig_codon_by_mean.pdf"),range.xy=NULL)
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Helix","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[1]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),title = "Coil vs. Helix",file=paste0(target.directory,"/coil_vs_helix.pdf"))
   
-  output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv")
-  plots[[2]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Sheet")),file=paste0(target.directory,"/ecoli_coil_vs_sheet_sig_codon_by_mean.pdf"),range.xy=NULL)
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[2]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),title = "Coil vs. Sheet",file=paste0(target.directory,"/coil_vs_sheet.pdf"))
    
-  output <- demingRegression(file.path(head.directory,"Secondary_structures","Helix","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv")
-  plots[[3]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Helix vs. Sheet")),file=paste0(target.directory,"/ecoli_helix_vs_sheet_sig_codon_by_mean.pdf"),range.xy=NULL)
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Helix","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[3]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),title = "Helix vs. Sheet",file=paste0(target.directory,"/helix_vs_sheet.pdf"))
   
-  output <- demingRegression(file.path(head.directory,"Secondary_structures","Helix","restart_5/"),file.path(head.directory,"Secondary_structures","Turn","restart_5/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv")
-  plots[[4]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Turn"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Turn vs. Helix")),file=paste0(target.directory,"/ecoli_coil_vs_helix_sig_codon_by_mean.pdf"),range.xy=NULL)
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Helix","restart_5/"),file.path(head.directory,"Secondary_structures","Turn","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[4]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Turn"),title ="Turn vs. Helix",file=paste0(target.directory,"/coil_vs_helix_sig.pdf"))
   
-  output <- demingRegression(file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),file.path(head.directory,"Secondary_structures","Turn","restart_5/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv")
-  plots[[5]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Sheet","Turn"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Turn vs. Sheet")),file=paste0(target.directory,"/ecoli_coil_vs_sheet_sig_codon_by_mean.pdf"),range.xy=NULL)
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),file.path(head.directory,"Secondary_structures","Turn","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[5]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Sheet","Turn"),title = "Turn vs. Sheet",file=paste0(target.directory,"/coil_vs_sheet.pdf"))
    
-  output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Turn","restart_5/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv")
-  plots[[6]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Turn"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Turn vs. Coil")),file=paste0(target.directory,"/ecoli_helix_vs_sheet_sig_codon_by_mean.pdf"),range.xy=NULL)
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Turn","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[6]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Turn"),title = "Turn vs. Coil",file=paste0(target.directory,"/helix_vs_sheet.pdf"))
  
-  output <- demingRegression(file.path(head.directory,"Secondary_structures","Turn_Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Helix","restart_5/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv")
-  plots[[7]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Helix")),file=paste0(target.directory,"/ecoli_coil_vs_helix_sig_codon_by_mean.pdf"),range.xy=NULL)
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Turn_Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Helix","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[7]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),title ="Coil vs. Helix",file=paste0(target.directory,"/ecoli_coil_vs_helix_sig_codon_by_mean.pdf"))
   
-  output <- demingRegression(file.path(head.directory,"Secondary_structures","Turn_Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv")
-  plots[[8]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Sheet")),file=paste0(target.directory,"/ecoli_coil_vs_sheet_sig_codon_by_mean.pdf"),range.xy=NULL)
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Turn_Coil","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[8]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),title = "Coil vs. Sheet",file=paste0(target.directory,"/coil_vs_sheet.pdf"))
    
-  output <- demingRegression(file.path(head.directory,"Secondary_structures","Helix","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_by_mean.csv","selection_rescaled_by_mean.csv")
-  plots[[9]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Helix vs. Sheet")),file=paste0(target.directory,"/ecoli_helix_vs_sheet_sig_codon_by_mean.pdf"),range.xy=NULL)
+  output <- demingRegression(file.path(head.directory,"Secondary_structures","Helix","restart_5/"),file.path(head.directory,"Secondary_structures","Sheet","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[9]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),title = "Helix vs. Sheet",file=paste0(target.directory,"/helix_vs_sheet.pdf"))
   
 
 
   return(plots)
 }
 
+createStatisticalPowerPlot <- function(head.directory,target.directory)
+{
+  output.100 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"100","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  output.50 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"50","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  output.25 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"25","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  output.10 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"10","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  output.5 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"5","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  output.1 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"1","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
 
-# head.directory <- "../Ecoli/Predicted/Results/"
-# target.directory <- "../Images/"
-# plots_codon_ecoli <- plotSelectionParameters(head.directory=head.directory,target.directory=target.directory)
+  df <- data.frame(slope=c(output.100$Slope,
+                           output.50$Slope,
+                           
+                           output.10$Slope,
+                           output.1$Slope,
+                           1,
+                           output.100$Slope.CI[1],
+                           output.100$Slope.CI[2],
+                           output.50$Slope.CI[1],
+                           output.50$Slope.CI[2],
+                           
+                           output.10$Slope.CI[1],
+                           output.10$Slope.CI[2],
+                           output.1$Slope.CI[1],
+                           output.1$Slope.CI[2]),ic=c(rep(0,13)),
+                   Group=c("100%","50%","10%","1%","0% (y=x)",rep("95% CI",8)),stringsAsFactors = F)
 
-# comb <- plot_grid(plots_codon_ecoli[[1]]+ggtitle("Coil vs. Helix") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[2]]+ggtitle("Coil vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[3]]+ggtitle("Helix vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),plots_codon_ecoli[[4]]+ggtitle("Structured vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C","D"))
-# ggsave2("../Images/ecoli_relative_to_genome_optimal.pdf",width=12,height=14)
+  df$Group <- factor(df$Group,levels=c("100%","50%","10%","1%","0% (y=x)","95% CI"))
+  levels(df$Group) <- c("100%","50%","10%","1%","0% (y=x)","95% CI")
+  lines.reg <- c(rep("solid",5),"dashed")
+  legend.colors <- c("blue","purple","green","red","black","grey")
+  p <- ggplot(df)
+  p <-(p + geom_abline(data=df,mapping=aes(slope=slope,intercept=ic,colour=Group,linetype=Group))
+       + labs(x=bquote("Region A ("*Delta*eta*")"),y=bquote("Region B ("*Delta*eta*")")) 
+       
+       + scale_color_manual(values=legend.colors)
+       + scale_linetype_manual(values=lines.reg)
+       + ggtitle(label="Effects of codons under different\nselective pressures"))
+  p <- p + scale_x_continuous(limits = c(-1,1)) + scale_y_continuous(limits = c(-1,1))
+  p <- p + guides(colour=guide_legend(title="%Region B under\nSeleciton for\nInefficiency"),
+                  linetype=guide_legend(title="%Region B under\nSeleciton for\nInefficiency"))
+  p <- (p + theme_bw()
+        + theme(axis.title=element_text(size = 14,face="bold"),axis.text=element_text(size=14))
+        + theme(axis.line = element_line(colour = "black"))
+        + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+        + theme(legend.text=element_text(size=14),plot.title = element_text(hjust = 0.5,size=14)))
 
-# comb <- plot_grid(plots_codon_ecoli[[5]]+ggtitle("Coil vs. IDR") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[6]]+ggtitle("Helix vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[7]]+ggtitle("Sheet vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C",""))
-# ggsave2("../Images/ecoli_relative_to_genome_optimal_ss_vs_idr.pdf",width=12,height=14)
+  ggsave2(file.path(target.directory,"simulated_expectation.pdf"),p)
 
-# comb <- plot_grid(plots_codon_ecoli[[8]]+ggtitle("Coil vs. Helix (IDRs Removed)") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[9]]+ggtitle("Coil vs. Sheet (IDRs Removed)")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[10]]+ggtitle("Helix vs. Sheet (IDRs Removed)")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C",""))
-# ggsave2("../Images/ecoli_relative_to_genome_optimal_ss_idr_removed.pdf",width=12,height=14)
 
-# helix.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Helix"),missense.error ="../ecoli_missense_rates_2021_2_26.tsv")
-# sheet.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Sheet"),missense.error ="../ecoli_missense_rates_2021_2_26.tsv")
-# sheet.helix <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Helix","Sheet"),missense.error ="../ecoli_missense_rates_2021_2_26.tsv")
-# ord.dis <- compareDiffToMissenseError(file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),file.path(head.directory,"Ordered_disordered","Ordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("IDR","Structured"),missense.error ="../ecoli_missense_rates_2021_2_26.tsv")
+}
+
+
+createMultiPanelFigures <- function(plots_codon,directory)
+{
+  legend <- get_legend(
+  # create some space to the left of the legend
+  plots_codon[[1]] + theme(legend.box.margin = margin(0, 0, 0, 12))
+) 
   
-# comb <- plot_grid(helix.coil+ggtitle("Shifts in Selection:\nCoil vs. Helix") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.coil+ggtitle("Shifts in Selection:\nCoil vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.helix+ggtitle("Shifts in Selection:\nHelix vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   ord.dis+ggtitle("Shifts in Selection:\nStructured vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C","D"))
-# ggsave2("../Images/ecoli_missense_elongation_abs_model_estimates_2021_2_26.pdf",comb,width=12,height=14)
-
-
-# helix.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Helix"),missense.error ="../ecoli_ms_missense_errors.tsv")
-# sheet.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Sheet"),missense.error ="../ecoli_ms_missense_errors.tsv")
-# sheet.helix <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Helix","Sheet"),missense.error ="../ecoli_ms_missense_errors.tsv")
-# ord.dis <- compareDiffToMissenseError(file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),file.path(head.directory,"Ordered_disordered","Ordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("IDR","Structured"),missense.error ="../ecoli_ms_missense_errors.tsv")
+  ss.plot <- plot_grid(plots_codon[[1]] + theme(legend.position="none"),
+    plots_codon[[2]] + theme(legend.position="none"),
+    legend,
+    plots_codon[[3]] + theme(legend.position="none"),
+    plots_codon[[4]] + theme(legend.position="none"),
+    nrow=2,ncol=2,labels=c("A","B","","C","D"))
   
-# comb <- plot_grid(helix.coil+ggtitle("Shifts in Selection:\nCoil vs. Helix") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.coil+ggtitle("Shifts in Selection:\nCoil vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.helix+ggtitle("Shifts in Selection:\nHelix vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   ord.dis+ggtitle("Shifts in Selection:\nStructured vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C","D"))
-# ggsave2("../Images/ecoli_missense_abs_empirical_estiamtes.pdf",comb,width=12,height=14)
+  ggsave2(file.path(directory,"relative_to_genome_optimal.pdf"),width=12,height=14)
+
+  ss.vs.idr.plot <- plot_grid(plots_codon[[5]] + theme(legend.position="none"),
+    plots_codon[[6]]+ theme(legend.position="none"),
+    plots_codon[[7]] + theme(legend.position="none"),
+    legend,
+    nrow=2,ncol=2,labels=c("A","B","C",""))
+  ggsave2(file.path(directory,"relative_to_genome_optimal_ss_vs_idr.pdf"),width=12,height=14)
+
+  ss.no.idr.plot <- plot_grid(plots_codon[[8]] +theme(legend.position="none"),
+    plots_codon[[9]] +theme(legend.position="none"),
+    plots_codon[[10]] +theme(legend.position="none"),
+    legend,
+    nrow=2,ncol=2,labels=c("A","B","C",""))
+  ggsave2(file.path(directory,"relative_to_genome_optimal_ss_idr_removed.pdf"),width=12,height=14)
+
+}
+
+plotShiftsVsRates <- function(head.directory,target.directory,rate.file,title="Comparison of Shifts in Selection and Rate")
+{
+  helix.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Helix"),rate.file=rate.file)
+  sheet.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Sheet"),rate.file=rate.file)
+  sheet.helix <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Helix","Sheet"),rate.file=rate.file)
+  ord.dis <- compareDiffToMissenseError(file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),file.path(head.directory,"Ordered_disordered","Ordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("IDR","Structured"),missense.error = rate.file=rate.file)
+    
+  comb <- plot_grid(helix.coil+ggtitle("Shifts in Selection:\nCoil vs. Helix") +theme(legend.position="none"),
+    sheet.coil+ggtitle("Shifts in Selection:\nCoil vs. Sheet")+theme(legend.position="none"),
+    sheet.helix+ggtitle("Shifts in Selection:\nHelix vs. Sheet")+theme(legend.position="none"),
+    ord.dis+ggtitle("Shifts in Selection:\nStructured vs. IDR")+theme(legend.position="none"),nrow=2,ncol=2,labels=c("A","B","C","D"))
+  ggsave2(file.path(target.directory,title),comb,width=12,height=14)
 
 
+}
 
 
-# head.directory <- "../Scer/Statistical_power/Results/"
-# target.directory <- "../Images/"
-# output.100 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"100","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-# output.50 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"50","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-# output.25 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"25","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-# output.10 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"10","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-# output.5 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"5","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-# output.1 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"1","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-
-# df <- data.frame(slope=c(output.100$Slope,
-#                          output.50$Slope,
-                         
-#                          output.10$Slope,
-#                          output.1$Slope,
-#                          1,
-#                          output.100$Slope.CI[1],
-#                          output.100$Slope.CI[2],
-#                          output.50$Slope.CI[1],
-#                          output.50$Slope.CI[2],
-                         
-#                          output.10$Slope.CI[1],
-#                          output.10$Slope.CI[2],
-#                          output.1$Slope.CI[1],
-#                          output.1$Slope.CI[2]),ic=c(rep(0,13)),
-#                  Group=c("100%","50%","10%","1%","0% (y=x)",rep("95% CI",8)),stringsAsFactors = F)
-
-# df$Group <- factor(df$Group,levels=c("100%","50%","10%","1%","0% (y=x)","95% CI"))
-# levels(df$Group) <- c("100%","50%","10%","1%","0% (y=x)","95% CI")
-# lines.reg <- c(rep("solid",5),"dashed")
-# legend.colors <- c("blue","purple","green","red","black","grey")
-# p <- ggplot(df)
-# p <-(p + geom_abline(data=df,mapping=aes(slope=slope,intercept=ic,colour=Group,linetype=Group))
-#      + labs(x=bquote("Region A ("*Delta*eta*")"),y=bquote("Region B ("*Delta*eta*")")) 
-     
-#      + scale_color_manual(values=legend.colors)
-#      + scale_linetype_manual(values=lines.reg)
-#      + ggtitle(label="Effects of codons under different\nselective pressures"))
-# p <- p + scale_x_continuous(limits = c(-1,1)) + scale_y_continuous(limits = c(-1,1))
-# p <- p + guides(colour=guide_legend(title="%Region B under\nSeleciton for\nInefficiency"),
-#                 linetype=guide_legend(title="%Region B under\nSeleciton for\nInefficiency"))
-# p <- (p + theme_bw()
-#       + theme(axis.title=element_text(size = 14,face="bold"),axis.text=element_text(size=14))
-#       + theme(axis.line = element_line(colour = "black"))
-#       + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
-#       + theme(legend.text=element_text(size=14),plot.title = element_text(hjust = 0.5,size=14)))
-
-# ggsave2("../Images/simulated_expectation.pdf",p)
+head.directory <- "../Ecoli/Predicted/Results/"
+target.directory <- "../Images_2021/Ecoli/"
+plots_codon_ecoli <- plotSelectionParameters(head.directory=head.directory,target.directory=target.directory)
+createMultiPanelFigures(plots_codon_ecoli,target.directory)
+output <- demingRegression(file.path(head.directory,"Secondary_structures_begin_end_length_at_least_6_2_codon_for_termini","Core_helix","restart_5/"),file.path(head.directory,"Secondary_structures_begin_end_length_at_least_6_2_codon_for_termini","Start_helix_End_helix","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Core","Termini"),title ="Helix\nCore vs. Termini",file=paste0(target.directory,"/helices_core_vs_termini.pdf"))
 
 
-
-
-# head.directory <- "../Scer/Predicted/Results/"
-# plots_codon_scer<- plotSelectionParameters(head.directory=head.directory,target.directory=target.directory)
-
-# comb <- plot_grid(plots_codon_scer[[1]]+ggtitle("Coil vs. Helix") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[2]]+ggtitle("Coil vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[3]]+ggtitle("Helix vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),plots_codon_scer[[4]]+ggtitle("Structured vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C","D"))
-# ggsave2("../Images/scer_relative_to_genome_optimal.pdf",width=12,height=14)
-
-# comb <- plot_grid(plots_codon_scer[[5]]+ggtitle("Coil vs. IDR") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[6]]+ggtitle("Helix vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[7]]+ggtitle("Sheet vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C",""))
-# ggsave2("../Images/scer_relative_to_genome_optimal_ss_vs_idr.pdf",width=12,height=14)
-
-# comb <- plot_grid(plots_codon_scer[[8]]+ggtitle("Coil vs. Helix (IDRs Removed)") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[9]]+ggtitle("Coil vs. Sheet (IDRs Removed)")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[10]]+ggtitle("Helix vs. Sheet (IDRs Removed)")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C",""))
-# ggsave2("../Images/scer_relative_to_genome_optimal_ss_idr_removed.pdf",width=12,height=14)
-
-
-# helix.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Helix"))#,missense.error ="~/Research_projects/PANSE/Data/weingberg_ribo_dens.tsv")
-# sheet.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Sheet"))#,missense.error ="~/Research_projects/PANSE/Data/weingberg_ribo_dens.tsv")
-# sheet.helix <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Helix","Sheet"))#,missense.error ="~/Research_projects/PANSE/Data/weingberg_ribo_dens.tsv")
-# ord.dis <- compareDiffToMissenseError(file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),file.path(head.directory,"Ordered_disordered","Ordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("IDR","Structured"))#,missense.error ="~/Research_projects/PANSE/Data/weingberg_ribo_dens.tsv")
-  
-
-# comb <- plot_grid(helix.coil+ggtitle("Shifts in Selection:\nCoil vs. Helix") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.coil+ggtitle("Shifts in Selection:\nCoil vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.helix+ggtitle("Shifts in Selection:\nHelix vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   ord.dis+ggtitle("Shifts in Selection:\nStructured vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C","D"))
-# ggsave2("../Images/scer_missense_elongation_abs_model_estimates.pdf",comb,width=12,height=14)
-
-# helix.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Helix"),missense.error ="~/Research_projects/PANSE/Data/weingberg_ribo_dens.tsv")
-# sheet.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Sheet"),missense.error ="~/Research_projects/PANSE/Data/weingberg_ribo_dens.tsv")
-# sheet.helix <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Helix","Sheet"),missense.error ="~/Research_projects/PANSE/Data/weingberg_ribo_dens.tsv")
-# ord.dis <- compareDiffToMissenseError(file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),file.path(head.directory,"Ordered_disordered","Ordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("IDR","Structured"),missense.error ="~/Research_projects/PANSE/Data/weingberg_ribo_dens.tsv")
-  
-
-# comb <- plot_grid(helix.coil+ggtitle("Shifts in Selection:\nCoil vs. Helix") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.coil+ggtitle("Shifts in Selection:\nCoil vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.helix+ggtitle("Shifts in Selection:\nHelix vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   ord.dis+ggtitle("Shifts in Selection:\nStructured vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C","D"))
-# ggsave2("../Images/scer_elongation_abs_empirical_estimates.pdf",comb,width=12,height=14)
-
-# helix.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Helix"),missense.error ="../scer_ms_missense_errors.tsv")
-# sheet.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Sheet"),missense.error ="../scer_ms_missense_errors.tsv")
-# sheet.helix <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Helix","Sheet"),missense.error ="../scer_ms_missense_errors.tsv")
-# ord.dis <- compareDiffToMissenseError(file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),file.path(head.directory,"Ordered_disordered","Ordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("IDR","Structured"),missense.error ="../scer_ms_missense_errors.tsv")
-  
-# comb <- plot_grid(helix.coil+ggtitle("Shifts in Selection:\nCoil vs. Helix") +theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.coil+ggtitle("Shifts in Selection:\nCoil vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   sheet.helix+ggtitle("Shifts in Selection:\nHelix vs. Sheet")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   ord.dis+ggtitle("Shifts in Selection:\nStructured vs. IDR")+theme(plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=2,ncol=2,labels=c("A","B","C","D"))
-# ggsave2("../Images/scer_missense_abs_empirical_estiamtes.pdf",comb,width=12,height=14)
-
-
-# ### Plots combining both species
-
-
-# ## Secondary Structures
-# title.1 <- ggdraw() + 
-#   draw_label(
-#     "   S. cerevisiae",
-#     fontface = 'bold',
-#     x = 0.5,
-#     hjust = 0.5,  angle = 90, size=24
-#   ) +
-#   theme(
-#     # add margin on the left of the drawing canvas,
-#     # so title is aligned with left edge of first plot
-#     plot.margin = margin(0, 0, 0, 2)
-#   )
-
-# title.2 <- ggdraw() + 
-#   draw_label(
-#     "   E. coli",
-#     fontface = 'bold',
-#     x = 0.5,
-#     hjust = 0.5,  angle = 90, size=24
-#   ) +
-#   theme(
-#     # add margin on the left of the drawing canvas,
-#     # so title is aligned with left edge of first plot
-#     plot.margin = margin(0, 0, 0, 2)
-  
-# )
-# sc.comb <- plot_grid(plots_codon_scer[[1]]+ggtitle("Coil vs. Helix") +theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[2]]+ggtitle("Coil vs. Sheet")+theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[3]]+ggtitle("Helix vs. Sheet")+theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")), nrow=1,ncol=3,byrow=T,labels=c("A","B","C"))
-
-# sc.comb <- plot_grid(title.1,sc.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
-
-
-# ec.comb <-plot_grid(plots_codon_ecoli[[1]]+theme(plot.title = element_blank(),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[2]]+theme(plot.title =  element_blank(),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[3]]+theme(plot.title =  element_blank(),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=1,ncol=3,byrow=T,labels=c("D","E","F"))
-
-# ec.comb <- plot_grid(title.2,ec.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
-# comb <- plot_grid(sc.comb,ec.comb,nrow=2,ncol=1)
-
-# ggsave2("../Images/scer_ecoli_ss.pdf",comb,width=20,height=14)
-
-
-# struct.idr <- plot_grid(plots_codon_scer[[4]]+ggtitle("S. cerevisiae\nStructured vs. IDRs") +theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#                   plots_codon_ecoli[[4]]+ggtitle("E. coli\nStructured vs. IDRs") +theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),ncol=2,nrow=1,labels=c("A","B"))
-
-# sc.comb <- plot_grid(plots_codon_scer[[5]]+ggtitle("Coil vs. IDR") +theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[6]]+ggtitle("Helix vs. IDR")+theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[7]]+ggtitle("Sheet vs. IDR")+theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=1,ncol=3,labels=c("C","D","E"))
-# sc.comb <- plot_grid(title.1,sc.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
-
-
-# ec.comb <- plot_grid(plots_codon_ecoli[[5]] +theme(plot.title = element_blank(),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[6]]+theme(plot.title = element_blank(),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[7]]+theme(plot.title = element_blank(),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=1,ncol=3,labels=c("F","G","H"))
-
-# ec.comb <- plot_grid(title.2,ec.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
-# comb <- plot_grid(struct.idr,sc.comb,ec.comb,nrow=3,ncol=1,align = "v")
-
-# ggsave2("../Images/scer_ecoli_idr.pdf",comb,width=20,height=21)
-
-
-# sc.comb <- plot_grid(plots_codon_scer[[8]]+ggtitle("Coil vs. Helix\nIDRs Removed") +theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[9]]+ggtitle("Coil vs. Sheet\nIDRs Removed")+theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_scer[[10]]+ggtitle("Helix vs. Sheet\nIDRs Removed")+theme(plot.title = element_text(size=18),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")), nrow=1,ncol=3,byrow=T,labels=c("A","B","C"))
-
-# sc.comb <- plot_grid(title.1,sc.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
-
-
-# ec.comb <-plot_grid(plots_codon_ecoli[[8]]+theme(plot.title = element_blank(),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[9]]+theme(plot.title =  element_blank(),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),
-#   plots_codon_ecoli[[10]]+theme(plot.title =  element_blank(),plot.margin=unit(c(0.5,0.5,0.5,1),"lines")),nrow=1,ncol=3,byrow=T,labels=c("D","E","F"))
-
-# ec.comb <- plot_grid(title.2,ec.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
-# comb <- plot_grid(sc.comb,ec.comb,nrow=2,ncol=1)
-
-# ggsave2("../Images/scer_ecoli_ss_no_idrs.pdf",comb,width=20,height=14)
-
-
-# head.directory <- "../Ecoli/Empirical/Results/"
-# output <- demingRegression(file.path(head.directory,"Secondary_structures_begin_end_length_at_least_6_2_codon_for_termini","Core_helix","restart_5/"),file.path(head.directory,"Secondary_structures_begin_end_length_at_least_6_2_codon_for_termini","Start_helix_End_helix","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-# p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Core","Termini"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Helix (Core vs. Termini)")),file=paste0(target.directory,"/ecoli_helices_core_vs_termini.pdf"),range.xy=NULL)
-  
-
-# head.directory <- "../Scer/Empirical/Results/"
-# output <- demingRegression(file.path(head.directory,"Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini","Core_helix","restart_5/"),file.path(head.directory,"Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini","Start_helix_End_helix","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-# p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Core","Termini"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Helix (Core vs. Termini)")),file=paste0(target.directory,"/scer_helices_core_vs_termini.pdf"),range.xy=NULL)
-  
 
 head.directory <- "../Scer/Predicted/Results/"
-target.directory <- "../Images/mrna/"
+target.directory <- "../Images_2021/Scer/"
+plots_codon_scer<- plotSelectionParameters(head.directory=head.directory,target.directory=target.directory)
+createMultiPanelFigures(plots_codon_scer,target.directory)
+output <- demingRegression(file.path(head.directory,"Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini","Core_helix","restart_5/"),file.path(head.directory,"Secondary_structures_begin_end_exclude_less_than_4_2_codon_for_termini","Start_helix_End_helix","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Core","Termini"),title = "Helix\nCore vs. Termini",file=paste0(target.directory,"/helices_core_vs_termini.pdf"))
 
-output <- demingRegression(file.path(head.directory,"Secondary_structure_paired_est_dM","Coil_paired","restart_5/"),file.path(head.directory,"Secondary_structure_paired_est_dM","Coil_unpaired","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-p<- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Paired","Unpaired"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Coil (mRNA Secondary Structure")),file=paste0(target.directory,"/scer_coil_paired_vs_unpaired.pdf"),range.xy=NULL)
 
-output <- demingRegression(file.path(head.directory,"Secondary_structure_paired_est_dM","Helix_paired","restart_5/"),file.path(head.directory,"Secondary_structure_paired_est_dM","Helix_unpaired","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Paired","Unpaired"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Helix (mRNA Secondary Structure)")),file=paste0(target.directory,"/scer_helix_paired_vs_unpaired.pdf"),range.xy=NULL)
- 
-output <- demingRegression(file.path(head.directory,"Secondary_structure_paired_est_dM","Sheet_paired","restart_5/"),file.path(head.directory,"Secondary_structure_paired_est_dM","Sheet_unpaired","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Paired","Unpaired"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Sheet (mRNA Secondary Structure)")),file=paste0(target.directory,"/scer_sheet_pairved_vs_unpaired.pdf"),range.xy=NULL)
+head.directory <- "../Scer/Statistical_power/Results/"
+target.directory <- "../Images_2021/Simulated/"
+createStatisticalPowerPlot(head.directory,target.directory)
 
-output <- demingRegression(file.path(head.directory,"Secondary_structure_paired_est_dM","Coil_paired","restart_5/"),file.path(head.directory,"Secondary_structure_paired_est_dM","Helix_paired","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Helix")),file=paste0(target.directory,"/scer_coil_vs_helix_paired.pdf"),range.xy=NULL)
+head.directory <- "../Scer/Simulated/Results/"
+target.directory <- "../Images_2021/Simulated/"
+plots_codon_sim<- checkSimulatedResults(head.directory=head.directory,target.directory=target.directory)
 
-output <- demingRegression(file.path(head.directory,"Secondary_structure_paired_est_dM","Coil_paired","restart_5/"),file.path(head.directory,"Secondary_structure_paired_est_dM","Sheet_paired","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Sheet")),file=paste0(target.directory,"/scer_coil_vs_sheet_paired.pdf"),range.xy=NULL)
- 
-output <- demingRegression(file.path(head.directory,"Secondary_structure_paired_est_dM","Helix_paired","restart_5/"),file.path(head.directory,"Secondary_structure_paired_est_dM","Sheet_paired","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Helix")),file=paste0(target.directory,"/scer_helix_vs_sheet_paired.pdf"),range.xy=NULL)
+sim.legend <- get_legend(
+  # create some space to the left of the legend
+  plots_codon_sim[[1]] + theme(legend.box.margin = margin(0, 0, 0, 12))
+) 
+comb <- plot_grid(plots_codon_sim[[1]] + theme(legend.position="none"),
+  plots_codon_scer[[2]] + theme(legend.position="none"),
+  sim.legend,
+  plots_codon_scer[[3]] + theme(legend.position="none"),
+  plots_codon_scer[[4]] + theme(legend.position="none"),
+  nrow=2,ncol=3,labels=c("A","B","","C","D"))
+ggsave2(file.path(target.directory,"simulted_check.pdf"),width=12,height=14)
 
-output <- demingRegression(file.path(head.directory,"Secondary_structure_paired_est_dM","Coil_unpaired","restart_5/"),file.path(head.directory,"Secondary_structure_paired_est_dM","Helix_unpaired","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Helix"),ci=T,title =expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Helix")),file=paste0(target.directory,"/scer_coil_vs_helix_unpaired.pdf"),range.xy=NULL)
 
-output <- demingRegression(file.path(head.directory,"Secondary_structure_paired_est_dM","Coil_unpaired","restart_5/"),file.path(head.directory,"Secondary_structure_paired_est_dM","Sheet_unpaired","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Coil","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Sheet")),file=paste0(target.directory,"/scer_coil_vs_sheet_unpaired.pdf"),range.xy=NULL)
- 
-output <- demingRegression(file.path(head.directory,"Secondary_structure_paired_est_dM","Helix_unpaired","restart_5/"),file.path(head.directory,"Secondary_structure_paired_est_dM","Sheet_unpaired","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-p <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Helix","Sheet"),ci=T,title = expression(atop("Comparison of Selection "*Delta*eta,"Coil vs. Helix")),file=paste0(target.directory,"/scer_helix_vs_sheet_unpaired.pdf"),range.xy=NULL)
+
+#### Plots combining both species
+
+target.directory <- "../Images_2021/For_paper/"
+
+title.1 <- ggdraw() + 
+  draw_label(
+    "   S. cerevisiae",
+    fontface = 'bold',
+    x = 0.5,
+    hjust = 0.5,  angle = 90, size=24
+  ) +
+  theme(
+    # add margin on the left of the drawing canvas,
+    # so title is aligned with left edge of first plot
+    plot.margin = margin(0, 0, 0, 2)
+  )
+
+title.2 <- ggdraw() + 
+  draw_label(
+    "   E. coli",
+    fontface = 'bold',
+    x = 0.5,
+    hjust = 0.5,  angle = 90, size=24
+  ) +
+  theme(
+    # add margin on the left of the drawing canvas,
+    # so title is aligned with left edge of first plot
+    plot.margin = margin(0, 0, 0, 2)
+  )
+
+
+
+
+
+## Secondary Structure 
+
+sc.comb <- plot_grid(plots_codon_scer[[1]] + theme(plot.title = element_text(size=18),legend.position="none"),
+  plots_codon_scer[[2]] + theme(plot.title = element_text(size=18),legend.position="none"),
+  plots_codon_scer[[3]] + theme(plot.title = element_text(size=18),legend.position="none"),
+  legend,nrow=1,ncol=4,labels=c("A","B","C",""),rel_widths=c(1,1,1,0.35))
+
+sc.comb <- plot_grid(title.1,sc.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
+
+
+ec.comb <-plot_grid(plots_codon_ecoli[[1]]+theme(plot.title = element_blank(),legend.position="none"),
+  plots_codon_ecoli[[2]] + theme(plot.title =  element_blank(),legend.position="none"),
+  plots_codon_ecoli[[3]] + theme(plot.title =  element_blank(),legend.position="none"),
+  NULL,nrow=1,ncol=4,labels=c("D","E","F",""),rel_widths=c(1,1,1,0.35))
+
+ec.comb <- plot_grid(title.2,ec.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
+comb <- plot_grid(sc.comb,ec.comb,nrow=2,ncol=1)
+
+ggsave2(file.path(target.directory,"scer_ecoli_ss.pdf"),comb,width=21,height=14)
+
+
+## Structured vs. IDR
+
+struct.idr <- plot_grid(plots_codon_scer[[4]] + ggtitle("S. cerevisiae\nStructured vs. IDRs") + theme(legend.position="none",plot.title = element_text(size=18)),
+                   plots_codon_ecoli[[4]] + ggtitle("E. coli\nStructured vs. IDRs") + theme(legend.position="none",plot.title = element_text(size=18)),
+                   legend,ncol=3,nrow=1,labels=c("A","B",""),rel_widths=c(1,1,0.25))
+
+
+
+ggsave2(file.path(target.directory,"scer_ecoli_idr_only.pdf"),struct.idr,width=18,height=7)
+
+
+## Secondary Structure vs. IDRs
+
+sc.comb <- plot_grid(plots_codon_scer[[5]] + theme(plot.title = element_text(size=18),legend.position="none"),
+  plots_codon_scer[[6]] + theme(plot.title = element_text(size=18),legend.position="none"),
+  plots_codon_scer[[7]] + theme(plot.title = element_text(size=18),legend.position="none"),
+  legend,nrow=1,ncol=4,labels=c("A","B","C",""),rel_widths=c(1,1,1,0.35))
+sc.comb <- plot_grid(title.1,sc.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
+
+
+ec.comb <- plot_grid(plots_codon_ecoli[[5]] +theme(plot.title = element_blank(),legend.position="none"),
+  plots_codon_ecoli[[6]] + theme(plot.title = element_blank(),legend.position="none"),
+  plots_codon_ecoli[[7]] + theme(plot.title = element_blank(),legend.position="none"),
+  NULL,nrow=1,ncol=4,labels=c("D","E","F",""),rel_widths=c(1,1,1,0.35))
+
+ec.comb <- plot_grid(title.2,ec.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
+comb <- plot_grid(sc.comb,ec.comb,nrow=2,ncol=1,align = "v")
+
+ggsave2(file.path(target.directory,"scer_ecoli_ss_idr.pdf"),comb,width=21,height=14)
+
+
+## Removal of IDRs
+
+sc.comb <- plot_grid(plots_codon_scer[[8]] + theme(plot.title = element_text(size=18),legend.position="none"),
+  plots_codon_scer[[9]] + theme(plot.title = element_text(size=18),legend.position="none"),
+  plots_codon_scer[[10]] + theme(plot.title = element_text(size=18),legend.position="none"), 
+  legend,nrow=1,ncol=4,labels=c("A","B","C",""),rel_widths=c(1,1,1,0.35))
+
+sc.comb <- plot_grid(title.1,sc.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
+
+
+ec.comb <-plot_grid(plots_codon_ecoli[[8]]+theme(plot.title = element_blank(),legend.position="none"),
+  plots_codon_ecoli[[9]]+theme(plot.title =  element_blank(),legend.position="none"),
+  plots_codon_ecoli[[10]]+theme(plot.title =  element_blank(),legend.position="none"),
+  NULL,nrow=1,ncol=4,labels=c("D","E","F",""),rel_widths=c(1,1,1,0.35))
+
+ec.comb <- plot_grid(title.2,ec.comb,nrow=1,ncol=2,rel_widths=c(0.05,1))
+comb <- plot_grid(sc.comb,ec.comb,nrow=2,ncol=1)
+
+ggsave2(file.path(target.directory("scer_ecoli_ss_no_idrs.pdf"),comb,width=21,height=14)
+
