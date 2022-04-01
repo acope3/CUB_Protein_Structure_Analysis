@@ -91,7 +91,7 @@ demingRegression <- function(directory.1,directory.2,file.1,file.2,include.AA=c(
 ## categories vector of length 2 giving X and Y axis labels
 ## file file name to output plot to
 ## title title of plot
-plotDeta <-function(data,b1,b0,reg.ci=NULL,categories=c("X","Y"),file="test.pdf",title="Regression")
+plotDeta <-function(data,b1,b0,reg.ci=NULL,categories=c("X","Y"),file="test.pdf",title="Regression",label.sig = T)
 {
   data <- merge(data,pc,by="AA")
   data[which(data$AA == "S"),"AA"] <- "S[4]"
@@ -151,9 +151,12 @@ plotDeta <-function(data,b1,b0,reg.ci=NULL,categories=c("X","Y"),file="test.pdf"
     p <- (p + new_scale_color()
         + geom_point(data=data[sig,],mapping=aes(color=Property),size=3)
         + scale_colour_manual(values=colors,name="Significant")
-        + geom_errorbar(data=data[sig,],mapping=aes(ymin=X0.025.2,ymax=X0.975.2,width=0),color="black") 
-        + geom_errorbarh(data=data[sig,],mapping=aes(xmin=X0.025.,xmax=X0.975.,height=0),color="black")
-        + geom_text_repel(label=uniqueInitials,size=6,max.iter=10000,force=5,box.padding=1.0,parse=T,segment.alpha=0.5,fontface="bold",max.overlaps=100))
+        + geom_errorbar(data=data[sig,],mapping=aes(ymin=X0.025.2,ymax=X0.975.2,width=0),color="black")+ 
+          geom_errorbarh(data=data[sig,],mapping=aes(xmin=X0.025.,xmax=X0.975.,height=0),color="black"))
+    if (label.sig)
+    {
+      p <-  p + geom_text_repel(label=uniqueInitials,size=6,max.iter=10000,force=5,box.padding=1.0,parse=T,segment.alpha=0.5,fontface="bold",max.overlaps=100)
+    }
     p <- p + guides(color = guide_legend(order=2))
  } else {
     p <-(p
@@ -372,55 +375,79 @@ plotSelectionParametersEmp <- function(head.directory,target.directory)
   return(plots)
 }
 
+# createStatisticalPowerPlot <- function(head.directory,target.directory)
+# {
+#   output.100 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"100","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+#   output.50 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"50","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+#   output.25 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"25","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+#   output.10 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"10","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+#   output.5 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"5","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+#   output.1 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"1","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+# 
+#   df <- data.frame(slope=c(output.100$Slope,
+#                            output.50$Slope,
+#                            
+#                            output.10$Slope,
+#                            output.1$Slope,
+#                            1,
+#                            output.100$Slope.CI[1],
+#                            output.100$Slope.CI[2],
+#                            output.50$Slope.CI[1],
+#                            output.50$Slope.CI[2],
+#                            
+#                            output.10$Slope.CI[1],
+#                            output.10$Slope.CI[2],
+#                            output.1$Slope.CI[1],
+#                            output.1$Slope.CI[2]),ic=c(rep(0,13)),
+#                    Group=c("100%","50%","10%","1%","y = x",rep("95% CI",8)),stringsAsFactors = F)
+# 
+#   df$Group <- factor(df$Group,levels=c("100%","50%","10%","1%","y = x","95% CI"))
+#   levels(df$Group) <- c("100%","50%","10%","1%","y = x","95% CI")
+#   lines.reg <- c(rep("solid",4),"dashed","dotted")
+#   legend.colors <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442","#000000","grey")
+#   p <- ggplot(df)
+#   p <-(p + geom_abline(data=df,mapping=aes(slope=slope,intercept=ic,colour=Group,linetype=Group))
+#        + labs(x=bquote("Uniform Selection Regions ("*Delta*eta*")"),y=bquote("Heterogenous Selection Regions ("*Delta*eta*")")) 
+#        + scale_color_manual(values=legend.colors)
+#        + scale_linetype_manual(values=lines.reg)
+#        + ggtitle(label="Detecting differences in selection on codon usage\nbetween protein regions using ROC-SEMPPR"))
+#   p <- p + scale_x_continuous(limits = c(-1,1)) + scale_y_continuous(limits = c(-1,1))
+#   p <- p + guides(colour=guide_legend(title="%Heterogenous Selection\nRegions under\nSeleciton for\nInefficiency"),
+#                   linetype=guide_legend(title="%Heterogenous Selection\nRegions under\nSeleciton for\nInefficiency"))
+#   p <- (p + theme_bw()
+#         + theme(axis.title=element_text(size = 14,face="bold"),axis.text=element_text(size=14))
+#         + theme(axis.line = element_line(colour = "black"))
+#         + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+#         + theme(legend.text=element_text(size=14),plot.title = element_text(hjust = 0.5,size=14)))
+# 
+#   ggsave2(file.path(target.directory,"simulated_expectation.pdf"),p)
+# }
+
+
 createStatisticalPowerPlot <- function(head.directory,target.directory)
 {
-  output.100 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"100","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  output.50 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"50","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  output.25 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"25","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  output.10 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"10","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  output.5 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"5","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
-  output.1 <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"1","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots <- vector(mode="list",length=6)
+  
+  output<- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"100","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[1]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Uniform Selection Region","Heterogeneous Selection Region"),title = "100% of sites under\nSeleciton for Inefficiency",file=NULL,label.sig=F)
+  
+  output <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"50","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[2]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Uniform Selection Region","Heterogeneous Selection Region"),title = "50% of sites under\nSeleciton for Inefficiency",file=NULL,label.sig=F)
+  
+  # output<- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"25","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  # plots[[3]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Uniform Selection Region","Heterogeneous Selection Region"),title = "Coil vs. Helix",file=NULL)
+  # 
+  # output <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"10","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  # plots[[3]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Uniform Selection Region","Heterogeneous Selection Region"),title = "10% of sites under\nSeleciton for Inefficiency",file=NULL,label.sig=F)
+  # 
+  output <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"5","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[3]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Uniform Selection Region","Heterogeneous Selection Region"),title = "5% of sites under\nSeleciton for Inefficiency",file=NULL,label.sig=F)
 
-  df <- data.frame(slope=c(output.100$Slope,
-                           output.50$Slope,
-                           
-                           output.10$Slope,
-                           output.1$Slope,
-                           1,
-                           output.100$Slope.CI[1],
-                           output.100$Slope.CI[2],
-                           output.50$Slope.CI[1],
-                           output.50$Slope.CI[2],
-                           
-                           output.10$Slope.CI[1],
-                           output.10$Slope.CI[2],
-                           output.1$Slope.CI[1],
-                           output.1$Slope.CI[2]),ic=c(rep(0,13)),
-                   Group=c("100%","50%","10%","1%","0% (y=x)",rep("95% CI",8)),stringsAsFactors = F)
+  output <- demingRegression(file.path(head.directory,"RegionA","restart_5/"),file.path(head.directory,"1","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv")
+  plots[[4]] <- plotDeta(output$df,b1=unname(output$Slope),b0 = unname(output$Intercept),reg.ci=output$Slope.CI,categories = c("Uniform Selection Region","Heterogeneous Selection Region"),title = "1% of sites under\nSeleciton for Inefficiency",file=NULL,label.sig=F)
 
-  df$Group <- factor(df$Group,levels=c("100%","50%","10%","1%","0% (y=x)","95% CI"))
-  levels(df$Group) <- c("100%","50%","10%","1%","0% (y=x)","95% CI")
-  lines.reg <- c(rep("solid",5),"dashed")
-  legend.colors <- c("blue","purple","green","red","black","grey")
-  p <- ggplot(df)
-  p <-(p + geom_abline(data=df,mapping=aes(slope=slope,intercept=ic,colour=Group,linetype=Group))
-       + labs(x=bquote("Region A ("*Delta*eta*")"),y=bquote("Region B ("*Delta*eta*")")) 
-       
-       + scale_color_manual(values=legend.colors)
-       + scale_linetype_manual(values=lines.reg)
-       + ggtitle(label="Effects of codons under different\nselective pressures"))
-  p <- p + scale_x_continuous(limits = c(-1,1)) + scale_y_continuous(limits = c(-1,1))
-  p <- p + guides(colour=guide_legend(title="%Region B under\nSeleciton for\nInefficiency"),
-                  linetype=guide_legend(title="%Region B under\nSeleciton for\nInefficiency"))
-  p <- (p + theme_bw()
-        + theme(axis.title=element_text(size = 14,face="bold"),axis.text=element_text(size=14))
-        + theme(axis.line = element_line(colour = "black"))
-        + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
-        + theme(legend.text=element_text(size=14),plot.title = element_text(hjust = 0.5,size=14)))
-
-  ggsave2(file.path(target.directory,"simulated_expectation.pdf"),p)
-
-
+  p <- plot_grid(plots[[1]],plots[[2]],plots[[3]],plots[[4]],nrow=2,ncol=2,labels=c("A","B","C","D"))
+  ggsave2(file.path(target.directory,"simulated_expectation_updated.pdf"),p,width=18,height=14)
 }
 
 
@@ -452,25 +479,10 @@ createMultiPanelFigures <- function(plots_codon,directory)
     plots_codon[[10]] +theme(legend.position="none"),
     legend,
     nrow=2,ncol=2,labels=c("A","B","C",""))
-  ggsave2(file.path(directory,"relative_to_genome_optimal_ss_idr_removed.pdf"),width=12,height=14)
+  ggsave2(file.path(directory,"relative_to_genome_optimal_ss_idr_removed.pdf"),width=14,height=14)
 
 }
 
-plotShiftsVsRates <- function(head.directory,target.directory,rate.file,title="Comparison of Shifts in Selection and Rate")
-{
-  helix.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Helix"),rate.file=rate.file)
-  sheet.coil <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Coil_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Coil","Sheet"),rate.file=rate.file)
-  sheet.helix <- compareDiffToMissenseError(file.path(head.directory,"Secondary_structure_order","Helix_ord","restart_5/"),file.path(head.directory,"Secondary_structure_order","Sheet_ord","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("Helix","Sheet"),rate.file=rate.file)
-  ord.dis <- compareDiffToMissenseError(file.path(head.directory,"Ordered_disordered","Disordered","restart_5/"),file.path(head.directory,"Ordered_disordered","Ordered","restart_5/"),"selection_rescaled_to_genome_optimal.csv","selection_rescaled_to_genome_optimal.csv",categories=c("IDR","Structured"),missense.error = rate.file=rate.file)
-    
-  comb <- plot_grid(helix.coil+ggtitle("Shifts in Selection:\nCoil vs. Helix") +theme(legend.position="none"),
-    sheet.coil+ggtitle("Shifts in Selection:\nCoil vs. Sheet")+theme(legend.position="none"),
-    sheet.helix+ggtitle("Shifts in Selection:\nHelix vs. Sheet")+theme(legend.position="none"),
-    ord.dis+ggtitle("Shifts in Selection:\nStructured vs. IDR")+theme(legend.position="none"),nrow=2,ncol=2,labels=c("A","B","C","D"))
-  ggsave2(file.path(target.directory,title),comb,width=12,height=14)
-
-
-}
 
 
 head.directory <- "../Ecoli/Predicted/Results/"
